@@ -1092,6 +1092,58 @@ class ListViewSeparator extends StatelessWidget {
 
 // // decoration and animation https://chat.openai.com/c/34cd41ff-6232-4eb7-9c26-e00b688e867b
 
+
+
+class EntryPageColumn extends StatelessWidget {
+  final String word;
+  final String? alsoEnglishWord;
+  final String britshText;
+  final String americanText;
+  final VoidCallback onPressedBritish;
+  final VoidCallback onPressedAmerican;
+
+  const EntryPageColumn({
+    super.key,
+    required this.word,
+    this.alsoEnglishWord,
+    required this.britshText,
+    required this.americanText,
+    required this.onPressedBritish,
+    required this.onPressedAmerican,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Row(
+          children: [
+            EntryTitle(word: word),
+          ],
+        ),
+        if (alsoEnglishWord != null) AlsoEnglish(word: alsoEnglishWord!),
+        Row(
+          children: [
+            CustomIconButtonBritish(
+              onPressed: onPressedBritish,
+            ),
+            IPAofEnglish(text: britshText),
+          ],
+        ),
+        Row(
+          children: [
+            CustomIconButtonAmerican(
+              onPressed: onPressedAmerican,
+            ),
+            IPAofEnglish(text: americanText),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
 class EntryTitle extends ConsumerStatefulWidget {
   final String word;
 

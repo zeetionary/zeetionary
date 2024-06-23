@@ -42,7 +42,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
+              SliverAppBar(
                 pinned: true,
                 floating: true,
                 expandedHeight: 220.0,
@@ -193,152 +193,31 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
 }
 
 class EntryAndIPA extends StatelessWidget {
-  const EntryAndIPA({
+  EntryAndIPA({
     super.key,
   });
 
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakaback(String languageCode) async {
+    // DOPSUM: CHANGE speakaback
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
-      child: Column(
-        children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  EntryTitle(word: "aback"),
-                ],
-              ),
-              AlsoEnglish(word: "also: abacus"),
-              IpaUK(),
-              IpaUS(),
-            ],
-          ),
-        ],
+    return SingleChildScrollView(
+      child: EntryPageColumn(
+        word: "aback",
+        // alsoEnglishWord: "also: aback",
+        britshText: "IpaUK: /əˈbæk/",
+        americanText: "IpaUS: /əˈbæk/",
+        onPressedBritish: () => speakaback("en-GB"),
+        onPressedAmerican: () => speakaback("en-US"),
       ),
-    );
-  }
-}
-
-class TitleOfEntry extends StatelessWidget {
-  const TitleOfEntry({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const EntryTitle(word: "aback");
-  }
-}
-
-class TitleOfEntryAlso extends StatelessWidget {
-  const TitleOfEntryAlso({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: aback");
-  }
-}
-
-class IpaUK extends StatelessWidget {
-  const IpaUK({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUK(),
-        const IpaUKtext(),
-      ],
-    );
-  }
-}
-
-class IpaUKtext extends StatelessWidget {
-  const IpaUKtext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /əˈbæk/");
-  }
-}
-
-class TTSUK extends StatelessWidget {
-  TTSUK({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakaback(String languageCode) async {
-    // DOPSUM: CHANGE speakaback
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonBritish(
-      onPressed: () => speakaback("en-GB"),
-    );
-  }
-}
-
-class IpaUS extends StatelessWidget {
-  const IpaUS({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUS(),
-        const IpaUStext(),
-      ],
-    );
-  }
-}
-
-class IpaUStext extends StatelessWidget {
-  const IpaUStext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /əˈbæk/");
-  }
-}
-
-class TTSUS extends StatelessWidget {
-  TTSUS({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakaback(String languageCode) async {
-    // DOPSUM: CHANGE speakaback
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(
-      onPressed: () => speakaback("en-US"),
     );
   }
 }

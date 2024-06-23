@@ -28,7 +28,7 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
+              SliverAppBar(
                 pinned: true,
                 floating: true,
                 expandedHeight: 220.0,
@@ -36,7 +36,7 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
                   background: EntryAndIPA(),
                 ),
                 automaticallyImplyLeading: false,
-                bottom: TabBar(
+                bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),
@@ -184,152 +184,31 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
 }
 
 class EntryAndIPA extends StatelessWidget {
-  const EntryAndIPA({
+  EntryAndIPA({
     super.key,
   });
 
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakaback(String languageCode) async {
+    // DOPSUM: CHANGE speakaback
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
+  }
+
   @override
   Widget build(BuildContext context) {
-    return const SingleChildScrollView(
-      child: Column(
-        children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  TitleOfEntry(),
-                ],
-              ),
-              // TitleOfEntryAlso(),
-              IpaUK(),
-              IpaUS(),
-            ],
-          ),
-        ],
+    return SingleChildScrollView(
+      child: EntryPageColumn(
+        word: "dopsum1",
+        // alsoEnglishWord: "also: dopsum1",
+        britshText: "IpaUK: haʊʊʊʊʊʊʊ4",
+        americanText: "IpaUS: haʊʊʊʊʊʊʊ4",
+        onPressedBritish: () => speakaback("en-GB"),
+        onPressedAmerican: () => speakaback("en-US"),
       ),
-    );
-  }
-}
-
-class TitleOfEntry extends StatelessWidget {
-  const TitleOfEntry({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const EntryTitle(word: "dopsum1");
-  }
-}
-
-class TitleOfEntryAlso extends StatelessWidget {
-  const TitleOfEntryAlso({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: dopsum1");
-  }
-}
-
-class IpaUK extends StatelessWidget {
-  const IpaUK({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUK(),
-        const IpaUKtext(),
-      ],
-    );
-  }
-}
-
-class IpaUKtext extends StatelessWidget {
-  const IpaUKtext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4");
-  }
-}
-
-class TTSUK extends StatelessWidget {
-  TTSUK({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakdopsum1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonBritish(
-      onPressed: () => speakdopsum1("en-GB" ""),
-    );
-  }
-}
-
-class IpaUS extends StatelessWidget {
-  const IpaUS({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUS(),
-        const IpaUStext(),
-      ],
-    );
-  }
-}
-
-class IpaUStext extends StatelessWidget {
-  const IpaUStext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4");
-  }
-}
-
-class TTSUS extends StatelessWidget {
-  TTSUS({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakdopsum1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(
-      onPressed: () => speakdopsum1("en-US" ""),
     );
   }
 }
@@ -535,552 +414,195 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdopsum1s1("en-GB"),
             onPressedAmerican: () => speakdopsum1s1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s2("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s2("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s3("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s3("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s4("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s4("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s5("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s5("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s6("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s7("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s8("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s9("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s_1000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s10("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s11("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s12("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s13("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s14("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s15("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s16("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s17("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s18("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s1900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s19("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s_2000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s20("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s21("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s22("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s200""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s2("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s2("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s300""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s3("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s3("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s400""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s4("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s4("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s500""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s5("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s5("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s600""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s6("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s6("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s700""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s7("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s7("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s800""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s8("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s8("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s900""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s9("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s9("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s_1000""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s10("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s10("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1100""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s11("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s11("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1200""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s12("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s12("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1300""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s13("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s13("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1400""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s14("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s14("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1500""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s15("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s15("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1600""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s16("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s16("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1700""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s17("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s17("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1800""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s18("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s18("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s1900""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s19("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s19("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s_2000""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s20("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s20("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s2100""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s21("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s21("en-US" ""),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """speakdopsum1s2200""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
+            onPressedBritish: () => speakdopsum1s22("en-GB" ""),
+            onPressedAmerican: () => speakdopsum1s22("en-US" ""),
+          ),
         ],
       ),
     );
@@ -2712,1612 +2234,558 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s23("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s23("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s2300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s23("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s23("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s24("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s24("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s2400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s24("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s24("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s25("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s25("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s2500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s25("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s25("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s26("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s26("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s2600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s26("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s26("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s27("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s27("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s2700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s27("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s27("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s28("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s28("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s2800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s28("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s28("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s2900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s29("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s29("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s2900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s29("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s29("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s_3000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s30("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s30("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s_3000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s30("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s30("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s31("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s31("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s31("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s31("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s32("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s32("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s32("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s32("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s33("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s33("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s33("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s33("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s34("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s34("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s34("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s34("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s35("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s35("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s35("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s35("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s36("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s36("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s36("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s36("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s37("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s37("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s37("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s37("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s38("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s38("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s38("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s38("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s3900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s39("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s39("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s3900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s39("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s39("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s_4000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s40("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s40("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s_4000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s40("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s40("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s41("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s41("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s41("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s41("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s42("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s42("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s42("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s42("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s43("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s43("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s43("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s43("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s44("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s44("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s44("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s44("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s45("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s45("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s45("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s45("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s46("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s46("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s46("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s46("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s47("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s47("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s47("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s47("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s48("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s48("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s48("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s48("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s4900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s49("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s49("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s4900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s49("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s49("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s_6000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s50("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s50("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s_6000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s50("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s50("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s51("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s51("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s51("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s51("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s52("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s52("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s52("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s52("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s53("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s53("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s53("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s53("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s54("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s54("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s54("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s54("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s55("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s55("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s55("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s55("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s56("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s56("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s56("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s56("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s57("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s57("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s57("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s57("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s58("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s58("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s58("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s58("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s5900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s59("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s59("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s5900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s59("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s59("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s60("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s60("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s60("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s60("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s61("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s61("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s61("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s61("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s62("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s62("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s62("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s62("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s63("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s63("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s63("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s63("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s64("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s64("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s64("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s64("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s65("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s65("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s65("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s65("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s66("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s66("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s66("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s66("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s67("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s67("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s67("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s67("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s68("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s68("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s68("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s68("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s6900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s69("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s69("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s6900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s69("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s69("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s_7000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s70("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s70("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s_7000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s70("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s70("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s71("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s71("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s71("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s71("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s72("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s72("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s72("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s72("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s73("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s73("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s73("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s73("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s74("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s74("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s74("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s74("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7500"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s75("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s75("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s75("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s75("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7600"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s76("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s76("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s76("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s76("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7700"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s77("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s77("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s77("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s77("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7800"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s78("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s78("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s78("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s78("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s7900"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s79("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s79("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s7900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s79("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s79("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s8000"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s80("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s80("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s8000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s80("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s80("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s8100"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s81("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s81("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s8100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s81("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s81("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s8200"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s82("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s82("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s8200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s82("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s82("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s8300"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s83("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s83("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s8300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s83("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s83("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
-          // Row(
-          //   children: [
-          //     const Expanded(
-          //       child: Column(
-          //         children: [
-          //           ExampleSentenceEnglish(text: """speakdopsum1s8400"""),
-          //           ExampleSentenceKurdish(text: """رستە_رستە_رستە_رستە."""),
-          //         ],
-          //       ),
-          //     ),
-          //     const CustomSizedBoxForTTS(),
-          //     Column(
-          //       children: [
-          //         CustomIconButtonBritish(
-          //           onPressed: () => speakdopsum1s84("en-GB"""),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakdopsum1s84("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
+          // SentencesRow(
+          //   englishText: """speakdopsum1s8400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speakdopsum1s84("en-GB" ""),
+          //   onPressedAmerican: () => speakdopsum1s84("en-US" ""),
           // ),

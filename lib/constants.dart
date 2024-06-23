@@ -643,7 +643,7 @@ class YouTubeVideosContainer extends StatelessWidget {
         children: [
           const DividerDefinition(),
           Container(
-            margin: const EdgeInsets.only(top: 70.0, left: 15, right: 15),
+            margin: const EdgeInsets.only(top: 55.0, left: 8, right: 8),
             padding: const EdgeInsets.all(4.0),
             decoration: BoxDecoration(
               boxShadow: [
@@ -660,7 +660,7 @@ class YouTubeVideosContainer extends StatelessWidget {
               borderRadius: BorderRadius.circular(15.0),
             ),
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(15.0),
+              borderRadius: BorderRadius.circular(12.0),
               child: YoutubePlayer(
                 controller: controller,
                 aspectRatio: 16 / 9,
@@ -668,7 +668,7 @@ class YouTubeVideosContainer extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 20,
+            height: 30,
           ),
           ElevatedButton(
             onPressed: onReloadVideo,
@@ -707,7 +707,7 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
         children: [
           const DividerDefinition(),
           Container(
-            margin: const EdgeInsets.only(top: 70.0, left: 15, right: 15),
+            margin: const EdgeInsets.only(top: 55.0, left: 8, right: 8),
             padding: const EdgeInsets.all(4.0),
             decoration: BoxDecoration(
               boxShadow: [
@@ -724,7 +724,7 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
               borderRadius: BorderRadius.circular(15.0),
             ),
             child: ClipRRect(
-              borderRadius: BorderRadius.circular(15.0),
+              borderRadius: BorderRadius.circular(12.0),
               child: YoutubePlayer(
                 controller: controller,
                 aspectRatio: 16 / 9,
@@ -732,7 +732,7 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 20,
+            height: 30,
           ),
           ElevatedButton(
             onPressed: onReloadVideo,

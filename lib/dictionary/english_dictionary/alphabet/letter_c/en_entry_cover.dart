@@ -1854,7 +1854,6 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.speak(textToSpeak);
 
-    // Update the state to reflect that TTS is in progress
     setState(() {
       isSpeaking = true;
     });

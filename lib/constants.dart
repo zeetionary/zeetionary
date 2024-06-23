@@ -1438,6 +1438,48 @@ class KurdishVocabulary extends ConsumerWidget {
   }
 }
 
+class SentencesRow extends StatelessWidget {
+  final String englishText;
+  final String kurdishText;
+  final VoidCallback onPressedBritish;
+  final VoidCallback onPressedAmerican;
+
+  const SentencesRow({
+    super.key,
+    required this.englishText,
+    required this.kurdishText,
+    required this.onPressedBritish,
+    required this.onPressedAmerican,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: [
+        Expanded(
+          child: Column(
+            children: [
+              ExampleSentenceEnglish(text: englishText),
+              ExampleSentenceKurdish(text: kurdishText),
+            ],
+          ),
+        ),
+        const CustomSizedBoxForTTS(),
+        Column(
+          children: [
+            CustomIconButtonBritish(
+              onPressed: onPressedBritish,
+            ),
+            CustomIconButtonAmerican(
+              onPressed: onPressedAmerican,
+            ),
+          ],
+        ),
+      ],
+    );
+  }
+}
+
 class DefinitionKurdish extends ConsumerStatefulWidget {
   final String text;
   final String? note;

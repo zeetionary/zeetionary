@@ -4,14 +4,9 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
-
 // Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
 
-
 // Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
-
-
-
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,
@@ -377,30 +372,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) تووشی سەرسوڕمان و شۆک بیت بە شتێک"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was completely taken aback by his anger."),
-                    ExampleSentenceKurdish(
-                        text: "تەواو تووشی شۆک بوو بە توڕەییەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak1256935("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak1256935("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was completely taken aback by his anger.",
+            kurdishText: "تەواو تووشی شۆک بوو بە توڕەییەکەی.",
+            onPressedBritish: () => speak1256935("en-GB"),
+            onPressedAmerican: () => speak1256935("en-US"),
           ),
         ],
       ),

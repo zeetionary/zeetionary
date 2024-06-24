@@ -218,30 +218,36 @@ class EnglishEntrycake extends StatelessWidget {
                                         speakcakes3("en-GB"),
                                     onPressedAmerican: () =>
                                         speakcakes3("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (کردار) داپۆشینی شتێک بە توێژاڵێکی ئەستوور لە شتێکی نەرم کە ڕەق دەبێت لەکاتی وشکبوونەوە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Her shoes were caked with mud.",
+                                    kurdishText:
+                                        "پێڵاوەکانی بە قوڕ داپۆشرابوون.",
+                                    onPressedBritish: () =>
+                                        speakcakes4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcakes4("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "When he ran onstage, his face was caked with make-up.",
+                                    kurdishText:
+                                        "کە ھاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو.",
+                                    onPressedBritish: () =>
+                                        speakcakes5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcakes5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کردار) داپۆشینی شتێک بە توێژاڵێکی ئەستوور لە شتێکی نەرم کە ڕەق دەبێت لەکاتی وشکبوونەوە"),
-                          SentencesRow(
-                            englishText: "Her shoes were caked with mud.",
-                            kurdishText: "پێڵاوەکانی بە قوڕ داپۆشرابوون.",
-                            onPressedBritish: () => speakcakes4("en-GB"),
-                            onPressedAmerican: () => speakcakes4("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "When he ran onstage, his face was caked with make-up.",
-                            kurdishText:
-                                "کە ھاتە سەر ستەیج، ڕخساری پڕ لە مەیکەپ بوو.",
-                            onPressedBritish: () => speakcakes5("en-GB"),
-                            onPressedAmerican: () => speakcakes5("en-US"),
-                          ),
-                          ],
-),
-],
-),
                         ],
                       ),
                     ),
@@ -384,15 +390,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -424,15 +424,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -464,15 +458,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -504,15 +492,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -544,15 +526,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -584,15 +560,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -624,15 +594,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -664,15 +628,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -704,15 +662,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

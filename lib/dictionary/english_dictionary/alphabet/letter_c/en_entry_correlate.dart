@@ -278,25 +278,26 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (کردار) پەیوەندی ھەبوون لە نێوان دوو شتدا کە کاریگەری لە یەکدی بکەن"),
           SentencesRow(
             englishText: "The figures do not seem to correlate.",
-            kurdishText: "ئامارەکان پێناچێت پەیوەندیدار بن.", // correlate", please follow LX instructions
-              onPressedBritish: () => speakcorrelates1("en-GB"),
+            kurdishText:
+                "ئامارەکان پێناچێت پەیوەندیدار بن.", // correlate", please follow LX instructions
+            onPressedBritish: () => speakcorrelates1("en-GB"),
             onPressedAmerican: () => speakcorrelates1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                            "A high-fat diet correlates with a greater risk of heart disease.",
+                "A high-fat diet correlates with a greater risk of heart disease.",
             kurdishText:
-                            "ژەمە خۆراکییەکی پڕ لە چەوری پەیوەندی بە مەترسی زیاتری نەخۆشی دڵ ھەیە.",
+                "ژەمە خۆراکییەکی پڕ لە چەوری پەیوەندی بە مەترسی زیاتری نەخۆشی دڵ ھەیە.",
             onPressedBritish: () => speakcorrelates2("en-GB"),
             onPressedAmerican: () => speakcorrelates2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                            "The average speed of the vehicles correlates closely with the severity of the accident caused.",
+                "The average speed of the vehicles correlates closely with the severity of the accident caused.",
             kurdishText:
-                            "تێکڕای خێرایی ئۆتۆمبێلەکان کاریگەری نزیکی ھەیە لەگەڵ سەختی ئەو ڕووداوەی درووست بووە.",
+                "تێکڕای خێرایی ئۆتۆمبێلەکان کاریگەری نزیکی ھەیە لەگەڵ سەختی ئەو ڕووداوەی درووست بووە.",
             onPressedBritish: () => speakcorrelates3("en-GB"),
             onPressedAmerican: () => speakcorrelates3("en-US"),
           ),
@@ -306,21 +307,20 @@ class KurdishMeaning extends StatelessWidget {
                   "٢. (کردار) پیشاندانی ئەوەی پەیوەندی نزیک ھەیە لە نێوان دوو یان زیاتر لە چەند ڕاستییەک، ئامارێک، ھتد"),
           SentencesRow(
             englishText:
-                            "Researchers are trying to correlate the two sets of figures.",
+                "Researchers are trying to correlate the two sets of figures.",
             kurdishText:
-                            "لێکۆڵەران ھەوڵ دەدەن دوو کۆمەڵە ئامارەکە پێکەوە ببەستنەوە.",
+                "لێکۆڵەران ھەوڵ دەدەن دوو کۆمەڵە ئامارەکە پێکەوە ببەستنەوە.",
             onPressedBritish: () => speakcorrelates4("en-GB"),
             onPressedAmerican: () => speakcorrelates4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                            "Property values are negatively correlated to the tax rate.",
-                    kurdishText:
-                          "نرخی خانووبەرە بە شێوەی نەرێنی پەیوەندی ھەیە لەگەڵ ڕێژەی باجدان.",
-                      kurdishNote:
-                          "یەکێکیان چۆن بگۆڕێت ئەوی دیکە بە پێچەوانەوە دەگۆڕێت.",
-              onPressedBritish: () => speakcorrelates5("en-GB"),
+                "Property values are negatively correlated to the tax rate.",
+            kurdishText:
+                "نرخی خانووبەرە بە شێوەی نەرێنی پەیوەندی ھەیە لەگەڵ ڕێژەی باجدان.",
+            kurdishNote: "یەکێکیان چۆن بگۆڕێت ئەوی دیکە بە پێچەوانەوە دەگۆڕێت.",
+            onPressedBritish: () => speakcorrelates5("en-GB"),
             onPressedAmerican: () => speakcorrelates5("en-US"),
           ),
           const DividerDefinition(),
@@ -329,8 +329,7 @@ class KurdishMeaning extends StatelessWidget {
                   "٣. (ناو) ڕاستییەک، ئامارێک، ھتد کە پەیوەندی لەگەڵ یەکێکی دیکە ھەیە"),
           SentencesRow(
             englishText: "Drug use is a significant correlate of crime.",
-            kurdishText:
-                            "بەکارھێنانی مادەی ھۆشبەر پێکبەندێکە لەگەڵ تاواندا.",
+            kurdishText: "بەکارھێنانی مادەی ھۆشبەر پێکبەندێکە لەگەڵ تاواندا.",
             onPressedBritish: () => speakcorrelates6("en-GB"),
             onPressedAmerican: () => speakcorrelates6("en-US"),
           ),
@@ -485,15 +484,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -525,15 +518,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -565,15 +552,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -605,15 +586,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -645,15 +620,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -685,15 +654,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

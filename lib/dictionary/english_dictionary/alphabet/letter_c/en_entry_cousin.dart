@@ -293,7 +293,8 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "This is my cousin Richard.",
             kurdishText: "ئەمە ڕیچاردی ئامۆزامە.",
-            kurdishNote: "ھەروەھا: ئەمە ڕیچاردی خاڵۆزامە؛ ئەمە ڕیچاردی پوورزامە",
+            kurdishNote:
+                "ھەروەھا: ئەمە ڕیچاردی خاڵۆزامە؛ ئەمە ڕیچاردی پوورزامە",
             onPressedBritish: () => speakcousins2("en-GB"),
             onPressedAmerican: () => speakcousins2("en-US"),
           ),
@@ -309,14 +310,16 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە سەر بە ھەمان خێزانە لەگەڵت بەڵام خزمی دووری یەکن"),
-          SentencesRow(englishText: "She's some sort of cousin, I think.",
-          kurdishText:  "پێموایە بۆرەخزمێکمە.",
+          SentencesRow(
+            englishText: "She's some sort of cousin, I think.",
+            kurdishText: "پێموایە بۆرەخزمێکمە.",
             onPressedBritish: () => speakcousins4("en-GB"),
             onPressedAmerican: () => speakcousins4("en-US"),
           ),
           const DividerSentences(),
-          SentencesRow(englishText: "He's a distant cousin of mine.",
-          kurdishText:  "خزمێکی دوورمە.",
+          SentencesRow(
+            englishText: "He's a distant cousin of mine.",
+            kurdishText: "خزمێکی دوورمە.",
             onPressedBritish: () => speakcousins5("en-GB"),
             onPressedAmerican: () => speakcousins5("en-US"),
           ),
@@ -485,15 +488,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -525,15 +522,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -565,15 +556,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -605,15 +590,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -645,15 +624,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -685,15 +658,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

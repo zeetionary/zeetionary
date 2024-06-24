@@ -190,63 +190,63 @@ class EnglishEntryconstant extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "Doctors are under constant pressure to treat more and more patients.",
-kurdishText:
-                                                    "پزیشکان لە ژێر فشاری بەردەوامن بۆ چارەسەری نەخۆشی زیاتر و زیاتر.",
-  onPressedBritish: () =>
-                                                speakconstants3("en-GB"),
-  onPressedAmerican: () =>
-                                                speakconstants3("en-US"),
+                                    englishText:
+                                        "Doctors are under constant pressure to treat more and more patients.",
+                                    kurdishText:
+                                        "پزیشکان لە ژێر فشاری بەردەوامن بۆ چارەسەری نەخۆشی زیاتر و زیاتر.",
+                                    onPressedBritish: () =>
+                                        speakconstants3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconstants3("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "Babies need constant attention.",
-kurdishText:
-                                                    "منداڵان پێویستییان بە گرنگیپێدانی بەردەوامە.",
-  onPressedBritish: () =>
-                                                speakconstants4("en-GB"),
-  onPressedAmerican: () =>
-                                                speakconstants4("en-US"),
+                                    englishText:
+                                        "Babies need constant attention.",
+                                    kurdishText:
+                                        "منداڵان پێویستییان بە گرنگیپێدانی بەردەوامە.",
+                                    onPressedBritish: () =>
+                                        speakconstants4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconstants4("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "This entrance is in constant use.",
-kurdishText:
-                                                    "دەروازەکە لە بەکارھێنانی بەردەوامدایە.",
-  onPressedBritish: () =>
-                                                speakconstants5("en-GB"),
-  onPressedAmerican: () =>
-                                                speakconstants5("en-US"),
+                                    englishText:
+                                        "This entrance is in constant use.",
+                                    kurdishText:
+                                        "دەروازەکە لە بەکارھێنانی بەردەوامدایە.",
+                                    onPressedBritish: () =>
+                                        speakconstants5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconstants5("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "Her constant chatter was beginning to annoy him.",
-kurdishText:
-                                                    "چەنەدانی بەردەوامی خەریک بوو دەستی بە بێزارکردنی دەکرد.",
-  onPressedBritish: () =>
-                                                speakconstants6("en-GB"),
-  onPressedAmerican: () =>
-                                                speakconstants6("en-US"),
+                                    englishText:
+                                        "Her constant chatter was beginning to annoy him.",
+                                    kurdishText:
+                                        "چەنەدانی بەردەوامی خەریک بوو دەستی بە بێزارکردنی دەکرد.",
+                                    onPressedBritish: () =>
+                                        speakconstants6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconstants6("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "Her daughter is a constant source of worry to her.",
-kurdishText:
-                                                    "کچەکەی سەرچاوەی نیگەرانی بەردەوامە بۆی.",
-  onPressedBritish: () =>
-                                                speakconstants7("en-GB"),
-  onPressedAmerican: () =>
-                                                speakconstants7("en-US"),
+                                    englishText:
+                                        "Her daughter is a constant source of worry to her.",
+                                    kurdishText:
+                                        "کچەکەی سەرچاوەی نیگەرانی بەردەوامە بۆی.",
+                                    onPressedBritish: () =>
+                                        speakconstants7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakconstants7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ],
-),
-],
-),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ھاوەڵناو) نەگۆڕ"),
                           SentencesRow(
@@ -465,15 +465,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -505,15 +499,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -545,15 +533,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -585,15 +567,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -625,15 +601,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -665,15 +635,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

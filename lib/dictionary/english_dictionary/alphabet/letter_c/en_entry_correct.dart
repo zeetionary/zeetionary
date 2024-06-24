@@ -380,9 +380,10 @@ class KurdishMeaning extends StatelessWidget {
               text: "١. (ھاوەڵناو) ڕاست، درووست؛ بەبێ ھەڵە"),
           SentencesRow(
             englishText: "Do you have the correct time?",
-                    kurdishText: "کاتی درووست دەزانی؟",
-                      kurdishNote: "کاتژمێرەکەت کاتی درووست دەخوێنێتەوە؟", // correct", please follow LX instructions
-              onPressedBritish: () => speakcorrects1("en-GB"),
+            kurdishText: "کاتی درووست دەزانی؟",
+            kurdishNote:
+                "کاتژمێرەکەت کاتی درووست دەخوێنێتەوە؟", // correct", please follow LX instructions
+            onPressedBritish: () => speakcorrects1("en-GB"),
             onPressedAmerican: () => speakcorrects1("en-US"),
           ),
           const DividerSentences(),
@@ -515,7 +516,7 @@ class KurdishMeaning extends StatelessWidget {
                   "٢. (ھاوەڵناو) ڕاست و گونجاو، بەو شێوەیەی کە دەبێت شتێل بکرێت"),
           SentencesRow(
             englishText:
-                            "Do you know the correct way to shut the machine down?",
+                "Do you know the correct way to shut the machine down?",
             kurdishText: "شێوازی گونجاو دەزانیت بۆ کوژاندنەوەی ئامێرەکە؟",
             onPressedBritish: () => speakcorrects7("en-GB"),
             onPressedAmerican: () => speakcorrects7("en-US"),
@@ -543,9 +544,9 @@ class KurdishMeaning extends StatelessWidget {
                   "٤. (کردار) ڕاستکردنەوە یان درووستکردنی شتێک، بۆ نموونە بە لابردن یان چاککردنی ھەڵەکانی"),
           SentencesRow(
             englishText:
-                            "Read through your work and correct any mistakes that you find.",
+                "Read through your work and correct any mistakes that you find.",
             kurdishText:
-                            "کارەکەت بخوێنەوە و ھەر ھەڵەیەک ڕاست بکەوە کە دەیدۆزیتەوە.",
+                "کارەکەت بخوێنەوە و ھەر ھەڵەیەک ڕاست بکەوە کە دەیدۆزیتەوە.",
             onPressedBritish: () => speakcorrects10("en-GB"),
             onPressedAmerican: () => speakcorrects10("en-US"),
           ),
@@ -653,17 +654,16 @@ class KurdishMeaning extends StatelessWidget {
                   "٥. (کردار) دیاریکردنی ھەڵە و پێدانی نمرە بە وەڵامی تاقیکردنەوەی خوێندکار"),
           SentencesRow(
             englishText: "I spent all evening correcting essays.",
-            kurdishText:
-                            "تەواوی ئێوارەکەم بەسەربرد بە تەسریحدانی داڕشتنەکان.",
+            kurdishText: "تەواوی ئێوارەکەم بەسەربرد بە تەسریحدانی داڕشتنەکان.",
             onPressedBritish: () => speakcorrects15("en-GB"),
             onPressedAmerican: () => speakcorrects15("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                            "It's simply not true that teachers no longer correct bad spellings.",
+                "It's simply not true that teachers no longer correct bad spellings.",
             kurdishText:
-                            "ئەوە تەواو ڕاست نییە کە مامۆستایان چی دیکە ڕێنووسی ھەڵە ڕاست ناکەنەوە.",
+                "ئەوە تەواو ڕاست نییە کە مامۆستایان چی دیکە ڕێنووسی ھەڵە ڕاست ناکەنەوە.",
             onPressedBritish: () => speakcorrects16("en-GB"),
             onPressedAmerican: () => speakcorrects16("en-US"),
           ),
@@ -672,7 +672,7 @@ class KurdishMeaning extends StatelessWidget {
               text: "٦. (کردار) گوتن بە کەسێک کە ھەڵەیەکی کردووە"),
           SentencesRow(
             englishText:
-                            "Yes, you're right—I stand corrected (= I accept that I made a mistake).",
+                "Yes, you're right—I stand corrected (= I accept that I made a mistake).",
             kurdishText: "بەڵێ ڕاست دەکەیت، من ھەڵە بووم.",
             onPressedBritish: () => speakcorrects17("en-GB"),
             onPressedAmerican: () => speakcorrects17("en-US"),
@@ -680,9 +680,8 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText:
-                            "Correct me if I'm wrong, but isn't he Jane's brother??",
-            kurdishText:
-                            "ڕاستم بکەوە ئەگەر ھەڵەم، بەڵام ئەو برای جەین نییە؟",
+                "Correct me if I'm wrong, but isn't he Jane's brother??",
+            kurdishText: "ڕاستم بکەوە ئەگەر ھەڵەم، بەڵام ئەو برای جەین نییە؟",
             onPressedBritish: () => speakcorrects18("en-GB"),
             onPressedAmerican: () => speakcorrects18("en-US"),
           ),
@@ -862,15 +861,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -902,15 +895,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -942,15 +929,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -982,15 +963,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1022,15 +997,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1062,15 +1031,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

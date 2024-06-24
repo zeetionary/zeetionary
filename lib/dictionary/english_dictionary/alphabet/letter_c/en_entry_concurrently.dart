@@ -94,15 +94,15 @@ class EnglishEntryconcurrently extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (ھاوەڵکار)  لە ھەمان کاتدا"),
                           SentencesRow(
-  englishText:
-                                            "The prison sentences will run concurrently.",
-kurdishText: "سزا زیندانییەکان پێکەوە دەبن.",
-                                      kurdishNote:
-                                          "سزاکانی زیندانیکردن لە ھەمان کاتدا جێبەجێ دەکرێن، واتە کۆی ئەو ماوەیەی کە دەسەپێنرێت یەکسان دەبێت بە درێژترین ماوە، نەک کۆی سەرجەم سزاکان.", // concurrently",
-                                    onPressedBritish: () =>
-                                        speakconcurrentlys1("en-GB"),
-onPressedAmerican: () =>
-                                        speakconcurrentlys1("en-US"),
+                            englishText:
+                                "The prison sentences will run concurrently.",
+                            kurdishText: "سزا زیندانییەکان پێکەوە دەبن.",
+                            kurdishNote:
+                                "سزاکانی زیندانیکردن لە ھەمان کاتدا جێبەجێ دەکرێن، واتە کۆی ئەو ماوەیەی کە دەسەپێنرێت یەکسان دەبێت بە درێژترین ماوە، نەک کۆی سەرجەم سزاکان.", // concurrently",
+                            onPressedBritish: () =>
+                                speakconcurrentlys1("en-GB"),
+                            onPressedAmerican: () =>
+                                speakconcurrentlys1("en-US"),
                           ),
                         ],
                       ),
@@ -280,15 +280,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -320,15 +314,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -360,15 +348,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -400,15 +382,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -440,15 +416,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -480,15 +450,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

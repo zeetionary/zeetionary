@@ -220,42 +220,41 @@ class EnglishEntrycalculate extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "Use the formula to calculate the volume of the container.",
-kurdishText:
-                                                    "ھاوکێشەکە بەکاربھێنە بۆ دۆزینەوەی قەبارەی دەفرەکە.",
-  onPressedBritish: () =>
-                                                speakcalculates3("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcalculates3("en-US"),
+                                    englishText:
+                                        "Use the formula to calculate the volume of the container.",
+                                    kurdishText:
+                                        "ھاوکێشەکە بەکاربھێنە بۆ دۆزینەوەی قەبارەی دەفرەکە.",
+                                    onPressedBritish: () =>
+                                        speakcalculates3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalculates3("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "You'll need to calculate how much time the assignment will take.",
-kurdishText:
-                                                    "دەبێت حسابی بکەیت ئەرکەکە چەند کاتی دەوێت.",
-  onPressedBritish: () =>
-                                                speakcalculates4("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcalculates4("en-US"),
-
+                                    englishText:
+                                        "You'll need to calculate how much time the assignment will take.",
+                                    kurdishText:
+                                        "دەبێت حسابی بکەیت ئەرکەکە چەند کاتی دەوێت.",
+                                    onPressedBritish: () =>
+                                        speakcalculates4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalculates4("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "The sum involved was calculated at £82 million.",
-kurdishText:
-                                                    "ڕێژەی تێچوو بە ٨٢ ملیۆن پاوەند دانرا.",
-  onPressedBritish: () =>
-                                                speakcalculates5("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcalculates5("en-US"),
+                                    englishText:
+                                        "The sum involved was calculated at £82 million.",
+                                    kurdishText:
+                                        "ڕێژەی تێچوو بە ٨٢ ملیۆن پاوەند دانرا.",
+                                    onPressedBritish: () =>
+                                        speakcalculates5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalculates5("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ],
-),
-],
-),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
@@ -282,14 +281,14 @@ kurdishText:
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "I tried to calculate how much time it would take me to get there.",
-kurdishText:
-                                                    "ھەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ.",
-  onPressedBritish: () =>
-                                                speakcalculates8("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcalculates8("en-US"),
+                                    englishText:
+                                        "I tried to calculate how much time it would take me to get there.",
+                                    kurdishText:
+                                        "ھەوڵم دا بیخەمڵێنم کە چەندە کاتم پێویستە بۆ گەشتن بە ئەوێ.",
+                                    onPressedBritish: () =>
+                                        speakcalculates8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalculates8("en-US"),
                                   ),
                                 ],
                               ),
@@ -440,15 +439,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -480,15 +473,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -520,15 +507,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -560,15 +541,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -600,15 +575,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -640,15 +609,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -680,15 +643,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -720,15 +677,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -760,15 +711,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

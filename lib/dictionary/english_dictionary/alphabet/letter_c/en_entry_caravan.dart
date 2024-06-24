@@ -193,36 +193,36 @@ class EnglishEntrycaravan extends StatelessWidget {
                               text:
                                   "١. (ناو) عەرەبانەیەک کە بە ئۆتۆمبێلێک ڕادەکێشرێت و خەڵکی تێیدا دەژین و دەخەون لەکاتی گەشتدا"),
                           SentencesRow(
-  englishText:
-                                            "The local farmer lets holiday caravans park on his land.",
-                                    kurdishText:
-                                            "جوتیارە لۆکاڵییەکە ڕێگا دەدات کارڤانی گەشتیاری لە زەوییەکەی پارک بکەن.", // caravan",
-                                    onPressedBritish: () => speakcaravans1("en-GB"),
-onPressedAmerican: () => speakcaravans1("en-US"),
+                            englishText:
+                                "The local farmer lets holiday caravans park on his land.",
+                            kurdishText:
+                                "جوتیارە لۆکاڵییەکە ڕێگا دەدات کارڤانی گەشتیاری لە زەوییەکەی پارک بکەن.", // caravan",
+                            onPressedBritish: () => speakcaravans1("en-GB"),
+                            onPressedAmerican: () => speakcaravans1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) عەرەبانەیەک کە بە ئەسپ ڕادەکێشرێت"),
                           SentencesRow(
-  englishText:
-                                            "Travelers in the 19th century depended on a caravan of horses for long journeys.",
-                                    kurdishText:
-                                            "گەشتیاران لە سەدەی ١٩ دا پشتیان بە عەرەبانەی ئەسپ دەبەست بۆ گەشتی ماوە دەرێژ.",
-                                    onPressedBritish: () => speakcaravans2("en-GB"),
-onPressedAmerican: () => speakcaravans2("en-US"),
+                            englishText:
+                                "Travelers in the 19th century depended on a caravan of horses for long journeys.",
+                            kurdishText:
+                                "گەشتیاران لە سەدەی ١٩ دا پشتیان بە عەرەبانەی ئەسپ دەبەست بۆ گەشتی ماوە دەرێژ.",
+                            onPressedBritish: () => speakcaravans2("en-GB"),
+                            onPressedAmerican: () => speakcaravans2("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کۆمەڵە کەسێک کە پێکەوە گەشت دەکەن"),
                           SentencesRow(
-  englishText:
-                                            "The caravan travelled slowly eastwards.",
-                                    kurdishText:
-                                            "کاروانەکە بەھێواشی بەرەو ڕۆژھەڵات دەچوو.",
-                                    onPressedBritish: () => speakcaravans3("en-GB"),
-onPressedAmerican: () => speakcaravans3("en-US"),
+                            englishText:
+                                "The caravan travelled slowly eastwards.",
+                            kurdishText:
+                                "کاروانەکە بەھێواشی بەرەو ڕۆژھەڵات دەچوو.",
+                            onPressedBritish: () => speakcaravans3("en-GB"),
+                            onPressedAmerican: () => speakcaravans3("en-US"),
                           ),
                         ],
                       ),
@@ -405,15 +405,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -445,15 +439,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -485,15 +473,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -525,15 +507,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -565,15 +541,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -605,15 +575,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -645,15 +609,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -685,15 +643,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -725,15 +677,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -765,15 +711,9 @@ class YoutubeEmbeddedten extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

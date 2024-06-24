@@ -119,33 +119,33 @@ class EnglishEntrychairman extends StatelessWidget {
                               text:
                                   "١. (ناو) کەسێک کە سەرپەرشتی چاوپێکەوتنێک دەکات"),
                           SentencesRow(
-  englishText:
-                                            "Sir Herbert took it upon himself to act as chairman.",
-                                    kurdishText:
-                                            "سێر ھێربێرت بەرپرسیاریەتی سەرکۆڕیکردنی خستە ئەستۆی خۆی.", // chairman",
-                                    onPressedBritish: () => speakchairmans1("en-GB"),
-onPressedAmerican: () => speakchairmans1("en-US"),
+                            englishText:
+                                "Sir Herbert took it upon himself to act as chairman.",
+                            kurdishText:
+                                "سێر ھێربێرت بەرپرسیاریەتی سەرکۆڕیکردنی خستە ئەستۆی خۆی.", // chairman",
+                            onPressedBritish: () => speakchairmans1("en-GB"),
+                            onPressedAmerican: () => speakchairmans1("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٢. (ناو) کەسێک کە وەک بەرپرسی لیژنەیەک، کۆمپانیایەک، ھتد کار دەکات"),
                           SentencesRow(
-  englishText:
-                                            "The chairman of the company presented the annual report.",
-                                    kurdishText:
-                                            "سەرۆکی کۆمپانیاکە ڕاپۆرتی ساڵانەی پێشکەشکرد.",
-                                    onPressedBritish: () => speakchairmans2("en-GB"),
-onPressedAmerican: () => speakchairmans2("en-US"),
+                            englishText:
+                                "The chairman of the company presented the annual report.",
+                            kurdishText:
+                                "سەرۆکی کۆمپانیاکە ڕاپۆرتی ساڵانەی پێشکەشکرد.",
+                            onPressedBritish: () => speakchairmans2("en-GB"),
+                            onPressedAmerican: () => speakchairmans2("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
-  englishText:
-                                            "He has taken over as chairman and chief executive.",
-                                    kurdishText:
-                                            "لە پۆستی سەرۆکایەتی و بەڕێوبەری گشتی دەستبەکاربووە.",
-                                    onPressedBritish: () => speakchairmans3("en-GB"),
-onPressedAmerican: () => speakchairmans3("en-US"),
+                            englishText:
+                                "He has taken over as chairman and chief executive.",
+                            kurdishText:
+                                "لە پۆستی سەرۆکایەتی و بەڕێوبەری گشتی دەستبەکاربووە.",
+                            onPressedBritish: () => speakchairmans3("en-GB"),
+                            onPressedAmerican: () => speakchairmans3("en-US"),
                           ),
                         ],
                       ),
@@ -326,15 +326,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -366,15 +360,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -406,15 +394,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -446,15 +428,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -486,15 +462,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -526,15 +496,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -566,15 +530,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

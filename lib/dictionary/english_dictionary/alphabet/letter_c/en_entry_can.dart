@@ -487,301 +487,363 @@ class EnglishEntrycan extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "He couldn't answer the question.",
-kurdishText:
-                                                    "نەیتوانی وەڵامی پرسیارەکە بداتەوە.",
-  onPressedBritish: () =>
-                                                speakcans3("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcans3("en-US"),
+                                    englishText:
+                                        "He couldn't answer the question.",
+                                    kurdishText:
+                                        "نەیتوانی وەڵامی پرسیارەکە بداتەوە.",
+                                    onPressedBritish: () => speakcans3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans3("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "The stadium can be emptied in four minutes.",
-kurdishText:
-                                                    "یاریگاکە دەکرێت لە چوار خولەکدا بەتاڵ بکرێت.",
-  onPressedBritish: () =>
-                                                speakcans4("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcans4("en-US"),
+                                    englishText:
+                                        "The stadium can be emptied in four minutes.",
+                                    kurdishText:
+                                        "یاریگاکە دەکرێت لە چوار خولەکدا بەتاڵ بکرێت.",
+                                    onPressedBritish: () => speakcans4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans4("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "I can't promise anything, but I'll do what I can.",
-kurdishText:
-                                                    "ناتوانم بەڵێن بدەم، بەڵام ھەرچی بتوانم دەیکەم.",
-  onPressedBritish: () =>
-                                                speakcans5("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcans5("en-US"),
+                                    englishText:
+                                        "I can't promise anything, but I'll do what I can.",
+                                    kurdishText:
+                                        "ناتوانم بەڵێن بدەم، بەڵام ھەرچی بتوانم دەیکەم.",
+                                    onPressedBritish: () => speakcans5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans5("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "Please let us know if you cannot attend the meeting.",
-kurdishText:
-                                                    "تکایە ئاگادارمان بکەوە ئەگەر ناتوانی بەژداری کۆبوونەوەکە بکەیت.",
-  onPressedBritish: () =>
-                                                speakcans6("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcans6("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (کاری مۆداڵ) بەکاردێت بۆ وتنی ئەوەی کەسێک دەزانێت چۆن شتێک بکات"),
-                          SentencesRow(
-                            englishText: "She can speak Spanish.",
-                            kurdishText: "دەتوانێت بە ئیسپانی قسە بکات.",
-                            onPressedBritish: () => speakcans7("en-GB"),
-                            onPressedAmerican: () => speakcans7("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Can he cook?",
-                            kurdishText: "دەزانێت خواردن درووست بکات؟",
-                            onPressedBritish: () => speakcans8("en-GB"),
-                            onPressedAmerican: () => speakcans8("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٣. (کاری مۆداڵ) بەکاردێت لەگەڵ کارەکانی ‘feel’, ‘hear’, ‘see’, ‘smell’, ‘taste’"),
-                          SentencesRow(
-                            englishText: "She could feel a lump in her breast.",
-                            kurdishText: "ھەستی بە لوویەک لە سنگیدا دەکرد.",
-                            onPressedBritish: () => speakcans9("en-GB"),
-                            onPressedAmerican: () => speakcans9("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "I can hear music.",
-                            kurdishText: "گوێم لە میوزیکە.",
-                            onPressedBritish: () => speakcans10("en-GB"),
-                            onPressedAmerican: () => speakcans10("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (کاری مۆداڵ) بەکاردێت بۆ وتنی ئەوەی کەسێک ڕێگەپێدراوە شتێک بکات"),
-                          SentencesRow(
-                            englishText: "Can I read your newspaper?",
-                            kurdishText: "دەتوانم ڕۆژنامەکەت بخوێنمەوە؟",
-                            onPressedBritish: () => speakcans11("en-GB"),
-                            onPressedAmerican: () => speakcans11("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Can I take you home?",
-                            kurdishText: "بتبەمە ماڵەوە؟",
-                            onPressedBritish: () => speakcans12("en-GB"),
-                            onPressedAmerican: () => speakcans12("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٥. (کاری مۆداڵ) بۆ داواکردنی یارمەتی"),
-                          SentencesRow(
-                            englishText: "Can you help me with this box?",
-                            kurdishText:
-                                "دەتوانیت لە ھەڵگرتنی ئەم سنووقە یارمەتیم بدەیت؟",
-                            onPressedBritish: () => speakcans13("en-GB"),
-                            onPressedAmerican: () => speakcans13("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Can you feed the cat, please?",
-                            kurdishText:
-                                "تکایە دەتوانیت خواردن بدەیت بە پشیلەکە؟",
-                            onPressedBritish: () => speakcans14("en-GB"),
-                            onPressedAmerican: () => speakcans14("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٧. (کاری مۆداڵ) بۆ پێشنیازکردن"),
-                          SentencesRow(
-                            englishText:
-                                "We can eat in a restaurant, if you like.",
-                            kurdishText:
-                                "ئەگەر حەز دەکەیت لە چێشتخانەیەک نان دەخۆین.",
-                            onPressedBritish: () => speakcans15("en-GB"),
-                            onPressedAmerican: () => speakcans15("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "I can take the car if necessary.",
-                            kurdishText: "سەیارەکە دەبەم ئەگەر پێویست بکات.",
-                            onPressedBritish: () => speakcans16("en-GB"),
-                            onPressedAmerican: () => speakcans16("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٨. (کاری مۆداڵ) بەشێوەی نەرێ بەکاردێت بۆ وتنی ئەوەی دڵنیایت شتێک ڕاست نییە"),
-                          SentencesRow(
-                            englishText:
-                                "That can't be Mary—she's in New York.",
-                            kurdishText: "ناکرێت ماری بێت، ئەو لە نیویۆرکە.",
-                            onPressedBritish: () => speakcans17("en-GB"),
-                            onPressedAmerican: () => speakcans17("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "He can't have slept through all that noise.",
-                            kurdishText:
-                                "ئەستەمە خەوی لێ کەوتبێت لەو ھەموو ژاوەژاوەدا.",
-                            onPressedBritish: () => speakcans18("en-GB"),
-                            onPressedAmerican: () => speakcans18("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٩. (کاری مۆداڵ) بۆ پیشاندانی گومان یان سەرسامی"),
-                          SentencesRow(
-                            englishText: "What can they be doing?",
-                            kurdishText: "دەبێت چی بکەن؟",
-                            onPressedBritish: () => speakcans19("en-GB"),
-                            onPressedAmerican: () => speakcans19("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Can he be serious?",
-                            kurdishText: "دەبێت بە جدی بێت؟",
-                            onPressedBritish: () => speakcans20("en-GB"),
-                            onPressedAmerican: () => speakcans20("en-US"),
-                          ),
-                          Column(
-                            children: [
-                              MyExpansionTile(
-                                children: [
+                                    englishText:
+                                        "Please let us know if you cannot attend the meeting.",
+                                    kurdishText:
+                                        "تکایە ئاگادارمان بکەوە ئەگەر ناتوانی بەژداری کۆبوونەوەکە بکەیت.",
+                                    onPressedBritish: () => speakcans6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans6("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (کاری مۆداڵ) بەکاردێت بۆ وتنی ئەوەی کەسێک دەزانێت چۆن شتێک بکات"),
                                   SentencesRow(
-  englishText:
-                                                    "Where can she have put it?",
-kurdishText: "دەبێت لە کوێی دانابێت؟",
-  onPressedBritish: () =>
+                                    englishText: "She can speak Spanish.",
+                                    kurdishText:
+                                        "دەتوانێت بە ئیسپانی قسە بکات.",
+                                    onPressedBritish: () => speakcans7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans7("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText: "Can he cook?",
+                                    kurdishText: "دەزانێت خواردن درووست بکات؟",
+                                    onPressedBritish: () => speakcans8("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans8("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٣. (کاری مۆداڵ) بەکاردێت لەگەڵ کارەکانی ‘feel’, ‘hear’, ‘see’, ‘smell’, ‘taste’"),
+                                  SentencesRow(
+                                    englishText:
+                                        "She could feel a lump in her breast.",
+                                    kurdishText:
+                                        "ھەستی بە لوویەک لە سنگیدا دەکرد.",
+                                    onPressedBritish: () => speakcans9("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans9("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText: "I can hear music.",
+                                    kurdishText: "گوێم لە میوزیکە.",
+                                    onPressedBritish: () =>
+                                        speakcans10("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans10("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٤. (کاری مۆداڵ) بەکاردێت بۆ وتنی ئەوەی کەسێک ڕێگەپێدراوە شتێک بکات"),
+                                  SentencesRow(
+                                    englishText: "Can I read your newspaper?",
+                                    kurdishText:
+                                        "دەتوانم ڕۆژنامەکەت بخوێنمەوە؟",
+                                    onPressedBritish: () =>
+                                        speakcans11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans11("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText: "Can I take you home?",
+                                    kurdishText: "بتبەمە ماڵەوە؟",
+                                    onPressedBritish: () =>
+                                        speakcans12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans12("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٥. (کاری مۆداڵ) بۆ داواکردنی یارمەتی"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Can you help me with this box?",
+                                    kurdishText:
+                                        "دەتوانیت لە ھەڵگرتنی ئەم سنووقە یارمەتیم بدەیت؟",
+                                    onPressedBritish: () =>
+                                        speakcans13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans13("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "Can you feed the cat, please?",
+                                    kurdishText:
+                                        "تکایە دەتوانیت خواردن بدەیت بە پشیلەکە؟",
+                                    onPressedBritish: () =>
+                                        speakcans14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans14("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text: "٧. (کاری مۆداڵ) بۆ پێشنیازکردن"),
+                                  SentencesRow(
+                                    englishText:
+                                        "We can eat in a restaurant, if you like.",
+                                    kurdishText:
+                                        "ئەگەر حەز دەکەیت لە چێشتخانەیەک نان دەخۆین.",
+                                    onPressedBritish: () =>
+                                        speakcans15("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans15("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "I can take the car if necessary.",
+                                    kurdishText:
+                                        "سەیارەکە دەبەم ئەگەر پێویست بکات.",
+                                    onPressedBritish: () =>
+                                        speakcans16("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans16("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٨. (کاری مۆداڵ) بەشێوەی نەرێ بەکاردێت بۆ وتنی ئەوەی دڵنیایت شتێک ڕاست نییە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "That can't be Mary—she's in New York.",
+                                    kurdishText:
+                                        "ناکرێت ماری بێت، ئەو لە نیویۆرکە.",
+                                    onPressedBritish: () =>
+                                        speakcans17("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans17("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "He can't have slept through all that noise.",
+                                    kurdishText:
+                                        "ئەستەمە خەوی لێ کەوتبێت لەو ھەموو ژاوەژاوەدا.",
+                                    onPressedBritish: () =>
+                                        speakcans18("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans18("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٩. (کاری مۆداڵ) بۆ پیشاندانی گومان یان سەرسامی"),
+                                  SentencesRow(
+                                    englishText: "What can they be doing?",
+                                    kurdishText: "دەبێت چی بکەن؟",
+                                    onPressedBritish: () =>
+                                        speakcans19("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans19("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText: "Can he be serious?",
+                                    kurdishText: "دەبێت بە جدی بێت؟",
+                                    onPressedBritish: () =>
+                                        speakcans20("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans20("en-US"),
+                                  ),
+                                  Column(
+                                    children: [
+                                      MyExpansionTile(
+                                        children: [
+                                          SentencesRow(
+                                            englishText:
+                                                "Where can she have put it?",
+                                            kurdishText:
+                                                "دەبێت لە کوێی دانابێت؟",
+                                            onPressedBritish: () =>
                                                 speakcans21("en-GB"),
-  onPressedAmerican: () =>
+                                            onPressedAmerican: () =>
                                                 speakcans21("en-US"),
+                                          ),
+                                        ],
+                                      ),
+                                    ],
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٠. (کاری مۆداڵ) بۆ وتنی ئەوەی کەسێک/شتێک دەکرێت چۆن بێت"),
+                                  SentencesRow(
+                                    englishText:
+                                        "He can be very tactless sometimes.",
+                                    kurdishText:
+                                        "ھەندێک جار زۆر بێ‌ھەست دەبێت.",
+                                    onPressedBritish: () =>
+                                        speakcans22("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans22("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "It can be quite cold here in winter.",
+                                    kurdishText:
+                                        "لە زستاندا ئێرە دەکرێت تەواو سارد بێت.",
+                                    onPressedBritish: () =>
+                                        speakcans23("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans23("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١١. (کاری مۆداڵ) بۆ وتنی ئەوەی کەسێک دەبێت شتێک بکات"),
+                                  SentencesRow(
+                                    englishText: "You can shut up or get out!",
+                                    kurdishText: "بێ‌دەنگە بە یان بچۆ دەرەوە!",
+                                    onPressedBritish: () =>
+                                        speakcans24("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans24("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text: "١٢. (ناو) قوتوو"),
+                                  SentencesRow(
+                                    englishText:
+                                        "He opened the can and took a large swig.",
+                                    kurdishText:
+                                        "قوتووەکەی کردەوە و قومێکی گەورەی لێخواردەوە.",
+                                    onPressedBritish: () =>
+                                        speakcans25("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans25("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "She sipped from a can of Coke.",
+                                    kurdishText:
+                                        "قومێکی لە قوتوویەکی کۆکا کۆلا خواردەوە.",
+                                    onPressedBritish: () =>
+                                        speakcans26("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans26("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٣. (ناو) ئەو ڕێژەیەی لە قوتوویەکدا جێگای دەبێتەوە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Have you eaten the whole can?",
+                                    kurdishText: "تەواوی قوتووەکەت خوارد؟",
+                                    onPressedBritish: () =>
+                                        speakcans27("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans27("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText: "We drank a can of Coke each.",
+                                    kurdishText:
+                                        "ھەریەکەمان قوتوویەک کۆکا کۆلامان خواردەوە.",
+                                    onPressedBritish: () =>
+                                        speakcans28("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans28("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٤. (ناو) کاسەیەک ئاسنی یان پلاستیکی ھەڵگرتنی شلە تێیدا"),
+                                  SentencesRow(
+                                    englishText: "He filled a can with water.",
+                                    kurdishText: "کاسەیەکی پڕ لە ئاو کرد.",
+                                    onPressedBritish: () =>
+                                        speakcans29("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans29("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٥. (ناو) قوتوویەک کە شلەی تێدا ھەڵدەگیرێت لەژێر فشاری زۆردا و بە فیشقە دێتە دەرەوە"),
+                                  SentencesRow(
+                                    englishText:
+                                        "I bought a can of red paint and painted the front door.",
+                                    kurdishText:
+                                        "قوتوویەکە بۆیەی سوورم کڕی و دەرگای پێشەوەم بۆیەکرد.",
+                                    onPressedBritish: () =>
+                                        speakcans30("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans30("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٦. (کردار) پاراستن بە خستنە قوتوو"),
+                                  SentencesRow(
+                                    englishText:
+                                        "He works in a factory where they can fruit.",
+                                    kurdishText:
+                                        "لە کارگەیەک کار دەکات کە خواردن دەخەنە قوتووەوە.",
+                                    onPressedBritish: () =>
+                                        speakcans31("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans31("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "١٧. (کردار) دەرکردنی کەسێک لە کارەکەی"),
+                                  SentencesRow(
+                                    englishText:
+                                        "Upon learning he was sick, the company canned him without explanation.",
+                                    kurdishText:
+                                        "کە زانییان نەخۆشە، کۆمپانیاکە دەریکرد بەبێ ڕوونکردنەوە.",
+                                    onPressedBritish: () =>
+                                        speakcans32("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcans32("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ],
-),
-],
-),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١٠. (کاری مۆداڵ) بۆ وتنی ئەوەی کەسێک/شتێک دەکرێت چۆن بێت"),
-                          SentencesRow(
-                            englishText: "He can be very tactless sometimes.",
-                            kurdishText: "ھەندێک جار زۆر بێ‌ھەست دەبێت.",
-                            onPressedBritish: () => speakcans22("en-GB"),
-                            onPressedAmerican: () => speakcans22("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "It can be quite cold here in winter.",
-                            kurdishText:
-                                "لە زستاندا ئێرە دەکرێت تەواو سارد بێت.",
-                            onPressedBritish: () => speakcans23("en-GB"),
-                            onPressedAmerican: () => speakcans23("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١١. (کاری مۆداڵ) بۆ وتنی ئەوەی کەسێک دەبێت شتێک بکات"),
-                          SentencesRow(
-                            englishText: "You can shut up or get out!",
-                            kurdishText: "بێ‌دەنگە بە یان بچۆ دەرەوە!",
-                            onPressedBritish: () => speakcans24("en-GB"),
-                            onPressedAmerican: () => speakcans24("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: "١٢. (ناو) قوتوو"),
-                          SentencesRow(
-                            englishText:
-                                "He opened the can and took a large swig.",
-                            kurdishText:
-                                "قوتووەکەی کردەوە و قومێکی گەورەی لێخواردەوە.",
-                            onPressedBritish: () => speakcans25("en-GB"),
-                            onPressedAmerican: () => speakcans25("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "She sipped from a can of Coke.",
-                            kurdishText:
-                                "قومێکی لە قوتوویەکی کۆکا کۆلا خواردەوە.",
-                            onPressedBritish: () => speakcans26("en-GB"),
-                            onPressedAmerican: () => speakcans26("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١٣. (ناو) ئەو ڕێژەیەی لە قوتوویەکدا جێگای دەبێتەوە"),
-                          SentencesRow(
-                            englishText: "Have you eaten the whole can?",
-                            kurdishText: "تەواوی قوتووەکەت خوارد؟",
-                            onPressedBritish: () => speakcans27("en-GB"),
-                            onPressedAmerican: () => speakcans27("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "We drank a can of Coke each.",
-                            kurdishText:
-                                "ھەریەکەمان قوتوویەک کۆکا کۆلامان خواردەوە.",
-                            onPressedBritish: () => speakcans28("en-GB"),
-                            onPressedAmerican: () => speakcans28("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١٤. (ناو) کاسەیەک ئاسنی یان پلاستیکی ھەڵگرتنی شلە تێیدا"),
-                          SentencesRow(
-                            englishText: "He filled a can with water.",
-                            kurdishText: "کاسەیەکی پڕ لە ئاو کرد.",
-                            onPressedBritish: () => speakcans29("en-GB"),
-                            onPressedAmerican: () => speakcans29("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "١٥. (ناو) قوتوویەک کە شلەی تێدا ھەڵدەگیرێت لەژێر فشاری زۆردا و بە فیشقە دێتە دەرەوە"),
-                          SentencesRow(
-                            englishText:
-                                "I bought a can of red paint and painted the front door.",
-                            kurdishText:
-                                "قوتوویەکە بۆیەی سوورم کڕی و دەرگای پێشەوەم بۆیەکرد.",
-                            onPressedBritish: () => speakcans30("en-GB"),
-                            onPressedAmerican: () => speakcans30("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "١٦. (کردار) پاراستن بە خستنە قوتوو"),
-                          SentencesRow(
-                            englishText:
-                                "He works in a factory where they can fruit.",
-                            kurdishText:
-                                "لە کارگەیەک کار دەکات کە خواردن دەخەنە قوتووەوە.",
-                            onPressedBritish: () => speakcans31("en-GB"),
-                            onPressedAmerican: () => speakcans31("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "١٧. (کردار) دەرکردنی کەسێک لە کارەکەی"),
-                          SentencesRow(
-                            englishText:
-                                "Upon learning he was sick, the company canned him without explanation.",
-                            kurdishText:
-                                "کە زانییان نەخۆشە، کۆمپانیاکە دەریکرد بەبێ ڕوونکردنەوە.",
-                            onPressedBritish: () => speakcans32("en-GB"),
-                            onPressedAmerican: () => speakcans32("en-US"),
-                          ),
-                          ],
-),
-],
-),
                         ],
                       ),
                     ),
@@ -938,15 +1000,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -978,15 +1034,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1018,15 +1068,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1058,15 +1102,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1098,15 +1136,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1138,15 +1170,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1178,15 +1204,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1218,15 +1238,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1258,15 +1272,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1298,15 +1306,9 @@ class YoutubeEmbeddedten extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

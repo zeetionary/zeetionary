@@ -117,26 +117,24 @@ class EnglishEntryamen extends StatelessWidget {
                                   "١. (ناو) وشەیەک لە دوای نزا و بابەتی ئاینی بەکاردێت"
                                   ""),
                           SentencesRow(
-  englishText:
-                                            "We ask this through our Lord, Amen.",
-  kurdishText:
-                                            "بۆ ئەمە داوا لە خودا دەکەین، ئامین.",
-onPressedBritish: () => speakamen2411("en-GB"),
-onPressedAmerican: () => speakamen2411(
-                                        // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
-                                        "en-US"),
-                                  ),
+                            englishText: "We ask this through our Lord, Amen.",
+                            kurdishText: "بۆ ئەمە داوا لە خودا دەکەین، ئامین.",
+                            onPressedBritish: () => speakamen2411("en-GB"),
+                            onPressedAmerican: () => speakamen2411(
+                                // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
+                                "en-US"),
+                          ),
                           const DividerSentences(),
                           // const DividerDefinition(),
                           SentencesRow(
-  englishText:
-                                            "Amen to that (= I certainly agree with that).",
-  kurdishText: "خودا بکات (ئەوە ڕووبدات).",
-onPressedBritish: () => speakamen96552("en-GB"),
-onPressedAmerican: () => speakamen96552(
-                                        // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
-                                        "en-US"),
-                                  ),
+                            englishText:
+                                "Amen to that (= I certainly agree with that).",
+                            kurdishText: "خودا بکات (ئەوە ڕووبدات).",
+                            onPressedBritish: () => speakamen96552("en-GB"),
+                            onPressedAmerican: () => speakamen96552(
+                                // REPLACE: amen /eɪˈmen/, /ɑːˈmen/
+                                "en-US"),
+                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
@@ -271,15 +269,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -311,15 +303,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -351,15 +337,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -391,15 +371,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -431,15 +405,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -471,15 +439,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -511,15 +473,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -551,15 +507,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

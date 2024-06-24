@@ -194,67 +194,63 @@ class EnglishEntrybutt extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (کردار) لێدان لە کەسێک بە سەرت"),
                           SentencesRow(
-  englishText:
-                                            "The goat butted the door to open it.",
-kurdishText:
-                                            "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە.", // butt", follow LX strictly
-                              onPressedBritish: () => speakbutts1("en-GB"),
-onPressedAmerican: () => speakbutts1("en-US"),
-                                  ),
+                            englishText: "The goat butted the door to open it.",
+                            kurdishText:
+                                "بزنەکە کێشای بە دەرگاکەدا بۆ ئەوەی بیکاتەوە.", // butt", follow LX strictly
+                            onPressedBritish: () => speakbutts1("en-GB"),
+                            onPressedAmerican: () => speakbutts1("en-US"),
+                          ),
                           const DividerSentences(),
                           SentencesRow(
-  englishText:
-                                            "He butted his opponent in the wrestling match.",
-kurdishText:
-                                            "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا.",
-onPressedBritish: () => speakbutts2("en-GB"),
-onPressedAmerican: () => speakbutts2("en-US"),
-                                  ),
+                            englishText:
+                                "He butted his opponent in the wrestling match.",
+                            kurdishText:
+                                "کەلەیەکی کێشا بە ڕکابەرەکەیدا لە یاری زۆرانبازییەکەدا.",
+                            onPressedBritish: () => speakbutts2("en-GB"),
+                            onPressedAmerican: () => speakbutts2("en-US"),
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٢. (ناو) دەسکی چەکێک"),
                           SentencesRow(
-  englishText:
-                                            "They struck him with their rifle butts.",
-kurdishText:
-                                            "بە دەسکە دەمانچەکانیان لێیان دان.",
-onPressedBritish: () => speakbutts3("en-GB"),
-onPressedAmerican: () => speakbutts3("en-US"),
-                                  ),
+                            englishText:
+                                "They struck him with their rifle butts.",
+                            kurdishText: "بە دەسکە دەمانچەکانیان لێیان دان.",
+                            onPressedBritish: () => speakbutts3("en-GB"),
+                            onPressedAmerican: () => speakbutts3("en-US"),
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (ناو) ئەو بەشەی جگەرە کە ناسووتێت و فڕێ دەدرێت"),
                           SentencesRow(
-  englishText:
-                                            "He flicked the butt of his cigarette into the ashtray.",
-kurdishText:
-                                            "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە.",
-onPressedBritish: () => speakbutts4("en-GB"),
-onPressedAmerican: () => speakbutts4("en-US"),
-                                  ),
+                            englishText:
+                                "He flicked the butt of his cigarette into the ashtray.",
+                            kurdishText: "بنەجگەرەکەی فڕێدایە ناو تەپڵەکێکەوە.",
+                            onPressedBritish: () => speakbutts4("en-GB"),
+                            onPressedAmerican: () => speakbutts4("en-US"),
+                          ),
                           // skipped_meaning 3rd oxford
                           const DividerDefinition(),
                           const DefinitionKurdish(text: "٤. (ناو) سمت"),
                           SentencesRow(
-  englishText:
-                                            "Get your butt over here! (= Come here!)",
-kurdishText: "وەرە ئێرە!",
-onPressedBritish: () => speakbutts5("en-GB"),
-onPressedAmerican: () => speakbutts5("en-US"),
-                                  ),
+                            englishText:
+                                "Get your butt over here! (= Come here!)",
+                            kurdishText: "وەرە ئێرە!",
+                            onPressedBritish: () => speakbutts5("en-GB"),
+                            onPressedAmerican: () => speakbutts5("en-US"),
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٥. (ناو) لێدان لە کەسێک بە سەر"),
                           SentencesRow(
-  englishText:
-                                            "A butt from his head left him momentarily disorientated.",
-kurdishText:
-                                            "کەللەیەک لەسەری بۆ ماوەی گێژی کرد.",
-onPressedBritish: () => speakbutts6("en-GB"),
-onPressedAmerican: () => speakbutts6("en-US"),
-                                  ),
-                                ],
-                              ),
+                            englishText:
+                                "A butt from his head left him momentarily disorientated.",
+                            kurdishText: "کەللەیەک لەسەری بۆ ماوەی گێژی کرد.",
+                            onPressedBritish: () => speakbutts6("en-GB"),
+                            onPressedAmerican: () => speakbutts6("en-US"),
+                          ),
+                        ],
+                      ),
                     ),
                     const YouTubeScroller(
                       children: [
@@ -415,15 +411,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -455,15 +445,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -495,15 +479,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -535,15 +513,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -575,15 +547,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -615,15 +581,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -655,15 +615,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -695,15 +649,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -735,15 +683,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

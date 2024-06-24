@@ -254,10 +254,10 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) ئەکتەرێک کە لەگەڵ یەکێکی دیکە لە فیلمێکدا دەردەکەوێت لە کاتێکدا ھەردووکیان ھەمان گرنگیان ھەیە"),
           SentencesRow(
             englishText:
-                            "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart.",
+                "The co-stars of \"Casablanca\" are Ingrid Bergman and Humphrey Bogart.",
             kurdishText:
-                            "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و ھەمپبرێی بۆگارتن.", // co-star", please follow LX instructions
-              onPressedBritish: () => speakcostars1("en-GB"),
+                "ئەکتەرە سەرەکییەکانی فیلمی 'کازابلانکا' ئینگرید بێرگمان و ھەمپبرێی بۆگارتن.", // co-star", please follow LX instructions
+            onPressedBritish: () => speakcostars1("en-GB"),
             onPressedAmerican: () => speakcostars1("en-US"),
           ),
           const DividerDefinition(),
@@ -266,9 +266,9 @@ class KurdishMeaning extends StatelessWidget {
                   "٢. (کردار) دەرکەوتن وەک ئەکتەرێکی سەرەکی ھاوشان لەگەڵ یەکێکی دیکەدا"),
           SentencesRow(
             englishText:
-                            "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton.",
+                "It is a movie in which Jennifer Lawrence co-stars with Joel Edgerton.",
             kurdishText:
-                            "فیلمێکە تێیدا جێنیفەر لۆرنس ڕۆڵ دەبینێت لەگەڵ جۆوڵ ئێدگرتن.",
+                "فیلمێکە تێیدا جێنیفەر لۆرنس ڕۆڵ دەبینێت لەگەڵ جۆوڵ ئێدگرتن.",
             onPressedBritish: () => speakcostars2("en-GB"),
             onPressedAmerican: () => speakcostars2("en-US"),
           ),
@@ -277,9 +277,9 @@ class KurdishMeaning extends StatelessWidget {
               text: "٣. (کردار) ھەبوونی دوو ئەکتەری سەرەکی"),
           SentencesRow(
             englishText:
-                            "The movie co-stars Jennifer Aniston and Jason Sudeikis.",
+                "The movie co-stars Jennifer Aniston and Jason Sudeikis.",
             kurdishText:
-                            "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی ھەیە.",
+                "فیلمەکە جێنیفەر ئەنیستن و جەیسن سودەیکیزی وەک ئەکتەری سەرەکی ھەیە.",
             onPressedBritish: () => speakcostars3("en-GB"),
             onPressedAmerican: () => speakcostars3("en-US"),
           ),
@@ -429,15 +429,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -469,15 +463,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -509,15 +497,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -549,15 +531,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -589,15 +565,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -629,15 +599,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

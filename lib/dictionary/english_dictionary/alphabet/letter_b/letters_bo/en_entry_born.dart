@@ -231,45 +231,45 @@ class EnglishEntryborn extends StatelessWidget {
                               text:
                                   "١. (کردار) دەرچوون لە سکی دایک لە سەرەتای ژیاندا"),
                           SentencesRow(
-  englishText: "He was born in 1976.",
-kurdishText: "لە ساڵی ١٩٧٦ لەدایکبوو.",
-onPressedBritish: () => speakborns1("en-GB"),
-onPressedAmerican: () => speakborns1("en-US"),
-                                  ),
+                            englishText: "He was born in 1976.",
+                            kurdishText: "لە ساڵی ١٩٧٦ لەدایکبوو.",
+                            onPressedBritish: () => speakborns1("en-GB"),
+                            onPressedAmerican: () => speakborns1("en-US"),
+                          ),
                           const DividerSentences(),
                           SentencesRow(
-  englishText:
-                                            "He was born in a small village in northern Spain.",
-kurdishText:
-                                            "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو.",
-onPressedBritish: () => speakborns2("en-GB"),
-onPressedAmerican: () => speakborns2("en-US"),
-                                  ),
+                            englishText:
+                                "He was born in a small village in northern Spain.",
+                            kurdishText:
+                                "لە گوندێکی بچووکی باکووری ئیسپانیا لەدایکبوو.",
+                            onPressedBritish: () => speakborns2("en-GB"),
+                            onPressedAmerican: () => speakborns2("en-US"),
+                          ),
                           Column(
                             children: [
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "The baby was born by Caesarean section on Friday.",
-kurdishText:
-                                                    "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو.",
-onPressedBritish: () =>
-                                                speakborns3("en-GB"),
-onPressedAmerican: () =>
-                                                speakborns10("en-US"),
-                                          ),
+                                    englishText:
+                                        "The baby was born by Caesarean section on Friday.",
+                                    kurdishText:
+                                        "منداڵەکە لە ڕۆژی ھەینی بە نەشتەرگەری لەدایکبوو.",
+                                    onPressedBritish: () =>
+                                        speakborns3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborns10("en-US"),
+                                  ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "These children were born into poverty.",
-kurdishText:
-                                                    "ئەم منداڵانە لە ھەژاریدا لەدایکبوون.",
-onPressedBritish: () =>
-                                                speakborns4("en-GB"),
-onPressedAmerican: () =>
-                                                speakborns4("en-US"),
-                                          ),
+                                    englishText:
+                                        "These children were born into poverty.",
+                                    kurdishText:
+                                        "ئەم منداڵانە لە ھەژاریدا لەدایکبوون.",
+                                    onPressedBritish: () =>
+                                        speakborns4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakborns4("en-US"),
+                                  ),
                                 ],
                               ),
                             ],
@@ -279,56 +279,54 @@ onPressedAmerican: () =>
                               text:
                                   "٢. (کردار) دەستپێکردنی بیرۆکەیەک، جوڵانەوەیەک، دامەزراوەیەک، ھتد"),
                           SentencesRow(
-  englishText:
-                                            "She acted with a courage born (out) of desperation.",
-kurdishText:
-                                            "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووست بووبوو.",
-onPressedBritish: () => speakborns5("en-GB"),
-onPressedAmerican: () => speakborns5("en-US"),
-                                  ),
+                            englishText:
+                                "She acted with a courage born (out) of desperation.",
+                            kurdishText:
+                                "بە بوێرییەکەوە ھەنگاوی نا لە دەستبەستراوی درووست بووبوو.",
+                            onPressedBritish: () => speakborns5("en-GB"),
+                            onPressedAmerican: () => speakborns5("en-US"),
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٣. (کردار) لەدایکبوو بەو شێوەیەی باسکراوە"),
                           SentencesRow(
-  englishText:
-                                            "The part is played by an American-born actress.",
-kurdishText:
-                                            "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت.",
-onPressedBritish: () => speakborns6("en-GB"),
-onPressedAmerican: () => speakborns6("en-US"),
-                                  ),
+                            englishText:
+                                "The part is played by an American-born actress.",
+                            kurdishText:
+                                "ڕۆڵەکە لەلایەن خانمە ئەکتەرێکی لەدایکبووی ئەمریکاوە دەبینرێت.",
+                            onPressedBritish: () => speakborns6("en-GB"),
+                            onPressedAmerican: () => speakborns6("en-US"),
+                          ),
                           const DividerSentences(),
                           SentencesRow(
-  englishText:
-                                            "He was the firstborn of his family.",
-kurdishText: "یەکەم منداڵی خێزانەکەی بوو.",
-onPressedBritish: () => speakborns7("en-GB"),
-onPressedAmerican: () => speakborns7("en-US"),
-                                  ),
+                            englishText: "He was the firstborn of his family.",
+                            kurdishText: "یەکەم منداڵی خێزانەکەی بوو.",
+                            onPressedBritish: () => speakborns7("en-GB"),
+                            onPressedAmerican: () => speakborns7("en-US"),
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
                                   "٤. (ھاوەڵناو) ھەبوونی توانای سرووشتی بۆ چالاکییەک یان کارێک"),
                           SentencesRow(
-  englishText:
-                                            "I felt born to take care of animals.",
-kurdishText:
-                                            "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان.",
-onPressedBritish: () => speakborns8("en-GB"),
-onPressedAmerican: () => speakborns8("en-US"),
-                                  ),
+                            englishText: "I felt born to take care of animals.",
+                            kurdishText:
+                                "وام ھەستکرد لەدایکبووبم بۆ چاودێری ئاژەڵان.",
+                            onPressedBritish: () => speakborns8("en-GB"),
+                            onPressedAmerican: () => speakborns8("en-US"),
+                          ),
                           const DividerSentences(),
                           SentencesRow(
-  englishText:
-                                            "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful).",
-kurdishText:
-                                            "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە.",
-onPressedBritish: () => speakborns9("en-GB"),
-onPressedAmerican: () => speakborns9("en-US"),
-                                  ),
-                                ],
-                              ),
+                            englishText:
+                                "I do not expect anything from him. He was a born loser (= a person who always loses or is unsuccessful).",
+                            kurdishText:
+                                "ھیچی لێ چاوەڕێ ناکەم. دۆڕان لە خوێنیدایە.",
+                            onPressedBritish: () => speakborns9("en-GB"),
+                            onPressedAmerican: () => speakborns9("en-US"),
+                          ),
+                        ],
+                      ),
                     ),
                     const YouTubeScroller(
                       children: [
@@ -471,15 +469,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -511,15 +503,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -551,15 +537,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -591,15 +571,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -631,15 +605,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -671,15 +639,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -711,15 +673,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -751,15 +707,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -791,15 +741,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

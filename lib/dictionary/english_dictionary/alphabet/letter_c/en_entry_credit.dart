@@ -525,8 +525,9 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakcredits7("en-US"),
           ),
           const DividerSentences(),
-          SentencesRow(englishText: "My account is in credit.",
-          kurdishText: "ھەژمارەکەم پارەی تێدایە.",
+          SentencesRow(
+            englishText: "My account is in credit.",
+            kurdishText: "ھەژمارەکەم پارەی تێدایە.",
             onPressedBritish: () => speakcredits8("en-GB"),
             onPressedAmerican: () => speakcredits8("en-US"),
           ),
@@ -674,14 +675,16 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٩. (ناو) کەسێک یان شتێک کە خاسیەت و سەرکەوتنەکانی جێگای ستایشە و ڕێز دێنێت بۆ کەسێک یان شتێکی دیکە"),
-          SentencesRow(englishText: "She is a credit to the school.",
-          kurdishText: "جێگای شانازی قوتابخانەکەیە.",
+          SentencesRow(
+            englishText: "She is a credit to the school.",
+            kurdishText: "جێگای شانازی قوتابخانەکەیە.",
             onPressedBritish: () => speakcredits17("en-GB"),
             onPressedAmerican: () => speakcredits17("en-US"),
           ),
           const DividerSentences(),
-          SentencesRow(englishText: "Your children are a great credit to you.",
-          kurdishText: "منداڵەکانت جێگای شانازیتن.",
+          SentencesRow(
+            englishText: "Your children are a great credit to you.",
+            kurdishText: "منداڵەکانت جێگای شانازیتن.",
             onPressedBritish: () => speakcredits18("en-GB"),
             onPressedAmerican: () => speakcredits18("en-US"),
           ),
@@ -718,7 +721,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "Your account has been credited with £50 000.",
             englishNote: "Or: £50 000 has been credited to your account.",
-kurdishText: "ھەژمارەکەت ٥٠٠٠٠ پاوەندی تێخراوە.",
+            kurdishText: "ھەژمارەکەت ٥٠٠٠٠ پاوەندی تێخراوە.",
             onPressedBritish: () => speakcredits22("en-GB"),
             onPressedAmerican: () => speakcredits22("en-US"),
           ),
@@ -806,8 +809,9 @@ kurdishText: "ھەژمارەکەت ٥٠٠٠٠ پاوەندی تێخراوە.",
           const DefinitionKurdish(
               text:
                   "١٣. (کردار) باوەڕکردن بەوەی کەسێک یان شتێک خاسیەتێک یان تایبەتمەندییەکی ھەیە"),
-          SentencesRow(englishText: "Credit me with some intelligence.",
-          kurdishText: "کەمێک ژیریم لێ ڕاببینە.",
+          SentencesRow(
+            englishText: "Credit me with some intelligence.",
+            kurdishText: "کەمێک ژیریم لێ ڕاببینە.",
             onPressedBritish: () => speakcredits27("en-GB"),
             onPressedAmerican: () => speakcredits27("en-US"),
           ),
@@ -1004,15 +1008,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1044,15 +1042,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1084,15 +1076,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1124,15 +1110,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1164,15 +1144,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -1204,15 +1178,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

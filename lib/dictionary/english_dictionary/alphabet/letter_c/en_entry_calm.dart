@@ -317,30 +317,30 @@ class EnglishEntrycalm extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "Her voice was surprisingly calm.",
-kurdishText:
-                                                    "دەنگی بەشێوەیەکی سەرنجڕاکێش ھێمن بوو.",
-  onPressedBritish: () =>
-                                                speakcalms3("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcalms3("en-US"),
+                                    englishText:
+                                        "Her voice was surprisingly calm.",
+                                    kurdishText:
+                                        "دەنگی بەشێوەیەکی سەرنجڕاکێش ھێمن بوو.",
+                                    onPressedBritish: () =>
+                                        speakcalms3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalms3("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "The city is calm again (= free from trouble and fighting) after yesterday's riots.",
-kurdishText:
-                                                    "لە دوای ئاڵۆزییەکانی دوێنێ شارەکە دووبارە ئارامە.",
-  onPressedBritish: () =>
-                                                speakcalms4("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcalms4("en-US"),
+                                    englishText:
+                                        "The city is calm again (= free from trouble and fighting) after yesterday's riots.",
+                                    kurdishText:
+                                        "لە دوای ئاڵۆزییەکانی دوێنێ شارەکە دووبارە ئارامە.",
+                                    onPressedBritish: () =>
+                                        speakcalms4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalms4("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          ],
-),
-],
-),
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
@@ -404,48 +404,56 @@ kurdishText:
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "Calm had been restored to the capital.",
-kurdishText:
-                                                    "ئارامی گەڕێندرایەوە بۆ پایتەخت.",
-  onPressedBritish: () =>
-                                                speakcalms11("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcalms11("en-US"),
+                                    englishText:
+                                        "Calm had been restored to the capital.",
+                                    kurdishText:
+                                        "ئارامی گەڕێندرایەوە بۆ پایتەخت.",
+                                    onPressedBritish: () =>
+                                        speakcalms11("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalms11("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text: "٦. (ناو) کاتێک کە ھیچ بایەک نییە"),
+                                  SentencesRow(
+                                    englishText: "They landed in a flat calm.",
+                                    kurdishText:
+                                        "لە ھێمنییەکی تەواودا نیشتنەوە.",
+                                    onPressedBritish: () =>
+                                        speakcalms12("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalms12("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٧. (ناو) ھەڵسوکەوتی لەسەرخۆ و بێ‌دەنگ"),
+                                  SentencesRow(
+                                    englishText:
+                                        "He struggled to maintain his calm as they waited.",
+                                    kurdishText:
+                                        "نەیدەتوانی شێنەیی خۆی بپارێزێت کە چاوەڕێ بوون.",
+                                    onPressedBritish: () =>
+                                        speakcalms13("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalms13("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "Under his apparent calm lay real anxiety.",
+                                    kurdishText:
+                                        "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakcalms14("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcalms14("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٦. (ناو) کاتێک کە ھیچ بایەک نییە"),
-                          SentencesRow(
-                            englishText: "They landed in a flat calm.",
-                            kurdishText: "لە ھێمنییەکی تەواودا نیشتنەوە.",
-                            onPressedBritish: () => speakcalms12("en-GB"),
-                            onPressedAmerican: () => speakcalms12("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٧. (ناو) ھەڵسوکەوتی لەسەرخۆ و بێ‌دەنگ"),
-                          SentencesRow(
-                            englishText:
-                                "He struggled to maintain his calm as they waited.",
-                            kurdishText:
-                                "نەیدەتوانی شێنەیی خۆی بپارێزێت کە چاوەڕێ بوون.",
-                            onPressedBritish: () => speakcalms13("en-GB"),
-                            onPressedAmerican: () => speakcalms13("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Under his apparent calm lay real anxiety.",
-                            kurdishText:
-                                "لەژێر ئارامییە ڕووکەشییەکەی نیگەرانییەکی تەواو ھەیە.",
-                            onPressedBritish: () => speakcalms14("en-GB"),
-                            onPressedAmerican: () => speakcalms14("en-US"),
-                          ),
-                          ],
-),
-],
-),
                         ],
                       ),
                     ),
@@ -608,15 +616,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -648,15 +650,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -688,15 +684,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -728,15 +718,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -768,15 +752,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -808,15 +786,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -848,15 +820,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -888,15 +854,9 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -928,15 +888,9 @@ class YoutubeEmbeddednine extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

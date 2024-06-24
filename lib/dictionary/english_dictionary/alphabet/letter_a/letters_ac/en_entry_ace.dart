@@ -128,13 +128,13 @@ class EnglishEntryace extends StatelessWidget {
                           const DefinitionKurdish(
                               text: "١. (کردار) سەرکەوتووبوون لە شتێک" ""),
                           SentencesRow(
-  englishText: "He aced all his tests.",
-  kurdishText:
-                                            "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو.",
-onPressedBritish: () => speaka256981("en-GB"),
-onPressedAmerican: () =>
-                                        speaka256981("en-US"), // REPLACE ace
-                                  ),
+                            englishText: "He aced all his tests.",
+                            kurdishText:
+                                "لە ھەموو تاقیکردنەوەکانی سەرکەوتووبوو.",
+                            onPressedBritish: () => speaka256981("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka256981("en-US"), // REPLACE ace
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٢. (ناو) کاردێکی یاریی کۆنکان بە سمبولێکی گەورەوە لە ناوەڕاستی کە دەکرێت گەورەترین یان نزمترین بەھای ھەبێت"""),
@@ -142,36 +142,34 @@ onPressedAmerican: () =>
                           const DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە زۆرباشە لە کردنی شتێک"""),
                           SentencesRow(
-  englishText:
-                                            "French ace Mbappé scored a penalty.",
-  kurdishText:
-                                            "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ.",
-onPressedBritish: () => speaka82694("en-GB"),
-onPressedAmerican: () =>
-                                        speaka82694("en-US"), // REPLACE ace
-                                  ),
+                            englishText: "French ace Mbappé scored a penalty.",
+                            kurdishText:
+                                "بلیمەتەکەی فەرەنسا، مباپێ، لێدانێکی سزای کرد بە گۆڵ.",
+                            onPressedBritish: () => speaka82694("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka82694("en-US"), // REPLACE ace
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٤. (ناو) لە یاری تێنسدا، یەکەم سێرڤە کە ھێندە خێرایە دەبێت بە خاڵ """),
                           SentencesRow(
-  englishText:
-                                            "He served 20 aces in the match.",
-  kurdishText:
-                                            "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد.",
-onPressedBritish: () => speaka12748("en-GB"),
-onPressedAmerican: () =>
-                                        speaka12748("en-US"), // REPLACE ace
-                                  ),
+                            englishText: "He served 20 aces in the match.",
+                            kurdishText:
+                                "لە یارییەکەدا ٢٠ جار ھەر بە یەکەم لێدان خاڵی تۆمارکرد.",
+                            onPressedBritish: () => speaka12748("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka12748("en-US"), // REPLACE ace
+                          ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٥. (ھاوەڵناو) زۆرباش """),
                           SentencesRow(
-  englishText: "We had an ace time.",
-  kurdishText: "کاتێکی زۆرخۆشمان ھەبوو.",
-onPressedBritish: () => speaka19437("en-GB"),
-onPressedAmerican: () =>
-                                        speaka19437("en-US"), // REPLACE ace
-                                  ),
+                            englishText: "We had an ace time.",
+                            kurdishText: "کاتێکی زۆرخۆشمان ھەبوو.",
+                            onPressedBritish: () => speaka19437("en-GB"),
+                            onPressedAmerican: () =>
+                                speaka19437("en-US"), // REPLACE ace
+                          ),
                         ],
                       ),
                     ),
@@ -329,15 +327,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -369,15 +361,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -409,15 +395,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -449,15 +429,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -489,15 +463,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -529,15 +497,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -569,15 +531,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

@@ -624,6 +624,31 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
 // new youtube
 // new youtube
 
+class YouTubeVideosScaffold extends StatelessWidget {
+  final YoutubePlayerController controller;
+  final VoidCallback onReloadVideo;
+
+  const YouTubeVideosScaffold({
+    super.key,
+    required this.controller,
+    required this.onReloadVideo,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: StatefulBuilder(
+        builder: (context, setState) {
+          return YouTubeVideosContainer(
+            controller: controller,
+            onReloadVideo: onReloadVideo,
+          );
+        },
+      ),
+    );
+  }
+}
+
 class YouTubeVideosContainer extends StatelessWidget {
   final YoutubePlayerController controller;
   final VoidCallback onReloadVideo;
@@ -682,6 +707,31 @@ class YouTubeVideosContainer extends StatelessWidget {
           if (_showIndicator) // Conditionally show the indicator
             const NextVideoIndicator(),
         ],
+      ),
+    );
+  }
+}
+
+class YouTubeVideosScaffoldEnd extends StatelessWidget {
+  final YoutubePlayerController controller;
+  final VoidCallback onReloadVideo;
+
+  const YouTubeVideosScaffoldEnd({
+    super.key,
+    required this.controller,
+    required this.onReloadVideo,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: StatefulBuilder(
+        builder: (context, setState) {
+          return YouTubeVideosContainerEnd(
+            controller: controller,
+            onReloadVideo: onReloadVideo,
+          );
+        },
       ),
     );
   }

@@ -209,60 +209,64 @@ class EnglishEntrycareful extends StatelessWidget {
                               MyExpansionTile(
                                 children: [
                                   SentencesRow(
-  englishText:
-                                                    "He's been careful to avoid significant debt.",
-kurdishText:
-                                                    "بە ئاگایە لەوەی لە قەرزی زۆر بە دوور بێت.",
-  onPressedBritish: () =>
-                                                speakcarefuls3("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcarefuls3("en-US"),
+                                    englishText:
+                                        "He's been careful to avoid significant debt.",
+                                    kurdishText:
+                                        "بە ئاگایە لەوەی لە قەرزی زۆر بە دوور بێت.",
+                                    onPressedBritish: () =>
+                                        speakcarefuls3("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcarefuls3("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "Be careful what you say.",
-kurdishText: "ئاگادار بە چی دەڵێیت.",
-  onPressedBritish: () =>
-                                                speakcarefuls4("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcarefuls4("en-US"),
+                                    englishText: "Be careful what you say.",
+                                    kurdishText: "ئاگادار بە چی دەڵێیت.",
+                                    onPressedBritish: () =>
+                                        speakcarefuls4("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcarefuls4("en-US"),
                                   ),
                                   const DividerSentences(),
                                   SentencesRow(
-  englishText:
-                                                    "Be particularly careful when swimming in the lake.",
-kurdishText:
-                                                    "تەواو ئاگادار بە کە لە دەریاچەکە مەلە دەکەیت.",
-  onPressedBritish: () =>
-                                                speakcarefuls5("en-GB"),
-  onPressedAmerican: () =>
-                                                speakcarefuls5("en-US"),
+                                    englishText:
+                                        "Be particularly careful when swimming in the lake.",
+                                    kurdishText:
+                                        "تەواو ئاگادار بە کە لە دەریاچەکە مەلە دەکەیت.",
+                                    onPressedBritish: () =>
+                                        speakcarefuls5("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcarefuls5("en-US"),
+                                  ),
+                                  const DividerDefinition(),
+                                  const DefinitionKurdish(
+                                      text:
+                                          "٢. (ھاوەڵناو) پێدانی سەرنجی زۆر بە وردەکاری"),
+                                  SentencesRow(
+                                    englishText:
+                                        "A successful party requires careful planning.",
+                                    kurdishText:
+                                        "ئاھەنگێکی سەرکەوتووانە پێویستی بە پلانی ورد ھەیە.",
+                                    onPressedBritish: () =>
+                                        speakcarefuls6("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcarefuls6("en-US"),
+                                  ),
+                                  const DividerSentences(),
+                                  SentencesRow(
+                                    englishText:
+                                        "She made a careful analysis of the evidence.",
+                                    kurdishText:
+                                        "شیکارییەکی وردی بەڵگەکەی کرد.",
+                                    onPressedBritish: () =>
+                                        speakcarefuls7("en-GB"),
+                                    onPressedAmerican: () =>
+                                        speakcarefuls7("en-US"),
+                                  ),
+                                ],
+                              ),
+                            ],
                           ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ھاوەڵناو) پێدانی سەرنجی زۆر بە وردەکاری"),
-                          SentencesRow(
-                            englishText:
-                                "A successful party requires careful planning.",
-                            kurdishText:
-                                "ئاھەنگێکی سەرکەوتووانە پێویستی بە پلانی ورد ھەیە.",
-                            onPressedBritish: () => speakcarefuls6("en-GB"),
-                            onPressedAmerican: () => speakcarefuls6("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "She made a careful analysis of the evidence.",
-                            kurdishText: "شیکارییەکی وردی بەڵگەکەی کرد.",
-                            onPressedBritish: () => speakcarefuls7("en-GB"),
-                            onPressedAmerican: () => speakcarefuls7("en-US"),
-                          ),
-                          ],
-),
-],
-),
                         ],
                       ),
                     ),
@@ -451,15 +455,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -491,15 +489,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -531,15 +523,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -571,15 +557,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -611,15 +591,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -651,15 +625,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -691,15 +659,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

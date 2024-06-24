@@ -98,14 +98,14 @@ class EnglishEntrychipcard extends StatelessWidget {
                               text:
                                   "١. (ناو) کارتێکی زانیاری بچووک کە زانیاری بە شێوەی ئەلیکترۆنی لەسەر کۆگاکراوە و بە ئامێرێک زانیارییەکانی ناوی دەخوێنرێتەوە"),
                           SentencesRow(
-  englishText:
-                                            "Overall, chip cards are more secure than magnetic cards.",
-kurdishText:
-                                          "بەشێوەیەکی گشتی کارتی زیرەک سەلامتترە لە کارتی ماگنێتیک.",
-                                      kurdishNote:
-                                          "کارتی ماگنێتیک زانیارییەکانی لەسەر نووسراوە", // chip card",
-                                    onPressedBritish: () => speakchipcards1("en-GB"),
-onPressedAmerican: () => speakchipcards1("en-US"),
+                            englishText:
+                                "Overall, chip cards are more secure than magnetic cards.",
+                            kurdishText:
+                                "بەشێوەیەکی گشتی کارتی زیرەک سەلامتترە لە کارتی ماگنێتیک.",
+                            kurdishNote:
+                                "کارتی ماگنێتیک زانیارییەکانی لەسەر نووسراوە", // chip card",
+                            onPressedBritish: () => speakchipcards1("en-GB"),
+                            onPressedAmerican: () => speakchipcards1("en-US"),
                           ),
                         ],
                       ),
@@ -282,15 +282,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -322,15 +316,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -362,15 +350,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -402,15 +384,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -442,15 +418,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -482,15 +452,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -522,15 +486,9 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

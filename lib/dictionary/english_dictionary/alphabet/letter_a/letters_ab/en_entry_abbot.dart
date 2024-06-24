@@ -242,32 +242,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Under the abbot's leadership, the monastery flourished as a center of prayer and learning."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabbot112456("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabbot112456("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Under the abbot's leadership, the monastery flourished as a center of prayer and learning.",
+            kurdishText:
+                "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون.",
+            onPressedBritish: () => speakabbot112456("en-GB"),
+            onPressedAmerican: () => speakabbot112456("en-US"),
           ),
         ],
       ),

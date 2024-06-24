@@ -266,114 +266,36 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێھێنان، وەلانان
 """),
           const DefinitionKurdish(text: "١. (کردار) جێھێشتنی کەسێک/شتێک" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The baby had been abandoned by its mother."),
-                    ExampleSentenceKurdish(
-                        text: "منداڵەکە لەلایەن دایکی جێھێڵدرابوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak145632("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak145632("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The baby had been abandoned by its mother.",
+            kurdishText: "منداڵەکە لەلایەن دایکی جێھێڵدرابوو.",
+            onPressedBritish: () => speak145632("en-GB"),
+            onPressedAmerican: () => speak145632("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Snow forced many drivers to abandon their vehicles."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak4522369("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak4522369("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Snow forced many drivers to abandon their vehicles.",
+            kurdishText:
+                "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن.",
+            onPressedBritish: () => speak4522369("en-GB"),
+            onPressedAmerican: () => speak4522369("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) وەستان لە کردنی شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "They abandoned the match because of rain."),
-                    ExampleSentenceKurdish(
-                        text: "یارییەکەیان وەستاند بەھۆی باران بارین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak112547("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak112547("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "They abandoned the match because of rain.",
+            kurdishText: "یارییەکەیان وەستاند بەھۆی باران بارین.",
+            onPressedBritish: () => speak112547("en-GB"),
+            onPressedAmerican: () => speak112547("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) وەستان لە باوەڕبوون بە شتێک"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Germany abandoned its political leaders after WWII."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka664("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka664("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Germany abandoned its political leaders after WWII.",
+            kurdishText:
+                "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان.",
+            onPressedBritish: () => speaka664("en-GB"),
+            onPressedAmerican: () => speaka664("en-US"),
           ),
         ],
       ),

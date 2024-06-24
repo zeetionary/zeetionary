@@ -346,60 +346,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Most decent people abhor corruption in government."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka64("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka64("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Most decent people abhor corruption in government.",
+            kurdishText:
+                "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا.",
+            onPressedBritish: () => speaka64("en-GB"),
+            onPressedAmerican: () => speaka64("en-US"),
           ),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She abhors any form of cruelty towards animals."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text: "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka246("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka246("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She abhors any form of cruelty towards animals.",
+            kurdishText: "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان.",
+            onPressedBritish: () => speaka246("en-GB"),
+            onPressedAmerican: () => speaka246("en-US"),
           ),
         ],
       ),

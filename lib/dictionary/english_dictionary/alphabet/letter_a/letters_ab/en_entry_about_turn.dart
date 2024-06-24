@@ -335,32 +335,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. بە تەواوی گۆڕینی بۆچوون، ڕەفتار، یان پلان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The government did an about-turn over nuclear energy."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka3775("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka3775("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The government did an about-turn over nuclear energy.",
+            kurdishText: "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی.",
+            onPressedBritish: () => speaka3775("en-GB"),
+            onPressedAmerican: () => speaka3775("en-US"),
           ),
         ],
       ),

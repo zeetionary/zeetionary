@@ -347,60 +347,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) شتێک یان ڕەفتارێک کە ئاسایی و گونجاو نییە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "a temporary aberration of his exhausted mind"),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text: "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab996("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab996("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "a temporary aberration of his exhausted mind",
+            kurdishText: "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو.",
+            onPressedBritish: () => speakab996("en-GB"),
+            onPressedAmerican: () => speakab996("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A childless woman was regarded as an aberration, almost a social outcast."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab16("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab16("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A childless woman was regarded as an aberration, almost a social outcast.",
+            kurdishText:
+                "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو.",
+            onPressedBritish: () => speakab16("en-GB"),
+            onPressedAmerican: () => speakab16("en-US"),
           ),
         ],
       ),

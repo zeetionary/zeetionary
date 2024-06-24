@@ -337,32 +337,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabattoir2215("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabattoir2215("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin.",
+            kurdishText:
+                "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن.",
+            onPressedBritish: () => speakabattoir2215("en-GB"),
+            onPressedAmerican: () => speakabattoir2215("en-US"),
           ),
         ],
       ),

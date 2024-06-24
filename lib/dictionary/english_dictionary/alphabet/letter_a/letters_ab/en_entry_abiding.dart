@@ -339,33 +339,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ھاوەڵناو) کاتێک ھەستێک یان باوەڕێک بۆ ماوەیەکی زۆر بەبێ گۆڕان بەردەوام دەبێت"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He is an artist with an abiding concern for humanity."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka625("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka625("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He is an artist with an abiding concern for humanity.",
+            kurdishText:
+                "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی.",
+            onPressedBritish: () => speaka625("en-GB"),
+            onPressedAmerican: () => speaka625("en-US"),
           ),
         ],
       ),

@@ -354,59 +354,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (کردار) وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He abdicated in favour of his son."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab576("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab576("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He abdicated in favour of his son.",
+            kurdishText: "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی.",
+            onPressedBritish: () => speakab576("en-GB"),
+            onPressedAmerican: () => speakab576("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She was forced to abdicate the throne of Spain."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab5346("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab5346("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was forced to abdicate the throne of Spain.",
+            kurdishText: "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت.",
+            onPressedBritish: () => speakab5346("en-GB"),
+            onPressedAmerican: () => speakab5346("en-US"),
           ),
         ],
       ),

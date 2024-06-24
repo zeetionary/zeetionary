@@ -341,60 +341,20 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. (کردار) ڕقبوون لە شتێک تا ئەو ئاستەی حەز ناکەیت لەگەڵیان بیت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can't abide people with no sense of humour."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka62("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka62("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can't abide people with no sense of humour.",
+            kurdishText:
+                "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن.",
+            onPressedBritish: () => speaka62("en-GB"),
+            onPressedAmerican: () => speaka62("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can’t abide people who look down on others."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text:
-                            "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دیکە دەکەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka92("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka92("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can’t abide people who look down on others.",
+            kurdishText:
+                "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دیکە دەکەن.",
+            onPressedBritish: () => speaka92("en-GB"),
+            onPressedAmerican: () => speaka92("en-US"),
           ),
         ],
       ),

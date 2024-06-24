@@ -356,88 +356,31 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) کرداری کۆتاییھێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "the country's strict abortion laws"),
-                    ExampleSentenceKurdish(
-                        text: "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka449("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka449("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "the country's strict abortion laws",
+            kurdishText: "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن.",
+            onPressedBritish: () => speaka449("en-GB"),
+            onPressedAmerican: () => speaka449("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ناو) پڕۆسەی تەندرووستی بۆ لەباربردنی منداڵ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She decided to have an abortion."),
-                    ExampleSentenceKurdish(
-                        text: "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka112("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka112("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She decided to have an abortion.",
+            kurdishText: "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا.",
+            onPressedBritish: () => speaka112("en-GB"),
+            onPressedAmerican: () => speaka112("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٣. (ناو) کردەی لەدایکبوونی منداڵی پێشوەختە بە مردوویی؛ لەبارچوون"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Higher amounts of caffeine may be associated with increased rates of abortion and low birthweight."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka692("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka692("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Higher amounts of caffeine may be associated with increased rates of abortion and low birthweight.",
+            kurdishText:
+                "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون.",
+            onPressedBritish: () => speaka692("en-GB"),
+            onPressedAmerican: () => speaka692("en-US"),
           ),
         ],
       ),

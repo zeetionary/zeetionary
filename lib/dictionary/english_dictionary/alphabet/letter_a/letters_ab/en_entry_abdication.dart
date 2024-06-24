@@ -347,32 +347,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) کرداری وازھێنان لە پۆستی پاشایی یان شاژنی"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "the chain of events leading to the king's abdication"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab1125("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab1125("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "the chain of events leading to the king's abdication",
+            kurdishText:
+                "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو.",
+            onPressedBritish: () => speakab1125("en-GB"),
+            onPressedAmerican: () => speakab1125("en-US"),
           ),
         ],
       ),

@@ -353,86 +353,27 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) پەیوەندیدار بە وڵاتێکی بیانی"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She worked abroad for a year."),
-                    ExampleSentenceKurdish(
-                        text: "لە دەرەوەی وڵات بۆ ساڵێک کاری کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka3459("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka3459("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She worked abroad for a year.",
+            kurdishText: "لە دەرەوەی وڵات بۆ ساڵێک کاری کرد.",
+            onPressedBritish: () => speaka3459("en-GB"),
+            onPressedAmerican: () => speaka3459("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was famous, both at home and abroad."),
-                    ExampleSentenceKurdish(
-                        text: "لە ناوەوە و دەرەوەی وڵات بەناوبانگ بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2569("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2569("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was famous, both at home and abroad.",
+            kurdishText: "لە ناوەوە و دەرەوەی وڵات بەناوبانگ بوو.",
+            onPressedBritish: () => speaka2569("en-GB"),
+            onPressedAmerican: () => speaka2569("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) شتێک کە لەلایەن زۆر کەسەوە باس دەکرێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was news abroad that a change was coming."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab28("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab28("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There was news abroad that a change was coming.",
+            kurdishText: "ھەواڵێکی بەربڵاو ھەبوو کە گۆڕانکارییەک بەڕێوەیە.",
+            onPressedBritish: () => speakab28("en-GB"),
+            onPressedAmerican: () => speakab28("en-US"),
           ),
         ],
       ),

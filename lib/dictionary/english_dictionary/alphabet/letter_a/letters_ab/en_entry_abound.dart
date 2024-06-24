@@ -333,30 +333,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. (کردار) کاتێک شتێک بوونی ھەیە بە ژمارەیەکی زۆر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Stories about his travels abound."),
-                    ExampleSentenceKurdish(
-                        text: "گێڕانەوەکان دەربارەی گەشتەکانی زۆرن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka321("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka321("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Stories about his travels abound.",
+            kurdishText: "گێڕانەوەکان دەربارەی گەشتەکانی زۆرن.",
+            onPressedBritish: () => speaka321("en-GB"),
+            onPressedAmerican: () => speaka321("en-US"),
           ),
         ],
       ),

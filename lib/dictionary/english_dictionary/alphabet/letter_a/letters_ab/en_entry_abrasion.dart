@@ -346,58 +346,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He suffered cuts and abrasions to the face."),
-                    ExampleSentenceKurdish(
-                        text: "تووشی برین و داڕووشان بوو لەسەر ڕووخساری."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka3269("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka3269("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He suffered cuts and abrasions to the face.",
+            kurdishText: "تووشی برین و داڕووشان بوو لەسەر ڕووخساری.",
+            onPressedBritish: () => speaka3269("en-GB"),
+            onPressedAmerican: () => speaka3269("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ناو) زیانگەشتن بەڕووی شتێ بەھۆی داڕووشان"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Diamonds have extreme resistance to abrasion."),
-                    ExampleSentenceKurdish(
-                        text: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka6247("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka6247("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Diamonds have extreme resistance to abrasion.",
+            kurdishText: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان.",
+            onPressedBritish: () => speaka6247("en-GB"),
+            onPressedAmerican: () => speaka6247("en-US"),
           ),
         ],
       ),

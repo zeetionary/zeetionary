@@ -317,233 +317,74 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I can only carry two at a time."),
-                    ExampleSentenceKurdish(
-                        text: "لە یەک کاتدا تەنھا دەتوانم دووان ھەڵبگرم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak142574("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak142574("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I can only carry two at a time.",
+            kurdishText: "لە یەک کاتدا تەنھا دەتوانم دووان ھەڵبگرم.",
+            onPressedBritish: () => speak142574("en-GB"),
+            onPressedAmerican: () => speak142574("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "There's a visitor for you."),
-                    ExampleSentenceKurdish(text: "میوانێکت ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak48652("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak48652("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There's a visitor for you.",
+            kurdishText: "میوانێکت ھەیە.",
+            onPressedBritish: () => speak48652("en-GB"),
+            onPressedAmerican: () => speak48652("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "I went there on an auspicious day."),
-                    ExampleSentenceKurdish(
-                        text: "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakan142574("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakan142574("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I went there on an auspicious day.",
+            kurdishText: "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ.",
+            onPressedBritish: () => speakan142574("en-GB"),
+            onPressedAmerican: () => speakan142574("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "There's an animal on the street."),
-                    ExampleSentenceKurdish(text: "ئاژەڵێک لەسەر شەقامەکەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakan48652("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakan48652("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "There's an animal on the street.",
+            kurdishText: "ئاژەڵێک لەسەر شەقامەکەیە.",
+            onPressedBritish: () => speakan48652("en-GB"),
+            onPressedAmerican: () => speakan48652("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's a Buddhist."),
-                    ExampleSentenceKurdish(text: "ئەو بوودییە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak45287("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak45287("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's a Buddhist.",
+            kurdishText: "ئەو بوودییە.",
+            onPressedBritish: () => speak45287("en-GB"),
+            onPressedAmerican: () => speak45287("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She's an atheist."),
-                    ExampleSentenceKurdish(text: "ئەو بێ‌دینە."),
-                  ],
-                ),
-              ),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakan45287("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakan45287("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's an atheist.",
+            kurdishText: "ئەو بێ‌دینە.",
+            onPressedBritish: () => speakan45287("en-GB"),
+            onPressedAmerican: () => speakan45287("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A lion is a dangerous animal."),
-                    ExampleSentenceKurdish(text: "شێر ئاژەڵێکی دڕندەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak197524("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak197524("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A lion is a dangerous animal.",
+            kurdishText: "شێر ئاژەڵێکی دڕندەیە.",
+            onPressedBritish: () => speak197524("en-GB"),
+            onPressedAmerican: () => speak197524("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "A lion is an animal."),
-                    ExampleSentenceKurdish(text: "شێر ئاژەڵێکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakan197524("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakan197524("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A lion is an animal.",
+            kurdishText: "شێر ئاژەڵێکە.",
+            onPressedBritish: () => speakan197524("en-GB"),
+            onPressedAmerican: () => speakan197524("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "a good knowledge of French."),
-                    ExampleSentenceKurdish(
-                        text: "زانیارییەکی باشی زمانی فەرەنسی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak475968("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak475968("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "a good knowledge of French.",
+            kurdishText: "زانیارییەکی باشی زمانی فەرەنسی.",
+            onPressedBritish: () => speak475968("en-GB"),
+            onPressedAmerican: () => speak475968("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
@@ -551,52 +392,18 @@ class KurdishMeaning extends StatelessWidget {
                   "٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن"),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. لە جیاتی ژمارە یەک بەکاردێت"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I have a pen."),
-                    ExampleSentenceKurdish(text: "پێنووسێکم ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak63328("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak63328("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have a pen.",
+            kurdishText: "پێنووسێکم ھەیە.",
+            onPressedBritish: () => speak63328("en-GB"),
+            onPressedAmerican: () => speak63328("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "I have an apple."),
-                    ExampleSentenceKurdish(text: "سێوێکم ھەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakan63328("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakan63328("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I have an apple.",
+            kurdishText: "سێوێکم ھەیە.",
+            onPressedBritish: () => speakan63328("en-GB"),
+            onPressedAmerican: () => speakan63328("en-US"),
           ),
         ],
       ),

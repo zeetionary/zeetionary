@@ -234,32 +234,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) کرداری ژێھێشتنی کەسێک بەبێ ویستی گەڕانەوە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Their childhood abandonment by their mother affected their lives greatly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakaba12("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakaba12("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Their childhood abandonment by their mother affected their lives greatly.",
+            kurdishText:
+                "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو.",
+            onPressedBritish: () => speakaba12("en-GB"),
+            onPressedAmerican: () => speakaba12("en-US"),
           ),
         ],
       ),

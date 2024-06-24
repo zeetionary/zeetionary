@@ -333,31 +333,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. (کردار) یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was abetted in the deception by his wife."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text: "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabe42("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabe42("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was abetted in the deception by his wife.",
+            kurdishText: "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە.",
+            onPressedBritish: () => speakabe42("en-GB"),
+            onPressedAmerican: () => speakabe42("en-US"),
           ),
         ],
       ),

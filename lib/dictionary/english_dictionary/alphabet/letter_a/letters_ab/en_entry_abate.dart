@@ -231,30 +231,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) لەدەستدانی ھێز و لاوازبوون" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The storm showed no signs of abating."),
-                    ExampleSentenceKurdish(
-                        text: "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak1142566("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak1142566("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The storm showed no signs of abating.",
+            kurdishText: "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا.",
+            onPressedBritish: () => speak1142566("en-GB"),
+            onPressedAmerican: () => speak1142566("en-US"),
           ),
         ],
       ),

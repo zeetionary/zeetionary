@@ -335,32 +335,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) کەسێک کە جەستەیەکی ساغی ھەیە بەبێ ھیچ جۆرێکی کەمئەندامی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Military service is compulsory for every able-bodied male between 18 and 27."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab254("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab254("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Military service is compulsory for every able-bodied male between 18 and 27.",
+            kurdishText:
+                "خزمەتی سەربازی بەزۆرەملێیە بۆ کەسانی تەندرووستی 18 بۆ 27 ساڵ.",
+            onPressedBritish: () => speakab254("en-GB"),
+            onPressedAmerican: () => speakab254("en-US"),
           ),
         ],
       ),

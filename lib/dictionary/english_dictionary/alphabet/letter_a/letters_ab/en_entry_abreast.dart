@@ -338,32 +338,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ھاوەڵکار) شانبەشان ڕێکردن لەگەڵ کەسێک بە ھەمان ئاراستە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A police car drove abreast of us and signalled us to stop."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2156("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2156("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A police car drove abreast of us and signalled us to stop.",
+            kurdishText:
+                "سەیارەیەکی پۆلیس شانبەشانمان ڕۆشت و ئاماژەی بۆ کردین بوەستین.",
+            onPressedBritish: () => speaka2156("en-GB"),
+            onPressedAmerican: () => speaka2156("en-US"),
           ),
         ],
       ),

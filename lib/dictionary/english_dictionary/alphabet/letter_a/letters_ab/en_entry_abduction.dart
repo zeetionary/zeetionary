@@ -338,29 +338,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "child abduction"),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(text: "منداڵ ڕفاندن"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab664("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab664("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "child abduction",
+            kurdishText: "منداڵ ڕفاندن",
+            onPressedBritish: () => speakab664("en-GB"),
+            onPressedAmerican: () => speakab664("en-US"),
           ),
         ],
       ),

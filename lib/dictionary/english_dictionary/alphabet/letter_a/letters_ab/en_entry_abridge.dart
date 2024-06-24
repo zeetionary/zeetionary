@@ -339,32 +339,11 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has been asked to abridge the novel for radio."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab2561("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab2561("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She has been asked to abridge the novel for radio.",
+            kurdishText: "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە.",
+            onPressedBritish: () => speakab2561("en-GB"),
+            onPressedAmerican: () => speakab2561("en-US"),
           ),
         ],
       ),

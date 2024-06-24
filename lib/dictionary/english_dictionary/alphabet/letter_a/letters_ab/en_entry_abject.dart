@@ -335,31 +335,12 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: جێی بەزەیی، گوناح، زۆر خراپ، ناخۆش، سووک، نزم، چروک، ناکەس، تەرەس، ھیچ، تڕۆ، ملکەچ، خوێڕی، سەرشۆڕ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) خراپ و بەبێ ھیوا" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "the most abject slaves joined in the revolt"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab61("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab61("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "the most abject slaves joined in the revolt",
+            kurdishText:
+                "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە.",
+            onPressedBritish: () => speakab61("en-GB"),
+            onPressedAmerican: () => speakab61("en-US"),
           ),
         ],
       ),

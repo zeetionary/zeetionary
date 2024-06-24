@@ -335,30 +335,11 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: ماڵ، خانوو، بنکە، ئێورگە، ھێورگە، مەکۆ، جێگا، جێ، شوێن، جێ‌وڕێ، زێد، ئارا، ڕێ‌وشوێن
 """),
           const DefinitionKurdish(text: "١. (ناو) شوێنی ژیانی کەسێک" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You are most welcome to my humble abode."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر بەخێربێیت بۆ وارگە سادەکەم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab247("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab247("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You are most welcome to my humble abode.",
+            kurdishText: "زۆر بەخێربێیت بۆ وارگە سادەکەم.",
+            onPressedBritish: () => speakab247("en-GB"),
+            onPressedAmerican: () => speakab247("en-US"),
           ),
         ],
       ),

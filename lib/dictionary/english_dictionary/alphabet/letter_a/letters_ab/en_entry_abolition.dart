@@ -340,32 +340,13 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The report recommended the complete abolition of the tax."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab24("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab24("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The report recommended the complete abolition of the tax.",
+            kurdishText:
+                "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد.",
+            onPressedBritish: () => speakab24("en-GB"),
+            onPressedAmerican: () => speakab24("en-US"),
           ),
         ],
       ),

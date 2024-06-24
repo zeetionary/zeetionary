@@ -347,60 +347,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The cleaner has a mildly abrasive action."),
-                    ExampleSentenceKurdish(
-                        text: "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab321("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab321("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The cleaner has a mildly abrasive action.",
+            kurdishText: "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات.",
+            onPressedBritish: () => speakab321("en-GB"),
+            onPressedAmerican: () => speakab321("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Throughout his career he was known for his abrasive manner."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab254("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab254("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Throughout his career he was known for his abrasive manner.",
+            kurdishText:
+                "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە.",
+            onPressedBritish: () => speakab254("en-GB"),
+            onPressedAmerican: () => speakab254("en-US"),
           ),
         ],
       ),

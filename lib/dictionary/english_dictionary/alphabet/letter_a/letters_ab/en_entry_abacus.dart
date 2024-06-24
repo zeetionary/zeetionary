@@ -244,39 +244,19 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "In ancient times, people relied on an abacus to perform mathematical calculations."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak145287("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak145287("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "In ancient times, people relied on an abacus to perform mathematical calculations.",
+            kurdishText:
+                "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان.",
+            onPressedBritish: () => speak145287("en-GB"),
+            onPressedAmerican: () => speak145287("en-US"),
           ),
         ],
       ),
     );
   }
 }
-
 
 class EnglishMeaning extends StatefulWidget {
   const EnglishMeaning({super.key});

@@ -346,29 +346,11 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) کڵێسایەکی گەورە لەگەڵ بینای دیکە لە دەوریدا کە تێیدا ڕەبەنەکان تێیدا دەژین"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "a ruined abbey"),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(text: "کڵێسایەکی وێرانە"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabbey11452("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabbey11452("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "a ruined abbey",
+            kurdishText: "کڵێسایەکی وێرانە",
+            onPressedBritish: () => speakabbey11452("en-GB"),
+            onPressedAmerican: () => speakabbey11452("en-US"),
           ),
         ],
       ),

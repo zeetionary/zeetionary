@@ -354,85 +354,28 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێزاوی، قێزەون، ناپەسند، پیس، یەکجار ناخۆش
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) زۆر قێزەون" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The judge described the attack as an abominable crime."),
-                    ExampleSentenceKurdish(
-                        text: "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabo85("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabo85("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The judge described the attack as an abominable crime.",
+            kurdishText: "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد.",
+            onPressedBritish: () => speakabo85("en-GB"),
+            onPressedAmerican: () => speakabo85("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We were served the most abominable coffee."),
-                    ExampleSentenceKurdish(
-                        text: "ناخۆشترین قاوەمان پێشکەشکرا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabo27("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabo27("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were served the most abominable coffee.",
+            kurdishText: "ناخۆشترین قاوەمان پێشکەشکرا.",
+            onPressedBritish: () => speakabo27("en-GB"),
+            onPressedAmerican: () => speakabo27("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I think you are utterly selfish and your behaviour has been abominable."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka345("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka345("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "I think you are utterly selfish and your behaviour has been abominable.",
+            kurdishText:
+                "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە.",
+            onPressedBritish: () => speaka345("en-GB"),
+            onPressedAmerican: () => speaka345("en-US"),
           ),
         ],
       ),

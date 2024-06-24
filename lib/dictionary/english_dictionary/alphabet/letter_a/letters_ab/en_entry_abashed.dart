@@ -233,32 +233,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He glanced at Juliet accusingly and she looked abashed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak25476("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak25476("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He glanced at Juliet accusingly and she looked abashed.",
+            kurdishText:
+                "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو.",
+            onPressedBritish: () => speak25476("en-GB"),
+            onPressedAmerican: () => speak25476("en-US"),
           ),
         ],
       ),

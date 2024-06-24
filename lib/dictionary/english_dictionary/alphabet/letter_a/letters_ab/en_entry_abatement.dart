@@ -328,32 +328,13 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کەم‌بوونەوە، سووک‌بوونەوە، داشکان، نیشتنەوە، ھاتنەخوارێ، دابەزین، نزم‌بوونەوە، دامرکان،	نەھێشتن، لابردن، پێش‌گرتن
 """),
           const DefinitionKurdish(text: "١. (ناو) دامرکاندنەوەی شتێک" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The city spends £9 million a year on air pollution abatement."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "شارەکە ساڵانە ٩ ملیۆن پاوەند خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabatements1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabatements1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The city spends £9 million a year on air pollution abatement.",
+            kurdishText:
+                "شارەکە ساڵانە ٩ ملیۆن پاوەند خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا.",
+            onPressedBritish: () => speakabatements1("en-GB"),
+            onPressedAmerican: () => speakabatements1("en-US"),
           ),
         ],
       ),

@@ -400,253 +400,82 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لەسەر، لەژوور، لەبان، لە ئاسمان، لەسەرووی، لەژوور سیفر، باڵا، ژوورسەر، بەژوور، بان‌سەر، ژوورتر، بان‌تر، زۆرتر لە، پتر لە، زیاتر لە، گەورەتر، پێش‌تر، سەروو، سەرتر (کتێب و نووسراوە)
 """),
           const DefinitionKurdish(text: "١. (ئامراز) لە سەروو کەسێک/شتێک" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "We were flying above the clouds."),
-                    ExampleSentenceKurdish(
-                        text: "لە سەروو ھەورەکانەوە دەفڕین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka3447("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka3447("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "We were flying above the clouds.",
+            kurdishText: "لە سەروو ھەورەکانەوە دەفڕین.",
+            onPressedBritish: () => speaka3447("en-GB"),
+            onPressedAmerican: () => speaka3447("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "A captain in the navy ranks above a captain in the army."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاپتنێک لە ھێزی دەریایی لە سەروو کاپتنێکی سوپاوەیە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka6224("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka6224("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "A captain in the navy ranks above a captain in the army.",
+            kurdishText: "کاپتنێک لە ھێزی دەریایی لە سەروو کاپتنێکی سوپاوەیە.",
+            onPressedBritish: () => speaka6224("en-GB"),
+            onPressedAmerican: () => speaka6224("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ئامراز) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Temperatures have been above average."),
-                    ExampleSentenceKurdish(
-                        text: "پلەی گەرمی لە سەروو ڕێژەی ئاسایی بووە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka337("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka337("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Temperatures have been above average.",
+            kurdishText: "پلەی گەرمی لە سەروو ڕێژەی ئاسایی بووە.",
+            onPressedBritish: () => speaka337("en-GB"),
+            onPressedAmerican: () => speaka337("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٣. (ئامراز) کاتێک شتێک باشتر یان گرنگترە لە شتی تر"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "I rate her above most other players of her age."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەڵسەنگاندنم بۆی ئەوەیە کە باشترە لە یاریزانانی دیکەی ھاوتەمەنی خۆی."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2886("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2886("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "I rate her above most other players of her age.",
+            kurdishText:
+                "ھەڵسەنگاندنم بۆی ئەوەیە کە باشترە لە یاریزانانی دیکەی ھاوتەمەنی خۆی.",
+            onPressedBritish: () => speaka2886("en-GB"),
+            onPressedAmerican: () => speaka2886("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٤. (ئامراز) لە ئاستێک کە شتێکی لێ ناوەشێتەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She's not above lying when it suits her."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە درۆکردن بەدەر نییە کە لە بەرژەوەندی خۆی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka6641("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka6641("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She's not above lying when it suits her.",
+            kurdishText: "لە درۆکردن بەدەر نییە کە لە بەرژەوەندی خۆی بێت.",
+            onPressedBritish: () => speaka6641("en-GB"),
+            onPressedAmerican: () => speaka6641("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٥. (ھاوەڵکار) لە شوێنێکی بەرز"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Put it on the shelf above."),
-                    ExampleSentenceKurdish(text: "بیخە سەر ڕەفەکەی سەرەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2477("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2477("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Put it on the shelf above.",
+            kurdishText: "بیخە سەر ڕەفەکەی سەرەوە.",
+            onPressedBritish: () => speaka2477("en-GB"),
+            onPressedAmerican: () => speaka2477("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Seen from above the cars looked tiny."),
-                    ExampleSentenceKurdish(
-                        text: "لە سەرەوە ئۆتۆمبێلەکان وردیلانە دیاربوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak9221("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak9221("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Seen from above the cars looked tiny.",
+            kurdishText: "لە سەرەوە ئۆتۆمبێلەکان وردیلانە دیاربوون.",
+            onPressedBritish: () => speak9221("en-GB"),
+            onPressedAmerican: () => speak9221("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٦. (ھاوەڵکار) لە سەروو ڕێژەیەک، ژمارەیەک، یان ئاستێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "children aged 12 and above"),
-                    ExampleSentenceKurdish(
-                        text: "منداڵانی تەمەن ١٢ ساڵ یان زیاتر."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak1529("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak1529("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "children aged 12 and above",
+            kurdishText: "منداڵانی تەمەن ١٢ ساڵ یان زیاتر.",
+            onPressedBritish: () => speak1529("en-GB"),
+            onPressedAmerican: () => speak1529("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٧. (ھاوەڵناو) ئاماژەپێکراو لەسەرەوە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Please write to us at the above address."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "تکایە لە ڕێگای ناونیشانەکەی سەرەوەوە پەیوەندیمان پێوە بکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka1249("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka1249("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Please write to us at the above address.",
+            kurdishText:
+                "تکایە لە ڕێگای ناونیشانەکەی سەرەوەوە پەیوەندیمان پێوە بکە.",
+            onPressedBritish: () => speaka1249("en-GB"),
+            onPressedAmerican: () => speaka1249("en-US"),
           ),
         ],
       ),

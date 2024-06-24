@@ -346,32 +346,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The abbess oversaw the daily activities of the abbey, ensuring that everything ran smoothly."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak1155485("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak1155485("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The abbess oversaw the daily activities of the abbey, ensuring that everything ran smoothly.",
+            kurdishText:
+                "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو.",
+            onPressedBritish: () => speak1155485("en-GB"),
+            onPressedAmerican: () => speak1155485("en-US"),
           ),
         ],
       ),

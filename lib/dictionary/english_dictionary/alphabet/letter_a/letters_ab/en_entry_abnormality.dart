@@ -340,31 +340,12 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) تایبەتمەندییەکی کەسێک/شتێک کە ئاسایی نییە و زیانی ھەیە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "miscarriage can be caused by fetal abnormality"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka64("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka64("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "miscarriage can be caused by fetal abnormality",
+            kurdishText:
+                "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە.",
+            onPressedBritish: () => speaka64("en-GB"),
+            onPressedAmerican: () => speaka64("en-US"),
           ),
         ],
       ),

@@ -356,86 +356,28 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "You must be able to speak French for this job."),
-                    ExampleSentenceKurdish(
-                        text: "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka321("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka321("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "You must be able to speak French for this job.",
+            kurdishText: "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت.",
+            onPressedBritish: () => speaka321("en-GB"),
+            onPressedAmerican: () => speaka321("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "We're still able to get visas to come and go from Thailand."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka324("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka324("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "We're still able to get visas to come and go from Thailand.",
+            kurdishText:
+                "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین.",
+            onPressedBritish: () => speaka324("en-GB"),
+            onPressedAmerican: () => speaka324("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Are you really willing and able to do what is necessary?"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka358("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka358("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Are you really willing and able to do what is necessary?",
+            kurdishText: "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟",
+            onPressedBritish: () => speaka358("en-GB"),
+            onPressedAmerican: () => speaka358("en-US"),
           ),
         ],
       ),

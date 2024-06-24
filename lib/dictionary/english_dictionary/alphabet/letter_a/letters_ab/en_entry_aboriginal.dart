@@ -346,58 +346,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "the issue of Aboriginal land rights"),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka254("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka254("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "the issue of Aboriginal land rights",
+            kurdishText:
+                "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا.",
+            onPressedBritish: () => speaka254("en-GB"),
+            onPressedAmerican: () => speaka254("en-US"),
           ),
           const DividerSentences(),
           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ناوچەیەک پێش ئەوەی ئەورووپییەکان تێیدا دەربکەون"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "the aboriginal peoples of Canada"),
-                    ExampleSentenceKurdish(text: "دانیشتووانی ڕەسەنی کەنەدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab252("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab252("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "the aboriginal peoples of Canada",
+            kurdishText: "دانیشتووانی ڕەسەنی کەنەدا.",
+            onPressedBritish: () => speakab252("en-GB"),
+            onPressedAmerican: () => speakab252("en-US"),
           ),
         ],
       ),

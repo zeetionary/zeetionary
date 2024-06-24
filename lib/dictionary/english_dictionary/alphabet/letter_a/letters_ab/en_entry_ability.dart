@@ -371,145 +371,48 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: توانایی، تواناداری، خورتی، زۆخ، وزە، بنگە، بار، یارا، پەک، لێوەشاوەیی، شیاوێتی، بەکارھاتوویی، لێھاتوویی، جەوھەر، بەھرەمەندی، بەھرە
 """),
           const DefinitionKurdish(text: "١. (ناو) توانای ئەنجامدانی کارێک" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "People with the disease may lose their ability to communicate."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "خەڵکی بەم نەخۆشییەوە ڕەنگە توانای قسەکردن لەدەستبدەن."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka678("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka678("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "People with the disease may lose their ability to communicate.",
+            kurdishText:
+                "خەڵکی بەم نەخۆشییەوە ڕەنگە توانای قسەکردن لەدەستبدەن.",
+            onPressedBritish: () => speaka678("en-GB"),
+            onPressedAmerican: () => speaka678("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "This program has the ability to adapt to its user."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئەم پڕۆگرامە توانای ئەوەی ھەیە لەگەڵ بەکارھێنەر خۆی بگونجێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka325("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka325("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This program has the ability to adapt to its user.",
+            kurdishText:
+                "ئەم پڕۆگرامە توانای ئەوەی ھەیە لەگەڵ بەکارھێنەر خۆی بگونجێنێت.",
+            onPressedBritish: () => speaka325("en-GB"),
+            onPressedAmerican: () => speaka325("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She has an uncanny ability to predict what consumers will want."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "توانایەکی بێ وێنەی ھەیە لە پێشبینیکردنی ئەوەی کڕیاران چییان دەوێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka953("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka953("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She has an uncanny ability to predict what consumers will want.",
+            kurdishText:
+                "توانایەکی بێ وێنەی ھەیە لە پێشبینیکردنی ئەوەی کڕیاران چییان دەوێت.",
+            onPressedBritish: () => speaka953("en-GB"),
+            onPressedAmerican: () => speaka953("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ناو) ئاستی ھەبوونی شارەزاییەک یان زانیاری"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "A woman of her ability will easily find a job."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ژنێک بەو توانایەی ئەوەوە بە ئاسانی کارێک دەدۆزێتەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka458("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka458("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "A woman of her ability will easily find a job.",
+            kurdishText: "ژنێک بەو توانایەی ئەوەوە بە ئاسانی کارێک دەدۆزێتەوە.",
+            onPressedBritish: () => speaka458("en-GB"),
+            onPressedAmerican: () => speaka458("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "It's important to discover the natural abilities of each child."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "دۆزینەوەی توانای سرووشتی ھەر یەک لە منداڵەکان شتێکی گرنگە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka634("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka634("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "It's important to discover the natural abilities of each child.",
+            kurdishText:
+                "دۆزینەوەی توانای سرووشتی ھەر یەک لە منداڵەکان شتێکی گرنگە.",
+            onPressedBritish: () => speaka634("en-GB"),
+            onPressedAmerican: () => speaka634("en-US"),
           ),
         ],
       ),

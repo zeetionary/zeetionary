@@ -344,31 +344,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (کردار) بردنی کەسێک بەزۆر و نایاسایی" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had attempted to abduct the two children."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵیدابوو دوو منداڵ بڕفێنێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2285("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2285("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had attempted to abduct the two children.",
+            kurdishText: "ھەوڵیدابوو دوو منداڵ بڕفێنێت.",
+            onPressedBritish: () => speaka2285("en-GB"),
+            onPressedAmerican: () => speaka2285("en-US"),
           ),
         ],
       ),

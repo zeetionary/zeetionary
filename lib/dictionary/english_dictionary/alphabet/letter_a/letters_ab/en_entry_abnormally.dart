@@ -338,30 +338,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بەشێوەیەک کە جیاوازە لە شێوازی ئاسایی بۆ جۆرێک کە جێگەی نیگەرانییە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "abnormally high blood pressure"),
-                    ExampleSentenceKurdish(
-                        text: "پەستانی نائاسایی بەرز لە خوێندا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka97("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka97("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "abnormally high blood pressure",
+            kurdishText: "پەستانی نائاسایی بەرز لە خوێندا.",
+            onPressedBritish: () => speaka97("en-GB"),
+            onPressedAmerican: () => speaka97("en-US"),
           ),
         ],
       ),

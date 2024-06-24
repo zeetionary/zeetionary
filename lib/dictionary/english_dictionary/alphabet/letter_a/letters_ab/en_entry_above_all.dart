@@ -334,29 +334,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. بە تایبەتی، لە سەروو ھەموو شتێک"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "Above all, keep in touch."),
-                    ExampleSentenceKurdish(
-                        text: "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2196("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2196("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Above all, keep in touch.",
+            kurdishText: "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم.",
+            onPressedBritish: () => speaka2196("en-GB"),
+            onPressedAmerican: () => speaka2196("en-US"),
           ),
         ],
       ),

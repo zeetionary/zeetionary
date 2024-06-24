@@ -346,59 +346,21 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێھوودە، بێ‌ئەنجام، سەرنەکەوتوو، تێ‌شکاو، بەفیڕۆ، بێ‌بەر، سەرنەگرتوو، نەزۆک، ھەڵنەداو، پەرەنەسەندوو، ڕاگیراو لە پەرەسەندن یان گەشەسەندن‌دا
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) کارێکی شکستخواردوو" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "He tried to set up a meeting but his efforts proved abortive."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka364("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka364("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "He tried to set up a meeting but his efforts proved abortive.",
+            kurdishText:
+                "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون.",
+            onPressedBritish: () => speaka364("en-GB"),
+            onPressedAmerican: () => speaka364("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was an abortive attempt to overthrow the government."),
-                    ExampleSentenceKurdish(
-                        text: "ھەوڵێکی نەزۆک ھەبوو بۆ ڕووخاندنی حکومەت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab961("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab961("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was an abortive attempt to overthrow the government.",
+            kurdishText: "ھەوڵێکی نەزۆک ھەبوو بۆ ڕووخاندنی حکومەت.",
+            onPressedBritish: () => speakab961("en-GB"),
+            onPressedAmerican: () => speakab961("en-US"),
           ),
         ],
       ),

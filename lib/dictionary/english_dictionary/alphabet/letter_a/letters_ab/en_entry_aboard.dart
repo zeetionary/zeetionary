@@ -347,57 +347,20 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He was already aboard the plane."),
-                    ExampleSentenceKurdish(text: "پێشوەختە لەناو فڕۆکەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka28("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka28("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He was already aboard the plane.",
+            kurdishText: "پێشوەختە لەناو فڕۆکەکە بوو.",
+            onPressedBritish: () => speaka28("en-GB"),
+            onPressedAmerican: () => speaka28("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The plane crashed, killing all 157 passengers aboard."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka37("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka37("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "The plane crashed, killing all 157 passengers aboard.",
+            kurdishText:
+                "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا.",
+            onPressedBritish: () => speaka37("en-GB"),
+            onPressedAmerican: () => speaka37("en-US"),
           ),
         ],
       ),

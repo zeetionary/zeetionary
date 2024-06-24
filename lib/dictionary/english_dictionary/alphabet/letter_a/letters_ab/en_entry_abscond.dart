@@ -338,32 +338,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. ھەڵھاتن لە شوێنێک کە ڕێگەت پێنەدراوە لێی ڕابکەیت"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "She absconded from every children’s home they placed her in."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "لە ھەر خانەیەکی منداڵان ھەڵدەھات کە تێیدا دابنرایە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2143("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2143("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "She absconded from every children’s home they placed her in.",
+            kurdishText: "لە ھەر خانەیەکی منداڵان ھەڵدەھات کە تێیدا دابنرایە.",
+            onPressedBritish: () => speaka2143("en-GB"),
+            onPressedAmerican: () => speaka2143("en-US"),
           ),
         ],
       ),

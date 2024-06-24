@@ -338,29 +338,11 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (کردار) بە فەرمی کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "This tax should be abolished."),
-                    ExampleSentenceKurdish(text: "ئەم باجە دەبێت کۆتایی بێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka34("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka34("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "This tax should be abolished.",
+            kurdishText: "ئەم باجە دەبێت کۆتایی بێت.",
+            onPressedBritish: () => speaka34("en-GB"),
+            onPressedAmerican: () => speaka34("en-US"),
           ),
         ],
       ),

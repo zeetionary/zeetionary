@@ -334,29 +334,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەکی زۆر خراپ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "She treated him abominably."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر بەخراپی مامەڵەی لەگەڵ کرد."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka752("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka752("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She treated him abominably.",
+            kurdishText: "زۆر بەخراپی مامەڵەی لەگەڵ کرد.",
+            onPressedBritish: () => speaka752("en-GB"),
+            onPressedAmerican: () => speaka752("en-US"),
           ),
         ],
       ),

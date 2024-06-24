@@ -341,32 +341,12 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (ناو) کتێبێک یان نووسراوێک کە ھەندێک لە بەشەکانی لادراوە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Abridgement of this complex text was extremely difficult."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka3912("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka3912("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "Abridgement of this complex text was extremely difficult.",
+            kurdishText: "کورتکردنەوەی ئەم نووسینە ئاڵۆزە کارێکی سەخت بوو.",
+            onPressedBritish: () => speaka3912("en-GB"),
+            onPressedAmerican: () => speaka3912("en-US"),
           ),
         ],
       ),

@@ -344,59 +344,20 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) لەناکاو و چاوەڕواننەکراو"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The accident brought his career to an abrupt end."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2583("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2583("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The accident brought his career to an abrupt end.",
+            kurdishText: "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو.",
+            onPressedBritish: () => speaka2583("en-GB"),
+            onPressedAmerican: () => speaka2583("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) قسەکردن بەشێوەیەکی ناشرین، زۆرجار بە بەکارھێنانی وشەی کەمتر لەوەی پێویستە"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She was very abrupt with me in our meeting."),
-                    ExampleSentenceKurdish(
-                        text: "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka2179("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka2179("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She was very abrupt with me in our meeting.",
+            kurdishText: "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە.",
+            onPressedBritish: () => speaka2179("en-GB"),
+            onPressedAmerican: () => speaka2179("en-US"),
           ),
         ],
       ),

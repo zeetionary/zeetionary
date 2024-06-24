@@ -336,32 +336,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) کورتکردنەوەی وشە یان ناو، زۆرجار بە تەنھا بەکارھێنانی پیتەکانی سەرەتا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "When taking notes, it's helpful to abbreviate long phrases to save time and space."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabbreviate1125("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabbreviate1125("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "When taking notes, it's helpful to abbreviate long phrases to save time and space.",
+            kurdishText:
+                "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین.",
+            onPressedBritish: () => speakabbreviate1125("en-GB"),
+            onPressedAmerican: () => speakabbreviate1125("en-US"),
           ),
         ],
       ),

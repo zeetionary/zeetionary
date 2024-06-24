@@ -338,31 +338,11 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ناو) ڕقێک کە ھەتە بۆ شتێک بەھۆی ئەوەی نەگونجاوە"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He had an abhorrence of waste of any kind."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka634("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka634("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He had an abhorrence of waste of any kind.",
+            kurdishText: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو.",
+            onPressedBritish: () => speaka634("en-GB"),
+            onPressedAmerican: () => speaka634("en-US"),
           ),
         ],
       ),

@@ -321,88 +321,30 @@ class EnglishEntryboth extends StatelessWidget {
                               const DefinitionKurdish(
                                   text:
                                       "٢. (پێشناو، جێناو) شتێک و شتێکی تریش، نەک تەنھا شتێک بەڵکو شتێکی تریش."),
-                              Row(
-                                children: [
-                                  const Expanded(
-                                    child: Column(
-                                      children: [
-                                        ExampleSentenceEnglish(
-                                            text:
-                                                "Both his mother and his father will be there."),
-                                        ExampleSentenceKurdish(
-                                            text:
-                                                "ھەم دایکی و ھەم باوکی لەوێ دەبن."),
-                                      ],
-                                    ),
-                                  ),
-                                  const CustomSizedBoxForTTS(),
-                                  Column(
-                                    children: [
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakboths8("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakboths8("en-US"),
-                                      ),
-                                    ],
-                                  ),
-                                ],
+                              SentencesRow(
+                                englishText:
+                                    "Both his mother and his father will be there.",
+                                kurdishText: "ھەم دایکی و ھەم باوکی لەوێ دەبن.",
+                                onPressedBritish: () => speakboths8("en-GB"),
+                                onPressedAmerican: () => speakboths8("en-US"),
                               ),
                               const DividerSentences(),
-                              Row(
-                                children: [
-                                  const Expanded(
-                                    child: Column(
-                                      children: [
-                                        ExampleSentenceEnglish(
-                                            text:
-                                                "For this job you will need a good knowledge of both Italian and Spanish."),
-                                        ExampleSentenceKurdish(
-                                            text:
-                                                "بۆ ئەم کارە پێویستت بە زانیارییەکی باشی ھەردوو ئیتالی و ئیسپانی دەبێت."),
-                                      ],
-                                    ),
-                                  ),
-                                  const CustomSizedBoxForTTS(),
-                                  Column(
-                                    children: [
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakboths9("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakboths9("en-US"),
-                                      ),
-                                    ],
-                                  ),
-                                ],
+                              SentencesRow(
+                                englishText:
+                                    "For this job you will need a good knowledge of both Italian and Spanish.",
+                                kurdishText:
+                                    "بۆ ئەم کارە پێویستت بە زانیارییەکی باشی ھەردوو ئیتالی و ئیسپانی دەبێت.",
+                                onPressedBritish: () => speakboths9("en-GB"),
+                                onPressedAmerican: () => speakboths9("en-US"),
                               ),
                               const DividerSentences(),
-                              Row(
-                                children: [
-                                  const Expanded(
-                                    child: Column(
-                                      children: [
-                                        ExampleSentenceEnglish(
-                                            text:
-                                                "Adele not only sings but also plays the drums."),
-                                        ExampleSentenceKurdish(
-                                            text:
-                                                "ئەدێڵ نەک تەنھا گۆرانی دەڵێت بەڵکو دەھۆڵیش لێ‌دەدات."),
-                                      ],
-                                    ),
-                                  ),
-                                  const CustomSizedBoxForTTS(),
-                                  Column(
-                                    children: [
-                                      CustomIconButtonBritish(
-                                        onPressed: () => speakboths10("en-GB"),
-                                      ),
-                                      CustomIconButtonAmerican(
-                                        onPressed: () => speakboths10("en-US"),
-                                      ),
-                                    ],
-                                  ),
-                                ],
+                              SentencesRow(
+                                englishText:
+                                    "Adele not only sings but also plays the drums.",
+                                kurdishText:
+                                    "ئەدێڵ نەک تەنھا گۆرانی دەڵێت بەڵکو دەھۆڵیش لێ‌دەدات.",
+                                onPressedBritish: () => speakboths10("en-GB"),
+                                onPressedAmerican: () => speakboths10("en-US"),
                               ),
                             ],
                           ),

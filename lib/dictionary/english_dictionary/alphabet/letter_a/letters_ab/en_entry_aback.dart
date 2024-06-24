@@ -50,7 +50,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
                   background: EntryAndIPA(),
                 ),
                 automaticallyImplyLeading: false,
-                bottom: TabBar(
+                bottom: const TabBar(
                   tabs: [
                     UkIconForTab(),
                     KurdIconForTab(),

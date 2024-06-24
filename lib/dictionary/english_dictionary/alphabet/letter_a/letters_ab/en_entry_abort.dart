@@ -354,88 +354,30 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "١. (کردار) کۆتایی ھێنان بە دووگیانی و ڕێگریکردن لە گەشە و لەدایکبوونی کۆرپەلە؛ لەباربردن"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "She aborted the child due to health issues."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka22("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka22("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "She aborted the child due to health issues.",
+            kurdishText: "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە.",
+            onPressedBritish: () => speaka22("en-GB"),
+            onPressedAmerican: () => speaka22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (کردار) منداڵبوونی پێشوەختە بەجۆرێک کە منداڵەکە ڕزگاری نەبێت"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The virus can cause pregnant animals to abort."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab885("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab885("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The virus can cause pregnant animals to abort.",
+            kurdishText:
+                "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت.",
+            onPressedBritish: () => speakab885("en-GB"),
+            onPressedAmerican: () => speakab885("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٣. (کردار) کۆتاییپێھێنان بە شتێک پێش ئەوەی تەواو بێت، زۆرجار بەھۆی ئەوەی شکستی دەھێنا"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The plan was aborted at the last minute."),
-                    ExampleSentenceKurdish(
-                        text: "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab33("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab33("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The plan was aborted at the last minute.",
+            kurdishText: "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە.",
+            onPressedBritish: () => speakab33("en-GB"),
+            onPressedAmerican: () => speakab33("en-US"),
           ),
         ],
       ),

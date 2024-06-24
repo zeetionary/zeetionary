@@ -344,28 +344,11 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: زگی، سگی، ورگی، ناوزگ، ماسوولکەکانی زگ، کۆمەڵە ماسوولکەی سگ
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پەیوەندیدار بە سک" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(text: "abdominal pains"),
-                    ExampleSentenceKurdish(text: "سک ئێشە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabdo5536("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabdo5536("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "abdominal pains",
+            kurdishText: "سک ئێشە.",
+            onPressedBritish: () => speakabdo5536("en-GB"),
+            onPressedAmerican: () => speakabdo5536("en-US"),
           ),
         ],
       ),

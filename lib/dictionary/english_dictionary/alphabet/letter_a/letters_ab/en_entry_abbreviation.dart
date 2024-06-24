@@ -345,29 +345,11 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: کورت‌کردنەوە، کورتاندن، کورت‌بڕینەوە، سەرھێشتنەوە، قارس‌کردن، لێ‌دەرھێنان، کورت‌کراوی، کورتەوەکراوی
 """),
           const DefinitionKurdish(text: "١. (ناو) شێوەی کورتکراوەی شتێک" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "What's the abbreviation for this word?"),
-                    ExampleSentenceKurdish(text: "کورتکراوەی ئەم وشەیە چییە؟"),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka852("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka852("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "What's the abbreviation for this word?",
+            kurdishText: "کورتکراوەی ئەم وشەیە چییە؟",
+            onPressedBritish: () => speaka852("en-GB"),
+            onPressedAmerican: () => speaka852("en-US"),
           ),
         ],
       ),

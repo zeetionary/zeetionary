@@ -241,59 +241,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) شتێک کە جێھێڵدراوە و چیتر بەکارناھێندرێت"
                   ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The child was found abandoned but unharmed."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabandoned1577("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabandoned1577("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The child was found abandoned but unharmed.",
+            kurdishText: "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو.",
+            onPressedBritish: () => speakabandoned1577("en-GB"),
+            onPressedAmerican: () => speakabandoned1577("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "There was an abandoned supermarket trolley in the middle of the road."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabandoned47("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabandoned47("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText:
+                "There was an abandoned supermarket trolley in the middle of the road.",
+            kurdishText:
+                "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو.",
+            onPressedBritish: () => speakabandoned47("en-GB"),
+            onPressedAmerican: () => speakabandoned47("en-US"),
           ),
         ],
       ),

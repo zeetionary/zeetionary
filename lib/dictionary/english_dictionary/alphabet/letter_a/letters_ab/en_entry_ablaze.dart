@@ -368,141 +368,43 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی" ""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "The whole building was soon ablaze."),
-                    ExampleSentenceKurdish(
-                        text: "تەواوی بیناکە زوو بوو بە بڵێسە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speak258("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speak258("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The whole building was soon ablaze.",
+            kurdishText: "تەواوی بیناکە زوو بوو بە بڵێسە.",
+            onPressedBritish: () => speak258("en-GB"),
+            onPressedAmerican: () => speak258("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "Cars and buses were set ablaze during the riot."),
-                    ExampleSentenceKurdish(
-                        text:
-                            "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka256("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka256("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Cars and buses were set ablaze during the riot.",
+            kurdishText: "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران.",
+            onPressedBritish: () => speaka256("en-GB"),
+            onPressedAmerican: () => speaka256("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ڕۆشن و پڕ لە ڕەنگ"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "The trees were ablaze with the colours of autumn."),
-                    ExampleSentenceKurdish(
-                        text: "دارەکان پڕ لە ڕەنگی پایز بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab37("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab37("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "The trees were ablaze with the colours of autumn.",
+            kurdishText: "دارەکان پڕ لە ڕەنگی پایز بوون.",
+            onPressedBritish: () => speakab37("en-GB"),
+            onPressedAmerican: () => speakab37("en-US"),
           ),
           const DividerSentences(),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Every window was ablaze with light."),
-                    ExampleSentenceKurdish(
-                        text: "پەنجەرەکان پڕ لە ڕۆشنایی بوون."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka614("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka614("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Every window was ablaze with light.",
+            kurdishText: "پەنجەرەکان پڕ لە ڕۆشنایی بوون.",
+            onPressedBritish: () => speaka614("en-GB"),
+            onPressedAmerican: () => speaka614("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) پڕ لە ھەست و جۆشوخرۆشی"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "He turned to her, his eyes ablaze with love."),
-                    ExampleSentenceKurdish(
-                        text: "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speaka241("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speaka241("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "He turned to her, his eyes ablaze with love.",
+            kurdishText: "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە.",
+            onPressedBritish: () => speaka241("en-GB"),
+            onPressedAmerican: () => speaka241("en-US"),
           ),
         ],
       ),

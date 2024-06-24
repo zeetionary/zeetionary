@@ -337,31 +337,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) شتێک کە نەگونجاوە و ڕقت لا درووستدەکات"""),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text: "Racism is abhorrent to a civilized society."),
-                    // DOPSUM: WRITE A SENTENCE BELOW. COPY ROW FOR ANOTHER
-                    ExampleSentenceKurdish(
-                        text: "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(),
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakab63("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakab63("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "Racism is abhorrent to a civilized society.",
+            kurdishText: "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا.",
+            onPressedBritish: () => speakab63("en-GB"),
+            onPressedAmerican: () => speakab63("en-US"),
           ),
         ],
       ),

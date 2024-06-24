@@ -327,30 +327,11 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: 
 """),
           const DefinitionKurdish(text: "١. (ھاوەڵناو) پێنناسە"),
-          Row(
-            children: [
-              const Expanded(
-                child: Column(
-                  children: [
-                    ExampleSentenceEnglish(
-                        text:
-                            "// speakabdomens111111111111111111111111111111111"),
-                    ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
-                  ],
-                ),
-              ),
-              const CustomSizedBoxForTTS(), // With short examples define "abdomen", please follow LX instructions
-              Column(
-                children: [
-                  CustomIconButtonBritish(
-                    onPressed: () => speakabdomens1("en-GB"),
-                  ),
-                  CustomIconButtonAmerican(
-                    onPressed: () => speakabdomens1("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          SentencesRow(
+            englishText: "// speakabdomens111111111111111111111111111111111",
+            kurdishText: "رستە_رستە_رستە_رستە.",
+            onPressedBritish: () => speakabdomens1("en-GB"),
+            onPressedAmerican: () => speakabdomens1("en-US"),
           ),
         ],
       ),

@@ -19,6 +19,15 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
     super.initState();
   }
 
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("dopsum1");
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -33,7 +42,16 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
                 floating: true,
                 expandedHeight: 220.0,
                 flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: "dopsum1",
+                      // alsoEnglishWord: "also: dopsum1",
+                      britshText: "IpaUK: haʊʊʊʊʊʊʊ4",
+                      americanText: "IpaUS: haʊʊʊʊʊʊʊ4",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
                 ),
                 automaticallyImplyLeading: false,
                 bottom: const TabBar(
@@ -208,36 +226,6 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   }
 }
 
-class EntryAndIPA extends StatelessWidget {
-  EntryAndIPA({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakdopsum1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("dopsum1"); // DOPSUM: CHANGE TEXT
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: EntryPageColumn(
-        word: "dopsum1",
-        // alsoEnglishWord: "also: dopsum1",
-        britshText: "IpaUK: haʊʊʊʊʊʊʊ4",
-        americanText: "IpaUS: haʊʊʊʊʊʊʊ4",
-        onPressedBritish: () => speakdopsum1("en-GB"),
-        onPressedAmerican: () => speakdopsum1("en-US"),
-      ),
-    );
-  }
-}
-
 class KurdishMeaning extends StatelessWidget {
   KurdishMeaning({
     super.key,
@@ -245,180 +233,634 @@ class KurdishMeaning extends StatelessWidget {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakdopsum1s1(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("// speakdopsum1s100000000000000000000000000000000");
+    await flutterTts.speak("// speaksentence100000000000000000000000000000000");
   }
 
-  Future<void> speakdopsum1s2(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s200");
+    await flutterTts.speak("speaksentence200");
   }
 
-  Future<void> speakdopsum1s3(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s300");
+    await flutterTts.speak("speaksentence300");
   }
 
-  Future<void> speakdopsum1s4(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s400");
+    await flutterTts.speak("speaksentence400");
   }
 
-  Future<void> speakdopsum1s5(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s500");
+    await flutterTts.speak("speaksentence500");
   }
 
-  Future<void> speakdopsum1s6(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s600");
+    await flutterTts.speak("speaksentence600");
   }
 
-  Future<void> speakdopsum1s7(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s700");
+    await flutterTts.speak("speaksentence700");
   }
 
-  Future<void> speakdopsum1s8(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s800");
+    await flutterTts.speak("speaksentence800");
   }
 
-  Future<void> speakdopsum1s9(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s900");
+    await flutterTts.speak("speaksentence900");
   }
 
-  Future<void> speakdopsum1s10(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s_1000");
+    await flutterTts.speak("speaksentence_1000");
   }
 
-  Future<void> speakdopsum1s11(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1100");
+    await flutterTts.speak("speaksentence1100");
   }
 
-  Future<void> speakdopsum1s12(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1200");
+    await flutterTts.speak("speaksentence1200");
   }
 
-  Future<void> speakdopsum1s13(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1300");
+    await flutterTts.speak("speaksentence1300");
   }
 
-  Future<void> speakdopsum1s14(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1400");
+    await flutterTts.speak("speaksentence1400");
   }
 
-  Future<void> speakdopsum1s15(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1500");
+    await flutterTts.speak("speaksentence1500");
   }
 
-  Future<void> speakdopsum1s16(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1600");
+    await flutterTts.speak("speaksentence1600");
   }
 
-  Future<void> speakdopsum1s17(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1700");
+    await flutterTts.speak("speaksentence1700");
   }
 
-  Future<void> speakdopsum1s18(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1800");
+    await flutterTts.speak("speaksentence1800");
   }
 
-  Future<void> speakdopsum1s19(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s1900");
+    await flutterTts.speak("speaksentence1900");
   }
 
-  Future<void> speakdopsum1s20(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s_2000");
+    await flutterTts.speak("speaksentence_2000");
   }
 
-  Future<void> speakdopsum1s21(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s2100");
+    await flutterTts.speak("speaksentence2100");
   }
 
-  Future<void> speakdopsum1s22(String languageCode) async {
-    // DOPSUM: CHANGE speakdopsum1
+  Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakdopsum1s2200");
+    await flutterTts.speak("speaksentence2200");
+  }
+
+  Future<void> speaksentence23(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence2300");
+  }
+
+  Future<void> speaksentence24(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence2400");
+  }
+
+  Future<void> speaksentence25(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence2500");
+  }
+
+  Future<void> speaksentence26(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence2600");
+  }
+
+  Future<void> speaksentence27(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence2700");
+  }
+
+  Future<void> speaksentence28(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence2800");
+  }
+
+  Future<void> speaksentence29(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence2900");
+  }
+
+  Future<void> speaksentence30(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence_3000");
+  }
+
+  Future<void> speaksentence31(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3100");
+  }
+
+  Future<void> speaksentence32(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3200");
+  }
+
+  Future<void> speaksentence33(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3300");
+  }
+
+  Future<void> speaksentence34(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3400");
+  }
+
+  Future<void> speaksentence35(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3500");
+  }
+
+  Future<void> speaksentence36(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3600");
+  }
+
+  Future<void> speaksentence37(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3700");
+  }
+
+  Future<void> speaksentence38(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3800");
+  }
+
+  Future<void> speaksentence39(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence3900");
+  }
+
+  Future<void> speaksentence40(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence_4000");
+  }
+
+  Future<void> speaksentence41(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4100");
+  }
+
+  Future<void> speaksentence42(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4200");
+  }
+
+  Future<void> speaksentence43(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4300");
+  }
+
+  Future<void> speaksentence44(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4400");
+  }
+
+  Future<void> speaksentence45(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4500");
+  }
+
+  Future<void> speaksentence46(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4600");
+  }
+
+  Future<void> speaksentence47(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4700");
+  }
+
+  Future<void> speaksentence48(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4800");
+  }
+
+  Future<void> speaksentence49(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence4900");
+  }
+
+  Future<void> speaksentence50(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence_6000");
+  }
+
+  Future<void> speaksentence51(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5100");
+  }
+
+  Future<void> speaksentence52(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5200");
+  }
+
+  Future<void> speaksentence53(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5300");
+  }
+
+  Future<void> speaksentence54(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5400");
+  }
+
+  Future<void> speaksentence55(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5500");
+  }
+
+  Future<void> speaksentence56(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5600");
+  }
+
+  Future<void> speaksentence57(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5700");
+  }
+
+  Future<void> speaksentence58(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5800");
+  }
+
+  Future<void> speaksentence59(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence5900");
+  }
+
+  Future<void> speaksentence60(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6000");
+  }
+
+  Future<void> speaksentence61(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6100");
+  }
+
+  Future<void> speaksentence62(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6200");
+  }
+
+  Future<void> speaksentence63(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6300");
+  }
+
+  Future<void> speaksentence64(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6400");
+  }
+
+  Future<void> speaksentence65(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6500");
+  }
+
+  Future<void> speaksentence66(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6600");
+  }
+
+  Future<void> speaksentence67(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6700");
+  }
+
+  Future<void> speaksentence68(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6800");
+  }
+
+  Future<void> speaksentence69(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence6900");
+  }
+
+  Future<void> speaksentence70(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence_7000");
+  }
+
+  Future<void> speaksentence71(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7100");
+  }
+
+  Future<void> speaksentence72(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7200");
+  }
+
+  Future<void> speaksentence73(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7300");
+  }
+
+  Future<void> speaksentence74(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7400");
+  }
+
+  Future<void> speaksentence75(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7500");
+  }
+
+  Future<void> speaksentence76(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7600");
+  }
+
+  Future<void> speaksentence77(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7700");
+  }
+
+  Future<void> speaksentence78(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7800");
+  }
+
+  Future<void> speaksentence79(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence7900");
+  }
+
+  Future<void> speaksentence80(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8000");
+  }
+
+  Future<void> speaksentence81(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8100");
+  }
+
+  Future<void> speaksentence82(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8200");
+  }
+
+  Future<void> speaksentence83(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8300");
+  }
+
+  Future<void> speaksentence84(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8400");
+  }
+
+  Future<void> speaksentence85(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8500");
+  }
+
+  Future<void> speaksentence86(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8600");
+  }
+
+  Future<void> speaksentence87(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8700");
+  }
+
+  Future<void> speaksentence88(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8800");
+  }
+
+  Future<void> speaksentence89(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence8900");
+  }
+
+  Future<void> speaksentence90(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("speaksentence9000");
   }
 
   @override
@@ -434,199 +876,758 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
           SentencesRow(
             englishText:
-                """// speakdopsum1s100000000000000000000000000000000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""", // dopsum1
-            onPressedBritish: () => speakdopsum1s1("en-GB"),
-            onPressedAmerican: () => speakdopsum1s1("en-US"),
+                """// speaksentence100000000000000000000000000000000""",
+            kurdishText: """رستە_رستە_رستە_رستە.""", 
+// With short examples define "dopsum1", please follow LX instructions
+            onPressedBritish: () => speaksentence1("en-GB"),
+            onPressedAmerican: () => speaksentence1("en-US"),
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s200""",
+          //   englishText: """speaksentence200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s2("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s2("en-US" ""),
+          //   onPressedBritish: () => speaksentence2("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence2("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s300""",
+          //   englishText: """speaksentence300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s3("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s3("en-US" ""),
+          //   onPressedBritish: () => speaksentence3("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence3("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s400""",
+          //   englishText: """speaksentence400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s4("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s4("en-US" ""),
+          //   onPressedBritish: () => speaksentence4("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence4("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s500""",
+          //   englishText: """speaksentence500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s5("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s5("en-US" ""),
+          //   onPressedBritish: () => speaksentence5("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence5("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s600""",
+          //   englishText: """speaksentence600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s6("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s6("en-US" ""),
+          //   onPressedBritish: () => speaksentence6("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence6("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s700""",
+          //   englishText: """speaksentence700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s7("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s7("en-US" ""),
+          //   onPressedBritish: () => speaksentence7("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence7("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s800""",
+          //   englishText: """speaksentence800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s8("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s8("en-US" ""),
+          //   onPressedBritish: () => speaksentence8("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence8("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s900""",
+          //   englishText: """speaksentence900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s9("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s9("en-US" ""),
+          //   onPressedBritish: () => speaksentence9("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence9("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s_1000""",
+          //   englishText: """speaksentence_1000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s10("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s10("en-US" ""),
+          //   onPressedBritish: () => speaksentence10("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence10("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1100""",
+          //   englishText: """speaksentence1100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s11("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s11("en-US" ""),
+          //   onPressedBritish: () => speaksentence11("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence11("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1200""",
+          //   englishText: """speaksentence1200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s12("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s12("en-US" ""),
+          //   onPressedBritish: () => speaksentence12("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence12("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1300""",
+          //   englishText: """speaksentence1300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s13("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s13("en-US" ""),
+          //   onPressedBritish: () => speaksentence13("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence13("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1400""",
+          //   englishText: """speaksentence1400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s14("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s14("en-US" ""),
+          //   onPressedBritish: () => speaksentence14("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence14("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1500""",
+          //   englishText: """speaksentence1500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s15("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s15("en-US" ""),
+          //   onPressedBritish: () => speaksentence15("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence15("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1600""",
+          //   englishText: """speaksentence1600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s16("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s16("en-US" ""),
+          //   onPressedBritish: () => speaksentence16("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence16("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1700""",
+          //   englishText: """speaksentence1700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s17("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s17("en-US" ""),
+          //   onPressedBritish: () => speaksentence17("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence17("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1800""",
+          //   englishText: """speaksentence1800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s18("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s18("en-US" ""),
+          //   onPressedBritish: () => speaksentence18("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence18("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s1900""",
+          //   englishText: """speaksentence1900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s19("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s19("en-US" ""),
+          //   onPressedBritish: () => speaksentence19("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence19("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s_2000""",
+          //   englishText: """speaksentence_2000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s20("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s20("en-US" ""),
+          //   onPressedBritish: () => speaksentence20("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence20("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s2100""",
+          //   englishText: """speaksentence2100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s21("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s21("en-US" ""),
+          //   onPressedBritish: () => speaksentence21("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence21("en-US" ""),
           // ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
-          //   englishText: """speakdopsum1s2200""",
+          //   englishText: """speaksentence2200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s22("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s22("en-US" ""),
+          //   onPressedBritish: () => speaksentence22("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence22("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence2300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence23("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence23("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence2400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence24("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence24("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence2500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence25("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence25("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence2600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence26("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence26("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence2700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence27("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence27("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence2800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence28("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence28("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence2900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence29("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence29("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence_3000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence30("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence30("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence31("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence31("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence32("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence32("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence33("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence33("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence34("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence34("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence35("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence35("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence36("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence36("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence37("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence37("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence38("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence38("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence3900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence39("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence39("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence_4000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence40("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence40("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence41("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence41("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence42("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence42("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence43("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence43("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence44("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence44("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence45("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence45("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence46("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence46("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence47("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence47("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence48("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence48("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence4900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence49("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence49("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence_6000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence50("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence50("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence51("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence51("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence52("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence52("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence53("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence53("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence54("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence54("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence55("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence55("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence56("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence56("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence57("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence57("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence58("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence58("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence5900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence59("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence59("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence60("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence60("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence61("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence61("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence62("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence62("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence63("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence63("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence64("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence64("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence65("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence65("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence66("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence66("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence67("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence67("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence68("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence68("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence6900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence69("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence69("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence_7000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence70("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence70("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence71("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence71("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence72("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence72("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence73("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence73("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence74("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence74("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7500""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence75("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence75("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7600""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence76("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence76("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7700""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence77("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence77("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7800""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence78("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence78("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence7900""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence79("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence79("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence8000""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence80("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence80("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence8100""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence81("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence81("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence8200""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence82("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence82("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence8300""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence83("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence83("en-US" ""),
+          // ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """speaksentence8400""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence84("en-GB" ""),
+          //   onPressedAmerican: () => speaksentence84("en-US" ""),
           // ),
         ],
       ),
@@ -670,7 +1671,7 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 
-speakdopsum1 EnglishEntrydopsum1 dopsum1
+speakheadword EnglishEntrydopsum1 dopsum1
 WORD_WEB dopsum1 dopsum1 dopsum1
 haʊʊʊʊʊʊʊ4
 """,
@@ -700,7 +1701,7 @@ haʊʊʊʊʊʊʊ4
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -734,7 +1735,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -768,7 +1769,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   const YoutubeEmbeddedtwo({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -802,7 +1803,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   const YoutubeEmbeddedthree({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -836,7 +1837,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   const YoutubeEmbeddedfour({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -870,7 +1871,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   const YoutubeEmbeddedfive({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -904,7 +1905,8 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   const YoutubeEmbeddedsix({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
+// speaksentence100000000000000000000000000000000
   final double _startSeconds = 000;
 
   @override
@@ -969,7 +1971,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 class YoutubeEmbeddedseven extends StatelessWidget {
   const YoutubeEmbeddedseven({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1003,7 +2005,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
 class YoutubeEmbeddedeight extends StatelessWidget {
   const YoutubeEmbeddedeight({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1037,7 +2039,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
 class YoutubeEmbeddednine extends StatelessWidget {
   const YoutubeEmbeddednine({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1071,7 +2073,7 @@ class YoutubeEmbeddednine extends StatelessWidget {
 class YoutubeEmbeddedten extends StatelessWidget {
   const YoutubeEmbeddedten({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 0;
 
   @override
@@ -1105,7 +2107,7 @@ class YoutubeEmbeddedten extends StatelessWidget {
 class YoutubeEmbeddedeleven extends StatelessWidget {
   const YoutubeEmbeddedeleven({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1139,7 +2141,7 @@ class YoutubeEmbeddedeleven extends StatelessWidget {
 class YoutubeEmbeddedtwelve extends StatelessWidget {
   const YoutubeEmbeddedtwelve({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1173,7 +2175,7 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 class YoutubeEmbeddedthirteen extends StatelessWidget {
   const YoutubeEmbeddedthirteen({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1207,7 +2209,7 @@ class YoutubeEmbeddedthirteen extends StatelessWidget {
 class YoutubeEmbeddeddfourteen extends StatelessWidget {
   const YoutubeEmbeddeddfourteen({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1241,7 +2243,7 @@ class YoutubeEmbeddeddfourteen extends StatelessWidget {
 class YoutubeEmbeddedfifteen extends StatelessWidget {
   const YoutubeEmbeddedfifteen({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1275,7 +2277,7 @@ class YoutubeEmbeddedfifteen extends StatelessWidget {
 class YoutubeEmbeddeddsixteen extends StatelessWidget {
   const YoutubeEmbeddeddsixteen({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1309,7 +2311,7 @@ class YoutubeEmbeddeddsixteen extends StatelessWidget {
 class YoutubeEmbeddeddseventeen extends StatelessWidget {
   const YoutubeEmbeddeddseventeen({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1343,7 +2345,7 @@ class YoutubeEmbeddeddseventeen extends StatelessWidget {
 class YoutubeEmbeddeddeighteen extends StatelessWidget {
   const YoutubeEmbeddeddeighteen({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1377,7 +2379,7 @@ class YoutubeEmbeddeddeighteen extends StatelessWidget {
 class YoutubeEmbeddeddnineteen extends StatelessWidget {
   const YoutubeEmbeddeddnineteen({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 0;
 
   @override
@@ -1411,7 +2413,7 @@ class YoutubeEmbeddeddnineteen extends StatelessWidget {
 class YoutubeEmbeddedtwenty extends StatelessWidget {
   const YoutubeEmbeddedtwenty({super.key});
 
-  final String _videoId = 'PUT_VIDEO_ID';
+  final String _videoId = 'VIDEOID';
   final double _startSeconds = 000;
 
   @override
@@ -1567,1124 +2569,3 @@ class YoutubeEmbeddedmulti extends StatelessWidget {
     );
   }
 }
-
-// tttttttttttttttttttttttttttttttttttttttttttttt  تتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتتت
-
-  // Future<void> speakdopsum1s23(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2300");
-  // }
-
-  // Future<void> speakdopsum1s24(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2400");
-  // }
-
-  // Future<void> speakdopsum1s25(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2500");
-  // }
-
-  // Future<void> speakdopsum1s26(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2600");
-  // }
-
-  // Future<void> speakdopsum1s27(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2700");
-  // }
-
-  // Future<void> speakdopsum1s28(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2800");
-  // }
-
-  // Future<void> speakdopsum1s29(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s2900");
-  // }
-
-  // Future<void> speakdopsum1s30(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_3000");
-  // }
-
-  // Future<void> speakdopsum1s31(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3100");
-  // }
-
-  // Future<void> speakdopsum1s32(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3200");
-  // }
-
-  // Future<void> speakdopsum1s33(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3300");
-  // }
-
-  // Future<void> speakdopsum1s34(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3400");
-  // }
-
-  // Future<void> speakdopsum1s35(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3500");
-  // }
-
-  // Future<void> speakdopsum1s36(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3600");
-  // }
-
-  // Future<void> speakdopsum1s37(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3700");
-  // }
-
-  // Future<void> speakdopsum1s38(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3800");
-  // }
-
-  // Future<void> speakdopsum1s39(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s3900");
-  // }
-
-  // Future<void> speakdopsum1s40(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_4000");
-  // }
-
-  // Future<void> speakdopsum1s41(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4100");
-  // }
-
-  // Future<void> speakdopsum1s42(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4200");
-  // }
-
-  // Future<void> speakdopsum1s43(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4300");
-  // }
-
-  // Future<void> speakdopsum1s44(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4400");
-  // }
-
-  // Future<void> speakdopsum1s45(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4500");
-  // }
-
-  // Future<void> speakdopsum1s46(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4600");
-  // }
-
-  // Future<void> speakdopsum1s47(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4700");
-  // }
-
-  // Future<void> speakdopsum1s48(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4800");
-  // }
-
-  // Future<void> speakdopsum1s49(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s4900");
-  // }
-
-  // Future<void> speakdopsum1s50(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_6000");
-  // }
-
-  // Future<void> speakdopsum1s51(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5100");
-  // }
-
-  // Future<void> speakdopsum1s52(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5200");
-  // }
-
-  // Future<void> speakdopsum1s53(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5300");
-  // }
-
-  // Future<void> speakdopsum1s54(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5400");
-  // }
-
-  // Future<void> speakdopsum1s55(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5500");
-  // }
-
-  // Future<void> speakdopsum1s56(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5600");
-  // }
-
-  // Future<void> speakdopsum1s57(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5700");
-  // }
-
-  // Future<void> speakdopsum1s58(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5800");
-  // }
-
-  // Future<void> speakdopsum1s59(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s5900");
-  // }
-
-  // Future<void> speakdopsum1s60(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6000");
-  // }
-
-  // Future<void> speakdopsum1s61(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6100");
-  // }
-
-  // Future<void> speakdopsum1s62(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6200");
-  // }
-
-  // Future<void> speakdopsum1s63(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6300");
-  // }
-
-  // Future<void> speakdopsum1s64(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6400");
-  // }
-
-  // Future<void> speakdopsum1s65(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6500");
-  // }
-
-  // Future<void> speakdopsum1s66(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6600");
-  // }
-
-  // Future<void> speakdopsum1s67(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6700");
-  // }
-
-  // Future<void> speakdopsum1s68(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6800");
-  // }
-
-  // Future<void> speakdopsum1s69(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s6900");
-  // }
-
-  // Future<void> speakdopsum1s70(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s_7000");
-  // }
-
-  // Future<void> speakdopsum1s71(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7100");
-  // }
-
-  // Future<void> speakdopsum1s72(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7200");
-  // }
-
-  // Future<void> speakdopsum1s73(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7300");
-  // }
-
-  // Future<void> speakdopsum1s74(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7400");
-  // }
-
-  // Future<void> speakdopsum1s75(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7500");
-  // }
-
-  // Future<void> speakdopsum1s76(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7600");
-  // }
-
-  // Future<void> speakdopsum1s77(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7700");
-  // }
-
-  // Future<void> speakdopsum1s78(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7800");
-  // }
-
-  // Future<void> speakdopsum1s79(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s7900");
-  // }
-
-  // Future<void> speakdopsum1s80(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8000");
-  // }
-
-  // Future<void> speakdopsum1s81(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8100");
-  // }
-
-  // Future<void> speakdopsum1s82(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8200");
-  // }
-
-  // Future<void> speakdopsum1s83(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8300");
-  // }
-
-  // Future<void> speakdopsum1s84(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8400");
-  // }
-
-  // Future<void> speakdopsum1s85(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8500");
-  // }
-
-  // Future<void> speakdopsum1s86(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8600");
-  // }
-
-  // Future<void> speakdopsum1s87(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8700");
-  // }
-
-  // Future<void> speakdopsum1s88(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8800");
-  // }
-
-  // Future<void> speakdopsum1s89(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s8900");
-  // }
-
-  // Future<void> speakdopsum1s90(String languageCode) async {
-  //   // DOPSUM: CHANGE speakdopsum1
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("speakdopsum1s9000");
-  // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // rrrrrrrrrrrrrrrrrrrrrrrrrrrr ررررررررررررررررررررررررر
-
-  
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s2300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s23("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s23("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s2400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s24("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s24("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s2500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s25("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s25("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s2600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s26("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s26("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s2700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s27("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s27("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s2800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s28("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s28("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s2900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s29("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s29("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s_3000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s30("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s30("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s31("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s31("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s32("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s32("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s33("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s33("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s34("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s34("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s35("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s35("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s36("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s36("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s37("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s37("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s38("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s38("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s3900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s39("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s39("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s_4000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s40("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s40("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s41("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s41("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s42("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s42("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s43("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s43("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s44("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s44("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s45("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s45("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s46("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s46("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s47("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s47("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s48("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s48("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s4900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s49("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s49("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s_6000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s50("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s50("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s51("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s51("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s52("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s52("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s53("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s53("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s54("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s54("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s55("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s55("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s56("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s56("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s57("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s57("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s58("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s58("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s5900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s59("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s59("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s60("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s60("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s61("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s61("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s62("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s62("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s63("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s63("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s64("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s64("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s65("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s65("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s66("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s66("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s67("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s67("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s68("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s68("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s6900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s69("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s69("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s_7000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s70("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s70("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s71("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s71("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s72("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s72("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s73("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s73("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s74("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s74("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s75("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s75("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s76("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s76("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s77("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s77("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s78("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s78("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s7900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s79("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s79("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s8000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s80("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s80("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s8100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s81("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s81("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s8200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s82("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s82("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s8300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s83("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s83("en-US" ""),
-          // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakdopsum1s8400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speakdopsum1s84("en-GB" ""),
-          //   onPressedAmerican: () => speakdopsum1s84("en-US" ""),
-          // ),

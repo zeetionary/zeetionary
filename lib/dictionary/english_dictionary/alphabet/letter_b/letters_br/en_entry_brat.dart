@@ -276,12 +276,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -310,12 +305,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -344,12 +334,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -378,12 +363,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -412,12 +392,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -446,12 +421,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -480,12 +450,7 @@ class YoutubeEmbeddedseven extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -514,12 +479,7 @@ class YoutubeEmbeddedeight extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {

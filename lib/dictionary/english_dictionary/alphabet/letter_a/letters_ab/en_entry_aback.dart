@@ -33,6 +33,16 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
   //   await SentenceDatabase.instance.initialize();
   // }
 
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakaback(String languageCode) async {
+    // DOPSUM: CHANGE speakaback
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("aback");
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -47,7 +57,16 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
                 floating: true,
                 expandedHeight: 220.0,
                 flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: "aback",
+                      alsoEnglishWord: "also: aback",
+                      britshText: "IpaUK: /əˈbæk/",
+                      americanText: "IpaUS: /əˈbæk/",
+                      onPressedBritish: () => speakaback("en-GB"),
+                      onPressedAmerican: () => speakaback("en-US"),
+                    ),
+                  ),
                 ),
                 automaticallyImplyLeading: false,
                 bottom: const TabBar(
@@ -217,36 +236,6 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   }
 }
 
-class EntryAndIPA extends StatelessWidget {
-  EntryAndIPA({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakaback(String languageCode) async {
-    // DOPSUM: CHANGE speakaback
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("aback"); // DOPSUM: CHANGE TEXT
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: EntryPageColumn(
-        word: "aback",
-        // alsoEnglishWord: "also: aback",
-        britshText: "IpaUK: /əˈbæk/",
-        americanText: "IpaUS: /əˈbæk/",
-        onPressedBritish: () => speakaback("en-GB"),
-        onPressedAmerican: () => speakaback("en-US"),
-      ),
-    );
-  }
-}
-
 class KurdishMeaning extends StatelessWidget {
   KurdishMeaning({
     super.key,
@@ -259,8 +248,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "She was completely taken aback by his anger."); // DOPSUM: CHANGE TEXT
+    await flutterTts.speak("She was completely taken aback by his anger.");
   }
 
   @override
@@ -431,12 +419,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -465,12 +448,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {

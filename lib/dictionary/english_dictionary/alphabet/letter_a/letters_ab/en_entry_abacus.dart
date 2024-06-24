@@ -19,6 +19,16 @@ class _EnglishEntryabacusState extends State<EnglishEntryabacus> {
     super.initState();
   }
 
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabacus(String languageCode) async {
+    // DOPSUM: CHANGE speakabacus
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("abacus");
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -33,7 +43,16 @@ class _EnglishEntryabacusState extends State<EnglishEntryabacus> {
                 floating: true,
                 expandedHeight: 220.0,
                 flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: "abacus",
+                      // alsoEnglishWord: "also: abacus",
+                      britshText: "IpaUK: /ˈæbəkəs/",
+                      americanText: "IpaUS: /ˈæbəkəs/",
+                      onPressedBritish: () => speakabacus("en-GB"),
+                      onPressedAmerican: () => speakabacus("en-US"),
+                    ),
+                  ),
                 ),
                 automaticallyImplyLeading: false,
                 bottom: const TabBar(
@@ -183,36 +202,6 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   }
 }
 
-class EntryAndIPA extends StatelessWidget {
-  EntryAndIPA({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakabacus(String languageCode) async {
-    // DOPSUM: CHANGE speakabacus
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abacus");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: EntryPageColumn(
-        word: "abacus",
-        // alsoEnglishWord: "also: abacus",
-        britshText: "IpaUK: /ˈæbəkəs/",
-        americanText: "IpaUS: /ˈæbəkəs/",
-        onPressedBritish: () => speakabacus("en-GB"),
-        onPressedAmerican: () => speakabacus("en-US"),
-      ),
-    );
-  }
-}
-
 class KurdishMeaning extends StatelessWidget {
   KurdishMeaning({
     super.key,
@@ -340,12 +329,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -374,12 +358,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -408,12 +387,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {

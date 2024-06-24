@@ -19,6 +19,16 @@ class _EnglishEntryabandonState extends State<EnglishEntryabandon> {
     super.initState();
   }
 
+  final FlutterTts flutterTts = FlutterTts();
+
+  Future<void> speakabandon(String languageCode) async {
+    // DOPSUM: CHANGE speakabandon
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("abandon");
+  }
+
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -33,7 +43,16 @@ class _EnglishEntryabandonState extends State<EnglishEntryabandon> {
                 floating: true,
                 expandedHeight: 220.0,
                 flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: "abandon",
+                      // alsoEnglishWord: "also: abandon",
+                      britshText: "IpaUK: /əˈbændən/",
+                      americanText: "IpaUS: /əˈbændən/",
+                      onPressedBritish: () => speakabandon("en-GB"),
+                      onPressedAmerican: () => speakabandon("en-US"),
+                    ),
+                  ),
                 ),
                 automaticallyImplyLeading: false,
                 bottom: const TabBar(
@@ -180,36 +199,6 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   void dispose() {
     flutterTts.stop();
     super.dispose();
-  }
-}
-
-class EntryAndIPA extends StatelessWidget {
-  EntryAndIPA({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakabandon(String languageCode) async {
-    // DOPSUM: CHANGE speakabandon
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandon");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: EntryPageColumn(
-        word: "abandon",
-        // alsoEnglishWord: "also: abandon",
-        britshText: "IpaUK: /əˈbændən/",
-        americanText: "IpaUS: /əˈbændən/",
-        onPressedBritish: () => speakabandon("en-GB"),
-        onPressedAmerican: () => speakabandon("en-US"),
-      ),
-    );
   }
 }
 
@@ -402,12 +391,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -436,12 +420,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -470,12 +449,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {

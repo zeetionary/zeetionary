@@ -624,6 +624,26 @@ class YouTubeContainerDesignEnd extends StatelessWidget {
 // new youtube
 // new youtube
 
+// https://chatgpt.com/c/a588ca57-5cec-42a1-9605-fa3efb5f27b3
+// params: defaultYoutubePlayerParams, // Using the constant here
+const defaultYoutubePlayerParams = YoutubePlayerParams(
+  enableCaption: true,
+  captionLanguage: 'en',
+  showControls: false,
+  strictRelatedVideos: true,
+);
+
+// params: getDefaultYoutubePlayerParams(), // Using the helper function here
+YoutubePlayerParams getDefaultYoutubePlayerParams() {
+  return const YoutubePlayerParams(
+    enableCaption: true,
+    captionLanguage: 'en',
+    showControls: false,
+    strictRelatedVideos: true,
+    
+  );
+}
+
 class YouTubeVideosScaffold extends StatelessWidget {
   final YoutubePlayerController controller;
   final VoidCallback onReloadVideo;

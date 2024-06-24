@@ -877,7 +877,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """// speaksentence100000000000000000000000000000000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""", 
+            kurdishText: """رستە_رستە_رستە_رستە.""",
 // With short examples define "emulation", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
@@ -1712,12 +1712,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -1746,12 +1741,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -1780,12 +1770,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -1814,12 +1799,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -1848,12 +1828,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -1882,12 +1857,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
@@ -1917,12 +1887,7 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       videoId: _videoId,
       startSeconds: _startSeconds,
       autoPlay: true,
-      params: const YoutubePlayerParams(
-        enableCaption: true,
-        captionLanguage: 'en',
-        showControls: false,
-        strictRelatedVideos: true,
-      ),
+      params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {

@@ -1482,11 +1482,11 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // alphabet/letter_e/en_entry_emu.dart' show EnglishEntryemu
 // alphabet/letter_e/en_entry_emulate.dart' show EnglishEntryemulate
 // alphabet/letter_e/en_entry_emulation.dart' show EnglishEntryemulation
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
+// alphabet/letter_e/en_entry_emulsifier.dart' show EnglishEntryemulsifier
+// alphabet/letter_e/en_entry_emulsion.dart' show EnglishEntryemulsion
+// alphabet/letter_e/en_entry_enable.dart' show EnglishEntryenable
+// alphabet/letter_e/en_entry_enabled.dart' show EnglishEntryenabled
+// alphabet/letter_e/en_entry_enamel.dart' show EnglishEntryenamel
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry

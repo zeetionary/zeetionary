@@ -640,7 +640,6 @@ YoutubePlayerParams getDefaultYoutubePlayerParams() {
     captionLanguage: 'en',
     showControls: false,
     strictRelatedVideos: true,
-    
   );
 }
 
@@ -1161,8 +1160,6 @@ class ListViewSeparator extends StatelessWidget {
 // }
 
 // // decoration and animation https://chat.openai.com/c/34cd41ff-6232-4eb7-9c26-e00b688e867b
-
-
 
 class EntryPageColumn extends StatelessWidget {
   final String word;

@@ -297,52 +297,47 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) کە ھەموو ڕۆژێک ڕوودەدات"),
-SentencesRow(
-  englishText: "Many people still read a daily newspaper.",
-kurdishText: "زۆر کەس ھێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە.", // daily
-onPressedBritish: () => speakdailys1("en-GB"),
-  onPressedAmerican: () => speakdailys1("en-US"),
-                  ),
+          SentencesRow(
+            englishText: "Many people still read a daily newspaper.",
+            kurdishText:
+                "زۆر کەس ھێشتا ڕۆژنامەیەکی ڕۆژانە دەخوێننەوە.", // daily
+            onPressedBritish: () => speakdailys1("en-GB"),
+            onPressedAmerican: () => speakdailys1("en-US"),
+          ),
           const DividerSentences(),
           SentencesRow(
-  englishText:
-                            "The daily routine is the same for all prisoners.",
-kurdishText:
-                            "The daily routine is the same for all prisoners..",
-                    onPressedBritish: () => speakdailys2("en-GB"),
-  onPressedAmerican: () => speakdailys2("en-US"),
-                  ),
+            englishText: "The daily routine is the same for all prisoners.",
+            kurdishText: "The daily routine is the same for all prisoners..",
+            onPressedBritish: () => speakdailys2("en-GB"),
+            onPressedAmerican: () => speakdailys2("en-US"),
+          ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
                   SentencesRow(
-  englishText:
-                                    "Keep a record of your daily activities.",
-kurdishText: "تۆمارێکی چالاکییەکانی ڕۆژانەت ڕابگرە.",
-onPressedBritish: () => speakdailys3("en-GB"),
-onPressedAmerican: () => speakdailys3("en-US"),
-                          ),
+                    englishText: "Keep a record of your daily activities.",
+                    kurdishText: "تۆمارێکی چالاکییەکانی ڕۆژانەت ڕابگرە.",
+                    onPressedBritish: () => speakdailys3("en-GB"),
+                    onPressedAmerican: () => speakdailys3("en-US"),
+                  ),
                   const DividerSentences(),
                   SentencesRow(
-  englishText:
-                                    "There are daily flights from Dublin to Barcelona.",
-kurdishText:
-                                    "گەشتی ڕۆژانە ھەیە لە دبلنەوە بۆ بارشەلۆنە.",
-onPressedBritish: () => speakdailys4("en-GB"),
-onPressedAmerican: () => speakdailys4("en-US"),
-                          ),
-                    
+                    englishText:
+                        "There are daily flights from Dublin to Barcelona.",
+                    kurdishText: "گەشتی ڕۆژانە ھەیە لە دبلنەوە بۆ بارشەلۆنە.",
+                    onPressedBritish: () => speakdailys4("en-GB"),
+                    onPressedAmerican: () => speakdailys4("en-US"),
+                  ),
                   const DividerSentences(),
                   SentencesRow(
-  englishText:
-                                    "The simple things of daily living are often the biggest challenges for him.",
-kurdishText:
-                                    "سادەترین شتەکانی ژیانی ڕۆژانە گەورەترین کێشەکانن بۆ ئەو.",
-onPressedBritish: () => speakdailys5("en-GB"),
-onPressedAmerican: () => speakdailys5("en-US"),
-                          ),
-                    
+                    englishText:
+                        "The simple things of daily living are often the biggest challenges for him.",
+                    kurdishText:
+                        "سادەترین شتەکانی ژیانی ڕۆژانە گەورەترین کێشەکانن بۆ ئەو.",
+                    onPressedBritish: () => speakdailys5("en-GB"),
+                    onPressedAmerican: () => speakdailys5("en-US"),
+                  ),
                 ],
               ),
             ],
@@ -351,35 +346,35 @@ onPressedAmerican: () => speakdailys5("en-US"),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار بە کاری یەک ڕۆژ"),
           SentencesRow(
-  englishText: "They charge a daily rate.",
-kurdishText: "پارە بەشێوەی ڕۆژانە وەردەگرن.",
-                    onPressedBritish: () => speakdailys6("en-GB"),
-  onPressedAmerican: () => speakdailys6("en-US"),
+            englishText: "They charge a daily rate.",
+            kurdishText: "پارە بەشێوەی ڕۆژانە وەردەگرن.",
+            onPressedBritish: () => speakdailys6("en-GB"),
+            onPressedAmerican: () => speakdailys6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵکار) ھەموو ڕۆژێک"),
-SentencesRow(
-  englishText: "The machines are inspected twice daily.",
-kurdishText: "ئامێرەکان دوو جار لە ڕۆژێکدا دەپشکندرێن.",
-                    onPressedBritish: () => speakdailys7("en-GB"),
-  onPressedAmerican: () => speakdailys7("en-US"),
-                  ),
+          SentencesRow(
+            englishText: "The machines are inspected twice daily.",
+            kurdishText: "ئامێرەکان دوو جار لە ڕۆژێکدا دەپشکندرێن.",
+            onPressedBritish: () => speakdailys7("en-GB"),
+            onPressedAmerican: () => speakdailys7("en-US"),
+          ),
           const DividerSentences(),
           SentencesRow(
-  englishText: "The temperature was recorded daily.",
-kurdishText: "پلەی گەرمیم بەشێوەی ڕۆژانە تۆماردەکرا.",
-                    onPressedBritish: () => speakdailys8("en-GB"),
-  onPressedAmerican: () => speakdailys8("en-US"),
+            englishText: "The temperature was recorded daily.",
+            kurdishText: "پلەی گەرمیم بەشێوەی ڕۆژانە تۆماردەکرا.",
+            onPressedBritish: () => speakdailys8("en-GB"),
+            onPressedAmerican: () => speakdailys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) ڕۆژنامەیەک کە ھەموو ڕۆژێک جگە لە یەکشەممان بڵاودەکرێتەوە"),
-SentencesRow(
-  englishText: "The story was in all the dailies.",
-kurdishText: "بابەتەکە لەسەر ھەموو ڕۆژنامە ڕۆژانەییەکان بوو.",
-                    onPressedBritish: () => speakdailys9("en-GB"),
-  onPressedAmerican: () => speakdailys9("en-US"),
+          SentencesRow(
+            englishText: "The story was in all the dailies.",
+            kurdishText: "بابەتەکە لەسەر ھەموو ڕۆژنامە ڕۆژانەییەکان بوو.",
+            onPressedBritish: () => speakdailys9("en-GB"),
+            onPressedAmerican: () => speakdailys9("en-US"),
           ),
         ],
       ),
@@ -496,15 +491,9 @@ class YoutubeEmbeddedend extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainerEnd(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffoldEnd(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -536,15 +525,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -576,15 +559,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -616,15 +593,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -656,15 +627,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -696,15 +661,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -736,15 +695,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

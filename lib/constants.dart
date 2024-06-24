@@ -274,7 +274,7 @@ class _YouTubeScrollerState extends State<YouTubeScroller> {
                               ),
                               child: Text(
                                 '${index + 1}',
-                                style: const TextStyle(fontSize: 12),
+                                style: const TextStyle(fontSize: 16),
                               ),
                             ),
                           );

@@ -797,15 +797,9 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainerEnd(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffoldEnd(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

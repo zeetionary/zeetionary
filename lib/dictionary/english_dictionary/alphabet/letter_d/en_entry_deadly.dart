@@ -309,89 +309,83 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١. (ھاوەڵناو) کوشندە؛ کە مردنی لێدەکەوێتەوە ئان ئەگەری ھەیە"),
-SentencesRow(
-  englishText:
-                            "He was charged with possession of a deadly weapon.",
-kurdishText: "تاوانبارکرا بە ھەڵگرتنی چەکی کوشندە.", // deadly
-onPressedBritish: () => speakdeadlys1("en-GB"),
-  onPressedAmerican: () => speakdeadlys1("en-US"),
-                  ),
+          SentencesRow(
+            englishText: "He was charged with possession of a deadly weapon.",
+            kurdishText: "تاوانبارکرا بە ھەڵگرتنی چەکی کوشندە.", // deadly
+            onPressedBritish: () => speakdeadlys1("en-GB"),
+            onPressedAmerican: () => speakdeadlys1("en-US"),
+          ),
           const DividerSentences(),
           SentencesRow(
-  englishText:
-                            "The cobra is one of the world's deadliest snakes.",
-kurdishText:
-                            "کوبرا یەکێکە لە ھەرە کوشندەترین مارەکانی جیھان.",
-                    onPressedBritish: () => speakdeadlys2("en-GB"),
-  onPressedAmerican: () => speakdeadlys2("en-US"),
-                  ),
+            englishText: "The cobra is one of the world's deadliest snakes.",
+            kurdishText: "کوبرا یەکێکە لە ھەرە کوشندەترین مارەکانی جیھان.",
+            onPressedBritish: () => speakdeadlys2("en-GB"),
+            onPressedAmerican: () => speakdeadlys2("en-US"),
+          ),
           SentencesRow(
-  englishText:
-                            "The terrorists have chosen to play a deadly game with the civilian population.",
-kurdishText:
-                            "تیرۆریستەکان بڕیاریان داوە یارییەکی کوشندە لەگەڵ دانیشتووانە مەدەنییەکە بکەن.",
-                    onPressedBritish: () => speakdeadlys3("en-GB"),
-  onPressedAmerican: () => speakdeadlys3("en-US"),
+            englishText:
+                "The terrorists have chosen to play a deadly game with the civilian population.",
+            kurdishText:
+                "تیرۆریستەکان بڕیاریان داوە یارییەکی کوشندە لەگەڵ دانیشتووانە مەدەنییەکە بکەن.",
+            onPressedBritish: () => speakdeadlys3("en-GB"),
+            onPressedAmerican: () => speakdeadlys3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بە ئاستێکی زۆر"),
           SentencesRow(
-  englishText: "We sat in deadly silence.",
-kurdishText: "لە بێ دەنگییەکی تەواودا دانیشتین.",
-                    onPressedBritish: () => speakdeadlys4("en-GB"),
-  onPressedAmerican: () => speakdeadlys4("en-US"),
-                  ),
+            englishText: "We sat in deadly silence.",
+            kurdishText: "لە بێ دەنگییەکی تەواودا دانیشتین.",
+            onPressedBritish: () => speakdeadlys4("en-GB"),
+            onPressedAmerican: () => speakdeadlys4("en-US"),
+          ),
           const DividerSentences(),
           SentencesRow(
-  englishText:
-                            "They are deadly enemies (= are full of hatred for each other).",
-kurdishText: "دووژمنی سەرسەختن.",
-                    onPressedBritish: () => speakdeadlys5("en-GB"),
-  onPressedAmerican: () => speakdeadlys5("en-US"),
-                  ),
+            englishText:
+                "They are deadly enemies (= are full of hatred for each other).",
+            kurdishText: "دووژمنی سەرسەختن.",
+            onPressedBritish: () => speakdeadlys5("en-GB"),
+            onPressedAmerican: () => speakdeadlys5("en-US"),
+          ),
           const DividerSentences(),
           SentencesRow(
-  englishText:
-                            "The missile found its target with deadly accuracy.",
-kurdishText: "مووشەکەکە گەشت ئامانجەکەی بە وردیی تەواوەوە.",
-                    onPressedBritish: () => speakdeadlys6("en-GB"),
-  onPressedAmerican: () => speakdeadlys6("en-US"),
+            englishText: "The missile found its target with deadly accuracy.",
+            kurdishText: "مووشەکەکە گەشت ئامانجەکەی بە وردیی تەواوەوە.",
+            onPressedBritish: () => speakdeadlys6("en-GB"),
+            onPressedAmerican: () => speakdeadlys6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) تەواو کاریگەر؛ بەشێوەیەک کە بەرگری بەرامبەری ناکرێت"),
-SentencesRow(
-  englishText:
-                            "His aim is deadly (= so accurate that he can kill easily).",
-kurdishText: "ئامانجەکەی کوشندەیە.",
-                    onPressedBritish: () => speakdeadlys7("en-GB"),
-  onPressedAmerican: () => speakdeadlys7("en-US"),
-                  ),
+          SentencesRow(
+            englishText:
+                "His aim is deadly (= so accurate that he can kill easily).",
+            kurdishText: "ئامانجەکەی کوشندەیە.",
+            onPressedBritish: () => speakdeadlys7("en-GB"),
+            onPressedAmerican: () => speakdeadlys7("en-US"),
+          ),
           const DividerSentences(),
           SentencesRow(
-  englishText: "The man possessed an absolutely deadly charm.",
-kurdishText: "پیاوەکە خاوەنی جوانییەکی تەواو بێ ھاوتا بوو.",
-                    onPressedBritish: () => speakdeadlys8("en-GB"),
-  onPressedAmerican: () => speakdeadlys8("en-US"),
+            englishText: "The man possessed an absolutely deadly charm.",
+            kurdishText: "پیاوەکە خاوەنی جوانییەکی تەواو بێ ھاوتا بوو.",
+            onPressedBritish: () => speakdeadlys8("en-GB"),
+            onPressedAmerican: () => speakdeadlys8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) زۆر بێزارکەر"),
-SentencesRow(
-  englishText: "The lecture was absolutely deadly.",
-kurdishText: "وانەکە تەواو بێزارکەر بوو.",
-                    onPressedBritish: () => speakdeadlys9("en-GB"),
-  onPressedAmerican: () => speakdeadlys9("en-US"),
+          SentencesRow(
+            englishText: "The lecture was absolutely deadly.",
+            kurdishText: "وانەکە تەواو بێزارکەر بوو.",
+            onPressedBritish: () => speakdeadlys9("en-GB"),
+            onPressedAmerican: () => speakdeadlys9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵکار) تا ئاستێکی زۆر"),
-SentencesRow(
-  englishText:
-                            "I thought she was joking but she was deadly serious.",
-kurdishText:
-                            "وام بیرکردەوە کە گاڵتە دەکات بەڵام تەواو جدی بوو.",
-                    onPressedBritish: () => speakdeadlys10("en-GB"),
-  onPressedAmerican: () => speakdeadlys10("en-US"),
+          SentencesRow(
+            englishText: "I thought she was joking but she was deadly serious.",
+            kurdishText: "وام بیرکردەوە کە گاڵتە دەکات بەڵام تەواو جدی بوو.",
+            onPressedBritish: () => speakdeadlys10("en-GB"),
+            onPressedAmerican: () => speakdeadlys10("en-US"),
           ),
         ],
       ),
@@ -516,15 +510,9 @@ class YoutubeEmbeddedend extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainerEnd(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffoldEnd(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -556,15 +544,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -596,15 +578,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -636,15 +612,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -676,15 +646,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -716,15 +680,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -756,15 +714,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

@@ -48,7 +48,7 @@ class _IrregularVerbsScreenState extends ConsumerState<IrregularVerbsScreen>
       'base': 'catch',
       'past': 'caught',
       'participle': 'caught',
-      'کوردی': 'گیران',
+      'کوردی': 'گرتن',
     },
     {
       'base': 'drive',

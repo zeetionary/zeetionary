@@ -258,42 +258,43 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text: "١. (ھاوەڵناو) سەر بە ژمارە دە، یان ژماردن بە دەیان"),
-SentencesRow(
-  englishText:
-                            "If you calculate the result to two decimal places (= give two numbers after the decimal point, as in 3.65), that should minimize any possible errors.",
-kurdishText:
-                            "ئەگەر ئەنجامەکە بدۆزیتەوە بە دوو یەکەی دەیی، ئەوە دەبێت ئەگەری ھەر ھەڵەیەک کەم بکاتەوە.",
-                    onPressedBritish: () => speakdecimals2("en-GB"),
-  onPressedAmerican: () => speakdecimals2("en-US"),
+          SentencesRow(
+            englishText:
+                "If you calculate the result to two decimal places (= give two numbers after the decimal point, as in 3.65), that should minimize any possible errors.",
+            kurdishText:
+                "ئەگەر ئەنجامەکە بدۆزیتەوە بە دوو یەکەی دەیی، ئەوە دەبێت ئەگەری ھەر ھەڵەیەک کەم بکاتەوە.",
+            onPressedBritish: () => speakdecimals2("en-GB"),
+            onPressedAmerican: () => speakdecimals2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕێژەیەک (ژمارەیەکی کەمتر لە یەک) کە بە فاریزەیەک پیشاندەدرێت لەگەڵ ژمارەی دیکە بەدوایدا"),
-SentencesRow(
-  englishText: "Three fifths expressed as a decimal is 0.6.",
-kurdishText: "سێ لە پێنج بە کەرتی دەیی بە ٠,٦ دەردەبڕدرێت.", // decimal
-onPressedBritish: () => speakdecimals1("en-GB"),
-  onPressedAmerican: () => speakdecimals1("en-US"),
-                  ),
+          SentencesRow(
+            englishText: "Three fifths expressed as a decimal is 0.6.",
+            kurdishText:
+                "سێ لە پێنج بە کەرتی دەیی بە ٠,٦ دەردەبڕدرێت.", // decimal
+            onPressedBritish: () => speakdecimals1("en-GB"),
+            onPressedAmerican: () => speakdecimals1("en-US"),
+          ),
           // const DividerSentences(),
           SentencesRow(
-  englishText: "The decimal 0.61 stands for 61 hundredths.",
-kurdishText: "ڕێژەی ٠,٦١ دەکاتە ٦١ لە سەد.",
-                    onPressedBritish: () => speakdecimals3("en-GB"),
-  onPressedAmerican: () => speakdecimals3("en-US"),
+            englishText: "The decimal 0.61 stands for 61 hundredths.",
+            kurdishText: "ڕێژەی ٠,٦١ دەکاتە ٦١ لە سەد.",
+            onPressedBritish: () => speakdecimals3("en-GB"),
+            onPressedAmerican: () => speakdecimals3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) سیستەمێکی ژمارەیی کە بە کەرتی دەیان یان دەیەمینەکان دەژمێرێت"),
-SentencesRow(
-  englishText:
-                            "The computer converts the data from decimal to binary.",
-kurdishText:
-                            "کۆمپیوتەر زانیارییەکان لە دەییەوە بۆ دوانەیی دەگۆڕێت.",
-                    onPressedBritish: () => speakdecimals4("en-GB"),
-  onPressedAmerican: () => speakdecimals4("en-US"),
+          SentencesRow(
+            englishText:
+                "The computer converts the data from decimal to binary.",
+            kurdishText:
+                "کۆمپیوتەر زانیارییەکان لە دەییەوە بۆ دوانەیی دەگۆڕێت.",
+            onPressedBritish: () => speakdecimals4("en-GB"),
+            onPressedAmerican: () => speakdecimals4("en-US"),
           ),
         ],
       ),
@@ -402,15 +403,9 @@ class YoutubeEmbeddedend extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainerEnd(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffoldEnd(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -442,15 +437,9 @@ class YoutubeEmbeddedone extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -482,15 +471,9 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -522,15 +505,9 @@ class YoutubeEmbeddedthree extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -562,15 +539,9 @@ class YoutubeEmbeddedfour extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -602,15 +573,9 @@ class YoutubeEmbeddedfive extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }
@@ -642,15 +607,9 @@ class YoutubeEmbeddedsix extends StatelessWidget {
       );
     }
 
-    return Scaffold(
-      body: StatefulBuilder(
-        builder: (context, setState) {
-          return YouTubeVideosContainer(
-            controller: controller,
-            onReloadVideo: reloadVideo,
-          );
-        },
-      ),
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
     );
   }
 }

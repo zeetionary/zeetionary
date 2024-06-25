@@ -383,8 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrippings1("en-GB"),
             onPressedAmerican: () => speakdrippings1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "His clothes were still dripping wet.",

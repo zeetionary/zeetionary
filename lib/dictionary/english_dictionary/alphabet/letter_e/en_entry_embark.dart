@@ -387,8 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarks1("en-GB"),
             onPressedAmerican: () => speakembarks1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The team embarked for Italy.""",
@@ -396,8 +394,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarks2("en-GB"),
             onPressedAmerican: () => speakembarks2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

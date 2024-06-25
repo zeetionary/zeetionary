@@ -277,8 +277,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemocracys1("en-GB"),
             onPressedAmerican: () => speakdemocracys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -299,8 +297,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemocracys3("en-GB"),
             onPressedAmerican: () => speakdemocracys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We live in a multi-party democracy.",

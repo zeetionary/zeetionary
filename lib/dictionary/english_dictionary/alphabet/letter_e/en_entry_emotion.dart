@@ -402,8 +402,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotions1("en-GB"),
             onPressedAmerican: () => speakemotions1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Fear is a normal human emotion.""",
@@ -411,8 +409,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotions2("en-GB"),
             onPressedAmerican: () => speakemotions2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -422,8 +418,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotions3("en-GB"),
             onPressedAmerican: () => speakemotions3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Mary was overcome with emotion.""",
@@ -431,8 +425,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotions4("en-GB"),
             onPressedAmerican: () => speakemotions4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He lost control of his emotions.""",

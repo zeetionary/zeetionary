@@ -276,8 +276,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepartments1("en-GB"),
             onPressedAmerican: () => speakdepartments1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -287,8 +285,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepartments2("en-GB"),
             onPressedAmerican: () => speakdepartments2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She used to work in the IT department.",
@@ -296,8 +292,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepartments3("en-GB"),
             onPressedAmerican: () => speakdepartments3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "A new member of staff has joined the department.",

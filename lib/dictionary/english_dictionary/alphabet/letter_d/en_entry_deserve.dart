@@ -270,8 +270,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeserves1("en-GB"),
             onPressedAmerican: () => speakdeserves1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The report deserves careful consideration.",
@@ -279,8 +277,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeserves2("en-GB"),
             onPressedAmerican: () => speakdeserves2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "This idea deserves more attention.",
@@ -288,8 +284,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeserves3("en-GB"),
             onPressedAmerican: () => speakdeserves3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "One player in particular deserves a mention.",

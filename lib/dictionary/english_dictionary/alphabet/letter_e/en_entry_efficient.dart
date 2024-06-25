@@ -395,8 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefficients1("en-GB"),
             onPressedAmerican: () => speakefficients1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """This is simply the most efficient way to do it.""",
@@ -404,8 +402,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefficients2("en-GB"),
             onPressedAmerican: () => speakefficients2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -415,8 +411,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefficients3("en-GB"),
             onPressedAmerican: () => speakefficients3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

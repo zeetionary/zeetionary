@@ -280,8 +280,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesirables1("en-GB"),
             onPressedAmerican: () => speakdesirables1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The house has many desirable features.",
@@ -289,8 +287,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesirables2("en-GB"),
             onPressedAmerican: () => speakdesirables2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Experience of computers is highly desirable.",
@@ -308,8 +304,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesirables4("en-GB"),
             onPressedAmerican: () => speakdesirables4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She suddenly saw herself as a desirable young woman.",

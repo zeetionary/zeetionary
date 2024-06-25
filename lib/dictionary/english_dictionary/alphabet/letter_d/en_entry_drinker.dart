@@ -388,8 +388,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrinkers1("en-GB"),
             onPressedAmerican: () => speakdrinkers1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "This liver condition is common in heavy drinkers.",

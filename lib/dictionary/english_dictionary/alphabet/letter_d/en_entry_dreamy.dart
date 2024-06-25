@@ -410,8 +410,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdreamys1("en-GB"),
             onPressedAmerican: () => speakdreamys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Her eyes looked a little dreamy.",
@@ -423,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) ھەبوونی خەون و خەیاڵی زۆر کە زۆر ڕاستی نیین"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "Paul was dreamy and not very practical.",
             kurdishText: "پاوڵ زیاتر خەیاڵاوی بوو و ھێندە کرداری نەبوو.",

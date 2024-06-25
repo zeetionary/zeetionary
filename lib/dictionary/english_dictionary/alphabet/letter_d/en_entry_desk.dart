@@ -289,8 +289,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesks1("en-GB"),
             onPressedAmerican: () => speakdesks1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The mayor sat behind his desk.",
@@ -298,8 +296,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesks2("en-GB"),
             onPressedAmerican: () => speakdesks2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He got up from his desk and went to the window.",
@@ -307,8 +303,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesks3("en-GB"),
             onPressedAmerican: () => speakdesks3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Papers littered the desk and the floor.",
@@ -327,8 +321,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesks5("en-GB"),
             onPressedAmerican: () => speakdesks5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

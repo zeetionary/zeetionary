@@ -375,8 +375,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdowdys1("en-GB"),
             onPressedAmerican: () => speakdowdys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They lived in a dowdy suburb.",

@@ -274,8 +274,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdestineds1("en-GB"),
             onPressedAmerican: () => speakdestineds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We seem destined never to meet.",
@@ -283,8 +281,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdestineds2("en-GB"),
             onPressedAmerican: () => speakdestineds2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She seemed destined to become a very rich woman.",

@@ -406,98 +406,60 @@ class KurdishMeaning extends StatelessWidget {
           // dynamicallys300
           // speakdynamicallys3
           // dynamicallys3("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys400
           // speakdynamicallys4
           // dynamicallys4("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys500
           // speakdynamicallys5
           // dynamicallys5("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys600
           // speakdynamicallys6
           // dynamicallys6("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys700
           // speakdynamicallys7
           // dynamicallys7("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys800
           // speakdynamicallys8
           // dynamicallys8("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys900
           // speakdynamicallys9
           // dynamicallys9("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys_1000
           // speakdynamicallys10
           // dynamicallys10("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1100
           // speakdynamicallys11
           // dynamicallys11("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1200
           // speakdynamicallys12
           // dynamicallys12("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1300
           // speakdynamicallys13
           // dynamicallys13("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1400
           // speakdynamicallys14
           // dynamicallys14("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1500
           // speakdynamicallys15
           // dynamicallys15("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1600
           // speakdynamicallys16
           // dynamicallys16("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1700
           // speakdynamicallys17
           // dynamicallys17("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1800
           // speakdynamicallys18
           // dynamicallys18("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys1900
           // speakdynamicallys19
           // dynamicallys19("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys_2000
           // speakdynamicallys20
           // dynamicallys20("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys2100
           // speakdynamicallys21
           // dynamicallys21("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dynamicallys2200
           // speakdynamicallys22
           // dynamicallys22("en-US"""),

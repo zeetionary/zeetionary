@@ -263,8 +263,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespicables1("en-GB"),
             onPressedAmerican: () => speakdespicables1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -274,8 +272,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespicables2("en-GB"),
             onPressedAmerican: () => speakdespicables2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "To fail was considered despicable.",

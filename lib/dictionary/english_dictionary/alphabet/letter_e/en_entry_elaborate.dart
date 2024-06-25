@@ -413,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelaborates1("en-GB"),
             onPressedAmerican: () => speakelaborates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It all turned out to be an elaborate hoax.""",
@@ -435,8 +433,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelaborates3("en-GB"),
             onPressedAmerican: () => speakelaborates3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Let me briefly elaborate on this.""",
@@ -444,8 +440,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelaborates4("en-GB"),
             onPressedAmerican: () => speakelaborates4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

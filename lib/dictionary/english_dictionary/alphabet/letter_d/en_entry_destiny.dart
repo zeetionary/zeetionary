@@ -283,8 +283,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdestinys1("en-GB"),
             onPressedAmerican: () => speakdestinys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He wants to be in control of his own destiny.",
@@ -292,8 +290,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdestinys2("en-GB"),
             onPressedAmerican: () => speakdestinys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -303,8 +299,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdestinys3("en-GB"),
             onPressedAmerican: () => speakdestinys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "No man can escape his destiny.",

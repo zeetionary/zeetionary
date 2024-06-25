@@ -279,8 +279,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespairs1("en-GB"),
             onPressedAmerican: () => speakdespairs1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He gave up the struggle in despair.",
@@ -288,8 +286,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespairs2("en-GB"),
             onPressedAmerican: () => speakdespairs2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He fell into despair over his failure as a husband.",
@@ -306,8 +302,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespairs4("en-GB"),
             onPressedAmerican: () => speakdespairs4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They'd almost despaired of ever having children.",

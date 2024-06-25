@@ -376,8 +376,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisuseds1("en-GB"),
             onPressedAmerican: () => speakdisuseds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We went for a walk along a disused railway line.",

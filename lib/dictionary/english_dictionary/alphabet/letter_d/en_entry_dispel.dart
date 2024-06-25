@@ -249,8 +249,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdispels1("en-GB"),
             onPressedAmerican: () => speakdispels1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

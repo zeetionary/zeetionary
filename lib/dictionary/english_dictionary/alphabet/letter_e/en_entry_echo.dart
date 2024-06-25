@@ -452,8 +452,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakechos1("en-GB"),
             onPressedAmerican: () => speakechos1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The call echoed off the walls of the cave.""",
@@ -471,8 +469,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakechos3("en-GB"),
             onPressedAmerican: () => speakechos3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The valley echoed back his voice.""",
@@ -480,8 +476,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakechos4("en-GB"),
             onPressedAmerican: () => speakechos4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The street echoed with the cries of children.""",
@@ -502,8 +496,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakechos6("en-GB"),
             onPressedAmerican: () => speakechos6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They had ideas which seem to echo our own.""",
@@ -523,8 +515,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakechos8("en-GB"),
             onPressedAmerican: () => speakechos8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The hills sent back a faint echo.""",

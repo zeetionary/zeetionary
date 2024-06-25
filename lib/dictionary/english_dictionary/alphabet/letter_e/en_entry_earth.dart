@@ -468,8 +468,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths1("en-GB"),
             onPressedAmerican: () => speakearths1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I must be the happiest person on earth!""",
@@ -477,8 +475,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths2("en-GB"),
             onPressedAmerican: () => speakearths2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           Column(
             children: [
               MyExpansionTile(
@@ -527,8 +523,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths6("en-GB"),
             onPressedAmerican: () => speakearths6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -538,8 +532,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths7("en-GB"),
             onPressedAmerican: () => speakearths7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The bunker is located deep below the earth.""",
@@ -557,8 +549,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths9("en-GB"),
             onPressedAmerican: () => speakearths9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I filled the pot with a handful of loose earth.""",
@@ -566,8 +556,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths10("en-GB"),
             onPressedAmerican: () => speakearths10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The plants must have their roots in the earth.""",
@@ -575,8 +563,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths11("en-GB"),
             onPressedAmerican: () => speakearths11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Dig the earth to a depth of two meters.""",
@@ -584,8 +570,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearths12("en-GB"),
             onPressedAmerican: () => speakearths12("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """His boots sank into the soft earth.""",

@@ -376,8 +376,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdociles1("en-GB"),
             onPressedAmerican: () => speakdociles1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They're a pretty docile type of dog.",

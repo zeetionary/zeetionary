@@ -247,8 +247,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisbelieves1("en-GB"),
             onPressedAmerican: () => speakdisbelieves1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We have no reason to disbelieve the information.",

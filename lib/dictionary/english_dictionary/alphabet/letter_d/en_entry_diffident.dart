@@ -247,8 +247,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiffidents1("en-GB"),
             onPressedAmerican: () => speakdiffidents1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She felt diffident about speaking in public.",

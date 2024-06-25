@@ -269,8 +269,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemises1("en-GB"),
             onPressedAmerican: () => speakdemises1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The war brought about the industry's sudden demise.",

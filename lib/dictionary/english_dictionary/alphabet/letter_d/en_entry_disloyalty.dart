@@ -249,8 +249,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisloyaltys1("en-GB"),
             onPressedAmerican: () => speakdisloyaltys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Her friend's disloyalty was hurtful.",

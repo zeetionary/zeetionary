@@ -401,8 +401,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisturbeds1("en-GB"),
             onPressedAmerican: () => speakdisturbeds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Many of our patients are severely disturbed.",
@@ -430,8 +428,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisturbeds4("en-GB"),
             onPressedAmerican: () => speakdisturbeds4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I was deeply disturbed and depressed by the news.",

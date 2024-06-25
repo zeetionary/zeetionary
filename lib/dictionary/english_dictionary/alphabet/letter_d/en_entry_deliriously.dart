@@ -276,8 +276,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeliriouslys2("en-GB"),
             onPressedAmerican: () => speakdeliriouslys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He was deliriously in love.",

@@ -450,8 +450,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdomestics1("en-GB"),
             onPressedAmerican: () => speakdomestics1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -461,8 +459,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdomestics2("en-GB"),
             onPressedAmerican: () => speakdomestics2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -472,8 +468,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdomestics3("en-GB"),
             onPressedAmerican: () => speakdomestics3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -495,8 +489,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdomestics5("en-GB"),
             onPressedAmerican: () => speakdomestics5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -508,7 +500,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) ئاژەڵی ماڵی"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "Most domestic cats hate getting wet.",
             kurdishText: "زۆرینەی پشیلە ماڵییەکان ڕقیان لەوەیە تەڕبن.",

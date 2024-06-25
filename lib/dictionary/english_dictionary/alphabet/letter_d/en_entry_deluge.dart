@@ -291,8 +291,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeluges1("en-GB"),
             onPressedAmerican: () => speakdeluges1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The earlier deluge had cuased lots of damage.",

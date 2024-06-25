@@ -379,8 +379,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrasticallys1("en-GB"),
             onPressedAmerican: () => speakdrasticallys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Things have started to go drastically wrong.",

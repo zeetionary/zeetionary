@@ -284,8 +284,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscretions1("en-GB"),
             onPressedAmerican: () => speakdiscretions1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -295,8 +293,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscretions2("en-GB"),
             onPressedAmerican: () => speakdiscretions2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -306,8 +302,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscretions3("en-GB"),
             onPressedAmerican: () => speakdiscretions3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -330,8 +324,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscretions5("en-GB"),
             onPressedAmerican: () => speakdiscretions5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Use the utmost discretion when you talk to her.",

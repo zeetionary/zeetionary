@@ -248,8 +248,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiabetess1("en-GB"),
             onPressedAmerican: () => speakdiabetess1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He had developed diabetes and high blood pressure.",

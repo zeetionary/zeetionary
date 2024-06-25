@@ -387,8 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelderlys1("en-GB"),
             onPressedAmerican: () => speakelderlys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Her parents are quite elderly now.""",

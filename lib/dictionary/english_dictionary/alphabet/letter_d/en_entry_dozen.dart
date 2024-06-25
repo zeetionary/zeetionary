@@ -416,8 +416,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozens1("en-GB"),
             onPressedAmerican: () => speakdozens1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "This recipe makes three dozen cookies.",
@@ -437,8 +435,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozens3("en-GB"),
             onPressedAmerican: () => speakdozens3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "There was only space for a half-dozen tables.",
@@ -456,8 +452,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozens5("en-GB"),
             onPressedAmerican: () => speakdozens5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We interviewed dozens and dozens of people.",
@@ -465,8 +459,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozens6("en-GB"),
             onPressedAmerican: () => speakdozens6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They arrived in dozens (= in large numbers).",
@@ -474,78 +466,48 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozens7("en-GB"),
             onPressedAmerican: () => speakdozens7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens800"),
           // speakdozens8
           // dozens8("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens900"),
           // speakdozens9
           // dozens9("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens_1000"),
           // speakdozens10
           // dozens10("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1100"),
           // speakdozens11
           // dozens11("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1200"),
           // speakdozens12
           // dozens12("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1300"),
           // speakdozens13
           // dozens13("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1400"),
           // speakdozens14
           // dozens14("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1500"),
           // speakdozens15
           // dozens15("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1600"),
           // speakdozens16
           // dozens16("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1700"),
           // speakdozens17
           // dozens17("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1800"),
           // speakdozens18
           // dozens18("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens1900"),
           // speakdozens19
           // dozens19("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens_2000"),
           // speakdozens20
           // dozens20("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens2100"),
           // speakdozens21
           // dozens21("en-US"),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ناو، دیارخەر) پێنناسە"),
           // dozens2200"),
           // speakdozens22
           // dozens22("en-US"),

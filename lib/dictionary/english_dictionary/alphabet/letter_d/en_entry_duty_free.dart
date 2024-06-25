@@ -377,8 +377,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutyfrees1("en-GB"),
             onPressedAmerican: () => speakdutyfrees1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I bought some perfume in the duty-free shop.""",

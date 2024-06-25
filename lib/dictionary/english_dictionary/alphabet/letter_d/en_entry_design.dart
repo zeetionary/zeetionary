@@ -430,8 +430,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigns1("en-GB"),
             onPressedAmerican: () => speakdesigns1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The system has a fundamental design flaw.",
@@ -439,8 +437,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigns2("en-GB"),
             onPressedAmerican: () => speakdesigns2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -450,8 +446,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigns3("en-GB"),
             onPressedAmerican: () => speakdesigns3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -460,8 +454,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigns4("en-GB"),
             onPressedAmerican: () => speakdesigns4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -481,8 +473,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigns6("en-GB"),
             onPressedAmerican: () => speakdesigns6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Digital design tools are essential.",

@@ -248,8 +248,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscourteouss1("en-GB"),
             onPressedAmerican: () => speakdiscourteouss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The employees were unhelpful and discourteous.",

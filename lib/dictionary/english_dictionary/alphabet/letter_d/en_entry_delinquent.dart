@@ -279,7 +279,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە نەیتوانیوە قەرز بداتەوە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Credit delinquents often face penalties and higher interest rates.",
@@ -304,7 +304,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) دواکەوتوو لە دانەوەی قەرز؛ قەرزێک کە نەدراوەتەوە لە کاتی خۆیدا"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "She has been delinquent in paying her taxes.",
             kurdishText: "درەنگکەوتووە لە دانەوەی باجەکانی.",

@@ -260,8 +260,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscrepancys1("en-GB"),
             onPressedAmerican: () => speakdiscrepancys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "There were wide discrepancies in the evidence.",
@@ -269,8 +267,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscrepancys2("en-GB"),
             onPressedAmerican: () => speakdiscrepancys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

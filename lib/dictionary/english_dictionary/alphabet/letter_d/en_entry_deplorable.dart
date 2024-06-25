@@ -264,8 +264,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeplorables1("en-GB"),
             onPressedAmerican: () => speakdeplorables1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They were living in the most deplorable conditions.",
@@ -273,8 +271,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeplorables2("en-GB"),
             onPressedAmerican: () => speakdeplorables2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

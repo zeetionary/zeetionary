@@ -292,8 +292,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeliberates1("en-GB"),
             onPressedAmerican: () => speakdeliberates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The emphasis on Europe was quite deliberate.",
@@ -313,7 +311,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بیرکردنەوە لەسەر شتێک زۆر بە وریاییەوە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The sergeant deliberated for a moment and then agreed to unlock the door.",

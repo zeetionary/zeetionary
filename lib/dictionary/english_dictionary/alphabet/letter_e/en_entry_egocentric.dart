@@ -388,8 +388,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakegocentrics1("en-GB"),
             onPressedAmerican: () => speakegocentrics1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I find her very egocentric.""",
@@ -397,8 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakegocentrics2("en-GB"),
             onPressedAmerican: () => speakegocentrics2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He was a supremely egocentric man.""",

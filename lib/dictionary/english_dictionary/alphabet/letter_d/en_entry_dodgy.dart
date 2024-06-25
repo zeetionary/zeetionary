@@ -405,8 +405,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdodgys1("en-GB"),
             onPressedAmerican: () => speakdodgys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I don't want to get involved in anything dodgy.",
@@ -424,8 +422,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdodgys3("en-GB"),
             onPressedAmerican: () => speakdodgys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

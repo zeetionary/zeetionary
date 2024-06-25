@@ -254,8 +254,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdejecteds1("en-GB"),
             onPressedAmerican: () => speakdejecteds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They were thoroughly dejected and miserable.",

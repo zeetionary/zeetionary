@@ -430,8 +430,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrassments1("en-GB"),
             onPressedAmerican: () => speakembarrassments1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -441,8 +439,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrassments2("en-GB"),
             onPressedAmerican: () => speakembarrassments2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -452,8 +448,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrassments3("en-GB"),
             onPressedAmerican: () => speakembarrassments3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I felt some embarrassment as we shook hands.""",
@@ -461,8 +455,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrassments4("en-GB"),
             onPressedAmerican: () => speakembarrassments4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She smiled to hide her slight embarrassment.""",
@@ -482,8 +474,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrassments6("en-GB"),
             onPressedAmerican: () => speakembarrassments6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

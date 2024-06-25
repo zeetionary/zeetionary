@@ -385,8 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdustbins1("en-GB"),
             onPressedAmerican: () => speakdustbins1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She chucked the mouldy potatoes in the dustbin.""",
@@ -394,8 +392,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdustbins2("en-GB"),
             onPressedAmerican: () => speakdustbins2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """These old shoes can go in the dustbin now.""",

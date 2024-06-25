@@ -282,8 +282,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetentions1("en-GB"),
             onPressedAmerican: () => speakdetentions1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He made the confession while under detention.",
@@ -291,8 +289,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetentions2("en-GB"),
             onPressedAmerican: () => speakdetentions2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He was held in detention from 1991 to 2001.",
@@ -300,8 +296,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetentions3("en-GB"),
             onPressedAmerican: () => speakdetentions3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -311,8 +305,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetentions4("en-GB"),
             onPressedAmerican: () => speakdetentions4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She spent 18 years in detention.",

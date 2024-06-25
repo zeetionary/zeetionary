@@ -443,8 +443,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasilys1("en-GB"),
             onPressedAmerican: () => speakeasilys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I can easily finish it tonight.""",
@@ -452,8 +450,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasilys2("en-GB"),
             onPressedAmerican: () => speakeasilys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -463,8 +459,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasilys3("en-GB"),
             onPressedAmerican: () => speakeasilys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We won easily by six goals to two.""",
@@ -484,8 +478,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasilys5("en-GB"),
             onPressedAmerican: () => speakeasilys5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -503,8 +495,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasilys7("en-GB"),
             onPressedAmerican: () => speakeasilys7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -524,8 +514,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasilys9("en-GB"),
             onPressedAmerican: () => speakeasilys9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He's easily distracted.""",

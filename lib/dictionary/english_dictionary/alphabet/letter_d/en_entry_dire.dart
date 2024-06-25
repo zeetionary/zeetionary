@@ -269,8 +269,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdires1("en-GB"),
             onPressedAmerican: () => speakdires1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Such action may have dire consequences.",
@@ -278,8 +276,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdires2("en-GB"),
             onPressedAmerican: () => speakdires2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We're in dire need of your help.",
@@ -296,8 +292,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdires4("en-GB"),
             onPressedAmerican: () => speakdires4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The weather was absolutely dire.",

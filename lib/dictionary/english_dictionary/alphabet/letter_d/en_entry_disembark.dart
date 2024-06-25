@@ -248,8 +248,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisembarks1("en-GB"),
             onPressedAmerican: () => speakdisembarks1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The heat hit us as soon as we disembarked the plane.",

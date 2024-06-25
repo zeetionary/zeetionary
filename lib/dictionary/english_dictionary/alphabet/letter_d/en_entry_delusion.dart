@@ -281,8 +281,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelusions1("en-GB"),
             onPressedAmerican: () => speakdelusions1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Love can be nothing but a delusion.",
@@ -290,8 +288,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelusions2("en-GB"),
             onPressedAmerican: () => speakdelusions2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

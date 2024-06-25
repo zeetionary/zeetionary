@@ -386,8 +386,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembroiders1("en-GB"),
             onPressedAmerican: () => speakembroiders1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The sleeves were embroidered in gold.""",
@@ -395,8 +393,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembroiders2("en-GB"),
             onPressedAmerican: () => speakembroiders2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She sat in the window, embroidering.""",

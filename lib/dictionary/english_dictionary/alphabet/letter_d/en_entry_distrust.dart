@@ -385,8 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistrusts1("en-GB"),
             onPressedAmerican: () => speakdistrusts1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He has a deep distrust of all modern technology.",

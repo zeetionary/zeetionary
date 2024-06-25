@@ -247,8 +247,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisproves1("en-GB"),
             onPressedAmerican: () => speakdisproves1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It took over two months to disprove the allegation.",

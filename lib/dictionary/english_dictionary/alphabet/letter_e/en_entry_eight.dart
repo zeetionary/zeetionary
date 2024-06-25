@@ -416,8 +416,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeights1("en-GB"),
             onPressedAmerican: () => speakeights1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -426,8 +424,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeights2("en-GB"),
             onPressedAmerican: () => speakeights2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Can you lend me eight dollars?""",
@@ -435,8 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeights3("en-GB"),
             onPressedAmerican: () => speakeights3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Look at page eight.""",
@@ -444,8 +438,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeights4("en-GB"),
             onPressedAmerican: () => speakeights4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Eight and one is nine.""",
@@ -453,8 +445,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeights5("en-GB"),
             onPressedAmerican: () => speakeights5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Two eights is sixteen.""",
@@ -462,8 +452,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeights6("en-GB"),
             onPressedAmerican: () => speakeights6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

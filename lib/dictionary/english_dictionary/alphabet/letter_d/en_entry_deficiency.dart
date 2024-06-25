@@ -272,8 +272,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeficiencys1("en-GB"),
             onPressedAmerican: () => speakdeficiencys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He's suffering from a severe vitamin deficiency.",
@@ -292,8 +290,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeficiencys3("en-GB"),
             onPressedAmerican: () => speakdeficiencys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The deficiencies in their argument are easy to spot.",

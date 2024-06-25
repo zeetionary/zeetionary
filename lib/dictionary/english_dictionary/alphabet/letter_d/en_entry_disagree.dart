@@ -304,8 +304,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagrees1("en-GB"),
             onPressedAmerican: () => speakdisagrees1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -314,8 +312,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagrees2("en-GB"),
             onPressedAmerican: () => speakdisagrees2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I had to respectfully disagree with my colleague.",
@@ -323,8 +319,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagrees3("en-GB"),
             onPressedAmerican: () => speakdisagrees3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Victoria and I obviously disagree on this issue.",
@@ -332,8 +326,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagrees4("en-GB"),
             onPressedAmerican: () => speakdisagrees4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He disagreed with his parents on most things.",
@@ -341,8 +333,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagrees5("en-GB"),
             onPressedAmerican: () => speakdisagrees5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I'm afraid I disagree with you on that point.",
@@ -350,8 +340,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagrees6("en-GB"),
             onPressedAmerican: () => speakdisagrees6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Jack and Robert disagree about everything.",
@@ -369,8 +357,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagrees8("en-GB"),
             onPressedAmerican: () => speakdisagrees8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

@@ -387,8 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembryonics1("en-GB"),
             onPressedAmerican: () => speakembryonics1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The project is still fairly embryonic.""",

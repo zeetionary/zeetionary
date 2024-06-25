@@ -260,8 +260,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisks1("en-GB"),
             onPressedAmerican: () => speakdisks1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Each disk holds 700 MB.",
@@ -269,8 +267,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisks2("en-GB"),
             onPressedAmerican: () => speakdisks2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The computer reads the disk.",

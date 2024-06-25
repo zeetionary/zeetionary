@@ -304,8 +304,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiffuses3("en-GB"),
             onPressedAmerican: () => speakdiffuses3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -327,8 +325,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiffuses5("en-GB"),
             onPressedAmerican: () => speakdiffuses5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The drop of red dye diffused slowly in the water.",

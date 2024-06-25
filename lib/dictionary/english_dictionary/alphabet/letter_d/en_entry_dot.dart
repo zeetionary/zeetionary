@@ -473,7 +473,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئەو ئاماژەیەی کۆدی مۆرس کە کورتترە لەوەی دیکە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Telegrams were sent using the complex dots and dashes of Morse code.",
@@ -519,7 +519,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) دانانی بڕێکی کەم لە شتێک لە ژمارەیەک شوێن یان لەسەر ڕوویەک"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "Dot your face with the cream.",
             englishNote: "Similar: Dot the cream all over your face.",

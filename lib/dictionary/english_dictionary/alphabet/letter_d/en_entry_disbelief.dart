@@ -254,8 +254,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisbeliefs1("en-GB"),
             onPressedAmerican: () => speakdisbeliefs1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He raised his eyebrows in disbelief.",
@@ -263,8 +261,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisbeliefs2("en-GB"),
             onPressedAmerican: () => speakdisbeliefs2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "My mouth dropped open in disbelief.",

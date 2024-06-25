@@ -304,8 +304,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscriminations1("en-GB"),
             onPressedAmerican: () => speakdiscriminations1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -314,8 +312,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscriminations2("en-GB"),
             onPressedAmerican: () => speakdiscriminations2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Many disabled people face discrimination at work.",
@@ -324,8 +320,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscriminations3("en-GB"),
             onPressedAmerican: () => speakdiscriminations3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -345,8 +339,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscriminations5("en-GB"),
             onPressedAmerican: () => speakdiscriminations5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -368,8 +360,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscriminations7("en-GB"),
             onPressedAmerican: () => speakdiscriminations7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

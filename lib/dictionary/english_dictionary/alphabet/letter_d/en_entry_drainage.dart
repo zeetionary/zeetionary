@@ -398,8 +398,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrainages2("en-GB"),
             onPressedAmerican: () => speakdrainages2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "These plants need a sunny spot with good drainage.",

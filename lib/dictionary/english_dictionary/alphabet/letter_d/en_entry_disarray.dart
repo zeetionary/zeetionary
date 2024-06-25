@@ -258,8 +258,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisarrays1("en-GB"),
             onPressedAmerican: () => speakdisarrays1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Our plans were thrown into disarray by her arrival.",
@@ -267,8 +265,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisarrays2("en-GB"),
             onPressedAmerican: () => speakdisarrays2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

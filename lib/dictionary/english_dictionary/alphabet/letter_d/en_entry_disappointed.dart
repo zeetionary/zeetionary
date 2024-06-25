@@ -266,8 +266,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisappointeds1("en-GB"),
             onPressedAmerican: () => speakdisappointeds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -276,8 +274,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisappointeds2("en-GB"),
             onPressedAmerican: () => speakdisappointeds2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I was disappointed by the quality of the food.",
@@ -285,8 +281,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisappointeds3("en-GB"),
             onPressedAmerican: () => speakdisappointeds3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Andrea was disappointed about the decision.",

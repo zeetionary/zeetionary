@@ -594,7 +594,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (دیارخەر) دوو ھێندە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "His income is double hers.",
             kurdishText: "داھاتەکەی دوو ھێندەی ھی ئەوە.",

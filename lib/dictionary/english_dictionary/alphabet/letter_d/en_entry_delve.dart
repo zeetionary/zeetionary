@@ -255,8 +255,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelves1("en-GB"),
             onPressedAmerican: () => speakdelves1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We saw water birds delving in the mud for food.",

@@ -398,7 +398,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) داپۆشینی خواردن بە کەمێک شەکر، ئارد، ھتد"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "Dredge the top of the cake with sugar.",
             kurdishText: "سەرەوەی کێکەکە بە شەکر داپۆشە.",

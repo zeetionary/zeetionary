@@ -381,8 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelaboratelys1("en-GB"),
             onPressedAmerican: () => speakelaboratelys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It was the most elaborately decorated cake.""",

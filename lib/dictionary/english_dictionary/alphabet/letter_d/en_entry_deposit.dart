@@ -325,8 +325,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeposits1("en-GB"),
             onPressedAmerican: () => speakdeposits1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We've put down a five per cent deposit on the house.",
@@ -345,8 +343,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeposits3("en-GB"),
             onPressedAmerican: () => speakdeposits3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

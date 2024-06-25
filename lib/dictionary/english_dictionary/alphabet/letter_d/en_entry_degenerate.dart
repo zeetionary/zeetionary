@@ -271,8 +271,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdegenerates1("en-GB"),
             onPressedAmerican: () => speakdegenerates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The march degenerated into a riot.",
@@ -291,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە ئەخلاقی کەمە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "They're just moral degenerates with no sense of decency.",

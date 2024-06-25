@@ -267,8 +267,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdilutes1("en-GB"),
             onPressedAmerican: () => speakdilutes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The perfumes are highly diluted.",
@@ -286,8 +284,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdilutes3("en-GB"),
             onPressedAmerican: () => speakdilutes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

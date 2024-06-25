@@ -420,8 +420,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistincts1("en-GB"),
             onPressedAmerican: () => speakdistincts1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "His voice was quiet but every word was distinct.",
@@ -440,8 +438,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistincts3("en-GB"),
             onPressedAmerican: () => speakdistincts3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -451,8 +447,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistincts4("en-GB"),
             onPressedAmerican: () => speakdistincts4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -472,8 +466,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistincts6("en-GB"),
             onPressedAmerican: () => speakdistincts6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Being tall gave Tony a distinct advantage.",

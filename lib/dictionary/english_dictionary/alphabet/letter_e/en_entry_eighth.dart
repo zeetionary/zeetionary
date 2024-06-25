@@ -399,8 +399,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeighths1("en-GB"),
             onPressedAmerican: () => speakeighths1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It's her eighth birthday.""",
@@ -408,8 +406,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeighths2("en-GB"),
             onPressedAmerican: () => speakeighths2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """My office is on the eighth floor.""",
@@ -417,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeighths3("en-GB"),
             onPressedAmerican: () => speakeighths3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It's the eighth time that I've been to America.""",
@@ -426,8 +420,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeighths4("en-GB"),
             onPressedAmerican: () => speakeighths4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He finished eighth in the race.""",

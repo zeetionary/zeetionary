@@ -248,8 +248,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisappointinglys1("en-GB"),
             onPressedAmerican: () => speakdisappointinglys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The team played very disappointingly.",

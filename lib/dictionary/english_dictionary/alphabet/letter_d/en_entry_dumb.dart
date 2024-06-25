@@ -423,8 +423,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumbs1("en-GB"),
             onPressedAmerican: () => speakdumbs1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -434,8 +432,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumbs2("en-GB"),
             onPressedAmerican: () => speakdumbs2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """In her early movies she played a dumb blonde.""",
@@ -444,8 +440,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumbs3("en-GB"),
             onPressedAmerican: () => speakdumbs3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I'm sure my question sounded really dumb.""",
@@ -453,8 +447,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumbs4("en-GB"),
             onPressedAmerican: () => speakdumbs4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The idea is unworkable and just plain dumb.""",
@@ -473,8 +465,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumbs6("en-GB"),
             onPressedAmerican: () => speakdumbs6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She stood in the doorway, dumb with rage.""",

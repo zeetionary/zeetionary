@@ -245,8 +245,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdingys1("en-GB"),
             onPressedAmerican: () => speakdingys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Her hair was a dingy brown colour.",

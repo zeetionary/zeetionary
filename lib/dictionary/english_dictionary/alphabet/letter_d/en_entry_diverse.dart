@@ -385,8 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiverses1("en-GB"),
             onPressedAmerican: () => speakdiverses1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -396,8 +394,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiverses2("en-GB"),
             onPressedAmerican: () => speakdiverses2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The US is a vast and diverse country.",

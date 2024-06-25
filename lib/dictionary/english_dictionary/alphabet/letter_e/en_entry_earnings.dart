@@ -406,8 +406,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearningss1("en-GB"),
             onPressedAmerican: () => speakearningss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Levels of earnings are still rising.""",
@@ -415,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearningss2("en-GB"),
             onPressedAmerican: () => speakearningss2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """You must declare all earnings to the tax office.""",
@@ -436,8 +432,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearningss4("en-GB"),
             onPressedAmerican: () => speakearningss4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

@@ -76,10 +76,10 @@ class _EnglishEntryempressState extends State<EnglishEntryempress> {
                 children: [
                   YoutubeEmbeddedone(),
                   YoutubeEmbeddedtwo(),
-                  // YoutubeEmbeddedthree(),
-                  // YoutubeEmbeddedfour(),
-                  // YoutubeEmbeddedfive(),
-                  // YoutubeEmbeddedsix(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  YoutubeEmbeddedsix(),
                   // YoutubeEmbeddedseven(),
                   // YoutubeEmbeddedeight(),
                   // YoutubeEmbeddednine(),
@@ -438,8 +438,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakempresss1("en-GB"),
             onPressedAmerican: () => speakempresss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The empress issued a decree to improve trade.""",

@@ -461,8 +461,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs1("en-GB"),
             onPressedAmerican: () => speakeggs1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The fish lay thousands of eggs at one time.""",
@@ -470,8 +468,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs2("en-GB"),
             onPressedAmerican: () => speakeggs2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Many reptiles bury their eggs.""",
@@ -479,8 +475,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs3("en-GB"),
             onPressedAmerican: () => speakeggs3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The males stay and guard the eggs.""",
@@ -497,8 +491,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs5("en-GB"),
             onPressedAmerican: () => speakeggs5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Crack two eggs into the mixture.""",
@@ -506,8 +498,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs6("en-GB"),
             onPressedAmerican: () => speakeggs6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -516,8 +506,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs7("en-GB"),
             onPressedAmerican: () => speakeggs7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """How do you like your eggs - fried or boiled?""",
@@ -525,8 +513,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs8("en-GB"),
             onPressedAmerican: () => speakeggs8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -536,8 +522,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs9("en-GB"),
             onPressedAmerican: () => speakeggs9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -557,8 +541,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs11("en-GB"),
             onPressedAmerican: () => speakeggs11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

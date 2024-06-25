@@ -386,8 +386,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduals1("en-GB"),
             onPressedAmerican: () => speakduals1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -397,8 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduals2("en-GB"),
             onPressedAmerican: () => speakduals2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Everything he says has a dual meaning.",

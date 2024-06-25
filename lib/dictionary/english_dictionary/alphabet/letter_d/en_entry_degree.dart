@@ -364,8 +364,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdegrees1("en-GB"),
             onPressedAmerican: () => speakdegrees1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Temperatures are expected to drop below 2 degrees.",
@@ -373,8 +371,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdegrees2("en-GB"),
             onPressedAmerican: () => speakdegrees2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Last weekend temperatures reached 40 degrees.",
@@ -384,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) یەکەی پێوانی گۆشە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "I turned the wheel 90 degrees,",
             kurdishText: "ویلەکەم بە ٩٠ پلە بادایەوە.",

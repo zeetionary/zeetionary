@@ -396,8 +396,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectricitys1("en-GB"),
             onPressedAmerican: () => speakelectricitys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -407,8 +405,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectricitys2("en-GB"),
             onPressedAmerican: () => speakelectricitys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -417,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectricitys3("en-GB"),
             onPressedAmerican: () => speakelectricitys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """All the houses now have electricity.""",

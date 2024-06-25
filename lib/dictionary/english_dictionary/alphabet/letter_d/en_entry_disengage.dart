@@ -259,8 +259,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisengages1("en-GB"),
             onPressedAmerican: () => speakdisengages1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -270,8 +268,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisengages2("en-GB"),
             onPressedAmerican: () => speakdisengages2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

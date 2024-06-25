@@ -422,8 +422,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduplicates1("en-GB"),
             onPressedAmerican: () => speakduplicates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The documents had been duplicated.""",
@@ -431,8 +429,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduplicates2("en-GB"),
             onPressedAmerican: () => speakduplicates2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
@@ -476,8 +472,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduplicates6("en-GB"),
             onPressedAmerican: () => speakduplicates6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Is this a duplicate or the original?""",
@@ -485,78 +479,48 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduplicates7("en-GB"),
             onPressedAmerican: () => speakduplicates7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates800
           // speakduplicates8
           // duplicates8("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates900
           // speakduplicates9
           // duplicates9("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates_1000
           // speakduplicates10
           // duplicates10("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1100
           // speakduplicates11
           // duplicates11("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1200
           // speakduplicates12
           // duplicates12("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1300
           // speakduplicates13
           // duplicates13("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1400
           // speakduplicates14
           // duplicates14("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1500
           // speakduplicates15
           // duplicates15("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1600
           // speakduplicates16
           // duplicates16("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1700
           // speakduplicates17
           // duplicates17("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1800
           // speakduplicates18
           // duplicates18("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates1900
           // speakduplicates19
           // duplicates19("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates_2000
           // speakduplicates20
           // duplicates20("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates2100
           // speakduplicates21
           // duplicates21("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // duplicates2200
           // speakduplicates22
           // duplicates22("en-US"""),

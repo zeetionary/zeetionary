@@ -317,8 +317,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefinitions1("en-GB"),
             onPressedAmerican: () => speakdefinitions1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We need a good working definition of ‘pollution’.",
@@ -326,8 +324,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefinitions2("en-GB"),
             onPressedAmerican: () => speakdefinitions2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

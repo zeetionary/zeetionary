@@ -396,8 +396,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrasss1("en-GB"),
             onPressedAmerican: () => speakembarrasss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -407,8 +405,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrasss2("en-GB"),
             onPressedAmerican: () => speakembarrasss2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """You're embarrassing him with your compliments!""",

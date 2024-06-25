@@ -386,8 +386,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemployees1("en-GB"),
             onPressedAmerican: () => speakemployees1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He is in charge of hiring and firing employees.""",
@@ -395,8 +393,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemployees2("en-GB"),
             onPressedAmerican: () => speakemployees2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

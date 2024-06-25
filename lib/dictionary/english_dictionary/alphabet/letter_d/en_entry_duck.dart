@@ -454,8 +454,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakducks1("en-GB"),
             onPressedAmerican: () => speakducks1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Ducks were quacking noisily on the lake.""",
@@ -475,8 +473,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakducks3("en-GB"),
             onPressedAmerican: () => speakducks3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We had roast duck.""",
@@ -506,8 +502,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakducks6("en-GB"),
             onPressedAmerican: () => speakducks6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -517,8 +511,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakducks7("en-GB"),
             onPressedAmerican: () => speakducks7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She ducked her head and got into the car.""",
@@ -562,58 +554,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakducks11("en-GB"),
             onPressedAmerican: () => speakducks11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1200
           // speakducks12
           // ducks12("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1300
           // speakducks13
           // ducks13("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1400
           // speakducks14
           // ducks14("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1500
           // speakducks15
           // ducks15("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1600
           // speakducks16
           // ducks16("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1700
           // speakducks17
           // ducks17("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1800
           // speakducks18
           // ducks18("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks1900
           // speakducks19
           // ducks19("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks_2000
           // speakducks20
           // ducks20("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks2100
           // speakducks21
           // ducks21("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // ducks2200
           // speakducks22
           // ducks22("en-US"""),

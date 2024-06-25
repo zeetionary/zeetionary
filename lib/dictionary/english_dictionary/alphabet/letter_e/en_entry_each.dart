@@ -401,8 +401,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeachs1("en-GB"),
             onPressedAmerican: () => speakeachs1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Each of the answers is worth 20 points.""",
@@ -410,8 +408,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeachs2("en-GB"),
             onPressedAmerican: () => speakeachs2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The answers are worth 20 points each.""",
@@ -419,8 +415,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeachs3("en-GB"),
             onPressedAmerican: () => speakeachs3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We each have our own car.""",
@@ -428,8 +422,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeachs4("en-GB"),
             onPressedAmerican: () => speakeachs4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They lost £40 each.""",

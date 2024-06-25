@@ -406,8 +406,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeludes1("en-GB"),
             onPressedAmerican: () => speakeludes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """How did the killer elude detection for so long?""",
@@ -427,8 +425,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeludes3("en-GB"),
             onPressedAmerican: () => speakeludes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -438,8 +434,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeludes4("en-GB"),
             onPressedAmerican: () => speakeludes4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

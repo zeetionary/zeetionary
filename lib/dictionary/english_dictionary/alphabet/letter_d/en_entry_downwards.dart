@@ -406,8 +406,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdownwardss1("en-GB"),
             onPressedAmerican: () => speakdownwardss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The garden sloped gently downwards to the river.",
@@ -427,8 +425,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdownwardss3("en-GB"),
             onPressedAmerican: () => speakdownwardss3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -438,8 +434,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdownwardss4("en-GB"),
             onPressedAmerican: () => speakdownwardss4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

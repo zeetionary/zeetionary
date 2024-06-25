@@ -257,8 +257,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdishonests1("en-GB"),
             onPressedAmerican: () => speakdishonests1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She has been dishonest with voters.",
@@ -266,8 +264,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdishonests2("en-GB"),
             onPressedAmerican: () => speakdishonests2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

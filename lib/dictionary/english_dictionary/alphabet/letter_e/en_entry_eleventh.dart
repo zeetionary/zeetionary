@@ -399,8 +399,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevenths1("en-GB"),
             onPressedAmerican: () => speakelevenths1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It's her eleventh birthday.""",
@@ -408,8 +406,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevenths2("en-GB"),
             onPressedAmerican: () => speakelevenths2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """My office is on the eleventh floor.""",
@@ -417,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevenths3("en-GB"),
             onPressedAmerican: () => speakelevenths3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -427,8 +421,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevenths4("en-GB"),
             onPressedAmerican: () => speakelevenths4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He finished eleventh in the race.""",

@@ -271,8 +271,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepriveds1("en-GB"),
             onPressedAmerican: () => speakdepriveds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He took pictures in deprived areas of the city.",
@@ -280,8 +278,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepriveds2("en-GB"),
             onPressedAmerican: () => speakdepriveds2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The workers were deprived of fair wages.",
@@ -289,8 +285,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepriveds3("en-GB"),
             onPressedAmerican: () => speakdepriveds3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She grew up deprived of love.",

@@ -289,8 +289,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesolates1("en-GB"),
             onPressedAmerican: () => speakdesolates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The land was left desolate.",
@@ -298,8 +296,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesolates2("en-GB"),
             onPressedAmerican: () => speakdesolates2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It was difficult to imagine a more desolate place.",
@@ -317,8 +313,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesolates4("en-GB"),
             onPressedAmerican: () => speakdesolates4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

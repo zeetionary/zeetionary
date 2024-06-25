@@ -387,8 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdurations1("en-GB"),
             onPressedAmerican: () => speakdurations1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -398,8 +396,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdurations2("en-GB"),
             onPressedAmerican: () => speakdurations2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The overall duration of the flight was 11 hours.""",

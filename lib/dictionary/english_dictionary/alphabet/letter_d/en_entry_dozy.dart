@@ -385,8 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozys1("en-GB"),
             onPressedAmerican: () => speakdozys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The music was making her dozy.",

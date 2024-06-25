@@ -404,8 +404,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeducationals1("en-GB"),
             onPressedAmerican: () => speakeducationals1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She has no formal educational qualifications.""",
@@ -413,8 +411,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeducationals2("en-GB"),
             onPressedAmerican: () => speakeducationals2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -435,8 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeducationals4("en-GB"),
             onPressedAmerican: () => speakeducationals4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Watching television can be very educational.""",

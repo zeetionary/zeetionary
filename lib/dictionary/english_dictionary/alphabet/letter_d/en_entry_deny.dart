@@ -319,8 +319,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdenys1("en-GB"),
             onPressedAmerican: () => speakdenys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The company strongly denies wrongdoing.",
@@ -328,8 +326,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdenys2("en-GB"),
             onPressedAmerican: () => speakdenys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -339,8 +335,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdenys3("en-GB"),
             onPressedAmerican: () => speakdenys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She denied that there had been a cover-up.",

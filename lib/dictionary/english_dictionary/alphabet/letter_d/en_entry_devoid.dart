@@ -253,8 +253,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdevoids1("en-GB"),
             onPressedAmerican: () => speakdevoids1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Their apartment is devoid of all comforts.",
@@ -262,8 +260,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdevoids2("en-GB"),
             onPressedAmerican: () => speakdevoids2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He seems to be devoid of compassion.",

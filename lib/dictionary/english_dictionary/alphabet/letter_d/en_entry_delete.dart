@@ -273,8 +273,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeletes1("en-GB"),
             onPressedAmerican: () => speakdeletes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Delete the word ‘it’ and insert ‘them’.",
@@ -282,8 +280,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeletes2("en-GB"),
             onPressedAmerican: () => speakdeletes2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -295,7 +291,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) دووگمەیەک لەسەر کۆمپیوتەرێک کە شتێک دەسڕێتەوە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Just use delete to remove a specific record from the database.",

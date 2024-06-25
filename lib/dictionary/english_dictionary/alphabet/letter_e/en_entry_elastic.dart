@@ -401,8 +401,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelastics1("en-GB"),
             onPressedAmerican: () => speakelastics1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The elastic in these socks has gone.""",
@@ -431,8 +429,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelastics4("en-GB"),
             onPressedAmerican: () => speakelastics4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Our plans are fairly elastic.""",

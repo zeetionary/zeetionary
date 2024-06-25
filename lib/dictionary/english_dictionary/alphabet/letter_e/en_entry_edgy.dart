@@ -377,8 +377,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakedgys1("en-GB"),
             onPressedAmerican: () => speakedgys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I’m feeling a bit edgy about the exam tomorrow.""",

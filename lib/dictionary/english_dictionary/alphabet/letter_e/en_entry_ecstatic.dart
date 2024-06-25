@@ -385,8 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakecstatics1("en-GB"),
             onPressedAmerican: () => speakecstatics1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Martin was not exactly ecstatic at the news.""",
@@ -394,8 +392,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakecstatics2("en-GB"),
             onPressedAmerican: () => speakecstatics2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

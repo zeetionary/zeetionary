@@ -267,8 +267,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdictatorials1("en-GB"),
             onPressedAmerican: () => speakdictatorials1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -289,8 +287,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdictatorials3("en-GB"),
             onPressedAmerican: () => speakdictatorials3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She was fed up with his dictatorial attitude.",

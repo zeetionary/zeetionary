@@ -461,8 +461,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumps1("en-GB"),
             onPressedAmerican: () => speakdumps1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The dead body was just dumped by the roadside.""",
@@ -517,8 +515,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumps6("en-GB"),
             onPressedAmerican: () => speakdumps6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """If he's so awful, why don't you just dump him?""",
@@ -536,8 +532,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumps8("en-GB"),
             onPressedAmerican: () => speakdumps8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Radioactive waste has been found at the dump.""",

@@ -396,8 +396,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakEasters1("en-GB"),
             onPressedAmerican: () => speakEasters1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I get two weeks off school at Easter.""",
@@ -405,8 +403,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakEasters2("en-GB"),
             onPressedAmerican: () => speakEasters2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We're going to my parents for Easter.""",

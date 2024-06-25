@@ -385,8 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeachothers1("en-GB"),
             onPressedAmerican: () => speakeachothers1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We can wear each other's clothes.""",
@@ -394,8 +392,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeachothers2("en-GB"),
             onPressedAmerican: () => speakeachothers2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

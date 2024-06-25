@@ -317,8 +317,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelights1("en-GB"),
             onPressedAmerican: () => speakdelights1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -328,8 +326,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelights2("en-GB"),
             onPressedAmerican: () => speakdelights2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -338,8 +334,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelights3("en-GB"),
             onPressedAmerican: () => speakdelights3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She couldn't hide her delight at the news.",

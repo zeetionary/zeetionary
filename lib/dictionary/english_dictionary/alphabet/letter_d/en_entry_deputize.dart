@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) پێدانی دەسەڵات بە کەسێک کە ئەرکێکی دیاریکراو ئەنجام بدات"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.",

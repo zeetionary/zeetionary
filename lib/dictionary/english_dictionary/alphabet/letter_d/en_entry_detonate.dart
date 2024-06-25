@@ -265,8 +265,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetonates1("en-GB"),
             onPressedAmerican: () => speakdetonates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The bomb was detonated by remote control.",
@@ -274,8 +272,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetonates2("en-GB"),
             onPressedAmerican: () => speakdetonates2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "speakdetonates300",
@@ -283,8 +279,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetonates3("en-GB"),
             onPressedAmerican: () => speakdetonates3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The bomb detonated unexpectedly.",

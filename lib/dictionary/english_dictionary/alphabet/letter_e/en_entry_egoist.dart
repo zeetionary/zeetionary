@@ -378,8 +378,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakegoists1("en-GB"),
             onPressedAmerican: () => speakegoists1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Politicians are notorious egotists.""",

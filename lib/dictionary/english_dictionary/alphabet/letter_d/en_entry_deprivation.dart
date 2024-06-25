@@ -267,8 +267,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeprivations1("en-GB"),
             onPressedAmerican: () => speakdeprivations1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They used sleep deprivation as a form of torture.",
@@ -276,8 +274,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeprivations2("en-GB"),
             onPressedAmerican: () => speakdeprivations2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

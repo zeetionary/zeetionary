@@ -328,8 +328,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes1("en-GB"),
             onPressedAmerican: () => speakdislikes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She disliked her boss intensely.",
@@ -337,8 +335,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes2("en-GB"),
             onPressedAmerican: () => speakdislikes2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "There are very few foods that I actively dislike.",
@@ -346,8 +342,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes3("en-GB"),
             onPressedAmerican: () => speakdislikes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I dislike being away from my family.",
@@ -355,8 +349,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes4("en-GB"),
             onPressedAmerican: () => speakdislikes4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He disliked her staying away from home.",
@@ -364,8 +356,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes5("en-GB"),
             onPressedAmerican: () => speakdislikes5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -375,8 +365,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes6("en-GB"),
             onPressedAmerican: () => speakdislikes6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "What did you dislike about the movie?",
@@ -394,8 +382,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes8("en-GB"),
             onPressedAmerican: () => speakdislikes8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -404,8 +390,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes9("en-GB"),
             onPressedAmerican: () => speakdislikes9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "My father has a great dislike of long hair on boys.",
@@ -413,8 +397,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdislikes10("en-GB"),
             onPressedAmerican: () => speakdislikes10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She had a deep dislike for Robert's wife.",

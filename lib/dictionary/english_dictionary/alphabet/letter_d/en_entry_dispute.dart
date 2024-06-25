@@ -300,8 +300,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisputes1("en-GB"),
             onPressedAmerican: () => speakdisputes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -310,8 +308,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisputes2("en-GB"),
             onPressedAmerican: () => speakdisputes2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "These are not the issues under dispute.",
@@ -330,8 +326,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisputes4("en-GB"),
             onPressedAmerican: () => speakdisputes4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The family wanted to dispute the will.",
@@ -339,8 +333,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisputes5("en-GB"),
             onPressedAmerican: () => speakdisputes5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "No one is disputing that there is a problem.",
@@ -360,8 +352,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisputes7("en-GB"),
             onPressedAmerican: () => speakdisputes7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

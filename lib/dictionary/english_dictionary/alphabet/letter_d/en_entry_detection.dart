@@ -263,8 +263,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetections1("en-GB"),
             onPressedAmerican: () => speakdetections1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Early detection of cancers is vitally important.",
@@ -272,8 +270,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetections2("en-GB"),
             onPressedAmerican: () => speakdetections2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

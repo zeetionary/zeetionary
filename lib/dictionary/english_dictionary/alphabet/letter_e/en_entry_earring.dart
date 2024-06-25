@@ -379,8 +379,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearrings1("en-GB"),
             onPressedAmerican: () => speakearrings1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She wore a pair of dangly earrings.""",

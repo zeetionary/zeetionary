@@ -378,8 +378,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdownfalls1("en-GB"),
             onPressedAmerican: () => speakdownfalls1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Greed was her downfall.",

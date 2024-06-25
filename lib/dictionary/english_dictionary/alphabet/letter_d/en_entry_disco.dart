@@ -255,8 +255,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscos1("en-GB"),
             onPressedAmerican: () => speakdiscos1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They have a disco there every Wednesday night.",
@@ -264,8 +262,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscos2("en-GB"),
             onPressedAmerican: () => speakdiscos2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I feel like a dance - shall we go to the disco?",

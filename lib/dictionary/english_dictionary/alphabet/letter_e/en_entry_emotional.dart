@@ -422,8 +422,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotionals1("en-GB"),
             onPressedAmerican: () => speakemotionals1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -433,8 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotionals2("en-GB"),
             onPressedAmerican: () => speakemotionals2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -456,8 +452,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotionals4("en-GB"),
             onPressedAmerican: () => speakemotionals4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """This is a very emotional time for me.""",
@@ -476,8 +470,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotionals6("en-GB"),
             onPressedAmerican: () => speakemotionals6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He tends to get emotional on these occasions.""",

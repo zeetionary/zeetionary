@@ -290,8 +290,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefers1("en-GB"),
             onPressedAmerican: () => speakdefers1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She had applied for deferred admission to college.",
@@ -299,8 +297,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefers2("en-GB"),
             onPressedAmerican: () => speakdefers2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The decision has been deferred indefinitely.",

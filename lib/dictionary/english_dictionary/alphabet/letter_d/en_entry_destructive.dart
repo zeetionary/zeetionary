@@ -277,8 +277,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdestructives1("en-GB"),
             onPressedAmerican: () => speakdestructives1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -287,8 +285,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdestructives2("en-GB"),
             onPressedAmerican: () => speakdestructives2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "These substances can be destructive to health.",

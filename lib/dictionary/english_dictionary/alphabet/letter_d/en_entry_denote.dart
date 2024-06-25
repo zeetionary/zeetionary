@@ -275,8 +275,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdenotes1("en-GB"),
             onPressedAmerican: () => speakdenotes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -296,8 +294,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdenotes3("en-GB"),
             onPressedAmerican: () => speakdenotes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The red triangle denotes danger.",

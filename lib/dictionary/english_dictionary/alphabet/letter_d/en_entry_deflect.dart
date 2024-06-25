@@ -299,8 +299,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeflects1("en-GB"),
             onPressedAmerican: () => speakdeflects1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He raised his arm to try to deflect the blow.",
@@ -308,8 +306,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeflects2("en-GB"),
             onPressedAmerican: () => speakdeflects2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

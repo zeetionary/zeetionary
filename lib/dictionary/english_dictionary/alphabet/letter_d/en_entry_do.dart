@@ -1493,7 +1493,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢٧. (کاری یاریدەدەر) لە پێش کردارێک بەکاردێت بۆ درووستکردنی ڕستەی نەرێ یان پرسیاری"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "I don't like fish.",
             kurdishText: "حەزم بە ماسی نییە.",

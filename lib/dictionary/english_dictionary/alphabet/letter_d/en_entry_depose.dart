@@ -256,8 +256,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeposes1("en-GB"),
             onPressedAmerican: () => speakdeposes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The president was deposed in a military coup.",

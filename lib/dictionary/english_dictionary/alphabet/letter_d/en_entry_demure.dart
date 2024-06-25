@@ -257,8 +257,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemures1("en-GB"),
             onPressedAmerican: () => speakdemures1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She gave him a demure smile.",

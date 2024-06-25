@@ -293,8 +293,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscussions1("en-GB"),
             onPressedAmerican: () => speakdiscussions1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We'll continue this discussion some other time.",
@@ -302,8 +300,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscussions2("en-GB"),
             onPressedAmerican: () => speakdiscussions2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -313,8 +309,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscussions3("en-GB"),
             onPressedAmerican: () => speakdiscussions3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -323,8 +317,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscussions4("en-GB"),
             onPressedAmerican: () => speakdiscussions4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -346,8 +338,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscussions6("en-GB"),
             onPressedAmerican: () => speakdiscussions6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

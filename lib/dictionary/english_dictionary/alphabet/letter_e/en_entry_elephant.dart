@@ -389,8 +389,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelephants1("en-GB"),
             onPressedAmerican: () => speakelephants1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -400,8 +398,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelephants2("en-GB"),
             onPressedAmerican: () => speakelephants2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The baby elephant stayed close to its mother.""",

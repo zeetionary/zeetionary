@@ -377,8 +377,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelateds1("en-GB"),
             onPressedAmerican: () => speakelateds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I was elated with the thrill of success.""",

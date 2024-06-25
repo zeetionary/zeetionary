@@ -423,8 +423,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakears1("en-GB"),
             onPressedAmerican: () => speakears1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She's had her ears pierced.""",
@@ -432,8 +430,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakears2("en-GB"),
             onPressedAmerican: () => speakears2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The elephant flapped its ears.""",
@@ -441,8 +437,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakears3("en-GB"),
             onPressedAmerican: () => speakears3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She whispered something in his ear.""",
@@ -450,8 +444,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakears4("en-GB"),
             onPressedAmerican: () => speakears4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He was screaming in my ear.""",
@@ -479,8 +471,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakears7("en-GB"),
             onPressedAmerican: () => speakears7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """You need a good ear to master the piano.""",

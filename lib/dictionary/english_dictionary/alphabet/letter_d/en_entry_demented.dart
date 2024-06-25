@@ -256,8 +256,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdementeds1("en-GB"),
             onPressedAmerican: () => speakdementeds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The children have driven me demented today.",

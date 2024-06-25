@@ -431,8 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemails1("en-GB"),
             onPressedAmerican: () => speakemails1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -442,8 +440,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemails2("en-GB"),
             onPressedAmerican: () => speakemails2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Each of the rooms has internet and email access.""",
@@ -463,8 +459,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemails4("en-GB"),
             onPressedAmerican: () => speakemails4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I got an email from Andrew last week.""",
@@ -472,8 +466,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemails5("en-GB"),
             onPressedAmerican: () => speakemails5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -491,8 +483,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemails7("en-GB"),
             onPressedAmerican: () => speakemails7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I'll email the documents to her.""",

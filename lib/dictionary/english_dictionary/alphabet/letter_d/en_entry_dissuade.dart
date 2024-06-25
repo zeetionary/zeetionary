@@ -377,8 +377,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdissuades1("en-GB"),
             onPressedAmerican: () => speakdissuades1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She made no attempt to dissuade him.",

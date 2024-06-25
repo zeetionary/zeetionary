@@ -250,8 +250,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscjockeys1("en-GB"),
             onPressedAmerican: () => speakdiscjockeys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The disc jockey at the club kept the crowd dancing.",

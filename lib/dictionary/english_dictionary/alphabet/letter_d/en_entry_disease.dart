@@ -274,8 +274,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiseases1("en-GB"),
             onPressedAmerican: () => speakdiseases1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Smoking increases the risk of heart disease.",
@@ -283,8 +281,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiseases2("en-GB"),
             onPressedAmerican: () => speakdiseases2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It is not known what causes the disease.",
@@ -292,8 +288,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiseases3("en-GB"),
             onPressedAmerican: () => speakdiseases3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He suffers from a rare blood disease.",

@@ -305,8 +305,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdescents1("en-GB"),
             onPressedAmerican: () => speakdescents1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I made a slow and painful descent down the stairs.",
@@ -315,8 +313,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdescents2("en-GB"),
             onPressedAmerican: () => speakdescents2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

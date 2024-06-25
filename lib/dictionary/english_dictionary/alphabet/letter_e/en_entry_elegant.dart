@@ -400,8 +400,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelegants1("en-GB"),
             onPressedAmerican: () => speakelegants1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He cut an elegant figure in a dark suit.""",
@@ -420,8 +418,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelegants3("en-GB"),
             onPressedAmerican: () => speakelegants3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She's got the most elegant writing style.""",

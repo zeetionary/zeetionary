@@ -513,8 +513,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasys1("en-GB"),
             onPressedAmerican: () => speakeasys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           Column(
             children: [
               MyExpansionTile(
@@ -605,8 +603,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasys9("en-GB"),
             onPressedAmerican: () => speakeasys9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           Column(
             children: [
               MyExpansionTile(
@@ -671,8 +667,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasys15("en-GB"),
             onPressedAmerican: () => speakeasys15("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The baby fish are easy prey for birds.""",
@@ -700,8 +694,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasys18("en-GB"),
             onPressedAmerican: () => speakeasys18("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Easy, girl—you'll knock me over!""",

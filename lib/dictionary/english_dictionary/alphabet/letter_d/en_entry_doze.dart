@@ -395,8 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozes1("en-GB"),
             onPressedAmerican: () => speakdozes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "My cat likes dozing in front of the fire.",
@@ -414,8 +412,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdozes3("en-GB"),
             onPressedAmerican: () => speakdozes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

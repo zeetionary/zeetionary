@@ -346,8 +346,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepths1("en-GB"),
             onPressedAmerican: () => speakdepths1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Water was found at a depth of 30 metres.",
@@ -355,8 +353,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepths2("en-GB"),
             onPressedAmerican: () => speakdepths2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They dug down to a depth of two metres.",
@@ -364,8 +360,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepths3("en-GB"),
             onPressedAmerican: () => speakdepths3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Many dolphins can dive to depths of 200 metres.",

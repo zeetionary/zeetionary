@@ -246,8 +246,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdispiriteds1("en-GB"),
             onPressedAmerican: () => speakdispiriteds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The troops were dispirited and disorganized.",

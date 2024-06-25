@@ -251,8 +251,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisgruntleds1("en-GB"),
             onPressedAmerican: () => speakdisgruntleds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He's feeling very disgruntled with his boss.",

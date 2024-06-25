@@ -391,7 +391,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ھەستکردن بەوەی باشتریت چونکە بەشێکی لە کەمینەیەکی باڵادەست"""),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: """She accused him of being elitist.""",
             kurdishText: """بە ئیلیتیست تۆمەتباری کرد.""",

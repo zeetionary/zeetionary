@@ -255,8 +255,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdins1("en-GB"),
             onPressedAmerican: () => speakdins1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We couldn’t hear ourselves speak above the din.",
@@ -264,8 +262,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdins2("en-GB"),
             onPressedAmerican: () => speakdins2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Who’s making that awful din?",

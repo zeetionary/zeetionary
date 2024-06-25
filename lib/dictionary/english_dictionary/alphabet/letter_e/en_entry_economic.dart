@@ -414,8 +414,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomics1("en-GB"),
             onPressedAmerican: () => speakeconomics1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """There will be no quick economic recovery.""",
@@ -423,8 +421,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomics2("en-GB"),
             onPressedAmerican: () => speakeconomics2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Economic growth was fastest in Japan.""",
@@ -432,8 +428,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomics3("en-GB"),
             onPressedAmerican: () => speakeconomics3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She's a lecturer in economic history.""",
@@ -454,8 +448,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomics5("en-GB"),
             onPressedAmerican: () => speakeconomics5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

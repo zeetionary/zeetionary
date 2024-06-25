@@ -634,8 +634,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirections22("en-GB"),
             onPressedAmerican: () => speakdirections22("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "All such research is under government direction.",
@@ -644,8 +642,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirections23("en-GB"),
             onPressedAmerican: () => speakdirections23("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The new workers need direction from a supervisor.",

@@ -257,8 +257,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscreetlys1("en-GB"),
             onPressedAmerican: () => speakdiscreetlys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The removal of the waste is done discreetly.",
@@ -266,8 +264,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscreetlys2("en-GB"),
             onPressedAmerican: () => speakdiscreetlys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She very discreetly corrected him about his mistake.",

@@ -264,8 +264,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeputys1("en-GB"),
             onPressedAmerican: () => speakdeputys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She was appointed deputy head of the school.",
@@ -276,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەندام پەرلەمانی چەند وڵاتێک"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "23 women were among the 77 deputies elected.",
             kurdishText: "٢٣ ژن لەناو ئەو ٧٧ ئەندامەن کە ھەڵبژێردراون.",

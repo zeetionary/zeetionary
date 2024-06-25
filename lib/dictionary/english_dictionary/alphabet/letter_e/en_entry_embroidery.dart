@@ -386,8 +386,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembroiderys1("en-GB"),
             onPressedAmerican: () => speakembroiderys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It was a beautiful piece of embroidery.""",
@@ -397,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کاری گوڵ‌چنی بەم شێوەیە"""),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: """I'm not very good at embroidery.""",
             kurdishText: """زۆر باش نیم لە گوڵ‌چنی.""",

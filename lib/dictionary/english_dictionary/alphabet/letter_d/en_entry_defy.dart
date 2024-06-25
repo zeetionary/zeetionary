@@ -289,8 +289,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefys1("en-GB"),
             onPressedAmerican: () => speakdefys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -300,8 +298,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefys2("en-GB"),
             onPressedAmerican: () => speakdefys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He is willing to defy his own party.",
@@ -309,8 +305,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefys3("en-GB"),
             onPressedAmerican: () => speakdefys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Journalists were openly defying the authorities.",

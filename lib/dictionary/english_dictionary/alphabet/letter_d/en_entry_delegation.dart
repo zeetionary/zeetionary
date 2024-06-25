@@ -275,8 +275,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelegations1("en-GB"),
             onPressedAmerican: () => speakdelegations1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -285,8 +283,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelegations2("en-GB"),
             onPressedAmerican: () => speakdelegations2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -298,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پێدانی ئەرک و بەرپرسیاریەتی کە زۆرجار ھی خۆتە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "All managers should learn effective delegation.",
             kurdishText:

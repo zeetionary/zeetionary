@@ -315,8 +315,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelicates1("en-GB"),
             onPressedAmerican: () => speakdelicates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Babies have very delicate skin.",
@@ -324,8 +322,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelicates2("en-GB"),
             onPressedAmerican: () => speakdelicates2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The glasses looked very delicate.",

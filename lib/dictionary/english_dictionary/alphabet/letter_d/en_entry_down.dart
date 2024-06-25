@@ -873,7 +873,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٢. (ھاوەڵکار) بۆ گوتنی ئەوەی چەندی ئەو شتانەت کردووە کە لە لیستێک داتناون"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Well, I've seen six apartments so far. That's six down and four to go!",
@@ -918,7 +918,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٥. (ئامراز) بۆ ئەو ئاراستەیەی کە سەیری دەکەیت"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "He lives just down the street.",
             kurdishText: "کەمێک لە خوارەوەی شەقامەکەی دەژی.",
@@ -1013,7 +1013,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢١. (ھاوەڵناو) کە کارناکات"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "The system was down all morning.",
             kurdishText: "سیستەمەکە تەواوی بەیانییەکە کاری نەدەکرد.",
@@ -1035,7 +1035,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢٣. (ناو) ماوەیەک لە ھەستکردن بە نیگەرانی یان کە شتەکان باش نین"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "We all have our downs from time to time.",
             kurdishText: "ھەموومان ڕۆژەڕەشی خۆمان ھەیە ماوە ماوە.",

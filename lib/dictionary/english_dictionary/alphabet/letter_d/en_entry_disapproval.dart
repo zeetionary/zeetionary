@@ -265,8 +265,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisapprovals1("en-GB"),
             onPressedAmerican: () => speakdisapprovals1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She looked at my clothes with disapproval.",
@@ -274,8 +272,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisapprovals2("en-GB"),
             onPressedAmerican: () => speakdisapprovals2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Agatha took this as a sign of disapproval.",
@@ -283,8 +279,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisapprovals3("en-GB"),
             onPressedAmerican: () => speakdisapprovals3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

@@ -268,7 +268,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) خراپکردنی کوالێتی شتێک"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Important natural habitats have been degraded by development.",
@@ -280,7 +280,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) گۆڕینی شتێک بۆ شێوەیەکی کیمیایی سادەتر"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "The bacteria will degrade hydrocarbons.",
             kurdishText: "بەکتریا ھایدرۆکاربۆن شیدەکاتەوە.",

@@ -392,8 +392,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdyes1("en-GB"),
             onPressedAmerican: () => speakdyes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """For a change, why not dye your T-shirts?""",
@@ -411,8 +409,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdyes3("en-GB"),
             onPressedAmerican: () => speakdyes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

@@ -366,8 +366,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesperates1("en-GB"),
             onPressedAmerican: () => speakdesperates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -377,8 +375,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesperates2("en-GB"),
             onPressedAmerican: () => speakdesperates2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -388,8 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesperates3("en-GB"),
             onPressedAmerican: () => speakdesperates3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I was starting to get desperate.",
@@ -397,8 +391,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesperates4("en-GB"),
             onPressedAmerican: () => speakdesperates4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She felt utterly desperate.",
@@ -406,8 +398,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesperates5("en-GB"),
             onPressedAmerican: () => speakdesperates5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The sudden loss of his money had made him desperate.",

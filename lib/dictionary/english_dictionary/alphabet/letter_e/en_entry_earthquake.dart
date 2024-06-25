@@ -402,8 +402,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthquakes1("en-GB"),
             onPressedAmerican: () => speakearthquakes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -412,8 +410,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthquakes2("en-GB"),
             onPressedAmerican: () => speakearthquakes2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -423,8 +419,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthquakes3("en-GB"),
             onPressedAmerican: () => speakearthquakes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -434,8 +428,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthquakes4("en-GB"),
             onPressedAmerican: () => speakearthquakes4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

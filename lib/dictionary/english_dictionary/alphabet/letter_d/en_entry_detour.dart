@@ -259,8 +259,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetours1("en-GB"),
             onPressedAmerican: () => speakdetours1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It's well worth making a detour to see the village.",

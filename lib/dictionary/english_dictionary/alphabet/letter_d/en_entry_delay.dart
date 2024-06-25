@@ -324,8 +324,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelays1("en-GB"),
             onPressedAmerican: () => speakdelays1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -334,8 +332,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelays2("en-GB"),
             onPressedAmerican: () => speakdelays2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The strike has led to some delays in train services.",

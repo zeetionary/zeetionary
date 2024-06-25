@@ -262,8 +262,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdensitys1("en-GB"),
             onPressedAmerican: () => speakdensitys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The area has a high/low population density.",

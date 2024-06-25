@@ -279,8 +279,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdescribes1("en-GB"),
             onPressedAmerican: () => speakdescribes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Can you describe him to me?",
@@ -288,8 +286,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdescribes2("en-GB"),
             onPressedAmerican: () => speakdescribes2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They described for us exactly what happened.",
@@ -297,8 +293,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdescribes3("en-GB"),
             onPressedAmerican: () => speakdescribes3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She describes herself as an artist.",

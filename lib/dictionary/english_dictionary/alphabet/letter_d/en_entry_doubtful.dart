@@ -419,8 +419,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubtfuls1("en-GB"),
             onPressedAmerican: () => speakdoubtfuls1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He was doubtful about accepting extra work.",
@@ -431,15 +429,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) شتێک کە پێناچێت ڕووبدات"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "It's doubtful if this painting is a Picasso.",
             kurdishText: "گومان ھەیە کە ئەم تابلۆیە ھی پیکاسۆ بێت.",
             onPressedBritish: () => speakdoubtfuls3("en-GB"),
             onPressedAmerican: () => speakdoubtfuls3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -448,8 +444,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubtfuls4("en-GB"),
             onPressedAmerican: () => speakdoubtfuls4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -473,7 +467,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) کە گومان ھەیە ڕاستی بێت یان ئەو باشە بێت کە بانگەشەی بۆ دەکرێت"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "This wine is of doubtful quality.",
             kurdishText: "شەرابەکە کوالێتی بەشکی ھەیە.",

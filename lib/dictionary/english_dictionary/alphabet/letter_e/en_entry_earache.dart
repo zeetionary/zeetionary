@@ -375,8 +375,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearaches1("en-GB"),
             onPressedAmerican: () => speakearaches1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """An earache kept him awake all night.""",

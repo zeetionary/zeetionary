@@ -409,8 +409,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdreads1("en-GB"),
             onPressedAmerican: () => speakdreads1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I dread being sick.",
@@ -418,8 +416,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdreads2("en-GB"),
             onPressedAmerican: () => speakdreads2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She dreads her husband finding out.",
@@ -438,8 +434,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdreads4("en-GB"),
             onPressedAmerican: () => speakdreads4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -449,8 +443,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdreads5("en-GB"),
             onPressedAmerican: () => speakdreads5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "My greatest dread is that my parents will find out.",

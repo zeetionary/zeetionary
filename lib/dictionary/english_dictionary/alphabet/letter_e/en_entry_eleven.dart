@@ -417,8 +417,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevens1("en-GB"),
             onPressedAmerican: () => speakelevens1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -427,8 +425,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevens2("en-GB"),
             onPressedAmerican: () => speakelevens2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Can you lend me eleven dollars?""",
@@ -436,8 +432,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevens3("en-GB"),
             onPressedAmerican: () => speakelevens3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Look at page eleven.""",
@@ -445,8 +439,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevens4("en-GB"),
             onPressedAmerican: () => speakelevens4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Eleven and two is thirteen.""",
@@ -454,8 +446,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevens5("en-GB"),
             onPressedAmerican: () => speakelevens5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Two elevens are twenty-two.""",

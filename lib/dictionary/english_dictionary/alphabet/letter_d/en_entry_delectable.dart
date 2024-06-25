@@ -264,8 +264,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelectables1("en-GB"),
             onPressedAmerican: () => speakdelectables1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -276,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کەسێکی جوان"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "She is Tara، Steve’s delectable girlfriend.",
             kurdishText: "ئەو تارایە، دۆستە کچە سەرنجڕاکێشەکەی ستیڤ.",

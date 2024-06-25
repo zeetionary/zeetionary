@@ -295,8 +295,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscoverys1("en-GB"),
             onPressedAmerican: () => speakdiscoverys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -305,8 +303,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscoverys2("en-GB"),
             onPressedAmerican: () => speakdiscoverys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -316,8 +312,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscoverys3("en-GB"),
             onPressedAmerican: () => speakdiscoverys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He saw life as a voyage of discovery.",
@@ -325,8 +319,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscoverys4("en-GB"),
             onPressedAmerican: () => speakdiscoverys4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -349,8 +341,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscoverys6("en-GB"),
             onPressedAmerican: () => speakdiscoverys6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

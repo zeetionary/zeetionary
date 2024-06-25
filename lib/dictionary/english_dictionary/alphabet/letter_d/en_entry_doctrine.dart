@@ -388,8 +388,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoctrines1("en-GB"),
             onPressedAmerican: () => speakdoctrines1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Their doctrine allows the use of violence.",
@@ -397,8 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoctrines2("en-GB"),
             onPressedAmerican: () => speakdoctrines2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He has written books on Catholic doctrine.",

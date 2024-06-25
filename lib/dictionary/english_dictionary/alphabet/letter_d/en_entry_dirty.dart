@@ -329,8 +329,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys1("en-GB"),
             onPressedAmerican: () => speakdirtys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Try not to get too dirty!",
@@ -338,8 +336,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys2("en-GB"),
             onPressedAmerican: () => speakdirtys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She didn't want to get her dress dirty.",
@@ -347,8 +343,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys3("en-GB"),
             onPressedAmerican: () => speakdirtys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -357,8 +351,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys4("en-GB"),
             onPressedAmerican: () => speakdirtys4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Everything in the room was incredibly dirty.",
@@ -376,8 +368,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys6("en-GB"),
             onPressedAmerican: () => speakdirtys6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -386,8 +376,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys7("en-GB"),
             onPressedAmerican: () => speakdirtys7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -406,8 +394,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys9("en-GB"),
             onPressedAmerican: () => speakdirtys9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They discovered her dirty little secret.",
@@ -415,8 +401,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirtys10("en-GB"),
             onPressedAmerican: () => speakdirtys10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "You dirty liar!",

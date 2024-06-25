@@ -278,8 +278,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagreements1("en-GB"),
             onPressedAmerican: () => speakdisagreements1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "There's no room for disagreement on this point.",
@@ -287,8 +285,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagreements2("en-GB"),
             onPressedAmerican: () => speakdisagreements2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -297,8 +293,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisagreements3("en-GB"),
             onPressedAmerican: () => speakdisagreements3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We are in total disagreement as to how to proceed.",

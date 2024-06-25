@@ -500,8 +500,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls1("en-GB"),
             onPressedAmerican: () => speakdulls1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The first half of the game was pretty dull.""",
@@ -509,8 +507,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls2("en-GB"),
             onPressedAmerican: () => speakdulls2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """There's never a dull moment when John's around.""",
@@ -518,8 +514,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls3("en-GB"),
             onPressedAmerican: () => speakdulls3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He is the author of several dull novels.""",
@@ -537,8 +531,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls5("en-GB"),
             onPressedAmerican: () => speakdulls5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The fire died down to a dull glow.""",
@@ -610,8 +602,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls12("en-GB"),
             onPressedAmerican: () => speakdulls12("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The pain of loss never dulls.""",
@@ -619,8 +609,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls13("en-GB"),
             onPressedAmerican: () => speakdulls13("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The heat dulled my enjoyment of the journey.""",
@@ -649,8 +637,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls16("en-GB"),
             onPressedAmerican: () => speakdulls16("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The endless rain seemed to dull all sound.""",
@@ -659,28 +645,18 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls17("en-GB"),
             onPressedAmerican: () => speakdulls17("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dulls1800
           // speakdulls18
           // dulls18("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dulls1900
           // speakdulls19
           // dulls19("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dulls_2000
           // speakdulls20
           // dulls20("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dulls2100
           // speakdulls21
           // dulls21("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dulls2200
           // speakdulls22
           // dulls22("en-US"""),

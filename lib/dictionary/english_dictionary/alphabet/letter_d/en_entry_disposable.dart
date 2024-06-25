@@ -258,8 +258,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisposables1("en-GB"),
             onPressedAmerican: () => speakdisposables1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Disposable gloves are required in the restaurants.",

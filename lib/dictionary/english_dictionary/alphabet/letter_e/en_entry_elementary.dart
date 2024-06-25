@@ -403,8 +403,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelementarys1("en-GB"),
             onPressedAmerican: () => speakelementarys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -424,8 +422,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelementarys3("en-GB"),
             onPressedAmerican: () => speakelementarys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -435,8 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelementarys4("en-GB"),
             onPressedAmerican: () => speakelementarys4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I have an elementary knowledge of physics.""",

@@ -441,8 +441,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdusts1("en-GB"),
             onPressedAmerican: () => speakdusts1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Fine particles of dust will get everywhere.""",
@@ -450,8 +448,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdusts2("en-GB"),
             onPressedAmerican: () => speakdusts2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -472,8 +468,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdusts4("en-GB"),
             onPressedAmerican: () => speakdusts4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """There was a thick layer of dust on the table.""",
@@ -481,8 +475,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdusts5("en-GB"),
             onPressedAmerican: () => speakdusts5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She is allergic to house dust.""",
@@ -501,8 +493,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdusts7("en-GB"),
             onPressedAmerican: () => speakdusts7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Could you dust the sitting room?""",
@@ -531,63 +521,39 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdusts10("en-GB"),
             onPressedAmerican: () => speakdusts10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1100
           // speakdusts11
           // dusts11("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1200
           // speakdusts12
           // dusts12("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1300
           // speakdusts13
           // dusts13("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1400
           // speakdusts14
           // dusts14("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1500
           // speakdusts15
           // dusts15("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1600
           // speakdusts16
           // dusts16("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1700
           // speakdusts17
           // dusts17("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1800
           // speakdusts18
           // dusts18("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts1900
           // speakdusts19
           // dusts19("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts_2000
           // speakdusts20
           // dusts20("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts2100
           // speakdusts21
           // dusts21("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // dusts2200
           // speakdusts22
           // dusts22("en-US"""),

@@ -379,8 +379,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoggeds1("en-GB"),
             onPressedAmerican: () => speakdoggeds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He is dogged in his pursuit of his dreams.",

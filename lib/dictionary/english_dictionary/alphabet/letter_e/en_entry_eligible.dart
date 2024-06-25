@@ -388,8 +388,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeligibles1("en-GB"),
             onPressedAmerican: () => speakeligibles1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """You are not considered eligible for legal aid.""",
@@ -397,8 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeligibles2("en-GB"),
             onPressedAmerican: () => speakeligibles2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """When are you eligible to vote in your country?""",

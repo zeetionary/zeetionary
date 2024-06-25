@@ -484,8 +484,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeases1("en-GB"),
             onPressedAmerican: () => speakeases1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -494,8 +492,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeases2("en-GB"),
             onPressedAmerican: () => speakeases2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -526,8 +522,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeases5("en-GB"),
             onPressedAmerican: () => speakeases5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """This should help ease the pain.""",
@@ -535,8 +529,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeases6("en-GB"),
             onPressedAmerican: () => speakeases6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           Column(
             children: [
               MyExpansionTile(
@@ -597,8 +589,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeases11("en-GB"),
             onPressedAmerican: () => speakeases11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She eased herself into a chair.""",
@@ -606,8 +596,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeases12("en-GB"),
             onPressedAmerican: () => speakeases12("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He eased off (= took off) his shoes.""",
@@ -633,8 +621,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeases15("en-GB"),
             onPressedAmerican: () => speakeases15("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // eases1600eases16
           // speakeases16("en-US"""),
           //         ),
@@ -642,8 +628,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // eases1700eases17
           // speakeases17("en-US"""),
           //         ),
@@ -651,8 +635,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // eases1800eases18
           // speakeases18("en-US"""),
           //         ),
@@ -660,8 +642,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // eases1900eases19
           // speakeases19("en-US"""),
           //         ),
@@ -669,8 +649,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // eases_2000eases20
           // speakeases20("en-US"""),
           //         ),
@@ -678,8 +656,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // eases2100eases21
           // speakeases21("en-US"""),
           //         ),
@@ -687,8 +663,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           // eases2200eases22
           // speakeases22("en-US"""),
           //         ),

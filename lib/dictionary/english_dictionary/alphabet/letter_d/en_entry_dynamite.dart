@@ -405,8 +405,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdynamites2("en-GB"),
             onPressedAmerican: () => speakdynamites2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The abortion issue is political dynamite.""",

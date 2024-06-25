@@ -249,8 +249,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdimlys1("en-GB"),
             onPressedAmerican: () => speakdimlys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I did remember, but only dimly.",

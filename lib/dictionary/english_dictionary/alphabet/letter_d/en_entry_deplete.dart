@@ -258,8 +258,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepletes1("en-GB"),
             onPressedAmerican: () => speakdepletes1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Food supplies were severely depleted.",

@@ -387,8 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistastefuls1("en-GB"),
             onPressedAmerican: () => speakdistastefuls1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It all seems a little distasteful to me.",
@@ -396,8 +394,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistastefuls2("en-GB"),
             onPressedAmerican: () => speakdistastefuls2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I found the subject rather distasteful.",

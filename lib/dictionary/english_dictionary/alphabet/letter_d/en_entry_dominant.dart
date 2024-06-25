@@ -397,8 +397,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdominants1("en-GB"),
             onPressedAmerican: () => speakdominants1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -407,8 +405,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdominants2("en-GB"),
             onPressedAmerican: () => speakdominants2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -417,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdominants3("en-GB"),
             onPressedAmerican: () => speakdominants3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "London is dominant within the UK economy.",

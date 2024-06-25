@@ -332,8 +332,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters1("en-GB"),
             onPressedAmerican: () => speakdisasters1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -343,8 +341,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters2("en-GB"),
             onPressedAmerican: () => speakdisasters2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -354,8 +350,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters3("en-GB"),
             onPressedAmerican: () => speakdisasters3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -365,8 +359,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters4("en-GB"),
             onPressedAmerican: () => speakdisasters4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "In a disaster everyone needs to keep calm.",
@@ -384,8 +376,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters6("en-GB"),
             onPressedAmerican: () => speakdisasters6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Disaster struck when the wheel came off.",
@@ -393,8 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters7("en-GB"),
             onPressedAmerican: () => speakdisasters7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Archie has to act quickly to avert disaster.",
@@ -403,8 +391,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters8("en-GB"),
             onPressedAmerican: () => speakdisasters8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Many business partnerships end in disaster.",
@@ -412,8 +398,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters9("en-GB"),
             onPressedAmerican: () => speakdisasters9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -432,8 +416,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisasters11("en-GB"),
             onPressedAmerican: () => speakdisasters11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "As a teacher, he's a disaster.",

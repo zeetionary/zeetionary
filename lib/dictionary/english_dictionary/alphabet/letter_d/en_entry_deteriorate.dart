@@ -276,8 +276,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeteriorates1("en-GB"),
             onPressedAmerican: () => speakdeteriorates1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -286,8 +284,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeteriorates2("en-GB"),
             onPressedAmerican: () => speakdeteriorates2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -296,8 +292,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeteriorates3("en-GB"),
             onPressedAmerican: () => speakdeteriorates3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The unrest rapidly deteriorated into civil war.",

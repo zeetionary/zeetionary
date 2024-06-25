@@ -284,8 +284,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdissents1("en-GB"),
             onPressedAmerican: () => speakdissents1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -295,8 +293,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdissents2("en-GB"),
             onPressedAmerican: () => speakdissents2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Political dissent is not tolerated.",
@@ -324,8 +320,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdissents5("en-GB"),
             onPressedAmerican: () => speakdissents5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

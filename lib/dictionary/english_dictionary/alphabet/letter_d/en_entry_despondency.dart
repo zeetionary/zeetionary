@@ -254,8 +254,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespondencys1("en-GB"),
             onPressedAmerican: () => speakdespondencys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "A mood of despondency had set in.",

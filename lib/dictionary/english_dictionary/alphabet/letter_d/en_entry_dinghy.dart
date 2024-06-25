@@ -253,8 +253,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdinghys1("en-GB"),
             onPressedAmerican: () => speakdinghys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She rowed ashore in the dinghy.",

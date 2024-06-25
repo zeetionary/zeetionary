@@ -60,7 +60,7 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: "aback",
-                      alsoEnglishWord: "also: aback",
+                      // alsoEnglishWord: "also: aback",
                       britshText: "IpaUK: /əˈbæk/",
                       americanText: "IpaUS: /əˈbæk/",
                       onPressedBritish: () => speakaback("en-GB"),
@@ -367,17 +367,21 @@ Adverb: aback
 
 // DOPSUM: FIRST YOUTUBE VIDEO
 
+const String _videoIdend = 'AwodL8z2EtE';
+const double _startSecondsend = 1373;
+const String _videoIdone = '4VSx2E7WE50';
+const double _startSecondsone = 224;
+const String _videoIdtwo = 'Y4E8qEDi_xg';
+const double _startSecondstwo = 29;
+
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
-
-  final String _videoId = 'AwodL8z2EtE';
-  final double _startSeconds = 1373;
 
   @override
   Widget build(BuildContext context) {
     YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
+      videoId: _videoIdend,
+      startSeconds: _startSecondsend,
       autoPlay: true,
       params: const YoutubePlayerParams(
         enableCaption: true,
@@ -389,8 +393,8 @@ class YoutubeEmbeddedend extends StatelessWidget {
 
     void reloadVideo() {
       controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
+        videoId: _videoIdend,
+        startSeconds: _startSecondsend,
       );
     }
 
@@ -410,22 +414,19 @@ class YoutubeEmbeddedend extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});
 
-  final String _videoId = '4VSx2E7WE50';
-  final double _startSeconds = 224;
-
   @override
   Widget build(BuildContext context) {
     YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
+      videoId: _videoIdone,
+      startSeconds: _startSecondsone,
       autoPlay: true,
       params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
       controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
+        videoId: _videoIdone,
+        startSeconds: _startSecondsone,
       );
     }
 
@@ -439,22 +440,20 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   const YoutubeEmbeddedtwo({super.key});
 
-  final String _videoId = 'Y4E8qEDi_xg';
-  final double _startSeconds = 29;
 
   @override
   Widget build(BuildContext context) {
     YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
+      videoId: _videoIdtwo,
+      startSeconds: _startSecondstwo,
       autoPlay: true,
       params: defaultYoutubePlayerParams,
     );
 
     void reloadVideo() {
       controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
+        videoId: _videoIdtwo,
+        startSeconds: _startSecondstwo,
       );
     }
 

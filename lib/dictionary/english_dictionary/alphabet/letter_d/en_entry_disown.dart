@@ -256,8 +256,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisowns1("en-GB"),
             onPressedAmerican: () => speakdisowns1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Later he publicly disowned the rebellion.",
@@ -265,8 +263,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisowns2("en-GB"),
             onPressedAmerican: () => speakdisowns2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They have never disowned their humble roots.",

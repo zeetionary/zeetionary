@@ -378,8 +378,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrivinglicences1("en-GB"),
             onPressedAmerican: () => speakdrivinglicences1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Do you have a valid driving licence?",

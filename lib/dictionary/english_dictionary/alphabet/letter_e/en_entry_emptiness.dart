@@ -75,10 +75,10 @@ class _EnglishEntryemptinessState extends State<EnglishEntryemptiness> {
                 children: [
                   YoutubeEmbeddedone(),
                   YoutubeEmbeddedtwo(),
-                  // YoutubeEmbeddedthree(),
-                  // YoutubeEmbeddedfour(),
-                  // YoutubeEmbeddedfive(),
-                  // YoutubeEmbeddedsix(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  YoutubeEmbeddedsix(),
                   // YoutubeEmbeddedseven(),
                   // YoutubeEmbeddedeight(),
                   // YoutubeEmbeddednine(),
@@ -993,8 +993,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemptinesss3("en-GB" ""),
             onPressedAmerican: () => speakemptinesss3("en-US" ""),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss400""",
@@ -1002,8 +1000,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss4("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss4("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss500""",
@@ -1011,8 +1007,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss5("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss5("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss600""",
@@ -1020,8 +1014,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss6("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss6("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss700""",
@@ -1029,8 +1021,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss7("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss7("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss800""",
@@ -1038,8 +1028,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss8("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss8("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss900""",
@@ -1047,8 +1035,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss9("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss9("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss_1000""",
@@ -1056,8 +1042,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss10("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss10("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1100""",
@@ -1065,8 +1049,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss11("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss11("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1200""",
@@ -1074,8 +1056,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss12("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss12("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1300""",
@@ -1083,8 +1063,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss13("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss13("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1400""",
@@ -1092,8 +1070,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss14("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss14("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1500""",
@@ -1101,8 +1077,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss15("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss15("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1600""",
@@ -1110,8 +1084,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss16("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss16("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1700""",
@@ -1119,8 +1091,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss17("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss17("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1800""",
@@ -1128,8 +1098,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss18("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss18("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss1900""",
@@ -1137,8 +1105,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss19("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss19("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss_2000""",
@@ -1146,8 +1112,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss20("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss20("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2100""",
@@ -1155,8 +1119,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss21("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss21("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2200""",
@@ -1164,8 +1126,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss22("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss22("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2300""",
@@ -1173,8 +1133,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss23("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss23("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2400""",
@@ -1182,8 +1140,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss24("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss24("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2500""",
@@ -1191,8 +1147,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss25("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss25("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2600""",
@@ -1200,8 +1154,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss26("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss26("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2700""",
@@ -1209,8 +1161,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss27("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss27("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2800""",
@@ -1218,8 +1168,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss28("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss28("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss2900""",
@@ -1227,8 +1175,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss29("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss29("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss_3000""",
@@ -1236,8 +1182,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss30("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss30("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3100""",
@@ -1245,8 +1189,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss31("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss31("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3200""",
@@ -1254,8 +1196,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss32("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss32("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3300""",
@@ -1263,8 +1203,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss33("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss33("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3400""",
@@ -1272,8 +1210,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss34("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss34("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3500""",
@@ -1281,8 +1217,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss35("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss35("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3600""",
@@ -1290,8 +1224,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss36("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss36("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3700""",
@@ -1299,8 +1231,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss37("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss37("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3800""",
@@ -1308,8 +1238,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss38("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss38("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss3900""",
@@ -1317,8 +1245,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss39("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss39("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss_4000""",
@@ -1326,8 +1252,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss40("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss40("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4100""",
@@ -1335,8 +1259,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss41("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss41("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4200""",
@@ -1344,8 +1266,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss42("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss42("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4300""",
@@ -1353,8 +1273,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss43("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss43("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4400""",
@@ -1362,8 +1280,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss44("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss44("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4500""",
@@ -1371,8 +1287,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss45("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss45("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4600""",
@@ -1380,8 +1294,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss46("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss46("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4700""",
@@ -1389,8 +1301,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss47("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss47("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4800""",
@@ -1398,8 +1308,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss48("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss48("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss4900""",
@@ -1407,8 +1315,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss49("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss49("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss_6000""",
@@ -1416,8 +1322,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss50("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss50("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5100""",
@@ -1425,8 +1329,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss51("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss51("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5200""",
@@ -1434,8 +1336,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss52("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss52("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5300""",
@@ -1443,8 +1343,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss53("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss53("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5400""",
@@ -1452,8 +1350,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss54("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss54("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5500""",
@@ -1461,8 +1357,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss55("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss55("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5600""",
@@ -1470,8 +1364,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss56("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss56("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5700""",
@@ -1479,8 +1371,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss57("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss57("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5800""",
@@ -1488,8 +1378,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss58("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss58("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss5900""",
@@ -1497,8 +1385,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss59("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss59("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6000""",
@@ -1506,8 +1392,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss60("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss60("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6100""",
@@ -1515,8 +1399,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss61("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss61("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6200""",
@@ -1524,8 +1406,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss62("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss62("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6300""",
@@ -1533,8 +1413,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss63("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss63("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6400""",
@@ -1542,8 +1420,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss64("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss64("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6500""",
@@ -1551,8 +1427,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss65("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss65("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6600""",
@@ -1560,8 +1434,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss66("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss66("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6700""",
@@ -1569,8 +1441,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss67("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss67("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6800""",
@@ -1578,8 +1448,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss68("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss68("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss6900""",
@@ -1587,8 +1455,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss69("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss69("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss_7000""",
@@ -1596,8 +1462,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss70("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss70("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7100""",
@@ -1605,8 +1469,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss71("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss71("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7200""",
@@ -1614,8 +1476,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss72("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss72("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7300""",
@@ -1623,8 +1483,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss73("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss73("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7400""",
@@ -1632,8 +1490,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss74("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss74("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7500""",
@@ -1641,8 +1497,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss75("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss75("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7600""",
@@ -1650,8 +1504,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss76("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss76("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7700""",
@@ -1659,8 +1511,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss77("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss77("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7800""",
@@ -1668,8 +1518,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss78("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss78("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss7900""",
@@ -1677,8 +1525,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss79("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss79("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss8000""",
@@ -1686,8 +1532,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss80("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss80("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss8100""",
@@ -1695,8 +1539,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss81("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss81("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss8200""",
@@ -1704,8 +1546,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss82("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss82("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss8300""",
@@ -1713,8 +1553,6 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speakemptinesss83("en-GB" ""),
           //   onPressedAmerican: () => speakemptinesss83("en-US" ""),
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptinesss8400""",

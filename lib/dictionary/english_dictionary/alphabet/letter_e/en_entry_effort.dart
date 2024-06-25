@@ -490,8 +490,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefforts1("en-GB"),
             onPressedAmerican: () => speakefforts1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -501,8 +499,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefforts2("en-GB"),
             onPressedAmerican: () => speakefforts2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           Column(
             children: [
               MyExpansionTile(
@@ -594,8 +590,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefforts10("en-GB"),
             onPressedAmerican: () => speakefforts10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -605,8 +599,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefforts11("en-GB"),
             onPressedAmerican: () => speakefforts11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -616,8 +608,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefforts12("en-GB"),
             onPressedAmerican: () => speakefforts12("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The task required almost no effort.""",

@@ -376,8 +376,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrowsys1("en-GB"),
             onPressedAmerican: () => speakdrowsys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He was drowsy with the heat.",
@@ -385,8 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrowsys2("en-GB"),
             onPressedAmerican: () => speakdrowsys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           // // const DividerSentences(),
           // Row(
           //   children: [

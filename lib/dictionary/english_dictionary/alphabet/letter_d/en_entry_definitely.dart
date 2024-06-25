@@ -283,8 +283,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefinitelys1("en-GB"),
             onPressedAmerican: () => speakdefinitelys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -294,8 +292,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefinitelys2("en-GB"),
             onPressedAmerican: () => speakdefinitelys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The claim is definitely true.",
@@ -306,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) بەشێوەیەک کە کەسێک یان شتێک دڵنیایە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The date of the move has not been definitely decided yet (= it may change).",

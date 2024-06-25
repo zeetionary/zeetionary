@@ -249,7 +249,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەزگا یان ئامرازی بڕین، تیغ، تیغە، بڕینگەر، بڕە(ک)، بڕەڕ،	بەلەم یان گەمی ھات‌وچۆ (نێوان کەشتی و کەنار)
 """),
           const DefinitionKurdish(text: "١. (ناو) کەسێک یان شتێک کە شت دەبڕێت"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Slide the frittata out of the pan and slice it with a pizza cutter.",

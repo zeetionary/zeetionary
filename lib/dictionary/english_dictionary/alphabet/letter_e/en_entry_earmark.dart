@@ -406,8 +406,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearmarks1("en-GB"),
             onPressedAmerican: () => speakearmarks1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The factory has been earmarked for closure.""",
@@ -415,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearmarks2("en-GB"),
             onPressedAmerican: () => speakearmarks2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She was earmarked early as a possible champion.""",

@@ -406,8 +406,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakempires1("en-GB"),
             onPressedAmerican: () => speakempires1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The Japanese empire was quickly dismantled.""",
@@ -415,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakempires2("en-GB"),
             onPressedAmerican: () => speakempires2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The mighty empire finally crumbled.""",

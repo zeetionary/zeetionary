@@ -271,8 +271,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakderelicts1("en-GB"),
             onPressedAmerican: () => speakderelicts1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The land lay derelict for ten years.",
@@ -284,15 +282,13 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) بە تەواوی شکستخواردوو لە ئەنجامدانی ئەرکەکانت"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "They have been grossly derelict in their duty.",
             kurdishText: "تەواو کەمتەرخەم لە ئەرکەکانیاندا.",
             onPressedBritish: () => speakderelicts3("en-GB"),
             onPressedAmerican: () => speakderelicts3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

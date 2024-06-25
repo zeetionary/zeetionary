@@ -282,8 +282,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefensives1("en-GB"),
             onPressedAmerican: () => speakdefensives1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Troops took up a defensive position around the town.",
@@ -303,8 +301,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefensives3("en-GB"),
             onPressedAmerican: () => speakdefensives3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٤. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He is extremely defensive about his work.",

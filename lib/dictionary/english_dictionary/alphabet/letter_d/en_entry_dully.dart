@@ -408,98 +408,60 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdullys3("en-GB"),
             onPressedAmerican: () => speakdullys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys400
           // speakdullys4
           // dullys4("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys500
           // speakdullys5
           // dullys5("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys600
           // speakdullys6
           // dullys6("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys700
           // speakdullys7
           // dullys7("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys800
           // speakdullys8
           // dullys8("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys900
           // speakdullys9
           // dullys9("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys_1000
           // speakdullys10
           // dullys10("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1100
           // speakdullys11
           // dullys11("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1200
           // speakdullys12
           // dullys12("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1300
           // speakdullys13
           // dullys13("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1400
           // speakdullys14
           // dullys14("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1500
           // speakdullys15
           // dullys15("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1600
           // speakdullys16
           // dullys16("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1700
           // speakdullys17
           // dullys17("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1800
           // speakdullys18
           // dullys18("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys1900
           // speakdullys19
           // dullys19("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys_2000
           // speakdullys20
           // dullys20("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys2100
           // speakdullys21
           // dullys21("en-US"""),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           // dullys2200
           // speakdullys22
           // dullys22("en-US"""),

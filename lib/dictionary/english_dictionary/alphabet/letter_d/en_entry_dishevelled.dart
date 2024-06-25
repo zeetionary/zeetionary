@@ -246,8 +246,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdishevelleds1("en-GB"),
             onPressedAmerican: () => speakdishevelleds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She returned at 1 a.m. in a dishevelled state.",

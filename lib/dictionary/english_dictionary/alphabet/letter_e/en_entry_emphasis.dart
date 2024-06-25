@@ -413,8 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemphasiss1("en-GB"),
             onPressedAmerican: () => speakemphasiss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -423,8 +421,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemphasiss2("en-GB"),
             onPressedAmerican: () => speakemphasiss2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """There is too much emphasis on reducing costs.""",
@@ -432,8 +428,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemphasiss3("en-GB"),
             onPressedAmerican: () => speakemphasiss3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Both subjects should be given equal emphasis.""",
@@ -453,8 +447,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemphasiss5("en-GB"),
             onPressedAmerican: () => speakemphasiss5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He put extra emphasis on the word ‘never’.""",

@@ -455,8 +455,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects1("en-GB"),
             onPressedAmerican: () => speakeffects1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Her tears had no effect on him.""",
@@ -464,8 +462,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects2("en-GB"),
             onPressedAmerican: () => speakeffects2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -475,8 +471,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects3("en-GB"),
             onPressedAmerican: () => speakeffects3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -486,8 +480,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects4("en-GB"),
             onPressedAmerican: () => speakeffects4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -497,8 +489,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects5("en-GB"),
             onPressedAmerican: () => speakeffects5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I tried to persuade him, but with no effect.""",
@@ -517,8 +507,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects7("en-GB"),
             onPressedAmerican: () => speakeffects7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -527,8 +515,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects8("en-GB"),
             onPressedAmerican: () => speakeffects8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -550,8 +536,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects10("en-GB"),
             onPressedAmerican: () => speakeffects10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

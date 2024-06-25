@@ -324,8 +324,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefinites1("en-GB"),
             onPressedAmerican: () => speakdefinites1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -335,8 +333,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefinites2("en-GB"),
             onPressedAmerican: () => speakdefinites2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Is it definite that he's leaving?",
@@ -344,8 +340,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefinites3("en-GB"),
             onPressedAmerican: () => speakdefinites3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I've heard rumours, but nothing definite.",

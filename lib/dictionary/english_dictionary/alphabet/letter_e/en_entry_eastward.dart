@@ -394,8 +394,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeastwards2("en-GB"),
             onPressedAmerican: () => speakeastwards2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They marched eastward towards the capital.""",

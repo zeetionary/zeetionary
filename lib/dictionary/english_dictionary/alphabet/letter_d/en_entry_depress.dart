@@ -270,8 +270,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepresss1("en-GB"),
             onPressedAmerican: () => speakdepresss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "What depresses me most is that I never see you.",
@@ -279,8 +277,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepresss2("en-GB"),
             onPressedAmerican: () => speakdepresss2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -293,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) کەمکردنەوەی چالاکی پیشەسازی، بازرگانی، ھتد"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "The recession has depressed the housing market.",
             kurdishText: "قەیرانەکە بازاڕی خانووبەرەی ناچالاک کردووە.",

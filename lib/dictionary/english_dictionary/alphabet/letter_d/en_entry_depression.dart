@@ -326,8 +326,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepressions1("en-GB"),
             onPressedAmerican: () => speakdepressions1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He had a family history of depression.",
@@ -335,8 +333,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepressions2("en-GB"),
             onPressedAmerican: () => speakdepressions2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Bereavement can often lead to depression.",
@@ -344,8 +340,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepressions3("en-GB"),
             onPressedAmerican: () => speakdepressions3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Her depression has lifted now.",

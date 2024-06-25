@@ -424,8 +424,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffectives1("en-GB"),
             onPressedAmerican: () => speakeffectives1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -435,8 +433,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffectives2("en-GB"),
             onPressedAmerican: () => speakeffectives2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -446,8 +442,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffectives3("en-GB"),
             onPressedAmerican: () => speakeffectives3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The system has proved less effective than hoped.""",
@@ -466,8 +460,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffectives5("en-GB"),
             onPressedAmerican: () => speakeffectives5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

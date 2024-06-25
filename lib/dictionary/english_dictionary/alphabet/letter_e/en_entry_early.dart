@@ -566,8 +566,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys1("en-GB"),
             onPressedAmerican: () => speakearlys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -577,8 +575,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys2("en-GB"),
             onPressedAmerican: () => speakearlys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           Column(
             children: [
               MyExpansionTile(
@@ -648,8 +644,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys8("en-GB"),
             onPressedAmerican: () => speakearlys8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The bus was ten minutes early.""",
@@ -657,8 +651,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys9("en-GB"),
             onPressedAmerican: () => speakearlys9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He learnt to play the piano at an early age.""",
@@ -666,8 +658,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys10("en-GB"),
             onPressedAmerican: () => speakearlys10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I'm sorry I'm a bit early.""",
@@ -675,8 +665,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys11("en-GB"),
             onPressedAmerican: () => speakearlys11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Victoria has decided to take early retirement.""",
@@ -697,8 +685,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys13("en-GB"),
             onPressedAmerican: () => speakearlys13("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -717,8 +703,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys15("en-GB"),
             onPressedAmerican: () => speakearlys15("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We meet the hero quite early in the film.""",
@@ -726,8 +710,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys16("en-GB"),
             onPressedAmerican: () => speakearlys16("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He started writing music as early as 1989.""",
@@ -735,8 +717,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys17("en-GB"),
             onPressedAmerican: () => speakearlys17("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The best rooms go to those who book earliest.""",
@@ -757,8 +737,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys19("en-GB"),
             onPressedAmerican: () => speakearlys19("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Get there early to make sure you get good seats.""",
@@ -766,8 +744,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys20("en-GB"),
             onPressedAmerican: () => speakearlys20("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The bus came five minutes early.""",
@@ -775,8 +751,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys21("en-GB"),
             onPressedAmerican: () => speakearlys21("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I woke up early this morning.""",
@@ -784,8 +758,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys22("en-GB"),
             onPressedAmerican: () => speakearlys22("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She went to bed early.""",
@@ -793,8 +765,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearlys23("en-GB"),
             onPressedAmerican: () => speakearlys23("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I arrived a few minutes early for my interview.""",

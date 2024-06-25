@@ -412,8 +412,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdollars1("en-GB"),
             onPressedAmerican: () => speakdollars1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Do you have a dollar?",
@@ -421,8 +419,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdollars2("en-GB"),
             onPressedAmerican: () => speakdollars2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He sold the company in a multimillion-dollar deal.",
@@ -431,8 +427,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdollars3("en-GB"),
             onPressedAmerican: () => speakdollars3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -442,8 +436,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdollars4("en-GB"),
             onPressedAmerican: () => speakdollars4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "China produces billions of dollars worth of exports.",

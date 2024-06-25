@@ -507,8 +507,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements1("en-GB"),
             onPressedAmerican: () => speakelements1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Cost was a key element in our decision.""",
@@ -516,8 +514,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements2("en-GB"),
             onPressedAmerican: () => speakelements2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -527,8 +523,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements3("en-GB"),
             onPressedAmerican: () => speakelements3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -537,8 +531,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements4("en-GB"),
             onPressedAmerican: () => speakelements4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -557,8 +549,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements6("en-GB"),
             onPressedAmerican: () => speakelements6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """All outdoor activities carry an element of risk.""",
@@ -566,8 +556,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements7("en-GB"),
             onPressedAmerican: () => speakelements7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -576,8 +564,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements8("en-GB"),
             onPressedAmerican: () => speakelements8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -596,8 +582,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements10("en-GB"),
             onPressedAmerican: () => speakelements10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -631,8 +615,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelements13("en-GB"),
             onPressedAmerican: () => speakelements13("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

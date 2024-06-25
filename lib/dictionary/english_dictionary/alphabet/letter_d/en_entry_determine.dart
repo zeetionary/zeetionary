@@ -335,8 +335,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetermines1("en-GB"),
             onPressedAmerican: () => speakdetermines1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Try to determine the extent of the problem.",
@@ -344,8 +342,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetermines2("en-GB"),
             onPressedAmerican: () => speakdetermines2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -355,8 +351,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetermines3("en-GB"),
             onPressedAmerican: () => speakdetermines3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -378,8 +372,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetermines5("en-GB"),
             onPressedAmerican: () => speakdetermines5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -388,8 +380,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetermines6("en-GB"),
             onPressedAmerican: () => speakdetermines6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

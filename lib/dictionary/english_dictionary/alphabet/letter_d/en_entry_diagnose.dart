@@ -265,8 +265,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiagnoses1("en-GB"),
             onPressedAmerican: () => speakdiagnoses1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The illness was diagnosed as cancer.",
@@ -274,8 +272,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiagnoses2("en-GB"),
             onPressedAmerican: () => speakdiagnoses2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He has recently been diagnosed with angina.",
@@ -283,8 +279,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiagnoses3("en-GB"),
             onPressedAmerican: () => speakdiagnoses3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I quickly diagnosed the problem as a faulty battery.",

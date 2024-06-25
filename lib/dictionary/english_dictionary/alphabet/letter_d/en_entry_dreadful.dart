@@ -407,8 +407,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdreadfuls1("en-GB"),
             onPressedAmerican: () => speakdreadfuls1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "What a dreadful thing to say!",
@@ -416,8 +414,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdreadfuls2("en-GB"),
             onPressedAmerican: () => speakdreadfuls2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It's dreadful the way they treat their staff.",
@@ -428,15 +424,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) بۆ جەختکردنەوە لەوەی کە شتێک چەندە خراپە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "She's making a dreadful mess of things.",
             kurdishText: "شپرزەییەکی تەواو لە شتەکان درووست دەکات.",
             onPressedBritish: () => speakdreadfuls4("en-GB"),
             onPressedAmerican: () => speakdreadfuls4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I'm afraid there's been a dreadful mistake.",

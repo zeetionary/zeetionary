@@ -478,7 +478,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بوون بە گرتنگترین یان دیارترین خاسیەتی شتێک"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText: "The train crash dominated the news.",
             kurdishText: "تێکشکانی شەمەندەفەرەکە ھەواڵەکانی گرت.",

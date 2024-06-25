@@ -261,8 +261,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelightfuls1("en-GB"),
             onPressedAmerican: () => speakdelightfuls1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Our new neighbours are delightful.",
@@ -270,8 +268,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelightfuls2("en-GB"),
             onPressedAmerican: () => speakdelightfuls2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Thank you for a delightful evening.",

@@ -401,8 +401,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakebbs1("en-GB"),
             onPressedAmerican: () => speakebbs1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They went out to sea with the ebb.""",
@@ -429,8 +427,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakebbs4("en-GB"),
             onPressedAmerican: () => speakebbs4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Her strength began to ebb.""",

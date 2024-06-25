@@ -254,8 +254,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscards1("en-GB"),
             onPressedAmerican: () => speakdiscards1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He had discarded his jacket because of the heat.",
@@ -263,8 +261,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscards2("en-GB"),
             onPressedAmerican: () => speakdiscards2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She could now discard all thought of promotion.",

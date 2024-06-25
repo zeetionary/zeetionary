@@ -271,8 +271,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisrespects1("en-GB"),
             onPressedAmerican: () => speakdisrespects1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She felt he had total disrespect for women.",
@@ -280,8 +278,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisrespects2("en-GB"),
             onPressedAmerican: () => speakdisrespects2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They have shown a total disrespect for the law.",
@@ -299,8 +295,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisrespects4("en-GB"),
             onPressedAmerican: () => speakdisrespects4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He denied disrespecting the disaster victims.",

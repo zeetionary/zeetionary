@@ -248,8 +248,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakuninteresteds1("en-GB"),
             onPressedAmerican: () => speakuninteresteds1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She seemed cold and uninterested.",

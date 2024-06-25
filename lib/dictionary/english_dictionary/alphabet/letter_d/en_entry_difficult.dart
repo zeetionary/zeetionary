@@ -391,8 +391,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficults1("en-GB"),
             onPressedAmerican: () => speakdifficults1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -401,8 +399,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficults2("en-GB"),
             onPressedAmerican: () => speakdifficults2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It's really difficult to read your writing.",
@@ -411,8 +407,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficults3("en-GB"),
             onPressedAmerican: () => speakdifficults3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           Column(
             children: [
               MyExpansionTile(
@@ -492,8 +486,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficults12("en-GB"),
             onPressedAmerican: () => speakdifficults12("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I'd had a difficult time and needed a break.",
@@ -501,8 +493,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficults13("en-GB"),
             onPressedAmerican: () => speakdifficults13("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           Column(
             children: [
               MyExpansionTile(
@@ -553,8 +543,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficults18("en-GB"),
             onPressedAmerican: () => speakdifficults18("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Roger was always a difficult child.",

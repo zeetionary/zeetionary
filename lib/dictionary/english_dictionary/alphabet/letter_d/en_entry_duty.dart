@@ -487,8 +487,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys1("en-GB"),
             onPressedAmerican: () => speakdutys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -498,8 +496,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys2("en-GB"),
             onPressedAmerican: () => speakdutys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -509,8 +505,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys3("en-GB"),
             onPressedAmerican: () => speakdutys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -529,8 +523,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys5("en-GB"),
             onPressedAmerican: () => speakdutys5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He was on kitchen duty.""",
@@ -538,8 +530,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys6("en-GB"),
             onPressedAmerican: () => speakdutys6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He's been suspended from active duty.""",
@@ -547,8 +537,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys7("en-GB"),
             onPressedAmerican: () => speakdutys7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -568,8 +556,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys9("en-GB"),
             onPressedAmerican: () => speakdutys9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -579,8 +565,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys10("en-GB"),
             onPressedAmerican: () => speakdutys10("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -590,8 +574,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys11("en-GB"),
             onPressedAmerican: () => speakdutys11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The cleaning duties now fell to Rachel.""",
@@ -599,8 +581,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys12("en-GB"),
             onPressedAmerican: () => speakdutys12("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I share the cooking duties with Bell.""",
@@ -608,8 +588,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdutys13("en-GB"),
             onPressedAmerican: () => speakdutys13("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

@@ -297,8 +297,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetacheds2("en-GB"),
             onPressedAmerican: () => speakdetacheds2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She spoke in a normal, detached tone.",
@@ -317,8 +315,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetacheds4("en-GB"),
             onPressedAmerican: () => speakdetacheds4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) پڕۆسەی خراپبوونی شتێک"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Pollution causes environmental degradation in many areas.",

@@ -460,8 +460,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections1("en-GB"),
             onPressedAmerican: () => speakelections1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Elections will be held later this year.""",
@@ -469,8 +467,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections2("en-GB"),
             onPressedAmerican: () => speakelections2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """How many candidates are standing for election?""",
@@ -478,8 +474,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections3("en-GB"),
             onPressedAmerican: () => speakelections3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Education is a key election issue.""",
@@ -487,8 +481,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections4("en-GB"),
             onPressedAmerican: () => speakelections4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Elections are scheduled for November.""",
@@ -496,8 +488,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections5("en-GB"),
             onPressedAmerican: () => speakelections5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Membership of the committee is by election.""",
@@ -505,8 +495,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections6("en-GB"),
             onPressedAmerican: () => speakelections6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The election turnout in 2018 was high.""",
@@ -514,8 +502,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections7("en-GB"),
             onPressedAmerican: () => speakelections7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The party swept German elections in November.""",
@@ -524,8 +510,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections8("en-GB"),
             onPressedAmerican: () => speakelections8("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -535,8 +519,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections9("en-GB"),
             onPressedAmerican: () => speakelections9("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -558,8 +540,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections11("en-GB"),
             onPressedAmerican: () => speakelections11("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We welcome his election as president.""",

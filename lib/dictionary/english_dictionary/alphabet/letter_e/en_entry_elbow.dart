@@ -418,8 +418,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelbows1("en-GB"),
             onPressedAmerican: () => speakelbows1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He rested his elbows on his knees.""",
@@ -427,8 +425,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelbows2("en-GB"),
             onPressedAmerican: () => speakelbows2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He's fractured his elbow.""",
@@ -436,8 +432,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelbows3("en-GB"),
             onPressedAmerican: () => speakelbows3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I banged my elbow on the table as I got up.""",
@@ -465,8 +459,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelbows6("en-GB"),
             onPressedAmerican: () => speakelbows6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

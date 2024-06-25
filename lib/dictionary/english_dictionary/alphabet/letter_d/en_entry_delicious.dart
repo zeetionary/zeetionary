@@ -270,8 +270,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeliciouss1("en-GB"),
             onPressedAmerican: () => speakdeliciouss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "This dish is delicious with cream.",
@@ -279,8 +277,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeliciouss2("en-GB"),
             onPressedAmerican: () => speakdeliciouss2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "What's that? It smells delicious.",

@@ -384,7 +384,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) وا لە شتێک بکەیت زیاتر جۆش‌وخرۆشی پێبدەیت وەک ئەوەی لە ڕاستیدا ھەیە"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Don't worry too much about what she said—she tends to dramatize things.",

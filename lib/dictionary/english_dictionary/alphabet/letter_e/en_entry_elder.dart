@@ -438,8 +438,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelders1("en-GB"),
             onPressedAmerican: () => speakelders1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He always looked up to his elder brothers.""",
@@ -448,8 +446,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelders2("en-GB"),
             onPressedAmerican: () => speakelders2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -470,8 +466,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelders4("en-GB"),
             onPressedAmerican: () => speakelders4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He was the elder by five years.""",
@@ -503,8 +497,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelders7("en-GB"),
             onPressedAmerican: () => speakelders7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

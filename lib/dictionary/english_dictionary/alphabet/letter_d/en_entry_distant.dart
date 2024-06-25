@@ -435,8 +435,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistants1("en-GB"),
             onPressedAmerican: () => speakdistants1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The airport was about 20 kilometres distant.",
@@ -444,8 +442,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistants2("en-GB"),
             onPressedAmerican: () => speakdistants2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Peace was just a distant hope (= not very likely).",
@@ -453,8 +449,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistants3("en-GB"),
             onPressedAmerican: () => speakdistants3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -494,8 +488,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistants7("en-GB"),
             onPressedAmerican: () => speakdistants7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

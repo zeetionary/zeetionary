@@ -274,8 +274,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeficits1("en-GB"),
             onPressedAmerican: () => speakdeficits1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           // "speakdeficits200"),
           //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
@@ -294,8 +292,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -305,8 +301,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeficits3("en-GB"),
             onPressedAmerican: () => speakdeficits3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The company has run up a deficit of £30 000.",
@@ -318,7 +312,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو بڕەی کە ھەیە کاتێک شتێک زۆر کەمە یان کەمترە لە شتێک"),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There's a deficit of £3 million in the total needed to complete the project.",

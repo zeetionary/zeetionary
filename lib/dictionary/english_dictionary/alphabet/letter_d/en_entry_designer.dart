@@ -298,8 +298,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigners1("en-GB"),
             onPressedAmerican: () => speakdesigners1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -309,8 +307,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigners2("en-GB"),
             onPressedAmerican: () => speakdesigners2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -319,8 +315,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigners3("en-GB"),
             onPressedAmerican: () => speakdesigners3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She was a very imaginative designer.",
@@ -339,8 +333,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigners5("en-GB"),
             onPressedAmerican: () => speakdesigners5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Her favourite designer label is Armani.",
@@ -348,8 +340,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesigners6("en-GB"),
             onPressedAmerican: () => speakdesigners6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I don't possess any designer clothes.",

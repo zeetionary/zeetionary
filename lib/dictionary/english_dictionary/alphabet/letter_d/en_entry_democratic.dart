@@ -301,8 +301,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemocratics1("en-GB"),
             onPressedAmerican: () => speakdemocratics1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -312,8 +310,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemocratics2("en-GB"),
             onPressedAmerican: () => speakdemocratics2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "They have a fairly democratic form of government.",

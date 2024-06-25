@@ -417,8 +417,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelivers1("en-GB"),
             onPressedAmerican: () => speakdelivers1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Leaflets have been delivered to every household.",
@@ -426,8 +424,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelivers2("en-GB"),
             onPressedAmerican: () => speakdelivers2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We promise to deliver within 48 hours.",
@@ -435,8 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelivers3("en-GB"),
             onPressedAmerican: () => speakdelivers3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "We deliver to our stores seven days a week.",

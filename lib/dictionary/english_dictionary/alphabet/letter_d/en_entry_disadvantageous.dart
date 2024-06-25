@@ -252,8 +252,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisadvantageouss1("en-GB"),
             onPressedAmerican: () => speakdisadvantageouss1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Growing conditions here are disadvantageous.",

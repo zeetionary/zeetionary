@@ -262,8 +262,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespises1("en-GB"),
             onPressedAmerican: () => speakdespises1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I don’t know why they despise me so much.",
@@ -271,8 +269,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdespises2("en-GB"),
             onPressedAmerican: () => speakdespises2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He despised himself for being so cowardly.",

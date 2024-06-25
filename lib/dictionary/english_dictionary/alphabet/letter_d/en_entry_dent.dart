@@ -290,8 +290,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdents1("en-GB"),
             onPressedAmerican: () => speakdents1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The car was quite badly dented on one side.",
@@ -309,8 +307,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdents3("en-GB"),
             onPressedAmerican: () => speakdents3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

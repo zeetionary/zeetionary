@@ -293,8 +293,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisadvantages1("en-GB"),
             onPressedAmerican: () => speakdisadvantages1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -315,8 +313,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisadvantages3("en-GB"),
             onPressedAmerican: () => speakdisadvantages3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "What's the main disadvantage?",
@@ -324,8 +320,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisadvantages4("en-GB"),
             onPressedAmerican: () => speakdisadvantages4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Each plan has its own advantages and disadvantages.",
@@ -333,8 +327,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisadvantages5("en-GB"),
             onPressedAmerican: () => speakdisadvantages5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "There are disadvantages to the plan.",
@@ -342,8 +334,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisadvantages6("en-GB"),
             onPressedAmerican: () => speakdisadvantages6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

@@ -435,8 +435,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubts1("en-GB"),
             onPressedAmerican: () => speakdoubts1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He was starting to have some serious doubts.",
@@ -445,8 +443,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubts2("en-GB"),
             onPressedAmerican: () => speakdoubts2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -456,8 +452,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubts3("en-GB"),
             onPressedAmerican: () => speakdoubts3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "There is some doubt about the best way to do it.",
@@ -475,8 +469,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubts5("en-GB"),
             onPressedAmerican: () => speakdoubts5("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "‘Do you think England will win?’—‘I doubt it.’",
@@ -484,8 +476,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubts6("en-GB"),
             onPressedAmerican: () => speakdoubts6("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I never doubted (that) she would come.",
@@ -493,8 +483,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubts7("en-GB"),
             onPressedAmerican: () => speakdoubts7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "I doubt whether the new one will be any better.",

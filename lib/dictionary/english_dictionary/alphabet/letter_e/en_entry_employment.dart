@@ -424,8 +424,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemployments1("en-GB"),
             onPressedAmerican: () => speakemployments1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -434,8 +432,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemployments2("en-GB"),
             onPressedAmerican: () => speakemployments2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She hoped to secure employment in the IT sector.""",
@@ -456,8 +452,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemployments4("en-GB"),
             onPressedAmerican: () => speakemployments4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

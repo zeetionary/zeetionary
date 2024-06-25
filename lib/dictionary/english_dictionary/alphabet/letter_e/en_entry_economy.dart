@@ -453,8 +453,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomys1("en-GB"),
             onPressedAmerican: () => speakeconomys1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -464,8 +462,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomys2("en-GB"),
             onPressedAmerican: () => speakeconomys2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Tourism clearly dominates the local economy.""",
@@ -474,8 +470,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomys3("en-GB"),
             onPressedAmerican: () => speakeconomys3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He favours tax cuts to stimulate the economy.""",
@@ -484,8 +478,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomys4("en-GB"),
             onPressedAmerican: () => speakeconomys4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -520,8 +512,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomys7("en-GB"),
             onPressedAmerican: () => speakeconomys7("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:

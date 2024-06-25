@@ -345,8 +345,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesires1("en-GB"),
             onPressedAmerican: () => speakdesires1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She has a burning desire to be an artist.",
@@ -354,8 +352,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesires2("en-GB"),
             onPressedAmerican: () => speakdesires2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -364,8 +360,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesires3("en-GB"),
             onPressedAmerican: () => speakdesires3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He has expressed a desire to see you.",
@@ -373,8 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesires4("en-GB"),
             onPressedAmerican: () => speakdesires4("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "He is filled with conflicting desires.",

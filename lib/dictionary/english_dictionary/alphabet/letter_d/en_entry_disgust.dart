@@ -274,8 +274,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisgusts1("en-GB"),
             onPressedAmerican: () => speakdisgusts1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -284,8 +282,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisgusts2("en-GB"),
             onPressedAmerican: () => speakdisgusts2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "She wrinkled her nose in disgust at the smell.",
@@ -293,8 +289,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisgusts3("en-GB"),
             onPressedAmerican: () => speakdisgusts3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText:

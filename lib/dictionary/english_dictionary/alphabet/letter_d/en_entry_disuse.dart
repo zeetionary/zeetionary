@@ -384,8 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisuses1("en-GB"),
             onPressedAmerican: () => speakdisuses1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Her muscles had become weak through disuse.",
@@ -393,8 +391,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisuses2("en-GB"),
             onPressedAmerican: () => speakdisuses2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Much of the factory is in disuse.",

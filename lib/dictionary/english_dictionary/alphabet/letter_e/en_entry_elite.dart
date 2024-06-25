@@ -417,8 +417,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelites1("en-GB"),
             onPressedAmerican: () => speakelites1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -430,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (ھاوەڵناو) وەرزشکارێک کە """),
-          const DividerSentences(),
+          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Public opinion is influenced by the small elite who control the media.""",

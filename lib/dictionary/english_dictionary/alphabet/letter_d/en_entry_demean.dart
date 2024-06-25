@@ -283,8 +283,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemeans2("en-GB"),
             onPressedAmerican: () => speakdemeans2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "Behaviour like this demeans politics.",
@@ -292,8 +290,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemeans3("en-GB"),
             onPressedAmerican: () => speakdemeans3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "The entire family was demeaned by his behaviour.",

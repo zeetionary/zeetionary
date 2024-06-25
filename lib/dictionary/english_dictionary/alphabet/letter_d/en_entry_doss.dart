@@ -414,8 +414,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdosss3("en-GB"),
             onPressedAmerican: () => speakdosss3("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "ژممارە. (ھاوەڵناو) پێنناسە"),
           const DividerSentences(),
           SentencesRow(
             englishText: "It must be a doss working there.",

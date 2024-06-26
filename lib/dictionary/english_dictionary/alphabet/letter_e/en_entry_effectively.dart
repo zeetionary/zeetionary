@@ -280,7 +280,7 @@ class TTSUK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakeffectively("en-GB" ""),
+      onPressed: () => speakeffectively("en-GB"),
     );
   }
 }

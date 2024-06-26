@@ -2864,6 +2864,7 @@ final Map<String, String> wordRoutes = {
   "chicken": "/english-chicken",
   "chickenpox": "/english-chickenpox",
   "chicory": "/english-chicory",
+  "endive": "/english-chicory",
   "chief": "/english-chief",
   "chief constable": "/english-chief-constable",
   "chiefly": "/english-chiefly",

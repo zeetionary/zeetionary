@@ -4,9 +4,26 @@ import 'package:flutter_tts/flutter_tts.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
+// one quotations
 // Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
 
-// Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("\w*00"\);\s*\}
+// three quotations
+// Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("""\w*00"""\);\s*\}
+
+// three quotations with new lines break ^\s*
+// ^\s*Future<void> \w+\(String languageCode\) async \{[^}]+await flutterTts\.speak\("""\w*00"""\);\s*\}
+
+// removes definitions dont use this
+// ^\s*const DividerDefinition\(\),\s*const DefinitionKurdish\(text: """[^"]* \([^"]*\) [^"]*"""\),
+
+// removes sentences row with one newline break above them https://chatgpt.com/c/5749d2fc-4f0d-4949-9ae6-8aaaba309d80
+// ^\s*const DividerSentences\(\),\s*SentencesRow\(\s*englishText: """[^"]*00""",\s*kurdishText: """[^"]*""",\s*onPressedBritish: \(\) => [^,]+,\s*onPressedAmerican: \(\) => [^,]+,\s*\),
+
+// removes sentences row
+// const DividerSentences\(\),\s+SentencesRow\(\s+englishText: """[^"]*00""",\s+kurdishText: """[^"]*""",\s+onPressedBritish: \(\) => [^,]+,\s+onPressedAmerican: \(\) => [^,]+,\s+\),
+
+// removes sentences and their definitions
+// ^\s*const DividerDefinition\(\),\s*const DefinitionKurdish\(text: """[^"]* \([^"]*\) [^"]*"""\),\s*const DividerSentences\(\),\s*SentencesRow\(\s*englishText: """[^"]*00""",\s*kurdishText: """[^"]*""",\s*onPressedBritish: [^,]+,\s*onPressedAmerican: [^,]+,\s*\),
 
 // DefaultTabController TabBarView YoutubeEmbeddedone YouTubeScroller
 // scrollDirection: Axis.vertical,

@@ -279,7 +279,7 @@ class TTSUK extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CustomIconButtonBritish(
-      onPressed: () => speakearn("en-GB" ""),
+      onPressed: () => speakearn("en-GB"),
     );
   }
 }
@@ -451,7 +451,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearns1("en-GB"),
             onPressedAmerican: () => speakearns1("en-US"),
           ),
-          // earns200earns2("en-GB" ""),
+          // earns200earns2("en-GB"),
           //         ),
           //         CustomIconButtonAmerican(
           //           onPressed: () => speakearns2("en-US" ""),

@@ -442,7 +442,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The empress issued a decree to improve trade.""",
             kurdishText: """شاژن بڕیارێکی دەرکرد بۆ بەهێزکردنی بازرگانی.""",
-            onPressedBritish: () => speakempresss2("en-GB" ""),
+            onPressedBritish: () => speakempresss2("en-GB"),
             onPressedAmerican: () => speakempresss2("en-US" ""),
           ),
         ],

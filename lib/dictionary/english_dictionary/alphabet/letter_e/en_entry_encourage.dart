@@ -894,7 +894,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """She encouraged many young writers and artists.""",
             kurdishText: """هانی زۆر نووسەر و هونەرمەندی گەنجی دا.""",
-            onPressedBritish: () => speaksentence2("en-GB" ""),
+            onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US" ""),
           ),
           // const DividerDefinition(),
@@ -905,7 +905,7 @@ class KurdishMeaning extends StatelessWidget {
                 """My parents have always encouraged me in my choice of career.""",
             kurdishText:
                 """دایبابم هەمیشە هانیان داوم لە هەڵبژاردنی کارکردنمدا.""",
-            onPressedBritish: () => speaksentence3("en-GB" ""),
+            onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US" ""),
           ),
           const DividerDefinition(),
@@ -918,7 +918,7 @@ class KurdishMeaning extends StatelessWidget {
                 """Banks actively encouraged people to borrow money.""",
             kurdishText:
                 """بانکەکان بەردەوام خەڵکییان هاندەدا پارە قەرز بکەن.""",
-            onPressedBritish: () => speaksentence4("en-GB" ""),
+            onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US" ""),
           ),
           // const DividerDefinition(),
@@ -929,7 +929,7 @@ class KurdishMeaning extends StatelessWidget {
                 """I strongly encourage everyone to go and see this important film.""",
             kurdishText:
                 """زۆر هانی هەموان دەدەم بچن و ئەم فیلمە گرنگە ببینن.""",
-            onPressedBritish: () => speaksentence5("en-GB" ""),
+            onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US" ""),
           ),
           // const DividerDefinition(),
@@ -940,7 +940,7 @@ class KurdishMeaning extends StatelessWidget {
                 """The aim of the campaign is to encourage youngsters not to smoke.""",
             kurdishText:
                 """ئامانجی کەمپینەکە هاندانی گەنجانە کە جگەرە نەکێشن.""",
-            onPressedBritish: () => speaksentence6("en-GB" ""),
+            onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US" ""),
           ),
           const DividerDefinition(),
@@ -953,7 +953,7 @@ class KurdishMeaning extends StatelessWidget {
                 """The government should encourage the use of renewable energy sources.""",
             kurdishText:
                 """حکومەت دەبێت هانی بەکارهێنانی سەرچاوەی وزەی دووبارە بەکارهێندراو بدات.""",
-            onPressedBritish: () => speaksentence7("en-GB" ""),
+            onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US" ""),
           ),
           // const DividerDefinition(),
@@ -964,7 +964,7 @@ class KurdishMeaning extends StatelessWidget {
                 """We want a company culture that welcomes ideas and encourages innovation.""",
             kurdishText:
                 """دۆخێکی کۆمپانیامان دەوێت کە ڕێز لە بیرۆکە بگرێت و هانی پێشکەوتن بدات.""",
-            onPressedBritish: () => speaksentence8("en-GB" ""),
+            onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US" ""),
           ),
           // const DividerDefinition(),
@@ -973,7 +973,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence9("en-GB" ""),
+          //   onPressedBritish: () => speaksentence9("en-GB"),
           //   onPressedAmerican: () => speaksentence9("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -982,7 +982,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_1000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence10("en-GB" ""),
+          //   onPressedBritish: () => speaksentence10("en-GB"),
           //   onPressedAmerican: () => speaksentence10("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -991,7 +991,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence11("en-GB" ""),
+          //   onPressedBritish: () => speaksentence11("en-GB"),
           //   onPressedAmerican: () => speaksentence11("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1000,7 +1000,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence12("en-GB" ""),
+          //   onPressedBritish: () => speaksentence12("en-GB"),
           //   onPressedAmerican: () => speaksentence12("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1009,7 +1009,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence13("en-GB" ""),
+          //   onPressedBritish: () => speaksentence13("en-GB"),
           //   onPressedAmerican: () => speaksentence13("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1018,7 +1018,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence14("en-GB" ""),
+          //   onPressedBritish: () => speaksentence14("en-GB"),
           //   onPressedAmerican: () => speaksentence14("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1027,7 +1027,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence15("en-GB" ""),
+          //   onPressedBritish: () => speaksentence15("en-GB"),
           //   onPressedAmerican: () => speaksentence15("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1036,7 +1036,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence16("en-GB" ""),
+          //   onPressedBritish: () => speaksentence16("en-GB"),
           //   onPressedAmerican: () => speaksentence16("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1045,7 +1045,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence17("en-GB" ""),
+          //   onPressedBritish: () => speaksentence17("en-GB"),
           //   onPressedAmerican: () => speaksentence17("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1054,7 +1054,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence18("en-GB" ""),
+          //   onPressedBritish: () => speaksentence18("en-GB"),
           //   onPressedAmerican: () => speaksentence18("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1063,7 +1063,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence1900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence19("en-GB" ""),
+          //   onPressedBritish: () => speaksentence19("en-GB"),
           //   onPressedAmerican: () => speaksentence19("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1072,7 +1072,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_2000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence20("en-GB" ""),
+          //   onPressedBritish: () => speaksentence20("en-GB"),
           //   onPressedAmerican: () => speaksentence20("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1081,7 +1081,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence21("en-GB" ""),
+          //   onPressedBritish: () => speaksentence21("en-GB"),
           //   onPressedAmerican: () => speaksentence21("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1090,7 +1090,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence22("en-GB" ""),
+          //   onPressedBritish: () => speaksentence22("en-GB"),
           //   onPressedAmerican: () => speaksentence22("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1099,7 +1099,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence23("en-GB" ""),
+          //   onPressedBritish: () => speaksentence23("en-GB"),
           //   onPressedAmerican: () => speaksentence23("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1108,7 +1108,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence24("en-GB" ""),
+          //   onPressedBritish: () => speaksentence24("en-GB"),
           //   onPressedAmerican: () => speaksentence24("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1117,7 +1117,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence25("en-GB" ""),
+          //   onPressedBritish: () => speaksentence25("en-GB"),
           //   onPressedAmerican: () => speaksentence25("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1126,7 +1126,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence26("en-GB" ""),
+          //   onPressedBritish: () => speaksentence26("en-GB"),
           //   onPressedAmerican: () => speaksentence26("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1135,7 +1135,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence27("en-GB" ""),
+          //   onPressedBritish: () => speaksentence27("en-GB"),
           //   onPressedAmerican: () => speaksentence27("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1144,7 +1144,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence28("en-GB" ""),
+          //   onPressedBritish: () => speaksentence28("en-GB"),
           //   onPressedAmerican: () => speaksentence28("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1153,7 +1153,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence2900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence29("en-GB" ""),
+          //   onPressedBritish: () => speaksentence29("en-GB"),
           //   onPressedAmerican: () => speaksentence29("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1162,7 +1162,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_3000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence30("en-GB" ""),
+          //   onPressedBritish: () => speaksentence30("en-GB"),
           //   onPressedAmerican: () => speaksentence30("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1171,7 +1171,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence31("en-GB" ""),
+          //   onPressedBritish: () => speaksentence31("en-GB"),
           //   onPressedAmerican: () => speaksentence31("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1180,7 +1180,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence32("en-GB" ""),
+          //   onPressedBritish: () => speaksentence32("en-GB"),
           //   onPressedAmerican: () => speaksentence32("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1189,7 +1189,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence33("en-GB" ""),
+          //   onPressedBritish: () => speaksentence33("en-GB"),
           //   onPressedAmerican: () => speaksentence33("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1198,7 +1198,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence34("en-GB" ""),
+          //   onPressedBritish: () => speaksentence34("en-GB"),
           //   onPressedAmerican: () => speaksentence34("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1207,7 +1207,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence35("en-GB" ""),
+          //   onPressedBritish: () => speaksentence35("en-GB"),
           //   onPressedAmerican: () => speaksentence35("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1216,7 +1216,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence36("en-GB" ""),
+          //   onPressedBritish: () => speaksentence36("en-GB"),
           //   onPressedAmerican: () => speaksentence36("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1225,7 +1225,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence37("en-GB" ""),
+          //   onPressedBritish: () => speaksentence37("en-GB"),
           //   onPressedAmerican: () => speaksentence37("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1234,7 +1234,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence38("en-GB" ""),
+          //   onPressedBritish: () => speaksentence38("en-GB"),
           //   onPressedAmerican: () => speaksentence38("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1243,7 +1243,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence3900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence39("en-GB" ""),
+          //   onPressedBritish: () => speaksentence39("en-GB"),
           //   onPressedAmerican: () => speaksentence39("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1252,7 +1252,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_4000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence40("en-GB" ""),
+          //   onPressedBritish: () => speaksentence40("en-GB"),
           //   onPressedAmerican: () => speaksentence40("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1261,7 +1261,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence41("en-GB" ""),
+          //   onPressedBritish: () => speaksentence41("en-GB"),
           //   onPressedAmerican: () => speaksentence41("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1270,7 +1270,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence42("en-GB" ""),
+          //   onPressedBritish: () => speaksentence42("en-GB"),
           //   onPressedAmerican: () => speaksentence42("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1279,7 +1279,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence43("en-GB" ""),
+          //   onPressedBritish: () => speaksentence43("en-GB"),
           //   onPressedAmerican: () => speaksentence43("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1288,7 +1288,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence44("en-GB" ""),
+          //   onPressedBritish: () => speaksentence44("en-GB"),
           //   onPressedAmerican: () => speaksentence44("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1297,7 +1297,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence45("en-GB" ""),
+          //   onPressedBritish: () => speaksentence45("en-GB"),
           //   onPressedAmerican: () => speaksentence45("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1306,7 +1306,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence46("en-GB" ""),
+          //   onPressedBritish: () => speaksentence46("en-GB"),
           //   onPressedAmerican: () => speaksentence46("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1315,7 +1315,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence47("en-GB" ""),
+          //   onPressedBritish: () => speaksentence47("en-GB"),
           //   onPressedAmerican: () => speaksentence47("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1324,7 +1324,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence48("en-GB" ""),
+          //   onPressedBritish: () => speaksentence48("en-GB"),
           //   onPressedAmerican: () => speaksentence48("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1333,7 +1333,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence4900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence49("en-GB" ""),
+          //   onPressedBritish: () => speaksentence49("en-GB"),
           //   onPressedAmerican: () => speaksentence49("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1342,7 +1342,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_5000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence50("en-GB" ""),
+          //   onPressedBritish: () => speaksentence50("en-GB"),
           //   onPressedAmerican: () => speaksentence50("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1351,7 +1351,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence51("en-GB" ""),
+          //   onPressedBritish: () => speaksentence51("en-GB"),
           //   onPressedAmerican: () => speaksentence51("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1360,7 +1360,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence52("en-GB" ""),
+          //   onPressedBritish: () => speaksentence52("en-GB"),
           //   onPressedAmerican: () => speaksentence52("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1369,7 +1369,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence53("en-GB" ""),
+          //   onPressedBritish: () => speaksentence53("en-GB"),
           //   onPressedAmerican: () => speaksentence53("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1378,7 +1378,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence54("en-GB" ""),
+          //   onPressedBritish: () => speaksentence54("en-GB"),
           //   onPressedAmerican: () => speaksentence54("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1387,7 +1387,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence55("en-GB" ""),
+          //   onPressedBritish: () => speaksentence55("en-GB"),
           //   onPressedAmerican: () => speaksentence55("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1396,7 +1396,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence56("en-GB" ""),
+          //   onPressedBritish: () => speaksentence56("en-GB"),
           //   onPressedAmerican: () => speaksentence56("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1405,7 +1405,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence57("en-GB" ""),
+          //   onPressedBritish: () => speaksentence57("en-GB"),
           //   onPressedAmerican: () => speaksentence57("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1414,7 +1414,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence58("en-GB" ""),
+          //   onPressedBritish: () => speaksentence58("en-GB"),
           //   onPressedAmerican: () => speaksentence58("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1423,7 +1423,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence5900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence59("en-GB" ""),
+          //   onPressedBritish: () => speaksentence59("en-GB"),
           //   onPressedAmerican: () => speaksentence59("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1432,7 +1432,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_6000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence60("en-GB" ""),
+          //   onPressedBritish: () => speaksentence60("en-GB"),
           //   onPressedAmerican: () => speaksentence60("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1441,7 +1441,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence61("en-GB" ""),
+          //   onPressedBritish: () => speaksentence61("en-GB"),
           //   onPressedAmerican: () => speaksentence61("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1450,7 +1450,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence62("en-GB" ""),
+          //   onPressedBritish: () => speaksentence62("en-GB"),
           //   onPressedAmerican: () => speaksentence62("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1459,7 +1459,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence63("en-GB" ""),
+          //   onPressedBritish: () => speaksentence63("en-GB"),
           //   onPressedAmerican: () => speaksentence63("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1468,7 +1468,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence64("en-GB" ""),
+          //   onPressedBritish: () => speaksentence64("en-GB"),
           //   onPressedAmerican: () => speaksentence64("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1477,7 +1477,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence65("en-GB" ""),
+          //   onPressedBritish: () => speaksentence65("en-GB"),
           //   onPressedAmerican: () => speaksentence65("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1486,7 +1486,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence66("en-GB" ""),
+          //   onPressedBritish: () => speaksentence66("en-GB"),
           //   onPressedAmerican: () => speaksentence66("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1495,7 +1495,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence67("en-GB" ""),
+          //   onPressedBritish: () => speaksentence67("en-GB"),
           //   onPressedAmerican: () => speaksentence67("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1504,7 +1504,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence68("en-GB" ""),
+          //   onPressedBritish: () => speaksentence68("en-GB"),
           //   onPressedAmerican: () => speaksentence68("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1513,7 +1513,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence6900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence69("en-GB" ""),
+          //   onPressedBritish: () => speaksentence69("en-GB"),
           //   onPressedAmerican: () => speaksentence69("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1522,7 +1522,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_7000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence70("en-GB" ""),
+          //   onPressedBritish: () => speaksentence70("en-GB"),
           //   onPressedAmerican: () => speaksentence70("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1531,7 +1531,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence71("en-GB" ""),
+          //   onPressedBritish: () => speaksentence71("en-GB"),
           //   onPressedAmerican: () => speaksentence71("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1540,7 +1540,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence72("en-GB" ""),
+          //   onPressedBritish: () => speaksentence72("en-GB"),
           //   onPressedAmerican: () => speaksentence72("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1549,7 +1549,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence73("en-GB" ""),
+          //   onPressedBritish: () => speaksentence73("en-GB"),
           //   onPressedAmerican: () => speaksentence73("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1558,7 +1558,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence74("en-GB" ""),
+          //   onPressedBritish: () => speaksentence74("en-GB"),
           //   onPressedAmerican: () => speaksentence74("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1567,7 +1567,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7500""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence75("en-GB" ""),
+          //   onPressedBritish: () => speaksentence75("en-GB"),
           //   onPressedAmerican: () => speaksentence75("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1576,7 +1576,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7600""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence76("en-GB" ""),
+          //   onPressedBritish: () => speaksentence76("en-GB"),
           //   onPressedAmerican: () => speaksentence76("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1585,7 +1585,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7700""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence77("en-GB" ""),
+          //   onPressedBritish: () => speaksentence77("en-GB"),
           //   onPressedAmerican: () => speaksentence77("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1594,7 +1594,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7800""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence78("en-GB" ""),
+          //   onPressedBritish: () => speaksentence78("en-GB"),
           //   onPressedAmerican: () => speaksentence78("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1603,7 +1603,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence7900""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence79("en-GB" ""),
+          //   onPressedBritish: () => speaksentence79("en-GB"),
           //   onPressedAmerican: () => speaksentence79("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1612,7 +1612,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence_8000""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence80("en-GB" ""),
+          //   onPressedBritish: () => speaksentence80("en-GB"),
           //   onPressedAmerican: () => speaksentence80("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1621,7 +1621,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence8100""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence81("en-GB" ""),
+          //   onPressedBritish: () => speaksentence81("en-GB"),
           //   onPressedAmerican: () => speaksentence81("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1630,7 +1630,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence8200""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence82("en-GB" ""),
+          //   onPressedBritish: () => speaksentence82("en-GB"),
           //   onPressedAmerican: () => speaksentence82("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1639,7 +1639,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence8300""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence83("en-GB" ""),
+          //   onPressedBritish: () => speaksentence83("en-GB"),
           //   onPressedAmerican: () => speaksentence83("en-US" ""),
           // ),
           // const DividerDefinition(),
@@ -1648,7 +1648,7 @@ class KurdishMeaning extends StatelessWidget {
           // SentencesRow(
           //   englishText: """speaksentence8400""",
           //   kurdishText: """رستە_رستە_رستە_رستە.""",
-          //   onPressedBritish: () => speaksentence84("en-GB" ""),
+          //   onPressedBritish: () => speaksentence84("en-GB"),
           //   onPressedAmerican: () => speaksentence84("en-US" ""),
           // ),
         ],

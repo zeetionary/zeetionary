@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryengraver extends StatefulWidget {
-  const EnglishEntryengraver({super.key});
+class EnglishEntryengross extends StatefulWidget {
+  const EnglishEntryengross({super.key});
 
   @override
-  State<EnglishEntryengraver> createState() => _EnglishEntryengraverState();
+  State<EnglishEntryengross> createState() => _EnglishEntryengrossState();
 }
 
-class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
+class _EnglishEntryengrossState extends State<EnglishEntryengross> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""engraver""");
+    await flutterTts.speak("""engross""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """engraver""",
-                      // alsoEnglishWord: "also: engraver",
-                      britshText: """IpaUK: /ɪnˈɡreɪvə(r)/""",
-                      americanText: """IpaUS: /ɪnˈɡreɪvər/""",
+                      word: """engross""",
+                      // alsoEnglishWord: "also: engross",
+                      britshText: """IpaUK: /ɪnˈɡrəʊs/""",
+                      americanText: """IpaUS: /ɪnˈɡrəʊs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "engraver";
+  final String keyword = "engross";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,14 +237,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He worked as an engraver for a jewelry store.""");
+    await flutterTts
+        .speak("""As the business grew, it totally engrossed him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""What is it about Harry Potter that so engrosses children?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -863,6 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
+// With short examples define "engross", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -871,14 +874,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆڵیار، هەڵکۆڵ
+کوردی: 
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) کەسێک کە کاری هەڵکۆڵینی وشە و دیزاین لەسەر دار، بەرد، کانزا، هتد دەکات"""),
+              text: """١. (کردار) کە هەموو سەرنجی کەسێک ڕادەکێشێت"""),
           SentencesRow(
-            englishText: """He worked as an engraver for a jewelry store.""",
-            kurdishText: """وەک هەڵکۆڵێک بۆ فرۆشگایەکی خشڵ کاری دەکرد.""",
+            englishText: """As the business grew, it totally engrossed him.""",
+            kurdishText: """کە بازرگانییەکە گەشەی کرد، زیاتر سەرنجی ڕاکێشا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -886,8 +888,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """What is it about Harry Potter that so engrosses children?""",
+            kurdishText:
+                """چی لە هاری پۆتەردایە کە ئەوەندە سەرنجی منداڵان ڕادەکێشێت؟""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1670,10 +1674,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: engraver (Derived forms: engravers)
-1. A skilled worker who can inscribe designs or writing onto a surface by carving or etching
+- Verb: engross (Derived forms: engrossing, engrossed, engrosses)
+1. Devote (oneself) fully to (= steep, immerse, engulf, plunge, absorb, soak up, ingulf [archaic])
  
-2. A printmaker who prints from an engraved printing plate
+2. Consume all of one's attention or time (= absorb, engage, occupy)
+"Her interest in butterflies engrosses her completely";
 """,
   );
 
@@ -1698,20 +1703,20 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/zOxt0_K4aqw?t=';
-const double _startSecondsend = 801;
-const String _videoIdone = 'https://youtu.be/jweQNDCe218?t=';
-const double _startSecondsone = 390;
-const String _videoIdtwo = 'https://youtu.be/pY-T8AkyAWs?t=';
-const double _startSecondstwo = 313;
-const String _videoIdthree = 'https://youtu.be/DNnF1mubXJI?t=';
-const double _startSecondsthree = 63;
-const String _videoIdfour = 'https://youtu.be/ey0Q-DPMgQU?t=';
-const double _startSecondsfour = 459;
-const String _videoIdfive = 'https://youtu.be/JL3uZ88vA_0?t=';
-const double _startSecondsfive = 26;
-const String _videoIdsix = 'https://youtu.be/Xsx6xqi0vzU?t=';
-const double _startSecondssix = 191;
+const String _videoIdend = 'https://youtu.be/LwZIxGAG8xA?t=';
+const double _startSecondsend = 247;
+const String _videoIdone = 'https://youtu.be/JcpboMScfIY?t=';
+const double _startSecondsone = 114;
+const String _videoIdtwo = 'https://youtu.be/RyRKKkls3I8?t=';
+const double _startSecondstwo = 262;
+const String _videoIdthree = 'https://youtu.be/3F-7ERmK7PY?t=';
+const double _startSecondsthree = 767;
+const String _videoIdfour = 'https://youtu.be/tXCjxa29odc?t=';
+const double _startSecondsfour = 43;
+const String _videoIdfive = 'https://youtu.be/JLOrKLwSX1Q?t=';
+const double _startSecondsfive = 183;
+const String _videoIdsix = 'https://youtu.be/IpEUNn5a0rE?t=';
+const double _startSecondssix = 27;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

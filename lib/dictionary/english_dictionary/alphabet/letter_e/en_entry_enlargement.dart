@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryengraver extends StatefulWidget {
-  const EnglishEntryengraver({super.key});
+class EnglishEntryenlargement extends StatefulWidget {
+  const EnglishEntryenlargement({super.key});
 
   @override
-  State<EnglishEntryengraver> createState() => _EnglishEntryengraverState();
+  State<EnglishEntryenlargement> createState() =>
+      _EnglishEntryenlargementState();
 }
 
-class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
+class _EnglishEntryenlargementState extends State<EnglishEntryenlargement> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""engraver""");
+    await flutterTts.speak("""enlargement""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """engraver""",
-                      // alsoEnglishWord: "also: engraver",
-                      britshText: """IpaUK: /ɪnˈɡreɪvə(r)/""",
-                      americanText: """IpaUS: /ɪnˈɡreɪvər/""",
+                      word: """enlargement""",
+                      // alsoEnglishWord: "also: enlargement",
+                      britshText: """IpaUK: /ɪnˈlɑːdʒmənt/""",
+                      americanText: """IpaUS: /ɪnˈlɑːrdʒmənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "engraver";
+  final String keyword = "enlargement";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,14 +238,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He worked as an engraver for a jewelry store.""");
+    await flutterTts
+        .speak("""There was widespread support for EU enlargement.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """If you like the picture I can send you an enlargement of it.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -863,6 +866,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
+// With short examples define "enlargement", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -871,23 +875,25 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆڵیار، هەڵکۆڵ
+کوردی: پەرەپێدان، فراوان‌کردن، زیادکردن، خستنەسەر، پێوەچوواندن، گەورەکردنەوە،	وێنەی گەورەکراو
 """),
-          const DefinitionKurdish(
-              text:
-                  """١. (ناو) کەسێک کە کاری هەڵکۆڵینی وشە و دیزاین لەسەر دار، بەرد، کانزا، هتد دەکات"""),
+          const DefinitionKurdish(text: """١. (ناو) گەورەبوون یان گەورەکردن"""),
           SentencesRow(
-            englishText: """He worked as an engraver for a jewelry store.""",
-            kurdishText: """وەک هەڵکۆڵێک بۆ فرۆشگایەکی خشڵ کاری دەکرد.""",
+            englishText:
+                """There was widespread support for EU enlargement (= the fact of more countries joining).""",
+            kurdishText:
+                """پشتگیری فراوان هەبوو بۆ فراوانکردنی یەکێتیی ئەورووپا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """٢. (ناو) شتێک کە گەورە کراوە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """If you like the picture I can send you an enlargement of it.""",
+            kurdishText:
+                """ئەگەر حەزت بە وێنەکەیە دەتوانم گەورەکراوەییەکییت بۆ بنێرم.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1670,10 +1676,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: engraver (Derived forms: engravers)
-1. A skilled worker who can inscribe designs or writing onto a surface by carving or etching
+- Noun: enlargement (Derived forms: enlargements)
+1. The act of increasing (something) in size, volume, quantity or scope (= expansion)
  
-2. A printmaker who prints from an engraved printing plate
+2. The state of being enlarged
+ 
+3. A discussion that provides additional information (= expansion, elaboration)
+ 
+4. A photographic print that has been enlarged (= blowup, magnification, blow-up)
 """,
   );
 
@@ -1698,20 +1708,20 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/zOxt0_K4aqw?t=';
-const double _startSecondsend = 801;
-const String _videoIdone = 'https://youtu.be/jweQNDCe218?t=';
-const double _startSecondsone = 390;
-const String _videoIdtwo = 'https://youtu.be/pY-T8AkyAWs?t=';
-const double _startSecondstwo = 313;
-const String _videoIdthree = 'https://youtu.be/DNnF1mubXJI?t=';
-const double _startSecondsthree = 63;
-const String _videoIdfour = 'https://youtu.be/ey0Q-DPMgQU?t=';
-const double _startSecondsfour = 459;
-const String _videoIdfive = 'https://youtu.be/JL3uZ88vA_0?t=';
-const double _startSecondsfive = 26;
-const String _videoIdsix = 'https://youtu.be/Xsx6xqi0vzU?t=';
-const double _startSecondssix = 191;
+const String _videoIdend = 'https://youtu.be/qELlhoe9Nb8?t=';
+const double _startSecondsend = 271;
+const String _videoIdone = 'https://youtu.be/zGtiylOAtM0?t=';
+const double _startSecondsone = 269;
+const String _videoIdtwo = 'https://youtu.be/89yCssqMqYM?t=';
+const double _startSecondstwo = 29;
+const String _videoIdthree = 'https://youtu.be/fyldy-1dutg?t=';
+const double _startSecondsthree = 196;
+const String _videoIdfour = 'https://youtu.be/xXVv20QI7P0?t=';
+const double _startSecondsfour = 352;
+const String _videoIdfive = 'https://youtu.be/kMA97zbgwtw?t=';
+const double _startSecondsfive = 597;
+const String _videoIdsix = 'https://youtu.be/nEnklxGAmak?t=';
+const double _startSecondssix = 4474;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

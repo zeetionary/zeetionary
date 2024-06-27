@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryengraver extends StatefulWidget {
-  const EnglishEntryengraver({super.key});
+class EnglishEntryenigmatically extends StatefulWidget {
+  const EnglishEntryenigmatically({super.key});
 
   @override
-  State<EnglishEntryengraver> createState() => _EnglishEntryengraverState();
+  State<EnglishEntryenigmatically> createState() =>
+      _EnglishEntryenigmaticallyState();
 }
 
-class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
+class _EnglishEntryenigmaticallyState extends State<EnglishEntryenigmatically> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""engraver""");
+    await flutterTts.speak("""enigmatically""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """engraver""",
-                      // alsoEnglishWord: "also: engraver",
-                      britshText: """IpaUK: /ɪnˈɡreɪvə(r)/""",
-                      americanText: """IpaUS: /ɪnˈɡreɪvər/""",
+                      word: """enigmatically""",
+                      // alsoEnglishWord: "also: enigmatically",
+                      britshText: """IpaUK: /ˌenɪɡˈmætɪkli/""",
+                      americanText: """IpaUS: /ˌenɪɡˈmætɪkli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "engraver";
+  final String keyword = "enigmatically";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He worked as an engraver for a jewelry store.""");
+    await flutterTts.speak("""Her father smiled enigmatically.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -863,6 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
+// With short examples define "enigmatically", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -871,14 +873,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆڵیار، هەڵکۆڵ
+کوردی: 
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) کەسێک کە کاری هەڵکۆڵینی وشە و دیزاین لەسەر دار، بەرد، کانزا، هتد دەکات"""),
+              text: """١. (ھاوەڵکار) بەشێوەیەکی نهێنی کە سەختە بۆ تێگەشتن"""),
           SentencesRow(
-            englishText: """He worked as an engraver for a jewelry store.""",
-            kurdishText: """وەک هەڵکۆڵێک بۆ فرۆشگایەکی خشڵ کاری دەکرد.""",
+            englishText: """Her father smiled enigmatically.""",
+            kurdishText: """باوکی پڕنهێنی‌یانە پێکەنی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -1670,10 +1671,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: engraver (Derived forms: engravers)
-1. A skilled worker who can inscribe designs or writing onto a surface by carving or etching
- 
-2. A printmaker who prints from an engraved printing plate
+- Adverb: enigmatically
+1. In a cryptic manner (= cryptically, mysteriously)
+"They wrote enigmatically to hide their ignorance and fraud";
 """,
   );
 
@@ -1698,20 +1698,20 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/zOxt0_K4aqw?t=';
-const double _startSecondsend = 801;
-const String _videoIdone = 'https://youtu.be/jweQNDCe218?t=';
-const double _startSecondsone = 390;
-const String _videoIdtwo = 'https://youtu.be/pY-T8AkyAWs?t=';
-const double _startSecondstwo = 313;
-const String _videoIdthree = 'https://youtu.be/DNnF1mubXJI?t=';
-const double _startSecondsthree = 63;
-const String _videoIdfour = 'https://youtu.be/ey0Q-DPMgQU?t=';
-const double _startSecondsfour = 459;
-const String _videoIdfive = 'https://youtu.be/JL3uZ88vA_0?t=';
-const double _startSecondsfive = 26;
-const String _videoIdsix = 'https://youtu.be/Xsx6xqi0vzU?t=';
-const double _startSecondssix = 191;
+const String _videoIdend = 'https://youtu.be/d_oFUrgC9rA?t=';
+const double _startSecondsend = 518;
+const String _videoIdone = 'https://youtu.be/IY0KWLanlLM?t=';
+const double _startSecondsone = 551;
+const String _videoIdtwo = 'https://youtu.be/Wfun5G0pDos?t=';
+const double _startSecondstwo = 217;
+const String _videoIdthree = 'https://youtu.be/Crvn5-LOUFA?t=';
+const double _startSecondsthree = 114;
+const String _videoIdfour = 'https://youtu.be/zZ9Scgg_lYM?t=';
+const double _startSecondsfour = 2254;
+const String _videoIdfive = 'https://youtu.be/4QzGS0u_Z-E?t=';
+const double _startSecondsfive = 421;
+const String _videoIdsix = 'https://youtu.be/2BW2UACYkuk?t=';
+const double _startSecondssix = 803;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

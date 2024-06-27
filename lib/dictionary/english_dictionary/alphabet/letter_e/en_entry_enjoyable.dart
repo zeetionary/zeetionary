@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryengraver extends StatefulWidget {
-  const EnglishEntryengraver({super.key});
+class EnglishEntryenjoyable extends StatefulWidget {
+  const EnglishEntryenjoyable({super.key});
 
   @override
-  State<EnglishEntryengraver> createState() => _EnglishEntryengraverState();
+  State<EnglishEntryenjoyable> createState() => _EnglishEntryenjoyableState();
 }
 
-class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
+class _EnglishEntryenjoyableState extends State<EnglishEntryenjoyable> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""engraver""");
+    await flutterTts.speak("""enjoyable""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """engraver""",
-                      // alsoEnglishWord: "also: engraver",
-                      britshText: """IpaUK: /ɪnˈɡreɪvə(r)/""",
-                      americanText: """IpaUS: /ɪnˈɡreɪvər/""",
+                      word: """enjoyable""",
+                      // alsoEnglishWord: "also: enjoyable",
+                      britshText: """IpaUK: /ɪnˈdʒɔɪəbl/""",
+                      americanText: """IpaUS: /ɪnˈdʒɔɪəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "engraver";
+  final String keyword = "enjoyable";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,14 +237,14 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He worked as an engraver for a jewelry store.""");
+    await flutterTts.speak("""I always try to make my lessons enjoyable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""We had a most enjoyable evening.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -863,6 +863,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
+// With short examples define "enjoyable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -871,14 +872,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆڵیار، هەڵکۆڵ
+کوردی: خۆش، وەش، بەردڵ‌کەوتوو 
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) کەسێک کە کاری هەڵکۆڵینی وشە و دیزاین لەسەر دار، بەرد، کانزا، هتد دەکات"""),
+              text: """١. (ھاوەڵناو) کە چێژ و خۆشی دەبەخشێت"""),
           SentencesRow(
-            englishText: """He worked as an engraver for a jewelry store.""",
-            kurdishText: """وەک هەڵکۆڵێک بۆ فرۆشگایەکی خشڵ کاری دەکرد.""",
+            englishText: """I always try to make my lessons enjoyable.""",
+            kurdishText: """هەمیشە هەوڵ دەدەم وانەکانم خۆش بن.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -886,8 +886,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We had a most enjoyable evening.""",
+            englishNote:
+                """'a most enjoyable' means that the evening was very enjoyable, but it does not compare it directly to other evenings. It expresses a high degree of enjoyment without necessarily stating that it was the best evening ever.""",
+            kurdishText: """ئێوارەیەکی زۆر خۆشمان هەبوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1670,10 +1672,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: engraver (Derived forms: engravers)
-1. A skilled worker who can inscribe designs or writing onto a surface by carving or etching
- 
-2. A printmaker who prints from an engraved printing plate
+- Adjective: enjoyable
+1. Affording satisfaction or pleasure (= gratifying, pleasurable, fun)
+"the company was enjoyable";
 """,
   );
 
@@ -1698,20 +1699,20 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/zOxt0_K4aqw?t=';
-const double _startSecondsend = 801;
-const String _videoIdone = 'https://youtu.be/jweQNDCe218?t=';
-const double _startSecondsone = 390;
-const String _videoIdtwo = 'https://youtu.be/pY-T8AkyAWs?t=';
-const double _startSecondstwo = 313;
-const String _videoIdthree = 'https://youtu.be/DNnF1mubXJI?t=';
-const double _startSecondsthree = 63;
-const String _videoIdfour = 'https://youtu.be/ey0Q-DPMgQU?t=';
-const double _startSecondsfour = 459;
-const String _videoIdfive = 'https://youtu.be/JL3uZ88vA_0?t=';
-const double _startSecondsfive = 26;
-const String _videoIdsix = 'https://youtu.be/Xsx6xqi0vzU?t=';
-const double _startSecondssix = 191;
+const String _videoIdend = 'https://youtu.be/_GFkHA5EZdE?t=';
+const double _startSecondsend = 40;
+const String _videoIdone = 'https://youtu.be/s3B-qp3U5G0?t=';
+const double _startSecondsone = 1594;
+const String _videoIdtwo = 'https://youtu.be/WUjVPIEtJd0?t=';
+const double _startSecondstwo = 1560;
+const String _videoIdthree = 'https://youtu.be/Sbp_EeBk-As?t=';
+const double _startSecondsthree = 1662;
+const String _videoIdfour = 'https://youtu.be/F0jr-HQeT74?t=';
+const double _startSecondsfour = 117;
+const String _videoIdfive = 'https://youtu.be/dHPTR96Sc1g?t=';
+const double _startSecondsfive = 577;
+const String _videoIdsix = 'https://youtu.be/-UKaaEvH7uI?t=';
+const double _startSecondssix = 668;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

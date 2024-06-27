@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryengraver extends StatefulWidget {
-  const EnglishEntryengraver({super.key});
+class EnglishEntryenigma extends StatefulWidget {
+  const EnglishEntryenigma({super.key});
 
   @override
-  State<EnglishEntryengraver> createState() => _EnglishEntryengraverState();
+  State<EnglishEntryenigma> createState() => _EnglishEntryenigmaState();
 }
 
-class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
+class _EnglishEntryenigmaState extends State<EnglishEntryenigma> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""engraver""");
+    await flutterTts.speak("""enigma""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """engraver""",
-                      // alsoEnglishWord: "also: engraver",
-                      britshText: """IpaUK: /ɪnˈɡreɪvə(r)/""",
-                      americanText: """IpaUS: /ɪnˈɡreɪvər/""",
+                      word: """enigma""",
+                      // alsoEnglishWord: "also: enigma",
+                      britshText: """IpaUK: /ɪˈnɪɡmə/""",
+                      americanText: """IpaUS: /ɪˈnɪɡmə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "engraver";
+  final String keyword = "enigma";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,7 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He worked as an engraver for a jewelry store.""");
+    await flutterTts
+        .speak("""Even after years he still remains an enigma to me.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -863,6 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
+// With short examples define "enigma", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -871,14 +873,17 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆڵیار، هەڵکۆڵ
+کوردی: مامک، مەتەڵ، مەسیلە، پەردەک،	سڕ، ڕاز 
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک کە کاری هەڵکۆڵینی وشە و دیزاین لەسەر دار، بەرد، کانزا، هتد دەکات"""),
+                  """١. (ناو) کەسێک، شتێک، یان دۆخێک کە تێگەشتن لێی ئاسان نییە"""),
           SentencesRow(
-            englishText: """He worked as an engraver for a jewelry store.""",
-            kurdishText: """وەک هەڵکۆڵێک بۆ فرۆشگایەکی خشڵ کاری دەکرد.""",
+            englishText:
+                """Even after years he still remains an enigma to me.""",
+            kurdishText: """تەنانەت دوای چەندین ساڵ هێشتا نهێنییەکە لام.""",
+            kurdishNote:
+                "واتە ماوەیەکی زۆرە دەیناسم بەڵام زۆر شتی لەسەر نازانم",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -1670,10 +1675,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: engraver (Derived forms: engravers)
-1. A skilled worker who can inscribe designs or writing onto a surface by carving or etching
+- Noun: enigma (Derived forms: enigmas)
+1. Something that baffles understanding and cannot be explained (= mystery, secret, closed book)
  
-2. A printmaker who prints from an engraved printing plate
+2. A difficult problem (= riddle, conundrum, brain-teaser)
 """,
   );
 
@@ -1698,20 +1703,20 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/zOxt0_K4aqw?t=';
-const double _startSecondsend = 801;
-const String _videoIdone = 'https://youtu.be/jweQNDCe218?t=';
-const double _startSecondsone = 390;
-const String _videoIdtwo = 'https://youtu.be/pY-T8AkyAWs?t=';
-const double _startSecondstwo = 313;
-const String _videoIdthree = 'https://youtu.be/DNnF1mubXJI?t=';
-const double _startSecondsthree = 63;
-const String _videoIdfour = 'https://youtu.be/ey0Q-DPMgQU?t=';
-const double _startSecondsfour = 459;
-const String _videoIdfive = 'https://youtu.be/JL3uZ88vA_0?t=';
-const double _startSecondsfive = 26;
-const String _videoIdsix = 'https://youtu.be/Xsx6xqi0vzU?t=';
-const double _startSecondssix = 191;
+const String _videoIdend = 'https://youtu.be/mY3SEMTROas?t=';
+const double _startSecondsend = 1768;
+const String _videoIdone = 'https://youtu.be/hDDTUb_1cQc?t=';
+const double _startSecondsone = 588;
+const String _videoIdtwo = 'https://youtu.be/L3XnKr0lvDw?t=';
+const double _startSecondstwo = 449;
+const String _videoIdthree = 'https://youtu.be/HZryl5nJr00?t=';
+const double _startSecondsthree = 1428;
+const String _videoIdfour = 'https://youtu.be/XxOh12Uhg08';
+const double _startSecondsfour = 0;
+const String _videoIdfive = 'https://youtu.be/WZSuU1gdJTg?t=';
+const double _startSecondsfive = 143;
+const String _videoIdsix = 'https://youtu.be/NU4MgeOb-cc?t=';
+const double _startSecondssix = 520;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

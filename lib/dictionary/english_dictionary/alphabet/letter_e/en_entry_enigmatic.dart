@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryengraver extends StatefulWidget {
-  const EnglishEntryengraver({super.key});
+class EnglishEntryenigmatic extends StatefulWidget {
+  const EnglishEntryenigmatic({super.key});
 
   @override
-  State<EnglishEntryengraver> createState() => _EnglishEntryengraverState();
+  State<EnglishEntryenigmatic> createState() => _EnglishEntryenigmaticState();
 }
 
-class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
+class _EnglishEntryenigmaticState extends State<EnglishEntryenigmatic> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""engraver""");
+    await flutterTts.speak("""enigmatic""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryengraverState extends State<EnglishEntryengraver> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """engraver""",
-                      // alsoEnglishWord: "also: engraver",
-                      britshText: """IpaUK: /ɪnˈɡreɪvə(r)/""",
-                      americanText: """IpaUS: /ɪnˈɡreɪvər/""",
+                      word: """enigmatic""",
+                      // alsoEnglishWord: "also: enigmatic",
+                      britshText: """IpaUK: /ˌenɪɡˈmætɪk/""",
+                      americanText: """IpaUS: /ˌenɪɡˈmætɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "engraver";
+  final String keyword = "enigmatic";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,7 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He worked as an engraver for a jewelry store.""");
+    await flutterTts.speak("""The Mona Lisa has a famously enigmatic smile.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -863,6 +863,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
+// With short examples define "enigmatic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -871,14 +872,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆڵیار، هەڵکۆڵ
+کوردی: پڕنهێنی، ڕەمزاوی، لەتێگەیشتن‌نەهاتوو، تەماوی، لێڵ، تەژمە، ئاڵۆز، سەخت
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) کەسێک کە کاری هەڵکۆڵینی وشە و دیزاین لەسەر دار، بەرد، کانزا، هتد دەکات"""),
+              text: """١. (ھاوەڵناو) نهێنی و سەخت بۆ تێگەشتن"""),
           SentencesRow(
-            englishText: """He worked as an engraver for a jewelry store.""",
-            kurdishText: """وەک هەڵکۆڵێک بۆ فرۆشگایەکی خشڵ کاری دەکرد.""",
+            englishText: """The Mona Lisa has a famously enigmatic smile.""",
+            kurdishText: """مۆنالیسا بزەیەکی پڕنهێنی بەناوبانگی هەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -1670,10 +1670,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: engraver (Derived forms: engravers)
-1. A skilled worker who can inscribe designs or writing onto a surface by carving or etching
+- Adjective: enigmatic
+1. Having an unobvious or mysterious meaning; hard to understand (= enigmatical, puzzling)
+"prophetic texts so enigmatic that their meaning has been disputed for centuries"; "I didn't grasp the meaning of that enigmatic comment until much later";
  
-2. A printmaker who prints from an engraved printing plate
+2. Resembling an oracle in obscurity of thought (= oracular)
+"so enigmatic that priests might have to clarify it"; "an enigmatic smile";
 """,
   );
 
@@ -1698,20 +1700,20 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/zOxt0_K4aqw?t=';
-const double _startSecondsend = 801;
-const String _videoIdone = 'https://youtu.be/jweQNDCe218?t=';
-const double _startSecondsone = 390;
-const String _videoIdtwo = 'https://youtu.be/pY-T8AkyAWs?t=';
-const double _startSecondstwo = 313;
-const String _videoIdthree = 'https://youtu.be/DNnF1mubXJI?t=';
-const double _startSecondsthree = 63;
-const String _videoIdfour = 'https://youtu.be/ey0Q-DPMgQU?t=';
-const double _startSecondsfour = 459;
-const String _videoIdfive = 'https://youtu.be/JL3uZ88vA_0?t=';
-const double _startSecondsfive = 26;
-const String _videoIdsix = 'https://youtu.be/Xsx6xqi0vzU?t=';
-const double _startSecondssix = 191;
+const String _videoIdend = 'https://youtu.be/PhQksV8fbKw?t=';
+const double _startSecondsend = 2937;
+const String _videoIdone = 'https://youtu.be/hCsPV0eiqxg?t=';
+const double _startSecondsone = 313;
+const String _videoIdtwo = 'https://youtu.be/QqPUd0eI5yw?t=';
+const double _startSecondstwo = 1023;
+const String _videoIdthree = 'https://youtu.be/otjDNWewH-U?t=';
+const double _startSecondsthree = 5;
+const String _videoIdfour = 'https://youtu.be/N5FQRGfPy8I?t=';
+const double _startSecondsfour = 340;
+const String _videoIdfive = 'https://youtu.be/mMle42fPNn0?t=';
+const double _startSecondsfive = 258;
+const String _videoIdsix = 'https://youtu.be/_ZDEWVJan0s?t=';
+const double _startSecondssix = 266;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

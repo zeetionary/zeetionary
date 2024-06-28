@@ -1538,7 +1538,7 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  final String _videoId = 'https://youtu.be/IGgblfkAhsE?t=';
+  final String _videoId = 'IGgblfkAhsE';
   final double _startSeconds = 624;
 
   @override
@@ -1567,7 +1567,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});
 
-  final String _videoId = 'https://youtu.be/0K1pITq4mSk?t=';
+  final String _videoId = '0K1pITq4mSk';
   final double _startSeconds = 720;
 
   @override
@@ -1596,7 +1596,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   const YoutubeEmbeddedtwo({super.key});
 
-  final String _videoId = 'https://youtu.be/1iWs3jJih_M';
+  final String _videoId = '1iWs3jJih_M';
   final double _startSeconds = 0;
 
   @override
@@ -1625,7 +1625,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   const YoutubeEmbeddedthree({super.key});
 
-  final String _videoId = 'https://youtu.be/wrXf_VznZvM?t=';
+  final String _videoId = 'wrXf_VznZvM';
   final double _startSeconds = 125;
 
   @override
@@ -1654,7 +1654,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   const YoutubeEmbeddedfour({super.key});
 
-  final String _videoId = 'https://youtu.be/6IcfpSgZbno?t=';
+  final String _videoId = '6IcfpSgZbno';
   final double _startSeconds = 1071;
 
   @override
@@ -1683,7 +1683,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   const YoutubeEmbeddedfive({super.key});
 
-  final String _videoId = 'https://youtu.be/w8LvGsL6L2c?t=';
+  final String _videoId = 'w8LvGsL6L2c';
   final double _startSeconds = 63;
 
   @override
@@ -1712,7 +1712,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   const YoutubeEmbeddedsix({super.key});
 
-  final String _videoId = 'https://youtu.be/ux6CmsrOFeo?t=';
+  final String _videoId = 'ux6CmsrOFeo';
   final double _startSeconds = 323;
 
   @override

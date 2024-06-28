@@ -1702,19 +1702,19 @@ Usage: Brit, Cdn (US: enrollment)
   }
 }
 
-const String _videoIdend = 'https://youtu.be/yObXukkULCY?t=';
+const String _videoIdend = 'yObXukkULCY';
 const double _startSecondsend = 461;
-const String _videoIdone = 'https://youtu.be/U4DKMOhIwio?t=';
+const String _videoIdone = 'U4DKMOhIwio';
 const double _startSecondsone = 658;
-const String _videoIdtwo = 'https://youtu.be/gJgQR6xiZGs?t=';
+const String _videoIdtwo = 'gJgQR6xiZGs';
 const double _startSecondstwo = 328;
-const String _videoIdthree = 'https://youtu.be/5E-A28V4F80?t=';
+const String _videoIdthree = '5E-A28V4F80';
 const double _startSecondsthree = 238;
-const String _videoIdfour = 'https://youtu.be/1A3cDXo4MkI?t=';
+const String _videoIdfour = '1A3cDXo4MkI';
 const double _startSecondsfour = 360;
-const String _videoIdfive = 'https://youtu.be/jIIazUBydsY?t=';
+const String _videoIdfive = 'jIIazUBydsY';
 const double _startSecondsfive = 152;
-const String _videoIdsix = 'https://youtu.be/lOjn-jvukb4?t=';
+const String _videoIdsix = 'lOjn-jvukb4';
 const double _startSecondssix = 213;
 
 class YoutubeEmbeddedend extends StatelessWidget {

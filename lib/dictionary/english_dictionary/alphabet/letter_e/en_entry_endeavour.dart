@@ -237,21 +237,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""There have been great advances in the field of scientific endeavour.""");
+    await flutterTts.speak(
+        """There have been great advances in the field of scientific endeavour.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Please make every endeavour to arrive on time.""");
+    await flutterTts
+        .speak("""Please make every endeavour to arrive on time.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Learning a foreign language well can be a lifelong endeavour.""");
+    await flutterTts.speak(
+        """Learning a foreign language well can be a lifelong endeavour.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -265,14 +268,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I will endeavour to do my best for my country.""");
+    await flutterTts
+        .speak("""I will endeavour to do my best for my country.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He endeavoured in vain to escape the situation.""");
+    await flutterTts
+        .speak("""He endeavoured in vain to escape the situation.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -873,11 +878,14 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: تێکۆشان، هەوڵ، خەبات، کردوکۆش، بزاڤ
 """),
-          const DefinitionKurdish(text: """١. (ناو) هەوڵێک بۆ کردنی شتێک، بەتایبەتی شتێک کە سەخت یان تازەیە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) هەوڵێک بۆ کردنی شتێک، بەتایبەتی شتێک کە سەخت یان تازەیە"""),
           SentencesRow(
             englishText:
                 """There have been great advances in the field of scientific endeavour.""",
-            kurdishText: """بەرەوپێشچوونی مەزن هەبوونە لە بواری تێکۆشانی زانستی.""",
+            kurdishText:
+                """بەرەوپێشچوونی مەزن هەبوونە لە بواری تێکۆشانی زانستی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -894,8 +902,10 @@ class KurdishMeaning extends StatelessWidget {
           // const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Learning a foreign language well can be a lifelong endeavour.""",
-            kurdishText: """فێربوونی زمانێکی بیانی دەکرێت تێکۆشانێکی هەمیشەیی بێت.""",
+            englishText:
+                """Learning a foreign language well can be a lifelong endeavour.""",
+            kurdishText:
+                """فێربوونی زمانێکی بیانی دەکرێت تێکۆشانێکی هەمیشەیی بێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US" ""),
           ),
@@ -909,11 +919,13 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence4("en-US" ""),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (کردار) هەوڵانی زۆر بۆ کردنی شتێک"""),
+          const DefinitionKurdish(
+              text: """٢. (کردار) هەوڵانی زۆر بۆ کردنی شتێک"""),
           // const DividerSentences(),
           SentencesRow(
             englishText: """I will endeavour to do my best for my country.""",
-            kurdishText: """هەوڵی زۆر دەدەم بۆ ئەنجامدانی باشترین بۆ وڵاتەکەم.""",
+            kurdishText:
+                """هەوڵی زۆر دەدەم بۆ ئەنجامدانی باشترین بۆ وڵاتەکەم.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US" ""),
           ),
@@ -1705,19 +1717,19 @@ Usage: Brit, Cdn (US: endeavor)
   }
 }
 
-const String _videoIdend = 'https://youtu.be/7zpojhD4hpI?t=';
+const String _videoIdend = '7zpojhD4hpI';
 const double _startSecondsend = 583;
-const String _videoIdone = 'https://youtu.be/ivLX9o6Ayl8?t=';
+const String _videoIdone = 'ivLX9o6Ayl8';
 const double _startSecondsone = 1473;
-const String _videoIdtwo = 'https://youtu.be/WrKwysaZIww?t=';
+const String _videoIdtwo = 'WrKwysaZIww';
 const double _startSecondstwo = 698;
-const String _videoIdthree = 'https://youtu.be/2pWCyUys6lM?t=';
+const String _videoIdthree = '2pWCyUys6lM';
 const double _startSecondsthree = 274;
-const String _videoIdfour = 'https://youtu.be/4ZrS6fG7bMQ?t=';
+const String _videoIdfour = '4ZrS6fG7bMQ';
 const double _startSecondsfour = 597;
-const String _videoIdfive = 'https://youtu.be/y-E_n0q0ttI?t=';
+const String _videoIdfive = 'y-E_n0q0ttI';
 const double _startSecondsfive = 1025;
-const String _videoIdsix = 'https://youtu.be/jYuQMwNiOlg?t=';
+const String _videoIdsix = 'jYuQMwNiOlg';
 const double _startSecondssix = 14;
 
 class YoutubeEmbeddedend extends StatelessWidget {

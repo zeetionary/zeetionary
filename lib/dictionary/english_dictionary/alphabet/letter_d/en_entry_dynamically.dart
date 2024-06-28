@@ -715,7 +715,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   const YoutubeEmbeddedsix({super.key});
 
-  final String _videoId = 'gIhCuqtC0r0?t=';
+  final String _videoId = 'gIhCuqtC0r0';
   final double _startSeconds = 308;
 
   @override

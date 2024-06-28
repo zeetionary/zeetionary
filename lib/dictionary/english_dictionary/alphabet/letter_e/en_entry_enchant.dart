@@ -1539,7 +1539,7 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  final String _videoId = 'https://youtu.be/tMNxgi_0eKA?t=';
+  final String _videoId = 'tMNxgi_0eKA';
   final double _startSeconds = 400;
 
   @override
@@ -1568,7 +1568,7 @@ class YoutubeEmbeddedend extends StatelessWidget {
 class YoutubeEmbeddedone extends StatelessWidget {
   const YoutubeEmbeddedone({super.key});
 
-  final String _videoId = 'https://youtu.be/cvrYEJ4gG8U?t=';
+  final String _videoId = 'cvrYEJ4gG8U';
   final double _startSeconds = 123;
 
   @override
@@ -1597,7 +1597,7 @@ class YoutubeEmbeddedone extends StatelessWidget {
 class YoutubeEmbeddedtwo extends StatelessWidget {
   const YoutubeEmbeddedtwo({super.key});
 
-  final String _videoId = 'https://youtu.be/Kq0MttfIZzY?t=';
+  final String _videoId = 'Kq0MttfIZzY';
   final double _startSeconds = 555;
 
   @override
@@ -1626,7 +1626,7 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
 class YoutubeEmbeddedthree extends StatelessWidget {
   const YoutubeEmbeddedthree({super.key});
 
-  final String _videoId = 'https://youtu.be/BsbVPgh9VWA?t=';
+  final String _videoId = 'BsbVPgh9VWA';
   final double _startSeconds = 919;
 
   @override
@@ -1655,7 +1655,7 @@ class YoutubeEmbeddedthree extends StatelessWidget {
 class YoutubeEmbeddedfour extends StatelessWidget {
   const YoutubeEmbeddedfour({super.key});
 
-  final String _videoId = 'https://youtu.be/r9PPgAvXkEY?t=';
+  final String _videoId = 'r9PPgAvXkEY';
   final double _startSeconds = 193;
 
   @override
@@ -1684,7 +1684,7 @@ class YoutubeEmbeddedfour extends StatelessWidget {
 class YoutubeEmbeddedfive extends StatelessWidget {
   const YoutubeEmbeddedfive({super.key});
 
-  final String _videoId = 'https://youtu.be/GJbmzqsjW8g?t=';
+  final String _videoId = 'GJbmzqsjW8g';
   final double _startSeconds = 306;
 
   @override
@@ -1713,7 +1713,7 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 class YoutubeEmbeddedsix extends StatelessWidget {
   const YoutubeEmbeddedsix({super.key});
 
-  final String _videoId = 'https://youtu.be/sT0gJbZDvL4?t=';
+  final String _videoId = 'sT0gJbZDvL4';
   final double _startSeconds = 387;
 
   @override

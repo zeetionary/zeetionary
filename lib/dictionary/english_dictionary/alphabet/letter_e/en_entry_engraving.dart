@@ -244,15 +244,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She learned the art of engraving from her father.""");
+    await flutterTts
+        .speak("""She learned the art of engraving from her father.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""speaksentence300""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -1703,19 +1703,19 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/OPEh7UWmfDc?t=';
+const String _videoIdend = 'OPEh7UWmfDc';
 const double _startSecondsend = 586;
-const String _videoIdone = 'https://youtu.be/MzSktgpfD84?t=';
+const String _videoIdone = 'MzSktgpfD84';
 const double _startSecondsone = 757;
-const String _videoIdtwo = 'https://youtu.be/rr2XfL_df3o?t=';
+const String _videoIdtwo = 'rr2XfL_df3o';
 const double _startSecondstwo = 132;
-const String _videoIdthree = 'https://youtu.be/hI5jggQTAsM?t=';
+const String _videoIdthree = 'hI5jggQTAsM';
 const double _startSecondsthree = 135;
-const String _videoIdfour = 'https://youtu.be/koq5-NdLnHY?t=';
+const String _videoIdfour = 'koq5-NdLnHY';
 const double _startSecondsfour = 1080;
-const String _videoIdfive = 'https://youtu.be/DbzbIGkPW-o?t=';
+const String _videoIdfive = 'DbzbIGkPW-o';
 const double _startSecondsfive = 686;
-const String _videoIdsix = 'https://youtu.be/itJUeqkGwGc?t=';
+const String _videoIdsix = 'itJUeqkGwGc';
 const double _startSecondssix = 482;
 
 class YoutubeEmbeddedend extends StatelessWidget {

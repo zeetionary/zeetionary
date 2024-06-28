@@ -1701,19 +1701,19 @@ Usage: Brit, Cdn (US: enthrall)
   }
 }
 
-const String _videoIdend = 'https://youtu.be/ghcVxNeaI-E?t=';
+const String _videoIdend = 'ghcVxNeaI-E';
 const double _startSecondsend = 45;
-const String _videoIdone = 'https://youtu.be/uSuO2oOwZq4?t=';
+const String _videoIdone = 'uSuO2oOwZq4';
 const double _startSecondsone = 806;
-const String _videoIdtwo = 'https://youtu.be/8FsrV4VY6Ws?t=';
+const String _videoIdtwo = '8FsrV4VY6Ws';
 const double _startSecondstwo = 257;
-const String _videoIdthree = 'https://youtu.be/QmXIh6H7Nro?t=';
+const String _videoIdthree = 'QmXIh6H7Nro';
 const double _startSecondsthree = 21;
-const String _videoIdfour = 'https://youtu.be/kEsJVYQlDjw?t=';
+const String _videoIdfour = 'kEsJVYQlDjw';
 const double _startSecondsfour = 42;
-const String _videoIdfive = 'https://youtu.be/OmOkkcj8aJI?t=';
+const String _videoIdfive = 'OmOkkcj8aJI';
 const double _startSecondsfive = 3;
-const String _videoIdsix = 'https://youtu.be/j7IctxWXiu8?t=';
+const String _videoIdsix = 'j7IctxWXiu8';
 const double _startSecondssix = 565;
 
 class YoutubeEmbeddedend extends StatelessWidget {

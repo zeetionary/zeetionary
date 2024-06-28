@@ -238,7 +238,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""We worked with a team of scientists and engineers.""");
+    await flutterTts
+        .speak("""We worked with a team of scientists and engineers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -252,7 +253,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They're sending an engineer to fix the problem with the heating.""");
+    await flutterTts.speak(
+        """They're sending an engineer to fix the problem with the heating.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -266,21 +268,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He had no idea that his downfall had been engineered by his deputy.""");
+    await flutterTts.speak(
+        """He had no idea that his downfall had been engineered by his deputy.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The car is beautifully engineered and a pleasure to drive.""");
+    await flutterTts.speak(
+        """The car is beautifully engineered and a pleasure to drive.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Some biotech crops are engineered to ward off pests.""");
+    await flutterTts
+        .speak("""Some biotech crops are engineered to ward off pests.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -863,7 +868,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("""speaksentence9000""");
   }
-  
+
 // With short examples define "engineer", please follow LX instructions
   @override
   Widget build(BuildContext context) {
@@ -875,7 +880,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ئەندازیار،	دەزگەوان، سازکەرەوە، میکانیک،	شۆفیری شەمەندەفەر،	ئەندامی بەشی ئەندازیاری، ئەندامی دەستەی ئەندازیاری (سەرباز)
 """),
-          const DefinitionKurdish(text: """١. (ناو) کەسێک کە کاری بنیاتنانی ئامێر، بزوێنەر، ڕێگا، پرد، هتد ــە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) کەسێک کە کاری بنیاتنانی ئامێر، بزوێنەر، ڕێگا، پرد، هتد ــە"""),
           SentencesRow(
             englishText:
                 """We worked with a team of scientists and engineers.""",
@@ -893,11 +900,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) کەسێک کە شارەزای چاککردنەوەی ئامێر و کەرەستەی کارەباییە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) کەسێک کە شارەزای چاککردنەوەی ئامێر و کەرەستەی کارەباییە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They're sending an engineer to fix the problem with the heating.""",
-            kurdishText: """وەستایەک دەنێرن کە کێشەی گەرمکەرەوەکە چاک بکاتەوە.""",
+            englishText:
+                """They're sending an engineer to fix the problem with the heating.""",
+            kurdishText:
+                """وەستایەک دەنێرن کە کێشەی گەرمکەرەوەکە چاک بکاتەوە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -910,7 +921,9 @@ class KurdishMeaning extends StatelessWidget {
             },
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (کردار) ڕێکخستنی ڕوودانی شتێک، بەتایبەتی کە بۆ ئەوەیە کە سوود بە خۆت بگەیەنیت"""),
+          const DefinitionKurdish(
+              text:
+                  """٤. (کردار) ڕێکخستنی ڕوودانی شتێک، بەتایبەتی کە بۆ ئەوەیە کە سوود بە خۆت بگەیەنیت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She engineered a further meeting with him.""",
@@ -922,26 +935,33 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """He had no idea that his downfall had been engineered by his deputy.""",
-            kurdishText: """هیچ نەیدەزانی کە لەناوبردنی لەلایەن جێگرەکەیەوە ڕێکخرابوو.""",
+            englishText:
+                """He had no idea that his downfall had been engineered by his deputy.""",
+            kurdishText:
+                """هیچ نەیدەزانی کە لەناوبردنی لەلایەن جێگرەکەیەوە ڕێکخرابوو.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (کردار) دیزاین و بنیادنانی شتێک"""),
+          const DefinitionKurdish(
+              text: """٥. (کردار) دیزاین و بنیادنانی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The car is beautifully engineered and a pleasure to drive.""",
+            englishText:
+                """The car is beautifully engineered and a pleasure to drive.""",
             kurdishText: """ئۆتۆمبێلەکە جوان دیزاین کراوە و خۆشە لێی بخوڕیت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٦. (کردار) گۆڕینی پێکهاتەی جیناتی شتێک"""),
+          const DefinitionKurdish(
+              text: """٦. (کردار) گۆڕینی پێکهاتەی جیناتی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Some biotech crops are engineered to ward off pests.""",
-            kurdishText: """هەندێک دانەوێڵەی کیمیایی دیزیان کراون کە مەگەز دووربخەنەوە.""",
+            englishText:
+                """Some biotech crops are engineered to ward off pests.""",
+            kurdishText:
+                """هەندێک دانەوێڵەی کیمیایی دیزیان کراون کە مەگەز دووربخەنەوە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -1714,19 +1734,19 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/DPZzrlFCD_I?t=';
+const String _videoIdend = 'DPZzrlFCD_I';
 const double _startSecondsend = 2;
-const String _videoIdone = 'https://youtu.be/QiKZYt9070U?t=';
+const String _videoIdone = 'QiKZYt9070U';
 const double _startSecondsone = 149;
-const String _videoIdtwo = 'https://youtu.be/AF8d72mA41M?t=';
+const String _videoIdtwo = 'AF8d72mA41M';
 const double _startSecondstwo = 11;
-const String _videoIdthree = 'https://youtu.be/-CJ4eUhE3Lw?t=';
+const String _videoIdthree = '-CJ4eUhE3Lw';
 const double _startSecondsthree = 594;
-const String _videoIdfour = 'https://youtu.be/VS6tnF31zr4?t=';
+const String _videoIdfour = 'VS6tnF31zr4';
 const double _startSecondsfour = 639;
-const String _videoIdfive = 'https://youtu.be/toVfvRhWbj8?t=';
+const String _videoIdfive = 'toVfvRhWbj8';
 const double _startSecondsfive = 19;
-const String _videoIdsix = 'https://youtu.be/xVQxvthAcLU?t=';
+const String _videoIdsix = 'xVQxvthAcLU';
 const double _startSecondssix = 204;
 
 class YoutubeEmbeddedend extends StatelessWidget {

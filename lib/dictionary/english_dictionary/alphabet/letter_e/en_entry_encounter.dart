@@ -276,14 +276,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Three of them were killed in the subsequent encounter with the police.");
+    await flutterTts.speak(
+        "Three of them were killed in the subsequent encounter with the police.");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Flaubert was her first encounter with French literature.");
+    await flutterTts
+        .speak("Flaubert was her first encounter with French literature.");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -297,14 +299,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The story describes the extraordinary encounter between a man and a dolphin.");
+    await flutterTts.speak(
+        "The story describes the extraordinary encounter between a man and a dolphin.");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("She has beaten her opponent in all of their previous encounters.");
+    await flutterTts.speak(
+        "She has beaten her opponent in all of their previous encounters.");
   }
 
   Future<void> speaksentence11(String languageCode) async {
@@ -864,7 +868,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("The story describes the extraordinary encounter between a man and a dolphin.0");
+    await flutterTts.speak(
+        "The story describes the extraordinary encounter between a man and a dolphin.0");
   }
 
   @override
@@ -931,11 +936,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence5("en-US" ""),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ناو) چاوپێکەوتنێک، بەتایبەتی کە لەناکاو، پێشبینی نەکراو، یان توندوتیژانەیە"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ناو) چاوپێکەوتنێک، بەتایبەتی کە لەناکاو، پێشبینی نەکراو، یان توندوتیژانەیە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Three of them were killed in the subsequent encounter with the police.""",
-            kurdishText: """سێ کەسیان کوژران لە بەرکەوتنی دواتردا لەگەڵ پۆلیسدا.""",
+            englishText:
+                """Three of them were killed in the subsequent encounter with the police.""",
+            kurdishText:
+                """سێ کەسیان کوژران لە بەرکەوتنی دواتردا لەگەڵ پۆلیسدا.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US" ""),
           ),
@@ -943,7 +952,8 @@ class KurdishMeaning extends StatelessWidget {
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Flaubert was her first encounter with French literature.""",
+            englishText:
+                """Flaubert was her first encounter with French literature.""",
             kurdishText: """فلۆبێرت یەکەم ئاشنابوونی بوو بە ئەدەبی فەرەنسی.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US" ""),
@@ -952,8 +962,10 @@ class KurdishMeaning extends StatelessWidget {
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """It was his first sexual encounter (= first experience of sex).""",
-            kurdishText: """ئەوە یەکەم ئەزموونی سێکسیی بوو (یەکەم جاری بوو سێکس بکات).""",
+            englishText:
+                """It was his first sexual encounter (= first experience of sex).""",
+            kurdishText:
+                """ئەوە یەکەم ئەزموونی سێکسیی بوو (یەکەم جاری بوو سێکس بکات).""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US" ""),
           ),
@@ -961,17 +973,23 @@ class KurdishMeaning extends StatelessWidget {
           // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The story describes the extraordinary encounter between a man and a dolphin.""",
-            kurdishText: """چیرۆکەکە باس لە چاوپێکەوتنی سەرسوڕهێنەری نێوان پیاوێک و دۆڵفینێک دەکات.""",
+            englishText:
+                """The story describes the extraordinary encounter between a man and a dolphin.""",
+            kurdishText:
+                """چیرۆکەکە باس لە چاوپێکەوتنی سەرسوڕهێنەری نێوان پیاوێک و دۆڵفینێک دەکات.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US" ""),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ناو) یارییەکی وەرزشی دژ بە یاریزانێک یان تیمێکی وەرزشی"""),
+          const DefinitionKurdish(
+              text:
+                  """٤. (ناو) یارییەکی وەرزشی دژ بە یاریزانێک یان تیمێکی وەرزشی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She has beaten her opponent in all of their previous encounters.""",
-            kurdishText: """لە ڕکابەرەکەی بردووەتەوە لە هەموو بەرکەوتنەکانی پێشووتریان.""",
+            englishText:
+                """She has beaten her opponent in all of their previous encounters.""",
+            kurdishText:
+                """لە ڕکابەرەکەی بردووەتەوە لە هەموو بەرکەوتنەکانی پێشووتریان.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US" ""),
           ),
@@ -1730,19 +1748,19 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/W2hRTTTpmr8?t=';
+const String _videoIdend = 'W2hRTTTpmr8';
 const double _startSecondsend = 64;
-const String _videoIdone = 'https://youtu.be/BZbChKzedEk?t=';
+const String _videoIdone = 'BZbChKzedEk';
 const double _startSecondsone = 309;
-const String _videoIdtwo = 'https://youtu.be/EHJNGdFll4o?t=';
+const String _videoIdtwo = 'EHJNGdFll4o';
 const double _startSecondstwo = 268;
-const String _videoIdthree = 'https://youtu.be/bHIhgxav9LY?t=';
+const String _videoIdthree = 'bHIhgxav9LY';
 const double _startSecondsthree = 111;
-const String _videoIdfour = 'https://youtu.be/tsxmyL7TUJg?t=';
+const String _videoIdfour = 'tsxmyL7TUJg';
 const double _startSecondsfour = 1078;
-const String _videoIdfive = 'https://youtu.be/-HyHZsa79LU?t=';
+const String _videoIdfive = '-HyHZsa79LU';
 const double _startSecondsfive = 1193;
-const String _videoIdsix = 'https://youtu.be/a_TSR_v07m0?t=';
+const String _videoIdsix = 'a_TSR_v07m0';
 const double _startSecondssix = 762;
 
 class YoutubeEmbeddedend extends StatelessWidget {

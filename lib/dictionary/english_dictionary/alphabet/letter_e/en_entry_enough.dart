@@ -258,7 +258,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Don't ask me to do it. I've got enough problems as it is.""");
+    await flutterTts
+        .speak("""Don't ask me to do it. I've got enough problems as it is.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -279,7 +280,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""We've nearly run out of paper. Do you think there's enough for today?""");
+    await flutterTts.speak(
+        """We've nearly run out of paper. Do you think there's enough for today?""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -321,7 +323,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I hope my job's safe. Life is hard enough as it is.""");
+    await flutterTts
+        .speak("""I hope my job's safe. Life is hard enough as it is.""");
   }
 
   Future<void> speaksentence90(String languageCode) async {
@@ -330,7 +333,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("""This house isn't big enough for us.0""");
   }
-  
+
 // With short examples define "enough", please follow LX instructions
   @override
   Widget build(BuildContext context) {
@@ -344,8 +347,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(text: """١. (دیارخەر) پێنناسە"""),
           SentencesRow(
-            englishText:
-                """Have you made enough copies?""",
+            englishText: """Have you made enough copies?""",
             kurdishText: """بەشی پێویست کۆپیت درووست کردووە؟""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
@@ -366,13 +368,15 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Don't ask me to do it. I've got enough problems as it is.""",
+            englishText:
+                """Don't ask me to do it. I've got enough problems as it is.""",
             kurdishText: """بە من مەڵێ بیکەم. ئێستا بەشی پێویست کێشەم هەیە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (جێناو) بەو ئەندازەیەی کە کەسێک پێویستییەتی"""),
+          const DefinitionKurdish(
+              text: """٢. (جێناو) بەو ئەندازەیەی کە کەسێک پێویستییەتی"""),
           SentencesRow(
             englishText: """Six bottles should be enough.""",
             kurdishText: """شەش بوتڵ بەس دەبێت.""",
@@ -388,8 +392,10 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """We've nearly run out of paper. Do you think there's enough for today?""",
-            kurdishText: """خەریکە کاغەزمان نامێنێت. پێتوایە بەشی ئەمڕۆمان هەبێت؟""",
+            englishText:
+                """We've nearly run out of paper. Do you think there's enough for today?""",
+            kurdishText:
+                """خەریکە کاغەزمان نامێنێت. پێتوایە بەشی ئەمڕۆمان هەبێت؟""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -423,7 +429,8 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ھاوەڵکار) بە ئاستێک کە پەسەندە بەلام زۆر نییە"""),
+          const DefinitionKurdish(
+              text: """٤. (ھاوەڵکار) بە ئاستێک کە پەسەندە بەلام زۆر نییە"""),
           SentencesRow(
             englishText: """He seemed pleasant enough to me.""",
             kurdishText: """بەشی پێویست دڵخۆش دیار بوو لام.""",
@@ -431,10 +438,13 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (ھاوەڵکار) بە ئاستێک کە ناتەوێت زیاتر ببێت"""),
+          const DefinitionKurdish(
+              text: """٥. (ھاوەڵکار) بە ئاستێک کە ناتەوێت زیاتر ببێت"""),
           SentencesRow(
-            englishText: """I hope my job's safe. Life is hard enough as it is.""",
-            kurdishText: """هیوادارم کارەکەم سەلامەت ببێت. ژاین بەپێی ئەوەی هەیە قورسە بۆ خۆی.""",
+            englishText:
+                """I hope my job's safe. Life is hard enough as it is.""",
+            kurdishText:
+                """هیوادارم کارەکەم سەلامەت ببێت. ژاین بەپێی ئەوەی هەیە قورسە بۆ خۆی.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -514,19 +524,19 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
+const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 35;
-const String _videoIdone = 'https://youtu.be/hS2x1zl4rn0?t=';
+const String _videoIdone = 'hS2x1zl4rn0';
 const double _startSecondsone = 249;
-const String _videoIdtwo = 'https://youtu.be/_spuxXnul0U?t=';
+const String _videoIdtwo = '_spuxXnul0U';
 const double _startSecondstwo = 26;
-const String _videoIdthree = 'https://youtu.be/bYG1aBU9cI4?t=';
+const String _videoIdthree = 'bYG1aBU9cI4';
 const double _startSecondsthree = 145;
-const String _videoIdfour = 'https://youtu.be/OjsQ78t_0_M?t=';
+const String _videoIdfour = 'OjsQ78t_0_M';
 const double _startSecondsfour = 83;
-const String _videoIdfive = 'https://youtu.be/HDntl7yzzVI?t=';
+const String _videoIdfive = 'HDntl7yzzVI';
 const double _startSecondsfive = 1398;
-const String _videoIdsix = 'https://youtu.be/-HyHZsa79LU?t=';
+const String _videoIdsix = '-HyHZsa79LU';
 const double _startSecondssix = 385;
 
 class YoutubeEmbeddedend extends StatelessWidget {

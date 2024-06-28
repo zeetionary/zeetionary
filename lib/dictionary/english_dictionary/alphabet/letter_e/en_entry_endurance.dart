@@ -237,14 +237,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He showed remarkable endurance throughout his illness.""");
+    await flutterTts
+        .speak("""He showed remarkable endurance throughout his illness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""This event tests both physical and mental endurance.""");
+    await flutterTts
+        .speak("""This event tests both physical and mental endurance.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -258,7 +260,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She showed great endurance in the face of pain.""");
+    await flutterTts
+        .speak("""She showed great endurance in the face of pain.""");
   }
 
   @override
@@ -271,18 +274,23 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: خۆگرتن، هەڵکردن، دەربردن، بەرگەگرتن، بەرگە، تاقەت، کێش، لەسەرمانەوە، سەبر، خوڕاگرتن، خۆڕاگری، خۆگیری، بەربەرەکانی، دەوام‌هێنان، کۆڵ‌نەدان، بەدەوام‌بوون، ڕاوێستان، تاقەت(هێنان)، پشوودرێژی
 """),
-          const DefinitionKurdish(text: """١. (ناو) بەرگەگرتنی شتێکی بە ئازار تان سەخت بۆ ماوەیەکی زۆر بەبێ وازهێنان"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) بەرگەگرتنی شتێکی بە ئازار تان سەخت بۆ ماوەیەکی زۆر بەبێ وازهێنان"""),
           SentencesRow(
             englishText:
                 """He showed remarkable endurance throughout his illness.""",
-            kurdishText: """بەرگەگرتنی ناوازەی پیشان دا بەدرێژایی نەخۆشییەکەی.""",
+            kurdishText:
+                """بەرگەگرتنی ناوازەی پیشان دا بەدرێژایی نەخۆشییەکەی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """This event tests both physical and mental endurance.""",
-            kurdishText: """ئەم بۆنەیە بەرگەگرتنی جەستەیی و دەروونی تاقی دەکاتەوە.""",
+            englishText:
+                """This event tests both physical and mental endurance.""",
+            kurdishText:
+                """ئەم بۆنەیە بەرگەگرتنی جەستەیی و دەروونی تاقی دەکاتەوە.""",
             onPressedBritish: () => speaksentence2("en-GB" ""),
             onPressedAmerican: () => speaksentence2("en-US" ""),
           ),
@@ -370,19 +378,19 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/DWmGArQBtFI?t=';
+const String _videoIdend = 'DWmGArQBtFI';
 const double _startSecondsend = 501;
-const String _videoIdone = 'https://youtu.be/HgbxUMx3JWA?t=';
+const String _videoIdone = 'HgbxUMx3JWA';
 const double _startSecondsone = 33;
-const String _videoIdtwo = 'https://youtu.be/9yjZpBq1XBE?t=';
+const String _videoIdtwo = '9yjZpBq1XBE';
 const double _startSecondstwo = 440;
-const String _videoIdthree = 'https://youtu.be/TnkdoEZhTbc?t=';
+const String _videoIdthree = 'TnkdoEZhTbc';
 const double _startSecondsthree = 442;
-const String _videoIdfour = 'https://youtu.be/epAuo2_6gR8?t=';
+const String _videoIdfour = 'epAuo2_6gR8';
 const double _startSecondsfour = 432;
-const String _videoIdfive = 'https://youtu.be/VbOh4x2FfNs?t=';
+const String _videoIdfive = 'VbOh4x2FfNs';
 const double _startSecondsfive = 8;
-const String _videoIdsix = 'https://youtu.be/AD8-zbyGvkI?t=';
+const String _videoIdsix = 'AD8-zbyGvkI';
 const double _startSecondssix = 311;
 
 class YoutubeEmbeddedend extends StatelessWidget {

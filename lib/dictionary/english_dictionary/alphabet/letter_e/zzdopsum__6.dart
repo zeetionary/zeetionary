@@ -77,7 +77,7 @@ class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
                   YoutubeEmbeddedthree(),
                   YoutubeEmbeddedfour(),
                   YoutubeEmbeddedfive(),
-                  YoutubeEmbeddedsix(),
+                  // YoutubeEmbeddedsix(),
                   // YoutubeEmbeddedseven(),
                   // YoutubeEmbeddedeight(),
                   // YoutubeEmbeddednine(),
@@ -237,7 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""// speaksentence100000000000000000000000000000000""");
+    await flutterTts
+        .speak("""// speaksentence100000000000000000000000000000000""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -862,7 +863,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak("""speaksentence9000""");
   }
-  
+
 // With short examples define "dopsum1", please follow LX instructions
   @override
   Widget build(BuildContext context) {
@@ -1699,19 +1700,17 @@ haʊʊʊʊʊʊʊ4
 }
 
 const String _videoIdend = 'VIDEO_ID';
-const double _startSecondsend = 000000000000000000000000000;
+const double _startSecondsend = 000000000000000000000000000000; // ;
 const String _videoIdone = 'VIDEO_D';
-const double _startSecondsone = 000000000000000000000000000;
+const double _startSecondsone = 00000000000000000000000000000; // ;
 const String _videoIdtwo = 'VIDEO_D';
-const double _startSecondstwo = 000000000000000000000000000;
+const double _startSecondstwo = 00000000000000000000000000000; // ;
 const String _videoIdthree = 'VIDEO';
-const double _startSecondsthree = 000000000000000000000000000;
+const double _startSecondsthree = 000000000000000000000000000; // ;
 const String _videoIdfour = 'VIDEO_ID';
-const double _startSecondsfour = 000000000000000000000000000;
+const double _startSecondsfour = 000000000000000000000000000000; // ;
 const String _videoIdfive = 'VIDEO_D';
-const double _startSecondsfive = 000000000000000000000000000;
-const String _videoIdsix = 'VIDEO_ID';
-const double _startSecondssix = 000000000000000000000000000;
+const double _startSecondsfive = 00000000000000000000000000000; // ;
 // speaksentence100000000000000000000000000000000
 
 class YoutubeEmbeddedend extends StatelessWidget {
@@ -1870,32 +1869,6 @@ class YoutubeEmbeddedfive extends StatelessWidget {
   }
 }
 
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdsix,
-      startSeconds: _startSecondssix,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdsix,
-        startSeconds: _startSecondssix,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
 // end WORD_WEB
 
 // eeeeeeeeeeeeeeeeeeeeeeeeee  ەەەەەەەەەەەەەەەەەەەەەەە
@@ -1926,6 +1899,35 @@ class YoutubeEmbeddedsix extends StatelessWidget {
 // divider
 
 // vvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+const String _videoIdsix = 'VIDEO_ID';
+const double _startSecondssix = 000000000000000000000000000;
+
+class YoutubeEmbeddedsix extends StatelessWidget {
+  const YoutubeEmbeddedsix({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoIdsix,
+      startSeconds: _startSecondssix,
+      autoPlay: true,
+      params: defaultYoutubePlayerParams,
+    );
+
+    void reloadVideo() {
+      controller.loadVideoById(
+        videoId: _videoIdsix,
+        startSeconds: _startSecondssix,
+      );
+    }
+
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
+    );
+  }
+}
 
 class YoutubeEmbeddedseven extends StatelessWidget {
   const YoutubeEmbeddedseven({super.key});
@@ -2347,7 +2349,7 @@ class YoutubeVideos extends StatelessWidget {
         YoutubeEmbeddedthree(),
         YoutubeEmbeddedfour(),
         YoutubeEmbeddedfive(),
-        YoutubeEmbeddedsix(),
+        // YoutubeEmbeddedsix(),
         // YoutubeEmbeddedseven(),
         // YoutubeEmbeddedeight(),
         // YoutubeEmbeddednine(),

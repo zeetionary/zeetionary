@@ -1717,19 +1717,19 @@ Usage: Brit, Cdn (US: inquiry)
   }
 }
 
-const String _videoIdend = 'https://youtu.be/myBmq87fJeQ?t=';
+const String _videoIdend = 'myBmq87fJeQ';
 const double _startSecondsend = 2192;
-const String _videoIdone = 'https://youtu.be/95F1k6YIh80?t=';
+const String _videoIdone = '95F1k6YIh80';
 const double _startSecondsone = 978;
-const String _videoIdtwo = 'https://youtu.be/y4J66J3l8P4?t=';
+const String _videoIdtwo = 'y4J66J3l8P4';
 const double _startSecondstwo = 958;
-const String _videoIdthree = 'https://youtu.be/36lg28M3Hb0?t=';
+const String _videoIdthree = '36lg28M3Hb0';
 const double _startSecondsthree = 369;
-const String _videoIdfour = 'https://youtu.be/Tu3Cb0nDr8g?t=';
+const String _videoIdfour = 'Tu3Cb0nDr8g';
 const double _startSecondsfour = 426;
-const String _videoIdfive = 'https://youtu.be/sQAOaote6n8?t=';
+const String _videoIdfive = 'sQAOaote6n8';
 const double _startSecondsfive = 53;
-const String _videoIdsix = 'https://youtu.be/aaUfajPVgNk?t=';
+const String _videoIdsix = 'aaUfajPVgNk';
 const double _startSecondssix = 779;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -244,16 +244,18 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""What is the reason for the game's enduring appeal?""");
+    await flutterTts
+        .speak("""What is the reason for the game's enduring appeal?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""It's perhaps the only enduring work of art from the period.""");
+    await flutterTts.speak(
+        """It's perhaps the only enduring work of art from the period.""");
   }
-  
+
 // With short examples define "enduring", please follow LX instructions
 
   @override
@@ -266,25 +268,29 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: هەرمێن، خوڕاگر، بەرگەگر، خۆگیر، دەربردوو، کۆڵ‌نەدەر، بەتاقەت، بەکێش، بەگیر، هەرمان، داکوتراو، بەندبوو، زۆرهەڵکردوو، بەردەوام، بەدەوام، جێگیر، ڕاوەستاو، زیاترخایاندوو، چەق‌بەستوو
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بۆ ماوەیەکی درێژخایەن بەردەوام دەبێت"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵناو) کە بۆ ماوەیەکی درێژخایەن بەردەوام دەبێت"""),
           SentencesRow(
-            englishText:
-                """What is your most enduring memory of her?""",
+            englishText: """What is your most enduring memory of her?""",
             kurdishText: """درێژخایەنترین یادەوەری ئەو چییە لات؟""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """What is the reason for the game's enduring appeal?""",
+            englishText:
+                """What is the reason for the game's enduring appeal?""",
             kurdishText: """هۆکاری چێژی درێژخایەنی یارییەکە چییە؟""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """It's perhaps the only enduring work of art from the period.""",
-            kurdishText: """بە مەزەندەیی تەنها کاری هونەری ماوەوەیە سەردەمەکەیە.""",
+            englishText:
+                """It's perhaps the only enduring work of art from the period.""",
+            kurdishText:
+                """بە مەزەندەیی تەنها کاری هونەری ماوەوەیە سەردەمەکەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -359,19 +365,19 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/N4kvtt2T_6Y?t=';
+const String _videoIdend = 'N4kvtt2T_6Y';
 const double _startSecondsend = 219;
-const String _videoIdone = 'https://youtu.be/R_fZjGm2OrM?t=';
+const String _videoIdone = 'R_fZjGm2OrM';
 const double _startSecondsone = 379;
-const String _videoIdtwo = 'https://youtu.be/ImoP-Apzrsg?t=';
+const String _videoIdtwo = 'ImoP-Apzrsg';
 const double _startSecondstwo = 670;
-const String _videoIdthree = 'https://youtu.be/KZbzIf_C6Y4?t=';
+const String _videoIdthree = 'KZbzIf_C6Y4';
 const double _startSecondsthree = 974;
-const String _videoIdfour = 'https://youtu.be/aCPNlZ7bvRc?t=';
+const String _videoIdfour = 'aCPNlZ7bvRc';
 const double _startSecondsfour = 156;
-const String _videoIdfive = 'https://youtu.be/y__v0aEgzO0';
+const String _videoIdfive = 'y__v0aEgzO0';
 const double _startSecondsfive = 0;
-const String _videoIdsix = 'https://youtu.be/VjFFrYEZsAQ?t=';
+const String _videoIdsix = 'VjFFrYEZsAQ';
 const double _startSecondssix = 293;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryerratic extends StatefulWidget {
-  const EnglishEntryerratic({super.key});
+class EnglishEntryerroneous extends StatefulWidget {
+  const EnglishEntryerroneous({super.key});
 
   @override
-  State<EnglishEntryerratic> createState() => _EnglishEntryerraticState();
+  State<EnglishEntryerroneous> createState() => _EnglishEntryerroneousState();
 }
 
-class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
+class _EnglishEntryerroneousState extends State<EnglishEntryerroneous> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""erratic""");
+    await flutterTts.speak("""erroneous""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """erratic""",
-                      // alsoEnglishWord: "also: erratic",
-                      britshText: """IpaUK: /ɪˈrætɪk/""",
-                      americanText: """IpaUS: /ɪˈrætɪk/""",
+                      word: """erroneous""",
+                      // alsoEnglishWord: "also: erroneous",
+                      britshText: """IpaUK: /ɪˈrəʊniəs/""",
+                      americanText: """IpaUS: /ɪˈrəʊniəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "erratic";
+  final String keyword = "erroneous";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,22 +237,23 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The electricity supply here is quite erratic.""");
+    await flutterTts.speak(
+        """He seems to be under the erroneous impression that she is in love with him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Mary is a gifted but erratic player.""");
+    await flutterTts
+        .speak("""The theory is based on several erroneous beliefs.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Irrigation measures will be necessary in areas of erratic rainfall.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
-// With short examples define "erratic", please follow LX instructions
+// With short examples define "erroneous", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +874,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نائاسایی، ڕیزپەڕ، سەیر، ناڕێک، شێواو، شپرزە، وێڵەکی، سەرلێ‌شێواو، پەڕتەوازە
+کوردی: (پڕ)هەڵە، نادروست، چەوت، شاش، ناڕاست
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێشبینی‌نەکراو؛ کە بە شێوەیەکی ڕێک ڕوونادات"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵناو) کە ڕاست نییە؛ کە پشتی بە زانیاریی هەڵە بەستووە"""),
           SentencesRow(
             englishText:
-                """The electricity supply here is quite erratic.""",
-            kurdishText: """سەرچاوەی کارەبا لێرە تەواو پێشبینی‌نەکراوە.""",
+                """He seems to be under the erroneous impression that she is in love with him.""",
+            kurdishText:
+                """وادیاربوو لەژێر ئەو تێگەشتنە هەڵەیە بێت کە ئەو لە خۆشەویستیدایە لەگەڵی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +891,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Mary is a gifted but erratic player (= she does not always play well).""",
-            kurdishText: """ماری یاریزانێکی بەتوانا بەڵام شێواوە.""",
+            englishText:
+                """The theory is based on several erroneous beliefs.""",
+            kurdishText:
+                """بیردۆزەکە پشتی بە ژمارەیەک لە باوەڕی هەڵە بەستووە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +902,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Irrigation measures will be necessary in areas of erratic rainfall.""",
-            kurdishText: """ڕێکاری ئاودێری گرنگ دەبێت لەو ناوچانەی کە بارانی ناڕێکیان تێدایە.""",
+            englishText: """speaksentence300""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -1671,18 +1677,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: erratic
-1. Liable to sudden unpredictable change (= fickle, mercurial, quicksilver)
-"erratic behaviour";
- 
-2. Having no fixed course (= planetary, wandering)
-"an erratic comet";
- 
-3. Likely to perform unpredictably (= temperamental)
-"erratic winds are the bane of a sailor";
-
-- Noun: erratic (Derived forms: erratics)
-1. (geology) a boulder of rock that differs from the surrounding bedrock because it has been transported by a glacier
+- Adjective: 
+1. Containing or characterized by error
+"erroneous conclusions"
 """,
   );
 
@@ -1707,18 +1704,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/raSeaAeryWE?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 660;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/JcpboMScfIY?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 4665;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/4K-_KbbRiEE?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1156;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/C2Jw5ib-s_I?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 59;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/-dyaApKvUdE?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 443;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/NcRifDitRnU?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 2016;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/YE0U018Copw?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 909;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/4utNXOfQ4cM?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 154;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/jijuG9tyoR0?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 35;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/DuAeaIcAXtg?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 1036;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/eJ-WJssJgdg?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 1242;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/Solb9uA-tgQ?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 2594;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryerratic extends StatefulWidget {
-  const EnglishEntryerratic({super.key});
+class EnglishEntryessential extends StatefulWidget {
+  const EnglishEntryessential({super.key});
 
   @override
-  State<EnglishEntryerratic> createState() => _EnglishEntryerraticState();
+  State<EnglishEntryessential> createState() => _EnglishEntryessentialState();
 }
 
-class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
+class _EnglishEntryessentialState extends State<EnglishEntryessential> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""erratic""");
+    await flutterTts.speak("""essential""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """erratic""",
-                      // alsoEnglishWord: "also: erratic",
-                      britshText: """IpaUK: /ɪˈrætɪk/""",
-                      americanText: """IpaUS: /ɪˈrætɪk/""",
+                      word: """essential""",
+                      // alsoEnglishWord: "also: essential",
+                      britshText: """IpaUK: /ɪˈsenʃl/""",
+                      americanText: """IpaUS: /ɪˈsenʃl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "erratic";
+  final String keyword = "essential";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,71 +237,78 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The electricity supply here is quite erratic.""");
+    await flutterTts.speak(
+        """The local government is not able to provide essential services such as gas, water and electricity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Mary is a gifted but erratic player.""");
+    await flutterTts
+        .speak("""Vitamins play an essential role in many body processes.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Irrigation measures will be necessary in areas of erratic rainfall.""");
+    await flutterTts.speak(
+        """The museum is closed while essential repairs are being carried out.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""This book is essential reading for all nature lovers.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Money is not essential to happiness.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """The essential difference between Sara and me is in our attitude to money.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """He describes what he thinks is the essential nature of America.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""I only had time to pack the bare essentials.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak(
+        """The studio had all the essentials like heating and running water.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak(
+        """The essentials of English grammar include verb tenses and punctuation.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
@@ -861,10 +868,11 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence9000""");
+    await flutterTts.speak(
+        """The studio had all the essentials like heating and running water.0""");
   }
 
-// With short examples define "erratic", please follow LX instructions
+// With short examples define "essential", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +881,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نائاسایی، ڕیزپەڕ، سەیر، ناڕێک، شێواو، شپرزە، وێڵەکی، سەرلێ‌شێواو، پەڕتەوازە
+کوردی: پێویست، پێدڤی، بنچینەیی، گەوهەری، بنەڕەتی، بنەمایی، بنگەهی، سەرەکی، گرنگ،	گەوهەری، کرۆکی، زاتی، سروشتی
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێشبینی‌نەکراو؛ کە بە شێوەیەکی ڕێک ڕوونادات"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) تەواو پێویست"""),
           SentencesRow(
             englishText:
-                """The electricity supply here is quite erratic.""",
-            kurdishText: """سەرچاوەی کارەبا لێرە تەواو پێشبینی‌نەکراوە.""",
+                """The local government is not able to provide essential services such as gas, water and electricity.""",
+            kurdishText:
+                """حکومەتە خۆجێیەکە ناتوانێت خزمەتگوزارییە سەرەتاییەکانی وەک گاز، ئاو، و کارەبا دابین بکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +896,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Mary is a gifted but erratic player (= she does not always play well).""",
-            kurdishText: """ماری یاریزانێکی بەتوانا بەڵام شێواوە.""",
+            englishText:
+                """Vitamins play an essential role in many body processes.""",
+            kurdishText:
+                """ڤیتامین ڕۆڵی سەرەکی دەبینێت لە زۆر پڕۆسەی جەستەدا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +907,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Irrigation measures will be necessary in areas of erratic rainfall.""",
-            kurdishText: """ڕێکاری ئاودێری گرنگ دەبێت لەو ناوچانەی کە بارانی ناڕێکیان تێدایە.""",
+            englishText:
+                """The museum is closed while essential repairs are being carried out.""",
+            kurdishText:
+                """مۆزەخانەکە داخراوە لە کاتێکدا چاککردنەوەی بنەڕەتی ئەنجام دەدرێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -905,8 +918,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """This book is essential reading for all nature lovers.""",
+            kurdishText:
+                """ئەم کتێبە خوێندنەوەیەکی سەرەکییە بۆ هەموو ئاشقانی سرووشت.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -914,17 +929,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Money is not essential to happiness.""",
+            kurdishText: """پارە بنچینەی دڵخۆشی نییە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ھاوەڵناو) پەیوەندیدار بە گرنگترین شت یان سرووشتی بنچینەیی کەسێک/شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The essential difference between Sara and me is in our attitude to money.""",
+            kurdishText:
+                """جیاوازیی سەرەکی نێوان سارا و من تێڕوانینمانە بۆ پارە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -932,17 +951,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """He describes what he thinks is the essential nature of America.""",
+            kurdishText:
+                """ئەوە باس دەکات کە وەها بیردەکاتەوە سرووشتی بنچینەیی ئەمریکایە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) شتێک کە پێویستە لە دۆخێکی دیاریکراو یان بۆ کردنی شتێکی دیاریکراو"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """I only had time to pack the bare essentials (= the most necessary things).""",
+            kurdishText: """کاتم هەبوو تەنها شتە هەرە سەرەکییەکان کۆبکەمەوە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -950,17 +974,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The studio had all the essentials like heating and running water.""",
+            kurdishText:
+                """ستودیۆکە هەموو شتە سەرەکییەکانی وەک گەرمکەرەوە و ئاوی هەبوو.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٤. (ناو) زانیاری یان ڕاستی سەرەتایی لەسەر شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_1000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The essentials of English grammar include verb tenses and punctuation.""",
+            kurdishText:
+                """بنچینەکانی ڕێزمانی ئینگلیزی دەمی کار و خاڵبەندی لەخۆدەگرێت.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -1671,18 +1700,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: erratic
-1. Liable to sudden unpredictable change (= fickle, mercurial, quicksilver)
-"erratic behaviour";
+- Adjective: essential
+1. Absolutely necessary; vitally necessary (= indispensable)
+"essential tools and materials"; "funds essential to the completion of the project";
  
-2. Having no fixed course (= planetary, wandering)
-"an erratic comet";
+2. Of the greatest importance (= all-important, all important, crucial, of the essence)
+"the essential subject of disarmament"; 
  
-3. Likely to perform unpredictably (= temperamental)
-"erratic winds are the bane of a sailor";
+3. Basic and fundamental
+"the essential feature"
+ 
+4. Being or relating to or containing the essence of a plant etc
+"essential oil"
+ 
+5. (law) defining rights and duties as opposed to giving the rules by which rights and duties are established (= substantive)
+"essential law";
 
-- Noun: erratic (Derived forms: erratics)
-1. (geology) a boulder of rock that differs from the surrounding bedrock because it has been transported by a glacier
+- Noun: essential (Derived forms: essentials)
+1. Anything indispensable (= necessity, requirement, requisite, necessary)
+"the essentials of the good life";
 """,
   );
 
@@ -1707,18 +1743,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/raSeaAeryWE?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 660;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/JcpboMScfIY?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 4665;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/4K-_KbbRiEE?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1156;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/C2Jw5ib-s_I?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 59;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/-dyaApKvUdE?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 443;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/NcRifDitRnU?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 2016;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/o9zCgPtsups?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 463;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/WUjVPIEtJd0?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 185;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/0rBEQjXg7Ak?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 366;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/PLMqUwed77k?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 319;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/0ST4_hmop9Y?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 1126;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/TdW3eMUymPo?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 753;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

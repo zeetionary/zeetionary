@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryerratic extends StatefulWidget {
-  const EnglishEntryerratic({super.key});
+class EnglishEntryestablishment extends StatefulWidget {
+  const EnglishEntryestablishment({super.key});
 
   @override
-  State<EnglishEntryerratic> createState() => _EnglishEntryerraticState();
+  State<EnglishEntryestablishment> createState() =>
+      _EnglishEntryestablishmentState();
 }
 
-class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
+class _EnglishEntryestablishmentState extends State<EnglishEntryestablishment> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""erratic""");
+    await flutterTts.speak("""establishment""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryerraticState extends State<EnglishEntryerratic> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """erratic""",
-                      // alsoEnglishWord: "also: erratic",
-                      britshText: """IpaUK: /ɪˈrætɪk/""",
-                      americanText: """IpaUS: /ɪˈrætɪk/""",
+                      word: """establishment""",
+                      // alsoEnglishWord: "also: establishment",
+                      britshText: """IpaUK: /ɪˈstæblɪʃmənt/""",
+                      americanText: """IpaUS: /ɪˈstæblɪʃmənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "erratic";
+  final String keyword = "establishment";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,43 +238,48 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The electricity supply here is quite erratic.""");
+    await flutterTts.speak(
+        """She's now running a small government research establishment.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Mary is a gifted but erratic player.""");
+    await flutterTts.speak(
+        """He was the head of a large residential establishment for severely disabled children.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Irrigation measures will be necessary in areas of erratic rainfall.""");
+    await flutterTts.speak(
+        """The members were drawn from the ranks of the Establishment.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The British Establishment is very slow to accept change.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""The speaker announced the establishment of a new college.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """His visit facilitated the establishment of diplomatic relations between the countries.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -864,7 +870,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence9000""");
   }
 
-// With short examples define "erratic", please follow LX instructions
+// With short examples define "establishment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +879,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نائاسایی، ڕیزپەڕ، سەیر، ناڕێک، شێواو، شپرزە، وێڵەکی، سەرلێ‌شێواو، پەڕتەوازە
+کوردی: دامەزراندن، دانان، سازدان، بنیات‌نان، سەقامگیرکردن، جێگیرکردن، داکوتاندن، داکوتان، دامەزران، تێ‌نیشتن، بنیات‌نران،	دەزگا، دەزگاوبەرە، دووکان، دامەزرە، دامەزراوە، دام‌ودەزگا،	کۆمەڵە قانوون،	کلێسەی فەرمی،	دەس‌پێکردن، دەس‌بەکاربوون، کەوتنەکار، دەس‌ڕۆیشتووان، دەسەڵات‌داران، ڕایەداران، دەسەڵات‌بەدەستان، هێزبەدەستان، دەسداران، چینی سەردەست، کۆمەڵی کلیلی، دەزگای دەسەڵات‌دار
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێشبینی‌نەکراو؛ کە بە شێوەیەکی ڕێک ڕوونادات"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) دامەزراوەیەک، ڕێکخراوەیەکی گەورە، یان هوتێلێک"""),
           SentencesRow(
             englishText:
-                """The electricity supply here is quite erratic.""",
-            kurdishText: """سەرچاوەی کارەبا لێرە تەواو پێشبینی‌نەکراوە.""",
+                """She's now running a small government research establishment.""",
+            kurdishText:
+                """ئێستا دامەزراوەیەکی بچووکی لێکۆڵینەوەی حکومەت بەڕێوە دەبات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,17 +896,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Mary is a gifted but erratic player (= she does not always play well).""",
-            kurdishText: """ماری یاریزانێکی بەتوانا بەڵام شێواوە.""",
+            englishText:
+                """He was the head of a large residential establishment for severely disabled children.""",
+            kurdishText:
+                """سەرۆکی بنکەیەکی گەورەی نیشتەجێبوون بوو بۆ منداڵانی زۆر کەم‌ئەندام.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) کەسانی کۆمەڵگە یان پیشەیەک کە دەسەڵاتیان هەیە و زۆرجار پشتگیری گۆڕان ناکەن"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Irrigation measures will be necessary in areas of erratic rainfall.""",
-            kurdishText: """ڕێکاری ئاودێری گرنگ دەبێت لەو ناوچانەی کە بارانی ناڕێکیان تێدایە.""",
+            englishText:
+                """The members were drawn from the ranks of the Establishment.""",
+            kurdishText: """ئەندامەکان لە کەسانی دەس‌ڕۆیشتوو هەڵبژێردران.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -905,17 +919,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The British Establishment is very slow to accept change.""",
+            kurdishText:
+                """دەسەڵات‌بەدەستانی بەریتانیا هێواشن لە پەسەندکردنی گۆڕانکاریدا.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) دەست پێکردن یان دەمەزراندنی شتێک کە ئامانج لێی ئەوەیە زۆر بەردەوام ببێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The speaker announced the establishment of a new college.""",
+            kurdishText: """وتەبێژەکە دامەزراندنی کۆلێژێکی تازەی ڕاگەیاند.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -923,8 +942,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """His visit facilitated the establishment of diplomatic relations between the countries.""",
+            kurdishText:
+                """سەردانەکەی دەستپێکردنی پەیوەندیی دیپلۆماسی نێوان وڵاتەکانی دەست پێکرد.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -1671,18 +1692,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: erratic
-1. Liable to sudden unpredictable change (= fickle, mercurial, quicksilver)
-"erratic behaviour";
+- Noun: establishment (Derived forms: establishments)
+1. The act of forming or establishing something (= constitution, formation, organization, organisation [Brit])
+"it was the establishment of his reputation";
  
-2. Having no fixed course (= planetary, wandering)
-"an erratic comet";
+2. An organization founded and united for a specific purpose (= institution)
  
-3. Likely to perform unpredictably (= temperamental)
-"erratic winds are the bane of a sailor";
-
-- Noun: erratic (Derived forms: erratics)
-1. (geology) a boulder of rock that differs from the surrounding bedrock because it has been transported by a glacier
+3. The persons (or committees or departments etc.) who make up a body for the purpose of administering something (= administration, governance, governing body, brass, organization, organisation [Brit], admin [informal])
+"he quickly became recognized as a member of the establishment";
+ 
+4. A public or private structure (business or governmental or educational) including buildings and equipment for business or residence
+ 
+5. Any large organization
+ 
+6. (ecology) the process by which a plant or animal becomes established in a new habitat (= ecesis)
+ 
+7. The cognitive process of establishing a valid proof (= validation)
 """,
   );
 
@@ -1707,18 +1732,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/raSeaAeryWE?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 660;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/JcpboMScfIY?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 4665;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/4K-_KbbRiEE?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1156;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/C2Jw5ib-s_I?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 59;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/-dyaApKvUdE?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 443;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/NcRifDitRnU?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 2016;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/iN8zmmCRqUA?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 594;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/Xzv84ZdtlE0?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 710;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/fn--IVarumw?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 1362;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/YCnFYvL17v4?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 1355;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/1jm3K9cm3vI?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 2327;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/Q-nWA0WeF98?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 1029;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

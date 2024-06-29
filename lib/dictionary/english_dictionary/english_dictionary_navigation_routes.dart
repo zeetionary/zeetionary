@@ -5799,7 +5799,7 @@ final Map<String, String> wordRoutes = {
   "inquiry": "/english-enquiry",
   "eraser": "/english-rubber",
   "esophagus": "/english-oesophagus",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "esthetic": "/english-aesthetic",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

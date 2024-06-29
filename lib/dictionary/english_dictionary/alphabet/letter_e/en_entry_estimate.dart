@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryestate extends StatefulWidget {
-  const EnglishEntryestate({super.key});
+class EnglishEntryestimate extends StatefulWidget {
+  const EnglishEntryestimate({super.key});
 
   @override
-  State<EnglishEntryestate> createState() => _EnglishEntryestateState();
+  State<EnglishEntryestimate> createState() => _EnglishEntryestimateState();
 }
 
-class _EnglishEntryestateState extends State<EnglishEntryestate> {
+class _EnglishEntryestimateState extends State<EnglishEntryestimate> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryestateState extends State<EnglishEntryestate> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""estate""");
+    await flutterTts.speak("""estimate""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryestateState extends State<EnglishEntryestate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """estate""",
-                      // alsoEnglishWord: "also: estate",
-                      britshText: """IpaUK: /ɪˈsteɪt/""",
-                      americanText: """IpaUS: /ɪˈsteɪt/""",
+                      word: """estimate""",
+                      // alsoEnglishWord: "also: estimate",
+                      britshText: """IpaUK: /ˈestɪmeɪt/""",
+                      americanText: """IpaUS: /ˈestɪmeɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "estate";
+  final String keyword = "estimate";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,77 +238,85 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""She lives in a tower block on an estate in London.""");
+        .speak("""The satellite will cost an estimated £400 million.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The poet's childhood was spent on a country estate.""");
+    await flutterTts.speak("""Police estimate the crowd at 30 000.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Her estate was left to her daughter.""");
+    await flutterTts
+        .speak("""The deal is estimated to be worth around £1.5 million.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He left estate valued at a million dollars.""");
+    await flutterTts
+        .speak("""We estimated (that) it would cost about €5 000.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""It is estimated (that) the project will last four years.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """I can give you a rough estimate of the amount of wood you will need.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """What is the latest estimate of the number of chimpanzees in the wild?""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak(
+        """At least 5 000 people were killed, and that's a conservative estimate.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak(
+        """Losses totalled £1.87 billion last year, according to estimates.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""We'll send you an estimate for the repairs.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak(
+        """We got estimates from three firms and accepted the lowest.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -861,10 +869,10 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence9000""");
+    await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "estate", please follow LX instructions
+// With short examples define "estimate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,58 +881,74 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: زەوی‌وزار، مڵک، زەوی، خاک، زەمین،	شارۆچکە (پێشکەوتوو)،	میرات، کەلەپوور،	دارایی، ماڵ، سامان، هەیەونییە،	پلەوپایە، پۆست، پێگە،	دۆخ، ڕەوش، کاودان، بارودۆخ،	گروپی سیاسی یان ڕامیاری،	چێنی کومەڵایەتی
+کوردی: نرخاندن، قەبڵاندن، هەڵسەنگاندن، سەنگان، قرساندن، لێکدانەوە،	لێکدانەوەی خەرج‌وبار، مەزندەی تێچوون یان خەرج‌وبار،	مەزندە،	ڕادەربڕین
 """),
-          const DefinitionKurdish(text: """١. (ناو) ناوچەیەک کە هەمان جۆرە خانوو و کارگەی لەسەرە"""),
+          const DefinitionKurdish(
+              text: """١. (کردار) خەمڵاندنی نرخ، بەها، قەبارە، هتد ـی شتێک"""),
           SentencesRow(
             englishText:
-                """She lives in a tower block on an estate in London.""",
-            kurdishText: """لە تاوەرێک لە ناوچەیەکی لەندەن دەژی.""",
+                """The satellite will cost an estimated £400 million.""",
+            kurdishText: """سەتەلایتەکە بەنزیکەیی ٤٠٠ ملیۆن پاوەندی تێدەچێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) پارچە زەوییەکی گەورە، زۆرجار لە دەرەوەی شار، کە هی یەک کەس یان خێزانە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The poet's childhood was spent on a country estate.""",
-            kurdishText: """منداڵی هۆزانڤانەکە لە زەوییەکی دەرەوەی شار بوو.""",
+            englishText: """Police estimate the crowd at 30 000.""",
+            kurdishText: """پۆلیس جەماوەرەکە بە ٣٠٠٠٠ دەخەمڵێنێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) تەواوی سەروەت و سامانی کەسێک، بەتایبەتی لە دوای مردنی"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """Her estate was left to her daughter.""",
-            kurdishText: """سامانەکەی بۆ کچەکەی جێما.""",
-            onPressedBritish: () => speaksentence3("en-GB"),
-            onPressedAmerican: () => speaksentence3("en-US"),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """The deal is estimated to be worth around £1.5 million.""",
+                    kurdishText:
+                        """ڕێکەتنەکە دەخەمڵێندرێت بە نزیکەی ١,٥ ملیۆن پاوەند.""",
+                    onPressedBritish: () => speaksentence3("en-GB"),
+                    onPressedAmerican: () => speaksentence3("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """We estimated (that) it would cost about €5 000.""",
+                    kurdishText: """ئەوەمان خەمڵاند کە ٥٠٠٠ یۆرۆی تێدەچێت.""",
+                    onPressedBritish: () => speaksentence4("en-GB"),
+                    onPressedAmerican: () => speaksentence4("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """It is estimated (that) the project will last four years.""",
+                    kurdishText:
+                        """ئەوە دەخەمڵێندرێت کە پڕۆژەکە چوار ساڵی پێدەچێت.""",
+                    onPressedBritish: () => speaksentence5("en-GB"),
+                    onPressedAmerican: () => speaksentence5("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ناو) خەمڵاندنی نرخ، بەها، قەبارە، هتد ـی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """He left estate valued at a million dollars.""",
-            kurdishText: """سامانێکی بە بەهای یەک ملیۆن دۆلار جێهێشت.""",
-            onPressedBritish: () => speaksentence4("en-GB"),
-            onPressedAmerican: () => speaksentence4("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence5("en-GB"),
-            onPressedAmerican: () => speaksentence5("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """I can give you a rough estimate of the amount of wood you will need.""",
+            kurdishText:
+                """دەتوانم خەمڵاندنی نزیکی ئەو ڕێژە دارەت پێ بدەم کە پێویستت دەبێت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -932,8 +956,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """What is the latest estimate of the number of chimpanzees in the wild?""",
+            kurdishText:
+                """تازەترین خەمڵاندنی ژمارەی شیمپانزی لە دەشتدا چەندە؟""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -941,8 +967,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """At least 5 000 people were killed, and that's a conservative estimate (= the real figure will be higher).""",
+            kurdishText:
+                """بە لایەنی کەمەوە ٥٠٠٠ کەس کوژران، و ئەوە خەمڵاندنێکی کەمە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -950,17 +978,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Losses totalled £1.87 billion last year, according to estimates.""",
+            kurdishText:
+                """بەپێی خەمڵاندنەکان زیانەکان ساڵی ڕابردوو بە ١,٨٧ ملیار دۆلار خەمڵێندران.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+          const DefinitionKurdish(text: """٣. (ناو) نرخاندنی تێچووی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_1000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We'll send you an estimate for the repairs.""",
+            kurdishText: """تێچووی چاککردنەوەکانت بۆ دەنێرین.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -968,8 +998,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """We got estimates from three firms and accepted the lowest.""",
+            kurdishText:
+                """تێچوومان لە سێ کۆمپانیاوە پێگەشت و کەمترینەکەمان پەسەند کرد.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -1671,18 +1703,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: estate (Derived forms: estates)
-1. Everything you own; all of your assets (whether real property or personal property) and liabilities
+- Verb: estimate (Derived forms: estimated, estimating, estimates)
+1. Form an estimate of (quantities or time) (= gauge, approximate, guess, judge)
+"I estimate this chicken to weigh three pounds";
  
-2. Extensive landed property (especially in the country) retained by the owner for his own use (= land, landed estate, acres, demesne)
-"the family owned a large estate on Long Island";
+2. Judge to be probable (= calculate, reckon, count on, figure, forecast)
+
+- Noun: estimate (Derived forms: estimates)
+1. An approximate calculation of quantity, degree or worth (= estimation, approximation, idea)
+"an estimate of what it would cost";
  
-2. [Brit] A major social class or order of persons regarded collectively as part of the body politic of the country (especially in the United Kingdom) and formerly possessing distinct political rights (= estate of the realm [Brit], the three estates [Brit])
+2. A judgment of the qualities of something or somebody (= estimation)
+"many factors are involved in any estimate of human life";
  
-3. [Brit, informal] A car that has a long body and rear door with space behind rear seat (= beach wagon [N. Amer, Austral, NZ], station wagon [N. Amer, Austral, NZ], wagon [N. Amer, Austral, NZ], estate car [Brit, Cdn], beach waggon [Cdn, Austral, NZ], station waggon [N. Amer, Austral, NZ], waggon [Cdn, Austral, NZ])
+3. A document appraising the value of something (as for insurance or taxation) (= appraisal, estimation)
  
-4. [Brit] A group of buildings built together as a single development on a designated area of land
-"you will find rough estates and Georgian or redbrick areas in close proximity"
+4. A statement indicating the likely cost of some job (= quote, quotation [Brit])
+"he got an estimate from the car repair shop";
+ 
+5. The respect with which a person is held (= estimation)
+"they had a high estimate of his ability";
 """,
   );
 
@@ -1707,18 +1747,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/PkUg89kLLBE?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 995;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/lsbcN9-jU1Y?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 160;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/qg2nGY1aqlg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1930;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/FLqvTE1Eqfg?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 719;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/5wxs_WNwDJE?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 249;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/fHsa9DqmId8?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 1105;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/AF8d72mA41M?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 1730;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/YRhqMWUH2Ig?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 823;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/q8y-RLkpsnk?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 423;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/oD9BaNAH-eE?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 368;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/6kA7Alc-QCY?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 108;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/dhgEpr87Yac?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 266;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

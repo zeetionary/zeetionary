@@ -1697,11 +1697,11 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // alphabet/letter_e/en_entry_establish.dart' show EnglishEntryestablish
 // alphabet/letter_e/en_entry_establishment.dart' show EnglishEntryestablishment
 // alphabet/letter_e/en_entry_estate.dart' show EnglishEntryestate
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
+// alphabet/letter_e/en_entry_estate_agent.dart' show EnglishEntryestateagent //// فففف estate agent
+// alphabet/letter_e/en_entry_estate_car.dart' show EnglishEntryestatecar //// فففف estate car
+// alphabet/letter_e/en_entry_esteem.dart' show EnglishEntryesteem
+// alphabet/letter_e/en_entry_estimate.dart' show EnglishEntryestimate
+// alphabet/letter_e/en_entry_estimation.dart' show EnglishEntryestimation
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry

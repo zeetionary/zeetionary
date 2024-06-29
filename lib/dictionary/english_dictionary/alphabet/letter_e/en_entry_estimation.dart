@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""// speaksentence100000000000000000000000000000000""");
+        .speak("""// speaksentence1000000000000000000000000000""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -878,7 +878,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) بڕیاردان یان دەربڕینی بۆچوون سەبارەت بە کوالێتی شتێک"""),
           SentencesRow(
             englishText:
-                """// speaksentence100000000000000000000000000000000""",
+                """// speaksentence1000000000000000000000000000""",
             kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),

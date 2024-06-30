@@ -1702,30 +1702,30 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // alphabet/letter_e/en_entry_esteem.dart' show EnglishEntryesteem
 // alphabet/letter_e/en_entry_estimate.dart' show EnglishEntryestimate
 // alphabet/letter_e/en_entry_estimation.dart' show EnglishEntryestimation
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
-// alphabet/letter_e/en_entry_.dart' show EnglishEntry
+// alphabet/letter_e/en_entry_estuary.dart' show EnglishEntryestuary
+// alphabet/letter_e/en_entry_etc.dart' show EnglishEntryetc //// فففف etc.
+// alphabet/letter_e/en_entry_etch.dart' show EnglishEntryetch
+// alphabet/letter_e/en_entry_etching.dart' show EnglishEntryetching
+// alphabet/letter_e/en_entry_eternal.dart' show EnglishEntryeternal
+// alphabet/letter_e/en_entry_eternally.dart' show EnglishEntryeternally
+// alphabet/letter_e/en_entry_eternity.dart' show EnglishEntryeternity
+// alphabet/letter_e/en_entry_ether.dart' show EnglishEntryether
+// alphabet/letter_e/en_entry_ethereal.dart' show EnglishEntryethereal
+// alphabet/letter_e/en_entry_ethernet.dart' show EnglishEntryethernet //// فففف Ethernet
+// alphabet/letter_e/en_entry_ethic.dart' show EnglishEntryethic
+// alphabet/letter_e/ en_entry_ethical.dart' show EnglishEntryethical
+// alphabet/letter_e/en_entry_ethically.dart' show EnglishEntryethically
+// alphabet/letter_e/en_entry_ethnic.dart' show EnglishEntryethnic
+// alphabet/letter_e/en_entry_ethnically.dart' show EnglishEntryethnically
+// alphabet/letter_e/en_entry_etiquette.dart' show EnglishEntryetiquette
+// alphabet/letter_e/en_entry_etymology.dart' show EnglishEntryetymology
+// alphabet/letter_e/en_entry_eucalyptus.dart' show EnglishEntryeucalyptus
+// alphabet/letter_e/en_entry_euphemism.dart' show EnglishEntryeuphemism
+// alphabet/letter_e/en_entry_euphemistic.dart' show EnglishEntryeuphemistic
+// alphabet/letter_e/en_entry_euphoria.dart' show EnglishEntryeuphoria
+// alphabet/letter_e/en_entry_euphoric.dart' show EnglishEntryeuphoric
+// alphabet/letter_e/en_entry_euro.dart' show EnglishEntryeuro
+// alphabet/letter_e/en_entry_european.dart' show EnglishEntryeuropean //// ffff European
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry
 // alphabet/letter_e/en_entry_.dart' show EnglishEntry

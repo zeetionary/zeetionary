@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryestimation extends StatefulWidget {
-  const EnglishEntryestimation({super.key});
+class EnglishEntryethically extends StatefulWidget {
+  const EnglishEntryethically({super.key});
 
   @override
-  State<EnglishEntryestimation> createState() => _EnglishEntryestimationState();
+  State<EnglishEntryethically> createState() => _EnglishEntryethicallyState();
 }
 
-class _EnglishEntryestimationState extends State<EnglishEntryestimation> {
+class _EnglishEntryethicallyState extends State<EnglishEntryethically> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryestimationState extends State<EnglishEntryestimation> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""estimation""");
+    await flutterTts.speak("""ethically""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryestimationState extends State<EnglishEntryestimation> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """estimation""",
-                      // alsoEnglishWord: "also: estimation",
-                      britshText: """IpaUK: /ˌestɪˈmeɪʃn/""",
-                      americanText: """IpaUS: /ˌestɪˈmeɪʃn/""",
+                      word: """ethically""",
+                      // alsoEnglishWord: "also: ethically",
+                      britshText: """IpaUK: /ˈeθɪkli/""",
+                      americanText: """IpaUS: /ˈeθɪkli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "estimation";
+  final String keyword = "ethically";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,35 +238,36 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""Who is the best candidate in your estimation?""");
+        .speak("""Doctors felt ethically obliged to continue the treatment.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Since he left his wife he's certainly gone down in my estimation.""");
+    await flutterTts
+        .speak("""The committee judged that he had not behaved ethically.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She went up in my estimation when I discovered how much charity work she does.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""In my estimation, you've done a good job.""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Estimations of our total world sales are around 50 million.""");
+    await flutterTts.speak("""speaksentence500""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "estimation", please follow LX instructions
+// With short examples define "ethically", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,22 +874,28 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بۆچوون، ڕا، دیتن،	نرخاندن، هەڵسەنگاندن، لێکدانەوە، مەزندە(کردن)، قەبڵاندن، قرساندن،	ڕێز، ڕوومەت، باوەڕی، وەج، ڕوومەت، قەدر، قەدرگرتن، ڕێزگرتن
+کوردی: لەباری ئاکاری‌یەوە، لەباری ئەخلاقی‌یەوە
 """),
-          const DefinitionKurdish(text: """١. (ناو) بڕیاردان یان دەربڕینی بۆچوون سەبارەت بە کوالێتی شتێک"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵکار) بەشێوەیەک کە لەگەڵ باوەڕ و بنچینەکانت دەگونجێت"""),
           SentencesRow(
             englishText:
-                """Who is the best candidate in your estimation?""",
-            kurdishText: """باشترین بەربژێر بە بۆچوونی تۆ کێیە؟""",
+                """Doctors felt ethically obliged to continue the treatment.""",
+            kurdishText:
+                """پزیشکان لە لایەنی ئەخلاقییەوە ناچار بوون چارەسەرەکە بەردەوامی پێ‌بدەن.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ھاوەڵکار) بەشێوەی ئەخلاقییانە و پەسەندکراو"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Since he left his wife he's certainly gone down in my estimation (= I have less respect for him).""",
-            kurdishText: """لەوەتەی ژنەکەی جێهێشتووە لام بەهای نەماوە.""",
+            englishText:
+                """The committee judged that he had not behaved ethically.""",
+            kurdishText:
+                """لیژنەکە بڕیاری دا کە ئەو بە ئەخلاقییانە ڕەفتاری نەکردبوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +903,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She went up in my estimation (= I have more respect for her) when I discovered how much charity work she does.""",
-            kurdishText: """لام ڕێزی زیاتر بووە کە زانیومە چەندە کاری خێرخوازی دەکات.""",
+            englishText: """speaksentence300""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -905,17 +912,17 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """In my estimation, you've done a good job.""",
-            kurdishText: """بە بۆچوونم، کارێکی باشت کردووە.""",
+            englishText: """speaksentence400""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) بڕیاردان لە ئاست یان بڕی شتێک"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Estimations of our total world sales are around 50 million.""",
-            kurdishText: """خەمڵاندنی فرۆشی تەواوی جیهانیمان نزیکەی ٥٠ ملیۆنە.""",
+            englishText: """speaksentence500""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -1671,17 +1678,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: estimation (Derived forms: estimations)
-1. A document appraising the value of something (as for insurance or taxation) (= appraisal, estimate)
- 
-2. The respect with which a person is held (= estimate)
-"they had a high estimation of his ability";
- 
-3. An approximate calculation of quantity, degree or worth (= estimate, approximation, idea)
-"an estimation of what it would cost";
- 
-4. A judgment of the qualities of something or somebody (= estimate)
-"in my estimation the boy is innocent";
+- Adverb: ethically
+1. In an ethical manner; from an ethical point of view; according to ethics
+"he behaved ethically"; "this is ethically unacceptable"
 """,
   );
 
@@ -1706,18 +1705,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/0ST4_hmop9Y?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 1837;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/-BeTq99LqUo?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 592;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/GVsUOuSjvcg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 931;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/JHjXwicEwQo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 364;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/cykdSb7xqI4?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 147;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/DNhnboOpX8k?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 7;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/hS2emKDlGmE?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 219;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dGpJRvawgNI?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 741;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/EmT0i0xG6zg?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 2109;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/Jfvg3CS1X3A?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 121;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/dq1GYExFd_4?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 295;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/N3idyCo4hSw?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 179;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

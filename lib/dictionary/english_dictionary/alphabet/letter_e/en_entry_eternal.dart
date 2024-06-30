@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryestimation extends StatefulWidget {
-  const EnglishEntryestimation({super.key});
+class EnglishEntryeternal extends StatefulWidget {
+  const EnglishEntryeternal({super.key});
 
   @override
-  State<EnglishEntryestimation> createState() => _EnglishEntryestimationState();
+  State<EnglishEntryeternal> createState() => _EnglishEntryeternalState();
 }
 
-class _EnglishEntryestimationState extends State<EnglishEntryestimation> {
+class _EnglishEntryeternalState extends State<EnglishEntryeternal> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryestimationState extends State<EnglishEntryestimation> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""estimation""");
+    await flutterTts.speak("""eternal""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryestimationState extends State<EnglishEntryestimation> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """estimation""",
-                      // alsoEnglishWord: "also: estimation",
-                      britshText: """IpaUK: /ˌestɪˈmeɪʃn/""",
-                      americanText: """IpaUS: /ˌestɪˈmeɪʃn/""",
+                      word: """eternal""",
+                      // alsoEnglishWord: "also: eternal",
+                      britshText: """IpaUK: /ɪˈtɜːnl/""",
+                      americanText: """IpaUS: /ɪˈtɜːrnl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "estimation";
+  final String keyword = "eternal";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,43 +237,43 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Who is the best candidate in your estimation?""");
+    await flutterTts.speak("""She's an eternal optimist.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Since he left his wife he's certainly gone down in my estimation.""");
+    await flutterTts.speak("""You have my eternal gratitude.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She went up in my estimation when I discovered how much charity work she does.""");
+    await flutterTts.speak("""The price of freedom is eternal vigilance.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""In my estimation, you've done a good job.""");
+    await flutterTts.speak("""The two heroes swore eternal friendship.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Estimations of our total world sales are around 50 million.""");
+    await flutterTts.speak(
+        """The universe was about to be plunged again into eternal darkness.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""I'm tired of your eternal arguments.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "estimation", please follow LX instructions
+// With short examples define "eternal", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +873,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بۆچوون، ڕا، دیتن،	نرخاندن، هەڵسەنگاندن، لێکدانەوە، مەزندە(کردن)، قەبڵاندن، قرساندن،	ڕێز، ڕوومەت، باوەڕی، وەج، ڕوومەت، قەدر، قەدرگرتن، ڕێزگرتن
+کوردی: بێ‌سەرەتا و کۆتایی، ئەزەلی و ئەبەدی، هەمیشەیی، (هە)تاهەتایی، هەتایی، تاسەر، نەمر، جاوید، هەرمان، ناکۆتایی، ژیانی پاش مەرگ (ی لەش)، نەفەوتاو، نەگۆڕ، جێگیر،	یەکبینە، لەسەریەک، یەکڕیز، بێ‌پسانەوە
 """),
-          const DefinitionKurdish(text: """١. (ناو) بڕیاردان یان دەربڕینی بۆچوون سەبارەت بە کوالێتی شتێک"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) بە بێ کۆتایی"""),
           SentencesRow(
             englishText:
-                """Who is the best candidate in your estimation?""",
-            kurdishText: """باشترین بەربژێر بە بۆچوونی تۆ کێیە؟""",
+                """She's an eternal optimist (= she always expects that the best will happen).""",
+            kurdishText: """گەشبینێکی بەردەوامە.""",
+            kurdishNote: "بەردەوام گەشبینە",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +888,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Since he left his wife he's certainly gone down in my estimation (= I have less respect for him).""",
-            kurdishText: """لەوەتەی ژنەکەی جێهێشتووە لام بەهای نەماوە.""",
+            englishText:
+                """You have my eternal gratitude (= very great gratitude).""",
+            kurdishText: """قەدری هەمیشەییت لام هەیە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +898,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She went up in my estimation (= I have more respect for her) when I discovered how much charity work she does.""",
-            kurdishText: """لام ڕێزی زیاتر بووە کە زانیومە چەندە کاری خێرخوازی دەکات.""",
+            englishText: """The price of freedom is eternal vigilance.""",
+            kurdishText: """نرخی ئازادیی چاوکراوەیی هەمیشەییە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -905,26 +907,31 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """In my estimation, you've done a good job.""",
-            kurdishText: """بە بۆچوونم، کارێکی باشت کردووە.""",
+            englishText: """The two heroes swore eternal friendship.""",
+            kurdishText:
+                """دوو هاوڕێیەکە سوێندی هاوڕێیەتیی هەمیشەییان خوارد.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) بڕیاردان لە ئاست یان بڕی شتێک"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """Estimations of our total world sales are around 50 million.""",
-            kurdishText: """خەمڵاندنی فرۆشی تەواوی جیهانیمان نزیکەی ٥٠ ملیۆنە.""",
-            onPressedBritish: () => speaksentence5("en-GB"),
-            onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The universe was about to be plunged again into eternal darkness.""",
+            kurdishText:
+                """گەردوون خەریک بوو دووبارە بکەوێتە ناو تاریکی هەمیشەیی.""",
+            onPressedBritish: () => speaksentence5("en-GB"),
+            onPressedAmerican: () => speaksentence5("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ھاوەڵناو) کە بەردەوام ڕوودەدات و وەها دەرناکەوێت کە بوەستێت"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """I'm tired of your eternal arguments.""",
+            kurdishText: """بێزارم لە مشتومڕی بەردەوامت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -1671,17 +1678,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: estimation (Derived forms: estimations)
-1. A document appraising the value of something (as for insurance or taxation) (= appraisal, estimate)
+- Adjective: eternal
+1. Continuing forever or indefinitely (= ageless, aeonian, eonian [N. Amer], everlasting, perpetual, unending, unceasing, eviternal [archaic])
+"eternal truths";
  
-2. The respect with which a person is held (= estimate)
-"they had a high estimation of his ability";
- 
-3. An approximate calculation of quantity, degree or worth (= estimate, approximation, idea)
-"an estimation of what it would cost";
- 
-4. A judgment of the qualities of something or somebody (= estimate)
-"in my estimation the boy is innocent";
+2. Tiresomely long; seemingly without end (= endless, interminable, unending)
+"the wait seemed eternal"; "eternal quarrelling";
 """,
   );
 
@@ -1706,18 +1708,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/0ST4_hmop9Y?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 1837;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/-BeTq99LqUo?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 592;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/GVsUOuSjvcg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 931;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/JHjXwicEwQo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 364;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/cykdSb7xqI4?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 147;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/DNhnboOpX8k?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 7;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/mZr1nbACmGc?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 101;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/uqJKryP1-8M?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 18;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/JR3z8lq2cNM?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 34;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/Lp5uh6ztGJo?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 92;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/6DYgImG1CKo?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 154;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/wJa5Ch0O4BI?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 3873;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

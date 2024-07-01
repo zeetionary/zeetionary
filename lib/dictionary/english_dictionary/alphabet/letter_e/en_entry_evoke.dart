@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryeuthanasia extends StatefulWidget {
-  const EnglishEntryeuthanasia({super.key});
+class EnglishEntryevoke extends StatefulWidget {
+  const EnglishEntryevoke({super.key});
 
   @override
-  State<EnglishEntryeuthanasia> createState() => _EnglishEntryeuthanasiaState();
+  State<EnglishEntryevoke> createState() => _EnglishEntryevokeState();
 }
 
-class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
+class _EnglishEntryevokeState extends State<EnglishEntryevoke> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""euthanasia""");
+    await flutterTts.speak("""evoke""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """euthanasia""",
-                      // alsoEnglishWord: "also: euthanasia",
-                      britshText: """IpaUK: /ˌjuːθəˈneɪziə/""",
-                      americanText: """IpaUS: /ˌjuːθəˈneɪʒə/""",
+                      word: """evoke""",
+                      // alsoEnglishWord: "also: evoke",
+                      britshText: """IpaUK: /ɪˈvəʊk/""",
+                      americanText: """IpaUS: /ɪˈvəʊk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "euthanasia";
+  final String keyword = "evoke";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,15 +237,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They argued in favour of legalizing voluntary euthanasia.""");
+    await flutterTts.speak("""The music evoked memories of her youth.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""His case is unlikely to evoke public sympathy.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "euthanasia", please follow LX instructions
+// With short examples define "evoke", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -872,17 +872,15 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: هوومەرگی، هووکوژی، باش‌کوژی، ئاسان‌کوژی، بێ‌ژان‌کوژی
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کوشتنی کەسێک یان ئاژەڵێک بەبێ ئازار کە تووشبووی نەخۆشییەکە کە چارەسەری نییە. ئەم جۆرە کوشتنە بۆ مرۆڤ لە زۆر وڵات نایاساییە"""),
+                  """١. (کردار) درووستکردنی هەستیک، یادەوەرییەک، یان خەیاڵێک لە مێشکدا"""),
           SentencesRow(
-            englishText:
-                """They argued in favour of legalizing voluntary euthanasia (= people being able to ask for euthanasia themselves).""",
-            kurdishText:
-                """لەبەرژەوەندی بەیاسایی کردنی دەرزی‌کوژی مشتومڕیان دەکرد.""",
+            englishText: """The music evoked memories of her youth.""",
+            kurdishText: """میوزیکەکە یادەوەریی گەنجی درووست دەکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -890,8 +888,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """His case is unlikely to evoke public sympathy.""",
+            kurdishText: """کەیسەکەی ئەگەری کەمە هاوخەمی درووست بکات.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1674,8 +1672,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: euthanasia (Derived forms: euthanasias)
-1. The act of killing someone painlessly (especially someone suffering from an incurable illness) (= mercy killing)
+- Verb: evoke (Derived forms: evoked, evoking, evokes)
+1. Call forth (emotions, feelings, and responses) (= arouse, elicit, enkindle [literary], kindle, fire, raise, provoke)
+"evoke sympathy";
+ 
+2. Make appear or occur (= provoke, call forth, kick up [informal])
+"Her behaviour evoked a quarrel between the couple";
+ 
+3. Deduce (a principle) or construe (a meaning) (= educe [formal], elicit, extract, draw out)
+"We evoked some interesting linguistic data from the native informant";
+ 
+4. Summon into action or bring into existence, often as if by magic (= raise, conjure, conjure up, invoke, stir, call down, arouse, bring up, put forward, call forth)
+"evoke the spectre of unemployment";
+ 
+5. Call to mind (= suggest, paint a picture)
+"this remark evoked sadness";
 """,
   );
 
@@ -1700,18 +1711,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QQyup6ZFsvA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 15;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dWreZhWnmbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 410;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/YC_PXwvGmRk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 260;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/QDfQIDzjZac?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 561;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/h_mmvxPUnaI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 276;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7R7jNWHp0D0?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 199;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/b_rjBWmc1iQ?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 5381;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/1Gxrwh4zGPg?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 398;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/I6vs3jsUCXA?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 32;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/1lTYPvArbGo?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 152;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/SwQhKFMxmDY?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 2918;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/tExo3ovEBWQ?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 91;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

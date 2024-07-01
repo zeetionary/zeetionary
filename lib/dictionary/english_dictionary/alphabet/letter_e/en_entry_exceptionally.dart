@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryeuthanasia extends StatefulWidget {
-  const EnglishEntryeuthanasia({super.key});
+class EnglishEntryexceptionally extends StatefulWidget {
+  const EnglishEntryexceptionally({super.key});
 
   @override
-  State<EnglishEntryeuthanasia> createState() => _EnglishEntryeuthanasiaState();
+  State<EnglishEntryexceptionally> createState() =>
+      _EnglishEntryexceptionallyState();
 }
 
-class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
+class _EnglishEntryexceptionallyState extends State<EnglishEntryexceptionally> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""euthanasia""");
+    await flutterTts.speak("""exceptionally""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """euthanasia""",
-                      // alsoEnglishWord: "also: euthanasia",
-                      britshText: """IpaUK: /ˌjuːθəˈneɪziə/""",
-                      americanText: """IpaUS: /ˌjuːθəˈneɪʒə/""",
+                      word: """exceptionally""",
+                      // alsoEnglishWord: "also: exceptionally",
+                      britshText: """IpaUK: /ɪkˈsepʃənəli/""",
+                      americanText: """IpaUS: /ɪkˈsepʃənəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "euthanasia";
+  final String keyword = "exceptionally";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,28 +239,29 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""They argued in favour of legalizing voluntary euthanasia.""");
+        .speak("""The weather, even for January, was exceptionally cold.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I thought Bill played exceptionally well.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""There was an exceptionally high tide.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Exceptionally, students may be accepted without formal qualifications.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -864,7 +866,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "euthanasia", please follow LX instructions
+// With short examples define "exceptionally", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -872,17 +874,17 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: هوومەرگی، هووکوژی، باش‌کوژی، ئاسان‌کوژی، بێ‌ژان‌کوژی
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی: بە شێوەیەکی ئاوارتە یان هەڵاوارتە، نائاسایی‌یانە
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کوشتنی کەسێک یان ئاژەڵێک بەبێ ئازار کە تووشبووی نەخۆشییەکە کە چارەسەری نییە. ئەم جۆرە کوشتنە بۆ مرۆڤ لە زۆر وڵات نایاساییە"""),
+                  """١. (ھاوەڵکار) لە پێش هاوەڵناو یان هاوەڵکار بەکاردێت بۆ جەختکردنەوە"""),
           SentencesRow(
             englishText:
-                """They argued in favour of legalizing voluntary euthanasia (= people being able to ask for euthanasia themselves).""",
+                """The weather, even for January, was exceptionally cold.""",
             kurdishText:
-                """لەبەرژەوەندی بەیاسایی کردنی دەرزی‌کوژی مشتومڕیان دەکرد.""",
+                """کەشوهەواکە، تەنانەت بۆ کانوونی دووەمیش، تەواو سارد بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -890,8 +892,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I thought Bill played exceptionally well.""",
+            kurdishText: """پێم وابوو بیڵ تەواو باش یاری کرد.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -899,17 +901,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """There was an exceptionally high tide.""",
+            kurdishText: """شەپۆلێکی تەواو بەرز هەبوو.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ھاوەڵکار) تەنها لە دۆخی جیاوازدا"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Exceptionally, students may be accepted without formal qualifications.""",
+            kurdishText:
+                """لە دۆخی تایبەتدا، خوێندکاران ڕەنگە بەبێ بڕوانامە وەربگیردرێن.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -1674,8 +1679,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: euthanasia (Derived forms: euthanasias)
-1. The act of killing someone painlessly (especially someone suffering from an incurable illness) (= mercy killing)
+- Adverb: exceptionally
+1. To an exceptional degree
+"it worked exceptionally well"
 """,
   );
 
@@ -1700,18 +1706,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QQyup6ZFsvA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 15;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dWreZhWnmbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 410;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/YC_PXwvGmRk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 260;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/QDfQIDzjZac?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 561;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/h_mmvxPUnaI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 276;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7R7jNWHp0D0?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 199;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/gjySnrspD7E?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 2066;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/SwQhKFMxmDY?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 5221;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/t5k7feqZUD0?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 404;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/zUrDUxh5xS0?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 533;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/HgvqxRqZybw?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 208;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/l9LpRpgnyqc?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 1643;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

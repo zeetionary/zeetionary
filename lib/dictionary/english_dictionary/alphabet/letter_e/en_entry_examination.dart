@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryeuthanasia extends StatefulWidget {
-  const EnglishEntryeuthanasia({super.key});
+class EnglishEntryexamination extends StatefulWidget {
+  const EnglishEntryexamination({super.key});
 
   @override
-  State<EnglishEntryeuthanasia> createState() => _EnglishEntryeuthanasiaState();
+  State<EnglishEntryexamination> createState() =>
+      _EnglishEntryexaminationState();
 }
 
-class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
+class _EnglishEntryexaminationState extends State<EnglishEntryexamination> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""euthanasia""");
+    await flutterTts.speak("""examination""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """euthanasia""",
-                      // alsoEnglishWord: "also: euthanasia",
-                      britshText: """IpaUK: /ˌjuːθəˈneɪziə/""",
-                      americanText: """IpaUS: /ˌjuːθəˈneɪʒə/""",
+                      word: """examination""",
+                      // alsoEnglishWord: "also: examination",
+                      britshText: """IpaUK: /ɪɡˌzæmɪˈneɪʃn/""",
+                      americanText: """IpaUS: /ɪɡˌzæmɪˈneɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "euthanasia";
+  final String keyword = "examination";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,85 +238,91 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They argued in favour of legalizing voluntary euthanasia.""");
+    await flutterTts.speak(
+        """Applicants are selected for jobs on the results of a competitive examination.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He failed his examination in history.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He has just completed his final examinations at London University.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """One of the teacher's principal duties is to prepare students for external examinations.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Students may enter for both examinations.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""The issue needs further examination.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """After a thorough examination, they announced that the suspicious device was harmless.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak(
+        """On closer examination it was found that the signature was not genuine.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""Regular breast examination is advised.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak(
+        """A specialist should carry out an examination of the patient.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts
+        .speak("""I was advised to have a full eyesight examination.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak("""We did examinations on the bodies.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
@@ -864,7 +871,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "euthanasia", please follow LX instructions
+// With short examples define "examination", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,16 +880,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هوومەرگی، هووکوژی، باش‌کوژی، ئاسان‌کوژی، بێ‌ژان‌کوژی
+کوردی: تاقی‌کاری، تاقی‌کردنەوە، ئازمایشت، ئاروین، لێک‌دانەوە،	(پزشکی) تێ‌ڕوانین یان لێ‌ڕوانین،	لێکۆڵینەوە، پەیجۆڕی، ڤەکۆلین،	لێ‌پڕسینەوە
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) کوشتنی کەسێک یان ئاژەڵێک بەبێ ئازار کە تووشبووی نەخۆشییەکە کە چارەسەری نییە. ئەم جۆرە کوشتنە بۆ مرۆڤ لە زۆر وڵات نایاساییە"""),
+              text: """١. (ناو) تاقیکردنەوەیەکی نووسراو یان بە گفتوگۆ"""),
           SentencesRow(
             englishText:
-                """They argued in favour of legalizing voluntary euthanasia (= people being able to ask for euthanasia themselves).""",
+                """Applicants are selected for jobs on the results of a competitive examination.""",
             kurdishText:
-                """لەبەرژەوەندی بەیاسایی کردنی دەرزی‌کوژی مشتومڕیان دەکرد.""",
+                """داخوازانای کارەکە دیاری دەکرێن بەپێی ئەنجامی تاقیکردنەوەی ڕکابەرییانە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -890,8 +896,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """He failed his examination in history.""",
+            kurdishText: """لە تاقیکردنەوەی مێژوو شکستی هێنا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -899,8 +905,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """He has just completed his final examinations at London University.""",
+            kurdishText:
+                """تازە کۆتا تاقیکردنەوەی لە زانکۆی لەندەن تەواو کردووە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -908,8 +916,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """One of the teacher's principal duties is to prepare students for external examinations.""",
+            kurdishText:
+                """یەکێک لە ئەرکە سەرەکییەکانی مامۆستا ئامادەکردنی خوێندکارە بۆ تاقیکردنەوەی دەرەکی.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -917,17 +927,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Students may enter for both examinations.""",
+            kurdishText:
+                """خوێندکاران دەکرێت بەژادری هەردوو تاقیکردنەوە بکەن.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ناو) لێکۆڵینەوە لە شتێک بە وردی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The issue needs further examination.""",
+            kurdishText: """بابەتەکە پێویستیی بە لێکۆڵینەوەی زیاترە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -935,8 +947,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """After a thorough examination, they announced that the suspicious device was harmless.""",
+            kurdishText:
+                """لە دوای لێکۆڵینەوەیەکی ورد، ئەوەیان ڕاگەیاند کە ئامێرە گوماناوییەکە بێ‌زیان بوو.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -944,17 +958,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """On closer examination it was found that the signature was not genuine.""",
+            kurdishText:
+                """لەگەڵ لێکۆڵینەوەی زیاتر، ئەوە زانرا کە واژۆکە ڕاستەقینە نەبوو.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ناو) پشکنینی کەسێک/شتێک بۆ دۆزینەوەی هەر کێشەیەک کە هەبێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Regular breast examination is advised.""",
+            kurdishText: """پشکنینی بەردەوامی مەمک پێشنیارکراوە.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -962,8 +980,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_1000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """A specialist should carry out an examination of the patient.""",
+            kurdishText: """پسپۆڕێک دەبێت پشکنینی نەخۆشەکە بکات.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -971,8 +990,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """I was advised to have a full eyesight examination.""",
+            kurdishText: """پێشنیارم بۆ کرا کە پشکنینی تەواوەکی چاو بکەم.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -980,8 +1000,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We did examinations on the bodies.""",
+            kurdishText: """پشکنینی تەرمەکانمان کرد.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -1674,8 +1694,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: euthanasia (Derived forms: euthanasias)
-1. The act of killing someone painlessly (especially someone suffering from an incurable illness) (= mercy killing)
+- Noun: examination (Derived forms: examinations)
+1. The act of examining something closely (as for mistakes) (= scrutiny)
+ 
+2. A set of questions or exercises evaluating skill or knowledge (= exam, test)
+"when the examination was stolen the professor had to make a new set of questions";
+ 
+3. Formal systematic questioning (= interrogation, interrogatory)
+ 
+4. A detailed inspection of your conscience (as done daily by Jesuits) (= examen)
+ 
+5. The act of giving students or candidates a test (as by questions) to determine what they know or have learned (= testing)
+ 
+6. A thorough physical examination; includes a variety of tests depending on the age and sex and health of the person (= checkup, medical checkup, medical examination, medical exam, medical, health check)
 """,
   );
 
@@ -1700,18 +1731,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QQyup6ZFsvA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 15;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dWreZhWnmbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 410;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/YC_PXwvGmRk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 260;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/QDfQIDzjZac?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 561;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/h_mmvxPUnaI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 276;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7R7jNWHp0D0?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 199;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/kTaYet07Ioo?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 698;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/HAnw168huqA?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 3137;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/wJa5Ch0O4BI?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 6753;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/hkO8qXCFYWA?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 345;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/FkKPsLxgpuY?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 702;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/F8kD9VHqOxo?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 79;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

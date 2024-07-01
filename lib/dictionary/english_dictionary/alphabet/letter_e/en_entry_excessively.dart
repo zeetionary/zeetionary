@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryeuthanasia extends StatefulWidget {
-  const EnglishEntryeuthanasia({super.key});
+class EnglishEntryexcessively extends StatefulWidget {
+  const EnglishEntryexcessively({super.key});
 
   @override
-  State<EnglishEntryeuthanasia> createState() => _EnglishEntryeuthanasiaState();
+  State<EnglishEntryexcessively> createState() =>
+      _EnglishEntryexcessivelyState();
 }
 
-class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
+class _EnglishEntryexcessivelyState extends State<EnglishEntryexcessively> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""euthanasia""");
+    await flutterTts.speak("""excessively""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """euthanasia""",
-                      // alsoEnglishWord: "also: euthanasia",
-                      britshText: """IpaUK: /ˌjuːθəˈneɪziə/""",
-                      americanText: """IpaUS: /ˌjuːθəˈneɪʒə/""",
+                      word: """excessively""",
+                      // alsoEnglishWord: "also: excessively",
+                      britshText: """IpaUK: /ɪkˈsesɪvli/""",
+                      americanText: """IpaUS: /ɪkˈsesɪvli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "euthanasia";
+  final String keyword = "excessively";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,7 +239,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""They argued in favour of legalizing voluntary euthanasia.""");
+        .speak("""The country relies excessively on borrowing from abroad.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "euthanasia", please follow LX instructions
+// With short examples define "excessively", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,16 +874,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هوومەرگی، هووکوژی، باش‌کوژی، ئاسان‌کوژی، بێ‌ژان‌کوژی
+کوردی: لە ڕادەبەدەر، خراپ، لە ئەندازبەدەرانە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کوشتنی کەسێک یان ئاژەڵێک بەبێ ئازار کە تووشبووی نەخۆشییەکە کە چارەسەری نییە. ئەم جۆرە کوشتنە بۆ مرۆڤ لە زۆر وڵات نایاساییە"""),
+                  """١. (ھاوەڵکار) بە ئاستێکی زیاتر لەوەی پێویست یان گونجاوە"""),
           SentencesRow(
             englishText:
-                """They argued in favour of legalizing voluntary euthanasia (= people being able to ask for euthanasia themselves).""",
+                """The country relies excessively on borrowing from abroad.""",
             kurdishText:
-                """لەبەرژەوەندی بەیاسایی کردنی دەرزی‌کوژی مشتومڕیان دەکرد.""",
+                """وڵاتەکە بە ئاستێکی زۆر پشت دەبەستێت بە قەرزی دەرەکی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -1674,8 +1675,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: euthanasia (Derived forms: euthanasias)
-1. The act of killing someone painlessly (especially someone suffering from an incurable illness) (= mercy killing)
+- Adverb: excessively
+1. To a degree exceeding normal or proper limits (= overly, to a fault, too)
+"excessively big";
 """,
   );
 
@@ -1700,18 +1702,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QQyup6ZFsvA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 15;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dWreZhWnmbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 410;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/YC_PXwvGmRk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 260;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/QDfQIDzjZac?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 561;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/h_mmvxPUnaI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 276;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7R7jNWHp0D0?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 199;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/LMIu4fqi8jI?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 198;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/lex6USTugUU?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 647;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/PcUnoFCxmsw?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 182;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/XeHl5Y7m1xM?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 102;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/9HabyEoLBGs?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 280;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/zwZY-PknSQw?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 591;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

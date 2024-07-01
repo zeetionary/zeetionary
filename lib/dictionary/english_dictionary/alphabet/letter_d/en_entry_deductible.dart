@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
@@ -264,35 +265,14 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeductibles2("en-GB"),
             onPressedAmerican: () => speakdeductibles2("en-US"),
           ),
-          // skipped_meaning
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ناو) ئەو بەشەی بیمە کە کەسێک دەیدات لە کاتێکدا کۆمپانیا بەشەکەی دیکەی دەدات"),
-          // Row(
-          // children: [
-          // const Expanded(
-          // child: Column(
-          // children: [
-          // ExampleSentenceEnglish(
-          // text:
-          // "Customers can lower insurance premiums by taking higher deductibles."),
-          // ExampleSentenceKurdish(
-          // text: "رستە_رستە_رستە_رستە."),
-          // ],
-          // ),
-          // ),
-          // const CustomSizedBoxForTTS(),
-          // Column(
-          // children: [
-          // CustomIconButtonBritish(
-          // onPressed: () => speakdeductibles3("en-GB"),
-          // ),
-          // CustomIconButtonAmerican(
-          // onPressed: () => speakdeductibles3("en-US"),
-          // ),
-          // ],
-          // ),
-          // ],
-          // ),
+          CustomRichText(
+            textBeforeLink: "٢. بڕوانە لە ",
+            linkText: "excess",
+            textAfterLink: "",
+            onTap: () {
+              Routemaster.of(context).push("/english-excess/deductible");
+            },
+          ),
         ],
       ),
     );

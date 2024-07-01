@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryeuthanasia extends StatefulWidget {
-  const EnglishEntryeuthanasia({super.key});
+class EnglishEntryevolution extends StatefulWidget {
+  const EnglishEntryevolution({super.key});
 
   @override
-  State<EnglishEntryeuthanasia> createState() => _EnglishEntryeuthanasiaState();
+  State<EnglishEntryevolution> createState() => _EnglishEntryevolutionState();
 }
 
-class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
+class _EnglishEntryevolutionState extends State<EnglishEntryevolution> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""euthanasia""");
+    await flutterTts.speak("""evolution""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """euthanasia""",
-                      // alsoEnglishWord: "also: euthanasia",
-                      britshText: """IpaUK: /ˌjuːθəˈneɪziə/""",
-                      americanText: """IpaUS: /ˌjuːθəˈneɪʒə/""",
+                      word: """evolution""",
+                      // alsoEnglishWord: "also: evolution",
+                      britshText: """IpaUK: /ˌiːvəˈluːʃn/,  /ˌevəˈluːʃn/""",
+                      americanText: """IpaUS: /ˌevəˈluːʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "euthanasia";
+  final String keyword = "evolution";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,43 +237,48 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They argued in favour of legalizing voluntary euthanasia.""");
+    await flutterTts.speak(
+        """Finally it was legal to teach evolution everywhere in America.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Evolution requires intermediate forms between species.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Religious traditionalists objected to theories of evolution being taught in schools.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The new telescope has helped us to understand more about the evolution of the universe.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """This product was an extremely significant step in the evolution of computer games.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""The movement is undergoing an ideological evolution.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -864,7 +869,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "euthanasia", please follow LX instructions
+// With short examples define "evolution", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,16 +878,18 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هوومەرگی، هووکوژی، باش‌کوژی، ئاسان‌کوژی، بێ‌ژان‌کوژی
+کوردی: گەشە(سەندن)، پەرەسەندنی بەرەبەرەیی، گووران،	گۆڕان‌کاری، گۆڕان، گۆڕانی شێوە، هەڵدان، ڕسکان، پێشڤەچوون، ، پێشوەچوون، پێشکەوتن،	(بیرکاری) دەرهێنانی ڕەگ، ڕەگ‌دەرکێشی، ڕەگ‌دۆزی،	(سەما یان مانۆڤر) بادان، سووڕان، سوور، خول، کار، جووڵان، کردار
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کوشتنی کەسێک یان ئاژەڵێک بەبێ ئازار کە تووشبووی نەخۆشییەکە کە چارەسەری نییە. ئەم جۆرە کوشتنە بۆ مرۆڤ لە زۆر وڵات نایاساییە"""),
+                  """١. (ناو) گەشەی هێواشی مرۆڤ، ڕووەک، ئاژەڵ، هتد لە ماوەی مێژووی زەویدا، کە خۆدەگونجێنن لەگەڵ ژینگەدا"""),
           SentencesRow(
             englishText:
-                """They argued in favour of legalizing voluntary euthanasia (= people being able to ask for euthanasia themselves).""",
+                """Finally it was legal to teach evolution everywhere in America.""",
             kurdishText:
-                """لەبەرژەوەندی بەیاسایی کردنی دەرزی‌کوژی مشتومڕیان دەکرد.""",
+                """لە کۆتاییدا ئەوە لە تەواوی ئەمریکا یاسایی کە پەرەسەندن بخوێندرێت.""",
+            englishNote:
+                "The landmark Supreme Court case Epperson v. Arkansas in 1968 ruled that banning the teaching of evolution in public schools was unconstitutional. This decision marked a significant step in making it legal to teach evolution across America.",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -890,8 +897,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Evolution requires intermediate forms between species.""",
+            kurdishText:
+                """پەرەسەندن پێویستیی بە شێوەی ناوەند هەیە بۆ چەشنەکان.""",
+            kurdishNote:
+                "واتا بۆ ئەوەی پەرەسەندن ڕووبدات، دەبێت ژمارەیەک قۆناغی ناوەندی هەبن کە وابکەن گۆڕانکارییەکان هێواش لە چەشنێکەوە بۆ چەشنێکی دیکە بە تێپەڕبوونی کات، بۆ نموونە لە نێوان ئەو ئاژەڵەی باوانی مرۆڤ بووە و خودی مرۆڤ جۆری دیکە هەیە کە وەک چەشنی هاوبەش کار دەکەن، واتا لە هەندێک لایەنەوە لە مرۆڤ دەکەن و لە هەندێک لایەنەوە لەو ئاژەڵەی باوانی مرۆڤ بووە.",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -899,17 +910,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Religious traditionalists objected to theories of evolution being taught in schools.""",
+            kurdishText:
+                """کۆنەپەرستە ئاینییەکان دژ بەوە بوون کە پەرەسەندن لە خوێندنگەکان بگوترێتەوە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """٢. (ناو) گەشەی هێواشی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The new telescope has helped us to understand more about the evolution of the universe.""",
+            kurdishText:
+                """تەلیسکۆبەکە تازەکە یارمەتیی داوین کە تێبگەین لە پەرەسەندنی گەردوون.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -917,8 +932,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """This product was an extremely significant step in the evolution of computer games.""",
+            kurdishText:
+                """ئەم بەرهەمە تەواو گرنگ بوو لە پەرەسەندنی یاریی کۆمپیوتەری.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -926,8 +943,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The movement is undergoing an ideological evolution.""",
+            kurdishText: """بزووتنەوەکە بە گۆڕانی ئایدیۆلۆژیدا تێدەپەڕێت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -1674,8 +1692,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: euthanasia (Derived forms: euthanasias)
-1. The act of killing someone painlessly (especially someone suffering from an incurable illness) (= mercy killing)
+- Noun: evolution (Derived forms: evolutions)
+1. A process in which something passes by degrees to a different stage (especially a more advanced or mature stage) (= development)
+"the evolution of Greek civilization";
+ 
+2. (biology) the sequence of events involved in the evolutionary development of a species or taxonomic group of organisms (= organic evolution, phylogeny, phylogenesis)
 """,
   );
 
@@ -1700,18 +1721,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QQyup6ZFsvA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 15;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dWreZhWnmbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 410;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/YC_PXwvGmRk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 260;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/QDfQIDzjZac?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 561;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/h_mmvxPUnaI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 276;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7R7jNWHp0D0?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 199;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/R_fZjGm2OrM?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 38;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/pFmtmO2cnlg?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 388;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/DxL2HoqLbyA?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 10;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/mN41M732I_I?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 64;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/DrgR_tSVdLU';
+const double _startSecondsfour = 000000000000000000000000000000; // 0;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/xEJrlQYkuVo?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 46;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

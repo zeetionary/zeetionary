@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryeuthanasia extends StatefulWidget {
-  const EnglishEntryeuthanasia({super.key});
+class EnglishEntryexaggeration extends StatefulWidget {
+  const EnglishEntryexaggeration({super.key});
 
   @override
-  State<EnglishEntryeuthanasia> createState() => _EnglishEntryeuthanasiaState();
+  State<EnglishEntryexaggeration> createState() =>
+      _EnglishEntryexaggerationState();
 }
 
-class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
+class _EnglishEntryexaggerationState extends State<EnglishEntryexaggeration> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""euthanasia""");
+    await flutterTts.speak("""exaggeration""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryeuthanasiaState extends State<EnglishEntryeuthanasia> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """euthanasia""",
-                      // alsoEnglishWord: "also: euthanasia",
-                      britshText: """IpaUK: /ˌjuːθəˈneɪziə/""",
-                      americanText: """IpaUS: /ˌjuːθəˈneɪʒə/""",
+                      word: """exaggeration""",
+                      // alsoEnglishWord: "also: exaggeration",
+                      britshText: """IpaUK: /ɪɡˌzædʒəˈreɪʃn/""",
+                      americanText: """IpaUS: /ɪɡˌzædʒəˈreɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "euthanasia";
+  final String keyword = "exaggeration";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,15 +238,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They argued in favour of legalizing voluntary euthanasia.""");
+    await flutterTts.speak(
+        """It would be an exaggeration to say I knew her well—I only met her twice.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He told his story simply and without exaggeration.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +866,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "euthanasia", please follow LX instructions
+// With short examples define "exaggeration", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,16 +875,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هوومەرگی، هووکوژی، باش‌کوژی، ئاسان‌کوژی، بێ‌ژان‌کوژی
+کوردی: پێوەنان، زێدەبێژی، ئەندازەبەدەری، زێدەڕەوی، پەڕگیری، زێدەگاڤی، لاف، لافاندن
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کوشتنی کەسێک یان ئاژەڵێک بەبێ ئازار کە تووشبووی نەخۆشییەکە کە چارەسەری نییە. ئەم جۆرە کوشتنە بۆ مرۆڤ لە زۆر وڵات نایاساییە"""),
+                  """١. (ناو) باسکردنێک کە شتێک گەورەتر، باشتر، خراپتر، یان گرنگتر لەوەی کە هەیە باس دەکات"""),
           SentencesRow(
             englishText:
-                """They argued in favour of legalizing voluntary euthanasia (= people being able to ask for euthanasia themselves).""",
+                """It would be an exaggeration to say I knew her well—I only met her twice.""",
             kurdishText:
-                """لەبەرژەوەندی بەیاسایی کردنی دەرزی‌کوژی مشتومڕیان دەکرد.""",
+                """ئەوە زیادەڕۆیی دەبێت کە بڵێم بە باشی دەمناسی ـ تەنها دوو جار بینیم.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -890,8 +892,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """He told his story simply and without exaggeration.""",
+            kurdishText: """چیرۆکەکەی بە سادەیی و بەبی زیادەڕۆیی گوت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1674,8 +1677,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: euthanasia (Derived forms: euthanasias)
-1. The act of killing someone painlessly (especially someone suffering from an incurable illness) (= mercy killing)
+- Noun: exaggeration (Derived forms: exaggerations)
+1. Presentation of something as more extreme than it really is, esp. larger, more important, more impressive, etc. (= hyperbole)
+ 
+2. The act of making something more noticeable than usual
+"the dance involved a deliberate exaggeration of his awkwardness"
+ 
+3. Making to seem more important than it really is (= overstatement, magnification)
 """,
   );
 
@@ -1700,18 +1708,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QQyup6ZFsvA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 15;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dWreZhWnmbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 410;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/YC_PXwvGmRk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 260;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/QDfQIDzjZac?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 561;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/h_mmvxPUnaI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 276;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7R7jNWHp0D0?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 199;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/eo62AEDwTKY?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 298;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/jGEYGevx13s?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 614;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/9hv3CcJYMmU?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 632;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/AdZ9kGwqkTM?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 626;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/3bqgDNYcRZc?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 714;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/65vK_gbsgwI?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 52;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

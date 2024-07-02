@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexcite extends StatefulWidget {
-  const EnglishEntryexcite({super.key});
+class EnglishEntryexclude extends StatefulWidget {
+  const EnglishEntryexclude({super.key});
 
   @override
-  State<EnglishEntryexcite> createState() => _EnglishEntryexciteState();
+  State<EnglishEntryexclude> createState() => _EnglishEntryexcludeState();
 }
 
-class _EnglishEntryexciteState extends State<EnglishEntryexcite> {
+class _EnglishEntryexcludeState extends State<EnglishEntryexclude> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexciteState extends State<EnglishEntryexcite> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""excite""");
+    await flutterTts.speak("""exclude""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexciteState extends State<EnglishEntryexcite> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """excite""",
-                      // alsoEnglishWord: "also: excite",
-                      britshText: """IpaUK: /ɪkˈsaɪt/""",
-                      americanText: """IpaUS: /ɪkˈsaɪt/""",
+                      word: """exclude""",
+                      // alsoEnglishWord: "also: exclude",
+                      britshText: """IpaUK: /ɪkˈskluːd/""",
+                      americanText: """IpaUS: /ɪkˈskluːd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "excite";
+  final String keyword = "exclude";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,78 +237,85 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Nothing about my life excites me at present.""");
+    await flutterTts.speak("""Try excluding fat from your diet.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Buses run every hour, Sundays excluded.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The news has certainly excited comment.""");
+    await flutterTts.speak(
+        """The cost of borrowing has been excluded from the inflation figures.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The advertising campaign failed to excite much interest in consumers.""");
+    await flutterTts.speak(
+        """Unlawfully obtained evidence is not automatically excluded from a criminal trial.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""Women are still excluded from some London clubs.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """Concern is growing over the number of children excluded from school.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""She felt excluded by the other girls.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts
+        .speak("""The measure would serve to exclude certain voters.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts
+        .speak("""We should not exclude the possibility of negotiation.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak(
+        """The police have excluded theft as a motive for the murder.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts
+        .speak("""The possibility of error cannot be absolutely excluded.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -864,7 +871,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "excite", please follow LX instructions
+// With short examples define "exclude", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,31 +880,34 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ورووژان، بزواندن، هرووژاندن، بزاوتن
+کوردی: 
 """),
-          const DefinitionKurdish(text: """١. (کردار) واکردنی ئەوەی کەسێک زۆر دڵخۆش، بەجۆش، یان بەحەز بێت، بەتایبەتی سەبارەت بە شتێک کە ڕوودەدات"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (کردار) لەخۆنەگرتنی شتێک لەوەی دەیکەیت یان بیری لێ دەکەیتەوە"""),
           SentencesRow(
-            englishText:
-                """Nothing about my life excites me at present.""",
-            kurdishText: """هیچ شتێک ئێستا لە ژیاندا دڵخۆشم ناکات.""",
+            englishText: """Try excluding fat from your diet.""",
+            kurdishText: """هەوڵ بدە چەوری لە خواردنت دەربکە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (کردار) ئەوەی کە کەسێک دوودڵ و بێزار بکەیت وابکەیت نەتوانێت بحەسێتەوە"""),
+          const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Don't excite yourself (= keep calm).""",
-            kurdishText: """ئارام بە..""",
+            englishText: """Buses run every hour, Sundays excluded.""",
+            kurdishText:
+                """پاسەکان هەموو کاتژمێرێک تێدەپەڕن، جگە لە یەکشەممان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (کردار) ئەوەی وا لە کەسێک بکەیت هەستێکی دیاریکراوی هەبێت یان بەشێوەیەکی دیاریکراو وەڵام بداتەوە"""),
+          const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The news has certainly excited comment (= made people talk about it).""",
-            kurdishText: """هەواڵەکە بەدڵنیاییەوە لێدوانی بەدوای خۆیدا هێناوە.""",
+            englishText:
+                """The cost of borrowing has been excluded from the inflation figures.""",
+            kurdishText: """تێچووی قەرزکردن دەرکراوە لە ئامارەکانی هەڵاوسان.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -905,17 +915,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The advertising campaign failed to excite much interest in consumers.""",
-            kurdishText: """کەمپینی بانگەشەکە شکستی هێنا حەزی زۆر درووست بکات لای کڕیاران.""",
+            englishText:
+                """Unlawfully obtained evidence is not automatically excluded from a criminal trial.""",
+            kurdishText:
+                """بەڵگەی بەنایاسایی بەدەستخراو ڕاستەوخۆ دەرناکرێت لە دانیشتنێکی دادگایی تاوانکاری.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (کردار) ڕێگرتن لە کەسێک لەوەی بچێتە شوێنێکەوە یان بەژداری شتێک بکات"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Women are still excluded from some London clubs.""",
+            kurdishText: """ژنان هێشتا لە چەند یانەیەکی لەندەن بێبەشکراون.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -923,8 +937,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Concern is growing over the number of children excluded from school (= not allowed to attend because of bad behaviour).""",
+            kurdishText:
+                """نیگەرانی گەشە دەکات سەبارەت بە ژمارەی منداڵان کە لە خوێندن بێبەش کراون.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -932,8 +948,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """She felt excluded by the other girls (= they did not let her join in what they were doing).""",
+            kurdishText:
+                """هەستی بە پەراوێزخراوی دەکرد لەلایەن کچانی دیکەوە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -941,17 +959,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The measure would serve to exclude certain voters.""",
+            kurdishText:
+                """ڕێکارەکە بۆ ئەوەیە ژمارەیەک دەنگدەری دیاریکراو بێبەش بکات.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٣. (کردار) بڕیاردانی ئەوەی شتێک ناکرێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """We should not exclude the possibility of negotiation.""",
+            kurdishText: """نابێت ئەگەری دانوستان بسڕنەوە.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -959,8 +981,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_1000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The police have excluded theft as a motive for the murder.""",
+            kurdishText: """پۆلیس دزیکردنی وەک پاڵنەری کوشتنەکە ڕەتکردووە.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -968,8 +991,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The possibility of error cannot be absolutely excluded.""",
+            kurdishText: """ئەگەری هەڵە ناکرێت بە تەواوی پشتگوێ بخرێت.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -1671,28 +1695,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: excite (Derived forms: excited, exciting, excites)
-1. Arouse or elicit a feeling
+- Verb: exclude (Derived forms: excluded, excludes, excluding)
+1. Prevent from being included, considered or accepted (= except, leave out, leave off, omit, take out)
+"The bad results were excluded from the report";
  
-2. Act as a stimulant (= stimulate)
-"The book excited her imagination";
+2. Prevent from entering; shut out (= keep out, shut out, shut)
+"This policy excludes people who have a criminal record from entering the country";
  
-3. Arouse feelings in (= stimulate, stir)
-"excite the audience";
+3. Lack or fail to include
+"The cost for the trip excludes food and beverages"
  
-4. Cause to be agitated, excited, or roused (= agitate, rouse, turn on, charge, commove, charge up)
+4. Disallow membership or entry (= bar, debar)
+"He was excluded from membership in the club";
  
-5. To evoke sexual feelings (= arouse, sex, turn on, wind up)
-"This movie usually excites the male audience";
- 
-6. Excite the feelings or emotions of; disturb the peace of (= stimulate, shake, shake up, stir)
-"These stories excited the community";
- 
-7. Raise to a higher energy level (= energize, energise [Brit])
-"excite the atoms";
- 
-8. Produce a magnetic field in
-"excite the neurons"
+5. Put out or expel from a place (= eject, chuck out, turf out [Brit, informal], boot out [informal], turn out)
+"The unruly student was excluded from the game";
 """,
   );
 
@@ -1717,18 +1734,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/UvjSXBqQe4A?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 297;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/jMw1NAwYDbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 672;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/Kp_kqamkYpw?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 338;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/8HravKAx2HQ?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 198;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/ns4DIpKOGFc?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 114;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/tPLJXHdqEu4?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 172;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/THIGSnMP3io?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 242;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/JX82wa5HkJg?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 246;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/COD9hcTpGWQ?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 438;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/fZaS4WiexCQ?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 1890;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/E37swnRU2fs?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 108;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/yWI61kpFEAA?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 1366;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -390,51 +390,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembryos2("en-GB"),
             onPressedAmerican: () => speakembryos2("en-US"),
           ),
-          // embryos300embryos3
-          // speakembryos3
-          // embryos400embryos4
-          // speakembryos4
-          // embryos500embryos5
-          // speakembryos5
-          // embryos600embryos6
-          // speakembryos6
-          // embryos700embryos7
-          // speakembryos7
-          // embryos800embryos8
-          // speakembryos8
-          // embryos900embryos9
-          // speakembryos9
-          // embryos_1000embryos10
-          // speakembryos10
-          // embryos1100embryos11
-          // speakembryos11
-          // embryos1200embryos12
-          // speakembryos12
-          // embryos1300embryos13
-          // speakembryos13
-          // embryos1400embryos14
-          // speakembryos14
-          // embryos1500embryos15
-          // speakembryos15
-          // embryos1600embryos16
-          // speakembryos16
-          // embryos1700embryos17
-          // speakembryos17
-          // embryos1800embryos18
-          // speakembryos18
-          // embryos1900embryos19
-          // speakembryos19
-          // embryos_2000embryos20
-          // speakembryos20
-          // embryos2100embryos21
-          // speakembryos21
-          // embryos2200embryos22
-          // speakembryos22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
         ],
       ),
     );

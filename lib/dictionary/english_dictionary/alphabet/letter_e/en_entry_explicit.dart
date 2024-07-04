@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexplanatory extends StatefulWidget {
-  const EnglishEntryexplanatory({super.key});
+class EnglishEntryexplicit extends StatefulWidget {
+  const EnglishEntryexplicit({super.key});
 
   @override
-  State<EnglishEntryexplanatory> createState() =>
-      _EnglishEntryexplanatoryState();
+  State<EnglishEntryexplicit> createState() => _EnglishEntryexplicitState();
 }
 
-class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
+class _EnglishEntryexplicitState extends State<EnglishEntryexplicit> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""explanatory""");
+    await flutterTts.speak("""explicit""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """explanatory""",
-                      // alsoEnglishWord: "also: explanatory",
-                      britshText: """IpaUK: /ɪkˈsplænətri/""",
-                      americanText: """IpaUS: /ɪkˈsplænətɔːri/""",
+                      word: """explicit""",
+                      // alsoEnglishWord: "also: explicit",
+                      britshText: """IpaUK: /ɪkˈsplɪsɪt/""",
+                      americanText: """IpaUS: /ɪkˈsplɪsɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "explanatory";
+  final String keyword = "explicit";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -239,42 +238,47 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""There are explanatory notes at the back of the book.""");
+        .speak("""He gave me very explicit directions on how to get there.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The reasons for the decision should be made explicit.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She made some very explicit references to my personal life.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""She was quite explicit about why she had left.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""Warning: the movie contains sexually explicit material.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """The book contains a highly explicit description of torture.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -865,7 +869,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "explanatory", please follow LX instructions
+// With short examples define "explicit", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -874,15 +878,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕوون‌کردنەوەیی، لێکدانەوەیی، ڕاڤەیی
+کوردی: ڕوون، ڕۆشن، ئاشکرا، دیار، ڕاشکاو، بێ‌پەردە، لەڕوو، بێ‌پێچ‌وپەنا، قسەلەڕوو
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ھاوەڵناو) کە هۆکاری شتێک باس دەکات؛ کە شێوەی کارکردنی شتێک باس دەکات یان تێگەشتن لە شتێک ئاسان دەکات"""),
+              text: """١. (ھاوەڵناو) کە ڕوون و ئاشکرایە بۆ تێگەشتن"""),
           SentencesRow(
             englishText:
-                """There are explanatory notes at the back of the book.""",
-            kurdishText: """تێبینی ڕاڤەکاری لە کۆتایی کتێبەکە هەیە.""",
+                """He gave me very explicit directions on how to get there.""",
+            kurdishText: """ڕێنمایی ڕوونی پێمدا کە چۆن بگەمە ئەوێ.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -890,8 +893,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The reasons for the decision should be made explicit.""",
+            kurdishText: """هۆکارەکانی بڕیارەکە دەبێت ئاشکرا بکرێن.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -899,26 +903,32 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """She made some very explicit references to my personal life.""",
+            kurdishText: """هەندێک ئاماژەی ڕوونی بە ژیانی کەسیم دا.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ھاوەڵناو) کەسێک کە شت بە ڕوونی و کراوەیی دەڵێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """She was quite explicit about why she had left.""",
+            kurdishText: """زۆر ڕوون بوو سەبارەت بەوەی بۆچی ڕۆشت بوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ھاوەڵناو) باسکردنی شتێک یان پیشاندانی بە وردەکاریی زۆر، بەتایبەتی بابەتی ورووژێنەر"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Warning: the movie contains sexually explicit material.""",
+            kurdishText:
+                """ئاگاداری: فیلمەکە بابەتی سێکسی ڕاشکاوانە لەخۆدەگرێت.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -926,8 +936,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The book contains a highly explicit description of torture.""",
+            kurdishText: """کتێبەکە باسی ڕاشکاوانەی ئەشکەنجە لەخۆدەگرێت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -1674,9 +1685,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: explanatory
-1. Serving or intended to explain or make clear
-"explanatory notes"; "an explanatory paragraph"
+- Adjective: explicit
+1. Precisely and clearly communicated or readily observable; leaving nothing to implication (= expressed)
+"she made her wishes explicit"; "explicit sexual scenes";
+ 
+2. In accordance with fact or the primary meaning of a term (= denotative)
+ 
+3. Containing overt sexual material (e.g. language or pictures) that might be deemed offensive
 """,
   );
 
@@ -1701,18 +1716,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/NFtQOxjWfaA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 22;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/4eGNy2E7CVs?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 622;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/PXaLc9AYIcg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 425;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/3n99jqOdeSw?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 326;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/jeRgFqbBM5E?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 694;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/lskadKRiXh8?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 346;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/GqWvv0aKeK4?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 196;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/SzwEzpec7CA?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 75;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/Xzv84ZdtlE0?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 571;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/SwQhKFMxmDY?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 4116;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/KhBxCx11eck?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 843;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/Rvey9g0VgY0?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 300;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

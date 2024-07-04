@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexplanatory extends StatefulWidget {
-  const EnglishEntryexplanatory({super.key});
+class EnglishEntryexplicitly extends StatefulWidget {
+  const EnglishEntryexplicitly({super.key});
 
   @override
-  State<EnglishEntryexplanatory> createState() =>
-      _EnglishEntryexplanatoryState();
+  State<EnglishEntryexplicitly> createState() => _EnglishEntryexplicitlyState();
 }
 
-class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
+class _EnglishEntryexplicitlyState extends State<EnglishEntryexplicitly> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""explanatory""");
+    await flutterTts.speak("""explicitly""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """explanatory""",
-                      // alsoEnglishWord: "also: explanatory",
-                      britshText: """IpaUK: /ɪkˈsplænətri/""",
-                      americanText: """IpaUS: /ɪkˈsplænətɔːri/""",
+                      word: """explicitly""",
+                      // alsoEnglishWord: "also: explicitly",
+                      britshText: """IpaUK: /ɪkˈsplɪsɪtli/""",
+                      americanText: """IpaUS: /ɪkˈsplɪsɪtli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "explanatory";
+  final String keyword = "explicitly";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -239,14 +238,14 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""There are explanatory notes at the back of the book.""");
+        .speak("""The text does not explicitly mention him by name.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The report states explicitly that the system was to blame.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -865,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "explanatory", please follow LX instructions
+// With short examples define "explicitly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -874,29 +873,27 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕوون‌کردنەوەیی، لێکدانەوەیی، ڕاڤەیی
+کوردی: بە ئاشکرایی، بێ‌پەردە
 """),
-          const DefinitionKurdish(
-              text:
-                  """١. (ھاوەڵناو) کە هۆکاری شتێک باس دەکات؛ کە شێوەی کارکردنی شتێک باس دەکات یان تێگەشتن لە شتێک ئاسان دەکات"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵکار) بە ئاشکرایی و ڕوونی بەشێوەیەک کە ئاسانە بۆ تێگەشتن"""),
           SentencesRow(
             englishText:
-                """There are explanatory notes at the back of the book.""",
-            kurdishText: """تێبینی ڕاڤەکاری لە کۆتایی کتێبەکە هەیە.""",
+                """The text does not explicitly mention him by name.""",
+            kurdishText: """ناووسینەکە بە ئاشکرایی بە ناو باسی ناکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The report states explicitly that the system was to blame.""",
+            kurdishText: """ڕاپۆرتەکە بە ڕوونی دەڵێت کە سیستەمەکە هۆکارە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence300""",
@@ -905,7 +902,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence400""",
@@ -914,7 +911,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence500""",
@@ -923,7 +920,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence600""",
@@ -932,7 +929,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence700""",
@@ -941,7 +938,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence800""",
@@ -950,7 +947,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence900""",
@@ -959,7 +956,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_1000""",
@@ -968,7 +965,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1100""",
@@ -977,7 +974,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1200""",
@@ -986,7 +983,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1300""",
@@ -995,7 +992,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1400""",
@@ -1004,7 +1001,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1500""",
@@ -1013,7 +1010,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1600""",
@@ -1022,7 +1019,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1700""",
@@ -1031,7 +1028,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1800""",
@@ -1040,7 +1037,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence1900""",
@@ -1049,7 +1046,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence19("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_2000""",
@@ -1058,7 +1055,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2100""",
@@ -1067,7 +1064,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2200""",
@@ -1076,7 +1073,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence22("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2300""",
@@ -1085,7 +1082,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence23("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2400""",
@@ -1094,7 +1091,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence24("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2500""",
@@ -1103,7 +1100,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence25("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2600""",
@@ -1112,7 +1109,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence26("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2700""",
@@ -1121,7 +1118,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence27("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2800""",
@@ -1130,7 +1127,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence28("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence2900""",
@@ -1139,7 +1136,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence29("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_3000""",
@@ -1148,7 +1145,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence30("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3100""",
@@ -1157,7 +1154,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence31("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3200""",
@@ -1166,7 +1163,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence32("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3300""",
@@ -1175,7 +1172,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence33("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3400""",
@@ -1184,7 +1181,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence34("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3500""",
@@ -1193,7 +1190,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence35("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3600""",
@@ -1202,7 +1199,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence36("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3700""",
@@ -1211,7 +1208,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence37("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3800""",
@@ -1220,7 +1217,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence38("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence3900""",
@@ -1229,7 +1226,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence39("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_4000""",
@@ -1238,7 +1235,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence40("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4100""",
@@ -1247,7 +1244,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence41("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4200""",
@@ -1256,7 +1253,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence42("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4300""",
@@ -1265,7 +1262,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence43("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4400""",
@@ -1274,7 +1271,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence44("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4500""",
@@ -1283,7 +1280,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence45("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4600""",
@@ -1292,7 +1289,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence46("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4700""",
@@ -1301,7 +1298,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence47("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4800""",
@@ -1310,7 +1307,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence48("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence4900""",
@@ -1319,7 +1316,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence49("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_5000""",
@@ -1328,7 +1325,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence50("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5100""",
@@ -1337,7 +1334,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence51("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5200""",
@@ -1346,7 +1343,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence52("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5300""",
@@ -1355,7 +1352,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence53("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5400""",
@@ -1364,7 +1361,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence54("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5500""",
@@ -1373,7 +1370,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence55("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5600""",
@@ -1382,7 +1379,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence56("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5700""",
@@ -1391,7 +1388,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence57("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5800""",
@@ -1400,7 +1397,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence58("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence5900""",
@@ -1409,7 +1406,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence59("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_6000""",
@@ -1418,7 +1415,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence60("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6100""",
@@ -1427,7 +1424,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence61("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6200""",
@@ -1436,7 +1433,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence62("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6300""",
@@ -1445,7 +1442,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence63("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6400""",
@@ -1454,7 +1451,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence64("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6500""",
@@ -1463,7 +1460,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence65("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6600""",
@@ -1472,7 +1469,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence66("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6700""",
@@ -1481,7 +1478,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence67("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6800""",
@@ -1490,7 +1487,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence68("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6900""",
@@ -1499,7 +1496,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence69("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_7000""",
@@ -1508,7 +1505,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence70("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7100""",
@@ -1517,7 +1514,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence71("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7200""",
@@ -1526,7 +1523,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence72("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7300""",
@@ -1535,7 +1532,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence73("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7400""",
@@ -1544,7 +1541,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence74("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7500""",
@@ -1553,7 +1550,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence75("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7600""",
@@ -1562,7 +1559,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence76("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7700""",
@@ -1571,7 +1568,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence77("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7800""",
@@ -1580,7 +1577,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence78("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7900""",
@@ -1589,7 +1586,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence79("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_8000""",
@@ -1598,7 +1595,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence80("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8100""",
@@ -1607,7 +1604,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence81("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8200""",
@@ -1616,7 +1613,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence82("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8300""",
@@ -1625,7 +1622,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence83("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8400""",
@@ -1674,9 +1671,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: explanatory
-1. Serving or intended to explain or make clear
-"explanatory notes"; "an explanatory paragraph"
+- Adverb: explicitly
+1. In an explicit manner
+"in his foreword Professor Clark puts it explicitly"
 """,
   );
 
@@ -1701,18 +1698,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/NFtQOxjWfaA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 22;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/4eGNy2E7CVs?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 622;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/PXaLc9AYIcg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 425;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/3n99jqOdeSw?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 326;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/jeRgFqbBM5E?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 694;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/lskadKRiXh8?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 346;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QruHsyt8paY?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 159;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/0ST4_hmop9Y?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 705;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/1Gxrwh4zGPg?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 910;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/DHLRj1LaPiQ?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 107;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/oI_X2cMHNe0?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 792;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/OgFcz6klaeg?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 951;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

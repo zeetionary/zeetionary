@@ -6,15 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexplanatory extends StatefulWidget {
-  const EnglishEntryexplanatory({super.key});
+class EnglishEntryexploration extends StatefulWidget {
+  const EnglishEntryexploration({super.key});
 
   @override
-  State<EnglishEntryexplanatory> createState() =>
-      _EnglishEntryexplanatoryState();
+  State<EnglishEntryexploration> createState() =>
+      _EnglishEntryexplorationState();
 }
 
-class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
+class _EnglishEntryexplorationState extends State<EnglishEntryexploration> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +26,7 @@ class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""explanatory""");
+    await flutterTts.speak("""exploration""");
   }
 
   @override
@@ -45,10 +45,10 @@ class _EnglishEntryexplanatoryState extends State<EnglishEntryexplanatory> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """explanatory""",
-                      // alsoEnglishWord: "also: explanatory",
-                      britshText: """IpaUK: /ɪkˈsplænətri/""",
-                      americanText: """IpaUS: /ɪkˈsplænətɔːri/""",
+                      word: """exploration""",
+                      // alsoEnglishWord: "also: exploration",
+                      britshText: """IpaUK: /ˌekspləˈreɪʃn/""",
+                      americanText: """IpaUS: /ˌekspləˈreɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "explanatory";
+  final String keyword = "exploration";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -239,35 +239,37 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""There are explanatory notes at the back of the book.""");
+        .speak("""Budgets for space exploration have been cut back.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Exploration activity slowed during the 1970s.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Extensive exploration was carried out using the latest drilling technology.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Interest developed in the scientific exploration of the sea.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""These findings merit further exploration.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -865,7 +867,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "explanatory", please follow LX instructions
+// With short examples define "exploration", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -874,15 +876,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕوون‌کردنەوەیی، لێکدانەوەیی، ڕاڤەیی
+کوردی: دیتنەوە، دۆزینەوە،	لەدواگەڕان، گەڕان، تەقاندنەوە، لێکۆڵینەوە، توێژینەوە، پەیجۆری، ڤەکۆلین،	تاقی‌کردنەوە،	گەڕان، سەیاحەت، گەڕوانی
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە هۆکاری شتێک باس دەکات؛ کە شێوەی کارکردنی شتێک باس دەکات یان تێگەشتن لە شتێک ئاسان دەکات"""),
+                  """١. (ناو) گەڕان بە شوێنێکدا بۆ دۆزینەوە لەسەری یان گەڕان بۆ شتێک تێیدا"""),
           SentencesRow(
             englishText:
-                """There are explanatory notes at the back of the book.""",
-            kurdishText: """تێبینی ڕاڤەکاری لە کۆتایی کتێبەکە هەیە.""",
+                """Budgets for space exploration have been cut back.""",
+            kurdishText: """بودجەی گەڕان بە بۆشایی ئاسمان کەم کراوەتەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -890,8 +892,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Exploration activity slowed during the 1970s.""",
+            kurdishText:
+                """چالاکی گەڕیدەوانی لە ماوەی ١٩٧٠ ـیەکان خاوبوویەوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -899,8 +902,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Extensive exploration was carried out using the latest drilling technology.""",
+            kurdishText:
+                """گەڕانی بەرچاو ئەنجام درا بە بەکارهێنانی تازەترین تەکنەلۆژیای هەڵکەندن.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -908,17 +913,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Interest developed in the scientific exploration of the sea.""",
+            kurdishText: """حەز گەشەی کرد بۆ گەڕانی زانستی بە دەریادا.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ناو) لێکۆڵینەوە لە شتێک بۆ دۆزینەوە لەسەری"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """These findings merit further exploration.""",
+            kurdishText: """ئەم دۆزینەوانە شایەنی لێکۆڵینەوەی زیاترن.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -1674,9 +1681,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: explanatory
-1. Serving or intended to explain or make clear
-"explanatory notes"; "an explanatory paragraph"
+- Noun: exploration (Derived forms: explorations)
+1. To travel for the purpose of discovery (= geographic expedition)
+ 
+2. A careful systematic search
+ 
+3. A systematic consideration
+"he called for a careful exploration of the consequences"
 """,
   );
 
@@ -1701,18 +1712,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/NFtQOxjWfaA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 22;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/4eGNy2E7CVs?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 622;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/PXaLc9AYIcg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 425;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/3n99jqOdeSw?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 326;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/jeRgFqbBM5E?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 694;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/lskadKRiXh8?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 346;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/3miuxAnawmM?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 60;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/FUHkTs-Ipfg?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 980;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/cbuF74bJa9A?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 193;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/FaCeZsOOKEY?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 628;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/twAP3buj9Og?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 239;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/hS2emKDlGmE?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 954;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

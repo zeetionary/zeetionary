@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexoneration extends StatefulWidget {
-  const EnglishEntryexoneration({super.key});
+class EnglishEntryexpansive extends StatefulWidget {
+  const EnglishEntryexpansive({super.key});
 
   @override
-  State<EnglishEntryexoneration> createState() =>
-      _EnglishEntryexonerationState();
+  State<EnglishEntryexpansive> createState() => _EnglishEntryexpansiveState();
 }
 
-class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
+class _EnglishEntryexpansiveState extends State<EnglishEntryexpansive> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""exoneration""");
+    await flutterTts.speak("""expansive""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """exoneration""",
-                      // alsoEnglishWord: "also: exoneration",
-                      britshText: """IpaUK: /ɪɡˌzɒnəˈreɪʃn/""",
-                      americanText: """IpaUS:  /ɪɡˌzɑːnəˈreɪʃn/""",
+                      word: """expansive""",
+                      // alsoEnglishWord: "also: expansive",
+                      britshText: """IpaUK: /ɪkˈspænsɪv/""",
+                      americanText: """IpaUS: /ɪkˈspænsɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "exoneration";
+  final String keyword = "expansive";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,21 +237,23 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A DNA test eventually led to his exoneration.""");
+    await flutterTts.speak("""There was an expansive view from the window.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """We need to look at a more expansive definition of the term.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""She was clearly relaxed and in an expansive mood.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "exoneration", please follow LX instructions
+// With short examples define "expansive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,33 +874,37 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەکشان‌هاتوو، کشاو، کشێنەر،	بەرین، بەرفرەهـ، بەربڵاو، هەمەلایەنە، فراوان، بەرفراوان، گشتگیر، گەورە،	پەرەپێدەر، گەشەپێدەر، بەکەیف، گەرم‌وگوڕ، ڕووخۆش،	چەنەوەر، زۆربڵە
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) ئەوەی کە بە فەرمی کەسێک ببەخشیت بۆ شتێک کە پێشووتر تۆمەتبار کرابوو پێی"""),
+              text: """١. (ھاوەڵناو) کە شوێن زۆر دەگرێت/دەگرێتەوە"""),
           SentencesRow(
-            englishText: """A DNA test eventually led to his exoneration.""",
-            kurdishText:
-                """پشکنینێکی دی‌ئێن‌ئەی لەکۆتاییدا بوو بەهۆی بەخشینی.""",
+            englishText: """There was an expansive view from the window.""",
+            kurdishText: """دیمەنێکی فراون هەبوو لە پەنجەرەکەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ھاوەڵناو) کە بابەتی زۆر لەخۆدەگرێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """We need to look at a more expansive definition of the term.""",
+            kurdishText: """دەبێت لە پێناسەی فراوانی دەستەواژەکە بڕوانین.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ھاوەڵناو) هاوڕێ و هەبوونی ئامادەیی بۆ قسەکردنی زۆر"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """She was clearly relaxed and in an expansive mood.""",
+            kurdishText:
+                """بە ئاشکرایی حەساوە بوو و لە دۆخێکی گەرم‌وگوڕ بوو.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -1673,10 +1678,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exoneration (Derived forms: exonerations)
-1. The condition of being relieved from blame or obligation
+- Adjective: expansive
+1. Of behaviour that is impressive and ambitious in scale or scope (= grand, heroic)
+"an expansive lifestyle";
  
-2. The act of vindicating or defending against criticism or censure etc. (= vindication)
+2. (psychiatry) marked by exaggerated feelings of euphoria and delusions of grandeur
+ 
+3. Friendly and open and willing to talk (= talkative)
+"wine made the guest expansive";
+ 
+4. Able or tending to expand or characterized by expansion
+"Expansive materials"; "the expansive force of fire"
 """,
   );
 
@@ -1701,18 +1713,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/GDs6WohWma0?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 267;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/ZThc79RtIeI?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 3362;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/dcD_omEU1sk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 398;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/KfkOSYpMToo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 456;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/M6q8I5UwcQI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 1284;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/j5XY_ve8iBw?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 395;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/NFtQOxjWfaA?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 343;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/Sbp_EeBk-As?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 2078;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/vJC4yz7e7HE?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 684;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/Is1IWMPNqh4?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 1572;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/2Hq4CtLfnZs?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 197;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/DSQG0zvR6dk?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 1133;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

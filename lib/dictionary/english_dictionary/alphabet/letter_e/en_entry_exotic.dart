@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexoneration extends StatefulWidget {
-  const EnglishEntryexoneration({super.key});
+class EnglishEntryexotic extends StatefulWidget {
+  const EnglishEntryexotic({super.key});
 
   @override
-  State<EnglishEntryexoneration> createState() =>
-      _EnglishEntryexonerationState();
+  State<EnglishEntryexotic> createState() => _EnglishEntryexoticState();
 }
 
-class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
+class _EnglishEntryexoticState extends State<EnglishEntryexotic> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""exoneration""");
+    await flutterTts.speak("""exotic""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """exoneration""",
-                      // alsoEnglishWord: "also: exoneration",
-                      britshText: """IpaUK: /ɪɡˌzɒnəˈreɪʃn/""",
-                      americanText: """IpaUS:  /ɪɡˌzɑːnəˈreɪʃn/""",
+                      word: """exotic""",
+                      // alsoEnglishWord: "also: exotic",
+                      britshText: """IpaUK: /ɪɡˈzɒtɪk/""",
+                      americanText: """IpaUS: /ɪɡˈzɑːtɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "exoneration";
+  final String keyword = "exotic";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,14 +237,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A DNA test eventually led to his exoneration.""");
+    await flutterTts.speak(
+        """She travels to all kinds of exotic locations all over the world.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The fruits sound exotic. Do they taste good?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "exoneration", please follow LX instructions
+// With short examples define "exotic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,15 +873,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناخۆیی، نابوویی، نابوومی، لاوە، بیانی، ناخۆماڵی، بێگانە،	سەیر، نائاسایی،	جوان، ڕەنگین، سەرنج‌ڕاکێش،	وشەی بیانی یان تێهاتوو
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) ئەوەی کە بە فەرمی کەسێک ببەخشیت بۆ شتێک کە پێشووتر تۆمەتبار کرابوو پێی"""),
+              text: """١. (ھاوەڵناو) لە یان هی وڵاتێکی دیکە"""),
           SentencesRow(
-            englishText: """A DNA test eventually led to his exoneration.""",
-            kurdishText:
-                """پشکنینێکی دی‌ئێن‌ئەی لەکۆتاییدا بوو بەهۆی بەخشینی.""",
+            englishText:
+                """She travels to all kinds of exotic locations all over the world.""",
+            kurdishText: """بۆ هەر شوێنێکی بیانی لە جیهاندا گەشت دەکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -889,7 +888,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
+            englishText: """The fruits sound exotic. Do they taste good?""",
             kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
@@ -1673,10 +1672,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exoneration (Derived forms: exonerations)
-1. The condition of being relieved from blame or obligation
+- Adjective: exotic
+1. Being or from or characteristic of another place or part of the world (= alien)
+"exotic plants in a greenhouse"; "exotic cuisine";
  
-2. The act of vindicating or defending against criticism or censure etc. (= vindication)
+2. Strikingly strange or unusual
+"an exotic hair style"; "protons, neutrons, electrons and all their exotic variants"; "the exotic landscape of a dead planet"
+
+- Noun: exotic (Derived forms: exotics)
+1. Something or someone unusual, striking or foreign, esp. a plant or animal
 """,
   );
 
@@ -1701,18 +1705,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/GDs6WohWma0?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 267;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/ZThc79RtIeI?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 3362;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/dcD_omEU1sk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 398;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/KfkOSYpMToo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 456;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/M6q8I5UwcQI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 1284;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/j5XY_ve8iBw?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 395;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/XnbCSboujF4?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 404;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/Gv4Af83KFrE?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 13;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/fZJGTevM3QI?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 88;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/HxRUuGqqMG4?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 1417;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/wrr9J7BJ6vE?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 908;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/4Wc0YPXFO9M?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 419;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

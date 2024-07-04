@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexoneration extends StatefulWidget {
-  const EnglishEntryexoneration({super.key});
+class EnglishEntryexpansion extends StatefulWidget {
+  const EnglishEntryexpansion({super.key});
 
   @override
-  State<EnglishEntryexoneration> createState() =>
-      _EnglishEntryexonerationState();
+  State<EnglishEntryexpansion> createState() => _EnglishEntryexpansionState();
 }
 
-class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
+class _EnglishEntryexpansionState extends State<EnglishEntryexpansion> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""exoneration""");
+    await flutterTts.speak("""expansion""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """exoneration""",
-                      // alsoEnglishWord: "also: exoneration",
-                      britshText: """IpaUK: /ɪɡˌzɒnəˈreɪʃn/""",
-                      americanText: """IpaUS:  /ɪɡˌzɑːnəˈreɪʃn/""",
+                      word: """expansion""",
+                      // alsoEnglishWord: "also: expansion",
+                      britshText: """IpaUK: /ɪkˈspænʃn/""",
+                      americanText: """IpaUS: /ɪkˈspænʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "exoneration";
+  final String keyword = "expansion";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,14 +237,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A DNA test eventually led to his exoneration.""");
+    await flutterTts.speak(
+        """Despite the recession the company is confident of further expansion.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The expansion of higher education will continue.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "exoneration", please follow LX instructions
+// With short examples define "expansion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,15 +874,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کشان،	گەورەبوونەوە، فراوان‌بوونەوە، کرانەوە، بەرین‌بوونەوە، فش‌بوونەوە، پان‌بوونەوە، فرەهـبوون، پەرەسەندن، گەشەسەندن، زۆربوون
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) ئەوەی کە بە فەرمی کەسێک ببەخشیت بۆ شتێک کە پێشووتر تۆمەتبار کرابوو پێی"""),
+              text: """١. (ناو) گەورەترکردن لە ئەندازە، ژمارە، یان گرنگی"""),
           SentencesRow(
-            englishText: """A DNA test eventually led to his exoneration.""",
+            englishText:
+                """Despite the recession the company is confident of further expansion.""",
             kurdishText:
-                """پشکنینێکی دی‌ئێن‌ئەی لەکۆتاییدا بوو بەهۆی بەخشینی.""",
+                """سەرەڕای قەیرانەکە کۆمپانیاکە باوەڕی بە فراوانبوونی زیاتر هەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -889,8 +890,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The expansion of higher education will continue.""",
+            kurdishText: """فراوانبوونی خوێندنی باڵا بەردەوام دەبێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1673,10 +1674,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exoneration (Derived forms: exonerations)
-1. The condition of being relieved from blame or obligation
+- Noun: expansion (Derived forms: expansions)
+1. The act of increasing (something) in size, volume, quantity or scope (= enlargement)
  
-2. The act of vindicating or defending against criticism or censure etc. (= vindication)
+2. (mathematics) a function expressed as a sum or product of terms
+"the expansion of (a+b)expansion2 is aexpansion2 + 2ab + bexpansion2"
+ 
+3. A discussion that provides additional information (= enlargement, elaboration)
+ 
+4. Adding information or detail (= expanding upon)
 """,
   );
 
@@ -1701,18 +1707,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/GDs6WohWma0?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 267;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/ZThc79RtIeI?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 3362;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/dcD_omEU1sk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 398;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/KfkOSYpMToo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 456;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/M6q8I5UwcQI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 1284;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/j5XY_ve8iBw?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 395;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/BxWw8AO4ZmI?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 498;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/QLq6GEiHqR8?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 252;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/tsxmyL7TUJg?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 586;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/yRmOWcWdQAo?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 336;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/FQ4hvLqNfqo?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 1348;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/oI_X2cMHNe0?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 398;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

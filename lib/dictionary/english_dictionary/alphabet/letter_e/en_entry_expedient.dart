@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexoneration extends StatefulWidget {
-  const EnglishEntryexoneration({super.key});
+class EnglishEntryexpedient extends StatefulWidget {
+  const EnglishEntryexpedient({super.key});
 
   @override
-  State<EnglishEntryexoneration> createState() =>
-      _EnglishEntryexonerationState();
+  State<EnglishEntryexpedient> createState() => _EnglishEntryexpedientState();
 }
 
-class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
+class _EnglishEntryexpedientState extends State<EnglishEntryexpedient> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""exoneration""");
+    await flutterTts.speak("""expedient""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """exoneration""",
-                      // alsoEnglishWord: "also: exoneration",
-                      britshText: """IpaUK: /ɪɡˌzɒnəˈreɪʃn/""",
-                      americanText: """IpaUS:  /ɪɡˌzɑːnəˈreɪʃn/""",
+                      word: """expedient""",
+                      // alsoEnglishWord: "also: expedient",
+                      britshText: """IpaUK: /ɪkˈspiːdiənt/""",
+                      americanText: """IpaUS: /ɪkˈspiːdiənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "exoneration";
+  final String keyword = "expedient";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,21 +237,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A DNA test eventually led to his exoneration.""");
+    await flutterTts.speak(
+        """The disease was controlled by the simple expedient of not allowing anyone to leave the city.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The government found it expedient to relax censorship a little.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The government has clearly decided that a cut in interest rates would be politically expedient.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -864,7 +866,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "exoneration", please follow LX instructions
+// With short examples define "expedient", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,24 +875,29 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە بەرژەوەندی، (بە) مەسڵەحەت، بەقازانج، گونجاو، باش، بەجێ، پێ‌باش(بوو)، پێویست، بەسوود، بەرژەوەندی‌یانە،	پێویستی، چارە، بەرژەوەندە، بەرژەوەندی، سەڵاح، ڕێگاچارە، تەگبیر، قۆڵ، ڕێگا،	بەهانە، فێڵ
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئەوەی کە بە فەرمی کەسێک ببەخشیت بۆ شتێک کە پێشووتر تۆمەتبار کرابوو پێی"""),
+                  """١. (ناو) شتێک کە بەسوود یان پێویستە بۆ مەبەستێکی دیاریکراو، بەڵام هەمیشە گونجاو یان ڕاست نییە"""),
           SentencesRow(
-            englishText: """A DNA test eventually led to his exoneration.""",
+            englishText:
+                """The disease was controlled by the simple expedient of not allowing anyone to leave the city.""",
             kurdishText:
-                """پشکنینێکی دی‌ئێن‌ئەی لەکۆتاییدا بوو بەهۆی بەخشینی.""",
+                """نەخۆشییەکە بە ڕێگەچارەی سادەی ئەوە کۆنترۆڵ کرا کە ڕێگە نەدرا کەس شارەکە بەجێبهێڵێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ھاوەڵناو) کە بەسوود یان پێویستە بۆ مەبەستێکی دیاریکراو، بەڵام هەمیشە گونجاو یان ڕاست نییە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The government found it expedient to relax censorship a little.""",
+            kurdishText:
+                """حکومەت بە پێویستی زانی کە سانسۆر کەمێک کەم بکاتەوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -898,8 +905,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The government has clearly decided that a cut in interest rates would be politically expedient.""",
+            kurdishText:
+                """حکومەت بە ڕوونی بڕیاری داوە کە کەمکردنەوەی ئاستی سوو لەلایەنی سیاسییەوە بەجێ دەبێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -1673,10 +1682,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exoneration (Derived forms: exonerations)
-1. The condition of being relieved from blame or obligation
+- Adjective: expedient
+1. Serving to promote your interest
+"was merciful only when mercy was expedient"
  
-2. The act of vindicating or defending against criticism or censure etc. (= vindication)
+2. Appropriate to a purpose; practical
+"in the circumstances it was expedient to express loyalty"
+
+- Noun: expedient (Derived forms: expedients)
+1. A means to an end; not necessarily a principled or ethical one
 """,
   );
 
@@ -1701,18 +1715,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/GDs6WohWma0?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 267;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/ZThc79RtIeI?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 3362;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/dcD_omEU1sk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 398;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/KfkOSYpMToo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 456;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/M6q8I5UwcQI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 1284;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/j5XY_ve8iBw?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 395;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/LJ0Hfc8hvpE?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 442;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/W4DnmTEHQug?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 303;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/z3uvnwBMTdY?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 3195;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/RCDVD9GJ9Kg?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 120;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/PFo9-7VX2K8?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 323;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/Lg-nUy2DalM?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 1529;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

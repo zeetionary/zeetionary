@@ -46,8 +46,8 @@ class _EnglishEntryexonerateState extends State<EnglishEntryexonerate> {
                     child: EntryPageColumn(
                       word: """exonerate""",
                       // alsoEnglishWord: "also: exonerate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪɡˈzɒnəreɪt/""",
+                      americanText: """IpaUS: /ɪɡˈzɑːnəreɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -237,15 +237,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""// speaksentence100000000000000000000000000000000""");
+    await flutterTts.speak(
+        """The police report exonerated Lewis from all charges of corruption.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The president cannot be exonerated from responsibility for this problem.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -875,11 +876,14 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: 
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (کردار) بە فەرمی بەخشینی کەسێک بۆ شتێک کە پێشووتر تۆمەتبار کرابوو پێی"""),
           SentencesRow(
             englishText:
-                """// speaksentence100000000000000000000000000000000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+                """The police report exonerated Lewis from all charges of corruption.""",
+            kurdishText:
+                """ڕاپۆرتی پۆلیس لویسی بەخشێ لە هەر تۆمەتێکی گەندەڵی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +891,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The president cannot be exonerated from responsibility for this problem.""",
+            kurdishText:
+                """سەرۆک ناکرێت لە بەرپرسیاریەتی بۆ ئەم کێشەیە ببەخشرێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1671,10 +1677,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryexonerate exonerate
-WORD_WEB exonerate exonerate exonerate
-haʊʊʊʊʊʊʊ4
+- Verb: exonerate (Derived forms: exonerated, exonerates, exonerating)
+1. Pronounce not guilty of criminal charges (= acquit, assoil [archaic], clear, discharge, exculpate)
+"The suspect was exonerated of the murder charges";
 """,
   );
 
@@ -1699,19 +1704,18 @@ haʊʊʊʊʊʊʊ4
   }
 }
 
-const String _videoIdend = 'VIDEO_ID';
-const double _startSecondsend = 000000000000000000000000000000; // ;
-const String _videoIdone = 'VIDEO_D';
-const double _startSecondsone = 00000000000000000000000000000; // ;
-const String _videoIdtwo = 'VIDEO_D';
-const double _startSecondstwo = 00000000000000000000000000000; // ;
-const String _videoIdthree = 'VIDEO';
-const double _startSecondsthree = 000000000000000000000000000; // ;
-const String _videoIdfour = 'VIDEO_ID';
-const double _startSecondsfour = 000000000000000000000000000000; // ;
-const String _videoIdfive = 'VIDEO_D';
-const double _startSecondsfive = 00000000000000000000000000000; // ;
-// speaksentence100000000000000000000000000000000
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/5jTdu3FI7vo?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 2865;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/NNnIGh9g6fA?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 293;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/kBdfcR-8hEY?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 2105;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/nyVOi3X53bk?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 659;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/rKo8Sv99MkM?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 71;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/WWRTZ8IHFg4?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 817;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

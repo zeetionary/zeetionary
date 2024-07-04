@@ -1722,8 +1722,8 @@ ${englishMeaningConst.text}
 
 const String _videoIdend = 'VIDEO_IDhttps://youtu.be/kGg44zdgHYM?t=';
 const double _startSecondsend = 000000000000000000000000000000; // 244;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/xfLN3618gE8?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 622;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/PbMKc17EtGI?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 59;
 const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/libZUdRtrj4?t=';
 const double _startSecondstwo = 00000000000000000000000000000; // 587;
 const String _videoIdthree = 'VIDEOhttps://youtu.be/ligo_LBPfiE?t=';

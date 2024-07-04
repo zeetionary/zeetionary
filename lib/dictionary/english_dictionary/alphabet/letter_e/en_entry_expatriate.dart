@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexoneration extends StatefulWidget {
-  const EnglishEntryexoneration({super.key});
+class EnglishEntryexpatriate extends StatefulWidget {
+  const EnglishEntryexpatriate({super.key});
 
   @override
-  State<EnglishEntryexoneration> createState() =>
-      _EnglishEntryexonerationState();
+  State<EnglishEntryexpatriate> createState() => _EnglishEntryexpatriateState();
 }
 
-class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
+class _EnglishEntryexpatriateState extends State<EnglishEntryexpatriate> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""exoneration""");
+    await flutterTts.speak("""expatriate""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryexonerationState extends State<EnglishEntryexoneration> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """exoneration""",
-                      // alsoEnglishWord: "also: exoneration",
-                      britshText: """IpaUK: /ɪɡˌzɒnəˈreɪʃn/""",
-                      americanText: """IpaUS:  /ɪɡˌzɑːnəˈreɪʃn/""",
+                      word: """expatriate""",
+                      alsoEnglishWord: "also: expat",
+                      britshText: """IpaUK: /ˌeksˈpætriət/""",
+                      americanText: """IpaUS: /ˌeksˈpeɪtriət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "exoneration";
+  final String keyword = "expatriate";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,14 +237,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A DNA test eventually led to his exoneration.""");
+    await flutterTts.speak(
+        """My family lived as expatriates in Hong Kong before I was born.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Expatriate Britons in Spain enjoy the sunny weather.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "exoneration", please follow LX instructions
+// With short examples define "expatriate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,24 +874,30 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کۆچبەر، مشەخت، وڵات‌بەدەر، دوورەوڵات، لە دەرەوەی وڵات، دوورلەنیشتمان
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) ئەوەی کە بە فەرمی کەسێک ببەخشیت بۆ شتێک کە پێشووتر تۆمەتبار کرابوو پێی"""),
+            text: """١. (ناو) کەسێک کە لە وڵاتێک دەژی کە هی خۆی نییە""",
+            note:
+                "زیاتر بە کەسێک دەگوترێت کە بە خواستی خۆی چووە بۆ وڵاتێک نەک ئاوارە بووبێت یان دەرکرابێت",
+          ),
           SentencesRow(
-            englishText: """A DNA test eventually led to his exoneration.""",
+            englishText:
+                """My family lived as expatriates in Hong Kong before I was born.""",
             kurdishText:
-                """پشکنینێکی دی‌ئێن‌ئەی لەکۆتاییدا بوو بەهۆی بەخشینی.""",
+                """خێزانەکەم وەک کۆچبەر لە هۆنک کۆنگ دەژیان پێش ئەوەی من بێمە دونیاوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ھاوەڵناو) ژیان لە وڵاتێک کە هی خۆت نییە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Expatriate Britons in Spain enjoy the sunny weather.""",
+            kurdishText:
+                """بەریتانییە پەناهەندەکان لە ئیسپانیا چێژ لە کەشووهەواکە دەبینن.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1673,10 +1680,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exoneration (Derived forms: exonerations)
-1. The condition of being relieved from blame or obligation
+- Noun: expatriate (Derived forms: expatriates)
+1. A person who is voluntarily absent from home or country (= exile, expat)
+"American expatriates";
+
+- Verb: expatriate (Derived forms: expatriated, expatriates, expatriating)
+1. Expel from a country (= deport, exile)
+"The poet was expatriated because he signed a letter protesting the government's actions";
  
-2. The act of vindicating or defending against criticism or censure etc. (= vindication)
+2. Move away from one's native country and adopt a new residence abroad
+
+- Adjective: expatriate
+1. Of, or relating to people living outside their native country (= expat)
 """,
   );
 
@@ -1701,18 +1716,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/GDs6WohWma0?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 267;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/ZThc79RtIeI?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 3362;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/dcD_omEU1sk?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 398;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/KfkOSYpMToo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 456;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/M6q8I5UwcQI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 1284;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/j5XY_ve8iBw?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 395;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/tQKWRxoICbU?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 304;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/GIFV_Z7Y9_w?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 1505;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/bc5QU-DCtUE?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 115;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/vMMV0Beb9uM?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 170;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/fjD4e5wo2mE?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 971;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/dFahvZIjDqg?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 128;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

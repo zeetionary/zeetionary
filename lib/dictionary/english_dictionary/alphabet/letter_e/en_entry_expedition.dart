@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexpediency extends StatefulWidget {
-  const EnglishEntryexpediency({super.key});
+class EnglishEntryexpedition extends StatefulWidget {
+  const EnglishEntryexpedition({super.key});
 
   @override
-  State<EnglishEntryexpediency> createState() => _EnglishEntryexpediencyState();
+  State<EnglishEntryexpedition> createState() => _EnglishEntryexpeditionState();
 }
 
-class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
+class _EnglishEntryexpeditionState extends State<EnglishEntryexpedition> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""expediency""");
+    await flutterTts.speak("""expedition""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """expediency""",
-                      // alsoEnglishWord: "also: expediency",
-                      britshText: """IpaUK: /ɪkˈspiːdiənsi/""",
-                      americanText: """IpaUS: /ɪkˈspiːdiənsi/""",
+                      word: """expedition""",
+                      // alsoEnglishWord: "also: expedition",
+                      britshText: """IpaUK: /ˌekspəˈdɪʃn/""",
+                      americanText: """IpaUS: /ˌekspəˈdɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "expediency";
+  final String keyword = "expedition";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,7 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He acted out of expediency, not principle.""");
+    await flutterTts.speak(
+        """Hawkins had died on the same expedition a few weeks earlier.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -245,42 +246,47 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """Some of their critics claim that recent decisions about tax are are nothing more than political expediency.""");
+        """He had made two expeditions to Spain to study wild plants.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He led a military expedition against the rebels.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The British agreed to a joint expedition with the French.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""Three members of the Everest expedition were killed.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""On 21 January the expedition reached the South Pole.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts
+        .speak("""Win a fantastic shopping expedition to New York!""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -864,7 +870,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "expediency", please follow LX instructions
+// With short examples define "expedition", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,17 +879,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرژەوەندی، باش(بوون) پێ‌باش‌بوون، بەقازانج‌بوون، بەسەڵاح‌بوون، گونجاو(بوون)، پێویستی
+کوردی: هێرش، پەلامار،	لەشکرکێشی، سپاڕانی، ئەرتەش‌کێشی،	گەشتی دۆزینەویی، سەفەری لێکۆڵینەوەیی،	گەڕان، گەشت، گەڕوانی، سەردان، سەرکێشی،	شاند(ە)، نێردە،	خێرایی، توندوتۆڵی، گورج‌وگۆڵی، گورجی، پەلە، لەز
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئەوەی کە شتێک بەسوودە یان پێویستە بۆ مەبەستێکی دیاریکراو، بەڵام هەمیشە گونجاو یان ڕاست نییە"""),
+                  """١. (ناو) گەشتێکی ڕێکخراو بە هۆکارێکی دیاریکراو، بەتایبەتی بۆ شوێنێک کە کە نەزانراوە"""),
           SentencesRow(
-            englishText: """He acted out of expediency, not principle.""",
+            englishText:
+                """Hawkins had died on the same expedition a few weeks earlier.""",
             kurdishText:
-                """بۆ بەرژەوەندی خۆی هەنگاوی نا نەک بە پشت بەستن بە بنچینەکانی.""",
-            englishNote:
-                "This means that he made his decision based on what was easiest or most beneficial for him at that moment, rather than following a moral or ethical guideline.",
+                """هاوکینز چەند هەفتەیەک پێشووتر لە هەمان گەشتدا مردبوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -892,9 +897,9 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Some of their critics claim that recent decisions about tax are are nothing more than political expediency.""",
+                """He had made two expeditions to Spain to study wild plants.""",
             kurdishText:
-                """هەندێک لە ڕەخنەگرانیان بانگەشەی ئەوە دەکەن کە بڕیارە تازەکان سەبارەت بە باج هیچ نییە جگە لە بەرژەوەندی‌خوازی سیاسی.""",
+                """دوو گەشتی بۆ ئیسپانیا ئەنجام دابوو بۆ لێکۆڵینەوە لە ڕووەکی کێوی.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -902,8 +907,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """He led a military expedition against the rebels.""",
+            kurdishText: """پەلامارێکی سەربازیی دژ بە یاخیبووەکان ئەنجام دا.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -911,17 +916,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The British agreed to a joint expedition with the French.""",
+            kurdishText:
+                """بەریتانییەکان ڕازی بوون بە گەشتێکی هاوبەش لەگەڵ فەرەنسییەکان.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٢. (ناو) ئەو کەسانەی کە بەژداری گەشتێک دەکەن"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Three members of the Everest expedition were killed.""",
+            kurdishText: """سێ ئەندامی گەشتی چیای ئێڤرست کوژران.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -929,20 +938,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """On 21 January the expedition reached the South Pole.""",
+            kurdishText:
+                """لە ٢١ ـی کانوونی دووەم ئەندامانی گەشتەکە گەشتنە خولگەی باشوور.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence7("en-GB"),
-            onPressedAmerican: () => speaksentence7("en-US"),
-          ),
+          // const DividerDefinition(),
+          // const DefinitionKurdish(text: """٣. (ناو) کورتە گەشتێک کە ئەنجامی دەدەیت کاتێک پێویستت بە شتێکە"""),
+          // const DividerSentences(),
+          // SentencesRow(
+          //   englishText: """Win a fantastic shopping expedition to New York!""",
+          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedBritish: () => speaksentence7("en-GB"),
+          //   onPressedAmerican: () => speaksentence7("en-US"),
+          // ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
@@ -1677,8 +1688,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: expediency (Derived forms: expediencies)
-1. The quality of being suited to the end in view (= expedience)
+- Noun: expedition (Derived forms: expeditions)
+1. (military) a military campaign designed to achieve a specific objective in a foreign country (= military expedition, hostile expedition)
+ 
+2. An organized group of people undertaking a journey for a particular purpose
+"an expedition was sent to explore Mars"
+ 
+3. A journey organized for a particular purpose
+ 
+4. A journey taken for pleasure (= excursion, jaunt, outing, junket, pleasure trip, sashay [N. Amer])
+"many summer expeditions to the shore";
+ 
+5. The property of being prompt and efficient (= dispatch, despatch [Brit], expeditiousness)
+"it was done with expedition";
 """,
   );
 
@@ -1703,18 +1725,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/SjeS6gtPq8E?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 304;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/z3uvnwBMTdY?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 1726;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/-_PU0cRZ9wg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1082;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/1q4dUt1yK0g?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 113;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/SlfIOOTc6Og?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 240;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7uS7A4x31PY?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 773;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/0zXfDafyyao?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 884;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/py4zetCEYzA?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 737;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/oiLdWXLXDeA?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 316;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/Uhh_An7FGek?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 188;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/oiu0B1SIbag?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 92;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/YQEWgD_MBXE';
+const double _startSecondsfive = 00000000000000000000000000000; // 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

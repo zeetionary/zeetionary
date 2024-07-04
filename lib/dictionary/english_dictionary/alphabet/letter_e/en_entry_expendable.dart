@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexpediency extends StatefulWidget {
-  const EnglishEntryexpediency({super.key});
+class EnglishEntryexpendable extends StatefulWidget {
+  const EnglishEntryexpendable({super.key});
 
   @override
-  State<EnglishEntryexpediency> createState() => _EnglishEntryexpediencyState();
+  State<EnglishEntryexpendable> createState() => _EnglishEntryexpendableState();
 }
 
-class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
+class _EnglishEntryexpendableState extends State<EnglishEntryexpendable> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""expediency""");
+    await flutterTts.speak("""expendable""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """expediency""",
-                      // alsoEnglishWord: "also: expediency",
-                      britshText: """IpaUK: /ɪkˈspiːdiənsi/""",
-                      americanText: """IpaUS: /ɪkˈspiːdiənsi/""",
+                      word: """expendable""",
+                      // alsoEnglishWord: "also: expendable",
+                      britshText: """IpaUK: /ɪkˈspendəbl/""",
+                      americanText: """IpaUS: /ɪkˈspendəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "expediency";
+  final String keyword = "expendable";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,7 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He acted out of expediency, not principle.""");
+    await flutterTts.speak(
+        """Soldiers in the ordinary ranks were considered expendable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -245,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """Some of their critics claim that recent decisions about tax are are nothing more than political expediency.""");
+        """It is a sad moment when you realize you are expendable in your job.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "expediency", please follow LX instructions
+// With short examples define "expendable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,17 +874,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرژەوەندی، باش(بوون) پێ‌باش‌بوون، بەقازانج‌بوون، بەسەڵاح‌بوون، گونجاو(بوون)، پێویستی
+کوردی: بەکارنەهاتوو، بێ‌نرخ، فڕێدەنی، بێکارە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئەوەی کە شتێک بەسوودە یان پێویستە بۆ مەبەستێکی دیاریکراو، بەڵام هەمیشە گونجاو یان ڕاست نییە"""),
+                  """١. (ھاوەڵناو) شتێک/کەسێک کە دەکرێت وازی لێ بهێندرێت کە چی دیکە پێویست نییە، یان بکوژرێت یان لەناوببردرێت"""),
           SentencesRow(
-            englishText: """He acted out of expediency, not principle.""",
-            kurdishText:
-                """بۆ بەرژەوەندی خۆی هەنگاوی نا نەک بە پشت بەستن بە بنچینەکانی.""",
-            englishNote:
-                "This means that he made his decision based on what was easiest or most beneficial for him at that moment, rather than following a moral or ethical guideline.",
+            englishText:
+                """Soldiers in the ordinary ranks were considered expendable.""",
+            kurdishText: """سەربازانی پلەی ئاسایی بە فیدایی دادەنران.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -892,9 +891,9 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Some of their critics claim that recent decisions about tax are are nothing more than political expediency.""",
+                """It is a sad moment when you realize you are expendable in your job.""",
             kurdishText:
-                """هەندێک لە ڕەخنەگرانیان بانگەشەی ئەوە دەکەن کە بڕیارە تازەکان سەبارەت بە باج هیچ نییە جگە لە بەرژەوەندی‌خوازی سیاسی.""",
+                """ساتێکی ناخۆشە کە تێ دەگەیت لە کارەکەتدا نەویستراوی.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1677,8 +1676,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: expediency (Derived forms: expediencies)
-1. The quality of being suited to the end in view (= expedience)
+- Adjective: expendable
+1. Not inexhaustible; not reusable, designed for a single use
+ 
+2. (used of funds) remaining after taxes (= spendable)
+"expendable income";
+ 
+3. May be deliberately sacrificed to achieve an objective (= sacrificeable)
 """,
   );
 
@@ -1703,18 +1707,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/SjeS6gtPq8E?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 304;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/z3uvnwBMTdY?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 1726;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/-_PU0cRZ9wg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1082;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/1q4dUt1yK0g?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 113;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/SlfIOOTc6Og?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 240;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7uS7A4x31PY?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 773;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/Js2UoMSumx4?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 548;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/Q-nWA0WeF98?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 1711;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/y1rrxD6E7aA?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 117;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/66B3i10hwiU?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 6;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/EmT0i0xG6zg?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 5383;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/AqqaYs7LjlM?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 1154;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

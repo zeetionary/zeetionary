@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexpediency extends StatefulWidget {
-  const EnglishEntryexpediency({super.key});
+class EnglishEntryexpend extends StatefulWidget {
+  const EnglishEntryexpend({super.key});
 
   @override
-  State<EnglishEntryexpediency> createState() => _EnglishEntryexpediencyState();
+  State<EnglishEntryexpend> createState() => _EnglishEntryexpendState();
 }
 
-class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
+class _EnglishEntryexpendState extends State<EnglishEntryexpend> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""expediency""");
+    await flutterTts.speak("""expend""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexpediencyState extends State<EnglishEntryexpediency> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """expediency""",
-                      // alsoEnglishWord: "also: expediency",
-                      britshText: """IpaUK: /ɪkˈspiːdiənsi/""",
-                      americanText: """IpaUS: /ɪkˈspiːdiənsi/""",
+                      word: """expend""",
+                      // alsoEnglishWord: "also: expend",
+                      britshText: """IpaUK: /ɪkˈspend/""",
+                      americanText: """IpaUS: /ɪkˈspend/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "expediency";
+  final String keyword = "expend";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,15 +237,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He acted out of expediency, not principle.""");
+    await flutterTts.speak(
+        """She expended all her efforts on the care of home and children.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """Some of their critics claim that recent decisions about tax are are nothing more than political expediency.""");
+    await flutterTts
+        .speak("""Most animals expend a lot of energy searching for food.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "expediency", please follow LX instructions
+// With short examples define "expend", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,17 +874,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرژەوەندی، باش(بوون) پێ‌باش‌بوون، بەقازانج‌بوون، بەسەڵاح‌بوون، گونجاو(بوون)، پێویستی
+کوردی: 
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) ئەوەی کە شتێک بەسوودە یان پێویستە بۆ مەبەستێکی دیاریکراو، بەڵام هەمیشە گونجاو یان ڕاست نییە"""),
+              text: """١. (کردار) بەکارهێنانی کات، پارە، وزە، هتد"""),
           SentencesRow(
-            englishText: """He acted out of expediency, not principle.""",
-            kurdishText:
-                """بۆ بەرژەوەندی خۆی هەنگاوی نا نەک بە پشت بەستن بە بنچینەکانی.""",
-            englishNote:
-                "This means that he made his decision based on what was easiest or most beneficial for him at that moment, rather than following a moral or ethical guideline.",
+            englishText:
+                """She expended all her efforts on the care of home and children.""",
+            kurdishText: """تەواوی وزەی بۆ چاودێری ماڵ و منداڵ بەکارهێنا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -892,9 +890,9 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Some of their critics claim that recent decisions about tax are are nothing more than political expediency.""",
+                """Most animals expend a lot of energy searching for food.""",
             kurdishText:
-                """هەندێک لە ڕەخنەگرانیان بانگەشەی ئەوە دەکەن کە بڕیارە تازەکان سەبارەت بە باج هیچ نییە جگە لە بەرژەوەندی‌خوازی سیاسی.""",
+                """زۆر ئاژەڵ بەشێکی زۆر وزە بۆ گەڕان بە دوای خواردندا خەرج دەکەن.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1677,8 +1675,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: expediency (Derived forms: expediencies)
-1. The quality of being suited to the end in view (= expedience)
+- Verb: expend (Derived forms: expended, expending, expends)
+1. Spend time doing something so that less or no time is left (= use)
+"The legislature expended its time on school questions";
+ 
+2. Pay out (= spend, drop)
+"expend money";
 """,
   );
 
@@ -1703,18 +1705,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/SjeS6gtPq8E?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 304;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/z3uvnwBMTdY?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 1726;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/-_PU0cRZ9wg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1082;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/1q4dUt1yK0g?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 113;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/SlfIOOTc6Og?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 240;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/7uS7A4x31PY?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 773;
+const String _videoIdend = 'VIDEO_IDhttps://youtu.be/uCppmoZiXUY?t=';
+const double _startSecondsend = 000000000000000000000000000000; // 235;
+const String _videoIdone = 'VIDEO_Dhttps://youtu.be/TLQkoZX9Mog?t=';
+const double _startSecondsone = 00000000000000000000000000000; // 245;
+const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/Ug9zGBorj9o?t=';
+const double _startSecondstwo = 00000000000000000000000000000; // 220;
+const String _videoIdthree = 'VIDEOhttps://youtu.be/AGqUCKin4X0?t=';
+const double _startSecondsthree = 000000000000000000000000000; // 283;
+const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/woD6RYptp58?t=';
+const double _startSecondsfour = 000000000000000000000000000000; // 684;
+const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/n9IxomBusuw?t=';
+const double _startSecondsfive = 00000000000000000000000000000; // 6457;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

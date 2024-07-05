@@ -465,8 +465,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakeats3("en-GB"),
                     onPressedAmerican: () => speakeats3("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """Would you like something to eat?""",
@@ -474,8 +472,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakeats4("en-GB"),
                     onPressedAmerican: () => speakeats4("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -484,8 +480,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakeats5("en-GB"),
                     onPressedAmerican: () => speakeats5("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """Do you have anything to eat?""",
@@ -493,8 +487,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakeats6("en-GB"),
                     onPressedAmerican: () => speakeats6("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """Everyone happily ate the huge meal.""",
@@ -502,8 +494,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakeats7("en-GB"),
                     onPressedAmerican: () => speakeats7("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """He'd barely eaten any breakfast.""",
@@ -511,8 +501,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakeats8("en-GB"),
                     onPressedAmerican: () => speakeats8("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """I'm trying to eat more healthily.""",

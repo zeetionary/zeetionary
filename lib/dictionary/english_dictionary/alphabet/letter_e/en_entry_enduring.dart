@@ -266,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەرمێن، خوڕاگر، بەرگەگر، خۆگیر، دەربردوو، کۆڵ‌نەدەر، بەتاقەت، بەکێش، بەگیر، هەرمان، داکوتراو، بەندبوو، زۆرهەڵکردوو، بەردەوام، بەدەوام، جێگیر، ڕاوەستاو، زیاترخایاندوو، چەق‌بەستوو
+کوردی: ھەرمێن، خوڕاگر، بەرگەگر، خۆگیر، دەربردوو، کۆڵ‌نەدەر، بەتاقەت، بەکێش، بەگیر، ھەرمان، داکوتراو، بەندبوو، زۆرھەڵکردوو، بەردەوام، بەدەوام، جێگیر، ڕاوەستاو، زیاترخایاندوو، چەق‌بەستوو
 """),
           const DefinitionKurdish(
               text:
@@ -281,7 +281,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """What is the reason for the game's enduring appeal?""",
-            kurdishText: """هۆکاری چێژی درێژخایەنی یارییەکە چییە؟""",
+            kurdishText: """ھۆکاری چێژی درێژخایەنی یارییەکە چییە؟""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -290,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """It's perhaps the only enduring work of art from the period.""",
             kurdishText:
-                """بە مەزەندەیی تەنها کاری هونەری ماوەوەیە سەردەمەکەیە.""",
+                """بە مەزەندەیی تەنھا کاری ھونەری ماوەوەیە سەردەمەکەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

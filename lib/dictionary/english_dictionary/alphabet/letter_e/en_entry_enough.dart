@@ -345,7 +345,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بە ڕادەی پێویست،	بەش‌کردوو، تەواو، بەس، ئەندازە، سەروزیاد
 """),
-          const DefinitionKurdish(text: """١. (دیارخەر) پێنناسە"""),
+          const DefinitionKurdish(text: """١. (دیارخەر) لە پێش ناوی کۆ یان نەژمێردراو بەکاردێت بۆ گوتنی 'ئەوەندەی کە پێویستە یان دەویسترێت'"""),
           SentencesRow(
             englishText: """Have you made enough copies?""",
             kurdishText: """بەشی پێویست کۆپیت درووست کردووە؟""",
@@ -355,14 +355,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Is there enough room for me?""",
-            kurdishText: """شوێنی پێویست بۆم هەیە؟""",
+            kurdishText: """شوێنی پێویست بۆم ھەیە؟""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """I didn't have enough clothes to last a week.""",
-            kurdishText: """بەشی پێویست جلم پێنەبوو کە بۆ هەفتەیەک بخایەنێت.""",
+            kurdishText: """بەشی پێویست جلم پێنەبوو کە بۆ ھەفتەیەک بخایەنێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Don't ask me to do it. I've got enough problems as it is.""",
-            kurdishText: """بە من مەڵێ بیکەم. ئێستا بەشی پێویست کێشەم هەیە.""",
+            kurdishText: """بە من مەڵێ بیکەم. ئێستا بەشی پێویست کێشەم ھەیە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -386,7 +386,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """There was nowhere near enough for everybody.""",
-            kurdishText: """هیچ بەشی پێویست بۆ هەموان نەبوو.""",
+            kurdishText: """ھیچ بەشی پێویست بۆ ھەموان نەبوو.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -395,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We've nearly run out of paper. Do you think there's enough for today?""",
             kurdishText:
-                """خەریکە کاغەزمان نامێنێت. پێتوایە بەشی ئەمڕۆمان هەبێت؟""",
+                """خەریکە کاغەزمان نامێنێت. پێتوایە بەشی ئەمڕۆمان ھەبێت؟""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -403,7 +403,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """٣. (ھاوەڵکار) بە ئاستی پێویست"""),
           SentencesRow(
             englishText: """I hadn't trained enough for the game.""",
-            kurdishText: """بەشی پێویست بۆ یارییەکە ڕاهێنانم نەکردبوو.""",
+            kurdishText: """بەشی پێویست بۆ یارییەکە ڕاھێنانم نەکردبوو.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I hope my job's safe. Life is hard enough as it is.""",
             kurdishText:
-                """هیوادارم کارەکەم سەلامەت ببێت. ژاین بەپێی ئەوەی هەیە قورسە بۆ خۆی.""",
+                """ھیوادارم کارەکەم سەلامەت ببێت. ژاین بەپێی ئەوەی ھەیە قورسە بۆ خۆی.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -497,7 +497,7 @@ ${englishMeaningConst.text}
 1. Sufficient for the purpose (= adequate, nuff [non-standard])
 "enough food"; "food enough";
 
-- Noun: enough (Derived forms: enoughs)
+- Noun: enough (derived forms: enoughs)
 1. An adequate quantity; a quantity that is large enough to achieve a purpose (= sufficiency, nuff [non-standard])
 "enough is as good as a feast";
 """,

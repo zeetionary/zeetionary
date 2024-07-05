@@ -5455,323 +5455,756 @@ final List<String> allWordsEnglish = [
   "DCT",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
 
-
-
-
-
   "dwarf", // dwarf
-"dwell", // dwell
-"dweller", // dweller
-"dwelling", // dwelling
-"dwindle", // dwindle
-"dye", // dye
-"dyed_in_the_wool", // dyedinthewool
-"dyke", // dyke
-"dynamic", // dynamic
-"dynamically", // dynamically
-"dynamism", // dynamism
-"dynamite", // dynamite
-"dynamo", // dynamo
-"dynasty", // dynasty
-"dysentery", // dysentery
-"dyslexia", // dyslexia
-"dyslexic", // dyslexic
-"e", // e
-"E-number", // enumber", // ffff E-number
-"e-", // etwo", // ffff e-
-"each", // each
-"each other", // eachother", // فففف each other
-"eager", // eager
-"eagerly", // eagerly
-"eagerness", // eagerness
-"eagle", // eagle
-"eagle-eyed", // eagleeyed", // فففف eagle-eyed
-"ear", // ear
-"earache", // earache
-"eardrum", // eardrum
-"earlobe", // earlobe
-"earring", // earring
-"earl", // earl
-"earldom", // earldom
-"early", // early
-"early warning", // earlywarning", // فففف early warning
-"earmark", // earmark
-"earn", // earn
-"earner", // earner
-"earnings", // earnings
-"earnest", // earnest
-"earnestly", // earnestly
-"earnestness", // earnestness
-"earth", // earth
-"earthly", // earthly
-"earthquake", // earthquake
-"earthworm", // earthworm
-"earthy", // earthy
-"earthenware", // earthenware
-"ease", // ease
-"easel", // easel
-"east", // east
-"eastbound", // eastbound
-"easterly", // easterly
-"eastern", // eastern
-"eastward", // eastward
-"Easter", // easter", // ffff Easter
-"easy", // easy
-"easily", // easily
-"easy chair", // easychair", // فففف easy chair
-"easy-going", // easygoing", // فففف easy-going
-"eat", // eat
-"eatable", // eatable
-"eater", // eater
-"eaves", // eaves
-"eavesdrop", // eavesdrop
-"eavesdropper", // eavesdropper
-"ebb", // ebb
-"ebony", // ebony
-"eccentric", // eccentric
-"eccentricity", // eccentricity
-"ecclesiastical", // ecclesiastical
-"echo", // echo
-"eclair", // eclair
-"eclipse", // eclipse
-"eco", // eco", // فففف eco-
-"eco_friendly", // ecofriendly
-"ecology", // ecology
-"ecological", // ecological
-"ecologist", // ecologist
-"economic", // economic
-"economical", // economical
-"economically", // economically
-"economics", // economics
-"economist", // economist
-"economize", // economize
-"economy", // economy
-"ecotourism", // ecotourism
-"ecotourist", // ecotourist
-"ecstasy", // ecstasy
-"ecstatic", // ecstatic
-"ecstatically", // ecstatically
-"ectopic", // ectopic
-"eddy", // eddy
-"edge", // edge
-"edging", // edging
-"edgy", // edgy
-"edible", // edible
-"edit", // edit
-"edition", // edition
-"editor", // editor
-"editorial", // editorial
-"educate", // educate
-"education", // education
-"educational", // educational
-"eel", // eel
-"eerie", // eerie
-"eerily", // eerily
-"effect", // effect
-"effective", // effective
-"effectively", // effectively
-"effectiveness", // effectiveness
-"effectual", // effectual
-"effeminate", // effeminate
-"effervescent", // effervescent
-"effervescence", // effervescence
-"efficiency", // efficiency
-"efficient", // efficient
-"efficiently", // efficiently
-"effigy", // effigy
-"effort", // effort
-"effortless", // effortless
-"effortlessly", // effortlessly
-"effrontery", // effrontery
-"effusive", // effusive
-"effusively", // effusively
-"EFL", // efl", // ffff EFL
-"e.g.", // eg", // فففف e.g.
-"egg", // egg
-"egg cup", // eggcup", // فففف egg cup
-"egghead", // egghead
-"ego", // ego
-"egocentric", // egocentric
-"egoism", // egoism
-"egoist", // egoist
-"eiderdown", // eiderdown
-"eight", // eight
-"eighth", // eighth
-"eighteen", // eighteen
-"eighteenth", // eighteenth
-"eightieth", // eightieth
-"eighty", // eighty
-"either", // either
-"eject", // eject
-"ejection", // ejection
-"ejection seat", // ejectionseat", // فففف ejection seat
-"elaborate", // elaborate
-"elaborately", // elaborately
-"elaboration", // elaboration
-"elapse", // elapse
-"elastic", // elastic
-"elasticity", // elasticity
-"elated", // elated
-"elation", // elation
-"elbow", // elbow
-"elbow grease", // elbowgrease", // فففف elbow grease
-"elbow room", // elbowroom", // فففف elbow room
-"elder", // elder
-"elder statesman", // elderstatesman", // فففف elder statesman
-"elderly", // elderly
-"eldest", // eldest
-"elect", // elect
-"elector", // elector
-"electoral", // electoral
-"electorate", // electorate
-"election", // election
-"electric", // electric
-"electrical", // electrical
-"electrically", // electrically
-"electric chair", // electricchair", // فففف electric chair
-"electric shock", // electricshock", // فففف electric shock
-"electrician", // electrician
-"electricity", // electricity
-"electrify", // electrify
-"electrocute", // electrocute
-"electrocution", // electrocution
-"electrode", // electrode
-"electromagnetic", // electromagnetic
-"electron", // electron
-"electronic", // electronic
-"electronically", // electronically
-"electronics", // electronics
-"elegant", // elegant
-"elegance", // elegance
-"elegantly", // elegantly
-"element", // element
-"elementary", // elementary
-"elementary school", // elementaryschool", // فففف elementary school
-"elephant", // elephant
-"elevate", // elevate
-"elevation", // elevation
-"eleven", // eleven
-"elevenses", // elevenses
-"eleventh", // eleventh
-"elf", // elf
-"elicit", // elicit
-"eligibility", // eligibility
-"eligible", // eligible
-"eliminate", // eliminate
-"elimination", // elimination
-"elite", // elite
-"elitism", // elitism
-"elitist", // elitist
-"elk", // elk
-"ellipse", // ellipse
-"elliptical", // elliptical
-"elm", // elm
-"elocution", // elocution
-"elongate", // elongate
-"elope", // elope
-"elopement", // elopement
-"eloquence", // eloquence
-"eloquent", // eloquent
-"eloquently", // eloquently
-"else", // else
-"elsewhere", // elsewhere
-"elt", // elt", // ffff ELT
-"elucidate", // elucidate
-"elucidation", // elucidation
-"elude", // elude
-"elusive", // elusive
-"emaciated", // emaciated
-"emaciation", // emaciation
-"email", // email
-"emanate", // emanate
-"emancipate", // emancipate
-"emancipation", // emancipation
-"embalm", // embalm
-"embankment", // embankment
-"embargo", // embargo
-"embark", // embark
-"embarkation", // embarkation
-"embarrass", // embarrass
-"embarrassing", // embarrassing
-"embarrassingly", // embarrassingly
-"embarrassment", // embarrassment
-"embassy", // embassy
-"embed", // embed
-"embellish", // embellish
-"embellishment", // embellishment
-"ember", // ember
-"embezzle", // embezzle
-"embitter", // embitter
-"emblem", // emblem
-"embodiment", // embodiment
-"embody", // embody
-"emboss", // emboss
-"embossed", // embossed
-"embrace", // embrace
-"embroider", // embroider
-"embroidery", // embroidery
-"embryo", // embryo
-"embryonic", // embryonic
-"emerald", // emerald
-"emerge", // emerge
-"emergence", // emergence
-"emergent", // emergent
-"emergency", // emergency
-"emergency room", // emergencyroom", // فففف emergency room
-"emigrant", // emigrant
-"emigrate", // emigrate
-"emigration", // emigration
-"eminent", // eminent
-"eminence", // eminence
-"eminently", // eminently
-"emir", // emir
-"emirate", // emirate
-"emit", // emit
-"emission", // emission
-"emoticon", // emoticon
-"emotion", // emotion
-"emotional", // emotional
-"emotionally", // emotionally
-"emotive", // emotive
-"emperor", // emperor
-"emphasis", // emphasis
-"emphasize", // emphasize
-"emphatic", // emphatic
-"emphatically", // emphatically
-"empire", // empire
-"empirical", // empirical
-"employ", // employ
-"employable", // employable
-"employee", // employee
-"employer", // employer
-"employment", // employment
-"empower", // empower",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "dwell", // dwell
+  "dweller", // dweller
+  "dwelling", // dwelling
+  "dwindle", // dwindle
+  "dye", // dye
+  "dyed_in_the_wool", // dyedinthewool
+  "dyke", // dyke
+  "dynamic", // dynamic
+  "dynamically", // dynamically
+  "dynamism", // dynamism
+  "dynamite", // dynamite
+  "dynamo", // dynamo
+  "dynasty", // dynasty
+  "dysentery", // dysentery
+  "dyslexia", // dyslexia
+  "dyslexic", // dyslexic
+  "e", // e
+  "E-number", // enumber", // ffff E-number
+  "e-", // etwo", // ffff e-
+  "each", // each
+  "each other", // eachother", // فففف each other
+  "eager", // eager
+  "eagerly", // eagerly
+  "eagerness", // eagerness
+  "eagle", // eagle
+  "eagle-eyed", // eagleeyed", // فففف eagle-eyed
+  "ear", // ear
+  "earache", // earache
+  "eardrum", // eardrum
+  "earlobe", // earlobe
+  "earring", // earring
+  "earl", // earl
+  "earldom", // earldom
+  "early", // early
+  "early warning", // earlywarning", // فففف early warning
+  "earmark", // earmark
+  "earn", // earn
+  "earner", // earner
+  "earnings", // earnings
+  "earnest", // earnest
+  "earnestly", // earnestly
+  "earnestness", // earnestness
+  "earth", // earth
+  "earthly", // earthly
+  "earthquake", // earthquake
+  "earthworm", // earthworm
+  "earthy", // earthy
+  "earthenware", // earthenware
+  "ease", // ease
+  "easel", // easel
+  "east", // east
+  "eastbound", // eastbound
+  "easterly", // easterly
+  "eastern", // eastern
+  "eastward", // eastward
   "eastwards",
+  "Easter", // easter", // ffff Easter
+  "easy", // easy
+  "easily", // easily
+  "easy chair", // easychair", // فففف easy chair
+  "easy-going", // easygoing", // فففف easy-going
+  "eat", // eat
+  "eatable", // eatable
+  "eater", // eater
+  "eaves", // eaves
+  "eavesdrop", // eavesdrop
+  "eavesdropper", // eavesdropper
+  "ebb", // ebb
+  "ebony", // ebony
+  "eccentric", // eccentric
+  "eccentricity", // eccentricity
+  "ecclesiastical", // ecclesiastical
+  "echo", // echo
+  "eclair", // eclair
+  "eclipse", // eclipse
+  "eco", // eco", // فففف eco-
+  "eco_friendly", // ecofriendly
+  "ecology", // ecology
+  "ecological", // ecological
+  "ecologist", // ecologist
+  "economic", // economic
+  "economical", // economical
+  "economically", // economically
+  "economics", // economics
+  "economist", // economist
+  "economize", // economize
+  "economy", // economy
+  "ecotourism", // ecotourism
+  "ecotourist", // ecotourist
+  "ecstasy", // ecstasy
+  "ecstatic", // ecstatic
+  "ecstatically", // ecstatically
+  "ectopic", // ectopic
+  "eddy", // eddy
+  "edge", // edge
+  "edging", // edging
+  "edgy", // edgy
+  "edible", // edible
+  "edit", // edit
+  "edition", // edition
+  "editor", // editor
+  "editorial", // editorial
+  "educate", // educate
+  "education", // education
+  "educational", // educational
+  "eel", // eel
+  "eerie", // eerie
+  "eerily", // eerily
+  "effect", // effect
+  "effective", // effective
+  "effectively", // effectively
+  "effectiveness", // effectiveness
+  "effectual", // effectual
+  "effeminate", // effeminate
+  "effervescent", // effervescent
+  "effervescence", // effervescence
+  "efficiency", // efficiency
+  "efficient", // efficient
+  "efficiently", // efficiently
+  "effigy", // effigy
+  "effort", // effort
+  "effortless", // effortless
+  "effortlessly", // effortlessly
+  "effrontery", // effrontery
+  "effusive", // effusive
+  "effusively", // effusively
+  "EFL", // efl", // ffff EFL
+  "e.g.", // eg", // فففف e.g.
+  "egg", // egg
+  "egg cup", // eggcup", // فففف egg cup
+  "egghead", // egghead
   "eggplant",
+  "ego", // ego
+  "egocentric", // egocentric
+  "egoism", // egoism
+  "egoist", // egoist
   "egotism",
   "egotist",
+  "eiderdown", // eiderdown
+  "eight", // eight
+  "eighth", // eighth
+  "eighteen", // eighteen
+  "eighteenth", // eighteenth
+  "eightieth", // eightieth
+  "eighty", // eighty
+  "either", // either
+  "eject", // eject
+  "ejection", // ejection
+  "ejection seat", // ejectionseat", // فففف ejection seat
+  "elaborate", // elaborate
+  "elaborately", // elaborately
+  "elaboration", // elaboration
+  "elapse", // elapse
+  "elastic", // elastic
   "elastic band",
+  "elasticity", // elasticity
+  "elated", // elated
+  "elation", // elation
+  "elbow", // elbow
+  "elbow grease", // elbowgrease", // فففف elbow grease
+  "elbow room", // elbowroom", // فففف elbow room
+  "elder", // elder
+  "elder statesman", // elderstatesman", // فففف elder statesman
+  "elderly", // elderly
+  "eldest", // eldest
+  "elect", // elect
+  "elector", // elector
+  "electoral", // electoral
+  "electorate", // electorate
+  "election", // election
+  "electric", // electric
+  "electrical", // electrical
+  "electrically", // electrically
+  "electric chair", // electricchair", // فففف electric chair
+  "electric shock", // electricshock", // فففف electric shock
+  "electrician", // electrician
+  "electricity", // electricity
+  "electrify", // electrify
+  "electrocute", // electrocute
+  "electrocution", // electrocution
+  "electrode", // electrode
+  "electromagnetic", // electromagnetic
+  "electron", // electron
+  "electronic", // electronic
+  "electronically", // electronically
+  "electronics", // electronics
+  "elegant", // elegant
+  "elegance", // elegance
+  "elegantly", // elegantly
+  "element", // element
+  "elementary", // elementary
+  "elementary school", // elementaryschool", // فففف elementary school
+  "elephant", // elephant
+  "elevate", // elevate
+  "elevation", // elevation
   "elevator",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  "eraser",
+  "eleven", // eleven
+  "elevenses", // elevenses
+  "eleventh", // eleventh
+  "elf", // elf
+  "elicit", // elicit
+  "eligibility", // eligibility
+  "eligible", // eligible
+  "eliminate", // eliminate
+  "elimination", // elimination
+  "elite", // elite
+  "elitism", // elitism
+  "elitist", // elitist
+  "elk", // elk
+  "ellipse", // ellipse
+  "elliptical", // elliptical
+  "elm", // elm
+  "elocution", // elocution
+  "elongate", // elongate
+  "elope", // elope
+  "elopement", // elopement
+  "eloquence", // eloquence
+  "eloquent", // eloquent
+  "eloquently", // eloquently
+  "else", // else
+  "elsewhere", // elsewhere
+  "elt", // elt", // ffff ELT
+  "elucidate", // elucidate
+  "elucidation", // elucidation
+  "elude", // elude
+  "elusive", // elusive
+  "emaciated", // emaciated
+  "emaciation", // emaciation
+  "email", // email
+  "emanate", // emanate
+  "emancipate", // emancipate
+  "emancipation", // emancipation
+  "embalm", // embalm
+  "embankment", // embankment
+  "embargo", // embargo
+  "embark", // embark
+  "embarkation", // embarkation
+  "embarrass", // embarrass
+  "embarrassing", // embarrassing
+  "embarrassingly", // embarrassingly
+  "embarrassment", // embarrassment
+  "embassy", // embassy
+  "embed", // embed
+  "embellish", // embellish
+  "embellishment", // embellishment
+  "ember", // ember
+  "embezzle", // embezzle
+  "embitter", // embitter
+  "emblem", // emblem
+  "embodiment", // embodiment
+  "embody", // embody
+  "emboss", // emboss
+  "embossed", // embossed
+  "embrace", // embrace
+  "embroider", // embroider
+  "embroidery", // embroidery
+  "embryo", // embryo
+  "embryonic", // embryonic
+  "emerald", // emerald
+  "emerge", // emerge
+  "emergence", // emergence
+  "emergent", // emergent
+  "emergency", // emergency
+  "emergency room", // emergencyroom", // فففف emergency room
+  "emigrant", // emigrant
+  "emigrate", // emigrate
+  "emigration", // emigration
+  "eminent", // eminent
+  "eminence", // eminence
+  "eminently", // eminently
+  "emir", // emir
+  "emirate", // emirate
+  "emit", // emit
+  "emission", // emission
+  "emoticon", // emoticon
+  "emotion", // emotion
+  "emotional", // emotional
+  "emotionally", // emotionally
+  "emotive", // emotive
+  "emperor", // emperor
+  "emphasis", // emphasis
+  "emphasize", // emphasize
+  "emphatic", // emphatic
+  "emphatically", // emphatically
+  "empire", // empire
+  "empirical", // empirical
+  "employ", // employ
+  "employable", // employable
+  "employee", // employee
+  "employer", // employer
+  "employment", // employment
+  "empower", // empower",
+  "empress", // empress
+  "emptiness", // emptiness
+  "empty", // empty
+  "empty-handed", // emptyhanded", //// فففف empty-handed
+  "empty-headed", // emptyheaded", //// فففف empty-headed
+  "emu", // emu
+  "emulate", // emulate
+  "emulation", // emulation
+  "emulsifier", // emulsifier
+  "emulsion", // emulsion
+  "enable", // enable
+  "enabled", // enabled
+  "enamel", // enamel
+  "enamelled", // enamelled
+  "enamoured", // enamoured
+  "enchant", // enchant
+  "enchanted", // enchanted
+  "enchanting", // enchanting
+  "enchantment", // enchantment
+  "encircle", // encircle
+  "enclave", // enclave
+  "enclose", // enclose
+  "enclosure", // enclosure
+  "encode", // encode
+  "encore", // encore
+  "encounter", // encounter
+  "encourage", // encourage
+  "encouragement", // encouragement
+  "encouraging", // encouraging
+  "encroach", // encroach
+  "encyclopedia", // encyclopedia
+  "encyclopedic", // encyclopedic
+  "end", // end
+  "ending", // ending
   "endive",
+  "endless", // endless
+  "endlessly", // endlessly
+  "endanger", // endanger
+  "endearment", // endearment
+  "endeavour", // endeavour
+  "endemic", // endemic
+  "endorse", // endorse
+  "endorsement", // endorsement
+  "endow", // endow
+  "endowment", // endowment
+  "endure", // endure
+  "endurance", // endurance
+  "enduring", // enduring
+  "enemy", // enemy
+  "energy", // energy
+  "energetic", // energetic
+  "energetically", // energetically
+  "enfold", // enfold
+  "enforce", // enforce
+  "enforceable", // enforceable
+  "enforcement", // enforcement
+  "engage", // engage
+  "engaged", // engaged
+  "engagement", // engagement
+  "engaging", // engaging
+  "engine", // engine
+  "engine driver", // enginedriver", //// فففف engine driver
+  "engineer", // engineer
+  "engineering", // engineering
+  "English", // english", //// فففف English
+  "engrave", // engrave
+  "engraver", // engraver
+  "engraving", // engraving
+  "engross", // engross
+  "engulf", // engulf
+  "enhance", // enhance
+  "enhancement", // enhancement
+  "enigma", // enigma
+  "enigmatic", // enigmatic
+  "enigmatically", // enigmatically
+  "enjoy", // enjoy
+  "enjoyable", // enjoyable
+  "enjoyably", // enjoyably
+  "enjoyment", // enjoyment
+  "enlarge", // enlarge
+  "enlargement", // enlargement
+  "enlighten", // enlighten
+  "enlightenment", // enlightenment
+  "enlist", // enlist
+  "enlistment", // enlistment
+  "enormity", // enormity
+  "enormous", // enormous
+  "enormously", // enormously
+  "enough", // enough
+  "enquire", // enquire
+  "enquiring", // enquiring
+  "enquiry", // enquiry
+  "enrage", // enrage
+  "enrich", // enrich
+  "enrichment", // enrichment
+  "enrol", // enrol
+  "enrolment", // enrolment
+  "en route", // enroute", //// فففف en route
+  "ensemble", // ensemble
+  "ensign", // ensign
+  "ensue", // ensue
+  "en suite", // ensuite", //// فففف en suite
+  "ensure", // ensure
+  "entail", // entail
+  "entangled", // entangled
+  "entanglement", // entanglement
+  "enter", // enter
+  "enterprise", // enterprise
+  "enterprising", // enterprising
+  "entertain", // entertain
+  "entertainer", // entertainer
+  "entertaining", // entertaining
+  "entertainment", // entertainment
+  "enthral", // enthral
+  "enthuse", // enthuse
+  "enthusiasm", // enthusiasm
+  "enthusiast", // enthusiast
+  "enthusiastic", // enthusiastic
+  "enthusiastically", // enthusiastically
+  "entice", // entice
+  "enticement", // enticement
+  "entire", // entire
+  "entirely", // entirely
+  "entirety", // entirety
+  "entitle", // entitle
+  "entitlement", // entitlement
+  "entity", // entity
+  "entourage", // entourage
+  "entrance", // entrance
+  "entrant", // entrant
+  "entreat", // entreat
+  "entreaty", // entreaty
+  "entrenched", // entrenched
+  "entrepreneur", // entrepreneur
+  "entrust", // entrust
+  "entry", // entry
+  "enumerate", // enumerate
+  "enunciate", // enunciate
+  "enunciation", // enunciation
+  "envelop", // envelop
+  "envelopment", // envelopment
+  "envelope", // envelope
+  "enviable", // enviable
+  "envious", // envious
+  "enviously", // enviously
+  "environment", // environment
+  "environmental", // environmental
+  "environmentalist", // environmentalist
+  "environmentally", // environmentally
+  "environmentally-friendly", // environmentallyfriendly", //// فففف environmentally-friendly
+  "envisage", // envisage
+  "envoy", // envoy
+  "envy", // envy
+  "enzyme", // enzyme
+  "epaulette", // epaulette
+  "ephemeral", // ephemeral
+  "epic", // epic
+  "epidemic", // epidemic
+  "epilepsy", // epilepsy
+  "epileptic", // epileptic
+  "epilogue", // epilogue
+  "episode", // episode
+  "epitaph", // epitaph
+  "epithet", // epithet
+  "epitome", // epitome
+  "epitomize", // epitomize
+  "epoch", // epoch
+  "equable", // equable
+  "equal", // equal
+  "equality", // equality
+  "equalize", // equalize
+  "equally", // equally
+  "equate", // equate
+  "equation", // equation
+  "equator", // equator
+  "equatorial", // equatorial
+  "equestrian", // equestrian
+  "equilibrium", // equilibrium
+  "equinox", // equinox
+  "equip", // equip
+  "equipment", // equipment
+  "equitable", // equitable
+  "equity", // equity
+  "equivalent", // equivalent
+  "equivocal", // equivocal
+  "equivocate", // equivocate
+  "era", // era
+  "eradicate", // eradicate
+  "eradication", // eradication
+  "erase", // erase
+  "eraser",
+  "erect", // erect
+  "erection", // erection
+  "erode", // erode
+  "erosion", // erosion
+  "erotic", // erotic
+  "err", // err
+  "errand", // errand
+  "erratic", // erratic
+  "erratically", // erratically
+  "erroneous", // erroneous
+  "error", // error
+  "erudite", // erudite
+  "erupt", // erupt
+  "eruption", // eruption
+  "escalate", // escalate
+  "escalation", // escalation
+  "escalator", // escalator
+  "escapade", // escapade
+  "escape", // escape
+  "escapism", // escapism
+  "escapist", // escapist
+  "escort", // escort
   "esophagus",
+  "esoteric", // esoteric
+  "especially", // especially
+  "espionage", // espionage
+  "essay", // essay
+  "essayist", // essayist
+  "essence", // essence
+  "essential", // essential
+  "essentially", // essentially
+  "establish", // establish
+  "establishment", // establishment
+  "estate", // estate
+  "estate agent", // estateagent", //// فففف estate agent
+  "estate car", // estatecar", //// فففف estate car
+  "esteem", // esteem
   "esthetic",
+  "estimate", // estimate
+  "estimation", // estimation
+  "estuary", // estuary
+  "etc.", // etc", //// فففف etc.
+  "etch", // etch
+  "etching", // etching
+  "eternal", // eternal
+  "eternally", // eternally
+  "eternity", // eternity
+  "ether", // ether
+  "ethereal", // ethereal
+  "Ethernet", // ethernet", //// فففف Ethernet
+  "ethic", // ethic
+  "ethical", // ethical
+  "ethically", // ethically
+  "ethnic", // ethnic
+  "ethnically", // ethnically
+  "etiquette", // etiquette
+  "etymology", // etymology
+  "eucalyptus", // eucalyptus
+  "euphemism", // euphemism
+  "euphemistic", // euphemistic
+  "euphoria", // euphoria
+  "euphoric", // euphoric
+  "euro", // euro
+  "European", // european", //// ffff European
+  "the European Union", // theeuropeanunion", //// ffff the European Union
+  "euthanasia", // euthanasia
+  "evacuate", // evacuate
+  "evacuation", // evacuation
+  "evade", // evade
+  "evaluate", // evaluate
+  "evaluation", // evaluation
+  "evangelical", // evangelical
+  "evangelist", // evangelist
+  "evangelistic", // evangelistic
+  "evaporate", // evaporate
+  "evaporation", // evaporation
+  "evasion", // evasion
+  "evasive", // evasive
+  "evasively", // evasively
+  "eve", // eve
+  "even", // even
+  "even-handed", // evenhanded", //// فففف even-handed
+  "evenly", // evenly
+  "evenness", // evenness
+  "even-tempered", // eventempered", //// فففف even-tempered
+  "evening", // evening
+  "evening dress", // eveningdress", //// ffff evening dress
   "evening gown",
-  "exam",
-  "inquiry",
+  "event", // event
+  "eventful", // eventful
+  "eventual", // eventual
+  "eventuality", // eventuality
+  "eventually", // eventually
+  "ever", // ever
+  "evergreen", // evergreen
+  "everlasting", // everlasting
+  "every", // every
+  "everybody", // everybody
+  "everyday", // everyday
   "everyone",
+  "everything", // everything
+  "everywhere", // everywhere
+  "evict", // evict
+  "eviction", // eviction
+  "evidence", // evidence
+  "evident", // evident
+  "evidently", // evidently
+  "evil", // evil
+  "evilly", // evilly
+  "evocative", // evocative
+  "evoke", // evoke
+  "evolution", // evolution
+  "evolve", // evolve
+  "ewe", // ewe
+  "exacerbate", // exacerbate
+  "exact", // exact
+  "exactitude", // exactitude
+  "exactly", // exactly
+  "exactness", // exactness
+  "exaggerate", // exaggerate
+  "exaggeration", // exaggeration
+  "exam",
+  "examination", // examination
+  "examine", // examine
+  "examiner", // examiner
+  "example", // example
+  "exasperate", // exasperate
+  "exasperation", // exasperation
+  "excavate", // excavate
+  "excavation", // excavation
+  "excavator", // excavator
+  "exceed", // exceed
+  "exceedingly", // exceedingly
+  "excel", // excel
+  "excellent", // excellent
+  "excellence", // excellence
+  "excellently", // excellently
+  "except", // except
+  "exception", // exception
+  "exceptional", // exceptional
+  "exceptionally", // exceptionally
+  "excerpt", // excerpt
+  "excess", // excess
+  "excessive", // excessive
+  "excessively", // excessively
+  "exchange", // exchange
+  "exchequer", // exchequer
+  "excise", // excise
+  "excitable", // excitable
+  "excite", // excite
+  "excited", // excited
+  "excitedly", // excitedly
+  "excitement", // excitement
+  "exciting", // exciting
+  "exclaim", // exclaim
+  "exclamation", // exclamation
+  "exclamation mark", // exclamationmark", //// فففف exclamation mark
   "exclamation point",
+  "exclude", // exclude
+  "exclusion", // exclusion
+  "exclusive", // exclusive
+  "exclusively", // exclusively
+  "excommunicate", // excommunicate
+  "excommunication", // excommunication
+  "excrement", // excrement
+  "excrete", // excrete
+  "excruciating", // excruciating
+  "excruciatingly", // excruciatingly
+  "excursion", // excursion
+  "excusable", // excusable
+  "excuse", // excuse
+  "execute", // execute
+  "execution", // execution
+  "executioner", // executioner
+  "executive", // executive
+  "executor", // executor
+  "exemplification", // exemplification
+  "exemplify", // exemplify
+  "exempt", // exempt
+  "exemption", // exemption
+  "exercise", // exercise
+  "exercise book", // exercisebook", //// فففف exercise book
+  "notebook", // notebook",
+  "workbook", // workbook",
+  "exert", // exert
+  "exertion", // exertion
+  "exhale", // exhale
+  "exhalation", // exhalation
+  "exhaust", // exhaust
+  "exhausted", // exhausted
+  "exhaustion", // exhaustion
+  "exhaustive", // exhaustive
+  "exhibit", // exhibit
+  "exhibitor", // exhibitor
+  "exhibition", // exhibition
+  "exhibitionism", // exhibitionism
+  "exhibitionist", // exhibitionist
+  "exhilarate", // exhilarate
+  "exhilaration", // exhilaration
+  "exhort", // exhort
+  "exhortation", // exhortation
+  "exile", // exile
+  "exist", // exist
+  "existence", // existence
+  "existent", // existent
+  "exit", // exit
+  "exonerate", // exonerate
+  "exoneration", // exoneration
+  "exorbitant", // exorbitant
+  "exorbitantly", // exorbitantly
+  "exorcize", // exorcize
+  "exorcism", // exorcism
+  "exorcist", // exorcist
+  "exotic", // exotic
+  "expand", // expand
+  "expanse", // expanse
+  "expansion", // expansion
+  "expansionism", // expansionism
+  "expansionist", // expansionist
+  "expansive", // expansive
   "expat",
+  "expatriate", // expatriate
+  "expect", // expect
+  "expectancy", // expectancy
+  "expectant", // expectant
+  "expectation", // expectation
+  "expedient", // expedient
+  "expediency", // expediency
+  "expedition", // expedition
+  "expeditionary_force", // expeditionaryforce
+  "expel", // expel
+  "expend", // expend
+  "expendable", // expendable
+  "expenditure", // expenditure
+  "expense", // expense
+  "expensive", // expensive
+  "expensively", // expensively
+  "experience", // experience
+  "experienced", // experienced
+  "experiment", // experiment
+  "experimental", // experimental
+  "experimentation", // experimentation
+  "expert", // expert
+  "expertise", // expertise
+  "expertly", // expertly
   "expiration",
+  "expire", // expire
+  "expiry", // expiry
+  "explain", // explain
+  "explanation", // explanation
+  "explanatory", // explanatory
+  "explicit", // explicit
+  "explicitly", // explicitly
+  "explicitness", // explicitness
+  "explode", // explode
+  "exploit", // exploit
+  "exploitation", // exploitation
+  "explore", // explore
+  "exploration", // exploration
+  "exploratory", // exploratory
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",  
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -5792,6 +6225,7 @@ final List<String> allWordsEnglish = [
   "handcuffs",
   "have had a bellyful of",
   "in behalf of",
+  "inquiry",
   "Jesus",
   "Jesus Christ",
   "lead astray",

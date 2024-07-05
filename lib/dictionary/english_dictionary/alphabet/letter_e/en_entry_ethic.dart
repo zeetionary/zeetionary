@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاکار، ئەخلاق، دەزگا یا سیستمی ئاکاری یا بنچینە ئاکاری‌یەکان، تیۆری یان دەزگای بەها ئاکاری‌یەکان
+کوردی: ئاکار، ئەخلاق، دەزگا یا سیستمی ئاکاری یا بنچینە ئاکاری‌یەکان، تیۆری یان دەزگای بەھا ئاکاری‌یەکان
 """),
           const DefinitionKurdish(
               text:
@@ -353,7 +353,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ethic (Derived forms: ethics)
+- Noun: ethic (derived forms: ethics)
 1. The principles of right and wrong that are accepted by an individual or a social group (= moral principle, value-system, value orientation)
 "the Puritan ethic";
  

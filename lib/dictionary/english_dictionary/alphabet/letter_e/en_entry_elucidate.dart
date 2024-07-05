@@ -257,7 +257,7 @@ class IpaUKtext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4");
+    return const IPAofEnglish(text: "IpaUK: /ɪˈluːsɪdeɪt/");
   }
 }
 
@@ -307,7 +307,7 @@ class IpaUStext extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4");
+    return const IPAofEnglish(text: "IpaUS: /ɪˈluːsɪdeɪt/");
   }
 }
 

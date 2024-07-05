@@ -272,11 +272,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خۆگرتن، هەڵکردن، دەربردن، بەرگەگرتن، بەرگە، تاقەت، کێش، لەسەرمانەوە، سەبر، خوڕاگرتن، خۆڕاگری، خۆگیری، بەربەرەکانی، دەوام‌هێنان، کۆڵ‌نەدان، بەدەوام‌بوون، ڕاوێستان، تاقەت(هێنان)، پشوودرێژی
+کوردی: خۆگرتن، ھەڵکردن، دەربردن، بەرگەگرتن، بەرگە، تاقەت، کێش، لەسەرمانەوە، سەبر، خوڕاگرتن، خۆڕاگری، خۆگیری، بەربەرەکانی، دەوام‌ھێنان، کۆڵ‌نەدان، بەدەوام‌بوون، ڕاوێستان، تاقەت(ھێنان)، پشوودرێژی
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) بەرگەگرتنی شتێکی بە ئازار تان سەخت بۆ ماوەیەکی زۆر بەبێ وازهێنان"""),
+                  """١. (ناو) بەرگەگرتنی شتێکی بە ئازار تان سەخت بۆ ماوەیەکی زۆر بەبێ وازھێنان"""),
           SentencesRow(
             englishText:
                 """He showed remarkable endurance throughout his illness.""",
@@ -349,7 +349,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: endurance (Derived forms: endurances)
+- Noun: endurance (derived forms: endurances)
 1. The power to withstand hardship or stress
 "the marathon tests a runner's endurance"
  

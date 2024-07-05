@@ -487,8 +487,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakearths3("en-GB"),
                     onPressedAmerican: () => speakearths3("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """The earth revolves on its axis.""",
@@ -496,8 +494,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakearths4("en-GB"),
                     onPressedAmerican: () => speakearths4("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:

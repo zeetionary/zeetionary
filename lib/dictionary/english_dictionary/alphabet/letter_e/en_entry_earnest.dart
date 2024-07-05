@@ -396,8 +396,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearnests2("en-GB"),
             onPressedAmerican: () => speakearnests2("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: """٢. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He was a very earnest young man.""",

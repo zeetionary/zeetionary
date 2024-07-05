@@ -972,7 +972,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەتاڵ، بۆش، پووچەڵ، پووچ، پووچەک، پووک، نێوبەتاڵ، هیچ‌تیانەبوو،	بێ‌نێوەرۆک، بێ‌واتا، بێ‌مەبەست،	چۆڵ، چۆڵ‌وهۆڵ،	بێ، بەتاڵ لە،	نافەرمی برسی، تینوو،	وەڕەز، عاجز، جاڕز
+کوردی: بەتاڵ، بۆش، پووچەڵ، پووچ، پووچەک، پووک، نێوبەتاڵ، ھیچ‌تیانەبوو،	بێ‌نێوەرۆک، بێ‌واتا، بێ‌مەبەست،	چۆڵ، چۆڵ‌وھۆڵ،	بێ، بەتاڵ لە،	نافەرمی برسی، تینوو،	وەڕەز، عاجز، جاڕز
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بەتاڵ"""),
           SentencesRow(
@@ -986,7 +986,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """I couldn't see any empty seats (= with nobody sitting in them).""",
-            kurdishText: """هیچ جێگایەکی بەتاڵم نەدەبینی.""",
+            kurdishText: """ھیچ جێگایەکی بەتاڵم نەدەبینی.""",
             onPressedBritish: () => speakemptys2("en-GB"),
             onPressedAmerican: () => speakemptys2("en-US" ""),
           ),
@@ -996,12 +996,10 @@ class KurdishMeaning extends StatelessWidget {
                 children: [
                   SentencesRow(
                     englishText: """The theatre was half empty.""",
-                    kurdishText: """هۆڵی شانۆکە نیوەی بەتاڵ بوو.""",
+                    kurdishText: """ھۆڵی شانۆکە نیوەی بەتاڵ بوو.""",
                     onPressedBritish: () => speakemptys3("en-GB"),
                     onPressedAmerican: () => speakemptys3("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -1010,8 +1008,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakemptys4("en-GB"),
                     onPressedAmerican: () => speakemptys4("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -1021,17 +1017,13 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakemptys5("en-GB"),
                     onPressedAmerican: () => speakemptys5("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """The room was empty of furniture.""",
-                    kurdishText: """ژوورەکە هیچ کەلوپەلی تێدا نەبوو.""",
+                    kurdishText: """ژوورەکە ھیچ کەلوپەلی تێدا نەبوو.""",
                     onPressedBritish: () => speakemptys6("en-GB"),
                     onPressedAmerican: () => speakemptys6("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -1052,7 +1044,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The politician's promises were just empty rhetoric.""",
-            kurdishText: """بەڵێنەکانی سیاسییەکە تەنها قسەی بەتاڵ بوون.""",
+            kurdishText: """بەڵێنەکانی سیاسییەکە تەنھا قسەی بەتاڵ بوون.""",
             onPressedBritish: () => speakemptys8("en-GB"),
             onPressedAmerican: () => speakemptys8("en-US" ""),
           ),
@@ -1061,14 +1053,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Too many empty threats and your child will soon learn to ignore you.""",
             kurdishText:
-                """هێندە هەڕەشەی بێ‌کردار بکەیت منداڵەکەت فێر دەبێت پشتگوێت بخات.""",
+                """ھێندە ھەڕەشەی بێ‌کردار بکەیت منداڵەکەت فێر دەبێت پشتگوێت بخات.""",
             onPressedBritish: () => speakemptys9("en-GB"),
             onPressedAmerican: () => speakemptys9("en-US" ""),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """They're just empty promises.""",
-            kurdishText: """تەنها بەڵێنی درۆینەن.""",
+            kurdishText: """تەنھا بەڵێنی درۆینەن.""",
             onPressedBritish: () => speakemptys10("en-GB"),
             onPressedAmerican: () => speakemptys10("en-US" ""),
           ),
@@ -1085,7 +1077,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """We all feel very empty now she's gone.""",
-            kurdishText: """ئێستا زۆر هەست بە کەساسی دەکەین کە چووە.""",
+            kurdishText: """ئێستا زۆر ھەست بە کەساسی دەکەین کە چووە.""",
             onPressedBritish: () => speakemptys12("en-GB"),
             onPressedAmerican: () => speakemptys12("en-US" ""),
           ),
@@ -1093,7 +1085,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Three months after his death, she still felt empty.""",
-            kurdishText: """سێ مانگ دوای مەرگی هێشتا هەستی بە کەساسی دەکرد.""",
+            kurdishText: """سێ مانگ دوای مەرگی ھێشتا ھەستی بە کەساسی دەکرد.""",
             kurdishNote: "کەساس: حاڵ پەرێشان، بێ سەرەوبەرە",
             onPressedBritish: () => speakemptys13("en-GB"),
             onPressedAmerican: () => speakemptys13("en-US" ""),
@@ -1121,8 +1113,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakemptys15("en-GB"),
                     onPressedAmerican: () => speakemptys15("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -1132,14 +1122,12 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speakemptys16("en-GB"),
                     onPressedAmerican: () => speakemptys16("en-US" ""),
                   ),
-                  // const DividerDefinition(),
-                  // const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
                         """She emptied her mind of all thoughts of home.""",
                     kurdishText:
-                        """(خوازراوی) مێشكی پاککردەوە لە هەموو بیرکردنەوەیەک لە ماڵەوە.""",
+                        """(خوازراوی) مێشكی پاککردەوە لە ھەموو بیرکردنەوەیەک لە ماڵەوە.""",
                     onPressedBritish: () => speakemptys17("en-GB"),
                     onPressedAmerican: () => speakemptys17("en-US" ""),
                   ),
@@ -1208,13 +1196,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٧. (کردار) دڵنیایی کردنەوە لەوەی کە هەموان شوێنێک جێدەهێڵن"""),
+                  """٧. (کردار) دڵنیایی کردنەوە لەوەی کە ھەموان شوێنێک جێدەھێڵن"""),
           // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Police had instructions to empty the building because of a bomb threat.""",
             kurdishText:
-                """پۆلیس ڕێنمایی پێدرابوو کە بیناکە چۆڵ بکات بەهۆی هەڕەشەی بۆمبێکەوە.""",
+                """پۆلیس ڕێنمایی پێدرابوو کە بیناکە چۆڵ بکات بەھۆی ھەڕەشەی بۆمبێکەوە.""",
             onPressedBritish: () => speakemptys25("en-GB"),
             onPressedAmerican: () => speakemptys25("en-US" ""),
           ),
@@ -1233,406 +1221,125 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Fans emptied out onto the streets after the concert.""",
             kurdishText:
-                """لە دوای کۆنسێرتەکە هەواداران ڕژانە سەر شەقامەکان.""",
+                """لە دوای کۆنسێرتەکە ھەواداران ڕژانە سەر شەقامەکان.""",
             onPressedBritish: () => speakemptys27("en-GB"),
             onPressedAmerican: () => speakemptys27("en-US" ""),
           ),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speakemptys2800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
           //   onPressedBritish: () => speakemptys28("en-GB"),
-          //   onPressedAmerican: () => speakemptys28("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys2900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys28emptys2900""",
           //   onPressedBritish: () => speakemptys29("en-GB"),
-          //   onPressedAmerican: () => speakemptys29("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys_3000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys29emptys_3000""",
           //   onPressedBritish: () => speakemptys30("en-GB"),
-          //   onPressedAmerican: () => speakemptys30("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys30emptys3100""",
           //   onPressedBritish: () => speakemptys31("en-GB"),
-          //   onPressedAmerican: () => speakemptys31("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys31emptys3200""",
           //   onPressedBritish: () => speakemptys32("en-GB"),
-          //   onPressedAmerican: () => speakemptys32("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys32emptys3300""",
           //   onPressedBritish: () => speakemptys33("en-GB"),
-          //   onPressedAmerican: () => speakemptys33("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys33emptys3400""",
           //   onPressedBritish: () => speakemptys34("en-GB"),
-          //   onPressedAmerican: () => speakemptys34("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys34emptys3500""",
           //   onPressedBritish: () => speakemptys35("en-GB"),
-          //   onPressedAmerican: () => speakemptys35("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys35emptys3600""",
           //   onPressedBritish: () => speakemptys36("en-GB"),
-          //   onPressedAmerican: () => speakemptys36("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys36emptys3700""",
           //   onPressedBritish: () => speakemptys37("en-GB"),
-          //   onPressedAmerican: () => speakemptys37("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys37emptys3800""",
           //   onPressedBritish: () => speakemptys38("en-GB"),
-          //   onPressedAmerican: () => speakemptys38("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys3900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys38emptys3900""",
           //   onPressedBritish: () => speakemptys39("en-GB"),
-          //   onPressedAmerican: () => speakemptys39("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys_4000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys39emptys_4000""",
           //   onPressedBritish: () => speakemptys40("en-GB"),
-          //   onPressedAmerican: () => speakemptys40("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys40emptys4100""",
           //   onPressedBritish: () => speakemptys41("en-GB"),
-          //   onPressedAmerican: () => speakemptys41("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys41emptys4200""",
           //   onPressedBritish: () => speakemptys42("en-GB"),
-          //   onPressedAmerican: () => speakemptys42("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys42emptys4300""",
           //   onPressedBritish: () => speakemptys43("en-GB"),
-          //   onPressedAmerican: () => speakemptys43("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys43emptys4400""",
           //   onPressedBritish: () => speakemptys44("en-GB"),
-          //   onPressedAmerican: () => speakemptys44("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys44emptys4500""",
           //   onPressedBritish: () => speakemptys45("en-GB"),
-          //   onPressedAmerican: () => speakemptys45("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys45emptys4600""",
           //   onPressedBritish: () => speakemptys46("en-GB"),
-          //   onPressedAmerican: () => speakemptys46("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys46emptys4700""",
           //   onPressedBritish: () => speakemptys47("en-GB"),
-          //   onPressedAmerican: () => speakemptys47("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys47emptys4800""",
           //   onPressedBritish: () => speakemptys48("en-GB"),
-          //   onPressedAmerican: () => speakemptys48("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys4900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys48emptys4900""",
           //   onPressedBritish: () => speakemptys49("en-GB"),
-          //   onPressedAmerican: () => speakemptys49("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys_6000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys49emptys_6000""",
           //   onPressedBritish: () => speakemptys50("en-GB"),
-          //   onPressedAmerican: () => speakemptys50("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys50emptys5100""",
           //   onPressedBritish: () => speakemptys51("en-GB"),
-          //   onPressedAmerican: () => speakemptys51("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys51emptys5200""",
           //   onPressedBritish: () => speakemptys52("en-GB"),
-          //   onPressedAmerican: () => speakemptys52("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys52emptys5300""",
           //   onPressedBritish: () => speakemptys53("en-GB"),
-          //   onPressedAmerican: () => speakemptys53("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys53emptys5400""",
           //   onPressedBritish: () => speakemptys54("en-GB"),
-          //   onPressedAmerican: () => speakemptys54("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys54emptys5500""",
           //   onPressedBritish: () => speakemptys55("en-GB"),
-          //   onPressedAmerican: () => speakemptys55("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys55emptys5600""",
           //   onPressedBritish: () => speakemptys56("en-GB"),
-          //   onPressedAmerican: () => speakemptys56("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys56emptys5700""",
           //   onPressedBritish: () => speakemptys57("en-GB"),
-          //   onPressedAmerican: () => speakemptys57("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys57emptys5800""",
           //   onPressedBritish: () => speakemptys58("en-GB"),
-          //   onPressedAmerican: () => speakemptys58("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys5900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys58emptys5900""",
           //   onPressedBritish: () => speakemptys59("en-GB"),
-          //   onPressedAmerican: () => speakemptys59("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys59emptys6000""",
           //   onPressedBritish: () => speakemptys60("en-GB"),
-          //   onPressedAmerican: () => speakemptys60("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys60emptys6100""",
           //   onPressedBritish: () => speakemptys61("en-GB"),
-          //   onPressedAmerican: () => speakemptys61("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys61emptys6200""",
           //   onPressedBritish: () => speakemptys62("en-GB"),
-          //   onPressedAmerican: () => speakemptys62("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys62emptys6300""",
           //   onPressedBritish: () => speakemptys63("en-GB"),
-          //   onPressedAmerican: () => speakemptys63("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys63emptys6400""",
           //   onPressedBritish: () => speakemptys64("en-GB"),
-          //   onPressedAmerican: () => speakemptys64("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys64emptys6500""",
           //   onPressedBritish: () => speakemptys65("en-GB"),
-          //   onPressedAmerican: () => speakemptys65("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys65emptys6600""",
           //   onPressedBritish: () => speakemptys66("en-GB"),
-          //   onPressedAmerican: () => speakemptys66("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys66emptys6700""",
           //   onPressedBritish: () => speakemptys67("en-GB"),
-          //   onPressedAmerican: () => speakemptys67("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys67emptys6800""",
           //   onPressedBritish: () => speakemptys68("en-GB"),
-          //   onPressedAmerican: () => speakemptys68("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys6900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys68emptys6900""",
           //   onPressedBritish: () => speakemptys69("en-GB"),
-          //   onPressedAmerican: () => speakemptys69("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys_7000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys69emptys_7000""",
           //   onPressedBritish: () => speakemptys70("en-GB"),
-          //   onPressedAmerican: () => speakemptys70("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys70emptys7100""",
           //   onPressedBritish: () => speakemptys71("en-GB"),
-          //   onPressedAmerican: () => speakemptys71("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys71emptys7200""",
           //   onPressedBritish: () => speakemptys72("en-GB"),
-          //   onPressedAmerican: () => speakemptys72("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys72emptys7300""",
           //   onPressedBritish: () => speakemptys73("en-GB"),
-          //   onPressedAmerican: () => speakemptys73("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys73emptys7400""",
           //   onPressedBritish: () => speakemptys74("en-GB"),
-          //   onPressedAmerican: () => speakemptys74("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7500""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys74emptys7500""",
           //   onPressedBritish: () => speakemptys75("en-GB"),
-          //   onPressedAmerican: () => speakemptys75("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7600""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys75emptys7600""",
           //   onPressedBritish: () => speakemptys76("en-GB"),
-          //   onPressedAmerican: () => speakemptys76("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7700""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys76emptys7700""",
           //   onPressedBritish: () => speakemptys77("en-GB"),
-          //   onPressedAmerican: () => speakemptys77("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7800""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys77emptys7800""",
           //   onPressedBritish: () => speakemptys78("en-GB"),
-          //   onPressedAmerican: () => speakemptys78("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys7900""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys78emptys7900""",
           //   onPressedBritish: () => speakemptys79("en-GB"),
-          //   onPressedAmerican: () => speakemptys79("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys8000""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys79emptys8000""",
           //   onPressedBritish: () => speakemptys80("en-GB"),
-          //   onPressedAmerican: () => speakemptys80("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys8100""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys80emptys8100""",
           //   onPressedBritish: () => speakemptys81("en-GB"),
-          //   onPressedAmerican: () => speakemptys81("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys8200""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys81emptys8200""",
           //   onPressedBritish: () => speakemptys82("en-GB"),
-          //   onPressedAmerican: () => speakemptys82("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys8300""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys82emptys8300""",
           //   onPressedBritish: () => speakemptys83("en-GB"),
-          //   onPressedAmerican: () => speakemptys83("en-US" ""),
-          // ),
-          // const DividerSentences(),
-          // SentencesRow(
-          //   englishText: """speakemptys8400""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   onPressedAmerican: () => speakemptys83emptys8400""",
           //   onPressedBritish: () => speakemptys84("en-GB"),
           //   onPressedAmerican: () => speakemptys84("en-US" ""),
           // ),
@@ -1677,7 +1384,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: empty (Derived forms: emptiest, emptier)
+- Adjective: empty (derived forms: emptiest, emptier)
 1. Holding or containing nothing
 "an empty glass"; "an empty room"; "full of empty seats"; "empty hours"
  
@@ -1693,7 +1400,7 @@ ${englishMeaningConst.text}
 5. Completely wanting or lacking (= barren, destitute, devoid, free, innocent)
 "writing empty of insight";
 
-- Verb: empty (Derived forms: empties, emptying, emptied)
+- Verb: empty (derived forms: empties, emptying, emptied)
 1. Make void or empty of contents
 "Empty the box"; "The alarm emptied the building"
  
@@ -1708,7 +1415,7 @@ ${englishMeaningConst.text}
  
 5. Excrete or discharge from the body (= evacuate, void)
 
-- Noun: empty (Derived forms: empties)
+- Noun: empty (derived forms: empties)
 1. A container that has been emptied
 "return all empties to the store"
 """,

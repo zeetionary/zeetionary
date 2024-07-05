@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بە ڕێگای کارەباوە، بە کارەباوە، بە برقەوە، وەکوو برق، لە ناکاو
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە کارەبا"""),
           SentencesRow(
             englishText:
                 """The system can be connected to virtually any type of electrically controlled device.""",

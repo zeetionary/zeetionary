@@ -434,14 +434,14 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She became an empress after her husband's coronation.""",
-            kurdishText: """لە دوای تاج‌لەسەرنانی هاوسەرەکەی بوو بە شاژن.""",
+            kurdishText: """لە دوای تاج‌لەسەرنانی ھاوسەرەکەی بوو بە شاژن.""",
             onPressedBritish: () => speakempresss1("en-GB"),
             onPressedAmerican: () => speakempresss1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """The empress issued a decree to improve trade.""",
-            kurdishText: """شاژن بڕیارێکی دەرکرد بۆ بەهێزکردنی بازرگانی.""",
+            kurdishText: """شاژن بڕیارێکی دەرکرد بۆ بەھێزکردنی بازرگانی.""",
             onPressedBritish: () => speakempresss2("en-GB"),
             onPressedAmerican: () => speakempresss2("en-US" ""),
           ),
@@ -486,7 +486,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: empress (Derived forms: empresses)
+- Noun: empress (derived forms: empresses)
 1. A woman emperor or the wife of an emperor
 """,
   );

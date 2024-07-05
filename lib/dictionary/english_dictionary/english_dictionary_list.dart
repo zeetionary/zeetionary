@@ -6121,8 +6121,6 @@ final List<String> allWordsEnglish = [
   "exemption", // exemption
   "exercise", // exercise
   "exercise book", // exercisebook", //// فففف exercise book
-  "notebook", // notebook",
-  "workbook", // workbook",
   "exert", // exert
   "exertion", // exertion
   "exhale", // exhale
@@ -6205,6 +6203,9 @@ final List<String> allWordsEnglish = [
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",  
+  "expressway",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -6241,6 +6242,7 @@ final List<String> allWordsEnglish = [
   "mouth ulcer", // goes to canker
   "net curtain",
   "not come/go amiss",
+  "notebook", // notebook",
   "on behalf of",
   "pancake",
   "phone box",
@@ -6258,4 +6260,5 @@ final List<String> allWordsEnglish = [
   "uninterested",
   "wapiti",
   "weblog",
+  "workbook", // workbook",
 ];

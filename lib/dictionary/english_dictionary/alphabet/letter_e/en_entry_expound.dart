@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexponent extends StatefulWidget {
-  const EnglishEntryexponent({super.key});
+class EnglishEntryexpound extends StatefulWidget {
+  const EnglishEntryexpound({super.key});
 
   @override
-  State<EnglishEntryexponent> createState() => _EnglishEntryexponentState();
+  State<EnglishEntryexpound> createState() => _EnglishEntryexpoundState();
 }
 
-class _EnglishEntryexponentState extends State<EnglishEntryexponent> {
+class _EnglishEntryexpoundState extends State<EnglishEntryexpound> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexponentState extends State<EnglishEntryexponent> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""exponent""");
+    await flutterTts.speak("""expound""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexponentState extends State<EnglishEntryexponent> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """exponent""",
-                      // alsoEnglishWord: "also: exponent",
-                      britshText: """IpaUK: /ɪkˈspəʊnənt/""",
-                      americanText: """IpaUS: /ɪkˈspəʊnənt/""",
+                      word: """expound""",
+                      // alsoEnglishWord: "also: expound",
+                      britshText: """IpaUK: /ɪkˈspaʊnd/""",
+                      americanText: """IpaUS: /ɪkˈspaʊnd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "exponent";
+  final String keyword = "expound";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,23 +238,23 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """She was a leading exponent of free trade during her political career.""");
+        """He expounded his views on the subject to me at great length.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Huxley was an exponent of Darwin’s theory of evolution.""");
+    await flutterTts.speak(
+        """She expounded her theory further in the course of her talk.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """She studied under a leading exponent of the Japanese flute.""");
+    await flutterTts
+        .speak("""These ideas were originally expounded by Plato.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -866,7 +866,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "exponent", please follow LX instructions
+// With short examples define "expound", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -875,16 +875,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێکدەرەوە، ڕوون‌کەرەوە، شرۆڤەکار، شی‌کەرەوە،	پەرەپێدەر، ڕاگەیێنەر،	نموونە، هێما، سەمبول، نیشانە،	لایەنگر، پشتیوان،	پسپۆڕ، وەستا، شارەزا،	توانک، ژمارۆکە، جا، هێزە، توان، نوێن
+کوردی: گەنگەشەکردن، شیکردن، ڕوون کردن
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک کە پشتگیری بیرۆکەیەک، ڕێبازێک، هتد دەکات و بانگەشەی بۆ دەکات"""),
+                  """١. (کردار) ڕوونکردنەوەی شتێک بەوەی کە بە وردەکاری باسی بکەیت"""),
           SentencesRow(
             englishText:
-                """She was a leading exponent of free trade during her political career.""",
-            kurdishText:
-                """لە ماوەی کاری سیاسیی لایەنگرێکی سەرەکی بازرگانیی ئازاد بوو.""",
+                """He expounded his views on the subject to me at great length.""",
+            kurdishText: """بە درێژی زۆر دیدەکانیی بۆم باسکرد لەسەر بابەتە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -893,20 +892,18 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Huxley was an exponent of Darwin’s theory of evolution.""",
-            kurdishText: """هوکسلی پشتیوانێکی بیردزۆی پەرەسەندنی داروین بوو.""",
+                """She expounded her theory further in the course of her talk.""",
+            kurdishText: """لە ماوەی قسەکەی بیردۆزەکەیی زیاتر باس کرد.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  """٢. (ناو) کەسێک کە دەتوانێت چالاکییەکی دیاریکراو بە شارەزایی ئەنجام بدات"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """She studied under a leading exponent of the Japanese flute.""",
-            kurdishText: """لای شارەزایەکی ناسراوی فلوتی ژاپۆنی خوێندی.""",
+            englishText: """These ideas were originally expounded by Plato.""",
+            kurdishText:
+                """ئەم بیرۆکانە سەرەتا لەلایەن ئەفلاتوونەوە باسکران.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -1680,12 +1677,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exponent (Derived forms: exponents)
-1. A person who pleads for a cause or propounds an idea (= advocate, advocator, proponent)
+- Verb: expound (Derived forms: expounded, expounds, expounding)
+1. Describe and explain in detail (= elaborate, lucubrate [archaic], expatiate, exposit, enlarge, flesh out, expand, dilate)
  
-2. Someone who expounds and interprets or explains
- 
-3. A mathematical notation indicating the number of times a quantity is multiplied by itself (= power, index)
+2. State (= set forth, exposit)
+"expound one's reasons";
 """,
   );
 
@@ -1710,18 +1706,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/-UrdExQW0cs?t=';
-const double _startSecondsend = 000000000000000000000000000453;
-const String _videoIdone = 'https://youtu.be/dPicox3QWC0?t=';
-const double _startSecondsone = 000000000000000000000000000326;
-const String _videoIdtwo = 'https://youtu.be/2IxD3WFHXxs?t=';
-const double _startSecondstwo = 000000000000000000000000000153;
-const String _videoIdthree = 'https://youtu.be/zlm1aajH6gY?t=';
-const double _startSecondsthree = 000000000000000000000000000395;
-const String _videoIdfour = 'https://youtu.be/AaRfZ52sq3s?t=';
-const double _startSecondsfour = 000000000000000000000000000347;
-const String _videoIdfive = 'https://youtu.be/zlm1aajH6gY?t=';
-const double _startSecondsfive = 000000000000000000000000000395;
+const String _videoIdend = 'https://youtu.be/B8BnOEOOBa0?t=';
+const double _startSecondsend = 000000000000000000000000000553;
+const String _videoIdone = 'https://youtu.be/hSNWkRw53Jo?t=';
+const double _startSecondsone = 0000000000000000000000000008667;
+const String _videoIdtwo = 'https://youtu.be/N5FQRGfPy8I?t=';
+const double _startSecondstwo = 0000000000000000000000000001162;
+const String _videoIdthree = 'https://youtu.be/tYrdMjVXyNg?t=';
+const double _startSecondsthree = 0000000000000000000000000007873;
+const String _videoIdfour = 'https://youtu.be/L5eSaFIIUpM?t=';
+const double _startSecondsfour = 000000000000000000000000000386;
+const String _videoIdfive = 'https://youtu.be/hB7CCgy88Ow?t=';
+const double _startSecondsfive = 000000000000000000000000000674;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

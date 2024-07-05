@@ -335,8 +335,8 @@ ${englishMeaningConst.text}
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
 
-  final String _videoId = 'oD9BaNAH-eE';
-  final double _startSeconds = 0;
+  final String _videoId = 'oBsMQOHWiWM';
+  final double _startSeconds = 0363;
 
   @override
   Widget build(BuildContext context) {

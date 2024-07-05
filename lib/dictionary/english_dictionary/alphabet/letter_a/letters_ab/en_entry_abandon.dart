@@ -21,12 +21,11 @@ class _EnglishEntryabandonState extends State<EnglishEntryabandon> {
 
   final FlutterTts flutterTts = FlutterTts();
 
-  Future<void> speakabandon(String languageCode) async {
-    // DOPSUM: CHANGE speakabandon
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abandon");
+    await flutterTts.speak("""abandon""");
   }
 
   @override
@@ -45,12 +44,12 @@ class _EnglishEntryabandonState extends State<EnglishEntryabandon> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: "abandon",
+                      word: """abandon""",
                       // alsoEnglishWord: "also: abandon",
-                      britshText: "IpaUK: /əˈbændən/",
-                      americanText: "IpaUS: /əˈbændən/",
-                      onPressedBritish: () => speakabandon("en-GB"),
-                      onPressedAmerican: () => speakabandon("en-US"),
+                      britshText: """IpaUK: /əˈbændən/""",
+                      americanText: """IpaUS: /əˈbændən/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
                     ),
                   ),
                 ),
@@ -71,7 +70,32 @@ class _EnglishEntryabandonState extends State<EnglishEntryabandon> {
               const EnglishMeaning(),
               KurdishMeaning(),
               const SentencesFromDatabase(),
-              const YoutubeVideos(),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  // YoutubeEmbeddedthree(),
+                  // YoutubeEmbeddedfour(),
+                  // YoutubeEmbeddedfive(),
+                  // YoutubeEmbeddedsix(),
+                  // YoutubeEmbeddedseven(),
+                  // YoutubeEmbeddedeight(),
+                  // YoutubeEmbeddednine(),
+                  // YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
+                ],
+              ),
             ],
           ),
         ),

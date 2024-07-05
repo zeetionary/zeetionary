@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) پارچە زەوییەکی گەورە، زۆرجار لە دەرەوەی شار، کە ھی یەک کەس یان خێزانە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The poet's childhood was spent on a country estate.""",
@@ -300,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) تەواوی سەروەت و سامانی کەسێک، بەتایبەتی لە دوای مردنی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Her estate was left to her daughter.""",
             kurdishText: """سامانەکەی بۆ کچەکەی جێما.""",

@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) پرسیارکردن بۆ زانیاری"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He raised an enquiring eyebrow in my direction.""",
             kurdishText: """برۆیەکی پرسیارکارانەی لێم بەرزکردەوە.""",

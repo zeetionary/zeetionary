@@ -298,7 +298,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە مافت بەسەریەوە ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We are able to advise people what their legal entitlements are.""",
@@ -311,7 +310,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەو ھەستەی کە مافت بەسەر شتێکەوە ھەیە بەبی ئەوەی مەرج بێت کاری بۆ بکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I can't stand the sense of entitlement among these kids.""",

@@ -912,7 +912,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) بینینی کەسێک، یان دۆزینەوەی شتێک، بە تایبەتی کە تازە یان نامۆیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She was the most remarkable woman he had ever encountered.""",
@@ -933,7 +932,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) چاوپێکەوتنێک، بەتایبەتی کە لەناکاو، پێشبینی نەکراو، یان توندوتیژانەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Three of them were killed in the subsequent encounter with the police.""",
@@ -972,7 +970,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) یارییەکی وەرزشی دژ بە یاریزانێک یان تیمێکی وەرزشی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She has beaten her opponent in all of their previous encounters.""",

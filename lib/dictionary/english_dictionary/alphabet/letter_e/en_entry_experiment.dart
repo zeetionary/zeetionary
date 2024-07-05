@@ -382,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) چالاکییەک، بیرۆکەیەک، یان ڕێگایەکی تازە کە تاقی دەکەیتەوە بۆ ئەوەی بزانی چی ڕوودەدات یان کاریگەریی چۆن دەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I've never cooked this before so it's an experiment.""",
@@ -402,7 +401,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) ئەنجامدانی تاقیکردنەوەی زانستی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Some people feel that experimenting on animals is wrong.""",
@@ -424,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) تاقیکردنەوەی بیرۆکە، ڕێگا، ھتد ـی تازە بۆ زانینی کاریگەرییان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I experimented until I got the recipe just right.""",
@@ -521,17 +518,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VrKW58MS12g?t=';
+const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 977;
-const String _videoIdone = 'MnExgQ81fhU?t=';
+const String _videoIdone = 'MnExgQ81fhU';
 const double _startSecondsone = 205;
-const String _videoIdtwo = '_RSojioTtUU?t=';
+const String _videoIdtwo = '_RSojioTtUU';
 const double _startSecondstwo = 360;
-const String _videoIdthree = 's3B-qp3U5G0?t=';
+const String _videoIdthree = 's3B-qp3U5G0';
 const double _startSecondsthree = 1194;
-const String _videoIdfour = 'AF8d72mA41M?t=';
+const String _videoIdfour = 'AF8d72mA41M';
 const double _startSecondsfour = 948;
-const String _videoIdfive = '7j5ul4XBjAI?t=';
+const String _videoIdfive = '7j5ul4XBjAI';
 const double _startSecondsfive = 123;
 
 class YoutubeEmbeddedend extends StatelessWidget {

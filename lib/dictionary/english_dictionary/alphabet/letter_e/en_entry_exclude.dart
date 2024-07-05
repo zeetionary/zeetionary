@@ -367,7 +367,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ڕێگرتن لە کەسێک لەوەی بچێتە شوێنێکەوە یان بەژداری شتێک بکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Women are still excluded from some London clubs.""",
             kurdishText: """ژنان ھێشتا لە چەند یانەیەکی لەندەن بێبەشکراون.""",
@@ -404,7 +403,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) بڕیاردانی ئەوەی شتێک ناکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We should not exclude the possibility of negotiation.""",

@@ -318,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) بڕیاردان لە ئاست یان بڕی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Estimations of our total world sales are around 50 million.""",

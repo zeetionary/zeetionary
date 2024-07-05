@@ -320,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) شتێک کە خۆشیت پێ دەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Children like to share interests and enjoyments with their parents.""",

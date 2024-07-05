@@ -311,7 +311,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) دەستکردن بە ڕوودان لەناکاو و بە توندی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Violence erupted outside the embassy gates.""",
             kurdishText:
@@ -329,7 +328,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) لەناکاو دەربڕینی ھەستەکانت بە توندی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """When Davis scored for the third time the crowd erupted.""",

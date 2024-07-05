@@ -320,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) پێدانی ناونیشانێک بە کتێبێک، شانۆیەک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He read a poem entitled ‘Salt’.""",
             kurdishText: """ھۆنراوەیەکی بە ناونیشانی 'خوێ' خوێندەوە.""",

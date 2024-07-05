@@ -320,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کەسێک کە شت بە ڕوونی و کراوەیی دەڵێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She was quite explicit about why she had left.""",
             kurdishText: """زۆر ڕوون بوو سەبارەت بەوەی بۆچی ڕۆشت بوو.""",
@@ -331,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) باسکردنی شتێک یان پیشاندانی بە وردەکاریی زۆر، بەتایبەتی بابەتی ورووژێنەر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Warning: the movie contains sexually explicit material.""",

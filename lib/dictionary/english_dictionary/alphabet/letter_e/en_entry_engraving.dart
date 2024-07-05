@@ -270,7 +270,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ھونەری ھەڵکۆڵین لەسەر دار، بەرد، کانزا، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She learned the art of engraving from her father.""",

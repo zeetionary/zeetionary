@@ -393,7 +393,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) کردنی شتێک، بەجێھێنانی ئەرکێک، جێبەجێکردنی پلانێک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They drew up and executed a plan to reduce fuel consumption.""",
@@ -430,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بەسەرکەوتووی ئەنجامدانی کردارێک یان جووڵەیەک کە پێویستیی بە شارەزایی ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The pilot executed a perfect landing.""",
             kurdishText: """فڕۆکەوانەکە نیشتنەوەیەکی بێ‌خەوشی بەجێھێنا.""",
@@ -454,7 +452,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) ئەنجامدانی کارێکی ھونەری"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The whole play was executed with great precision.""",
@@ -466,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) بەجێھێنانی ڕێنماییەکانی بەڵگەنامەیەکی یاسایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His will was executed by his lawyers in 2008.""",
             kurdishText:

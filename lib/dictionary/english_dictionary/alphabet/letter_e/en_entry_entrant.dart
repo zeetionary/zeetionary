@@ -299,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک یان ئاژەڵێک کە بەژداری لە پێشبڕکێیەک دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The winning entrant received tickets to the movie.""",
@@ -311,7 +310,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کۆمپانیایەک کە دەست دەکات بە کارکردن لە بازرگانییەک کە ]پێشوەختە کۆمپانیای دیکەی لێبووە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Samsung and Apple have met strong competition from new entrants in the smartphone market.""",

@@ -330,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە ھاوتایە لە بەھا، نرخ، بڕ، گرنگی، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Eight kilometres is roughly equivalent to five miles.""",
@@ -437,17 +436,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'AF8d72mA41M?t=';
+const String _videoIdend = 'AF8d72mA41M';
 const double _startSecondsend = 1751;
-const String _videoIdone = 'QiKZYt9070U?t=';
+const String _videoIdone = 'QiKZYt9070U';
 const double _startSecondsone = 380;
-const String _videoIdtwo = '-cPdImejxEQ?t=';
+const String _videoIdtwo = '-cPdImejxEQ';
 const double _startSecondstwo = 301;
-const String _videoIdthree = 'Xzv84ZdtlE0?t=';
+const String _videoIdthree = 'Xzv84ZdtlE0';
 const double _startSecondsthree = 1426;
-const String _videoIdfour = 'T48_SrFCdaQ?t=';
+const String _videoIdfour = 'T48_SrFCdaQ';
 const double _startSecondsfour = 193;
-const String _videoIdfive = 'UvjSXBqQe4A?t=';
+const String _videoIdfive = 'UvjSXBqQe4A';
 const double _startSecondsfive = 479;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -382,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) خەمڵاندنی نرخ، بەھا، قەبارە، ھتد ـی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I can give you a rough estimate of the amount of wood you will need.""",
@@ -420,7 +419,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) نرخاندنی تێچووی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We'll send you an estimate for the repairs.""",
             kurdishText: """تێچووی چاککردنەوەکانت بۆ دەنێرین.""",

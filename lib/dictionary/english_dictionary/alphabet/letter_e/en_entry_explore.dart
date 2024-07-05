@@ -367,7 +367,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) توێژینەوە لە بابەتێک یان ئەگەرێک بە تەواوی بۆ ئەوەی باشترینی لەسەر بزانیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We will explore these ideas in more detail in chapter 7.""",
@@ -406,7 +405,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) دەستدان لە شتێک، یان لێدانی بەشێکی جەستەت لە شتیک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She explored the sand with her toes.""",
             kurdishText: """پەنجەکانی لە خۆڵەکە دا.""",

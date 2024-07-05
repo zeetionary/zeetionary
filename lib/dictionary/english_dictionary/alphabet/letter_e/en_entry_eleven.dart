@@ -457,7 +457,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ژمارە) تیمێکی یازدە یاریزانی بۆ تۆپی پێ، کریکیت یان ھۆکی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She was chosen for the first eleven.""",
             kurdishText: """بۆ یەکەم یازدە یاریزان ھەڵبژێردرا.""",

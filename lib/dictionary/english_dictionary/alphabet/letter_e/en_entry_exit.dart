@@ -382,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شوێنێک کە لێیەوە پێڕۆیەک شەقامێک جێدێڵێت و دەچێتە سەر یەکێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Leave the roundabout at the second exit.""",
             kurdishText: """بازنەکە لە ئێگزتی دووەم جێبھێڵە.""",
@@ -399,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) دەرچوون، بەتایبەتی دەرچوون لەسەر شانۆ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The heroine made her exit to great applause.""",
             kurdishText: """ژنە پاڵەوانەکە بە چەپڵەڕێزانی چووە دەرەوە.""",
@@ -425,7 +423,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) دەرچوون لە دۆخێک یان چالاکییەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They were disappointed by the team's early exit from the World Cup.""",
@@ -438,7 +435,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) دەرچوون لە بینایەک، سەر سەکۆ، پێڕۆیەک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The bullet entered her back and exited through her chest.""",
@@ -467,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) تەواوکردنی بەکارھێنانی پڕۆگرامێکی کۆمپیوتەر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I exited the database and switched off the computer.""",

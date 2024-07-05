@@ -303,7 +303,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ماوەیەکی کەم لە تاقیکردنەوەی چالاکییەکی جیاواز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """After a brief excursion into drama, he concentrated on his main interest, which was poetry.""",

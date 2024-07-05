@@ -341,7 +341,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بۆ مەبەستێک، کەسێک، ھتد ــی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The vehicle was designed especially for use in the desert.""",
@@ -359,7 +358,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵکار) بە ئاستێکی زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Children are expected to obey their parents at all times.This is especially true of girls.""",

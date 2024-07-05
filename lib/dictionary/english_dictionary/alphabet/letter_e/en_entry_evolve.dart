@@ -338,7 +338,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) گۆڕانی ڕووەک، ئاژەڵ، مرۆڤ، ڕووەک، ھتد، زۆرجار بە درێژایی چەند نەوەیەک، بۆ شێوەی دیکە کە باشتر لەگەڵ ژینگە دەگونجێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Africa and its wildlife evolved together.""",
             kurdishText: """ئەفریقا و ژیانە کێوییەکەی پێکەوە پەرەیان سەند.""",

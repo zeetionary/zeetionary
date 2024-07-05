@@ -298,7 +298,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ناساندنی کەسێک بە ژمارەیەک کەس بۆ ئەوەی دڵخۆشیان بکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Ladies and gentlemen, for your entertainment, we present Magic Man.""",
@@ -311,7 +310,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) میوانداریکردنی خەڵکی بۆ خواردن یان خواردنەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They set a budget for the entertainment of clients.""",

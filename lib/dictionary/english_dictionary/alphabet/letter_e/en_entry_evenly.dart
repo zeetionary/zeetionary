@@ -303,7 +303,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە بڕی یەکسان بۆ ھەر کەسێک یان لە ھەر شوێنێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Incidence of the disease is fairly evenly spread across Europe.""",
@@ -322,7 +321,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵکار) بە لەسەرخۆیی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """‘I warned you not to phone me,’ he said evenly.""",
             kurdishText:
@@ -400,17 +398,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'rEdl2Uetpvo?t=';
+const String _videoIdend = 'rEdl2Uetpvo';
 const double _startSecondsend = 192;
-const String _videoIdone = 'h4CyhQqAPpk?t=';
+const String _videoIdone = 'h4CyhQqAPpk';
 const double _startSecondsone = 267;
-const String _videoIdtwo = 'qWAagS_MANg?t=';
+const String _videoIdtwo = 'qWAagS_MANg';
 const double _startSecondstwo = 771;
-const String _videoIdthree = 'z4L2E6_Gmkk?t=';
+const String _videoIdthree = 'z4L2E6_Gmkk';
 const double _startSecondsthree = 264;
-const String _videoIdfour = 'dqcSk-EDrRo?t=';
+const String _videoIdfour = 'dqcSk-EDrRo';
 const double _startSecondsfour = 1181;
-const String _videoIdfive = 'X5oD_thIk3c?t=';
+const String _videoIdfive = 'X5oD_thIk3c';
 const double _startSecondsfive = 85;
 
 class YoutubeEmbeddedend extends StatelessWidget {

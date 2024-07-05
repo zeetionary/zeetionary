@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) پڕۆسەی لەناوبردن یان لاوازکردنی شتێک بە تێپەڕبوونی کات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Many see these security measures as an erosion of civil liberties.""",
@@ -359,17 +358,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '_rBO8neWw04?t=';
+const String _videoIdend = '_rBO8neWw04';
 const double _startSecondsend = 268;
-const String _videoIdone = '-cPdImejxEQ?t=';
+const String _videoIdone = '-cPdImejxEQ';
 const double _startSecondsone = 220;
-const String _videoIdtwo = 'Ek1buV2HA68?t=';
+const String _videoIdtwo = 'Ek1buV2HA68';
 const double _startSecondstwo = 338;
-const String _videoIdthree = '9bPIaHg11mI?t=';
+const String _videoIdthree = '9bPIaHg11mI';
 const double _startSecondsthree = 191;
-const String _videoIdfour = 'jxNM4DGBRMU?t=';
+const String _videoIdfour = 'jxNM4DGBRMU';
 const double _startSecondsfour = 173;
-const String _videoIdfive = 'eXaIpTj3vOs?t=';
+const String _videoIdfive = 'eXaIpTj3vOs';
 const double _startSecondsfive = 647;
 
 class YoutubeEmbeddedend extends StatelessWidget {

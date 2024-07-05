@@ -312,7 +312,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) لەخۆگرتنی کەسێکی گرنگتر یان پلەبەرزتر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The customer is threatening to escalate his complaint.""",

@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە بە ردەوامە لە ڕوودان و وەھا دەرناکەوێت کە بوەستێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I am eternally amazed at what some people will do for money.""",

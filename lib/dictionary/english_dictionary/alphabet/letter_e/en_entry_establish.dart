@@ -425,7 +425,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) درووستکردنی پەیوەندی، بەتایبەتی بەفەرمی، لەگەڵ کەسێک، گرووپێک، یان وڵاتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The school is trying to establish a relationship with the local community.""",
@@ -446,7 +445,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) ھەبوونی پێگەیەک بۆ ماوەیەکی درێژ یان بەڕێوەبردنی بە سەرکەوتووی کە ڕێزت لێ بگیردرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He has now firmly established his position in the organization.""",
@@ -491,7 +489,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) واکردنی ئەوەی خەڵکی باوەڕێک، نەریتێک، بانگەشەیەک، ھتد پەسەند بکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Traditions get established over time.""",
             kurdishText: """نەریتەکان بەپێی کات جێگیر دەبن.""",
@@ -509,7 +506,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) دۆزینەوە یان سەلماندنی ڕاستییەکانی دۆخێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Police are still trying to establish the cause of the accident.""",

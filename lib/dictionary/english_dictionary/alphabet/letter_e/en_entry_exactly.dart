@@ -361,7 +361,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بۆ پرسیارکردنی زیاتر سەبارەت بە شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Where exactly did you stay in France?""",
             kurdishText: """لە کوێ بە درووستی مایتەوە لە فەرەنسا؟.""",

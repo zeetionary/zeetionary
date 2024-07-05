@@ -331,7 +331,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) پیشاندانی ئەوەی کە ھەست بە توانایەک، ھەستێک، سۆزێک، ھتد دەکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The patient exhibited signs of fatigue and memory loss.""",
@@ -344,7 +343,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) شتێک یان کۆمەڵە شتێک کە دەخرێنە شوێنێکی گشتی، بۆ نموونە مۆزەخانە، بۆ ئەوەی خەڵکی بیان بینن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The museum contains some interesting exhibits on Spanish rural life.""",
@@ -371,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) بەڵگە کە لە دادگا بەکاردیت بۆ سەلماندنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The first exhibit was a knife which the prosecution claimed was the murder weapon.""",
@@ -463,17 +460,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '1KgSp94nCZw?t=';
+const String _videoIdend = '1KgSp94nCZw';
 const double _startSecondsend = 212;
-const String _videoIdone = 'XlHzvTEstz8?t=';
+const String _videoIdone = 'XlHzvTEstz8';
 const double _startSecondsone = 334;
-const String _videoIdtwo = 'Y4E8qEDi_xg?t=';
+const String _videoIdtwo = 'Y4E8qEDi_xg';
 const double _startSecondstwo = 10;
-const String _videoIdthree = 'Unzc731iCUY?t=';
+const String _videoIdthree = 'Unzc731iCUY';
 const double _startSecondsthree = 2259;
-const String _videoIdfour = 'f7QWMUCMYOE?t=';
+const String _videoIdfour = 'f7QWMUCMYOE';
 const double _startSecondsfour = 458;
-const String _videoIdfive = 'cCP9vjp4kSg?t=';
+const String _videoIdfive = 'cCP9vjp4kSg';
 const double _startSecondsfive = 1588;
 
 class YoutubeEmbeddedend extends StatelessWidget {

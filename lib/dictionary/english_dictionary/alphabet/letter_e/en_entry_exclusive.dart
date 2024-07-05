@@ -358,7 +358,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە ئامادەیی ئەوەی نییە ئەندامی تازە وەربگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He belongs to an exclusive club.""",
             kurdishText: """سەر بە یانەیەکی داخراوە.""",
@@ -377,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) شتێکی گران‌بەھا و کوالێتی بەرز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She had been sent to one of London's most exclusive girls' schools.""",
@@ -398,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵناو) کە ھیچی دیکە لەخۆناگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He had an exclusive focus on success and making money.""",
@@ -412,7 +409,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵناو) بەبێ لەخۆگرتنی کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The price is for accommodation only, exclusive of meals.""",
@@ -426,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) کە نەکرێت پێکەوە ڕاست بن یان بگونجێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The two options are not mutually exclusive (= you can have them both).""",
@@ -439,7 +434,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (ناو) ھەواڵێک کە تایبەتە بە یەک ڕۆژنامە، کەناڵی تەلەفیزیۆنی، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We feature an exclusive on the mothers whose babies were swapped at birth.""",

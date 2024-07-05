@@ -335,7 +335,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کۆمەڵە کەسێک کە کۆمپانیایەک یان دامەزراوەیەک بەڕێوە دەبەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The union’s executive has/have yet to reach a decision.""",
@@ -355,7 +354,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ئەو بەشەی حکومەت کە بڕیار جێبەجێ دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Conservatives are by tradition believers in a strong executive.""",
@@ -368,7 +366,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی بازرگانییەک یان دامەزراوەیەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She has an executive position in a finance company.""",
@@ -380,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ھاوەڵناو) ھەبوونی دەسەڵاتی جێبەجێکردنی یاسا گرنگەکان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Some members of the executive board are thought to be against the merger.""",

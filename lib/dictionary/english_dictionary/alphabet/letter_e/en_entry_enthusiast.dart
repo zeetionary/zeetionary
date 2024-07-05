@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە شتێکی بەدڵە و تامەزرۆیی پیشان دەدات بۆی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They are great enthusiasts of the American work ethic.""",

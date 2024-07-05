@@ -418,7 +418,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) گۆڕینەوەی دراوێک بە دراوێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Where can I find the best exchange rate/rate of exchange?""",
@@ -430,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ڕێککەوتنێک کە دوو کەس یان گرووپ لە وڵاتی جیاوازەوە سەردانی وڵاتی یەکدی دەکەن یان کاری یەکدی دەکەن بۆ ماوەیەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Our school does an exchange with a school in France.""",
@@ -448,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) گفتوگۆ یان مشتومڕێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """There was only time for a brief exchange.""",
             kurdishText: """کات تەنھا بۆ گفتوگۆیەکی کورت ھەبوو.""",
@@ -466,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) گۆڕینەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We use the forum to exchange ideas.""",
             kurdishText: """یانەکە بەکاردەھێنین بۆ گۆڕینەوەی بیروڕا.""",
@@ -507,7 +503,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (کردار) گۆڕینی پارەی دراوێک بۆ یەکێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Where can I exchange my money?""",
             kurdishText: """لە کوێ دەتوانم پارەکەم بگۆڕمەوە؟""",
@@ -526,7 +521,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (کردار) گۆڕینەوەی شتێک کە ھەتە و وەرگرتنی شتێکی دیکە لە بەرانبەردا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """If it doesn't fit, take it back and the store will exchange it.""",

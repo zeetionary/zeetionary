@@ -485,7 +485,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو شتانەی کە بەسەرت ھاتوون و کاریگەرییان ھەیە لەسەر شێوازی بیرکردنەوە ڕەفتارت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Experience has taught me that life can be very unfair.""",
@@ -537,7 +536,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ڕووداو یان چالاکییەک کە بە شێوەیەک کاریگەری لەسەرت دەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Share your experiences of parenthood by emailing the address below.""",
@@ -584,7 +582,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ئەوەی کە چۆنە بۆ کەسێک خزمەتگوزارییەک بەکاربھێنێت، چالاکییەک ئەنجام بدات، بچێتە بۆنەیەک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We are continually looking for ways to improve the customer experience.""",
@@ -595,7 +592,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) ھەبوونی بەسەرھاتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We are currently experiencing problems with our IT systems.""",
@@ -633,7 +629,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) ھەبوونی ھەستێک و ئاگاداربوون لێی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I have never experienced such pain before.""",
             kurdishText: """ھەرگیز پێشووتر ئازاری وەھام نەبووە.""",
@@ -737,17 +732,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'DPZzrlFCD_I?t=';
+const String _videoIdend = 'DPZzrlFCD_I';
 const double _startSecondsend = 255;
-const String _videoIdone = 'hS2x1zl4rn0?t=';
+const String _videoIdone = 'hS2x1zl4rn0';
 const double _startSecondsone = 938;
-const String _videoIdtwo = '_wNsZEqpKUA?t=';
+const String _videoIdtwo = '_wNsZEqpKUA';
 const double _startSecondstwo = 322;
-const String _videoIdthree = '4itx6mXEJ6c?t=';
+const String _videoIdthree = '4itx6mXEJ6c';
 const double _startSecondsthree = 461;
-const String _videoIdfour = '7dVyEbHRTlU?t=';
+const String _videoIdfour = '7dVyEbHRTlU';
 const double _startSecondsfour = 90;
-const String _videoIdfive = 'oIdLlERQWsE?t=';
+const String _videoIdfive = 'oIdLlERQWsE';
 const double _startSecondsfive = 332;
 
 class YoutubeEmbeddedend extends StatelessWidget {

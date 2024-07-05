@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) گەورەکردنی وێنەیەک یان بەڵگەنامەیەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We're going to have this picture enlarged.""",
             kurdishText: """ئەم وێنەیە گەورە دەکەینەوە.""",

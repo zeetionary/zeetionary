@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) کۆتایی ھاتنی ماوەی کاتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His term of office expires at the end of June.""",
             kurdishText: """ماوەی بەرپرسیاریەتییەکەی لە حوزەیران کۆتایی دێت.""",
@@ -287,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) مردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She had expired while bearing her son.""",
             kurdishText: """لە کاتی بوونی کوڕەکەی کۆچی کرد.""",

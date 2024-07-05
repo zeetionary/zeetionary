@@ -369,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە زیانی خراپی لەسەر خەڵکی ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """In his speech he described the evil effects of racism.""",
@@ -382,7 +381,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) پەیوەندیدار بە شەیتان و شتی خراپ لە جیھاندا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It was an ancient charm to ward off evil spirits.""",
@@ -400,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵناو) تەواو ناخۆش"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The rubbish bin was giving off an evil smell.""",
             kurdishText: """زبڵدانەکە بۆنێکی پیسی لێ‌دەھات.""",
@@ -410,7 +407,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ھێزێک کە وا دەکات شتی خراپ ڕووبدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He believed he could rid the world of the forces of evil.""",
@@ -451,7 +447,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) شتێکی خراپ؛ کاریگەرییەکانی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They hardly mentioned such social evils as racism and sexism.""",

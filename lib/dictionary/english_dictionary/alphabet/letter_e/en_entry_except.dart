@@ -322,7 +322,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (لێکدەر) لەپێش شتێک بەکاردێت کە وا دەکات قسەیەک بە تەواوی ڕاست نەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I didn't tell him anything except that I needed the money.""",
@@ -341,7 +340,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) لەخۆنەگرتنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Children under five are excepted from the survey.""",

@@ -294,7 +294,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) چالاکی یان پڕۆسەی تاقیکردنەوەی بیرۆکە، ڕێگا، ھتد بۆ زانینی کاریگەریی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Experimentation with illegal drugs is dangerous.""",
             kurdishText: """تاقیکردنەوەی مادەی ھۆشبەری نایاسایی مەترسیدارە.""",
@@ -371,17 +370,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'dqcSk-EDrRo?t=';
+const String _videoIdend = 'dqcSk-EDrRo';
 const double _startSecondsend = 216;
-const String _videoIdone = 'b_rjBWmc1iQ?t=';
+const String _videoIdone = 'b_rjBWmc1iQ';
 const double _startSecondsone = 890;
-const String _videoIdtwo = 'IwJzsE8CvzQ?t=';
+const String _videoIdtwo = 'IwJzsE8CvzQ';
 const double _startSecondstwo = 335;
-const String _videoIdthree = 'JHjXwicEwQo?t=';
+const String _videoIdthree = 'JHjXwicEwQo';
 const double _startSecondsthree = 233;
-const String _videoIdfour = '-Je79iRtTTE?t=';
+const String _videoIdfour = '-Je79iRtTTE';
 const double _startSecondsfour = 774;
-const String _videoIdfive = 'tURHTuKHBZs?t=';
+const String _videoIdfive = 'tURHTuKHBZs';
 const double _startSecondsfive = 427;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -348,7 +348,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) بەکرێگرتنی کەسێک، کۆمپانیایەک، ھتد بۆ کردنی کارێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She has already engaged a lawyer.""",
             kurdishText: """پێشوەختە پارێزەرێکی گرتووە.""",
@@ -365,7 +364,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) بەژداربوون و ھەوڵدان بۆ کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She has the ability to engage with young minds.""",
             kurdishText: """توانای ھەیە لە کەسانی گەنج تێبگات.""",
@@ -383,7 +381,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) دەستکردن بە شەڕ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He ordered his men to engage the enemy.""",
             kurdishText: """فەرمانی بە پیاوەکانی کرد ڕووبەڕووی دوژمن ببنەوە.""",

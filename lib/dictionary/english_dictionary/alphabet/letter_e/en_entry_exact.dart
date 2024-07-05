@@ -388,7 +388,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) زۆر درووست و وریا سەبارەت بە وردەکارییەکان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He was very exact about everything he did.""",
             kurdishText: """زۆر ورد بوو سەبارەت بە ھەر شتێک کە دەیکرد.""",
@@ -398,7 +397,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە پێوانە و یاسای درووست بەکاردەھێنێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Unlike astronomy, astrology cannot be described as an exact science.""",
@@ -410,7 +408,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) داواکردن و وەرگرتنی شتێک لە کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She was determined to exact a promise from him.""",
             kurdishText: """سوور بوو لەوەی بەڵێنێکی لێ وەربگرێت.""",
@@ -429,7 +426,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) ھێنانی شتێکی خراپ بەسەر کەسێکدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He exacted (= took) a terrible revenge for their treatment of him.""",

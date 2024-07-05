@@ -990,7 +990,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) بەشێکی شتێک کە دوورترینە لە چەقەکەی یان سەرەتاکەی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I joined the end of the queue.""",
             kurdishText: """چوومە کۆتایی ڕیزەکە.""",
@@ -1060,7 +1059,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) ئامانج یان مەبەستێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They are prepared to use violence in pursuit of their ends.""",
@@ -1088,7 +1086,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) بەشێکی چالاکییەک کە کەسێک بەشێکە لێی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Are there any problems at your end?""",
             kurdishText: """ھیچ کێشەیەک لای تۆ ھەیە؟""",
@@ -1108,7 +1105,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) ھەر یەک لە دوو شوێنەی کە لە پەیوەندی تەلەفۆنیدان، لایەکانی گەشتێکن، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Jean is going to meet me at the other end.""",
             kurdishText: """جین لە سەرەکەی دیکە دەمبینێت.""",
@@ -1138,7 +1134,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (ناو) بەشێکی بچووک کە ماوەتەوە لە دوای ئەوەی زۆرینەی شتێک بەکارھێندراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The floor was covered in cigarette ends.""",
             kurdishText: """زەوییەکە پڕ بوو لە کنگە جگەرە.""",
@@ -1147,7 +1142,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٩. (ناو) مەرگ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She came to an untimely end (= died young).""",
             kurdishText: """گەشت بە مەرگێکی ناوادە.""",

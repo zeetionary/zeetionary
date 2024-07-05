@@ -45,7 +45,7 @@ class _EnglishEntryexpiryState extends State<EnglishEntryexpiry> {
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """expiry""",
-                      // alsoEnglishWord: "also: expiry",
+                      alsoEnglishWord: "also: expiration",
                       britshText: """IpaUK: /ɪkˈspaɪəri/""",
                       americanText: """IpaUS: /ɪkˈspaɪəri/""",
                       onPressedBritish: () => speakheadword("en-GB"),

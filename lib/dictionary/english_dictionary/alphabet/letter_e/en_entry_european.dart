@@ -325,7 +325,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێکی ئەورووپی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """A party of Europeans visited the museum together.""",
@@ -338,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک کە پشتگیری بەھا و ئامانجەکانی یەکێتیی ئەورووپا دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She is a good European because she promotes unity.""",
@@ -417,17 +415,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'zqllxbPWKNI?t=';
+const String _videoIdend = 'zqllxbPWKNI';
 const double _startSecondsend = 763;
-const String _videoIdone = 'P8m-KThvtxA?t=';
+const String _videoIdone = 'P8m-KThvtxA';
 const double _startSecondsone = 392;
-const String _videoIdtwo = 'EHJNGdFll4o?t=';
+const String _videoIdtwo = 'EHJNGdFll4o';
 const double _startSecondstwo = 774;
-const String _videoIdthree = 'io6wi8DVZ3o?t=';
+const String _videoIdthree = 'io6wi8DVZ3o';
 const double _startSecondsthree = 422;
-const String _videoIdfour = 'bepoPt6QkXw?t=';
+const String _videoIdfour = 'bepoPt6QkXw';
 const double _startSecondsfour = 24;
-const String _videoIdfive = 'ZLPSfyUPeiI?t=';
+const String _videoIdfive = 'ZLPSfyUPeiI';
 const double _startSecondsfive = 4;
 
 class YoutubeEmbeddedend extends StatelessWidget {

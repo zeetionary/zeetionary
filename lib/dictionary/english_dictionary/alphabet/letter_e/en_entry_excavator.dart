@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە کاری ھەڵکۆڵینی زەوی دەکات بۆ دۆزینەوەی بینا و شتی کۆن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The archaeologist is an expert excavator.""",
             kurdishText: """شوێنەرناسەکە ھەڵکۆڵەرێکی شارەزایە.""",

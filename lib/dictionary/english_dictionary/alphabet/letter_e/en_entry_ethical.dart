@@ -320,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە لەلایەنی ئەخلقییەوە ڕاست یان پەسەندە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Is it ethical to keep animals in zoos?""",
             kurdishText:

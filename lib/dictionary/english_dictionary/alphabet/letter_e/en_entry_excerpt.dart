@@ -306,7 +306,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) وەرگرتنی کورتە نووسینێک، میوزیکێک، فیلمێک، ھتد لە بەشە تەواوەکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The document was excerpted from an unidentified FBI file.""",

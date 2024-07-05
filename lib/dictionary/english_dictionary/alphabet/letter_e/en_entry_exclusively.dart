@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە تەواوی؛ بەبێ لەخۆگرتنی ھیچ کەس یان شتی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This is a charity that relies almost exclusively on voluntary contributions.""",

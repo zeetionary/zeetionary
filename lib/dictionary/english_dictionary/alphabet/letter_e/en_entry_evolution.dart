@@ -327,7 +327,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) گەشەی ھێواشی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The new telescope has helped us to understand more about the evolution of the universe.""",

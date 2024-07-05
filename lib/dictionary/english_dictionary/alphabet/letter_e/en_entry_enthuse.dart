@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) واکردنی ئەوەی کەسێک زۆر بەتاسە و بەجۆش ببێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Everyone present was enthused by the idea.""",
             kurdishText:

@@ -400,7 +400,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ژیان کردن، بەتایبەتی لە دۆخێکی سەخت یان بە پارەی کەم"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We existed on a diet of rice.""",
             kurdishText: """لەسەر خواردنی برنج دەژیاین.""",
@@ -484,17 +483,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'hFZFjoX2cGg?t=';
+const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 1172;
-const String _videoIdone = 'hS2x1zl4rn0?t=';
+const String _videoIdone = 'hS2x1zl4rn0';
 const double _startSecondsone = 843;
-const String _videoIdtwo = 'tXjHb5QmDV0?t=';
+const String _videoIdtwo = 'tXjHb5QmDV0';
 const double _startSecondstwo = 59;
-const String _videoIdthree = 'MnExgQ81fhU?t=';
+const String _videoIdthree = 'MnExgQ81fhU';
 const double _startSecondsthree = 364;
-const String _videoIdfour = 'MGO4_8YRKro?t=';
+const String _videoIdfour = 'MGO4_8YRKro';
 const double _startSecondsfour = 513;
-const String _videoIdfive = 'zqllxbPWKNI?t=';
+const String _videoIdfive = 'zqllxbPWKNI';
 const double _startSecondsfive = 485;
 
 class YoutubeEmbeddedend extends StatelessWidget {

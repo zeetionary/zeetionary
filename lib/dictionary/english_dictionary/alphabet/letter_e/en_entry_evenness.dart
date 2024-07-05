@@ -303,7 +303,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) جێگیری؛ نەگۆڕانی بڕ، خێرایی، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She possessed a voice of immaculate beauty and evenness of tone.""",
@@ -315,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەوەی کە بۆ کەسێک، شوێنێک، تیمێک، ھتد ھەمان شت بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The population declines took place with evenness across the nation.""",
@@ -325,7 +323,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) ھاوئاستی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The score, 6–6, illustrated the evenness of the contest.""",
@@ -336,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) ئەوەی شتێک تەخت و لووس بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Results will be affected by the degree of evenness of the surface.""",
@@ -348,7 +344,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) ئەوەی شتێک ڕیک بێت لە ئەندازە یان بۆشایی نێوان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She admired the evenness of his teeth.""",
             kurdishText: """سەرسامی ڕێکی ددانەکانی بوو.""",
@@ -426,17 +421,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'LmpAntNjPj0?t=';
+const String _videoIdend = 'LmpAntNjPj0';
 const double _startSecondsend = 206;
-const String _videoIdone = 'yssNu8Eynb8?t=';
+const String _videoIdone = 'yssNu8Eynb8';
 const double _startSecondsone = 602;
-const String _videoIdtwo = 'npbj6Z-JL8U?t=';
+const String _videoIdtwo = 'npbj6Z-JL8U';
 const double _startSecondstwo = 143;
-const String _videoIdthree = 'DKsxda--GVA?t=';
+const String _videoIdthree = 'DKsxda--GVA';
 const double _startSecondsthree = 1015;
-const String _videoIdfour = 'QHcQ80_PcAU?t=';
+const String _videoIdfour = 'QHcQ80_PcAU';
 const double _startSecondsfour = 637;
-const String _videoIdfive = 'UWVEgoEGnkY?t=';
+const String _videoIdfive = 'UWVEgoEGnkY';
 const double _startSecondsfive = 393;
 
 class YoutubeEmbeddedend extends StatelessWidget {

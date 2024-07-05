@@ -307,7 +307,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) پەیوەندیدار بەو دۆخانەی کە کاریگەری لە ڕەفتار و گەشەی کەسێک/شتێک دەکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The responses of animals to changing environmental conditions are a central issue in ecology.""",

@@ -436,7 +436,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو زانیارییانەی لە دادگا بەکاردێن بۆ سەلماندنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I was asked to give evidence (= to say what I knew, describe what I had seen, etc.) at the trial.""",
@@ -474,7 +473,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) بوون بە بەڵگەی شتیک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The legal profession is still a largely male world, as evidenced by the small number of women judges.""",

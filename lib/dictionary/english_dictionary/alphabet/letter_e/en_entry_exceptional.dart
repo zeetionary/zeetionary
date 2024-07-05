@@ -316,7 +316,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) زۆر جیاواز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This deadline will be extended only in exceptional circumstances.""",

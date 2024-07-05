@@ -299,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کەسێک یان شتێک کە لەخۆنەگیردراوە لە شتێکدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Check the list of exclusions in the insurance policy.""",
@@ -310,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ئەوەی بڕیار بدەیت شتێک ناکرێت ڕوویدا بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The police announced the exclusion of robbery as a motive.""",

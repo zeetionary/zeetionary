@@ -431,7 +431,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە وەک کەسانی دیکە سەیر دەکرێیت یان مامەڵەت لەگەڵ دەکرێت بەبێ جیاوازی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I believe everyone is born equal.""",
             kurdishText: """پێـ‌وایە ھەموان بە یەکسانی لەدایک دەبن.""",
@@ -441,7 +440,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە مافی یەکسان بە خەڵکی دەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The US constitution guarantees equal protection under the law.""",
@@ -454,7 +452,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) ھەبوونی بوێری، ھێز، یان توانا بۆ مامەڵە لەگەڵ شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I hope that he proves equal to the challenge.""",
             kurdishText: """ھیوادارم شایستە بێت بە ئەرکەکە.""",
@@ -463,7 +460,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) یەکسان بوون بە شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """2x plus y equals 7 (= 2x+y=7)""",
             kurdishText: """٢x کۆی y دەکاتە ٧(= ٢x+y=٧).""",
@@ -488,7 +484,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) باش بوون ھێندەی شتێکی دیکە، یان کردنی شتێک بەباشی وەک کەسێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This achievement is unlikely ever to be equalled.""",
@@ -507,7 +502,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (کردار) بوون بە ئەنجامی شتێک یان چوون بەرەو شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Cooperation equals success.""",
             kurdishText: """ھاوئاھەنگی دەبێت بە سەرکەوتن.""",
@@ -525,7 +519,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (کردار) کەسێک یان شتێک کە ھاوتایە لەگەڵ شتێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She treats the people who work for her as her equals.""",
@@ -626,17 +619,17 @@ Verb: equal (derived forms: equalled, equaling, equaled, equalling, equals)
   }
 }
 
-const String _videoIdend = '_GFkHA5EZdE?t=';
+const String _videoIdend = '_GFkHA5EZdE';
 const double _startSecondsend = 180;
-const String _videoIdone = 'zqllxbPWKNI?t=';
+const String _videoIdone = 'zqllxbPWKNI';
 const double _startSecondsone = 256;
-const String _videoIdtwo = '55XJ1ObZKaM?t=';
+const String _videoIdtwo = '55XJ1ObZKaM';
 const double _startSecondstwo = 1030;
-const String _videoIdthree = 'II-OP6vdMs8?t=';
+const String _videoIdthree = 'II-OP6vdMs8';
 const double _startSecondsthree = 195;
-const String _videoIdfour = 'yGt2IPmGgmI?t=';
+const String _videoIdfour = 'yGt2IPmGgmI';
 const double _startSecondsfour = 37;
-const String _videoIdfive = '851v18xoDWA?t=';
+const String _videoIdfive = '851v18xoDWA';
 const double _startSecondsfive = 2027;
 
 class YoutubeEmbeddedend extends StatelessWidget {

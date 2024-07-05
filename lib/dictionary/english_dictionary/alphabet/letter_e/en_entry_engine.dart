@@ -339,7 +339,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە ڕۆڵی گرنگی ھەیە لە ڕوودانی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Agriculture is a key engine of growth in most developing countries.""",

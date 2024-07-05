@@ -443,7 +443,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) ڕزگاربوون یان دوورکەوتنەوە لە شتێکی ناخۆش"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She managed to escape from the burning car.""",
             kurdishText: """توانی لە ئۆتۆمبێلەکە سووتاوەکە ھەڵبێت.""",
@@ -483,7 +482,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) ئەوەی لەبیر بکرێیت یان ھەستت پێ نەکردرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Her name escapes me (= I can't remember it).""",
             kurdishText: """ناویم لەبیر دەچێت.""",
@@ -501,7 +499,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) دەرچوون لە شتێکەوە، بەتایبەتی لە کونێکەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Put a lid on to prevent heat escaping.""",
             kurdishText: """سەرێکی لەسەر دابنە بۆ ڕێگری لە دەرچوونی گەرمی.""",
@@ -520,7 +517,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) ھەڵھاتن لە شوێنێک یان دۆخێکی خراپ"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I had a narrow escape (= I was lucky to have escaped).""",
@@ -571,7 +567,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) ڕێگای لەبیرکردنی شتێکی ناخۆش یان سەخت بۆ ماوەیەک؛ شتێک کە بۆ ماوەیەک ژیان و کێشەکانی ڕۆژانەت بیردەباتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Craig finds escape in dreams.""",
             kurdishText: """کرەیگ لە خەونەکانی ئاسوودەیی دەبینێتەەوە.""",
@@ -589,7 +584,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ناو) دەرچوونی شلە، گاس، ھتد لە شتێکەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """An escape of gas can be very dangerous.""",
             kurdishText: """دەرچوونی گاس دەکرێت زۆر مەترسیدار ببێت.""",

@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ئەوەی کە کەسێک دوودڵ و بێزار بکەیت وابکەیت نەتوانێت بحەسێتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Don't excite yourself (= keep calm).""",
             kurdishText: """ئارام بە..""",
@@ -297,7 +296,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) ئەوەی وا لە کەسێک بکەیت ھەستێکی دیاریکراوی ھەبێت یان بەشێوەیەکی دیاریکراو وەڵام بداتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The news has certainly excited comment (= made people talk about it).""",

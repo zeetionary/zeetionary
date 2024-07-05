@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەربڕینی بیرۆکەیەک بە ڕوونی و تەواوی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There has been no clear enunciation of this policy.""",

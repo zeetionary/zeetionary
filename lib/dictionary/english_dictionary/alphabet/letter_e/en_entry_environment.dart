@@ -316,7 +316,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو دۆخەی کە تێیدا مرۆڤیک، ئاژەڵێک، یان ڕووەکیک دەژی یان چالاکی تێدا دەکات، یان کە تێیدا چالاکییەک ڕوودەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Hospitals have a duty to provide a safe working environment for all staff.""",

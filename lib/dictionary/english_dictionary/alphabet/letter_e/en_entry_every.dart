@@ -399,7 +399,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (دیارخەر) بۆ وتنی ئەوەی چەندە شتێک ڕوودەدات یان دەکردرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The buses go every 10 minutes.""",
             kurdishText: """پاسەکان ھەر ١٠ خولەکێک دەچن.""",
@@ -431,7 +430,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (دیارخەر) ھەموو ئەوەی ئەگەری ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We wish you every success.""",
             kurdishText: """ھیوای ھەموو سەرکەوتنێکت بۆ دەخوازین.""",

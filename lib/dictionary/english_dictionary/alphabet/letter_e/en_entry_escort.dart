@@ -344,7 +344,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک، بەتایبەتی پیاوێک کە کەسێک دەباتە بۆنەیەکی کۆمەڵایەتی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """In my day, young women were not allowed out without a suitable escort.""",
@@ -356,7 +355,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) ڕۆشتن لەگەڵ کەسێک بۆ پاسەوانی یان ڕێنوێنی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The president arrived, escorted by twelve soldiers.""",

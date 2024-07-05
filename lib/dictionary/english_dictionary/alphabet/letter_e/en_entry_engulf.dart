@@ -284,7 +284,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) کاریگەری کردن لە کەسێک/شتێک بە ئاستێکی زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Fear engulfed her.""",
             kurdishText: """ترس باڵی بەسەردا کێشابوو.""",

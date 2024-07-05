@@ -332,7 +332,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە بەردەوام ڕوودەدات و وەھا دەرناکەوێت کە بوەستێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I'm tired of your eternal arguments.""",
             kurdishText: """بێزارم لە مشتومڕی بەردەوامت.""",

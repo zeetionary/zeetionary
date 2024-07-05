@@ -299,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) دانانی شتێک بەشێوەیەک کە وەستاوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Police had to erect barriers to keep crowds back.""",
@@ -317,7 +316,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە وەستاوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Stand with your arms by your side and your head erect.""",
@@ -337,7 +335,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) چووک یان گۆی مەمک کە توند و ڕەق بووە بەھۆی ورووژانی سێکسی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """An erect penis is a sign of sexual readiness.""",
             kurdishText: """چووکێکی ھەستاو نیشانەی ئامادەیی سێکسییە.""",

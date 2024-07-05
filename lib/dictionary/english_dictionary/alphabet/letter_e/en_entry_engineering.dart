@@ -289,7 +289,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) خوێندنی ئەندازیاری"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She is an engineering student at the university.""",
             kurdishText: """خوێندکاری ئەندازیارییە لە زانکۆکە.""",

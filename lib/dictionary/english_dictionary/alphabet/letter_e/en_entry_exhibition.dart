@@ -338,7 +338,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) نمایشکردنی شتێک بۆ خەڵکی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She refused to allow the exhibition of her husband's work.""",
@@ -360,7 +359,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) پیشاندانی ئەزموونێک، سۆزێک، یان ڕەفتاری میھرەبانابە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We were treated to an exhibition of the footballer's speed and skill.""",
@@ -443,17 +441,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'NHIT9vq6mJU?t=';
+const String _videoIdend = 'NHIT9vq6mJU';
 const double _startSecondsend = 36;
-const String _videoIdone = 'IdaX96pvI1E?t=';
+const String _videoIdone = 'IdaX96pvI1E';
 const double _startSecondsone = 5;
-const String _videoIdtwo = 'n8NrMKd1OHo?t=';
+const String _videoIdtwo = 'n8NrMKd1OHo';
 const double _startSecondstwo = 43;
-const String _videoIdthree = 'HknFAfJgPU8?t=';
+const String _videoIdthree = 'HknFAfJgPU8';
 const double _startSecondsthree = 69;
-const String _videoIdfour = 'jMh_WRH1PHQ?t=';
+const String _videoIdfour = 'jMh_WRH1PHQ';
 const double _startSecondsfour = 1393;
-const String _videoIdfive = 'q0hbqMGrLdg?t=';
+const String _videoIdfive = 'q0hbqMGrLdg';
 const double _startSecondsfive = 6;
 
 class YoutubeEmbeddedend extends StatelessWidget {

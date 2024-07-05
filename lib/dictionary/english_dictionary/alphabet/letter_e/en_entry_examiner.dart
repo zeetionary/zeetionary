@@ -289,7 +289,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە دڵنیایی دەکاتەوە کە یاساکانی دامەزراوەیەک پەیڕەو دەکرێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He was the official examiner of electronic voting systems for Pennsylvania and Texas for 20 years.""",

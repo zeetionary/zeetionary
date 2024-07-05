@@ -45,7 +45,7 @@ class _EnglishEntryworkbookState extends State<EnglishEntryworkbook> {
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """workbook""",
-                      // alsoEnglishWord: "also: workbook",
+                      alsoEnglishWord: "also: exercise book",
                       britshText: """IpaUK: /ˈwɜːkbʊk/""",
                       americanText: """IpaUS: /ˈwɜːrkbʊk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -253,7 +253,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) کتێبێک کە ڕاھێنانی تێدایە، و زۆرجار بۆشایی تێدایە بۆ ئەوەی خوێندکاران وەڵامەکانی تێدا بنووسن، بۆ ئەوەی یارمەتیان بدات لە پراکتیزەکردنی ئەو شتانەی فێری بوونە"""),
-          const AlsoEnglishckb(word: "ھەروەھا: exercise book"),
           SentencesRow(
             englishText: """The workbook helps students practice grammar.""",
             kurdishText:

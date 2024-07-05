@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) شتێک کە گەورە کراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """If you like the picture I can send you an enlargement of it.""",

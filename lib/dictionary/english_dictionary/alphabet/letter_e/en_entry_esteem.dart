@@ -309,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ڕێزگرتن و سەرسام بوون بە کەسێک/شتێک بە ئاستێکی زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Many of these qualities are esteemed by managers.""",
@@ -331,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بیرکردنەوە لە کەسێک/شتێک بەشێوەیەکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We esteem it a privilege to have you with us.""",
             kurdishText: """بە شانازییەکی دادەنێین کە لەگەڵ ئێمە بیت.""",

@@ -296,7 +296,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) باشترکردنی کوالێتیی خواردن بە زیادکردنی ڤیتامین و وزەبەخش"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Most breakfast cereals are enriched with vitamins.""",
@@ -306,7 +305,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) دەوڵەمەند کردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He used his position to enrich himself.""",
             kurdishText: """پێگەکەی بەکارھێنا بۆ دەوڵەمەندکردنی.""",

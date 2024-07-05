@@ -6049,10 +6049,10 @@ final Map<String, String> wordRoutes = {
   "evasively": "/english-evasively",
   "eve": "/english-eve",
   "even": "/english-even",
-  "even-handed": "/english-evenhanded", //// فففف even-handed
+  "even-handed": "/english-even-handed", //// فففف even-handed
   "evenly": "/english-evenly",
   "evenness": "/english-evenness",
-  "even-tempered": "/english-eventempered", //// فففف even-tempered
+  "even-tempered": "/english-even-tempered", //// فففف even-tempered
   "evening": "/english-evening",
   "evening dress": "/english-eveningdress", //// ffff evening dress
   "event": "/english-event",

@@ -308,7 +308,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) پەیوەندیدار بە تاقیکردنەوەی زانستی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Experimental data suggests that cholesterol may play a role in the disease.""",
@@ -391,17 +390,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '_GFkHA5EZdE?t=';
+const String _videoIdend = '_GFkHA5EZdE';
 const double _startSecondsend = 325;
-const String _videoIdone = 'LBSFeJ1WLv4?t=';
+const String _videoIdone = 'LBSFeJ1WLv4';
 const double _startSecondsone = 211;
-const String _videoIdtwo = 'TRGHIN2PGIA?t=';
+const String _videoIdtwo = 'TRGHIN2PGIA';
 const double _startSecondstwo = 1153;
-const String _videoIdthree = 'Xzv84ZdtlE0?t=';
+const String _videoIdthree = 'Xzv84ZdtlE0';
 const double _startSecondsthree = 69;
-const String _videoIdfour = 'L1kYZHnHS0E?t=';
+const String _videoIdfour = 'L1kYZHnHS0E';
 const double _startSecondsfour = 293;
-const String _videoIdfive = '1lTYPvArbGo?t=';
+const String _videoIdfive = '1lTYPvArbGo';
 const double _startSecondsfive = 92;
 
 class YoutubeEmbeddedend extends StatelessWidget {

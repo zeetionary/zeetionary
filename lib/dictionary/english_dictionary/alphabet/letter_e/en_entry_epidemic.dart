@@ -306,7 +306,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) زیادبوونی لەناکاوی ئەوەی چەندە شتێکی خراپ ڕوودەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """A recent report describes an epidemic of crime in the city.""",
@@ -319,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) کە زۆر ڕوودەدات و کاریگەری لەسەر زۆر کەس دەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Poverty in this country has reached epidemic proportions.""",
@@ -405,17 +403,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'SrDEtSlqJC4?t=';
+const String _videoIdend = 'SrDEtSlqJC4';
 const double _startSecondsend = 173;
-const String _videoIdone = 'b1reY72ktEc?t=';
+const String _videoIdone = 'b1reY72ktEc';
 const double _startSecondsone = 1232;
-const String _videoIdtwo = 'p3O6bKdPLbw?t=';
+const String _videoIdtwo = 'p3O6bKdPLbw';
 const double _startSecondstwo = 3205;
-const String _videoIdthree = 'S3ksC_8jGuc?t=';
+const String _videoIdthree = 'S3ksC_8jGuc';
 const double _startSecondsthree = 361;
-const String _videoIdfour = 'LXhLlWQtdt0?t=';
+const String _videoIdfour = 'LXhLlWQtdt0';
 const double _startSecondsfour = 107;
-const String _videoIdfive = 'T-_HKFjxVl0?t=';
+const String _videoIdfive = 'T-_HKFjxVl0';
 const double _startSecondsfive = 269;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -480,7 +480,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ھۆکارێکی گونجاو بۆ کردنی شتێک کە دەتەوێت بیکەیت بۆ مەبەستی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It's just an excuse for a party.""",
             kurdishText: """ئەوە تەنھا بیانووە بۆ ئاھەنگێک.""",
@@ -523,7 +522,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) نموونەیەکی خراپی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It was a miserable excuse for a meal.""",
             kurdishText: """نموونەیەکی خراپی خواردن بوو.""",
@@ -543,7 +541,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) بەخشینی کەسێک بۆ شتێک کە کردوویەتی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Please excuse the mess.""",
             kurdishText: """تکایە لە شپرزەییەکە ببوورە.""",
@@ -601,7 +598,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) بیانوو ھێنانەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Nothing can excuse such rudeness.""",
             kurdishText: """ھیچ ناتوانێت بێ‌ڕێزی وەھا پۆزش بکات.""",
@@ -638,7 +634,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) ڕێگادان بە کەسێک کە بچێت؛ بەڕێزەوە گوتنی ئەوەی کە دەچیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She excused herself and left the meeting early.""",
             kurdishText: """داوای ڕۆشتنی خواست و زوو چاوپێکەوتنەکەی جێھێشت.""",
@@ -649,7 +644,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (کردار) ڕێگادان بە کەسێک کە شتێک نەکات لەکاتێکدا بەشێوەی ئاسایی دەبێت بیکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She was excused from giving evidence because of her age.""",

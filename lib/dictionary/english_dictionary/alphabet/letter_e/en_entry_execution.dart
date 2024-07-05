@@ -360,7 +360,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کاری کردنی شتێک، ئەنجامدانی ئەرکێک، یان جێبەجێکردنی پلانێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He had failed in the execution of his duty.""",
             kurdishText: """شکستی ھێنابوو لە ئەنجامدانی ئەرکەکەی.""",
@@ -377,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) شارەزایی جێبەجێکردن یان درووستکردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Her execution of the piano piece was perfect.""",
             kurdishText:
@@ -388,7 +386,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) بەجێھێنانی ڕێنمایی بەڵگەنامەیەکی یاسایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The court has discretion to stay or suspend execution of the order.""",

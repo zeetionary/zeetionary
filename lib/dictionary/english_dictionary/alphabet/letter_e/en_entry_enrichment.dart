@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) دەوڵەمەندبوون"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Their goal is not the good of the people, but their own enrichment.""",

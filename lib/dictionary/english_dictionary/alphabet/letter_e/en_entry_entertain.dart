@@ -313,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) میوانداریکردنی خەڵکی بۆ خواردن یان خواردنەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Do you entertain a lot?""",
             kurdishText: """میوانداریی زۆر دەکەیت؟""",

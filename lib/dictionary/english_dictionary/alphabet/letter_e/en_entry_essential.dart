@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) پەیوەندیدار بە گرنگترین شت یان سرووشتی بنچینەیی کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The essential difference between Sara and me is in our attitude to money.""",
@@ -399,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شتێک کە پێویستە لە دۆخێکی دیاریکراو یان بۆ کردنی شتێکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I only had time to pack the bare essentials (= the most necessary things).""",
@@ -419,7 +417,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) زانیاری یان ڕاستی سەرەتایی لەسەر شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The essentials of English grammar include verb tenses and punctuation.""",

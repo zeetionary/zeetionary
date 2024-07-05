@@ -347,7 +347,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) بە شارەزایی و زانیاری زۆرەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Only a fully qualified doctor can give an expert opinion.""",
@@ -444,17 +443,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '8HEfIJlcFbs?t=';
+const String _videoIdend = '8HEfIJlcFbs';
 const double _startSecondsend = 13;
-const String _videoIdone = 'NZ74oFctP_g?t=';
+const String _videoIdone = 'NZ74oFctP_g';
 const double _startSecondsone = 25;
-const String _videoIdtwo = 'h4CyhQqAPpk?t=';
+const String _videoIdtwo = 'h4CyhQqAPpk';
 const double _startSecondstwo = 705;
-const String _videoIdthree = 's3B-qp3U5G0?t=';
+const String _videoIdthree = 's3B-qp3U5G0';
 const double _startSecondsthree = 1494;
-const String _videoIdfour = 'AF8d72mA41M?t=';
+const String _videoIdfour = 'AF8d72mA41M';
 const double _startSecondsfour = 870;
-const String _videoIdfive = '3cxHwQl9pNM?t=';
+const String _videoIdfive = '3cxHwQl9pNM';
 const double _startSecondsfive = 202;
 
 class YoutubeEmbeddedend extends StatelessWidget {

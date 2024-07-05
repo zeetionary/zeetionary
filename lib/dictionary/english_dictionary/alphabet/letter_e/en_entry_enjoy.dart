@@ -334,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) دڵخۆش بوون و چێژ بینین لەوەی دەیکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They all enjoyed themselves at the party.""",
             kurdishText: """ھەموویان چێژیان لە خۆیان بینی لە ئاھەنگەکە.""",
@@ -351,7 +350,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) ھەبوونی شتێکی باش کە سوودی بۆت ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He's always enjoyed good health.""",
             kurdishText: """ھەمیشە تەندرووستی باشی ھەبووە.""",

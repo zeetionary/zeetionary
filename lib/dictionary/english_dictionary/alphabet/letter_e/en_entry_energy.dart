@@ -384,7 +384,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ھەوڵی جەستەیی و دەروونی کە دەیدەیت بۆ کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She put all her energies into her work.""",
             kurdishText: """ھەموو وزەی بە کارەکەی بەخشی.""",
@@ -410,7 +409,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) سەرچاوەی وزە، بۆ نموونە سووتەمەنی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The £500 million programme is centred around energy efficiency and renewable power sources.""",

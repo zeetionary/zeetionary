@@ -601,7 +601,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (کردار) شلکردن؛ شلبوونەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Ease your grip on the wheel a little.""",
             kurdishText: """کەمێک گرتنی ویلەکە شڵ‌بکە.""",

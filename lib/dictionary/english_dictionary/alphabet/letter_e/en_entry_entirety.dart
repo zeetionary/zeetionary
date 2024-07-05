@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) بە گشتی، نەک بە پارچە پارچە """),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The poem is too long to quote in its entirety.""",
             kurdishText: """ھۆنراوەکە زۆر درێژە کە ھەمووی بنووسرێت.""",

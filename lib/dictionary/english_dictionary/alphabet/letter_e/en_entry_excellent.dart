@@ -333,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) بۆ گوتنی ئەوەی زۆر دڵخۆشیت بە شتێک یان شتێک پەسەند دەکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """You can all come? Excellent!""",
             kurdishText: """ھەمووتان دەتوانن بێن؟ نایابە!""",

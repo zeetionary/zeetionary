@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) جلی درێژی ژنانە"""),
-          const AlsoEnglishckb(word: "ھەروەھا: life"),
+          const AlsoEnglishckb(word: "ھەروەھا: evening gown"),
         ],
       ),
     );

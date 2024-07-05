@@ -313,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) زیاتر لەوەی ڕێگا پێدراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She was exceeding the speed limit (= driving faster than is allowed).""",
@@ -331,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) زیاتربوون لەوەی پێشبینی کراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His achievements have exceeded expectations.""",
             kurdishText: """دەسکەوتەکانی پێشبینی تێپەڕاندبوو.""",

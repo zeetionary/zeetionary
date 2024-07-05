@@ -454,7 +454,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەکاردێت کە شت بەراورد دەکەیت، بۆ ئەوەی بەراوردە بەھێزتر بکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """You know even less about it than I do.""",
             kurdishText: """تەنانەت کەمتر لەوە دەزانیت کە من دەیزانم.""",
@@ -480,7 +479,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) بەکاردێت بۆ ناساندنی باسێکی شتێک کە زیاتر درووستە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It's an unattractive building, ugly even.""",
             kurdishText: """بینایەکی جوان نییە، تەنانەت ناشرینیشە.""",
@@ -489,7 +487,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵناو) ژمارەی جووت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """4, 6, 8 and 10 are all even numbers.""",
             kurdishText: """٤، ٦، ٨، و ١٠ ھەموویان ژمارەی جووتن.""",
@@ -505,7 +502,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ھاوەڵناو) یەکسان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Our scores are now even.""",
             kurdishText: """خاڵەکانمان ئێستا یەکسانن.""",
@@ -523,7 +519,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ھاوەڵناو) لە ھەمان ئاست"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The two players were pretty even.""",
             kurdishText: """دوو یاریزانەکە بەزۆری لە ھەمان ئاست بوون.""",
@@ -541,7 +536,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ھاوەڵناو) کە زۆر ناگۆڕێت لە بڕ، خێرایی، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Children do not learn at an even pace.""",
             kurdishText: """منداڵان بە خێراییەکی یەکسان فێر نابن.""",
@@ -559,7 +553,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٨. (ھاوەڵناو) ڕێک و تەخت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """You need an even surface to work on.""",
             kurdishText: """پێویستت بە ڕوویەکی تەختە کاری لەسەر بکەیت.""",
@@ -577,7 +570,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٩. (ھاوەڵناو) کە بە ھەمان ئەندازەیە؛ کە ھەمان بۆشایی لە نێوانی ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Try to keep your stitches absolutely even.""",
             kurdishText: """ھەوڵ بدە تەقەڵەکانت بە تەواوی بە ڕێکی بھێڵە.""",
@@ -594,7 +586,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١٠. (ھاوەڵناو) لەسەرخۆ؛ کە تووڕە نابێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She has a very even temperament.""",
             kurdishText: """خووی زۆر لەسەرخۆی ھەیە.""",
@@ -716,17 +707,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VrKW58MS12g?t=';
+const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 205;
-const String _videoIdone = 'gFuEoxh5hd4?t=';
+const String _videoIdone = 'gFuEoxh5hd4';
 const double _startSecondsone = 608;
-const String _videoIdtwo = 'XZVHmRvfDHM?t=';
+const String _videoIdtwo = 'XZVHmRvfDHM';
 const double _startSecondstwo = 65;
-const String _videoIdthree = 'fXLrw7XozC8?t=';
+const String _videoIdthree = 'fXLrw7XozC8';
 const double _startSecondsthree = 47;
 const String _videoIdfour = 'wizgxRBfVTY';
 const double _startSecondsfour = 0;
-const String _videoIdfive = 'NWE3vyCaK44?t=';
+const String _videoIdfive = 'NWE3vyCaK44';
 const double _startSecondsfive = 87;
 
 class YoutubeEmbeddedend extends StatelessWidget {

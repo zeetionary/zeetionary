@@ -295,7 +295,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) پەیوەندی کردن بە سوپاوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They both enlisted in 1915.""",
             kurdishText: """ھەردووکیان لە ١٩١٥ چوونە سوپا.""",

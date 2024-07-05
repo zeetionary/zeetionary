@@ -2325,7 +2325,7 @@ class EnglishMeaningConst extends ConsumerWidget {
     return SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.only(
-            left: 8.0, right: 8.0, top: 18.0, bottom: 8.0),
+            left: 10.0, right: 10.0, top: 18.0, bottom: 18.0),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -2387,56 +2387,60 @@ class _EnglishButtonTTSState extends ConsumerState<EnglishButtonTTS>
     // Theme.of(context).primaryColor.withOpacity(0.009),
     final textSize = ref.watch(textSizeProvider);
     return IntrinsicWidth(
-      child: Container(
-        height: textSize + 28,
-        decoration: BoxDecoration(
-          // color: Theme.of(context).primaryColor.withOpacity(0.04),
-          border: Border.all(
-            color: Theme.of(context).primaryColor.withOpacity(0.2),
-            width: 1.0, // Adjust the border width
+      child: Padding(
+        padding: const EdgeInsets.only(
+            left: 10.0, right: 10.0, top: 18.0, bottom: 18.0),
+        child: Container(
+          height: textSize + 28,
+          decoration: BoxDecoration(
+            // color: Theme.of(context).primaryColor.withOpacity(0.04),
+            border: Border.all(
+              color: Theme.of(context).primaryColor.withOpacity(0.2),
+              width: 1.0, // Adjust the border width
+            ),
+            // boxShadow: [
+            //   BoxShadow(
+            //     color: Theme.of(context).primaryColor.withOpacity(0.2),
+            //     spreadRadius: 2,
+            //     blurRadius: 4,
+            //     offset: Offset(0, 2), // Add a subtle shadow
+            //   ),
+            // ],
+            borderRadius: BorderRadius.circular(51.0),
           ),
-          // boxShadow: [
-          //   BoxShadow(
-          //     color: Theme.of(context).primaryColor.withOpacity(0.2),
-          //     spreadRadius: 2,
-          //     blurRadius: 4,
-          //     offset: Offset(0, 2), // Add a subtle shadow
-          //   ),
-          // ],
-          borderRadius: BorderRadius.circular(51.0),
-        ),
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-          children: [
-            CustomIconButtonBritish(
-              onPressed: () {
-                widget.onBritishPressed("en-GB");
-                updateSpeakingState(true);
-              },
-            ),
-            CustomIconButtonAmerican(
-              onPressed: () {
-                widget.onAmericanPressed("en-US");
-                updateSpeakingState(true);
-              },
-            ),
-            // Conditional rendering of pause button
-            if (isSpeaking)
-              IconButton(
-                icon: Container(
-                    decoration: BoxDecoration(
-                      shape: BoxShape.circle,
-                      border: Border.all(
-                          color: Theme.of(context).primaryColor, width: 1.0),
-                    ),
-                    padding: const EdgeInsets.all(6.0),
-                    child: Icon(Icons.pause, size: textSize - 6)),
+          child: Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              CustomIconButtonBritish(
                 onPressed: () {
-                  widget.onStopPressed();
-                  updateSpeakingState(false);
+                  widget.onBritishPressed("en-GB");
+                  updateSpeakingState(true);
                 },
               ),
-          ],
+              CustomIconButtonAmerican(
+                onPressed: () {
+                  widget.onAmericanPressed("en-US");
+                  updateSpeakingState(true);
+                },
+              ),
+              // Conditional rendering of pause button
+              if (isSpeaking)
+                IconButton(
+                  icon: Container(
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        border: Border.all(
+                            color: Theme.of(context).primaryColor, width: 1.0),
+                      ),
+                      padding: const EdgeInsets.all(6.0),
+                      child: Icon(Icons.pause, size: textSize - 6)),
+                  onPressed: () {
+                    widget.onStopPressed();
+                    updateSpeakingState(false);
+                  },
+                ),
+            ],
+          ),
         ),
       ),
     );

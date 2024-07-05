@@ -265,12 +265,13 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeductibles2("en-GB"),
             onPressedAmerican: () => speakdeductibles2("en-US"),
           ),
+          const DividerDefinition(),
           CustomRichText(
             textBeforeLink: "٢. بڕوانە لە ",
             linkText: "excess",
             textAfterLink: "",
             onTap: () {
-              Routemaster.of(context).push("/english-excess/deductible");
+              Routemaster.of(context).push("/english-deductible/excess");
             },
           ),
         ],

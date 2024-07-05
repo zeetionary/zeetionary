@@ -318,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ھاوتاکردنی شتێک یان ئەوەی شتێک بە ھاوتا سەیر بکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The equation of wealth with happiness can be dangerous.""",
@@ -330,7 +329,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کێشەیەک یان دۆخێک کە ژمارەیەک شت دەبیت لەبەرچاو بگیردرێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """When children enter the equation, further tensions may arise within a marriage.""",

@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کۆمەڵێک شت کە پێکەوە سەیر دەکردرێنل دەستەیەک جل کە پێکەوە لەبەر دەکردرێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """A pair of pink shoes completed her striking ensemble.""",

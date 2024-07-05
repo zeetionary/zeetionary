@@ -898,7 +898,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ھەبوونی زانیاریی زۆر لەسەر ژمارەیەکی زۆر بابەت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She has an encyclopedic knowledge of natural history.""",

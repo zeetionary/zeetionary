@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێک کە پەرکەمی ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The doctor specialized in treating epileptics.""",
             kurdishText:
@@ -354,17 +353,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '1KgSp94nCZw?t=';
+const String _videoIdend = '1KgSp94nCZw';
 const double _startSecondsend = 189;
-const String _videoIdone = 'Unzc731iCUY?t=';
+const String _videoIdone = 'Unzc731iCUY';
 const double _startSecondsone = 1832;
-const String _videoIdtwo = 'oOAyQUBithQ?t=';
+const String _videoIdtwo = 'oOAyQUBithQ';
 const double _startSecondstwo = 370;
-const String _videoIdthree = 'BuX6-lvUwd0?t=';
+const String _videoIdthree = 'BuX6-lvUwd0';
 const double _startSecondsthree = 120;
-const String _videoIdfour = 'NS4hohGHZbk?t=';
+const String _videoIdfour = 'NS4hohGHZbk';
 const double _startSecondsfour = 904;
-const String _videoIdfive = 'C5pblK3inqY?t=';
+const String _videoIdfive = 'C5pblK3inqY';
 const double _startSecondsfive = 439;
 
 class YoutubeEmbeddedend extends StatelessWidget {

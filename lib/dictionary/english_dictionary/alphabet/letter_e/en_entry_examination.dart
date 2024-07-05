@@ -382,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لێکۆڵینەوە لە شتێک بە وردی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The issue needs further examination.""",
             kurdishText: """بابەتەکە پێویستیی بە لێکۆڵینەوەی زیاترە.""",
@@ -411,7 +410,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) پشکنینی کەسێک/شتێک بۆ دۆزینەوەی ھەر کێشەیەک کە ھەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Regular breast examination is advised.""",
             kurdishText: """پشکنینی بەردەوامی مەمک پێشنیارکراوە.""",

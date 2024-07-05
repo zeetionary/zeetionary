@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەفسەرێکی پلە نزم لە ھێزی دەریایی ئەمریکا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The ensign led the team during the rescue operation.""",

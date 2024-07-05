@@ -325,7 +325,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) زمان و ئەدەبی ئینگلیزی وەک بابەتی خوێندن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """English is my best subject.""",
             kurdishText: """ئینگلیزی باشترین بابەتمە.""",
@@ -334,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) خەڵکی ئینگلتەرە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The English have a rich cultural heritage.""",
             kurdishText:
@@ -346,7 +344,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) پەیوەندیدار بە ئینگلتەرە خەڵکەکەی، یان زمانەکەی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Is she English?""",
             kurdishText: """ئینگلیزە؟""",

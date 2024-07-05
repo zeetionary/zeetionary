@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) بۆ باسکردنی ژنێکی دووگیان یان باوکێک کە بە زووی دەبێتە باوک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Smoking by expectant mothers may increase the chances of brain damage in their babies.""",
@@ -352,17 +351,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'Jmq9dSx50OE?t=';
+const String _videoIdend = 'Jmq9dSx50OE';
 const double _startSecondsend = 723;
-const String _videoIdone = '6bHJaI6KjEE?t=';
+const String _videoIdone = '6bHJaI6KjEE';
 const double _startSecondsone = 12;
-const String _videoIdtwo = 'RU0h-L24YKs?t=';
+const String _videoIdtwo = 'RU0h-L24YKs';
 const double _startSecondstwo = 92;
-const String _videoIdthree = '1Drw0NNV_w8?t=';
+const String _videoIdthree = '1Drw0NNV_w8';
 const double _startSecondsthree = 330;
-const String _videoIdfour = 'ILRWCvcsDSs?t=';
+const String _videoIdfour = 'ILRWCvcsDSs';
 const double _startSecondsfour = 888;
-const String _videoIdfive = 'TW9CWWKBdXE?t=';
+const String _videoIdfive = 'TW9CWWKBdXE';
 const double _startSecondsfive = 25;
 
 class YoutubeEmbeddedend extends StatelessWidget {

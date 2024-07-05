@@ -45,7 +45,7 @@ class _EnglishEntrynotebookState extends State<EnglishEntrynotebook> {
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """notebook""",
-                      // alsoEnglishWord: "also: notebook",
+                      alsoEnglishWord: "also: exercise book",
                       britshText: """IpaUK: /ˈnəʊtbʊk/""",
                       americanText: """IpaUS: /ˈnəʊtbʊk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) دەفتەرێک بۆ نووسینی شت تێیدا؛ دەفتەری قوتابی"""),
-          const AlsoEnglishckb(word: "ھەروەھا: exercise book"),
           SentencesRow(
             englishText:
                 """The police officer wrote the details down in his notebook.""",

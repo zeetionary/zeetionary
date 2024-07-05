@@ -320,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە شارەزای چاککردنەوەی ئامێر و کەرەستەی کارەباییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They're sending an engineer to fix the problem with the heating.""",
@@ -341,7 +340,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) ڕێکخستنی ڕوودانی شتێک، بەتایبەتی کە بۆ ئەوەیە کە سوود بە خۆت بگەیەنیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She engineered a further meeting with him.""",
             kurdishText: """کۆبوونەوەیەکی دیکەی ڕێکخست لەگەڵی.""",
@@ -360,7 +358,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) دیزاین و بنیادنانی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The car is beautifully engineered and a pleasure to drive.""",
@@ -371,7 +368,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) گۆڕینی پێکھاتەی جیناتی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Some biotech crops are engineered to ward off pests.""",

@@ -321,7 +321,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لێکۆڵینەوە لە شتێک بۆ دۆزینەوە لەسەری"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """These findings merit further exploration.""",
             kurdishText: """ئەم دۆزینەوانە شایەنی لێکۆڵینەوەی زیاترن.""",

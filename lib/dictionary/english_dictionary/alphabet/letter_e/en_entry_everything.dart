@@ -328,7 +328,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (جێناو) دۆخی ئێستال ژیان بە گشتی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Everything in the capital is now quiet.""",
             kurdishText: """ھەموو شتێک لە پایتەخت ئێستا ئارامە.""",
@@ -337,7 +336,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (جێناو) گرنگترین شت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Money isn't everything.""",
             kurdishText: """پارە ھەموو شت نییە.""",

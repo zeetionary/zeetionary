@@ -303,7 +303,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) تەنھا لە دۆخی جیاوازدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Exceptionally, students may be accepted without formal qualifications.""",

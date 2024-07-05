@@ -452,7 +452,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کەسێک/شتێک کە نموونەیەکی گونجاوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This is a good example of the artist's early work.""",
@@ -490,7 +489,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک یان ڕەفتاری کەسێک کە بە نموونەیەکی باش دادەنرێت بۆ چاولێکردن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Her courage is an example to us all.""",
             kurdishText: """بوێرییەکەی نموونەیەکە بۆ ھەموومان.""",
@@ -516,7 +514,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ڕەفتاری کەسێک، چی خراپ یان باش، کە کەسانی دیکە چاوی لێ دەکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It would be a mistake to follow his example.""",
             kurdishText: """ھەڵە دەبێت چاو لە ڕەفتاری بکەیت.""",

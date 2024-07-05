@@ -317,7 +317,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسانی کۆمەڵگە یان پیشەیەک کە دەسەڵاتیان ھەیە و زۆرجار پشتگیری گۆڕان ناکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The members were drawn from the ranks of the Establishment.""",
@@ -338,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) دەست پێکردن یان دەمەزراندنی شتێک کە ئامانج لێی ئەوەیە زۆر بەردەوام ببێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The speaker announced the establishment of a new college.""",

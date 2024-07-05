@@ -307,7 +307,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) باشتربوون لە کاتی ئاسایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Rick's cooking was always good, but this time he really excelled himself.""",

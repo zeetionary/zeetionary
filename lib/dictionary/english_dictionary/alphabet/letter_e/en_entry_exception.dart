@@ -314,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە شوێن یاسایەک ناکەوێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There are always a lot of exceptions to grammar rules.""",

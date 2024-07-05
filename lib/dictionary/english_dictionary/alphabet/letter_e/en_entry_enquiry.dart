@@ -297,7 +297,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) داواکردنی زانیاری سەبارەت بە کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We received over 300 enquiries about the job.""",
             kurdishText: """سەروو ٣٠٠ داواکاریمان بۆ کارەکە پێگەشت.""",
@@ -317,7 +316,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) پرسیارکردن و دۆزینەوەی زانیاری سەبارەت بە کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The police are following several lines of enquiry.""",
@@ -328,7 +326,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) شوێنێک کە دەکرێت زانیاریی لێ وەربگریت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Ask at enquiries to see if your bag has been handed in.""",

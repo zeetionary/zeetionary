@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) پەیوەندی کردن بە سوپاوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """One possibility would be to increase the maximum age for enlistment to 40.""",

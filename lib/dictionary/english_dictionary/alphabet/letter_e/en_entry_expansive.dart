@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە بابەتی زۆر لەخۆدەگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We need to look at a more expansive definition of the term.""",
@@ -290,7 +289,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) ھاوڕێ و ھەبوونی ئامادەیی بۆ قسەکردنی زۆر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She was clearly relaxed and in an expansive mood.""",
@@ -375,17 +373,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'NFtQOxjWfaA?t=';
+const String _videoIdend = 'NFtQOxjWfaA';
 const double _startSecondsend = 343;
-const String _videoIdone = 'Sbp_EeBk-As?t=';
+const String _videoIdone = 'Sbp_EeBk-As';
 const double _startSecondsone = 2078;
-const String _videoIdtwo = 'vJC4yz7e7HE?t=';
+const String _videoIdtwo = 'vJC4yz7e7HE';
 const double _startSecondstwo = 684;
-const String _videoIdthree = 'Is1IWMPNqh4?t=';
+const String _videoIdthree = 'Is1IWMPNqh4';
 const double _startSecondsthree = 1572;
-const String _videoIdfour = '2Hq4CtLfnZs?t=';
+const String _videoIdfour = '2Hq4CtLfnZs';
 const double _startSecondsfour = 197;
-const String _videoIdfive = 'DSQG0zvR6dk?t=';
+const String _videoIdfive = 'DSQG0zvR6dk';
 const double _startSecondsfive = 1133;
 
 class YoutubeEmbeddedend extends StatelessWidget {

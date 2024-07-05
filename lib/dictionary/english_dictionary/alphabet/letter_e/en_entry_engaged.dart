@@ -330,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) سەرقاڵ بە کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They were engaged in conversation.""",
             kurdishText: """سەرقاڵ بوون بە گفتوگۆ.""",
@@ -355,7 +354,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) ھێڵێکی پەیوەندی کە لە کارکردندایە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I couldn't get through—the line's engaged.""",
             kurdishText: """نەمتوانی پەیوەندییەکە وەربگرم، گیردرابوو.""",

@@ -338,7 +338,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) شتێک کە خۆشی لێ دەبینیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The new job was not without its excitements.""",
             kurdishText: """کارە تازەکە بەبێ خۆشی خۆی نەبوو.""",

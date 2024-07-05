@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) خستنەڕووی نموونەیەک بۆ ڕوونکردنەوەی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She exemplified each of the points she was making with an amusing anecdote.""",

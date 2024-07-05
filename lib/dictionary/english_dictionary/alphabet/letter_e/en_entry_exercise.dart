@@ -478,7 +478,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کۆمەڵە جوڵەیەک یان چالاکییەک کە دەیانکەیت بۆ مانەوە بە تەندرووستی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Remember to do your breathing exercises every day.""",
@@ -507,7 +506,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ژمارەیەک پرسیار لە کتێبێک کە زانیاریت تاقیدەکاتەوە یان شارەزاییت زیاد دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I want you to do the next exercise in the book in pairs.""",
@@ -527,7 +525,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) بەکارھێنانی دەسەڵات، شارەزایی، ھتد بۆ کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """One of these powers is the exercise of discretion by police officers.""",
@@ -542,7 +539,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) چالاکییەک کە ئامانج لێی بەدەستھێنانی ئەنجامێکی دیاریکراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """In the end it proved a pointless exercise.""",
             kurdishText: """لە کۆتاییدا چالاکییەکی بێسوود دەرچوو.""",
@@ -581,7 +577,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ناو) ژمارەیەک چالاک بۆ مەشقی سەربازان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He was injured in a training exercise.""",
             kurdishText: """لە مەشقێکی ڕاھێنانکردندا برینداربوو.""",
@@ -592,7 +587,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (کردار) ڕاھێنان کردن بۆ مانەوە بە تەندرووستی یان بەھێزبوون"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """How often do you exercise?""",
             kurdishText: """چەند زوو ڕاھێنان دەکەیت؟""",
@@ -610,7 +604,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (کردار) پێدانی جووڵە و چالاکی بە بەشێکی جەستە کە پێویستی پێیەتی بۆ مانەوە بە بەھێزی و تەندرووست"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """These movements will exercise your arms and shoulders.""",
@@ -622,7 +615,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٩. (کردار) بەکارھێنانی دەسەڵات، شارەزایی، ھتد بۆ کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He was a man who exercised considerable influence over people.""",
@@ -652,7 +644,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١٠. (کردار) شڵەژاو سەبارەت بە شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The public are less exercised about this matter than the media.""",
@@ -765,17 +756,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VrKW58MS12g?t=';
+const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 1300;
-const String _videoIdone = '_GFkHA5EZdE?t=';
+const String _videoIdone = '_GFkHA5EZdE';
 const double _startSecondsone = 136;
-const String _videoIdtwo = 'o9zCgPtsups?t=';
+const String _videoIdtwo = 'o9zCgPtsups';
 const double _startSecondstwo = 111;
-const String _videoIdthree = 'DWmGArQBtFI?t=';
+const String _videoIdthree = 'DWmGArQBtFI';
 const double _startSecondsthree = 195;
-const String _videoIdfour = 'pTysrwci0pU?t=';
+const String _videoIdfour = 'pTysrwci0pU';
 const double _startSecondsfour = 485;
-const String _videoIdfive = 'F8_ME4VwTiw?t=';
+const String _videoIdfive = 'F8_ME4VwTiw';
 const double _startSecondsfive = 149;
 
 class YoutubeEmbeddedend extends StatelessWidget {

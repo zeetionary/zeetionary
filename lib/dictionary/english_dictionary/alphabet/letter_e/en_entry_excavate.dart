@@ -285,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) ھەڵکەندنی چاڵێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The body was discovered when builders excavated the area.""",

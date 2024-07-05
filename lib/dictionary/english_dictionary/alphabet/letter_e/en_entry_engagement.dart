@@ -326,7 +326,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕێکخستنی کردنی شتێک لە کاتێکی دیاریکراودا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He has a number of social engagements next week.""",
             kurdishText:
@@ -354,7 +353,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) تێکەڵبوون لەگەڵ کەسێک/شتێک بە مەبەستی تێگەشتن لێیان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Her views are based on years of engagement with the problems of the inner city.""",
@@ -375,7 +373,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) شەڕی نێوان دوو سوپا، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The general tried to avoid an engagement with the enemy.""",

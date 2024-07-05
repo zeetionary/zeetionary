@@ -308,7 +308,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کورتە نووسینێک لەسەر بابەتێک کە نووسراوە بۆ ئەوەی بڵاوبکرێتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The book contains a number of interesting essays on women in society.""",
@@ -326,7 +325,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) ھەوڵی ئەنجام دانی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """His first essay in politics was a complete disaster.""",
@@ -336,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) ھەوڵدان بۆ کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The procedure was first essayed in 1923.""",
             kurdishText: """ڕێگاکە سەرەتا لە ساڵی ١٩٢٣ ھەوڵی بۆ درا.""",

@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) پیشاندانی شتێک بە وردەکاریی زۆر، بەتایبەتی بابەتی ورووژێنەر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He didn't like the degree of sexual explicitness in the film.""",

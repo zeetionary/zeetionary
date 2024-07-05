@@ -339,7 +339,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەو کەسانەی کە بەژداری گەشتێک دەکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Three members of the Everest expedition were killed.""",
@@ -442,15 +441,15 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '0zXfDafyyao?t=';
+const String _videoIdend = '0zXfDafyyao';
 const double _startSecondsend = 884;
-const String _videoIdone = 'py4zetCEYzA?t=';
+const String _videoIdone = 'py4zetCEYzA';
 const double _startSecondsone = 737;
-const String _videoIdtwo = 'oiLdWXLXDeA?t=';
+const String _videoIdtwo = 'oiLdWXLXDeA';
 const double _startSecondstwo = 316;
-const String _videoIdthree = 'Uhh_An7FGek?t=';
+const String _videoIdthree = 'Uhh_An7FGek';
 const double _startSecondsthree = 188;
-const String _videoIdfour = 'oiu0B1SIbag?t=';
+const String _videoIdfour = 'oiu0B1SIbag';
 const double _startSecondsfour = 92;
 const String _videoIdfive = 'YQEWgD_MBXE';
 const double _startSecondsfive = 0;

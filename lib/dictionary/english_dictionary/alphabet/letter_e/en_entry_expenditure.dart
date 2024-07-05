@@ -322,7 +322,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) بەکارھێنانی وزە، کات، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This study represents a major expenditure of time and effort.""",
@@ -404,17 +403,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'Ir3eJ1t13fk?t=';
+const String _videoIdend = 'Ir3eJ1t13fk';
 const double _startSecondsend = 256;
-const String _videoIdone = 'gQmiqmxJMtA?t=';
+const String _videoIdone = 'gQmiqmxJMtA';
 const double _startSecondsone = 6725;
-const String _videoIdtwo = '9ttxmg2nBOQ?t=';
+const String _videoIdtwo = '9ttxmg2nBOQ';
 const double _startSecondstwo = 428;
-const String _videoIdthree = 'PkJlTKUaF3Q?t=';
+const String _videoIdthree = 'PkJlTKUaF3Q';
 const double _startSecondsthree = 347;
-const String _videoIdfour = 'UeRa9bEhgXg?t=';
+const String _videoIdfour = 'UeRa9bEhgXg';
 const double _startSecondsfour = 111;
-const String _videoIdfive = '7nJgHBbEgsE?t=';
+const String _videoIdfive = '7nJgHBbEgsE';
 const double _startSecondsfive = 1229;
 
 class YoutubeEmbeddedend extends StatelessWidget {

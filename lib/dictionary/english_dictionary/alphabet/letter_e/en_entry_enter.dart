@@ -437,7 +437,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ناونووسین بۆ تاقیکردنەوەیەک. پێشبڕکێیەک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Over a thousand children entered the competition.""",
@@ -464,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) دەستپێکردن یان بەژداربوون لە چالاکییەک، دۆخێک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Several new firms have now entered the market.""",
             kurdishText:
@@ -483,7 +481,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) بوون بە ئەندامی دامەزراوەیەک یان دەستکردن بە کارکردن تێیدا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He did not wish to enter the Church like his brothers.""",
@@ -509,7 +506,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) دانانی ناو، ژمارە، وردەکاری، ھتد لە لیست، کتێب، کۆمپیوتەر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """You may need to enter this information manually.""",
             kurdishText:

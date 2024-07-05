@@ -361,7 +361,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) کە کەسێک/دۆخێک لەناکاو زۆر مەترسیدار یان ترسناک دەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Tension between the two sides could explode at any time.""",
@@ -387,7 +386,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) دەربڕینی ھەستێک لەناکاو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We all exploded into wild laughter.""",
             kurdishText: """ھەموان دەستمان کرد بە پێکەنینی کۆنترۆڵ‌نەکراو.""",
@@ -400,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) لەناکاو یان بەخێرایی کردنی شتێک؛ لەناکاو جوڵان بەھێزێکی زۆرەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """After ten minutes the game exploded into life.""",
             kurdishText: """لە دوای دە خولەک یارییەکە تینی سەند.""",
@@ -416,7 +413,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) دەرکردنی دەنگێکی بەرز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Thunder exploded overhead.""",
             kurdishText: """چەخماخە لەسەر سەرمان گرمەی دەھات.""",
@@ -515,17 +511,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'qWAagS_MANg?t=';
+const String _videoIdend = 'qWAagS_MANg';
 const double _startSecondsend = 1052;
-const String _videoIdone = 'tsxmyL7TUJg?t=';
+const String _videoIdone = 'tsxmyL7TUJg';
 const double _startSecondsone = 186;
-const String _videoIdtwo = 'QLq6GEiHqR8?t=';
+const String _videoIdtwo = 'QLq6GEiHqR8';
 const double _startSecondstwo = 1102;
-const String _videoIdthree = 'W2hRTTTpmr8?t=';
+const String _videoIdthree = 'W2hRTTTpmr8';
 const double _startSecondsthree = 247;
-const String _videoIdfour = 'toVfvRhWbj8?t=';
+const String _videoIdfour = 'toVfvRhWbj8';
 const double _startSecondsfour = 465;
-const String _videoIdfive = 'Xzv84ZdtlE0?t=';
+const String _videoIdfive = 'Xzv84ZdtlE0';
 const double _startSecondsfive = 1132;
 
 class YoutubeEmbeddedend extends StatelessWidget {

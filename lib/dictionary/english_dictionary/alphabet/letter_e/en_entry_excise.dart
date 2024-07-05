@@ -305,7 +305,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) باجی حکومەت لەسەر ژمارەیەک کەلووپەل کە لە ناوخۆی وڵاتێک درووست دەکرێت، دەفرۆشرێت، یان بەکاردێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The excise (duty) on beer was increased under the last government.""",

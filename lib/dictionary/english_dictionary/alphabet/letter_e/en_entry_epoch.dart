@@ -292,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) یەکێک لەو ماوانەی مێژووی زەویی بەسەردا دابەش دەبێت، """),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Scientists discovered remains of woolly mammoths and mastodons believed to be from the Pleistocene epoch, more than 10,000 years ago.""",
@@ -374,17 +373,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'JGVBv7svKLo?t=';
+const String _videoIdend = 'JGVBv7svKLo';
 const double _startSecondsend = 282;
-const String _videoIdone = '4HF4Phgafdw?t=';
+const String _videoIdone = '4HF4Phgafdw';
 const double _startSecondsone = 119;
-const String _videoIdtwo = 'UKxQTvqcpSg?t=';
+const String _videoIdtwo = 'UKxQTvqcpSg';
 const double _startSecondstwo = 556;
-const String _videoIdthree = 'pn3euL8Tbfw?t=';
+const String _videoIdthree = 'pn3euL8Tbfw';
 const double _startSecondsthree = 457;
-const String _videoIdfour = 'BIhr61lnc3Y?t=';
+const String _videoIdfour = 'BIhr61lnc3Y';
 const double _startSecondsfour = 751;
-const String _videoIdfive = '1lPJ5SX5p08?t=';
+const String _videoIdfive = '1lPJ5SX5p08';
 const double _startSecondsfive = 855;
 
 class YoutubeEmbeddedend extends StatelessWidget {

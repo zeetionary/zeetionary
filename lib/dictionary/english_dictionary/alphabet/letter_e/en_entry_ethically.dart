@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێوەی ئەخلاقییانە و پەسەندکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The committee judged that he had not behaved ethically.""",

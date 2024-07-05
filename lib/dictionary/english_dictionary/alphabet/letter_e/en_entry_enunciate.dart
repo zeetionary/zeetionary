@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) دەربڕینی بیرۆکەیەک بە ڕوونی و تەواوی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He enunciated his vision of the future.""",
             kurdishText: """وێنایی بۆ داھاتوو ڕوونکردەوە.""",

@@ -304,7 +304,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) واکردنی ئەوەی شتێک ڕووبدات یان زۆرکردن لە کەسێک کە شتیک بکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """You can't enforce cooperation between the players.""",

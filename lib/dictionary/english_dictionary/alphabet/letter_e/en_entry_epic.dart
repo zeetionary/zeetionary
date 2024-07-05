@@ -302,7 +302,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) فیلم یان کتێبێکی درێژ کە زۆر قارەمانی لەخۆدەگرێت، زۆرجار سەبارەت بە بابەتێکی مێژووی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It's one of those old Hollywood epics with a cast of thousands.""",
@@ -315,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کارێکی درێژخایەن و سەخت کە پێتوایە خەڵکی دەبێت سەرسامی بن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Their four-hour match was an epic.""",
             kurdishText: """یارییە چوار کاتژمێرییەکەیان ناوازە بوو.""",
@@ -325,7 +323,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) ھۆنراوەیەکی پاڵەوانێتی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They produced an epic film about the Roman Empire.""",
@@ -338,7 +335,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ھاوەڵناو) کە لە ماوەیەکی درێژدا ڕوودەدات و زۆر سەختی لەخۆدەگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """James has walked 1,000 miles in an epic journey across Africa.""",
@@ -350,7 +346,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) زۆر باش، گەورە، یان ناوازە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The party was epic!""",
             kurdishText: """ئاھەنگەکە بێ‌وێنە بوو!""",
@@ -439,17 +434,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'Jk7NYEhai0g?t=';
+const String _videoIdend = 'Jk7NYEhai0g';
 const double _startSecondsend = 36;
-const String _videoIdone = 'pk99d2015so?t=';
+const String _videoIdone = 'pk99d2015so';
 const double _startSecondsone = 362;
-const String _videoIdtwo = 'P4tDxQby99A?t=';
+const String _videoIdtwo = 'P4tDxQby99A';
 const double _startSecondstwo = 194;
-const String _videoIdthree = 'LIsUmtxgGF0?t=';
+const String _videoIdthree = 'LIsUmtxgGF0';
 const double _startSecondsthree = 88;
-const String _videoIdfour = 'rN9NzgryhMY?t=';
+const String _videoIdfour = 'rN9NzgryhMY';
 const double _startSecondsfour = 328;
-const String _videoIdfive = 'J75uWWaMZHw?t=';
+const String _videoIdfive = 'J75uWWaMZHw';
 const double _startSecondsfive = 114;
 
 class YoutubeEmbeddedend extends StatelessWidget {

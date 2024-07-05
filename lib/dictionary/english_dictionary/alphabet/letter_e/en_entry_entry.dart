@@ -432,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ماف یان ھەلی چوونە شوێنێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Entry to the museum is free.""",
             kurdishText: """چوونە ناو مۆزەخانەکە بێ‌بەرامبەرە.""",
@@ -459,7 +458,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) شتێک کە دەیکەیت، دەینووسیت، یان درووستی دەکەیت بۆ بەژداری لە کێبڕکێیەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The closing date for entries is 31 March.""",
             kurdishText: """ڕێکەوتی کۆتایی بۆ بەژداری ٣١ ـی ئادارە.""",
@@ -485,7 +483,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) بەژداریکردن لە پێشبڕکێیەک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Entry is open to anyone over the age of 18.""",
             kurdishText:
@@ -497,7 +494,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) ھەموو ئەو کەسانەی بەژداری لە پێشبڕکێیەک، ھتد دەکەن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """There's a record entry for this year's marathon.""",
             kurdishText: """بەژداریی مێژووی ھەیە بۆ ماراسۆنی ئەمساڵ.""",
@@ -508,7 +504,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) شتێک، بۆ نموونە زانیارییەک، کە لەسەر فەرھەنگێک، کتێبێک، ھتد نووسراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Very little information is given in the diary entries.""",
@@ -526,7 +521,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ناو) تۆمارکردنی زانیاری لە کۆمپیوتەر، کتێب، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The job involves data entry.""",
             kurdishText: """کارەکە تۆمارکردنی داتا لەخۆدەگرێت.""",
@@ -537,7 +531,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (ناو) ماف یان ھەلی بەژداری کردن لە شتێک یان بوون بە ئەندامی گرووپێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It is extremely difficult for new companies to gain entry into the market.""",
@@ -557,7 +550,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٩. (ناو) بەژداریکردن لە چالاکییەک یان بوون بە ئەندامی گرووپێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """That was before the American entry into the war.""",
             kurdishText: """ئەوە پێش بەژداریی ئەمریکا لە جەنگەکە بوو.""",

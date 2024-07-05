@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەمبوونەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Political events caused an evaporation of confidence in the nation’s currency.""",
@@ -347,17 +346,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '737r0mRf0hY?t=';
+const String _videoIdend = '737r0mRf0hY';
 const double _startSecondsend = 623;
-const String _videoIdone = 'UvjSXBqQe4A?t=';
+const String _videoIdone = 'UvjSXBqQe4A';
 const double _startSecondsone = 603;
-const String _videoIdtwo = 'MBsQOTvWL3Q?t=';
+const String _videoIdtwo = 'MBsQOTvWL3Q';
 const double _startSecondstwo = 337;
-const String _videoIdthree = 'p-LY9b1u_io?t=';
+const String _videoIdthree = 'p-LY9b1u_io';
 const double _startSecondsthree = 114;
-const String _videoIdfour = '7fOY40FvF9Q?t=';
+const String _videoIdfour = '7fOY40FvF9Q';
 const double _startSecondsfour = 221;
-const String _videoIdfive = 'saLcKOmPVlg?t=';
+const String _videoIdfive = 'saLcKOmPVlg';
 const double _startSecondsfive = 112;
 
 class YoutubeEmbeddedend extends StatelessWidget {

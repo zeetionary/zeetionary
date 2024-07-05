@@ -346,7 +346,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە وا دەکات پارە خەرج بکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Running a car is a big expense.""",
             kurdishText: """ھەبوونی ئۆتۆمبێلێک خەرجییەکی زۆرە.""",
@@ -366,7 +365,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەو پارەیەی لە کردنی کاریکی دیاریکراو، یان مەبەستێکی دیاریکراو خەرجی دەکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The company has cut operating expenses to their lowest levels in three years""",
@@ -405,7 +403,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ئەو پارەیەی کە لە کاتی کارکردن خەرجی دەکەیت و دواتر خاوەن کارەکەت پێت دەداتەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We paid their expenses, but nothing more.""",
             kurdishText: """خەرجییەکانمان پێدان و ھیچی زیاتر.""",
@@ -488,17 +485,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '043CQXHfx10?t=';
+const String _videoIdend = '043CQXHfx10';
 const double _startSecondsend = 772;
-const String _videoIdone = 'iqhK6QGehtQ?t=';
+const String _videoIdone = 'iqhK6QGehtQ';
 const double _startSecondsone = 739;
-const String _videoIdtwo = 'IgF3OX8nT0w?t=';
+const String _videoIdtwo = 'IgF3OX8nT0w';
 const double _startSecondstwo = 873;
-const String _videoIdthree = 'lDeFSOUHdH4?t=';
+const String _videoIdthree = 'lDeFSOUHdH4';
 const double _startSecondsthree = 1064;
-const String _videoIdfour = '2xfh02FCrd4?t=';
+const String _videoIdfour = '2xfh02FCrd4';
 const double _startSecondsfour = 610;
-const String _videoIdfive = 'bXqZllqGWGQ?t=';
+const String _videoIdfive = 'bXqZllqGWGQ';
 const double _startSecondsfive = 733;
 
 class YoutubeEmbeddedend extends StatelessWidget {

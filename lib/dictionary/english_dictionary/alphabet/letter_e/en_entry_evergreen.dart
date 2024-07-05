@@ -277,7 +277,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە بەردەوام بەناوبانگە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """People still enjoy the evergreen TV series 'Friends.'""",
@@ -289,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) درەختێک کە بەردەوام گەڵای سەوزی ھەیە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Few plants grow under the dense shade cast by the evergreens.""",
@@ -368,17 +366,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'y9nBhv0lq1s?t=';
+const String _videoIdend = 'y9nBhv0lq1s';
 const double _startSecondsend = 1344;
-const String _videoIdone = 'oiLdWXLXDeA?t=';
+const String _videoIdone = 'oiLdWXLXDeA';
 const double _startSecondsone = 126;
-const String _videoIdtwo = '-QYIm5WV04I?t=';
+const String _videoIdtwo = '-QYIm5WV04I';
 const double _startSecondstwo = 242;
-const String _videoIdthree = 'ORcTvgK-vPg?t=';
+const String _videoIdthree = 'ORcTvgK-vPg';
 const double _startSecondsthree = 252;
-const String _videoIdfour = 'RgLC_DRd2cg?t=';
+const String _videoIdfour = 'RgLC_DRd2cg';
 const double _startSecondsfour = 260;
-const String _videoIdfive = 'vvKgnRPThKI?t=';
+const String _videoIdfive = 'vvKgnRPThKI';
 const double _startSecondsfive = 178;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -345,7 +345,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) وڵات یان گرووپیکی دوژمن کە دژیان دەجەنگیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The enemy was/were forced to retreat.""",
             kurdishText: """دوژمن ناچار بە کشانەوە کران.""",
@@ -372,7 +371,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ھەر شتێک کە زیان بە شتێک دەگەیەنێت یان ڕێگا لە سەرکەوتنی دەگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Poverty and ignorance are the enemies of progress.""",

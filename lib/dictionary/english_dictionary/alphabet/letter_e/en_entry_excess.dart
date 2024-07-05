@@ -387,7 +387,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو ڕێژەیەی کە وا دەکات شتێک زیاتر بێت لە یەکێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We cover costs up to £600 and then you pay the excess.""",
@@ -416,7 +415,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) کردنی شتێکی بە زۆری"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He gave in to bouts of alcoholic excess.""",
             kurdishText: """دەستیکرد بە ماوەیەکی زۆر لە خواردنەوەی کحوولی.""",
@@ -427,7 +425,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) ڕەفتارێک کە ناپەسەندە یان ھەڵەیە لە رووی یاسایی، ئەخلاقی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We need a free press to curb government excesses.""",
@@ -439,7 +436,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) لەگەڵ بڕێک کە پێویستە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Excess food is stored as fat.""",
             kurdishText: """خواردنی زیادە وەک چەوری ھەڵدەگیرێت.""",
@@ -458,7 +454,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ناو) کە وەک پارەدانی زیادە پێویستە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The full excess fare had to be paid.""",
             kurdishText: """کرێ زیادە تەواوەتییەکە دەبوو بدرێت.""",

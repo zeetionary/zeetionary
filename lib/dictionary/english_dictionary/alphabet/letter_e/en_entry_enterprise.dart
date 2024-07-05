@@ -295,7 +295,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) پڕۆژەیەکی گەورە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Have you heard about his latest business enterprise?""",
@@ -314,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) گەشەپێدانی بازرگانی لەلایەن خەڵکی وڵاتێک نەک حکومەتەکەی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """They provide grants to encourage enterprise in the region.""",
@@ -327,7 +325,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) توانای بیرکردنەوە لە پڕۆژەی تازە و سەرخستنیان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I thought she showed great enterprise.""",
             kurdishText:

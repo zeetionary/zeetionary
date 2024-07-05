@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ئازڵکان لە شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Many dolphins die each year from entanglement in fishing nets.""",

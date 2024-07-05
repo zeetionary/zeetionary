@@ -640,7 +640,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە ناتوانیت بەرگری لە خۆت بکەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She's an easy target for their criticisms.""",
             kurdishText: """ئامانجێکی ئاسانە بۆ ڕەخنەکانیان.""",

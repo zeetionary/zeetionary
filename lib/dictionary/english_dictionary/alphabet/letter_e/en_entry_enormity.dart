@@ -304,7 +304,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) تاوانێکی کوشندە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The enormities of the Hitler regime shocked the world.""",

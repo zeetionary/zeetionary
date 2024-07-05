@@ -370,7 +370,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) پشکنینی کەسێک/شتێک و دۆزینەوەی ھەر کێشەیەک ئەگەر ھەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The doctor examined her carefully but could find nothing wrong.""",
@@ -403,7 +402,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) تاقیکردنەوەی کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The students will be examined in all subjects at the end of term.""",
@@ -423,7 +421,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) بە فەرمی پرسیارکردن لە کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The prosecution examined 20 witnesses.""",
             kurdishText: """دەستەی لێکۆڵینەوە لە ٢٠ کەسی پرسی.""",

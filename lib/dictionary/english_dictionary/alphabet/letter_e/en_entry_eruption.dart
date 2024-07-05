@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕوودانی شتێک بە لەناکاو و توندوتیژی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The curfew was aimed at preventing any eruption of violence in the capital.""",
@@ -292,7 +291,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) دەربڕینی لەناکاوی ھەستی بەھێز"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His comment triggered an eruption of laughter.""",
             kurdishText: """لێدوانەکەی بووە ھۆکاری پێکەنینێکی لەپڕ.""",

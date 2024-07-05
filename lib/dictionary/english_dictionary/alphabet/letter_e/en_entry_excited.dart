@@ -338,7 +338,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) شڵەژاو و بێزار و نەبوونی توانای حەسانەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Some horses become excited when they're in traffic.""",

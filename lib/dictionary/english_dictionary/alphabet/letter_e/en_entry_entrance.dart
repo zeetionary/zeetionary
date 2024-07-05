@@ -390,7 +390,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) چوونەژوورەوە بۆ شوێنیک، بەتایبەتی کە سەرنج ڕادەکێشێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His sudden entrance took everyone by surprise.""",
             kurdishText: """ھاتنەژوورەوەی لەناکاوی ھەموانی حەپەساند.""",
@@ -408,7 +407,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ماف یان ھەلی چوونە ناو بینایەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They were refused entrance to the exhibition.""",
             kurdishText: """چوونەژوورەوەیان بۆ پێشانگاکە ڕەتکرایەوە.""",
@@ -425,7 +423,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) تێوەگلان لە شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The company made an entrance into the export market.""",
@@ -437,7 +434,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) مۆڵەتی بوون بە ئەندامی یانەیەک، زانکۆیەک، ھتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """What are the entrance requirements for this course?""",

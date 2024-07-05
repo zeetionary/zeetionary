@@ -286,7 +286,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The students made a dramatic exit toward the end of his speech.""");
+    await flutterTts.speak(
+        """The students made a dramatic exit toward the end of his speech.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -300,35 +301,40 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They were disappointed by the team's early exit from the World Cup.""");
+    await flutterTts.speak(
+        """They were disappointed by the team's early exit from the World Cup.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The bullet entered her back and exited through her chest.""");
+    await flutterTts
+        .speak("""The bullet entered her back and exited through her chest.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""As the actors exited the stage the lights went on.""");
+    await flutterTts
+        .speak("""As the actors exited the stage the lights went on.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Passengers exited the aircraft through the rear door.""");
+    await flutterTts
+        .speak("""Passengers exited the aircraft through the rear door.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I exited the database and switched off the computer.""");
+    await flutterTts
+        .speak("""I exited the database and switched off the computer.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
@@ -931,7 +937,8 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ناو) دەرچوون، بەتایبەتی دەرچوون لەسەر شانۆ"""),
+          const DefinitionKurdish(
+              text: """٣. (ناو) دەرچوون، بەتایبەتی دەرچوون لەسەر شانۆ"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The heroine made her exit to great applause.""",
@@ -943,8 +950,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The students made a dramatic exit toward the end of his speech.""",
-            kurdishText: """خوێندکاران دەرچوونێکی دراماتیکیان ئەنجام دا لە کۆتایی وتارەکەی.""",
+            englishText:
+                """The students made a dramatic exit toward the end of his speech.""",
+            kurdishText:
+                """خوێندکاران دەرچوونێکی دراماتیکیان ئەنجام دا لە کۆتایی وتارەکەی.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -958,19 +967,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ناو) دەرچوون لە دۆخێک یان چالاکییەک"""),
+          const DefinitionKurdish(
+              text: """٤. (ناو) دەرچوون لە دۆخێک یان چالاکییەک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They were disappointed by the team's early exit from the World Cup.""",
-            kurdishText: """نائومێد بوون بە دەرچوونی زووی تیمەکە لە جامی جیهانی.""",
+            englishText:
+                """They were disappointed by the team's early exit from the World Cup.""",
+            kurdishText:
+                """نائومێد بوون بە دەرچوونی زووی تیمەکە لە جامی جیهانی.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (کردار) دەرچوون لە بینایەک، سەر سەکۆ، پێڕۆیەک، هتد"""),
+          const DefinitionKurdish(
+              text:
+                  """٥. (کردار) دەرچوون لە بینایەک، سەر سەکۆ، پێڕۆیەک، هتد"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The bullet entered her back and exited through her chest.""",
+            englishText:
+                """The bullet entered her back and exited through her chest.""",
             kurdishText: """فیشەکەکە چووە پشتی و لە سنگییەوە دەرچوو.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
@@ -979,8 +994,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """As the actors exited the stage the lights went on.""",
-            kurdishText: """کە ئەکتەرەکان سەکۆکەیان جێهێشت ڕۆشناییەکان کەوتنە کار.""",
+            englishText:
+                """As the actors exited the stage the lights went on.""",
+            kurdishText:
+                """کە ئەکتەرەکان سەکۆکەیان جێهێشت ڕۆشناییەکان کەوتنە کار.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -988,17 +1005,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Passengers exited the aircraft through the rear door.""",
+            englishText:
+                """Passengers exited the aircraft through the rear door.""",
             kurdishText: """گەشتیاران لە دەرگای پشتەوە کە فڕۆکەکە دەرچوون.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٦. (کردار) تەواوکردنی بەکارهێنانی پڕۆگرامێکی کۆمپیوتەر"""),
+          const DefinitionKurdish(
+              text:
+                  """٦. (کردار) تەواوکردنی بەکارهێنانی پڕۆگرامێکی کۆمپیوتەر"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """I exited the database and switched off the computer.""",
-            kurdishText: """لە داتابەیسەکە دەرچووم و کۆمپیوتەرەکەم کوژاندەوە.""",
+            englishText:
+                """I exited the database and switched off the computer.""",
+            kurdishText:
+                """لە داتابەیسەکە دەرچووم و کۆمپیوتەرەکەم کوژاندەوە.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
@@ -1714,18 +1736,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/NFtQOxjWfaA?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 178;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/dqcSk-EDrRo?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 749;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/jKv_N0IDS2A?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 314;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/Pl8AJAt3TDg?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 224;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/Js2UoMSumx4?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 39;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/X3TAROotFfM?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 348;
+const String _videoIdend = 'NFtQOxjWfaA';
+const double _startSecondsend = 178;
+const String _videoIdone = 'dqcSk-EDrRo';
+const double _startSecondsone = 749;
+const String _videoIdtwo = 'jKv_N0IDS2A';
+const double _startSecondstwo = 31;
+const String _videoIdthree = 'Pl8AJAt3TDg';
+const double _startSecondsthree = 224;
+const String _videoIdfour = 'Js2UoMSumx4';
+const double _startSecondsfour = 39;
+const String _videoIdfive = 'X3TAROotFfM';
+const double _startSecondsfive = 34;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

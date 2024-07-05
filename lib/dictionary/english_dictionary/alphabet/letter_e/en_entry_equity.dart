@@ -245,14 +245,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The couple have no savings except for the equity in their house.""");
+    await flutterTts.speak(
+        """The couple have no savings except for the equity in their house.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They strive for a society based on equity and social justice.""");
+    await flutterTts.speak(
+        """They strive for a society based on equity and social justice.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -875,20 +877,26 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: دادگەری، دادپەروەری، داد، ئینساف، خودابینی، بێ‌لایەنی، بی‌غەرەزی، لانەگرتن،	دارایی پوختە
 """),
-          const DefinitionKurdish(text: """١. (ناو) نرخی پشکەکانی کۆمپانیایەک"""),
+          const DefinitionKurdish(
+              text: """١. (ناو) نرخی پشکەکانی کۆمپانیایەک"""),
           SentencesRow(
             englishText:
                 """He plans to raise the company’s return on equity to 15%.""",
-            kurdishText: """پلانی هەیە قازانجی کۆمپانیەکە لە نرخی پشکەکان بۆ ١٥٪ بەرزبکاتەوە.""",
+            kurdishText:
+                """پلانی هەیە قازانجی کۆمپانیەکە لە نرخی پشکەکان بۆ ١٥٪ بەرزبکاتەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) بەهای سامانێک لە دوای ئەوەی تێچوو و قەرزەکانی دراوەتەوە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) بەهای سامانێک لە دوای ئەوەی تێچوو و قەرزەکانی دراوەتەوە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The couple have no savings except for the equity in their house.""",
-            kurdishText: """ژن و پیاوەکە هیچ پارەی پاشەکەوتکراویان نییە جگە لە بەهای خانووەکەیان.""",
+            englishText:
+                """The couple have no savings except for the equity in their house.""",
+            kurdishText:
+                """ژن و پیاوەکە هیچ پارەی پاشەکەوتکراویان نییە جگە لە بەهای خانووەکەیان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +904,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """٣. (ناو) یەکسانی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They strive for a society based on equity and social justice.""",
-            kurdishText: """بۆ کۆمەڵگایەک هەوڵ دەدەن پشتبەستوو بە یەکسانی دادپەروەریی کۆمەڵایەتی بێت.""",
+            englishText:
+                """They strive for a society based on equity and social justice.""",
+            kurdishText:
+                """بۆ کۆمەڵگایەک هەوڵ دەدەن پشتبەستوو بە یەکسانی دادپەروەریی کۆمەڵایەتی بێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

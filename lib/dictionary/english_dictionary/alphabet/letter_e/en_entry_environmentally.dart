@@ -11,10 +11,12 @@ class EnglishEntryenvironmentally extends StatefulWidget {
   const EnglishEntryenvironmentally({super.key});
 
   @override
-  State<EnglishEntryenvironmentally> createState() => _EnglishEntryenvironmentallyState();
+  State<EnglishEntryenvironmentally> createState() =>
+      _EnglishEntryenvironmentallyState();
 }
 
-class _EnglishEntryenvironmentallyState extends State<EnglishEntryenvironmentally> {
+class _EnglishEntryenvironmentallyState
+    extends State<EnglishEntryenvironmentally> {
   @override
   void initState() {
     super.initState();
@@ -238,8 +240,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""There is a need for energy policies that are environmentally sound.""");
+    await flutterTts.speak(
+        """There is a need for energy policies that are environmentally sound.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -889,7 +891,8 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There is a need for energy policies that are environmentally sound.""",
-            kurdishText: """پێویستییەک هەیە بۆ ئەو سیاسەتانەی وزە کە لە ڕووی ژینگەییەوە باشن.""",
+            kurdishText:
+                """پێویستییەک هەیە بۆ ئەو سیاسەتانەی وزە کە لە ڕووی ژینگەییەوە باشن.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

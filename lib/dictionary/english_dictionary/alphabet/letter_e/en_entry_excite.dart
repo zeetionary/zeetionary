@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Nothing about my life excites me at present.""");
+    await flutterTts.speak("""Nothing about my life excites me at present.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -259,7 +258,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The advertising campaign failed to excite much interest in consumers.""");
+    await flutterTts.speak(
+        """The advertising campaign failed to excite much interest in consumers.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -875,16 +875,19 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ورووژان، بزواندن، هرووژاندن، بزاوتن
 """),
-          const DefinitionKurdish(text: """١. (کردار) واکردنی ئەوەی کەسێک زۆر دڵخۆش، بەجۆش، یان بەحەز بێت، بەتایبەتی سەبارەت بە شتێک کە ڕوودەدات"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (کردار) واکردنی ئەوەی کەسێک زۆر دڵخۆش، بەجۆش، یان بەحەز بێت، بەتایبەتی سەبارەت بە شتێک کە ڕوودەدات"""),
           SentencesRow(
-            englishText:
-                """Nothing about my life excites me at present.""",
+            englishText: """Nothing about my life excites me at present.""",
             kurdishText: """هیچ شتێک ئێستا لە ژیاندا دڵخۆشم ناکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (کردار) ئەوەی کە کەسێک دوودڵ و بێزار بکەیت وابکەیت نەتوانێت بحەسێتەوە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (کردار) ئەوەی کە کەسێک دوودڵ و بێزار بکەیت وابکەیت نەتوانێت بحەسێتەوە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Don't excite yourself (= keep calm).""",
@@ -893,11 +896,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (کردار) ئەوەی وا لە کەسێک بکەیت هەستێکی دیاریکراوی هەبێت یان بەشێوەیەکی دیاریکراو وەڵام بداتەوە"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (کردار) ئەوەی وا لە کەسێک بکەیت هەستێکی دیاریکراوی هەبێت یان بەشێوەیەکی دیاریکراو وەڵام بداتەوە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The news has certainly excited comment (= made people talk about it).""",
-            kurdishText: """هەواڵەکە بەدڵنیاییەوە لێدوانی بەدوای خۆیدا هێناوە.""",
+            englishText:
+                """The news has certainly excited comment (= made people talk about it).""",
+            kurdishText:
+                """هەواڵەکە بەدڵنیاییەوە لێدوانی بەدوای خۆیدا هێناوە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -905,8 +912,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The advertising campaign failed to excite much interest in consumers.""",
-            kurdishText: """کەمپینی بانگەشەکە شکستی هێنا حەزی زۆر درووست بکات لای کڕیاران.""",
+            englishText:
+                """The advertising campaign failed to excite much interest in consumers.""",
+            kurdishText:
+                """کەمپینی بانگەشەکە شکستی هێنا حەزی زۆر درووست بکات لای کڕیاران.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -1717,18 +1726,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/UvjSXBqQe4A?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 297;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/jMw1NAwYDbQ?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 672;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/Kp_kqamkYpw?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 338;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/8HravKAx2HQ?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 198;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/ns4DIpKOGFc?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 114;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/tPLJXHdqEu4?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 172;
+const String _videoIdend = 'UvjSXBqQe4A';
+const double _startSecondsend = 297;
+const String _videoIdone = 'jMw1NAwYDbQ';
+const double _startSecondsone = 672;
+const String _videoIdtwo = 'Kp_kqamkYpw';
+const double _startSecondstwo = 33;
+const String _videoIdthree = '8HravKAx2HQ';
+const double _startSecondsthree = 198;
+const String _videoIdfour = 'ns4DIpKOGFc';
+const double _startSecondsfour = 114;
+const String _videoIdfive = 'tPLJXHdqEu4';
+const double _startSecondsfive = 17;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

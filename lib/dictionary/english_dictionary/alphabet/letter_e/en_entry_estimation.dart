@@ -237,22 +237,23 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Who is the best candidate in your estimation?""");
+    await flutterTts.speak("""Who is the best candidate in your estimation?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Since he left his wife he's certainly gone down in my estimation.""");
+    await flutterTts.speak(
+        """Since he left his wife he's certainly gone down in my estimation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She went up in my estimation when I discovered how much charity work she does.""");
+    await flutterTts.speak(
+        """She went up in my estimation when I discovered how much charity work she does.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -266,7 +267,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Estimations of our total world sales are around 50 million.""");
+    await flutterTts.speak(
+        """Estimations of our total world sales are around 50 million.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -875,10 +877,11 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بۆچوون، ڕا، دیتن،	نرخاندن، هەڵسەنگاندن، لێکدانەوە، مەزندە(کردن)، قەبڵاندن، قرساندن،	ڕێز، ڕوومەت، باوەڕی، وەج، ڕوومەت، قەدر، قەدرگرتن، ڕێزگرتن
 """),
-          const DefinitionKurdish(text: """١. (ناو) بڕیاردان یان دەربڕینی بۆچوون سەبارەت بە کوالێتی شتێک"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) بڕیاردان یان دەربڕینی بۆچوون سەبارەت بە کوالێتی شتێک"""),
           SentencesRow(
-            englishText:
-                """Who is the best candidate in your estimation?""",
+            englishText: """Who is the best candidate in your estimation?""",
             kurdishText: """باشترین بەربژێر بە بۆچوونی تۆ کێیە؟""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
@@ -887,7 +890,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Since he left his wife he's certainly gone down in my estimation (= I have less respect for him).""",
+            englishText:
+                """Since he left his wife he's certainly gone down in my estimation (= I have less respect for him).""",
             kurdishText: """لەوەتەی ژنەکەی جێهێشتووە لام بەهای نەماوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
@@ -896,8 +900,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She went up in my estimation (= I have more respect for her) when I discovered how much charity work she does.""",
-            kurdishText: """لام ڕێزی زیاتر بووە کە زانیومە چەندە کاری خێرخوازی دەکات.""",
+            englishText:
+                """She went up in my estimation (= I have more respect for her) when I discovered how much charity work she does.""",
+            kurdishText:
+                """لام ڕێزی زیاتر بووە کە زانیومە چەندە کاری خێرخوازی دەکات.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -911,11 +917,14 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) بڕیاردان لە ئاست یان بڕی شتێک"""),
+          const DefinitionKurdish(
+              text: """٢. (ناو) بڕیاردان لە ئاست یان بڕی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Estimations of our total world sales are around 50 million.""",
-            kurdishText: """خەمڵاندنی فرۆشی تەواوی جیهانیمان نزیکەی ٥٠ ملیۆنە.""",
+            englishText:
+                """Estimations of our total world sales are around 50 million.""",
+            kurdishText:
+                """خەمڵاندنی فرۆشی تەواوی جیهانیمان نزیکەی ٥٠ ملیۆنە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -1706,18 +1715,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/0ST4_hmop9Y?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 1837;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/-BeTq99LqUo?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 592;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/GVsUOuSjvcg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 931;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/JHjXwicEwQo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 364;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/cykdSb7xqI4?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 147;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/DNhnboOpX8k?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 7;
+const String _videoIdend = '0ST4_hmop9Y';
+const double _startSecondsend = 1837;
+const String _videoIdone = '-BeTq99LqUo';
+const double _startSecondsone = 592;
+const String _videoIdtwo = 'GVsUOuSjvcg';
+const double _startSecondstwo = 93;
+const String _videoIdthree = 'JHjXwicEwQo';
+const double _startSecondsthree = 364;
+const String _videoIdfour = 'cykdSb7xqI4';
+const double _startSecondsfour = 147;
+const String _videoIdfive = 'DNhnboOpX8k';
+const double _startSecondsfive = 7;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

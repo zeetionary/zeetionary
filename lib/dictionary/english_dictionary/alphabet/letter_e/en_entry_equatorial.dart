@@ -48,7 +48,8 @@ class _EnglishEntryequatorialState extends State<EnglishEntryequatorial> {
                       word: """equatorial""",
                       // alsoEnglishWord: "also: equatorial",
                       britshText: """IpaUK: /ˌekwəˈtɔːriəl/""",
-                      americanText: """IpaUS: /ˌekwəˈtɔːriəl/,  /ˌiːkwəˈtɔːriəl/""",
+                      americanText:
+                          """IpaUS: /ˌekwəˈtɔːriəl/,  /ˌiːkwəˈtɔːriəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -238,8 +239,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The equatorial climate of the Amazonian rain forests is hot and wet.""");
+    await flutterTts.speak(
+        """The equatorial climate of the Amazonian rain forests is hot and wet.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -882,14 +883,14 @@ class KurdishMeaning extends StatelessWidget {
             linkText: "پشتێنەی زەوی",
             textAfterLink: " پەیوەندیدار بە وڵاتێک کە نزیکە لە پشتێنەی زەوی",
             onTap: () {
-              Routemaster.of(context)
-                  .push("/english-equatorial/equator");
+              Routemaster.of(context).push("/english-equatorial/equator");
             },
           ),
           SentencesRow(
             englishText:
                 """The equatorial climate of the Amazonian rain forests is hot and wet.""",
-            kurdishText: """ئاووهەوای پشتێنەیی دارستانە باراناوییەکانی ئەمازۆن گەرم و شێدارە.""",
+            kurdishText:
+                """ئاووهەوای پشتێنەیی دارستانە باراناوییەکانی ئەمازۆن گەرم و شێدارە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

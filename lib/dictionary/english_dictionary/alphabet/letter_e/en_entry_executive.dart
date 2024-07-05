@@ -237,57 +237,63 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""He's a senior executive in a computer firm.""");
+    await flutterTts.speak("""He's a senior executive in a computer firm.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They offer English courses to business executives.""");
+    await flutterTts
+        .speak("""They offer English courses to business executives.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The union’s executive has/have yet to reach a decision.""");
+    await flutterTts
+        .speak("""The union’s executive has/have yet to reach a decision.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She is a member of the party's national executive.""");
+    await flutterTts
+        .speak("""She is a member of the party's national executive.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Conservatives are by tradition believers in a strong executive.""");
+    await flutterTts.speak(
+        """Conservatives are by tradition believers in a strong executive.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She has an executive position in a finance company.""");
+    await flutterTts
+        .speak("""She has an executive position in a finance company.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Some members of the executive board are thought to be against the merger.""");
+    await flutterTts.speak(
+        """Some members of the executive board are thought to be against the merger.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The boss took an executive decision to cancel the project.""");
+    await flutterTts.speak(
+        """The boss took an executive decision to cancel the project.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -875,10 +881,11 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: ڕاپەڕێنەرانە، بەڕێوەبەر، ڕاپەڕێنەر، هەڵسووڕێنەر، جێبەکێ‌کار، دەسەڵات یان هێزی جێبەجی‌کردن یان ڕاپەڕاندن، دەزگای جێبەجی‌کردن یان ڕاپەڕاندن،	دەستەی جێبەجێ‌کردن، لێژنەی ڕاپەڕاندن،	بەڕێوەبەر
 """),
-          const DefinitionKurdish(text: """١. (ناو) کەسێک کە پێگەیەکی گرنگی هەیە وەک بەڕێوەبەری کۆمپانیایەک"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) کەسێک کە پێگەیەکی گرنگی هەیە وەک بەڕێوەبەری کۆمپانیایەک"""),
           SentencesRow(
-            englishText:
-                """He's a senior executive in a computer firm.""",
+            englishText: """He's a senior executive in a computer firm.""",
             kurdishText: """بەڕێوەبەرێکی باڵایە لە کۆمپانیایەکی کۆمپیوتەری.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
@@ -887,17 +894,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They offer English courses to business executives.""",
-            kurdishText: """کۆرسی ئینگلیزی پێشکەش بە بەڕێوەبەرە بازرگانییەکان دەکەن.""",
+            englishText:
+                """They offer English courses to business executives.""",
+            kurdishText:
+                """کۆرسی ئینگلیزی پێشکەش بە بەڕێوەبەرە بازرگانییەکان دەکەن.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) کۆمەڵە کەسێک کە کۆمپانیایەک یان دامەزراوەیەک بەڕێوە دەبەن"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) کۆمەڵە کەسێک کە کۆمپانیایەک یان دامەزراوەیەک بەڕێوە دەبەن"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The union’s executive has/have yet to reach a decision.""",
-            kurdishText: """بەڕێوەبەرایەتی سەندیکاکە هێشتا لە خەریکی بڕیاردانن.""",
+            englishText:
+                """The union’s executive has/have yet to reach a decision.""",
+            kurdishText:
+                """بەڕێوەبەرایەتی سەندیکاکە هێشتا لە خەریکی بڕیاردانن.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -905,35 +918,47 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She is a member of the party's national executive.""",
-            kurdishText: """ئەندامی دەستەی بەڕێوەبەرایەتی نەتەوەیی پارتەکەیە.""",
+            englishText:
+                """She is a member of the party's national executive.""",
+            kurdishText:
+                """ئەندامی دەستەی بەڕێوەبەرایەتی نەتەوەیی پارتەکەیە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ناو) ئەو بەشەی حکومەت کە بڕیار جێبەجێ دەکات"""),
+          const DefinitionKurdish(
+              text: """٣. (ناو) ئەو بەشەی حکومەت کە بڕیار جێبەجێ دەکات"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Conservatives are by tradition believers in a strong executive.""",
-            kurdishText: """پارێزگاران لە کۆنەوە باوەڕیان بە دەسەڵاتی بەهێزی جێبەجێکردن هەیە.""",
+            englishText:
+                """Conservatives are by tradition believers in a strong executive.""",
+            kurdishText:
+                """پارێزگاران لە کۆنەوە باوەڕیان بە دەسەڵاتی بەهێزی جێبەجێکردن هەیە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (هاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی بازرگانییەک یان دامەزراوەیەک"""),
+          const DefinitionKurdish(
+              text:
+                  """٤. (هاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی بازرگانییەک یان دامەزراوەیەک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She has an executive position in a finance company.""",
+            englishText:
+                """She has an executive position in a finance company.""",
             kurdishText: """پێگەی بەڕێوەبەری هەیە لە کۆمپانیایەکی دارایی.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (هاوەڵناو) هەبوونی دەسەڵاتی جێبەجێکردنی یاسا گرنگەکان"""),
+          const DefinitionKurdish(
+              text:
+                  """٥. (هاوەڵناو) هەبوونی دەسەڵاتی جێبەجێکردنی یاسا گرنگەکان"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Some members of the executive board are thought to be against the merger.""",
-            kurdishText: """هەندێک ئەندامی دەستەی بەڕێوەبەری باوەڕ وایە دژ بە یەکخستنەکە بن.""",
+            englishText:
+                """Some members of the executive board are thought to be against the merger.""",
+            kurdishText:
+                """هەندێک ئەندامی دەستەی بەڕێوەبەری باوەڕ وایە دژ بە یەکخستنەکە بن.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -941,8 +966,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (هاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The boss took an executive decision (= used his/her power to decide) to cancel the project.""",
-            kurdishText: """سەرپەرشتیارەکە بڕیارێکی بەڕێوەبەرانەی دا بۆ هەڵوەشاندنەوەی پڕۆژەکە.""",
+            englishText:
+                """The boss took an executive decision (= used his/her power to decide) to cancel the project.""",
+            kurdishText:
+                """سەرپەرشتیارەکە بڕیارێکی بەڕێوەبەرانەی دا بۆ هەڵوەشاندنەوەی پڕۆژەکە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -1705,18 +1732,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/AF8d72mA41M?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 1102;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/tsxmyL7TUJg?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 127;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/1Gxrwh4zGPg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1079;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/iN8zmmCRqUA?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 46;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/0n89GZvmeXI?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 251;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/VRJzvJ5XPQI?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 427;
+const String _videoIdend = 'AF8d72mA41M';
+const double _startSecondsend = 1102;
+const String _videoIdone = 'tsxmyL7TUJg';
+const double _startSecondsone = 127;
+const String _videoIdtwo = '1Gxrwh4zGPg';
+const double _startSecondstwo = 10;
+const String _videoIdthree = 'iN8zmmCRqUA';
+const double _startSecondsthree = 46;
+const String _videoIdfour = '0n89GZvmeXI';
+const double _startSecondsfour = 251;
+const String _videoIdfive = 'VRJzvJ5XPQI';
+const double _startSecondsfive = 42;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -245,63 +245,72 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The 30 subjects in each experiment were divided into two groups.""");
+    await flutterTts.speak(
+        """The 30 subjects in each experiment were divided into two groups.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The temperature was kept constant during the experiment.""");
+    await flutterTts
+        .speak("""The temperature was kept constant during the experiment.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Many people do not like the idea of experiments on animals.""");
+    await flutterTts.speak(
+        """Many people do not like the idea of experiments on animals.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The experiment with cells from other species was unsuccessful.""");
+    await flutterTts.speak(
+        """The experiment with cells from other species was unsuccessful.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I've never cooked this before so it's an experiment.""");
+    await flutterTts
+        .speak("""I've never cooked this before so it's an experiment.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The system was installed four years ago as an experiment.""");
+    await flutterTts
+        .speak("""The system was installed four years ago as an experiment.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Some people feel that experimenting on animals is wrong.""");
+    await flutterTts
+        .speak("""Some people feel that experimenting on animals is wrong.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They experimented successfully on the plants to discover disease-resistant varieties.""");
+    await flutterTts.speak(
+        """They experimented successfully on the plants to discover disease-resistant varieties.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I experimented until I got the recipe just right.""");
+    await flutterTts
+        .speak("""I experimented until I got the recipe just right.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
@@ -875,12 +884,14 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: تاقی‌گەری (زانستی)، تاقی‌کردنەوە، ئاروین، جەڕەباندن، ئەزموون
 """),
-          const DefinitionKurdish(text: """١. (ناو) تاقیکردنەوەیەکی زانستی بۆ بینینی ئەوەی چی ڕوودەدات و بەدەستهێنانی زانیاری زیادە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) تاقیکردنەوەیەکی زانستی بۆ بینینی ئەوەی چی ڕوودەدات و بەدەستهێنانی زانیاری زیادە"""),
           SentencesRow(
-            englishText:
-                """The results of the experiment were inconclusive.""",
+            englishText: """The results of the experiment were inconclusive.""",
             kurdishText: """ئەنجامەکانی تاقیکردنەوەکە ناتەواو بوون.""",
-            englishNote: "This means that the experiment did not produce clear or definite results, making it difficult to draw any firm conclusions from the data.",
+            englishNote:
+                "This means that the experiment did not produce clear or definite results, making it difficult to draw any firm conclusions from the data.",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -888,8 +899,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The 30 subjects in each experiment were divided into two groups.""",
-            kurdishText: """٣٠ بەژداربووی هەر تاقیکردنەوەیەک بۆ دوو گرووپ دابەش کران.""",
+            englishText:
+                """The 30 subjects in each experiment were divided into two groups.""",
+            kurdishText:
+                """٣٠ بەژداربووی هەر تاقیکردنەوەیەک بۆ دوو گرووپ دابەش کران.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -897,8 +910,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The temperature was kept constant during the experiment.""",
-            kurdishText: """پلەی گەرمی بە جێگیری هێڵدرایەوە لە ماوەی تاقیکردنەوەکە.""",
+            englishText:
+                """The temperature was kept constant during the experiment.""",
+            kurdishText:
+                """پلەی گەرمی بە جێگیری هێڵدرایەوە لە ماوەی تاقیکردنەوەکە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -906,8 +921,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Many people do not like the idea of experiments on animals.""",
-            kurdishText: """زۆر کەس حەزیان بە بیرۆکەی تاقیکردنەوە لەسەر ئاژەڵان نییە.""",
+            englishText:
+                """Many people do not like the idea of experiments on animals.""",
+            kurdishText:
+                """زۆر کەس حەزیان بە بیرۆکەی تاقیکردنەوە لەسەر ئاژەڵان نییە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -915,16 +932,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The experiment with cells from other species was unsuccessful.""",
-            kurdishText: """تاقیکردنەوەکە بە خانە لە چەشنەکانی دیکەوە ناسەرکەوتوو بوو.""",
+            englishText:
+                """The experiment with cells from other species was unsuccessful.""",
+            kurdishText:
+                """تاقیکردنەوەکە بە خانە لە چەشنەکانی دیکەوە ناسەرکەوتوو بوو.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) چالاکییەک، بیرۆکەیەک، یان ڕێگایەکی تازە کە تاقی دەکەیتەوە بۆ ئەوەی بزانی چی ڕوودەدات یان کاریگەریی چۆن دەبێت"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) چالاکییەک، بیرۆکەیەک، یان ڕێگایەکی تازە کە تاقی دەکەیتەوە بۆ ئەوەی بزانی چی ڕوودەدات یان کاریگەریی چۆن دەبێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """I've never cooked this before so it's an experiment.""",
+            englishText:
+                """I've never cooked this before so it's an experiment.""",
             kurdishText: """پێشووتر خواردنم لێ‌نەناوە بۆیە تاقیکردنەوەیەکە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
@@ -933,17 +955,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The system was installed four years ago as an experiment.""",
-            kurdishText: """سیستەمەکە چوار ساڵ پێش ئێستا وەک تاقیکردنەوەیەک دانرا.""",
+            englishText:
+                """The system was installed four years ago as an experiment.""",
+            kurdishText:
+                """سیستەمەکە چوار ساڵ پێش ئێستا وەک تاقیکردنەوەیەک دانرا.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (کردار) ئەنجامدانی تاقیکردنەوەی زانستی"""),
+          const DefinitionKurdish(
+              text: """٣. (کردار) ئەنجامدانی تاقیکردنەوەی زانستی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Some people feel that experimenting on animals is wrong.""",
-            kurdishText: """هەندێک کەس وا هەست دەکەن تاقیکردنەوە لەسەر ئاژەڵان هەڵەیە.""",
+            englishText:
+                """Some people feel that experimenting on animals is wrong.""",
+            kurdishText:
+                """هەندێک کەس وا هەست دەکەن تاقیکردنەوە لەسەر ئاژەڵان هەڵەیە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -951,17 +978,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They experimented successfully on the plants to discover disease-resistant varieties.""",
-            kurdishText: """بە سەرکەوتووی لەسەر ڕووەکەکان تاقیکردنەوەیان کرد بۆ دۆزینەوەی جۆرە هۆگر بە نەخۆشییەکان.""",
+            englishText:
+                """They experimented successfully on the plants to discover disease-resistant varieties.""",
+            kurdishText:
+                """بە سەرکەوتووی لەسەر ڕووەکەکان تاقیکردنەوەیان کرد بۆ دۆزینەوەی جۆرە هۆگر بە نەخۆشییەکان.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (کردار) تاقیکردنەوەی بیرۆکە، ڕێگا، هتد ـی تازە بۆ زانینی کاریگەرییان"""),
+          const DefinitionKurdish(
+              text:
+                  """٤. (کردار) تاقیکردنەوەی بیرۆکە، ڕێگا، هتد ـی تازە بۆ زانینی کاریگەرییان"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """I experimented until I got the recipe just right.""",
-            kurdishText: """تاقیکردنەوەم کرد تاوەکو ڕەچەتەکەم بە درووستی دەستکەوت.""",
+            englishText:
+                """I experimented until I got the recipe just right.""",
+            kurdishText:
+                """تاقیکردنەوەم کرد تاوەکو ڕەچەتەکەم بە درووستی دەستکەوت.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -970,7 +1003,8 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The students freely experimented with paints.""",
-            kurdishText: """خوێندکاران بە ئازادی تاقیکردنەوەیان بە بۆیە دەکرد.""",
+            kurdishText:
+                """خوێندکاران بە ئازادی تاقیکردنەوەیان بە بۆیە دەکرد.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),

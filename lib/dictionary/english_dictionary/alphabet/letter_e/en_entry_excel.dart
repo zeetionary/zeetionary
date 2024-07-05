@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She has always excelled in foreign languages.""");
+    await flutterTts.speak("""She has always excelled in foreign languages.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -252,21 +251,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The team excels at turning defence into attack.""");
+    await flutterTts
+        .speak("""The team excels at turning defence into attack.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Rick's cooking was always good, but this time he really excelled himself.""");
+    await flutterTts.speak(
+        """Rick's cooking was always good, but this time he really excelled himself.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The British team have excelled themselves this year to reach the finals.""");
+    await flutterTts.speak(
+        """The British team have excelled themselves this year to reach the finals.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -875,10 +877,10 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: 
 """),
-          const DefinitionKurdish(text: """١. (کردار) زۆرباش بوون کە کردنی شتێک"""),
+          const DefinitionKurdish(
+              text: """١. (کردار) زۆرباش بوون کە کردنی شتێک"""),
           SentencesRow(
-            englishText:
-                """She has always excelled in foreign languages.""",
+            englishText: """She has always excelled in foreign languages.""",
             kurdishText: """هەمیشە لە زمانی بیانی باش بووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
@@ -902,11 +904,14 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (کردار) باشتربوون لە کاتی ئاسایی"""),
+          const DefinitionKurdish(
+              text: """٢. (کردار) باشتربوون لە کاتی ئاسایی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Rick's cooking was always good, but this time he really excelled himself.""",
-            kurdishText: """خواردنی ڕیک زۆرجار باش بووە، بەڵام ئەمجارە بەڕاستی نایاب بوو.""",
+            englishText:
+                """Rick's cooking was always good, but this time he really excelled himself.""",
+            kurdishText:
+                """خواردنی ڕیک زۆرجار باش بووە، بەڵام ئەمجارە بەڕاستی نایاب بوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -914,8 +919,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The British team have excelled themselves this year to reach the finals.""",
-            kurdishText: """تیمە بەریتانییەکە خۆیان دەرخستووە بە گەشتنە یارییە کۆتاییەکان.""",
+            englishText:
+                """The British team have excelled themselves this year to reach the finals.""",
+            kurdishText:
+                """تیمە بەریتانییەکە خۆیان دەرخستووە بە گەشتنە یارییە کۆتاییەکان.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -1698,18 +1705,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/ObqbX1eLTwo?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 236;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/cqidD7kVnxY?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 1351;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/esJkln9wAEg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 323;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/CqkhjL3WvWQ?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 765;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/hUJpHUWKjiY?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 244;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/onMm0DLg8CE?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 194;
+const String _videoIdend = 'ObqbX1eLTwo';
+const double _startSecondsend = 236;
+const String _videoIdone = 'cqidD7kVnxY';
+const double _startSecondsone = 1351;
+const String _videoIdtwo = 'esJkln9wAEg';
+const double _startSecondstwo = 32;
+const String _videoIdthree = 'CqkhjL3WvWQ';
+const double _startSecondsthree = 765;
+const String _videoIdfour = 'hUJpHUWKjiY';
+const double _startSecondsfour = 244;
+const String _videoIdfive = 'onMm0DLg8CE';
+const double _startSecondsfive = 19;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

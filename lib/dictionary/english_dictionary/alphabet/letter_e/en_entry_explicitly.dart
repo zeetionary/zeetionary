@@ -245,7 +245,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The report states explicitly that the system was to blame.""");
+    await flutterTts.speak(
+        """The report states explicitly that the system was to blame.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -875,7 +876,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بە ئاشکرایی، بێ‌پەردە
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بە ئاشکرایی و ڕوونی بەشێوەیەک کە ئاسانە بۆ تێگەشتن"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵکار) بە ئاشکرایی و ڕوونی بەشێوەیەک کە ئاسانە بۆ تێگەشتن"""),
           SentencesRow(
             englishText:
                 """The text does not explicitly mention him by name.""",
@@ -887,7 +890,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵکار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The report states explicitly that the system was to blame.""",
+            englishText:
+                """The report states explicitly that the system was to blame.""",
             kurdishText: """ڕاپۆرتەکە بە ڕوونی دەڵێت کە سیستەمەکە هۆکارە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
@@ -1698,18 +1702,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/QruHsyt8paY?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 159;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/0ST4_hmop9Y?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 705;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/1Gxrwh4zGPg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 910;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/DHLRj1LaPiQ?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 107;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/oI_X2cMHNe0?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 792;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/OgFcz6klaeg?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 951;
+const String _videoIdend = 'QruHsyt8paY';
+const double _startSecondsend = 159;
+const String _videoIdone = '0ST4_hmop9Y';
+const double _startSecondsone = 705;
+const String _videoIdtwo = '1Gxrwh4zGPg';
+const double _startSecondstwo = 91;
+const String _videoIdthree = 'DHLRj1LaPiQ';
+const double _startSecondsthree = 107;
+const String _videoIdfour = 'oI_X2cMHNe0';
+const double _startSecondsfour = 792;
+const String _videoIdfive = 'OgFcz6klaeg';
+const double _startSecondsfive = 95;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

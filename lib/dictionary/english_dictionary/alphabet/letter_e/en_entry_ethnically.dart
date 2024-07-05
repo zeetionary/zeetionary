@@ -888,7 +888,8 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """My father, who is ethnically Chinese, was born in the UK.""",
-            kurdishText: """باوکم، کە بەپێی ئیتنیک چینییە، لە بەریتانیا لەدایکبووە.""",
+            kurdishText:
+                """باوکم، کە بەپێی ئیتنیک چینییە، لە بەریتانیا لەدایکبووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -1707,18 +1708,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/Nw0uDJRQ13A?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 142;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/2PdC9gtYovw?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 333;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/T_JWN08tx1g?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 912;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/ICTNf6T8knI?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 282;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/ob-qmfvnQVo';
-const double _startSecondsfour = 000000000000000000000000000000; // 0;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/yYqlI__PniY?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 42;
+const String _videoIdend = 'Nw0uDJRQ13A';
+const double _startSecondsend = 142;
+const String _videoIdone = '2PdC9gtYovw';
+const double _startSecondsone = 333;
+const String _videoIdtwo = 'T_JWN08tx1g';
+const double _startSecondstwo = 91;
+const String _videoIdthree = 'ICTNf6T8knI';
+const double _startSecondsthree = 282;
+const String _videoIdfour = 'ob-qmfvnQVo';
+const double _startSecondsfour = 0;
+const String _videoIdfive = 'yYqlI__PniY';
+const double _startSecondsfive = 42;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

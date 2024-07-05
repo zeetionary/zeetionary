@@ -237,22 +237,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""It has now become evident to us that a mistake has been made.""");
+    await flutterTts.speak(
+        """It has now become evident to us that a mistake has been made.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The growing interest in history is clearly evident in the number of people visiting museums.""");
+    await flutterTts.speak(
+        """The growing interest in history is clearly evident in the number of people visiting museums.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""It was evident to me that the mission would fail.""");
+    await flutterTts
+        .speak("""It was evident to me that the mission would fail.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -887,8 +889,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The growing interest in history is clearly evident in the number of people visiting museums.""",
-            kurdishText: """حەزی ڕوولەگەشە بۆ مێژوو بە ئاشکرایی ڕوونە لە ژمارەی کەسانی سەردانکەر بۆ مۆزەخانەکان.""",
+            englishText:
+                """The growing interest in history is clearly evident in the number of people visiting museums.""",
+            kurdishText:
+                """حەزی ڕوولەگەشە بۆ مێژوو بە ئاشکرایی ڕوونە لە ژمارەی کەسانی سەردانکەر بۆ مۆزەخانەکان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,7 +900,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """It was evident to me that the mission would fail.""",
+            englishText:
+                """It was evident to me that the mission would fail.""",
             kurdishText: """ئەوە ئاشکرا بوو بۆم کە ئەرکەکە شکست دەهێنیت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
@@ -1701,18 +1706,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/nGrB-5ieeMU?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 558;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/0Anx3VQ2dcc?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 280;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/b_rjBWmc1iQ?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1692;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/MYUXUnilpFo?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 1213;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/jTRC_FMzLoo?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 78;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/1h12uwyMZY0?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 721;
+const String _videoIdend = 'nGrB-5ieeMU';
+const double _startSecondsend = 558;
+const String _videoIdone = '0Anx3VQ2dcc';
+const double _startSecondsone = 280;
+const String _videoIdtwo = 'b_rjBWmc1iQ';
+const double _startSecondstwo = 16;
+const String _videoIdthree = 'MYUXUnilpFo';
+const double _startSecondsthree = 1213;
+const String _videoIdfour = 'jTRC_FMzLoo';
+const double _startSecondsfour = 78;
+const String _videoIdfive = '1h12uwyMZY0';
+const double _startSecondsfive = 72;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

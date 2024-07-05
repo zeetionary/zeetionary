@@ -360,35 +360,40 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""We are continually looking for ways to improve the customer experience.""");
+    await flutterTts.speak(
+        """We are continually looking for ways to improve the customer experience.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""We are currently experiencing problems with our IT systems.""");
+    await flutterTts.speak(
+        """We are currently experiencing problems with our IT systems.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They had the opportunity to experience life at sea.""");
+    await flutterTts
+        .speak("""They had the opportunity to experience life at sea.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Many people have never experienced these difficulties first-hand.""");
+    await flutterTts.speak(
+        """Many people have never experienced these difficulties first-hand.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Everyone experiences these problems at some time in their lives.""");
+    await flutterTts.speak(
+        """Everyone experiences these problems at some time in their lives.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
@@ -402,7 +407,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I experienced a moment of panic as I boarded the plane.""");
+    await flutterTts
+        .speak("""I experienced a moment of panic as I boarded the plane.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
@@ -1070,11 +1076,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ناو) ئەوەی کە چۆنە بۆ کەسێک خزمەتگوزارییەک بەکاربهێنێت، چالاکییەک ئەنجام بدات، بچێتە بۆنەیەک، هتد"""),
+          const DefinitionKurdish(
+              text:
+                  """٤. (ناو) ئەوەی کە چۆنە بۆ کەسێک خزمەتگوزارییەک بەکاربهێنێت، چالاکییەک ئەنجام بدات، بچێتە بۆنەیەک، هتد"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """We are continually looking for ways to improve the customer experience.""",
-            kurdishText: """بۆ ڕێگای باشترکردنی ئەزموونی کڕیارانمان دەگەڕێین.""",
+            englishText:
+                """We are continually looking for ways to improve the customer experience.""",
+            kurdishText:
+                """بۆ ڕێگای باشترکردنی ئەزموونی کڕیارانمان دەگەڕێین.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
@@ -1082,8 +1092,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """٥. (کردار) هەبوونی بەسەرهاتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """We are currently experiencing problems with our IT systems.""",
-            kurdishText: """لە ئێستادا کێشەمان هەیە لە سیستەمەکانی ئای‌تیمان.""",
+            englishText:
+                """We are currently experiencing problems with our IT systems.""",
+            kurdishText:
+                """لە ئێستادا کێشەمان هەیە لە سیستەمەکانی ئای‌تیمان.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
@@ -1091,8 +1103,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They had the opportunity to experience life at sea.""",
-            kurdishText: """هەلی ئەوەیان هەبوو ئەزموونی ژیان لە دەریادا بکەن.""",
+            englishText:
+                """They had the opportunity to experience life at sea.""",
+            kurdishText:
+                """هەلی ئەوەیان هەبوو ئەزموونی ژیان لە دەریادا بکەن.""",
             onPressedBritish: () => speaksentence19("en-GB"),
             onPressedAmerican: () => speaksentence19("en-US"),
           ),
@@ -1100,7 +1114,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Many people have never experienced these difficulties first-hand.""",
+            englishText:
+                """Many people have never experienced these difficulties first-hand.""",
             kurdishText: """زۆر کەس هەرگیز خۆیان تووشی ئەم کێشانە نابن.""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
@@ -1109,13 +1124,16 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Everyone experiences these problems at some time in their lives.""",
-            kurdishText: """هەموو کەسێک تووشی ئەم کێشانە دەبێت لە قۆناغێکی ژیانیان.""",
+            englishText:
+                """Everyone experiences these problems at some time in their lives.""",
+            kurdishText:
+                """هەموو کەسێک تووشی ئەم کێشانە دەبێت لە قۆناغێکی ژیانیان.""",
             onPressedBritish: () => speaksentence21("en-GB"),
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٦. (کردار) هەبوونی هەستێک و ئاگاداربوون لێی"""),
+          const DefinitionKurdish(
+              text: """٦. (کردار) هەبوونی هەستێک و ئاگاداربوون لێی"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I have never experienced such pain before.""",
@@ -1127,7 +1145,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """I experienced a moment of panic as I boarded the plane.""",
+            englishText:
+                """I experienced a moment of panic as I boarded the plane.""",
             kurdishText: """تووشی ساتێک لە تۆقان بووم کە چوومە سەر فڕۆکەکە.""",
             onPressedBritish: () => speaksentence23("en-GB"),
             onPressedAmerican: () => speaksentence23("en-US"),

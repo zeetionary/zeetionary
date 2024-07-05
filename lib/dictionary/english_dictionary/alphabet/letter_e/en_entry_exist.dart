@@ -880,8 +880,7 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: 
 """),
-          const DefinitionKurdish(
-              text: """١. (کردار) هەبوونی بوون"""),
+          const DefinitionKurdish(text: """١. (کردار) هەبوونی بوون"""),
           SentencesRow(
             englishText: """Does life exist on other planets?""",
             kurdishText: """ژیان لەسەر هەسارەکانی دیکە بوونی هەیە.""",

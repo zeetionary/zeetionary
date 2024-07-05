@@ -1713,18 +1713,18 @@ Derived forms: ethnics
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/Cqbleas1mmo?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 227;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/LJNtfyq3TDE?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 855;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/lf-KVEXIoqM?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 18;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/b5fNif_WGdc?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 63;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/6DYgImG1CKo?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 305;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/h42QVfrUVFw?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 1128;
+const String _videoIdend = 'Cqbleas1mmo';
+const double _startSecondsend = 227;
+const String _videoIdone = 'LJNtfyq3TDE';
+const double _startSecondsone = 855;
+const String _videoIdtwo = 'lf-KVEXIoqM';
+const double _startSecondstwo = 18;
+const String _videoIdthree = 'b5fNif_WGdc';
+const double _startSecondsthree = 63;
+const String _videoIdfour = '6DYgImG1CKo';
+const double _startSecondsfour = 305;
+const String _videoIdfive = 'h42QVfrUVFw';
+const double _startSecondsfive = 11;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

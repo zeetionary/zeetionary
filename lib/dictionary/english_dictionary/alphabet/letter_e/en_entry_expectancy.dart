@@ -875,12 +875,14 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: چاوەڕوانی، چاوەنواڕی، چاوەدوایی، تەما، هیوا، ئومێد،	زگپڕی، دووگیانی،	ئەگەر، شیان، ڕێ‌تێچوون، لەوەچوون، وێچوون، پێچوون
 """),
-          const DefinitionKurdish(text: """١. (ناو) پێشبینی کردنی ڕوودانی شتێک، بەتایبەتی شتێک خۆش یان بەجۆش"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) پێشبینی کردنی ڕوودانی شتێک، بەتایبەتی شتێک خۆش یان بەجۆش"""),
           SentencesRow(
-            englishText:
-                """There was an air of expectancy among the crowd.""",
+            englishText: """There was an air of expectancy among the crowd.""",
             kurdishText: """هەستێکی چاوەڕوانی لەناو جەماوەرەکە هەبوو.""",
-            englishNote: "This means that the crowd was filled with a feeling of anticipation or expectation, suggesting that they were eagerly waiting for something to happen.",
+            englishNote:
+                "This means that the crowd was filled with a feeling of anticipation or expectation, suggesting that they were eagerly waiting for something to happen.",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

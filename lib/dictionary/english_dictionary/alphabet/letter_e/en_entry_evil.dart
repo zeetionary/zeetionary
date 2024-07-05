@@ -237,8 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""President Reagan referred to the Soviet Union as the ‘evil empire’.""");
+    await flutterTts.speak(
+        """President Reagan referred to the Soviet Union as the ‘evil empire’.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -259,14 +259,16 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""In his speech he described the evil effects of racism.""");
+    await flutterTts
+        .speak("""In his speech he described the evil effects of racism.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""It was an ancient charm to ward off evil spirits.""");
+    await flutterTts
+        .speak("""It was an ancient charm to ward off evil spirits.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -287,7 +289,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He believed he could rid the world of the forces of evil.""");
+    await flutterTts
+        .speak("""He believed he could rid the world of the forces of evil.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -301,7 +304,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""You cannot pretend there's no evil in the world.""");
+    await flutterTts
+        .speak("""You cannot pretend there's no evil in the world.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
@@ -322,7 +326,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They hardly mentioned such social evils as racism and sexism.""");
+    await flutterTts.speak(
+        """They hardly mentioned such social evils as racism and sexism.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
@@ -875,11 +880,14 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: شەیتانی، پیس، ناجسن، بەدڕەسەن، دژ، خراپ، خوێڕی،	(یەکجار) ناخۆش (بۆن)،	ناشیرین، ناحەز، خراپ، بەوەی، بەزیان، موزیڕ،	بێ‌ودم، نگریس، بەدشوم، بێ‌فەڕ،	خراپی، دژی، شتە خراپەکان، پیسی، بەدڕەسەنی، خراپ،	بەڵا، نەهامەتی، مەینەتی، کارەسات،	زیان، زەڕ، زەرەر، وەی،	دەرد، نەخۆشی
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) کە چێژ لە ئازاردانی کەسانی دیکە دەبینێت"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵناو) کە چێژ لە ئازاردانی کەسانی دیکە دەبینێت"""),
           SentencesRow(
             englishText:
                 """President Reagan referred to the Soviet Union as the ‘evil empire’.""",
-            kurdishText: """سەرۆک ڕیگان یەکێتیی سۆڤیەتی بە 'ئیمپراتۆریەتی شەیتانی' ناوزەد کرد.""",
+            kurdishText:
+                """سەرۆک ڕیگان یەکێتیی سۆڤیەتی بە 'ئیمپراتۆریەتی شەیتانی' ناوزەد کرد.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -902,20 +910,27 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە زیانی خراپی لەسەر خەڵکی هەیە"""),
+          const DefinitionKurdish(
+              text: """٢. (ھاوەڵناو) کە زیانی خراپی لەسەر خەڵکی هەیە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """In his speech he described the evil effects of racism.""",
-            kurdishText: """لە وتارەکەی باسی لە کاریگەرییە خراپەکانی ڕەگەزپەرستی کرد.""",
+            englishText:
+                """In his speech he described the evil effects of racism.""",
+            kurdishText:
+                """لە وتارەکەی باسی لە کاریگەرییە خراپەکانی ڕەگەزپەرستی کرد.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ھاوەڵناو) پەیوەندیدار بە شەیتان و شتی خراپ لە جیهاندا"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ھاوەڵناو) پەیوەندیدار بە شەیتان و شتی خراپ لە جیهاندا"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """It was an ancient charm to ward off evil spirits.""",
-            kurdishText: """ئەوە تەلەسمێکی کۆن بوو کە باوەڕ وابوو شەیتان بەدوور دەگرێت.""",
+            englishText:
+                """It was an ancient charm to ward off evil spirits.""",
+            kurdishText:
+                """ئەوە تەلەسمێکی کۆن بوو کە باوەڕ وابوو شەیتان بەدوور دەگرێت.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -938,11 +953,14 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ناو) هێزێک کە وا دەکات شتی خراپ ڕووبدات"""),
+          const DefinitionKurdish(
+              text: """٤. (ناو) هێزێک کە وا دەکات شتی خراپ ڕووبدات"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """He believed he could rid the world of the forces of evil.""",
-            kurdishText: """باوەڕی وابوو کە بتوانیت جیهان لە هێزی خراپەکاری ڕزگار بکات.""",
+            englishText:
+                """He believed he could rid the world of the forces of evil.""",
+            kurdishText:
+                """باوەڕی وابوو کە بتوانیت جیهان لە هێزی خراپەکاری ڕزگار بکات.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -960,7 +978,8 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """You cannot pretend there's no evil in the world.""",
-            kurdishText: """ناتوانیت وەها پیشان بدەیت کە هیچ خراپەکاری لەم جیهانەدا نییە.""",
+            kurdishText:
+                """ناتوانیت وەها پیشان بدەیت کە هیچ خراپەکاری لەم جیهانەدا نییە.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -983,11 +1002,14 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (ناو) شتێکی خراپ؛ کاریگەرییەکانی"""),
+          const DefinitionKurdish(
+              text: """٥. (ناو) شتێکی خراپ؛ کاریگەرییەکانی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They hardly mentioned such social evils as racism and sexism.""",
-            kurdishText: """بە کەمی باسی نەهامەتییە کۆمەڵایەتییەکانی وەک ڕەگەزپەرستی و جیاوازیی ڕەگەزی.""",
+            englishText:
+                """They hardly mentioned such social evils as racism and sexism.""",
+            kurdishText:
+                """بە کەمی باسی نەهامەتییە کۆمەڵایەتییەکانی وەک ڕەگەزپەرستی و جیاوازیی ڕەگەزی.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -1711,18 +1733,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/ZnKvQbpDYXU?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 16;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/qWAagS_MANg?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 1480;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/tsxmyL7TUJg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 556;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/roCX0AfBseQ?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 199;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/VkIgQ_cgDGw?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 55;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/dfuPBC-v5NE?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 1254;
+const String _videoIdend = 'ZnKvQbpDYXU';
+const double _startSecondsend = 16;
+const String _videoIdone = 'qWAagS_MANg';
+const double _startSecondsone = 1480;
+const String _videoIdtwo = 'tsxmyL7TUJg';
+const double _startSecondstwo = 55;
+const String _videoIdthree = 'roCX0AfBseQ';
+const double _startSecondsthree = 199;
+const String _videoIdfour = 'VkIgQ_cgDGw';
+const double _startSecondsfour = 55;
+const String _videoIdfive = 'dfuPBC-v5NE';
+const double _startSecondsfive = 12;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

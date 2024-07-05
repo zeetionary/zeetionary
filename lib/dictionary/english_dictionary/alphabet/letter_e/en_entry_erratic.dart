@@ -237,8 +237,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The electricity supply here is quite erratic.""");
+    await flutterTts.speak("""The electricity supply here is quite erratic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -252,7 +251,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Irrigation measures will be necessary in areas of erratic rainfall.""");
+    await flutterTts.speak(
+        """Irrigation measures will be necessary in areas of erratic rainfall.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -875,10 +875,11 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: نائاسایی، ڕیزپەڕ، سەیر، ناڕێک، شێواو، شپرزە، وێڵەکی، سەرلێ‌شێواو، پەڕتەوازە
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) پێشبینی‌نەکراو؛ کە بە شێوەیەکی ڕێک ڕوونادات"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵناو) پێشبینی‌نەکراو؛ کە بە شێوەیەکی ڕێک ڕوونادات"""),
           SentencesRow(
-            englishText:
-                """The electricity supply here is quite erratic.""",
+            englishText: """The electricity supply here is quite erratic.""",
             kurdishText: """سەرچاوەی کارەبا لێرە تەواو پێشبینی‌نەکراوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
@@ -887,7 +888,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Mary is a gifted but erratic player (= she does not always play well).""",
+            englishText:
+                """Mary is a gifted but erratic player (= she does not always play well).""",
             kurdishText: """ماری یاریزانێکی بەتوانا بەڵام شێواوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
@@ -896,8 +898,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Irrigation measures will be necessary in areas of erratic rainfall.""",
-            kurdishText: """ڕێکاری ئاودێری گرنگ دەبێت لەو ناوچانەی کە بارانی ناڕێکیان تێدایە.""",
+            englishText:
+                """Irrigation measures will be necessary in areas of erratic rainfall.""",
+            kurdishText:
+                """ڕێکاری ئاودێری گرنگ دەبێت لەو ناوچانەی کە بارانی ناڕێکیان تێدایە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

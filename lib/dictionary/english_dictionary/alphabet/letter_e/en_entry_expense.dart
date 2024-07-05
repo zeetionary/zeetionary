@@ -237,15 +237,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The garden was transformed at great expense.""");
+    await flutterTts.speak("""The garden was transformed at great expense.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""No expense was spared to make the party a success.""");
+    await flutterTts
+        .speak("""No expense was spared to make the party a success.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -273,28 +273,32 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The company has cut operating expenses to their lowest levels in three years""");
+    await flutterTts.speak(
+        """The company has cut operating expenses to their lowest levels in three years""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The payments he gets barely cover his expenses.""");
+    await flutterTts
+        .speak("""The payments he gets barely cover his expenses.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""My expenses are constantly rising and my income stays the same.""");
+    await flutterTts.speak(
+        """My expenses are constantly rising and my income stays the same.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Medical expenses can be quite high if you are not insured.""");
+    await flutterTts.speak(
+        """Medical expenses can be quite high if you are not insured.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
@@ -875,10 +879,11 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: خەرج‌کردن، مەزاختن، بەخت‌کردن،	خەرج، تێچوون، بافت، مەزاخ،	کاری پڕخەرج 
 """),
-          const DefinitionKurdish(text: """١. (ناو) ئەو پارەیەی کە لەسەر شتێکی دیکە خەرجی دەکەیت"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) ئەو پارەیەی کە لەسەر شتێکی دیکە خەرجی دەکەیت"""),
           SentencesRow(
-            englishText:
-                """The garden was transformed at great expense.""",
+            englishText: """The garden was transformed at great expense.""",
             kurdishText: """باخچەکە بە تێچووی زۆر جوان کرا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
@@ -887,7 +892,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """No expense was spared (= they spent as much money as was needed) to make the party a success.""",
+            englishText:
+                """No expense was spared (= they spent as much money as was needed) to make the party a success.""",
             kurdishText: """هیچ پارەیەک بەفیڕۆ نەدرا لە سەرخستنی ئاهەنگەکە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
@@ -902,12 +908,14 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) شتێک کە وا دەکات پارە خەرج بکەیت"""),
+          const DefinitionKurdish(
+              text: """٢. (ناو) شتێک کە وا دەکات پارە خەرج بکەیت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Running a car is a big expense.""",
             kurdishText: """هەبوونی ئۆتۆمبێلێک خەرجییەکی زۆرە.""",
-            englishNote: "This means that maintaining and using a car requires a significant amount of money.",
+            englishNote:
+                "This means that maintaining and using a car requires a significant amount of money.",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -921,11 +929,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ناو) ئەو پارەیەی لە کردنی کاریکی دیاریکراو، یان مەبەستێکی دیاریکراو خەرجی دەکەیت"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ناو) ئەو پارەیەی لە کردنی کاریکی دیاریکراو، یان مەبەستێکی دیاریکراو خەرجی دەکەیت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The company has cut operating expenses to their lowest levels in three years""",
-            kurdishText: """کۆمپانیاکە خەرجی کارکردنی بۆ کەمترین کەمکردووە لە ماوەی سێ ساڵدا.""",
+            englishText:
+                """The company has cut operating expenses to their lowest levels in three years""",
+            kurdishText:
+                """کۆمپانیاکە خەرجی کارکردنی بۆ کەمترین کەمکردووە لە ماوەی سێ ساڵدا.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -934,7 +946,8 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The payments he gets barely cover his expenses.""",
-            kurdishText: """ئەو پارەیەی وەری دەگرێت بە ئاستەنگ بەشی خەرجییەکانی دەکات.""",
+            kurdishText:
+                """ئەو پارەیەی وەری دەگرێت بە ئاستەنگ بەشی خەرجییەکانی دەکات.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -942,8 +955,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """My expenses are constantly rising and my income stays the same.""",
-            kurdishText: """خەرجییەکانم بەردەوام زیاد دەکەن و داهاتم وەک خۆی دەمێنێت.""",
+            englishText:
+                """My expenses are constantly rising and my income stays the same.""",
+            kurdishText:
+                """خەرجییەکانم بەردەوام زیاد دەکەن و داهاتم وەک خۆی دەمێنێت.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -951,13 +966,17 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Medical expenses can be quite high if you are not insured.""",
-            kurdishText: """خەرجی تەندرووستی دەکرێت تەواو بەرز بێت ئەگەر بیمەت نەبێت.""",
+            englishText:
+                """Medical expenses can be quite high if you are not insured.""",
+            kurdishText:
+                """خەرجی تەندرووستی دەکرێت تەواو بەرز بێت ئەگەر بیمەت نەبێت.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٤. (ناو) ئەو پارەیەی کە لە کاتی کارکردن خەرجی دەکەیت و دواتر خاوەن کارەکەت پێت دەداتەوە"""),
+          const DefinitionKurdish(
+              text:
+                  """٤. (ناو) ئەو پارەیەی کە لە کاتی کارکردن خەرجی دەکەیت و دواتر خاوەن کارەکەت پێت دەداتەوە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We paid their expenses, but nothing more.""",

@@ -245,7 +245,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The poet's childhood was spent on a country estate.""");
+    await flutterTts
+        .speak("""The poet's childhood was spent on a country estate.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -875,7 +876,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: زەوی‌وزار، مڵک، زەوی، خاک، زەمین،	شارۆچکە (پێشکەوتوو)،	میرات، کەلەپوور،	دارایی، ماڵ، سامان، هەیەونییە،	پلەوپایە، پۆست، پێگە،	دۆخ، ڕەوش، کاودان، بارودۆخ،	گروپی سیاسی یان ڕامیاری،	چێنی کومەڵایەتی
 """),
-          const DefinitionKurdish(text: """١. (ناو) ناوچەیەک کە هەمان جۆرە خانوو و کارگەی لەسەرە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) ناوچەیەک کە هەمان جۆرە خانوو و کارگەی لەسەرە"""),
           SentencesRow(
             englishText:
                 """She lives in a tower block on an estate in London.""",
@@ -884,16 +887,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) پارچە زەوییەکی گەورە، زۆرجار لە دەرەوەی شار، کە هی یەک کەس یان خێزانە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) پارچە زەوییەکی گەورە، زۆرجار لە دەرەوەی شار، کە هی یەک کەس یان خێزانە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The poet's childhood was spent on a country estate.""",
+            englishText:
+                """The poet's childhood was spent on a country estate.""",
             kurdishText: """منداڵی هۆزانڤانەکە لە زەوییەکی دەرەوەی شار بوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) تەواوی سەروەت و سامانی کەسێک، بەتایبەتی لە دوای مردنی"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) تەواوی سەروەت و سامانی کەسێک، بەتایبەتی لە دوای مردنی"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Her estate was left to her daughter.""",
@@ -1707,18 +1715,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'VIDEO_IDhttps://youtu.be/PkUg89kLLBE?t=';
-const double _startSecondsend = 000000000000000000000000000000; // 995;
-const String _videoIdone = 'VIDEO_Dhttps://youtu.be/lsbcN9-jU1Y?t=';
-const double _startSecondsone = 00000000000000000000000000000; // 160;
-const String _videoIdtwo = 'VIDEO_Dhttps://youtu.be/qg2nGY1aqlg?t=';
-const double _startSecondstwo = 00000000000000000000000000000; // 1930;
-const String _videoIdthree = 'VIDEOhttps://youtu.be/FLqvTE1Eqfg?t=';
-const double _startSecondsthree = 000000000000000000000000000; // 719;
-const String _videoIdfour = 'VIDEO_IDhttps://youtu.be/5wxs_WNwDJE?t=';
-const double _startSecondsfour = 000000000000000000000000000000; // 249;
-const String _videoIdfive = 'VIDEO_Dhttps://youtu.be/fHsa9DqmId8?t=';
-const double _startSecondsfive = 00000000000000000000000000000; // 1105;
+const String _videoIdend = 'PkUg89kLLBE';
+const double _startSecondsend = 995;
+const String _videoIdone = 'lsbcN9-jU1Y';
+const double _startSecondsone = 160;
+const String _videoIdtwo = 'qg2nGY1aqlg';
+const double _startSecondstwo = 19;
+const String _videoIdthree = 'FLqvTE1Eqfg';
+const double _startSecondsthree = 719;
+const String _videoIdfour = '5wxs_WNwDJE';
+const double _startSecondsfour = 249;
+const String _videoIdfive = 'fHsa9DqmId8';
+const double _startSecondsfive = 11;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

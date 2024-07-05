@@ -237,22 +237,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The trial will evaluate the effectiveness of the different drugs.""");
+    await flutterTts.speak(
+        """The trial will evaluate the effectiveness of the different drugs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The study will evaluate whether this technology is useful.""");
+    await flutterTts.speak(
+        """The study will evaluate whether this technology is useful.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Candidates are evaluated on their ability to think independently.""");
+    await flutterTts.speak(
+        """Candidates are evaluated on their ability to think independently.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -875,11 +877,14 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: هەڵسەنگاندن، نرخاندن، بەراوەردکردن
 """),
-          const DefinitionKurdish(text: """١. (کردار) هەڵسەنگاندنی شتێک لە دوای ئەوەی بە وردی بیری لێ دەکەیتەوە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (کردار) هەڵسەنگاندنی شتێک لە دوای ئەوەی بە وردی بیری لێ دەکەیتەوە"""),
           SentencesRow(
             englishText:
                 """The trial will evaluate the effectiveness of the different drugs.""",
-            kurdishText: """تاقیکردنەوەکە کاریگەریی دەرمانە جیاوزەکان هەڵدەسەنگێنێت.""",
+            kurdishText:
+                """تاقیکردنەوەکە کاریگەریی دەرمانە جیاوزەکان هەڵدەسەنگێنێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +892,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The study will evaluate whether this technology is useful.""",
-            kurdishText: """توێژینەوەکە ئەوە هەڵدەسەنگێنێت کە ئایا تەکنەلۆژیاکە بەسوودە.""",
+            englishText:
+                """The study will evaluate whether this technology is useful.""",
+            kurdishText:
+                """توێژینەوەکە ئەوە هەڵدەسەنگێنێت کە ئایا تەکنەلۆژیاکە بەسوودە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +903,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Candidates are evaluated on their ability to think independently.""",
-            kurdishText: """بەربژێرەکان بەپێی بیرکردنەوەی سەربەخۆیان هەڵدەسەنگێندرێن.""",
+            englishText:
+                """Candidates are evaluated on their ability to think independently.""",
+            kurdishText:
+                """بەربژێرەکان بەپێی بیرکردنەوەی سەربەخۆیان هەڵدەسەنگێندرێن.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

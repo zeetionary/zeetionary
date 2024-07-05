@@ -325,21 +325,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""No one has a right to expect good results without working hard.""");
+    await flutterTts.speak(
+        """No one has a right to expect good results without working hard.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""These are the high standards that hotel guests have come to expect.""");
+    await flutterTts.speak(
+        """These are the high standards that hotel guests have come to expect.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He's still getting over his illness, so it's unrealistic to expect too much from him.""");
+    await flutterTts.speak(
+        """He's still getting over his illness, so it's unrealistic to expect too much from him.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
@@ -967,7 +970,8 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (کردار) چاوەڕێکردنی هەشتنی کەسێک/شتێک"""),
+          const DefinitionKurdish(
+              text: """٢. (کردار) چاوەڕێکردنی هەشتنی کەسێک/شتێک"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We were expecting him yesterday.""",
@@ -1003,11 +1007,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (کردار) داواکردن لە کەسێک کە شتێک بکات چونکە ئەرکیەتی"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (کردار) داواکردن لە کەسێک کە شتێک بکات چونکە ئەرکیەتی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """No one has a right to expect good results without working hard.""",
-            kurdishText: """کەس مافی ئەوەی نییە چاوەڕێی ئەنجامی باش بکات بەبێ کارکردنی سەخت.""",
+            englishText:
+                """No one has a right to expect good results without working hard.""",
+            kurdishText:
+                """کەس مافی ئەوەی نییە چاوەڕێی ئەنجامی باش بکات بەبێ کارکردنی سەخت.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -1015,8 +1023,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """These are the high standards that hotel guests have come to expect.""",
-            kurdishText: """ئەمە ئەو ستانداردە بەرزانەیە کە میوانانی هوتێلەکە داوایان کردووە.""",
+            englishText:
+                """These are the high standards that hotel guests have come to expect.""",
+            kurdishText:
+                """ئەمە ئەو ستانداردە بەرزانەیە کە میوانانی هوتێلەکە داوایان کردووە.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
@@ -1024,8 +1034,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (کردار) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """He's still getting over his illness, so it's unrealistic to expect too much from him.""",
-            kurdishText: """هێشتا لە نەخۆشییەکەی باش دەبێتەوە، بۆیە ناکرێت پێشبینی زۆری لێ بکرێت.""",
+            englishText:
+                """He's still getting over his illness, so it's unrealistic to expect too much from him.""",
+            kurdishText:
+                """هێشتا لە نەخۆشییەکەی باش دەبێتەوە، بۆیە ناکرێت پێشبینی زۆری لێ بکرێت.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),

@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryextortionate extends StatefulWidget {
-  const EnglishEntryextortionate({super.key});
+class EnglishEntryextremity extends StatefulWidget {
+  const EnglishEntryextremity({super.key});
 
   @override
-  State<EnglishEntryextortionate> createState() =>
-      _EnglishEntryextortionateState();
+  State<EnglishEntryextremity> createState() => _EnglishEntryextremityState();
 }
 
-class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
+class _EnglishEntryextremityState extends State<EnglishEntryextremity> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""extortionate""");
+    await flutterTts.speak("""extremity""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """extortionate""",
-                      // alsoEnglishWord: "also: extortionate",
-                      britshText: """IpaUK: /ɪkˈstɔːʃənət/""",
-                      americanText: """IpaUS: /ɪkˈstɔːrʃənət/""",
+                      word: """extremity""",
+                      // alsoEnglishWord: "also: extremity",
+                      britshText: """IpaUK: /ɪkˈstreməti/""",
+                      americanText: """IpaUS: /ɪkˈstreməti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "extortionate";
+  final String keyword = "extremity";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,7 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The prices they charge are extortionate.""");
+    await flutterTts.speak(
+        """The lake is situated at the eastern extremity of the mountain range.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -246,10 +246,26 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """They are offering loans at extortionate rates of interest.""");
+        """We travelled the whole distance between the two extremities of the island.""");
   }
 
-// With short examples define "extortionate", please follow LX instructions
+  Future<void> speaksentence3(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""The patient screamed at the extremity of pain.""");
+  }
+
+  Future<void> speaksentence4(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        """In such a situation, your heart pumps faster to prevent your extremities from freezing.""");
+  }
+
+// With short examples define "extremity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -258,22 +274,50 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکجارگران، لەکڕین‌نەهاتوو، لەئەندازبەدەر گران
+کوردی: ئەوپەڕ، سەرپەڕ، دواڕادە، دواپلە، سەر، نووک، بن، ئەندازە، ڕادە، کۆتایی، ئاخر، دوایی،	تونڕەوی، پەڕگیری، زێدەڕەوی،	بەڵا، نەهامەتی، مەینەتی، کارەسات، ڕۆژەڕەشی، کڵۆڵی، تەنگانە، زەبروزەنگ، توندوتیژی،	ئەندامانی ئاخری لەش، دوورترین بەشەکانی لەش، دەست و پێ
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) نرخێکی زۆر بەرز"""),
+          const DefinitionKurdish(
+              text: """١. (ناو) دوورترین خاڵ، کۆتایی، یان سنووری شتێک"""),
           SentencesRow(
-            englishText: """The prices they charge are extortionate.""",
-            kurdishText: """ئەو نرخانەی داوای دەکەن لەکڕین‌نەهاتوون.""",
+            englishText:
+                """The lake is situated at the eastern extremity of the mountain range.""",
+            kurdishText:
+                """دەریاچەکە هەڵکەوتووە لە ئەوپەڕی ڕۆژهەڵاتی زنجیرە شاخەکە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """They are offering loans at extortionate rates of interest.""",
-            kurdishText: """قەرز دەدەن بە ئاستی سووی زۆر بەرز.""",
+                """We travelled the whole distance between the two extremities of the island.""",
+            kurdishText:
+                """تەواوی مەودای دووری نێوان دوو پەڕەکەی دوورگەکە گەشتمان کرد.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) ئاستی سەختی، نامۆیی، یان توندی دۆخێک، هەستێک، کارێک، هتد"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """The patient screamed at the extremity of pain.""",
+            kurdishText: """نەخۆشەکە لە سەختی ئازاردا دەیقیژاند.""",
+            onPressedBritish: () => speaksentence3("en-GB"),
+            onPressedAmerican: () => speaksentence3("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ناو) بەشەکانی جەستە کە دوورترین لە ناوەڕاستەوە، بەتایبەتی لاق و دەستەکان"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """In such a situation, your heart pumps faster to prevent your extremities from freezing.""",
+            kurdishText:
+                """لە دۆخێکی وەهادا، دڵت خێراتر لێدەدات بۆ ڕێگرتن لە بەستنی دەست و پێ.""",
+            onPressedBritish: () => speaksentence4("en-GB"),
+            onPressedAmerican: () => speaksentence4("en-US"),
           ),
         ],
       ),
@@ -316,9 +360,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: extortionate
-1. Greatly exceeding bounds of reason or moderation (= exorbitant, outrageous, steep, unconscionable, usurious, eye-watering [informal], exhorbitant [non-standard])
-"extortionate prices";
+- Noun: extremity (Derived forms: extremities)
+1. An external body part that projects from the body (= appendage, member)
+"it is important to keep the extremities warm";
+ 
+2. An extreme condition or state (especially of adversity or disease)
+ 
+3. The greatest or utmost degree
+"the extremity of despair"
+ 
+4. The outermost or farthest region or point
+ 
+5. That part of a limb that is farthest from the torso
 """,
   );
 
@@ -343,18 +396,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'ZcfitxiEJU8';
-const double _startSecondsend = 1415;
-const String _videoIdone = 'JITePXcDoGI';
-const double _startSecondsone = 47;
-const String _videoIdtwo = 'NwnDtE5G2ww';
-const double _startSecondstwo = 315;
-const String _videoIdthree = '7TKbegvkLjw';
-const double _startSecondsthree = 750;
-const String _videoIdfour = 'F-_ffPsIcS0';
-const double _startSecondsfour = 735;
-const String _videoIdfive = 'lSII7Hs8p5Y';
-const double _startSecondsfive = 1130;
+const String _videoIdend = '8zFEppGYEKA';
+const double _startSecondsend = 147;
+const String _videoIdone = 'FrbiPlT-rJU';
+const double _startSecondsone = 617;
+const String _videoIdtwo = 'iyD6UKPbLE0';
+const double _startSecondstwo = 946;
+const String _videoIdthree = 'Rh9YQGz5PqA';
+const double _startSecondsthree = 70;
+const String _videoIdfour = '5EJQQPKHtJw';
+const double _startSecondsfour = 907;
+const String _videoIdfive = 'FmogY8RgWYg';
+const double _startSecondsfive = 595;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

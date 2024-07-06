@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryextortionate extends StatefulWidget {
-  const EnglishEntryextortionate({super.key});
+class EnglishEntryexuberance extends StatefulWidget {
+  const EnglishEntryexuberance({super.key});
 
   @override
-  State<EnglishEntryextortionate> createState() =>
-      _EnglishEntryextortionateState();
+  State<EnglishEntryexuberance> createState() => _EnglishEntryexuberanceState();
 }
 
-class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
+class _EnglishEntryexuberanceState extends State<EnglishEntryexuberance> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""extortionate""");
+    await flutterTts.speak("""exuberance""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """extortionate""",
-                      // alsoEnglishWord: "also: extortionate",
-                      britshText: """IpaUK: /ɪkˈstɔːʃənət/""",
-                      americanText: """IpaUS: /ɪkˈstɔːrʃənət/""",
+                      word: """exuberance""",
+                      // alsoEnglishWord: "also: exuberance",
+                      britshText: """IpaUK: /ɪɡˈzjuːbərəns/""",
+                      americanText: """IpaUS: /ɪɡˈzuːbərəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "extortionate";
+  final String keyword = "exuberance";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,18 +237,18 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The prices they charge are extortionate.""");
+    await flutterTts
+        .speak("""We can excuse his behaviour as youthful exuberance.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """They are offering loans at extortionate rates of interest.""");
+    await flutterTts.speak("""Nothing will curb her natural exuberance.""");
   }
 
-// With short examples define "extortionate", please follow LX instructions
+// With short examples define "exuberance", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -258,20 +257,22 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکجارگران، لەکڕین‌نەهاتوو، لەئەندازبەدەر گران
+کوردی: سەرخۆشی، گەشی، بەکەیفی، بەدەماخی، شادی، دڵخۆشی، زۆری، فراوانی، لێشاوی، زەبەنی،	پڕی، چڕی، جگەن‌ئاسایی، سەرسەوزی، تێک‌ئاڵاوی، بەیەکادراوی، پڕپەل‌وپۆیی، تێک‌چڕژاوی
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) نرخێکی زۆر بەرز"""),
+          const DefinitionKurdish(
+              text: """١. (ناو) پڕ لە کەیف و خۆشی، و جۆش و خرۆشی"""),
           SentencesRow(
-            englishText: """The prices they charge are extortionate.""",
-            kurdishText: """ئەو نرخانەی داوای دەکەن لەکڕین‌نەهاتوون.""",
+            englishText:
+                """We can excuse his behaviour as youthful exuberance.""",
+            kurdishText:
+                """دەتوانیت لە ڕەفتارەکەی بوورین وەک ئەوەی سەرمەستیی گەنجانە بووبێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """They are offering loans at extortionate rates of interest.""",
-            kurdishText: """قەرز دەدەن بە ئاستی سووی زۆر بەرز.""",
+            englishText: """Nothing will curb her natural exuberance.""",
+            kurdishText: """هیچ پێش بە کەیف و خۆشی سرووشتیی ناگرێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -316,9 +317,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: extortionate
-1. Greatly exceeding bounds of reason or moderation (= exorbitant, outrageous, steep, unconscionable, usurious, eye-watering [informal], exhorbitant [non-standard])
-"extortionate prices";
+- Noun: exuberance (Derived forms: exuberances)
+1. Joyful enthusiasm
+ 
+2. Overflowing with eager enjoyment or approval (= enthusiasm, ebullience)
 """,
   );
 
@@ -343,18 +345,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'ZcfitxiEJU8';
-const double _startSecondsend = 1415;
-const String _videoIdone = 'JITePXcDoGI';
-const double _startSecondsone = 47;
-const String _videoIdtwo = 'NwnDtE5G2ww';
-const double _startSecondstwo = 315;
-const String _videoIdthree = '7TKbegvkLjw';
-const double _startSecondsthree = 750;
-const String _videoIdfour = 'F-_ffPsIcS0';
-const double _startSecondsfour = 735;
-const String _videoIdfive = 'lSII7Hs8p5Y';
-const double _startSecondsfive = 1130;
+const String _videoIdend = '8eraNZHM1to';
+const double _startSecondsend = 397;
+const String _videoIdone = 'TTtsHKKb-CI';
+const double _startSecondsone = 65;
+const String _videoIdtwo = 'dN5qHjnd_xk';
+const double _startSecondstwo = 282;
+const String _videoIdthree = 'IBYfA3zTxFE';
+const double _startSecondsthree = 17;
+const String _videoIdfour = 'O065HBzxoyo';
+const double _startSecondsfour = 851;
+const String _videoIdfive = '8Huh-x0N_wA';
+const double _startSecondsfive = 1165;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

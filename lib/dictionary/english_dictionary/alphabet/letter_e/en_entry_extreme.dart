@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexternal extends StatefulWidget {
-  const EnglishEntryexternal({super.key});
+class EnglishEntryextreme extends StatefulWidget {
+  const EnglishEntryextreme({super.key});
 
   @override
-  State<EnglishEntryexternal> createState() => _EnglishEntryexternalState();
+  State<EnglishEntryextreme> createState() => _EnglishEntryextremeState();
 }
 
-class _EnglishEntryexternalState extends State<EnglishEntryexternal> {
+class _EnglishEntryextremeState extends State<EnglishEntryextreme> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexternalState extends State<EnglishEntryexternal> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""external""");
+    await flutterTts.speak("""extreme""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexternalState extends State<EnglishEntryexternal> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """external""",
-                      // alsoEnglishWord: "also: external",
-                      britshText: """IpaUK: /ɪkˈstɜːnl/""",
-                      americanText: """IpaUS: /ɪkˈstɜːrnl/""",
+                      word: """extreme""",
+                      // alsoEnglishWord: "also: extreme",
+                      britshText: """IpaUK: /ɪkˈstriːm/""",
+                      americanText: """IpaUS: /ɪkˈstriːm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "external";
+  final String keyword = "extreme";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,54 +237,53 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """Female kangaroos carry their young in pouches that are external to their bodies.""");
+    await flutterTts.speak("""The heat in the desert was extreme.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""This cream is for external use only.""");
+    await flutterTts.speak("""The film depicts extreme violence.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """A combination of internal and external factors caused the company to close down.""");
+    await flutterTts
+        .speak("""Such results should be treated with extreme caution.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Many external influences can affect your state of mind.""");
+    await flutterTts.speak(
+        """Children will be removed from their parents only in extreme circumstances.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The information has come from reliable sources external to the government.""");
+    await flutterTts
+        .speak("""It can cause nausea and, in extreme cases, death.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""An external auditor will verify the accounts.""");
+    await flutterTts.speak("""She was forced to take extreme measures.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The government is committed to reducing the country's external debt.""");
+    await flutterTts
+        .speak("""Don't go doing anything extreme like leaving the country.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -292,10 +291,87 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """The country was promised military aid in the case of external threat.""");
+        """It was the most extreme example of cruelty to animals I had ever seen.""");
   }
 
-// With short examples define "external", please follow LX instructions
+  Future<void> speaksentence9(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""Fascism was basically an extreme form of nationalism.""");
+  }
+
+  Future<void> speaksentence10(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""Their ideas are too extreme for me.""");
+  }
+
+  Future<void> speaksentence11(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""She didn't like the idea—it sounded too extreme.""");
+  }
+
+  Future<void> speaksentence12(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""The city is in the extreme west of Ireland.""");
+  }
+
+  Future<void> speaksentence13(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""She sat on the extreme edge of her seat.""");
+  }
+
+  Future<void> speaksentence14(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        """He used to be very shy, but now he's gone to the opposite extreme.""");
+  }
+
+  Future<void> speaksentence15(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        """At the other extreme, the top 10 per cent receives 30 per cent of the nation's income.""");
+  }
+
+  Future<void> speaksentence16(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""Their views are at opposite extremes from each other.""");
+  }
+
+  Future<void> speaksentence17(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""The climate is mild with no extremes of temperature.""");
+  }
+
+  Future<void> speaksentence18(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""Many of these plants won't tolerate temperature extremes.""");
+  }
+
+// With short examples define "extreme", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -304,89 +380,168 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەروەیی، دەرەوەیی، دەرەکی، ڕواڵەتی، ڕووکەشی،	دەرەکی، بێگانە، بیانی، دەرەوە، ڕواڵەت، ڕووکەش، بەش یا ئاستی دەرەوە، ڕووی دەرەوە
+کوردی: دوایین، ئاخر، کۆتایی، ئەوپەڕ، دوورترین، هەرەدوور،	زۆرینە، پڕانی، زۆربە،	توندترین، سەخت‌ترین، توند(وتیژ)، نائاسایی، تیژی، قورس، ناخۆش، سەخت، گران، ئاریش، دژوار،	تونڕەو، زێدەڕەو، زێدەڕۆ، پەڕگر،	لەڕادەبەدەر، یەکجار زۆر، بێ‌ئەندازە، دواڕادە، دواپلە، کۆتایی، ئاخر، ئەوپەڕ، سەرپەڕ، سەر، دوایین (خاڵ)،	لا، ڕادە، ئەندازە،	تونڕەوی، زێدەڕەوی، پێ‌درێژی، پەڕگری، پەڕگیری
 """),
-          const DefinitionKurdish(
-              text:
-                  """١. (ھاوەڵناو) پەیوەندیدار بە دەرەوەی شتێک؛ لە دەرەوەی شتێک"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) بە ئاستێکی زۆر"""),
           SentencesRow(
-            englishText:
-                """Female kangaroos carry their young in pouches that are external to their bodies.""",
-            kurdishText:
-                """کەنگەری مێینە بەچکەکانیان لە توورەگە هەڵدەگرن کە لە دەرەوەی جەستەیانن.""",
+            englishText: """The heat in the desert was extreme.""",
+            kurdishText: """گەرمای بیابانەکە زۆر توند بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """This cream is for external use only (= it must not be put inside the body).""",
-            kurdishText: """ئەم کرێمە تەنها بۆ بەکارهێنانی سەر پێستە.""",
+            englishText: """The film depicts extreme violence.""",
+            kurdishText: """فیلمەکە توندوتیژی تەواو توند پیشان دەدات.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  """٢. (ھاوەڵناو) کە لە دەرەوەی شوێنێک، ذامەزراوەیەک، دۆخێکی دیاریکراو، هتد ڕوودەدات یان دێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """A combination of internal and external factors caused the company to close down.""",
+                """Such results should be treated with extreme caution.""",
             kurdishText:
-                """ژمارەیەک هۆکاری ناوەکی و دەرەکی بوون بە هۆکاری ئەوەی کۆمپانیاکە دابخرێت.""",
+                """ئەنجامی وەها دەبێت بە وریایی تەواو زۆرەوە مامەڵەی لەگەڵ بکرێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ئاسایی نییە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Many external influences can affect your state of mind.""",
+                """Children will be removed from their parents only in extreme circumstances.""",
             kurdishText:
-                """ژمارەیەک کاریگەری دەرەکی دەکرێت کاریگەری لە دۆخی دەروونیت بکات.""",
+                """منداڵان تەنها لە هەلومەرجی تەواو نائاسایی لە دایک و باوک دەسەندرێتەوە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """The information has come from reliable sources external to the government.""",
+                """It can cause nausea and, in extreme cases, death.""",
             kurdishText:
-                """ئەم زانیارییە لە سەرچاوەی باوەڕپێکراوی دەرەوەی حکومەت هاتووە.""",
+                """دەکرێت ببێتە هۆکاری هێڵنج‌دان و، لە دۆخی تایبەتدا، مردن.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  """٣. (ھاوەڵناو) کە هی دەرەوەی قوتابخانەیەک، زانکۆیەک، یان دامەزراوەیەکە، یان لە دەرەوە ڕێکخراوە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """An external auditor will verify the accounts.""",
-            kurdishText:
-                """پشكنەرێکی دەرەکی گێڕانەوەکانیان پشتڕاست دەکاتەوە.""",
+            englishText: """She was forced to take extreme measures.""",
+            kurdishText: """زۆری لێکرا هەنگاوی تەووا توند بنێت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٤. (ھاوەڵناو) پەیوەندیدار بە وڵاتی بیانی"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """The government is committed to reducing the country's external debt.""",
-            kurdishText: """حکومەت پابەندە بە کەمکردنەوەی قەرزی بیانی.""",
+                """Don't go doing anything extreme like leaving the country.""",
+            kurdishText: """شتی زۆر نائاسایی وکە جێهێشتنی وڵات مەکە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """The country was promised military aid in the case of external threat.""",
+                """It was the most extreme example of cruelty to animals I had ever seen.""",
             kurdishText:
-                """وڵاتەکە بەڵێنی یارمەتیی سەربازیی پێدرا لە حاڵەتی هەڕەشەی دەرەکی.""",
+                """ئەوە نائاساییترین نموونەی دڕندەیی بەڵام بە ئاژەڵان بوو کە تا ئێستا دیبووم.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ھاوەڵناو) زۆر دوور لەوەی زۆر کەس بە ئاسایی، پەسەندکراو، یان گونجاوی دادەنێن"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """Fascism was basically an extreme form of nationalism.""",
+            kurdishText:
+                """فاشیزم لە بنەڕەت‌دا شێوەیەکی توندی نەتەوەپەرستی بوو.""",
+            onPressedBritish: () => speaksentence9("en-GB"),
+            onPressedAmerican: () => speaksentence9("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """Their ideas are too extreme for me.""",
+            kurdishText: """بیرۆکەکانیان زۆر توندن بۆ من.""",
+            onPressedBritish: () => speaksentence10("en-GB"),
+            onPressedAmerican: () => speaksentence10("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """She didn't like the idea—it sounded too extreme.""",
+            kurdishText: """حەزی بە بیرۆکەکە نەبوو ـ زۆر توند دیار بوو.""",
+            onPressedBritish: () => speaksentence11("en-GB"),
+            onPressedAmerican: () => speaksentence11("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٤. (ھاوەڵناو) چەندە بکرێت دوور لە چەق، سەرەتا، یان ئەو ئاراستەیەی کە باسکراوە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """The city is in the extreme west of Ireland.""",
+            kurdishText: """شارەکە لە ئەوپەڕی ڕۆژئاوای ئێرلەندایە.""",
+            onPressedBritish: () => speaksentence12("en-GB"),
+            onPressedAmerican: () => speaksentence12("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """She sat on the extreme edge of her seat.""",
+            kurdishText: """لە ئەوپەڕی قەراغی کورسییەکەی دانیشت.""",
+            onPressedBritish: () => speaksentence13("en-GB"),
+            onPressedAmerican: () => speaksentence13("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٥. (ناو) هەست، دۆخ، شێوازی ڕەفتار، هتد کە چەندە بکرێت جیاوازە لە یەکێکی دیکە، یان تەواو دژیەتی"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """He used to be very shy, but now he's gone to the opposite extreme (= changed from one extreme kind of behaviour to another).""",
+            kurdishText:
+                """جاران زۆر شەرمن بوو. بەڵام ئێستا ڕێک پێچەوانەیەتی.""",
+            onPressedBritish: () => speaksentence14("en-GB"),
+            onPressedAmerican: () => speaksentence14("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """At the other extreme, the top 10 per cent receives 30 per cent of the nation's income.""",
+            kurdishText:
+                """لە پەڕەکەی دیکەوە، ١٠ لە سەد ڕێژەی ٣٠ لە سەدی داهاتی وڵاتەکەی دەبرد.""",
+            onPressedBritish: () => speaksentence15("en-GB"),
+            onPressedAmerican: () => speaksentence15("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """Their views are at opposite extremes from each other.""",
+            kurdishText: """بۆچوونیان لە ڕادەی پێچەوانەن لە یەکەوە.""",
+            onPressedBritish: () => speaksentence16("en-GB"),
+            onPressedAmerican: () => speaksentence16("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """٦. (ناو) بەرزترین ئاستی شتێک"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The climate is mild with no extremes of temperature.""",
+            kurdishText: """ئاووهەواکە ئارامە بەبێ هیچ زۆرییەکی پلەی گەرمی.""",
+            onPressedBritish: () => speaksentence17("en-GB"),
+            onPressedAmerican: () => speaksentence17("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """Many of these plants won't tolerate temperature extremes.""",
+            kurdishText:
+                """زۆرێک لەم ڕووەکانە بەرگەی بەرزی پلەی گەرمی ناگرن.""",
+            onPressedBritish: () => speaksentence18("en-GB"),
+            onPressedAmerican: () => speaksentence18("en-US"),
           ),
         ],
       ),
@@ -429,22 +584,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: external
-1. Happening or arising or located outside or beyond some limits or especially surface
-"the external auditory canal"; "external pressures"
+- Adjective: extreme (Derived forms: extremest, extremes, extremer)
+1. Of the greatest possible degree, extent or intensity (= utmost, uttermost)
+"extreme cold";
  
-2. Coming from the outside (= extraneous, outside)
-"external light in the camera spoiled the photograph";
+2. Far beyond a norm in quantity, amount or degree; to an utmost degree
+"an extreme example"; "extreme temperatures"; "extreme danger"
  
-3. From or between other countries (= international, outside)
-"external commerce";
+3. Beyond a norm in views or actions
+"an extreme conservative"; "an extreme liberal"; "extreme views on integration"; "extreme opinions"
  
-4. Purely outward or superficial
-"external composure"; "an external concern for reputation"
+4، Most distant in any direction
+"the extreme edge of town"
 
-- Noun: external (Derived forms: externals)
-1. Outward features
-"he enjoyed the solemn externals of religion"
+- Noun: extreme (Derived forms: extremes)
+1. The furthest or highest degree of something
+"he carried it to extremes"
+ 
+2. The point located farthest from the middle of something (= extreme point, extremum)
 """,
   );
 
@@ -469,18 +626,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'WDetHC86Dgo';
-const double _startSecondsend = 31;
-const String _videoIdone = 'NFtQOxjWfaA';
-const double _startSecondsone = 157;
-const String _videoIdtwo = 'g-7ZWPCWv0U';
-const double _startSecondstwo = 241;
-const String _videoIdthree = '0jltioeaEyY';
-const double _startSecondsthree = 139;
-const String _videoIdfour = '1KgSp94nCZw';
-const double _startSecondsfour = 592;
-const String _videoIdfive = 'F8_ME4VwTiw';
-const double _startSecondsfive = 100;
+const String _videoIdend = 'VrKW58MS12g';
+const double _startSecondsend = 662;
+const String _videoIdone = 'XG8b7WhANNA';
+const double _startSecondsone = 733;
+const String _videoIdtwo = 'Oq-06inhB3U';
+const double _startSecondstwo = 91;
+const String _videoIdthree = 'Twb47ynU4lw';
+const double _startSecondsthree = 29;
+const String _videoIdfour = 'HpAEJVTdIZQ';
+const double _startSecondsfour = 692;
+const String _videoIdfive = 'AdqQWg3ImEw';
+const double _startSecondsfive = 95;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

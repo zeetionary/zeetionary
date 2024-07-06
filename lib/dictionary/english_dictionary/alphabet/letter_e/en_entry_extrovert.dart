@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryextortionate extends StatefulWidget {
-  const EnglishEntryextortionate({super.key});
+class EnglishEntryextrovert extends StatefulWidget {
+  const EnglishEntryextrovert({super.key});
 
   @override
-  State<EnglishEntryextortionate> createState() =>
-      _EnglishEntryextortionateState();
+  State<EnglishEntryextrovert> createState() => _EnglishEntryextrovertState();
 }
 
-class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
+class _EnglishEntryextrovertState extends State<EnglishEntryextrovert> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +25,7 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""extortionate""");
+    await flutterTts.speak("""extrovert""");
   }
 
   @override
@@ -45,10 +44,10 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """extortionate""",
-                      // alsoEnglishWord: "also: extortionate",
-                      britshText: """IpaUK: /ɪkˈstɔːʃənət/""",
-                      americanText: """IpaUS: /ɪkˈstɔːrʃənət/""",
+                      word: """extrovert""",
+                      // alsoEnglishWord: "also: extrovert",
+                      britshText: """IpaUK: /ˈekstrəvɜːt/""",
+                      americanText: """IpaUS: /ˈekstrəvɜːrt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "extortionate";
+  final String keyword = "extrovert";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,18 +237,18 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The prices they charge are extortionate.""");
+    await flutterTts.speak(
+        """She's a real extrovert and loves to socialize and meet new people.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """They are offering loans at extortionate rates of interest.""");
+    await flutterTts.speak("""He’s pretty extrovert when he’s on stage.""");
   }
 
-// With short examples define "extortionate", please follow LX instructions
+// With short examples define "extrovert", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -258,20 +257,27 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکجارگران، لەکڕین‌نەهاتوو، لەئەندازبەدەر گران
+کوردی: ڕووخۆش، دەرڤەگەر،	بەکەیف، بەدەماخ، ڕووگەش، شاد
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) نرخێکی زۆر بەرز"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) کەسێکی بەجۆش کە حەز دەکات لەگەڵ کەسانی دیکە بێت"""),
           SentencesRow(
-            englishText: """The prices they charge are extortionate.""",
-            kurdishText: """ئەو نرخانەی داوای دەکەن لەکڕین‌نەهاتوون.""",
+            englishText:
+                """She's a real extrovert and loves to socialize and meet new people.""",
+            kurdishText:
+                """کەسێکی کراوەیە و حەز دەکات تێکەڵ بە خەڵکی تازە بێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ھاوەڵناو) کراوە و ڕووخۆش و هەبوونی حەز بۆ بوون لەگەڵ خەڵکی دیکە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """They are offering loans at extortionate rates of interest.""",
-            kurdishText: """قەرز دەدەن بە ئاستی سووی زۆر بەرز.""",
+            englishText: """He’s pretty extrovert when he’s on stage.""",
+            kurdishText: """تەواو کراوەیە کە لەسەر ستەیجە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -316,9 +322,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: extortionate
-1. Greatly exceeding bounds of reason or moderation (= exorbitant, outrageous, steep, unconscionable, usurious, eye-watering [informal], exhorbitant [non-standard])
-"extortionate prices";
+- Noun: extrovert (Derived forms: extroverts)
+1. A sociable person who is lively and outgoing
+ 
+2. (psychology) a person concerned more with practical realities than with inner thoughts and feelings (= extravert)
+
+- Adjective: extrovert
+1. Being concerned with the social and physical environment (= extravert, extroverted, extraverted, extrovertive, extravertive)
 """,
   );
 
@@ -343,18 +353,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'ZcfitxiEJU8';
-const double _startSecondsend = 1415;
-const String _videoIdone = 'JITePXcDoGI';
-const double _startSecondsone = 47;
-const String _videoIdtwo = 'NwnDtE5G2ww';
-const double _startSecondstwo = 315;
-const String _videoIdthree = '7TKbegvkLjw';
-const double _startSecondsthree = 750;
-const String _videoIdfour = 'F-_ffPsIcS0';
-const double _startSecondsfour = 735;
-const String _videoIdfive = 'lSII7Hs8p5Y';
-const double _startSecondsfive = 1130;
+const String _videoIdend = 'dNKQYjsxgPU';
+const double _startSecondsend = 90;
+const String _videoIdone = 'CD7UmmLhFR8';
+const double _startSecondsone = 100;
+const String _videoIdtwo = 'cPiwS2Nfz4o';
+const double _startSecondstwo = 303;
+const String _videoIdthree = 'she33LZsP7k';
+const double _startSecondsthree = 12;
+const String _videoIdfour = 'wrAGtxMWQE0';
+const double _startSecondsfour = 223;
+const String _videoIdfive = 'Q5_nUQaVO-U';
+const double _startSecondsfive = 456;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

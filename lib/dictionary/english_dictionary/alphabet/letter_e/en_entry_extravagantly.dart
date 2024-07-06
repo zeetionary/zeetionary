@@ -6,15 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryextortionate extends StatefulWidget {
-  const EnglishEntryextortionate({super.key});
+class EnglishEntryextravagantly extends StatefulWidget {
+  const EnglishEntryextravagantly({super.key});
 
   @override
-  State<EnglishEntryextortionate> createState() =>
-      _EnglishEntryextortionateState();
+  State<EnglishEntryextravagantly> createState() =>
+      _EnglishEntryextravagantlyState();
 }
 
-class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
+class _EnglishEntryextravagantlyState extends State<EnglishEntryextravagantly> {
   @override
   void initState() {
     super.initState();
@@ -26,7 +26,7 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""extortionate""");
+    await flutterTts.speak("""extravagantly""");
   }
 
   @override
@@ -45,10 +45,10 @@ class _EnglishEntryextortionateState extends State<EnglishEntryextortionate> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """extortionate""",
-                      // alsoEnglishWord: "also: extortionate",
-                      britshText: """IpaUK: /ɪkˈstɔːʃənət/""",
-                      americanText: """IpaUS: /ɪkˈstɔːrʃənət/""",
+                      word: """extravagantly""",
+                      // alsoEnglishWord: "also: extravagantly",
+                      britshText: """IpaUK: /ɪkˈstrævəɡəntli/""",
+                      americanText: """IpaUS: /ɪkˈstrævəɡəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -113,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "extortionate";
+  final String keyword = "extravagantly";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,18 +238,24 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The prices they charge are extortionate.""");
+    await flutterTts.speak("""They do not live extravagantly.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """They are offering loans at extortionate rates of interest.""");
+    await flutterTts.speak("""It is an extravagantly priced car.""");
   }
 
-// With short examples define "extortionate", please follow LX instructions
+  Future<void> speaksentence3(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""She praised him extravagantly.""");
+  }
+
+// With short examples define "extravagantly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -258,22 +264,35 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکجارگران، لەکڕین‌نەهاتوو، لەئەندازبەدەر گران
+کوردی: دەسبڵاوانە،	لە ڕادەبەدەر، لە ئەندازبەدەر
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) نرخێکی زۆر بەرز"""),
+          const DefinitionKurdish(
+              text: """١. (ھاوەڵکار) بەشێوەیەک کە پارەی زۆر خەرج دەکات"""),
           SentencesRow(
-            englishText: """The prices they charge are extortionate.""",
-            kurdishText: """ئەو نرخانەی داوای دەکەن لەکڕین‌نەهاتوون.""",
+            englishText: """They do not live extravagantly.""",
+            kurdishText: """دەس‌بڵاوانە ناژین.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: """٢. (ھاوەڵکار) بەشێوەیەک کە پارەی زۆری دەوێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """They are offering loans at extortionate rates of interest.""",
-            kurdishText: """قەرز دەدەن بە ئاستی سووی زۆر بەرز.""",
+            englishText: """It is an extravagantly priced car.""",
+            kurdishText: """ئۆتۆمبێلێکی نرخ بەرزە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: """٣. (ھاوەڵکار) بەشێوەیەک کە زۆرە بەڵام پێویست نییە"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """She praised him extravagantly.""",
+            kurdishText: """ئێجگار زۆر پەسنی دا.""",
+            onPressedBritish: () => speaksentence3("en-GB"),
+            onPressedAmerican: () => speaksentence3("en-US"),
           ),
         ],
       ),
@@ -316,9 +335,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: extortionate
-1. Greatly exceeding bounds of reason or moderation (= exorbitant, outrageous, steep, unconscionable, usurious, eye-watering [informal], exhorbitant [non-standard])
-"extortionate prices";
+- Adverb: extravagantly
+1. In an abundant manner (= abundantly, copiously, profusely, prolifically)
+"they were extravagantly supplied with food";
+ 
+2. In a wasteful manner (= lavishly)
+"the United States, up to the 1920s, used fuel extravagantly, mainly because it was so cheap";
+ 
+3. In a rich and lavish manner (= lavishly, richly, high, luxuriously)
+"extravagantly decorated";
 """,
   );
 
@@ -343,18 +368,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'ZcfitxiEJU8';
-const double _startSecondsend = 1415;
-const String _videoIdone = 'JITePXcDoGI';
-const double _startSecondsone = 47;
-const String _videoIdtwo = 'NwnDtE5G2ww';
-const double _startSecondstwo = 315;
-const String _videoIdthree = '7TKbegvkLjw';
-const double _startSecondsthree = 750;
-const String _videoIdfour = 'F-_ffPsIcS0';
-const double _startSecondsfour = 735;
-const String _videoIdfive = 'lSII7Hs8p5Y';
-const double _startSecondsfive = 1130;
+const String _videoIdend = 'MYUXUnilpFo';
+const double _startSecondsend = 380;
+const String _videoIdone = 'p5YFH7Cr5oA';
+const double _startSecondsone = 343;
+const String _videoIdtwo = '7MWxq80oze0';
+const double _startSecondstwo = 216;
+const String _videoIdthree = 'VO9He_KhGy4';
+const double _startSecondsthree = 416;
+const String _videoIdfour = 'Hno0cTx1Aik';
+const double _startSecondsfour = 1199;
+const String _videoIdfive = 'njSSCBjnsbU';
+const double _startSecondsfive = 623;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

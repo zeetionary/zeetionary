@@ -268,63 +268,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdilates3("en-GB"),
             onPressedAmerican: () => speakdilates3("en-US"),
           ),
-          // dilates400"),
-          // speakdilates4
-          // dilates4("en-US"),
-          // dilates500"),
-          // speakdilates5
-          // dilates5("en-US"),
-          // dilates600"),
-          // speakdilates6
-          // dilates6("en-US"),
-          // dilates700"),
-          // speakdilates7
-          // dilates7("en-US"),
-          // dilates800"),
-          // speakdilates8
-          // dilates8("en-US"),
-          // dilates900"),
-          // speakdilates9
-          // dilates9("en-US"),
-          // dilates_1000"),
-          // speakdilates10
-          // dilates10("en-US"),
-          // dilates1100"),
-          // speakdilates11
-          // dilates11("en-US"),
-          // dilates1200"),
-          // speakdilates12
-          // dilates12("en-US"),
-          // dilates1300"),
-          // speakdilates13
-          // dilates13("en-US"),
-          // dilates1400"),
-          // speakdilates14
-          // dilates14("en-US"),
-          // dilates1500"),
-          // speakdilates15
-          // dilates15("en-US"),
-          // dilates1600"),
-          // speakdilates16
-          // dilates16("en-US"),
-          // dilates1700"),
-          // speakdilates17
-          // dilates17("en-US"),
-          // dilates1800"),
-          // speakdilates18
-          // dilates18("en-US"),
-          // dilates1900"),
-          // speakdilates19
-          // dilates19("en-US"),
-          // dilates_2000"),
-          // speakdilates20
-          // dilates20("en-US"),
-          // dilates2100"),
-          // speakdilates21
-          // dilates21("en-US"),
-          // dilates2200"),
-          // speakdilates22
-          // dilates22("en-US"),
         ],
       ),
     );

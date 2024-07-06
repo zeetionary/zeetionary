@@ -163,6 +163,7 @@ class EnglishEntrybrow extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text: "٢. (ناو) برۆ؛ مووی سەر چاوان"),
+                          const AlsoEnglishckb(word: "ھەروەھا: eyebrow"),
                           SentencesRow(
                             englishText:
                                 "His brows drew together in a worried frown when he heard the remark.",

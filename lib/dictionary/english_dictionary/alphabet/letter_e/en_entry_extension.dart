@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexplosion extends StatefulWidget {
-  const EnglishEntryexplosion({super.key});
+class EnglishEntryextension extends StatefulWidget {
+  const EnglishEntryextension({super.key});
 
   @override
-  State<EnglishEntryexplosion> createState() => _EnglishEntryexplosionState();
+  State<EnglishEntryextension> createState() => _EnglishEntryextensionState();
 }
 
-class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
+class _EnglishEntryextensionState extends State<EnglishEntryextension> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""explosion""");
+    await flutterTts.speak("""extension""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """explosion""",
-                      // alsoEnglishWord: "also: explosion",
-                      britshText: """IpaUK: /ɪkˈspləʊʒn/""",
-                      americanText: """IpaUS: /ɪkˈspləʊʒn/""",
+                      word: """extension""",
+                      // alsoEnglishWord: "also: extension",
+                      britshText: """IpaUK: /ɪkˈstenʃn/""",
+                      americanText: """IpaUS: /ɪkˈstenʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "explosion";
+  final String keyword = "extension";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,36 +238,38 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """There were two loud explosions and then the building burst into flames.""");
+        """My home life was becoming no more than an extension of my job.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The accused denies conspiring to cause an explosion.""");
+    await flutterTts.speak(
+        """This new job is a further extension of his role as a manager.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""300 people were injured in the explosion.""");
+    await flutterTts.speak(
+        """Citizens noticed a gradual extension of the powers of central government in their daily lives.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A huge explosion rocked the entire building.""");
+    await flutterTts.speak(
+        """The extension of new technology into developing countries improves education.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The build-up of gas caused a small explosion.""");
+    await flutterTts.speak("""They're building an extension to their house.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -275,17 +277,63 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """In the 1860s an explosion of major scientific publications took place.""");
+        """The bank will finance a £460 million extension to the car factory.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Do you know what brought on that explosion?""");
+    await flutterTts.speak(
+        """He's been granted an extension of the contract for another year.""");
   }
 
-// With short examples define "explosion", please follow LX instructions
+  Future<void> speaksentence8(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""She was given an extension to finish writing her thesis.""");
+  }
+
+  Future<void> speaksentence9(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""He's applied for an extension of his visa.""");
+  }
+
+  Future<void> speaksentence10(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""We have an extension in our bedroom.""");
+  }
+
+  Future<void> speaksentence11(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""When you call, ask for extension 3276.""");
+  }
+
+  Future<void> speaksentence12(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""The extension of the building will take several months.""");
+  }
+
+  Future<void> speaksentence13(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak(
+        """These extensions are very easy to use and won't damage your own hair.""");
+  }
+
+// With short examples define "extension", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -294,72 +342,140 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تەقینەوە، پەقین، تەق، تەقە، دەنگی تەقینەوە،	هەڵچوون، فیشقەکردن، تووڕەبوون، ڕق‌هەستان،	کڵپەکردن، ئاورگرتن، گرتن،	شریخە (پێکەنین)،	زۆربوونی کت‌وپڕ و گەورە، تۆقینەوە، زۆربوونی سەرسووڕهێنەر، پەرەسەندن یان دەرکەوتنی ناکاو
+کوردی: کشان، کشانەوە، کێشمان، پەل‌هاویشتن، کشاندن، کێشان، ڕاهێڵان، فراوان‌بوون، پەرەسەندن، گەورەبوونەوە،	بەرینایی، بەربڵاوی، فراوانی،	درێژکردنەوە، تازەکردنەوە، ماوەخستنەسەر، ماوەی درێژکردنەوە،	خستنەڕوو، ڕانان، پیشان‌دان، خستنەبەرچاو،	گشتاندن،	پاشکۆ، بەشی سەرخستە، پارچەی لکاو، بەشی زیادکراو یان سەرخراو، پاشکۆ
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) تەقین یان دەنگی بەرزی شتێک، وەک تەقینەوەی بۆمبێک؛ تەقاندنەوەی شتێک"""),
+                  """١. (ناو) زیادکردنی ناوچەی چالاکی، گرووپێک لە خەڵکی، هتد کە کاریگەر دەبن بە شتێک"""),
           SentencesRow(
             englishText:
-                """There were two loud explosions and then the building burst into flames.""",
+                """My home life was becoming no more than an extension of my job.""",
             kurdishText:
-                """دوو تەقینەوەی گەورە هەبوو و دواتر بیناکە کەوتە ناو بڵێسە.""",
+                """ژیانی ماڵەوەم خەریک بوو دەبوو بە هیچ جگە لە زیادکراوی کارەکەم.""",
+            kurdishNote: "واتا لە ماڵەوەش هەر خەریکی ئیشی کارەکەم بووم",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """The accused denies conspiring to cause an explosion.""",
+                """This new job is a further extension of his role as a manager.""",
             kurdishText:
-                """تاوانبارەکە ڕەتیدەکاتەوە پلانی ئەنجامدانی تەقینەوەیەکی دانابێت.""",
+                """ئەم کارە تازەیەی تەنها زیادکراوێکی دیکەیە بۆ ئەرکەکەی وەک بەڕێوەبەر.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """300 people were injured in the explosion.""",
-            kurdishText: """٣٠٠ کەس بریندار بوون لە تەقینەوەکەدا.""",
+            englishText:
+                """Citizens noticed a gradual extension of the powers of central government in their daily lives.""",
+            kurdishText:
+                """هاوڵاتییان تێبینی کەم‌کەم فراوانبوونی دەسەڵاتی حکومەتی ناوەندییان لە ژیانی ڕۆژانەیان کرد.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """A huge explosion rocked the entire building.""",
-            kurdishText: """تەقینەوەیەکی گەورە بیناکەی هەژاند.""",
+            englishText:
+                """The extension of new technology into developing countries improves education.""",
+            kurdishText:
+                """فراوانبوونی تەکنەلۆژیای تازە بۆ وڵاتە ڕوولەگەشەکان کەرتی پەروەردە بەهێز دەکات.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) یەک ژووری تازە یان زیاتر کە زیاد دەکرێت بۆ خانوویەک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The build-up of gas caused a small explosion.""",
-            kurdishText: """پەنگخواردنەوەی گاز بوو بەهۆی تەقینەوەیەکی بچووک.""",
+            englishText: """They're building an extension to their house.""",
+            kurdishText: """ژوورێکی تازە بۆ خانووەکەیان درووست دەکەن.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) زۆربوونی لەناکاو لە بڕ یان ژمارەی شتێک"""),
+              text: """٣. (ناو) بەشێکی تازە کە بۆ بینایەک زیاد دەکرێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """In the 1860s an explosion of major scientific publications took place.""",
+                """The bank will finance a £460 million extension to the car factory.""",
             kurdishText:
-                """ساڵانی ١٨٦٠ ـەکان تەنینەوەیەکی بڵاوکراوەی زانستیی گرنگ ڕوویدا.""",
+                """بانکەکە ٤٦٠ ملیۆن پاوەندی تێچووی فراوانکردنی کارگەی ئۆتۆمبێلەکە دەدات.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text:
-                  """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز، بەتایبەتی تووڕەیی"""),
+              text: """٤. (ناو) کاتی زیادە کە بۆ شتێک زیاد دەکرێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Do you know what brought on that explosion?""",
-            kurdishText: """دەزانیت چی بوو بە هۆکاری ئەو تووڕەبوونە؟""",
+            englishText:
+                """He's been granted an extension of the contract for another year.""",
+            kurdishText: """درێژکردنەوەی یەک ساڵی بۆ ڕێککەوتنەکە پێدراوە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """She was given an extension to finish writing her thesis.""",
+            kurdishText: """ماوەیەکی دیکەی پێدراوە بۆ نووسینی تێزەکەی.""",
+            onPressedBritish: () => speaksentence8("en-GB"),
+            onPressedAmerican: () => speaksentence8("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """He's applied for an extension of his visa.""",
+            kurdishText: """داوای درێژکردنەوەی ڤیزاکەی کردووە.""",
+            onPressedBritish: () => speaksentence9("en-GB"),
+            onPressedAmerican: () => speaksentence9("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٥. (ناو) هێڵێکی تەلەفۆن کە هەمان ژمارەی هەیە لەگەڵ یەکێکی دیکە لە ماڵێکدا، یان لەگەڵ تەلەفۆنی ناوەندی بینایەک"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """We have an extension in our bedroom.""",
+            kurdishText: """تەلەفۆنێکی دیکەمان لە ژووری نووستن هەیە.""",
+            onPressedBritish: () => speaksentence10("en-GB"),
+            onPressedAmerican: () => speaksentence10("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """When you call, ask for extension 3276.""",
+            kurdishText: """کە پەیوەندی دەکەیت، داوای تەلەفۆنی ٣٢٧٦ بکە.""",
+            onPressedBritish: () => speaksentence11("en-GB"),
+            onPressedAmerican: () => speaksentence11("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٦. (ناو) گەورەکردن یان درێژکردنی شتێک؛ ئەو شتەی گەورە یان درێژ دەکرێت"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The extension of the building will take several months.""",
+            kurdishText: """گەورەکردنی بیناکە چەند مانگێکی دەوێت.""",
+            onPressedBritish: () => speaksentence12("en-GB"),
+            onPressedAmerican: () => speaksentence12("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٧. (ناو) پرچێکی دەستکردن کە زیاد دەکرێت بۆ پرچی سرووشتی بۆ ئەوەی درێژتر دەربکەوێت"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """These extensions are very easy to use and won't damage your own hair.""",
+            kurdishText:
+                """ئەم پرچە دەستکردانە زۆر ئاسانن بۆ بەکارهێنان و زیان بە پرچی خۆت ناگەیەنن.""",
+            onPressedBritish: () => speaksentence13("en-GB"),
+            onPressedAmerican: () => speaksentence13("en-US"),
+          ),
+          // skipped_meaning
         ],
       ),
     );
@@ -401,24 +517,36 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: explosion (Derived forms: explosions)
-1. A violent release of energy caused by a chemical or nuclear reaction (= detonation, blowup, blow-up)
+- Noun: extension (Derived forms: extensions)
+1. A mutually agreed delay in the date set for the completion of a job or payment of a debt
+"they applied for an extension of the loan"
  
-2. The act of exploding or bursting (= burst)
-"the explosion of the firecrackers awoke the children";
+2. Act of expanding in scope; making more widely available
+"extension of the program to all in need"
  
-3. A sudden great increase
-"the population explosion"; "the information explosion"
+3. The spreading of something (a belief or practice) into new regions (= propagation)
  
-4. The noise caused by an explosion
-"the explosion was heard a mile away"
+4. An educational opportunity provided by colleges and universities to people who are not enrolled as regular students (= extension service, university extension)
  
-5. The terminal forced release of pressure built up during the occlusive phase of a stop consonant (= plosion)
+5. Act of stretching or straightening out a flexed limb
  
-6. A sudden outburst
-"an explosion of laughter"; "an explosion of rage"
+6. A string of characters beginning with a period and followed by one or more letters; the optional second part of a PC computer filename (= filename extension, file name extension)
+"most applications provide extensions for the files they create"; "most BASIC files use the filename extension .BAS";
  
-7. A golf shot from a bunker that typically moves sand as well as the golf ball
+7. The most direct or specific meaning of a word or expression; the class of objects that an expression refers to (= reference, denotation)
+"the extension of 'satellite of Mars' is the set containing only Demos and Phobos";
+ 
+8. The ability to raise the working leg high in the air
+"the dancer was praised for her uncanny extension"; "good extension comes from a combination of training and native ability"
+ 
+9. Amount, degree or range to which something extends (= lengthiness, prolongation)
+"the wire has an extension of 50 feet";
+ 
+10. An additional telephone set that is connected to the same telephone line (= telephone extension, extension phone)
+ 
+11. An addition to the length of something (= elongation)
+ 
+12. An addition that extends a main building (= annex, annexe [Brit], wing)
 """,
   );
 
@@ -443,18 +571,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'e09xig209cQ';
-const double _startSecondsend = 46;
-const String _videoIdone = 'AF8d72mA41M';
-const double _startSecondsone = 150;
-const String _videoIdtwo = 'QiKZYt9070U';
-const double _startSecondstwo = 442;
-const String _videoIdthree = 'XI9kKiyIMf0';
-const double _startSecondsthree = 208;
-const String _videoIdfour = 'ReLgZFNYQ5k';
-const double _startSecondsfour = 21;
-const String _videoIdfive = 'uXG31J68dcY';
-const double _startSecondsfive = 30;
+const String _videoIdend = 'ewLpXw6uN28';
+const double _startSecondsend = 433;
+const String _videoIdone = 'CXvG2CBJ3SE';
+const double _startSecondsone = 438;
+const String _videoIdtwo = 'g-7ZWPCWv0U';
+const double _startSecondstwo = 163;
+const String _videoIdthree = '9K_CZizKdVs';
+const double _startSecondsthree = 307;
+const String _videoIdfour = '0zXfDafyyao';
+const double _startSecondsfour = 1365;
+const String _videoIdfive = 'Gv4Af83KFrE';
+const double _startSecondsfive = 1138;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

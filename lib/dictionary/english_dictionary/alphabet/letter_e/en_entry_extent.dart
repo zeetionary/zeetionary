@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexplosion extends StatefulWidget {
-  const EnglishEntryexplosion({super.key});
+class EnglishEntryextent extends StatefulWidget {
+  const EnglishEntryextent({super.key});
 
   @override
-  State<EnglishEntryexplosion> createState() => _EnglishEntryexplosionState();
+  State<EnglishEntryextent> createState() => _EnglishEntryextentState();
 }
 
-class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
+class _EnglishEntryextentState extends State<EnglishEntryextent> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""explosion""");
+    await flutterTts.speak("""extent""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """explosion""",
-                      // alsoEnglishWord: "also: explosion",
-                      britshText: """IpaUK: /ɪkˈspləʊʒn/""",
-                      americanText: """IpaUS: /ɪkˈspləʊʒn/""",
+                      word: """extent""",
+                      // alsoEnglishWord: "also: extent",
+                      britshText: """IpaUK: /ɪkˈstent/""",
+                      americanText: """IpaUS: /ɪkˈstent/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "explosion";
+  final String keyword = "extent";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,8 +237,8 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """There were two loud explosions and then the building burst into flames.""");
+    await flutterTts
+        .speak("""It is difficult to assess the full extent of the damage.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -246,46 +246,57 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""The accused denies conspiring to cause an explosion.""");
+        .speak("""She was exaggerating the true extent of the problem.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""300 people were injured in the explosion.""");
+    await flutterTts
+        .speak("""We don't know the extent of his injuries at this point.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A huge explosion rocked the entire building.""");
+    await flutterTts.speak("""I was amazed at the extent of his knowledge.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The build-up of gas caused a small explosion.""");
+    await flutterTts.speak(
+        """The government sought to play down the extent of the problem.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """In the 1860s an explosion of major scientific publications took place.""");
+    await flutterTts
+        .speak("""The operation revealed the extent of the cancer.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Do you know what brought on that explosion?""");
+    await flutterTts
+        .speak("""You can't see the full extent of the beach from here.""");
   }
 
-// With short examples define "explosion", please follow LX instructions
+  Future<void> speaksentence8(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""The island is 300 square kilometres in extent.""");
+  }
+
+// With short examples define "extent", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -294,71 +305,71 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تەقینەوە، پەقین، تەق، تەقە، دەنگی تەقینەوە،	هەڵچوون، فیشقەکردن، تووڕەبوون، ڕق‌هەستان،	کڵپەکردن، ئاورگرتن، گرتن،	شریخە (پێکەنین)،	زۆربوونی کت‌وپڕ و گەورە، تۆقینەوە، زۆربوونی سەرسووڕهێنەر، پەرەسەندن یان دەرکەوتنی ناکاو
+کوردی: بەرینایی، بەربڵاوی، بەرفرەهی،	ڕاخستە، بوار، مەڵبەند، پانتایی، گۆڕایی، پانایی، قاد، پانی،	درێژی، درێژایی،	ڕووبەر،	قەبارە، بارستایی،	ڕادە، ئەندازە، ئاست، بڕ، پلە
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) تەقین یان دەنگی بەرزی شتێک، وەک تەقینەوەی بۆمبێک؛ تەقاندنەوەی شتێک"""),
+              text: """١. (ناو) ئاستی گەورەیی، گرنگی، ڕژدی، هتد ـی شتێک"""),
           SentencesRow(
             englishText:
-                """There were two loud explosions and then the building burst into flames.""",
-            kurdishText:
-                """دوو تەقینەوەی گەورە هەبوو و دواتر بیناکە کەوتە ناو بڵێسە.""",
+                """It is difficult to assess the full extent of the damage.""",
+            kurdishText: """سەختە ئاستی تەواوی زیانەکە بخەمڵێندرێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """The accused denies conspiring to cause an explosion.""",
-            kurdishText:
-                """تاوانبارەکە ڕەتیدەکاتەوە پلانی ئەنجامدانی تەقینەوەیەکی دانابێت.""",
+                """She was exaggerating the true extent of the problem.""",
+            kurdishText: """زیادەڕۆیی لە ئاستی ڕاستی کێشەکە دەکرد.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """300 people were injured in the explosion.""",
-            kurdishText: """٣٠٠ کەس بریندار بوون لە تەقینەوەکەدا.""",
+            englishText:
+                """We don't know the extent of his injuries at this point.""",
+            kurdishText: """لەم قۆناغەدا ئاستی برینەکەی نازانین.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """A huge explosion rocked the entire building.""",
-            kurdishText: """تەقینەوەیەکی گەورە بیناکەی هەژاند.""",
+            englishText: """I was amazed at the extent of his knowledge.""",
+            kurdishText: """سەرسام بووم بە ئاستی زانیاریی.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The build-up of gas caused a small explosion.""",
-            kurdishText: """پەنگخواردنەوەی گاز بوو بەهۆی تەقینەوەیەکی بچووک.""",
+            englishText:
+                """The government sought to play down the extent of the problem.""",
+            kurdishText: """حکومەت هەوڵیدا لە ئاستی کێشەکە کەم بکاتەوە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٢. (ناو) زۆربوونی لەناکاو لە بڕ یان ژمارەی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """In the 1860s an explosion of major scientific publications took place.""",
-            kurdishText:
-                """ساڵانی ١٨٦٠ ـەکان تەنینەوەیەکی بڵاوکراوەی زانستیی گرنگ ڕوویدا.""",
+            englishText: """The operation revealed the extent of the cancer.""",
+            kurdishText: """نەشتەرفەرییەکە ئاستی ئاستی شێرپەنجەکەی دەرخست.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز، بەتایبەتی تووڕەیی"""),
+          const DefinitionKurdish(text: """٢. (ناو) قەبارەی ناوچەیەک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Do you know what brought on that explosion?""",
-            kurdishText: """دەزانیت چی بوو بە هۆکاری ئەو تووڕەبوونە؟""",
+            englishText:
+                """You can't see the full extent of the beach from here.""",
+            kurdishText: """ناتوانیت ڕووبەری تەواوی کەنارەکە لێرەوە ببینیت.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """The island is 300 square kilometres in extent.""",
+            kurdishText: """دوورگەکە ٣٠٠ کیلۆمەتر چوارگۆشەیە لە ڕووبەردا.""",
+            onPressedBritish: () => speaksentence8("en-GB"),
+            onPressedAmerican: () => speaksentence8("en-US"),
           ),
         ],
       ),
@@ -401,24 +412,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: explosion (Derived forms: explosions)
-1. A violent release of energy caused by a chemical or nuclear reaction (= detonation, blowup, blow-up)
+- Noun: extent (Derived forms: extents)
+1. The point or degree to which something extends
+"the extent of the damage"; "the full extent of the law"; "to a certain extent she was right"
  
-2. The act of exploding or bursting (= burst)
-"the explosion of the firecrackers awoke the children";
- 
-3. A sudden great increase
-"the population explosion"; "the information explosion"
- 
-4. The noise caused by an explosion
-"the explosion was heard a mile away"
- 
-5. The terminal forced release of pressure built up during the occlusive phase of a stop consonant (= plosion)
- 
-6. A sudden outburst
-"an explosion of laughter"; "an explosion of rage"
- 
-7. A golf shot from a bunker that typically moves sand as well as the golf ball
+2. The distance, area or volume over which something extends
+"the vast extent of the desert"; "an orchard of considerable extent"
 """,
   );
 
@@ -443,18 +442,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'e09xig209cQ';
-const double _startSecondsend = 46;
-const String _videoIdone = 'AF8d72mA41M';
-const double _startSecondsone = 150;
-const String _videoIdtwo = 'QiKZYt9070U';
-const double _startSecondstwo = 442;
-const String _videoIdthree = 'XI9kKiyIMf0';
-const double _startSecondsthree = 208;
-const String _videoIdfour = 'ReLgZFNYQ5k';
-const double _startSecondsfour = 21;
-const String _videoIdfive = 'uXG31J68dcY';
-const double _startSecondsfive = 30;
+const String _videoIdend = '02tRxM_1VsE';
+const double _startSecondsend = 0;
+const String _videoIdone = 'J-K5OjAkiEA';
+const double _startSecondsone = 449;
+const String _videoIdtwo = '4VTOplLl2BM';
+const double _startSecondstwo = 1630;
+const String _videoIdthree = 'g01YnqH-2ek';
+const double _startSecondsthree = 352;
+const String _videoIdfour = 'BDh46oosdms';
+const double _startSecondsfour = 41;
+const String _videoIdfive = 'SwQhKFMxmDY';
+const double _startSecondsfive = 3193;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

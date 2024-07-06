@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("// speakelks100000000000000000000000000000000");
+    await flutterTts.speak("// speakelks100000");
   }
 
   @override
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
           //         children: [
           //           ExampleSentenceEnglish(
           //               text:
-          //                   """// speakelks100000000000000000000000000000000
+          //                   """// speakelks100000
           //     const CustomSizedBoxForTTS(), // With short examples define "elk", please follow LX instructions
           //     Column(
           //       children: [

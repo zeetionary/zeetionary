@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexplosion extends StatefulWidget {
-  const EnglishEntryexplosion({super.key});
+class EnglishEntryextensive extends StatefulWidget {
+  const EnglishEntryextensive({super.key});
 
   @override
-  State<EnglishEntryexplosion> createState() => _EnglishEntryexplosionState();
+  State<EnglishEntryextensive> createState() => _EnglishEntryextensiveState();
 }
 
-class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
+class _EnglishEntryextensiveState extends State<EnglishEntryextensive> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""explosion""");
+    await flutterTts.speak("""extensive""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """explosion""",
-                      // alsoEnglishWord: "also: explosion",
-                      britshText: """IpaUK: /ɪkˈspləʊʒn/""",
-                      americanText: """IpaUS: /ɪkˈspləʊʒn/""",
+                      word: """extensive""",
+                      // alsoEnglishWord: "also: extensive",
+                      britshText: """IpaUK: /ɪkˈstensɪv/""",
+                      americanText: """IpaUS: /ɪkˈstensɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "explosion";
+  final String keyword = "extensive";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,55 +237,46 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """There were two loud explosions and then the building burst into flames.""");
+    await flutterTts.speak("""The house has extensive grounds.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The accused denies conspiring to cause an explosion.""");
+    await flutterTts.speak("""The fire caused extensive damage.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""300 people were injured in the explosion.""");
+    await flutterTts.speak("""Extensive repair work is being carried out.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A huge explosion rocked the entire building.""");
+    await flutterTts.speak("""His knowledge of music is extensive.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The build-up of gas caused a small explosion.""");
+    await flutterTts.speak("""She has extensive experience in computers.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """In the 1860s an explosion of major scientific publications took place.""");
+    await flutterTts
+        .speak("""Extensive research has been done into this disease.""");
   }
 
-  Future<void> speaksentence7(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Do you know what brought on that explosion?""");
-  }
-
-// With short examples define "explosion", please follow LX instructions
+// With short examples define "extensive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -294,71 +285,54 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تەقینەوە، پەقین، تەق، تەقە، دەنگی تەقینەوە،	هەڵچوون، فیشقەکردن، تووڕەبوون، ڕق‌هەستان،	کڵپەکردن، ئاورگرتن، گرتن،	شریخە (پێکەنین)،	زۆربوونی کت‌وپڕ و گەورە، تۆقینەوە، زۆربوونی سەرسووڕهێنەر، پەرەسەندن یان دەرکەوتنی ناکاو
+کوردی: بەربڵاو، بەرفرەهـ، فراوان، بەرین،	دوورودرێژ، چڕوپڕ، تێروتەسەل،	پان، بەرین،	درێژ، درێژەوەبوو،	گشتگر، هەمەلایەنە، گش‌لایەنە، بەربڵاو
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (ناو) تەقین یان دەنگی بەرزی شتێک، وەک تەقینەوەی بۆمبێک؛ تەقاندنەوەی شتێک"""),
+              text: """١. (ھاوەڵناو) کە ناوچەیەکی زۆر دەگرێتەوە"""),
           SentencesRow(
-            englishText:
-                """There were two loud explosions and then the building burst into flames.""",
-            kurdishText:
-                """دوو تەقینەوەی گەورە هەبوو و دواتر بیناکە کەوتە ناو بڵێسە.""",
+            englishText: """The house has extensive grounds.""",
+            kurdishText: """خانووەکە حەوشەی گەورەی هەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """The accused denies conspiring to cause an explosion.""",
-            kurdishText:
-                """تاوانبارەکە ڕەتیدەکاتەوە پلانی ئەنجامدانی تەقینەوەیەکی دانابێت.""",
+            englishText: """The fire caused extensive damage.""",
+            kurdishText: """ئاگرەکە بوو بە هۆکاری زیانی بەرفراوان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """300 people were injured in the explosion.""",
-            kurdishText: """٣٠٠ کەس بریندار بوون لە تەقینەوەکەدا.""",
+            englishText: """Extensive repair work is being carried out.""",
+            kurdishText: """کاری گشتگیری چاککردنەوەی ئەنجام دەدرێن.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: """٣. (ھاوەڵناو) کە ژمارەیەک زانیاریی زۆر لەخۆدەگرێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """A huge explosion rocked the entire building.""",
-            kurdishText: """تەقینەوەیەکی گەورە بیناکەی هەژاند.""",
+            englishText: """His knowledge of music is extensive.""",
+            kurdishText: """زانیاریی لە میوزیکدا گشتگیرە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The build-up of gas caused a small explosion.""",
-            kurdishText: """پەنگخواردنەوەی گاز بوو بەهۆی تەقینەوەیەکی بچووک.""",
+            englishText: """She has extensive experience in computers.""",
+            kurdishText: """ئەزموونی تێروتەسەلی لە کۆمپیوتەردا هەیە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٢. (ناو) زۆربوونی لەناکاو لە بڕ یان ژمارەی شتێک"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """In the 1860s an explosion of major scientific publications took place.""",
-            kurdishText:
-                """ساڵانی ١٨٦٠ ـەکان تەنینەوەیەکی بڵاوکراوەی زانستیی گرنگ ڕوویدا.""",
+                """Extensive research has been done into this disease.""",
+            kurdishText: """توێژینەوەی چڕوپڕ لەم نەخۆشییە کراوە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز، بەتایبەتی تووڕەیی"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """Do you know what brought on that explosion?""",
-            kurdishText: """دەزانیت چی بوو بە هۆکاری ئەو تووڕەبوونە؟""",
-            onPressedBritish: () => speaksentence7("en-GB"),
-            onPressedAmerican: () => speaksentence7("en-US"),
           ),
         ],
       ),
@@ -401,24 +375,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: explosion (Derived forms: explosions)
-1. A violent release of energy caused by a chemical or nuclear reaction (= detonation, blowup, blow-up)
+- Adjective: extensive
+1. Large in spatial extent, range, scope or quantity (= extended)
+"an extensive Roman settlement in northwest England"; "they suffered extensive damage";
  
-2. The act of exploding or bursting (= burst)
-"the explosion of the firecrackers awoke the children";
+2. Broad in scope or content (= across-the-board, all-embracing, all-encompassing, all-inclusive, blanket, broad, encompassing, panoptic, wide)
+"extensive pay increases";
  
-3. A sudden great increase
-"the population explosion"; "the information explosion"
- 
-4. The noise caused by an explosion
-"the explosion was heard a mile away"
- 
-5. The terminal forced release of pressure built up during the occlusive phase of a stop consonant (= plosion)
- 
-6. A sudden outburst
-"an explosion of laughter"; "an explosion of rage"
- 
-7. A golf shot from a bunker that typically moves sand as well as the golf ball
+3. Of agriculture; increasing productivity by using large areas with minimal outlay and labour
+"producing wheat under extensive conditions"; "agriculture of the extensive type"
 """,
   );
 
@@ -443,18 +408,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'e09xig209cQ';
-const double _startSecondsend = 46;
-const String _videoIdone = 'AF8d72mA41M';
-const double _startSecondsone = 150;
-const String _videoIdtwo = 'QiKZYt9070U';
-const double _startSecondstwo = 442;
-const String _videoIdthree = 'XI9kKiyIMf0';
-const double _startSecondsthree = 208;
-const String _videoIdfour = 'ReLgZFNYQ5k';
-const double _startSecondsfour = 21;
-const String _videoIdfive = 'uXG31J68dcY';
-const double _startSecondsfive = 30;
+const String _videoIdend = 'lDeFSOUHdH4';
+const double _startSecondsend = 389;
+const String _videoIdone = 'qg2nGY1aqlg';
+const double _startSecondsone = 468;
+const String _videoIdtwo = 'JGNiafLl0iA';
+const double _startSecondstwo = 426;
+const String _videoIdthree = 'qr4MSVxfYBE';
+const double _startSecondsthree = 1002;
+const String _videoIdfour = 'KZbzIf_C6Y4';
+const double _startSecondsfour = 805;
+const String _videoIdfive = 'Rvey9g0VgY0';
+const double _startSecondsfive = 362;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

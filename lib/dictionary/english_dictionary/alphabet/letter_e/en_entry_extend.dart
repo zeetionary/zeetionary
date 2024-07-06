@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexpress extends StatefulWidget {
-  const EnglishEntryexpress({super.key});
+class EnglishEntryextend extends StatefulWidget {
+  const EnglishEntryextend({super.key});
 
   @override
-  State<EnglishEntryexpress> createState() => _EnglishEntryexpressState();
+  State<EnglishEntryextend> createState() => _EnglishEntryextendState();
 }
 
-class _EnglishEntryexpressState extends State<EnglishEntryexpress> {
+class _EnglishEntryextendState extends State<EnglishEntryextend> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryexpressState extends State<EnglishEntryexpress> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""express""");
+    await flutterTts.speak("""extend""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryexpressState extends State<EnglishEntryexpress> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """express""",
-                      // alsoEnglishWord: "also: express",
-                      britshText: """IpaUK: /ɪkˈspres/""",
-                      americanText: """IpaUS: /ɪkˈspres/""",
+                      word: """extend""",
+                      // alsoEnglishWord: "also: extend",
+                      britshText: """IpaUK: /ɪkˈstend/""",
+                      americanText: """IpaUS: /ɪkˈstend/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "express";
+  final String keyword = "extend";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,15 +238,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""Teachers have expressed concern about the changes.""");
+        .speak("""There are plans to extend the children's play area.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Customers expressed interest in trying the product.""");
+    await flutterTts.speak(
+        """The Democratic candidate extended her early lead in the polls.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -254,14 +254,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """I'd like to express my gratitude to everyone who helped us.""");
+        """There are plans to extend the road network in the north of the country.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Words cannot express how pleased I am.""");
+    await flutterTts
+        .speak("""Careful maintenance can extend the life of your car.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -269,22 +270,23 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""His views have been expressed in numerous speeches.""");
+        .speak("""The show has been extended for another six weeks.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """Differences of opinion were freely expressed in public debate.""");
+    await flutterTts
+        .speak("""The proposal was to extend paid leave to six months.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He expressed his anger openly.""");
+    await flutterTts.speak(
+        """The repayment period will be extended from 20 years to 25 years.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -292,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""Many patients feel unable to express their fears.""");
+        .speak("""The school is extending the range of subjects taught.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -300,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """Later, he expressed his regret that he hadn't taken the chance.""");
+        """The service will soon be extended to other areas of the UK.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
@@ -308,7 +310,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""She expressed sympathy, but said she could not help.""");
+        .speak("""The company plans to extend its operations into Europe.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
@@ -316,76 +318,74 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""Teenagers often have difficulty expressing themselves.""");
+        .speak("""The offer does not extend to employees' partners.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Perhaps I have not expressed myself very well.""");
+    await flutterTts.speak(
+        """His willingness to help did not extend beyond making a few phone calls.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She expresses herself most fully in her paintings.""");
+    await flutterTts.speak("""Our land extends as far as the river.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They expressed themselves delighted.""");
+    await flutterTts
+        .speak("""His writing career extended over a period of 40 years.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She doesn't express herself well in writing.""");
+    await flutterTts.speak("""The wood does not extend very far.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Their pleasure expressed itself in a burst of applause.""");
+    await flutterTts.speak(
+        """The country's power extends far beyond its military capabilities.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The figures are expressed as percentages.""");
+    await flutterTts.speak("""Try to extend the rope between two posts.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """Educational expenditure is often expressed in terms of the amount spent per student.""");
+    await flutterTts.speak("""He extended his hand to the new employee.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Coconut milk is expressed from grated coconuts.""");
+    await flutterTts.speak(
+        """I'm sure you will join me in extending a very warm welcome to our visitors.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """As soon as I receive payment I will express the book to you.""");
+    await flutterTts.speak("""The bank refused to extend credit to them.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
@@ -393,62 +393,26 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""She took the overnight express train to Luxor.""");
+        .speak("""They extended the invitation to all members of staff.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Please send this letter by express delivery.""");
+    await flutterTts
+        .speak("""We extend our sympathy to the families of the victims.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She received her documents via express mail.""");
-  }
-
-  Future<void> speaksentence24(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """It was his express wish that you should have his gold watch after he died.""");
-  }
-
-  Future<void> speaksentence25(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """I came here with the express purpose of speaking with the manager.""");
-  }
-
-  Future<void> speaksentence26(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I'd like to send this express, please.""");
-  }
-
-  Future<void> speaksentence27(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""The quickest way to get here is to take the express.""");
+        .speak("""Jim didn't really have to extend himself in the exam.""");
   }
 
-  Future<void> speaksentence28(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""This message needs to be sent by express.""");
-  }
-
-// With short examples define "express", please follow LX instructions
+// With short examples define "extend", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -457,272 +421,229 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاشکرا، ڕوون، بێ‌پەردە، ڕاشکاو، ڕوون‌دەربڕاو، خۆیا، دیار، بەرچاو،	خێرا، زوو، دەسبەجێ، دەم‌ودەست،	تایبەت،	(پۆست) خێرانێری، زوونێری، ئیکسپرێس،	(شەمەندەفەر) تونڕەو، توندڕۆ، خێراڕەو
+کوردی: 
 """),
           const DefinitionKurdish(
-              text:
-                  """١. (کردار) دەربڕینی شتێک بە قسە، زمانی جەستە، یان کردار"""),
+              text: """١. (کردار) درێژکردن یان گەورەکردنی شتێک"""),
           SentencesRow(
             englishText:
-                """Teachers have expressed concern about the changes.""",
-            kurdishText:
-                """مامۆستایان نیگەرانیان دەربڕیوە سەبارەت بە گۆڕانەکان.""",
+                """There are plans to extend the children's play area.""",
+            kurdishText: """پلان هەیە ناوچەی یاریکردنی منداڵان گەورە بکرێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Customers expressed interest in trying the product.""",
-            kurdishText: """کڕیاران حەزیان دەربڕی بۆ تاقیکردنەوەی بەرهەمەکە.""",
+                """The Democratic candidate extended her early lead in the polls.""",
+            kurdishText:
+                """بەربژێرە دیموکراتەکە پێشەنگیی زووی خۆی زیاتر کرد لە ڕاپرسییەکان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """I'd like to express my gratitude to everyone who helped us.""",
+                """There are plans to extend the road network in the north of the country.""",
             kurdishText:
-                """دەمەوێت سوپاسگوزاریم بە هەر کەسێک دەرببڕم کە یارمەتیمانی دا.""",
+                """پلان هەیە تۆڕی ڕێگاکە گەورەتر بکرێت لە باکووری وڵاتەکە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
-          Column(
-            children: [
-              MyExpansionTile(
-                children: [
-                  SentencesRow(
-                    englishText: """Words cannot express how pleased I am.""",
-                    kurdishText: """وشە ناتوانێت دەری ببڕێت کە چەندە دڵخۆشم.""",
-                    onPressedBritish: () => speaksentence4("en-GB"),
-                    onPressedAmerican: () => speaksentence4("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        """His views have been expressed in numerous speeches.""",
-                    kurdishText: """دیدەکانی لە چەندین وتاردا دەربڕدراون.""",
-                    onPressedBritish: () => speaksentence5("en-GB"),
-                    onPressedAmerican: () => speaksentence5("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        """Differences of opinion were freely expressed in public debate.""",
-                    kurdishText:
-                        """جیاوازیی بیروڕا بە ئازادی لە دیبەیتی گشتیدا خرانەڕوو.""",
-                    onPressedBritish: () => speaksentence6("en-GB"),
-                    onPressedAmerican: () => speaksentence6("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText: """He expressed his anger openly.""",
-                    kurdishText: """بە ئاشکرایی تووڕەییەکەی دەربڕی.""",
-                    onPressedBritish: () => speaksentence7("en-GB"),
-                    onPressedAmerican: () => speaksentence7("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        """Many patients feel unable to express their fears.""",
-                    kurdishText:
-                        """زۆر نەخۆش هەست بە بێ توانایی دەکەن بۆ دەربڕینی ترسەکانیان.""",
-                    onPressedBritish: () => speaksentence8("en-GB"),
-                    onPressedAmerican: () => speaksentence8("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        """Later, he expressed his regret that he hadn't taken the chance.""",
-                    kurdishText:
-                        """دواتر، پەشیمانی خۆی دەربڕی لەوەی کە شانسەکەی نەقۆستەوە.""",
-                    onPressedBritish: () => speaksentence9("en-GB"),
-                    onPressedAmerican: () => speaksentence9("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        """She expressed sympathy, but said she could not help.""",
-                    kurdishText:
-                        """هاوخەمی دەربڕی، بەڵام گوتی ناتوانێت یارمەتی بدات.""",
-                    onPressedBritish: () => speaksentence10("en-GB"),
-                    onPressedAmerican: () => speaksentence10("en-US"),
-                  ),
-                ],
-              ),
-            ],
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text: """٢. (کردار) وابکەیت شتێک زیاتر بخایەنێت"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """Careful maintenance can extend the life of your car.""",
+            kurdishText:
+                """ئاگالێبوونی بەوریایی دەکرێت تەمەنی ئۆتۆمبێلەکەت درێژ بکاتەوە.""",
+            onPressedBritish: () => speaksentence4("en-GB"),
+            onPressedAmerican: () => speaksentence4("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The show has been extended for another six weeks.""",
+            kurdishText: """پڕۆگرامەکە بۆ شەش هەفتەی دیکە درێژکراوەتەوە.""",
+            onPressedBritish: () => speaksentence5("en-GB"),
+            onPressedAmerican: () => speaksentence5("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The proposal was to extend paid leave to six months.""",
+            kurdishText:
+                """پێشنیارەکە ئەوە بوو کە مۆڵەت بە مووچەوە بۆ شەش مانگ درێژ بکرێتەوە.""",
+            onPressedBritish: () => speaksentence6("en-GB"),
+            onPressedAmerican: () => speaksentence6("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The repayment period will be extended from 20 years to 25 years.""",
+            kurdishText:
+                """ماوەی پارەدانەوەکە لە ٢٠ ساڵەوە بۆ ٢٥ درێژ دەکرێتەوە.""",
+            onPressedBritish: () => speaksentence7("en-GB"),
+            onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (کردار) دەربڕینی هەستەکانی بە ڕێگای دیکە؛ لە ڕێگای شتی دیکەوە"""),
+                  """٣. (کردار) واکردنی ئەوەی کە بازرگانییەک، بیرۆکەیەک، کاریگەرییەک، هتد زیاتر بێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Teenagers often have difficulty expressing themselves.""",
-            kurdishText: """گەنجان زۆرجار سەختیان دەبێت لە دەربڕینی خۆیان.""",
+                """The school is extending the range of subjects taught.""",
+            kurdishText:
+                """قوتابخانەکە ڕێژەی ئەو بابەتانەی دەگوترێنەوە زیاتر دەکات.""",
+            onPressedBritish: () => speaksentence8("en-GB"),
+            onPressedAmerican: () => speaksentence8("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The service will soon be extended to other areas of the UK.""",
+            kurdishText:
+                """خزمەتگوزارییەکە زوو زیاد دەکرێت بۆ ناوچەکانی بەریتانیا.""",
+            onPressedBritish: () => speaksentence9("en-GB"),
+            onPressedAmerican: () => speaksentence9("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The company plans to extend its operations into Europe.""",
+            kurdishText:
+                """کۆمپانیاکە پلانی هەیە کارەکانی لە ئەورووپا زیاد بکات.""",
+            onPressedBritish: () => speaksentence10("en-GB"),
+            onPressedAmerican: () => speaksentence10("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(text: """٤. (کردار) لەخۆگرتنی کەسێک/شتێک"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The offer does not extend to employees' partners.""",
+            kurdishText: """ئۆفەرەکە هاوبەشەکانی کارمەندان ناگرێتەوە.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Perhaps I have not expressed myself very well.""",
-            kurdishText: """لەوانەیە زۆر بەباشی خۆم ڕوون نەکردبێتەوە.""",
+            englishText:
+                """His willingness to help did not extend beyond making a few phone calls.""",
+            kurdishText:
+                """ئامادەیی بۆ یارمەتیدان زیاتر نەبوو لە ژمارەیەک پەیوەندیی تەلەفۆنی.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٥. (کردار) لەخۆگرتنی ناوچەیەک، مەودایەک، یان کاتێکی دیاریکراو"""),
           const DividerSentences(),
           SentencesRow(
-            englishText:
-                """She expresses herself most fully in her paintings.""",
-            kurdishText: """بە تەواوی لە تابلۆکانی خۆی دەردەبڕێت.""",
+            englishText: """Our land extends as far as the river.""",
+            kurdishText: """خاکەکەمان تاوەکو ڕووبارەکە درێژدەبێتەوە.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They expressed themselves delighted.""",
-            kurdishText: """بە دڵخۆش خۆیان پیشان دا.""",
+            englishText:
+                """His writing career extended over a period of 40 years.""",
+            kurdishText: """کاری نووسینی بۆ ٤٠ ساڵ بەردەوام بوو.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She doesn't express herself well in writing.""",
-            kurdishText: """بە باشی خۆی بە نووسین دەرنابڕێت.""",
+            englishText: """The wood does not extend very far.""",
+            kurdishText: """دارەکە زۆر ناکشێت.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٣. (کردار) ئاشلرابوون بە ڕێگایەکی دیاریکراو"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Their pleasure expressed itself in a burst of applause.""",
-            kurdishText: """دڵخۆشیان دەرکەوت بە چەپڵەڕێزانێکی لەناکاو.""",
+                """The country's power extends far beyond its military capabilities.""",
+            kurdishText:
+                """هێزی وڵاتەکە زۆر زیاتر لە توانا سەربازییەکانی دەبێت.""",
             onPressedBritish: () => speaksentence16("en-GB"),
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٤. (کردار) دەربڕینی شتێک بە شێوەیەکی دیاریکراو"""),
+              text:
+                  """٦. (کردار) واکردنی ئەوەی شتیک بگات بە شتێک یان بکشێت پێی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """The figures are expressed as percentages.""",
-            kurdishText: """ئامارەکان بە ڕێژەی سەدی دەردەبڕدرێن.""",
+            englishText: """Try to extend the rope between two posts.""",
+            kurdishText: """هەوڵ بدە حەبلەکە بکشێنە لە نێوان دوو ستوونەکەدا.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٧. (کردار) ڕاکێشانی بەشێکی جەستە، بەتایبەتی لاق یان باڵ، دوور لە جەستە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """Educational expenditure is often expressed in terms of the amount spent per student.""",
-            kurdishText:
-                """خەرجی پەروەردە زۆرجار دەردەبڕدرێت بەو بڕەی کە بۆ هەر قوتابییەک خەرج کراوە.""",
+                """He extended his hand to (= offered to shake hands with) the new employee.""",
+            kurdishText: """دەستی درێژ کرد بۆ کارمەندە تازەکە.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٥. (کردار) دەرکردنی هەوا یان شلە بە دانانی پەستان"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """Coconut milk is expressed from grated coconuts.""",
-            kurdishText: """شیری گوێزهێند لە گوێزهێندی هاڕاوە بەدەست دێت.""",
-            onPressedBritish: () => speaksentence19("en-GB"),
-            onPressedAmerican: () => speaksentence19("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٦. (کردار) ناردنی شتێک بە پۆستەی خێرا"""),
+          const DefinitionKurdish(text: """٩. (کردار) پێدانی شتێک بە کەسێک"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
-                """As soon as I receive payment I will express the book to you.""",
+                """I'm sure you will join me in extending a very warm welcome to our visitors.""",
             kurdishText:
-                """هەرکە پارەکەم بەدەست بگات کتێبەکەت بەخێرایی بۆ دەنێرم.""",
+                """دڵنیام لەگەڵم دەبن لە پێدانی خێراتنێکی گەرم بە سەردانکەرانمان.""",
+            onPressedBritish: () => speaksentence19("en-GB"),
+            onPressedAmerican: () => speaksentence19("en-US"),
+          ),
+          const DividerSentences(),
+          SentencesRow(
+            englishText:
+                """The bank refused to extend credit to them (= to lend them money).""",
+            kurdishText: """بانکەکە ڕەتیکردەوە قەرزیان پێ بدات.""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """٧. (هاوەڵناو) کە خێرا دەجوڵێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She took the overnight express train to Luxor.""",
-            kurdishText: """شەمەندەفەرە خێرا شەوانەکەی گرت بۆ لوکسۆر.""",
+            englishText:
+                """They extended the invitation to all members of staff.""",
+            kurdishText: """خێراتنی هەموو ئەندامانی ستافەکەیان کرد.""",
             onPressedBritish: () => speaksentence21("en-GB"),
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
-            englishText: """Please send this letter by express delivery.""",
-            kurdishText: """تکایە ئەم نامەیە بە گەیاندنی خێرا بنێرە.""",
+            englishText:
+                """We extend our sympathy to the families of the victims.""",
+            kurdishText:
+                """هاوخەمیمان پێشکەش بە خێزانەکانی قوربانیان دەکەین .""",
             onPressedBritish: () => speaksentence22("en-GB"),
             onPressedAmerican: () => speaksentence22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٨. (هاوەڵناو) کە بە گەیاندنی خێرا دەنێردرێت"""),
+              text:
+                  """٩. (کردار) واکردنی ئەوەی کەسێک/شتێک تەواوی توانای، هەوڵی، هتد بەکاربهێنێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She received her documents via express mail.""",
-            kurdishText: """بە پۆستەی خێرا بەڵگەنامەکانی پێگەشت.""",
+            englishText:
+                """Jim didn't really have to extend himself in the exam.""",
+            kurdishText:
+                """ڕاستی جیم پێویست نەبوو خۆی لە تاقیکردنەوەکە ماندوو بکات.""",
             onPressedBritish: () => speaksentence23("en-GB"),
             onPressedAmerican: () => speaksentence23("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٩. (هاوەڵناو) کە بە ڕوونی و ئاشکرایی گوتراوە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                """It was his express wish that you should have his gold watch after he died.""",
-            kurdishText:
-                """ئەوە ویستی ئاشکرای بوو کە دەبێت کاتژمێرە ئاڵتوونییەکەی ببەیت لە دوای ئەوەی دەمرێت.""",
-            onPressedBritish: () => speaksentence24("en-GB"),
-            onPressedAmerican: () => speaksentence24("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                """I came here with the express purpose of speaking with the manager.""",
-            kurdishText:
-                """هاتمە ئێرە بە مەبەستی ڕوونی قسەکردن لەگەڵ بەڕێوەبەر.""",
-            onPressedBritish: () => speaksentence25("en-GB"),
-            onPressedAmerican: () => speaksentence25("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """١٠. (هاوەڵکار) بەکارهێنانی خزمەتگوزارییەکی خێرا"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """I'd like to send this express, please.""",
-            kurdishText: """تکایە دەمەوێت ئەمە بەخێرایی بنێرم.""",
-            onPressedBritish: () => speaksentence26("en-GB"),
-            onPressedAmerican: () => speaksentence26("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """١١. (ناو) شەمەندەفەرێکی خێرا کە لە زۆر شوێن ناوەستێت"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                """The quickest way to get here is to take the express.""",
-            kurdishText:
-                """خێراترین ڕێگا بۆ گەشتنە ئێرە ئەوەیە کە شەمەندەفەرە خێراکە بگریت.""",
-            onPressedBritish: () => speaksentence27("en-GB"),
-            onPressedAmerican: () => speaksentence27("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """١٢. (ناو) خزمەتگوزارییەک کە شت بەخێرایی دەکات"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """This message needs to be sent by express.""",
-            kurdishText: """ئەم پەیامە دەبێت بە خزمەتگوزاری خێرا بگەیەندرێت.""",
-            onPressedBritish: () => speaksentence28("en-GB"),
-            onPressedAmerican: () => speaksentence28("en-US"),
           ),
         ],
       ),
@@ -765,46 +686,57 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: express (Derived forms: expresses, expressed, expressing)
-1. Articulate; either verbally or with a cry, shout, or noise (= verbalize, verbalise [Brit], utter, give tongue to)
-"She expressed her anger";
+- Verb: extend (Derived forms: extended, extends, extending)
+1. Increase in scope, range or area (= widen, broaden)
+"The law was extended to all citizens"; "Extend your backyard";
  
-2. Make evident or clear (= show, evince [formal])
-"She expressed her disappointment";
+2. Stretch out over a distance, space, time, or scope; run or extend between two points or beyond a certain point (= run, go, pass, lead)
+"My memory extends back to my fourth year of life"; "The facts extend beyond a consideration of her personal assets";
  
-3. Serve as a means for expressing something (= carry, convey)
-"The painting of Mary expresses motherly love";
+3. Span an interval of distance, space or time (= cover, continue)
+"The war extended over five years"; "My land extends over the hills on the horizon";
  
-4. Indicate through a symbol, formula, etc. (= state)
-"Can you express this distance in kilometres?";
+4. Make available; provide (= offer)
+"extend a loan";
  
-5. Manifest the effects of (a gene or genetic trait)
-"Many of the laboratory animals express the trait"
+5. Thrust or extend out (= exsert, stretch out, put out, hold out, stretch forth)
+"extend a hand";
  
-6. Obtain from a substance, as by mechanical action (= press out, extract)
-"Italians express coffee rather than filter it";
+6. Reach outward in space (= poke out, reach out)
+"The awning extends several feet over the pavement";
  
-7. Send by rapid transport or special messenger service
-"She expressed the letter to Florida"
-
-- Noun: express (Derived forms: expresses)
-1. Mail that is distributed by a rapid and efficient system (= express mail)
+7. Offer verbally (= offer)
+"extend my greetings";
  
-2. Public transport consisting of a fast train or bus that makes only a few scheduled stops (= limited)
-"he caught the express to New York";
+8. Extend one's limbs or muscles, or the entire body (= stretch)
+"Extend your right arm above your head";
  
-3. Rapid transport of goods (= expressage [US])
-
-- Adjective: express
-1. Not tacit or implied
-"her express wish"
+9. Extend the influence of (= expand)
+"The King extended his rule to the Eastern part of the continent";
  
-2. Without unnecessary stops
-"an express train"; "an express shipment"
-
-- Adverb: express
-1. By express
-"please send the letter express"
+10. Lengthen in time; cause to be or last longer (= prolong, protract, draw out)
+"She extended her visit by another day";
+ 
+11. Make longer or of full length; remove folds by pulling (= unfold, stretch, stretch out)
+"extend the TV antenna";
+ 
+12. (riding) cause to move at full gallop (= gallop)
+"Did you extend the horse just now?";
+ 
+13. Open or straighten out; unbend
+"Can we extend the legs of this dining table?"
+ 
+14. Use to the utmost; exert vigorously or to full capacity (= strain)
+"He really extended himself when he climbed Kilimanjaro";
+ 
+15. Prolong the time allowed for payment of
+"extend the loan"
+ 
+16. Continue in location (= carry)
+"The disease extended into the remote mountain provinces";
+ 
+17. Increase in quantity or bulk by adding a cheaper substance (= stretch)
+"extend the casserole with a little rice";
 """,
   );
 
@@ -829,18 +761,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '0zwNZJbM-Gw';
-const double _startSecondsend = 280;
-const String _videoIdone = 'sV6uuMAnJUE';
-const double _startSecondsone = 1168;
-const String _videoIdtwo = '-vQgwUtcnaE';
-const double _startSecondstwo = 58;
-const String _videoIdthree = 'xVYmcVgfDNA';
-const double _startSecondsthree = 16;
-const String _videoIdfour = '2bplCvAM2Kg';
-const double _startSecondsfour = 131;
-const String _videoIdfive = 'PLvZWPbszys';
-const double _startSecondsfive = 244;
+const String _videoIdend = 'hFZFjoX2cGg';
+const double _startSecondsend = 720;
+const String _videoIdone = 'bHIhgxav9LY';
+const double _startSecondsone = 371;
+const String _videoIdtwo = 'xXvgT-AgLAo';
+const double _startSecondstwo = 452;
+const String _videoIdthree = 'xVQxvthAcLU';
+const double _startSecondsthree = 258;
+const String _videoIdfour = 'X3TAROotFfM';
+const double _startSecondsfour = 536;
+const String _videoIdfive = 'Gv4Af83KFrE';
+const double _startSecondsfive = 1213;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -386,66 +386,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoomeds2("en-GB"),
             onPressedAmerican: () => speakdoomeds2("en-US"),
           ),
-          // doomeds300"),
-          // speakdoomeds3
-          // doomeds3("en-US"),
-          // doomeds400"),
-          // speakdoomeds4
-          // doomeds4("en-US"),
-          // doomeds500"),
-          // speakdoomeds5
-          // doomeds5("en-US"),
-          // doomeds600"),
-          // speakdoomeds6
-          // doomeds6("en-US"),
-          // doomeds700"),
-          // speakdoomeds7
-          // doomeds7("en-US"),
-          // doomeds800"),
-          // speakdoomeds8
-          // doomeds8("en-US"),
-          // doomeds900"),
-          // speakdoomeds9
-          // doomeds9("en-US"),
-          // doomeds_1000"),
-          // speakdoomeds10
-          // doomeds10("en-US"),
-          // doomeds1100"),
-          // speakdoomeds11
-          // doomeds11("en-US"),
-          // doomeds1200"),
-          // speakdoomeds12
-          // doomeds12("en-US"),
-          // doomeds1300"),
-          // speakdoomeds13
-          // doomeds13("en-US"),
-          // doomeds1400"),
-          // speakdoomeds14
-          // doomeds14("en-US"),
-          // doomeds1500"),
-          // speakdoomeds15
-          // doomeds15("en-US"),
-          // doomeds1600"),
-          // speakdoomeds16
-          // doomeds16("en-US"),
-          // doomeds1700"),
-          // speakdoomeds17
-          // doomeds17("en-US"),
-          // doomeds1800"),
-          // speakdoomeds18
-          // doomeds18("en-US"),
-          // doomeds1900"),
-          // speakdoomeds19
-          // doomeds19("en-US"),
-          // doomeds_2000"),
-          // speakdoomeds20
-          // doomeds20("en-US"),
-          // doomeds2100"),
-          // speakdoomeds21
-          // doomeds21("en-US"),
-          // doomeds2200"),
-          // speakdoomeds22
-          // doomeds22("en-US"),
         ],
       ),
     );

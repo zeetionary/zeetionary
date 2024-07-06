@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryexplosion extends StatefulWidget {
-  const EnglishEntryexplosion({super.key});
+class EnglishEntryexpropriate extends StatefulWidget {
+  const EnglishEntryexpropriate({super.key});
 
   @override
-  State<EnglishEntryexplosion> createState() => _EnglishEntryexplosionState();
+  State<EnglishEntryexpropriate> createState() =>
+      _EnglishEntryexpropriateState();
 }
 
-class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
+class _EnglishEntryexpropriateState extends State<EnglishEntryexpropriate> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""explosion""");
+    await flutterTts.speak("""expropriate""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryexplosionState extends State<EnglishEntryexplosion> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """explosion""",
-                      // alsoEnglishWord: "also: explosion",
-                      britshText: """IpaUK: /ɪkˈspləʊʒn/""",
-                      americanText: """IpaUS: /ɪkˈspləʊʒn/""",
+                      word: """expropriate""",
+                      // alsoEnglishWord: "also: expropriate",
+                      britshText: """IpaUK: /eksˈprəʊprieɪt/""",
+                      americanText: """IpaUS: /eksˈprəʊprieɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "explosion";
+  final String keyword = "expropriate";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,54 +239,10 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """There were two loud explosions and then the building burst into flames.""");
+        """He was discovered to have been expropriating company funds.""");
   }
 
-  Future<void> speaksentence2(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The accused denies conspiring to cause an explosion.""");
-  }
-
-  Future<void> speaksentence3(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""300 people were injured in the explosion.""");
-  }
-
-  Future<void> speaksentence4(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A huge explosion rocked the entire building.""");
-  }
-
-  Future<void> speaksentence5(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The build-up of gas caused a small explosion.""");
-  }
-
-  Future<void> speaksentence6(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """In the 1860s an explosion of major scientific publications took place.""");
-  }
-
-  Future<void> speaksentence7(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Do you know what brought on that explosion?""");
-  }
-
-// With short examples define "explosion", please follow LX instructions
+// With short examples define "expropriate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -294,71 +251,17 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تەقینەوە، پەقین، تەق، تەقە، دەنگی تەقینەوە،	هەڵچوون، فیشقەکردن، تووڕەبوون، ڕق‌هەستان،	کڵپەکردن، ئاورگرتن، گرتن،	شریخە (پێکەنین)،	زۆربوونی کت‌وپڕ و گەورە، تۆقینەوە، زۆربوونی سەرسووڕهێنەر، پەرەسەندن یان دەرکەوتنی ناکاو
+کوردی: داگیرکردن، ڕاگرتن، بێ ساحیبکردن
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) تەقین یان دەنگی بەرزی شتێک، وەک تەقینەوەی بۆمبێک؛ تەقاندنەوەی شتێک"""),
+                  """١. (کردار) بە فەرمی سەندنی سامانی تایبەت لە خەڵکی لە لایەن حکومەتەوە و بردنی بۆ بەکارهێنانی گشتی؛ بەکارهێنانی سامانی کەسێک بەبێ پرسکردن"""),
           SentencesRow(
             englishText:
-                """There were two loud explosions and then the building burst into flames.""",
-            kurdishText:
-                """دوو تەقینەوەی گەورە هەبوو و دواتر بیناکە کەوتە ناو بڵێسە.""",
+                """He was discovered to have been expropriating company funds.""",
+            kurdishText: """زانرا کە پارەی کۆمپانیای بەکاردەهێنا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                """The accused denies conspiring to cause an explosion.""",
-            kurdishText:
-                """تاوانبارەکە ڕەتیدەکاتەوە پلانی ئەنجامدانی تەقینەوەیەکی دانابێت.""",
-            onPressedBritish: () => speaksentence2("en-GB"),
-            onPressedAmerican: () => speaksentence2("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """300 people were injured in the explosion.""",
-            kurdishText: """٣٠٠ کەس بریندار بوون لە تەقینەوەکەدا.""",
-            onPressedBritish: () => speaksentence3("en-GB"),
-            onPressedAmerican: () => speaksentence3("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """A huge explosion rocked the entire building.""",
-            kurdishText: """تەقینەوەیەکی گەورە بیناکەی هەژاند.""",
-            onPressedBritish: () => speaksentence4("en-GB"),
-            onPressedAmerican: () => speaksentence4("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """The build-up of gas caused a small explosion.""",
-            kurdishText: """پەنگخواردنەوەی گاز بوو بەهۆی تەقینەوەیەکی بچووک.""",
-            onPressedBritish: () => speaksentence5("en-GB"),
-            onPressedAmerican: () => speaksentence5("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: """٢. (ناو) زۆربوونی لەناکاو لە بڕ یان ژمارەی شتێک"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                """In the 1860s an explosion of major scientific publications took place.""",
-            kurdishText:
-                """ساڵانی ١٨٦٠ ـەکان تەنینەوەیەکی بڵاوکراوەی زانستیی گرنگ ڕوویدا.""",
-            onPressedBritish: () => speaksentence6("en-GB"),
-            onPressedAmerican: () => speaksentence6("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text:
-                  """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز، بەتایبەتی تووڕەیی"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """Do you know what brought on that explosion?""",
-            kurdishText: """دەزانیت چی بوو بە هۆکاری ئەو تووڕەبوونە؟""",
-            onPressedBritish: () => speaksentence7("en-GB"),
-            onPressedAmerican: () => speaksentence7("en-US"),
           ),
         ],
       ),
@@ -401,24 +304,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: explosion (Derived forms: explosions)
-1. A violent release of energy caused by a chemical or nuclear reaction (= detonation, blowup, blow-up)
- 
-2. The act of exploding or bursting (= burst)
-"the explosion of the firecrackers awoke the children";
- 
-3. A sudden great increase
-"the population explosion"; "the information explosion"
- 
-4. The noise caused by an explosion
-"the explosion was heard a mile away"
- 
-5. The terminal forced release of pressure built up during the occlusive phase of a stop consonant (= plosion)
- 
-6. A sudden outburst
-"an explosion of laughter"; "an explosion of rage"
- 
-7. A golf shot from a bunker that typically moves sand as well as the golf ball
+- Verb: expropriate (Derived forms: expropriated, expropriates, expropriating)
+1. Deprive of possessions
+"The Communist government expropriated the landowners"
 """,
   );
 
@@ -443,18 +331,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'e09xig209cQ';
-const double _startSecondsend = 46;
-const String _videoIdone = 'AF8d72mA41M';
-const double _startSecondsone = 150;
-const String _videoIdtwo = 'QiKZYt9070U';
-const double _startSecondstwo = 442;
-const String _videoIdthree = 'XI9kKiyIMf0';
-const double _startSecondsthree = 208;
-const String _videoIdfour = 'ReLgZFNYQ5k';
-const double _startSecondsfour = 21;
-const String _videoIdfive = 'uXG31J68dcY';
-const double _startSecondsfive = 30;
+const String _videoIdend = 'sUoO_U_GWFo';
+const double _startSecondsend = 282;
+const String _videoIdone = 'pafA-RU3q7U';
+const double _startSecondsone = 413;
+const String _videoIdtwo = 'R7hK5_Rj--8';
+const double _startSecondstwo = 3294;
+const String _videoIdthree = 'IIUyyUglYiA';
+const double _startSecondsthree = 600;
+const String _videoIdfour = 'CUfRwYcaL-k';
+const double _startSecondsfour = 722;
+const String _videoIdfive = '_cndkF7bX3M';
+const double _startSecondsfive = 1326;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

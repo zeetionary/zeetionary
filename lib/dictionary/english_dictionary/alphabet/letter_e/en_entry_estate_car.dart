@@ -242,15 +242,15 @@ class KurdishMeaning extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
+    return const SingleChildScrollView(
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
+          DividerDefinition(),
+          KurdishVocabulary(text: """
 کوردی: 
 """),
-          const DefinitionKurdish(
+          DefinitionKurdish(
               text:
                   """١. (ناو) ئۆتۆمبێلێک کە لە دوای کوشنەکانییەوە جێگای فراوانی ھەیە و لە پشتەوە دەرگایەکی ھەیە"""),
           // SentencesRow(

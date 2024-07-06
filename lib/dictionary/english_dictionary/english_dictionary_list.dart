@@ -6197,17 +6197,92 @@ final List<String> allWordsEnglish = [
   "explore", // explore
   "exploration", // exploration
   "exploratory", // exploratory
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",  
+  "explorer", // explorer
+  "explosion", // explosion
+  "explosive", // explosive
+  "explosively", // explosively
+  "exponent", // exponent
+  "export", // export
+  "exporter", // exporter
+  "expose", // expose
+  "exposure", // exposure
+  "expound", // expound
+  "express", // express
+  "expressly", // expressly
+  "expression", // expression
+  "expressionless", // expressionless
+  "expressive", // expressive
+  "expressively", // expressively
+  "expressiveness", // expressiveness
   "expressway",
+  "expropriate", // expropriate
+  "expulsion", // expulsion
+  "exquisite", // exquisite
+  "exquisitely", // exquisitely
+  "extend", // extend
+  "extension", // extension
+  "extensive", // extensive
+  "extent", // extent
+  "extenuating", // extenuating
+  "exterior", // exterior
+  "exterminate", // exterminate
+  "extermination", // extermination
+  "external", // external
+  "externally", // externally
+  "extinct", // extinct
+  "extinction", // extinction
+  "extinguish", // extinguish
+  "extinguisher", // extinguisher
+  "extol", // extol
+  "extort", // extort
+  "extortion", // extortion
+  "extortionate", // extortionate
+  "extra", // extra
+  "extract", // extract
+  "extraction", // extraction
+  "extracurricular", // extracurricular
+  "extradite", // extradite
+  "extradition", // extradition
+  "extramarital", // extramarital
+  "extraneous", // extraneous
+  "extraordinarily", // extraordinarily
+  "extraordinary", // extraordinary
+  "extrapolate", // extrapolate
+  "extrapolation", // extrapolation
+  "extraterrestrial", // extraterrestrial
+  "extravagance", // extravagance
+  "extravagant", // extravagant
+  "extravagantly", // extravagantly
+  "extravaganza", // extravaganza
+  "extreme", // extreme
+  "extremely", // extremely
+  "extreme sport", // extremesport", ////// فففف extreme sport
+  "extremist", // extremist
+  "extremity", // extremity
+  "extricate", // extricate
+  "extrovert", // extrovert
+  "exuberant", // exuberant
+  "exuberance", // exuberance
+  "exuberantly", // exuberantly
+  "exude", // exude
+  "exult", // exult
+  "exultant", // exultant
+  "exultation", // exultation
+  "eye", // eye
+  "eyeball", // eyeball
   "eyebrow",
   "eyelash",
   "eyelid",
+  "eye-opener", // eye-opener", ////// ffff eye-opener
+  "eyesight", // eyesight
+  "eyesore", // eyesore
   "eyewitness",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM_DOPSUM",
@@ -6239,6 +6314,7 @@ final List<String> allWordsEnglish = [
   "manic-depressive",
   "mobile phone",
   "moose",
+  "motorway", // motorway
   "mouth ulcer", // goes to canker
   "net curtain",
   "not come/go amiss",

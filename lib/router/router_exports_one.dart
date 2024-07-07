@@ -2019,10 +2019,10 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // en_entry_factor.dart' show EnglishEntryfactor
 // en_entry_factory.dart' show EnglishEntryfactory
 // en_entry_factual.dart' show EnglishEntryfactual
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_factually.dart' show EnglishEntryfactually
+// en_entry_faculty.dart' show EnglishEntryfaculty
+// en_entry_fade.dart' show EnglishEntryfade
+// en_entry_faeces.dart' show EnglishEntryfaeces
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

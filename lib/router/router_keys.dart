@@ -11241,8 +11241,8 @@ final Map<String, PageBuilder> routes = {
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
-  // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
+  // "/english-facecloth/flannel": (_) => _blP(const EnglishEntryflannel()),
+  // "/english-facsimile/fax": (_) => _blP(const EnglishEntryfax()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // "/english-DOPSUM_DOPSUM": (_) => _blP(const EnglishEntry()),
   // history

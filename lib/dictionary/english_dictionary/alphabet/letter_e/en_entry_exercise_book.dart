@@ -260,6 +260,7 @@ class KurdishMeaning extends StatelessWidget {
           //   onPressedBritish: () => speaksentence1("en-GB"),
           //   onPressedAmerican: () => speaksentence1("en-US"),
           // ),
+          // import 'package:routemaster/routemaster.dart';
           CustomRichText(
             textBeforeLink: "١. بڕوانە لە ",
             linkText: "notebook",

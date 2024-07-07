@@ -10,7 +10,8 @@ class EnglishEntryabandonment extends StatefulWidget {
   const EnglishEntryabandonment({super.key});
 
   @override
-  State<EnglishEntryabandonment> createState() => _EnglishEntryabandonmentState();
+  State<EnglishEntryabandonment> createState() =>
+      _EnglishEntryabandonmentState();
 }
 
 class _EnglishEntryabandonmentState extends State<EnglishEntryabandonment> {
@@ -234,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaba12(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandonment
+    // speakAbandonment
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -429,4 +430,3 @@ class YoutubeEmbeddedend extends StatelessWidget {
     );
   }
 }
-

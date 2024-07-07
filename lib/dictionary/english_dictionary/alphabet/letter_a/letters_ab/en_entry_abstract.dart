@@ -12,7 +12,7 @@ class EnglishEntryabstract extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabstract(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+    // speakAbstract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +20,7 @@ class EnglishEntryabstract extends StatelessWidget {
   }
 
   Future<void> speaka65897(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+    // speakAbstract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +29,7 @@ class EnglishEntryabstract extends StatelessWidget {
   }
 
   Future<void> speaka259874(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+    // speakAbstract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +38,7 @@ class EnglishEntryabstract extends StatelessWidget {
   }
 
   Future<void> speaka78946(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+    // speakAbstract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +47,7 @@ class EnglishEntryabstract extends StatelessWidget {
   }
 
   Future<void> speaka29867(String languageCode) async {
-    // DOPSUM: CHANGE speakAbstract
+    // speakAbstract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,8 +75,7 @@ class EnglishEntryabstract extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "abstract"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "abstract"), // WORD ENTRY
                           ],
                         ),
                         Row(

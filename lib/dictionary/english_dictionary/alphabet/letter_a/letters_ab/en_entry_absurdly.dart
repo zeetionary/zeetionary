@@ -12,7 +12,7 @@ class EnglishEntryabsurdly extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabsurdly(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsurdly
+    // speakAbsurdly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +20,7 @@ class EnglishEntryabsurdly extends StatelessWidget {
   }
 
   Future<void> speaka41758(String languageCode) async {
-    // DOPSUM: CHANGE speakAbsurdly
+    // speakAbsurdly
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,8 +47,7 @@ class EnglishEntryabsurdly extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "absurdly"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "absurdly"), // WORD ENTRY
                           ],
                         ),
                         Row(

@@ -226,8 +226,6 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
   }
 }
 
-
-
 class KurdishMeaning extends StatelessWidget {
   KurdishMeaning({
     super.key,
@@ -236,7 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabandoned1577(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandoned
+    // speakAbandoned
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -244,7 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabandoned47(String languageCode) async {
-    // DOPSUM: CHANGE speakAbandoned
+    // speakAbandoned
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

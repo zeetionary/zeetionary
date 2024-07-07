@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە بە بەهێزی هەستی پێ دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The pain was quite exquisite.""",
             kurdishText: """ئازارەکە تەواو توند بوو.""",
@@ -286,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) زۆر هەستیار و هەست‌بزوێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The room was decorated in exquisite taste.""",
             kurdishText: """ژوورەکە بە شێوەیەکی زۆر ناسک ڕازێندرابوویەوە.""",

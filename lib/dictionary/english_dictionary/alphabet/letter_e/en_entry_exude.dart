@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) هاتنە دەرەوەی شلە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The plant exudes a sticky fluid.""",
             kurdishText: """ڕووەکەکە شلەیەکی جیڕ دەردەدات.""",

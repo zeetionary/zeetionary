@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ژمارەی ئەو کەسانەی دەردانی وێبسایتێک دەکەن، سەیری پڕۆگرامێکی تەلەفیزیۆن دەکەن، گۆڤارێک دەخوێننەوە، هتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It's a sad fact that bad news grabs more eyeballs than good news.""",
@@ -291,7 +290,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) سەیرکردنی کەسێک بە ڕاستەوخۆیی بەشێوەیەک کە جوان یان هاوڕێیانە نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They eyeballed each other across the room.""",
             kurdishText: """بە ژوورەکەدا لە یەکیان دەڕوانی.""",

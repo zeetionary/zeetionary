@@ -283,7 +283,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) بەهێز و تەندرووست"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She admired the exuberant growth of summer flowers.""",

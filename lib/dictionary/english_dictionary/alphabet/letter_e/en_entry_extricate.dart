@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) دەرکردنی خۆت/کەسێک/شتێک لە شوێنێک کە گیری کردە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It took hours to extricate the car from the sand.""",

@@ -287,7 +287,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە ئەگەری هەیە ببێتە هۆکاری توندوتیژی و تووڕەیی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The political situation is potentially explosive.""",
@@ -298,7 +297,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) هەبوونی هەستی لەناکاو و توند"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She has an explosive temper.""",
             kurdishText: """باری دەروونی تووڕەی هەیە.""",
@@ -308,7 +306,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) کە لەناکاو و بەخێرایی زیاد دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There was an explosive growth of the export market.""",

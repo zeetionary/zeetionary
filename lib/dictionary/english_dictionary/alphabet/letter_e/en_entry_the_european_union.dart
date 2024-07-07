@@ -251,9 +251,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) دامەزراوەیەکی سیاسی و ئابووری کە زۆر وڵاتی ئەورووپی ئەندامین و بارەگاکەی لە برۆکسلە"""),

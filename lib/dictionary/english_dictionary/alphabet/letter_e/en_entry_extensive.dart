@@ -312,7 +312,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە ژمارەیەک زانیاریی زۆر لەخۆدەگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """His knowledge of music is extensive.""",
             kurdishText: """زانیاریی لە میوزیکدا گشتگیرە.""",

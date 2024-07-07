@@ -277,7 +277,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێوەیەک کە پارەی زۆری دەوێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """It is an extravagantly priced car.""",
             kurdishText: """ئۆتۆمبێلێکی نرخ بەرزە.""",
@@ -287,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵکار) بەشێوەیەک کە زۆرە بەڵام پێویست نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She praised him extravagantly.""",
             kurdishText: """ئێجگار زۆر پەسنی دا.""",

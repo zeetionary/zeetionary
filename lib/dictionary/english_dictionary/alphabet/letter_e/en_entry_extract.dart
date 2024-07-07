@@ -334,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) مادەیەک کە لە شتێکی دیکە بە پڕۆسەی تایبەت وەرگیراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Extract of olives is used for cooking.""",
             kurdishText: """زەیتی زەیتوون بۆ خواردن لێنان بەکاردێت.""",
@@ -344,7 +343,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) دەرکردنی شتێک لە شتێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Animals take in food and extract nutrients from it.""",
@@ -357,7 +355,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) بەدەستهێنانی زانیاری، پارە، هتد، زۆرجار بە وەرگرتنی لە کەسێک کە ئامادە نییە بیدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Journalists managed to extract all kinds of information about her private life.""",
@@ -370,7 +367,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) هەڵبژاردنی زانیاری، هتد لە کتێب، کۆمپیوتەر، هتد بۆ ئەوەی بۆ مەبەستێکی دیاریکراو بەکاربێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """This article is extracted from his new book.""",
             kurdishText: """ئەم وتارە لە کتێبە تازەکەی دەرکراوە.""",
@@ -381,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) دەرکردن یان ڕاکێشانی شتێک بۆ دەرەوە، بەتایبەتی کە پێویستی بە هێزە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The tooth was eventually extracted.""",
             kurdishText: """ددانەکە لەکۆتاییدا هەڵکێشرا.""",

@@ -267,9 +267,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵکار) بەشێوەیەک کە تەقەینەوەی لەگەڵە"""),
           SentencesRow(
@@ -284,7 +284,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە زۆربوونی لەناکاو لەخۆدەگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The company has grown explosively over the last two years.""",
@@ -297,7 +296,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) بەشێوەیەک کە هەست و تووڕەیی لەناکاو لەخۆدەگرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He has an explosively combative temperament.""",
             kurdishText: """مەزاجێکی زوو هەڵچووی کەللەڕەقانەی هەیە.""",

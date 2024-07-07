@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کراوە و ڕووخۆش و هەبوونی حەز بۆ بوون لەگەڵ خەڵکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He’s pretty extrovert when he’s on stage.""",
             kurdishText: """تەواو کراوەیە کە لەسەر ستەیجە.""",

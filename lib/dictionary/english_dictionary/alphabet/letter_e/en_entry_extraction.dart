@@ -296,7 +296,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) هەبوونی خێزانێکی دیاریکراو وەک بنەچە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He proudly mentions he is of Irish extraction.""",
             kurdishText:
@@ -306,7 +305,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) هەڵکێشانی ددان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She had two extractions.""",
             kurdishText: """دوو (ددان) هەڵکێشانی هەبوو.""",

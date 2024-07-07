@@ -361,7 +361,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو شتانەی کە خەڵکی دەیڵێن، پیشانی دەدەن، یان دەینووسن بۆ دەربڕینی هەستەکانیان، بۆچوونیان، هتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Freedom of expression (= freedom to say what you think) is a basic human right.""",
@@ -398,7 +397,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) دەربڕینی سەر ڕووخساری کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The actors' gestures and facial expressions are perfect.""",

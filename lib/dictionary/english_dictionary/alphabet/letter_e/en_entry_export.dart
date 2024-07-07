@@ -359,7 +359,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە بۆ وڵاتێکی دیکە دەنێردرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Oil exports have risen steadily.""",
             kurdishText: """هەناردەی نەوت بە هێواشی بەرزبووەتەوە.""",
@@ -401,7 +400,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) هەناردەکردن بۆ وڵاتێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The islands export sugar and fruit.""",
             kurdishText: """دوورگەکان شەکر و میوە هەناردە دەکەن.""",
@@ -444,7 +442,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) ناساندنی بیرۆکەیەک یان چالاکییەک بە وڵاتێکی دیکە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """American pop music has been exported around the world.""",

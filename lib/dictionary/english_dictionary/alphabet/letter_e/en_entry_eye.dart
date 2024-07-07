@@ -454,8 +454,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence2("en-GB"),
                     onPressedAmerican: () => speaksentence2("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """There were tears in his eyes.""",
@@ -463,8 +461,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """I have something in my eye.""",
@@ -472,8 +468,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence4("en-GB"),
                     onPressedAmerican: () => speaksentence4("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """His eyes filled with tears.""",
@@ -481,8 +475,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence5("en-GB"),
                     onPressedAmerican: () => speaksentence5("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -492,8 +484,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence6("en-GB"),
                     onPressedAmerican: () => speaksentence6("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """Her eyes widened in disbelief.""",
@@ -501,8 +491,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence7("en-GB"),
                     onPressedAmerican: () => speaksentence7("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """His eyes narrowed suspiciously.""",
@@ -510,8 +498,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence8("en-GB"),
                     onPressedAmerican: () => speaksentence8("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -521,8 +507,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence9("en-GB"),
                     onPressedAmerican: () => speaksentence9("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -532,8 +516,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence10("en-GB"),
                     onPressedAmerican: () => speaksentence10("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -543,8 +525,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence11("en-GB"),
                     onPressedAmerican: () => speaksentence11("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -553,8 +533,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence12("en-GB"),
                     onPressedAmerican: () => speaksentence12("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -564,8 +542,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence13("en-GB"),
                     onPressedAmerican: () => speaksentence13("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """Her eyes flew open in surprise.""",
@@ -580,7 +556,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) هەبوونی ئەو جۆرە یان ڕێژە چاوەی کە باسکراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He married a blue-eyed blonde from Sweden.""",
             kurdishText: """قژ زەردێکی چاو شینی سویدی مارەکرد.""",
@@ -597,7 +572,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) هەبوونی توانای بینین"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """A surgeon needs a good eye and a steady hand.""",
             kurdishText:
@@ -617,7 +591,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) شێوەیەکی دیاریکراوی کردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He looked at the design with the eye of an engineer.""",
@@ -650,7 +623,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ناو) کونی دەرزی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The eye of the needle was too small for the thick thread.""",
@@ -663,7 +635,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) سەیرکردنی شتێک/کەسێک بە وریایی، بەتایبەتی کە هەست دەکەیت شتێک گوماناوییە یان شتێکت دەوێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """He couldn't help eyeing the cakes hungrily.""",
             kurdishText: """نەیدەتوانی چاو لە کێکەکان نەکات بە برسێتییەوە.""",
@@ -779,7 +750,7 @@ const double _startSecondsthree = 175;
 const String _videoIdfour = '2TUGZ1VQDss';
 const double _startSecondsfour = 259;
 const String _videoIdfive = '8wewPn7TZfs';
-const double _startSecondsfive = 10;
+const double _startSecondsfive = 0;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

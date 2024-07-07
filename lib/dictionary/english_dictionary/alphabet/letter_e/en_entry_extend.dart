@@ -420,9 +420,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text: """١. (کردار) درێژکردن یان گەورەکردنی شتێک"""),
           SentencesRow(
@@ -453,7 +453,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) وابکەیت شتێک زیاتر بخایەنێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Careful maintenance can extend the life of your car.""",
@@ -492,7 +491,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) واکردنی ئەوەی کە بازرگانییەک، بیرۆکەیەک، کاریگەرییەک، هتد زیاتر بێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The school is extending the range of subjects taught.""",
@@ -521,7 +519,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) لەخۆگرتنی کەسێک/شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The offer does not extend to employees' partners.""",
@@ -542,7 +539,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) لەخۆگرتنی ناوچەیەک، مەودایەک، یان کاتێکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Our land extends as far as the river.""",
             kurdishText: """خاکەکەمان تاوەکو ڕووبارەکە درێژدەبێتەوە.""",
@@ -577,7 +573,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) واکردنی ئەوەی شتیک بگات بە شتێک یان بکشێت پێی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Try to extend the rope between two posts.""",
             kurdishText: """هەوڵ بدە حەبلەکە بکشێنە لە نێوان دوو ستوونەکەدا.""",
@@ -588,7 +583,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (کردار) ڕاکێشانی بەشێکی جەستە، بەتایبەتی لاق یان باڵ، دوور لە جەستە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He extended his hand to (= offered to shake hands with) the new employee.""",
@@ -598,7 +592,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٩. (کردار) پێدانی شتێک بە کەسێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """I'm sure you will join me in extending a very warm welcome to our visitors.""",
@@ -636,7 +629,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٩. (کردار) واکردنی ئەوەی کەسێک/شتێک تەواوی توانای، هەوڵی، هتد بەکاربهێنێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Jim didn't really have to extend himself in the exam.""",

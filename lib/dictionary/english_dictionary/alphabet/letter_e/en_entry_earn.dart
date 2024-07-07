@@ -349,14 +349,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("He earns about £40 000 a year.");
   }
 
-  Future<void> speakearns2(String languageCode) async {
-    // DOPSUM: CHANGE speakearn
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakearns200");
-  }
-
   Future<void> speakearns3(String languageCode) async {
     // DOPSUM: CHANGE speakearn
     await flutterTts.setLanguage(languageCode);
@@ -451,15 +443,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearns1("en-GB"),
             onPressedAmerican: () => speakearns1("en-US"),
           ),
-          // earns200earns2("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakearns2("en-US" ""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
           const DividerSentences(),
           SentencesRow(
             englishText: """She must earn a fortune (= earn a lot of money).""",
@@ -538,83 +521,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearns11("en-GB"),
             onPressedAmerican: () => speakearns11("en-US"),
           ),
-          // earns1200earns12
-          // speakearns12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns1300earns13
-          // speakearns13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns1400earns14
-          // speakearns14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns1500earns15
-          // speakearns15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns1600earns16
-          // speakearns16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns1700earns17
-          // speakearns17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns1800earns18
-          // speakearns18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns1900earns19
-          // speakearns19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns_2000earns20
-          // speakearns20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns2100earns21
-          // speakearns21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // earns2200earns22
-          // speakearns22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
         ],
       ),
     );

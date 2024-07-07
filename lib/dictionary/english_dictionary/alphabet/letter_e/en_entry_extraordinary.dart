@@ -353,7 +353,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە ئاسایی نییە؛ کە باشترە لە ئاسایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She was a truly extraordinary woman.""",
             kurdishText: """ژنێکی تەواو نائاسایی بوو.""",
@@ -381,7 +380,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) کە بۆ دۆخێکی تایبەت ڕێکخراوە و ڕووذەدات سەرەڕای ئەوەی کە بەشێوەی ئاسایی ڕوودەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """An extraordinary meeting was held to discuss the problem.""",

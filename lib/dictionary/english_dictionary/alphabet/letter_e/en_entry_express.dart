@@ -556,7 +556,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) دەربڕینی هەستەکانی بە ڕێگای دیکە؛ لە ڕێگای شتی دیکەوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Teenagers often have difficulty expressing themselves.""",
@@ -596,7 +595,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) ئاشلرابوون بە ڕێگایەکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Their pleasure expressed itself in a burst of applause.""",
@@ -607,7 +605,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) دەربڕینی شتێک بە شێوەیەکی دیاریکراو"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The figures are expressed as percentages.""",
             kurdishText: """ئامارەکان بە ڕێژەی سەدی دەردەبڕدرێن.""",
@@ -626,7 +623,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) دەرکردنی هەوا یان شلە بە دانانی پەستان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Coconut milk is expressed from grated coconuts.""",
             kurdishText: """شیری گوێزهێند لە گوێزهێندی هاڕاوە بەدەست دێت.""",
@@ -636,7 +632,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) ناردنی شتێک بە پۆستەی خێرا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """As soon as I receive payment I will express the book to you.""",
@@ -647,7 +642,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (هاوەڵناو) کە خێرا دەجوڵێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She took the overnight express train to Luxor.""",
             kurdishText: """شەمەندەفەرە خێرا شەوانەکەی گرت بۆ لوکسۆر.""",
@@ -664,7 +658,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (هاوەڵناو) کە بە گەیاندنی خێرا دەنێردرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """She received her documents via express mail.""",
             kurdishText: """بە پۆستەی خێرا بەڵگەنامەکانی پێگەشت.""",
@@ -674,7 +667,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (هاوەڵناو) کە بە ڕوونی و ئاشکرایی گوتراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """It was his express wish that you should have his gold watch after he died.""",
@@ -695,7 +687,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١٠. (هاوەڵکار) بەکارهێنانی خزمەتگوزارییەکی خێرا"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I'd like to send this express, please.""",
             kurdishText: """تکایە دەمەوێت ئەمە بەخێرایی بنێرم.""",
@@ -705,7 +696,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١١. (ناو) شەمەندەفەرێکی خێرا کە لە زۆر شوێن ناوەستێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The quickest way to get here is to take the express.""",
@@ -717,7 +707,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١٢. (ناو) خزمەتگوزارییەک کە شت بەخێرایی دەکات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """This message needs to be sent by express.""",
             kurdishText: """ئەم پەیامە دەبێت بە خزمەتگوزاری خێرا بگەیەندرێت.""",

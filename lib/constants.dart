@@ -1070,7 +1070,11 @@ class DividerDefinition extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: SizedBox(
-          width: MediaQuery.of(context).size.width / 1, child: const Divider()),
+        width: MediaQuery.of(context).size.width / 1,
+        child: const Divider(
+          thickness: 2,
+        ),
+      ),
     );
   }
 }
@@ -1084,7 +1088,11 @@ class DividerSentences extends StatelessWidget {
   Widget build(BuildContext context) {
     return Center(
       child: SizedBox(
-          width: MediaQuery.of(context).size.width / 3, child: const Divider()),
+        width: MediaQuery.of(context).size.width / 3,
+        child: const Divider(
+          thickness: 1,
+        ),
+      ),
     );
   }
 }
@@ -1876,18 +1884,37 @@ class CustomRichText extends ConsumerWidget {
           alignment: Alignment.topRight,
           child: RichText(
             text: TextSpan(
-              style: TextStyle(
-                fontSize: textSize + 2,
-                fontWeight: FontWeight.w500,
-              ),
+              // style: TextStyle(
+              //   fontSize: textSize + 2,
+              //   color: Theme.of(context).primaryColor,
+              //   fontWeight: FontWeight.w500,
+              // ),
               children: [
-                TextSpan(text: textBeforeLink),
+                TextSpan(
+                  text: textBeforeLink,
+                  style: TextStyle(
+                    fontSize: textSize + 2,
+                    color: Theme.of(context).primaryColor,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
                 TextSpan(
                   text: linkText,
-                  style: const TextStyle(color: Colors.blue),
+                  style: TextStyle(
+                    fontSize: textSize + 2,
+                    color: Colors.blue,
+                    fontWeight: FontWeight.w500,
+                  ),
                   recognizer: TapGestureRecognizer()..onTap = onTap,
                 ),
-                TextSpan(text: textAfterLink),
+                TextSpan(
+                  text: textAfterLink,
+                  style: TextStyle(
+                    fontSize: textSize + 2,
+                    color: Theme.of(context).primaryColor,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
               ],
             ),
           ),

@@ -291,9 +291,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(text: """١. (کردار) تەقینەوەی گڕکان"""),
           SentencesRow(
             englishText: """The volcano could erupt at any time.""",

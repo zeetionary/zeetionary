@@ -1992,16 +1992,16 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_entry_eyesore.dart' show EnglishEntryeyesore;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_entry_motorway.dart' show EnglishEntrymotorway;
 
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_f.dart' show EnglishEntryf
+// en_entry_fable.dart' show EnglishEntryfable
+// en_entry_fabled.dart' show EnglishEntryfabled
+// en_entry_fabric.dart' show EnglishEntryfabric
+// en_entry_fabricate.dart' show EnglishEntryfabricate
+// en_entry_fabrication.dart' show EnglishEntryfabrication
+// en_entry_fabulous.dart' show EnglishEntryfabulous
+// en_entry_fabulously.dart' show EnglishEntryfabulously
+// en_entry_facade.dart' show EnglishEntryfacade
+// en_entry_face.dart' show EnglishEntryface
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

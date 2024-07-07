@@ -252,9 +252,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           CustomRichText(
             textBeforeLink: "١. (ھاوەڵکار) بە شێوەیەک کە پەیوەندیدارە بە ",
             linkText: "ژینگە",

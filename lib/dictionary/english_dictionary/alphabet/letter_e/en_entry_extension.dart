@@ -387,7 +387,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) یەک ژووری تازە یان زیاتر کە زیاد دەکرێت بۆ خانوویەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """They're building an extension to their house.""",
             kurdishText: """ژوورێکی تازە بۆ خانووەکەیان درووست دەکەن.""",
@@ -397,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) بەشێکی تازە کە بۆ بینایەک زیاد دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The bank will finance a £460 million extension to the car factory.""",
@@ -409,7 +407,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) کاتی زیادە کە بۆ شتێک زیاد دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He's been granted an extension of the contract for another year.""",
@@ -436,7 +433,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) هێڵێکی تەلەفۆن کە هەمان ژمارەی هەیە لەگەڵ یەکێکی دیکە لە ماڵێکدا، یان لەگەڵ تەلەفۆنی ناوەندی بینایەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """We have an extension in our bedroom.""",
             kurdishText: """تەلەفۆنێکی دیکەمان لە ژووری نووستن هەیە.""",
@@ -454,7 +450,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) گەورەکردن یان درێژکردنی شتێک؛ ئەو شتەی گەورە یان درێژ دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The extension of the building will take several months.""",
@@ -466,7 +461,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (ناو) پرچێکی دەستکردن کە زیاد دەکرێت بۆ پرچی سرووشتی بۆ ئەوەی درێژتر دەربکەوێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """These extensions are very easy to use and won't damage your own hair.""",

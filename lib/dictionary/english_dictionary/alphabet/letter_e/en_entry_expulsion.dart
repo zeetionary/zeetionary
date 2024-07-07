@@ -298,7 +298,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەرکردن لە قوتابخانە یان دامەزراوەیەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The headteacher threatened the three girls with expulsion.""",

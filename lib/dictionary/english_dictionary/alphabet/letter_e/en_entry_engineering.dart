@@ -266,9 +266,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی: 
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئەندازیاری؛ زانستی بەکارھێنانی زانیاریی زانستی لە درووستکردن و کۆنترۆڵی ئامێر، ڕێگا، پرد، کەرەستەی کارەبایی، ھتد"""),

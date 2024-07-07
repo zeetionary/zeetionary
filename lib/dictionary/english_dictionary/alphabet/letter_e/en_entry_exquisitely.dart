@@ -258,9 +258,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ھاوەڵکار) بە شێوەیەک کە تەواو جوانە و بەوریایی درووستکراوە"""),
@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە شێوەیەک کە بە بەهێزی هەستی پێ دەکرێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Even light pressure was exquisitely painful.""",
             kurdishText:

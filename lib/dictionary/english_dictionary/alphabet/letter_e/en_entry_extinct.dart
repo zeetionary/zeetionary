@@ -335,7 +335,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە چی دیکە بوونی نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Servants are now almost extinct in modern society.""",
@@ -356,7 +355,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) گڕکانێک کە چالاک نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The city was built near an extinct volcano.""",
             kurdishText: """شارەکە لە نزیک گڕکانێکی ناچالاک بنیاد نرا.""",

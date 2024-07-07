@@ -299,9 +299,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(text: """١. (کردار) چێژبینین"""),
           SentencesRow(
             englishText: """Thanks for a great evening. I really enjoyed it.""",

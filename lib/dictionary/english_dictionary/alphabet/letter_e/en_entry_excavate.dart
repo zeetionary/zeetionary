@@ -264,9 +264,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (کردار) ھەڵکۆڵینی زەوی بۆ دۆزینەوەی بینا و کەرەستەی کۆن کە بۆ ماوەیەکی زۆرە کەوتوونەتە ژێر زەوی"""),

@@ -317,9 +317,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی: 
+// """),
           const DefinitionKurdish(
               text:
                   """١. (کردار) گەورەتربوون لە ئەندازە، ژمارە، یان گرنگی؛ واکردنی ئەوەی شتێک وابکات"""),
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The waist expands to fit all sizes.""",
             kurdishText:
-                """کەمەرەکەی فراوان دەبێت بۆ گونجان لەگەڵ ھەموو قەبارەیەک.""",
+                """کەمەرەکەی دەکشێت بۆ گونجان لەگەڵ ھەموو قەبارەیەک.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),

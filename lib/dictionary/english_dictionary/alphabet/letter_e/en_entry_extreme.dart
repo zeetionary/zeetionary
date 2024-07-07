@@ -407,7 +407,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ئاسایی نییە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Children will be removed from their parents only in extreme circumstances.""",
@@ -453,7 +452,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) زۆر دوور لەوەی زۆر کەس بە ئاسایی، پەسەندکراو، یان گونجاوی دادەنێن"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Fascism was basically an extreme form of nationalism.""",
@@ -480,7 +478,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) چەندە بکرێت دوور لە چەق، سەرەتا، یان ئەو ئاراستەیەی کە باسکراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The city is in the extreme west of Ireland.""",
             kurdishText: """شارەکە لە ئەوپەڕی ڕۆژئاوای ئێرلەندایە.""",
@@ -498,7 +495,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) هەست، دۆخ، شێوازی ڕەفتار، هتد کە چەندە بکرێت جیاوازە لە یەکێکی دیکە، یان تەواو دژیەتی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He used to be very shy, but now he's gone to the opposite extreme (= changed from one extreme kind of behaviour to another).""",
@@ -526,7 +522,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ناو) بەرزترین ئاستی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The climate is mild with no extremes of temperature.""",

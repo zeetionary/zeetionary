@@ -291,7 +291,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە دەتوانێت چالاکییەکی دیاریکراو بە شارەزایی ئەنجام بدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """She studied under a leading exponent of the Japanese flute.""",

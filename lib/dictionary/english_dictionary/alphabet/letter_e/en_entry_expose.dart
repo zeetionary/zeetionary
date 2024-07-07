@@ -350,7 +350,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ئاشکراکردنی ڕاستی سەبارەت بە دۆخێک یان کەسێک وەک نایاسایی، تەڵەکەباز، هتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """He threatened to expose the racism that existed within the police force.""",
@@ -370,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) دانانی کەسێک لە دۆخێک کە پارێزراو نییە بەرامبەر شتێکی زیانبەخش یان ناخۆش"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """This tactic allowed the rebels to attack without the risk of exposing themselves.""",
@@ -407,7 +405,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) ڕێگەدان بە کەسێک کە سەبارەت بە شتێک بزانێت بەوەی وابکەیت ئەزموونی بکەن یان پیشانیان بدەیت کە چۆنە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We want to expose the kids to as much art and culture as possible.""",

@@ -349,14 +349,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("He had the effrontery to accuse me of lying!");
   }
 
-  Future<void> speakeffronterys2(String languageCode) async {
-    // DOPSUM: CHANGE speakeffrontery
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakeffronterys200");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -377,76 +369,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffronterys1("en-GB"),
             onPressedAmerican: () => speakeffronterys1("en-US"),
           ),
-          // effronterys200"""),
-          // onPressed: () => speakeffronterys2("en-GB"),
-          //         ),
-          //         CustomIconButtonAmerican(
-          //           onPressed: () => speakeffronterys2("en-US" ""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // effronterys300"""),
-          // onPressed: () => speakeffronterys3
-          // speakeffronterys3
-          // effronterys400"""),
-          // onPressed: () => speakeffronterys4
-          // speakeffronterys4
-          // effronterys500"""),
-          // onPressed: () => speakeffronterys5
-          // speakeffronterys5
-          // effronterys600"""),
-          // onPressed: () => speakeffronterys6
-          // speakeffronterys6
-          // effronterys700"""),
-          // onPressed: () => speakeffronterys7
-          // speakeffronterys7
-          // effronterys800"""),
-          // onPressed: () => speakeffronterys8
-          // speakeffronterys8
-          // effronterys900"""),
-          // onPressed: () => speakeffronterys9
-          // speakeffronterys9
-          // effronterys_1000"""),
-          // onPressed: () => speakeffronterys10
-          // speakeffronterys10
-          // effronterys1100"""),
-          // onPressed: () => speakeffronterys11
-          // speakeffronterys11
-          // effronterys1200"""),
-          // onPressed: () => speakeffronterys12
-          // speakeffronterys12
-          // effronterys1300"""),
-          // onPressed: () => speakeffronterys13
-          // speakeffronterys13
-          // effronterys1400"""),
-          // onPressed: () => speakeffronterys14
-          // speakeffronterys14
-          // effronterys1500"""),
-          // onPressed: () => speakeffronterys15
-          // speakeffronterys15
-          // effronterys1600"""),
-          // onPressed: () => speakeffronterys16
-          // speakeffronterys16
-          // effronterys1700"""),
-          // onPressed: () => speakeffronterys17
-          // speakeffronterys17
-          // effronterys1800"""),
-          // onPressed: () => speakeffronterys18
-          // speakeffronterys18
-          // effronterys1900"""),
-          // onPressed: () => speakeffronterys19
-          // speakeffronterys19
-          // effronterys_2000"""),
-          // onPressed: () => speakeffronterys20
-          // speakeffronterys20
-          // effronterys2100"""),
-          // onPressed: () => speakeffronterys21
-          // speakeffronterys21
-          // effronterys2200"""),
-          // onPressed: () => speakeffronterys22
-          // speakeffronterys22
         ],
       ),
     );

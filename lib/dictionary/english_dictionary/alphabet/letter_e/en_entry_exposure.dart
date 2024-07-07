@@ -340,7 +340,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەوەی کە ڕاستی نهێنی خراپ، یان نایاسایی لەسەر کەسێک.شتێک بگوترێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """There were damaging exposures of the government's own practices.""",
@@ -353,7 +352,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەوەی لەسەر تەلەفیزیۆن یان ڕۆژنامە باس بکرێیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Her new movie has had a lot of exposure in the media.""",
@@ -373,7 +371,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ئەوەی شتێکی تازە یان جیاواز پیشان بدەیت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We try to give our children exposure to other cultures.""",
@@ -386,7 +383,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) دۆخێکی تەندرووستی کە بۆ ماوەیەکی زۆر لە کەشێکی زۆر سارد بیت بەبێ پارێزەر"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Three of the men died of exposure.""",
             kurdishText: """سێ لە پیاوەکان لە سەرمادا مردن.""",

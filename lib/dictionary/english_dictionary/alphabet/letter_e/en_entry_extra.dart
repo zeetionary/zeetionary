@@ -387,9 +387,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(
-                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -398,9 +395,6 @@ class KurdishMeaning extends StatelessWidget {
                     onPressedBritish: () => speaksentence4("en-GB"),
                     onPressedAmerican: () => speaksentence4("en-US"),
                   ),
-                  const DividerDefinition(),
-                  const DefinitionKurdish(
-                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                   const DividerSentences(),
                   SentencesRow(
                     englishText:
@@ -418,7 +412,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ڕەفتارکردن بەشێوەیەک کە زۆر دراماتیکییە یان هەوڵی زۆر پیشان دەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Calm down—you're being so extra right now.""",
             kurdishText: """هێور بەرەوە ـ ئێستا زۆر مشەوش دەبیت.""",
@@ -427,7 +420,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) شتێکی زیادە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The monthly fee is fixed and there are no hidden extras (= unexpected costs).""",
@@ -454,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) کەسێک کە ڕۆڵێکی زۆر بچووکی هەیە لە فیلمێکدا، زۆرجار کە لەناو کۆمەڵێک دەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """We need hundreds of extras for the battle scenes.""",
@@ -465,7 +456,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ھاوەڵکار) کە وەک زیادە دەبێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """I need to earn a bit extra this month.""",
             kurdishText: """ئەم مانگە دەبێت کەمێک زیاتر بەدەست بهێنم.""",
@@ -490,7 +480,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ھاوەڵکار) زیاتر لە ئاسایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """You need to be extra careful not to make any mistakes.""",

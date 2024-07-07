@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە شتێک پیشان دەدات"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Every word and gesture is expressive of the artist's sincerity.""",

@@ -284,7 +284,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) لەناوبردنی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """News of the bombing extinguished all hope of peace.""",

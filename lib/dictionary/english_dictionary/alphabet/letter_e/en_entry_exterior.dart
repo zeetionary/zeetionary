@@ -303,7 +303,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شێوازی دەرکەوتن ڕەفتارکردنی کەسێک، بەتایبەتی کە زۆر جیاوازە لە کاتی ئاسایی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """Beneath his confident exterior, he was desperately nervous.""",
@@ -322,7 +321,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) لە ڕووی دەرەوەی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The exterior lights of the house came on as I approached the door.""",

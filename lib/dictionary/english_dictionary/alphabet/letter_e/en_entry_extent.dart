@@ -356,7 +356,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) قەبارەی ناوچەیەک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """You can't see the full extent of the beach from here.""",

@@ -390,34 +390,34 @@ class TagsPanel extends StatelessWidget {
                         ),
                       ),
                     ),
-                    const SizedBox(width: 15),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push(
-                            '/english-subreddit/reddit-etymology');
-                      },
-                      child: Text(
-                        'Etymology',
-                        style: TextStyle(
-                          color: Theme.of(context).highlightColor,
-                          fontSize: textSize - 3,
-                        ),
-                      ),
-                    ),
-                    const SizedBox(width: 15),
-                    ElevatedButton(
-                      onPressed: () {
-                        Routemaster.of(context).push(
-                            '/english-subreddit/reddit-linguistics');
-                      },
-                      child: Text(
-                        'Linguistics',
-                        style: TextStyle(
-                          color: Theme.of(context).highlightColor,
-                          fontSize: textSize - 3,
-                        ),
-                      ),
-                    ),
+                    // const SizedBox(width: 15),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push(
+                    //         '/english-subreddit/reddit-etymology');
+                    //   },
+                    //   child: Text(
+                    //     'Etymology',
+                    //     style: TextStyle(
+                    //       color: Theme.of(context).highlightColor,
+                    //       fontSize: textSize - 3,
+                    //     ),
+                    //   ),
+                    // ),
+                    // const SizedBox(width: 15),
+                    // ElevatedButton(
+                    //   onPressed: () {
+                    //     Routemaster.of(context).push(
+                    //         '/english-subreddit/reddit-linguistics');
+                    //   },
+                    //   child: Text(
+                    //     'Linguistics',
+                    //     style: TextStyle(
+                    //       color: Theme.of(context).highlightColor,
+                    //       fontSize: textSize - 3,
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               )

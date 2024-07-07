@@ -340,7 +340,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) زۆربوونی لەناکاو لە بڕ یان ژمارەی شتێک"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """In the 1860s an explosion of major scientific publications took place.""",
@@ -353,7 +352,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز، بەتایبەتی تووڕەیی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """Do you know what brought on that explosion?""",
             kurdishText: """دەزانیت چی بوو بە هۆکاری ئەو تووڕەبوونە؟""",

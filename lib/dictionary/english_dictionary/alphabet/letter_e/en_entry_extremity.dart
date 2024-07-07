@@ -299,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئاستی سەختی، نامۆیی، یان توندی دۆخێک، هەستێک، کارێک، هتد"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """The patient screamed at the extremity of pain.""",
             kurdishText: """نەخۆشەکە لە سەختی ئازاردا دەیقیژاند.""",
@@ -310,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) بەشەکانی جەستە کە دوورترین لە ناوەڕاستەوە، بەتایبەتی لاق و دەستەکان"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """In such a situation, your heart pumps faster to prevent your extremities from freezing.""",

@@ -166,31 +166,78 @@ class _SentencesPageState extends ConsumerState<SentencesPage> {
                 return Column(
                   children: [
                     // const Divider(),
-                    ListTile(
-                      title: Text(
-                        sentence['english'].toString(),
-                        style: TextStyle(
-                          fontSize: textSize,
-                        ),
-                      ),
-                      subtitle: Directionality(
-                          textDirection: TextDirection.rtl,
-                          child: Text(
-                            sentence['french'].toString(),
-                            style: TextStyle(
-                              fontSize: textSize,
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Padding(
+                            padding: const EdgeInsets.all(8.0),
+                            child: Column(
+                              children: [
+                                Align(
+                                  alignment: Alignment.topLeft,
+                                  child: Text(
+                                    sentence['english'].toString(),
+                                    style: TextStyle(
+                                      fontSize: textSize,
+                                    ),
+                                  ),
+                                ),
+                                Directionality(
+                                  textDirection: TextDirection.rtl,
+                                  child: Align(
+                                    alignment: Alignment.topRight,
+                                    child: Text(
+                                      sentence['french'].toString(),
+                                      style: TextStyle(
+                                        fontSize: textSize,
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
-                          )),
-                      trailing: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () =>
-                                speakEnglish(sentence['english'], "en-GB"),
                           ),
-                        ],
-                      ),
+                        ),
+                        Column(
+                          children: [
+                            CustomIconButtonBritish(
+                              onPressed: () =>
+                                  speakEnglish(sentence['english'], "en-GB"),
+                            ),
+                            CustomIconButtonAmerican(
+                              onPressed: () =>
+                                  speakEnglish(sentence['english'], "en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
+                    // ListTile(
+                    //   title: Text(
+                    //     sentence['english'].toString(),
+                    //     style: TextStyle(
+                    //       fontSize: textSize,
+                    //     ),
+                    //   ),
+                    //   subtitle: Directionality(
+                    //       textDirection: TextDirection.rtl,
+                    //       child: Text(
+                    //         sentence['french'].toString(),
+                    //         style: TextStyle(
+                    //           fontSize: textSize,
+                    //         ),
+                    //       ),
+                    //       ),
+                    //   trailing: Row(
+                    //     mainAxisSize: MainAxisSize.min,
+                    //     children: [
+                    //       CustomIconButtonBritish(
+                    //         onPressed: () =>
+                    //             speakEnglish(sentence['english'], "en-GB"),
+                    //       ),
+                    //     ],
+                    //   ),
+                    // ),
                   ],
                 );
               },

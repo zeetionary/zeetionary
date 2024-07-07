@@ -329,7 +329,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە لە دەرەوەی شوێنێک، ذامەزراوەیەک، دۆخێکی دیاریکراو، هتد ڕوودەدات یان دێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """A combination of internal and external factors caused the company to close down.""",
@@ -360,7 +359,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) کە هی دەرەوەی قوتابخانەیەک، زانکۆیەک، یان دامەزراوەیەکە، یان لە دەرەوە ڕێکخراوە"""),
-          const DividerSentences(),
           SentencesRow(
             englishText: """An external auditor will verify the accounts.""",
             kurdishText:
@@ -371,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) پەیوەندیدار بە وڵاتی بیانی"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The government is committed to reducing the country's external debt.""",

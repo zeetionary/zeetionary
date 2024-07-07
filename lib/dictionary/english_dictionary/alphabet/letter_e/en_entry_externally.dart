@@ -287,7 +287,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە شێوەیەک کە لە دەرەوەی شوێنێک، ذامەزراوەیەک، دۆخێکی دیاریکراو، هتد ڕوودەدات یان دێت"""),
-          const DividerSentences(),
           SentencesRow(
             englishText:
                 """The university has many externally funded research projects.""",

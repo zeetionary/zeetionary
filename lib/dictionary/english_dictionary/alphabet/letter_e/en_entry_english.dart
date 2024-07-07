@@ -296,9 +296,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+          //           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) زمانی ئینگلیزی؛ زمانی خەڵکی ئینگلتەرە کە ئێستا لە زۆر وڵاتی جیھاندا قسەی پێدەکرێت و وەک زمانی گفتوگۆی نێودەڵەتی لە جیھاندا بەکاردێت"""),

@@ -157,6 +157,7 @@ class EnglishEntryautumn extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   """١. (ناو) پاییز؛ وەرزی نێوان ھاوین و زستان، کە گەڵای دار دەست بە وەری دەکات و کەشوھەوا سارد دەکات"""),
+                          const AlsoEnglishckb(word: "ھەروەھا: fall"),
                           SentencesRow(
                             englishText:
                                 "Demand always rises during the autumn and winter months.",

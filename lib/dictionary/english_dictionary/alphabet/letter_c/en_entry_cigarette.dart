@@ -103,6 +103,7 @@ class EnglishEntrycigarette extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لوولەیەکی باریک لە کاغەز کە پڕە لە تووتن بۆ کێشان"),
+                          const AlsoEnglishckb(word: "ھەروەھا: fag"),
                           SentencesRow(
                             englishText:
                                 "There were three cigarette butts in the ashtray.",

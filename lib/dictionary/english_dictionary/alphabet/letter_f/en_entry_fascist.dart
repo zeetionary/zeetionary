@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfanny extends StatefulWidget {
-  const EnglishEntryfanny({super.key});
+class EnglishEntryfascist extends StatefulWidget {
+  const EnglishEntryfascist({super.key});
 
   @override
-  State<EnglishEntryfanny> createState() => _EnglishEntryfannyState();
+  State<EnglishEntryfascist> createState() => _EnglishEntryfascistState();
 }
 
-class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
+class _EnglishEntryfascistState extends State<EnglishEntryfascist> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fanny""");
+    await flutterTts.speak("""fascist""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fanny""",
-                      // alsoEnglishWord: "also: fanny",
-                      britshText: """IpaUK: /ˈfæni/""",
-                      americanText: """IpaUS: /ˈfæni/""",
+                      word: """fascist""",
+                      // alsoEnglishWord: "also: fascist",
+                      britshText: """IpaUK: /ˈfæʃɪst/""",
+                      americanText: """IpaUS: /ˈfæʃɪst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fanny";
+  final String keyword = "fascist";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,29 +238,31 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They warned her about the word fanny in the UK.""");
+    await flutterTts.speak(
+        """Under the Nazis, Germany was a fascist, totalitarian state.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She slipped and landed on her fanny.""");
+    await flutterTts.speak(
+        """The period between the two World Wars saw the rise of fascist regimes in Italy and Germany.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He was labeled a fascist for his extreme views.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The dictator was a known fascist.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -872,31 +875,44 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (لە ئەمریکا) کنگ، قون،	(لە بریتانیا) قوز، شەرم
+کوردی: 
 """),
-          const DefinitionKurdish(text: """١. (ناو) لە ئینگلیزیی بەریتانی واتا ئەندامی زاوزێی مێینە"""),
+          // const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
+          CustomRichText(
+            textBeforeLink: "١. شوێنکەتوو یان باوەڕداری ",
+            linkText: "fascism",
+            textAfterLink: "",
+            onTap: () {
+              Routemaster.of(context).push("/english-fascist/fascism");
+            },
+          ),
           SentencesRow(
             englishText:
-                """They warned her about the word fanny in the UK.""",
-            kurdishText: """ئاگاداریان کردەوە سەبارەت بە وشەی fanny لە بەریتانیا.""",
+                """Under the Nazis, Germany was a fascist, totalitarian state.""",
+            kurdishText:
+                """لەژێر دەسەڵاتی نازییەکاندا، ئەڵمانیا وڵاتێکی فاشیستی و تاکڕەوی بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) لە ئینگلیزیی ئەمریکی واتا سمت"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """She slipped and landed on her fanny.""",
-            kurdishText: """خلیسکا و لەسەر سمتی گیرسایەوە.""",
-            onPressedBritish: () => speaksentence2("en-GB"),
-            onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The period between the two World Wars saw the rise of fascist regimes in Italy and Germany.""",
+            kurdishText:
+                """ماوەی نێوان دوو جەنگە جیهانییەکە دەرکەوتنی فاشیزمی لە ئیتالیا و ئەڵمانیا بینی.""",
+            onPressedBritish: () => speaksentence2("en-GB"),
+            onPressedAmerican: () => speaksentence2("en-US"),
+          ),
+          const DividerDefinition(),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ناو) کەسێک کە پشتگیری فاشیزم دەکات؛ کەسێک کە ڕاستڕەوە لە سیاسەتدا"""),
+          const DividerSentences(),
+          SentencesRow(
+            englishText: """He was labeled a fascist for his extreme views.""",
+            kurdishText: """وەک فاشیستێک ناسرا بۆ باوەرە توندەکانی.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -904,8 +920,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The dictator was a known fascist.""",
+            kurdishText: """دیکتاتۆرەکە فاشیستێکی ناسراو بوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -1670,12 +1686,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fanny (Derived forms: fannies)
-Usage: vulgar
-1. [N. Amer, vulgar, informal] The fleshy part of the human body that you sit on (= buttocks, nates [technical], butt [N. Amer, informal], backside, bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
-"are you going to sit on your fanny and do nothing?";
- 
-2. [Brit, vulgar] External female sex organs (= female genitalia, female genitals, female genital organ)
+- Adjective: fascist
+1. Relating to or characteristic of fascism (= fascistic)
+"fascist propaganda";
+
+- Noun: fascist (Derived forms: fascists)
+1. An adherent of fascism or other authoritarian views
 """,
   );
 
@@ -1700,18 +1716,18 @@ Usage: vulgar
   }
 }
 
-const String _videoIdend = 'https://youtu.be/vIfGgDnmBXg?t=';
-const double _startSecondsend = 000000000000000000000000000194;
-const String _videoIdone = 'https://youtu.be/4bGNm5jqwLg?t=';
-const double _startSecondsone = 00000000000000000000000000056;
-const String _videoIdtwo = 'https://youtu.be/fiVYYbZSnFw?t=';
-const double _startSecondstwo = 00000000000000000000000000055;
-const String _videoIdthree = 'https://youtu.be/Dx_-u7p5Rjs?t=';
-const double _startSecondsthree = 000000000000000000000000000493;
-const String _videoIdfour = 'https://youtu.be/msuXu-uAJ5U?t=';
-const double _startSecondsfour = 000000000000000000000000000183;
-const String _videoIdfive = 'https://youtu.be/HDpkWkA3CLc?t=';
-const double _startSecondsfive = 000000000000000000000000000132;
+const String _videoIdend = 'https://youtu.be/zlg03lfBrEA?t=';
+const double _startSecondsend = 00000000000000000000000000076;
+const String _videoIdone = 'https://youtu.be/3C9wZf88y4Q?t=';
+const double _startSecondsone = 00000000000000000000000000096;
+const String _videoIdtwo = 'https://youtu.be/YeAxxMZf1O4?t=';
+const double _startSecondstwo = 000000000000000000000000000137;
+const String _videoIdthree = 'https://youtu.be/NVH7JewfgJg?t=';
+const double _startSecondsthree = 000000000000000000000000000310;
+const String _videoIdfour = 'https://youtu.be/CA-eyG7lUv8?t=';
+const double _startSecondsfour = 00000000000000000000000000016;
+const String _videoIdfive = 'https://youtu.be/p6OVtsH6Feg?t=';
+const double _startSecondsfive = 000000000000000000000000000201;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfanny extends StatefulWidget {
-  const EnglishEntryfanny({super.key});
+class EnglishEntryfarmersmarket extends StatefulWidget {
+  const EnglishEntryfarmersmarket({super.key});
 
   @override
-  State<EnglishEntryfanny> createState() => _EnglishEntryfannyState();
+  State<EnglishEntryfarmersmarket> createState() =>
+      _EnglishEntryfarmersmarketState();
 }
 
-class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
+class _EnglishEntryfarmersmarketState extends State<EnglishEntryfarmersmarket> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fanny""");
+    await flutterTts.speak("""farmer's market""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fanny""",
-                      // alsoEnglishWord: "also: fanny",
-                      britshText: """IpaUK: /ˈfæni/""",
-                      americanText: """IpaUS: /ˈfæni/""",
+                      word: """farmer's market""",
+                      // alsoEnglishWord: "also: farmer's market",
+                      britshText: """IpaUK: /ˈfɑːməz mɑːkɪt/""",
+                      americanText: """IpaUS: /ˈfɑːrmərz mɑːrkɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fanny";
+  final String keyword = "farmer's market";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,14 +239,14 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""They warned her about the word fanny in the UK.""");
+        .speak("""She buys fresh vegetables at the farmer's market.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She slipped and landed on her fanny.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -872,22 +873,24 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (لە ئەمریکا) کنگ، قون،	(لە بریتانیا) قوز، شەرم
+کوردی: 
 """),
-          const DefinitionKurdish(text: """١. (ناو) لە ئینگلیزیی بەریتانی واتا ئەندامی زاوزێی مێینە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) شوێنێک کە جوتیاران ڕاستەوخۆ بەرهەمەکانیان بە خەڵکی دەفرۆشن"""),
           SentencesRow(
             englishText:
-                """They warned her about the word fanny in the UK.""",
-            kurdishText: """ئاگاداریان کردەوە سەبارەت بە وشەی fanny لە بەریتانیا.""",
+                """She buys fresh vegetables at the farmer's market.""",
+            kurdishText: """سەوزەی تازە دەکڕێت لە بازاڕی جوتیاران.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) لە ئینگلیزیی ئەمریکی واتا سمت"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She slipped and landed on her fanny.""",
-            kurdishText: """خلیسکا و لەسەر سمتی گیرسایەوە.""",
+            englishText: """speaksentence200""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1670,12 +1673,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fanny (Derived forms: fannies)
-Usage: vulgar
-1. [N. Amer, vulgar, informal] The fleshy part of the human body that you sit on (= buttocks, nates [technical], butt [N. Amer, informal], backside, bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
-"are you going to sit on your fanny and do nothing?";
- 
-2. [Brit, vulgar] External female sex organs (= female genitalia, female genitals, female genital organ)
+- Noun: farmer's market (Derived forms: farmer's markets)
+1. An open-air marketplace for farm products (= green market, greenmarket)
 """,
   );
 
@@ -1700,18 +1699,18 @@ Usage: vulgar
   }
 }
 
-const String _videoIdend = 'https://youtu.be/vIfGgDnmBXg?t=';
-const double _startSecondsend = 000000000000000000000000000194;
-const String _videoIdone = 'https://youtu.be/4bGNm5jqwLg?t=';
-const double _startSecondsone = 00000000000000000000000000056;
-const String _videoIdtwo = 'https://youtu.be/fiVYYbZSnFw?t=';
-const double _startSecondstwo = 00000000000000000000000000055;
-const String _videoIdthree = 'https://youtu.be/Dx_-u7p5Rjs?t=';
-const double _startSecondsthree = 000000000000000000000000000493;
-const String _videoIdfour = 'https://youtu.be/msuXu-uAJ5U?t=';
-const double _startSecondsfour = 000000000000000000000000000183;
-const String _videoIdfive = 'https://youtu.be/HDpkWkA3CLc?t=';
-const double _startSecondsfive = 000000000000000000000000000132;
+const String _videoIdend = 'https://youtu.be/qO--hy6Q-LA?t=';
+const double _startSecondsend = 000000000000000000000000000161;
+const String _videoIdone = 'https://youtu.be/417Qbwn9yso?t=';
+const double _startSecondsone = 000000000000000000000000000669;
+const String _videoIdtwo = 'https://youtu.be/SP_3sVbvK6Y?t=';
+const double _startSecondstwo = 000000000000000000000000000465;
+const String _videoIdthree = 'https://youtu.be/67yX1C4gaDA?t=';
+const double _startSecondsthree = 00000000000000000000000000028;
+const String _videoIdfour = 'https://youtu.be/m58_ky4kNxk?t=';
+const double _startSecondsfour = 000000000000000000000000000176;
+const String _videoIdfive = 'https://youtu.be/J214OrZYJmA?t=';
+const double _startSecondsfive = 000000000000000000000000000341;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

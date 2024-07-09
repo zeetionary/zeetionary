@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfanny extends StatefulWidget {
-  const EnglishEntryfanny({super.key});
+class EnglishEntryfarcical extends StatefulWidget {
+  const EnglishEntryfarcical({super.key});
 
   @override
-  State<EnglishEntryfanny> createState() => _EnglishEntryfannyState();
+  State<EnglishEntryfarcical> createState() => _EnglishEntryfarcicalState();
 }
 
-class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
+class _EnglishEntryfarcicalState extends State<EnglishEntryfarcical> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fanny""");
+    await flutterTts.speak("""farcical""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fanny""",
-                      // alsoEnglishWord: "also: fanny",
-                      britshText: """IpaUK: /ˈfæni/""",
-                      americanText: """IpaUS: /ˈfæni/""",
+                      word: """farcical""",
+                      // alsoEnglishWord: "also: farcical",
+                      britshText: """IpaUK: /ˈfɑːsɪkl/""",
+                      americanText: """IpaUS: /ˈfɑːrsɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fanny";
+  final String keyword = "farcical";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,15 +237,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They warned her about the word fanny in the UK.""");
+    await flutterTts.speak("""It was a farcical trial.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She slipped and landed on her fanny.""");
+    await flutterTts
+        .speak("""Such a farcical situation could never happen in Germany.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,6 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
+// With short examples define "farcical", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -872,22 +873,25 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (لە ئەمریکا) کنگ، قون،	(لە بریتانیا) قوز، شەرم
+کوردی: پێکەنینی، گاڵتەجاڕ، گەپجاڕ
 """),
-          const DefinitionKurdish(text: """١. (ناو) لە ئینگلیزیی بەریتانی واتا ئەندامی زاوزێی مێینە"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵناو) کە گەمژانەیە و هی ئەوە نییە بە جدییانە بیری لێ بکەیتەوە"""),
           SentencesRow(
-            englishText:
-                """They warned her about the word fanny in the UK.""",
-            kurdishText: """ئاگاداریان کردەوە سەبارەت بە وشەی fanny لە بەریتانیا.""",
+            englishText: """It was a farcical trial.""",
+            kurdishText: """ئەوە دادگاییەکی گاڵتەجاڕانە بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) لە ئینگلیزیی ئەمریکی واتا سمت"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She slipped and landed on her fanny.""",
-            kurdishText: """خلیسکا و لەسەر سمتی گیرسایەوە.""",
+            englishText:
+                """Such a farcical situation could never happen in Germany.""",
+            kurdishText:
+                """دۆخێکی وەها گاڵتەجارانە هەرگیز ڕوونادات لە ئەڵمانیا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1670,12 +1674,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fanny (Derived forms: fannies)
-Usage: vulgar
-1. [N. Amer, vulgar, informal] The fleshy part of the human body that you sit on (= buttocks, nates [technical], butt [N. Amer, informal], backside, bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
-"are you going to sit on your fanny and do nothing?";
- 
-2. [Brit, vulgar] External female sex organs (= female genitalia, female genitals, female genital organ)
+- Adjective: farcical
+1. Broadly or extravagantly humorous; resembling farce (= ludicrous, ridiculous, ridic [informal])
+"the wild farcical exuberance of a clown";
 """,
   );
 
@@ -1700,18 +1701,18 @@ Usage: vulgar
   }
 }
 
-const String _videoIdend = 'https://youtu.be/vIfGgDnmBXg?t=';
-const double _startSecondsend = 000000000000000000000000000194;
-const String _videoIdone = 'https://youtu.be/4bGNm5jqwLg?t=';
-const double _startSecondsone = 00000000000000000000000000056;
-const String _videoIdtwo = 'https://youtu.be/fiVYYbZSnFw?t=';
-const double _startSecondstwo = 00000000000000000000000000055;
-const String _videoIdthree = 'https://youtu.be/Dx_-u7p5Rjs?t=';
-const double _startSecondsthree = 000000000000000000000000000493;
-const String _videoIdfour = 'https://youtu.be/msuXu-uAJ5U?t=';
-const double _startSecondsfour = 000000000000000000000000000183;
-const String _videoIdfive = 'https://youtu.be/HDpkWkA3CLc?t=';
-const double _startSecondsfive = 000000000000000000000000000132;
+const String _videoIdend = 'https://youtu.be/wXU6NsQ9gSE?t=';
+const double _startSecondsend = 000000000000000000000000000119;
+const String _videoIdone = 'https://youtu.be/5-QejUTDCWw?t=';
+const double _startSecondsone = 000000000000000000000000000883;
+const String _videoIdtwo = 'https://youtu.be/c-cWItEsoy4?t=';
+const double _startSecondstwo = 0000000000000000000000000001063;
+const String _videoIdthree = 'https://youtu.be/XwCGVulU3FA?t=';
+const double _startSecondsthree = 000000000000000000000000000756;
+const String _videoIdfour = 'https://youtu.be/Ja5Q75hf6QI?t=';
+const double _startSecondsfour = 0000000000000000000000000002285;
+const String _videoIdfive = 'https://youtu.be/hfndHUnnnJM?t=';
+const double _startSecondsfive = 000000000000000000000000000212;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

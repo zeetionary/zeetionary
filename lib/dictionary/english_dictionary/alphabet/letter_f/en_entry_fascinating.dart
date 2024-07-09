@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfanny extends StatefulWidget {
-  const EnglishEntryfanny({super.key});
+class EnglishEntryfascinating extends StatefulWidget {
+  const EnglishEntryfascinating({super.key});
 
   @override
-  State<EnglishEntryfanny> createState() => _EnglishEntryfannyState();
+  State<EnglishEntryfascinating> createState() =>
+      _EnglishEntryfascinatingState();
 }
 
-class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
+class _EnglishEntryfascinatingState extends State<EnglishEntryfascinating> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fanny""");
+    await flutterTts.speak("""fascinating""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fanny""",
-                      // alsoEnglishWord: "also: fanny",
-                      britshText: """IpaUK: /ˈfæni/""",
-                      americanText: """IpaUS: /ˈfæni/""",
+                      word: """fascinating""",
+                      // alsoEnglishWord: "also: fascinating",
+                      britshText: """IpaUK: /ˈfæsɪneɪtɪŋ/""",
+                      americanText: """IpaUS: /ˈfæsɪneɪtɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fanny";
+  final String keyword = "fascinating";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,36 +238,39 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They warned her about the word fanny in the UK.""");
+    await flutterTts.speak(
+        """Her letters offer a fascinating insight into early Victorian family life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She slipped and landed on her fanny.""");
+    await flutterTts
+        .speak("""The results of the survey made fascinating reading.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""I fail to see what women find so fascinating about him.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""His performance is fascinating to watch.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""Animal behaviour is fascinating to most people.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -864,6 +868,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
+// With short examples define "fascinating", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -872,22 +877,25 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (لە ئەمریکا) کنگ، قون،	(لە بریتانیا) قوز، شەرم
+کوردی: دڵ(ڕا)کێش، دڵبەر، زۆر خۆش، دڵڕفێن، سەرنج‌ڕاکێش، بالکێش، تەلەسماوی
 """),
-          const DefinitionKurdish(text: """١. (ناو) لە ئینگلیزیی بەریتانی واتا ئەندامی زاوزێی مێینە"""),
+          const DefinitionKurdish(
+              text: """١. (ھاوەڵناو) تەواو سەرنجڕاکێش و جوان"""),
           SentencesRow(
             englishText:
-                """They warned her about the word fanny in the UK.""",
-            kurdishText: """ئاگاداریان کردەوە سەبارەت بە وشەی fanny لە بەریتانیا.""",
+                """Her letters offer a fascinating insight into early Victorian family life.""",
+            kurdishText:
+                """نامەکەی تێڕوانینێکی سەرنجڕاکێش دەبەخشێت بە سەرەتای ژیانی خێزانی سەردەمی شاژن ڤیکتۆریا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) لە ئینگلیزیی ئەمریکی واتا سمت"""),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """She slipped and landed on her fanny.""",
-            kurdishText: """خلیسکا و لەسەر سمتی گیرسایەوە.""",
+            englishText:
+                """The results of the survey made fascinating reading.""",
+            kurdishText: """ئەنجامەکانی ڕابرپسییەکە خوێندنەوەیەکی خۆش بوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -895,8 +903,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """I fail to see what women find so fascinating about him.""",
+            kurdishText: """ناتوانم ببینم ژنان چی دڵبەری تێدا دەبینم.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -904,8 +913,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """His performance is fascinating to watch.""",
+            kurdishText: """نمایشەکەی بالکێشە بۆ سەیرکردن.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -913,8 +922,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Animal behaviour is fascinating to most people.""",
+            kurdishText: """ڕەفتاری ئاژەڵان تەلەسماوییە بۆ زۆر کەس.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -1670,12 +1679,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fanny (Derived forms: fannies)
-Usage: vulgar
-1. [N. Amer, vulgar, informal] The fleshy part of the human body that you sit on (= buttocks, nates [technical], butt [N. Amer, informal], backside, bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
-"are you going to sit on your fanny and do nothing?";
+- Adjective: fascinating
+1. Capable of arousing and holding the attention (= absorbing, engrossing, gripping, riveting)
+"a fascinating story";
  
-2. [Brit, vulgar] External female sex organs (= female genitalia, female genitals, female genital organ)
+2. Capturing interest as if by a spell (= bewitching, captivating, enchanting, enthralling, entrancing)
+"a fascinating woman";
 """,
   );
 
@@ -1700,18 +1709,18 @@ Usage: vulgar
   }
 }
 
-const String _videoIdend = 'https://youtu.be/vIfGgDnmBXg?t=';
-const double _startSecondsend = 000000000000000000000000000194;
-const String _videoIdone = 'https://youtu.be/4bGNm5jqwLg?t=';
-const double _startSecondsone = 00000000000000000000000000056;
-const String _videoIdtwo = 'https://youtu.be/fiVYYbZSnFw?t=';
-const double _startSecondstwo = 00000000000000000000000000055;
-const String _videoIdthree = 'https://youtu.be/Dx_-u7p5Rjs?t=';
-const double _startSecondsthree = 000000000000000000000000000493;
-const String _videoIdfour = 'https://youtu.be/msuXu-uAJ5U?t=';
-const double _startSecondsfour = 000000000000000000000000000183;
-const String _videoIdfive = 'https://youtu.be/HDpkWkA3CLc?t=';
-const double _startSecondsfive = 000000000000000000000000000132;
+const String _videoIdend = 'https://youtu.be/-HyHZsa79LU?t=';
+const double _startSecondsend = 0000000000000000000000000001216;
+const String _videoIdone = 'https://youtu.be/SEZu7K5tGxw?t=';
+const double _startSecondsone = 000000000000000000000000000218;
+const String _videoIdtwo = 'https://youtu.be/PmlRbfSavbI?t=';
+const double _startSecondstwo = 00000000000000000000000000051;
+const String _videoIdthree = 'https://youtu.be/3RkhZgRNC1k?t=';
+const double _startSecondsthree = 0000000000000000000000000001120;
+const String _videoIdfour = 'https://youtu.be/Y4E8qEDi_xg?t=';
+const double _startSecondsfour = 0000000000000000000000000001;
+const String _videoIdfive = 'https://youtu.be/b_rjBWmc1iQ?t=';
+const double _startSecondsfive = 000000000000000000000000000459;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfanny extends StatefulWidget {
-  const EnglishEntryfanny({super.key});
+class EnglishEntryfar extends StatefulWidget {
+  const EnglishEntryfar({super.key});
 
   @override
-  State<EnglishEntryfanny> createState() => _EnglishEntryfannyState();
+  State<EnglishEntryfar> createState() => _EnglishEntryfarState();
 }
 
-class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
+class _EnglishEntryfarState extends State<EnglishEntryfar> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fanny""");
+    await flutterTts.speak("""far""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfannyState extends State<EnglishEntryfanny> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fanny""",
-                      // alsoEnglishWord: "also: fanny",
-                      britshText: """IpaUK: /ˈfæni/""",
-                      americanText: """IpaUS: /ˈfæni/""",
+                      word: """far""",
+                      // alsoEnglishWord: "also: far",
+                      britshText: """IpaUK: /fɑː(r)/""",
+                      americanText: """IpaUS: /fɑːr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fanny";
+  final String keyword = "far";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,232 +237,240 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They warned her about the word fanny in the UK.""");
+    await flutterTts.speak("""We didn't go far.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She slipped and landed on her fanny.""");
+    await flutterTts.speak("""Have you come far?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""It's not far to the beach.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""There's not far to go now.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""It's too far to walk.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""The restaurant is not far from here.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""Far away in the distance, a train whistled.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts
+        .speak("""The farther north they went, the colder it became.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""How far is it to your house from here?""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""How far is Boston from New York?""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""How much further is it?""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak("""I'm not sure I can walk so far.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts.speak("""We didn't go as far as the others.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak(
+        """To answer that question we need to go further back in time.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts.speak("""Let's try to plan further ahead.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1600""");
+    await flutterTts.speak("""We worked far into the night.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1700""");
+    await flutterTts
+        .speak("""The film takes place in a future not too far distant.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1800""");
+    await flutterTts.speak("""That's a far better idea.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts.speak("""The damage was far worse than I'd expected.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_2000""");
+    await flutterTts.speak(
+        """There are far more opportunities for young people than there used to be.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2100""");
+    await flutterTts.speak("""She always gives us far too much homework.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2200""");
+    await flutterTts.speak("""The results far exceeded my expectations.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2300""");
+    await flutterTts.speak("""The benefits far outweigh the cost.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2400""");
+    await flutterTts.speak("""How far can we trust him?""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2500""");
+    await flutterTts
+        .speak("""His parents supported him as far as they could.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2600""");
+    await flutterTts.speak(
+        """Plan your route in advance, using main roads as far as possible.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2700""");
+    await flutterTts.speak("""How far have you got with that report?""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2800""");
+    await flutterTts.speak("""I read as far as the third chapter.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2900""");
+    await flutterTts.speak(
+        """We’ve got as far as collecting our data but we haven’t analysed it yet.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_3000""");
+    await flutterTts.speak("""I saw her on the far side of the road.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3100""");
+    await flutterTts
+        .speak("""They made for an empty table in the far corner.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3200""");
+    await flutterTts
+        .speak("""Who is that on the far left of the photograph?""");
   }
 
   Future<void> speaksentence33(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3300""");
+    await flutterTts.speak("""She is on the far right of the party.""");
   }
 
   Future<void> speaksentence34(String languageCode) async {
@@ -864,6 +872,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
+// With short examples define "far", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -872,85 +881,104 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: (لە ئەمریکا) کنگ، قون،	(لە بریتانیا) قوز، شەرم
+کوردی: دوور، دوورەدەس، دەس‌پێڕانەگەیشتوو، ئەوبەری، ئەولای، لەوبەری،	دوور،	زۆر، گەلێ، یەکجار،	تا دەرنگانی، درەنگان، درەنگ
 """),
-          const DefinitionKurdish(text: """١. (ناو) لە ئینگلیزیی بەریتانی واتا ئەندامی زاوزێی مێینە"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵکار) دوور"""),
           SentencesRow(
-            englishText:
-                """They warned her about the word fanny in the UK.""",
-            kurdishText: """ئاگاداریان کردەوە سەبارەت بە وشەی fanny لە بەریتانیا.""",
+            englishText: """We didn't go far.""",
+            kurdishText: """دوور نەچووین.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) لە ئینگلیزیی ئەمریکی واتا سمت"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """She slipped and landed on her fanny.""",
-            kurdishText: """خلیسکا و لەسەر سمتی گیرسایەوە.""",
-            onPressedBritish: () => speaksentence2("en-GB"),
-            onPressedAmerican: () => speaksentence2("en-US"),
+          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  SentencesRow(
+                    englishText: """Have you come far?""",
+                    kurdishText: """لە دوورەوە هاتوویت؟""",
+                    onPressedBritish: () => speaksentence2("en-GB"),
+                    onPressedAmerican: () => speaksentence2("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(
+                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """It's not far to the beach.""",
+                    kurdishText: """لە کەنارەکەوە زۆر دوور نییە.""",
+                    onPressedBritish: () => speaksentence3("en-GB"),
+                    onPressedAmerican: () => speaksentence3("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(
+                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """There's not far to go now.""",
+                    kurdishText: """ئێستا زۆری نەماوە بۆ ڕێکردن.""",
+                    onPressedBritish: () => speaksentence4("en-GB"),
+                    onPressedAmerican: () => speaksentence4("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(
+                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """It's too far to walk.""",
+                    kurdishText: """زۆر دوورە بۆ ڕێکردن.""",
+                    kurdishNote: "واتا باشترە بە پی نەچین",
+                    onPressedBritish: () => speaksentence5("en-GB"),
+                    onPressedAmerican: () => speaksentence5("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(
+                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """The restaurant is not far from here.""",
+                    kurdishText: """چێشتخانەکە لێرەوە دوور نییە.""",
+                    onPressedBritish: () => speaksentence6("en-GB"),
+                    onPressedAmerican: () => speaksentence6("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(
+                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """Far away in the distance, a train whistled.""",
+                    kurdishText:
+                        """لە مەودایەکی دوورەوە، شەمەندەفەرێک هۆرنی لێ‌دەدا.""",
+                    onPressedBritish: () => speaksentence7("en-GB"),
+                    onPressedAmerican: () => speaksentence7("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(
+                      text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """The farther north they went, the colder it became.""",
+                    kurdishText:
+                        """چەندە دوورتر بۆ ڕۆژئاوا دەچوون، هێندە ساردتر دەبوو.""",
+                    onPressedBritish: () => speaksentence8("en-GB"),
+                    onPressedAmerican: () => speaksentence8("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ھاوەڵکار) بۆ باسکردنی دووری دوو شوێن لە یەکەوە، یان مەودایەک کە گەشتی پێدا کراوە یان گەشتی بۆ دەکرێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence3("en-GB"),
-            onPressedAmerican: () => speaksentence3("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence4("en-GB"),
-            onPressedAmerican: () => speaksentence4("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence5("en-GB"),
-            onPressedAmerican: () => speaksentence5("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence6("en-GB"),
-            onPressedAmerican: () => speaksentence6("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence7("en-GB"),
-            onPressedAmerican: () => speaksentence7("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence8("en-GB"),
-            onPressedAmerican: () => speaksentence8("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """How far is it to your house from here?""",
+            kurdishText: """لێرەوە بۆ ماڵەکەت چەندە دوورە؟""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -958,8 +986,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_1000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """How far is Boston from New York?""",
+            kurdishText: """بۆستن چەندە لە نیویۆرک دوورە؟""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -967,8 +995,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """How much further is it?""",
+            kurdishText: """چەندی دیکە دوورە؟""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -976,8 +1004,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I'm not sure I can walk so far.""",
+            kurdishText: """دڵنیا نیم کە بتوانم هێندە دوور ڕێ بکەم.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -985,17 +1013,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We didn't go as far as the others.""",
+            kurdishText: """هێندەی ئەوانی دیکە نەچووین.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (ھاوەڵکار) کاتێکی دووڕی ئێستا؛ بۆ باسکردنی بەشی زۆری کاتێکی دیاریکراو"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """To answer that question we need to go further back in time.""",
+            kurdishText:
+                """بۆ وەڵامدانەوەی ئەو پرسیارە دەبێت زیاتر بگەڕێینەوە بە کاتدا.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
@@ -1003,8 +1035,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Let's try to plan further ahead.""",
+            kurdishText: """با هەوڵ بدەین پلانی زیاتری داهاتوو دابنێین.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -1012,8 +1044,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We worked far into the night.""",
+            kurdishText: """کارمان بۆ بەشی زۆری شەوەکە.""",
+            // add_comment
             onPressedBritish: () => speaksentence16("en-GB"),
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
@@ -1021,17 +1054,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """The film takes place in a future not too far distant.""",
+            kurdishText:
+                """فیلمەکە لە ڕابردوویەکدا ڕوودەدات کە هێندە دوور نییە.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """٤. (ھاوەڵکار) بە ئاستێکی زۆر"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """That's a far better idea.""",
+            kurdishText: """ئەوە بیرۆکەیەکی زۆر باشترە.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
@@ -1039,8 +1074,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The damage was far worse than I'd expected.""",
+            kurdishText: """زیانەکە زۆر خراپتر بوو لەوەی پێشبینیم کرد.""",
             onPressedBritish: () => speaksentence19("en-GB"),
             onPressedAmerican: () => speaksentence19("en-US"),
           ),
@@ -1048,8 +1083,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_2000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """There are far more opportunities for young people than there used to be.""",
+            kurdishText: """هەلی زۆر زیاتر بۆ گەنجاو لەچاو جاراندا.""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
@@ -1057,8 +1093,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """She always gives us far too much homework.""",
+            kurdishText: """هەمیشە ئەرکی ماڵەوە ئێجگار زۆرمان پێدەدات.""",
             onPressedBritish: () => speaksentence21("en-GB"),
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
@@ -1066,8 +1102,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The results far exceeded my expectations.""",
+            kurdishText: """ئەنجامەکان ئێجگار زۆر پێشبینییەکانمیان تێپەڕاند.""",
             onPressedBritish: () => speaksentence22("en-GB"),
             onPressedAmerican: () => speaksentence22("en-US"),
           ),
@@ -1075,17 +1111,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The benefits far outweigh the cost.""",
+            kurdishText: """سوودەکان زۆر زیاترن لە تێچووەکە.""",
             onPressedBritish: () => speaksentence23("en-GB"),
             onPressedAmerican: () => speaksentence23("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٥. (ھاوەڵکار) بۆ باسکردنی ئاستی ئەوەی شتێک ڕاستە یان دەکرێت بکرێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """How far can we trust him?""",
+            kurdishText: """چەند دەتوانین متمانەی پێ‌بکەین؟""",
             onPressedBritish: () => speaksentence24("en-GB"),
             onPressedAmerican: () => speaksentence24("en-US"),
           ),
@@ -1093,8 +1131,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """His parents supported him as far as they could.""",
+            kurdishText: """دایبابی چەندە توانیان پاڵپشتییان کرد.""",
             onPressedBritish: () => speaksentence25("en-GB"),
             onPressedAmerican: () => speaksentence25("en-US"),
           ),
@@ -1102,17 +1140,21 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Plan your route in advance, using main roads as far as possible.""",
+            kurdishText:
+                """پلانی ڕێگاکەدا لە پێشدا دابنێت، چەندە دەکرێت ڕێگای سەرەکی بەکاربهێنە.""",
             onPressedBritish: () => speaksentence26("en-GB"),
             onPressedAmerican: () => speaksentence26("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٦. (ھاوەڵکار) بۆ گوتنی ئەوەی چەندە کار کراوە لە کردن یان بەدەستهێنانی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """How far have you got with that report?""",
+            kurdishText: """چەندت لەو ڕاپۆرتە تەواو کردووە؟""",
             onPressedBritish: () => speaksentence27("en-GB"),
             onPressedAmerican: () => speaksentence27("en-US"),
           ),
@@ -1120,8 +1162,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I read as far as the third chapter.""",
+            kurdishText: """تاوەکو بەشی سێیەمم خوێندەوە.""",
             onPressedBritish: () => speaksentence28("en-GB"),
             onPressedAmerican: () => speaksentence28("en-US"),
           ),
@@ -1129,17 +1171,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """We’ve got as far as collecting our data but we haven’t analysed it yet.""",
+            kurdishText:
+                """تاوەکو کۆکردنەوەی داتا چووینە، بەڵام هێشتا شیکردنەوەمان بۆ نەکردوون.""",
             onPressedBritish: () => speaksentence29("en-GB"),
             onPressedAmerican: () => speaksentence29("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٧. (ھاوەڵناو) بە دووریەکی زیاتر لە تۆ"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_3000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I saw her on the far side of the road.""",
+            kurdishText: """لەسەر لا دوورەکەی ڕێگاکە دیم.""",
             onPressedBritish: () => speaksentence30("en-GB"),
             onPressedAmerican: () => speaksentence30("en-US"),
           ),
@@ -1147,17 +1192,19 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """They made for an empty table in the far corner.""",
+            kurdishText: """چوونە مێزێکی بەتاڵ لە سووچە دوورەکە.""",
             onPressedBritish: () => speaksentence31("en-GB"),
             onPressedAmerican: () => speaksentence31("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٨. (ھاوەڵناو) لە دوورترین خاڵەوە لە ئاراستەیەکی دیاریکراوەوە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Who is that on the far left of the photograph?""",
+            kurdishText: """ئەوە کێیە لە ئەوپەڕی چەپی وێنەکەوە؟""",
             onPressedBritish: () => speaksentence32("en-GB"),
             onPressedAmerican: () => speaksentence32("en-US"),
           ),
@@ -1165,8 +1212,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """She is on the far right of the party (= holds extreme right-wing political views).""",
+            kurdishText: """لە ئەوپەڕی ڕاستڕەوی پارتەکەیە.""",
             onPressedBritish: () => speaksentence33("en-GB"),
             onPressedAmerican: () => speaksentence33("en-US"),
           ),
@@ -1670,12 +1718,34 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fanny (Derived forms: fannies)
-Usage: vulgar
-1. [N. Amer, vulgar, informal] The fleshy part of the human body that you sit on (= buttocks, nates [technical], butt [N. Amer, informal], backside, bum [Brit, informal], buns [N. Amer, informal], can [N. Amer, informal], fundament, hindquarters, hind end, posterior, rear [informal], rear end [informal], rump, stern [informal], seat, tail [N. Amer, informal], tail end, tooshie [informal], tush [N. Amer, informal], bottom, behind, derriere, bahookie [UK, dialect, informal], botty [informal], heinie [US, informal], duff [N. Amer, informal], booty [N. Amer, informal], patootie [US, informal], tushy [N. Amer, informal], derrière)
-"are you going to sit on your fanny and do nothing?";
+- Adverb: far
+1. To a considerable degree; very much
+"felt far worse than yesterday"; "eyes far too close together"; "a far far better thing that I do"
  
-2. [Brit, vulgar] External female sex organs (= female genitalia, female genitals, female genital organ)
+2. At, to or from a great distance in space
+"he travelled far"; "strayed far from home"; "sat far away from each other"
+ 
+3. At or to a certain point or degree
+"I can only go so far before I have to give up"; "how far can we get with this kind of argument?"
+ 
+4. Remote in time
+"if we could see far into the future"; "all that happened far in the past"
+ 
+5. To an advanced stage or point
+"a young man who will go very far"
+
+- Adjective: far
+1. Located at a great distance in time, space or degree
+"we come from a far country"; "far corners of the earth"; "the far future"; "a far journey"; "the far side of the road"; "far from the truth"; "far in the future"
+ 
+2. Being of a considerable distance or length
+"a far trek"
+ 
+3. Being the animal or vehicle on the right or being on the right side of an animal or vehicle
+"the horse on the right is the far horse"; "the right side is the far side of the horse"
+ 
+4. Beyond a norm in opinion or actions
+"the far right"
 """,
   );
 
@@ -1700,18 +1770,18 @@ Usage: vulgar
   }
 }
 
-const String _videoIdend = 'https://youtu.be/vIfGgDnmBXg?t=';
-const double _startSecondsend = 000000000000000000000000000194;
-const String _videoIdone = 'https://youtu.be/4bGNm5jqwLg?t=';
-const double _startSecondsone = 00000000000000000000000000056;
-const String _videoIdtwo = 'https://youtu.be/fiVYYbZSnFw?t=';
-const double _startSecondstwo = 00000000000000000000000000055;
-const String _videoIdthree = 'https://youtu.be/Dx_-u7p5Rjs?t=';
-const double _startSecondsthree = 000000000000000000000000000493;
-const String _videoIdfour = 'https://youtu.be/msuXu-uAJ5U?t=';
-const double _startSecondsfour = 000000000000000000000000000183;
-const String _videoIdfive = 'https://youtu.be/HDpkWkA3CLc?t=';
-const double _startSecondsfive = 000000000000000000000000000132;
+const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
+const double _startSecondsend = 000000000000000000000000000363;
+const String _videoIdone = 'https://youtu.be/hS2x1zl4rn0?t=';
+const double _startSecondsone = 0000000000000000000000000001139;
+const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
+const double _startSecondstwo = 0000000000000000000000000002400;
+const String _videoIdthree = 'https://youtu.be/gngPQ771Ahk?t=';
+const double _startSecondsthree = 0000000000000000000000000002819;
+const String _videoIdfour = 'https://youtu.be/8AGNsvNFUGw?t=';
+const double _startSecondsfour = 00000000000000000000000000024;
+const String _videoIdfive = 'https://youtu.be/AFS6saV981Q?t=';
+const double _startSecondsfive = 000000000000000000000000000499;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

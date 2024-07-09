@@ -230,7 +230,7 @@ class EnglishEntrybaby extends StatelessWidget {
                         YoutubeEmbeddedten(),
                         YoutubeEmbeddedeleven(),
                         YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
+                        YoutubeEmbeddedthirteen(),
                         // YoutubeEmbeddeddfourteen(),
                         // YoutubeEmbeddedfifteen(),
                       ],
@@ -732,6 +732,35 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
 
   final String _videoId = 'kotvD71nW0Q';
   final double _startSeconds = 674;
+
+  @override
+  Widget build(BuildContext context) {
+    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoId,
+      startSeconds: _startSeconds,
+      autoPlay: true,
+      params: defaultYoutubePlayerParams,
+    );
+
+    void reloadVideo() {
+      controller.loadVideoById(
+        videoId: _videoId,
+        startSeconds: _startSeconds,
+      );
+    }
+
+    return YouTubeVideosScaffoldEnd(
+      controller: controller,
+      onReloadVideo: reloadVideo,
+    );
+  }
+}
+
+class YoutubeEmbeddedthirteen extends StatelessWidget {
+  const YoutubeEmbeddedthirteen({super.key});
+
+  final String _videoId = 'tU8aYj9d6TI';
+  final double _startSeconds = 88;
 
   @override
   Widget build(BuildContext context) {

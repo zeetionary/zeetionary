@@ -2613,6 +2613,11 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // en_entry_fantastically.dart' show EnglishEntryfantastically
 // en_entry_fantasy.dart' show EnglishEntryfantasy
 // en_entry_far.dart' show EnglishEntryfar
+// en_entry_faraway.dart' show EnglishEntryfaraway
+// en_entry_far_fetched.dart' show EnglishEntryfarfetched //// فففف far-fetched
+// en_entry_far_off.dart' show EnglishEntryfaroff //// فففف far-off
+// en_entry_far_reaching.dart' show EnglishEntryfarreaching //// فففف far-reaching
+// en_entry_far_sighted.dart' show EnglishEntryfarsighted //// فففف far-sighted
 // en_entry_thefareast.dart' show EnglishEntrythefareast //// ffff the Far East
 // en_entry_farce.dart' show EnglishEntryfarce
 // en_entry_farcical.dart' show EnglishEntryfarcical
@@ -2633,44 +2638,32 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // en_entry_fashionable.dart' show EnglishEntryfashionable
 // en_entry_fast.dart' show EnglishEntryfast
 // en_entry_fasten.dart' show EnglishEntryfasten
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_fastener.dart' show EnglishEntryfastener
+// en_entry_fastidious.dart' show EnglishEntryfastidious
+// en_entry_fastidiously.dart' show EnglishEntryfastidiously
+// en_entry_fat.dart' show EnglishEntryfat
+// en_entry_fatness.dart' show EnglishEntryfatness
+// en_entry_fatal.dart' show EnglishEntryfatal
+// en_entry_fatally.dart' show EnglishEntryfatally
+// en_entry_fatalism.dart' show EnglishEntryfatalism
+// en_entry_fatalist.dart' show EnglishEntryfatalist
+// en_entry_fatality.dart' show EnglishEntryfatality
+// en_entry_fate.dart' show EnglishEntryfate
+// en_entry_fateful.dart' show EnglishEntryfateful
+// en_entry_father.dart' show EnglishEntryfather
+// en_entry_father_christmas.dart' show EnglishEntryfatherchristmas //// ffff Father Christmas
+// en_entry_father_in_law.dart' show EnglishEntryfatherinlaw //// فففف father-in-law
+// en_entry_fatherland.dart' show EnglishEntryfatherland
+// en_entry_fatherly.dart' show EnglishEntryfatherly
+// en_entry_fathom.dart' show EnglishEntryfathom
+// en_entry_fathomless.dart' show EnglishEntryfathomless
+// en_entry_fatigue.dart' show EnglishEntryfatigue
+// en_entry_fatten.dart' show EnglishEntryfatten
+// en_entry_fatty.dart' show EnglishEntryfatty
+// en_entry_fatuous.dart' show EnglishEntryfatuous
+// en_entry_fatuously.dart' show EnglishEntryfatuously
+// en_entry_faucet.dart' show EnglishEntryfaucet
+// en_entry_fault.dart' show EnglishEntryfault
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

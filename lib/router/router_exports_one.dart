@@ -2664,9 +2664,9 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // en_entry_fatuously.dart' show EnglishEntryfatuously
 // en_entry_faucet.dart' show EnglishEntryfaucet
 // en_entry_fault.dart' show EnglishEntryfault
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_faultless.dart' show EnglishEntryfaultless
+// en_entry_faultlessly.dart' show EnglishEntryfaultlessly
+// en_entry_faulty.dart' show EnglishEntryfaulty
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

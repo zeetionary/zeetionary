@@ -2667,21 +2667,21 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_e/en_en
 // en_entry_faultless.dart' show EnglishEntryfaultless
 // en_entry_faultlessly.dart' show EnglishEntryfaultlessly
 // en_entry_faulty.dart' show EnglishEntryfaulty
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_fauna.dart' show EnglishEntryfauna
+// en_entry_faux_pas.dart' show EnglishEntryfauxpas //// فففف faux pas
+// en_entry_favour.dart' show EnglishEntryfavour
+// en_entry_favourable.dart' show EnglishEntryfavourable
+// en_entry_favourably.dart' show EnglishEntryfavourably
+// en_entry_favourite.dart' show EnglishEntryfavourite
+// en_entry_favouritism.dart' show EnglishEntryfavouritism
+// en_entry_fawn.dart' show EnglishEntryfawn
+// en_entry_fax.dart' show EnglishEntryfax
+// en_entry_fbi.dart' show EnglishEntryfbi //// ffff FBI
+// en_entry_fear.dart' show EnglishEntryfear
+// en_entry_fearful.dart' show EnglishEntryfearful
+// en_entry_fearfully.dart' show EnglishEntryfearfully
+// en_entry_fearless.dart' show EnglishEntryfearless
+// en_entry_fearlessly.dart' show EnglishEntryfearlessly
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

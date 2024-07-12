@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryfeminist extends StatefulWidget {
+  const EnglishEntryfeminist({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryfeminist> createState() => _EnglishEntryfeministState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryfeministState extends State<EnglishEntryfeminist> {
   @override
   void initState() {
     super.initState();
@@ -51,16 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: feminist (Derived forms: feminists)
+1. A supporter of feminism (= women's rightist, women's liberationist, libber [informal], liberationist)
 
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: feminist
+1. Of or relating to or advocating equal rights for women
+"feminist critique"
 """,
   );
-// speaksentence10002200000011110000000000000000
 
-  final String keyword = "dopsum1";
-  List<Map<String, dynamic>> filteredSentences = []; 
+  final String keyword = "feminist";
+  List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -79,15 +80,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""feminist""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""// speaksentence1000000000001111000000000000000000000""");
+    await flutterTts.speak("""All her life she was an ardent feminist.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -729,10 +729,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """feminist""",
+                      // alsoEnglishWord: "also: feminist",
+                      britshText: """IpaUK: /ˈfemənɪst/""",
+                      americanText: """IpaUS: /ˈfemənɪst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -775,12 +775,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
+// With short examples define "feminist", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە باوەڕی بەوە هەیە کە ژنان دەبێت هەمان هەل و مافی پیاوانیان هەبێت"""),
                     SentencesRow(
                       englishText:
-                          """// speaksentence1000000000001111000000000000000000000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                          """All her life she was an ardent feminist.""",
+                      kurdishText: """تەواوی ژیانی فێمینیستێکی کۆڵنەدەر بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1681,20 +1683,18 @@ haʊʊʊʊʊʊʊ4
   }
 }
 
-// speaksentence10002200000011110000000000000000
-const String _videoIdend = '';
-const double _startSecondsend = 000000000000000000000000000;
-const String _videoIdone = '';
-const double _startSecondsone = 000000000000000000000000000;
-const String _videoIdtwo = '';
-const double _startSecondstwo = 000000000000000000000000000;
-const String _videoIdthree = '';
-const double _startSecondsthree = 000000000000000000000000000;
-const String _videoIdfour = '';
-const double _startSecondsfour = 000000000000000000000000000;
-const String _videoIdfive = '';
-const double _startSecondsfive = 000000000000000000000000000;
-// speaksentence1000000000001111000000000000000000000
+const String _videoIdend = 'https://youtu.be/DEFD9TSHg_A?t=';
+const double _startSecondsend = 000000000000000000000000000185;
+const String _videoIdone = 'https://youtu.be/hkO8qXCFYWA?t=';
+const double _startSecondsone = 0000000000000000000000000001582;
+const String _videoIdtwo = 'https://youtu.be/B1r4Z3nXPVA?t=';
+const double _startSecondstwo = 000000000000000000000000000535;
+const String _videoIdthree = 'https://youtu.be/NOXSz3nJgTs?t=';
+const double _startSecondsthree = 000000000000000000000000000123;
+const String _videoIdfour = 'https://youtu.be/slZKqXY-k-U?t=';
+const double _startSecondsfour = 00000000000000000000000000028;
+const String _videoIdfive = 'https://youtu.be/BBnlC9lrKVM?t=';
+const double _startSecondsfive = 000000000000000000000000000926;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
@@ -1853,593 +1853,3 @@ class YoutubeEmbeddedfive extends StatelessWidget {
 }
 
 // end WORD_WEB
-
-// eeeeeeeeeeeeeeeeeeeeeeeeee  ەەەەەەەەەەەەەەەەەەەەەەە
-
-// new design was done for: abridgement
-
-// search for CustomTabBar
-
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-
-// vvvvvvvvvvvvvvvvvvvvvvvvvvv
-
-const String _videoIdsix = 'VIDEO_ID';
-const double _startSecondssix = 000000000000000000000000000;
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoIdsix,
-      startSeconds: _startSecondssix,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoIdsix,
-        startSeconds: _startSecondssix,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  const YoutubeEmbeddedten({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 0;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  const YoutubeEmbeddedeleven({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  const YoutubeEmbeddedtwelve({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthirteen extends StatelessWidget {
-  const YoutubeEmbeddedthirteen({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddeddfourteen extends StatelessWidget {
-  const YoutubeEmbeddeddfourteen({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfifteen extends StatelessWidget {
-  const YoutubeEmbeddedfifteen({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddeddsixteen extends StatelessWidget {
-  const YoutubeEmbeddeddsixteen({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddeddseventeen extends StatelessWidget {
-  const YoutubeEmbeddeddseventeen({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddeddeighteen extends StatelessWidget {
-  const YoutubeEmbeddeddeighteen({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddeddnineteen extends StatelessWidget {
-  const YoutubeEmbeddeddnineteen({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 0;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwenty extends StatelessWidget {
-  const YoutubeEmbeddedtwenty({super.key});
-
-  final String _videoId = 'VIDEOID';
-  final double _startSeconds = 000;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeVideos extends StatelessWidget {
-  const YoutubeVideos({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const YouTubeScroller(
-      children: [
-        YoutubeEmbeddedone(),
-        YoutubeEmbeddedtwo(),
-        YoutubeEmbeddedthree(),
-        YoutubeEmbeddedfour(),
-        YoutubeEmbeddedfive(),
-        // YoutubeEmbeddedsix(),
-        // YoutubeEmbeddedseven(),
-        // YoutubeEmbeddedeight(),
-        // YoutubeEmbeddednine(),
-        // YoutubeEmbeddedten(),
-        // YoutubeEmbeddedeleven(),
-        // YoutubeEmbeddedtwelve(),
-        // YoutubeEmbeddedthirteen(),
-        // YoutubeEmbeddeddfourteen(),
-        // YoutubeEmbeddedfifteen(),
-        // YoutubeEmbeddeddsixteen(),
-        // YoutubeEmbeddeddseventeen(),
-        // YoutubeEmbeddeddeighteen(),
-        // YoutubeEmbeddeddnineteen(),
-        // YoutubeEmbeddedtwenty(),
-        // YoutubeEmbeddedmulti(),
-        YoutubeEmbeddedend(),
-      ],
-    );
-  }
-}
-
-// mmmmmmmmmmmmmmmmmmmmmmm
-
-// divider
-// divider
-// divider
-// divider
-// divider
-// divider
-
-class YoutubeEmbeddedmulti extends StatelessWidget {
-  YoutubeEmbeddedmulti({super.key});
-
-  final _controller = YoutubePlayerController.fromVideoId(
-    videoId: 'GfaypJIDolk',
-    startSeconds: 200,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  final _controllertwo = YoutubePlayerController.fromVideoId(
-    videoId: 'GfaypJIDolk',
-    startSeconds: 200,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  final _controllerthree = YoutubePlayerController.fromVideoId(
-    videoId: 'GfaypJIDolk',
-    startSeconds: 200,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  final _controllerfour = YoutubePlayerController.fromVideoId(
-    videoId: 'GfaypJIDolk',
-    startSeconds: 200,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  final _controllerfive = YoutubePlayerController.fromVideoId(
-    videoId: 'GfaypJIDolk',
-    startSeconds: 200,
-    autoPlay: true,
-    params: const YoutubePlayerParams(
-      enableCaption: true,
-      captionLanguage: 'en',
-      showControls: false,
-      strictRelatedVideos: true,
-    ),
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: SingleChildScrollView(
-        child: Column(
-          children: [
-            YouTubeContainerDesignNew(controller: _controller),
-            YouTubeContainerDesignNew(controller: _controllertwo),
-            YouTubeContainerDesignNew(controller: _controllerthree),
-            YouTubeContainerDesignNew(controller: _controllerfour),
-            YouTubeContainerDesignNew(controller: _controllerfive),
-          ],
-        ),
-      ),
-    );
-  }
-}

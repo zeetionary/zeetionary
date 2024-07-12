@@ -931,7 +931,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٩. (کردار) پێچەوانەبوونی کەسێک/شتێک"""),
+              text: """٩. (کردار) وەستان بەشێوەیەک ڕووت لە کەسێک/شتێک بێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She turned and faced him.""",

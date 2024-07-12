@@ -148,6 +148,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
   void navigateToScreen(BuildContext context, String word) {
     final screenRoutes = {
       "aback": "/history-screen/aback",
+      "feign": "/history-screen/feign",
       "deer": "/history-screen/deer",
     };
 

@@ -151,67 +151,21 @@ class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
               itemCount: filteredSentences.length,
               itemBuilder: (context, index) {
                 final sentence = filteredSentences[index];
-                return SingleChildScrollView(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.end,
-                      children: [
-                        Row(
-                          children: [
-                            Expanded(
-                              child: Column(
-                                children: [
-                                  Align(
-                                    alignment: Alignment.topLeft,
-                                    child: DatabaseUtils.instance.highlightText(
-                                      sentence['english'].toString(),
-                                      keyword,
-                                      ref,
-                                      context,
-                                    ),
-                                  ),
-                                  Directionality(
-                                    textDirection: TextDirection.rtl,
-                                    child: Align(
-                                      alignment: Alignment.topRight,
-                                      child:
-                                          DatabaseUtils.instance.highlightText(
-                                        sentence['french'].toString(),
-                                        keyword,
-                                        ref,
-                                        context,
-                                      ),
-                                    ),
-                                  ),
-                                ],
-                              ),
-                            ),
-                            const CustomSizedBoxForTTS(),
-                            Column(
-                              children: [
-                                CustomIconButtonBritish(
-                                  onPressed: () => speakEnglish(
-                                    sentence['english'].toString(),
-                                    languageCode: "en-GB",
-                                  ),
-                                ),
-                                CustomIconButtonAmerican(
-                                  onPressed: () => speakEnglish(
-                                    sentence['english'].toString(),
-                                    languageCode: "en-US",
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ],
-                        ),
-                        if (filteredSentences.length > 1 &&
-                            index != filteredSentences.length - 1)
-                          const DividerSentences(),
-                      ],
-                    ),
+                final showDivider = filteredSentences.length > 1 &&
+                    index != filteredSentences.length - 1;
+                return CustomSentenceWidget(
+                  englishText: sentence['english'].toString(),
+                  frenchText: sentence['french'].toString(),
+                  keyword: keyword,
+                  onPressedBritish: () => speakEnglish(
+                    sentence['english'].toString(),
+                    languageCode: "en-GB",
                   ),
+                  onPressedAmerican: () => speakEnglish(
+                    sentence['english'].toString(),
+                    languageCode: "en-US",
+                  ),
+                  showDivider: showDivider,
                 );
               },
             );

@@ -60,8 +60,8 @@ ${englishMeaningConst.text}
 """,
   );
 
-  final String keyword = "new";
-  List<Map<String, dynamic>> filteredSentences = []; 
+  final String keyword = "feign";
+  List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -87,8 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""He survived the massacre by feigning death.""");
+    await flutterTts.speak("""He survived the massacre by feigning death.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -102,7 +101,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The prosecution claimed that the defendant had feigned the injury.""");
+    await flutterTts.speak(
+        """The prosecution claimed that the defendant had feigned the injury.""");
   }
 
   @override
@@ -161,32 +161,35 @@ ${englishMeaningConst.text}
                 ),
               ),
               SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
+                child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-//                     const KurdishVocabulary(text: """
-// کوردی: 
-// """),
-                    const DefinitionKurdish(text: """١. (کردار) وەھا پیشاندانی ئەوەی کە ھەستێکی دیاریکراوت ھەیە یان نەخۆشیت، ماندوویت، ھتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) وەھا پیشاندانی ئەوەی کە ھەستێکی دیاریکراوت ھەیە یان نەخۆشیت، ماندوویت، ھتد"""),
                     SentencesRow(
                       englishText:
                           """He survived the massacre by feigning death.""",
-                      kurdishText: """لە کۆمەڵکوژییەکە ڕزگاری بوو بە خۆپیشاندان وەک مردوو.""",
+                      kurdishText:
+                          """لە کۆمەڵکوژییەکە ڕزگاری بوو بە خۆپیشاندان وەک مردوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She feigned sleep to avoid having to answer.""",
-                      kurdishText: """خۆی کرد بە خەوتوو بۆ ئەوەی وەڵام نەداتەوە.""",
+                      englishText:
+                          """She feigned sleep to avoid having to answer.""",
+                      kurdishText:
+                          """خۆی کرد بە خەوتوو بۆ ئەوەی وەڵام نەداتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The prosecution claimed that the defendant had feigned the injury.""",
-                      kurdishText: """دەستەی لێکۆڵینەوە گوتی کە بەرگریکار برینەکەی ساختە کردبوو.""",
+                      englishText:
+                          """The prosecution claimed that the defendant had feigned the injury.""",
+                      kurdishText:
+                          """دەستەی لێکۆڵینەوە گوتی کە بەرگریکار برینەکەی ساختە کردبوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -202,68 +205,21 @@ ${englishMeaningConst.text}
                       itemCount: filteredSentences.length,
                       itemBuilder: (context, index) {
                         final sentence = filteredSentences[index];
-                        return SingleChildScrollView(
-                          child: Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.end,
-                              children: [
-                                Row(
-                                  children: [
-                                    Expanded(
-                                      child: Column(
-                                        children: [
-                                          Align(
-                                            alignment: Alignment.topLeft,
-                                            child: DatabaseUtils.instance
-                                                .highlightText(
-                                              sentence['english'].toString(),
-                                              keyword,
-                                              ref,
-                                              context,
-                                            ),
-                                          ),
-                                          Directionality(
-                                            textDirection: TextDirection.rtl,
-                                            child: Align(
-                                              alignment: Alignment.topRight,
-                                              child: DatabaseUtils.instance
-                                                  .highlightText(
-                                                sentence['french'].toString(),
-                                                keyword,
-                                                ref,
-                                                context,
-                                              ),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    ),
-                                    const CustomSizedBoxForTTS(),
-                                    Column(
-                                      children: [
-                                        CustomIconButtonBritish(
-                                          onPressed: () => speakEnglish(
-                                            sentence['english'].toString(),
-                                            languageCode: "en-GB",
-                                          ),
-                                        ),
-                                        CustomIconButtonAmerican(
-                                          onPressed: () => speakEnglish(
-                                            sentence['english'].toString(),
-                                            languageCode: "en-US",
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ],
-                                ),
-                                if (filteredSentences.length > 1 &&
-                                    index != filteredSentences.length - 1)
-                                  const DividerSentences(),
-                              ],
-                            ),
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
                           ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
                         );
                       },
                     );

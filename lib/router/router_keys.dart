@@ -11459,6 +11459,7 @@ final Map<String, PageBuilder> routes = {
   // history
   // history
   "/history-screen/aback": (_) => _blP(const EnglishEntryaback()),
+  "/history-screen/feign": (_) => _blP(const EnglishEntryfeign()),
   "/history-screen/deer": (_) => _blP(const EnglishEntrydeer()),
   // bookmarks
   // bookmarks

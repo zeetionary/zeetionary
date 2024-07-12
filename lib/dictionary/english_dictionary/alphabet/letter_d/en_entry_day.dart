@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
@@ -14,202 +15,96 @@ class EnglishEntryday extends StatefulWidget {
 
 class _EnglishEntrydayState extends State<EnglishEntryday> {
   @override
-  Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: NestedScrollView(
-          headerSliverBuilder: (context, innerBoxIsScrolled) {
-            return [
-              const SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
-                flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
-                ),
-                automaticallyImplyLeading: false,
-                bottom: TabBar(
-                  tabs: [
-                    UkIconForTab(),
-                    KurdIconForTab(),
-                    VideoIconForTab(),
-                  ],
-                ),
-              ),
-            ];
-          },
-          body: TabBarView(
-            children: [
-              const EnglishMeaning(),
-              KurdishMeaning(),
-              const YoutubeVideos(),
-            ],
-          ),
-        ),
-      ),
-    );
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
   }
-}
 
-class EntryAndIPA extends StatelessWidget {
-  const EntryAndIPA({
-    super.key,
-  });
+  FlutterTts flutterTts = FlutterTts();
 
-  @override
-  Widget build(BuildContext context) {
-    return const SingleChildScrollView(
-      child: Column(
-        children: [
-          Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  TitleOfEntry(),
-                ],
-              ),
-              // TitleOfEntryAlso(),
-              IpaUK(),
-              IpaUS(),
-            ],
-          ),
-        ],
-      ),
-    );
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
   }
-}
 
-class TitleOfEntry extends StatelessWidget {
-  const TitleOfEntry({
-    super.key,
-  });
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
 
-  @override
-  Widget build(BuildContext context) {
-    return const EntryTitle(word: "day");
+    setState(() {
+      isSpeaking = false;
+    });
   }
-}
 
-class TitleOfEntryAlso extends StatelessWidget {
-  const TitleOfEntryAlso({
-    super.key,
-  });
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: day (derived forms: days)
+1. Time for Earth to make a complete rotation on its axis (= twenty-four hours, twenty-four hour period, 24-hour interval, solar day, mean solar day)
+"two days later they left"; "they put on two performances every day"; "there are 30,000 passengers per day";
+ 
+2. A point or period in time
+"it should arrive any day now"; "after that day she never trusted him again"; "those were the days"; "these days it is not unusual"
+ 
+3. A day assigned to a particular purpose or observance
+"Mother's Day"
+ 
+4. The time after sunrise and before sunset while it is light outside (= daytime, daylight)
+"the dawn turned night into day";
+ 
+5. The recurring hours when you are not sleeping (especially those when you are working)
+"my day began early this morning"; "it was a busy day on the stock exchange"; "she called it a day and went to bed"
+ 
+6. An era of existence or influence
+"in the day of the dinosaurs"; "in the days of the Roman Empire"; "in the days of sailing ships"; "he was a successful pianist in his day"
+ 
+7. The period of time taken by a particular planet (e.g. Mars) to make a complete rotation on its axis
+"how long is a day on Jupiter?"
+ 
+8. The time for one complete rotation of the earth relative to a particular star, about 4 minutes shorter than a mean solar day (= sidereal day)
+ 
+9. A period of opportunity
+"he deserves his day in court"; "every dog has his day"
 
-  @override
-  Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: day");
+- Noun: Day
+1. United States writer best known for his autobiographical works (1874-1935) (= Clarence Day, Clarence Shepard Day Jr.)
+""",
+  );
+
+  final String keyword = "day";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
   }
-}
 
-class IpaUK extends StatelessWidget {
-  const IpaUK({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUK(),
-        const IpaUKtext(),
-      ],
-    );
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
   }
-}
 
-class IpaUKtext extends StatelessWidget {
-  const IpaUKtext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUK: /deɪ/");
-  }
-}
-
-class TTSUK extends StatelessWidget {
-  TTSUK({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakday(String languageCode) async {
-    // DOPSUM: CHANGE speakday
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("day");
+    await flutterTts.speak("""day""");
   }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonBritish(
-      onPressed: () => speakday("en-GB"),
-    );
-  }
-}
-
-class IpaUS extends StatelessWidget {
-  const IpaUS({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      children: [
-        TTSUS(),
-        const IpaUStext(),
-      ],
-    );
-  }
-}
-
-class IpaUStext extends StatelessWidget {
-  const IpaUStext({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const IPAofEnglish(text: "IpaUS: /deɪ/");
-  }
-}
-
-class TTSUS extends StatelessWidget {
-  TTSUS({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakday(String languageCode) async {
-    // DOPSUM: CHANGE speakday
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("day");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return CustomIconButtonAmerican(
-      onPressed: () => speakday("en-US"),
-    );
-  }
-}
-
-class KurdishMeaning extends StatelessWidget {
-  KurdishMeaning({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakdays1(String languageCode) async {
     // DOPSUM: CHANGE speakday
@@ -410,304 +305,334 @@ class KurdishMeaning extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: ڕۆژ، شەووڕۆژ، ماوەی ٢٤ کات‌ژمێر،	ڕۆژی کارکردن، سەردەم، ڕۆژگار، زەمانە، سەروبەند، قۆناخ،	(خوازە) ڕقەبەرایەتی، بەربەەرکانی، ڕکەبەری، کێشە، ململانێ، شەڕ
-"""),
-          const DefinitionKurdish(
-              text: "١. (ناو) ڕۆژێک؛ ماوەیەک کە ٢٤ کاتژمێرە"),
-          SentencesRow(
-            englishText: "I go to the gym every day.",
-            kurdishText: "ھەموو ڕۆژ دەچم بۆ جیم.", // day
-            onPressedBritish: () => speakdays1("en-GB"),
-            onPressedAmerican: () => speakdays1("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "We spent five days in Paris.",
-            kurdishText: "پێنج ڕۆژمان لە پاریس بەسەربرد.",
-            onPressedBritish: () => speakdays2("en-GB"),
-            onPressedAmerican: () => speakdays2("en-US"),
-          ),
-          Column(
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        appBar: const ZeetionaryAppbar(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              SliverAppBar(
+                pinned: true,
+                floating: true,
+                expandedHeight: 220.0,
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """day""",
+                      // alsoEnglishWord: "also: day",
+                      britshText: """IpaUK: /deɪ/""",
+                      americanText: """IpaUS: /deɪ/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                automaticallyImplyLeading: false,
+                bottom: const TabBar(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
             children: [
-              MyExpansionTile(
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const DividerDefinition(),
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    const DividerDefinition(),
+                    const KurdishVocabulary(text: """
+کوردی: ڕۆژ، شەووڕۆژ، ماوەی ٢٤ کات‌ژمێر،	ڕۆژی کارکردن، سەردەم، ڕۆژگار، زەمانە، سەروبەند، قۆناخ
+"""),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) ڕۆژێک؛ ماوەیەک کە ٢٤ کاتژمێرە"),
+                    SentencesRow(
+                      englishText: "I go to the gym every day.",
+                      kurdishText: "ھەموو ڕۆژ دەچم بۆ جیم.", // day
+                      onPressedBritish: () => speakdays1("en-GB"),
+                      onPressedAmerican: () => speakdays1("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "We spent five days in Paris.",
+                      kurdishText: "پێنج ڕۆژمان لە پاریس بەسەربرد.",
+                      onPressedBritish: () => speakdays2("en-GB"),
+                      onPressedAmerican: () => speakdays2("en-US"),
+                    ),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText: "I saw Tom three days ago.",
+                              kurdishText: "سێ ڕۆژ پێش ئێستا تۆمم بینی.",
+                              onPressedBritish: () => speakdays3("en-GB"),
+                              onPressedAmerican: () => speakdays3("en-US"),
+                            ),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: "We're going away in a few days.",
+                              kurdishText: "بۆ پێنج ڕۆژ لێرە نابین.",
+                              onPressedBritish: () => speakdays4("en-GB"),
+                              onPressedAmerican: () => speakdays4("en-US"),
+                            ),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  "The house should be ready in a few days' time.",
+                              kurdishText:
+                                  "خانووەکە دەبێت لە ماوەی چەند ڕۆژێکی کەمدا ئامادە بێت.",
+                              onPressedBritish: () => speakdays5("en-GB"),
+                              onPressedAmerican: () => speakdays5("en-US"),
+                            ),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  "The situation has been deteriorating for the past few days.",
+                              kurdishText:
+                                  "دۆخەکە لە ماوەی چەند ڕۆژی داھاتوودا خراپتر بووە.",
+                              onPressedBritish: () => speakdays6("en-GB"),
+                              onPressedAmerican: () => speakdays6("en-US"),
+                            ),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  "On that day Rosa Parks did something that changed history.",
+                              kurdishText:
+                                  "لەو ڕۆژەدا ڕۆزا پارکس شتێکی کرد کە مێژووی گۆڕی.",
+                              onPressedBritish: () => speakdays7("en-GB"),
+                              onPressedAmerican: () => speakdays7("en-US"),
+                            ),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: "I saw her again the next day.",
+                              kurdishText: "ڕۆژی دواتر دیمەوە.",
+                              onPressedBritish: () => speakdays8("en-GB"),
+                              onPressedAmerican: () => speakdays8("en-US"),
+                            ),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: "He resigned the following day.",
+                              kurdishText: "ڕۆژی دواتر دەستی لەکارکێشایەوە.",
+                              onPressedBritish: () => speakdays9("en-GB"),
+                              onPressedAmerican: () => speakdays9("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: "٢. (ناو) ڕۆژ؛ ئەو ماوەیەی ڕۆژێک کە تاریک نییە"),
+                    SentencesRow(
+                      englishText: "What a beautiful day!",
+                      kurdishText: "چی ڕۆژێکی جوانە!",
+                      onPressedBritish: () => speakdays10("en-GB"),
+                      onPressedAmerican: () => speakdays10("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "The sun was shining all day.",
+                      kurdishText: "خۆر تەواوی ڕۆژەکە دەگەشایەوە.",
+                      onPressedBritish: () => speakdays11("en-GB"),
+                      onPressedAmerican: () => speakdays11("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "I could sit and watch the river all day long.",
+                      kurdishText:
+                          "دەمتوانی تەواوی ڕۆژەکە دابنیشم و سەیری ڕووبارەکە بکەم.",
+                      onPressedBritish: () => speakdays12("en-GB"),
+                      onPressedAmerican: () => speakdays12("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "He works at night and sleeps during the day.",
+                      kurdishText: "لە شەودا کار دەکات و بە ڕۆژ دەخەوێت.",
+                      onPressedBritish: () => speakdays13("en-GB"),
+                      onPressedAmerican: () => speakdays13("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Memories of happy days on the hills never fade.",
+                      kurdishText:
+                          "یادەوەرییەکانی ڕۆژە خۆشەکان لەسەر گردەکان ھەرگیز کاڵ نابنەوە.",
+                      onPressedBritish: () => speakdays14("en-GB"),
+                      onPressedAmerican: () => speakdays14("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            "٣. (ناو) ئەو کاتانەی ڕۆژ کە چالاکیت و کار دەکەیت"),
+                    SentencesRow(
+                      englishText: "Have a nice day!",
+                      kurdishText: "ڕۆژێکی خۆش.",
+                      onPressedBritish: () => speakdays15("en-GB"),
+                      onPressedAmerican: () => speakdays15("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "Did you have a good day?",
+                      kurdishText: "ڕۆژێکی خۆشت ھەبوو؟",
+                      onPressedBritish: () => speakdays16("en-GB"),
+                      onPressedAmerican: () => speakdays16("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "It's been a long day (= I've been very busy).",
+                      kurdishText: "ڕۆژێکی درێژ بووە.",
+                      onPressedBritish: () => speakdays17("en-GB"),
+                      onPressedAmerican: () => speakdays17("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "She didn't do a full day's work.",
+                      kurdishText: "کاری ڕۆژێکی تەواوی نەکرد.",
+                      onPressedBritish: () => speakdays18("en-GB"),
+                      onPressedAmerican: () => speakdays18("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: "٤. (ناو) ماوەیەکی دیاریکراوی کاتێک یان مێژوو"),
+                    SentencesRow(
+                      englishText:
+                          "He was the biggest star in Hollywood in those days.",
+                      kurdishText: "لەو ماوەدا گەورەترین ئەستێرەی ھۆڵیوود بوو.",
+                      onPressedBritish: () => speakdays19("en-GB"),
+                      onPressedAmerican: () => speakdays19("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Much has changed since the days of my youth.",
+                      kurdishText: "زۆر شت گۆڕاوە لە سەردەمانی گەنجییەتیمەوە.",
+                      onPressedBritish: () => speakdays20("en-GB"),
+                      onPressedAmerican: () => speakdays20("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "That was in the bad old days of rampant inflation.",
+                      kurdishText:
+                          "ئەوە لە ماوەی خراپی ھەڵاوسانی ئابووری بەرز بوو.",
+                      onPressedBritish: () => speakdays21("en-GB"),
+                      onPressedAmerican: () => speakdays21("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Dickens gives us a vivid picture of poverty in Queen Victoria's day.",
+                      kurdishText:
+                          "دیکنز وێنایەکی ڕوونی ھەژاریمان پێدەدات لە سەردەمی شاژن ڤیکتۆریادا پێدەدات.",
+                      onPressedBritish: () => speakdays22("en-GB"),
+                      onPressedAmerican: () => speakdays22("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: "٥. (ناو) ماوەیەکی دیاریکراوی ژیانی کەسێک"),
+                    SentencesRow(
+                      englishText:
+                          "I have many happy memories from my student days.",
+                      kurdishText:
+                          "یادەوەری زۆری خۆشم ھەیە لە ماوەی خوێندکاریمدا.",
+                      onPressedBritish: () => speakdays23("en-GB"),
+                      onPressedAmerican: () => speakdays23("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "She cared for him for the rest of his days (= the rest of his life).",
+                      kurdishText: "بۆ ماوەی کۆتایی ژیانی ئاگای لێیبوو.",
+                      onPressedBritish: () => speakdays24("en-GB"),
+                      onPressedAmerican: () => speakdays24("en-US"),
+                    ),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
                 children: [
-                  SentencesRow(
-                    englishText: "I saw Tom three days ago.",
-                    kurdishText: "سێ ڕۆژ پێش ئێستا تۆمم بینی.",
-                    onPressedBritish: () => speakdays3("en-GB"),
-                    onPressedAmerican: () => speakdays3("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText: "We're going away in a few days.",
-                    kurdishText: "بۆ پێنج ڕۆژ لێرە نابین.",
-                    onPressedBritish: () => speakdays4("en-GB"),
-                    onPressedAmerican: () => speakdays4("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        "The house should be ready in a few days' time.",
-                    kurdishText:
-                        "خانووەکە دەبێت لە ماوەی چەند ڕۆژێکی کەمدا ئامادە بێت.",
-                    onPressedBritish: () => speakdays5("en-GB"),
-                    onPressedAmerican: () => speakdays5("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        "The situation has been deteriorating for the past few days.",
-                    kurdishText:
-                        "دۆخەکە لە ماوەی چەند ڕۆژی داھاتوودا خراپتر بووە.",
-                    onPressedBritish: () => speakdays6("en-GB"),
-                    onPressedAmerican: () => speakdays6("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText:
-                        "On that day Rosa Parks did something that changed history.",
-                    kurdishText:
-                        "لەو ڕۆژەدا ڕۆزا پارکس شتێکی کرد کە مێژووی گۆڕی.",
-                    onPressedBritish: () => speakdays7("en-GB"),
-                    onPressedAmerican: () => speakdays7("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText: "I saw her again the next day.",
-                    kurdishText: "ڕۆژی دواتر دیمەوە.",
-                    onPressedBritish: () => speakdays8("en-GB"),
-                    onPressedAmerican: () => speakdays8("en-US"),
-                  ),
-                  const DividerSentences(),
-                  SentencesRow(
-                    englishText: "He resigned the following day.",
-                    kurdishText: "ڕۆژی دواتر دەستی لەکارکێشایەوە.",
-                    onPressedBritish: () => speakdays9("en-GB"),
-                    onPressedAmerican: () => speakdays9("en-US"),
-                  ),
+                  YoutubeEmbeddedone(),
+                  YoutubeEmbeddedtwo(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
+                  YoutubeEmbeddedsix(),
+                  // YoutubeEmbeddedseven(),
+                  // YoutubeEmbeddedeight(),
+                  // YoutubeEmbeddednine(),
+                  // YoutubeEmbeddedten(),
+                  // YoutubeEmbeddedeleven(),
+                  // YoutubeEmbeddedtwelve(),
+                  // YoutubeEmbeddedthirteen(),
+                  // YoutubeEmbeddeddfourteen(),
+                  // YoutubeEmbeddedfifteen(),
+                  // YoutubeEmbeddeddsixteen(),
+                  // YoutubeEmbeddeddseventeen(),
+                  // YoutubeEmbeddeddeighteen(),
+                  // YoutubeEmbeddeddnineteen(),
+                  // YoutubeEmbeddedtwenty(),
+                  // YoutubeEmbeddedmulti(),
+                  YoutubeEmbeddedend(),
                 ],
               ),
             ],
           ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٢. (ناو) ڕۆژ؛ ئەو ماوەیەی ڕۆژێک کە تاریک نییە"),
-          SentencesRow(
-            englishText: "What a beautiful day!",
-            kurdishText: "چی ڕۆژێکی جوانە!",
-            onPressedBritish: () => speakdays10("en-GB"),
-            onPressedAmerican: () => speakdays10("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "The sun was shining all day.",
-            kurdishText: "خۆر تەواوی ڕۆژەکە دەگەشایەوە.",
-            onPressedBritish: () => speakdays11("en-GB"),
-            onPressedAmerican: () => speakdays11("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "I could sit and watch the river all day long.",
-            kurdishText:
-                "دەمتوانی تەواوی ڕۆژەکە دابنیشم و سەیری ڕووبارەکە بکەم.",
-            onPressedBritish: () => speakdays12("en-GB"),
-            onPressedAmerican: () => speakdays12("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "He works at night and sleeps during the day.",
-            kurdishText: "لە شەودا کار دەکات و بە ڕۆژ دەخەوێت.",
-            onPressedBritish: () => speakdays13("en-GB"),
-            onPressedAmerican: () => speakdays13("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "Memories of happy days on the hills never fade.",
-            kurdishText:
-                "یادەوەرییەکانی ڕۆژە خۆشەکان لەسەر گردەکان ھەرگیز کاڵ نابنەوە.",
-            onPressedBritish: () => speakdays14("en-GB"),
-            onPressedAmerican: () => speakdays14("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٣. (ناو) ئەو کاتانەی ڕۆژ کە چالاکیت و کار دەکەیت"),
-          SentencesRow(
-            englishText: "Have a nice day!",
-            kurdishText: "ڕۆژێکی خۆش.",
-            onPressedBritish: () => speakdays15("en-GB"),
-            onPressedAmerican: () => speakdays15("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "Did you have a good day?",
-            kurdishText: "ڕۆژێکی خۆشت ھەبوو؟",
-            onPressedBritish: () => speakdays16("en-GB"),
-            onPressedAmerican: () => speakdays16("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "It's been a long day (= I've been very busy).",
-            kurdishText: "ڕۆژێکی درێژ بووە.",
-            onPressedBritish: () => speakdays17("en-GB"),
-            onPressedAmerican: () => speakdays17("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "She didn't do a full day's work.",
-            kurdishText: "کاری ڕۆژێکی تەواوی نەکرد.",
-            onPressedBritish: () => speakdays18("en-GB"),
-            onPressedAmerican: () => speakdays18("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٤. (ناو) ماوەیەکی دیاریکراوی کاتێک یان مێژوو"),
-          SentencesRow(
-            englishText: "He was the biggest star in Hollywood in those days.",
-            kurdishText: "لەو ماوەدا گەورەترین ئەستێرەی ھۆڵیوود بوو.",
-            onPressedBritish: () => speakdays19("en-GB"),
-            onPressedAmerican: () => speakdays19("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "Much has changed since the days of my youth.",
-            kurdishText: "زۆر شت گۆڕاوە لە سەردەمانی گەنجییەتیمەوە.",
-            onPressedBritish: () => speakdays20("en-GB"),
-            onPressedAmerican: () => speakdays20("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "That was in the bad old days of rampant inflation.",
-            kurdishText: "ئەوە لە ماوەی خراپی ھەڵاوسانی ئابووری بەرز بوو.",
-            onPressedBritish: () => speakdays21("en-GB"),
-            onPressedAmerican: () => speakdays21("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                "Dickens gives us a vivid picture of poverty in Queen Victoria's day.",
-            kurdishText:
-                "دیکنز وێنایەکی ڕوونی ھەژاریمان پێدەدات لە سەردەمی شاژن ڤیکتۆریادا پێدەدات.",
-            onPressedBritish: () => speakdays22("en-GB"),
-            onPressedAmerican: () => speakdays22("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(
-              text: "٥. (ناو) ماوەیەکی دیاریکراوی ژیانی کەسێک"),
-          SentencesRow(
-            englishText: "I have many happy memories from my student days.",
-            kurdishText: "یادەوەری زۆری خۆشم ھەیە لە ماوەی خوێندکاریمدا.",
-            onPressedBritish: () => speakdays23("en-GB"),
-            onPressedAmerican: () => speakdays23("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                "She cared for him for the rest of his days (= the rest of his life).",
-            kurdishText: "بۆ ماوەی کۆتایی ژیانی ئاگای لێیبوو.",
-            onPressedBritish: () => speakdays24("en-GB"),
-            onPressedAmerican: () => speakdays24("en-US"),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-// Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    // Update the state to reflect that TTS is stopped
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-// Create an instance of EnglishMeaningConst with the desired text
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: day (derived forms: days)
-1. Time for Earth to make a complete rotation on its axis (= twenty-four hours, twenty-four hour period, 24-hour interval, solar day, mean solar day)
-"two days later they left"; "they put on two performances every day"; "there are 30,000 passengers per day";
- 
-2. A point or period in time
-"it should arrive any day now"; "after that day she never trusted him again"; "those were the days"; "these days it is not unusual"
- 
-3. A day assigned to a particular purpose or observance
-"Mother's Day"
- 
-4. The time after sunrise and before sunset while it is light outside (= daytime, daylight)
-"the dawn turned night into day";
- 
-5. The recurring hours when you are not sleeping (especially those when you are working)
-"my day began early this morning"; "it was a busy day on the stock exchange"; "she called it a day and went to bed"
- 
-6. An era of existence or influence
-"in the day of the dinosaurs"; "in the days of the Roman Empire"; "in the days of sailing ships"; "he was a successful pianist in his day"
- 
-7. The period of time taken by a particular planet (e.g. Mars) to make a complete rotation on its axis
-"how long is a day on Jupiter?"
- 
-8. The time for one complete rotation of the earth relative to a particular star, about 4 minutes shorter than a mean solar day (= sidereal day)
- 
-9. A period of opportunity
-"he deserves his day in court"; "every dog has his day"
-
-- Noun: Day
-1. United States writer best known for his autobiographical works (1874-1935) (= Clarence Day, Clarence Shepard Day Jr.)
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const DividerDefinition(),
-
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          // Speaker icon for American English
-          englishMeaningConst,
-        ],
+        ),
       ),
     );
   }
@@ -917,41 +842,3 @@ class YoutubeEmbeddedsix extends StatelessWidget {
     );
   }
 }
-
-class YoutubeVideos extends StatelessWidget {
-  const YoutubeVideos({
-    super.key,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return const YouTubeScroller(
-      children: [
-        YoutubeEmbeddedone(),
-        YoutubeEmbeddedtwo(),
-        YoutubeEmbeddedthree(),
-        YoutubeEmbeddedfour(),
-        YoutubeEmbeddedfive(),
-        YoutubeEmbeddedsix(),
-        // YoutubeEmbeddedseven(),
-        // YoutubeEmbeddedeight(),
-        // YoutubeEmbeddednine(),
-        // YoutubeEmbeddedten(),
-        // YoutubeEmbeddedeleven(),
-        // YoutubeEmbeddedtwelve(),
-        // YoutubeEmbeddedthirteen(),
-        // YoutubeEmbeddeddfourteen(),
-        // YoutubeEmbeddedfifteen(),
-        // YoutubeEmbeddeddsixteen(),
-        // YoutubeEmbeddeddseventeen(),
-        // YoutubeEmbeddeddeighteen(),
-        // YoutubeEmbeddeddnineteen(),
-        // YoutubeEmbeddedtwenty(),
-        // YoutubeEmbeddedmulti(),
-        YoutubeEmbeddedend(),
-      ],
-    );
-  }
-}
-
-// end WORD_WEB

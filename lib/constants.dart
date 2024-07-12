@@ -1261,6 +1261,7 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 6.0),
         child: Container(
+          margin: const EdgeInsets.only(left: 4.0, right: 4.0),
           // height: 30,
           decoration: BoxDecoration(
             // color: Theme.of(context).primaryColor.withOpacity(0.01),
@@ -1283,7 +1284,8 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
               bottomRight: Radius.circular(12.0),
             ),
             border: Border.all(
-              color: Theme.of(context).primaryColor.withOpacity(0.18),
+              color: Theme.of(context).highlightColor.withOpacity(0.2),
+              // color: Theme.of(context).primaryColor.withOpacity(0.18),
               // color: Colors.blue.withOpacity(0.3),
               width: 1.0,
               style: BorderStyle.solid,
@@ -1519,6 +1521,23 @@ class IPAofEnglishtest extends ConsumerWidget {
           fontSize: textSize,
         ), // Use adjusted text size
       ),
+    );
+  }
+}
+
+class CustomColumnWidget extends StatelessWidget {
+  final List<Widget> children;
+
+  const CustomColumnWidget({
+    required this.children,
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.end,
+      children: children,
     );
   }
 }
@@ -2692,14 +2711,14 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
     final textSize = ref.watch(textSizeProvider);
     return Container(
       // height: 45, // adds black and yellow lines
-      margin: const EdgeInsets.all(8.0),
+      margin: const EdgeInsets.all(12.0),
       decoration: _isExpanded
           ? BoxDecoration(
-              color: Theme.of(context).highlightColor.withOpacity(0.03),
+              color: Theme.of(context).highlightColor.withOpacity(0.02),
               // color: Theme.of(context).primaryColor.withOpacity(0.01),
               border: Border.all(
                 // color: Theme.of(context).primaryColor.withOpacity(0.18),
-                color: Theme.of(context).highlightColor.withOpacity(0.3),
+                color: Theme.of(context).highlightColor.withOpacity(0.2),
                 // color: Colors.blue.withOpacity(0.9),
                 width: 1.0,
               ),
@@ -2708,7 +2727,7 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
           : BoxDecoration(
               // color: Theme.of(context).primaryColor.withOpacity(0.01),
               border: Border.all(
-                color: Theme.of(context).highlightColor.withOpacity(0.3),
+                color: Theme.of(context).highlightColor.withOpacity(0.2),
                 // color: Colors.blue.withOpacity(0.9),
                 width: 1.0,
               ),
@@ -2871,6 +2890,81 @@ class NoSentencesFromDatabase extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Center(
       child: Text('Sorry, no results found from database'),
+    );
+  }
+}
+
+// Define your custom widget
+class CustomSentenceWidget extends ConsumerWidget {
+  final String englishText;
+  final String frenchText;
+  final String keyword;
+  final void Function() onPressedBritish;
+  final void Function() onPressedAmerican;
+  final bool showDivider;
+
+  const CustomSentenceWidget({
+    required this.englishText,
+    required this.frenchText,
+    required this.keyword,
+    required this.onPressedBritish,
+    required this.onPressedAmerican,
+    required this.showDivider,
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    // final textSize = ref.watch(textSizeProvider) + 20;
+
+    return SingleChildScrollView(
+      child: Padding(
+        padding: const EdgeInsets.all(8.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.end,
+          children: [
+            Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    children: [
+                      Align(
+                        alignment: Alignment.topLeft,
+                        child: DatabaseUtils.instance.highlightText(
+                          englishText,
+                          keyword,
+                          ref,
+                          context,
+                        ),
+                      ),
+                      Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Align(
+                          alignment: Alignment.topRight,
+                          child: DatabaseUtils.instance.highlightText(
+                            frenchText,
+                            keyword,
+                            ref,
+                            context,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const CustomSizedBoxForTTS(),
+                Column(
+                  children: [
+                    CustomIconButtonBritish(onPressed: onPressedBritish),
+                    CustomIconButtonAmerican(onPressed: onPressedAmerican),
+                  ],
+                ),
+              ],
+            ),
+            if (showDivider) const DividerSentences(),
+          ],
+        ),
+      ),
     );
   }
 }

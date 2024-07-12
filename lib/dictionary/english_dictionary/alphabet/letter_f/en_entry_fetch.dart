@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfertile extends StatefulWidget {
-  const EnglishEntryfertile({super.key});
+class EnglishEntryfetch extends StatefulWidget {
+  const EnglishEntryfetch({super.key});
 
   @override
-  State<EnglishEntryfertile> createState() => _EnglishEntryfertileState();
+  State<EnglishEntryfetch> createState() => _EnglishEntryfetchState();
 }
 
-class _EnglishEntryfertileState extends State<EnglishEntryfertile> {
+class _EnglishEntryfetchState extends State<EnglishEntryfetch> {
   @override
   void initState() {
     super.initState();
@@ -51,22 +51,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fertile 
-1. (of land or soil) capable of growing abundant crops or plants (= fat, productive, rich)
-"fertile farmland";
+- Verb: fetch (Derived forms: fetching, fetches, fetched)
+1. Go or come after and bring or take back (= bring, get, convey)
+"The dog fetched the hat";
  
-2. Intellectually productive (= fecund, prolific)
-"a fertile imagination";
+2. Be sold for a certain price (= bring in, bring)
+"The old print fetched a high price at the auction";
  
-3. Capable of reproducing
+3. Remove
+"The devil will fetch you!"
+
+- Noun: fetch (Derived forms: fetches)
+1. The action of fetching
  
-4. Bearing in abundance especially offspring (= prolific)
-"flying foxes are extremely fertile";
+2. Distance of water surface exposed to wind for making waves
+ 
+3. [archaic] A stratagem, trick or artifice
+"Every little fetch of wit and criticism"
 """,
   );
 
-  final String keyword = "fertile";
-  List<Map<String, dynamic>> filteredSentences = [];
+  final String keyword = "fetch";
+  List<Map<String, dynamic>> filteredSentences = []; 
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -85,38 +91,36 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fertile""");
+    await flutterTts.speak("""fetch""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ploughed earth looked rich and fertile.""");
+    await flutterTts
+        .speak("""The inhabitants have to walk a mile to fetch water.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The corn grows waist-high in these fertile fields.""");
+    await flutterTts.speak("""She's gone to fetch the kids from school.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The treatment has been tested on healthy fertile women under the age of 35.""");
+    await flutterTts.speak("""Could you fetch me my bag?""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The fall of the old regime provided fertile ground for opportunism.""");
+    await flutterTts.speak("""The painting is expected to fetch £10 000 at auction.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -737,10 +741,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fertile""",
-                      // alsoEnglishWord: "also: fertile",
-                      britshText: """IpaUK: /ˈfɜːtaɪl/""",
-                      americanText: """IpaUS: /ˈfɜːrtl/""",
+                      word: """fetch""",
+                      // alsoEnglishWord: "also: fetch",
+                      britshText: """IpaUK: /fetʃ/""",
+                      americanText: """IpaUS: /fetʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -781,61 +785,50 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەبڕشت، بەپیت، بڕشت‌دار، بەبەرهەم، بەبڕ، بەبەر، مایەدار، بەمایە، خورت، زۆربڕ، زەنوێر، بەرەکەت‌دار، ئادان،	پیتێنراو (تۆو)، چاک‌کراو،	داهێنەر،	شین‌بوو، ڕووەک، ڕووەندە، سەوزبوو،	بەزەو، زایا، بزێ
+کوردی: 
 """),
-// With short examples define "fertile", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵناو) زەوییکە کە ڕووەک باش گەشەی تێدا دەکات"""),
+// With short examples define "fetch", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (کردار) ڕۆشتن بۆ شوێنێک و هێنانی شتێک"""),
                     SentencesRow(
                       englishText:
-                          """The ploughed earth looked rich and fertile.""",
-                      kurdishText:
-                          """زەوییە کێڵدراوەکە بەبڕشت و بەپیت دیاربوو.""",
+                          """The inhabitants have to walk a mile to fetch water.""",
+                      kurdishText: """دانیشتووەکان دەبێت سەروو یەک میل ڕێ بکەن بۆ هێنان ئاو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The corn grows waist-high in these fertile fields.""",
-                      kurdishText:
-                          """گەنمەشامی تا بەرزی کەمەر گەشە دەکات لەم کێڵگە بەپیتانە.""",
+                      englishText: """She's gone to fetch the kids from school.""",
+                      kurdishText: """ڕۆشتووە بۆ هێنانەوەی منداڵەکان لە قوتابخانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) کە دەتوانێت منداڵ، بێچوو، ئاژەڵ. یان ڕووەکی تازە درووست بکات"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The treatment has been tested on healthy fertile women under the age of 35.""",
-                      kurdishText:
-                          """چارەسەرەکە لەسەر ژنانی تەندرووستی بەبڕشت لەخوار تەمەنی ٣٥ ساڵ.""",
+                      englishText: """Could you fetch me my bag?""",
+                      kurdishText: """دەتوانیت جانتاکەمم بۆ بهێنیت؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٣. (ھاوەڵناو) کە ئەنجامی باشی دەبێت؛ کە چالاکی درووست دەکات"""),
+                        text: """٢. (کردار) ئەوەی شتێک بە نرخێک بفرۆشێردرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The fall of the old regime provided fertile ground for opportunism.""",
-                      kurdishText:
-                          """کەوتنی ڕژێمە کۆنەکە ڕیخۆشکەری بەبەرهەمی درووست کرد بۆ هەل‌پەرستی.""",
+                      englishText: """The painting is expected to fetch £10 000 at auction.""",
+                      kurdishText: """تابلۆکە چاوەڕێ دەکرێت ١٠٠٠٠ پاوەند بکات لە مەزادا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence500""",
@@ -845,7 +838,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence600""",
@@ -855,7 +848,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence700""",
@@ -865,7 +858,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence800""",
@@ -875,7 +868,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence900""",
@@ -885,7 +878,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_1000""",
@@ -895,7 +888,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1100""",
@@ -905,7 +898,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1200""",
@@ -915,7 +908,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1300""",
@@ -925,7 +918,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1400""",
@@ -935,7 +928,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1500""",
@@ -945,7 +938,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1600""",
@@ -955,7 +948,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1700""",
@@ -965,7 +958,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1800""",
@@ -975,7 +968,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence1900""",
@@ -985,7 +978,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_2000""",
@@ -995,7 +988,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2100""",
@@ -1005,7 +998,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2200""",
@@ -1015,7 +1008,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2300""",
@@ -1025,7 +1018,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2400""",
@@ -1035,7 +1028,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2500""",
@@ -1045,7 +1038,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2600""",
@@ -1055,7 +1048,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2700""",
@@ -1065,7 +1058,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2800""",
@@ -1075,7 +1068,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence2900""",
@@ -1085,7 +1078,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_3000""",
@@ -1095,7 +1088,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3100""",
@@ -1105,7 +1098,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3200""",
@@ -1115,7 +1108,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3300""",
@@ -1125,7 +1118,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3400""",
@@ -1135,7 +1128,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3500""",
@@ -1145,7 +1138,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3600""",
@@ -1155,7 +1148,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3700""",
@@ -1165,7 +1158,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3800""",
@@ -1175,7 +1168,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence3900""",
@@ -1185,7 +1178,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_4000""",
@@ -1195,7 +1188,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4100""",
@@ -1205,7 +1198,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4200""",
@@ -1215,7 +1208,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4300""",
@@ -1225,7 +1218,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4400""",
@@ -1235,7 +1228,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4500""",
@@ -1245,7 +1238,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4600""",
@@ -1255,7 +1248,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4700""",
@@ -1265,7 +1258,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4800""",
@@ -1275,7 +1268,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence4900""",
@@ -1285,7 +1278,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_5000""",
@@ -1295,7 +1288,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5100""",
@@ -1305,7 +1298,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5200""",
@@ -1315,7 +1308,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5300""",
@@ -1325,7 +1318,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5400""",
@@ -1335,7 +1328,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5500""",
@@ -1345,7 +1338,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5600""",
@@ -1355,7 +1348,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5700""",
@@ -1365,7 +1358,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5800""",
@@ -1375,7 +1368,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence5900""",
@@ -1385,7 +1378,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_6000""",
@@ -1395,7 +1388,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6100""",
@@ -1405,7 +1398,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6200""",
@@ -1415,7 +1408,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6300""",
@@ -1425,7 +1418,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6400""",
@@ -1435,7 +1428,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6500""",
@@ -1445,7 +1438,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6600""",
@@ -1455,7 +1448,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6700""",
@@ -1465,7 +1458,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6800""",
@@ -1475,7 +1468,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence6900""",
@@ -1485,7 +1478,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_7000""",
@@ -1495,7 +1488,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7100""",
@@ -1505,7 +1498,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7200""",
@@ -1515,7 +1508,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7300""",
@@ -1525,7 +1518,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7400""",
@@ -1535,7 +1528,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7500""",
@@ -1545,7 +1538,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7600""",
@@ -1555,7 +1548,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7700""",
@@ -1565,7 +1558,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7800""",
@@ -1575,7 +1568,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence7900""",
@@ -1585,7 +1578,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence_8000""",
@@ -1595,7 +1588,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8100""",
@@ -1605,7 +1598,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8200""",
@@ -1615,7 +1608,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8300""",
@@ -1625,7 +1618,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+                        text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence8400""",
@@ -1701,18 +1694,18 @@ ${englishMeaningConst.text}
 }
 
 // speaksentence10002200000011110000000000000000
-const String _videoIdend = 'https://youtu.be/zZM57oTu9Ng?t=';
-const double _startSecondsend = 000000000000000000000000000181;
-const String _videoIdone = 'https://youtu.be/sth0GSJdzFY?t=';
-const double _startSecondsone = 000000000000000000000000000482;
-const String _videoIdtwo = 'https://youtu.be/h42QVfrUVFw?t=';
-const double _startSecondstwo = 000000000000000000000000000771;
-const String _videoIdthree = 'https://youtu.be/Yo8UzbQQH3k?t=';
-const double _startSecondsthree = 0000000000000000000000000001166;
-const String _videoIdfour = 'https://youtu.be/CaOwcYLGTMo?t=';
-const double _startSecondsfour = 0000000000000000000000000001129;
-const String _videoIdfive = 'https://youtu.be/JUR7_EmUy1k?t=';
-const double _startSecondsfive = 000000000000000000000000000213;
+const String _videoIdend = 'https://youtu.be/_spuxXnul0U?t=';
+const double _startSecondsend = 000000000000000000000000000314;
+const String _videoIdone = 'https://youtu.be/D-2799Y07Zc?t=';
+const double _startSecondsone = 00000000000000000000000000064;
+const String _videoIdtwo = 'https://youtu.be/LxdoC2sG1i4?t=';
+const double _startSecondstwo = 000000000000000000000000000400;
+const String _videoIdthree = 'https://youtu.be/GVsUOuSjvcg?t=';
+const double _startSecondsthree = 000000000000000000000000000839;
+const String _videoIdfour = 'https://youtu.be/A5a2Guy8-_8?t=';
+const double _startSecondsfour = 000000000000000000000000000162;
+const String _videoIdfive = 'https://youtu.be/CqkhjL3WvWQ?t=';
+const double _startSecondsfive = 000000000000000000000000000597;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

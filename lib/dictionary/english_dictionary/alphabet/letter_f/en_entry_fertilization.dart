@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfertile extends StatefulWidget {
-  const EnglishEntryfertile({super.key});
+class EnglishEntryfertilization extends StatefulWidget {
+  const EnglishEntryfertilization({super.key});
 
   @override
-  State<EnglishEntryfertile> createState() => _EnglishEntryfertileState();
+  State<EnglishEntryfertilization> createState() =>
+      _EnglishEntryfertilizationState();
 }
 
-class _EnglishEntryfertileState extends State<EnglishEntryfertile> {
+class _EnglishEntryfertilizationState extends State<EnglishEntryfertilization> {
   @override
   void initState() {
     super.initState();
@@ -51,21 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fertile 
-1. (of land or soil) capable of growing abundant crops or plants (= fat, productive, rich)
-"fertile farmland";
+- Noun: fertilization (Derived forms: fertilizations)
+1. Creation by the physical union of male and female gametes; of sperm and ova in an animal or pollen and ovule in a plant (= fertilisation [Brit], fecundation, impregnation)
  
-2. Intellectually productive (= fecund, prolific)
-"a fertile imagination";
- 
-3. Capable of reproducing
- 
-4. Bearing in abundance especially offspring (= prolific)
-"flying foxes are extremely fertile";
+2. Making fertile as by applying fertilizer or manure (= fertilisation [Brit], fecundation, dressing)
 """,
   );
 
-  final String keyword = "fertile";
+  final String keyword = "fertilization";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -85,38 +79,36 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fertile""");
+    await flutterTts.speak("""fertilization""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ploughed earth looked rich and fertile.""");
+    await flutterTts.speak(
+        """Immediately after fertilization, the cells of the egg divide.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The corn grows waist-high in these fertile fields.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The treatment has been tested on healthy fertile women under the age of 35.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The fall of the old regime provided fertile ground for opportunism.""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -737,10 +729,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fertile""",
-                      // alsoEnglishWord: "also: fertile",
-                      britshText: """IpaUK: /ˈfɜːtaɪl/""",
-                      americanText: """IpaUS: /ˈfɜːrtl/""",
+                      word: """fertilization""",
+                      // alsoEnglishWord: "also: fertilization",
+                      britshText: """IpaUK: /ˌfɜːtəlaɪˈzeɪʃn/""",
+                      americanText: """IpaUS: /ˌfɜːrtələˈzeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -781,17 +773,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەبڕشت، بەپیت، بڕشت‌دار، بەبەرهەم، بەبڕ، بەبەر، مایەدار، بەمایە، خورت، زۆربڕ، زەنوێر، بەرەکەت‌دار، ئادان،	پیتێنراو (تۆو)، چاک‌کراو،	داهێنەر،	شین‌بوو، ڕووەک، ڕووەندە، سەوزبوو،	بەزەو، زایا، بزێ
+کوردی: پیتاندن، مایەدارکردن، چاک‌کردن، پیتێنەپێوەکردن، کودپێوەکردن، پەییناندن، پەیین‌تێکردن
 """),
-// With short examples define "fertile", please follow LX instructions
+// With short examples define "fertilization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) زەوییکە کە ڕووەک باش گەشەی تێدا دەکات"""),
+                            """١. (ناو) پڕۆسەی دانانی هەڵاڵە لەسەر ڕووەکێک بۆ ئەوەی تۆو درووست ببێت؛ پڕۆسەی تێکەڵبوونی سپێرم لەگەڵ هێلکە بۆ ئەوەی منداڵ درووست ببێت"""),
                     SentencesRow(
                       englishText:
-                          """The ploughed earth looked rich and fertile.""",
+                          """Immediately after fertilization, the cells of the egg divide.""",
                       kurdishText:
-                          """زەوییە کێڵدراوەکە بەبڕشت و بەپیت دیاربوو.""",
+                          """دەستبەجێ لە دوای پیتاندن، خانەکانی هێلکە دابەش دەبن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -800,36 +792,28 @@ ${englishMeaningConst.text}
                         text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The corn grows waist-high in these fertile fields.""",
-                      kurdishText:
-                          """گەنمەشامی تا بەرزی کەمەر گەشە دەکات لەم کێڵگە بەپیتانە.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) کە دەتوانێت منداڵ، بێچوو، ئاژەڵ. یان ڕووەکی تازە درووست بکات"""),
+                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The treatment has been tested on healthy fertile women under the age of 35.""",
-                      kurdishText:
-                          """چارەسەرەکە لەسەر ژنانی تەندرووستی بەبڕشت لەخوار تەمەنی ٣٥ ساڵ.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٣. (ھاوەڵناو) کە ئەنجامی باشی دەبێت؛ کە چالاکی درووست دەکات"""),
+                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The fall of the old regime provided fertile ground for opportunism.""",
-                      kurdishText:
-                          """کەوتنی ڕژێمە کۆنەکە ڕیخۆشکەری بەبەرهەمی درووست کرد بۆ هەل‌پەرستی.""",
+                      englishText: """speaksentence400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1701,18 +1685,18 @@ ${englishMeaningConst.text}
 }
 
 // speaksentence10002200000011110000000000000000
-const String _videoIdend = 'https://youtu.be/zZM57oTu9Ng?t=';
-const double _startSecondsend = 000000000000000000000000000181;
-const String _videoIdone = 'https://youtu.be/sth0GSJdzFY?t=';
-const double _startSecondsone = 000000000000000000000000000482;
-const String _videoIdtwo = 'https://youtu.be/h42QVfrUVFw?t=';
-const double _startSecondstwo = 000000000000000000000000000771;
-const String _videoIdthree = 'https://youtu.be/Yo8UzbQQH3k?t=';
-const double _startSecondsthree = 0000000000000000000000000001166;
-const String _videoIdfour = 'https://youtu.be/CaOwcYLGTMo?t=';
-const double _startSecondsfour = 0000000000000000000000000001129;
-const String _videoIdfive = 'https://youtu.be/JUR7_EmUy1k?t=';
-const double _startSecondsfive = 000000000000000000000000000213;
+const String _videoIdend = 'https://youtu.be/bpWJNSBQo0k?t=';
+const double _startSecondsend = 000000000000000000000000000130;
+const String _videoIdone = 'https://youtu.be/rmgAqYwFFA8?t=';
+const double _startSecondsone = 000000000000000000000000000760;
+const String _videoIdtwo = 'https://youtu.be/1YbgilES3Pk?t=';
+const double _startSecondstwo = 000000000000000000000000000525;
+const String _videoIdthree = 'https://youtu.be/NrFlhSNdDDk?t=';
+const double _startSecondsthree = 000000000000000000000000000516;
+const String _videoIdfour = 'https://youtu.be/gbC4hCh3WMw?t=';
+const double _startSecondsfour = 000000000000000000000000000328;
+const String _videoIdfive = 'https://youtu.be/dHc7MW6x0JQ?t=';
+const double _startSecondsfive = 000000000000000000000000000304;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

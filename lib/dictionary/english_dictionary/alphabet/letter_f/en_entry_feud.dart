@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfertile extends StatefulWidget {
-  const EnglishEntryfertile({super.key});
+class EnglishEntryfeud extends StatefulWidget {
+  const EnglishEntryfeud({super.key});
 
   @override
-  State<EnglishEntryfertile> createState() => _EnglishEntryfertileState();
+  State<EnglishEntryfeud> createState() => _EnglishEntryfeudState();
 }
 
-class _EnglishEntryfertileState extends State<EnglishEntryfertile> {
+class _EnglishEntryfeudState extends State<EnglishEntryfeud> {
   @override
   void initState() {
     super.initState();
@@ -51,21 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fertile 
-1. (of land or soil) capable of growing abundant crops or plants (= fat, productive, rich)
-"fertile farmland";
- 
-2. Intellectually productive (= fecund, prolific)
-"a fertile imagination";
- 
-3. Capable of reproducing
- 
-4. Bearing in abundance especially offspring (= prolific)
-"flying foxes are extremely fertile";
+- Noun: feud (Derived forms: feuds)
+1. A bitter quarrel between two parties
+
+- Verb: feud (Derived forms: feuds, feuding, feuded)
+1. Carry out a feud
+"The two professors have been feuding for years"
 """,
   );
 
-  final String keyword = "fertile";
+  final String keyword = "feud";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -85,22 +80,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fertile""");
+    await flutterTts.speak("""feud""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ploughed earth looked rich and fertile.""");
+    await flutterTts.speak("""The incident started a family feud.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The corn grows waist-high in these fertile fields.""");
+    await flutterTts.speak("""They had a long-running feud over money.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -108,15 +102,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """The treatment has been tested on healthy fertile women under the age of 35.""");
+        """The family feud has been ongoing since the death of their mother.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The fall of the old regime provided fertile ground for opportunism.""");
+    await flutterTts
+        .speak("""He has been feuding with his brother for years.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -737,10 +731,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fertile""",
-                      // alsoEnglishWord: "also: fertile",
-                      britshText: """IpaUK: /ˈfɜːtaɪl/""",
-                      americanText: """IpaUS: /ˈfɜːrtl/""",
+                      word: """feud""",
+                      // alsoEnglishWord: "also: feud",
+                      britshText: """IpaUK: /fjuːd/""",
+                      americanText: """IpaUS: /fjuːd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -781,17 +775,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەبڕشت، بەپیت، بڕشت‌دار، بەبەرهەم، بەبڕ، بەبەر، مایەدار، بەمایە، خورت، زۆربڕ، زەنوێر، بەرەکەت‌دار، ئادان،	پیتێنراو (تۆو)، چاک‌کراو،	داهێنەر،	شین‌بوو، ڕووەک، ڕووەندە، سەوزبوو،	بەزەو، زایا، بزێ
+کوردی: دوژمنایەتی، ململانێ، جوڕە، کێشە، خوون‌داری، قڕە، قینەبەرایەتی
 """),
-// With short examples define "fertile", please follow LX instructions
+// With short examples define "feud", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) زەوییکە کە ڕووەک باش گەشەی تێدا دەکات"""),
+                            """١. (ناو) مشتومڕی توند لە نێوان دوو کەس یان گرووپ کە بۆ ماوەیەکی زۆر بەردەوام دەبێت"""),
                     SentencesRow(
-                      englishText:
-                          """The ploughed earth looked rich and fertile.""",
-                      kurdishText:
-                          """زەوییە کێڵدراوەکە بەبڕشت و بەپیت دیاربوو.""",
+                      englishText: """The incident started a family feud.""",
+                      kurdishText: """ڕووداوەکە مشتومڕێکی خێزانی درووستکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -801,35 +793,33 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The corn grows waist-high in these fertile fields.""",
+                          """They had a long-running feud over money.""",
                       kurdishText:
-                          """گەنمەشامی تا بەرزی کەمەر گەشە دەکات لەم کێڵگە بەپیتانە.""",
+                          """دوژمنایەتییەکی درێژیان هەبوو لەسەر پارە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) کە دەتوانێت منداڵ، بێچوو، ئاژەڵ. یان ڕووەکی تازە درووست بکات"""),
+                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The treatment has been tested on healthy fertile women under the age of 35.""",
+                          """The family feud has been ongoing since the death of their mother.""",
                       kurdishText:
-                          """چارەسەرەکە لەسەر ژنانی تەندرووستی بەبڕشت لەخوار تەمەنی ٣٥ ساڵ.""",
+                          """کێشە خێزانییەکە بەردەوام بووە لەوەتەی مردنی دایکیان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵناو) کە ئەنجامی باشی دەبێت؛ کە چالاکی درووست دەکات"""),
+                            """٢. (کردار) هەبوونی مشتومڕێکی توند بۆ ماوەیەکی دوور و درێژ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The fall of the old regime provided fertile ground for opportunism.""",
-                      kurdishText:
-                          """کەوتنی ڕژێمە کۆنەکە ڕیخۆشکەری بەبەرهەمی درووست کرد بۆ هەل‌پەرستی.""",
+                          """He has been feuding with his brother for years.""",
+                      kurdishText: """چەندین ساڵە لەگەڵ براکەی مشتومڕی هەیە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1701,18 +1691,18 @@ ${englishMeaningConst.text}
 }
 
 // speaksentence10002200000011110000000000000000
-const String _videoIdend = 'https://youtu.be/zZM57oTu9Ng?t=';
-const double _startSecondsend = 000000000000000000000000000181;
-const String _videoIdone = 'https://youtu.be/sth0GSJdzFY?t=';
-const double _startSecondsone = 000000000000000000000000000482;
-const String _videoIdtwo = 'https://youtu.be/h42QVfrUVFw?t=';
-const double _startSecondstwo = 000000000000000000000000000771;
-const String _videoIdthree = 'https://youtu.be/Yo8UzbQQH3k?t=';
-const double _startSecondsthree = 0000000000000000000000000001166;
-const String _videoIdfour = 'https://youtu.be/CaOwcYLGTMo?t=';
-const double _startSecondsfour = 0000000000000000000000000001129;
-const String _videoIdfive = 'https://youtu.be/JUR7_EmUy1k?t=';
-const double _startSecondsfive = 000000000000000000000000000213;
+const String _videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
+const double _startSecondsend = 0000000000000000000000000001526;
+const String _videoIdone = 'https://youtu.be/R_ByP_XAk9o?t=';
+const double _startSecondsone = 000000000000000000000000000134;
+const String _videoIdtwo = 'https://youtu.be/vIz9lgLjZtY?t=';
+const double _startSecondstwo = 000000000000000000000000000231;
+const String _videoIdthree = 'https://youtu.be/LQpLMvC7Et0?t=';
+const double _startSecondsthree = 000000000000000000000000000204;
+const String _videoIdfour = 'https://youtu.be/Bh9lIfocRMk?t=';
+const double _startSecondsfour = 000000000000000000000000000642;
+const String _videoIdfive = 'https://youtu.be/1n2nPRxAOss?t=';
+const double _startSecondsfive = 0000000000000000000000000001371;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfertile extends StatefulWidget {
-  const EnglishEntryfertile({super.key});
+class EnglishEntryfervour extends StatefulWidget {
+  const EnglishEntryfervour({super.key});
 
   @override
-  State<EnglishEntryfertile> createState() => _EnglishEntryfertileState();
+  State<EnglishEntryfervour> createState() => _EnglishEntryfervourState();
 }
 
-class _EnglishEntryfertileState extends State<EnglishEntryfertile> {
+class _EnglishEntryfervourState extends State<EnglishEntryfervour> {
   @override
   void initState() {
     super.initState();
@@ -51,21 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fertile 
-1. (of land or soil) capable of growing abundant crops or plants (= fat, productive, rich)
-"fertile farmland";
+- Noun: fervour (Derived forms: fervours)
+Usage: Brit, Cdn (US: fervor)
+1. Feelings of great warmth and intensity (= ardor [US], ardour [Brit, Cdn], fervor [US], fervency, fire, fervidness)
+"he spoke with great fervour";
  
-2. Intellectually productive (= fecund, prolific)
-"a fertile imagination";
- 
-3. Capable of reproducing
- 
-4. Bearing in abundance especially offspring (= prolific)
-"flying foxes are extremely fertile";
+2. The state of being emotionally aroused and worked up (= excitement, excitation, inflammation, fervor [US])
+"his face was flushed with fervour and his hands trembled";
 """,
   );
 
-  final String keyword = "fertile";
+  final String keyword = "fervour";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -85,14 +81,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fertile""");
+    await flutterTts.speak("""fervour""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The ploughed earth looked rich and fertile.""");
+    await flutterTts.speak("""She kissed him with unusual fervour.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -100,23 +96,21 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""The corn grows waist-high in these fertile fields.""");
+        .speak("""Its followers have lost their religious fervour.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The treatment has been tested on healthy fertile women under the age of 35.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The fall of the old regime provided fertile ground for opportunism.""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -737,10 +731,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fertile""",
-                      // alsoEnglishWord: "also: fertile",
-                      britshText: """IpaUK: /ˈfɜːtaɪl/""",
-                      americanText: """IpaUS: /ˈfɜːrtl/""",
+                      word: """fervour""",
+                      // alsoEnglishWord: "also: fervour",
+                      britshText: """IpaUK: /ˈfɜːvə(r)/""",
+                      americanText: """IpaUS: /ˈfɜːrvər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -781,17 +775,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەبڕشت، بەپیت، بڕشت‌دار، بەبەرهەم، بەبڕ، بەبەر، مایەدار، بەمایە، خورت، زۆربڕ، زەنوێر، بەرەکەت‌دار، ئادان،	پیتێنراو (تۆو)، چاک‌کراو،	داهێنەر،	شین‌بوو، ڕووەک، ڕووەندە، سەوزبوو،	بەزەو، زایا، بزێ
+کوردی: تین، گەرم‌وگوڕی، کەف‌وکوڵ، تاوتین، شەوق، بەپەرۆشی، تامەزرۆیی
 """),
-// With short examples define "fertile", please follow LX instructions
+// With short examples define "fervour", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵناو) زەوییکە کە ڕووەک باش گەشەی تێدا دەکات"""),
+                        text: """١. (ناو) هەستی زۆر بەهێز سەبارەت بە شتێک"""),
                     SentencesRow(
-                      englishText:
-                          """The ploughed earth looked rich and fertile.""",
-                      kurdishText:
-                          """زەوییە کێڵدراوەکە بەبڕشت و بەپیت دیاربوو.""",
+                      englishText: """She kissed him with unusual fervour.""",
+                      kurdishText: """بە تامەزرۆۆ زۆرەوە ماچی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -801,35 +792,29 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The corn grows waist-high in these fertile fields.""",
+                          """Its followers have lost their religious fervour.""",
                       kurdishText:
-                          """گەنمەشامی تا بەرزی کەمەر گەشە دەکات لەم کێڵگە بەپیتانە.""",
+                          """شوێنکەتووانی پەرۆشیی ئایینییان لەدەستداوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) کە دەتوانێت منداڵ، بێچوو، ئاژەڵ. یان ڕووەکی تازە درووست بکات"""),
+                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The treatment has been tested on healthy fertile women under the age of 35.""",
-                      kurdishText:
-                          """چارەسەرەکە لەسەر ژنانی تەندرووستی بەبڕشت لەخوار تەمەنی ٣٥ ساڵ.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٣. (ھاوەڵناو) کە ئەنجامی باشی دەبێت؛ کە چالاکی درووست دەکات"""),
+                        text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The fall of the old regime provided fertile ground for opportunism.""",
-                      kurdishText:
-                          """کەوتنی ڕژێمە کۆنەکە ڕیخۆشکەری بەبەرهەمی درووست کرد بۆ هەل‌پەرستی.""",
+                      englishText: """speaksentence400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1701,18 +1686,18 @@ ${englishMeaningConst.text}
 }
 
 // speaksentence10002200000011110000000000000000
-const String _videoIdend = 'https://youtu.be/zZM57oTu9Ng?t=';
-const double _startSecondsend = 000000000000000000000000000181;
-const String _videoIdone = 'https://youtu.be/sth0GSJdzFY?t=';
-const double _startSecondsone = 000000000000000000000000000482;
-const String _videoIdtwo = 'https://youtu.be/h42QVfrUVFw?t=';
-const double _startSecondstwo = 000000000000000000000000000771;
-const String _videoIdthree = 'https://youtu.be/Yo8UzbQQH3k?t=';
-const double _startSecondsthree = 0000000000000000000000000001166;
-const String _videoIdfour = 'https://youtu.be/CaOwcYLGTMo?t=';
-const double _startSecondsfour = 0000000000000000000000000001129;
-const String _videoIdfive = 'https://youtu.be/JUR7_EmUy1k?t=';
-const double _startSecondsfive = 000000000000000000000000000213;
+const String _videoIdend = 'https://youtu.be/Y5suNtLwbBw?t=';
+const double _startSecondsend = 000000000000000000000000000297;
+const String _videoIdone = 'https://youtu.be/HGz-_6pViAY?t=';
+const double _startSecondsone = 000000000000000000000000000551;
+const String _videoIdtwo = 'https://youtu.be/vlPhAFixBL4?t=';
+const double _startSecondstwo = 0000000000000000000000000001592;
+const String _videoIdthree = 'https://youtu.be/VY_0IYq7sFM?t=';
+const double _startSecondsthree = 000000000000000000000000000600;
+const String _videoIdfour = 'https://youtu.be/nbandIJmtI0?t=';
+const double _startSecondsfour = 00000000000000000000000000082;
+const String _videoIdfive = 'https://youtu.be/WPLnev8E5xg?t=';
+const double _startSecondsfive = 000000000000000000000000000989;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

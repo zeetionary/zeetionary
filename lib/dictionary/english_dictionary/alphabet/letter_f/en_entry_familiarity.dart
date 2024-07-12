@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ناسیاوی، ئاشنایی، شناسی، ڕووکرانەوە، ئاگاداری،	زانین، ناسین، هۆگری، ڕاهاتوویی، سیوا، سەوازۆبوونەوە،	ڕەفتار یان هەڵس‌وکەوتی دۆستانە
+کوردی: ناسیاوی، ئاشنایی، شناسی، ڕووکرانەوە، ئاگاداری،	زانین، ناسین، ھۆگری، ڕاھاتوویی، سیوا، سەوازۆبوونەوە،	ڕەفتار یان ھەڵس‌وکەوتی دۆستانە
 """),
           const DefinitionKurdish(
               text: """١. (ناو) ناسینی کەسێک/شتێک بەباشی"""),
@@ -291,26 +291,26 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """When she saw the house, she had a feeling of familiarity.""",
-            kurdishText: """کە ماڵەکەی بینی، هەستی ئاشنایەتی هەبوو.""",
+            kurdishText: """کە ماڵەکەی بینی، ھەستی ئاشنایەتی ھەبوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """I had only a basic familiarity with computers.""",
-            kurdishText: """تەنها ئاشنایەتی سەرەتاییم لەگەڵ کۆمپیوتەر هەیە.""",
+            kurdishText: """تەنھا ئاشنایەتی سەرەتاییم لەگەڵ کۆمپیوتەر ھەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) هەڵسوکەتی نافەرمی هاوڕێیانە"""),
+              text: """٢. (ناو) ھەڵسوکەتی نافەرمی ھاوڕێیانە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """He treated her with the easy familiarity of an equal.""",
             kurdishText:
-                """بە ڕەفتاری ئاسوودەبەخشانەی هاوتایەکی خۆی مامەڵەی لەگەڵ کرد.""",
+                """بە ڕەفتاری ئاسوودەبەخشانەی ھاوتایەکی خۆی مامەڵەی لەگەڵ کرد.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -355,7 +355,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: familiarity (Derived forms: familiarities)
+- Noun: familiarity (derived forms: familiarities)
 1. Personal knowledge or information about someone or something (= acquaintance, conversance, conversancy)
  
 2. Usualness by virtue of being familiar or well known

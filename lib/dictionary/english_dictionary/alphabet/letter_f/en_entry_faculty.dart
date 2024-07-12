@@ -295,7 +295,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: توانایی، بەهرە، توانست، تواناداری، لێهاتوویی، لێوەشاوەیی، ئامادەیی، توانایی هۆشی یان جەستەیی، توانستی بیری یان مێنتاڵ، هێزی مێنتاڵ
+کوردی: توانایی، بەھرە، توانست، تواناداری، لێھاتوویی، لێوەشاوەیی، ئامادەیی، توانایی ھۆشی یان جەستەیی، توانستی بیری یان مێنتاڵ، ھێزی مێنتاڵ
 """),
           const DefinitionKurdish(
               text:
@@ -338,12 +338,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ناو) ئەو توانا جەستەیی و مێشکییانەی کە کەسێک لەگەڵ لەدایکبووندا هەیەتی"""),
+                  """٤. (ناو) ئەو توانا جەستەیی و مێشکییانەی کە کەسێک لەگەڵ لەدایکبووندا ھەیەتی"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """She retained her mental faculties (= the ability to think and understand) until the day she died.""",
-            kurdishText: """توانای هزریی هەبوو تاوەکو ئەو ڕۆژەی مرد.""",
+            kurdishText: """توانای ھزریی ھەبوو تاوەکو ئەو ڕۆژەی مرد.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -351,7 +351,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """He is not in full possession of all his mental faculties.""",
-            kurdishText: """کۆنترۆڵی بەسەر هەموو توانا دەروونییەکانیدا نییە.""",
+            kurdishText: """کۆنترۆڵی بەسەر ھەموو توانا دەروونییەکانیدا نییە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He had a faculty for seeing his own mistakes.""",
-            kurdishText: """توانستی بینینی هەڵەکانی خۆی هەبوو.""",
+            kurdishText: """توانستی بینینی ھەڵەکانی خۆی ھەبوو.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: faculty (Derived forms: faculties)
+- Noun: faculty (derived forms: faculties)
 1. One of the inherent cognitive or perceptual powers of the mind (= mental faculty, module)
  
 2. [N. Amer] The body of teachers and administrators at a school (= staff)

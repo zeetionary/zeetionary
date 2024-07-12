@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەڵاندن، تەڕاییدان، داچۆڕان، پڕژاندن
 """),
           const DefinitionKurdish(
-              text: """١. (کردار) کە خاسیەتێکت هەیە و بە ئاسانی دەبیندرێت"""),
+              text: """١. (کردار) کە خاسیەتێکت ھەیە و بە ئاسانی دەبیندرێت"""),
           SentencesRow(
             englishText: """She exuded confidence.""",
             kurdishText: """متمانەی لێ دەبارێت.""",
@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (کردار) هاتنە دەرەوەی شلە"""),
+          const DefinitionKurdish(text: """٢. (کردار) ھاتنە دەرەوەی شلە"""),
           SentencesRow(
             englishText: """The plant exudes a sticky fluid.""",
             kurdishText: """ڕووەکەکە شلەیەکی جیڕ دەردەدات.""",
@@ -330,7 +330,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: exude (Derived forms: exuded, exudes, exuding)
+- Verb: exude (derived forms: exuded, exudes, exuding)
 1. Release (a liquid) in drops or small quantities (= exudate, transude, ooze out, ooze)
 "exude sweat through the pores";
  

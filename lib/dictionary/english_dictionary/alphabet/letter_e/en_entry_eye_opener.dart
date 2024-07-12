@@ -254,12 +254,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) بۆنەیەک، ئەزموونێک، هتد کە جێگای سەرسامییە و شتێک پیشان دەدات کە پێشووتر نەتدەزانی"""),
+                  """١. (ناو) بۆنەیەک، ئەزموونێک، ھتد کە جێگای سەرسامییە و شتێک پیشان دەدات کە پێشووتر نەتدەزانی"""),
           SentencesRow(
             englishText:
                 """Travelling around India was a real eye-opener for me.""",
             kurdishText:
-                """گەشتکردن بە هندستاندا بۆنەیەکی بەئاگاهێنی ڕاستەقینە بوو بۆ من.""",
+                """گەشتکردن بە ھندستاندا بۆنەیەکی بەئاگاھێنی ڕاستەقینە بوو بۆ من.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eye-opener (Derived forms: eye-openers)
+- Noun: eye-opener (derived forms: eye-openers)
 1. Something surprising and revealing
  
 2. An alcoholic drink intended to wake one up early in the morning

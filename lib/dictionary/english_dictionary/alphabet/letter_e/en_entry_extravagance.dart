@@ -263,22 +263,22 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) خەرجکردنی پارەی زیاتر لەوەی پێویستە یان هەتە"""),
+                  """١. (ناو) خەرجکردنی پارەی زیاتر لەوەی پێویستە یان ھەتە"""),
           SentencesRow(
             englishText:
                 """Such extravagance is shameful when there are people starving in the world.""",
             kurdishText:
-                """زیادەڕۆیی وەها جێگەی شەرمە لەکاتێکدا خەڵکی هەیە لە برسیەتیدا دەمرن.""",
+                """زیادەڕۆیی وەھا جێگەی شەرمە لەکاتێکدا خەڵکی ھەیە لە برسیەتیدا دەمرن.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) شتێک کە دەیکڕیت کە پێویستی بە پارەی زۆر هەیە"""),
+                  """٢. (ناو) شتێک کە دەیکڕیت کە پێویستی بە پارەی زۆر ھەیە"""),
           SentencesRow(
             englishText: """Going to the theatre is our only extravagance.""",
-            kurdishText: """چوون بۆ شانۆکە تەنها دەس‌بڵاویمانە.""",
+            kurdishText: """چوون بۆ شانۆکە تەنھا دەس‌بڵاویمانە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -323,7 +323,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extravagance (Derived forms: extravagances)
+- Noun: extravagance (derived forms: extravagances)
 1. Spending money or using resources excessively or wastefully (= prodigality, profligacy)
  
 2. The quality of exceeding the appropriate limits of decorum, probability or truth (= extravagancy)

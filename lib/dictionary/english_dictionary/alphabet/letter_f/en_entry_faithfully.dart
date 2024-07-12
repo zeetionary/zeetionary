@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She promised faithfully not to tell anyone my secret.""",
-            kurdishText: """بە سەرڕاستانە بەڵێنی دا نهێنییەکەم بە کەس نەڵێت.""",
+            kurdishText: """بە سەرڕاستانە بەڵێنی دا نھێنییەکەم بە کەس نەڵێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

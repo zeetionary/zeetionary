@@ -259,7 +259,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) باڵندەیەکی ڕاوکەر کە باڵی درێژی نووکداری هەیە"""),
+                  """١. (ناو) باڵندەیەکی ڕاوکەر کە باڵی درێژی نووکداری ھەیە"""),
           SentencesRow(
             englishText: """The falcon soared high in the sky.""",
             kurdishText: """بازەکە بەرز لە ئاسماندا دەسووڕایەوە.""",
@@ -314,10 +314,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: falcon (Derived forms: falcons)
+- Noun: falcon (derived forms: falcons)
 1. Diurnal birds of prey having long pointed powerful wings adapted for swift flight
 
-- Verb: falcon (Derived forms: falcons, falconed, falconing)
+- Verb: falcon (derived forms: falcons, falconed, falconing)
 1. Hunt with falcons
 "The tribes like to falcon in the desert"
 """,

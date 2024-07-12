@@ -277,21 +277,21 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text: """١. (کردار) کە لاواز ببێت یان کاریگەری کەم بکات"""),
           SentencesRow(
             englishText: """The economy shows no signs of faltering.""",
-            kurdishText: """ئابووری هیچ ئاماژەیەکی لاوازبوونی تێدا نییە.""",
+            kurdishText: """ئابووری ھیچ ئاماژەیەکی لاوازبوونی تێدا نییە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Her courage never faltered.""",
-            kurdishText: """بوێرییەکەی هەرگیز کەمی نەکرد.""",
+            kurdishText: """بوێرییەکەی ھەرگیز کەمی نەکرد.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -361,7 +361,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: falter (Derived forms: falters, faltered, faltering)
+- Verb: falter (derived forms: falters, faltered, faltering)
 1. Be unsure or weak (= waver)
 "Their enthusiasm is faltering";
  
@@ -373,7 +373,7 @@ ${englishMeaningConst.text}
 4. Speak haltingly (= bumble, stutter, stammer)
 "The speaker faltered when he saw his opponent enter the room";
 
-- Noun: falter (Derived forms: falters)
+- Noun: falter (derived forms: falters)
 1. The act of pausing uncertainly (= hesitation, waver, faltering)
 "there was a falter in his speech";
 """,

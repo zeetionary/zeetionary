@@ -285,20 +285,20 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەربڵاو، بەرفرەهـ، فراوان، بەرین،	دوورودرێژ، چڕوپڕ، تێروتەسەل،	پان، بەرین،	درێژ، درێژەوەبوو،	گشتگر، هەمەلایەنە، گش‌لایەنە، بەربڵاو
+کوردی: بەربڵاو، بەرفرەھـ، فراوان، بەرین،	دوورودرێژ، چڕوپڕ، تێروتەسەل،	پان، بەرین،	درێژ، درێژەوەبوو،	گشتگر، ھەمەلایەنە، گش‌لایەنە، بەربڵاو
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە ناوچەیەکی زۆر دەگرێتەوە"""),
           SentencesRow(
             englishText: """The house has extensive grounds.""",
-            kurdishText: """خانووەکە حەوشەی گەورەی هەیە.""",
+            kurdishText: """خانووەکە حەوشەی گەورەی ھەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """The fire caused extensive damage.""",
-            kurdishText: """ئاگرەکە بوو بە هۆکاری زیانی بەرفراوان.""",
+            kurdishText: """ئاگرەکە بوو بە ھۆکاری زیانی بەرفراوان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """She has extensive experience in computers.""",
-            kurdishText: """ئەزموونی تێروتەسەلی لە کۆمپیوتەردا هەیە.""",
+            kurdishText: """ئەزموونی تێروتەسەلی لە کۆمپیوتەردا ھەیە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),

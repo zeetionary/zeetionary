@@ -270,26 +270,26 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) تەواوی چاو، لە نێوانیدا ئەو بەشە خڕەی لەسەردایە نابیندرێت لە دەرەوە"""),
           SentencesRow(
             englishText: """She felt pain in her left eyeball.""",
-            kurdishText: """هەستی بە ئازار لە گلێنەی چاویدا دەکرد.""",
+            kurdishText: """ھەستی بە ئازار لە گلێنەی چاویدا دەکرد.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) ژمارەی ئەو کەسانەی دەردانی وێبسایتێک دەکەن، سەیری پڕۆگرامێکی تەلەفیزیۆن دەکەن، گۆڤارێک دەخوێننەوە، هتد"""),
+                  """٢. (ناو) ژمارەی ئەو کەسانەی دەردانی وێبسایتێک دەکەن، سەیری پڕۆگرامێکی تەلەفیزیۆن دەکەن، گۆڤارێک دەخوێننەوە، ھتد"""),
           SentencesRow(
             englishText:
                 """It's a sad fact that bad news grabs more eyeballs than good news.""",
             kurdishText:
-                """ئەوە ڕاستییەکی خەمگینە کە هەواڵی خراپ خوێنەری زیاتریان دەبێت وەک لە هی باش.""",
+                """ئەوە ڕاستییەکی خەمگینە کە ھەواڵی خراپ خوێنەری زیاتریان دەبێت وەک لە ھی باش.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (کردار) سەیرکردنی کەسێک بە ڕاستەوخۆیی بەشێوەیەک کە جوان یان هاوڕێیانە نییە"""),
+                  """٣. (کردار) سەیرکردنی کەسێک بە ڕاستەوخۆیی بەشێوەیەک کە جوان یان ھاوڕێیانە نییە"""),
           SentencesRow(
             englishText: """They eyeballed each other across the room.""",
             kurdishText: """بە ژوورەکەدا لە یەکیان دەڕوانی.""",
@@ -337,10 +337,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eyeball (Derived forms: eyeballs)
+- Noun: eyeball (derived forms: eyeballs)
 1. The ball-shaped capsule containing the vertebrate eye (= orb)
 
-- Verb: eyeball (Derived forms: eyeballed, eyeballs, eyeballing)
+- Verb: eyeball (derived forms: eyeballed, eyeballs, eyeballing)
 Usage: informal
 1. Look at (= eye)
 """,

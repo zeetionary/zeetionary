@@ -285,7 +285,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """It's still an extremely rare occurrence.""",
-            kurdishText: """هێشتا ڕووداوێکی تەواو دەگمەنە.""",
+            kurdishText: """ھێشتا ڕووداوێکی تەواو دەگمەنە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

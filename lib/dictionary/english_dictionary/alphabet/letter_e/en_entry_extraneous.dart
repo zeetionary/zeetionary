@@ -290,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We shall ignore factors extraneous to the problem.""",
             kurdishText:
-                """دەکرێت ئەو هۆکارانە پشتگوێ بخەین کە ناپێوەندیدارن بە کێشەکە.""",
+                """دەکرێت ئەو ھۆکارانە پشتگوێ بخەین کە ناپێوەندیدارن بە کێشەکە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The British government attempted to extradite the suspects from Belgium.""",
             kurdishText:
-                """حکومەتی بەریتانیا هەوڵی دا گومانلێکراوەکان لە بەلژیکاوە بهێنێتەوە.""",
+                """حکومەتی بەریتانیا ھەوڵی دا گومانلێکراوەکان لە بەلژیکاوە بھێنێتەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extradite (Derived forms: extradites, extradited, extraditing)
+- Verb: extradite (derived forms: extradites, extradited, extraditing)
 1. Hand over to the authorities of another country (= deliver, deport)
 "They extradited the fugitive to his native country so he could be tried there";
 """,

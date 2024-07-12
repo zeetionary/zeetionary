@@ -257,15 +257,15 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) گیانەلەبەرێک کە وەک مرۆڤی بچووک وایە و دەسەڵاتی موعجیزەئاسای هەیە"""),
+                  """١. (ناو) گیانەلەبەرێک کە وەک مرۆڤی بچووک وایە و دەسەڵاتی موعجیزەئاسای ھەیە"""),
           SentencesRow(
             englishText: """Do you believe in fairies?""",
-            kurdishText: """باوەڕی بە پەری هەیە؟""",
+            kurdishText: """باوەڕی بە پەری ھەیە؟""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -273,7 +273,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She used to think there were fairies at the bottom of her garden.""",
-            kurdishText: """وای بیردەکردەوە کە پەری هەیە لە ژێرەوەی باخچەکە.""",
+            kurdishText: """وای بیردەکردەوە کە پەری ھەیە لە ژێرەوەی باخچەکە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -327,7 +327,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fairy (Derived forms: fairies)
+- Noun: fairy (derived forms: fairies)
 1. A small being, human in form, playful and having magical powers (= faery, faerie, fay, sprite)
  
 2. [offensive] A male homosexual

@@ -263,20 +263,20 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بە درۆ، ڕیاکارانە، ڕووبینانە، بەهەڵە
+کوردی: بە درۆ، ڕیاکارانە، ڕووبینانە، بەھەڵە
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بە هەڵە"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵکار) بە ھەڵە"""),
           SentencesRow(
             englishText: """She falsely claimed to be a fraud victim.""",
             kurdishText:
-                """بە هەڵە بانگەشەی ئەوە دەکات کە قوربانی ساختەکاری بێت.""",
+                """بە ھەڵە بانگەشەی ئەوە دەکات کە قوربانی ساختەکاری بێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """He was assaulted and falsely imprisoned.""",
-            kurdishText: """دەستدرێژی کرایە سەر و بە هەڵە دەستگیرکرا.""",
+            kurdishText: """دەستدرێژی کرایە سەر و بە ھەڵە دەستگیرکرا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

@@ -395,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (کردار) گرتنی کەسێک/شتێک بە دەستت، ددانت، هتد؛ ئەوەی کە دەستت، ددانت، هتد ئەمە بکات"""),
+                  """٥. (کردار) گرتنی کەسێک/شتێک بە دەستت، ددانت، ھتد؛ ئەوەی کە دەستت، ددانت، ھتد ئەمە بکات"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The dog fastened its teeth in his leg.""",
@@ -461,7 +461,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fasten (Derived forms: fastened, fastens, fastening)
+- Verb: fasten (derived forms: fastened, fastens, fastening)
 1. Cause to be firmly attached (= fix, secure)
 "fasten the lock onto the door";
  
@@ -497,17 +497,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'xVQxvthAcLU?t=';
+const String _videoIdend = 'xVQxvthAcLU';
 const double _startSecondsend = 648;
-const String _videoIdone = 'G8UELR5KWk8?t=';
+const String _videoIdone = 'G8UELR5KWk8';
 const double _startSecondsone = 465;
-const String _videoIdtwo = 'H4G2NXsuYyM?t=';
+const String _videoIdtwo = 'H4G2NXsuYyM';
 const double _startSecondstwo = 92;
-const String _videoIdthree = 'y9nBhv0lq1s?t=';
+const String _videoIdthree = 'y9nBhv0lq1s';
 const double _startSecondsthree = 1529;
-const String _videoIdfour = 'XxOh12Uhg08?t=';
+const String _videoIdfour = 'XxOh12Uhg08';
 const double _startSecondsfour = 1636;
-const String _videoIdfive = 'SkGIr2qUz-4?t=';
+const String _videoIdfive = 'SkGIr2qUz-4';
 const double _startSecondsfive = 33;
 
 class YoutubeEmbeddedend extends StatelessWidget {

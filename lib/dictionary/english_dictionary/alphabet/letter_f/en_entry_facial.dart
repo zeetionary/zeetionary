@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) چارەسەرێکی جوانکاری کە ڕووخسار پاکدەکاتەوە بە کرێم و ساوینی هێواش"""),
+                  """٢. (ناو) چارەسەرێکی جوانکاری کە ڕووخسار پاکدەکاتەوە بە کرێم و ساوینی ھێواش"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -327,7 +327,7 @@ ${englishMeaningConst.text}
  
 2. Of or pertaining to the outside surface of an object
 
-- Noun: facial (Derived forms: facials)
+- Noun: facial (derived forms: facials)
 1. Cranial nerve that supplies facial muscles (= facial nerve, nervus facialis, seventh cranial nerve)
  
 2. Care for the face that usually involves cleansing and massage and the application of cosmetic creams

@@ -474,7 +474,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Customers expressed interest in trying the product.""",
-            kurdishText: """کڕیاران حەزیان دەربڕی بۆ تاقیکردنەوەی بەرهەمەکە.""",
+            kurdishText: """کڕیاران حەزیان دەربڕی بۆ تاقیکردنەوەی بەرھەمەکە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I'd like to express my gratitude to everyone who helped us.""",
             kurdishText:
-                """دەمەوێت سوپاسگوزاریم بە هەر کەسێک دەرببڕم کە یارمەتیمانی دا.""",
+                """دەمەوێت سوپاسگوزاریم بە ھەر کەسێک دەرببڕم کە یارمەتیمانی دا.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -526,7 +526,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """Many patients feel unable to express their fears.""",
                     kurdishText:
-                        """زۆر نەخۆش هەست بە بێ توانایی دەکەن بۆ دەربڕینی ترسەکانیان.""",
+                        """زۆر نەخۆش ھەست بە بێ توانایی دەکەن بۆ دەربڕینی ترسەکانیان.""",
                     onPressedBritish: () => speaksentence8("en-GB"),
                     onPressedAmerican: () => speaksentence8("en-US"),
                   ),
@@ -544,7 +544,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """She expressed sympathy, but said she could not help.""",
                     kurdishText:
-                        """هاوخەمی دەربڕی، بەڵام گوتی ناتوانێت یارمەتی بدات.""",
+                        """ھاوخەمی دەربڕی، بەڵام گوتی ناتوانێت یارمەتی بدات.""",
                     onPressedBritish: () => speaksentence10("en-GB"),
                     onPressedAmerican: () => speaksentence10("en-US"),
                   ),
@@ -555,7 +555,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (کردار) دەربڕینی هەستەکانی بە ڕێگای دیکە؛ لە ڕێگای شتی دیکەوە"""),
+                  """٢. (کردار) دەربڕینی ھەستەکانی بە ڕێگای دیکە؛ لە ڕێگای شتی دیکەوە"""),
           SentencesRow(
             englishText:
                 """Teenagers often have difficulty expressing themselves.""",
@@ -616,16 +616,16 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Educational expenditure is often expressed in terms of the amount spent per student.""",
             kurdishText:
-                """خەرجی پەروەردە زۆرجار دەردەبڕدرێت بەو بڕەی کە بۆ هەر قوتابییەک خەرج کراوە.""",
+                """خەرجی پەروەردە زۆرجار دەردەبڕدرێت بەو بڕەی کە بۆ ھەر قوتابییەک خەرج کراوە.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٥. (کردار) دەرکردنی هەوا یان شلە بە دانانی پەستان"""),
+              text: """٥. (کردار) دەرکردنی ھەوا یان شلە بە دانانی پەستان"""),
           SentencesRow(
             englishText: """Coconut milk is expressed from grated coconuts.""",
-            kurdishText: """شیری گوێزهێند لە گوێزهێندی هاڕاوە بەدەست دێت.""",
+            kurdishText: """شیری گوێزھێند لە گوێزھێندی ھاڕاوە بەدەست دێت.""",
             onPressedBritish: () => speaksentence19("en-GB"),
             onPressedAmerican: () => speaksentence19("en-US"),
           ),
@@ -636,12 +636,12 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """As soon as I receive payment I will express the book to you.""",
             kurdishText:
-                """هەرکە پارەکەم بەدەست بگات کتێبەکەت بەخێرایی بۆ دەنێرم.""",
+                """ھەرکە پارەکەم بەدەست بگات کتێبەکەت بەخێرایی بۆ دەنێرم.""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٧. (هاوەڵناو) کە خێرا دەجوڵێت"""),
+          const DefinitionKurdish(text: """٧. (ھاوەڵناو) کە خێرا دەجوڵێت"""),
           SentencesRow(
             englishText: """She took the overnight express train to Luxor.""",
             kurdishText: """شەمەندەفەرە خێرا شەوانەکەی گرت بۆ لوکسۆر.""",
@@ -657,7 +657,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٨. (هاوەڵناو) کە بە گەیاندنی خێرا دەنێردرێت"""),
+              text: """٨. (ھاوەڵناو) کە بە گەیاندنی خێرا دەنێردرێت"""),
           SentencesRow(
             englishText: """She received her documents via express mail.""",
             kurdishText: """بە پۆستەی خێرا بەڵگەنامەکانی پێگەشت.""",
@@ -666,7 +666,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٩. (هاوەڵناو) کە بە ڕوونی و ئاشکرایی گوتراوە"""),
+              text: """٩. (ھاوەڵناو) کە بە ڕوونی و ئاشکرایی گوتراوە"""),
           SentencesRow(
             englishText:
                 """It was his express wish that you should have his gold watch after he died.""",
@@ -680,13 +680,13 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I came here with the express purpose of speaking with the manager.""",
             kurdishText:
-                """هاتمە ئێرە بە مەبەستی ڕوونی قسەکردن لەگەڵ بەڕێوەبەر.""",
+                """ھاتمە ئێرە بە مەبەستی ڕوونی قسەکردن لەگەڵ بەڕێوەبەر.""",
             onPressedBritish: () => speaksentence25("en-GB"),
             onPressedAmerican: () => speaksentence25("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """١٠. (هاوەڵکار) بەکارهێنانی خزمەتگوزارییەکی خێرا"""),
+              text: """١٠. (ھاوەڵکار) بەکارھێنانی خزمەتگوزارییەکی خێرا"""),
           SentencesRow(
             englishText: """I'd like to send this express, please.""",
             kurdishText: """تکایە دەمەوێت ئەمە بەخێرایی بنێرم.""",
@@ -754,7 +754,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: express (Derived forms: expresses, expressed, expressing)
+- Verb: express (derived forms: expresses, expressed, expressing)
 1. Articulate; either verbally or with a cry, shout, or noise (= verbalize, verbalise [Brit], utter, give tongue to)
 "She expressed her anger";
  
@@ -776,7 +776,7 @@ ${englishMeaningConst.text}
 7. Send by rapid transport or special messenger service
 "She expressed the letter to Florida"
 
-- Noun: express (Derived forms: expresses)
+- Noun: express (derived forms: expresses)
 1. Mail that is distributed by a rapid and efficient system (= express mail)
  
 2. Public transport consisting of a fast train or bus that makes only a few scheduled stops (= limited)

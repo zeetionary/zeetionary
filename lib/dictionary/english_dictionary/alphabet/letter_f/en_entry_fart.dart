@@ -299,7 +299,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ناو) دەرکردنی با لە ڕیخۆڵەکانەوە لە ڕێگەی کۆمەوە"""),
           SentencesRow(
             englishText: """He tried to hold in a fart during the meeting.""",
-            kurdishText: """لە کاتی چاوپێکەوتنەکە هەوڵیدا تڕێک ڕابگرێت.""",
+            kurdishText: """لە کاتی چاوپێکەوتنەکە ھەوڵیدا تڕێک ڕابگرێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -340,7 +340,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He tried not to fart during the exam.""",
-            kurdishText: """هەوڵی دا تڕ نەداتەوە لە ماوەی تاقیکردنەوەکە.""",
+            kurdishText: """ھەوڵی دا تڕ نەداتەوە لە ماوەی تاقیکردنەوەکە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -392,11 +392,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fart (Derived forms: farts)
+- Noun: fart (derived forms: farts)
 Usage: vulgar
 1. A reflex that expels intestinal gas through the anus (= flatus [technical], wind, breaking wind)
 
-- Verb: fart (Derived forms: farted, farting, farts)
+- Verb: fart (derived forms: farted, farting, farts)
 Usage: vulgar
 1. Expel intestinal gases through the anus (= break wind, blow off [Brit, slang])
 """,
@@ -423,17 +423,17 @@ Usage: vulgar
   }
 }
 
-const String _videoIdend = 'a_TSR_v07m0?t=';
+const String _videoIdend = 'a_TSR_v07m0';
 const double _startSecondsend = 104;
-const String _videoIdone = 'z7JU0BoX0nQ?t=';
+const String _videoIdone = 'z7JU0BoX0nQ';
 const double _startSecondsone = 217;
-const String _videoIdtwo = 'zqllxbPWKNI?t=';
+const String _videoIdtwo = 'zqllxbPWKNI';
 const double _startSecondstwo = 144;
-const String _videoIdthree = 'JgQVj4iMm8Y?t=';
+const String _videoIdthree = 'JgQVj4iMm8Y';
 const double _startSecondsthree = 63;
-const String _videoIdfour = '1B9Kng2BN7s?t=';
+const String _videoIdfour = '1B9Kng2BN7s';
 const double _startSecondsfour = 3526;
-const String _videoIdfive = 'kUhb9mMDsbA?t=';
+const String _videoIdfive = 'kUhb9mMDsbA';
 const double _startSecondsfive = 226;
 
 class YoutubeEmbeddedend extends StatelessWidget {

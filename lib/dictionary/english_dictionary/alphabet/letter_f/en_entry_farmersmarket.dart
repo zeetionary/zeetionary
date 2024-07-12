@@ -249,12 +249,12 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) شوێنێک کە جوتیاران ڕاستەوخۆ بەرهەمەکانیان بە خەڵکی دەفرۆشن"""),
+                  """١. (ناو) شوێنێک کە جوتیاران ڕاستەوخۆ بەرھەمەکانیان بە خەڵکی دەفرۆشن"""),
           SentencesRow(
             englishText:
                 """She buys fresh vegetables at the farmer's market.""",
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: farmer's market (Derived forms: farmer's markets)
+- Noun: farmer's market (derived forms: farmer's markets)
 1. An open-air marketplace for farm products (= green market, greenmarket)
 """,
   );
@@ -329,17 +329,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'qO--hy6Q-LA?t=';
+const String _videoIdend = 'qO--hy6Q-LA';
 const double _startSecondsend = 161;
-const String _videoIdone = '417Qbwn9yso?t=';
+const String _videoIdone = '417Qbwn9yso';
 const double _startSecondsone = 669;
-const String _videoIdtwo = 'SP_3sVbvK6Y?t=';
+const String _videoIdtwo = 'SP_3sVbvK6Y';
 const double _startSecondstwo = 465;
-const String _videoIdthree = '67yX1C4gaDA?t=';
+const String _videoIdthree = '67yX1C4gaDA';
 const double _startSecondsthree = 28;
-const String _videoIdfour = 'm58_ky4kNxk?t=';
+const String _videoIdfour = 'm58_ky4kNxk';
 const double _startSecondsfour = 176;
-const String _videoIdfive = 'J214OrZYJmA?t=';
+const String _videoIdfive = 'J214OrZYJmA';
 const double _startSecondsfive = 341;
 
 class YoutubeEmbeddedend extends StatelessWidget {

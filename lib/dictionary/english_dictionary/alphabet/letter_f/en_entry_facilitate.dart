@@ -257,9 +257,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (کردار) ئەوەی کارێک یان پڕۆسەیەک بخەیتە کار یان ئاسانتری بکەیت"""),
@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The new trade agreement should facilitate more rapid economic growth.""",
             kurdishText:
-                """ڕێککەوتنە بازرگانییە تازەکە دەبێت گەشەی ئابووری خێراتر بهێنێتە بوون.""",
+                """ڕێککەوتنە بازرگانییە تازەکە دەبێت گەشەی ئابووری خێراتر بھێنێتە بوون.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The use of computers has greatly facilitated the firm's ability to keep accurate records.""",
             kurdishText:
-                """بەکارهێنانی کۆمپیوتەر بەشێوەیەکی زۆر توانای کۆمپانیاکەی ئاسانتر کردووە بۆ هەبوونی تۆمارێکی درووست.""",
+                """بەکارھێنانی کۆمپیوتەر بەشێوەیەکی زۆر توانای کۆمپانیاکەی ئاسانتر کردووە بۆ ھەبوونی تۆمارێکی درووست.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: facilitate (Derived forms: facilitating, facilitated, facilitates)
+- Verb: facilitate (derived forms: facilitating, facilitated, facilitates)
 1. Make easier (= ease, alleviate, grease [informal])
 "you could facilitate the process by sharing your knowledge";
  

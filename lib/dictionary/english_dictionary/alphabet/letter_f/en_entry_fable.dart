@@ -265,7 +265,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: داستان، چیرۆک، حیکایەت، حەقایەت، ڕاز، ڕازە، جەفەن، نەزیلە، نەزیرە،	ئەفسانە، ئوستوورە، میس، میت،	هەڵبەستە، درۆ، ناڕاست
+کوردی: داستان، چیرۆک، حیکایەت، حەقایەت، ڕاز، ڕازە، جەفەن، نەزیلە، نەزیرە،	ئەفسانە، ئوستوورە، میس، میت،	ھەڵبەستە، درۆ، ناڕاست
 """),
           const DefinitionKurdish(
               text:
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """His story about meeting a dragon is just a fable.""",
             kurdishText:
-                """چیرۆکەکەی سەبارەت بە بینینی ئەژدیهایەک تەنها هەڵبەستراوە.""",
+                """چیرۆکەکەی سەبارەت بە بینینی ئەژدیھایەک تەنھا ھەڵبەستراوە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -339,14 +339,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fable (Derived forms: fables)
+- Noun: fable (derived forms: fables)
 1. A deliberately false or improbable account (= fabrication, fiction)
  
 2. A short moral story (often with animal characters) (= parable, allegory, apologue, exemplum)
  
 3. A story about mythical or supernatural beings or events (= legend)
 
-- Verb: fable (Derived forms: fables, fabling, fabled)
+- Verb: fable (derived forms: fables, fabling, fabled)
 Usage: archaic
 1. Invent; speak of as true or real
 """,

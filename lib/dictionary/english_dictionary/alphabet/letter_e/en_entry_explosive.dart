@@ -272,21 +272,21 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەتەقینەوەهاتوو، ئامادەی تەقینەوە، دەتەقێتەوە، تەقینەوەیی، نائارام، تەنگژەیی،	توندوتیژ، سەخت، توند، پڕمەترسی،	تووڕە، فیشەکی، جینگزی،	زووتووڕە، لەناکاوزۆربوو، ڕوولەزۆری (کت‌وپڕ)، کت‌وپڕ و بەرز (دەنگ)
+کوردی: لەتەقینەوەھاتوو، ئامادەی تەقینەوە، دەتەقێتەوە، تەقینەوەیی، نائارام، تەنگژەیی،	توندوتیژ، سەخت، توند، پڕمەترسی،	تووڕە، فیشەکی، جینگزی،	زووتووڕە، لەناکاوزۆربوو، ڕوولەزۆری (کت‌وپڕ)، کت‌وپڕ و بەرز (دەنگ)
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە بە ئاسانی دەتەقێتەوە یان ئەگەری هەیە بتەقێتەوە"""),
+                  """١. (ھاوەڵناو) کە بە ئاسانی دەتەقێتەوە یان ئەگەری ھەیە بتەقێتەوە"""),
           SentencesRow(
             englishText: """Hydrogen is highly explosive.""",
-            kurdishText: """هایدرۆجین تەواو لەتەقینەوەهاتووە.""",
+            kurdishText: """ھایدرۆجین تەواو لەتەقینەوەھاتووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) کە ئەگەری هەیە ببێتە هۆکاری توندوتیژی و تووڕەیی"""),
+                  """٢. (ھاوەڵناو) کە ئەگەری ھەیە ببێتە ھۆکاری توندوتیژی و تووڕەیی"""),
           SentencesRow(
             englishText:
                 """The political situation is potentially explosive.""",
@@ -296,10 +296,10 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (ھاوەڵناو) هەبوونی هەستی لەناکاو و توند"""),
+              text: """٣. (ھاوەڵناو) ھەبوونی ھەستی لەناکاو و توند"""),
           SentencesRow(
             englishText: """She has an explosive temper.""",
-            kurdishText: """باری دەروونی تووڕەی هەیە.""",
+            kurdishText: """باری دەروونی تووڕەی ھەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -309,7 +309,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There was an explosive growth of the export market.""",
-            kurdishText: """گەشەیەکی کت‌وپڕ لە بازاڕی هەناردە هەبوو.""",
+            kurdishText: """گەشەیەکی کت‌وپڕ لە بازاڕی ھەناردە ھەبوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
 3. Serving to explode or characterized by explosion or sudden outburst
 "an explosive device"; "explosive gas"; "explosive force"; "explosive violence"; "an explosive temper"
 
-- Noun: explosive (Derived forms: explosives)
+- Noun: explosive (derived forms: explosives)
 1. A chemical substance that undergoes a rapid chemical change (with the production of gas) on being heated or struck
 """,
   );

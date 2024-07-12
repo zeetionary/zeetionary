@@ -326,11 +326,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: توانایی، لێهاتوویی، ئامادەیی، توانایی سروشتی، لێوەشاوەی،	ئاسانی، هێسانی، ئاسوودەیی، بێ‌ئەرکی، سانایی،	هۆ، کەرەسە،	شارەزایی، وەستایی،	ڕەوانی،	نەرمی
+کوردی: توانایی، لێھاتوویی، ئامادەیی، توانایی سروشتی، لێوەشاوەی،	ئاسانی، ھێسانی، ئاسوودەیی، بێ‌ئەرکی، سانایی،	ھۆ، کەرەسە،	شارەزایی، وەستایی،	ڕەوانی،	نەرمی
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) بینا، خزمەتگوزاری، کەرەستە، هتد کە بۆ مەبەستێکی دیاریکراو تەرخان کراون"""),
+                  """١. (ناو) بینا، خزمەتگوزاری، کەرەستە، ھتد کە بۆ مەبەستێکی دیاریکراو تەرخان کراون"""),
           SentencesRow(
             englishText:
                 """The school is upgrading its outdoor play facilities.""",
@@ -358,14 +358,14 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The hotel provides excellent facilities for children.""",
-            kurdishText: """هوتێلەکە شوێنی نایابی بۆ منداڵ هەیە.""",
+            kurdishText: """ھوتێلەکە شوێنی نایابی بۆ منداڵ ھەیە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """There are childcare facilities on site.""",
-            kurdishText: """شوێنی چاودێری منداڵ هەیە لە ناوچەکە.""",
+            kurdishText: """شوێنی چاودێری منداڵ ھەیە لە ناوچەکە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -386,7 +386,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She trains with the team at their practice facility.""",
-            kurdishText: """ڕاهێنان بە تیمەکە دەکات لە شوێنی مەشقیان.""",
+            kurdishText: """ڕاھێنان بە تیمەکە دەکات لە شوێنی مەشقیان.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -402,24 +402,24 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) تایبەتمەندییەکی تایبەتی ئامێرێک، خزمەتگوزارییەک، هتد کە توانای پێدەدات شتێکی زیاتر بکات"""),
+                  """٣. (ناو) تایبەتمەندییەکی تایبەتی ئامێرێک، خزمەتگوزارییەک، ھتد کە توانای پێدەدات شتێکی زیاتر بکات"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """The device has a facility for storing any sound you like.""",
             kurdishText:
-                """ئامێرەکە تایبەتمەندییەکی هەیە بۆ کۆگاکردنی هەر دەنگێک دەتەوێت.""",
+                """ئامێرەکە تایبەتمەندییەکی ھەیە بۆ کۆگاکردنی ھەر دەنگێک دەتەوێت.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ناو) توانای سرووشتی بۆ فێربوون یان کردنی هەر شتێک کە دەتەوێت"""),
+                  """٤. (ناو) توانای سرووشتی بۆ فێربوون یان کردنی ھەر شتێک کە دەتەوێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She has a facility for languages.""",
-            kurdishText: """شارەزایی بۆ زمان هەیە.""",
+            kurdishText: """شارەزایی بۆ زمان ھەیە.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -471,7 +471,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: facility (Derived forms: facilities)
+- Noun: facility (derived forms: facilities)
 1. A building or place that provides a particular service or is used for a particular industry (= installation)
 "the assembly plant is an enormous facility";
  

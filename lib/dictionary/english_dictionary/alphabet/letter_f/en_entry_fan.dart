@@ -332,15 +332,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: باوەشێن، پانکە، هەوادار، لایەنگر، کوشتەومردە، سەوداسەر، بەپەرۆش
+کوردی: باوەشێن، پانکە، ھەوادار، لایەنگر، کوشتەومردە، سەوداسەر، بەپەرۆش
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەوادار؛ کەسێک کە سەیری کەسێک/شتێک دەکات یان گوێی لێ دەگرێت و چێژی لێ دەبینێت"""),
+                  """١. (ناو) ھەوادار؛ کەسێک کە سەیری کەسێک/شتێک دەکات یان گوێی لێ دەگرێت و چێژی لێ دەبینێت"""),
           SentencesRow(
             englishText:
                 """Movie fans will be familiar with his work already.""",
-            kurdishText: """هەوادارنی فیلم ۆێشوەختە ئاشنای کارەکانینی.""",
+            kurdishText: """ھەوادارنی فیلم ۆێشوەختە ئاشنای کارەکانینی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -351,21 +351,21 @@ class KurdishMeaning extends StatelessWidget {
                   SentencesRow(
                     englishText:
                         """Crowds of football fans filled the streets.""",
-                    kurdishText: """هەوادارانی تۆپی‌پێ ڕژانە سەر شەقامەکان.""",
+                    kurdishText: """ھەوادارانی تۆپی‌پێ ڕژانە سەر شەقامەکان.""",
                     onPressedBritish: () => speaksentence2("en-GB"),
                     onPressedAmerican: () => speaksentence2("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """I'm a big fan of her books.""",
-                    kurdishText: """هەوادارێکی گەورەی کتێبەکانییم.""",
+                    kurdishText: """ھەوادارێکی گەورەی کتێبەکانییم.""",
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """I'm a huge fan of Adele.""",
-                    kurdishText: """هەوادارێکی سەرسەختی ئادێڵم.""",
+                    kurdishText: """ھەوادارێکی سەرسەختی ئادێڵم.""",
                     onPressedBritish: () => speaksentence4("en-GB"),
                     onPressedAmerican: () => speaksentence4("en-US"),
                   ),
@@ -374,14 +374,14 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """Hundreds of fans besieged the star's hotel.""",
                     kurdishText:
-                        """سەدان هەوادار دەوری هوتێلی ئەستێرەکەیان دا.""",
+                        """سەدان ھەوادار دەوری ھوتێلی ئەستێرەکەیان دا.""",
                     onPressedBritish: () => speaksentence5("en-GB"),
                     onPressedAmerican: () => speaksentence5("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """I'm a big fan of Italian food.""",
-                    kurdishText: """هەوادارێکی گەورەی خواردنی ئیتالیم.""",
+                    kurdishText: """ھەوادارێکی گەورەی خواردنی ئیتالیم.""",
                     onPressedBritish: () => speaksentence6("en-GB"),
                     onPressedAmerican: () => speaksentence6("en-US"),
                   ),
@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """More than 40 000 fans turned up for the 12-hour event.""",
                     kurdishText:
-                        """زیاتر لە ٤٠٠٠٠ هەوادار بەژداری بۆنە ١٢ کاتژمێرییەکە بوون.""",
+                        """زیاتر لە ٤٠٠٠٠ ھەوادار بەژداری بۆنە ١٢ کاتژمێرییەکە بوون.""",
                     onPressedBritish: () => speaksentence7("en-GB"),
                     onPressedAmerican: () => speaksentence7("en-US"),
                   ),
@@ -405,27 +405,27 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """There was no air conditioning, just a ceiling fan turning slowly.""",
             kurdishText:
-                """هیچ فێنککەرەوەیەک نەبوو، تەنها پانکەیەکی بنبانی کە بە هێواشی دەسووڕایەوە.""",
+                """ھیچ فێنککەرەوەیەک نەبوو، تەنھا پانکەیەکی بنبانی کە بە ھێواشی دەسووڕایەوە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) باوەشێن؛ شتێک کە لە دەستت ڕایدەگریت و ڕایدەوەشێنیت بۆ درووستکردنی هەواگۆڕکی"""),
+                  """٣. (ناو) باوەشێن؛ شتێک کە لە دەستت ڕایدەگریت و ڕایدەوەشێنیت بۆ درووستکردنی ھەواگۆڕکی"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """Fans are still used by many Spanish women during their hot summer as a means of keeping cool.""",
             kurdishText:
-                """باوەشێن هێشتا لەلایەن زۆر ژنی ئیسپانییەوە بەکاردێت لە کاتی هاوینی گەرمدا بۆ مانەوە بە فێنکی.""",
+                """باوەشێن ھێشتا لەلایەن زۆر ژنی ئیسپانییەوە بەکاردێت لە کاتی ھاوینی گەرمدا بۆ مانەوە بە فێنکی.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (کردار) فێنککردنەوەی کەسێک بە ڕاوەشاندنی دەستت، باوەشێنێک، هتد"""),
+                  """٤. (کردار) فێنککردنەوەی کەسێک بە ڕاوەشاندنی دەستت، باوەشێنێک، ھتد"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """A warm breeze fanned her cheeks.""",
@@ -443,7 +443,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (کردار) گەشکردنەوەی ئاگرێک بە باوەشێنکردنی یان هەواکردن پێیدا"""),
+                  """٥. (کردار) گەشکردنەوەی ئاگرێک بە باوەشێنکردنی یان ھەواکردن پێیدا"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -494,14 +494,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fan (Derived forms: fans)
+- Noun: fan (derived forms: fans)
 1. A device for creating a current of air by movement of a surface or surfaces
  
 2. An enthusiastic devotee of sports (= sports fan, rooter)
  
 3. An ardent follower and admirer (= buff, devotee, lover)
 
-- Verb: fan (Derived forms: fans, fanning, fanned)
+- Verb: fan (derived forms: fans, fanning, fanned)
 1. (baseball) strike out (a batter), (of a pitcher)
  
 2. Make (an emotion) fiercer

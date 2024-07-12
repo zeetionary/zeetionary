@@ -266,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ەسەر بنچینەی ڕاستی‌یەکان، ڕاستەقینە، بنچینەڕاست، هەیانی، بووەیی، بوویەری، سەربە ڕاستی و فاکتەکان
+کوردی: ەسەر بنچینەی ڕاستی‌یەکان، ڕاستەقینە، بنچینەڕاست، ھەیانی، بووەیی، بوویەری، سەربە ڕاستی و فاکتەکان
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) پشتبەستوو بە ڕاستی"""),
           SentencesRow(
@@ -288,7 +288,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The essay contains a number of factual errors.""",
-            kurdishText: """داڕشتنەکە ژمارەیەک هەڵەی ڕاستییەکان لەخۆدەگرێت.""",
+            kurdishText: """داڕشتنەکە ژمارەیەک ھەڵەی ڕاستییەکان لەخۆدەگرێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

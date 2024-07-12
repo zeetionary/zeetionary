@@ -260,17 +260,17 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک، کۆمپانیایەک، یان وڵاتێک کە شت هەناردەی وڵاتێکی دیکە دەکات"""),
+                  """١. (ناو) کەسێک، کۆمپانیایەک، یان وڵاتێک کە شت ھەناردەی وڵاتێکی دیکە دەکات"""),
           SentencesRow(
             englishText: """The country is now a exporter of fuel.""",
-            kurdishText: """وڵاتەکە ئێستا هەناردەکارێکی سووتەمەنییە.""",
+            kurdishText: """وڵاتەکە ئێستا ھەناردەکارێکی سووتەمەنییە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Japan is a major exporter of cars.""",
-            kurdishText: """ژاپۆن هەناردەکارێکی سەرەکی ئۆتۆمبێلە.""",
+            kurdishText: """ژاپۆن ھەناردەکارێکی سەرەکی ئۆتۆمبێلە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -315,7 +315,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exporter (Derived forms: exporters)
+- Noun: exporter (derived forms: exporters)
 1. A businessperson who transports goods abroad (for sale)
 """,
   );

@@ -255,7 +255,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) خانووی سەرەکی کیڵگەیەک، زۆرجار ئەو شوێنەی کە کێڵگەوانەکە لیی دەژی"""),
           SentencesRow(
             englishText: """The farmhouse had a big kitchen.""",
-            kurdishText: """خانووی جوتیارەکە چێشتخانەیەکی گەورەی هەبوو.""",
+            kurdishText: """خانووی جوتیارەکە چێشتخانەیەکی گەورەی ھەبوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -300,7 +300,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: farmhouse (Derived forms: farmhouses)
+- Noun: farmhouse (derived forms: farmhouses)
 1. House for a farmer and family
 """,
   );
@@ -326,17 +326,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'mY3SEMTROas?t=';
+const String _videoIdend = 'mY3SEMTROas';
 const double _startSecondsend = 1593;
-const String _videoIdone = 'GkgXRyScubI?t=';
+const String _videoIdone = 'GkgXRyScubI';
 const double _startSecondsone = 101;
-const String _videoIdtwo = 'wJa5Ch0O4BI?t=';
+const String _videoIdtwo = 'wJa5Ch0O4BI';
 const double _startSecondstwo = 7714;
-const String _videoIdthree = 'bIvqhdoZzo8?t=';
+const String _videoIdthree = 'bIvqhdoZzo8';
 const double _startSecondsthree = 872;
 const String _videoIdfour = '1ybLXdwp0Gk';
 const double _startSecondsfour = 0;
-const String _videoIdfive = 'gZOBkF7RoEQ?t=';
+const String _videoIdfive = 'gZOBkF7RoEQ';
 const double _startSecondsfive = 610;
 
 class YoutubeEmbeddedend extends StatelessWidget {

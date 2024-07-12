@@ -298,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """He was laughed at by his more fashionable friends.""",
-            kurdishText: """لەلایەن هاوڕێ مۆدپەرستەکانییەوە پێکەنینی پێکرا.""",
+            kurdishText: """لەلایەن ھاوڕێ مۆدپەرستەکانییەوە پێکەنینی پێکرا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -306,7 +306,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """It's becoming fashionable to have long hair again.""",
-            kurdishText: """هەبوونی قژی درێژ خەریکە دەبێتە باو.""",
+            kurdishText: """ھەبوونی قژی درێژ خەریکە دەبێتە باو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -321,7 +321,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Everything Italian suddenly became fashionable.""",
-            kurdishText: """هەموو شتێکی ئیتالی لەناکاو دەبێتە باو.""",
+            kurdishText: """ھەموو شتێکی ئیتالی لەناکاو دەبێتە باو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -416,17 +416,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '_GFkHA5EZdE?t=';
+const String _videoIdend = '_GFkHA5EZdE';
 const double _startSecondsend = 111;
-const String _videoIdone = 'wE1azf6azWw?t=';
+const String _videoIdone = 'wE1azf6azWw';
 const double _startSecondsone = 830;
-const String _videoIdtwo = 'L6QJS8djygk?t=';
+const String _videoIdtwo = 'L6QJS8djygk';
 const double _startSecondstwo = 314;
-const String _videoIdthree = 'WUjVPIEtJd0?t=';
+const String _videoIdthree = 'WUjVPIEtJd0';
 const double _startSecondsthree = 27;
-const String _videoIdfour = 'Fr-qagv7ig0?t=';
+const String _videoIdfour = 'Fr-qagv7ig0';
 const double _startSecondsfour = 603;
-const String _videoIdfive = 'Vx5AHPhLzpc?t=';
+const String _videoIdfive = 'Vx5AHPhLzpc';
 const double _startSecondsfive = 374;
 
 class YoutubeEmbeddedend extends StatelessWidget {

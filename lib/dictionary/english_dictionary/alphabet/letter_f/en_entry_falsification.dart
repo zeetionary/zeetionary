@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کاری گۆڕینی زانیاریییەک یان نووسراوێک بۆ شتێکی هەڵە"""),
+                  """١. (ناو) کاری گۆڕینی زانیاریییەک یان نووسراوێک بۆ شتێکی ھەڵە"""),
           SentencesRow(
             englishText:
                 """The couple was charged with falsification of documents.""",
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: falsification (Derived forms: falsifications)
+- Noun: falsification (derived forms: falsifications)
 1. Any evidence that helps to establish the falsity of something (= disproof, refutation)
  
 2. A wilful perversion of facts (= misrepresentation)

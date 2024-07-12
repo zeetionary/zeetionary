@@ -298,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: لاوازی، خاڵی لاوازی، کەم‌وکوڕی، کەم‌وکورتی، کێماسی، ناتەواوی، گەرد، عەیب، ئەگەر نەبێ، ئەگەر واش‌نەبێ، لە نەبوونی، بێ
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) لاوازی یان هەڵەی کەسێک/شتێک"""),
+              text: """١. (ناو) لاوازی یان ھەڵەی کەسێک/شتێک"""),
           SentencesRow(
             englishText: """She is aware of her own failings.""",
             kurdishText: """ئاگاداری شکستەکانی خۆیەتی.""",
@@ -315,7 +315,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """We all have our failings.""",
-            kurdishText: """هەموومان خاڵی لاوازی خۆمان هەیە.""",
+            kurdishText: """ھەموومان خاڵی لاوازی خۆمان ھەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -324,7 +324,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Despite its failings, capitalism has brought many benefits.""",
             kurdishText:
-                """سەرەڕای خاڵە لاوازەکانی، سیستەمی سەرمایەداری زۆر سوودی هەبووە.""",
+                """سەرەڕای خاڵە لاوازەکانی، سیستەمی سەرمایەداری زۆر سوودی ھەبووە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Ask a friend to recommend a doctor or, failing that, ask for a list in your local library.""",
             kurdishText:
-                """داوا لە هاوڕێیەک بکە پزیشکێک پێشنیار دەکات، لە حاڵەتی تر، داوای لیستێک لە کتێبخانە خۆجێییەکە بکە.""",
+                """داوا لە ھاوڕێیەک بکە پزیشکێک پێشنیار دەکات، لە حاڵەتی تر، داوای لیستێک لە کتێبخانە خۆجێییەکە بکە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -404,7 +404,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: failing (Derived forms: failings)
+- Adjective: failing (derived forms: failings)
 1. Below acceptable in performance
 "received failing grades"
 

@@ -313,7 +313,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نائاسایی، سەرئاسایی، سەرئاسا، زیادی، ئاوارتە، هەڵاوارتە، سەیر، بەلاجەوی، سەرسووڕمێنەر، سەراسا، تایبەتی
+کوردی: نائاسایی، سەرئاسایی، سەرئاسا، زیادی، ئاوارتە، ھەڵاوارتە، سەیر، بەلاجەوی، سەرسووڕمێنەر، سەراسا، تایبەتی
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) نامۆ، پێشبینی نەکراو، یان سەرنجڕاکێش"""),
@@ -328,7 +328,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The president took the extraordinary step of apologizing publicly for his behaviour!""",
             kurdishText:
-                """سەرۆک هەنگاوی نائاسایی ئەوەی نا کە بە گشتی داوای لێبووردنی کرد بۆ ڕەفتارەکەی!""",
+                """سەرۆک ھەنگاوی نائاسایی ئەوەی نا کە بە گشتی داوای لێبووردنی کرد بۆ ڕەفتارەکەی!""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We are a normal family dealing with extraordinary circumstances.""",
             kurdishText:
-                """خێزانێکی ئاسایین کە مامەڵە لەگەڵ هەلومەرجی نەخوازراو دەکەین.""",
+                """خێزانێکی ئاسایین کە مامەڵە لەگەڵ ھەلومەرجی نەخوازراو دەکەین.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """They went to extraordinary lengths to explain their behaviour.""",
             kurdishText:
-                """تا ئاستی نائاسایی دەچوون بۆ ڕوونکردنەوەی هەڵسوکەوتیان.""",
+                """تا ئاستی نائاسایی دەچوون بۆ ڕوونکردنەوەی ھەڵسوکەوتیان.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),

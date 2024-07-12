@@ -262,11 +262,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) گرووپێکی بچووک لە ناو گرووپێکی گەورەدا کە باوەڕ و ئامانجی جیاوازیان هەیە"""),
+                  """١. (ناو) گرووپێکی بچووک لە ناو گرووپێکی گەورەدا کە باوەڕ و ئامانجی جیاوازیان ھەیە"""),
           SentencesRow(
             englishText:
                 """There are rival factions within the administration.""",
-            kurdishText: """بەرەی دژبەر هەن لەناو حکومەتدا.""",
+            kurdishText: """بەرەی دژبەر ھەن لەناو حکومەتدا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The president’s advisors represent every faction of his party.""",
             kurdishText:
-                """ڕاوێژکارەکانی سەرۆک نوێنەری هەموو بەرەکانی ناو پارتەکەی دەکەن.""",
+                """ڕاوێژکارەکانی سەرۆک نوێنەری ھەموو بەرەکانی ناو پارتەکەی دەکەن.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -320,7 +320,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: faction (Derived forms: factions)
+- Noun: faction (derived forms: factions)
 1. A clique (often secret) that seeks power usually through intrigue (= cabal, junto, camarilla)
  
 2. A dissenting clique (= sect)

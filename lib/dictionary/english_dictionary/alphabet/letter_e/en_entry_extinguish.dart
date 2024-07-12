@@ -278,7 +278,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Firefighters tried to extinguish the flames.""",
             kurdishText:
-                """ئاگرکوژێنەرەوەکان هەوڵیان دا بڵێسەکان بکوژێننەوە.""",
+                """ئاگرکوژێنەرەوەکان ھەوڵیان دا بڵێسەکان بکوژێننەوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -288,7 +288,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """News of the bombing extinguished all hope of peace.""",
             kurdishText:
-                """هەواڵی بۆمبارانەکە هەموو هیوایەکی ئاشتی لەناوبرد.""",
+                """ھەواڵی بۆمبارانەکە ھەموو ھیوایەکی ئاشتی لەناوبرد.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extinguish (Derived forms: extinguishes, extinguishing, extinguished)
+- Verb: extinguish (derived forms: extinguishes, extinguishing, extinguished)
 1. Put out, as of fires, flames, or lights (= snuff out, quench)
 "Too big to be extinguished at once, the forest fires at best could be contained";
  

@@ -282,11 +282,11 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ھاوەڵناو) بەهێز و تەندرووست"""),
+          const DefinitionKurdish(text: """٢. (ھاوەڵناو) بەھێز و تەندرووست"""),
           SentencesRow(
             englishText:
                 """She admired the exuberant growth of summer flowers.""",
-            kurdishText: """سەرسامی گەشەی خێرای گوڵەکانی هاوین بوو.""",
+            kurdishText: """سەرسامی گەشەی خێرای گوڵەکانی ھاوین بوو.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

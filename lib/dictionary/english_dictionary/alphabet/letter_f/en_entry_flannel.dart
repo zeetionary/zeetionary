@@ -271,9 +271,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) قوماشێکی سووکی نەرم کە خوری یان لۆکەی تێدایە و بۆ درووستکردنی جل بەکاردێت"""),
@@ -290,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
           const AlsoEnglishckb(word: "ھەروەھا: facecloth، washcloth"),
           SentencesRow(
             englishText: """Use a damp flannel to clean the skin.""",
-            kurdishText: """فلانڵێکی تەڕ بەکاربهێنە بۆ پاککردنەوەی خۆت.""",
+            kurdishText: """فلانڵێکی تەڕ بەکاربھێنە بۆ پاککردنەوەی خۆت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -314,7 +314,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """OK, cut the flannel and tell me what you really want!""",
             kurdishText:
-                """باشە، واز لە پێچ‌وپەنا بهێنە و پێم بڵێ بەڕاستی چیت دەوێت.""",
+                """باشە، واز لە پێچ‌وپەنا بھێنە و پێم بڵێ بەڕاستی چیت دەوێت.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -359,7 +359,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: flannel (Derived forms: flannels)
+- Noun: flannel (derived forms: flannels)
 1. A soft light woollen fabric; used for clothing
  
 2. [Brit] Bath linen consisting of a piece of cloth used to wash the face and body (= washcloth [N. Amer], washrag, face cloth [Brit, Cdn])
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
  
 4. [Brit] Evasive talk
 
-- Verb: flannel (Derived forms: flannelling, flannels, flannelled)
+- Verb: flannel (derived forms: flannelling, flannels, flannelled)
 Usage: Brit
 1. Talk quickly in an evasive or insincere way
 """,

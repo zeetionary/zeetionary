@@ -247,9 +247,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) قایشێک کە ئەو ئامێرانە کار پێدەکات کە بزوێنەری ئۆتۆمبێل فێنک دەکەنەوە"""),
@@ -300,7 +300,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fan belt (Derived forms: fan belts)
+- Noun: fan belt (derived forms: fan belts)
 1. A belt driven by the crankshaft that drives a fan that pulls air through the radiator
 """,
   );

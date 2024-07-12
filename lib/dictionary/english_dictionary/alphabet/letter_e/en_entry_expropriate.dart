@@ -255,11 +255,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) بە فەرمی سەندنی سامانی تایبەت لە خەڵکی لە لایەن حکومەتەوە و بردنی بۆ بەکارهێنانی گشتی؛ بەکارهێنانی سامانی کەسێک بەبێ پرسکردن"""),
+                  """١. (کردار) بە فەرمی سەندنی سامانی تایبەت لە خەڵکی لە لایەن حکومەتەوە و بردنی بۆ بەکارھێنانی گشتی؛ بەکارھێنانی سامانی کەسێک بەبێ پرسکردن"""),
           SentencesRow(
             englishText:
                 """He was discovered to have been expropriating company funds.""",
-            kurdishText: """زانرا کە پارەی کۆمپانیای بەکاردەهێنا.""",
+            kurdishText: """زانرا کە پارەی کۆمپانیای بەکاردەھێنا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: expropriate (Derived forms: expropriated, expropriates, expropriating)
+- Verb: expropriate (derived forms: expropriated, expropriates, expropriating)
 1. Deprive of possessions
 "The Communist government expropriated the landowners"
 """,

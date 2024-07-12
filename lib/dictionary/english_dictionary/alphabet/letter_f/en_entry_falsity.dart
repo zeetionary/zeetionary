@@ -258,21 +258,21 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: درۆ، ناڕاست‌بوون، نادروستی، هەڵەبوون، هەڵە، شاشی، چەوتی
+کوردی: درۆ، ناڕاست‌بوون، نادروستی، ھەڵەبوون، ھەڵە، شاشی، چەوتی
 """),
-          const DefinitionKurdish(text: """١. (ناو) ئەوەی کە شتێک هەڵە بێت"""),
+          const DefinitionKurdish(text: """١. (ناو) ئەوەی کە شتێک ھەڵە بێت"""),
           SentencesRow(
             englishText:
                 """We need to determine the truth or falsity of these claims.""",
             kurdishText:
-                """دەبێت ڕاستییەتی یان هەڵەیەتی ئەم بانگەشانە دیاری بکەین.""",
+                """دەبێت ڕاستییەتی یان ھەڵەیەتی ئەم بانگەشانە دیاری بکەین.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """There are quite a few falsities in this article.""",
-            kurdishText: """ژمارەیەک چەوتی لەم وتارەدا هەن.""",
+            kurdishText: """ژمارەیەک چەوتی لەم وتارەدا ھەن.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -317,7 +317,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: falsity (Derived forms: falsities)
+- Noun: falsity (derived forms: falsities)
 1. The state of being false or untrue (= falseness)
 "argument could not determine its truth or falsity";
  

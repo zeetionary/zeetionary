@@ -278,9 +278,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(text: """١. (ناو) کارگە"""),
           SentencesRow(
             englishText: """The factory closed down ten years ago.""",
@@ -313,13 +313,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) کەسێک یان دامەزراوەیەک کە بەردەوام شتێکی دیاریکراو بەرهەم دەهێنێت"""),
+                  """٢. (ناو) کەسێک یان دامەزراوەیەک کە بەردەوام شتێکی دیاریکراو بەرھەم دەھێنێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """These universities are becoming degree factories, with no sense of what higher learning is really about.""",
             kurdishText:
-                """ئەم زانکۆیانە بوونە بە کارگەی بڕوانامە، بەبێ هیچ تێگەشتنێک بۆ ئەوەی کە خوێندنی باڵا چییە.""",
+                """ئەم زانکۆیانە بوونە بە کارگەی بڕوانامە، بەبێ ھیچ تێگەشتنێک بۆ ئەوەی کە خوێندنی باڵا چییە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: factory (Derived forms: factories)
+- Noun: factory (derived forms: factories)
 1. A plant consisting of one or more buildings with facilities for manufacturing (= mill, manufacturing plant, manufactory)
 "the belching of smoke from factory chimneys";
  

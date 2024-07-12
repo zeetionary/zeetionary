@@ -264,27 +264,27 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) یەکەی پێوانی پلەی گەرمی کە تێیدا ئاو لە ٣٢ پلە دەیبەستێت ٢ لە ٢١٢ دەکوڵێت"""),
           SentencesRow(
             englishText:
                 """Shall I give you the temperature in Celsius or in Fahrenheit?""",
-            kurdishText: """پلە گەرمییەکەت بە سیلیزی یان فەهرەنایت پێ بدەم؟""",
+            kurdishText: """پلە گەرمییەکەت بە سیلیزی یان فەھرەنایت پێ بدەم؟""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) پەیوەندیدار یان بە بەکارهێنانی فەهرەنایت"""),
+                  """٢. (ھاوەڵناو) پەیوەندیدار یان بە بەکارھێنانی فەھرەنایت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It was 80°F in the shade.""",
-            kurdishText: """لە سێبەرەکەدا ٨٠ پلەی فەهرەنایت بوو.""",
+            kurdishText: """لە سێبەرەکەدا ٨٠ پلەی فەھرەنایت بوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -293,7 +293,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Temperatures tomorrow will rise to around seventy degrees Fahrenheit.""",
             kurdishText:
-                """سبەی پلەی گەرمی بەرزدەبێتەوە بۆ نزیکەی ٧٠ پلەی فەهرەنایت.""",
+                """سبەی پلەی گەرمی بەرزدەبێتەوە بۆ نزیکەی ٧٠ پلەی فەھرەنایت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: Fahrenheit (Derived forms: Fahrenheits)
+- Noun: Fahrenheit (derived forms: Fahrenheits)
 1. the scale of temperature in which water freezes at 32° and boils at 212°
 
 2. German physicist who invented the mercury thermometer and developed the scale of temperature that bears his name (1686-1736) (= Daniel Gabriel Fahrenheit, Gabriel Daniel Fahrenheit)

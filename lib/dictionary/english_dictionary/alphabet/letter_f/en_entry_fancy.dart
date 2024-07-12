@@ -367,7 +367,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەیاڵ‌کردنەوە، خەیاڵ‌بردنەوە، هێنانەبەرچاو، وێناکردن، خەیاڵ‌پڵاو(کردن)،	هێز یان توانایی خەیاڵ‌کردنەوە،	خەیاڵی پڕوپووچ،	گومان، مەزندە، مەیل، کەڵکەڵە، خولیا، نگە، ئیشتیا، ئارەزوو، هەوا،	هۆگری، دڵبەستەیی، کەیک یان تۆشەی فانتزی، کەیکی جوانی چکۆلانە، فانسیز،	خەیاڵی، ئەندێشەیی، پڕوپووچ، لەراستی بەدوور،	بۆ جوانی،	سەیر، نائاسایی، سەیروسەمەرە،	بە زریقەوبریقە، پڕنەخش‌ونیگار، ڕەنگاوڕەنگ،	یەکجار زۆر، یەکجار گران، یەکجار لەسەرێ (نرخ)
+کوردی: خەیاڵ‌کردنەوە، خەیاڵ‌بردنەوە، ھێنانەبەرچاو، وێناکردن، خەیاڵ‌پڵاو(کردن)،	ھێز یان توانایی خەیاڵ‌کردنەوە،	خەیاڵی پڕوپووچ،	گومان، مەزندە، مەیل، کەڵکەڵە، خولیا، نگە، ئیشتیا، ئارەزوو، ھەوا،	ھۆگری، دڵبەستەیی، کەیک یان تۆشەی فانتزی، کەیکی جوانی چکۆلانە، فانسیز،	خەیاڵی، ئەندێشەیی، پڕوپووچ، لەراستی بەدوور،	بۆ جوانی،	سەیر، نائاسایی، سەیروسەمەرە،	بە زریقەوبریقە، پڕنەخش‌ونیگار، ڕەنگاوڕەنگ،	یەکجار زۆر، یەکجار گران، یەکجار لەسەرێ (نرخ)
 """),
           const DefinitionKurdish(
               text: """١. (کردار) ئەوەی شتێکت بوێت یان بتەوێت شتێک بکەیت"""),
@@ -438,7 +438,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He fancied himself in love with me, the silly boy.""",
             kurdishText:
-                """خۆی وەها دەبینی لە خۆشەویستیدا بێت لەگەڵم، کوڕی گەمژە.""",
+                """خۆی وەھا دەبینی لە خۆشەویستیدا بێت لەگەڵم، کوڕی گەمژە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -449,7 +449,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Fancy! She's never been in a plane before.""",
-            kurdishText: """جوانە! پێشووتر هەرگیز لە فڕۆکە نەبووە.""",
+            kurdishText: """جوانە! پێشووتر ھەرگیز لە فڕۆکە نەبووە.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -467,14 +467,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Which horse do you fancy in the next race?""",
-            kurdishText: """مەرج لەسەر کام ئەسپ دەکەیت لە پێشبڕکێی داهاتوو؟""",
+            kurdishText: """مەرج لەسەر کام ئەسپ دەکەیت لە پێشبڕکێی داھاتوو؟""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٧. (هاوەڵناو) کە تەواو ئاڵۆزە، بەتایبەتی کە پێویست نییە"""),
+                  """٧. (ھاوەڵناو) کە تەواو ئاڵۆزە، بەتایبەتی کە پێویست نییە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They added a lot of fancy footwork to the dance.""",
@@ -485,25 +485,25 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He's always using fancy legal words.""",
-            kurdishText: """هەمیشە وشەی ئاڵۆزی یاسایی بەکاردەهێنێت.""",
+            kurdishText: """ھەمیشە وشەی ئاڵۆزی یاسایی بەکاردەھێنێت.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٨. (هاوەڵناو) بە ڕێژەیەکی زۆر لە ڕازاندنەوە و ڕەنگی درەوشاوە، بەتایبەتی بۆ شتی بچووک"""),
+                  """٨. (ھاوەڵناو) بە ڕێژەیەکی زۆر لە ڕازاندنەوە و ڕەنگی درەوشاوە، بەتایبەتی بۆ شتی بچووک"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """I wanted a simple black dress, nothing fancy.""",
-            kurdishText: """جلێکی سادەی ڕەشم دەویست، هیچی بە زریقەوبریقە نا.""",
+            kurdishText: """جلێکی سادەی ڕەشم دەویست، ھیچی بە زریقەوبریقە نا.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٩. (هاوەڵناو) گران‌بەها یان پەیوەندیدار بە شێوازێکی گران‌بەهای ژیان‌کردن"""),
+                  """٩. (ھاوەڵناو) گران‌بەھا یان پەیوەندیدار بە شێوازێکی گران‌بەھای ژیان‌کردن"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Don't come back with any fancy ideas.""",
@@ -524,13 +524,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """١١. (ناو) هەستی ئەوەی کە شتێکت دەوێت یان دەتەوێت بیکەیت"""),
+                  """١١. (ناو) ھەستی ئەوەی کە شتێکت دەوێت یان دەتەوێت بیکەیت"""),
           const AlsoEnglishckb(word: "ھەروەھا: whim"),
           SentencesRow(
             englishText:
                 """She said she wanted a dog but it was only a passing fancy.""",
             kurdishText:
-                """گوتی سەگێکی دەوێت، بەڵام ئەوە تەنها خەیاڵی پڕوپووچ بوو.""",
+                """گوتی سەگێکی دەوێت، بەڵام ئەوە تەنھا خەیاڵی پڕوپووچ بوو.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
@@ -575,7 +575,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fancy (Derived forms: fancying, fancied, fancies)
+- Verb: fancy (derived forms: fancying, fancied, fancies)
 1. Imagine; conceive of; see in one's mind (= visualize, visualise [Brit], envision, project, see, figure, picture, image)
 "I can't fancy him on horseback!";
  
@@ -585,11 +585,11 @@ ${englishMeaningConst.text}
 3. [Brit, informal] Find sexually attractive
 "he definitely fancies her"
 
-- Adjective: fancy (Derived forms: fanciest, fancier)
+- Adjective: fancy (derived forms: fanciest, fancier)
 1. Not plain; decorative or ornamented
 "fancy handwriting"; "fancy clothes"
 
-- Noun: fancy (Derived forms: fancies)
+- Noun: fancy (derived forms: fancies)
 1. Something that many people believe but is false (= illusion, fantasy, phantasy [archaic])
 "He fancies himself to be a local celebrity.";
  

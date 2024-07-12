@@ -257,12 +257,12 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) تۆزی تیشکدەری مەترسیدار کە لە ئاسماندایە لە دوای بەکارهێنانی چەکی ئەتۆمی"""),
+                  """١. (ناو) تۆزی تیشکدەری مەترسیدار کە لە ئاسماندایە لە دوای بەکارھێنانی چەکی ئەتۆمی"""),
           SentencesRow(
             englishText:
                 """Many people suffered cancer deaths caused by fallout from weapons testing.""",
@@ -324,7 +324,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fallout (Derived forms: fallouts)
+- Noun: fallout (derived forms: fallouts)
 1. The radioactive particles that settle to the ground after a nuclear explosion (= radioactive dust)
  
 2. Any adverse and unwanted secondary effect (= side effect)

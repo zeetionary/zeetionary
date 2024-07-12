@@ -259,27 +259,27 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دروس‌کردن، سازکردن، سازاندن، بنیات‌نان، پێکەوەنان، پێکهێنان، داڕشتن، بەرهەم‌هێنان، داهێنان،	هەڵبەستن، ساختەکاری، فروفێڵ‌کاری
+کوردی: دروس‌کردن، سازکردن، سازاندن، بنیات‌نان، پێکەوەنان، پێکھێنان، داڕشتن، بەرھەم‌ھێنان، داھێنان،	ھەڵبەستن، ساختەکاری، فروفێڵ‌کاری
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) زانیاری هەڵە کە درووستکراوە بۆ خەڵەتاندن؛ ئەوەی کە ئەم کارە بکەیت"""),
+                  """١. (ناو) زانیاری ھەڵە کە درووستکراوە بۆ خەڵەتاندن؛ ئەوەی کە ئەم کارە بکەیت"""),
           SentencesRow(
             englishText:
                 """Her story was a complete fabrication from start to finish.""",
-            kurdishText: """چیرۆکەکەی لە سەرەتاوە بۆ کۆتایی هەڵبەستن بوو.""",
+            kurdishText: """چیرۆکەکەی لە سەرەتاوە بۆ کۆتایی ھەڵبەستن بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) درووستکردنی بەرهەم لە ژمارەیەک مادەوە"""),
+              text: """٢. (ناو) درووستکردنی بەرھەم لە ژمارەیەک مادەوە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """All wafer fabrication at San Jose will transfer to the Minneapolis plant.""",
             kurdishText:
-                """هەموو بەرهەمێکی جابری دەبردرێت بۆ کارگەی مینیاپڵس.""",
+                """ھەموو بەرھەمێکی جابری دەبردرێت بۆ کارگەی مینیاپڵس.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -324,7 +324,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fabrication (Derived forms: fabrications)
+- Noun: fabrication (derived forms: fabrications)
 1. A deliberately false or improbable account (= fiction, fable)
  
 2. Writing in a fictional form (= fictionalization, fictionalisation [Brit])

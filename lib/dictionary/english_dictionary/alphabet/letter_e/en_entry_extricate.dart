@@ -323,7 +323,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extricate (Derived forms: extricating, extricates, extricated)
+- Verb: extricate (derived forms: extricating, extricates, extricated)
 1. Release from entanglement of difficulty (= untangle, disentangle, disencumber)
 "I cannot extricate myself from this task";
 """,

@@ -300,7 +300,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Travelling all that way to work every day is a real fag.""",
             kurdishText:
-                """گەشتکردنی هەموو ڕۆژێک بۆ سەر کار مەینەتییەکی ڕاستەقینەیە.""",
+                """گەشتکردنی ھەموو ڕۆژێک بۆ سەر کار مەینەتییەکی ڕاستەقینەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -345,7 +345,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fag (Derived forms: fags)
+- Noun: fag (derived forms: fags)
 1. [Brit, informal] Finely ground tobacco wrapped in paper; for smoking (= cigarette, cigaret [US], coffin nail [informal], butt, gasper [Brit, informal], durry [Austral, informal], cig [informal], ciggy [Brit, informal])
 "he took a drag on his fag and expelled the smoke slowly";
  
@@ -353,7 +353,7 @@ ${englishMeaningConst.text}
  
 3. [N. Amer, offensive] A male homosexual
 
-- Verb: fag (Derived forms: fagged, fagging, fags)
+- Verb: fag (derived forms: fagged, fagging, fags)
 1. [informal] Work hard (= labor [US], labour [Brit, Cdn], toil, travail [literary], grind [informal], drudge, dig [US, informal], moil [N. Amer])
 "Lexicographers fag all day long";
  

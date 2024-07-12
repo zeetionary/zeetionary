@@ -380,7 +380,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دوایین، ئاخر، کۆتایی، ئەوپەڕ، دوورترین، هەرەدوور،	زۆرینە، پڕانی، زۆربە،	توندترین، سەخت‌ترین، توند(وتیژ)، نائاسایی، تیژی، قورس، ناخۆش، سەخت، گران، ئاریش، دژوار،	تونڕەو، زێدەڕەو، زێدەڕۆ، پەڕگر،	لەڕادەبەدەر، یەکجار زۆر، بێ‌ئەندازە، دواڕادە، دواپلە، کۆتایی، ئاخر، ئەوپەڕ، سەرپەڕ، سەر، دوایین (خاڵ)،	لا، ڕادە، ئەندازە،	تونڕەوی، زێدەڕەوی، پێ‌درێژی، پەڕگری، پەڕگیری
+کوردی: دوایین، ئاخر، کۆتایی، ئەوپەڕ، دوورترین، ھەرەدوور،	زۆرینە، پڕانی، زۆربە،	توندترین، سەخت‌ترین، توند(وتیژ)، نائاسایی، تیژی، قورس، ناخۆش، سەخت، گران، ئاریش، دژوار،	تونڕەو، زێدەڕەو، زێدەڕۆ، پەڕگر،	لەڕادەبەدەر، یەکجار زۆر، بێ‌ئەندازە، دواڕادە، دواپلە، کۆتایی، ئاخر، ئەوپەڕ، سەرپەڕ، سەر، دوایین (خاڵ)،	لا، ڕادە، ئەندازە،	تونڕەوی، زێدەڕەوی، پێ‌درێژی، پەڕگری، پەڕگیری
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) بە ئاستێکی زۆر"""),
           SentencesRow(
@@ -401,7 +401,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Such results should be treated with extreme caution.""",
             kurdishText:
-                """ئەنجامی وەها دەبێت بە وریایی تەواو زۆرەوە مامەڵەی لەگەڵ بکرێت.""",
+                """ئەنجامی وەھا دەبێت بە وریایی تەواو زۆرەوە مامەڵەی لەگەڵ بکرێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Children will be removed from their parents only in extreme circumstances.""",
             kurdishText:
-                """منداڵان تەنها لە هەلومەرجی تەواو نائاسایی لە دایک و باوک دەسەندرێتەوە.""",
+                """منداڵان تەنھا لە ھەلومەرجی تەواو نائاسایی لە دایک و باوک دەسەندرێتەوە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -420,14 +420,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """It can cause nausea and, in extreme cases, death.""",
             kurdishText:
-                """دەکرێت ببێتە هۆکاری هێڵنج‌دان و، لە دۆخی تایبەتدا، مردن.""",
+                """دەکرێت ببێتە ھۆکاری ھێڵنج‌دان و، لە دۆخی تایبەتدا، مردن.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """She was forced to take extreme measures.""",
-            kurdishText: """زۆری لێکرا هەنگاوی تەووا توند بنێت.""",
+            kurdishText: """زۆری لێکرا ھەنگاوی تەووا توند بنێت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -435,7 +435,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Don't go doing anything extreme like leaving the country.""",
-            kurdishText: """شتی زۆر نائاسایی وکە جێهێشتنی وڵات مەکە.""",
+            kurdishText: """شتی زۆر نائاسایی وکە جێھێشتنی وڵات مەکە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -494,7 +494,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (ناو) هەست، دۆخ، شێوازی ڕەفتار، هتد کە چەندە بکرێت جیاوازە لە یەکێکی دیکە، یان تەواو دژیەتی"""),
+                  """٥. (ناو) ھەست، دۆخ، شێوازی ڕەفتار، ھتد کە چەندە بکرێت جیاوازە لە یەکێکی دیکە، یان تەواو دژیەتی"""),
           SentencesRow(
             englishText:
                 """He used to be very shy, but now he's gone to the opposite extreme (= changed from one extreme kind of behaviour to another).""",
@@ -508,7 +508,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """At the other extreme, the top 10 per cent receives 30 per cent of the nation's income.""",
             kurdishText:
-                """لە پەڕەکەی دیکەوە، ١٠ لە سەد ڕێژەی ٣٠ لە سەدی داهاتی وڵاتەکەی دەبرد.""",
+                """لە پەڕەکەی دیکەوە، ١٠ لە سەد ڕێژەی ٣٠ لە سەدی داھاتی وڵاتەکەی دەبرد.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -525,7 +525,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The climate is mild with no extremes of temperature.""",
-            kurdishText: """ئاووهەواکە ئارامە بەبێ هیچ زۆرییەکی پلەی گەرمی.""",
+            kurdishText: """ئاووھەواکە ئارامە بەبێ ھیچ زۆرییەکی پلەی گەرمی.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
@@ -579,7 +579,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: extreme (Derived forms: extremest, extremes, extremer)
+- Adjective: extreme (derived forms: extremest, extremes, extremer)
 1. Of the greatest possible degree, extent or intensity (= utmost, uttermost)
 "extreme cold";
  
@@ -592,7 +592,7 @@ ${englishMeaningConst.text}
 4، Most distant in any direction
 "the extreme edge of town"
 
-- Noun: extreme (Derived forms: extremes)
+- Noun: extreme (derived forms: extremes)
 1. The furthest or highest degree of something
 "he carried it to extremes"
  

@@ -266,11 +266,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تیاچوون، نەمان، قڕتێکەوتن، کوێرەوەبوون، لەبن‌دەرهێنان، قەڵاچۆکردن، فەوتاندن، هەڵتەکان، دوابڕان، لەنێوچوون، فەوتان،	کوژاندنەوە، دامرکاندن
+کوردی: تیاچوون، نەمان، قڕتێکەوتن، کوێرەوەبوون، لەبن‌دەرھێنان، قەڵاچۆکردن، فەوتاندن، ھەڵتەکان، دوابڕان، لەنێوچوون، فەوتان،	کوژاندنەوە، دامرکاندن
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) لەناوچوونی ڕووەکێک، ئاژەڵێک، شێوازێکی ژیان، هتد"""),
+                  """١. (ناو) لەناوچوونی ڕووەکێک، ئاژەڵێک، شێوازێکی ژیان، ھتد"""),
           SentencesRow(
             englishText:
                 """The island's way of life is doomed to extinction.""",
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extinction (Derived forms: extinctions)
+- Noun: extinction (derived forms: extinctions)
 1. No longer active; extinguished
 "the extinction of the volcano"
  

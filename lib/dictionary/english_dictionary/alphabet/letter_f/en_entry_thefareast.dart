@@ -247,15 +247,15 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) چین، ژاپۆن، کۆریا، ئەندەنووسیا، و وڵاتانی دیکەی ڕۆژهەڵات و باشووری ڕۆژهەڵاتی ئاسیا"""),
+                  """١. (ناو) چین، ژاپۆن، کۆریا، ئەندەنووسیا، و وڵاتانی دیکەی ڕۆژھەڵات و باشووری ڕۆژھەڵاتی ئاسیا"""),
           SentencesRow(
             englishText: """He traveled to the Far East for business.""",
-            kurdishText: """بۆ بازرگانی گەشتی بۆ ڕۆژهەڵاتی دوور کرد.""",
+            kurdishText: """بۆ بازرگانی گەشتی بۆ ڕۆژھەڵاتی دوور کرد.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -326,17 +326,17 @@ A popular expression for the countries of eastern Asia (usually including China 
   }
 }
 
-const String _videoIdend = 'Cqbleas1mmo?t=';
+const String _videoIdend = 'Cqbleas1mmo';
 const double _startSecondsend = 722;
-const String _videoIdone = 'FQ4hvLqNfqo?t=';
+const String _videoIdone = 'FQ4hvLqNfqo';
 const double _startSecondsone = 580;
-const String _videoIdtwo = 'dypj6GBiM2s?t=';
+const String _videoIdtwo = 'dypj6GBiM2s';
 const double _startSecondstwo = 459;
-const String _videoIdthree = 'ncMoQs_HNmY?t=';
+const String _videoIdthree = 'ncMoQs_HNmY';
 const double _startSecondsthree = 1249;
-const String _videoIdfour = 'm5q-PIN3KSE?t=';
+const String _videoIdfour = 'm5q-PIN3KSE';
 const double _startSecondsfour = 60;
-const String _videoIdfive = '5-QejUTDCWw?t=';
+const String _videoIdfive = '5-QejUTDCWw';
 const double _startSecondsfive = 291;
 
 class YoutubeEmbeddedend extends StatelessWidget {

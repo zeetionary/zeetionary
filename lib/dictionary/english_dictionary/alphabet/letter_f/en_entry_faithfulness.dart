@@ -267,18 +267,18 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """His faithfulness to tradition was evident in his wedding.""",
             kurdishText:
-                """وەفاداریی بۆ نەریتەکان دیار بوو بە ئاهەنگە هاوسەرگیرییەکەیەوە.""",
+                """وەفاداریی بۆ نەریتەکان دیار بوو بە ئاھەنگە ھاوسەرگیرییەکەیەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) ئەوەی کەسێک پەیوەندیی سێکسی لەگەڵ کەسی دیکە نەبێت جگە لە ژنەکەی، هاوسەرەکەی، یان هاوبەشی ژیانی"""),
+                  """٢. (ناو) ئەوەی کەسێک پەیوەندیی سێکسی لەگەڵ کەسی دیکە نەبێت جگە لە ژنەکەی، ھاوسەرەکەی، یان ھاوبەشی ژیانی"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She had doubts about his faithfulness.""",
-            kurdishText: """هیچ گومانی لە وەفادارییەکەی نەبوو.""",
+            kurdishText: """ھیچ گومانی لە وەفادارییەکەی نەبوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

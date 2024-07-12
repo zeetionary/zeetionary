@@ -256,12 +256,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) گیانلەبەرێکی دەرەوەی زەوی لە چیرۆکدا یان کە دەکرێت لە دەرەوەی زەوی بوونیان هەبێت"""),
+                  """١. (ھاوەڵناو) گیانلەبەرێکی دەرەوەی زەوی لە چیرۆکدا یان کە دەکرێت لە دەرەوەی زەوی بوونیان ھەبێت"""),
           SentencesRow(
             englishText:
                 """In those rocks may lie the best chance of finding extraterrestrial life.""",
             kurdishText:
-                """لەسەر ئەو تەنە بەردییانە باشترین ئەگەری دۆزینەوەی ژیانی ئاسمانی هەیە.""",
+                """لەسەر ئەو تەنە بەردییانە باشترین ئەگەری دۆزینەوەی ژیانی ئاسمانی ھەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -310,7 +310,7 @@ ${englishMeaningConst.text}
 1. Originating or located or occurring outside Earth or its atmosphere
 "is there extraterrestrial life?"
 
-- Noun: extraterrestrial (Derived forms: extraterrestrials)
+- Noun: extraterrestrial (derived forms: extraterrestrials)
 1. A form of life assumed to exist outside the Earth or its atmosphere (= extraterrestrial being, alien, ET)
 """,
   );

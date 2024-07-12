@@ -875,7 +875,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دیمەنی ناحەز، دیمەنی ناشیرین
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) بینایەک، شتێک، هتد کە ناخۆشە سەیری بکەیت"""),
+              text: """١. (ناو) بینایەک، شتێک، ھتد کە ناخۆشە سەیری بکەیت"""),
           SentencesRow(
             englishText: """That old factory is a real eyesore!""",
             kurdishText: """کارگە کۆنەکە دیمەنێکی قەبیحی تەواوە.""",
@@ -923,7 +923,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eyesore (Derived forms: eyesores)
+- Noun: eyesore (derived forms: eyesores)
 1. Something very ugly and offensive
 """,
   );

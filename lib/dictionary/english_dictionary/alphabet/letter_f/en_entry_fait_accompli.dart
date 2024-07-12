@@ -260,7 +260,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We got married secretly and then presented our parents with a fait accompli.""",
             kurdishText:
-                """بە نهێنی هاوسەرگیریمان کرد و دایک و باوکمان خستە پێش شتێکی کراو.""",
+                """بە نھێنی ھاوسەرگیریمان کرد و دایک و باوکمان خستە پێش شتێکی کراو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

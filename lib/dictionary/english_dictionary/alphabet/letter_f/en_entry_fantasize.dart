@@ -264,16 +264,16 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (کردار) خەیاڵکردنی ئەوەی کە ئەو شتە دەکەیت کە حەزت پێیە یان ئەو شتە ڕوودەدات لە حەزت لێیە"""),
           SentencesRow(
             englishText:
                 """He sometimes fantasized about winning the gold medal.""",
-            kurdishText: """هەندێک جار خەیاڵی بردنەوەی مەدالیای زێڕ دەکات.""",
+            kurdishText: """ھەندێک جار خەیاڵی بردنەوەی مەدالیای زێڕ دەکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -282,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He used to fantasize that of all the boys in the class she would choose me.""",
             kurdishText:
-                """جاران خەیاڵی ئەوەی دەکرد کە کچەکە لەناو هەموو کوڕانی پۆلەکەدا ئەوی دەوێت.""",
+                """جاران خەیاڵی ئەوەی دەکرد کە کچەکە لەناو ھەموو کوڕانی پۆلەکەدا ئەوی دەوێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fantasize (Derived forms: fantasized, fantasizing, fantasizes)
+- Verb: fantasize (derived forms: fantasized, fantasizing, fantasizes)
 1. Indulge in fantasies (= fantasy, fantasise [Brit])
 "he is fantasizing when he says he plans to start his own company";
  

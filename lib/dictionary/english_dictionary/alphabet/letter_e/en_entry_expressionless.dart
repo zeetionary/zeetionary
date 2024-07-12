@@ -259,13 +259,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هیچ بەدی ناکرێ، هیچی لێ دیار نییە، هیچ دەرناخا، دەرنەبڕ، بێ‌هەست، بێ‌مەعنا، مات، بێ‌حاڵەت
+کوردی: ھیچ بەدی ناکرێ، ھیچی لێ دیار نییە، ھیچ دەرناخا، دەرنەبڕ، بێ‌ھەست، بێ‌مەعنا، مات، بێ‌حاڵەت
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کە هەست، بیرکردنەوە، هتد پیشان نادات"""),
+              text: """١. (ھاوەڵناو) کە ھەست، بیرکردنەوە، ھتد پیشان نادات"""),
           SentencesRow(
             englishText: """His expressionless gaze followed her every move.""",
-            kurdishText: """نیگا بێ‌هەستەکەی بەشوێن هەر جوڵەیەکی بوو.""",
+            kurdishText: """نیگا بێ‌ھەستەکەی بەشوێن ھەر جوڵەیەکی بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

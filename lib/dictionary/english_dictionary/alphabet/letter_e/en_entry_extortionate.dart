@@ -258,12 +258,12 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکجارگران، لەکڕین‌نەهاتوو، لەئەندازبەدەر گران
+کوردی: یەکجارگران، لەکڕین‌نەھاتوو، لەئەندازبەدەر گران
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) نرخێکی زۆر بەرز"""),
           SentencesRow(
             englishText: """The prices they charge are extortionate.""",
-            kurdishText: """ئەو نرخانەی داوای دەکەن لەکڕین‌نەهاتوون.""",
+            kurdishText: """ئەو نرخانەی داوای دەکەن لەکڕین‌نەھاتوون.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

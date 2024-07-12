@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fanaticism (Derived forms: fanaticisms)
+- Noun: fanaticism (derived forms: fanaticisms)
 1. Excessive intolerance of opposing views (= fanatism, zealotry)
 """,
   );

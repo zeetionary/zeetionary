@@ -281,7 +281,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The town's only claim to fame is that there was once a riot there.""",
             kurdishText:
-                """تەنها شت شارۆچکەکەی بەناوبانگ کردبێت ئەوەیە جارێک ئاژاوەیەک لەوێ بوو.""",
+                """تەنھا شت شارۆچکەکەی بەناوبانگ کردبێت ئەوەیە جارێک ئاژاوەیەک لەوێ بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -289,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She went to Hollywood in search of fame and fortune.""",
-            kurdishText: """بەدوای ناوبانگ و پارەدا چووە هۆڵیوود.""",
+            kurdishText: """بەدوای ناوبانگ و پارەدا چووە ھۆڵیوود.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -305,7 +305,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Her fame rests on a single book.""",
-            kurdishText: """ناوبانگەکەی پشت بە تەنها یەک کتێب دەبەستێت.""",
+            kurdishText: """ناوبانگەکەی پشت بە تەنھا یەک کتێب دەبەستێت.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -350,7 +350,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fame (Derived forms: fames)
+- Noun: fame (derived forms: fames)
 1. The state of being well-known and much spoken about; the quality of being famous (= celebrity, renown)
  
 2. Favourable public reputation

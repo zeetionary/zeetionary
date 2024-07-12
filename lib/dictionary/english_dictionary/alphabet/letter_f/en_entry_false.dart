@@ -345,13 +345,13 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) هەڵە؛ کە ڕاست نییە"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) ھەڵە؛ کە ڕاست نییە"""),
           SentencesRow(
             englishText: """A whale is a fish. True or false?""",
-            kurdishText: """نەهەنگ ماسییە. ڕاستە یان هەڵە؟""",
+            kurdishText: """نەھەنگ ماسییە. ڕاستە یان ھەڵە؟""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She gave false information to the insurance company.""",
-            kurdishText: """زانیاریی هەڵەی دا بە کۆمپانیای بیمەکە.""",
+            kurdishText: """زانیاریی ھەڵەی دا بە کۆمپانیای بیمەکە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
                   SentencesRow(
                     englishText: """He used a false name to get the job.""",
                     kurdishText:
-                        """ناوێکی هەڵەی بەکارهێنا بۆ بەدەستخستنی کارەکە.""",
+                        """ناوێکی ھەڵەی بەکارھێنا بۆ بەدەستخستنی کارەکە.""",
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """His career was ruined by false accusations.""",
                     kurdishText:
-                        """ژیانی کارکردنی بە تاوانبارکردنی هەڵە تێکدرا.""",
+                        """ژیانی کارکردنی بە تاوانبارکردنی ھەڵە تێکدرا.""",
                     onPressedBritish: () => speaksentence4("en-GB"),
                     onPressedAmerican: () => speaksentence4("en-US"),
                   ),
@@ -393,7 +393,7 @@ class KurdishMeaning extends StatelessWidget {
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """This claim is simply false.""",
-                    kurdishText: """ئەم بانگەشەیە بە ئاشکرایی هەڵەیە.""",
+                    kurdishText: """ئەم بانگەشەیە بە ئاشکرایی ھەڵەیە.""",
                     onPressedBritish: () => speaksentence6("en-GB"),
                     onPressedAmerican: () => speaksentence6("en-US"),
                   ),
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """The law can punish knowingly false statements.""",
                     kurdishText:
-                        """یاساکە دەکرێت سزای قسەی بەئەنقەست هەڵە بدات.""",
+                        """یاساکە دەکرێت سزای قسەی بەئەنقەست ھەڵە بدات.""",
                     onPressedBritish: () => speaksentence7("en-GB"),
                     onPressedAmerican: () => speaksentence7("en-US"),
                   ),
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """She wore false eyelashes for the party.""",
-            kurdishText: """برژانگی دەستکردی بەست بۆ ئاهەنگەکە.""",
+            kurdishText: """برژانگی دەستکردی بەست بۆ ئاھەنگەکە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -433,13 +433,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ھاوەڵناو) هەڵە و ناڕاست، بەهۆی ئەوەی پشتی بە شتی ناڕاست بەستووە"""),
+                  """٤. (ھاوەڵناو) ھەڵە و ناڕاست، بەھۆی ئەوەی پشتی بە شتی ناڕاست بەستووە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """They didn't want to raise any false hopes, but they believed her husband had escaped capture.""",
             kurdishText:
-                """نەیاندەویست هیچ هیوای هەڵە درووست بکەن، بەڵام باوەڕیان وابوو کە هاوسەرەکەی لە گرتن ڕایکردووە.""",
+                """نەیاندەویست ھیچ ھیوای ھەڵە درووست بکەن، بەڵام باوەڕیان وابوو کە ھاوسەرەکەی لە گرتن ڕایکردووە.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """His argument is based on the false assumption that all women want children.""",
             kurdishText:
-                """مشتومڕەکەی پشتی بەو هەڵە تێگەشتنە بەستووە کە هەموو ژنێک منداڵی دەوێت.""",
+                """مشتومڕەکەی پشتی بەو ھەڵە تێگەشتنە بەستووە کە ھەموو ژنێک منداڵی دەوێت.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -457,7 +457,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I don't want to raise any false hopes, but I think he's still alive.""",
             kurdishText:
-                """نامەوێت هیچ هیوایەکی نادرووست درووست بکەم، بەڵام پێموایە هێشتا لە ژیاندایە.""",
+                """نامەوێت ھیچ ھیوایەکی نادرووست درووست بکەم، بەڵام پێموایە ھێشتا لە ژیاندایە.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -467,7 +467,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Helen's voice sounded slightly false.""",
-            kurdishText: """دەنگی هێلین دەستکرد دیاربوو.""",
+            kurdishText: """دەنگی ھێلین دەستکرد دیاربوو.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -519,7 +519,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: false (Derived forms: falser, falsest)
+- Adjective: false (derived forms: falser, falsest)
 1. Not in accordance with the fact, reality or actuality
 "gave false testimony under oath"; "false tales of bravery"
  

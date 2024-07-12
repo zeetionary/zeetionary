@@ -290,23 +290,23 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەس‌بڵاو، عەبلەخەرج، دەس‌باد، دەس‌قڵپ، پڕخەرج، زۆرتێچوو، گران‌بایی، خرج‌هەڵگر،	زێدەڕەو، پەڕگر، پێوەنەرانە، ڕادەنەناس، لەرادەبەدەر،	ناژیرانە، سەیر،	(نرخ) گران، لەسەرێ، ڕێ‌تێنەچوو
+کوردی: دەس‌بڵاو، عەبلەخەرج، دەس‌باد، دەس‌قڵپ، پڕخەرج، زۆرتێچوو، گران‌بایی، خرج‌ھەڵگر،	زێدەڕەو، پەڕگر، پێوەنەرانە، ڕادەنەناس، لەرادەبەدەر،	ناژیرانە، سەیر،	(نرخ) گران، لەسەرێ، ڕێ‌تێنەچوو
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) بەکارهێنانی زۆر زیاتر لەوەی پێویستە؛ خەرجکردنی پارەی زیاتر لە پێویست"""),
+                  """١. (ھاوەڵناو) بەکارھێنانی زۆر زیاتر لەوەی پێویستە؛ خەرجکردنی پارەی زیاتر لە پێویست"""),
           SentencesRow(
             englishText:
                 """I felt very extravagant spending £200 on a dress.""",
             kurdishText:
-                """هەستم بە زیادەڕۆیی کرد بە خەرجکردنی ٢٠٠ پاوەند بۆ جلێک.""",
+                """ھەستم بە زیادەڕۆیی کرد بە خەرجکردنی ٢٠٠ پاوەند بۆ جلێک.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """She's got very extravagant tastes.""",
-            kurdishText: """حەزی زۆر زێدەڕەوی هەیە.""",
+            kurdishText: """حەزی زۆر زێدەڕەوی ھەیە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -315,7 +315,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I go to that restaurant for lunch if I'm feeling extravagant.""",
             kurdishText:
-                """ئەگەر هەست دەس‌بڵاوی بکەم دەچم بۆ ئەو چێشتخانەیە.""",
+                """ئەگەر ھەست دەس‌بڵاوی بکەم دەچم بۆ ئەو چێشتخانەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -323,19 +323,19 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """You mustn't be so extravagant with other people's money.""",
-            kurdishText: """نابێت هێدە دەس‌بڵاو بیت بە پارەی خەڵکی دیکە.""",
+            kurdishText: """نابێت ھێدە دەس‌بڵاو بیت بە پارەی خەڵکی دیکە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) کە پارەی زۆر زیاتری دەچێت لەوەی شایەنیەتی یان هەتە"""),
+                  """٢. (ھاوەڵناو) کە پارەی زۆر زیاتری دەچێت لەوەی شایەنیەتی یان ھەتە"""),
           SentencesRow(
             englishText:
                 """He bought us all these extravagant presents he couldn't really afford.""",
             kurdishText:
-                """بۆ هەموومان ئەم دیارییە گران‌باییانەی کڕی کە پارەی بۆی نەبوو.""",
+                """بۆ ھەموومان ئەم دیارییە گران‌باییانەی کڕی کە پارەی بۆی نەبوو.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I was embarrassed by all the extravagant praise I was getting.""",
             kurdishText:
-                """شەرمەزار بووم بەو هەموو پیاهەڵوتنەی کە پێم دەدرا.""",
+                """شەرمەزار بووم بەو ھەموو پیاھەڵوتنەی کە پێم دەدرا.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),

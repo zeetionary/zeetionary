@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) گۆڕینی زانیاریییەک یان نووسراوێک بۆ شتێکی هەڵە"""),
+                  """١. (کردار) گۆڕینی زانیاریییەک یان نووسراوێک بۆ شتێکی ھەڵە"""),
           SentencesRow(
             englishText:
                 """She was arrested for falsifying information and obstructing the course of justice.""",
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: falsify (Derived forms: falsifies, falsifying, falsified)
+- Verb: falsify (derived forms: falsifies, falsifying, falsified)
 1. Make false by mutilation or addition; as of a message or story (= distort, garble, warp)
 "They planned to falsify the message";
  

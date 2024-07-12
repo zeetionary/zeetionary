@@ -272,11 +272,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کێشان، دەرکێشان، هەڵکێشان، دەرهێنان،	هەڵبژاردن، دەرکێشان، وەرگرتن،	کێشانی ددان،	ڕەچەڵەک، بنەچەک، بنج‌وبناوان، ڕیشە،	شیلەگرتن، ئاوگرتن، گوشین
+کوردی: کێشان، دەرکێشان، ھەڵکێشان، دەرھێنان،	ھەڵبژاردن، دەرکێشان، وەرگرتن،	کێشانی ددان،	ڕەچەڵەک، بنەچەک، بنج‌وبناوان، ڕیشە،	شیلەگرتن، ئاوگرتن، گوشین
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کاری دەرکردن یان پڕۆسەی دەرهێنانی شتێک لە یەکێکی دیکە"""),
+                  """١. (ناو) کاری دەرکردن یان پڕۆسەی دەرھێنانی شتێک لە یەکێکی دیکە"""),
           SentencesRow(
             englishText: """Methods of extraction vary from mine to mine.""",
             kurdishText:
@@ -295,7 +295,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) هەبوونی خێزانێکی دیاریکراو وەک بنەچە"""),
+              text: """٢. (ناو) ھەبوونی خێزانێکی دیاریکراو وەک بنەچە"""),
           SentencesRow(
             englishText: """He proudly mentions he is of Irish extraction.""",
             kurdishText:
@@ -304,10 +304,10 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ناو) هەڵکێشانی ددان"""),
+          const DefinitionKurdish(text: """٣. (ناو) ھەڵکێشانی ددان"""),
           SentencesRow(
             englishText: """She had two extractions.""",
-            kurdishText: """دوو (ددان) هەڵکێشانی هەبوو.""",
+            kurdishText: """دوو (ددان) ھەڵکێشانی ھەبوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -352,7 +352,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extraction (Derived forms: extractions)
+- Noun: extraction (derived forms: extractions)
 1. The process of obtaining something from a mixture or compound by chemical or physical or mechanical means
  
 2. Properties attributable to your ancestry (= origin, descent)

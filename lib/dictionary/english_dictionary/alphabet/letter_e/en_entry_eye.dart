@@ -440,7 +440,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) چاو"""),
           SentencesRow(
             englishText: """The suspect has dark hair and green eyes.""",
-            kurdishText: """گومان‌لێکراوەکە قژی ڕەش و چاوی سەوزی هەیە.""",
+            kurdishText: """گومان‌لێکراوەکە قژی ڕەش و چاوی سەوزی ھەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -450,7 +450,7 @@ class KurdishMeaning extends StatelessWidget {
                 children: [
                   SentencesRow(
                     englishText: """Keep your eyes shut!""",
-                    kurdishText: """چاوت بە داخراوی بهێڵەرەوە.""",
+                    kurdishText: """چاوت بە داخراوی بھێڵەرەوە.""",
                     onPressedBritish: () => speaksentence2("en-GB"),
                     onPressedAmerican: () => speaksentence2("en-US"),
                   ),
@@ -480,7 +480,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """The ending was so sad it brought tears to my eyes.""",
                     kurdishText:
-                        """کۆتاییەکەی هێندە خەمگین بوو فرمێسکی هێنایە چاوانم.""",
+                        """کۆتاییەکەی ھێندە خەمگین بوو فرمێسکی ھێنایە چاوانم.""",
                     onPressedBritish: () => speaksentence6("en-GB"),
                     onPressedAmerican: () => speaksentence6("en-US"),
                   ),
@@ -503,7 +503,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """Their eyes lit up when they saw all the presents.""",
                     kurdishText:
-                        """چاوەکانیان گەشایەوە کە ئەو هەموو دیارییەیان بینی.""",
+                        """چاوەکانیان گەشایەوە کە ئەو ھەموو دیارییەیان بینی.""",
                     onPressedBritish: () => speaksentence9("en-GB"),
                     onPressedAmerican: () => speaksentence9("en-US"),
                   ),
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """He drew the curtains to make sure no prying eyes saw what he was doing.""",
                     kurdishText:
-                        """پەردەکانی داخست بۆ دڵنیایی کردنەوەی ئەوەی چاوی هیچ خۆتێ‌هەڵقورتێنێک نەیبینێت چی دەکرد.""",
+                        """پەردەکانی داخست بۆ دڵنیایی کردنەوەی ئەوەی چاوی ھیچ خۆتێ‌ھەڵقورتێنێک نەیبینێت چی دەکرد.""",
                     onPressedBritish: () => speaksentence10("en-GB"),
                     onPressedAmerican: () => speaksentence10("en-US"),
                   ),
@@ -555,7 +555,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) هەبوونی ئەو جۆرە یان ڕێژە چاوەی کە باسکراوە"""),
+              text: """٢. (ناو) ھەبوونی ئەو جۆرە یان ڕێژە چاوەی کە باسکراوە"""),
           SentencesRow(
             englishText: """He married a blue-eyed blonde from Sweden.""",
             kurdishText: """قژ زەردێکی چاو شینی سویدی مارەکرد.""",
@@ -571,7 +571,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٣. (ناو) هەبوونی توانای بینین"""),
+          const DefinitionKurdish(text: """٣. (ناو) ھەبوونی توانای بینین"""),
           SentencesRow(
             englishText: """A surgeon needs a good eye and a steady hand.""",
             kurdishText:
@@ -634,7 +634,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٦. (کردار) سەیرکردنی شتێک/کەسێک بە وریایی، بەتایبەتی کە هەست دەکەیت شتێک گوماناوییە یان شتێکت دەوێت"""),
+                  """٦. (کردار) سەیرکردنی شتێک/کەسێک بە وریایی، بەتایبەتی کە ھەست دەکەیت شتێک گوماناوییە یان شتێکت دەوێت"""),
           SentencesRow(
             englishText: """He couldn't help eyeing the cakes hungrily.""",
             kurdishText: """نەیدەتوانی چاو لە کێکەکان نەکات بە برسێتییەوە.""",
@@ -696,7 +696,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eye (Derived forms: eyes)
+- Noun: eye (derived forms: eyes)
 1. The organ of sight (= oculus, optic)
  
 2. Good discernment (either visually or as if visually)
@@ -713,7 +713,7 @@ ${englishMeaningConst.text}
  
 6. A reproductive bud in a potato
 
-- Verb: eye (Derived forms: eying, eyed, eyeing, eyes)
+- Verb: eye (derived forms: eying, eyed, eyeing, eyes)
 1. Look at (= eyeball [informal])
 """,
   );

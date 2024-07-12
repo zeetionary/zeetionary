@@ -249,11 +249,11 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
-              text: """١. (ناو) هەوڵی ناسەرکەوتوو بۆ دەستپێکردنی شتێک"""),
+              text: """١. (ناو) ھەوڵی ناسەرکەوتوو بۆ دەستپێکردنی شتێک"""),
           SentencesRow(
             englishText:
                 """After a number of false starts, she finally found a job she liked.""",
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: false start (Derived forms: false starts)
+- Noun: false start (derived forms: false starts)
 1. (sports) starting a race before being signalled to do so
 """,
   );

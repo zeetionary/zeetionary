@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: درۆ، ڤڕا، هەڵبەست، درۆکردن، درۆزنی، نادروستی، ناڕاستی، ڕاست‌نەبوون
+کوردی: درۆ، ڤڕا، ھەڵبەست، درۆکردن، درۆزنی، نادروستی، ناڕاستی، ڕاست‌نەبوون
 """),
           const DefinitionKurdish(
               text: """١. (ناو) گوتنی درۆ؛ ئەوەی کە ڕاست نەبێت"""),
@@ -322,7 +322,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: falsehood (Derived forms: falsehoods)
+- Noun: falsehood (derived forms: falsehoods)
 1. A false statement (= falsity, untruth)
  
 2. The act of rendering something false as by fraudulent changes (of documents or measures etc.) or counterfeiting (= falsification)

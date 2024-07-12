@@ -342,17 +342,17 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کشان، کشانەوە، کێشمان، پەل‌هاویشتن، کشاندن، کێشان، ڕاهێڵان، فراوان‌بوون، پەرەسەندن، گەورەبوونەوە،	بەرینایی، بەربڵاوی، فراوانی،	درێژکردنەوە، تازەکردنەوە، ماوەخستنەسەر، ماوەی درێژکردنەوە،	خستنەڕوو، ڕانان، پیشان‌دان، خستنەبەرچاو،	گشتاندن،	پاشکۆ، بەشی سەرخستە، پارچەی لکاو، بەشی زیادکراو یان سەرخراو، پاشکۆ
+کوردی: کشان، کشانەوە، کێشمان، پەل‌ھاویشتن، کشاندن، کێشان، ڕاھێڵان، فراوان‌بوون، پەرەسەندن، گەورەبوونەوە،	بەرینایی، بەربڵاوی، فراوانی،	درێژکردنەوە، تازەکردنەوە، ماوەخستنەسەر، ماوەی درێژکردنەوە،	خستنەڕوو، ڕانان، پیشان‌دان، خستنەبەرچاو،	گشتاندن،	پاشکۆ، بەشی سەرخستە، پارچەی لکاو، بەشی زیادکراو یان سەرخراو، پاشکۆ
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) زیادکردنی ناوچەی چالاکی، گرووپێک لە خەڵکی، هتد کە کاریگەر دەبن بە شتێک"""),
+                  """١. (ناو) زیادکردنی ناوچەی چالاکی، گرووپێک لە خەڵکی، ھتد کە کاریگەر دەبن بە شتێک"""),
           SentencesRow(
             englishText:
                 """My home life was becoming no more than an extension of my job.""",
             kurdishText:
-                """ژیانی ماڵەوەم خەریک بوو دەبوو بە هیچ جگە لە زیادکراوی کارەکەم.""",
-            kurdishNote: "واتا لە ماڵەوەش هەر خەریکی ئیشی کارەکەم بووم",
+                """ژیانی ماڵەوەم خەریک بوو دەبوو بە ھیچ جگە لە زیادکراوی کارەکەم.""",
+            kurdishNote: "واتا لە ماڵەوەش ھەر خەریکی ئیشی کارەکەم بووم",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """This new job is a further extension of his role as a manager.""",
             kurdishText:
-                """ئەم کارە تازەیەی تەنها زیادکراوێکی دیکەیە بۆ ئەرکەکەی وەک بەڕێوەبەر.""",
+                """ئەم کارە تازەیەی تەنھا زیادکراوێکی دیکەیە بۆ ئەرکەکەی وەک بەڕێوەبەر.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Citizens noticed a gradual extension of the powers of central government in their daily lives.""",
             kurdishText:
-                """هاوڵاتییان تێبینی کەم‌کەم فراوانبوونی دەسەڵاتی حکومەتی ناوەندییان لە ژیانی ڕۆژانەیان کرد.""",
+                """ھاوڵاتییان تێبینی کەم‌کەم فراوانبوونی دەسەڵاتی حکومەتی ناوەندییان لە ژیانی ڕۆژانەیان کرد.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -379,7 +379,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The extension of new technology into developing countries improves education.""",
             kurdishText:
-                """فراوانبوونی تەکنەلۆژیای تازە بۆ وڵاتە ڕوولەگەشەکان کەرتی پەروەردە بەهێز دەکات.""",
+                """فراوانبوونی تەکنەلۆژیای تازە بۆ وڵاتە ڕوولەگەشەکان کەرتی پەروەردە بەھێز دەکات.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -432,10 +432,10 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (ناو) هێڵێکی تەلەفۆن کە هەمان ژمارەی هەیە لەگەڵ یەکێکی دیکە لە ماڵێکدا، یان لەگەڵ تەلەفۆنی ناوەندی بینایەک"""),
+                  """٥. (ناو) ھێڵێکی تەلەفۆن کە ھەمان ژمارەی ھەیە لەگەڵ یەکێکی دیکە لە ماڵێکدا، یان لەگەڵ تەلەفۆنی ناوەندی بینایەک"""),
           SentencesRow(
             englishText: """We have an extension in our bedroom.""",
-            kurdishText: """تەلەفۆنێکی دیکەمان لە ژووری نووستن هەیە.""",
+            kurdishText: """تەلەفۆنێکی دیکەمان لە ژووری نووستن ھەیە.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """These extensions are very easy to use and won't damage your own hair.""",
             kurdishText:
-                """ئەم پرچە دەستکردانە زۆر ئاسانن بۆ بەکارهێنان و زیان بە پرچی خۆت ناگەیەنن.""",
+                """ئەم پرچە دەستکردانە زۆر ئاسانن بۆ بەکارھێنان و زیان بە پرچی خۆت ناگەیەنن.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -511,7 +511,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extension (Derived forms: extensions)
+- Noun: extension (derived forms: extensions)
 1. A mutually agreed delay in the date set for the completion of a job or payment of a debt
 "they applied for an extension of the loan"
  

@@ -480,10 +480,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خاو و خێزان، ژن‌ومناڵ، خێزان، وەجاخ، بنەماڵە، مالبات، ئەندامانی ماڵەوە، خێزانی مەڵەوە، نان‌خۆر، مناڵان، عەولاد،	خێزان، مالبات،	تایەفە، تیرە، خێڵ، هۆزم	بەرە، دوودمان، ڕەچەڵەک، بن‌وبنەچەک، بنەچەک، خانەدان،	خزم، کەس‌وکار، قەوم
+کوردی: خاو و خێزان، ژن‌ومناڵ، خێزان، وەجاخ، بنەماڵە، مالبات، ئەندامانی ماڵەوە، خێزانی مەڵەوە، نان‌خۆر، مناڵان، عەولاد،	خێزان، مالبات،	تایەفە، تیرە، خێڵ، ھۆزم	بەرە، دوودمان، ڕەچەڵەک، بن‌وبنەچەک، بنەچەک، خانەدان،	خزم، کەس‌وکار، قەوم
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) خێزان؛ یەک یان هەردوو دایباب و منداڵەکانیان"""),
+              text: """١. (ناو) خێزان؛ یەک یان ھەردوو دایباب و منداڵەکانیان"""),
           SentencesRow(
             englishText:
                 """I introduced Neil to the other members of my family.""",
@@ -499,14 +499,14 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """This is a summer movie for the whole family.""",
                     kurdishText:
-                        """ئەمە فیلمێکی هاوینانە بۆ تەواوی خێزانەکە.""",
+                        """ئەمە فیلمێکی ھاوینانە بۆ تەواوی خێزانەکە.""",
                     onPressedBritish: () => speaksentence2("en-GB"),
                     onPressedAmerican: () => speaksentence2("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """Every family has its own story to tell.""",
-                    kurdishText: """هەر خێزانێک چیرۆکی خۆی هەیە بۆ گوتن.""",
+                    kurdishText: """ھەر خێزانێک چیرۆکی خۆی ھەیە بۆ گوتن.""",
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
@@ -515,7 +515,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """Taking a family of four to the cinema is expensive.""",
                     kurdishText:
-                        """بردنی خێزانێکی چوار کەسی بۆ سینەما گران‌بەهایە.""",
+                        """بردنی خێزانێکی چوار کەسی بۆ سینەما گران‌بەھایە.""",
                     onPressedBritish: () => speaksentence4("en-GB"),
                     onPressedAmerican: () => speaksentence4("en-US"),
                   ),
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """From early childhood he was a mystery to the rest of his family.""",
                     kurdishText:
-                        """لە سەرەتای منداڵیەوە نهێنییەک بوو بۆ ئەوانی دیکەی خێزانەکە.""",
+                        """لە سەرەتای منداڵیەوە نھێنییەک بوو بۆ ئەوانی دیکەی خێزانەکە.""",
                     onPressedBritish: () => speaksentence6("en-GB"),
                     onPressedAmerican: () => speaksentence6("en-US"),
                   ),
@@ -550,7 +550,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """Many of our students come from poor families.""",
                     kurdishText:
-                        """زۆرێک لە خوێندکارەکانمان سەر بە خێزانی هەژارن.""",
+                        """زۆرێک لە خوێندکارەکانمان سەر بە خێزانی ھەژارن.""",
                     onPressedBritish: () => speaksentence8("en-GB"),
                     onPressedAmerican: () => speaksentence8("en-US"),
                   ),
@@ -561,20 +561,20 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) یەک یان هەردوو دایباب، منداڵەکانیان، و خزمەکانیان"""),
+                  """٢. (ناو) یەک یان ھەردوو دایباب، منداڵەکانیان، و خزمەکانیان"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """All our family came to Grandad's eightieth birthday party.""",
             kurdishText:
-                """تەواوی خێزانەکەمان هاتن بۆ ئاهەنگی لەدایکبوونی هەشتا ساڵەی داپیرە.""",
+                """تەواوی خێزانەکەمان ھاتن بۆ ئاھەنگی لەدایکبوونی ھەشتا ساڵەی داپیرە.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """The support of family and friends is vital.""",
-            kurdishText: """پشتگیریی خێزان و هاوڕێ گرنگە.""",
+            kurdishText: """پشتگیریی خێزان و ھاوڕێ گرنگە.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -582,21 +582,21 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """We've only told the immediate family (= the closest relations).""",
-            kurdishText: """تەنها بە نزیکترینەکانی خێزانەکەمان گوتووە.""",
+            kurdishText: """تەنھا بە نزیکترینەکانی خێزانەکەمان گوتووە.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """I always think of you as one of the family.""",
-            kurdishText: """هەمیشە وەک هەمان خێزان سەیرتان دەکەم.""",
+            kurdishText: """ھەمیشە وەک ھەمان خێزان سەیرتان دەکەم.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """There are a lot of girls in our family.""",
-            kurdishText: """زۆر کچ هەیە لە خێزانەکەمان.""",
+            kurdishText: """زۆر کچ ھەیە لە خێزانەکەمان.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -605,7 +605,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Nobody outside his family knew that he had a daughter.""",
             kurdishText:
-                """هیچ کەس لە دەرەوەی خێزانەکەی نەیدەزانی کە کچێکی هەیە.""",
+                """ھیچ کەس لە دەرەوەی خێزانەکەی نەیدەزانی کە کچێکی ھەیە.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
@@ -653,7 +653,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """They have a large family.""",
-            kurdishText: """خێزانێکی گەورەیان هەیە.""",
+            kurdishText: """خێزانێکی گەورەیان ھەیە.""",
             onPressedBritish: () => speaksentence19("en-GB"),
             onPressedAmerican: () => speaksentence19("en-US"),
           ),
@@ -661,7 +661,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Do they plan to start a family (= have children)?""",
-            kurdishText: """پلانیان هەیە خێزان درووست بکەن؟""",
+            kurdishText: """پلانیان ھەیە خێزان درووست بکەن؟""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
@@ -676,7 +676,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She brought up a family of six children on her own.""",
-            kurdishText: """بە تەنها خۆی خێزانێکی شەش منداڵی گەورە کرد.""",
+            kurdishText: """بە تەنھا خۆی خێزانێکی شەش منداڵی گەورە کرد.""",
             onPressedBritish: () => speaksentence22("en-GB"),
             onPressedAmerican: () => speaksentence22("en-US"),
           ),
@@ -691,7 +691,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (ناو) گرووپێک کە ئاژەڵ، ڕووەک، هتد ـی بەسەردا دابەش دەکرێت"""),
+                  """٥. (ناو) گرووپێک کە ئاژەڵ، ڕووەک، ھتد ـی بەسەردا دابەش دەکرێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Lions belong to the cat family.""",
@@ -720,7 +720,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٦. (هاوەڵناو) پەیوەندیدار بە خێزان، یان خێزانێکی تایبەت"""),
+                  """٦. (ھاوەڵناو) پەیوەندیدار بە خێزان، یان خێزانێکی تایبەت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The job was starting to affect his family life.""",
@@ -732,7 +732,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Only close family members called her ‘Sally’.""",
-            kurdishText: """تەنها ئەندامانی خێزانی نزیکی پێیان دەگوت سالی.""",
+            kurdishText: """تەنھا ئەندامانی خێزانی نزیکی پێیان دەگوت سالی.""",
             onPressedBritish: () => speaksentence28("en-GB"),
             onPressedAmerican: () => speaksentence28("en-US"),
           ),
@@ -746,12 +746,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He has a family history of heart disease.""",
-            kurdishText: """مێژوویەکی خێزانی لە نەخۆشی دڵ هەیە.""",
+            kurdishText: """مێژوویەکی خێزانی لە نەخۆشی دڵ ھەیە.""",
             onPressedBritish: () => speaksentence30("en-GB"),
             onPressedAmerican: () => speaksentence30("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٧. (هاوەڵناو) کە هی خێزانێکە"""),
+          const DefinitionKurdish(text: """٧. (ھاوەڵناو) کە ھی خێزانێکە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They had to sell the family home.""",
@@ -809,7 +809,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: family (Derived forms: families)
+- Noun: family (derived forms: families)
 1. A social unit living together (= household, house, home, ménage)
 "he moved his family to Virginia"; "the family refused to accept his will";
  

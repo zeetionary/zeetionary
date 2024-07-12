@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Some critics fancifully suggest this symbol represents the power of evil.""",
             kurdishText:
-                """هەندێک ڕەخنەگر خەیاڵاوییانە ئەوە دەڵێن کە ئەم سمبولە نوێنەرایەتی هێزی شەیتان دەکات.""",
+                """ھەندێک ڕەخنەگر خەیاڵاوییانە ئەوە دەڵێن کە ئەم سمبولە نوێنەرایەتی ھێزی شەیتان دەکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The characters' names are as fancifully evocative as those found in children's books.""",
             kurdishText:
-                """ناوی کارەکتەرەکان هەست‌بزوێنن وەک ئەوانەی ناو کتێبی منداڵان.""",
+                """ناوی کارەکتەرەکان ھەست‌بزوێنن وەک ئەوانەی ناو کتێبی منداڵان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

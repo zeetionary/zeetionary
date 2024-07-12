@@ -330,11 +330,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کەم، لاواز، کز، سست، بێ‌هێز، زایف،	کەم، هیچ، چکۆلە، بڕێ، پرزۆڵێ،	بێ‌ڕەنگ، ئاوەکی، تراو، کاڵ، کەم‌ڕەنگ،	سست، بێ‌حاڵ، ترسەنۆک، دوودڵ،	نەرم، سووک، بوورانەوە، بێ‌هۆش‌بوون، بێ‌هۆشی، گەشکە(کردن)، لەسەرخۆچوون
+کوردی: کەم، لاواز، کز، سست، بێ‌ھێز، زایف،	کەم، ھیچ، چکۆلە، بڕێ، پرزۆڵێ،	بێ‌ڕەنگ، ئاوەکی، تراو، کاڵ، کەم‌ڕەنگ،	سست، بێ‌حاڵ، ترسەنۆک، دوودڵ،	نەرم، سووک، بوورانەوە، بێ‌ھۆش‌بوون، بێ‌ھۆشی، گەشکە(کردن)، لەسەرخۆچوون
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە ناتوانرێت بە باشی ببینرێت، ببیسترێت، یان هەستی پێ بکرێت"""),
+                  """١. (ھاوەڵناو) کە ناتوانرێت بە باشی ببینرێت، ببیسترێت، یان ھەستی پێ بکرێت"""),
           SentencesRow(
             englishText:
                 """We could hear their voices growing fainter as they walked down the road.""",
@@ -346,7 +346,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """His breathing became faint.""",
-            kurdishText: """هەناسدەدانی کزبوو.""",
+            kurdishText: """ھەناسدەدانی کزبوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There was a faint glimmer of light from her window.""",
-            kurdishText: """پرتەپرتێکی کزی ڕۆشنایی لە پەنجەرەکە هەبوو.""",
+            kurdishText: """پرتەپرتێکی کزی ڕۆشنایی لە پەنجەرەکە ھەبوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There is still a faint hope that she may be cured.""",
-            kurdishText: """هێشتا هیوایەکی کەم هەیە کە ڕەنگە چارەسەر بکرێت.""",
+            kurdishText: """ھێشتا ھیوایەکی کەم ھەیە کە ڕەنگە چارەسەر بکرێت.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -397,11 +397,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ھاوەڵناو) کە هەست بە لاوازی و شەکەتی دەکەیت و ڕەنگە لەهۆش بچیت"""),
+                  """٤. (ھاوەڵناو) کە ھەست بە لاوازی و شەکەتی دەکەیت و ڕەنگە لەھۆش بچیت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She suddenly felt faint.""",
-            kurdishText: """لەناکاو هەستی بە لاوازی کرد.""",
+            kurdishText: """لەناکاو ھەستی بە لاوازی کرد.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -413,11 +413,11 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٥. (کردار) لەهۆش چوون"""),
+          const DefinitionKurdish(text: """٥. (کردار) لەھۆش چوون"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Suddenly the woman in front of me fainted.""",
-            kurdishText: """لەناکاو ژنەکەی پێشەوەم لەهۆش خۆی چوو.""",
+            kurdishText: """لەناکاو ژنەکەی پێشەوەم لەھۆش خۆی چوو.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -429,11 +429,11 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٦. (ناو) ئەوەی لەهۆش بچیت"""),
+          const DefinitionKurdish(text: """٦. (ناو) ئەوەی لەھۆش بچیت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He fell to the ground in a dead faint.""",
-            kurdishText: """کەوتە سەر زەوی بە لەهۆش چوونێکی تەواو.""",
+            kurdishText: """کەوتە سەر زەوی بە لەھۆش چوونێکی تەواو.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -478,7 +478,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: faint (Derived forms: fainter, faintest)
+- Adjective: faint (derived forms: fainter, faintest)
 1. Deficient in magnitude; barely perceptible; lacking clarity, brightness or loudness etc (= weak)
 "a faint outline"; "the wan sun cast faint shadows"; "the faint light of a distant candle"; "a faint hissing sound";
  
@@ -497,10 +497,10 @@ ${englishMeaningConst.text}
 6. Lacking conviction, boldness or courage (= fainthearted, timid, faint-hearted)
 "faint heart ne'er won fair lady";
 
-- Noun: faint (Derived forms: faints)
+- Noun: faint (derived forms: faints)
 1. A spontaneous loss of consciousness caused by insufficient blood to the brain (= swoon, syncope, deliquium)
 
-- Verb: faint (Derived forms: fainted, fainting, faints)
+- Verb: faint (derived forms: fainted, fainting, faints)
 1. Pass out from weakness, physical or emotional distress due to a loss of blood supply to the brain (= conk [informal], swoon, pass out)
 """,
   );

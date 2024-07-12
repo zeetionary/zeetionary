@@ -255,12 +255,12 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە هۆکار دەدات بەدەستەوە کە بۆچی دەبێت کارێکی نایاسایی یان چەوت، یان دۆخێکی خراپ بە توندی کەم مامەڵەی لەگەڵ بکرێت یان بەخشینی پێ بدرێت"""),
+                  """١. (ھاوەڵناو) کە ھۆکار دەدات بەدەستەوە کە بۆچی دەبێت کارێکی نایاسایی یان چەوت، یان دۆخێکی خراپ بە توندی کەم مامەڵەی لەگەڵ بکرێت یان بەخشینی پێ بدرێت"""),
           SentencesRow(
             englishText:
                 """There were extenuating circumstances and the defendant did not receive a prison sentence.""",
             kurdishText:
-                """لە هەلومەرجی بیانوودار بوون و تاوانبارکراو هیچ سزایەکی زیندانی وەرنەگرت.""",
+                """لە ھەلومەرجی بیانوودار بوون و تاوانبارکراو ھیچ سزایەکی زیندانی وەرنەگرت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

@@ -261,10 +261,10 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) جلوبەرگ کە لەبەری دەکەیت، بەتایبەتی لە ئاهەنگ، بۆ ئەوەی وەک کارەکتەری دیکە دەربکەویت"""),
+                  """١. (ناو) جلوبەرگ کە لەبەری دەکەیت، بەتایبەتی لە ئاھەنگ، بۆ ئەوەی وەک کارەکتەری دیکە دەربکەویت"""),
           SentencesRow(
             englishText: """I went to a fancy-dress party as a pirate.""",
-            kurdishText: """وەک چەتەیەک چوومە ئاهەنگێکی جلی خەیاڵی.""",
+            kurdishText: """وەک چەتەیەک چوومە ئاھەنگێکی جلی خەیاڵی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

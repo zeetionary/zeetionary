@@ -256,7 +256,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """١. (ھاوەڵناو) کە بوێر نییە؛ کە لە شکست دەترسێت"""),
           SentencesRow(
             englishText: """He tried not to appear faint-hearted.""",
-            kurdishText: """هەوڵی دا وەک ترسنۆک دەرنەکەوێت.""",
+            kurdishText: """ھەوڵی دا وەک ترسنۆک دەرنەکەوێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

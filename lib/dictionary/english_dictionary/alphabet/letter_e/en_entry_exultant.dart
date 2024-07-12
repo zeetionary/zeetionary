@@ -254,10 +254,10 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) پیشاندانی ئەوەی کە زۆر دڵخۆش و سەربەرزیت، بەتایبەتی بەهۆی ئەوەی شتێکی تایبەت ڕوویداوە"""),
+                  """١. (ناو) پیشاندانی ئەوەی کە زۆر دڵخۆش و سەربەرزیت، بەتایبەتی بەھۆی ئەوەی شتێکی تایبەت ڕوویداوە"""),
           SentencesRow(
             englishText: """The fans were exultant at their team’s victory.""",
-            kurdishText: """هەوادارەکان دڵخۆش بوون بە بردنەوەی تیمەکە.""",
+            kurdishText: """ھەوادارەکان دڵخۆش بوون بە بردنەوەی تیمەکە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

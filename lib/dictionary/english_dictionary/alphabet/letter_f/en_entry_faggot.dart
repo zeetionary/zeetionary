@@ -261,9 +261,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) گۆشت کە دەکرێت بە پارچەی بچووکەوە و لەگەڵ نان تێکەڵ دەکرێت بۆ درووستکردنی تۆپەڵێک، دواتر دەبرژێندرێت و بە گەرمی دەخورێت"""),
@@ -274,11 +274,11 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) پیاوێکی هاوڕەگەزخواز"""),
+          const DefinitionKurdish(text: """٢. (ناو) پیاوێکی ھاوڕەگەزخواز"""),
           const AlsoEnglishckb(word: "ھەروەھا: fag، fairy"),
           SentencesRow(
             englishText: """Calling someone a faggot is disrespectful.""",
-            kurdishText: """گوتنی ئەوەی کەسێک هاوڕەگەزبــازە بێ‌ڕێزییە.""",
+            kurdishText: """گوتنی ئەوەی کەسێک ھاوڕەگەزبــازە بێ‌ڕێزییە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -290,7 +290,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """They used a faggot to start the fire.""",
             kurdishText:
-                """چەپکەیەک چیلکەداریان بۆ کردنەوەی ئاگرەکە بەکارهێنا.""",
+                """چەپکەیەک چیلکەداریان بۆ کردنەوەی ئاگرەکە بەکارھێنا.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -335,14 +335,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: faggot (Derived forms: faggots)
+- Noun: faggot (derived forms: faggots)
 1. A bundle of sticks and branches bound together (= fagot [N. Amer])
  
 2. [UK] A ball of chopped meat and liver mixed with bread and herbs, eaten fried or baked
  
 3. [N. Amer, offensive] A male homosexual
 
-- Verb: faggot (Derived forms: faggots, faggoting, faggoted)
+- Verb: faggot (derived forms: faggots, faggoting, faggoted)
 1. Ornament or join (fabric) by faggot stitch (= fagot [N. Amer])
  
 2. (metallurgy) fasten together rods of iron in order to heat or weld them (= fagot [N. Amer])

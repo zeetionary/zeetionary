@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەرکردن، دەرپەڕاندن، دەرنان، خستنەدەرەوە، دەرهاویشتن،	خاڵی‌کردن، دانەدەرێ
+کوردی: دەرکردن، دەرپەڕاندن، دەرنان، خستنەدەرەوە، دەرھاویشتن،	خاڵی‌کردن، دانەدەرێ
 """),
           const DefinitionKurdish(
               text: """١. (ناو) دەرکردنی کەسێک لە شوێنێک"""),
@@ -282,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """These events led to the expulsion of senior diplomats from the country.""",
             kurdishText:
-                """ڕووداوەکان بوون بە هۆکاری دەرکردنی دیپلۆماتانی باڵا لە وڵاتەکە.""",
+                """ڕووداوەکان بوون بە ھۆکاری دەرکردنی دیپلۆماتانی باڵا لە وڵاتەکە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -291,7 +291,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Troops are engaged in the expulsion of enemy forces from the area.""",
             kurdishText:
-                """سەربازان خەریکی دەرکردنی هێزەکانی دوژمنن لە ناوچەکە.""",
+                """سەربازان خەریکی دەرکردنی ھێزەکانی دوژمنن لە ناوچەکە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The headteacher threatened the three girls with expulsion.""",
             kurdishText:
-                """مامۆستا ڕابەرەکە هەڕەشەی دەرکردنی لە سێ کچەکە کرد.""",
+                """مامۆستا ڕابەرەکە ھەڕەشەی دەرکردنی لە سێ کچەکە کرد.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -355,7 +355,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: expulsion (Derived forms: expulsions)
+- Noun: expulsion (derived forms: expulsions)
 1. The act of forcing out someone or something (= ejection, exclusion, riddance)
 "the child's expulsion from school";
  

@@ -310,11 +310,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شیلە، ئاوگ، گوشراوە،	هەڵبژاردە، گوڵ‌بژێر، بڕگە
+کوردی: شیلە، ئاوگ، گوشراوە،	ھەڵبژاردە، گوڵ‌بژێر، بڕگە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) بەشێکی بچووکی کتێبێک، میوزیکێک، هتد کە تێگەشتنێکت پێ دەدات کە هەمووی چۆنە"""),
+                  """١. (ناو) بەشێکی بچووکی کتێبێک، میوزیکێک، ھتد کە تێگەشتنێکت پێ دەدات کە ھەمووی چۆنە"""),
           SentencesRow(
             englishText:
                 """The following extract is taken from her new novel.""",
@@ -354,19 +354,19 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (کردار) بەدەستهێنانی زانیاری، پارە، هتد، زۆرجار بە وەرگرتنی لە کەسێک کە ئامادە نییە بیدات"""),
+                  """٤. (کردار) بەدەستھێنانی زانیاری، پارە، ھتد، زۆرجار بە وەرگرتنی لە کەسێک کە ئامادە نییە بیدات"""),
           SentencesRow(
             englishText:
                 """Journalists managed to extract all kinds of information about her private life.""",
             kurdishText:
-                """ڕۆژنامەنووسان توانیان هەموو جۆرە زانیارییەکیان لەسەر ژیانی تایبەتیی دەست بکەوێت.""",
+                """ڕۆژنامەنووسان توانیان ھەموو جۆرە زانیارییەکیان لەسەر ژیانی تایبەتیی دەست بکەوێت.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (کردار) هەڵبژاردنی زانیاری، هتد لە کتێب، کۆمپیوتەر، هتد بۆ ئەوەی بۆ مەبەستێکی دیاریکراو بەکاربێت"""),
+                  """٥. (کردار) ھەڵبژاردنی زانیاری، ھتد لە کتێب، کۆمپیوتەر، ھتد بۆ ئەوەی بۆ مەبەستێکی دیاریکراو بەکاربێت"""),
           SentencesRow(
             englishText: """This article is extracted from his new book.""",
             kurdishText: """ئەم وتارە لە کتێبە تازەکەی دەرکراوە.""",
@@ -376,10 +376,10 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٦. (کردار) دەرکردن یان ڕاکێشانی شتێک بۆ دەرەوە، بەتایبەتی کە پێویستی بە هێزە"""),
+                  """٦. (کردار) دەرکردن یان ڕاکێشانی شتێک بۆ دەرەوە، بەتایبەتی کە پێویستی بە ھێزە"""),
           SentencesRow(
             englishText: """The tooth was eventually extracted.""",
-            kurdishText: """ددانەکە لەکۆتاییدا هەڵکێشرا.""",
+            kurdishText: """ددانەکە لەکۆتاییدا ھەڵکێشرا.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -388,7 +388,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The dentist may decide that the wisdom teeth need to be extracted.""",
             kurdishText:
-                """پزیشکانی ددان ڕەنگە بڕیار بدەن کە ددانی ژیری پێویستە هەڵبکێشرێت.""",
+                """پزیشکانی ددان ڕەنگە بڕیار بدەن کە ددانی ژیری پێویستە ھەڵبکێشرێت.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I tried extracting the rusty nails with a hammer.""",
             kurdishText:
-                """هەوڵم دا بزمارە ژەنگگرتووەکان بە چەکوشێک دەربکەم.""",
+                """ھەوڵم دا بزمارە ژەنگگرتووەکان بە چەکوشێک دەربکەم.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -442,7 +442,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extract (Derived forms: extracts, extracted, extracting)
+- Verb: extract (derived forms: extracts, extracted, extracting)
 1. Remove, usually with some force or effort; also used in an abstract sense (= pull out, pull, pull up, take out, draw out, rip out, tear out)
 "extract a bad tooth";
  
@@ -464,7 +464,7 @@ ${englishMeaningConst.text}
  
 8. (mathematics) calculate the root of a number
 
-- Noun: extract (Derived forms: extracts)
+- Noun: extract (derived forms: extracts)
 1. A solution obtained by steeping or soaking a substance (usually in water) (= infusion)
  
 2. A passage selected from a larger work (= excerpt, excerption, selection)

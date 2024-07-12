@@ -260,12 +260,12 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە هیچ خاسیەت یان ناسنامەی نییە کە سەرنج ڕابکێشێت"""),
+                  """١. (ھاوەڵناو) کە ھیچ خاسیەت یان ناسنامەی نییە کە سەرنج ڕابکێشێت"""),
           SentencesRow(
             englishText:
                 """He felt like a faceless worker in the large factory.""",
             kurdishText:
-                """لە کارگە گەورەکەدا هەستی بە بوون بە کرێکارێکی بێ‌ناسنامە دەکرد.""",
+                """لە کارگە گەورەکەدا ھەستی بە بوون بە کرێکارێکی بێ‌ناسنامە دەکرد.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

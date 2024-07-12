@@ -338,7 +338,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: باوەڕ، بڕوا،	دین، ئۆل، ئایین،	وەفاداری، ئەمەگ، بەئەمەکی،	باوەڕی، ڕابینین،	بەڵێنی، پەیمان، سۆز، گفت،	نیاز، خەیاڵ
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) هەبوونی متمانە بە توانا و زانیاریی کەسێک"""),
+              text: """١. (ناو) ھەبوونی متمانە بە توانا و زانیاریی کەسێک"""),
           SentencesRow(
             englishText:
                 """If the company can retain its customers' faith, it could become the market leader.""",
@@ -366,7 +366,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Her friend's kindness has restored her faith in human nature.""",
             kurdishText:
-                """میهرەبانیی هاوڕێیەکەی باوەڕی ئەوی بە سرووشتی مرۆڤ درووست کردووەتەوە.""",
+                """میھرەبانیی ھاوڕێیەکەی باوەڕی ئەوی بە سرووشتی مرۆڤ درووست کردووەتەوە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """٢. (ناو) باوەڕی بەهێزی ئایینی"""),
+          const DefinitionKurdish(text: """٢. (ناو) باوەڕی بەھێزی ئایینی"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He started questioning his faith in God.""",
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Their aim was to keep alive the traditional Jewish faith.""",
-            kurdishText: """ئامانجەکە هێشتنەوەی ئایینی کۆنی جودایزم بوو.""",
+            kurdishText: """ئامانجەکە ھێشتنەوەی ئایینی کۆنی جودایزم بوو.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -481,7 +481,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: faith (Derived forms: faiths)
+- Noun: faith (derived forms: faiths)
 1. A strong belief in a supernatural power or powers that control human destiny (= religion, religious belief, belief)
 "he lost his faith but not his morality";
  

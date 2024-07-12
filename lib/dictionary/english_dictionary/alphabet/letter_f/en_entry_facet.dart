@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لا، ڕووەڵە، ڕووژە (چکۆلێنراوی ڕوو)، بەر، بڕگە، لاڕوو (جەواهێر)،	لایەن، لا، ئالی، ڤار، بوار
+کوردی: لا، ڕووەڵە، ڕووژە (چکۆلێنراوی ڕوو)، بەر، بڕگە، لاڕوو (جەواھێر)،	لایەن، لا، ئالی، ڤار، بوار
 """),
           const DefinitionKurdish(
               text: """١. (ناو) بەش یان لایەنێکی دیاریکراوی شتێک"""),
@@ -282,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The report examines every facet of the prison system.""",
             kurdishText:
-                """ڕاپۆرتەکە دەکۆڵێتەوە لە هەموو لایەنێکی سیستەمی زیندان.""",
+                """ڕاپۆرتەکە دەکۆڵێتەوە لە ھەموو لایەنێکی سیستەمی زیندان.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -297,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She has another important facet to her personality.""",
-            kurdishText: """لایەنێکی دیکەی گرنگی هەیە لە کەسایەتییدا.""",
+            kurdishText: """لایەنێکی دیکەی گرنگی ھەیە لە کەسایەتییدا.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -306,7 +306,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """It is a curious facet of human nature that the more we have the more we want.""",
             kurdishText:
-                """ئەوە بەشێکی سەمەرەی سرووشتی مرۆڤە کە چەندە زیاترمان هەبێت هێندە زیاترمان دەوێت.""",
+                """ئەوە بەشێکی سەمەرەی سرووشتی مرۆڤە کە چەندە زیاترمان ھەبێت ھێندە زیاترمان دەوێت.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -351,7 +351,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: facet (Derived forms: facets)
+- Noun: facet (derived forms: facets)
 1. A distinct feature or element in a problem (= aspect)
 "he studied every facet of the question";
  

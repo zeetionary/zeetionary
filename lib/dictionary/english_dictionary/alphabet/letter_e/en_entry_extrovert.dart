@@ -273,7 +273,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) کراوە و ڕووخۆش و هەبوونی حەز بۆ بوون لەگەڵ خەڵکی دیکە"""),
+                  """٢. (ھاوەڵناو) کراوە و ڕووخۆش و ھەبوونی حەز بۆ بوون لەگەڵ خەڵکی دیکە"""),
           SentencesRow(
             englishText: """He’s pretty extrovert when he’s on stage.""",
             kurdishText: """تەواو کراوەیە کە لەسەر ستەیجە.""",
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extrovert (Derived forms: extroverts)
+- Noun: extrovert (derived forms: extroverts)
 1. A sociable person who is lively and outgoing
  
 2. (psychology) a person concerned more with practical realities than with inner thoughts and feelings (= extravert)

@@ -359,7 +359,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: زیادی، سەربار، ناپێویست، زیاد، زۆرتر لە ئاسایی، لە ڕادەبەدەر، لە ئەندازبەدەر، یەکجار زۆر، یەکجار، سەرەڕای، سەرباری، لەگەڵ ئەوەش‌دا
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) زیاتر لەوەی هەیە یان پێشبینی دەکرێت"""),
+              text: """١. (ھاوەڵناو) زیاتر لەوەی ھەیە یان پێشبینی دەکرێت"""),
           SentencesRow(
             englishText: """Breakfast is provided at no extra charge.""",
             kurdishText: """نانی بەیانی بەبێ نرخی زیادە دەدرێت.""",
@@ -411,10 +411,10 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) ڕەفتارکردن بەشێوەیەک کە زۆر دراماتیکییە یان هەوڵی زۆر پیشان دەدات"""),
+                  """٢. (ھاوەڵناو) ڕەفتارکردن بەشێوەیەک کە زۆر دراماتیکییە یان ھەوڵی زۆر پیشان دەدات"""),
           SentencesRow(
             englishText: """Calm down—you're being so extra right now.""",
-            kurdishText: """هێور بەرەوە ـ ئێستا زۆر مشەوش دەبیت.""",
+            kurdishText: """ھێور بەرەوە ـ ئێستا زۆر مشەوش دەبیت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -424,33 +424,33 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The monthly fee is fixed and there are no hidden extras (= unexpected costs).""",
             kurdishText:
-                """کرێی ماناگنە جێگیرە و هیچ نرخی زیادەی لەگەڵ نییە.""",
+                """کرێی ماناگنە جێگیرە و ھیچ نرخی زیادەی لەگەڵ نییە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """No extras are included.""",
-            kurdishText: """هیچی زیادەی لەگەڵ نییە.""",
+            kurdishText: """ھیچی زیادەی لەگەڵ نییە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Extras include an interview with the director.""",
-            kurdishText: """شتە زیادەکان چاوپێکەوتنێک دەبێت لەگەڵ دەرهێنەر.""",
+            kurdishText: """شتە زیادەکان چاوپێکەوتنێک دەبێت لەگەڵ دەرھێنەر.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (ناو) کەسێک کە ڕۆڵێکی زۆر بچووکی هەیە لە فیلمێکدا، زۆرجار کە لەناو کۆمەڵێک دەبێت"""),
+                  """٤. (ناو) کەسێک کە ڕۆڵێکی زۆر بچووکی ھەیە لە فیلمێکدا، زۆرجار کە لەناو کۆمەڵێک دەبێت"""),
           SentencesRow(
             englishText:
                 """We need hundreds of extras for the battle scenes.""",
             kurdishText:
-                """پێویستیمان بە سەدان ئێکسترا هەیە لە دیمەنی جەنگەکان.""",
+                """پێویستیمان بە سەدان ئێکسترا ھەیە لە دیمەنی جەنگەکان.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -458,7 +458,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """٥. (ھاوەڵکار) کە وەک زیادە دەبێت"""),
           SentencesRow(
             englishText: """I need to earn a bit extra this month.""",
-            kurdishText: """ئەم مانگە دەبێت کەمێک زیاتر بەدەست بهێنم.""",
+            kurdishText: """ئەم مانگە دەبێت کەمێک زیاتر بەدەست بھێنم.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -483,7 +483,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """You need to be extra careful not to make any mistakes.""",
-            kurdishText: """دەبێت زیاتر وریا بیت تاوەکو هیچ هەڵەیەک نەکەیت.""",
+            kurdishText: """دەبێت زیاتر وریا بیت تاوەکو ھیچ ھەڵەیەک نەکەیت.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
@@ -492,7 +492,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He wanted to cook something extra special for dinner that night.""",
             kurdishText:
-                """بۆ نانی ئێوارەی ئەو شەوە هەوڵی دا شتێکی زیاتر تایبەت ئامادە بکات.""",
+                """بۆ نانی ئێوارەی ئەو شەوە ھەوڵی دا شتێکی زیاتر تایبەت ئامادە بکات.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -546,7 +546,7 @@ ${englishMeaningConst.text}
  
 3. Added to a regular schedule (= special)
 
-- Noun: extra (Derived forms: extras)
+- Noun: extra (derived forms: extras)
 1. A minor actor in crowd scenes (= supernumerary, spear carrier)
  
 2. An additional edition of a newspaper (usually to report a crisis)

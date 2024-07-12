@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەس‌پیاهێنان، دەس‌پیاگێڕان، تازەکردنەوە، چاک‌کردنەوە، نۆژەنکردنەوە
+کوردی: دەس‌پیاھێنان، دەس‌پیاگێڕان، تازەکردنەوە، چاک‌کردنەوە، نۆژەنکردنەوە
 """),
           const DefinitionKurdish(
               text:
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: facelift (Derived forms: facelifts)
+- Noun: facelift (derived forms: facelifts)
 1. Plastic surgery to remove wrinkles and other signs of aging from your face; an incision is made near the hair line and skin is pulled back and excess tissue is excised (= face lift, lift, face lifting, cosmetic surgery, rhytidectomy, rhytidoplasty, nip and tuck [informal])
 "some actresses have more than one facelift";
  

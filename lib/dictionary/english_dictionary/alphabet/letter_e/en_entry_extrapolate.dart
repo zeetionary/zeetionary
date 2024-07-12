@@ -271,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) خەمڵاندنی شتێک یان درووستکردنی بۆچوون لەسەر شتێک بە بەکارهێنانی ئەو زانیارییانەی کە ئێستا هەتن پەیوەندیدار بە دۆخێک و وەهای دادەنێیت کە پەیوەندیدار دەبن بە دۆخە تازەکە"""),
+                  """١. (کردار) خەمڵاندنی شتێک یان درووستکردنی بۆچوون لەسەر شتێک بە بەکارھێنانی ئەو زانیارییانەی کە ئێستا ھەتن پەیوەندیدار بە دۆخێک و وەھای دادەنێیت کە پەیوەندیدار دەبن بە دۆخە تازەکە"""),
           SentencesRow(
             englishText:
                 """The figures were obtained by extrapolating from past trends.""",
@@ -285,7 +285,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Try not to extrapolate too much from your own experience.""",
             kurdishText:
-                """هەوڵ بدە زۆر لە ئەزموونی خۆتەوە ‌هەڵسەنگاندن نەکەیت.""",
+                """ھەوڵ بدە زۆر لە ئەزموونی خۆتەوە ‌ھەڵسەنگاندن نەکەیت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extrapolate (Derived forms: extrapolating, extrapolates, extrapolated)
+- Verb: extrapolate (derived forms: extrapolating, extrapolates, extrapolated)
 1. Draw from specific cases for more general cases (= generalize, generalise [Brit], infer)
  
 2. (logic) gain knowledge of (an area not known or experienced) by extrapolating

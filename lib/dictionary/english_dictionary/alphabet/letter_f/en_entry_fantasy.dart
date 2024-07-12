@@ -303,7 +303,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: خەیاڵ‌کردنەوە، خەیاڵ‌بردنەوە، ئەندێشەکردنەوە، پێ‌وابوون، وازانین، خەیاڵ،	بەرهەمی خەیاڵ‌کردنەوە،	بیرۆکەی ناڕاستەقینە، بۆچوون یان باوەڕی لەسەر خەیاڵ بنچینەنراو، بۆچوونی ئەندێشەیی، باوەڕی خەیاڵی
+کوردی: خەیاڵ‌کردنەوە، خەیاڵ‌بردنەوە، ئەندێشەکردنەوە، پێ‌وابوون، وازانین، خەیاڵ،	بەرھەمی خەیاڵ‌کردنەوە،	بیرۆکەی ناڕاستەقینە، بۆچوون یان باوەڕی لەسەر خەیاڵ بنچینەنراو، بۆچوونی ئەندێشەیی، باوەڕی خەیاڵی
 """),
           const DefinitionKurdish(
               text:
@@ -321,14 +321,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I cherished the fantasy that I might one day have a son who would fulfil the dream.""",
             kurdishText:
-                """حەزم بەو خەیاڵە بوو کە ڕەنگە ڕۆژێک کوڕێکم هەبێت کە خەونەکە بەدی بهێنێت.""",
+                """حەزم بەو خەیاڵە بوو کە ڕەنگە ڕۆژێک کوڕێکم ھەبێت کە خەونەکە بەدی بھێنێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """My childhood fantasies were finally fulfilled.""",
-            kurdishText: """خەونەکانی منداڵیم لە کۆتایی بەدیهاتن.""",
+            kurdishText: """خەونەکانی منداڵیم لە کۆتایی بەدیھاتن.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -337,7 +337,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She had a fantasy about going to live on a South Pacific island.""",
             kurdishText:
-                """خەیاڵی ئەوەی هەبوو کە بچێت لەسەر دوورگەیەکی باشووری زەریای هێمن بژی.""",
+                """خەیاڵی ئەوەی ھەبوو کە بچێت لەسەر دوورگەیەکی باشووری زەریای ھێمن بژی.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -354,7 +354,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Stop living in a fantasy world.""",
-            kurdishText: """وازبهێنە لە ژیان لە جیهانی خەیاڵدا.""",
+            kurdishText: """وازبھێنە لە ژیان لە جیھانی خەیاڵدا.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -368,13 +368,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) چیرۆکێکی خەیاڵی کە لە جیهانێکی ناڕاستیدا ڕوودەدات و شتی ناڕاستی وەک دڕندە، پەری، سیحر، هتد ـی تێدایە"""),
+                  """٣. (ناو) چیرۆکێکی خەیاڵی کە لە جیھانێکی ناڕاستیدا ڕوودەدات و شتی ناڕاستی وەک دڕندە، پەری، سیحر، ھتد ـی تێدایە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """She wrote a series of fantasy novels filled with wizards, witches and dragons.""",
             kurdishText:
-                """زنجیرە ڕۆمانێکی خەیاڵی نووسی کە پڕبوون لە پیاو و ژنی جادووگەر و ئەژدیها.""",
+                """زنجیرە ڕۆمانێکی خەیاڵی نووسی کە پڕبوون لە پیاو و ژنی جادووگەر و ئەژدیھا.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -419,7 +419,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fantasy (Derived forms: fantasies)
+- Noun: fantasy (derived forms: fantasies)
 1. Imagination unrestricted by reality (= phantasy [archaic])
 "a schoolgirl fantasy";
  
@@ -431,7 +431,7 @@ ${englishMeaningConst.text}
  
 4. A musical composition of a free form usually incorporating several familiar themes (= fantasia)
 
-- Verb: fantasy (Derived forms: fantasied, fantasies, fantasying)
+- Verb: fantasy (derived forms: fantasied, fantasies, fantasying)
 1. Indulge in fantasies (= fantasize, fantasise [Brit])
 """,
   );
@@ -457,17 +457,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'tLD-OUkYtk4?t=';
+const String _videoIdend = 'tLD-OUkYtk4';
 const double _startSecondsend = 147;
-const String _videoIdone = 'RpeYKjzN4HU?t=';
+const String _videoIdone = 'RpeYKjzN4HU';
 const double _startSecondsone = 472;
-const String _videoIdtwo = 'jxk259Eqnks?t=';
+const String _videoIdtwo = 'jxk259Eqnks';
 const double _startSecondstwo = 420;
-const String _videoIdthree = 'SFphlZ_BryA?t=';
+const String _videoIdthree = 'SFphlZ_BryA';
 const double _startSecondsthree = 7;
-const String _videoIdfour = 'AFS6saV981Q?t=';
+const String _videoIdfour = 'AFS6saV981Q';
 const double _startSecondsfour = 183;
-const String _videoIdfive = '6kA7Alc-QCY?t=';
+const String _videoIdfive = '6kA7Alc-QCY';
 const double _startSecondsfive = 272;
 
 class YoutubeEmbeddedend extends StatelessWidget {

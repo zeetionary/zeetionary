@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: یەکجارباش، بەرز، بێ‌هاوتا، بێ‌وێنە، تەواو، بێ‌گەرد، بێ‌عەیب، لەسەرەوە، وەستایانە، شۆخ‌وشەنگ، جوان، خوشیک،	توند، گران، کەسکوون، کاری، قووڵ، تیژ، سەخت،	ناسک، هەستیار،	بەجێ، گونجاو
+کوردی: یەکجارباش، بەرز، بێ‌ھاوتا، بێ‌وێنە، تەواو، بێ‌گەرد، بێ‌عەیب، لەسەرەوە، وەستایانە، شۆخ‌وشەنگ، جوان، خوشیک،	توند، گران، کەسکوون، کاری، قووڵ، تیژ، سەخت،	ناسک، ھەستیار،	بەجێ، گونجاو
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) تەواو جوان و بەوریایی درووستکراو"""),
@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵناو) کە بە بەهێزی هەستی پێ دەکرێت"""),
+              text: """٢. (ھاوەڵناو) کە بە بەھێزی ھەستی پێ دەکرێت"""),
           SentencesRow(
             englishText: """The pain was quite exquisite.""",
             kurdishText: """ئازارەکە تەواو توند بوو.""",
@@ -284,7 +284,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (ھاوەڵناو) زۆر هەستیار و هەست‌بزوێن"""),
+              text: """٣. (ھاوەڵناو) زۆر ھەستیار و ھەست‌بزوێن"""),
           SentencesRow(
             englishText: """The room was decorated in exquisite taste.""",
             kurdishText: """ژوورەکە بە شێوەیەکی زۆر ناسک ڕازێندرابوویەوە.""",

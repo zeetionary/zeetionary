@@ -264,14 +264,14 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text: """١. (کردار) سەرنجڕاکێشانی کەسێک بە ئاستێکی زۆر"""),
           SentencesRow(
             englishText: """Technology has always fascinated humans.""",
-            kurdishText: """تەکنەلۆژیا هەمیشە مرۆڤی سەرسام کردووە.""",
+            kurdishText: """تەکنەلۆژیا ھەمیشە مرۆڤی سەرسام کردووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -289,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The private lives of movie stars never fail to fascinate.""",
             kurdishText:
-                """ژیانی کەسی ئەستێرەکانی فیلم هەرگیز ناوەستن لە سەرسام کردن.""",
+                """ژیانی کەسی ئەستێرەکانی فیلم ھەرگیز ناوەستن لە سەرسام کردن.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -334,7 +334,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fascinate (Derived forms: fascinating, fascinates, fascinated)
+- Verb: fascinate (derived forms: fascinating, fascinates, fascinated)
 1. Cause to be interested or curious (= intrigue)
  
 2. To render motionless, as with a fixed stare or by arousing terror or awe (= transfix, grip, spellbind)
@@ -366,17 +366,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '-UrdExQW0cs?t=';
+const String _videoIdend = '-UrdExQW0cs';
 const double _startSecondsend = 1357;
-const String _videoIdone = 'qg2nGY1aqlg?t=';
+const String _videoIdone = 'qg2nGY1aqlg';
 const double _startSecondsone = 2177;
-const String _videoIdtwo = 's_2QTY0V3Yc?t=';
+const String _videoIdtwo = 's_2QTY0V3Yc';
 const double _startSecondstwo = 1237;
-const String _videoIdthree = 'ErPsyBUCijM?t=';
+const String _videoIdthree = 'ErPsyBUCijM';
 const double _startSecondsthree = 181;
 const String _videoIdfour = 'PGuqnE35cCg';
 const double _startSecondsfour = 0;
-const String _videoIdfive = 'UopANFTGexA?t=';
+const String _videoIdfive = 'UopANFTGexA';
 const double _startSecondsfive = 1192;
 
 class YoutubeEmbeddedend extends StatelessWidget {

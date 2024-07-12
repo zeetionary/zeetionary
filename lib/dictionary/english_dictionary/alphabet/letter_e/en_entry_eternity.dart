@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: بێ‌سەرەتایی و بێ‌کۆتایی، ھەمیشەیێتی، ھەمیشەیی‌بوون، نەمرێتی، تاھەتایێتی، ھەتاھەتایی‌بوون، ناکۆتایی‌بوون، جیھانی کۆتایی، ژیانی نەمرانە،	ژیانی دوای مەرگ یان جێھانی تر،	مردن، مەرگ
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) هەمیشەیی؛ کات بەبێ کۆتا"""),
+              text: """١. (ھاوەڵناو) ھەمیشەیی؛ کات بەبێ کۆتا"""),
           SentencesRow(
             englishText: """There will be rich and poor for all eternity.""",
             kurdishText: """بە ھەمیشەیی دەوڵەمەند و ھەژار دەبێت.""",

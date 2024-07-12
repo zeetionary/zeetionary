@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: """١. (کردار) وەرگرتنی شتێک بە هەڕەشيکردن"""),
+              text: """١. (کردار) وەرگرتنی شتێک بە ھەڕەشيکردن"""),
           SentencesRow(
             englishText:
                 """The gang extorted money from over 30 local businesses.""",
@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Police have not so far been able to extort a confession from the people accused of the bombing.""",
             kurdishText:
-                """پۆلیس هێشتا دانپێدانانی وەرنەگرتووە لەو کەسانەی کە تەقینەوەکەیان ئەنجام دا.""",
+                """پۆلیس ھێشتا دانپێدانانی وەرنەگرتووە لەو کەسانەی کە تەقینەوەکەیان ئەنجام دا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -320,7 +320,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extort (Derived forms: extorted, extorting, extorts)
+- Verb: extort (derived forms: extorted, extorting, extorts)
 1. (crime) obtain through intimidation
  
 2. Obtain by coercion or intimidation (= squeeze, rack [archaic], gouge [informal], wring)

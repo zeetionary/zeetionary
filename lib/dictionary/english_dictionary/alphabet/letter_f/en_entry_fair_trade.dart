@@ -249,12 +249,12 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) جۆرە بازرگانییەک کە پشتیوانی بەرهەمهێنەرانی وڵاتە ڕوولەگەشەکان دەکات بەوەی دڵنیایی بکرێت کە کرێکاران لە دۆخی باشی کارکردندان و پارەی گونجاو وەردەگرن"""),
+                  """١. (ھاوەڵناو) جۆرە بازرگانییەک کە پشتیوانی بەرھەمھێنەرانی وڵاتە ڕوولەگەشەکان دەکات بەوەی دڵنیایی بکرێت کە کرێکاران لە دۆخی باشی کارکردندان و پارەی گونجاو وەردەگرن"""),
           SentencesRow(
             englishText:
                 """We buy 10% of our bananas from fair-trade sources.""",

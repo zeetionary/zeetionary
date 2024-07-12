@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He attended a nearby church, but he did not appear fanatically religious.""",
             kurdishText:
-                """دەچووە کڵێسایەکی نزیک، بەڵام وەها دەرنەدەکەوت کە باوەڕدارێکی توند بێت.""",
+                """دەچووە کڵێسایەکی نزیک، بەڵام وەھا دەرنەدەکەوت کە باوەڕدارێکی توند بێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The band has a fanatically loyal following.""",
-            kurdishText: """باندەکە شوێنکەوتوویەکی هۆگرانە وەفاداری هەیە.""",
+            kurdishText: """باندەکە شوێنکەوتوویەکی ھۆگرانە وەفاداری ھەیە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

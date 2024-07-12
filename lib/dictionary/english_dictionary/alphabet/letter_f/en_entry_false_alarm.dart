@@ -257,9 +257,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) ئاگادارکردنەوە سەبارەت بە مەترسییەک کە ڕوونادات؛ باوەڕی ئەوەی کە شتێکی خراپ ڕوودەدات لە کاتێکدا ڕوونادات"""),
@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Three fire engines rushed to the school only to discover it was a false alarm.""",
             kurdishText:
-                """سێ ئاگرکوژێنەرەوە ڕۆشتن بۆ قوتابخانە بەڵام دۆزییانەوە کە ئاگادارکەرەوەی هەڵە بووە.""",
+                """سێ ئاگرکوژێنەرەوە ڕۆشتن بۆ قوتابخانە بەڵام دۆزییانەوە کە ئاگادارکەرەوەی ھەڵە بووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She thought she was pregnant, but it turned out to be a false alarm (= she was not).""",
             kurdishText:
-                """وای بیرکردەوە کە دووگیانە، بەڵام دەرکەوت کە تێگەشتنی هەڵە بێت.""",
+                """وای بیرکردەوە کە دووگیانە، بەڵام دەرکەوت کە تێگەشتنی ھەڵە بێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: false alarm (Derived forms: false alarms)
+- Noun: false alarm (derived forms: false alarms)
 1. A warning that is given about something that fails to occur
 """,
   );

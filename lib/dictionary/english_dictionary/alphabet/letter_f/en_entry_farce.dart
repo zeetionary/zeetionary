@@ -266,14 +266,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Farce is often looked down upon by serious theatre goers.""",
             kurdishText:
-                """شانۆی گاڵتەجاڕی زۆرجار لەلایەن ئامادەبووانی هۆڵی شانۆوە وەک گاڵتەجاڕی دەیر دەکرێت.""",
+                """شانۆی گاڵتەجاڕی زۆرجار لەلایەن ئامادەبووانی ھۆڵی شانۆوە وەک گاڵتەجاڕی دەیر دەکرێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) دۆخێک یان ڕووداوێک کە هێندە خراپ ڕێکخراوە کە گەمژانەیە"""),
+                  """٢. (ناو) دۆخێک یان ڕووداوێک کە ھێندە خراپ ڕێکخراوە کە گەمژانەیە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The trial was a complete farce.""",
@@ -322,12 +322,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: farce (Derived forms: farces)
+- Noun: farce (derived forms: farces)
 1. A comedy characterized by broad satire and improbable situations (= farce comedy, travesty)
  
 2. Mixture of ground raw chicken and mushrooms with pistachios and truffles and onions and parsley and lots of butter and bound with eggs (= forcemeat)
 
-- Verb: farce (Derived forms: farcing, farced, farces)
+- Verb: farce (derived forms: farcing, farced, farces)
 1. (cooking) fill with a stuffing while cooking (= stuff)
 "Have you farced the turkey yet?";
 """,
@@ -354,17 +354,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'Y5F_ha7d-PI?t=';
+const String _videoIdend = 'Y5F_ha7d-PI';
 const double _startSecondsend = 141;
-const String _videoIdone = '5vhpgWQiujg?t=';
+const String _videoIdone = '5vhpgWQiujg';
 const double _startSecondsone = 109;
-const String _videoIdtwo = 'w5K2ZoPVD5E?t=';
+const String _videoIdtwo = 'w5K2ZoPVD5E';
 const double _startSecondstwo = 99;
-const String _videoIdthree = '__qtH1ly2Sg?t=';
+const String _videoIdthree = '__qtH1ly2Sg';
 const double _startSecondsthree = 259;
-const String _videoIdfour = 'CaOwcYLGTMo?t=';
+const String _videoIdfour = 'CaOwcYLGTMo';
 const double _startSecondsfour = 332;
-const String _videoIdfive = 'YCRkOkWB47o?t=';
+const String _videoIdfive = 'YCRkOkWB47o';
 const double _startSecondsfive = 903;
 
 class YoutubeEmbeddedend extends StatelessWidget {

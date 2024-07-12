@@ -278,9 +278,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(text: """١. (کردار) کاڵبوون یان کزبوون"""),
           SentencesRow(
             englishText: """The curtains had faded in the sun.""",
@@ -310,14 +310,14 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Hopes of reaching an agreement seem to be fading away.""",
-            kurdishText: """هیوای گەشتن بە ڕێککەوتن وادیارە کە نامێنێت.""",
+            kurdishText: """ھیوای گەشتن بە ڕێککەوتن وادیارە کە نامێنێت.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Summer was fading into autumn.""",
-            kurdishText: """هاوین نەدەما بەرەو پاییز.""",
+            kurdishText: """ھاوین نەدەما بەرەو پاییز.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -362,7 +362,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fade (Derived forms: fading, fades, faded)
+- Verb: fade (derived forms: fading, fades, faded)
 1. Become less clearly visible or distinguishable; disappear gradually or seemingly (= melt)
 "The scene begins to fade";
  
@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
  
 4. Become feeble (= languish)
 
-- Noun: fade (Derived forms: fades)
+- Noun: fade (derived forms: fades)
 1. A golf shot that curves to the right for a right-handed golfer (= slice, slicing)
 "he took lessons to cure his fade";
  

@@ -279,19 +279,19 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The medication is to be applied externally.""",
-            kurdishText: """دەرمانەکە دەبێت لە دەرەوە بەکاربهێندرێت.""",
+            kurdishText: """دەرمانەکە دەبێت لە دەرەوە بەکاربھێندرێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵکار) بە شێوەیەک کە لە دەرەوەی شوێنێک، ذامەزراوەیەک، دۆخێکی دیاریکراو، هتد ڕوودەدات یان دێت"""),
+                  """٢. (ھاوەڵکار) بە شێوەیەک کە لە دەرەوەی شوێنێک، ذامەزراوەیەک، دۆخێکی دیاریکراو، ھتد ڕوودەدات یان دێت"""),
           SentencesRow(
             englishText:
                 """The university has many externally funded research projects.""",
             kurdishText:
-                """زانکۆکە ژمارەیەک لە پڕۆژەی لێکۆڵینەوەی لە دەرەوە پارەبۆدراوی هەیە.""",
+                """زانکۆکە ژمارەیەک لە پڕۆژەی لێکۆڵینەوەی لە دەرەوە پارەبۆدراوی ھەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

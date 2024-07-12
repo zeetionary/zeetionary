@@ -302,7 +302,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """It was a fantastically shaped piece of stone.""",
-            kurdishText: """پارچە بەردێکی نامۆیانە هەڵکۆڵراو بوو.""",
+            kurdishText: """پارچە بەردێکی نامۆیانە ھەڵکۆڵراو بوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),

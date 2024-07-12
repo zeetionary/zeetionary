@@ -349,19 +349,19 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (کردار) ئاشکراکردنی ڕاستی سەبارەت بە دۆخێک یان کەسێک وەک نایاسایی، تەڵەکەباز، هتد"""),
+                  """٢. (کردار) ئاشکراکردنی ڕاستی سەبارەت بە دۆخێک یان کەسێک وەک نایاسایی، تەڵەکەباز، ھتد"""),
           SentencesRow(
             englishText:
                 """He threatened to expose the racism that existed within the police force.""",
             kurdishText:
-                """هەڕەشەی ئاشکراکردنی ئەو ڕەگەزپەرستییەی کرد کە لەناو هێزەکانی پۆلیسدا بوونی هەبوو.""",
+                """ھەڕەشەی ئاشکراکردنی ئەو ڕەگەزپەرستییەی کرد کە لەناو ھێزەکانی پۆلیسدا بوونی ھەبوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """She was exposed as a liar and a fraud.""",
-            kurdishText: """وەک درۆزن و تەڵەکەباز و ڕووی هەڵماردرا.""",
+            kurdishText: """وەک درۆزن و تەڵەکەباز و ڕووی ھەڵماردرا.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """This tactic allowed the rebels to attack without the risk of exposing themselves.""",
             kurdishText:
-                """ئەم تاکتیکە ڕێگای بە یاخیبووەکان دا هێرش بکەن بەبێ ئەوەی خۆیان بخەنە مەترسی.""",
+                """ئەم تاکتیکە ڕێگای بە یاخیبووەکان دا ھێرش بکەن بەبێ ئەوەی خۆیان بخەنە مەترسی.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -389,7 +389,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Do not expose babies to strong sunlight.""",
-            kurdishText: """منداڵان مەدە بەر تیشکی بەهێز.""",
+            kurdishText: """منداڵان مەدە بەر تیشکی بەھێز.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -397,7 +397,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The cells were not exposed to any radiation at all.""",
-            kurdishText: """خانووەکان بەهیچ شێوەیەک بەر تیشکدانەوە نەخران.""",
+            kurdishText: """خانووەکان بەھیچ شێوەیەک بەر تیشکدانەوە نەخران.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -409,7 +409,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We want to expose the kids to as much art and culture as possible.""",
             kurdishText:
-                """دەمانەوێت چەندە بکرێت منداڵەکان هونەر و کەلتوور ببینن.""",
+                """دەمانەوێت چەندە بکرێت منداڵەکان ھونەر و کەلتوور ببینن.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -454,7 +454,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: expose (Derived forms: exposes, exposed, exposing)
+- Verb: expose (derived forms: exposes, exposed, exposing)
 1. Make accessible to some action or influence
 "Expose your students to art"; "expose the blanket to sunshine"
  

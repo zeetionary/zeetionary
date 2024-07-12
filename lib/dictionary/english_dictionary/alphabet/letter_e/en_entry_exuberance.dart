@@ -272,7 +272,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Nothing will curb her natural exuberance.""",
-            kurdishText: """هیچ پێش بە کەیف و خۆشی سرووشتیی ناگرێت.""",
+            kurdishText: """ھیچ پێش بە کەیف و خۆشی سرووشتیی ناگرێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -317,7 +317,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exuberance (Derived forms: exuberances)
+- Noun: exuberance (derived forms: exuberances)
 1. Joyful enthusiasm
  
 2. Overflowing with eager enjoyment or approval (= enthusiasm, ebullience)

@@ -265,7 +265,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """A sample of fresh faeces should be collected each day.""",
             kurdishText:
-                """نموونەیەکی پیسایی تازە دەبێت هەموو ڕۆژێک کۆبکرێتەوە.""",
+                """نموونەیەکی پیسایی تازە دەبێت ھەموو ڕۆژێک کۆبکرێتەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

@@ -296,10 +296,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تیاچوو، نەماو، قڕتێکەوتوو، فەوتاو، کوێر(ەوەبوو)، لەبن‌هاتوو، قەڵاچۆکراو، دوابڕاو، دوودمان‌کوێر،	کوژاو، ناچالاک، دامرکاو
+کوردی: تیاچوو، نەماو، قڕتێکەوتوو، فەوتاو، کوێر(ەوەبوو)، لەبن‌ھاتوو، قەڵاچۆکراو، دوابڕاو، دوودمان‌کوێر،	کوژاو، ناچالاک، دامرکاو
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) ڕووەکێک، ئاژەڵێک، هتد ـی لەناوچوو"""),
+              text: """١. (ھاوەڵناو) ڕووەکێک، ئاژەڵێک، ھتد ـی لەناوچوو"""),
           SentencesRow(
             englishText:
                 """The red squirrel is in danger of becoming extinct in England.""",
@@ -319,7 +319,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There is concern that the giant panda will soon become extinct.""",
-            kurdishText: """نیگەرانی هەیە کە پاندای گەورە زوو لەناوبچێت.""",
+            kurdishText: """نیگەرانی ھەیە کە پاندای گەورە زوو لەناوبچێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -328,7 +328,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Many tribes became extinct when they came into contact with Western illnesses.""",
             kurdishText:
-                """زۆر تیرە لەناوچوون بەهۆی تووشبوون بە نەخۆشی ڕۆژئاوایی.""",
+                """زۆر تیرە لەناوچوون بەھۆی تووشبوون بە نەخۆشی ڕۆژئاوایی.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -339,7 +339,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Servants are now almost extinct in modern society.""",
             kurdishText:
-                """خزمەتکار بەنزیکەیی چی دیکە بوونی نییە لە جیهانی سەردەمدا.""",
+                """خزمەتکار بەنزیکەیی چی دیکە بوونی نییە لە جیھانی سەردەمدا.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -348,7 +348,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """A lot of trades have become extinct because of the development of technology.""",
             kurdishText:
-                """زۆر کاری بازرگانی لەناوچوونە بەهۆی گەشەی تەکنەلۆژیاوە.""",
+                """زۆر کاری بازرگانی لەناوچوونە بەھۆی گەشەی تەکنەلۆژیاوە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),

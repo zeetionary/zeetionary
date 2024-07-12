@@ -519,13 +519,13 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
-          const DefinitionKurdish(text: """١. (کردار) شکستهێنان لە شتێک"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
+          const DefinitionKurdish(text: """١. (کردار) شکستھێنان لە شتێک"""),
           SentencesRow(
             englishText: """Ultimately all their efforts failed.""",
-            kurdishText: """لە کۆتاییدا هەموو هەوڵەکانیان شکستی هێنا.""",
+            kurdishText: """لە کۆتاییدا ھەموو ھەوڵەکانیان شکستی ھێنا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -535,14 +535,14 @@ class KurdishMeaning extends StatelessWidget {
                 children: [
                   SentencesRow(
                     englishText: """I failed in my attempt to persuade her.""",
-                    kurdishText: """لە هەوڵەکەم بۆ ڕازیکردنی شکستم هێنا.""",
+                    kurdishText: """لە ھەوڵەکەم بۆ ڕازیکردنی شکستم ھێنا.""",
                     onPressedBritish: () => speaksentence2("en-GB"),
                     onPressedAmerican: () => speaksentence2("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """He failed in his bid for the presidency.""",
-                    kurdishText: """لە هەوڵدانی بۆ سەرۆکایەتی شکستی هێنا.""",
+                    kurdishText: """لە ھەوڵدانی بۆ سەرۆکایەتی شکستی ھێنا.""",
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
@@ -551,7 +551,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """They promised a lot, but utterly failed to deliver.""",
                     kurdishText:
-                        """بەڵێنیان زۆر دا، بەڵام تەواو شکستیان هێنا لە بەجێهێنانیان.""",
+                        """بەڵێنیان زۆر دا، بەڵام تەواو شکستیان ھێنا لە بەجێھێنانیان.""",
                     onPressedBritish: () => speaksentence4("en-GB"),
                     onPressedAmerican: () => speaksentence4("en-US"),
                   ),
@@ -560,7 +560,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """I tried to cheer her up, but failed miserably.""",
                     kurdishText:
-                        """هەوڵم دا دڵخۆشی بکەم، بەڵام تەواو شکستم هێنا.""",
+                        """ھەوڵم دا دڵخۆشی بکەم، بەڵام تەواو شکستم ھێنا.""",
                     onPressedBritish: () => speaksentence5("en-GB"),
                     onPressedAmerican: () => speaksentence5("en-US"),
                   ),
@@ -568,7 +568,7 @@ class KurdishMeaning extends StatelessWidget {
                   SentencesRow(
                     englishText: """Others have tried and failed.""",
                     kurdishText:
-                        """کەسانی دیکە هەوڵیان داوە و شکستیان هێناوە.""",
+                        """کەسانی دیکە ھەوڵیان داوە و شکستیان ھێناوە.""",
                     onPressedBritish: () => speaksentence6("en-GB"),
                     onPressedAmerican: () => speaksentence6("en-US"),
                   ),
@@ -576,21 +576,21 @@ class KurdishMeaning extends StatelessWidget {
                   SentencesRow(
                     englishText: """Can we succeed where others have failed?""",
                     kurdishText:
-                        """دەتوانین سەربکەوین لەوەی کەسانی دیکە شکستیان هێناوە؟""",
+                        """دەتوانین سەربکەوین لەوەی کەسانی دیکە شکستیان ھێناوە؟""",
                     onPressedBritish: () => speaksentence7("en-GB"),
                     onPressedAmerican: () => speaksentence7("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """She failed to get into art college.""",
-                    kurdishText: """شکستی هێنا لەوەی بچێتە کۆلێژی هونەر.""",
+                    kurdishText: """شکستی ھێنا لەوەی بچێتە کۆلێژی ھونەر.""",
                     onPressedBritish: () => speaksentence8("en-GB"),
                     onPressedAmerican: () => speaksentence8("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """The game fails in many respects.""",
-                    kurdishText: """یارییەکە لە زۆر لایەنەوە شکست دەهێنێت.""",
+                    kurdishText: """یارییەکە لە زۆر لایەنەوە شکست دەھێنێت.""",
                     onPressedBritish: () => speaksentence9("en-GB"),
                     onPressedAmerican: () => speaksentence9("en-US"),
                   ),
@@ -645,7 +645,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """People failed to recognize her talent.""",
-            kurdishText: """خەڵکی نەیان توانی بەهرەکەی هەست پێ بکەن.""",
+            kurdishText: """خەڵکی نەیان توانی بەھرەکەی ھەست پێ بکەن.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -660,7 +660,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Such comments never failed to annoy him.""",
             kurdishText:
-                """لێدوانی وەها هەرگیز نەدەوەستان لەوەی بێزاری بکەن.""",
+                """لێدوانی وەھا ھەرگیز نەدەوەستان لەوەی بێزاری بکەن.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
@@ -668,7 +668,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """I fail to see (= I don't understand) why you won't even give it a try.""",
-            kurdishText: """تێ‌ناگەم بۆچی تەنها هەوڵیش نادەیت.""",
+            kurdishText: """تێ‌ناگەم بۆچی تەنھا ھەوڵیش نادەیت.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
@@ -683,7 +683,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """They failed in their duty to protect the public.""",
-            kurdishText: """شکستیان هێنا لە ئەرکیان بۆ پاراستنی خەڵکی.""",
+            kurdishText: """شکستیان ھێنا لە ئەرکیان بۆ پاراستنی خەڵکی.""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
@@ -691,7 +691,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """He has repeatedly failed to explain his actions.""",
             kurdishText:
-                """دووبارە و دووبارە شکستی هێناوە لە ڕوونکردنەوەی کارەکانی.""",
+                """دووبارە و دووبارە شکستی ھێناوە لە ڕوونکردنەوەی کارەکانی.""",
             onPressedBritish: () => speaksentence21("en-GB"),
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
@@ -718,7 +718,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The plane can still be flown if one engine fails.""",
             kurdishText:
-                """فڕۆکەکە هێشتا دەکرێت بفڕێندرێت ئەگەر یەک بزوێنەر بوەستێت.""",
+                """فڕۆکەکە ھێشتا دەکرێت بفڕێندرێت ئەگەر یەک بزوێنەر بوەستێت.""",
             onPressedBritish: () => speaksentence24("en-GB"),
             onPressedAmerican: () => speaksentence24("en-US"),
           ),
@@ -772,7 +772,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """When he lost his job, he felt he had failed his family.""",
             kurdishText:
-                """کە کارەکەی لەدەستدا، وای هەست کرد کە خێزانەکەی بێ هیوا کردووە.""",
+                """کە کارەکەی لەدەستدا، وای ھەست کرد کە خێزانەکەی بێ ھیوا کردووە.""",
             onPressedBritish: () => speaksentence30("en-GB"),
             onPressedAmerican: () => speaksentence30("en-US"),
           ),
@@ -780,8 +780,8 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """She tried to be brave, but her courage failed her.""",
-            kurdishText: """هەوڵیدا ئازا بێت، بەڵام بوێرییەکەی نەیهێشت.""",
-            kurdishNote: "واتا لەو کاتەدا هیچ بوێری نەبوو",
+            kurdishText: """ھەوڵیدا ئازا بێت، بەڵام بوێرییەکەی نەیھێشت.""",
+            kurdishNote: "واتا لەو کاتەدا ھیچ بوێری نەبوو",
             onPressedBritish: () => speaksentence31("en-GB"),
             onPressedAmerican: () => speaksentence31("en-US"),
           ),
@@ -799,7 +799,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The crops failed again last summer.""",
-            kurdishText: """دانەوێڵەکان دووبارە کەم بوون هاوینی ڕابردوو.""",
+            kurdishText: """دانەوێڵەکان دووبارە کەم بوون ھاوینی ڕابردوو.""",
             onPressedBritish: () => speaksentence33("en-GB"),
             onPressedAmerican: () => speaksentence33("en-US"),
           ),
@@ -835,18 +835,18 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """I got three passes and one fail.""",
-            kurdishText: """سێ دەرچووە و یەک کەوتنم هێنا.""",
+            kurdishText: """سێ دەرچووە و یەک کەوتنم ھێنا.""",
             onPressedBritish: () => speaksentence37("en-GB"),
             onPressedAmerican: () => speaksentence37("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """١٠. (ناو) هەڵە یان شکست لە کردنی شتێکدا"""),
+              text: """١٠. (ناو) ھەڵە یان شکست لە کردنی شتێکدا"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """My pancakes were an epic fail (= completely unsuccessful).""",
-            kurdishText: """شلکێنەکانم بە تەواوی هەڵە بوون.""",
+            kurdishText: """شلکێنەکانم بە تەواوی ھەڵە بوون.""",
             onPressedBritish: () => speaksentence38("en-GB"),
             onPressedAmerican: () => speaksentence38("en-US"),
           ),
@@ -891,7 +891,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fail (Derived forms: failing, failed, fails)
+- Verb: fail (derived forms: failing, failed, fails)
 1. Not do something; leave something undone (= neglect)
 "The secretary failed to call the customer and the company lost the account"; "She failed to notice that her child was no longer in his crib";
  
@@ -924,7 +924,7 @@ ${englishMeaningConst.text}
  
 11. Deteriorate
 
-- Noun: fail (Derived forms: fails)
+- Noun: fail (derived forms: fails)
 1. A non-passing grade in an examination or test
 """,
   );

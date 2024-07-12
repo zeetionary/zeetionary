@@ -256,12 +256,12 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بینایی، سۆما، هەتەر، هەنای چاو، دید، بینین
+کوردی: بینایی، سۆما، ھەتەر، ھەنای چاو، دید، بینین
 """),
           const DefinitionKurdish(text: """١. (ناو) توانای بینین"""),
           SentencesRow(
             englishText: """Owls have good eyesight.""",
-            kurdishText: """کوونەپەپوو بینایی باشی هەیە.""",
+            kurdishText: """کوونەپەپوو بینایی باشی ھەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -313,7 +313,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: eyesight (Derived forms: eyesights)
+- Noun: eyesight (derived forms: eyesights)
 1. Normal use of the faculty of vision (= seeing, sightedness)
 "her eyesight went after the accident";
 """,

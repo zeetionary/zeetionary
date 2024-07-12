@@ -333,12 +333,12 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: دەربڕین، وتن، هێنانەسەرزمان، ڕوون‌کردنەوە، باس‌کردن،	حاڵەت، دۆخ، قیافە، حاڵەتی ڕوخسار،	زاراوە، وشە، پەیڤ، لاڕستە، دەستەوشە
+کوردی: دەربڕین، وتن، ھێنانەسەرزمان، ڕوون‌کردنەوە، باس‌کردن،	حاڵەت، دۆخ، قیافە، حاڵەتی ڕوخسار،	زاراوە، وشە، پەیڤ، لاڕستە، دەستەوشە
 """),
           const DefinitionKurdish(text: """١. (ناو) وشە یان دەستەواژەیەک"""),
           SentencesRow(
             englishText: """Keep a list of useful words and expressions.""",
-            kurdishText: """لیستێکی وشە و دەربڕینە بەسوودەکان هەڵبگرە.""",
+            kurdishText: """لیستێکی وشە و دەربڕینە بەسوودەکان ھەڵبگرە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -360,7 +360,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) ئەو شتانەی کە خەڵکی دەیڵێن، پیشانی دەدەن، یان دەینووسن بۆ دەربڕینی هەستەکانیان، بۆچوونیان، هتد"""),
+                  """٢. (ناو) ئەو شتانەی کە خەڵکی دەیڵێن، پیشانی دەدەن، یان دەینووسن بۆ دەربڕینی ھەستەکانیان، بۆچوونیان، ھتد"""),
           SentencesRow(
             englishText:
                 """Freedom of expression (= freedom to say what you think) is a basic human right.""",
@@ -373,7 +373,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The poet's anger finds expression in the last verse of the poem.""",
             kurdishText:
-                """تووڕەیی هۆزانڤانەکە لە کۆتا کۆپلەی هۆنراوەکە خۆی دەردەبڕێت.""",
+                """تووڕەیی ھۆزانڤانەکە لە کۆتا کۆپلەی ھۆنراوەکە خۆی دەردەبڕێت.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Only in his dreams does he give expression to his fears.""",
-            kurdishText: """تەنها لە وەندا ڕێگا بە دەربڕینی ترسەکانی دەدات.""",
+            kurdishText: """تەنھا لە وەندا ڕێگا بە دەربڕینی ترسەکانی دەدات.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -390,7 +390,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Words, as a means of expression, can be limiting.""",
             kurdishText: """وشە وەک ئامرازی دەربڕین دەکرێت سنووردار بێت.""",
-            kurdishNote: "واتە هەموو کات ناتوانیت بە وشە خۆت دەرببڕیت",
+            kurdishNote: "واتە ھەموو کات ناتوانیت بە وشە خۆت دەرببڕیت",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Her expression betrayed nothing of her thoughts.""",
-            kurdishText: """دەربڕینەکانی هیچ لە بیرکردنەوەکانی پیشان نەدا.""",
+            kurdishText: """دەربڕینەکانی ھیچ لە بیرکردنەوەکانی پیشان نەدا.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -474,7 +474,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: expression (Derived forms: expressions)
+- Noun: expression (derived forms: expressions)
 1. The feelings expressed on a person's face (= look, aspect, facial expression, face)
 "a sad expression"; "a sad facial expression";
  

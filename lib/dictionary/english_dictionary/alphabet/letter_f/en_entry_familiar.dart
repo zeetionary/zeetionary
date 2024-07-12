@@ -332,13 +332,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاشنا، ناسیاو، ڕووکراوە، ئاگادار، بەڵەد، شارەزا،	ناسراو، هۆگر، ڕاهاتوو، ئاسایی، نزیک، گەرم‌وگوڕ، نافەرمی، دۆستانە، خۆمانە،	ماڵی، خانەکی،	ئاشنا، شناس، ناسیاو، دۆست، نزیک
+کوردی: ئاشنا، ناسیاو، ڕووکراوە، ئاگادار، بەڵەد، شارەزا،	ناسراو، ھۆگر، ڕاھاتوو، ئاسایی، نزیک، گەرم‌وگوڕ، نافەرمی، دۆستانە، خۆمانە،	ماڵی، خانەکی،	ئاشنا، شناس، ناسیاو، دۆست، نزیک
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە لە بارەیەوە دەزانیت"""),
           SentencesRow(
             englishText: """I couldn’t see any familiar faces in the room.""",
-            kurdishText: """هیچ ڕووخسارێکی ناسیاوم نەدی لە ژوورەکە.""",
+            kurdishText: """ھیچ ڕووخسارێکی ناسیاوم نەدی لە ژوورەکە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -411,7 +411,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Are you familiar with the computer software they use?""",
             kurdishText:
-                """ئاشنایت لەگەڵ ئەو نەرمامێرە کۆمپیوتەرییەی کە بەکاریدەهێنن؟""",
+                """ئاشنایت لەگەڵ ئەو نەرمامێرە کۆمپیوتەرییەی کە بەکاریدەھێنن؟""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -420,20 +420,20 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She would have been familiar with the work of this 18th-century German philosopher.""",
             kurdishText:
-                """ئاشنا دەبوو بە کاری ئەم فەیلەسووفەی سەدەی هەژدەهەمی ئەڵمانیا.""",
+                """ئاشنا دەبوو بە کاری ئەم فەیلەسووفەی سەدەی ھەژدەھەمی ئەڵمانیا.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ھاوەڵناو) زۆر مافەرمی، هەندێک جار بەشێوەیەک کە ناخۆشە"""),
+                  """٣. (ھاوەڵناو) زۆر مافەرمی، ھەندێک جار بەشێوەیەک کە ناخۆشە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """You seem to be on very familiar terms with your tutor.""",
             kurdishText:
-                """وا دەردەکەوێت زۆر هاوڕێیانە بیت لەگەڵ مامۆستاکەت.""",
+                """وا دەردەکەوێت زۆر ھاوڕێیانە بیت لەگەڵ مامۆستاکەت.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -498,7 +498,7 @@ ${englishMeaningConst.text}
 4. Within normal everyday experience; common and ordinary; not strange
 "familiar ordinary objects found in every home"; "a familiar everyday scene"; "a familiar excuse"; "a day like any other filled with familiar duties and experiences"
 
-- Noun: familiar (Derived forms: familiars)
+- Noun: familiar (derived forms: familiars)
 1. A person attached to the household of a high official (as a pope or bishop) who renders service in return for support
  
 2. A friend who is frequently in the company of another (= companion, comrade, fellow, associate, yokefellow [N. Amer])

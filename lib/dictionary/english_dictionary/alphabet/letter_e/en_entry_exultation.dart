@@ -262,11 +262,11 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەستکردن بە دڵخۆش و سەربەرزیی زۆر، بەتایبەتی بەهۆی ئەوەی شتێکی تایبەت ڕوویداوە"""),
+                  """١. (ناو) ھەستکردن بە دڵخۆش و سەربەرزیی زۆر، بەتایبەتی بەھۆی ئەوەی شتێکی تایبەت ڕوویداوە"""),
           SentencesRow(
             englishText: """There is exultation over how well he has done.""",
             kurdishText:
-                """کەیف و خۆشی هەیە سەبارەت بەوەی چەندە باش کاری کردووە.""",
+                """کەیف و خۆشی ھەیە سەبارەت بەوەی چەندە باش کاری کردووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -320,7 +320,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exultation (Derived forms: exultations)
+- Noun: exultation (derived forms: exultations)
 1. A feeling of extreme joy (= jubilance, jubilancy, jubilation)
  
 2. The utterance of sounds expressing great joy (= rejoicing, jubilation)

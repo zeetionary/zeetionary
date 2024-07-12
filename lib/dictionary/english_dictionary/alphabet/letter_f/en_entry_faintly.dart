@@ -281,7 +281,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵکار) بەشێوەیەک کە ناتوانرێت بە باشی ببینرێت، ببیسترێت، یان هەستی پێ بکرێت"""),
+                  """١. (ھاوەڵکار) بەشێوەیەک کە ناتوانرێت بە باشی ببینرێت، ببیسترێت، یان ھەستی پێ بکرێت"""),
           SentencesRow(
             englishText: """She could faintly hear music playing.""",
             kurdishText: """بە کزی گوێی لە میوزیک بوو لێیدەدا.""",
@@ -291,7 +291,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """It smelled faintly of smoke.""",
-            kurdishText: """کەمێک بۆنی دووکەڵ دەهات.""",
+            kurdishText: """کەمێک بۆنی دووکەڵ دەھات.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

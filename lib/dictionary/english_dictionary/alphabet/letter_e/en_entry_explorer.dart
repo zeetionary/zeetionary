@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: explorer (Derived forms: explorers)
+- Noun: explorer (derived forms: explorers)
 1. Someone who travels into little known regions (especially for some scientific purpose) (= adventurer)
 "her explorer husband resisted all her attempts at domestication";
 """,

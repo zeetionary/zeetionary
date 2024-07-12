@@ -260,12 +260,12 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: """١. (کردار) پیاهەڵدانی کەسێک/شتێک بە ئاستێکی زۆر"""),
+              text: """١. (کردار) پیاھەڵدانی کەسێک/شتێک بە ئاستێکی زۆر"""),
           SentencesRow(
             englishText:
                 """Doctors often extol the virtues of eating less fat.""",
             kurdishText:
-                """پزیشکان هەمیشە پەسنی سوودەکانی خواردنی چەوری کەم دەدەن.""",
+                """پزیشکان ھەمیشە پەسنی سوودەکانی خواردنی چەوری کەم دەدەن.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -317,7 +317,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extol (Derived forms: extolled, extolling, extols)
+- Verb: extol (derived forms: extolled, extolling, extols)
 1. Praise, glorify, or honour (= laud, exalt, glorify, proclaim)
 "extol the virtues of one's children";
 """,

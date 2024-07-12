@@ -428,7 +428,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There are plans to extend the children's play area.""",
-            kurdishText: """پلان هەیە ناوچەی یاریکردنی منداڵان گەورە بکرێت.""",
+            kurdishText: """پلان ھەیە ناوچەی یاریکردنی منداڵان گەورە بکرێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -446,7 +446,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """There are plans to extend the road network in the north of the country.""",
             kurdishText:
-                """پلان هەیە تۆڕی ڕێگاکە گەورەتر بکرێت لە باکووری وڵاتەکە.""",
+                """پلان ھەیە تۆڕی ڕێگاکە گەورەتر بکرێت لە باکووری وڵاتەکە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -465,7 +465,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The show has been extended for another six weeks.""",
-            kurdishText: """پڕۆگرامەکە بۆ شەش هەفتەی دیکە درێژکراوەتەوە.""",
+            kurdishText: """پڕۆگرامەکە بۆ شەش ھەفتەی دیکە درێژکراوەتەوە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -490,7 +490,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (کردار) واکردنی ئەوەی کە بازرگانییەک، بیرۆکەیەک، کاریگەرییەک، هتد زیاتر بێت"""),
+                  """٣. (کردار) واکردنی ئەوەی کە بازرگانییەک، بیرۆکەیەک، کاریگەرییەک، ھتد زیاتر بێت"""),
           SentencesRow(
             englishText:
                 """The school is extending the range of subjects taught.""",
@@ -513,7 +513,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The company plans to extend its operations into Europe.""",
             kurdishText:
-                """کۆمپانیاکە پلانی هەیە کارەکانی لە ئەورووپا زیاد بکات.""",
+                """کۆمپانیاکە پلانی ھەیە کارەکانی لە ئەورووپا زیاد بکات.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -522,7 +522,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The offer does not extend to employees' partners.""",
-            kurdishText: """ئۆفەرەکە هاوبەشەکانی کارمەندان ناگرێتەوە.""",
+            kurdishText: """ئۆفەرەکە ھاوبەشەکانی کارمەندان ناگرێتەوە.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -565,7 +565,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The country's power extends far beyond its military capabilities.""",
             kurdishText:
-                """هێزی وڵاتەکە زۆر زیاتر لە توانا سەربازییەکانی دەبێت.""",
+                """ھێزی وڵاتەکە زۆر زیاتر لە توانا سەربازییەکانی دەبێت.""",
             onPressedBritish: () => speaksentence16("en-GB"),
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
@@ -575,7 +575,7 @@ class KurdishMeaning extends StatelessWidget {
                   """٦. (کردار) واکردنی ئەوەی شتیک بگات بە شتێک یان بکشێت پێی"""),
           SentencesRow(
             englishText: """Try to extend the rope between two posts.""",
-            kurdishText: """هەوڵ بدە حەبلەکە بکشێنە لە نێوان دوو ستوونەکەدا.""",
+            kurdishText: """ھەوڵ بدە حەبلەکە بکشێنە لە نێوان دوو ستوونەکەدا.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
@@ -612,7 +612,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """They extended the invitation to all members of staff.""",
-            kurdishText: """خێراتنی هەموو ئەندامانی ستافەکەیان کرد.""",
+            kurdishText: """خێراتنی ھەموو ئەندامانی ستافەکەیان کرد.""",
             onPressedBritish: () => speaksentence21("en-GB"),
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
@@ -621,14 +621,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We extend our sympathy to the families of the victims.""",
             kurdishText:
-                """هاوخەمیمان پێشکەش بە خێزانەکانی قوربانیان دەکەین .""",
+                """ھاوخەمیمان پێشکەش بە خێزانەکانی قوربانیان دەکەین .""",
             onPressedBritish: () => speaksentence22("en-GB"),
             onPressedAmerican: () => speaksentence22("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٩. (کردار) واکردنی ئەوەی کەسێک/شتێک تەواوی توانای، هەوڵی، هتد بەکاربهێنێت"""),
+                  """٩. (کردار) واکردنی ئەوەی کەسێک/شتێک تەواوی توانای، ھەوڵی، ھتد بەکاربھێنێت"""),
           SentencesRow(
             englishText:
                 """Jim didn't really have to extend himself in the exam.""",
@@ -678,7 +678,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: extend (Derived forms: extended, extends, extending)
+- Verb: extend (derived forms: extended, extends, extending)
 1. Increase in scope, range or area (= widen, broaden)
 "The law was extended to all citizens"; "Extend your backyard";
  

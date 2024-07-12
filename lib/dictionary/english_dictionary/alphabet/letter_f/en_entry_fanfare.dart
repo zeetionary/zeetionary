@@ -266,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: جەنجاڵی، دەنگەدەنگ، هەڵا، چڕەوگوڕە
+کوردی: جەنجاڵی، دەنگەدەنگ، ھەڵا، چڕەوگوڕە
 """),
           const DefinitionKurdish(
               text:
@@ -285,7 +285,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The product was launched amid much fanfare worldwide.""",
-            kurdishText: """بەرهەمەکە لەگەڵ قسەوباسی زۆری جیهانی ڕاگەیەندرا.""",
+            kurdishText: """بەرھەمەکە لەگەڵ قسەوباسی زۆری جیھانی ڕاگەیەندرا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -339,7 +339,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fanfare (Derived forms: fanfares)
+- Noun: fanfare (derived forms: fanfares)
 1. A gaudy outward display (= ostentation, flash)
  
 2. (music) a short lively tune played on brass instruments (= flourish, tucket)

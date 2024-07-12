@@ -318,7 +318,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: شتی قەڵب،	(شت، بەڵگە و هتد)گزەتیاکراو، ساختە، هەڵبەستە، دەسکرد، زڕ، ناڕەسەن،	کەسێکی گزەون، فێڵەباز، دەسبڕ، قەڵب، ناڕەسەن، زڕ، ناڕاستەقینە، درۆ، فشە، ساختە، هەڵبەستە، خۆهەڵبەست
+کوردی: شتی قەڵب،	(شت، بەڵگە و ھتد)گزەتیاکراو، ساختە، ھەڵبەستە، دەسکرد، زڕ، ناڕەسەن،	کەسێکی گزەون، فێڵەباز، دەسبڕ، قەڵب، ناڕەسەن، زڕ، ناڕاستەقینە، درۆ، فشە، ساختە، ھەڵبەستە، خۆھەڵبەست
 """),
           const DefinitionKurdish(
               text: """١. (ھاوەڵناو) کە ساختەیە؛ کە ڕاست نییە"""),
@@ -326,7 +326,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The caller appeared to have a fake American accent.""",
             kurdishText:
-                """پەیوەندیکارەکە وەها دەرکەوت کە ئەکسێنتی ساختەی ئەمریکی هەبێت.""",
+                """پەیوەندیکارەکە وەھا دەرکەوت کە ئەکسێنتی ساختەی ئەمریکی ھەبێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -347,7 +347,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) کە وەها درووستکراوە تا وەک شتێکی دیکە بێت"""),
+                  """٢. (ھاوەڵناو) کە وەھا درووستکراوە تا وەک شتێکی دیکە بێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -362,7 +362,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """All the paintings proved to be fakes.""",
-            kurdishText: """هەموو تابلۆکان وەها دەرکەوتن کە ساختە بن.""",
+            kurdishText: """ھەموو تابلۆکان وەھا دەرکەوتن کە ساختە بن.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -371,7 +371,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """She had long ago sold the diamonds and replaced them with fakes.""",
             kurdishText:
-                """ماوەی زوو ئەڵماسەکانی فرۆشت بوو گۆڕیی بوونەوە بە هی ساختە.""",
+                """ماوەی زوو ئەڵماسەکانی فرۆشت بوو گۆڕیی بوونەوە بە ھی ساختە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -398,11 +398,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (کردار) واپیشاندانی ئەوەی کە هەست، نەخۆشییەک، هتد ـی تایبەتت هەیە"""),
+                  """٥. (کردار) واپیشاندانی ئەوەی کە ھەست، نەخۆشییەک، ھتد ـی تایبەتت ھەیە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """She's not really sick—she's just faking it.""",
-            kurdishText: """لە ڕاستیدا نەخۆش نییە ـ تەنها ساختەی دەکات.""",
+            kurdishText: """لە ڕاستیدا نەخۆش نییە ـ تەنھا ساختەی دەکات.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -461,14 +461,14 @@ ${englishMeaningConst.text}
 2. Not genuine or real; being an imitation of the genuine article (= false, faux, imitation, simulated)
 "it isn't fake anything; it's real synthetic fur";
 
-- Noun: fake (Derived forms: fakes)
+- Noun: fake (derived forms: fakes)
 1. Something that is a counterfeit; not what it seems to be (= sham, postiche)
  
 2. A person who makes deceitful pretences (= imposter, impostor, pretender, faker, fraud, sham, shammer, pseudo, pseud, role player)
  
 3. (football) a deceptive move made by a football player (= juke [N. Amer, informal])
 
-- Verb: fake (Derived forms: faked, fakes, faking)
+- Verb: fake (derived forms: faked, fakes, faking)
 1. Make a copy of with the intent to deceive (= forge, counterfeit)
 "he faked the signature";
  

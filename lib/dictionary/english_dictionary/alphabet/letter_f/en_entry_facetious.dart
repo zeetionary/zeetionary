@@ -260,7 +260,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) هەوڵدان بۆ ئەوەی وەها دەربکەویت کە گاڵتە دەکەیت یان خۆت وەک زیرەک دەردەخەیت لەکاتێکدا گونجاو نییە و باشترە جدی بیت"""),
+                  """١. (ھاوەڵناو) ھەوڵدان بۆ ئەوەی وەھا دەربکەویت کە گاڵتە دەکەیت یان خۆت وەک زیرەک دەردەخەیت لەکاتێکدا گونجاو نییە و باشترە جدی بیت"""),
           SentencesRow(
             englishText: """Stop being facetious; this is serious.""",
             kurdishText: """واز لە گاڵتە بێنە؛ ئەمە جدییە.""",
@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He's just being facetious.""",
-            kurdishText: """تەنها شۆخی‌بازی دەکات .""",
+            kurdishText: """تەنھا شۆخی‌بازی دەکات .""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

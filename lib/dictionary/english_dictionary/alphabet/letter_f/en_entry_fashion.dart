@@ -340,10 +340,10 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ستایڵێکی بەناوبانگی جل، قژ، هتد لە کات یان شوێنێکی دیاریکراودا"""),
+                  """١. (ناو) ستایڵێکی بەناوبانگی جل، قژ، ھتد لە کات یان شوێنێکی دیاریکراودا"""),
           SentencesRow(
             englishText: """Jeans are always in fashion.""",
-            kurdishText: """کابۆ هەمیشە مۆدەیە.""",
+            kurdishText: """کابۆ ھەمیشە مۆدەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -357,14 +357,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Some styles never go out of fashion.""",
-            kurdishText: """هەندێک ستایڵ هەرگیز لە مۆدەبوون ناوەستن.""",
+            kurdishText: """ھەندێک ستایڵ ھەرگیز لە مۆدەبوون ناوەستن.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Black is always in fashion.""",
-            kurdishText: """ڕەنگی ڕەش هەمیشە فاشنە.""",
+            kurdishText: """ڕەنگی ڕەش ھەمیشە فاشنە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -378,14 +378,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """She always wore the latest fashions.""",
-            kurdishText: """هەمیشە تازەترین مۆدەکانی لەبەر دەکرد.""",
+            kurdishText: """ھەمیشە تازەترین مۆدەکانی لەبەر دەکرد.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """She had no fashion sense whatsoever.""",
-            kurdishText: """هیچ تێگەشتنی بۆ مۆدە نەبوو.""",
+            kurdishText: """ھیچ تێگەشتنی بۆ مۆدە نەبوو.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -395,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """They all want to work in fashion.""",
-            kurdishText: """هەموویان دەیانەوێت لە فاشندا کار بکەن.""",
+            kurdishText: """ھەموویان دەیانەوێت لە فاشندا کار بکەن.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -403,14 +403,14 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Her summer collection took the fashion world by storm.""",
-            kurdishText: """کۆکراوەکەی هاوینی جیهانی فاشنی تەنی.""",
+            kurdishText: """کۆکراوەکەی ھاوینی جیھانی فاشنی تەنی.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) شێوازێکی تازەی ڕەفتارکردن، کردنی چالاکییەک، هتد"""),
+                  """٣. (ناو) شێوازێکی تازەی ڕەفتارکردن، کردنی چالاکییەک، ھتد"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -425,7 +425,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Fashions in art and literature come and go.""",
-            kurdishText: """فاشن لە هونەر و وێژەدا دێن و دەچن.""",
+            kurdishText: """فاشن لە ھونەر و وێژەدا دێن و دەچن.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -490,7 +490,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fashion (Derived forms: fashions)
+- Noun: fashion (derived forms: fashions)
 1. How something is done or how it happens (= manner, mode, style, way)
 "in an abrasive fashion";
  
@@ -500,7 +500,7 @@ ${englishMeaningConst.text}
  
 4. Consumer goods (especially clothing) in the current mode
 
-- Verb: fashion (Derived forms: fashions, fashioned, fashioning)
+- Verb: fashion (derived forms: fashions, fashioned, fashioning)
 1. Make out of components (often in an improvising manner) (= forge)
 "She fashioned a tent out of a sheet and a few sticks";
 """,
@@ -527,17 +527,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'Kou7ur5xt_4?t=';
+const String _videoIdend = 'Kou7ur5xt_4';
 const double _startSecondsend = 86;
-const String _videoIdone = 'hS2x1zl4rn0?t=';
+const String _videoIdone = 'hS2x1zl4rn0';
 const double _startSecondsone = 1059;
-const String _videoIdtwo = '_GFkHA5EZdE?t=';
+const String _videoIdtwo = '_GFkHA5EZdE';
 const double _startSecondstwo = 115;
-const String _videoIdthree = 'iAnlaR398hs?t=';
+const String _videoIdthree = 'iAnlaR398hs';
 const double _startSecondsthree = 119;
-const String _videoIdfour = 'FZiCWBplZ90?t=';
+const String _videoIdfour = 'FZiCWBplZ90';
 const double _startSecondsfour = 21;
-const String _videoIdfive = 'QtrRtGC3G_I?t=';
+const String _videoIdfive = 'QtrRtGC3G_I';
 const double _startSecondsfive = 101;
 
 class YoutubeEmbeddedend extends StatelessWidget {

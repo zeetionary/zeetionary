@@ -159,7 +159,7 @@ class EnglishEntryattic extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) ژوورێک کە لە ژێر بنانی خانوویەکە و زۆرجار بۆ هەڵگرتنی شت بەکاردێت"""),
+١. (ناو) ژوورێک کە لە ژێر بنانی خانوویەکە و زۆرجار بۆ ھەڵگرتنی شت بەکاردێت"""),
                           SentencesRow(
                             englishText:
                                 "I've got boxes of old clothes in the attic.",

@@ -263,12 +263,12 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) درووستکردنی هەواڵ و زانیاریی ساختە بۆ خەڵەتاندنی خەڵکی"""),
+                  """١. (کردار) درووستکردنی ھەواڵ و زانیاریی ساختە بۆ خەڵەتاندنی خەڵکی"""),
           const AlsoEnglishckb(word: "ھەروەھا: make up"),
           SentencesRow(
             englishText: """The evidence was totally fabricated.""",
@@ -336,7 +336,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fabricate (Derived forms: fabricates, fabricating, fabricated)
+- Verb: fabricate (derived forms: fabricates, fabricating, fabricated)
 1. Put together out of artificial or natural components or parts (= manufacture, construct)
 "the company fabricates plastic chairs";
  

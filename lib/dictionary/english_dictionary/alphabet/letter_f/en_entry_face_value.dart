@@ -250,16 +250,16 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: نێوبایی، بەهای نێوی، نرخی ڕوو، باوەڕبایی،	نرخی ڕواڵەتی، واتای ڕواڵەتی،	ڕووی دەرەوە، ڕواڵەتی شتەکە
+کوردی: نێوبایی، بەھای نێوی، نرخی ڕوو، باوەڕبایی،	نرخی ڕواڵەتی، واتای ڕواڵەتی،	ڕووی دەرەوە، ڕواڵەتی شتەکە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) بەهای پوولێک، دراوێک، بلیتێک، هتد کە لەسەری نووسراوە"""),
+                  """١. (ناو) بەھای پوولێک، دراوێک، بلیتێک، ھتد کە لەسەری نووسراوە"""),
           SentencesRow(
             englishText:
                 """Tickets were changing hands at three times their face value.""",
             kurdishText:
-                """بلیتەکان دەستاودەستیان دەکرد بە سێ هێندەی نرخەکەی سەریان.""",
+                """بلیتەکان دەستاودەستیان دەکرد بە سێ ھێندەی نرخەکەی سەریان.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: face value (Derived forms: face values)
+- Noun: face value (derived forms: face values)
 1. The value of a security that is set by the company issuing it; unrelated to market value (= par value, nominal value)
  
 2. The apparent worth as opposed to the real worth

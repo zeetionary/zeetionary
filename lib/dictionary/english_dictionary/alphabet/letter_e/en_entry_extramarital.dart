@@ -254,10 +254,10 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) لە دەرەوەی هاوسەرگیری"""),
+              text: """١. (ھاوەڵناو) لە دەرەوەی ھاوسەرگیری"""),
           SentencesRow(
             englishText: """He confessed to having an extramarital affair.""",
-            kurdishText: """دانی نا بە پەیوەندی سێکسی دەرەوەی هاوسەرگیری.""",
+            kurdishText: """دانی نا بە پەیوەندی سێکسی دەرەوەی ھاوسەرگیری.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

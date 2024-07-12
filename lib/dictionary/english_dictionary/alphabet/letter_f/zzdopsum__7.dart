@@ -14,6 +14,15 @@ class EnglishEntrydopsum1 extends StatefulWidget {
 }
 
 class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
   FlutterTts flutterTts = FlutterTts();
 
   bool isSpeaking = false;
@@ -50,16 +59,8 @@ haʊʊʊʊʊʊʊ4
   );
 // speaksentence10002200000011110000000000000000
 
-  final String keyword = "new";
-  List<Map<String, dynamic>> filteredSentences = [];
-
-  @override
-  void initState() {
-    super.initState();
-    flutterTts = FlutterTts();
-    flutterTts.setLanguage("en-GB");
-    fetchSentences();
-  }
+  final String keyword = "dopsum1";
+  List<Map<String, dynamic>> filteredSentences = []; 
 
   Future<void> fetchSentences() async {
     final sentences =

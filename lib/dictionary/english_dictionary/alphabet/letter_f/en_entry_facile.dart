@@ -258,27 +258,27 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاسوودە، زووگیرکەوتوو، سادە، ئاسان، هێسان، بێ‌زەحمەت، ئاسان‌بەدەس‌هاتوو، بێ‌ڕەنج(گیرکەوتوو)، بێ‌ئەرک،	سەرپێیی، بێ‌مایە، فشە، سەرسەرەکی،	ناجێگیر، ناسەقام‌گیر،	ڕەوان، دەم‌پاراو، زمان‌هەڵنەکەوتوو
+کوردی: ئاسوودە، زووگیرکەوتوو، سادە، ئاسان، ھێسان، بێ‌زەحمەت، ئاسان‌بەدەس‌ھاتوو، بێ‌ڕەنج(گیرکەوتوو)، بێ‌ئەرک،	سەرپێیی، بێ‌مایە، فشە، سەرسەرەکی،	ناجێگیر، ناسەقام‌گیر،	ڕەوان، دەم‌پاراو، زمان‌ھەڵنەکەوتوو
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە بەبێ هەوڵدان یان بەرکردنەوەی وریایانە درووستکراوە"""),
+                  """١. (ھاوەڵناو) کە بەبێ ھەوڵدان یان بەرکردنەوەی وریایانە درووستکراوە"""),
           SentencesRow(
             englishText:
                 """It seems too facile to blame everything on his mishandling of the crisis.""",
             kurdishText:
-                """زۆر سەرسەرەکی دەردەکەوێت کە هەموو شتێک بگەڕێندرێتەوە بۆ هەڵە مامەڵەکردنی ئەو لەگەڵ ڕووداوەکە.""",
+                """زۆر سەرسەرەکی دەردەکەوێت کە ھەموو شتێک بگەڕێندرێتەوە بۆ ھەڵە مامەڵەکردنی ئەو لەگەڵ ڕووداوەکە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ھاوەڵناو) کە بە ئاسانی بەدەستهاتووە و نرخی کەمە"""),
+              text: """٢. (ھاوەڵناو) کە بە ئاسانی بەدەستھاتووە و نرخی کەمە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The team enjoyed a facile victory in the match.""",
             kurdishText:
-                """تیمەکە بردنەوەیەکی ئاسان‌بەدەس‌هاتوویان هەبوو لە یارییەکە.""",
+                """تیمەکە بردنەوەیەکی ئاسان‌بەدەس‌ھاتوویان ھەبوو لە یارییەکە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

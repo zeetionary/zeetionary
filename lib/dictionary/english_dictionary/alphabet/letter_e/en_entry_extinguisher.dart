@@ -259,7 +259,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He grabbed the extinguisher and sprayed it on the flames.""",
             kurdishText:
-                """ئاگرکوژێنەرەوەکەی هەڵگرت و ڕژاندی بەسەر بڵێسەکاندا.""",
+                """ئاگرکوژێنەرەوەکەی ھەڵگرت و ڕژاندی بەسەر بڵێسەکاندا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extinguisher (Derived forms: extinguishers)
+- Noun: extinguisher (derived forms: extinguishers)
 1. A manually operated device for extinguishing small fires (= fire extinguisher, asphyxiator)
 """,
   );

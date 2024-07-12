@@ -298,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Many people questioned the fairness of the election.""",
             kurdishText:
-                """زۆر کەس گومانیان هەبوو لە دادپەروەری هەڵبژاردنەکە.""",
+                """زۆر کەس گومانیان ھەبوو لە دادپەروەری ھەڵبژاردنەکە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

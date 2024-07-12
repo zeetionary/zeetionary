@@ -444,12 +444,12 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پتەو، تۆکمە، قایم، ڕەختە، نەلەق، ڕەق، سەخت، داکوتراو،	کاڵەوەنەبوو، ڕەنگ‌نەڕۆیشتوو، پاکەوەنەبوو، جێگیر،	بەوەفا، پتەو، بەئەمەک، پێزان،	دەسبڵاو، خۆش‌گوزەران، خۆش‌ڕابوێر،	توند، لەزگین، تونڕەو، خێرا،	(لە) پێش (کاتژمێر)،	هەستیار (فیلم، لەبەر ڕووناکی)،	بە توندی، توند، خێرا،	نزیک
+کوردی: پتەو، تۆکمە، قایم، ڕەختە، نەلەق، ڕەق، سەخت، داکوتراو،	کاڵەوەنەبوو، ڕەنگ‌نەڕۆیشتوو، پاکەوەنەبوو، جێگیر،	بەوەفا، پتەو، بەئەمەک، پێزان،	دەسبڵاو، خۆش‌گوزەران، خۆش‌ڕابوێر،	توند، لەزگین، تونڕەو، خێرا،	(لە) پێش (کاتژمێر)،	ھەستیار (فیلم، لەبەر ڕووناکی)،	بە توندی، توند، خێرا،	نزیک
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) خێرا"""),
           SentencesRow(
             englishText: """He's just become the world's fastest runner.""",
-            kurdishText: """تازە بووە بە خێراترین ڕاکەری جیهان.""",
+            kurdishText: """تازە بووە بە خێراترین ڕاکەری جیھان.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -491,13 +491,13 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I suppose delivery in two days is pretty fast, really.""",
             kurdishText:
-                """لە ڕاستیدا وەها بیردەکەمەوە گەیاندن لە دوو ڕۆژدا تەواو خێرایە.""",
+                """لە ڕاستیدا وەھا بیردەکەمەوە گەیاندن لە دوو ڕۆژدا تەواو خێرایە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (ھاوەڵناو) هەبوونی توانای کردنی شتێک بەخێرایی"""),
+              text: """٣. (ھاوەڵناو) ھەبوونی توانای کردنی شتێک بەخێرایی"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -512,7 +512,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """These are complex programs needing very large and fast computers.""",
             kurdishText:
-                """ئەمانە پڕۆگرامی ئاڵۆزن کە پێویستییان بە کۆمپیوتەری زۆر خێرا و گەورە هەیە.""",
+                """ئەمانە پڕۆگرامی ئاڵۆزن کە پێویستییان بە کۆمپیوتەری زۆر خێرا و گەورە ھەیە.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -524,7 +524,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """It's a very fast road and people do not realize what speed they are doing.""",
             kurdishText:
-                """ڕێگایەکی زۆر خێرایە و خەڵکی هەست بەوە ناکەن کە بە چی خێراییەک دەچن.""",
+                """ڕێگایەکی زۆر خێرایە و خەڵکی ھەست بەوە ناکەن کە بە چی خێراییەک دەچن.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -533,12 +533,12 @@ class KurdishMeaning extends StatelessWidget {
             text:
                 """٥. (ھاوەڵناو) کە کاتژمێرێک لە پێشە؛ کە کاتژمێرێک کاتێک پیشان دەدات کە لە دوای کاتی ڕاستی دێت""",
             note:
-                "بۆ نموونە کە کاتژمێر هەشتە بەڵام کاتژمێرەکەت هەشت و چارەک پیشان دەدات",
+                "بۆ نموونە کە کاتژمێر ھەشتە بەڵام کاتژمێرەکەت ھەشت و چارەک پیشان دەدات",
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """I'm early—my watch must be fast.""",
-            kurdishText: """زوو هاتووم ـ کاتژمێرەکەم دەبێت لەپێش بێت.""",
+            kurdishText: """زوو ھاتووم ـ کاتژمێرەکەم دەبێت لەپێش بێت.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -554,7 +554,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Don't drive so fast!""",
-            kurdishText: """هێندە خێرا لێ‌مەخوڕە.""",
+            kurdishText: """ھێندە خێرا لێ‌مەخوڕە.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -568,14 +568,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """I can't go any faster.""",
-            kurdishText: """ناتوانم هیچ خێراتر بچم.""",
+            kurdishText: """ناتوانم ھیچ خێراتر بچم.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """The water was rising fast.""",
-            kurdishText: """ئاوەکە بەخێرایی هەڵدەکشا.""",
+            kurdishText: """ئاوەکە بەخێرایی ھەڵدەکشا.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -661,7 +661,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """During Ramadan they fast from dawn to sunset.""",
             kurdishText:
-                """لە ماوەی ڕەمەزاندا لە خۆرهەڵاتن تاوەکو خۆرئاوابوون بەڕۆژوو دەبن.""",
+                """لە ماوەی ڕەمەزاندا لە خۆرھەڵاتن تاوەکو خۆرئاوابوون بەڕۆژوو دەبن.""",
             onPressedBritish: () => speaksentence25("en-GB"),
             onPressedAmerican: () => speaksentence25("en-US"),
           ),
@@ -672,7 +672,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """All members of the religious community keep these fasts.""",
             kurdishText:
-                """هەموو ئەندامانی گرووپە ئاینییەکە ئەم ڕۆژووانە دەگرن.""",
+                """ھەموو ئەندامانی گرووپە ئاینییەکە ئەم ڕۆژووانە دەگرن.""",
             onPressedBritish: () => speaksentence26("en-GB"),
             onPressedAmerican: () => speaksentence26("en-US"),
           ),
@@ -731,7 +731,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fast (Derived forms: fastest, faster)
+- Adjective: fast (derived forms: fastest, faster)
 1. Acting or moving or capable of acting or moving quickly
 "fast film"; "on the fast track in school"; "set a fast pace"; "a fast car"
  
@@ -768,10 +768,10 @@ ${englishMeaningConst.text}
 2. Firmly or closely (= tight)
 "held fast to the rope"; "her foot was stuck fast";
 
-- Noun: fast (Derived forms: fasts)
+- Noun: fast (derived forms: fasts)
 1. Abstaining from food (= fasting)
 
-- Verb: fast (Derived forms: fasting, fasted, fasts)
+- Verb: fast (derived forms: fasting, fasted, fasts)
 1. Abstain from certain foods, as for religious or medical reasons
 "Catholics sometimes fast during Lent"
  
@@ -801,17 +801,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'WF8iaqRqI60?t=';
+const String _videoIdend = 'WF8iaqRqI60';
 const double _startSecondsend = 40;
-const String _videoIdone = 'hTqtGJwsJVE?t=';
+const String _videoIdone = 'hTqtGJwsJVE';
 const double _startSecondsone = 2063;
-const String _videoIdtwo = 'hS2x1zl4rn0?t=';
+const String _videoIdtwo = 'hS2x1zl4rn0';
 const double _startSecondstwo = 1284;
-const String _videoIdthree = 'lVoGZiL-kns?t=';
+const String _videoIdthree = 'lVoGZiL-kns';
 const double _startSecondsthree = 310;
-const String _videoIdfour = 'wizgxRBfVTY?t=';
+const String _videoIdfour = 'wizgxRBfVTY';
 const double _startSecondsfour = 103;
-const String _videoIdfive = 'cNMxUqwSPfc?t=';
+const String _videoIdfive = 'cNMxUqwSPfc';
 const double _startSecondsfive = 64;
 
 class YoutubeEmbeddedend extends StatelessWidget {

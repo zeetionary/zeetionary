@@ -254,7 +254,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵکار) بەشێوەیەک کە هەست و بیرکردنەوەت پیشان دەدات"""),
+                  """١. (ھاوەڵکار) بەشێوەیەک کە ھەست و بیرکردنەوەت پیشان دەدات"""),
           SentencesRow(
             englishText: """He raised his eyebrows expressively.""",
             kurdishText: """بە دەربڕینەوە برۆیەکانی بەرزکردەوە.""",

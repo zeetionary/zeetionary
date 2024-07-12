@@ -250,13 +250,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لەسەربنچینەی هەڵە، لەسەرهەڵە بنچینەنراو، هەڵە، چەوت، چەواشەگەرانە،	لەخشتەبەر، هەڵفریوێنەر، فریودەر، بەهەڵەدابەر
+کوردی: لەسەربنچینەی ھەڵە، لەسەرھەڵە بنچینەنراو، ھەڵە، چەوت، چەواشەگەرانە،	لەخشتەبەر، ھەڵفریوێنەر، فریودەر، بەھەڵەدابەر
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) هەڵە؛ کە پشت بە زانیاریی هەڵە دەبەستێت"""),
+              text: """١. (ھاوەڵناو) ھەڵە؛ کە پشت بە زانیاریی ھەڵە دەبەستێت"""),
           SentencesRow(
             englishText: """His argument is based on fallacious reasoning.""",
-            kurdishText: """مشتومڕەکەی پشتی بە تێگەشتنی هەڵە بەستووە.""",
+            kurdishText: """مشتومڕەکەی پشتی بە تێگەشتنی ھەڵە بەستووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تەقینەوە، پەقین، تەق، تەقە، دەنگی تەقینەوە،	هەڵچوون، فیشقەکردن، تووڕەبوون، ڕق‌هەستان،	کڵپەکردن، ئاورگرتن، گرتن،	شریخە (پێکەنین)،	زۆربوونی کت‌وپڕ و گەورە، تۆقینەوە، زۆربوونی سەرسووڕهێنەر، پەرەسەندن یان دەرکەوتنی ناکاو
+کوردی: تەقینەوە، پەقین، تەق، تەقە، دەنگی تەقینەوە،	ھەڵچوون، فیشقەکردن، تووڕەبوون، ڕق‌ھەستان،	کڵپەکردن، ئاورگرتن، گرتن،	شریخە (پێکەنین)،	زۆربوونی کت‌وپڕ و گەورە، تۆقینەوە، زۆربوونی سەرسووڕھێنەر، پەرەسەندن یان دەرکەوتنی ناکاو
 """),
           const DefinitionKurdish(
               text:
@@ -303,7 +303,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """There were two loud explosions and then the building burst into flames.""",
             kurdishText:
-                """دوو تەقینەوەی گەورە هەبوو و دواتر بیناکە کەوتە ناو بڵێسە.""",
+                """دوو تەقینەوەی گەورە ھەبوو و دواتر بیناکە کەوتە ناو بڵێسە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -326,14 +326,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """A huge explosion rocked the entire building.""",
-            kurdishText: """تەقینەوەیەکی گەورە بیناکەی هەژاند.""",
+            kurdishText: """تەقینەوەیەکی گەورە بیناکەی ھەژاند.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """The build-up of gas caused a small explosion.""",
-            kurdishText: """پەنگخواردنەوەی گاز بوو بەهۆی تەقینەوەیەکی بچووک.""",
+            kurdishText: """پەنگخواردنەوەی گاز بوو بەھۆی تەقینەوەیەکی بچووک.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -351,10 +351,10 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) دەربڕینی لەناکاوی هەست و سۆز، بەتایبەتی تووڕەیی"""),
+                  """٢. (ناو) دەربڕینی لەناکاوی ھەست و سۆز، بەتایبەتی تووڕەیی"""),
           SentencesRow(
             englishText: """Do you know what brought on that explosion?""",
-            kurdishText: """دەزانیت چی بوو بە هۆکاری ئەو تووڕەبوونە؟""",
+            kurdishText: """دەزانیت چی بوو بە ھۆکاری ئەو تووڕەبوونە؟""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -399,7 +399,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: explosion (Derived forms: explosions)
+- Noun: explosion (derived forms: explosions)
 1. A violent release of energy caused by a chemical or nuclear reaction (= detonation, blowup, blow-up)
  
 2. The act of exploding or bursting (= burst)

@@ -313,7 +313,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Female kangaroos carry their young in pouches that are external to their bodies.""",
             kurdishText:
-                """کەنگەری مێینە بەچکەکانیان لە توورەگە هەڵدەگرن کە لە دەرەوەی جەستەیانن.""",
+                """کەنگەری مێینە بەچکەکانیان لە توورەگە ھەڵدەگرن کە لە دەرەوەی جەستەیانن.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -321,19 +321,19 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """This cream is for external use only (= it must not be put inside the body).""",
-            kurdishText: """ئەم کرێمە تەنها بۆ بەکارهێنانی سەر پێستە.""",
+            kurdishText: """ئەم کرێمە تەنھا بۆ بەکارھێنانی سەر پێستە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) کە لە دەرەوەی شوێنێک، ذامەزراوەیەک، دۆخێکی دیاریکراو، هتد ڕوودەدات یان دێت"""),
+                  """٢. (ھاوەڵناو) کە لە دەرەوەی شوێنێک، ذامەزراوەیەک، دۆخێکی دیاریکراو، ھتد ڕوودەدات یان دێت"""),
           SentencesRow(
             englishText:
                 """A combination of internal and external factors caused the company to close down.""",
             kurdishText:
-                """ژمارەیەک هۆکاری ناوەکی و دەرەکی بوون بە هۆکاری ئەوەی کۆمپانیاکە دابخرێت.""",
+                """ژمارەیەک ھۆکاری ناوەکی و دەرەکی بوون بە ھۆکاری ئەوەی کۆمپانیاکە دابخرێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -351,14 +351,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The information has come from reliable sources external to the government.""",
             kurdishText:
-                """ئەم زانیارییە لە سەرچاوەی باوەڕپێکراوی دەرەوەی حکومەت هاتووە.""",
+                """ئەم زانیارییە لە سەرچاوەی باوەڕپێکراوی دەرەوەی حکومەت ھاتووە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ھاوەڵناو) کە هی دەرەوەی قوتابخانەیەک، زانکۆیەک، یان دامەزراوەیەکە، یان لە دەرەوە ڕێکخراوە"""),
+                  """٣. (ھاوەڵناو) کە ھی دەرەوەی قوتابخانەیەک، زانکۆیەک، یان دامەزراوەیەکە، یان لە دەرەوە ڕێکخراوە"""),
           SentencesRow(
             englishText: """An external auditor will verify the accounts.""",
             kurdishText:
@@ -381,7 +381,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The country was promised military aid in the case of external threat.""",
             kurdishText:
-                """وڵاتەکە بەڵێنی یارمەتیی سەربازیی پێدرا لە حاڵەتی هەڕەشەی دەرەکی.""",
+                """وڵاتەکە بەڵێنی یارمەتیی سەربازیی پێدرا لە حاڵەتی ھەڕەشەی دەرەکی.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -439,7 +439,7 @@ ${englishMeaningConst.text}
 4. Purely outward or superficial
 "external composure"; "an external concern for reputation"
 
-- Noun: external (Derived forms: externals)
+- Noun: external (derived forms: externals)
 1. Outward features
 "he enjoyed the solemn externals of religion"
 """,

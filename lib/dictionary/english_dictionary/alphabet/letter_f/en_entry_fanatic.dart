@@ -267,7 +267,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: مرۆی دەمارگرژ یان تونڕەو، مرۆی پەڕگر,	لایەنگر (دەمارگرژ، بەتایبەت دین یان ڕامیاری)، دەمارگرژ، دەمارگیر، تونڕەو، پەڕگر، چەقبەستوو، دەمارگرژانە
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کە بۆچوون یان باوەڕی توندوتیژی هەیە"""),
+              text: """١. (ھاوەڵناو) کە بۆچوون یان باوەڕی توندوتیژی ھەیە"""),
           SentencesRow(
             englishText: """He's fanatic about his religious beliefs.""",
             kurdishText: """توندڕەوە سەبارەت بە باوەڕە ئاینییەکانی.""",
@@ -286,13 +286,13 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (ناو) کەسێک کە هەوادارێکی گەورەی شتێکە"""),
+              text: """٣. (ناو) کەسێک کە ھەوادارێکی گەورەی شتێکە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
                 """He is a football fanatic who never misses a game.""",
             kurdishText:
-                """هەوادارێکی تۆپی‌پێیە کە هەرگیز یارییەک لەدەست نادات.""",
+                """ھەوادارێکی تۆپی‌پێیە کە ھەرگیز یارییەک لەدەست نادات.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -341,7 +341,7 @@ ${englishMeaningConst.text}
 1. Marked by excessive enthusiasm for and intense devotion to a cause or idea (= fanatical, overzealous, rabid)
 "fanatic isolationist";
 
-- Noun: fanatic (Derived forms: fanatics)
+- Noun: fanatic (derived forms: fanatics)
 1. A person motivated by irrational enthusiasm (as for a cause) (= fiend)
 "A fanatic is one who can't change his mind and won't change the subject";
 """,

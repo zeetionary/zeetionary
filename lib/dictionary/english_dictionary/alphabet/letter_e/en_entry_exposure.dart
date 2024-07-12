@@ -309,7 +309,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئەوەی کە لەدۆخێک بیت کە هیچ پاراستن نییە بەرامبەر شتێکی زیانبەخش یان خراپ"""),
+                  """١. (ناو) ئەوەی کە لەدۆخێک بیت کە ھیچ پاراستن نییە بەرامبەر شتێکی زیانبەخش یان خراپ"""),
           SentencesRow(
             englishText:
                 """At high exposures, the chemical can affect the liver and kidneys.""",
@@ -323,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Banks will seek to minimize their exposure to risk.""",
             kurdishText:
-                """بانکەکان هەوڵ دەدەن تووشبوونیان بە مەترسی کەم بکەنەوە.""",
+                """بانکەکان ھەوڵ دەدەن تووشبوونیان بە مەترسی کەم بکەنەوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -339,12 +339,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) ئەوەی کە ڕاستی نهێنی خراپ، یان نایاسایی لەسەر کەسێک.شتێک بگوترێت"""),
+                  """٢. (ناو) ئەوەی کە ڕاستی نھێنی خراپ، یان نایاسایی لەسەر کەسێک.شتێک بگوترێت"""),
           SentencesRow(
             englishText:
                 """There were damaging exposures of the government's own practices.""",
             kurdishText:
-                """ئاشکراکردنی ڕووخێنەری کارەکانی خودی حکومەت هەبوون.""",
+                """ئاشکراکردنی ڕووخێنەری کارەکانی خودی حکومەت ھەبوون.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -364,7 +364,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The magazine aims to give exposure to the work of women artists.""",
             kurdishText:
-                """گۆڤارەکە ئامانجیەتی ڕۆشنایی بخاتە سەر کاری هونەرمەندانی ژن.""",
+                """گۆڤارەکە ئامانجیەتی ڕۆشنایی بخاتە سەر کاری ھونەرمەندانی ژن.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -430,7 +430,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: exposure (Derived forms: exposures)
+- Noun: exposure (derived forms: exposures)
 1. Vulnerability to the elements; to the action of heat, cold, wind or rain
 "exposure to the weather"; "they died from exposure"
  

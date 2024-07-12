@@ -386,7 +386,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: تێشکان، شکست، نشستی، سەرنەکەوتن، ناکامی، فشەڵ‌هێنان، بن‌کەوتن،	کەسێکی سەرنەکەوتوو، کاری سەرنەگرتوو،	هەوڵی سەرنەگرتوو،	نەهاتنەبەرهەم، ڕەعەمەل‌نەهاتن، نەهاتنەبەر،	لەکار کەوتن، پەک‌کەوتن، خراپ‌بوون، مانەوە،	کۆتایی، درێخی، کەم‌کاری،	دەستەوسانی، داماوی، دامان، نەتوانین، لەدەست‌نەهاتن، سستی، بێ‌هێزی،	لاوازی، عەیب، شکستی، کەم‌وکوڕی، کەمی، گرفت، خراپی،	تیاچوون، نەمان،	مایەپووچی، بەرشکستی، نابووتی،	(کارەبا، گاز و هتد) ڕۆیشتن، پچڕان،	داشکان، کەم‌بوونەوە، هاتنەخوارەوە، دابەزین
+کوردی: تێشکان، شکست، نشستی، سەرنەکەوتن، ناکامی، فشەڵ‌ھێنان، بن‌کەوتن،	کەسێکی سەرنەکەوتوو، کاری سەرنەگرتوو،	ھەوڵی سەرنەگرتوو،	نەھاتنەبەرھەم، ڕەعەمەل‌نەھاتن، نەھاتنەبەر،	لەکار کەوتن، پەک‌کەوتن، خراپ‌بوون، مانەوە،	کۆتایی، درێخی، کەم‌کاری،	دەستەوسانی، داماوی، دامان، نەتوانین، لەدەست‌نەھاتن، سستی، بێ‌ھێزی،	لاوازی، عەیب، شکستی، کەم‌وکوڕی، کەمی، گرفت، خراپی،	تیاچوون، نەمان،	مایەپووچی، بەرشکستی، نابووتی،	(کارەبا، گاز و ھتد) ڕۆیشتن، پچڕان،	داشکان، کەم‌بوونەوە، ھاتنەخوارەوە، دابەزین
 """),
           const DefinitionKurdish(
               text: """١. (ناو) شکست؛ نەبوونی سەرکەوتن لە کردنی شتێکدا"""),
@@ -400,14 +400,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The attempt was doomed to failure.""",
-            kurdishText: """هەوڵەکە مەحکووم بە شکست بوو.""",
+            kurdishText: """ھەوڵەکە مەحکووم بە شکست بوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """All my efforts ended in failure.""",
-            kurdishText: """هەموو هەوڵەکانم بە شکست کۆتاییان هات.""",
+            kurdishText: """ھەموو ھەوڵەکانم بە شکست کۆتاییان ھات.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -415,7 +415,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Fear of failure should not deter you from trying.""",
-            kurdishText: """ترسی شکست نابێت ساردت بکەنەوە لە هەوڵدان.""",
+            kurdishText: """ترسی شکست نابێت ساردت بکەنەوە لە ھەوڵدان.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -436,7 +436,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """John had a long history of academic failure.""",
-            kurdishText: """جۆن مێژوویەکی درێژ لە شکستی ئەکادیمی هەبوو.""",
+            kurdishText: """جۆن مێژوویەکی درێژ لە شکستی ئەکادیمی ھەبوو.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -477,7 +477,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Nothing can excuse your failure to ask my permission.""",
             kurdishText:
-                """هیچ شتێک بەهانە نابێت بۆ درێخیت لە داواکردنی مۆڵەتم.""",
+                """ھیچ شتێک بەھانە نابێت بۆ درێخیت لە داواکردنی مۆڵەتم.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
@@ -486,7 +486,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Failure to comply with the regulations will result in prosecution.""",
             kurdishText:
-                """نەتوانینی پابەند بوون بە ڕێساکان دەبێتە هۆکاری لێکۆڵینەوە.""",
+                """نەتوانینی پابەند بوون بە ڕێساکان دەبێتە ھۆکاری لێکۆڵینەوە.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -499,7 +499,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Production has been hampered by mechanical failure.""",
             kurdishText:
-                """بەرهەمهێنان کێشەی تێکەوتووە بەهۆی کێشەی میکانیکی.""",
+                """بەرھەمھێنان کێشەی تێکەوتووە بەھۆی کێشەی میکانیکی.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -507,7 +507,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """A power failure plunged everything into darkness.""",
-            kurdishText: """نەمانی کارەبا هەموو شتێکی خستە تاریکییەوە.""",
+            kurdishText: """نەمانی کارەبا ھەموو شتێکی خستە تاریکییەوە.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
@@ -516,7 +516,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The cause of the crash was given as engine failure.""",
             kurdishText:
-                """هۆکاتی تێکشکانەکە بە لە کارکەوتنی بزوێنەر دیاری کرا.""",
+                """ھۆکاتی تێکشکانەکە بە لە کارکەوتنی بزوێنەر دیاری کرا.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -525,14 +525,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The aircraft seems to have experienced an engine failure.""",
             kurdishText:
-                """فڕۆکەکە وەها دەردەکەوێت کە تووشی لەکارکەوتنی بزوێنەر بووبێت.""",
+                """فڕۆکەکە وەھا دەردەکەوێت کە تووشی لەکارکەوتنی بزوێنەر بووبێت.""",
             onPressedBritish: () => speaksentence16("en-GB"),
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٥. (ناو) دۆخێک کە تێیدا بازرگانییەک دەوەستێت بەهۆی ئەوەی سەرکەوتوو نییە"""),
+                  """٥. (ناو) دۆخێک کە تێیدا بازرگانییەک دەوەستێت بەھۆی ئەوەی سەرکەوتوو نییە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -546,19 +546,19 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Business failures rose by 30% in 2018.""",
             kurdishText:
-                """شکستهێنانی بازرگانی بە ڕێژەی ٣٠٪ بەرزبوویەوە لە ٢٠١٨ ــدا.""",
+                """شکستھێنانی بازرگانی بە ڕێژەی ٣٠٪ بەرزبوویەوە لە ٢٠١٨ ــدا.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٦. (ناو) دۆخێک کە تێیدا بەروبووم بەباشی گەشە ناکەن و خۆراک بەرهەم ناهێنن"""),
+                  """٦. (ناو) دۆخێک کە تێیدا بەروبووم بەباشی گەشە ناکەن و خۆراک بەرھەم ناھێنن"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Bad weather has resulted in crop failure.""",
             kurdishText:
-                """خراپی کەشوهەوا بووە بە هۆکاری نەهاتنەبەرهەمی بەروبووم.""",
+                """خراپی کەشوھەوا بووە بە ھۆکاری نەھاتنەبەرھەمی بەروبووم.""",
             onPressedBritish: () => speaksentence19("en-GB"),
             onPressedAmerican: () => speaksentence19("en-US"),
           ),
@@ -603,7 +603,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: failure (Derived forms: failures)
+- Noun: failure (derived forms: failures)
 1. An act that fails
 "his failure to pass the test"
  

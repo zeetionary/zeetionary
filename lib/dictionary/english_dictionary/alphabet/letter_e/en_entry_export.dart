@@ -339,20 +339,20 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەناردە، دەرکرد(ە)، دەرنێری، دەرناردن، ناردنەدەرەوە
+کوردی: ھەناردە، دەرکرد(ە)، دەرنێری، دەرناردن، ناردنەدەرەوە
 """),
           const DefinitionKurdish(
               text: """١. (ناو) فرۆشتن و ناردنی شت بۆ وڵاتێکی دیکە"""),
           SentencesRow(
             englishText: """Then the fruit is packaged for export.""",
-            kurdishText: """دواتر میوەکە دەخرێتە پاکەتەکەوە بۆ هەناردە.""",
+            kurdishText: """دواتر میوەکە دەخرێتە پاکەتەکەوە بۆ ھەناردە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Their main export market is the United States.""",
-            kurdishText: """بازاڕی سەرەکی هەناردەیان ئەمریکایە.""",
+            kurdishText: """بازاڕی سەرەکی ھەناردەیان ئەمریکایە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
               text: """٢. (ناو) شتێک کە بۆ وڵاتێکی دیکە دەنێردرێت"""),
           SentencesRow(
             englishText: """Oil exports have risen steadily.""",
-            kurdishText: """هەناردەی نەوت بە هێواشی بەرزبووەتەوە.""",
+            kurdishText: """ھەناردەی نەوت بە ھێواشی بەرزبووەتەوە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -370,7 +370,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The country's share of world exports of goods and services was 5.8 per cent.""",
             kurdishText:
-                """بەشی وڵاتەکە بۆ هەناردەی جیهانی کاڵا ٥,٨ لە سەد بوو.""",
+                """بەشی وڵاتەکە بۆ ھەناردەی جیھانی کاڵا ٥,٨ لە سەد بوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -379,30 +379,30 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Australia wants to increase its agricultural exports to Asia.""",
             kurdishText:
-                """ئوسترالیا دەیەوێت هەناردەی کشتوکاڵی بۆ ئاسیا زیاد بکات.""",
+                """ئوسترالیا دەیەوێت ھەناردەی کشتوکاڵی بۆ ئاسیا زیاد بکات.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """89 per cent of Mexican exports go to the US.""",
-            kurdishText: """٨٩ لە سەدی هەناردەی مەکسیک بۆ ئەمریکا دەچێت.""",
+            kurdishText: """٨٩ لە سەدی ھەناردەی مەکسیک بۆ ئەمریکا دەچێت.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Coffee is the country's biggest export.""",
-            kurdishText: """قاوە گەورەترین هەناردەی ئەمریکایە.""",
+            kurdishText: """قاوە گەورەترین ھەناردەی ئەمریکایە.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (کردار) هەناردەکردن بۆ وڵاتێکی دیکە"""),
+              text: """٣. (کردار) ھەناردەکردن بۆ وڵاتێکی دیکە"""),
           SentencesRow(
             englishText: """The islands export sugar and fruit.""",
-            kurdishText: """دوورگەکان شەکر و میوە هەناردە دەکەن.""",
+            kurdishText: """دوورگەکان شەکر و میوە ھەناردە دەکەن.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),
@@ -410,7 +410,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Most US manufacturers both import and export.""",
             kurdishText:
-                """زۆربەی بەرهەمهێنەرەکانی ئەمریکا هاوردە و هەناردەش دەکەن.""",
+                """زۆربەی بەرھەمھێنەرەکانی ئەمریکا ھاوردە و ھەناردەش دەکەن.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -418,7 +418,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """90 per cent of the engines are exported to Europe.""",
-            kurdishText: """٩٠ لە سەدی بزوێنەرەکان هەنارەی ئەورووپا دەکرێن.""",
+            kurdishText: """٩٠ لە سەدی بزوێنەرەکان ھەنارەی ئەورووپا دەکرێن.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -427,14 +427,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Last year 2 000 birds were exported from the island.""",
             kurdishText:
-                """ساڵی ڕابردوو ٢٠٠٠ باڵندە لە دوورگەکە هەناردە کران.""",
+                """ساڵی ڕابردوو ٢٠٠٠ باڵندە لە دوورگەکە ھەناردە کران.""",
             onPressedBritish: () => speaksentence11("en-GB"),
             onPressedAmerican: () => speaksentence11("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """The local wine was widely exported.""",
-            kurdishText: """شەرابە خۆجێییەکە بە فراوانی هەناردە دەکران.""",
+            kurdishText: """شەرابە خۆجێییەکە بە فراوانی ھەناردە دەکران.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -445,7 +445,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """American pop music has been exported around the world.""",
-            kurdishText: """میوزیکی پۆپی ئەمریکا بە هەموو جیهان ناسێندراوە.""",
+            kurdishText: """میوزیکی پۆپی ئەمریکا بە ھەموو جیھان ناسێندراوە.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -490,7 +490,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: export (Derived forms: exports, exporting, exported)
+- Verb: export (derived forms: exports, exporting, exported)
 1. Sell or transfer abroad
 "we export less than we import and have a negative trade balance"
  
@@ -499,7 +499,7 @@ ${englishMeaningConst.text}
 3. Cause to spread in another part of the world
 "The Russians exported Marxism to Africa"
 
-- Noun: export (Derived forms: exports)
+- Noun: export (derived forms: exports)
 1. A commodity (good or service) sold to a foreign country (= exportation)
  
 2. The act of exporting

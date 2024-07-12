@@ -262,7 +262,7 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەربڕی، پیشان‌دەری، ناوداری، واتا، پڕواتایی
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) ئەوەی کە هەست و بیری کەسێک پیشان بدات"""),
+              text: """١. (ناو) ئەوەی کە ھەست و بیری کەسێک پیشان بدات"""),
           SentencesRow(
             englishText: """The expressiveness of his eyes is remarkable.""",
             kurdishText: """دەربڕینی چاوەکانی ناوازەیە.""",

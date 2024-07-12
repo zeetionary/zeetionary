@@ -259,7 +259,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕیشەکێش‌کردن، پاکتاوکردن، فەوتاندن، هیچ‌نەهێشتن، خاشەبڕی(ن)، تەفروتووناکردن، بنبڕکردن، قەڵت‌وبڕکردن، لەنێوبردن، قەڵاچۆکردن، بنکۆڵ‌کردن، کوێرکردنەوە، لەبن‌دەرهێنان، قڕتێخستن، تیابردن، دوابڕان، قڕتێکەوتن، دوابڕان، تەفڕوتوونابوون، لەنێوچوون، نەمان
+کوردی: ڕیشەکێش‌کردن، پاکتاوکردن، فەوتاندن، ھیچ‌نەھێشتن، خاشەبڕی(ن)، تەفروتووناکردن، بنبڕکردن، قەڵت‌وبڕکردن، لەنێوبردن، قەڵاچۆکردن، بنکۆڵ‌کردن، کوێرکردنەوە، لەبن‌دەرھێنان، قڕتێخستن، تیابردن، دوابڕان، قڕتێکەوتن، دوابڕان، تەفڕوتوونابوون، لەنێوچوون، نەمان
 """),
           const DefinitionKurdish(
               text:
@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """International measures have been taken to prevent the extermination of the whale.""",
             kurdishText:
-                """هەنگاوی نێودەوڵەتی نردراوە بۆ ڕێگری لە ڕیشەکێش‌کردنی نەهەنگ.""",
+                """ھەنگاوی نێودەوڵەتی نردراوە بۆ ڕێگری لە ڕیشەکێش‌کردنی نەھەنگ.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extermination (Derived forms: exterminations)
+- Noun: extermination (derived forms: exterminations)
 1. Complete annihilation (= extinction)
 "they think a meteor caused the extermination of the dinosaurs";
  

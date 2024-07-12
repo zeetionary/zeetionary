@@ -271,11 +271,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ارچە، کوتاڵ، قوماش،	تان‌وپۆ، چنراو(ە)، تەڤن، ئەتەم، بنیات، داڕشت، پێکهاتە
+کوردی: ارچە، کوتاڵ، قوماش،	تان‌وپۆ، چنراو(ە)، تەڤن، ئەتەم، بنیات، داڕشت، پێکھاتە
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) قوماشی جل کە بە چنینی خوری، لۆکە، ئاوریشم، هتد درووست دەکرێت"""),
+                  """١. (ناو) قوماشی جل کە بە چنینی خوری، لۆکە، ئاوریشم، ھتد درووست دەکرێت"""),
           SentencesRow(
             englishText: """They sell a wide variety of cotton fabric.""",
             kurdishText: """ڕێژەیەکی زۆر لە قوماشی لۆکە دەفرۆشن.""",
@@ -292,7 +292,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) پێکهاتەی سەرەکیی کۆمەڵگایەک، دامەزراوەیەک، هتد کە وا دەکات سەرکەوتوو بێت"""),
+                  """٢. (ناو) پێکھاتەی سەرەکیی کۆمەڵگایەک، دامەزراوەیەک، ھتد کە وا دەکات سەرکەوتوو بێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -305,11 +305,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) پێکهاتەی سەرەکیی بینایەک، وەک دیوارەکان، زەوییەکەی، و بنبانەکەی"""),
+                  """٣. (ناو) پێکھاتەی سەرەکیی بینایەک، وەک دیوارەکان، زەوییەکەی، و بنبانەکەی"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The city retains much of its historic fabric.""",
-            kurdishText: """شارەکە زۆرێک لە پێکهاتە سەرەکییەکانیی پاراستووە.""",
+            kurdishText: """شارەکە زۆرێک لە پێکھاتە سەرەکییەکانیی پاراستووە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -354,7 +354,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fabric (Derived forms: fabrics)
+- Noun: fabric (derived forms: fabrics)
 1. Artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers (= cloth, material, textile)
 "the fabric in the curtains was light and semitransparent";
  

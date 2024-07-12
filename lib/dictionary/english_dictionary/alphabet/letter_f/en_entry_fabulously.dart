@@ -268,7 +268,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ھاوەڵکار) تەواو باش"""),
           SentencesRow(
             englishText: """It's all going fabulously.""",
-            kurdishText: """هەمووی باوەڕپێنەکراوانە بەڕێوە دەچێت.""",
+            kurdishText: """ھەمووی باوەڕپێنەکراوانە بەڕێوە دەچێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

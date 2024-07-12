@@ -276,7 +276,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The substance is toxic and explosively flammable.""",
             kurdishText:
-                """مادەکە ژەهراوییە و تەقینەوەیی‌یانە لەگڕگرتن‌هاتووە.""",
+                """مادەکە ژەھراوییە و تەقینەوەیی‌یانە لەگڕگرتن‌ھاتووە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -295,10 +295,10 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ھاوەڵکار) بەشێوەیەک کە هەست و تووڕەیی لەناکاو لەخۆدەگرێت"""),
+                  """٣. (ھاوەڵکار) بەشێوەیەک کە ھەست و تووڕەیی لەناکاو لەخۆدەگرێت"""),
           SentencesRow(
             englishText: """He has an explosively combative temperament.""",
-            kurdishText: """مەزاجێکی زوو هەڵچووی کەللەڕەقانەی هەیە.""",
+            kurdishText: """مەزاجێکی زوو ھەڵچووی کەللەڕەقانەی ھەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

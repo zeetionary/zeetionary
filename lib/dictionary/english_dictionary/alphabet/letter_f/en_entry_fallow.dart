@@ -262,19 +262,19 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) زەوییەک کە بۆ چاندن بەکارنایەت، بەتایبەتی بۆ ئەوەی زەوییەکە بەهێز ببێت"""),
+                  """١. (ناو) زەوییەک کە بۆ چاندن بەکارنایەت، بەتایبەتی بۆ ئەوەی زەوییەکە بەھێز ببێت"""),
           SentencesRow(
             englishText:
                 """Farmers are now paid to let their land lie fallow.""",
             kurdishText:
-                """جوتیاران ئێستا پارەیان پێ دەدرێت بۆ ئەوەی بهێڵن زەوییەکانیان بە بەیاری بهێڵنەوە.""",
+                """جوتیاران ئێستا پارەیان پێ دەدرێت بۆ ئەوەی بھێڵن زەوییەکانیان بە بەیاری بھێڵنەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) ماوەیەک کە هیچ درووست ناکرێت یان بەرهەم نایەت"""),
+                  """٢. (ھاوەڵناو) ماوەیەک کە ھیچ درووست ناکرێت یان بەرھەم نایەت"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -332,7 +332,7 @@ ${englishMeaningConst.text}
 2. Undeveloped but potentially useful
 "a fallow gold market"
 
-- Noun: fallow (Derived forms: fallows)
+- Noun: fallow (derived forms: fallows)
 1. Cultivated land that is not seeded for one or more growing seasons
 """,
   );

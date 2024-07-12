@@ -335,7 +335,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: expound (Derived forms: expounded, expounds, expounding)
+- Verb: expound (derived forms: expounded, expounds, expounding)
 1. Describe and explain in detail (= elaborate, lucubrate [archaic], expatiate, exposit, enlarge, flesh out, expand, dilate)
  
 2. State (= set forth, exposit)

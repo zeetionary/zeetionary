@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """His lawyers say he plans to fight extradition.""",
             kurdishText:
-                """پارێزەرەکانی دەڵێن پلانی هەیە دژ بە ڕادەستکردنەوەکە بوەستێتەوە.""",
+                """پارێزەرەکانی دەڵێن پلانی ھەیە دژ بە ڕادەستکردنەوەکە بوەستێتەوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -320,7 +320,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extradition (Derived forms: extraditions)
+- Noun: extradition (derived forms: extraditions)
 1. The surrender of an accused or convicted person by one state or country to another (usually under the provisions of a statute or treaty)
 """,
   );

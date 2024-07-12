@@ -273,10 +273,10 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دەمارگرژ، دەمارگیر، تونڕەو، چەقبەستوو
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کەسێک کە باوەڕی توندڕەوی هەیە"""),
+              text: """١. (ھاوەڵناو) کەسێک کە باوەڕی توندڕەوی ھەیە"""),
           SentencesRow(
             englishText: """He held fanatical views about politics.""",
-            kurdishText: """تێڕوانینی توندڕەوی هەبوو سەبارەت بە سیاسەت.""",
+            kurdishText: """تێڕوانینی توندڕەوی ھەبوو سەبارەت بە سیاسەت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -294,7 +294,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """She's fanatical about healthy eating.""",
-            kurdishText: """تەواو هۆگرە بە خواردنی تەندرووست.""",
+            kurdishText: """تەواو ھۆگرە بە خواردنی تەندرووست.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

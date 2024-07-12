@@ -262,9 +262,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text: """١. (ناو) شەشەم پیتی زمانی ئینگلیزی"""),
           SentencesRow(
@@ -280,18 +280,18 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He got an F in chemistry.""",
-            kurdishText: """لە کیمیا زۆر خراپەی هێنا.""",
+            kurdishText: """لە کیمیا زۆر خراپەی ھێنا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (کورتکراوە) کورتکراوە بۆ یەکەی پێوانی گەرمی فەهرەنایت"""),
+                  """٣. (کورتکراوە) کورتکراوە بۆ یەکەی پێوانی گەرمی فەھرەنایت"""),
           const AlsoEnglishckb(word: "ھەروەھا: Fahrenheit"),
           SentencesRow(
             englishText: """Water freezes at 32°F.""",
-            kurdishText: """ئاو لە ٣٢ پلەی فەهرەنایت دەیبەستێت.""",
+            kurdishText: """ئاو لە ٣٢ پلەی فەھرەنایت دەیبەستێت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -336,10 +336,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: f (Derived forms: fs, Fs)
+- Noun: f (derived forms: fs, Fs)
 1. The 6th letter of the Roman alphabet (= F, ef)
 
-- Noun: F (Derived forms: fs, Fs)
+- Noun: F (derived forms: fs, Fs)
 1. A degree on the Fahrenheit scale of temperature (= degree Fahrenheit)
  
 2. A nonmetallic univalent element belonging to the halogens; usually a yellow irritating toxic flammable gas; a powerful oxidizing agent; recovered from fluorite, cryolite or fluorapatite (= fluorine, atomic number 9)

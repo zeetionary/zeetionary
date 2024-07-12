@@ -289,7 +289,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کۆلکە، هاوکۆلکە، هۆکار، فاکتێر،	ئاست، ئەندازە، ڕادە،	نوێنەر، بریکار،	ژێنی دیاری‌کەر (تایبەتمەندی بۆماوەیی)،	دەڵاڵ، بریکار
+کوردی: کۆلکە، ھاوکۆلکە، ھۆکار، فاکتێر،	ئاست، ئەندازە، ڕادە،	نوێنەر، بریکار،	ژێنی دیاری‌کەر (تایبەتمەندی بۆماوەیی)،	دەڵاڵ، بریکار
 """),
           const DefinitionKurdish(
               text:
@@ -297,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Obesity is a major risk factor for heart disease.""",
-            kurdishText: """قەڵەوی هۆکارێکی سەرەکی مەترسی نەخۆشی دڵە.""",
+            kurdishText: """قەڵەوی ھۆکارێکی سەرەکی مەترسی نەخۆشی دڵە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -306,7 +306,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Criminality is associated with a range of individual, family and environmental factors.""",
             kurdishText:
-                """تاوانکاری دەبەسترێتەوە بە ژمارەی هۆکاری تاکەکەسی، خێزانی، و ژینگەیی.""",
+                """تاوانکاری دەبەسترێتەوە بە ژمارەی ھۆکاری تاکەکەسی، خێزانی، و ژینگەیی.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -393,7 +393,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: factor (Derived forms: factors)
+- Noun: factor (derived forms: factors)
 1. Anything that contributes causally to a result
 "a number of factors determined the outcome"
  
@@ -412,7 +412,7 @@ ${englishMeaningConst.text}
 6. (genetics) a segment of DNA that is involved in producing a polypeptide chain; it can include regions preceding and following the coding DNA as well as introns between the exons; it is considered a unit of heredity (= gene, cistron)
 "genes were formerly called factors"; "cistrons were formerly called factors";
 
-- Verb: factor (Derived forms: factors, factoring, factored)
+- Verb: factor (derived forms: factors, factoring, factored)
 1. (arithmetic) resolve into factors (= factor in, factor out)
 "a quantum computer can factor the number 15";
  

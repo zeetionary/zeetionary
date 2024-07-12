@@ -267,10 +267,10 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: جووتبەندە، جووتیار، جووتدار، کشتکار، کێڵگەوان، وەرزێر،	ئاژەڵ‌دار، ئاژەڵ‌ڕاگر، پاتاڵ‌دار
 """),
-          const DefinitionKurdish(text: """١. (ناو) کەسێک کە کێڵگەی هەیە"""),
+          const DefinitionKurdish(text: """١. (ناو) کەسێک کە کێڵگەی ھەیە"""),
           SentencesRow(
             englishText: """The land is owned by a local farmer.""",
-            kurdishText: """خاکەکەم هی کێڵگەوانێکی ناوخۆییە.""",
+            kurdishText: """خاکەکەم ھی کێڵگەوانێکی ناوخۆییە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -333,7 +333,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: farmer (Derived forms: farmers)
+- Noun: farmer (derived forms: farmers)
 1. A person who operates a farm (= husbandman [archaic], granger [US], sodbuster [N. Amer])
  
 2. A person who works the land or keeps livestock, especially on a farm
@@ -361,17 +361,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'Cqbleas1mmo?t=';
+const String _videoIdend = 'Cqbleas1mmo';
 const double _startSecondsend = 55;
-const String _videoIdone = 'yRmOWcWdQAo?t=';
+const String _videoIdone = 'yRmOWcWdQAo';
 const double _startSecondsone = 1476;
-const String _videoIdtwo = 'ziXqzFbhs4k?t=';
+const String _videoIdtwo = 'ziXqzFbhs4k';
 const double _startSecondstwo = 14;
-const String _videoIdthree = 'YZoZr_m9WLU?t=';
+const String _videoIdthree = 'YZoZr_m9WLU';
 const double _startSecondsthree = 212;
-const String _videoIdfour = 'twAP3buj9Og?t=';
+const String _videoIdfour = 'twAP3buj9Og';
 const double _startSecondsfour = 586;
-const String _videoIdfive = 'L87HuKmGwVQ?t=';
+const String _videoIdfive = 'L87HuKmGwVQ';
 const double _startSecondsfive = 596;
 
 class YoutubeEmbeddedend extends StatelessWidget {

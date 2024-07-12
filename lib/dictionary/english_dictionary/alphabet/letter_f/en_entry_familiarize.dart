@@ -259,7 +259,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئاشناکردن، ناساندن، ڕاهاتن
+کوردی: ئاشناکردن، ناساندن، ڕاھاتن
 """),
           const DefinitionKurdish(
               text:
@@ -268,7 +268,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """You'll need time to familiarize yourself with our procedures.""",
             kurdishText:
-                """پێویستت بە کاتە بۆ ئاشنابوون لەگەڵ هەنگاوەکانمان.""",
+                """پێویستت بە کاتە بۆ ئاشنابوون لەگەڵ ھەنگاوەکانمان.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -277,7 +277,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """As a teacher I try to familiarize students with a wide variety of fiction.""",
             kurdishText:
-                """وەک مامۆستایەک هەوڵ دەدەم خوێندکاران ئاشنا بکەم بە زۆرترین بابەتی جیهانی خەیاڵی.""",
+                """وەک مامۆستایەک ھەوڵ دەدەم خوێندکاران ئاشنا بکەم بە زۆرترین بابەتی جیھانی خەیاڵی.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -322,7 +322,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: familiarize (Derived forms: familiarizing, familiarized, familiarizes)
+- Verb: familiarize (derived forms: familiarizing, familiarized, familiarizes)
 1. Make familiar or conversant with (= familiarise [Brit], acquaint)
 "We familiarized ourselves with the new surroundings";
 """,

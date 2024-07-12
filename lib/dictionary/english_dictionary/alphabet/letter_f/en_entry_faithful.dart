@@ -314,14 +314,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He has been a very faithful friend to me.""",
-            kurdishText: """هاوڕێیەکی زۆر بە ئەمەک بووە بۆم.""",
+            kurdishText: """ھاوڕێیەکی زۆر بە ئەمەک بووە بۆم.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) ئەو کەسانەی کە باوەڕیان بە ئایینێک هەیە؛ باوەڕدارانی سەرسەختی پارتێکی سیاسی کە باوەڕی خۆیان ناگۆڕن"""),
+                  """٢. (ھاوەڵناو) ئەو کەسانەی کە باوەڕیان بە ئایینێک ھەیە؛ باوەڕدارانی سەرسەختی پارتێکی سیاسی کە باوەڕی خۆیان ناگۆڕن"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -342,7 +342,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٤. (ھاوەڵناو) کە ڕاست و درووستە؛ کە هیچی نەگۆڕیوە"""),
+              text: """٤. (ھاوەڵناو) کە ڕاست و درووستە؛ کە ھیچی نەگۆڕیوە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -402,7 +402,7 @@ ${englishMeaningConst.text}
 3. Marked by fidelity to an original (= close)
 "a faithful copy of the portrait";
 
-- Noun: faithful (Derived forms: faithfuls)
+- Noun: faithful (derived forms: faithfuls)
 1. Any loyal and steadfast following
  
 2. A group of people who adhere to a common faith and habitually attend a given church (= congregation, fold)

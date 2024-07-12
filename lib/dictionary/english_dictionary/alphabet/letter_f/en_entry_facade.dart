@@ -287,11 +287,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) شێوازی دەرکەوتنی شتێک/کەسێک کە جیاوازە لەوەی لە ڕاستیدا هەیە"""),
+                  """٢. (ناو) شێوازی دەرکەوتنی شتێک/کەسێک کە جیاوازە لەوەی لە ڕاستیدا ھەیە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They seem happy together, but it’s all a facade.""",
-            kurdishText: """دڵخۆش دیارن پێکەوە، بەڵام هەمووی درۆیەکە.""",
+            kurdishText: """دڵخۆش دیارن پێکەوە، بەڵام ھەمووی درۆیەکە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -300,7 +300,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """He kept his hostility hidden behind a friendly façade.""",
             kurdishText:
-                """دوژمنکارییەکەی لە پشتەوەی ڕوویەکی هاوڕێیانە پاراست.""",
+                """دوژمنکارییەکەی لە پشتەوەی ڕوویەکی ھاوڕێیانە پاراست.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -308,7 +308,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """We are fed up with this façade of democracy.""",
             kurdishText: """بێزارین لەم دیموکراسی نمایشکردنە.""",
-            kurdishNote: "واتا ئەمە دیموکراسی نییە بەڵام وەها پیشان دەدرێت",
+            kurdishNote: "واتا ئەمە دیموکراسی نییە بەڵام وەھا پیشان دەدرێت",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -353,7 +353,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: facade (Derived forms: facades)
+- Noun: facade (derived forms: facades)
 1. The face or front of a building (= frontage, frontal)
  
 2. A showy misrepresentation intended to conceal something unpleasant (= window dressing)

@@ -257,7 +257,7 @@ class KurdishMeaning extends StatelessWidget {
                   """١. (ناو) گۆڕەپانێکی گەورە کە بۆ بۆنەی کڕین و فرۆشتن و چێژبینین بەکاردێت"""),
           SentencesRow(
             englishText: """There was a small fairground just by the river.""",
-            kurdishText: """شاری یارییەکی بچووک لە نزیک ڕووبارەکە هەبوو.""",
+            kurdishText: """شاری یارییەکی بچووک لە نزیک ڕووبارەکە ھەبوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -302,7 +302,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fairground (Derived forms: fairgrounds)
+- Noun: fairground (derived forms: fairgrounds)
 1. An open area for holding fairs, exhibitions or circuses
 """,
   );

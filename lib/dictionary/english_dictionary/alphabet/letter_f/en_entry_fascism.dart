@@ -257,24 +257,24 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) سیستەمێکی سیاسیی ڕاستڕەو کە لەگەڵ دەسەڵاتی بەهێزی حکومەتی ناوەندییە، وڵات و ڕەگەزی لا باشتر و باڵاترە وەک لە ئەوانی دیکە، و ڕێگا دژبەری نادات"""),
+                  """١. (ناو) سیستەمێکی سیاسیی ڕاستڕەو کە لەگەڵ دەسەڵاتی بەھێزی حکومەتی ناوەندییە، وڵات و ڕەگەزی لا باشتر و باڵاترە وەک لە ئەوانی دیکە، و ڕێگا دژبەری نادات"""),
           SentencesRow(
             englishText:
                 """This year's history syllabus covers the rise of Fascism in Europe.""",
             kurdishText:
-                """پڕۆگرامی خوێندنی ئەمساڵ هەڵکشانی فاشیزم لە ئەورووپا لەخۆ دەگرێت.""",
+                """پڕۆگرامی خوێندنی ئەمساڵ ھەڵکشانی فاشیزم لە ئەورووپا لەخۆ دەگرێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) دید و کاری توندڕەوانە کە دەیەوێت وا لە کەسانی دیکە بکات بە هەمان شێوە بیر بکەنەوە"""),
+                  """٢. (ناو) دید و کاری توندڕەوانە کە دەیەوێت وا لە کەسانی دیکە بکات بە ھەمان شێوە بیر بکەنەوە"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -325,7 +325,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fascism (Derived forms: fascisms)
+- Noun: fascism (derived forms: fascisms)
 1. A political theory advocating an authoritarian hierarchical government (as opposed to democracy or liberalism)
  
 2. Extreme right-wing, authoritarian, intolerant, racist or nationalistic views or behaviour
@@ -353,17 +353,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'FQ4hvLqNfqo?t=';
+const String _videoIdend = 'FQ4hvLqNfqo';
 const double _startSecondsend = 571;
-const String _videoIdone = 'rIhOPOzlvTA?t=';
+const String _videoIdone = 'rIhOPOzlvTA';
 const double _startSecondsone = 272;
-const String _videoIdtwo = 'L_Guz73e6fw?t=';
+const String _videoIdtwo = 'L_Guz73e6fw';
 const double _startSecondstwo = 1251;
-const String _videoIdthree = 'pv-c70rrKZI?t=';
+const String _videoIdthree = 'pv-c70rrKZI';
 const double _startSecondsthree = 1033;
-const String _videoIdfour = '0r2x7G0hwCw?t=';
+const String _videoIdfour = '0r2x7G0hwCw';
 const double _startSecondsfour = 539;
-const String _videoIdfive = 'r8olVKzLpXY?t=';
+const String _videoIdfive = 'r8olVKzLpXY';
 const double _startSecondsfive = 62;
 
 class YoutubeEmbeddedend extends StatelessWidget {

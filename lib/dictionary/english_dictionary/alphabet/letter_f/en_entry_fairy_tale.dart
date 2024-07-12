@@ -272,14 +272,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چیرۆک یان داستانی پەرییەکان،	چیرۆکی هەڵبەستە، قسەی پڕوپووچ، درۆ کەڵەکەکردن
+کوردی: چیرۆک یان داستانی پەرییەکان،	چیرۆکی ھەڵبەستە، قسەی پڕوپووچ، درۆ کەڵەکەکردن
 """),
           const DefinitionKurdish(
               text: """١. (ناو) چیرۆکێک سەبارەت بە سیحر و پەری بۆ منداڵان"""),
           SentencesRow(
             englishText: """A prince in a fairy tale often fights dragons.""",
             kurdishText:
-                """شازادەیەک لە داستانی پەرییەکاندا زۆرجار شەڕ لەگەڵ ئەژدیهادا دەکات.""",
+                """شازادەیەک لە داستانی پەرییەکاندا زۆرجار شەڕ لەگەڵ ئەژدیھادا دەکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -297,18 +297,18 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٣. (ھاوەڵناو) هاوشێوەی چیرۆکی منداڵان"""),
+              text: """٣. (ھاوەڵناو) ھاوشێوەی چیرۆکی منداڵان"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """Life doesn't always have a fairy-tale ending.""",
-            kurdishText: """ژیان هەمیشە کۆتایی وەک بەسەرهاتی منداڵانی نییە.""",
+            kurdishText: """ژیان ھەمیشە کۆتایی وەک بەسەرھاتی منداڵانی نییە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """They had a fairy-tale wedding.""",
-          //   kurdishText: """ئاهەنگێکی هاوسەرگیری .""",
+          //   kurdishText: """ئاھەنگێکی ھاوسەرگیری .""",
           //   onPressedBritish: () => speaksentence4("en-GB"),
           //   onPressedAmerican: () => speaksentence4("en-US"),
           // ),
@@ -353,7 +353,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fairy tale (Derived forms: fairy tales, fairy tales)
+- Noun: fairy tale (derived forms: fairy tales, fairy tales)
 1. A children's story (often traditional) about imaginary or magical places and beings (= fairy tale, fairy story)
  
 2. An interesting but highly implausible story; often told as an excuse (= fairy tale, fairy story, cock-and-bull story [informal], song and dance [US, informal])

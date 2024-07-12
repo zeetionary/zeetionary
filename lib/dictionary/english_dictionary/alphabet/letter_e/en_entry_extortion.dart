@@ -249,9 +249,9 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: لێ‌سەندن(بەزۆر)، داگیرکردن، خاوەسەندن، زەوت‌کردن، زۆرگیری، پلەندەری، هەڕەشە، ترساندن
+کوردی: لێ‌سەندن(بەزۆر)، داگیرکردن، خاوەسەندن، زەوت‌کردن، زۆرگیری، پلەندەری، ھەڕەشە، ترساندن
 """),
-          const DefinitionKurdish(text: """١. (ناو) وەرگرتنی شتێک بە هەڕەشە"""),
+          const DefinitionKurdish(text: """١. (ناو) وەرگرتنی شتێک بە ھەڕەشە"""),
           SentencesRow(
             englishText: """He was arrested and charged with extortion.""",
             kurdishText: """دەستگیرکرا و بە زۆرگیری تاوانبارکرا.""",
@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extortion (Derived forms: extortions)
+- Noun: extortion (derived forms: extortions)
 1. An exorbitant charge
  
 2. Unjust exaction (as by the misuse of authority)

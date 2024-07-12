@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) هەریەک لەو دوو ددانە تیژەی پێشەوەی دەمی ئاژەڵان، بۆ نموونە کەڵبەی سەگ یا مار"""),
+                  """١. (ناو) ھەریەک لەو دوو ددانە تیژەی پێشەوەی دەمی ئاژەڵان، بۆ نموونە کەڵبەی سەگ یا مار"""),
           SentencesRow(
             englishText: """The snake sank its fangs into its victim.""",
             kurdishText: """مارەکە کەڵبەکەی ئاخنییە ناو جەستەی قوربانییەکە.""",
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fang (Derived forms: fangs, Fangs)
+- Noun: fang (derived forms: fangs, Fangs)
 1. An appendage of insects that is capable of injecting venom; usually evolved from the legs
  
 2. Canine tooth of a carnivorous animal; used to seize and tear its prey

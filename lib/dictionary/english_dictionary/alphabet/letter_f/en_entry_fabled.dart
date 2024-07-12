@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئەفسانەیی، ڕازەیی،	ناڕاستەقینە، خەیاڵی، ساختە، هەڵبەستە،	ناسراو، نێودار
+کوردی: ئەفسانەیی، ڕازەیی،	ناڕاستەقینە، خەیاڵی، ساختە، ھەڵبەستە،	ناسراو، نێودار
 """),
           const DefinitionKurdish(
               text:
@@ -259,7 +259,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """For the first week he never actually saw the fabled Jack.""",
             kurdishText:
-                """بۆ چەند هەفتەی سەرەتا هەرگیز جاکی ئەفسانەیی نەبینی.""",
+                """بۆ چەند ھەفتەی سەرەتا ھەرگیز جاکی ئەفسانەیی نەبینی.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

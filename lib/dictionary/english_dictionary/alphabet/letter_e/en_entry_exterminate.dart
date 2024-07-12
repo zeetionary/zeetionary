@@ -320,7 +320,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: exterminate (Derived forms: exterminated, exterminating, exterminates)
+- Verb: exterminate (derived forms: exterminated, exterminating, exterminates)
 1. Kill en massé; kill on a large scale; kill many (= kill off)
 "Hitler wanted to exterminate the Jews, Gypsies, Communists, and homosexuals of Europe";
  

@@ -258,7 +258,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Thousands of farmhands have found themselves out of work because of falling coffee prices.""",
             kurdishText:
-                """هەزاران کارکەری کێڵگەوانان بێ‌کار بوونە بەهۆی دابەزینی نرخی قاوە.""",
+                """ھەزاران کارکەری کێڵگەوانان بێ‌کار بوونە بەھۆی دابەزینی نرخی قاوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: farmhand (Derived forms: farmhands)
+- Noun: farmhand (derived forms: farmhands)
 1. A hired hand on a farm (= fieldhand, field hand, farm worker, rouseabout [Austral])
 """,
   );
@@ -329,17 +329,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'KJbr9sTbkTw?t=';
+const String _videoIdend = 'KJbr9sTbkTw';
 const double _startSecondsend = 632;
-const String _videoIdone = 'yRJJqI6b19s?t=';
+const String _videoIdone = 'yRJJqI6b19s';
 const double _startSecondsone = 420;
-const String _videoIdtwo = '-AWwaEJjOVM?t=';
+const String _videoIdtwo = '-AWwaEJjOVM';
 const double _startSecondstwo = 465;
-const String _videoIdthree = 'hw6vGG8Xj64?t=';
+const String _videoIdthree = 'hw6vGG8Xj64';
 const double _startSecondsthree = 46;
-const String _videoIdfour = 'g7oVHUYF3Ok?t=';
+const String _videoIdfour = 'g7oVHUYF3Ok';
 const double _startSecondsfour = 74;
-const String _videoIdfive = 'ExfdQXcUy9c?t=';
+const String _videoIdfive = 'ExfdQXcUy9c';
 const double _startSecondsfive = 553;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -260,10 +260,10 @@ class KurdishMeaning extends StatelessWidget {
 کوردی: دۆستانە، خۆمانە، گەرم‌وگوڕانە
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵکار) بەشێوەیەکی نافەرمی و هاوڕێیانە"""),
+              text: """١. (ھاوەڵکار) بەشێوەیەکی نافەرمی و ھاوڕێیانە"""),
           SentencesRow(
             englishText: """He touched her cheek familiarly.""",
-            kurdishText: """هاوڕێیانە دەستی لە گۆنای دا.""",
+            kurdishText: """ھاوڕێیانە دەستی لە گۆنای دا.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

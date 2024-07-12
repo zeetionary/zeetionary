@@ -285,10 +285,10 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) دڵڕفێنەرییەکی بەهێزی شتیک، ئەوەی کە شتێک سەرسوڕهێنەر دەکات"""),
+                  """١. (ناو) دڵڕفێنەرییەکی بەھێزی شتیک، ئەوەی کە شتێک سەرسوڕھێنەر دەکات"""),
           SentencesRow(
             englishText: """London has a fascination all of its own.""",
-            kurdishText: """لەندەن دڵڕفێنەریی خۆی هەیە.""",
+            kurdishText: """لەندەن دڵڕفێنەریی خۆی ھەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -297,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The fascination of the game lies in trying to guess what your opponent is thinking.""",
             kurdishText:
-                """خۆشی یارییەکە لەوەدایە هەوڵ بدەیت بزانیت ڕکابەرەکەت بیر لە چی دەکاتەوە.""",
+                """خۆشی یارییەکە لەوەدایە ھەوڵ بدەیت بزانیت ڕکابەرەکەت بیر لە چی دەکاتەوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -316,7 +316,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """She shared his fascination for motorbikes.""",
-            kurdishText: """حەزی ئەوی بۆ ماتۆڕسکیل هەبوو.""",
+            kurdishText: """حەزی ئەوی بۆ ماتۆڕسکیل ھەبوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -370,7 +370,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fascination (Derived forms: fascinations)
+- Noun: fascination (derived forms: fascinations)
 1. The state of being intensely interested (as by awe or terror) (= captivation)
  
 2. A feeling of great liking for something wonderful and unusual (= captivation, enchantment, enthrallment [N. Amer], enthralment [Brit, Cdn])
@@ -401,17 +401,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = '-6vzjjIrRK8?t=';
+const String _videoIdend = '-6vzjjIrRK8';
 const double _startSecondsend = 1573;
-const String _videoIdone = 'QLq6GEiHqR8?t=';
+const String _videoIdone = 'QLq6GEiHqR8';
 const double _startSecondsone = 66;
-const String _videoIdtwo = 'IgF3OX8nT0w?t=';
+const String _videoIdtwo = 'IgF3OX8nT0w';
 const double _startSecondstwo = 255;
-const String _videoIdthree = 'VNZ0so0LCoM?t=';
+const String _videoIdthree = 'VNZ0so0LCoM';
 const double _startSecondsthree = 494;
-const String _videoIdfour = '_P1zYEq4PHg?t=';
+const String _videoIdfour = '_P1zYEq4PHg';
 const double _startSecondsfour = 4;
-const String _videoIdfive = 'IwJzsE8CvzQ?t=';
+const String _videoIdfive = 'IwJzsE8CvzQ';
 const double _startSecondsfive = 257;
 
 class YoutubeEmbeddedend extends StatelessWidget {

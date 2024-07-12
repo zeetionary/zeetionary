@@ -263,7 +263,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کاری خەمڵاندنی شتێک یان درووستکردنی بۆچوون لەسەر شتێک بە بەکارهێنانی ئەو زانیارییانەی کە ئێستا هەتن پەیوەندیدار بە دۆخێک و وەهای دادەنێیت کە پەیوەندیدار دەبن بە دۆخە تازەکە"""),
+                  """١. (ناو) کاری خەمڵاندنی شتێک یان درووستکردنی بۆچوون لەسەر شتێک بە بەکارھێنانی ئەو زانیارییانەی کە ئێستا ھەتن پەیوەندیدار بە دۆخێک و وەھای دادەنێیت کە پەیوەندیدار دەبن بە دۆخە تازەکە"""),
           SentencesRow(
             englishText:
                 """Their age can be determined by extrapolation from their growth rate.""",
@@ -321,7 +321,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extrapolation (Derived forms: extrapolations)
+- Noun: extrapolation (derived forms: extrapolations)
 1. (mathematics) calculation of the value of a function outside the range of known values
  
 2. An inference about the future (or about some hypothetical situation) based on known facts and observations

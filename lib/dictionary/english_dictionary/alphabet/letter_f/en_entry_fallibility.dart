@@ -258,13 +258,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵەکردن، لەهەڵەهاتوویی، هەڵەلەسەری، ئەگەری هەڵەکردن، هەڵفریواوی، لێ‌شێواوی
+کوردی: ھەڵەکردن، لەھەڵەھاتوویی، ھەڵەلەسەری، ئەگەری ھەڵەکردن، ھەڵفریواوی، لێ‌شێواوی
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) ئەوەی کە هەڵە بکەیت یان هەڵە بیت"""),
+              text: """١. (ناو) ئەوەی کە ھەڵە بکەیت یان ھەڵە بیت"""),
           SentencesRow(
             englishText: """He spoke frankly about his own fallibility.""",
-            kurdishText: """بە سەرڕاستی قسەی لەسەر هەڵەکردنی خۆی کرد.""",
+            kurdishText: """بە سەرڕاستی قسەی لەسەر ھەڵەکردنی خۆی کرد.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -273,7 +273,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The play deals with the fallibility of human nature.""",
             kurdishText:
-                """شانۆکە مامەڵە لەگەڵ لەهەڵەهاتوویی سرووشتی مرۆڤ دەکات.""",
+                """شانۆکە مامەڵە لەگەڵ لەھەڵەھاتوویی سرووشتی مرۆڤ دەکات.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -318,7 +318,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fallibility (Derived forms: fallibilities)
+- Noun: fallibility (derived forms: fallibilities)
 1. The likelihood of making errors
 """,
   );

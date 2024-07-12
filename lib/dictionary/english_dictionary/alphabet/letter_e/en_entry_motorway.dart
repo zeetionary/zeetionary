@@ -275,10 +275,10 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ڕێگای خێرا و پان کە بە لایەنی کەمەوە دوو سایدی هەیە بە هەر ئاراستەیەکدا"""),
+                  """١. (ناو) ڕێگای خێرا و پان کە بە لایەنی کەمەوە دوو سایدی ھەیە بە ھەر ئاراستەیەکدا"""),
           SentencesRow(
             englishText: """Leave the motorway at the next exit.""",
-            kurdishText: """لە ئێگزتی دواتر پانەڕێکە جێبهێڵە.""",
+            kurdishText: """لە ئێگزتی دواتر پانەڕێکە جێبھێڵە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -345,7 +345,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: motorway (Derived forms: motorways)
+- Noun: motorway (derived forms: motorways)
 Usage: Brit, Cdn (US: superhighway)
 1. A broad highway designed for high-speed traffic (= expressway [N. Amer], freeway [N. Amer, Austral, S.Africa], pike, state highway [N. Amer], superhighway [N. Amer], throughway [N. Amer], thruway [N. Amer])
  

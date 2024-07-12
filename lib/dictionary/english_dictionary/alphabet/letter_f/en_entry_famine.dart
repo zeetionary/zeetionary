@@ -273,7 +273,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Thousands of people died during the terrible famine of that year.""",
             kurdishText:
-                """هەزاران کەس مردن لە ماوەی قاتییە سەختەکەی ئەو ساڵەدا.""",
+                """ھەزاران کەس مردن لە ماوەی قاتییە سەختەکەی ئەو ساڵەدا.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -318,7 +318,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: famine (Derived forms: famines)
+- Noun: famine (derived forms: famines)
 1. An acute insufficiency (= dearth, shortage)
  
 2. A severe shortage of food (as through crop failure) resulting in violent hunger and starvation and death

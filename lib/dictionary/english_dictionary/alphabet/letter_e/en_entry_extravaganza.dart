@@ -252,11 +252,11 @@ class KurdishMeaning extends StatelessWidget {
 // کوردی:
 // """),
           const DefinitionKurdish(
-              text: """١. (ناو) چێژبینینی گران‌بەها و گەورە"""),
+              text: """١. (ناو) چێژبینینی گران‌بەھا و گەورە"""),
           SentencesRow(
             englishText: """The city hosted an annual music extravaganza.""",
             kurdishText:
-                """شارەکە بۆنەیەکی گران‌بەهای ساڵانەی ساڵانەی میوزیکی ڕێکخست.""",
+                """شارەکە بۆنەیەکی گران‌بەھای ساڵانەی ساڵانەی میوزیکی ڕێکخست.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extravaganza (Derived forms: extravaganzas)
+- Noun: extravaganza (derived forms: extravaganzas)
 1. Any lavishly staged or spectacular entertainment
 """,
   );

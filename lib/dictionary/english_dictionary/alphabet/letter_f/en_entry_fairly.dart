@@ -323,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """It's fairly clear that there is still room for improvement.""",
             kurdishText:
-                """ئەوە بە ئەندازەیەک ئاشکرایە کە هێشتا دەرفەتی باشتر بوون هەیە.""",
+                """ئەوە بە ئەندازەیەک ئاشکرایە کە ھێشتا دەرفەتی باشتر بوون ھەیە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -332,7 +332,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I know him fairly well, but I wouldn't say we were really close friends.""",
             kurdishText:
-                """تا ڕادەیەک باش دەیناسم، بەڵام ناتوانم بڵێم هاوڕێی نزیک بووین.""",
+                """تا ڕادەیەک باش دەیناسم، بەڵام ناتوانم بڵێم ھاوڕێی نزیک بووین.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -356,7 +356,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """He has always treated me very fairly.""",
-            kurdishText: """هەمیشە زۆر دادپەروەرانە مامەڵەی لەگەڵ کردووم.""",
+            kurdishText: """ھەمیشە زۆر دادپەروەرانە مامەڵەی لەگەڵ کردووم.""",
             onPressedBritish: () => speaksentence7("en-GB"),
             onPressedAmerican: () => speaksentence7("en-US"),
           ),
@@ -365,7 +365,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Her attitude could fairly be described as hostile.""",
             kurdishText:
-                """هەڵسوکەوتی دەکرێت دادپەروەرانە بە دژبەر باس بکرێت.""",
+                """ھەڵسوکەوتی دەکرێت دادپەروەرانە بە دژبەر باس بکرێت.""",
             onPressedBritish: () => speaksentence8("en-GB"),
             onPressedAmerican: () => speaksentence8("en-US"),
           ),

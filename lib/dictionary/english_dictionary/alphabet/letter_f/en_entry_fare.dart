@@ -316,11 +316,11 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کرێ (تاکسی، پاس و هتد)،	سوار (بەتایبەت تاکسی)،	خۆراک، نان، پێخۆر
+کوردی: کرێ (تاکسی، پاس و ھتد)،	سوار (بەتایبەت تاکسی)،	خۆراک، نان، پێخۆر
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ئەو پارەیەی کە دەیدەیت بە پاس، تەکسی، فڕۆکە، هتد بۆ گواستنەوە"""),
+                  """١. (ناو) ئەو پارەیەی کە دەیدەیت بە پاس، تەکسی، فڕۆکە، ھتد بۆ گواستنەوە"""),
           SentencesRow(
             englishText: """Children travel (at) half fare.""",
             kurdishText: """منداڵان بە نیوەی کرێ گەشت دەکەن.""",
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Last-minute fares start at £219 each way.""",
             kurdishText:
-                """کرێی کۆتا خولەکەکان بە ٢١٩ پاوەند بۆ هەر کەسێک دەست پێدەکات.""",
+                """کرێی کۆتا خولەکەکان بە ٢١٩ پاوەند بۆ ھەر کەسێک دەست پێدەکات.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -361,7 +361,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """The taxi driver picked up a fare at the station.""",
-            kurdishText: """شۆفێری تاکسییەکە نەفەرێکی هەڵگرت لە وێستگەکە.""",
+            kurdishText: """شۆفێری تاکسییەکە نەفەرێکی ھەڵگرت لە وێستگەکە.""",
             onPressedBritish: () => speaksentence6("en-GB"),
             onPressedAmerican: () => speaksentence6("en-US"),
           ),
@@ -378,7 +378,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٤. (کردار) سەرکەوتن یان شکستهێنان لە دۆخێکی دیاریکراودا"""),
+                  """٤. (کردار) سەرکەوتن یان شکستھێنان لە دۆخێکی دیاریکراودا"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The party fared very badly in the last election.""",
@@ -441,7 +441,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fare (Derived forms: fares)
+- Noun: fare (derived forms: fares)
 1. The sum charged for riding in a public conveyance (= transportation)
  
 2. A paying (taxi) passenger
@@ -450,7 +450,7 @@ ${englishMeaningConst.text}
  
 4. An agenda of things to do (= menu)
 
-- Verb: fare (Derived forms: faring, fared, fares)
+- Verb: fare (derived forms: faring, fared, fares)
 1. Perform, succeed or manage over a period of time (= do, make out, come, get along)
 "How is she faring in her new job?";
  
@@ -479,17 +479,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'kElsSj8hky4?t=';
+const String _videoIdend = 'kElsSj8hky4';
 const double _startSecondsend = 378;
-const String _videoIdone = 'n4bucphC9r4?t=';
+const String _videoIdone = 'n4bucphC9r4';
 const double _startSecondsone = 517;
-const String _videoIdtwo = 'vzSfnduxNDg?t=';
+const String _videoIdtwo = 'vzSfnduxNDg';
 const double _startSecondstwo = 148;
-const String _videoIdthree = '9yjZpBq1XBE?t=';
+const String _videoIdthree = '9yjZpBq1XBE';
 const double _startSecondsthree = 4951;
-const String _videoIdfour = 'w7CtP73taJA?t=';
+const String _videoIdfour = 'w7CtP73taJA';
 const double _startSecondsfour = 133;
-const String _videoIdfive = '66B3i10hwiU?t=';
+const String _videoIdfive = '66B3i10hwiU';
 const double _startSecondsfive = 84;
 
 class YoutubeEmbeddedend extends StatelessWidget {

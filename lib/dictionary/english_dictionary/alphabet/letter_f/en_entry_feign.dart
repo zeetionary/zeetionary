@@ -6,18 +6,22 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryabacus extends StatefulWidget {
-  const EnglishEntryabacus({super.key});
+class EnglishEntryfeign extends StatefulWidget {
+  const EnglishEntryfeign({super.key});
 
   @override
-  State<EnglishEntryabacus> createState() => _EnglishEntryabacusState();
+  State<EnglishEntryfeign> createState() => _EnglishEntryfeignState();
 }
 
-class _EnglishEntryabacusState extends State<EnglishEntryabacus> {
-  // @override
-  // void initState() {
-  //   super.initState();
-  // }
+class _EnglishEntryfeignState extends State<EnglishEntryfeign> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
 
   FlutterTts flutterTts = FlutterTts();
 
@@ -37,37 +41,27 @@ ${englishMeaningConst.text}
     });
   }
 
-// Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
-    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: abacus (derived forms: abacuses, abaci)
-1. A tablet placed horizontally on top of the capital of a column as an aid in supporting the architrave
-
-2. A calculator that performs arithmetic functions by manually sliding counters on rods or in grooves
+- Verb: feign (derived forms: feigns, feigning, feigned)
+1. Make believe with the intent to deceive (= sham, pretend, affect, dissemble)
+"He feigned that he was ill";
+ 
+2. Make a pretence of (= simulate, assume, sham)
+"he feigned sleep";
 """,
   );
 
-  final String keyword = "abacus";
-  // late FlutterTts flutterTts;
-  List<Map<String, dynamic>> filteredSentences = [];
-
-  @override
-  void initState() {
-    super.initState();
-    flutterTts = FlutterTts();
-    flutterTts.setLanguage("en-GB");
-    fetchSentences();
-  }
+  final String keyword = "new";
+  List<Map<String, dynamic>> filteredSentences = []; 
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -82,12 +76,33 @@ ${englishMeaningConst.text}
     await flutterTts.speak(text);
   }
 
-  Future<void> speakabacus(String languageCode) async {
-    // speakabacus
+  Future<void> speakheadword(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("abacus");
+    await flutterTts.speak("""feign""");
+  }
+
+  Future<void> speaksentence1(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts
+        .speak("""He survived the massacre by feigning death.""");
+  }
+
+  Future<void> speaksentence2(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""She feigned sleep to avoid having to answer.""");
+  }
+
+  Future<void> speaksentence3(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("""The prosecution claimed that the defendant had feigned the injury.""");
   }
 
   @override
@@ -106,11 +121,12 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: "abacus",
-                      britshText: "IpaUK: /ˈæbəkəs/",
-                      americanText: "IpaUS: /ˈæbəkəs/",
-                      onPressedBritish: () => speakabacus("en-GB"),
-                      onPressedAmerican: () => speakabacus("en-US"),
+                      word: """feign""",
+                      // alsoEnglishWord: "also: feign",
+                      britshText: """IpaUK: /feɪn/""",
+                      americanText: """IpaUS: /feɪn/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
                     ),
                   ),
                 ),
@@ -144,7 +160,39 @@ ${englishMeaningConst.text}
                   ],
                 ),
               ),
-              KurdishMeaning(),
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    const DividerDefinition(),
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
+                    const DefinitionKurdish(text: """١. (کردار) وەھا پیشاندانی ئەوەی کە ھەستێکی دیاریکراوت ھەیە یان نەخۆشیت، ماندوویت، ھتد"""),
+                    SentencesRow(
+                      englishText:
+                          """He survived the massacre by feigning death.""",
+                      kurdishText: """لە کۆمەڵکوژییەکە ڕزگاری بوو بە خۆپیشاندان وەک مردوو.""",
+                      onPressedBritish: () => speaksentence1("en-GB"),
+                      onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She feigned sleep to avoid having to answer.""",
+                      kurdishText: """خۆی کرد بە خەوتوو بۆ ئەوەی وەڵام نەداتەوە.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """The prosecution claimed that the defendant had feigned the injury.""",
+                      kurdishText: """دەستەی لێکۆڵینەوە گوتی کە بەرگریکار برینەکەی ساختە کردبوو.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                  ],
+                ),
+              ),
               Consumer(
                 builder: (context, ref, child) {
                   if (filteredSentences.isEmpty) {
@@ -226,9 +274,9 @@ ${englishMeaningConst.text}
                 children: [
                   YoutubeEmbeddedone(),
                   YoutubeEmbeddedtwo(),
-                  // YoutubeEmbeddedthree(),
-                  // YoutubeEmbeddedfour(),
-                  // YoutubeEmbeddedfive(),
+                  YoutubeEmbeddedthree(),
+                  YoutubeEmbeddedfour(),
+                  YoutubeEmbeddedfive(),
                   // YoutubeEmbeddedsix(),
                   // YoutubeEmbeddedseven(),
                   // YoutubeEmbeddedeight(),
@@ -256,57 +304,18 @@ ${englishMeaningConst.text}
   }
 }
 
-class KurdishMeaning extends StatelessWidget {
-  KurdishMeaning({
-    super.key,
-  });
-
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speak145287(String languageCode) async {
-    // speakDopsum
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        "In ancient times, people relied on an abacus to perform mathematical calculations.");
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
-        children: [
-          const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: چۆتکە، چرت، چۆرتکە (بە خۆی ڕووسی‌یە)، ژمێرکە، چۆرت، ئەژمێر (چوارچێوەی مووروودار بۆ ژمارەکاری)
-"""),
-          const DefinitionKurdish(
-              text:
-                  "١. (ناو) چوارچێوەیەک کە وایەری پێوەیە لەگەڵ تۆپی بچووک و بەکاردێت بۆ ژماردن"
-                  ""),
-          SentencesRow(
-            englishText:
-                "In ancient times, people relied on an abacus to perform mathematical calculations.",
-            kurdishText:
-                "لە سەردەمانی کۆندا خەڵکی پشتیان بە ژمێرکە دەبەست بۆ لێکدانەوە بیرکارییەکان.",
-            onPressedBritish: () => speak145287("en-GB"),
-            onPressedAmerican: () => speak145287("en-US"),
-          ),
-        ],
-      ),
-    );
-  }
-}
-
-const String _videoIdend = 'zxml8UQSwC0';
-const double _startSecondsend = 2186;
-const String _videoIdone = 'npSz54BPxm4';
-const double _startSecondsone = 48;
-const String _videoIdtwo = 'O5nskjZ_GoI';
-const double _startSecondstwo = 147;
+const String _videoIdend = 'sV6uuMAnJUE';
+const double _startSecondsend = 258;
+const String _videoIdone = 'yRmOWcWdQAo';
+const double _startSecondsone = 1590;
+const String _videoIdtwo = 'Sbp_EeBk-As';
+const double _startSecondstwo = 874;
+const String _videoIdthree = 'NOXSz3nJgTs';
+const double _startSecondsthree = 323;
+const String _videoIdfour = '65vK_gbsgwI';
+const double _startSecondsfour = 203;
+const String _videoIdfive = '2WV_0hiuVOg';
+const double _startSecondsfive = 915;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});
@@ -385,3 +394,83 @@ class YoutubeEmbeddedtwo extends StatelessWidget {
     );
   }
 }
+
+class YoutubeEmbeddedthree extends StatelessWidget {
+  const YoutubeEmbeddedthree({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoIdthree,
+      startSeconds: _startSecondsthree,
+      autoPlay: true,
+      params: defaultYoutubePlayerParams,
+    );
+
+    void reloadVideo() {
+      controller.loadVideoById(
+        videoId: _videoIdthree,
+        startSeconds: _startSecondsthree,
+      );
+    }
+
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
+    );
+  }
+}
+
+class YoutubeEmbeddedfour extends StatelessWidget {
+  const YoutubeEmbeddedfour({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoIdfour,
+      startSeconds: _startSecondsfour,
+      autoPlay: true,
+      params: defaultYoutubePlayerParams,
+    );
+
+    void reloadVideo() {
+      controller.loadVideoById(
+        videoId: _videoIdfour,
+        startSeconds: _startSecondsfour,
+      );
+    }
+
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
+    );
+  }
+}
+
+class YoutubeEmbeddedfive extends StatelessWidget {
+  const YoutubeEmbeddedfive({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
+      videoId: _videoIdfive,
+      startSeconds: _startSecondsfive,
+      autoPlay: true,
+      params: defaultYoutubePlayerParams,
+    );
+
+    void reloadVideo() {
+      controller.loadVideoById(
+        videoId: _videoIdfive,
+        startSeconds: _startSecondsfive,
+      );
+    }
+
+    return YouTubeVideosScaffold(
+      controller: controller,
+      onReloadVideo: reloadVideo,
+    );
+  }
+}
+
+// end WORD_WEB

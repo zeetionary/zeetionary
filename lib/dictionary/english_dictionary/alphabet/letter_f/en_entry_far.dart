@@ -497,7 +497,7 @@ class KurdishMeaning extends StatelessWidget {
                 children: [
                   SentencesRow(
                     englishText: """Have you come far?""",
-                    kurdishText: """لە دوورەوە هاتوویت؟""",
+                    kurdishText: """لە دوورەوە ھاتوویت؟""",
                     onPressedBritish: () => speaksentence2("en-GB"),
                     onPressedAmerican: () => speaksentence2("en-US"),
                   ),
@@ -535,7 +535,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """Far away in the distance, a train whistled.""",
                     kurdishText:
-                        """لە مەودایەکی دوورەوە، شەمەندەفەرێک هۆرنی لێ‌دەدا.""",
+                        """لە مەودایەکی دوورەوە، شەمەندەفەرێک ھۆرنی لێ‌دەدا.""",
                     onPressedBritish: () => speaksentence7("en-GB"),
                     onPressedAmerican: () => speaksentence7("en-US"),
                   ),
@@ -544,7 +544,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """The farther north they went, the colder it became.""",
                     kurdishText:
-                        """چەندە دوورتر بۆ ڕۆژئاوا دەچوون، هێندە ساردتر دەبوو.""",
+                        """چەندە دوورتر بۆ ڕۆژئاوا دەچوون، ھێندە ساردتر دەبوو.""",
                     onPressedBritish: () => speaksentence8("en-GB"),
                     onPressedAmerican: () => speaksentence8("en-US"),
                   ),
@@ -580,14 +580,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """I'm not sure I can walk so far.""",
-            kurdishText: """دڵنیا نیم کە بتوانم هێندە دوور ڕێ بکەم.""",
+            kurdishText: """دڵنیا نیم کە بتوانم ھێندە دوور ڕێ بکەم.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """We didn't go as far as the others.""",
-            kurdishText: """هێندەی ئەوانی دیکە نەچووین.""",
+            kurdishText: """ھێندەی ئەوانی دیکە نەچووین.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
@@ -607,7 +607,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Let's try to plan further ahead.""",
-            kurdishText: """با هەوڵ بدەین پلانی زیاتری داهاتوو دابنێین.""",
+            kurdishText: """با ھەوڵ بدەین پلانی زیاتری داھاتوو دابنێین.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -624,7 +624,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The film takes place in a future not too far distant.""",
             kurdishText:
-                """فیلمەکە لە ڕابردوویەکدا ڕوودەدات کە هێندە دوور نییە.""",
+                """فیلمەکە لە ڕابردوویەکدا ڕوودەدات کە ھێندە دوور نییە.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
@@ -648,14 +648,14 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """There are far more opportunities for young people than there used to be.""",
-            kurdishText: """هەلی زۆر زیاتر بۆ گەنجاو لەچاو جاراندا.""",
+            kurdishText: """ھەلی زۆر زیاتر بۆ گەنجاو لەچاو جاراندا.""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """She always gives us far too much homework.""",
-            kurdishText: """هەمیشە ئەرکی ماڵەوە ئێجگار زۆرمان پێدەدات.""",
+            kurdishText: """ھەمیشە ئەرکی ماڵەوە ئێجگار زۆرمان پێدەدات.""",
             onPressedBritish: () => speaksentence21("en-GB"),
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
@@ -696,14 +696,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Plan your route in advance, using main roads as far as possible.""",
             kurdishText:
-                """پلانی ڕێگاکەدا لە پێشدا دابنێت، چەندە دەکرێت ڕێگای سەرەکی بەکاربهێنە.""",
+                """پلانی ڕێگاکەدا لە پێشدا دابنێت، چەندە دەکرێت ڕێگای سەرەکی بەکاربھێنە.""",
             onPressedBritish: () => speaksentence26("en-GB"),
             onPressedAmerican: () => speaksentence26("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٦. (ھاوەڵکار) بۆ گوتنی ئەوەی چەندە کار کراوە لە کردن یان بەدەستهێنانی شتێک"""),
+                  """٦. (ھاوەڵکار) بۆ گوتنی ئەوەی چەندە کار کراوە لە کردن یان بەدەستھێنانی شتێک"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """How far have you got with that report?""",
@@ -723,7 +723,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We’ve got as far as collecting our data but we haven’t analysed it yet.""",
             kurdishText:
-                """تاوەکو کۆکردنەوەی داتا چووینە، بەڵام هێشتا شیکردنەوەمان بۆ نەکردوون.""",
+                """تاوەکو کۆکردنەوەی داتا چووینە، بەڵام ھێشتا شیکردنەوەمان بۆ نەکردوون.""",
             onPressedBritish: () => speaksentence29("en-GB"),
             onPressedAmerican: () => speaksentence29("en-US"),
           ),
@@ -856,17 +856,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'hFZFjoX2cGg?t=';
+const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 363;
-const String _videoIdone = 'hS2x1zl4rn0?t=';
+const String _videoIdone = 'hS2x1zl4rn0';
 const double _startSecondsone = 1139;
-const String _videoIdtwo = 'hTqtGJwsJVE?t=';
+const String _videoIdtwo = 'hTqtGJwsJVE';
 const double _startSecondstwo = 2400;
-const String _videoIdthree = 'gngPQ771Ahk?t=';
+const String _videoIdthree = 'gngPQ771Ahk';
 const double _startSecondsthree = 2819;
-const String _videoIdfour = '8AGNsvNFUGw?t=';
+const String _videoIdfour = '8AGNsvNFUGw';
 const double _startSecondsfour = 24;
-const String _videoIdfive = 'AFS6saV981Q?t=';
+const String _videoIdfive = 'AFS6saV981Q';
 const double _startSecondsfive = 499;
 
 class YoutubeEmbeddedend extends StatelessWidget {

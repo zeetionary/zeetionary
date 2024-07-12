@@ -448,7 +448,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەداد، دادپەروەر، دادمەند، دروست،	دادوەرانە، دادگەرانە، خودایی، لە ڕووی ئینسافەوە،	بێ‌غەرەز، بێ‌لایەن، لانەگر، بێ‌شێلەوبێلە، بێ‌فروفێڵ،	بەرحەق، ڕەوا، قانوونی،	مام‌ناوەندی، ئەندازە، دەستە، تا ئەندازەیێ باش،	جێی هیوا،	زۆر، زەبەند، بەرچاو، جێی سەرنج،	بێ‌عەیب، بێ‌گەرد، بێ‌خەوش، بێ‌لکە،	(هەوا) خۆش، سازگار، ساو، بێ‌هەور،	کاڵ (قژ)،	خاوێن، تەمیز
+کوردی: بەداد، دادپەروەر، دادمەند، دروست،	دادوەرانە، دادگەرانە، خودایی، لە ڕووی ئینسافەوە،	بێ‌غەرەز، بێ‌لایەن، لانەگر، بێ‌شێلەوبێلە، بێ‌فروفێڵ،	بەرحەق، ڕەوا، قانوونی،	مام‌ناوەندی، ئەندازە، دەستە، تا ئەندازەیێ باش،	جێی ھیوا،	زۆر، زەبەند، بەرچاو، جێی سەرنج،	بێ‌عەیب، بێ‌گەرد، بێ‌خەوش، بێ‌لکە،	(ھەوا) خۆش، سازگار، ساو، بێ‌ھەور،	کاڵ (قژ)،	خاوێن، تەمیز
 """),
           const DefinitionKurdish(
               text:
@@ -481,7 +481,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Was it really fair to him to ask him to do all the work?""",
             kurdishText:
-                """ئەوە دادپەروەرانە بوو بەرامەبری لە داوا بکرێت هەموو کارەکە بکات.""",
+                """ئەوە دادپەروەرانە بوو بەرامەبری لە داوا بکرێت ھەموو کارەکە بکات.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -505,7 +505,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵناو) مامەڵەکردن لەگەڵ هەموان بە یەکسانی و بەپێی یاساکان"""),
+                  """٢. (ھاوەڵناو) مامەڵەکردن لەگەڵ ھەموان بە یەکسانی و بەپێی یاساکان"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They are fair and decent employers.""",
@@ -523,7 +523,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """We have to be fair to both players.""",
-            kurdishText: """دەبێت دادپەروەر بین لەگەڵ هەردوو یاریزانەکە.""",
+            kurdishText: """دەبێت دادپەروەر بین لەگەڵ ھەردوو یاریزانەکە.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),
@@ -532,7 +532,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """For the first time, free and fair elections will be held.""",
             kurdishText:
-                """بۆ یەکەمین جار، هەڵبژاردنی ئازاد و دادپەروەرانە ڕێکدەخرێت.""",
+                """بۆ یەکەمین جار، ھەڵبژاردنی ئازاد و دادپەروەرانە ڕێکدەخرێت.""",
             onPressedBritish: () => speaksentence10("en-GB"),
             onPressedAmerican: () => speaksentence10("en-US"),
           ),
@@ -549,7 +549,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """Everyone has the right to a fair trial.""",
             kurdishText:
-                """هەموو کەسێک مافی هەبوونی دادگاییەکی دادپەروەرانەی هەیە.""",
+                """ھەموو کەسێک مافی ھەبوونی دادگاییەکی دادپەروەرانەی ھەیە.""",
             onPressedBritish: () => speaksentence12("en-GB"),
             onPressedAmerican: () => speaksentence12("en-US"),
           ),
@@ -558,14 +558,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Kate had dark hair and fair skin.""",
-            kurdishText: """کەیت قژی ڕەش و پێستی کاڵی هەبوو.""",
+            kurdishText: """کەیت قژی ڕەش و پێستی کاڵی ھەبوو.""",
             onPressedBritish: () => speaksentence13("en-GB"),
             onPressedAmerican: () => speaksentence13("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """She has long fair hair.""",
-            kurdishText: """قژی کاڵی درێژی هەیە.""",
+            kurdishText: """قژی کاڵی درێژی ھەیە.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
@@ -573,7 +573,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """All her children are fair (= they all have fair hair).""",
-            kurdishText: """هەموو منداڵەکانی قژ کاڵن.""",
+            kurdishText: """ھەموو منداڵەکانی قژ کاڵن.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -584,7 +584,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """A fair number of people came along.""",
-            kurdishText: """ژمارەیەکی زۆر خەڵک هاتن.""",
+            kurdishText: """ژمارەیەکی زۆر خەڵک ھاتن.""",
             onPressedBritish: () => speaksentence16("en-GB"),
             onPressedAmerican: () => speaksentence16("en-US"),
           ),
@@ -600,7 +600,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """We've still got a fair bit (= quite a lot) to do.""",
-            kurdishText: """هێشتا زۆرمان ماوە بیکەین.""",
+            kurdishText: """ھێشتا زۆرمان ماوە بیکەین.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
@@ -611,7 +611,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """There's a fair chance that we might win this time.""",
             kurdishText:
-                """شانسێکی باش هەیە کە لەوانەیە ئەم یارییە ببەینەوە.""",
+                """شانسێکی باش ھەیە کە لەوانەیە ئەم یارییە ببەینەوە.""",
             onPressedBritish: () => speaksentence19("en-GB"),
             onPressedAmerican: () => speaksentence19("en-US"),
           ),
@@ -625,14 +625,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """I have a fair idea of what happened.""",
-            kurdishText: """تێگەشتنێکی باشم هەیە لەوەی چی ڕوویدا.""",
+            kurdishText: """تێگەشتنێکی باشم ھەیە لەوەی چی ڕوویدا.""",
             onPressedBritish: () => speaksentence21("en-GB"),
             onPressedAmerican: () => speaksentence21("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """Scoring twenty points was a fair achievement.""",
-            kurdishText: """بەدەستهێنانی ٢٠ خاڵ بەدەستهێنانێکی باش بوو.""",
+            kurdishText: """بەدەستھێنانی ٢٠ خاڵ بەدەستھێنانێکی باش بوو.""",
             onPressedBritish: () => speaksentence22("en-GB"),
             onPressedAmerican: () => speaksentence22("en-US"),
           ),
@@ -644,14 +644,14 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The day was set fair with the spring sun shining down.""",
             kurdishText:
-                """ڕۆژەکە بە ڕۆشنایی دەستی پێکرد بە خۆری بەهارانەوە کە دەدرەوشایەوە.""",
+                """ڕۆژەکە بە ڕۆشنایی دەستی پێکرد بە خۆری بەھارانەوە کە دەدرەوشایەوە.""",
             onPressedBritish: () => speaksentence23("en-GB"),
             onPressedAmerican: () => speaksentence23("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٧. (ھاوەڵناو) بایەک کە زۆر بەهێز نییە و بە ئاراستەی درووستدا دەچێت"""),
+                  """٧. (ھاوەڵناو) بایەک کە زۆر بەھێز نییە و بە ئاراستەی درووستدا دەچێت"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """They set sail with the first fair wind.""",
@@ -666,7 +666,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Come on, you two, fight fair!""",
-            kurdishText: """هێی، ئەو دووانەتان، دادپەروەرانە بجەنگن.""",
+            kurdishText: """ھێی، ئەو دووانەتان، دادپەروەرانە بجەنگن.""",
             onPressedBritish: () => speaksentence25("en-GB"),
             onPressedAmerican: () => speaksentence25("en-US"),
           ),
@@ -690,11 +690,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """١٠. (ھاوەڵناو) جۆرە چێژبینینێک لە کێڵگەیەک یان پارکێک کە تێیدا ئاژەڵی کێڵگە و بەرهەمەکانیان بەژداری دەکەن و ڕکابەری دەکەن"""),
+                  """١٠. (ھاوەڵناو) جۆرە چێژبینینێک لە کێڵگەیەک یان پارکێک کە تێیدا ئاژەڵی کێڵگە و بەرھەمەکانیان بەژداری دەکەن و ڕکابەری دەکەن"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We all went south for the state fair.""",
-            kurdishText: """هەموومان چووین بۆ باشوور بۆ نمایشی ویلایەتەکە.""",
+            kurdishText: """ھەموومان چووین بۆ باشوور بۆ نمایشی ویلایەتەکە.""",
             onPressedBritish: () => speaksentence27("en-GB"),
             onPressedAmerican: () => speaksentence27("en-US"),
           ),
@@ -759,7 +759,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fair (Derived forms: fairer, fairest)
+- Adjective: fair (derived forms: fairer, fairest)
 1. Free from favouritism or self-interest or bias or deception; conforming with established standards or rules (= just)
 "fair deal"; "on a fair footing"; "a fair fight"; "by fair means or foul"; "a fair referee";
  
@@ -790,7 +790,7 @@ ${englishMeaningConst.text}
 10. (of a baseball) hit between the foul lines
 "he hit a fair ball over the third base bag"
 
-- Noun: fair (Derived forms: fairs)
+- Noun: fair (derived forms: fairs)
 1. A travelling show; having sideshows and rides and games of skill etc. (= carnival [N. Amer], funfair [Brit], carnie [N. Amer, informal], carny [N. Amer, informal])
  
 2. Gathering of producers to promote business
@@ -805,7 +805,7 @@ ${englishMeaningConst.text}
 5. Quite good (= not bad [informal], not so bad [informal])
 "a fair chance of winning";
 
-- Verb: fair (Derived forms: faired, fairs, fairing)
+- Verb: fair (derived forms: faired, fairs, fairing)
 1. Join so that the external surfaces blend smoothly
 
 - Adverb: fair

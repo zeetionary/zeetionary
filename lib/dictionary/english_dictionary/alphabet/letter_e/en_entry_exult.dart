@@ -261,7 +261,7 @@ class KurdishMeaning extends StatelessWidget {
 // """),
           const DefinitionKurdish(
               text:
-                  """١. (کردار) پیشاندانی دڵخۆشی بەهۆی ئەوەی شتێک ڕوویداوە"""),
+                  """١. (کردار) پیشاندانی دڵخۆشی بەھۆی ئەوەی شتێک ڕوویداوە"""),
           SentencesRow(
             englishText:
                 """He leaned back, exulting at the success of his plan.""",
@@ -317,7 +317,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: exult (Derived forms: exults, exulting, exulted)
+- Verb: exult (derived forms: exults, exulting, exulted)
 1. Feel extreme happiness or elation (= walk on air, be on cloud nine, jump for joy)
  
 2. To express great joy (= exuberate, rejoice, triumph, jubilate)

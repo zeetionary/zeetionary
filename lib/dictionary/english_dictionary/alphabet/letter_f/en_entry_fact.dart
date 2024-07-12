@@ -394,7 +394,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕاستی، هەیان، بووە، بوویەر، ڕووداو، شتی دیار و مسۆگەر، بوونی بەرچاو، ڕاستەقینە،	زانیاری
+کوردی: ڕاستی، ھەیان، بووە، بوویەر، ڕووداو، شتی دیار و مسۆگەر، بوونی بەرچاو، ڕاستەقینە،	زانیاری
 """),
           const DefinitionKurdish(
               text:
@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """First, some basic facts about healthy eating.""",
             kurdishText:
-                """سەرەتا، هەندێک ڕستی بنچینەیی سەبارەت بە خواردنی تەندرووست.""",
+                """سەرەتا، ھەندێک ڕستی بنچینەیی سەبارەت بە خواردنی تەندرووست.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -421,7 +421,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """It's a well-known fact that dogs have an acute sense of smell.""",
                     kurdishText:
-                        """ئەوە ڕاستییەکی باش زانراوە کە سەگ هەستێکی بەهێزی بۆنکردنی هەیە.""",
+                        """ئەوە ڕاستییەکی باش زانراوە کە سەگ ھەستێکی بەھێزی بۆنکردنی ھەیە.""",
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
@@ -439,7 +439,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """The report is based on hard facts (= information that can be proved to be true).""",
                     kurdishText:
-                        """ڕاپۆرتەکە پشتی بە ڕاستیی حاشاهەڵنەگر گرتووە.""",
+                        """ڕاپۆرتەکە پشتی بە ڕاستیی حاشاھەڵنەگر گرتووە.""",
                     onPressedBritish: () => speaksentence5("en-GB"),
                     onPressedAmerican: () => speaksentence5("en-US"),
                   ),
@@ -466,14 +466,14 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """The judge instructed both lawyers to stick to the facts of the case.""",
                     kurdishText:
-                        """دادوەرەکە ڕێنمایی هەردوو پارێزەرەکەی کرد پابەند بن بە ڕاستییەکانی کەیسەکەوە.""",
+                        """دادوەرەکە ڕێنمایی ھەردوو پارێزەرەکەی کرد پابەند بن بە ڕاستییەکانی کەیسەکەوە.""",
                     onPressedBritish: () => speaksentence8("en-GB"),
                     onPressedAmerican: () => speaksentence8("en-US"),
                   ),
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """I wish you'd get your facts right!""",
-                    kurdishText: """بەهیوام ڕاستییەکانت بە درووستی وەرگرتبا.""",
+                    kurdishText: """بەھیوام ڕاستییەکانت بە درووستی وەرگرتبا.""",
                     onPressedBritish: () => speaksentence9("en-GB"),
                     onPressedAmerican: () => speaksentence9("en-US"),
                   ),
@@ -524,11 +524,11 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (ناو) بۆ ئاماژەکردن بە دۆخێکی دیاریکراو کە بوونی هەیە"""),
+                  """٣. (ناو) بۆ ئاماژەکردن بە دۆخێکی دیاریکراو کە بوونی ھەیە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """We don't hide the fact that we've made mistakes.""",
-            kurdishText: """ئەو ڕاستییە ناشارینەوە کە هەڵەمان کردووە.""",
+            kurdishText: """ئەو ڕاستییە ناشارینەوە کە ھەڵەمان کردووە.""",
             onPressedBritish: () => speaksentence15("en-GB"),
             onPressedAmerican: () => speaksentence15("en-US"),
           ),
@@ -545,7 +545,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """I did everything I could, and she acknowledged the fact.""",
-            kurdishText: """هەرچی توانیم کردم، و دانی نا بە ڕاستییەکەدا.""",
+            kurdishText: """ھەرچی توانیم کردم، و دانی نا بە ڕاستییەکەدا.""",
             onPressedBritish: () => speaksentence17("en-GB"),
             onPressedAmerican: () => speaksentence17("en-US"),
           ),
@@ -554,7 +554,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The very fact that this happened more than once shows there is a problem.""",
             kurdishText:
-                """ئەو ڕاستییەی کە ئەمە زیاتر لە جارێک ڕوویدا ئەوە پیشان دەدات کە کێشەیەک هەیە.""",
+                """ئەو ڕاستییەی کە ئەمە زیاتر لە جارێک ڕوویدا ئەوە پیشان دەدات کە کێشەیەک ھەیە.""",
             onPressedBritish: () => speaksentence18("en-GB"),
             onPressedAmerican: () => speaksentence18("en-US"),
           ),
@@ -572,7 +572,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Due to the fact that they did not read English, the prisoners were unaware of what they were signing.""",
             kurdishText:
-                """بەهۆی ئەو ڕاستییەی کە نەیاندەتوانی ئینگلیزی بخوێننەوە. زیندانییەکان بێ‌ئاگا بوون لەوەی چیان واژۆ دەکرد.""",
+                """بەھۆی ئەو ڕاستییەی کە نەیاندەتوانی ئینگلیزی بخوێننەوە. زیندانییەکان بێ‌ئاگا بوون لەوەی چیان واژۆ دەکرد.""",
             onPressedBritish: () => speaksentence20("en-GB"),
             onPressedAmerican: () => speaksentence20("en-US"),
           ),
@@ -617,7 +617,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fact (Derived forms: facts)
+- Noun: fact (derived forms: facts)
 1. A piece of information about circumstances that exist or events that have occurred
 "first you must collect all the facts of the case"
  

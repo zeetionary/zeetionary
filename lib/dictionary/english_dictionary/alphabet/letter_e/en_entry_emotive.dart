@@ -361,7 +361,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: سۆزەکی، بەسۆز، ھەست‌بزوێن، بزوێنەر، ورووژێنەر
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵناو) کە هەستی بەهێز درووست دەکات"""),
+          const DefinitionKurdish(
+              text: """١. (ھاوەڵناو) کە ھەستی بەھێز درووست دەکات"""),
           // const AlsoEnglishckb(word: "ھەروەھا: emotional"),
           AlsoEnglishckblink(
             textBeforeLink: "ھەروەھا: ",

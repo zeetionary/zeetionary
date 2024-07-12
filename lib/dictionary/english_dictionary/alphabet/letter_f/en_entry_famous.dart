@@ -296,7 +296,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The actor was one of many famous faces at the party.""",
             kurdishText:
-                """ئەکتەرەکە یەکێک لەو هەموو کەسە بەناوبانگە بوو کە لە ئاهەنگەکە بوون.""",
+                """ئەکتەرەکە یەکێک لەو ھەموو کەسە بەناوبانگە بوو کە لە ئاھەنگەکە بوون.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -305,7 +305,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Loch Ness is probably the most famous lake in Scotland.""",
             kurdishText:
-                """لۆک نێس ئەگەری هەیە بەناوبانگترین دەریاچە لە سکۆتلەندا بێت.""",
+                """لۆک نێس ئەگەری ھەیە بەناوبانگترین دەریاچە لە سکۆتلەندا بێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -323,7 +323,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Many rich and famous people have stayed at the hotel.""",
             kurdishText:
-                """زۆر کەسی دەوڵەمەند و بەناوبانگ لە هوتێلەکە ماونەتەوە.""",
+                """زۆر کەسی دەوڵەمەند و بەناوبانگ لە ھوتێلەکە ماونەتەوە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),

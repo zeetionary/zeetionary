@@ -228,9 +228,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی: 
+// """),
           const DefinitionKurdish(
               text:
                   "١. (کردار) لادانی پاشا یان شاژنێک؛ لادانی کەسێک لە پێگەیەک یان دەسەڵات"),

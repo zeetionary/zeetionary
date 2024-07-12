@@ -630,7 +630,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕوو، ڕوخسار، ماژە، دەم‌وچاو، سەروسەکوت، سەروسیما، دیمە، چارە،	کەسایەتی،	ڕواڵەت، بەر،	ڕووکار، پێش‌خانوو،	(کات‌ژمێر) ڕوو، مینا،	لا، ڕوو، بەر، لایەن، ئالی،	ئابڕوو، ئابوور، بڕەو، باوەڕ، بایەخ،	ڕوو، ڕووداری،	(ئەندازە) هەریەک لە ڕووەکانی تەنێ،	(کێو یان هەڵدێرێ) داوێن، قەدپاڵ، بنار
+کوردی: ڕوو، ڕوخسار، ماژە، دەم‌وچاو، سەروسەکوت، سەروسیما، دیمە، چارە،	کەسایەتی،	ڕواڵەت، بەر،	ڕووکار، پێش‌خانوو،	(کات‌ژمێر) ڕوو، مینا،	لا، ڕوو، بەر، لایەن، ئالی،	ئابڕوو، ئابوور، بڕەو، باوەڕ، بایەخ،	ڕوو، ڕووداری،	(ئەندازە) ھەریەک لە ڕووەکانی تەنێ،	(کێو یان ھەڵدێرێ) داوێن، قەدپاڵ، بنار
 """),
           const DefinitionKurdish(text: """١. (ناو) ڕووخسار"""),
           SentencesRow(
@@ -654,7 +654,7 @@ class KurdishMeaning extends StatelessWidget {
                   SentencesRow(
                     englishText:
                         """The expression on his face never changed.""",
-                    kurdishText: """دەربڕینی ڕووخساری هەرگیز نەگۆڕا.""",
+                    kurdishText: """دەربڕینی ڕووخساری ھەرگیز نەگۆڕا.""",
                     onPressedBritish: () => speaksentence3("en-GB"),
                     onPressedAmerican: () => speaksentence3("en-US"),
                   ),
@@ -671,7 +671,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """At that time, her face was on the covers of all the magazines.""",
                     kurdishText:
-                        """لەو کاتەدا ڕيخساری لەسەر بەرگی هەموو گۆڤارەکان بوو.""",
+                        """لەو کاتەدا ڕيخساری لەسەر بەرگی ھەموو گۆڤارەکان بوو.""",
                     onPressedBritish: () => speaksentence5("en-GB"),
                     onPressedAmerican: () => speaksentence5("en-US"),
                   ),
@@ -736,7 +736,7 @@ class KurdishMeaning extends StatelessWidget {
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """She has a beautiful, oval face.""",
-                    kurdishText: """ڕووخسارێکی جوانی هێلکەیی هەیە.""",
+                    kurdishText: """ڕووخسارێکی جوانی ھێلکەیی ھەیە.""",
                     onPressedBritish: () => speaksentence14("en-GB"),
                     onPressedAmerican: () => speaksentence14("en-US"),
                   ),
@@ -751,7 +751,7 @@ class KurdishMeaning extends StatelessWidget {
                   SentencesRow(
                     englishText: """Her short hair suited her elfin face.""",
                     kurdishText:
-                        """قژە کورتەکەی لە ڕووخسارە بچووکەکەی دەهات.""",
+                        """قژە کورتەکەی لە ڕووخسارە بچووکەکەی دەھات.""",
                     onPressedBritish: () => speaksentence16("en-GB"),
                     onPressedAmerican: () => speaksentence16("en-US"),
                   ),
@@ -792,7 +792,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """He just stood there with a confused face.""",
                     kurdishText:
-                        """تەنها لەوێدا وەستا بە ڕووخسارێکی شڵەژاوەوە.""",
+                        """تەنھا لەوێدا وەستا بە ڕووخسارێکی شڵەژاوەوە.""",
                     onPressedBritish: () => speaksentence20("en-GB"),
                     onPressedAmerican: () => speaksentence20("en-US"),
                   ),
@@ -856,11 +856,11 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٤. (ناو) هەبوونی ئەو جۆرە ڕووخسارەی کە باسکراوە"""),
+              text: """٤. (ناو) ھەبوونی ئەو جۆرە ڕووخسارەی کە باسکراوە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """The sad-faced woman held a photograph.""",
-            kurdishText: """ژنە ڕوو خەمگینەکە وێنەیەکی هەڵگرتبوو.""",
+            kurdishText: """ژنە ڕوو خەمگینەکە وێنەیەکی ھەڵگرتبوو.""",
             onPressedBritish: () => speaksentence28("en-GB"),
             onPressedAmerican: () => speaksentence28("en-US"),
           ),
@@ -877,21 +877,21 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """A banner hung across the face of the building.""",
-            kurdishText: """درووشمێک بە ڕووی بیناکەدا هەڵواسرابوو.""",
+            kurdishText: """درووشمێک بە ڕووی بیناکەدا ھەڵواسرابوو.""",
             onPressedBritish: () => speaksentence30("en-GB"),
             onPressedAmerican: () => speaksentence30("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """How many faces does a cube have?""",
-            kurdishText: """خشتەیەک (= شەش‌پاڵوو) چەند ڕووی هەیە؟""",
+            kurdishText: """خشتەیەک (= شەش‌پاڵوو) چەند ڕووی ھەیە؟""",
             onPressedBritish: () => speaksentence31("en-GB"),
             onPressedAmerican: () => speaksentence31("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """We slowly climbed the steep face of the crag.""",
-            kurdishText: """بەهێواشی سەرکەوتین بە ڕووی هەڵدێرەکەدا.""",
+            kurdishText: """بەھێواشی سەرکەوتین بە ڕووی ھەڵدێرەکەدا.""",
             onPressedBritish: () => speaksentence32("en-GB"),
             onPressedAmerican: () => speaksentence32("en-US"),
           ),
@@ -901,7 +901,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """She preferred a watch face with Roman numerals.""",
             kurdishText:
-                """حەزی بە ڕووی کاتژمێرێک بوو کە ژمارەی ڕۆمانی هەبێت.""",
+                """حەزی بە ڕووی کاتژمێرێک بوو کە ژمارەی ڕۆمانی ھەبێت.""",
             onPressedBritish: () => speaksentence33("en-GB"),
             onPressedAmerican: () => speaksentence33("en-US"),
           ),
@@ -967,7 +967,7 @@ class KurdishMeaning extends StatelessWidget {
                   const DividerSentences(),
                   SentencesRow(
                     englishText: """They pray facing the east.""",
-                    kurdishText: """نزا دەکەن بە ڕووکردن لە ڕۆژهەڵات.""",
+                    kurdishText: """نزا دەکەن بە ڕووکردن لە ڕۆژھەڵات.""",
                     onPressedBritish: () => speaksentence40("en-GB"),
                     onPressedAmerican: () => speaksentence40("en-US"),
                   ),
@@ -976,7 +976,7 @@ class KurdishMeaning extends StatelessWidget {
                     englishText:
                         """Babies may prefer to be carried facing outwards.""",
                     kurdishText:
-                        """منداڵان ڕەنگە پێیان خۆش بێت هەڵبگیردرێن ڕوویان لە سەرەوە بێت.""",
+                        """منداڵان ڕەنگە پێیان خۆش بێت ھەڵبگیردرێن ڕوویان لە سەرەوە بێت.""",
                     onPressedBritish: () => speaksentence41("en-GB"),
                     onPressedAmerican: () => speaksentence41("en-US"),
                   ),
@@ -1022,19 +1022,19 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """١١. (کردار) پەسەندکردنی ئەوەی دۆخێکی دیاریکراو بوونی هەیە، ئەگەرچی پێت خۆش نییە"""),
+                  """١١. (کردار) پەسەندکردنی ئەوەی دۆخێکی دیاریکراو بوونی ھەیە، ئەگەرچی پێت خۆش نییە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """It's time to face reality—we failed.""",
             kurdishText:
-                """کاتی ئەوەیە ڕووبەڕووی ڕاستی ببینەوە ـ شکستمان هێنا.""",
+                """کاتی ئەوەیە ڕووبەڕووی ڕاستی ببینەوە ـ شکستمان ھێنا.""",
             onPressedBritish: () => speaksentence46("en-GB"),
             onPressedAmerican: () => speaksentence46("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """It's not always easy to face the truth.""",
-            kurdishText: """هەمیشە ئاسان نییە ڕووبەڕووی ڕاستی ببینەوە.""",
+            kurdishText: """ھەمیشە ئاسان نییە ڕووبەڕووی ڕاستی ببینەوە.""",
             onPressedBritish: () => speaksentence47("en-GB"),
             onPressedAmerican: () => speaksentence47("en-US"),
           ),
@@ -1043,7 +1043,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """I did something wrong and I will face the consequences.""",
             kurdishText:
-                """شتێکی هەڵەم کرد و ڕووبەڕووی دەرئەنجامەکانی دەبمەوە.""",
+                """شتێکی ھەڵەم کرد و ڕووبەڕووی دەرئەنجامەکانی دەبمەوە.""",
             onPressedBritish: () => speaksentence48("en-GB"),
             onPressedAmerican: () => speaksentence48("en-US"),
           ),
@@ -1075,14 +1075,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """She could never face arguing with him.""",
-            kurdishText: """هەرگیز نەیدەتوانی بەرگەی مشتومڕ لەگەڵی بگرێت.""",
+            kurdishText: """ھەرگیز نەیدەتوانی بەرگەی مشتومڕ لەگەڵی بگرێت.""",
             onPressedBritish: () => speaksentence52("en-GB"),
             onPressedAmerican: () => speaksentence52("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """I'd go, but I can't face getting up so early.""",
-            kurdishText: """دەچم، بەڵام ناتوانم هێندە زوو هەڵبستم.""",
+            kurdishText: """دەچم، بەڵام ناتوانم ھێندە زوو ھەڵبستم.""",
             onPressedBritish: () => speaksentence53("en-GB"),
             onPressedAmerican: () => speaksentence53("en-US"),
           ),
@@ -1139,7 +1139,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: face (Derived forms: faces)
+- Noun: face (derived forms: faces)
 1. The front of the human head from the forehead to the chin and ear to ear (= human face)
 "I wish I had seen the look on his face when he got the news"; "he washed his face";
  
@@ -1175,7 +1175,7 @@ ${englishMeaningConst.text}
  
 13. A vertical surface of a building or cliff
 
-- Verb: face (Derived forms: faced, faces, facing)
+- Verb: face (derived forms: faced, faces, facing)
 1. Deal with (something unpleasant) head on (= confront, face up)
 "He faced the terrible consequences of his mistakes";
  

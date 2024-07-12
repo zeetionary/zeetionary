@@ -249,9 +249,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           // const DefinitionKurdish(text: """١. (ناو) پارچە قوماشێکی بچووک کە بۆ پاککردنەوەی خۆت بەکاردێت"""),
           CustomRichText(
             textBeforeLink: "١. بڕوانە لە ",
@@ -302,7 +302,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: facecloth (Derived forms: face cloths)
+- Noun: facecloth (derived forms: face cloths)
 Usage: Brit, Cdn (US: washcloth)
 1. Bath linen consisting of a piece of cloth used to wash the face and body (= washcloth [N. Amer], washrag, flannel [Brit])
 """,

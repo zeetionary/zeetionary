@@ -251,7 +251,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ڕوونووس، هەڵگیراوە، کۆپی،	فەکس
+کوردی: ڕوونووس، ھەڵگیراوە، کۆپی،	فەکس
 """),
           const DefinitionKurdish(text: """١. (ناو) لەبەرگیراوەی تەوای شتێک"""),
           SentencesRow(
@@ -312,12 +312,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: facsimile (Derived forms: facsimiles)
+- Noun: facsimile (derived forms: facsimiles)
 1. An exact copy or reproduction (= autotype)
  
 2. Duplicator that transmits the copy by wire or radio (= facsimile machine, fax, fax machine)
 
-- Verb: facsimile (Derived forms: facsimiled, facsimiling, facsimiles)
+- Verb: facsimile (derived forms: facsimiled, facsimiling, facsimiles)
 1. Send something via a facsimile machine (= fax, telefax)
 "Can you facsimile me the report right away?";
 """,

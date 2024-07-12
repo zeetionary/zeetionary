@@ -274,17 +274,17 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ھاوەڵکار) بە شێوەیەک کە بە بەهێزی هەستی پێ دەکرێت"""),
+                  """٢. (ھاوەڵکار) بە شێوەیەک کە بە بەھێزی ھەستی پێ دەکرێت"""),
           SentencesRow(
             englishText: """Even light pressure was exquisitely painful.""",
             kurdishText:
-                """تەنانەت فشاری ڕۆشناییش دەکرا بە بەهێزی بەئازار بێت.""",
+                """تەنانەت فشاری ڕۆشناییش دەکرا بە بەھێزی بەئازار بێت.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           // skipped_meaning
           // const DividerDefinition(),
-          // const DefinitionKurdish(text: """٣. (ھاوەڵکار) بەشێوەیەکی هەستیار"""),
+          // const DefinitionKurdish(text: """٣. (ھاوەڵکار) بەشێوەیەکی ھەستیار"""),
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """speaksentence300""",

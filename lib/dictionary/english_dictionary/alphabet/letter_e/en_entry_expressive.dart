@@ -257,14 +257,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: پڕواتا، پڕمانا، پڕهەست، بەهەست، بەمەعنا، پیشان‌دەر، دەربڕ، ناودار، واتادار، مانادار، مەعنادار
+کوردی: پڕواتا، پڕمانا، پڕھەست، بەھەست، بەمەعنا، پیشان‌دەر، دەربڕ، ناودار، واتادار، مانادار، مەعنادار
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ھاوەڵناو) کە دەتوانێت هەست و بیرکردنەوەکانی پیشان بدات"""),
+                  """١. (ھاوەڵناو) کە دەتوانێت ھەست و بیرکردنەوەکانی پیشان بدات"""),
           SentencesRow(
             englishText: """She has wonderfully expressive eyes.""",
-            kurdishText: """چاوی جوانی پڕهەستی هەیە.""",
+            kurdishText: """چاوی جوانی پڕھەستی ھەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Every word and gesture is expressive of the artist's sincerity.""",
             kurdishText:
-                """هەموو وشە و جووڵەیەک دەربڕی سەرڕاستیی هونەرمەندەکەیە.""",
+                """ھەموو وشە و جووڵەیەک دەربڕی سەرڕاستیی ھونەرمەندەکەیە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

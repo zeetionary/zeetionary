@@ -274,7 +274,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: ئەوپەڕ، سەرپەڕ، دواڕادە، دواپلە، سەر، نووک، بن، ئەندازە، ڕادە، کۆتایی، ئاخر، دوایی،	تونڕەوی، پەڕگیری، زێدەڕەوی،	بەڵا، نەهامەتی، مەینەتی، کارەسات، ڕۆژەڕەشی، کڵۆڵی، تەنگانە، زەبروزەنگ، توندوتیژی،	ئەندامانی ئاخری لەش، دوورترین بەشەکانی لەش، دەست و پێ
+کوردی: ئەوپەڕ، سەرپەڕ، دواڕادە، دواپلە، سەر، نووک، بن، ئەندازە، ڕادە، کۆتایی، ئاخر، دوایی،	تونڕەوی، پەڕگیری، زێدەڕەوی،	بەڵا، نەھامەتی، مەینەتی، کارەسات، ڕۆژەڕەشی، کڵۆڵی، تەنگانە، زەبروزەنگ، توندوتیژی،	ئەندامانی ئاخری لەش، دوورترین بەشەکانی لەش، دەست و پێ
 """),
           const DefinitionKurdish(
               text: """١. (ناو) دوورترین خاڵ، کۆتایی، یان سنووری شتێک"""),
@@ -282,7 +282,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The lake is situated at the eastern extremity of the mountain range.""",
             kurdishText:
-                """دەریاچەکە هەڵکەوتووە لە ئەوپەڕی ڕۆژهەڵاتی زنجیرە شاخەکە.""",
+                """دەریاچەکە ھەڵکەوتووە لە ئەوپەڕی ڕۆژھەڵاتی زنجیرە شاخەکە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -298,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٢. (ناو) ئاستی سەختی، نامۆیی، یان توندی دۆخێک، هەستێک، کارێک، هتد"""),
+                  """٢. (ناو) ئاستی سەختی، نامۆیی، یان توندی دۆخێک، ھەستێک، کارێک، ھتد"""),
           SentencesRow(
             englishText: """The patient screamed at the extremity of pain.""",
             kurdishText: """نەخۆشەکە لە سەختی ئازاردا دەیقیژاند.""",
@@ -313,7 +313,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """In such a situation, your heart pumps faster to prevent your extremities from freezing.""",
             kurdishText:
-                """لە دۆخێکی وەهادا، دڵت خێراتر لێدەدات بۆ ڕێگرتن لە بەستنی دەست و پێ.""",
+                """لە دۆخێکی وەھادا، دڵت خێراتر لێدەدات بۆ ڕێگرتن لە بەستنی دەست و پێ.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -358,7 +358,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extremity (Derived forms: extremities)
+- Noun: extremity (derived forms: extremities)
 1. An external body part that projects from the body (= appendage, member)
 "it is important to keep the extremities warm";
  

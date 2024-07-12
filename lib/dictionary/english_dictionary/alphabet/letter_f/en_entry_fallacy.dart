@@ -265,15 +265,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: چەواشەگەری، ڕاستی‌گۆڕی،	هەڵە، باوەڕی نادروست یان بەدرۆ، باوەڕی هەڵە،	بیرۆکەی چەوت یان هەڵە، بیرۆکەی بەهەڵەدابەر
+کوردی: چەواشەگەری، ڕاستی‌گۆڕی،	ھەڵە، باوەڕی نادروست یان بەدرۆ، باوەڕی ھەڵە،	بیرۆکەی چەوت یان ھەڵە، بیرۆکەی بەھەڵەدابەر
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) تێگەشتنێکی هەڵە کە زۆر کەس پێیان وایە ڕاستە"""),
+              text: """١. (ناو) تێگەشتنێکی ھەڵە کە زۆر کەس پێیان وایە ڕاستە"""),
           SentencesRow(
             englishText:
                 """It is a fallacy to say that the camera never lies.""",
             kurdishText:
-                """ئەوە چەواشەگەرییە کە بڵێیت کامێرا هەرگیز درۆ ناکات.""",
+                """ئەوە چەواشەگەرییە کە بڵێیت کامێرا ھەرگیز درۆ ناکات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -282,13 +282,13 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The idea that all women want children is a common fallacy.""",
             kurdishText:
-                """ئەو تێگەشتنەی کە هەموو ژنێک منداڵی دەوێت باوەڕێکی هەڵەی باوە.""",
+                """ئەو تێگەشتنەی کە ھەموو ژنێک منداڵی دەوێت باوەڕێکی ھەڵەی باوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
-              text: """٢. (ناو) شێوازێکی هەڵەی بیرکردنەوە"""),
+              text: """٢. (ناو) شێوازێکی ھەڵەی بیرکردنەوە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """He detected the fallacy of her argument.""",
@@ -337,7 +337,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fallacy (Derived forms: fallacies)
+- Noun: fallacy (derived forms: fallacies)
 1. A misconception resulting from incorrect reasoning (= false belief)
 """,
   );

@@ -322,14 +322,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: کێڵگە، مووچە، بنەجووت، مەزرا، هێگا،	(لە لێکدانا) شوێنی بەخێوکردن یان ڕاگرتن، ـداری، ـراگری،	شوێنی بەخێوکردن یان ڕاگرتنی ئاژەڵ (و ماسی)،	زەوی ئیجارەیی یان بەئیجارەدراو،	ماڵی جووتیار، خانووی سەر زەوی 
+کوردی: کێڵگە، مووچە، بنەجووت، مەزرا، ھێگا،	(لە لێکدانا) شوێنی بەخێوکردن یان ڕاگرتن، ـداری، ـراگری،	شوێنی بەخێوکردن یان ڕاگرتنی ئاژەڵ (و ماسی)،	زەوی ئیجارەیی یان بەئیجارەدراو،	ماڵی جووتیار، خانووی سەر زەوی 
 """),
           const DefinitionKurdish(
               text:
                   """١. (ناو) زەوییەک و بیناکانی دەورووبەری کە بۆ چاندنی بەرووبوم و بەخێوکردنی ئاژەڵ بەکاردێت"""),
           SentencesRow(
             englishText: """He runs the farm on his own.""",
-            kurdishText: """خۆی بە تەنها کێڵگەکە بەڕێوە دەبات.""",
+            kurdishText: """خۆی بە تەنھا کێڵگەکە بەڕێوە دەبات.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """During the war, few men were left to work the farm.""",
             kurdishText:
-                """لە ماوەی جەنگەکەدا کەم پیاو جێهێڵدران بۆ کارکردن لەسەر کێڵگەکە.""",
+                """لە ماوەی جەنگەکەدا کەم پیاو جێھێڵدران بۆ کارکردن لەسەر کێڵگەکە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -396,7 +396,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
-                  """٣. (کردار) بەکارهێنانی زەوی بۆ چاندنی بەرووبوم یان بەخێوکردنی ئاژەڵ"""),
+                  """٣. (کردار) بەکارھێنانی زەوی بۆ چاندنی بەرووبوم یان بەخێوکردنی ئاژەڵ"""),
           const DividerSentences(),
           SentencesRow(
             englishText:
@@ -461,7 +461,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: farm (Derived forms: farms)
+- Noun: farm (derived forms: farms)
 1. Workplace consisting of farm buildings and cultivated land as a unit
 "it takes several people to work the farm"
  
@@ -471,7 +471,7 @@ ${englishMeaningConst.text}
 3. (computing) a group of computers used for some coordinated purposes
 "a server farm"
 
-- Verb: farm (Derived forms: farming, farms, farmed)
+- Verb: farm (derived forms: farming, farms, farmed)
 1. Be a farmer; work as a farmer
 "My son is farming in California"
  
@@ -503,17 +503,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'e09xig209cQ?t=';
+const String _videoIdend = 'e09xig209cQ';
 const double _startSecondsend = 88;
-const String _videoIdone = '0eEkWvekQiE?t=';
+const String _videoIdone = '0eEkWvekQiE';
 const double _startSecondsone = 159;
-const String _videoIdtwo = 'p_8t6-QmHj4?t=';
+const String _videoIdtwo = 'p_8t6-QmHj4';
 const double _startSecondstwo = 7;
-const String _videoIdthree = 'qWAagS_MANg?t=';
+const String _videoIdthree = 'qWAagS_MANg';
 const double _startSecondsthree = 410;
-const String _videoIdfour = 'SJx1SPClg6A?t=';
+const String _videoIdfour = 'SJx1SPClg6A';
 const double _startSecondsfour = 62;
-const String _videoIdfive = 'm4qhDGG1C3k?t=';
+const String _videoIdfive = 'm4qhDGG1C3k';
 const double _startSecondsfive = 6;
 
 class YoutubeEmbeddedend extends StatelessWidget {

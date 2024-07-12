@@ -275,7 +275,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """During their mission, they encounter all kinds of bizarre and fanciful creatures.""",
             kurdishText:
-                """لەماوەی ئەرکەکەیان، هەموو جۆرە گیانلەبەرێکی نامۆ و خەیاڵی دەبینن.""",
+                """لەماوەی ئەرکەکەیان، ھەموو جۆرە گیانلەبەرێکی نامۆ و خەیاڵی دەبینن.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

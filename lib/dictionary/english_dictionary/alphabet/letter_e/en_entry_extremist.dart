@@ -253,7 +253,7 @@ class KurdishMeaning extends StatelessWidget {
 """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) کەسێک کە باوەڕی سیاسیی یان ئاینیی زۆر توندە و دەکرێت ببێتە هۆکاری ئەوەی کاری توندڕەوی یان نایاسایی بکات"""),
+                  """١. (ناو) کەسێک کە باوەڕی سیاسیی یان ئاینیی زۆر توندە و دەکرێت ببێتە ھۆکاری ئەوەی کاری توندڕەوی یان نایاسایی بکات"""),
           SentencesRow(
             englishText: """He was assassinated by extremists.""",
             kurdishText: """لەلایەن توندڕەوانەوە تیرۆرکرا.""",
@@ -305,7 +305,7 @@ ${englishMeaningConst.text}
 1. (used of opinions and actions) far beyond the norm (= radical, ultra)
 "extremist political views";
 
-- Noun: extremist (Derived forms: extremists)
+- Noun: extremist (derived forms: extremists)
 1. A person who holds extreme views (= ultra)
 """,
   );

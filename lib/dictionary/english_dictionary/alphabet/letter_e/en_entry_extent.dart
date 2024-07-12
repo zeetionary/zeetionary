@@ -305,10 +305,10 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بەرینایی، بەربڵاوی، بەرفرەهی،	ڕاخستە، بوار، مەڵبەند، پانتایی، گۆڕایی، پانایی، قاد، پانی،	درێژی، درێژایی،	ڕووبەر،	قەبارە، بارستایی،	ڕادە، ئەندازە، ئاست، بڕ، پلە
+کوردی: بەرینایی، بەربڵاوی، بەرفرەھی،	ڕاخستە، بوار، مەڵبەند، پانتایی، گۆڕایی، پانایی، قاد، پانی،	درێژی، درێژایی،	ڕووبەر،	قەبارە، بارستایی،	ڕادە، ئەندازە، ئاست، بڕ، پلە
 """),
           const DefinitionKurdish(
-              text: """١. (ناو) ئاستی گەورەیی، گرنگی، ڕژدی، هتد ـی شتێک"""),
+              text: """١. (ناو) ئاستی گەورەیی، گرنگی، ڕژدی، ھتد ـی شتێک"""),
           SentencesRow(
             englishText:
                 """It is difficult to assess the full extent of the damage.""",
@@ -343,7 +343,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """The government sought to play down the extent of the problem.""",
-            kurdishText: """حکومەت هەوڵیدا لە ئاستی کێشەکە کەم بکاتەوە.""",
+            kurdishText: """حکومەت ھەوڵیدا لە ئاستی کێشەکە کەم بکاتەوە.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),
@@ -411,7 +411,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: extent (Derived forms: extents)
+- Noun: extent (derived forms: extents)
 1. The point or degree to which something extends
 "the extent of the damage"; "the full extent of the law"; "to a certain extent she was right"
  

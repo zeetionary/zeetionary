@@ -272,9 +272,9 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           // const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
           CustomRichText(
             textBeforeLink: "١. شوێنکەتوو یان باوەڕداری ",
@@ -297,7 +297,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The period between the two World Wars saw the rise of fascist regimes in Italy and Germany.""",
             kurdishText:
-                """ماوەی نێوان دوو جەنگە جیهانییەکە دەرکەوتنی فاشیزمی لە ئیتالیا و ئەڵمانیا بینی.""",
+                """ماوەی نێوان دوو جەنگە جیھانییەکە دەرکەوتنی فاشیزمی لە ئیتالیا و ئەڵمانیا بینی.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -364,7 +364,7 @@ ${englishMeaningConst.text}
 1. Relating to or characteristic of fascism (= fascistic)
 "fascist propaganda";
 
-- Noun: fascist (Derived forms: fascists)
+- Noun: fascist (derived forms: fascists)
 1. An adherent of fascism or other authoritarian views
 """,
   );
@@ -390,17 +390,17 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'zlg03lfBrEA?t=';
+const String _videoIdend = 'zlg03lfBrEA';
 const double _startSecondsend = 76;
-const String _videoIdone = '3C9wZf88y4Q?t=';
+const String _videoIdone = '3C9wZf88y4Q';
 const double _startSecondsone = 96;
-const String _videoIdtwo = 'YeAxxMZf1O4?t=';
+const String _videoIdtwo = 'YeAxxMZf1O4';
 const double _startSecondstwo = 137;
-const String _videoIdthree = 'NVH7JewfgJg?t=';
+const String _videoIdthree = 'NVH7JewfgJg';
 const double _startSecondsthree = 310;
-const String _videoIdfour = 'CA-eyG7lUv8?t=';
+const String _videoIdfour = 'CA-eyG7lUv8';
 const double _startSecondsfour = 16;
-const String _videoIdfive = 'p6OVtsH6Feg?t=';
+const String _videoIdfive = 'p6OVtsH6Feg';
 const double _startSecondsfive = 201;
 
 class YoutubeEmbeddedend extends StatelessWidget {

@@ -286,7 +286,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) بەشی دەرەوەی شتێک"""),
           SentencesRow(
             englishText: """The exterior of the house needs painting.""",
-            kurdishText: """ڕووی دەرەوەی خانووەکە پێویستی بە بۆیەکردن هەیە.""",
+            kurdishText: """ڕووی دەرەوەی خانووەکە پێویستی بە بۆیەکردن ھەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -295,7 +295,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """There is an abundance of fine sculpture, both on the exterior and inside.""",
             kurdishText:
-                """ژمارەیەکی زۆر لە پەیکەری جوان هەیە، چی لە دەرەوە یان ناوەوە.""",
+                """ژمارەیەکی زۆر لە پەیکەری جوان ھەیە، چی لە دەرەوە یان ناوەوە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -314,7 +314,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 """Beneath her charming exterior lies a very determined woman.""",
-            kurdishText: """لەژێر ڕووە جوانەکەیەوە ژنێکی زۆر کۆڵنەدەر هەیە.""",
+            kurdishText: """لەژێر ڕووە جوانەکەیەوە ژنێکی زۆر کۆڵنەدەر ھەیە.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
@@ -374,7 +374,7 @@ ${englishMeaningConst.text}
 1. Situated in or suitable for the outdoors or outside of a building
 "an exterior scene"; "exterior grade plywood"; "exterior paints"
 
-- Noun: exterior (Derived forms: exteriors)
+- Noun: exterior (derived forms: exteriors)
 1. The region that is outside of something (= outside)
  
 2. The outer side or surface of something (= outside)

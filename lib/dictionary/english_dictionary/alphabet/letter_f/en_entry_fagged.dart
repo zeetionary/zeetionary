@@ -248,7 +248,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی:  هیلاک، ماندوو، شەکەت، کەشتەنگ
+کوردی:  ھیلاک، ماندوو، شەکەت، کەشتەنگ
 """),
           const DefinitionKurdish(text: """١. (ھاوەڵناو) تەواو ماندوو"""),
           SentencesRow(

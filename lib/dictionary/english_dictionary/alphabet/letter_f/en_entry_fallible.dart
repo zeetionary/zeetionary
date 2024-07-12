@@ -257,13 +257,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: هەڵەکار، هەڵەلەسەر، لەهەڵەهاتوو، هەڵەکردوو، هەڵفریواو، لێ‌شێواو
+کوردی: ھەڵەکار، ھەڵەلەسەر، لەھەڵەھاتوو، ھەڵەکردوو، ھەڵفریواو، لێ‌شێواو
 """),
           const DefinitionKurdish(
-              text: """١. (ھاوەڵناو) کە دەکرێت هەڵە بکەین یان هەڵە ببین"""),
+              text: """١. (ھاوەڵناو) کە دەکرێت ھەڵە بکەین یان ھەڵە ببین"""),
           SentencesRow(
             englishText: """All human beings are fallible.""",
-            kurdishText: """هەموو مرۆڤەکان شیاوی هەڵەن.""",
+            kurdishText: """ھەموو مرۆڤەکان شیاوی ھەڵەن.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -272,7 +272,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We place our trust in doctors, but they are fallible like everyone else.""",
             kurdishText:
-                """متمانەی خۆمان دەدەین بە پزیشکان، بەڵام ئەوانیش وەک هەموانی دیکە هەڵەکردوون.""",
+                """متمانەی خۆمان دەدەین بە پزیشکان، بەڵام ئەوانیش وەک ھەموانی دیکە ھەڵەکردوون.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),

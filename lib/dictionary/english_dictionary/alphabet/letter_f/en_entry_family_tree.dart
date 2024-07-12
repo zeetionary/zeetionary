@@ -248,12 +248,12 @@ class KurdishMeaning extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [
           const DividerDefinition(),
-          const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//           const KurdishVocabulary(text: """
+// کوردی:
+// """),
           const DefinitionKurdish(
               text:
-                  """١. (ناو) ڕەچەڵەک‌نامە؛ هەڵکارییەک کە پەیوەندیی ئەندامانی خێزانێک بۆ ماوەیەکی درێژ پیشان دەدات"""),
+                  """١. (ناو) ڕەچەڵەک‌نامە؛ ھەڵکارییەک کە پەیوەندیی ئەندامانی خێزانێک بۆ ماوەیەکی درێژ پیشان دەدات"""),
           SentencesRow(
             englishText: """How far back can you trace your family tree?""",
             kurdishText: """چەندە دوور دەتوانیت ڕەچەڵەکی خێزانیت بگێڕیتەوە؟""",
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: family tree (Derived forms: family trees)
+- Noun: family tree (derived forms: family trees)
 1. Successive generations of kin (= genealogy)
 """,
   );

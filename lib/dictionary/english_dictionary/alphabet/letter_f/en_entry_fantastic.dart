@@ -320,7 +320,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """This was a fantastic opportunity for students.""",
-            kurdishText: """ئەمە هەلێکی نموونەیی بوو بۆ خوێندکارەکان.""",
+            kurdishText: """ئەمە ھەلێکی نموونەیی بوو بۆ خوێندکارەکان.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -334,14 +334,14 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """It was a fantastic achievement.""",
-            kurdishText: """بەدەستهێنانێکی فرەخاس بوو.""",
+            kurdishText: """بەدەستھێنانێکی فرەخاس بوو.""",
             onPressedBritish: () => speaksentence4("en-GB"),
             onPressedAmerican: () => speaksentence4("en-US"),
           ),
           const DividerSentences(),
           SentencesRow(
             englishText: """The weather was absolutely fantastic.""",
-            kurdishText: """کەشووهەواکە تەواو نایاب بوو.""",
+            kurdishText: """کەشووھەواکە تەواو نایاب بوو.""",
             onPressedBritish: () => speaksentence5("en-GB"),
             onPressedAmerican: () => speaksentence5("en-US"),
           ),

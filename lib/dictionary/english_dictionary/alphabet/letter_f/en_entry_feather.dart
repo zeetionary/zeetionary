@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfearlessly extends StatefulWidget {
-  const EnglishEntryfearlessly({super.key});
+class EnglishEntryfeather extends StatefulWidget {
+  const EnglishEntryfeather({super.key});
 
   @override
-  State<EnglishEntryfearlessly> createState() => _EnglishEntryfearlesslyState();
+  State<EnglishEntryfeather> createState() => _EnglishEntryfeatherState();
 }
 
-class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
+class _EnglishEntryfeatherState extends State<EnglishEntryfeather> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fearlessly""");
+    await flutterTts.speak("""feather""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fearlessly""",
-                      // alsoEnglishWord: "also: fearlessly",
-                      britshText: """IpaUK: /ˈfɪələsli/""",
-                      americanText: """IpaUS: /ˈfɪrləsli/""",
+                      word: """feather""",
+                      // alsoEnglishWord: "also: feather",
+                      britshText: """IpaUK: /ˈfeðə(r)/""",
+                      americanText: """IpaUS: /ˈfeðər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fearlessly";
+  final String keyword = "feather";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,15 +237,14 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She has fearlessly exposed corruption.""");
+    await flutterTts.speak("""I had to pluck the dead hen's feathers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They fought fearlessly against the invading armies.""");
+    await flutterTts.speak("""The chicks have grown their adult feathers.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +863,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
+// With short examples define "feather", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +872,12 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ترس، بێ‌ترس و لەرز، بێ‌باکانە، نەترسانە
+کوردی: پەڕ، کۆنک،	باڵ‌وپەڕ، پەڕوباڵ،	پەڕی کڵاو،	ڕیشکۆ
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە ترس پیشان نادات"""),
+          const DefinitionKurdish(text: """١. (ناو) پەڕەی باڵندە"""),
           SentencesRow(
-            englishText:
-                """She has fearlessly exposed corruption.""",
-            kurdishText: """نەترسانە گەندەڵی ئاشکرا کردووە.""",
+            englishText: """I had to pluck the dead hen's feathers.""",
+            kurdishText: """پێویست بوو پەڕەکانی مریشکە مرداربووەکە لێبکمەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +885,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They fought fearlessly against the invading armies.""",
-            kurdishText: """نەترسانە دژ بە سوپا داگیرکەرەکە جەنگان.""",
+            englishText: """The chicks have grown their adult feathers.""",
+            kurdishText: """جووجکەکان پەڕەی پێگەشتووییان دەرکردووە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1671,9 +1669,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: fearlessly
-1. Without fear (= dauntlessly, intrepidly)
-"fearlessly, he led the troops into combat";
+- Noun: feather (Derived forms: feathers)
+1. Branching, hair-like structure that grows on the bodies of birds
+ 
+2. Turning an oar parallel to the water between pulls (= feathering)
+
+- Verb: feather (Derived forms: feathers, feathering, feathered)
+1. Join tongue and groove, in carpentry
+ 
+2. Cover or fit with feathers
+ 
+3. Grow feathers (= fledge)
+"The young sparrows are feathering already";
+ 
+4. (computer graphics) blend the pixels of an image with those of a background or a neighbouring image
+ 
+5. (canoeing) turn the paddle so the blade is parallel to the water flow
+ 
+6. (rowing) turn the oar so the blade is parallel to the water but in the air, reducing resistance and noise
+ 
+7. Change the angle of the blades of an aircraft propeller so they are parallel to the air flow (reducing drag and stopping windmilling)
 """,
   );
 
@@ -1698,18 +1713,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsend = 0000000000000000000000000001804;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000854;
-const String _videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
-const double _startSecondstwo = 000000000000000000000000000259;
-const String _videoIdthree = 'https://youtu.be/qgVsKzfRo3Q?t=';
-const double _startSecondsthree = 000000000000000000000000000254;
-const String _videoIdfour = 'https://youtu.be/vc90NQpY_4s?t=';
-const double _startSecondsfour = 000000000000000000000000000994;
-const String _videoIdfive = 'https://youtu.be/HAZlPuL3Qhw?t=';
-const double _startSecondsfive = 0000000000000000000000000001173;
+const String _videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
+const double _startSecondsend = 0000000000000000000000000001233;
+const String _videoIdone = 'https://youtu.be/2fOWFfpLYW0?t=';
+const double _startSecondsone = 0000000000000000000000000001054;
+const String _videoIdtwo = 'https://youtu.be/D0x2dgpBDzc?t=';
+const double _startSecondstwo = 0000000000000000000000000001183;
+const String _videoIdthree = 'https://youtu.be/Cln0J87vulU?t=';
+const double _startSecondsthree = 000000000000000000000000000728;
+const String _videoIdfour = 'https://youtu.be/0zXfDafyyao?t=';
+const double _startSecondsfour = 0000000000000000000000000001095;
+const String _videoIdfive = 'https://youtu.be/0ST4_hmop9Y?t=';
+const double _startSecondsfive = 000000000000000000000000000448;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

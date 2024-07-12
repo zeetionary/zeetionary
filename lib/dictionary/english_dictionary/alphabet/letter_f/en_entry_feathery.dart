@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfearlessly extends StatefulWidget {
-  const EnglishEntryfearlessly({super.key});
+class EnglishEntryfeathery extends StatefulWidget {
+  const EnglishEntryfeathery({super.key});
 
   @override
-  State<EnglishEntryfearlessly> createState() => _EnglishEntryfearlesslyState();
+  State<EnglishEntryfeathery> createState() => _EnglishEntryfeatheryState();
 }
 
-class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
+class _EnglishEntryfeatheryState extends State<EnglishEntryfeathery> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fearlessly""");
+    await flutterTts.speak("""feathery""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fearlessly""",
-                      // alsoEnglishWord: "also: fearlessly",
-                      britshText: """IpaUK: /ˈfɪələsli/""",
-                      americanText: """IpaUS: /ˈfɪrləsli/""",
+                      word: """feathery""",
+                      // alsoEnglishWord: "also: feathery",
+                      britshText: """IpaUK: /ˈfeðəri/""",
+                      americanText: """IpaUS: /ˈfeðəri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fearlessly";
+  final String keyword = "feathery";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,14 +238,14 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""She has fearlessly exposed corruption.""");
+        .speak("""She has feathery blond hair that shines in the sun.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They fought fearlessly against the invading armies.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
+// With short examples define "feathery", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +873,15 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ترس، بێ‌ترس و لەرز، بێ‌باکانە، نەترسانە
+کوردی: پەڕئاسا، شێوەپەڕ، وەک‌پەڕ، سووک، نەرم
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە ترس پیشان نادات"""),
+          const DefinitionKurdish(
+              text: """١. (ھاوەڵناو) سووک و نەرم؛ وەک پەڕە"""),
           SentencesRow(
             englishText:
-                """She has fearlessly exposed corruption.""",
-            kurdishText: """نەترسانە گەندەڵی ئاشکرا کردووە.""",
+                """She has feathery blond hair that shines in the sun.""",
+            kurdishText:
+                """قژێکی زەردی پەڕئاسای هەیە کە لەبەر خۆرەکە دەدرەوشێتەوە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +889,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They fought fearlessly against the invading armies.""",
-            kurdishText: """نەترسانە دژ بە سوپا داگیرکەرەکە جەنگان.""",
+            englishText: """speaksentence200""",
+            kurdishText: """رستە_رستە_رستە_رستە.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1671,9 +1673,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: fearlessly
-1. Without fear (= dauntlessly, intrepidly)
-"fearlessly, he led the troops into combat";
+- Adjective: feathery
+1. Resembling or suggesting a feather or feathers (= featherlike)
+"feathery palm trees";
+ 
+2. Characterized by a covering of feathers
+"the feathery congregation of jays"
+ 
+3. Adorned with feathers or plumes (= feathered, plumy)
 """,
   );
 
@@ -1698,18 +1705,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsend = 0000000000000000000000000001804;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000854;
-const String _videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
-const double _startSecondstwo = 000000000000000000000000000259;
-const String _videoIdthree = 'https://youtu.be/qgVsKzfRo3Q?t=';
-const double _startSecondsthree = 000000000000000000000000000254;
-const String _videoIdfour = 'https://youtu.be/vc90NQpY_4s?t=';
-const double _startSecondsfour = 000000000000000000000000000994;
-const String _videoIdfive = 'https://youtu.be/HAZlPuL3Qhw?t=';
-const double _startSecondsfive = 0000000000000000000000000001173;
+const String _videoIdend = 'https://youtu.be/DMRMWLwvAGA?t=';
+const double _startSecondsend = 000000000000000000000000000557;
+const String _videoIdone = 'https://youtu.be/Fa13JKGG0ds?t=';
+const double _startSecondsone = 000000000000000000000000000204;
+const String _videoIdtwo = 'https://youtu.be/6i9UUvxhAlY?t=';
+const double _startSecondstwo = 000000000000000000000000000233;
+const String _videoIdthree = 'https://youtu.be/JBwIhLFTbiA?t=';
+const double _startSecondsthree = 00000000000000000000000000068;
+const String _videoIdfour = 'https://youtu.be/8mCcM-PUmLM?t=';
+const double _startSecondsfour = 000000000000000000000000000622;
+const String _videoIdfive = 'https://youtu.be/h5b4r6AB9J4?t=';
+const double _startSecondsfive = 000000000000000000000000000263;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

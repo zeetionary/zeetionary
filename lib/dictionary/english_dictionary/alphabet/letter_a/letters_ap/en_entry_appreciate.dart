@@ -113,7 +113,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                         const Row(
                           children: [
                             EntryTitle(
-                                word: "appreciate"), // Find /əˈpriːʃieɪt/
+                                word: "appreciate"),
                             // divvviiider
                           ],
                         ),
@@ -121,7 +121,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /əˈpriːʃieɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /əˈpriːʃieɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakappreciate("en-GB"),
                             ),
@@ -129,9 +129,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈpriːʃieɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈpriːʃieɪt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakappreciate("en-US"),
                             ),
@@ -146,13 +144,13 @@ class EnglishEntryappreciate extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(
                 child: TabBarView(
                   children: [
-                    const EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
+                    const EnglishMeaning(),
                     SingleChildScrollView(
                       // DOPSUM: KURDISH MEANING
                       child: Column(
@@ -167,9 +165,8 @@ class EnglishEntryappreciate extends StatelessWidget {
                             kurdishText:
                                 "دوای ساڵانێکی زۆر قەدری جوانی و ئارام‌بەخشیی ڕووبارەکەی زانی.",
                             onPressedBritish: () => speakappreciate749("en-GB"),
-                            onPressedAmerican: () => speakappreciate749(
-                                // REPLACE: appreciate /əˈpriːʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciate749("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +174,8 @@ class EnglishEntryappreciate extends StatelessWidget {
                             englishText: "Her family doesn't appreciate her.",
                             kurdishText: "خێزانەکەی قەدری نازانن.",
                             onPressedBritish: () => speakappreciate750("en-GB"),
-                            onPressedAmerican: () => speakappreciate750(
-                                // REPLACE: appreciate /əˈpriːʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciate750("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,17 +185,15 @@ class EnglishEntryappreciate extends StatelessWidget {
                             englishText: "I'd appreciate some help.",
                             kurdishText: "پێزانینم دەبێ بۆ ھەندێک یارمەتی.",
                             onPressedBritish: () => speakappreciate753("en-GB"),
-                            onPressedAmerican: () => speakappreciate753(
-                                // REPLACE: appreciate /əˈpriːʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciate753("en-US"),
                           ),
                           const DividerSentences(),
-                          // const DividerDefinition(),
                           SentencesRow(
                             englishText:
                                 "Your kindness and generosity is much appreciated.",
                             kurdishText:
-                                "بەخشندەیی و دەست‌کراوەییت بەرزدەنرخێنم.",
+                                "بەخشندەیی و دەست‌کراوەییت بەرز دەنرخێنم.",
                             onPressedBritish: () => speakappreciate756("en-GB"),
                             onPressedAmerican: () => speakappreciate756(
                                 // REPLACE: appreciate /əˈpriːʃieɪt/
@@ -229,23 +223,20 @@ class EnglishEntryappreciate extends StatelessWidget {
                             kurdishText:
                                 "ساڵ دوای ساڵ وەبەرھێنانەکانیان نرخی زیادبووە.",
                             onPressedBritish: () => speakappreciate801("en-GB"),
-                            onPressedAmerican: () => speakappreciate801(
-                                // REPLACE: appreciate /əˈpriːʃieɪt/
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakappreciate801("en-US"),
                           ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
                         ],
                       ),
                     ),
                     const YouTubeScroller(
                       children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
+                        YoutubeEmbeddedone(),
                         YoutubeEmbeddedtwo(),
                         YoutubeEmbeddedthree(),
                         YoutubeEmbeddedfour(),
                         YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(), // FIND: VideoIconForTab
+                        YoutubeEmbeddedsix(),
                         YoutubeEmbeddedseven(),
                         YoutubeEmbeddedeight(),
                         YoutubeEmbeddednine(),

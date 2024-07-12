@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfearlessly extends StatefulWidget {
-  const EnglishEntryfearlessly({super.key});
+class EnglishEntryfeat extends StatefulWidget {
+  const EnglishEntryfeat({super.key});
 
   @override
-  State<EnglishEntryfearlessly> createState() => _EnglishEntryfearlesslyState();
+  State<EnglishEntryfeat> createState() => _EnglishEntryfeatState();
 }
 
-class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
+class _EnglishEntryfeatState extends State<EnglishEntryfeat> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fearlessly""");
+    await flutterTts.speak("""feat""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fearlessly""",
-                      // alsoEnglishWord: "also: fearlessly",
-                      britshText: """IpaUK: /ˈfɪələsli/""",
-                      americanText: """IpaUS: /ˈfɪrləsli/""",
+                      word: """feat""",
+                      // alsoEnglishWord: "also: feat",
+                      britshText: """IpaUK: /fiːt/""",
+                      americanText: """IpaUS: /fiːt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fearlessly";
+  final String keyword = "feat";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -238,21 +238,21 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""She has fearlessly exposed corruption.""");
+        .speak("""The tunnel is a remarkable feat of engineering.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They fought fearlessly against the invading armies.""");
+    await flutterTts.speak("""That was no mean feat.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She was capable of remarkable feats.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
+// With short examples define "feat", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +873,14 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ترس، بێ‌ترس و لەرز، بێ‌باکانە، نەترسانە
+کوردی: کاری گەورە، شاکار، مۆجیزە، پەرجۆ، فەرجوود
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە ترس پیشان نادات"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ناو) کارێک کە پێویستی بە هێز، شارەزایی. یان بوێری هەیە"""),
           SentencesRow(
-            englishText:
-                """She has fearlessly exposed corruption.""",
-            kurdishText: """نەترسانە گەندەڵی ئاشکرا کردووە.""",
+            englishText: """The tunnel is a remarkable feat of engineering.""",
+            kurdishText: """تونێلەکە بەدەستهێنانێکی گەورەی ئەندازیارییە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +888,9 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They fought fearlessly against the invading armies.""",
-            kurdishText: """نەترسانە دژ بە سوپا داگیرکەرەکە جەنگان.""",
+            englishText:
+                """That was no mean feat (= it was difficult to do).""",
+            kurdishText: """بەدەستهێنانێکی ئاسان نەبوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +898,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """She was capable of remarkable feats.""",
+            kurdishText: """توانای بەدەستهێنانی گەورەی هەبوو.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -1671,9 +1673,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: fearlessly
-1. Without fear (= dauntlessly, intrepidly)
-"fearlessly, he led the troops into combat";
+- Noun: feat (Derived forms: feats)
+1. A notable achievement (= effort, exploit)
+"he performed a great feat";
 """,
   );
 
@@ -1698,18 +1700,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsend = 0000000000000000000000000001804;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000854;
-const String _videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
-const double _startSecondstwo = 000000000000000000000000000259;
-const String _videoIdthree = 'https://youtu.be/qgVsKzfRo3Q?t=';
-const double _startSecondsthree = 000000000000000000000000000254;
-const String _videoIdfour = 'https://youtu.be/vc90NQpY_4s?t=';
-const double _startSecondsfour = 000000000000000000000000000994;
-const String _videoIdfive = 'https://youtu.be/HAZlPuL3Qhw?t=';
-const double _startSecondsfive = 0000000000000000000000000001173;
+const String _videoIdend = 'https://youtu.be/0zwNZJbM-Gw?t=';
+const double _startSecondsend = 000000000000000000000000000348;
+const String _videoIdone = 'https://youtu.be/zpFB2q_3pJo?t=';
+const double _startSecondsone = 00000000000000000000000000014;
+const String _videoIdtwo = 'https://youtu.be/AFS6saV981Q?t=';
+const double _startSecondstwo = 000000000000000000000000000836;
+const String _videoIdthree = 'https://youtu.be/pbQydtToErU?t=';
+const double _startSecondsthree = 000000000000000000000000000184;
+const String _videoIdfour = 'https://youtu.be/hRQ2KSp27mE?t=';
+const double _startSecondsfour = 000000000000000000000000000847;
+const String _videoIdfive = 'https://youtu.be/pJ50A3ZoNvc?t=';
+const double _startSecondsfive = 0000000000000000000000000006;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

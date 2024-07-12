@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfearlessly extends StatefulWidget {
-  const EnglishEntryfearlessly({super.key});
+class EnglishEntryfeeble extends StatefulWidget {
+  const EnglishEntryfeeble({super.key});
 
   @override
-  State<EnglishEntryfearlessly> createState() => _EnglishEntryfearlesslyState();
+  State<EnglishEntryfeeble> createState() => _EnglishEntryfeebleState();
 }
 
-class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
+class _EnglishEntryfeebleState extends State<EnglishEntryfeeble> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fearlessly""");
+    await flutterTts.speak("""feeble""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fearlessly""",
-                      // alsoEnglishWord: "also: fearlessly",
-                      britshText: """IpaUK: /ˈfɪələsli/""",
-                      americanText: """IpaUS: /ˈfɪrləsli/""",
+                      word: """feeble""",
+                      // alsoEnglishWord: "also: feeble",
+                      britshText: """IpaUK: /ˈfiːbl/""",
+                      americanText: """IpaUS: /ˈfiːbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fearlessly";
+  final String keyword = "feeble";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,22 +237,22 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She has fearlessly exposed corruption.""");
+    await flutterTts.speak("""He looked feeble and confused.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They fought fearlessly against the invading armies.""");
+    await flutterTts.speak("""The patient appears feeble and emaciated.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Don't be so feeble! Tell her you don't want to go.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
+// With short examples define "feeble", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +873,12 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ترس، بێ‌ترس و لەرز، بێ‌باکانە، نەترسانە
+کوردی: کز، لاواز، جووقن، جیقن، بێ‌هێز، پەککەوتە، لاکەوتە، داکەوتوو، سست، بێ‌دەس، بەسزمان، دەستەوسان،	لێ‌نەوەشاو، لێ‌نەهاتوو،	ناکاریگەر
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە ترس پیشان نادات"""),
+          const DefinitionKurdish(text: """١. (ھاوەڵناو) زۆر لاواز"""),
           SentencesRow(
-            englishText:
-                """She has fearlessly exposed corruption.""",
-            kurdishText: """نەترسانە گەندەڵی ئاشکرا کردووە.""",
+            englishText: """He looked feeble and confused.""",
+            kurdishText: """لاواز و شڵەژاو دیار بوو.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,17 +886,20 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They fought fearlessly against the invading armies.""",
-            kurdishText: """نەترسانە دژ بە سوپا داگیرکەرەکە جەنگان.""",
+            englishText: """The patient appears feeble and emaciated.""",
+            kurdishText: """نەخۆشەکە لەڕ و لاواز دیار بوو.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ھاوەڵناو) کە کاریگەر نییە؛ کە هەوڵ و وزەی تێدا نییە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """Don't be so feeble! Tell her you don't want to go.""",
+            kurdishText: """هێندە لاواز مەبە! پێی بڵێ ناتەوێت بچیت.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -1671,9 +1673,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: fearlessly
-1. Without fear (= dauntlessly, intrepidly)
-"fearlessly, he led the troops into combat";
+- Adjective: feeble (Derived forms: feebler, feeblest)
+1. Pathetically lacking in force or effectiveness (= lame, wussy [informal])
+"a feeble excuse";
+ 
+2. Lacking strength or vigour (= faint)
+"feeble efforts"; "a feeble voice";
+ 
+3. Lacking bodily or muscular strength or vitality (= decrepit, debile [archaic], infirm, rickety, sapless, weak, weakly)
+"a feeble old woman";
+ 
+4. Lacking strength (= nerveless)
+"a weak, feeble fool, devoid of energy and promptitude";
 """,
   );
 
@@ -1698,18 +1709,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsend = 0000000000000000000000000001804;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000854;
-const String _videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
-const double _startSecondstwo = 000000000000000000000000000259;
-const String _videoIdthree = 'https://youtu.be/qgVsKzfRo3Q?t=';
-const double _startSecondsthree = 000000000000000000000000000254;
-const String _videoIdfour = 'https://youtu.be/vc90NQpY_4s?t=';
-const double _startSecondsfour = 000000000000000000000000000994;
-const String _videoIdfive = 'https://youtu.be/HAZlPuL3Qhw?t=';
-const double _startSecondsfive = 0000000000000000000000000001173;
+const String _videoIdend = 'https://youtu.be/JTslqcXsFd4?t=';
+const double _startSecondsend = 00000000000000000000000000065;
+const String _videoIdone = 'https://youtu.be/BuX6-lvUwd0?t=';
+const double _startSecondsone = 000000000000000000000000000119;
+const String _videoIdtwo = 'https://youtu.be/s3YTfhJmh1I?t=';
+const double _startSecondstwo = 00000000000000000000000000094;
+const String _videoIdthree = 'https://youtu.be/udDv4IHOhDo?t=';
+const double _startSecondsthree = 00000000000000000000000000075;
+const String _videoIdfour = 'https://youtu.be/Q-nWA0WeF98?t=';
+const double _startSecondsfour = 000000000000000000000000000345;
+const String _videoIdfive = 'https://youtu.be/vc90NQpY_4s?t=';
+const double _startSecondsfive = 000000000000000000000000000180;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

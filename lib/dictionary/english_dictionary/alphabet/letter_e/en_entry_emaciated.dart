@@ -372,53 +372,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemaciateds1("en-GB"),
             onPressedAmerican: () => speakemaciateds1("en-US"),
           ),
-          // emaciateds200emaciateds2
-          // speakemaciateds2
-          // emaciateds300emaciateds3
-          // speakemaciateds3
-          // emaciateds400emaciateds4
-          // speakemaciateds4
-          // emaciateds500emaciateds5
-          // speakemaciateds5
-          // emaciateds600emaciateds6
-          // speakemaciateds6
-          // emaciateds700emaciateds7
-          // speakemaciateds7
-          // emaciateds800emaciateds8
-          // speakemaciateds8
-          // emaciateds900emaciateds9
-          // speakemaciateds9
-          // emaciateds_1000emaciateds10
-          // speakemaciateds10
-          // emaciateds1100emaciateds11
-          // speakemaciateds11
-          // emaciateds1200emaciateds12
-          // speakemaciateds12
-          // emaciateds1300emaciateds13
-          // speakemaciateds13
-          // emaciateds1400emaciateds14
-          // speakemaciateds14
-          // emaciateds1500emaciateds15
-          // speakemaciateds15
-          // emaciateds1600emaciateds16
-          // speakemaciateds16
-          // emaciateds1700emaciateds17
-          // speakemaciateds17
-          // emaciateds1800emaciateds18
-          // speakemaciateds18
-          // emaciateds1900emaciateds19
-          // speakemaciateds19
-          // emaciateds_2000emaciateds20
-          // speakemaciateds20
-          // emaciateds2100emaciateds21
-          // speakemaciateds21
-          // emaciateds2200emaciateds22
-          // speakemaciateds22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
         ],
       ),
     );

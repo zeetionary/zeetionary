@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfearlessly extends StatefulWidget {
-  const EnglishEntryfearlessly({super.key});
+class EnglishEntryfederal extends StatefulWidget {
+  const EnglishEntryfederal({super.key});
 
   @override
-  State<EnglishEntryfearlessly> createState() => _EnglishEntryfearlesslyState();
+  State<EnglishEntryfederal> createState() => _EnglishEntryfederalState();
 }
 
-class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
+class _EnglishEntryfederalState extends State<EnglishEntryfederal> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fearlessly""");
+    await flutterTts.speak("""federal""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fearlessly""",
-                      // alsoEnglishWord: "also: fearlessly",
-                      britshText: """IpaUK: /ˈfɪələsli/""",
-                      americanText: """IpaUS: /ˈfɪrləsli/""",
+                      word: """federal""",
+                      // alsoEnglishWord: "also: federal",
+                      britshText: """IpaUK: /ˈfedərəl/""",
+                      americanText: """IpaUS: /ˈfedərəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fearlessly";
+  final String keyword = "federal";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,22 +237,22 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She has fearlessly exposed corruption.""");
+    await flutterTts.speak("""The United States is a federal republic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They fought fearlessly against the invading armies.""");
+    await flutterTts.speak("""New federal regulations have been introduced.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""We will continue federal funding for the arts.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -864,7 +864,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
+// With short examples define "federal", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,22 +873,25 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ترس، بێ‌ترس و لەرز، بێ‌باکانە، نەترسانە
+کوردی: 
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە ترس پیشان نادات"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (ھاوەڵناو) هەبوونی سیتەمێک کە بەشەکانی وڵاتێک دەسەڵاتیان بەسەر خۆیاندا هەیە بەڵام لەلایەن حکومەتێکی ناوەندییەوە کۆنترۆڵ دەکرێن بۆ باسی نیشتیمانی"""),
           SentencesRow(
-            englishText:
-                """She has fearlessly exposed corruption.""",
-            kurdishText: """نەترسانە گەندەڵی ئاشکرا کردووە.""",
+            englishText: """The United States is a federal republic.""",
+            kurdishText: """ئەمریکا کۆمارێکی فیدراڵییە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (ھاوەڵناو) پەیوەندیدار بە حکومەتێکی نیشتیمانی نەک خۆجێیی"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They fought fearlessly against the invading armies.""",
-            kurdishText: """نەترسانە دژ بە سوپا داگیرکەرەکە جەنگان.""",
+            englishText: """New federal regulations have been introduced.""",
+            kurdishText: """ڕێسای تازەی فیدراڵی دانراون.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -896,8 +899,8 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We will continue federal funding for the arts.""",
+            kurdishText: """بەردەوامی بە بودجەی فیدراڵی بۆ هونەر دەدەین.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),
@@ -1671,9 +1674,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: fearlessly
-1. Without fear (= dauntlessly, intrepidly)
-"fearlessly, he led the troops into combat";
+- Adjective: federal 
+1. National; especially in reference to the government of the United States as distinct from that of its member units
+"the Federal Bureau of Investigation"; "federal courts"; "the federal highway program"; "federal property"
+ 
+2. Of or relating to the central government of a federation
+"a federal district is one set aside as the seat of the national government"
+ 
+3. (government) characterized by or constituting a form of government in which power is divided between one central and several regional authorities
+"a federal system like that of the United States"; "federal governments often evolved out of confederations"
+
+- Noun: Federal (Derived forms: Federals)
+1. A member of the Union Army during the American Civil War (= Federal soldier, Union soldier)
+ 
+2. Any federal law-enforcement officer (= Fed [US, informal], federal official)
+
+- Adjective: Federal
+1. Being of or having to do with the northern United States and those loyal to the Union during the American Civil War (= Union)
+"Federal forces"; "a Federal infantryman";
 """,
   );
 
@@ -1698,18 +1716,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsend = 0000000000000000000000000001804;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000854;
-const String _videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
-const double _startSecondstwo = 000000000000000000000000000259;
-const String _videoIdthree = 'https://youtu.be/qgVsKzfRo3Q?t=';
-const double _startSecondsthree = 000000000000000000000000000254;
-const String _videoIdfour = 'https://youtu.be/vc90NQpY_4s?t=';
-const double _startSecondsfour = 000000000000000000000000000994;
-const String _videoIdfive = 'https://youtu.be/HAZlPuL3Qhw?t=';
-const double _startSecondsfive = 0000000000000000000000000001173;
+const String _videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
+const double _startSecondsend = 000000000000000000000000000124;
+const String _videoIdone = 'https://youtu.be/3C9wZf88y4Q?t=';
+const double _startSecondsone = 000000000000000000000000000325;
+const String _videoIdtwo = 'https://youtu.be/DfSnHyIryeY?t=';
+const double _startSecondstwo = 000000000000000000000000000159;
+const String _videoIdthree = 'https://youtu.be/b_rjBWmc1iQ?t=';
+const double _startSecondsthree = 0000000000000000000000000001369;
+const String _videoIdfour = 'https://youtu.be/vJC4yz7e7HE?t=';
+const double _startSecondsfour = 000000000000000000000000000198;
+const String _videoIdfive = 'https://youtu.be/CtWqv0Z3ErM?t=';
+const double _startSecondsfive = 00000000000000000000000000013;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

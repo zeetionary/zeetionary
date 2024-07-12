@@ -6,14 +6,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfearlessly extends StatefulWidget {
-  const EnglishEntryfearlessly({super.key});
+class EnglishEntryfeasibility extends StatefulWidget {
+  const EnglishEntryfeasibility({super.key});
 
   @override
-  State<EnglishEntryfearlessly> createState() => _EnglishEntryfearlesslyState();
+  State<EnglishEntryfeasibility> createState() =>
+      _EnglishEntryfeasibilityState();
 }
 
-class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
+class _EnglishEntryfeasibilityState extends State<EnglishEntryfeasibility> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +26,7 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fearlessly""");
+    await flutterTts.speak("""feasibility""");
   }
 
   @override
@@ -44,10 +45,10 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fearlessly""",
-                      // alsoEnglishWord: "also: fearlessly",
-                      britshText: """IpaUK: /ˈfɪələsli/""",
-                      americanText: """IpaUS: /ˈfɪrləsli/""",
+                      word: """feasibility""",
+                      // alsoEnglishWord: "also: feasibility",
+                      britshText: """IpaUK: /ˌfiːzəˈbɪləti/""",
+                      americanText: """IpaUS: /ˌfiːzəˈbɪləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +113,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fearlessly";
+  final String keyword = "feasibility";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,15 +238,15 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She has fearlessly exposed corruption.""");
+    await flutterTts.speak("""I doubt the feasibility of the plan.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They fought fearlessly against the invading armies.""");
+    await flutterTts.speak(
+        """We're looking at the feasibility of building a shopping centre there.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -864,7 +865,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
+// With short examples define "feasibility", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,13 +874,13 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ترس، بێ‌ترس و لەرز، بێ‌باکانە، نەترسانە
+کوردی: لەکردن‌هاتوویی، کردارەکی‌بوون
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە ترس پیشان نادات"""),
+          const DefinitionKurdish(
+              text: """١. (ناو) ئەوەی کە بکرێت ئەنجام بدرێت یان بەدەست بێت"""),
           SentencesRow(
-            englishText:
-                """She has fearlessly exposed corruption.""",
-            kurdishText: """نەترسانە گەندەڵی ئاشکرا کردووە.""",
+            englishText: """I doubt the feasibility of the plan.""",
+            kurdishText: """گومانم لە کردارەکی‌بوونی پلانەکە هەیە.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -887,8 +888,10 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """They fought fearlessly against the invading armies.""",
-            kurdishText: """نەترسانە دژ بە سوپا داگیرکەرەکە جەنگان.""",
+            englishText:
+                """We're looking at the feasibility of building a shopping centre there.""",
+            kurdishText:
+                """سەیری کردارەکی‌بوونی درووستکردنی ناوەندێکی بازاڕکردن لەوێ دەکەین.""",
             onPressedBritish: () => speaksentence2("en-GB"),
             onPressedAmerican: () => speaksentence2("en-US"),
           ),
@@ -1671,9 +1674,8 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: fearlessly
-1. Without fear (= dauntlessly, intrepidly)
-"fearlessly, he led the troops into combat";
+- Noun: feasibility (Derived forms: feasibilities)
+1. The quality of being doable (= feasibleness)
 """,
   );
 
@@ -1698,18 +1700,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsend = 0000000000000000000000000001804;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000854;
-const String _videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
-const double _startSecondstwo = 000000000000000000000000000259;
-const String _videoIdthree = 'https://youtu.be/qgVsKzfRo3Q?t=';
-const double _startSecondsthree = 000000000000000000000000000254;
-const String _videoIdfour = 'https://youtu.be/vc90NQpY_4s?t=';
-const double _startSecondsfour = 000000000000000000000000000994;
-const String _videoIdfive = 'https://youtu.be/HAZlPuL3Qhw?t=';
-const double _startSecondsfive = 0000000000000000000000000001173;
+const String _videoIdend = 'https://youtu.be/4mjvZrLnlCg?t=';
+const double _startSecondsend = 000000000000000000000000000113;
+const String _videoIdone = 'https://youtu.be/9dnN82DsQ2k?t=';
+const double _startSecondsone = 00000000000000000000000000022;
+const String _videoIdtwo = 'https://youtu.be/Nb1we06CDbY?t=';
+const double _startSecondstwo = 00000000000000000000000000089;
+const String _videoIdthree = 'https://youtu.be/SR7BA3xEmDo?t=';
+const double _startSecondsthree = 000000000000000000000000000246;
+const String _videoIdfour = 'https://youtu.be/8alrpieveDg?t=';
+const double _startSecondsfour = 000000000000000000000000000807;
+const String _videoIdfive = 'https://youtu.be/veS1AePOYg0?t=';
+const double _startSecondsfive = 000000000000000000000000000813;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

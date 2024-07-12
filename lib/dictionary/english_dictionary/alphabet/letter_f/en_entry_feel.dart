@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfearlessly extends StatefulWidget {
-  const EnglishEntryfearlessly({super.key});
+class EnglishEntryfeel extends StatefulWidget {
+  const EnglishEntryfeel({super.key});
 
   @override
-  State<EnglishEntryfearlessly> createState() => _EnglishEntryfearlesslyState();
+  State<EnglishEntryfeel> createState() => _EnglishEntryfeelState();
 }
 
-class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
+class _EnglishEntryfeelState extends State<EnglishEntryfeel> {
   @override
   void initState() {
     super.initState();
@@ -25,7 +25,7 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fearlessly""");
+    await flutterTts.speak("""feel""");
   }
 
   @override
@@ -44,10 +44,10 @@ class _EnglishEntryfearlesslyState extends State<EnglishEntryfearlessly> {
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fearlessly""",
-                      // alsoEnglishWord: "also: fearlessly",
-                      britshText: """IpaUK: /ˈfɪələsli/""",
-                      americanText: """IpaUS: /ˈfɪrləsli/""",
+                      word: """feel""",
+                      // alsoEnglishWord: "also: feel",
+                      britshText: """IpaUK: /fiːl/""",
+                      americanText: """IpaUS: /fiːl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -112,7 +112,7 @@ class SentencesFromDatabase extends StatefulWidget {
 }
 
 class _SentencesFromDatabaseState extends State<SentencesFromDatabase> {
-  final String keyword = "fearlessly";
+  final String keyword = "feel";
   late FlutterTts flutterTts;
   List<Map<String, dynamic>> filteredSentences = [];
 
@@ -237,463 +237,473 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She has fearlessly exposed corruption.""");
+    await flutterTts.speak("""The bus ride made me feel sick.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They fought fearlessly against the invading armies.""");
+    await flutterTts.speak("""Are you feeling comfortable?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She sounded more confident than she felt.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""I was feeling guilty.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""You'll feel better after a good night's sleep.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""I feel sorry for him.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""I feel bad about leaving you like this.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""She felt betrayed.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""How are you feeling today?""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""We all felt the same way.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""I felt the need to explain.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak("""I felt like a complete idiot.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts.speak("""I feel as if nobody cares.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak("""I could feel the warm sun on my back.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts.speak("""She felt a sharp pain in her hand.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1600""");
+    await flutterTts.speak("""She could not feel her legs.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1700""");
+    await flutterTts.speak("""He felt a hand on his shoulder.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1800""");
+    await flutterTts.speak("""You may feel a slight pressure in your chest.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts.speak("""He felt a hand touching his shoulder.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_2000""");
+    await flutterTts.speak("""He felt the sweat running down his face.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2100""");
+    await flutterTts
+        .speak("""As soon as you get off the plane you feel the heat.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2200""");
+    await flutterTts.speak("""They felt an impact as the bomb hit.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2300""");
+    await flutterTts.speak("""I felt him trembling.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2400""");
+    await flutterTts
+        .speak("""They all feel pressure from managers to make a sale.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2500""");
+    await flutterTts
+        .speak("""I definitely felt the importance of the occasion.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2600""");
+    await flutterTts.speak("""I felt their disapproval.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2700""");
+    await flutterTts.speak("""This situation doesn't feel right.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2800""");
+    await flutterTts.speak("""You need to go somewhere that feels safe.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2900""");
+    await flutterTts.speak("""My mouth felt completely dry.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_3000""");
+    await flutterTts.speak("""It felt strange to be back in my old school.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3100""");
+    await flutterTts.speak(
+        """The interview only took ten minutes, but it felt like hours.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3200""");
+    await flutterTts.speak("""How does it feel to be alone all day?""");
   }
 
   Future<void> speaksentence33(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3300""");
+    await flutterTts.speak("""It felt as though he had run a marathon.""");
   }
 
   Future<void> speaksentence34(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3400""");
+    await flutterTts.speak("""The water feels warm.""");
   }
 
   Future<void> speaksentence35(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3500""");
+    await flutterTts.speak("""Its skin feels really smooth.""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3600""");
+    await flutterTts.speak("""This wallet feels like leather.""");
   }
 
   Future<void> speaksentence37(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3700""");
+    await flutterTts.speak("""Can you feel the bump on my head?""");
   }
 
   Future<void> speaksentence38(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3800""");
+    await flutterTts.speak("""Try to tell what this is just by feeling it.""");
   }
 
   Future<void> speaksentence39(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3900""");
+    await flutterTts.speak("""Feel how rough this is.""");
   }
 
   Future<void> speaksentence40(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_4000""");
+    await flutterTts.speak("""We've always felt this was our home.""");
   }
 
   Future<void> speaksentence41(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4100""");
+    await flutterTts.speak("""I felt (that) I had to apologize.""");
   }
 
   Future<void> speaksentence42(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4200""");
+    await flutterTts.speak("""This is something I feel strongly about.""");
   }
 
   Future<void> speaksentence43(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4300""");
+    await flutterTts
+        .speak("""How do you feel about inviting the children too?""");
   }
 
   Future<void> speaksentence44(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4400""");
+    await flutterTts.speak("""I didn't know you felt like that about it.""");
   }
 
   Future<void> speaksentence45(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4500""");
+    await flutterTts.speak("""She felt it her duty to tell the police.""");
   }
 
   Future<void> speaksentence46(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4600""");
+    await flutterTts.speak("""I feel it a great honour to be chosen.""");
   }
 
   Future<void> speaksentence47(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4700""");
+    await flutterTts.speak("""Why did you feel it necessary to do that?""");
   }
 
   Future<void> speaksentence48(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4800""");
+    await flutterTts.speak("""I felt it advisable to do nothing.""");
   }
 
   Future<void> speaksentence49(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4900""");
+    await flutterTts.speak("""We all feel similarly about this issue.""");
   }
 
   Future<void> speaksentence50(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_5000""");
+    await flutterTts.speak("""I still feel it was wrong to involve her.""");
   }
 
   Future<void> speaksentence51(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5100""");
+    await flutterTts.speak("""I'm not sure how I feel about the new boss.""");
   }
 
   Future<void> speaksentence52(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5200""");
+    await flutterTts.speak(
+        """Many people think this is a good thing, but I feel differently.""");
   }
 
   Future<void> speaksentence53(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5300""");
+    await flutterTts.speak("""He feels the cold a lot.""");
   }
 
   Future<void> speaksentence54(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5400""");
+    await flutterTts.speak("""Cathy was really feeling the heat.""");
   }
 
   Future<void> speaksentence55(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5500""");
+    await flutterTts
+        .speak("""We're all starting to feel the pressure at work.""");
   }
 
   Future<void> speaksentence56(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5600""");
+    await flutterTts
+        .speak("""I was OK after my run, but I'll feel it tomorrow.""");
   }
 
   Future<void> speaksentence57(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5700""");
+    await flutterTts.speak("""She felt her mother's death very deeply.""");
   }
 
   Future<void> speaksentence58(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5800""");
+    await flutterTts.speak("""I felt their pain.""");
   }
 
   Future<void> speaksentence59(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence5900""");
+    await flutterTts.speak("""She felt in her bag and pulled out a pen.""");
   }
 
   Future<void> speaksentence60(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_6000""");
+    await flutterTts
+        .speak("""I had to feel about in the dark for the light switch.""");
   }
 
   Future<void> speaksentence61(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence6100""");
+    await flutterTts.speak("""He felt in his pockets for some money.""");
   }
 
   Future<void> speaksentence62(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence6200""");
+    await flutterTts.speak("""You can tell it's silk by the feel.""");
   }
 
   Future<void> speaksentence63(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence6300""");
+    await flutterTts.speak("""She loved the feel of the sun on her skin.""");
   }
 
   Future<void> speaksentence64(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence6400""");
+    await flutterTts.speak("""I had a feel of the material.""");
   }
 
   Future<void> speaksentence65(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence6500""");
+    await flutterTts
+        .speak("""It's a big city but it has the feel of a small town.""");
   }
 
   Future<void> speaksentence66(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence6600""");
+    await flutterTts.speak("""The film has a documentary feel to it.""");
   }
 
   Future<void> speaksentence67(String languageCode) async {
@@ -864,7 +874,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
+// With short examples define "feel", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -873,603 +883,683 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
-کوردی: بێ‌ترس، بێ‌ترس و لەرز، بێ‌باکانە، نەترسانە
+کوردی: بەرکەوتن، دەس‌لێدان،	هەست، هەست‌پێکردن، ئاگاکردن،	کەش
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە ترس پیشان نادات"""),
+          const DefinitionKurdish(text: """١. (کردار) هەبوونی هەست و سۆز"""),
           SentencesRow(
-            englishText:
-                """She has fearlessly exposed corruption.""",
-            kurdishText: """نەترسانە گەندەڵی ئاشکرا کردووە.""",
+            englishText: """The bus ride made me feel sick.""",
+            kurdishText: """سواربوونی پاسەکە وایکرد هەست بە هێڵنج‌دان بکەم.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """They fought fearlessly against the invading armies.""",
-            kurdishText: """نەترسانە دژ بە سوپا داگیرکەرەکە جەنگان.""",
-            onPressedBritish: () => speaksentence2("en-GB"),
-            onPressedAmerican: () => speaksentence2("en-US"),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  SentencesRow(
+                    englishText: """Are you feeling comfortable?""",
+                    kurdishText: """هەست بە ئاسوودەیی دەکەیت.""",
+                    onPressedBritish: () => speaksentence2("en-GB"),
+                    onPressedAmerican: () => speaksentence2("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """She sounded more confident than she felt.""",
+                    kurdishText: """زیاتر لەوەی هەستی دەکرد بەورە دیار بوو.""",
+                    onPressedBritish: () => speaksentence3("en-GB"),
+                    onPressedAmerican: () => speaksentence3("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I was feeling guilty.""",
+                    kurdishText: """هەستم بە تاوان دەکرد.""",
+                    onPressedBritish: () => speaksentence4("en-GB"),
+                    onPressedAmerican: () => speaksentence4("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """You'll feel better after a good night's sleep.""",
+                    kurdishText:
+                        """هەست بە باشتر دەکەیت لە دوای خەوێکی باش بۆ شەوێک.""",
+                    onPressedBritish: () => speaksentence5("en-GB"),
+                    onPressedAmerican: () => speaksentence5("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I feel sorry for him.""",
+                    kurdishText: """هەست بە داخ دەکەم بۆی.""",
+                    onPressedBritish: () => speaksentence6("en-GB"),
+                    onPressedAmerican: () => speaksentence6("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I feel bad about leaving you like this.""",
+                    kurdishText:
+                        """هەست بە خراپی دەکەن بەوەی بەم شێوەیە جێتدەهێڵم.""",
+                    onPressedBritish: () => speaksentence7("en-GB"),
+                    onPressedAmerican: () => speaksentence7("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """She felt betrayed.""",
+                    kurdishText: """هەستی بە خیانەت‌لێکراوی دەکرد.""",
+                    onPressedBritish: () => speaksentence8("en-GB"),
+                    onPressedAmerican: () => speaksentence8("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """How are you feeling today?""",
+                    kurdishText: """ئەمڕۆ هەست چۆنە؟""",
+                    onPressedBritish: () => speaksentence9("en-GB"),
+                    onPressedAmerican: () => speaksentence9("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """We all felt the same way.""",
+                    kurdishText: """هەموومان هەستمان بە هەمان شت دەکرد.""",
+                    onPressedBritish: () => speaksentence10("en-GB"),
+                    onPressedAmerican: () => speaksentence10("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I felt the need to explain.""",
+                    kurdishText: """هەستم بە پێویستی ڕوونکردنەوە کرد.""",
+                    onPressedBritish: () => speaksentence11("en-GB"),
+                    onPressedAmerican: () => speaksentence11("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I felt like a complete idiot.""",
+                    kurdishText: """هەستم بە شێتییەکی تەواو کرد.""",
+                    onPressedBritish: () => speaksentence12("en-GB"),
+                    onPressedAmerican: () => speaksentence12("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I feel as if nobody cares.""",
+                    kurdishText: """وەها هەست دەکەم کەس گرنگ نییە لای.""",
+                    onPressedBritish: () => speaksentence13("en-GB"),
+                    onPressedAmerican: () => speaksentence13("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٢. (کردار) ئاگاداربوون لە شتێک بەهۆی ئەوەی کە کاریگەری لەسەرت هەیە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence3("en-GB"),
-            onPressedAmerican: () => speaksentence3("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence4("en-GB"),
-            onPressedAmerican: () => speaksentence4("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence5("en-GB"),
-            onPressedAmerican: () => speaksentence5("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence6("en-GB"),
-            onPressedAmerican: () => speaksentence6("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence7("en-GB"),
-            onPressedAmerican: () => speaksentence7("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence8("en-GB"),
-            onPressedAmerican: () => speaksentence8("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence9("en-GB"),
-            onPressedAmerican: () => speaksentence9("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence_1000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence10("en-GB"),
-            onPressedAmerican: () => speaksentence10("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence11("en-GB"),
-            onPressedAmerican: () => speaksentence11("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence12("en-GB"),
-            onPressedAmerican: () => speaksentence12("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence13("en-GB"),
-            onPressedAmerican: () => speaksentence13("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I could feel the warm sun on my back.""",
+            kurdishText: """هەستم بۆ خۆرە گەرمەکە لەسەر پشتم دەکرد.""",
             onPressedBritish: () => speaksentence14("en-GB"),
             onPressedAmerican: () => speaksentence14("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence15("en-GB"),
-            onPressedAmerican: () => speaksentence15("en-US"),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  SentencesRow(
+                    englishText: """She felt a sharp pain in her hand.""",
+                    kurdishText: """هەستی بە ئازارێکی زۆر دەکرد لە دەستیدا.""",
+                    onPressedBritish: () => speaksentence15("en-GB"),
+                    onPressedAmerican: () => speaksentence15("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """She could not feel her legs.""",
+                    kurdishText: """نەیدەتوانی هەست بە لاقەکانی بکات.""",
+                    onPressedBritish: () => speaksentence16("en-GB"),
+                    onPressedAmerican: () => speaksentence16("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """He felt a hand on his shoulder.""",
+                    kurdishText: """هەستی بە دەستێک لەسەر شانی کرد.""",
+                    onPressedBritish: () => speaksentence17("en-GB"),
+                    onPressedAmerican: () => speaksentence17("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """You may feel a slight pressure in your chest.""",
+                    kurdishText:
+                        """ڕەنگە هەست بە کەمێک فشار لەسەر سنگت بکەیت.""",
+                    onPressedBritish: () => speaksentence18("en-GB"),
+                    onPressedAmerican: () => speaksentence18("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """He felt a hand touching his shoulder.""",
+                    kurdishText: """هەستی بە دەستێک کرد لە شانی دا.""",
+                    onPressedBritish: () => speaksentence19("en-GB"),
+                    onPressedAmerican: () => speaksentence19("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """He felt the sweat running down his face.""",
+                    kurdishText:
+                        """هەستی بە ئارەقەکە کرد بە ڕووخساریدا دەهاتە خوارەوە.""",
+                    onPressedBritish: () => speaksentence20("en-GB"),
+                    onPressedAmerican: () => speaksentence20("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """As soon as you get off the plane you feel the heat.""",
+                    kurdishText:
+                        """هەرکە لە فڕۆکەکە دێیتە خوارەوە هەست بە گەرمییەکە دەکەیت.""",
+                    onPressedBritish: () => speaksentence21("en-GB"),
+                    onPressedAmerican: () => speaksentence21("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """They felt an impact as the bomb hit.""",
+                    kurdishText:
+                        """هەستی بە کاریگەرییەکەی کرد کە بۆمبەکە کەوت.""",
+                    onPressedBritish: () => speaksentence22("en-GB"),
+                    onPressedAmerican: () => speaksentence22("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I felt him trembling.""",
+                    kurdishText: """هەستم بە لەرزینی کرد.""",
+                    onPressedBritish: () => speaksentence23("en-GB"),
+                    onPressedAmerican: () => speaksentence23("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٣. (کردار) ئاگاداربوون لە شتێک ئەگەرچی ناتوانیت بیبینیت، بیبیستیت، هتد"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence1600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence16("en-GB"),
-            onPressedAmerican: () => speaksentence16("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence17("en-GB"),
-            onPressedAmerican: () => speaksentence17("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence18("en-GB"),
-            onPressedAmerican: () => speaksentence18("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence1900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence19("en-GB"),
-            onPressedAmerican: () => speaksentence19("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence_2000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence20("en-GB"),
-            onPressedAmerican: () => speaksentence20("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence2100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence21("en-GB"),
-            onPressedAmerican: () => speaksentence21("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence2200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence22("en-GB"),
-            onPressedAmerican: () => speaksentence22("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence2300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence23("en-GB"),
-            onPressedAmerican: () => speaksentence23("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence2400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """They all feel pressure from managers to make a sale.""",
+            kurdishText:
+                """هەموویان هەست بە فشاری بەڕێوەبەران دەکەن بۆ فرۆشتن.""",
             onPressedBritish: () => speaksentence24("en-GB"),
             onPressedAmerican: () => speaksentence24("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """I definitely felt the importance of the occasion.""",
+            kurdishText: """بەدڵنیاییەوە هەستم بە گرنگیی بۆنەکە کرد.""",
             onPressedBritish: () => speaksentence25("en-GB"),
             onPressedAmerican: () => speaksentence25("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I felt their disapproval.""",
+            kurdishText: """هەستم بە ناڕەزاییان کرد.""",
             onPressedBritish: () => speaksentence26("en-GB"),
             onPressedAmerican: () => speaksentence26("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٤. (کردار) کە هەست یان تێگەشتنێکی تایبەتت پێدەدات"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """This situation doesn't feel right.""",
+            kurdishText: """ئەم دۆخە درووست دەرناکەوێت.""",
             onPressedBritish: () => speaksentence27("en-GB"),
             onPressedAmerican: () => speaksentence27("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence2800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence28("en-GB"),
-            onPressedAmerican: () => speaksentence28("en-US"),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  SentencesRow(
+                    englishText:
+                        """You need to go somewhere that feels safe.""",
+                    kurdishText: """دەبێت بچیتە شوێنێک کە سەلامەت دیارە.""",
+                    onPressedBritish: () => speaksentence28("en-GB"),
+                    onPressedAmerican: () => speaksentence28("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """My mouth felt completely dry.""",
+                    kurdishText: """دەمم تەواو هەستی بە وشکی دەکرد.""",
+                    onPressedBritish: () => speaksentence29("en-GB"),
+                    onPressedAmerican: () => speaksentence29("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """It felt strange to be back in my old school.""",
+                    kurdishText:
+                        """نامۆ دەردەکەوت کە گەڕابوومەوە قوتابخانە کۆنەکەم.""",
+                    onPressedBritish: () => speaksentence30("en-GB"),
+                    onPressedAmerican: () => speaksentence30("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """The interview only took ten minutes, but it felt like hours.""",
+                    kurdishText:
+                        """چاوپێکەوتنەکە تەنها دە خولەکی پێچوو، بەڵام وەک چەندین کاتژمێر دەرکەوت.""",
+                    onPressedBritish: () => speaksentence31("en-GB"),
+                    onPressedAmerican: () => speaksentence31("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """How does it feel to be alone all day?""",
+                    kurdishText: """چۆنە کە هەموو ڕۆژەکە تەنها بیت؟""",
+                    onPressedBritish: () => speaksentence32("en-GB"),
+                    onPressedAmerican: () => speaksentence32("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """It felt as though he had run a marathon.""",
+                    kurdishText:
+                        """وەها دەردەکەوت کە لە ماراسۆنێک ڕایکردبێت.""",
+                    onPressedBritish: () => speaksentence33("en-GB"),
+                    onPressedAmerican: () => speaksentence33("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٥. (کردار) هەبوونی تایبەتمەندییەک کە پێی دەزانیت بە دەستلێدان"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence2900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence29("en-GB"),
-            onPressedAmerican: () => speaksentence29("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence_3000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence30("en-GB"),
-            onPressedAmerican: () => speaksentence30("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence3100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence31("en-GB"),
-            onPressedAmerican: () => speaksentence31("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence3200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence32("en-GB"),
-            onPressedAmerican: () => speaksentence32("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence3300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence33("en-GB"),
-            onPressedAmerican: () => speaksentence33("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence3400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The water feels warm.""",
+            kurdishText: """ئاوەکە گەرمە.""",
             onPressedBritish: () => speaksentence34("en-GB"),
             onPressedAmerican: () => speaksentence34("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Its skin feels really smooth.""",
+            kurdishText: """پێستی زۆر نەرمە.""",
             onPressedBritish: () => speaksentence35("en-GB"),
             onPressedAmerican: () => speaksentence35("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """This wallet feels like leather.""",
+            kurdishText: """ئەم جزدانە وادیارە چەرم بێت.""",
             onPressedBritish: () => speaksentence36("en-GB"),
             onPressedAmerican: () => speaksentence36("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٥. (کردار) دەستهێنان بەسەر شتێک بۆ ئەوەی بزانیت چۆنە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Can you feel the bump on my head?""",
+            kurdishText: """دەتوانیت هەست بە هەڵئاوسانەکەی سەرم بکەیت؟""",
             onPressedBritish: () => speaksentence37("en-GB"),
             onPressedAmerican: () => speaksentence37("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Try to tell what this is just by feeling it.""",
+            kurdishText: """هەوڵ بدە بزانیت ئەمە چییە تەنها بە دەستلێدانی.""",
             onPressedBritish: () => speaksentence38("en-GB"),
             onPressedAmerican: () => speaksentence38("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence3900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Feel how rough this is.""",
+            kurdishText: """دەستی لێبدە بزانە ئەمە چەند زبرە.""",
             onPressedBritish: () => speaksentence39("en-GB"),
             onPressedAmerican: () => speaksentence39("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٧. (کردار) باوەڕکردن بە شتێک؛ هەبوونی بۆچوونێکی دیاریکراو"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_4000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We've always felt this was our home.""",
+            kurdishText: """هەمیشە وامان هەستکردووە ئەمە نیشتیمانمانە.""",
             onPressedBritish: () => speaksentence40("en-GB"),
             onPressedAmerican: () => speaksentence40("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence41("en-GB"),
-            onPressedAmerican: () => speaksentence41("en-US"),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  SentencesRow(
+                    englishText: """I felt (that) I had to apologize.""",
+                    kurdishText:
+                        """وام بیرکردەوە پێویست بوو داوای لێبوردن بکەم.""",
+                    onPressedBritish: () => speaksentence41("en-GB"),
+                    onPressedAmerican: () => speaksentence41("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """This is something I feel strongly about.""",
+                    kurdishText: """ئەمە شتێکە بە بەهێزی باوەڕم پێیەتی.""",
+                    onPressedBritish: () => speaksentence42("en-GB"),
+                    onPressedAmerican: () => speaksentence42("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """How do you feel about inviting the children too?""",
+                    kurdishText:
+                        """بۆچوونت چییە سەبارەت بە بانگهێشتکردنی منداڵەکانیش.""",
+                    onPressedBritish: () => speaksentence43("en-GB"),
+                    onPressedAmerican: () => speaksentence43("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """I didn't know you felt like that about it.""",
+                    kurdishText: """نەمدەزانی بەوشێوەیە بیرت لێ دەکردەوە.""",
+                    onPressedBritish: () => speaksentence44("en-GB"),
+                    onPressedAmerican: () => speaksentence44("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """She felt it her duty to tell the police.""",
+                    kurdishText: """هەستی دەکرد ئەرکییەتی بە پۆلیس بڵێت.""",
+                    onPressedBritish: () => speaksentence45("en-GB"),
+                    onPressedAmerican: () => speaksentence45("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I feel it a great honour to be chosen.""",
+                    kurdishText:
+                        """وەک شانازییەکی گەورە دەیبینم هەڵبژێردرێم.""",
+                    onPressedBritish: () => speaksentence46("en-GB"),
+                    onPressedAmerican: () => speaksentence46("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """Why did you feel it necessary to do that?""",
+                    kurdishText: """بۆچی وەک پێویستت بیرت لێکردەوە بیکەیت؟""",
+                    onPressedBritish: () => speaksentence47("en-GB"),
+                    onPressedAmerican: () => speaksentence47("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """I felt it advisable to do nothing.""",
+                    kurdishText: """بە باشم زانی هیچ نەکەم.""",
+                    onPressedBritish: () => speaksentence48("en-GB"),
+                    onPressedAmerican: () => speaksentence48("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText: """We all feel similarly about this issue.""",
+                    kurdishText:
+                        """هەموومان وەک یەکدی بیردەکەینەوە لەسەر ئەم بابەتە.""",
+                    onPressedBritish: () => speaksentence49("en-GB"),
+                    onPressedAmerican: () => speaksentence49("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """I still feel it was wrong to involve her.""",
+                    kurdishText: """هێشتا پێموایە هەڵە بوو ئەو تێوە بگلێنین.""",
+                    onPressedBritish: () => speaksentence50("en-GB"),
+                    onPressedAmerican: () => speaksentence50("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """I'm not sure how I feel about the new boss.""",
+                    kurdishText:
+                        """دڵنیا نیم چۆن سەرپەرشتیارە تازەکە دێتە بەرچاوم.""",
+                    onPressedBritish: () => speaksentence51("en-GB"),
+                    onPressedAmerican: () => speaksentence51("en-US"),
+                  ),
+                  const DividerDefinition(),
+                  const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        """Many people think this is a good thing, but I feel differently.""",
+                    kurdishText:
+                        """زۆر کەس وا بیردەکەنەوە ئەمە باشە، بەڵام من بۆچوونم جیاوازە.""",
+                    onPressedBritish: () => speaksentence52("en-GB"),
+                    onPressedAmerican: () => speaksentence52("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """٨. (کردار) ئەزموونکردنی کاریگەری یان ئەنجامەکانی شتێک"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence4200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence42("en-GB"),
-            onPressedAmerican: () => speaksentence42("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence43("en-GB"),
-            onPressedAmerican: () => speaksentence43("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence44("en-GB"),
-            onPressedAmerican: () => speaksentence44("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence45("en-GB"),
-            onPressedAmerican: () => speaksentence45("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence46("en-GB"),
-            onPressedAmerican: () => speaksentence46("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence47("en-GB"),
-            onPressedAmerican: () => speaksentence47("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence48("en-GB"),
-            onPressedAmerican: () => speaksentence48("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence4900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence49("en-GB"),
-            onPressedAmerican: () => speaksentence49("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence_5000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence50("en-GB"),
-            onPressedAmerican: () => speaksentence50("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence5100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence51("en-GB"),
-            onPressedAmerican: () => speaksentence51("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence5200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
-            onPressedBritish: () => speaksentence52("en-GB"),
-            onPressedAmerican: () => speaksentence52("en-US"),
-          ),
-          const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: """speaksentence5300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """He feels the cold a lot.""",
+            kurdishText: """زۆر هەست بە سەرماکە دەکات.""",
             onPressedBritish: () => speaksentence53("en-GB"),
             onPressedAmerican: () => speaksentence53("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence5400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """Cathy was really feeling the heat.""",
+            kurdishText: """کاسی بەڕاستی هەستی بە گەرماکە دەگرت.""",
             onPressedBritish: () => speaksentence54("en-GB"),
             onPressedAmerican: () => speaksentence54("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence5500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """We're all starting to feel the pressure at work.""",
+            kurdishText:
+                """هەموومان خەریکە دەست دەکەین بە کاریگەربوون بە فشاری سەر کار.""",
             onPressedBritish: () => speaksentence55("en-GB"),
             onPressedAmerican: () => speaksentence55("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence5600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """I was OK after my run, but I'll feel it tomorrow.""",
+            kurdishText:
+                """کێشەم نەبوو لە دوای ڕاکردنەکەم، بەڵام سبەی هەستی پێدەکەم.""",
             onPressedBritish: () => speaksentence56("en-GB"),
             onPressedAmerican: () => speaksentence56("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence5700""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """She felt her mother's death very deeply.""",
+            kurdishText: """زۆر بە قووڵی کاریگەر بوو بە مەرگی دایکی.""",
             onPressedBritish: () => speaksentence57("en-GB"),
             onPressedAmerican: () => speaksentence57("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence5800""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I felt their pain.""",
+            kurdishText: """هەست بە ئازاریان دەکەم.""",
             onPressedBritish: () => speaksentence58("en-GB"),
             onPressedAmerican: () => speaksentence58("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text: """٩. (کردار) گەڕان بۆ شتیک بە دەستت، قاچت، هتد"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence5900""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """She felt in her bag and pulled out a pen.""",
+            kurdishText: """لە جانتاکەی گەرا و پێنووسێکی دەرکرد.""",
             onPressedBritish: () => speaksentence59("en-GB"),
             onPressedAmerican: () => speaksentence59("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence_6000""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """I had to feel about in the dark for the light switch.""",
+            kurdishText: """پێویست بوو لە تاریکییەکەدا بۆ لایتەکە بگەڕێم.""",
             onPressedBritish: () => speaksentence60("en-GB"),
             onPressedAmerican: () => speaksentence60("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence6100""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """He felt in his pockets for some money.""",
+            kurdishText: """گیرفانەکانی گەڕا بۆ کەمێک پارە.""",
             onPressedBritish: () => speaksentence61("en-GB"),
             onPressedAmerican: () => speaksentence61("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """١٠. (ناو) ئەو هەستەی هەتە کاتێک دەست لە شتێک دەدەیت یان دەستت لێ دەدرێت"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence6200""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """You can tell it's silk by the feel.""",
+            kurdishText: """دەوانیت بڵێیت ئاوریشمە بە دەست لێدانی.""",
             onPressedBritish: () => speaksentence62("en-GB"),
             onPressedAmerican: () => speaksentence62("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence6300""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """She loved the feel of the sun on her skin.""",
+            kurdishText: """حەزی بە بەرکەوتنی خۆرەکە بە پێستی دەکرد.""",
             onPressedBritish: () => speaksentence63("en-GB"),
             onPressedAmerican: () => speaksentence63("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """١١. (ناو) هەستکردن یان دەستلێدان"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence6400""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """I had a feel of the material.""",
+            kurdishText: """دەستم لە مادەکە دا.""",
             onPressedBritish: () => speaksentence64("en-GB"),
             onPressedAmerican: () => speaksentence64("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(
+              text:
+                  """١٢. (ناو) ئەو کەشەی کە شوێنێک، دۆخێک، هتد درووستی دەکات"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence6500""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText:
+                """It's a big city but it has the feel of a small town.""",
+            kurdishText: """شارێکی گەورەیە بەڵام کەشی شارۆچکەیەکی هەیە.""",
             onPressedBritish: () => speaksentence65("en-GB"),
             onPressedAmerican: () => speaksentence65("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
-            englishText: """speaksentence6600""",
-            kurdishText: """رستە_رستە_رستە_رستە.""",
+            englishText: """The film has a documentary feel to it.""",
+            kurdishText: """فیلمەکە کەشێکی دۆکیومێنتاری هەیە.""",
             onPressedBritish: () => speaksentence66("en-GB"),
             onPressedAmerican: () => speaksentence66("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6700""",
@@ -1478,7 +1568,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence67("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6800""",
@@ -1487,7 +1577,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence68("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence6900""",
@@ -1496,7 +1586,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence69("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_7000""",
@@ -1505,7 +1595,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence70("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7100""",
@@ -1514,7 +1604,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence71("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7200""",
@@ -1523,7 +1613,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence72("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7300""",
@@ -1532,7 +1622,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence73("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7400""",
@@ -1541,7 +1631,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence74("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7500""",
@@ -1550,7 +1640,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence75("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7600""",
@@ -1559,7 +1649,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence76("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7700""",
@@ -1568,7 +1658,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence77("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7800""",
@@ -1577,7 +1667,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence78("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence7900""",
@@ -1586,7 +1676,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence79("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence_8000""",
@@ -1595,7 +1685,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence80("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8100""",
@@ -1604,7 +1694,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence81("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8200""",
@@ -1613,7 +1703,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence82("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8300""",
@@ -1622,7 +1712,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speaksentence83("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
+          const DefinitionKurdish(text: """ژممارە. (ناو) پێنناسە"""),
           const DividerSentences(),
           SentencesRow(
             englishText: """speaksentence8400""",
@@ -1671,9 +1761,57 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: fearlessly
-1. Without fear (= dauntlessly, intrepidly)
-"fearlessly, he led the troops into combat";
+- Verb: feel (Derived forms: felt, feels, feeling)
+1. Undergo an emotional sensation or be in a particular state of mind (= experience)
+"She felt resentful"; "He felt regret";
+ 
+2. Come to believe on the basis of emotion, intuition, or indefinite grounds (= find)
+"I feel that he doesn't like me";
+ 
+3. Perceive by a physical sensation, e.g., coming from the skin or muscles (= sense)
+"He felt the wind"; "She felt an object brushing her arm"; "He felt his flesh crawl"; "She felt the heat when she got out of the car";
+ 
+4. Be conscious of a physical, mental, or emotional state
+"My cold is gone--I feel fine today"; "She felt tired after the long hike"; "She felt sad after her loss"
+ 
+5. Have a feeling or perception about oneself in reaction to someone's behaviour or attitude
+"She felt small and insignificant"; "You make me feel naked"; "I made the students feel different about themselves"
+ 
+6. Undergo passive experience of
+"We felt the effects of inflation"; "her fingers felt their way through the string quartet"; "she felt his contempt of her"
+ 
+7. Be felt or perceived in a certain way
+"The ground feels shaky"; "The sheets feel soft"
+ 
+8. Grope or feel in search of something
+"He felt for his wallet"
+ 
+9. Examine by touch (= finger)
+"Feel this soft cloth!";
+ 
+10. (medicine) examine (a body part) by palpation (= palpate)
+"The runner felt her pulse";
+ 
+11. Find by testing or cautious exploration
+"He felt his way around the dark room"
+ 
+12. Produce a certain impression
+"It feels nice to be home again"
+ 
+13. Pass one's hands over the sexual organs of
+"He felt the girl in the movie theatre"
+
+- Noun: feel (Derived forms: feels)
+1. An intuitive awareness
+"he has a feel for animals"; "it's easy when you get the feel of it"
+ 
+2. The general atmosphere of a place or situation and the effect that it has on people (= spirit, tone, feeling, flavor [US], flavour [Brit, Cdn], look, smell)
+"the feel of the city excited him";
+ 
+3. A property perceived by touch (= tactile property)
+ 
+4. Manual stimulation of the genital area for sexual pleasure
+"the girls hated it when he tried to sneak a feel"
 """,
   );
 
@@ -1698,18 +1836,18 @@ ${englishMeaningConst.text}
   }
 }
 
-const String _videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
-const double _startSecondsend = 0000000000000000000000000001804;
-const String _videoIdone = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsone = 000000000000000000000000000854;
-const String _videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
-const double _startSecondstwo = 000000000000000000000000000259;
-const String _videoIdthree = 'https://youtu.be/qgVsKzfRo3Q?t=';
-const double _startSecondsthree = 000000000000000000000000000254;
-const String _videoIdfour = 'https://youtu.be/vc90NQpY_4s?t=';
-const double _startSecondsfour = 000000000000000000000000000994;
-const String _videoIdfive = 'https://youtu.be/HAZlPuL3Qhw?t=';
-const double _startSecondsfive = 0000000000000000000000000001173;
+const String _videoIdend = 'https://youtu.be/YkiR1KjIw7k?t=';
+const double _startSecondsend = 000000000000000000000000000519;
+const String _videoIdone = 'https://youtu.be/_Z0ZQT0FttM?t=';
+const double _startSecondsone = 0000000000000000000000000002142;
+const String _videoIdtwo = 'https://youtu.be/XZVHmRvfDHM?t=';
+const double _startSecondstwo = 00000000000000000000000000064;
+const String _videoIdthree = 'https://youtu.be/zmEv7vTOQGE?t=';
+const double _startSecondsthree = 0000000000000000000000000003447;
+const String _videoIdfour = 'https://youtu.be/F-Z3qNeZyTU?t=';
+const double _startSecondsfour = 000000000000000000000000000176;
+const String _videoIdfive = 'https://youtu.be/hFZFjoX2cGg?t=';
+const double _startSecondsfive = 000000000000000000000000000122;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -2763,8 +2763,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_feverish.dart' show EnglishEntryfeverish
 // en_entry_feverishly.dart' show EnglishEntryfeverishly
 // en_entry_few.dart' show EnglishEntryfew
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_fiance.dart' show EnglishEntryfiance //// فففف fiancé
+// en_entry_fiancee.dart' show EnglishEntryfiancee //// ففففfiancée
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

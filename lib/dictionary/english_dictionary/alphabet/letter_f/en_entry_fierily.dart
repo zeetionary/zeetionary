@@ -1689,7 +1689,7 @@ ${englishMeaningConst.text}
   }
 }
 
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 const String _videoIdend = 'https://youtu.be/cO_QDgq0dTQ?t=';
 const double _startSecondsend = 000000000000000000000000000338;
 const String _videoIdone = 'https://youtu.be/CUT1rLoM8Ik?t=';

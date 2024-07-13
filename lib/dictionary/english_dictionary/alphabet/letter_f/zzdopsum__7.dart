@@ -57,10 +57,10 @@ WORD_WEB dopsum1 dopsum1 dopsum1
 haʊʊʊʊʊʊʊ4
 """,
   );
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 
   final String keyword = "dopsum1";
-  List<Map<String, dynamic>> filteredSentences = []; 
+  List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -87,7 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""// speaksentence1000000000001111000000000000000000000""");
+        .speak("""// speaksentence1000000000001111000000000000000000000
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -779,7 +780,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
                     SentencesRow(
                       englishText:
-                          """// speaksentence1000000000001111000000000000000000000""",
+                          """// speaksentence1000000000001111000000000000000000000
+""",
                       kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -1681,7 +1683,7 @@ haʊʊʊʊʊʊʊ4
   }
 }
 
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 const String _videoIdend = '';
 const double _startSecondsend = 000000000000000000000000000;
 const String _videoIdone = '';

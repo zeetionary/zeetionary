@@ -2807,26 +2807,26 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_figuratively.dart' show EnglishEntryfiguratively
 // en_entry_figure.dart' show EnglishEntryfigure
 // en_entry_figurehead.dart' show EnglishEntryfigurehead
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_figure_of_speech.dart' show EnglishEntryfigureofspeech //// فففف figure of speech
+// en_entry_filament.dart' show EnglishEntryfilament
+// en_entry_file.dart' show EnglishEntryfile
+// en_entry_filings.dart' show EnglishEntryfilings
+// en_entry_filing_cabinet.dart' show EnglishEntryfilingcabinet //// فففف filing cabinet
+// en_entry_fill.dart' show EnglishEntryfill
+// en_entry_filler.dart' show EnglishEntryfiller
+// en_entry_filling.dart' show EnglishEntryfilling
+// en_entry_fillet.dart' show EnglishEntryfillet
+// en_entry_film.dart' show EnglishEntryfilm
+// en_entry_film_star.dart' show EnglishEntryfilmstar //// ffff film star
+// en_entry_filter.dart' show EnglishEntryfilter
+// en_entry_filth.dart' show EnglishEntryfilth
+// en_entry_filthy.dart' show EnglishEntryfilthy
+// en_entry_fin.dart' show EnglishEntryfin
+// en_entry_final.dart' show EnglishEntryfinal
+// en_entry_finalist.dart' show EnglishEntryfinalist
+// en_entry_finalize.dart' show EnglishEntryfinalize
+// en_entry_finally.dart' show EnglishEntryfinally
+// en_entry_finale.dart' show EnglishEntryfinale
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

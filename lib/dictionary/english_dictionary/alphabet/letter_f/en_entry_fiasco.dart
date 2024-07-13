@@ -57,7 +57,7 @@ ${englishMeaningConst.text}
   );
 
   final String keyword = "fiasco";
-  List<Map<String, dynamic>> filteredSentences = []; 
+  List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -83,8 +83,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The party was a complete fiasco.""");
+    await flutterTts.speak("""The party was a complete fiasco.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -98,7 +97,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The show was a fiasco - one actor forgot his lines and another fell off the stage.""");
+    await flutterTts.speak(
+        """The show was a fiasco - one actor forgot his lines and another fell off the stage.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -773,10 +773,11 @@ ${englishMeaningConst.text}
 کوردی: تێشکانی تەواو، سەرنەگرتنی یەکجاری، ئاشبەتاڵ، نشوستی، مایەی ئابڕووچوون
 """),
 // With short examples define "fiasco", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شتێک کە سەرکەوتوو نابێت، بەشێوەیەک کە خەڵکی شەرمەزار دەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شتێک کە سەرکەوتوو نابێت، بەشێوەیەک کە خەڵکی شەرمەزار دەکات"""),
                     SentencesRow(
-                      englishText:
-                          """The party was a complete fiasco.""",
+                      englishText: """The party was a complete fiasco.""",
                       kurdishText: """ئاهەنگەکە ئابڕووچوونێکی تەواوەتی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -796,8 +797,10 @@ ${englishMeaningConst.text}
                         text: """ژممارە. (ھاوەڵناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The show was a fiasco - one actor forgot his lines and another fell off the stage.""",
-                      kurdishText: """نمایشەکە ئابڕووچوونێک بوو ـ ئەکتەرێک قسەکانیی بیرچوو و یەکێکی دیکە لەسەر سەکۆکە کەوت بە زەویدا.""",
+                      englishText:
+                          """The show was a fiasco - one actor forgot his lines and another fell off the stage.""",
+                      kurdishText:
+                          """نمایشەکە ئابڕووچوونێک بوو ـ ئەکتەرێک قسەکانیی بیرچوو و یەکێکی دیکە لەسەر سەکۆکە کەوت بە زەویدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1678,7 +1681,7 @@ ${englishMeaningConst.text}
   }
 }
 
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 const String _videoIdend = 'https://youtu.be/-r_l-cTcWsE?t=';
 const double _startSecondsend = 000000000000000000000000000538;
 const String _videoIdone = 'https://youtu.be/iogjPsCceqc?t=';

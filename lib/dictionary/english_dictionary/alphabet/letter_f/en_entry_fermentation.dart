@@ -10,7 +10,8 @@ class EnglishEntryfermentation extends StatefulWidget {
   const EnglishEntryfermentation({super.key});
 
   @override
-  State<EnglishEntryfermentation> createState() => _EnglishEntryfermentationState();
+  State<EnglishEntryfermentation> createState() =>
+      _EnglishEntryfermentationState();
 }
 
 class _EnglishEntryfermentationState extends State<EnglishEntryfermentation> {
@@ -60,7 +61,7 @@ ${englishMeaningConst.text}
   );
 
   final String keyword = "fermentation";
-  List<Map<String, dynamic>> filteredSentences = []; 
+  List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -86,8 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Fermentation takes about 48 hours.""");
+    await flutterTts.speak("""Fermentation takes about 48 hours.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -776,10 +776,11 @@ ${englishMeaningConst.text}
 کوردی: ترشاندن، ترشان، هەڵهاتن
 """),
 // With short examples define "fermentation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) پڕۆسەی گۆڕانی کیمیای کە بە خومرە یان بەکتریا ڕوودەدات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پڕۆسەی گۆڕانی کیمیای کە بە خومرە یان بەکتریا ڕوودەدات"""),
                     SentencesRow(
-                      englishText:
-                          """Fermentation takes about 48 hours.""",
+                      englishText: """Fermentation takes about 48 hours.""",
                       kurdishText: """هەڵهاتن ٤٨ کاتژمێری دەوێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -1681,7 +1682,7 @@ ${englishMeaningConst.text}
   }
 }
 
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 const String _videoIdend = 'https://youtu.be/NQcwgZbgLj4?t=';
 const double _startSecondsend = 000000000000000000000000000108;
 const String _videoIdone = 'https://youtu.be/gNqQL-1gZF8?t=';

@@ -72,7 +72,7 @@ ${englishMeaningConst.text}
   );
 
   final String keyword = "fetch";
-  List<Map<String, dynamic>> filteredSentences = []; 
+  List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -120,7 +120,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The painting is expected to fetch £10 000 at auction.""");
+    await flutterTts
+        .speak("""The painting is expected to fetch £10 000 at auction.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -788,11 +789,13 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "fetch", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ڕۆشتن بۆ شوێنێک و هێنانی شتێک"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) ڕۆشتن بۆ شوێنێک و هێنانی شتێک"""),
                     SentencesRow(
                       englishText:
                           """The inhabitants have to walk a mile to fetch water.""",
-                      kurdishText: """دانیشتووەکان دەبێت سەروو یەک میل ڕێ بکەن بۆ هێنان ئاو.""",
+                      kurdishText:
+                          """دانیشتووەکان دەبێت سەروو یەک میل ڕێ بکەن بۆ هێنان ئاو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -801,8 +804,10 @@ ${englishMeaningConst.text}
                         text: """ژممارە. (کردار) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She's gone to fetch the kids from school.""",
-                      kurdishText: """ڕۆشتووە بۆ هێنانەوەی منداڵەکان لە قوتابخانە.""",
+                      englishText:
+                          """She's gone to fetch the kids from school.""",
+                      kurdishText:
+                          """ڕۆشتووە بۆ هێنانەوەی منداڵەکان لە قوتابخانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -821,8 +826,10 @@ ${englishMeaningConst.text}
                         text: """٢. (کردار) ئەوەی شتێک بە نرخێک بفرۆشێردرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The painting is expected to fetch £10 000 at auction.""",
-                      kurdishText: """تابلۆکە چاوەڕێ دەکرێت ١٠٠٠٠ پاوەند بکات لە مەزادا.""",
+                      englishText:
+                          """The painting is expected to fetch £10 000 at auction.""",
+                      kurdishText:
+                          """تابلۆکە چاوەڕێ دەکرێت ١٠٠٠٠ پاوەند بکات لە مەزادا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1693,7 +1700,7 @@ ${englishMeaningConst.text}
   }
 }
 
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 const String _videoIdend = 'https://youtu.be/_spuxXnul0U?t=';
 const double _startSecondsend = 000000000000000000000000000314;
 const String _videoIdone = 'https://youtu.be/D-2799Y07Zc?t=';

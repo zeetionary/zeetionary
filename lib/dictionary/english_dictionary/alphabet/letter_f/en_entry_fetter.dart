@@ -106,7 +106,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They were at last freed from the fetters of ignorance.""");
+    await flutterTts
+        .speak("""They were at last freed from the fetters of ignorance.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -806,17 +807,19 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (ناو) شتیک کە دەتوەستێنێت لەوەی دەتەوێت بیکەیت"""),
+                        text:
+                            """٣. (ناو) شتیک کە دەتوەستێنێت لەوەی دەتەوێت بیکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They were at last freed from the fetters of ignorance.""",
-                      kurdishText: """لە کۆتاییدا ئازاد کران لە تەوقی نەزانی.""",
+                      englishText:
+                          """They were at last freed from the fetters of ignorance.""",
+                      kurdishText:
+                          """لە کۆتاییدا ئازاد کران لە تەوقی نەزانی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٤. (ناو) پێنناسە"""),
+                    const DefinitionKurdish(text: """٤. (ناو) پێنناسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence400""",
@@ -1691,7 +1694,7 @@ ${englishMeaningConst.text}
   }
 }
 
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 const String _videoIdend = 'https://youtu.be/1Kx_2Sh7iz0?t=';
 const double _startSecondsend = 000000000000000000000000000160;
 const String _videoIdone = 'https://youtu.be/LXcUDMn64Lw?t=';

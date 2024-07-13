@@ -59,7 +59,7 @@ ${englishMeaningConst.text}
   );
 
   final String keyword = "figurehead";
-  List<Map<String, dynamic>> filteredSentences = []; 
+  List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
     final sentences =
@@ -775,11 +775,13 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "figurehead", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) کەسێک کە لە ئاستی باڵایە لە وڵات یان دامەزراوەیەک بەڵام هیچ دەسەڵاتی نییە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە لە ئاستی باڵایە لە وڵات یان دامەزراوەیەک بەڵام هیچ دەسەڵاتی نییە"""),
                     SentencesRow(
                       englishText:
                           """The president of the club is not just a figurehead.""",
-                      kurdishText: """سەرۆکی یانەکە تەنها .................""",
+                      kurdishText: """سەرۆکی یانەکە تەنها ناوێک نییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1680,7 +1682,7 @@ ${englishMeaningConst.text}
   }
 }
 
-// speaksentence10002200000011110000000000000000
+// 188888880002200
 const String _videoIdend = 'https://youtu.be/1ZKBaRsP1gY?t=';
 const double _startSecondsend = 000000000000000000000000000;
 const String _videoIdone = 'https://youtu.be/K9ki5uCZalg?t=';

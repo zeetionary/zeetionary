@@ -267,7 +267,6 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: کاری گران، کۆڵەمەرگی، کاری دژوار، زەحمەتی زۆر، جگەرە
 """),
-          // const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
           CustomRichText(
             textBeforeLink: "١. بڕوانە لە ",
             linkText: "crotch",

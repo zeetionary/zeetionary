@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
 //           const KurdishVocabulary(text: """
 // کوردی:
 // """),
-          // const DefinitionKurdish(text: """١. (ھاوەڵناو) پێنناسە"""),
           CustomRichText(
             textBeforeLink: "١. شوێنکەتوو یان باوەڕداری ",
             linkText: "fascism",

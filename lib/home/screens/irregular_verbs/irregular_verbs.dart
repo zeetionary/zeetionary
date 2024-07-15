@@ -247,9 +247,15 @@ class _IrregularVerbsScreenState extends ConsumerState<IrregularVerbsScreen>
                         filteredVerbs[index]['participle']!,
                         style: TextStyle(fontSize: textSize),
                       )),
-                      DataCell(Text(
-                        filteredVerbs[index]['کوردی']!,
-                        style: TextStyle(fontSize: textSize),
+                      DataCell(Directionality(
+                        textDirection: TextDirection.rtl,
+                        child: Align(
+                          alignment: Alignment.topRight,
+                          child: Text(
+                            filteredVerbs[index]['کوردی']!,
+                            style: TextStyle(fontSize: textSize),
+                          ),
+                        ),
                       )),
                     ],
                   ),

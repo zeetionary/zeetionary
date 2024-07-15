@@ -266,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Farce is often looked down upon by serious theatre goers.""",
             kurdishText:
-                """شانۆی گاڵتەجاڕی زۆرجار لەلایەن ئامادەبووانی ھۆڵی شانۆوە وەک گاڵتەجاڕی دەیر دەکرێت.""",
+                """شانۆی گاڵتەجاڕی زۆرجار لەلایەن ئامادەبووانی ھۆڵی شانۆوە وەک گاڵتەجاڕی سەیر دەکرێت.""",
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

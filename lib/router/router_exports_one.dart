@@ -2850,41 +2850,41 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_fir.dart' show EnglishEntryfir
 // en_entry_fir_cone.dart' show EnglishEntryfircone //// فففف fir cone
 // en_entry_fire.dart' show EnglishEntryfire
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_fire_alarm.dart' show EnglishEntryfirealarm //// فففف fire alarm
+// en_entry_firearm.dart' show EnglishEntryfirearm
+// en_entry_fire_brigade.dart' show EnglishEntryfirebrigade //// فففف fire brigade
+// en_entry_fire_drill.dart' show EnglishEntryfiredrill //// فففف fire drill
+// en_entry_fire_engine.dart' show EnglishEntryfireengine //// فففف fire engine
+// en_entry_fire_escape.dart' show EnglishEntryfireescape //// fire escape
+// en_entry_fire_extinguisher.dart' show EnglishEntryfireextinguisher //// فففف fire extinguisher
+// en_entry_firefighter.dart' show EnglishEntryfirefighter
+// en_entry_fireguard.dart' show EnglishEntryfireguard
+// en_entry_fireplace.dart' show EnglishEntryfireplace
+// en_entry_fireproof.dart' show EnglishEntryfireproof
+// en_entry_fireside.dart' show EnglishEntryfireside
+// en_entry_fire_station.dart' show EnglishEntryfirestation //// فففف fire station
+// en_entry_firewood.dart' show EnglishEntryfirewood
+// en_entry_firework.dart' show EnglishEntryfirework
+// en_entry_firing_line.dart' show EnglishEntryfiringline //// فففف firing line
+// en_entry_firing_squad.dart' show EnglishEntryfiringsquad //// فففف firing squad
+// en_entry_firm.dart' show EnglishEntryfirm
+// en_entry_firmly.dart' show EnglishEntryfirmly
+// en_entry_firmness.dart' show EnglishEntryfirmness
+// en_entry_first.dart' show EnglishEntryfirst
+// en_entry_first_aid.dart' show EnglishEntryfirstaid //// فففف first aid
+// en_entry_first_class.dart' show EnglishEntryfirstclass //// ffff first class
+// en_entry_first_floor.dart' show EnglishEntryfirstfloor //// فففف first floor
+// en_entry_first_hand.dart' show EnglishEntryfirsthand //// فففف first-hand
+// en_entry_firstly.dart' show EnglishEntryfirstly
+// en_entry_first_name.dart' show EnglishEntryfirstname //// فففف first name
+// en_entry_the_first_person.dart' show EnglishEntrythefirstperson //// فففف the first person
+// en_entry_first_rate.dart' show EnglishEntryfirstrate //// فففف first-rate
+// en_entry_fish.dart' show EnglishEntryfish
+// en_entry_fisherman.dart' show EnglishEntryfisherman
+// en_entry_fishery.dart' show EnglishEntryfishery
+// en_entry_fishing.dart' show EnglishEntryfishing
+// en_entry_fishmonger.dart' show EnglishEntryfishmonger
+// en_entry_fishy.dart' show EnglishEntryfishy
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

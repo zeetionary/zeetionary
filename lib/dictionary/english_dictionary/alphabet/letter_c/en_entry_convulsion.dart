@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
@@ -111,10 +112,18 @@ class EnglishEntryconvulsion extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) لەرزینی لەناکاوی جەستە کە کۆنترۆڵ ناکرێت"),
+                                  AlsoEnglishckblink(
+                                  textBeforeLink: "هەروەها: ",
+                                  linkText: "fit",
+                                  textAfterLink: ".",
+                                  onTap: () {
+                                  Routemaster.of(context).push("/english-convulsion/fit");
+                                  },
+                                  ),
                           SentencesRow(
                             englishText: "The child went into convulsions.",
                             kurdishText:
-                                "منداڵەکە دەستی بە گەشکە کرد.", // convulsion",
+                                "منداڵەکە دەستی بە فێ کرد.", // convulsion",
                             onPressedBritish: () => speakconvulsions1("en-GB"),
                             onPressedAmerican: () => speakconvulsions1("en-US"),
                           ),

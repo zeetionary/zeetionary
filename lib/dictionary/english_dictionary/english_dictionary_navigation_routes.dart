@@ -6534,7 +6534,7 @@ final Map<String, String> wordRoutes = {
   "fairy story": "/english-fairytale",
   "fire screen": "/english-fireguard",
   "fireman": "/english-firefighter",
-  // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
+  "flier": "/english-flyer",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",

@@ -150,7 +150,7 @@ class EnglishEntryconservation extends StatelessWidget {
                             englishText:
                                 "The government allocated funds for the conservation of ancient monuments in the region.",
                             kurdishText:
-                                "حکومەت بودجەی کۆکردەوە بۆ پاراستنی مۆنومێنتە کۆنەکان لە ھەرێمەکە.",
+                                "حکومەت بودجەی کۆکردەوە بۆ پاراستنی مۆنیومێنتە کۆنەکان لە ھەرێمەکە.",
                             onPressedBritish: () =>
                                 speakconservations3("en-GB"),
                             onPressedAmerican: () =>

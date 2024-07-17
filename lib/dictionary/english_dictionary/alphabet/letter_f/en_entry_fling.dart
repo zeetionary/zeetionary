@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryflight extends StatefulWidget {
-  const EnglishEntryflight({super.key});
+class EnglishEntryfling extends StatefulWidget {
+  const EnglishEntryfling({super.key});
 
   @override
-  State<EnglishEntryflight> createState() => _EnglishEntryflightState();
+  State<EnglishEntryfling> createState() => _EnglishEntryflingState();
 }
 
-class _EnglishEntryflightState extends State<EnglishEntryflight> {
+class _EnglishEntryflingState extends State<EnglishEntryfling> {
   @override
   void initState() {
     super.initState();
@@ -51,43 +51,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: flight (Derived forms: flights)
-1. The action or process of travelling by air (= flying)
-"flight was still an exciting adventure for him";
+- Verb: fling (Derived forms: flinging, flings, flung)
+1. Throw with force or recklessness
+"fling the frisbee"
  
-2. A scheduled trip by plane between designated airports
-"I took the noon flight to Chicago"
+2. Move in an abrupt or headlong manner
+"He flung himself onto the sofa"
  
-3. A stairway (set of steps) between one floor or landing and the next (= flight of stairs, flight of steps)
- 
-4. An air force unit smaller than a squadron
- 
-5. Passing above and beyond ordinary bounds
-"a flight of fancy"; "flights of rhetoric"; "flights of imagination"
- 
-6. The path followed by an object moving through space (= trajectory)
- 
-7. A flock of flying birds
- 
-8. A formation of aircraft in flight
- 
-9. The act of escaping physically (= escape)
-"his flight was an indication of his guilt";
+3. Throw or cast away (= discard, toss, toss out, toss away, chuck out, cast aside, dispose, throw out, cast out, throw away, cast away, put away)
+"fling your worries";
 
-10. A tail on an arrow or dart used to help it follow a straight path
-
-- Verb: flight (Derived forms: flights, flighting, flighted)
-1. Shoot a bird in flight
+- Noun: fling (Derived forms: flings)
+1. A brief indulgence of your impulses (= spree)
  
-2. Fly in a flock
-"flighting wild geese"
+2. [informal] A short sexual relationship
  
-3. Decorate with feathers (= fledge)
-"flight an arrow";
+3. The act of flinging
+ 
+4. A usually brief attempt (= crack, go, pass, whirl [informal], offer, bash [Brit, informal])
 """,
   );
 
-  final String keyword = "flight";
+  final String keyword = "fling";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -107,163 +92,155 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""flight""");
+    await flutterTts.speak("""fling""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The first prize is a return flight to Delhi.""");
+    await flutterTts.speak("""Someone had flung a brick through the window.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""We met on a flight from London to Paris.""");
+    await flutterTts.speak("""He flung her to the ground.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Did you have a good flight?""");
+    await flutterTts.speak("""I was flung forward by the impact.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I hope you enjoy the flight.""");
+    await flutterTts.speak("""She flung herself onto the bed.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""If you need to change a flight, the fee is £100.""");
+    await flutterTts.speak("""He flung out an arm to stop her from falling.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Please refrain from smoking during the flight.""");
+    await flutterTts.speak("""They were flinging insults at each other.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""We're booked on the same flight.""");
+    await flutterTts
+        .speak("""He was determined to have one last fling before retiring.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""If we leave now, I can catch the earlier flight.""");
+    await flutterTts.speak("""We had a brief fling, but it’s over now.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""After a few phone calls he boarded a flight to Bangkok.""");
+    await flutterTts.speak("""It was just a fling.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They've cancelled my flight!""");
+    await flutterTts.speak("""speaksentence_1000""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Flight BA 4793 is now boarding at Gate 17.""");
+    await flutterTts.speak("""speaksentence1100""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She took a flight for Los Angeles.""");
+    await flutterTts.speak("""speaksentence1200""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Barn owls are capable of flight at 56 days.""");
+    await flutterTts.speak("""speaksentence1300""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They watched the young eagles take flight.""");
+    await flutterTts.speak("""speaksentence1400""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """Don't get into the line of flight of the bees—you'd be sure to get stung.""");
+    await flutterTts.speak("""speaksentence1500""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The flight of the ball was straight and fast.""");
+    await flutterTts.speak("""speaksentence1600""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""She fell down a flight of stairs/steps and hurt her back.""");
+    await flutterTts.speak("""speaksentence1700""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """The main character is a journalist in flight from a failed marriage.""");
+    await flutterTts.speak("""speaksentence1800""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The story tells of his flight to safety.""");
+    await flutterTts.speak("""speaksentence1900""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The army was defeated and the king put to flight.""");
+    await flutterTts.speak("""speaksentence_2000""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """He flighted his free kick straight into the goalkeeper's arms.""");
+    await flutterTts.speak("""speaksentence2100""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
@@ -765,10 +742,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """flight""",
-                      // alsoEnglishWord: "also: flight",
-                      britshText: """IpaUK: /flaɪt/""",
-                      americanText: """IpaUS: /flaɪt/""",
+                      word: """fling""",
+                      // alsoEnglishWord: "also: fling",
+                      britshText: """IpaUK: /flɪŋ/""",
+                      americanText: """IpaUS: /flɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -809,101 +786,93 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: فڕین، هێڵی فڕین، فڕینەڕێ، ڕێڕەوی فڕین،	فڕۆکە، باڵافڕ،	پەڕین، باڵ‌گرتنەوە، بازدان،	کۆچ، ڕۆیشتن،	(بۆ ئاسمان) گەشت، گەڕان،	سکادڕان، یەکە، یەکینە،	ڕێڕەوی هەڵدان، ڕێگا، ڕێگای هاویشتن،	پۆلەفڕێ، پۆل یان دەستەی پەلەوەر و مێرووە کۆچەرەکان، پۆلە باڵندەی گەرمێن و کوێستان‌کردوو،	زنجیرە، ڕیز،	ڕۆیشتن، تێپەڕین،	پلیکان، ڕیزەپلیکان،	(کلکی) تیر
+کوردی: تووڕهەڵدان، هاویشتن، فڕێدان،	فلینگ (جۆرێ سەما و هەڵپەڕکێی توندی سکاتلەندی)،	ماوەی ڕابواردن، سەروبەندی خۆشی، سەردەمی ڕادان،	پێوەندی سێکسی ناڕەوا، تێکەڵی دڵدارانە
 """),
-// With short examples define "flight", please follow LX instructions
+// With short examples define "fling", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) گەشتی ئاسمانی، بە تایبەتی بە فڕۆکە"""),
+                        text: """١. (کردار) فڕێدان یان پاڵنان بە هێزەوە"""),
                     SentencesRow(
                       englishText:
-                          """The first prize is a return flight to Delhi.""",
+                          """Someone had flung a brick through the window.""",
                       kurdishText:
-                          """خەڵاتی یەکەم گەشتی گەڕانەوەیە بۆ دێلهی.""",
+                          """کەسێک خشتێکی بە پەنجەرەکەدا هاویشت بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    Column(
-                      children: [
-                        MyExpansionTile(
-                          children: [
-                            SentencesRow(
-                              englishText:
-                                  """We met on a flight from London to Paris.""",
-                              kurdishText:
-                                  """لەسەر گەشتێک لە لەندەنەوە بۆ پاریس یەکمان بینی.""",
-                              onPressedBritish: () => speaksentence2("en-GB"),
-                              onPressedAmerican: () => speaksentence2("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText: """Did you have a good flight?""",
-                              kurdishText: """گەشتێکی باشت هەبوو؟""",
-                              onPressedBritish: () => speaksentence3("en-GB"),
-                              onPressedAmerican: () => speaksentence3("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText: """I hope you enjoy the flight.""",
-                              kurdishText: """بەهیوام چێژ لە گەشتەکە ببینیت.""",
-                              onPressedBritish: () => speaksentence4("en-GB"),
-                              onPressedAmerican: () => speaksentence4("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """If you need to change a flight, the fee is £100.""",
-                              kurdishText:
-                                  """ئەگەر پێویستی کرد گەشتێک بگۆڕیت، تێچووەکەی ١٠٠ پاوەندە.""",
-                              onPressedBritish: () => speaksentence5("en-GB"),
-                              onPressedAmerican: () => speaksentence5("en-US"),
-                            ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
-                            const DividerSentences(),
-                            SentencesRow(
-                              englishText:
-                                  """Please refrain from smoking during the flight.""",
-                              kurdishText:
-                                  """تکایە دوور بە لە جگەرەکێشان لە ماوەی گەشتەکە.""",
-                              onPressedBritish: () => speaksentence6("en-GB"),
-                              onPressedAmerican: () => speaksentence6("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He flung her to the ground.""",
+                      kurdishText: """پاڵی نایە سەر زەوی.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """I was flung forward by the impact.""",
+                      kurdishText: """بە کاریگەرییە بۆ پێشەوە فڕێدرام.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) فڕۆکەیەک کە گەشتێکی دیاریکراو دەکات"""),
+                            """٢. (کردار) جوڵاندنی خۆت یان بەشێکی جەستەت بە هێزێکی زۆرەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We're booked on the same flight.""",
-                      kurdishText: """لەسەر هەمان فڕۆکە بووین.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
+                      englishText: """She flung herself onto the bed.""",
+                      kurdishText: """خۆی هەڵدایە سەر جێ‌خەوەکە.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """If we leave now, I can catch the earlier flight.""",
+                          """He flung out an arm to stop her from falling.""",
                       kurdishText:
-                          """ئەگەر ئێستا دەربچین دەتوانم فڕۆکەکەی پێشتر بگرم.""",
+                          """دەستێکی درێژ کرد تا ڕێگری لەوە بکات بکەوێت.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) گوتنی شتێک بە کەسێک بە توندی"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """They were flinging insults at each other.""",
+                      kurdishText: """جوێنیان بە یەکدی دەگوت.""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) ماوەیەک لە خۆشی وەرگرتن کە بیر لە شتی دیکە ناکەیتەوە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """He was determined to have one last fling before retiring.""",
+                      kurdishText:
+                          """سوور بوو لەسەر ئەوەی یەک بەزمی کۆتایی هەبێت پێش ئەوەی خانەنشین بێت.""",
+                      onPressedBritish: () => speaksentence7("en-GB"),
+                      onPressedAmerican: () => speaksentence7("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ناو) پەیوەندیی سێکسی کورتخایەن لەگەڵ کەسێک"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """We had a brief fling, but it’s over now.""",
+                      kurdishText:
+                          """پەیوەندییەکی کورتمان هەبوو، بەڵام ئێستا تەواو بووە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -911,10 +880,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """After a few phone calls he boarded a flight to Bangkok.""",
-                      kurdishText:
-                          """لە دوای ژمارەیەک پەیوەندیی تەلەفۆنی چووە سەر فڕۆکەیەک بۆ بانکۆک.""",
+                      englishText: """It was just a fling.""",
+                      kurdishText: """تەنها پەیوەندییەکی کورت بوو.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -922,8 +889,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They've cancelled my flight!""",
-                      kurdishText: """گەشتەکەمیان هەڵوەشاندووە.""",
+                      englishText: """speaksentence_1000""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -931,10 +898,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Flight BA 4793 is now boarding at Gate 17.""",
-                      kurdishText:
-                          """گەشتی BA 4793 ئێستا لە دروازی ١٧ سەرخستن دەکات.""",
+                      englishText: """speaksentence1100""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -942,19 +907,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She took a flight for Los Angeles.""",
-                      kurdishText: """فڕۆکەیەکی بۆ لۆس ئەنجلس گرت.""",
+                      englishText: """speaksentence1200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) فڕین"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Barn owls are capable of flight at 56 days.""",
-                      kurdishText:
-                          """کوندە پەپووی تەویلە دەتوانێت لە ٥٦ ڕۆژیدا بفڕێت.""",
+                      englishText: """speaksentence1300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -962,9 +925,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """They watched the young eagles take flight.""",
-                      kurdishText: """سەیری داڵە منداڵەکانیان کرد فڕین.""",
+                      englishText: """speaksentence1400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -972,48 +934,35 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Don't get into the line of flight of the bees—you'd be sure to get stung.""",
-                      kurdishText:
-                          """مەچۆ سەر ڕێگای فڕینی مێشهەنگەکان ـ دڵنیابە دەگەزرێیت.""",
+                      englishText: """speaksentence1500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (ناو) جووڵە یان ئاراستەی شتێک کە بە هەوادا گەشت دەکات"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The flight of the ball was straight and fast.""",
-                      kurdishText: """جووڵەی تۆپەکە خێرا و ڕاست بوو.""",
+                      englishText: """speaksentence1600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٥. (ناو) زنجیرەیەک لە پلەکانە لە نێوان دوو نهۆمدا"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She fell down a flight of stairs/steps and hurt her back.""",
-                      kurdishText:
-                          """لە ڕیزەپلیکانەیەکەوە کەوتە خوارەوە و پشتی ئازاری پێ گەشت.""",
+                      englishText: """speaksentence1700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٦. (ناو) هەڵهاتن لە دۆخێکی سەخت یان مەترسیدار"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The main character is a journalist in flight from a failed marriage.""",
-                      kurdishText:
-                          """کارەکتەری سەرەکی ڕۆژنامەنووسێکە کە لە هاوسەرگیرییەکەی شکستخواردوو هەڵدێت.""",
+                      englishText: """speaksentence1800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1021,10 +970,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The story tells of his flight to safety.""",
-                      kurdishText:
-                          """چیرۆکەکە باسی هەڵهاتنی بۆ سەلامەتی دەکات.""",
+                      englishText: """speaksentence1900""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -1032,22 +979,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The army was defeated and the king put to flight.""",
-                      kurdishText: """سوپاکە تێکشکێندرا و پاشا هەڵهات.""",
+                      englishText: """speaksentence_2000""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٧. (کردار) لێدان و هەڵدانی تۆپێکی بە حەوادا بە شارەزایی"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """He flighted his free kick straight into the goalkeeper's arms.""",
-                      kurdishText:
-                          """لێدانە ئازادەکەیی ڕێک فڕێدایە باوەشی گۆڵپارێزەکە.""",
+                      englishText: """speaksentence2100""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -1686,18 +1628,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
-const double _startSecondsend = 0000000000000000000000000001296;
-const String _videoIdone = 'https://youtu.be/Cxqca4RQd_M?t=';
-const double _startSecondsone = 000000000000000000000000000167;
-const String _videoIdtwo = 'https://youtu.be/2TUGZ1VQDss?t=';
-const double _startSecondstwo = 000000000000000000000000000529;
-const String _videoIdthree = 'https://youtu.be/xfVJZS7LuJ4?t=';
-const double _startSecondsthree = 00000000000000000000000000047;
-const String _videoIdfour = 'https://youtu.be/ImN2ze6opHE?t=';
-const double _startSecondsfour = 00000000000000000000000000081;
-const String _videoIdfive = 'https://youtu.be/JFq77o0hYjg?t=';
-const double _startSecondsfive = 000000000000000000000000000164;
+const String _videoIdend = 'https://youtu.be/gneBUA39mnI?t=';
+const double _startSecondsend = 000000000000000000000000000129;
+const String _videoIdone = 'https://youtu.be/NFtQOxjWfaA?t=';
+const double _startSecondsone = 00000000000000000000000000034;
+const String _videoIdtwo = 'https://youtu.be/gEVUncUq9As?t=';
+const double _startSecondstwo = 00000000000000000000000000020;
+const String _videoIdthree = 'https://youtu.be/JHjXwicEwQo?t=';
+const double _startSecondsthree = 000000000000000000000000000226;
+const String _videoIdfour = 'https://youtu.be/CtWqv0Z3ErM?t=';
+const double _startSecondsfour = 000000000000000000000000000117;
+const String _videoIdfive = 'https://youtu.be/5zI9sG3pjVU?t=';
+const double _startSecondsfive = 000000000000000000000000000165;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

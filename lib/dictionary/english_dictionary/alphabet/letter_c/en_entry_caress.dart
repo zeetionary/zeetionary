@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
@@ -191,6 +192,15 @@ class EnglishEntrycaress extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (کردار) دەستھێنان بە شتێک یان کەسێکدا، بە تایبەتی بۆ پیشاندانی خۆشەویستی یان حەزی جەستەیی"),
+                          AlsoEnglishckblink(
+                            textBeforeLink: "هەروەها: ",
+                            linkText: "fondle",
+                            textAfterLink: ".",
+                            onTap: () {
+                              Routemaster.of(context)
+                                  .push("/english-caress/fondle");
+                            },
+                          ),
                           SentencesRow(
                             englishText:
                                 "His fingers gently caressed her cheek.",

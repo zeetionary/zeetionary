@@ -27,86 +27,6 @@ class EnglishEntryamericanfootball extends StatelessWidget {
     await flutterTts.speak("American Football doesn't interest me at all.");
   }
 
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
-  // Future<void> speakamericanfootball(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAmericanfootball
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("American football");
-  // }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -176,7 +96,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
-١. (ناو) یاتییەک کە لەلایەن دوو تیمی ١١ کەسی دەکرێت بە تۆپێکی ھێلکەیی کە یاریزانان ھەوڵ دەدەن تێی ھەڵبدەن، بیھاوێژن، یان ھەڵیبگرن، و بیخەنە ھێڵی تیمی بەرامبەر"""),
+١. (ناو) یارییەک کە لەلایەن دوو تیمی ١١ کەسی دەکرێت بە تۆپێکی ھێلکەیی کە یاریزانان ھەوڵ دەدەن تێی ھەڵبدەن، بیھاوێژن، یان ھەڵیبگرن، و بیخەنە ھێڵی تیمی بەرامبەر"""),
                           SentencesRow(
                             englishText:
                                 "American Football doesn't interest me at all.",

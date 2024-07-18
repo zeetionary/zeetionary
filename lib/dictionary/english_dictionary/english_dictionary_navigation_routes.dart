@@ -597,7 +597,7 @@ final Map<String, String> wordRoutes = {
   "far afield": "/english-far-afield",
   "from afar": "/english-from-afar",
   "underage": "/english-underage",
-  "American football": "/english-american-football",
+  "American football": "/english-americanfootball",
   "amethyst": "/english-amethyst",
   "amiable": "/english-amiable",
   "amiably": "/english-amiably",

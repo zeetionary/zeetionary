@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfootstep extends StatefulWidget {
-  const EnglishEntryfootstep({super.key});
+class EnglishEntryfootwear extends StatefulWidget {
+  const EnglishEntryfootwear({super.key});
 
   @override
-  State<EnglishEntryfootstep> createState() => _EnglishEntryfootstepState();
+  State<EnglishEntryfootwear> createState() => _EnglishEntryfootwearState();
 }
 
-class _EnglishEntryfootstepState extends State<EnglishEntryfootstep> {
+class _EnglishEntryfootwearState extends State<EnglishEntryfootwear> {
   @override
   void initState() {
     super.initState();
@@ -51,21 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: footstep (Derived forms: footsteps)
-1. The sound of a step of someone walking (= footfall, step)
-"he heard footsteps on the porch";
+- Noun: footwear (Derived forms: footwears)
+1. Clothing worn on a person's feet
  
-2. The act of taking a step in walking
- 
-3. The distance covered by a step (= pace, step, stride)
-"he stepped off ten footsteps from the old tree and began to dig";
- 
-4. A mark of a foot or shoe on a surface (= footprint, footmark, step)
-"the police made casts of the footsteps in the soft earth outside the window";
+2. Covering for a person's feet (= footgear)
 """,
   );
 
-  final String keyword = "footstep";
+  final String keyword = "footwear";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -85,22 +78,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""footstep""");
+    await flutterTts.speak("""footwear""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Her footsteps died away as she walked down the path.""");
+    await flutterTts.speak(
+        """Be sure to wear the correct footwear to prevent injuries to your feet.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She listened for her mother's footsteps.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -735,10 +728,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """footstep""",
-                      // alsoEnglishWord: "also: footstep",
-                      britshText: """IpaUK: /ˈfʊtstep/""",
-                      americanText: """IpaUS: /ˈfʊtstep/""",
+                      word: """footwear""",
+                      // alsoEnglishWord: "also: footwear",
+                      britshText: """IpaUK: /ˈfʊtweə(r)/""",
+                      americanText: """IpaUS: /ˈfʊtwer/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -779,19 +772,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هەنگاو، گاڤ، پێنگاڤ، شەقاو،	جێ‌پا، شوێن‌پێ
+کوردی: کەوش، پێڵاو، پێپۆش، پاپۆش
 """),
-// With short examples define "footstep", please follow LX instructions
+// With short examples define "footwear", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) دەنگ یان شوێن‌پێ هەر کاتێک پێ دەنێیت بە زەویدا"""),
+                        text: """١. (ناو) ئەو شتانەی کە لە پێ دەکرێن"""),
                     SentencesRow(
                       englishText:
-                          """Her footsteps died away as she walked down the path.""",
+                          """Be sure to wear the correct footwear to prevent injuries to your feet.""",
                       kurdishText:
-                          """هەنگاوەکانی دەنگیان نەما کە بە ڕێگاکەدا چووە خوارەوە.""",
-                      englishNote:
-                          """This means the sound of her walking gradually faded and became silent as she continued walking down the path.""",
+                          """دڵنیابەرەوە کە پێڵاوی گونجاو لە پێ بکەیت بۆ دووڕبوون لە پێکانی پێ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -799,9 +789,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She listened for her mother's footsteps.""",
-                      kurdishText: """گوێی ڕاگرت بۆ هەنگاوەکانی دایکی.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1611,18 +1600,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/Mx8JkGHaGUI?t=';
-const double _startSecondsend = 000000000000000000000000000695;
-const String _videoIdone = 'https://youtu.be/PkUg89kLLBE?t=';
-const double _startSecondsone = 000000000000000000000000000164;
-const String _videoIdtwo = 'https://youtu.be/WnozP8OWeik?t=';
-const double _startSecondstwo = 00000000000000000000000000066;
-const String _videoIdthree = 'https://youtu.be/UO3N_PRIgX0?t=';
-const double _startSecondsthree = 00000000000000000000000000024;
-const String _videoIdfour = 'https://youtu.be/YrMGIqecu0Y?t=';
-const double _startSecondsfour = 000000000000000000000000000963;
-const String _videoIdfive = 'https://youtu.be/6BVMjlWja_8?t=';
-const double _startSecondsfive = 000000000000000000000000000168;
+const String _videoIdend = 'https://youtu.be/Am1lDj2mUVY?t=';
+const double _startSecondsend = 000000000000000000000000000454;
+const String _videoIdone = 'https://youtu.be/hGLY5MAAFO4?t=';
+const double _startSecondsone = 00000000000000000000000000078;
+const String _videoIdtwo = 'https://youtu.be/63tQ7yGmsmI?t=';
+const double _startSecondstwo = 000000000000000000000000000262;
+const String _videoIdthree = 'https://youtu.be/h31p4OLbqSc?t=';
+const double _startSecondsthree = 000000000000000000000000000345;
+const String _videoIdfour = 'https://youtu.be/x629nYBuLpY?t=';
+const double _startSecondsfour = 000000000000000000000000000233;
+const String _videoIdfive = 'https://youtu.be/cApVVuuqLFY?t=';
+const double _startSecondsfive = 000000000000000000000000000290;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

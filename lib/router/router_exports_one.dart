@@ -3273,8 +3273,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_footpath.dart' show EnglishEntryfootpath
 // en_entry_footprint.dart' show EnglishEntryfootprint
 // en_entry_footstep.dart' show EnglishEntryfootstep
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_footwear.dart' show EnglishEntryfootwear
+// en_entry_for.dart' show EnglishEntryfor
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

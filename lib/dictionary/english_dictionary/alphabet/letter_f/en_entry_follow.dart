@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfloor extends StatefulWidget {
-  const EnglishEntryfloor({super.key});
+class EnglishEntryfollow extends StatefulWidget {
+  const EnglishEntryfollow({super.key});
 
   @override
-  State<EnglishEntryfloor> createState() => _EnglishEntryfloorState();
+  State<EnglishEntryfollow> createState() => _EnglishEntryfollowState();
 }
 
-class _EnglishEntryfloorState extends State<EnglishEntryfloor> {
+class _EnglishEntryfollowState extends State<EnglishEntryfollow> {
   @override
   void initState() {
     super.initState();
@@ -51,51 +51,88 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: floor (Derived forms: floors)
-1. The inside lower horizontal surface (as of a room, hallway, tent, or other structure) (= flooring)
-"we spread our sleeping bags on the dry floor of the tent"; "they needed rugs to cover the bare floors";
+- Verb: follow (Derived forms: following, follows, followed)
+1. To travel behind, go after, come after
+"The ducklings followed their mother around the pond"; "Please follow the guide through the museum"
  
-2. A structure consisting of a room or set of rooms at a single position along a vertical scale (= level, storey, story)
-"what floor is the office on?";
+2. Be later in time (= postdate)
+"Tuesday always follows Monday";
  
-3. A lower limit (= base)
-"the government established a wage floor";
+3. Be a logical consequence (=fall out)
+"It follows that your assertion is false";
  
-4. The ground on which people and animals move about
-"the fire spared the forest floor"
+4. Travel along a certain course (= travel along)
+"follow the trail";
  
-6. The bottom surface of any lake or other body of water
+5. Act in accordance with someone's rules, commands, or wishes (= comply, abide by)
+"Follow these simple rules";
  
-7. The lower inside surface of any hollow structure
-"the floor of the pelvis"; "the floor of the cave"
+6. Come after in time, as a result (= come after)
+"A terrible tsunami followed the earthquake";
  
-8. The occupants of a floor
-"the whole floor complained about the lack of heat"
+7. Behave in accordance or in agreement with (= conform to)
+"Follow a pattern"; "Follow my example";
  
-9. The parliamentary right to address an assembly
-"the chairman granted him the floor"
+8. Be next
+"Mary plays best, with John and Sue following"
  
-10. The legislative hall where members debate and vote and conduct other business
-"there was a motion from the floor"
+9. Choose and follow; as of theories, ideas, policies, strategies or plans (= adopt, espouse)
+"She followed the feminist movement";
  
-11. A large room in an exchange where the trading is done (= trading floor)
-"he is a floor trader";
-
-- Verb: floor (Derived forms: floors, floored, flooring)
-1. Greatly surprise (= shock, ball over, blow out of the water, take aback)
-"I was floored when I heard that I was promoted";
+10. To bring something about at a later time than
+"She followed dinner with a brandy"; "He followed his lecture with a question and answer period"
  
-2. Knock down with force (= deck [informal], coldcock [N. Amer, informal], dump, knock down)
-"He floored his opponent";
+11. Imitate in behaviour; take as a model (= take after)
+"Teenagers follow their friends in everything";
  
-3. Silence by a conclusive answer, surprise response, etc.
-"We were floored by his confession"
+12. (Internet) track a person or group on a social media site
+"Follow her on Facebook and subscribe to her blog"
  
-4. Cover or supply with a floor
+13. Follow, discover, or ascertain the course of development of something (= trace)
+"We must follow closely the economic development in Cuba";
+ 
+14. Follow with the eyes or the mind (= watch, observe, watch over, keep an eye on)
+"She followed the men with the binoculars";
+ 
+15. Be the successor (of) (= succeed, come after)
+"Carter followed Ford";
+ 
+16. (music) perform an accompaniment to (= play along, accompany)
+"The orchestra could barely follow the frequent pitch changes of the soprano";
+ 
+17. Keep informed (= keep up, keep abreast)
+"He followed on his country's foreign policies";
+ 
+18. To be the product or result (= come)
+ 
+19. Accept and follow the leadership, command or guidance of
+"Let's follow our great helmsman!"; "She followed a guru for years"
+ 
+20. Adhere to or practice
+"These people still follow the laws of their ancient religion"
+ 
+21. Work in a specific place, with a specific subject, or in a specific function (= be)
+"He follows a herpetologist";
+ 
+22. Keep under surveillance (= surveil, survey)
+"The police had been following him for weeks but they could not prove his involvement in the bombing";
+ 
+23. Follow in or as if in pursuit (= pursue)
+"Her bad deed followed her and haunted her dreams all her life";
+ 
+24. Grasp the meaning
+"Can you follow her argument?"; "When he lectures, I cannot follow"
+ 
+25. Keep to (= stick to, stick with)
+"follow your principles";
+ 
+26. (social media) to subscribe to someone's updates on social media
+ 
+27. To be subscribed to updates from another user on social media
 """,
   );
 
-  final String keyword = "floor";
+  final String keyword = "follow";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -115,298 +152,295 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""floor""");
+    await flutterTts.speak("""follow""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""His glass fell to the floor and broke.""");
+    await flutterTts
+        .speak("""Follow me please.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The body was lying on the kitchen floor.""");
+    await flutterTts.speak("""He followed her into the house.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Do you mind sitting on the floor?""");
+    await flutterTts.speak("""Wherever she led, they followed.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She was sitting on the floor watching TV.""");
+    await flutterTts.speak("""Sam walked in, with the rest of the boys following closely behind.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The floor of the car was very dirty.""");
+    await flutterTts.speak("""Follow me please. I'll show you the way.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Her office is on the second floor.""");
+    await flutterTts.speak("""She beckoned him to follow her.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Their house is on three floors.""");
+    await flutterTts.speak("""I think we're being followed.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""A layer of fine mud spread over the floor of the cave.""");
+    await flutterTts.speak("""As she walked home, she had the feeling she was being followed.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""We will now take any questions from the floor.""");
+    await flutterTts.speak("""I remember little of the days that followed the accident.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """Opposition politicians registered their protest on the floor of the House.""");
+    await flutterTts.speak("""A period of unrest followed the president's resignation.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""His reply completely floored me.""");
+    await flutterTts.speak("""I'll have soup and fish to follow.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""I didn't know what to say - I was completely floored.""");
+    await flutterTts.speak("""The first two classes are followed by a break of ten minutes.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He was floored by the first punch.""");
+    await flutterTts.speak("""A detailed news report will follow shortly.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak("""There followed a short silence.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts.speak("""Give your contact details and follow this with a brief profile of yourself.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1600""");
+    await flutterTts.speak("""Follow your treatment with plenty of rest.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1700""");
+    await flutterTts.speak("""They said they were just following orders.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1800""");
+    await flutterTts.speak("""He has trouble following simple instructions.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts.speak("""Why didn't you follow my advice?""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_2000""");
+    await flutterTts.speak("""I encourage others to follow our example.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2100""");
+    await flutterTts.speak("""The Senate is expected to follow the lead of the House.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2200""");
+    await flutterTts.speak("""The movie follows the book faithfully.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2300""");
+    await flutterTts.speak("""They followed the teachings of Buddha.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2400""");
+    await flutterTts.speak("""He always followed the latest fashions.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2500""");
+    await flutterTts.speak("""It wasn't in his nature to follow blindly.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2600""");
+    await flutterTts.speak("""Follow the links to sign up for the webinar.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2700""");
+    await flutterTts.speak("""Follow this road until you get to the school, then turn left.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2800""");
+    await flutterTts.speak("""The road follows the edge of a wood for about a mile.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2900""");
+    await flutterTts.speak("""I don't see how that follows from what you've just said.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_3000""");
+    await flutterTts.speak("""It does not necessarily follow that sleep loss would cause these symptoms.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3100""");
+    await flutterTts.speak("""If a = b and b = c it follows that a = c.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3200""");
+    await flutterTts.speak("""Do you follow me?""");
   }
 
   Future<void> speaksentence33(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3300""");
+    await flutterTts.speak("""Sorry, I don't follow.""");
   }
 
   Future<void> speaksentence34(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3400""");
+    await flutterTts.speak("""His lecture was complicated and difficult to follow.""");
   }
 
   Future<void> speaksentence35(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3500""");
+    await flutterTts.speak("""The children were following every word of the story intently.""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3600""");
+    await flutterTts.speak("""Her eyes followed him everywhere.""");
   }
 
   Future<void> speaksentence37(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3700""");
+    await flutterTts.speak("""We've been following this story for months.""");
   }
 
   Future<void> speaksentence38(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3800""");
+    await flutterTts.speak("""Millions of people followed the trial on TV.""");
   }
 
   Future<void> speaksentence39(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence3900""");
+    await flutterTts.speak("""I don’t follow many celebrities on TikTok any more.""");
   }
 
   Future<void> speaksentence40(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_4000""");
+    await flutterTts.speak("""The novel follows the fortunes of a village community in Scotland.""");
   }
 
   Future<void> speaksentence41(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence4100""");
+    await flutterTts.speak("""The day followed the usual pattern.""");
   }
 
   Future<void> speaksentence42(String languageCode) async {
@@ -768,10 +802,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """floor""",
-                      // alsoEnglishWord: "also: floor",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """follow""",
+                      // alsoEnglishWord: "also: follow",
+                      britshText: """IpaUK: /ˈfɒləʊ/""",
+                      americanText: """IpaUS: /ˈfɑːləʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -812,13 +846,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: تەرک، بن،	ناوفەڕش، ناوکۆ، تەرکی دیو، زەمین، عەرز،	بنک، تەخت، تەختاو،	نهۆم، ماخ، مەرتەبە، قات، نشف، قۆر،	هۆڵ، گۆڕ، بەشێ لە ئەنجومەن کە ئەندامان لەی دادەنیشن و لەوێوە قسە دەکەن، مافی قسەکردن،	هەرەکەم، کەم‌ترین، لانی‌کەم
+کوردی: 
 """),
-// With short examples define "floor", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زەویی ژوورێک"""),
+// With short examples define "follow", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (کردار) هاتن یان چوون بە دوای شتێکدا"""),
                     SentencesRow(
-                      englishText: """His glass fell to the floor and broke.""",
-                      kurdishText: """گڵاسەکەی کەوتە سەر زەوییەکە و شکا.""",
+                      englishText:
+                          """Follow me please.""",
+                      kurdishText: """تکایە شوێنم بکەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -826,18 +861,20 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """The body was lying on the kitchen floor.""",
-                      kurdishText: """لاشەکە لەسەر زەویی چێشتخانەکە کەوتبوو.""",
+                      englishText: """He followed her into the house.""",
+                      kurdishText: """شوێنی کەوت بۆ خانووەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
-                    const DividerSentences(),
+                    Column(
+                    children: [
+                    MyExpansionTile(
+                    children: [
                     SentencesRow(
-                      englishText: """Do you mind sitting on the floor?""",
-                      kurdishText: """کێشە نابیت لەسەر زەوییەکە دابنیشیت.""",
+                      englishText: """Wherever she led, they followed.""",
+                      kurdishText: """بۆ هەر کوێیەک چوو، شوێنی کەوتن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -845,67 +882,57 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She was sitting on the floor watching TV.""",
-                      kurdishText:
-                          """لەسەر زەوییەکە دانیشت بوو سەیری تەلەفیزیۆنی دەکرد.""",
+                      englishText: """Sam walked in, with the rest of the boys following closely behind.""",
+                      kurdishText: """سام هاتە ژوورەوە، و کوڕەکانی دیکە بە دوایدا هاتن بە نزیکی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٢. (ناو) بەشی خوارەوەی پێڕۆیەک"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The floor of the car was very dirty.""",
-                      kurdishText: """زەویی ئۆۆتمبێلەکە تەواو پیس بوو.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٣. (ناو) تەواوی ئەو ژوورانەی کە لە هەمان نهۆمی یەک بینان"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Her office is on the second floor.""",
-                      kurdishText: """ئۆفیسەکەی لە نهۆمی دووەمە.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Their house is on three floors (= it has three floors).""",
-                      kurdishText: """خانووەکەیان سێ نهۆمی هەیە.""",
+                      englishText: """Follow me please. I'll show you the way.""",
+                      kurdishText: """تکایە شوێنم کەوە، ڕێگاکەت پیشان دەدەم.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She beckoned him to follow her.""",
+                      kurdishText: """ئاماژەی پێدا شوێنی بکەوێت.""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
+                    ),
+                    ],
+                    ),
+                    ],
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٢. (کردار) شوێنکەوتنی کەسێک بۆ ئەوەی بزانیت چی دەکات یان بۆ کوێ دەچێت"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """I think we're being followed.""",
+                      kurdishText: """پێموایە چاودێری دەکرێین.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٤. (ناو) زەویی خوار دارستانێک، دەریایەک، هتد"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """A layer of fine mud spread over the floor of the cave.""",
-                      kurdishText:
-                          """چینێک لە وردە تۆز بە زەویی ئەشکەوتەکەدا بڵاوبووبوویەوە.""",
+                      englishText: """As she walked home, she had the feeling she was being followed.""",
+                      kurdishText: """کە بەرەو ماڵەوە بە ڕێکەوت، ئەو هەستەی هەبوو کە چاودێری دەکرێت.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٥. (ناو) بەشێکی بینایەک کە گفتووگۆی تێدا دەکرێت، بە تایبەتی لە پەرلەمانێک؛ ئەو کەسانەی بەژداری ئەم گفتووگۆیە دەکەن"""),
+                    const DefinitionKurdish(text: """٣. (کردار) هاتن بە دوای شتێک/کەسێک لە ڕووی کات یان ڕیزبەندی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """We will now take any questions from the floor.""",
-                      kurdishText:
-                          """ئێستا پرسیارەکانی بەژداربووان وەردەگرین.""",
+                      englishText: """I remember little of the days that followed the accident.""",
+                      kurdishText: """کەم لەو ڕۆژانەم بیردێت کە بە دوای ڕووداوەکەدا هاتن.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -913,21 +940,20 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Opposition politicians registered their protest on the floor of the House.""",
-                      kurdishText:
-                          """سیاسەتوانە دژبەرەکان ناڕەزاییان پیشان دا لە هۆڵی ئەنجوومەنی نوێنەران.""",
+                      englishText: """A period of unrest followed the president's resignation.""",
+                      kurdishText: """ماوەیەک لە نائارامی بە دوای دەستلەکارکێشانەوەی سەرۆک هات.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٦. (کردار) سەرسامکردنی کەسێک بەشیوەیەک کە نەزانێت چی دەڵێت یان دەکات"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    Column(
+                    children: [
+                    MyExpansionTile(
+                    children: [
                     SentencesRow(
-                      englishText: """His reply completely floored me.""",
-                      kurdishText: """وەڵامەکەی تەواو سەرسامی کردم.""",
+                      englishText: """I'll have soup and fish to follow.""",
+                      kurdishText: """شۆربا دەخۆم و ماسی بە دوایدا.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -935,19 +961,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """I didn't know what to say - I was completely floored.""",
-                      kurdishText: """نەمدەزانی چی بڵێم ـ تەواو سەرم سوڕما.""",
+                      englishText: """The first two classes are followed by a break of ten minutes.""",
+                      kurdishText: """یەکەم دوو وانە پشوویەکی دە خولەکییان بە دوادا دێت.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text: """٧. (کردار) خستنی کەسێک بە لێدان"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was floored by the first punch.""",
-                      kurdishText: """بە یەکەم مشت کەوێندرا.""",
+                      englishText: """A detailed news report will follow shortly.""",
+                      kurdishText: """ڕاپۆرتێکی وردی هەواڵی بەم نزیکانە دێت.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -955,17 +979,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There followed a short silence.""",
+                      kurdishText: """بێ‌دەنگی بەدوایدا هات.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
+                    ],
+                    ),
+                    ],
+                    ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (کردار) کردنی شتێک لە دوای شتێکی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Give your contact details and follow this with a brief profile of yourself.""",
+                      kurdishText: """وردەکاریی کەسیت بدە و بەدوایدا کورتە ژیانێکی خۆت.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -973,17 +1001,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Follow your treatment with plenty of rest.""",
+                      kurdishText: """لە دوای چارەسەرەکەت پشووی زۆر وەربگرە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٥. (کردار) وەرگرتنی ڕاوێژ، ڕێنمایی، هتد و کردنی ئەوەی پێت گوتراوە یان پیشان دراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They said they were just following orders.""",
+                      kurdishText: """گوتیان تەنها شوێن فەرمان کەوتوون.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -991,8 +1019,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He has trouble following simple instructions.""",
+                      kurdishText: """کێشەی هەبوو لە شوێنکەوتنی ڕێنمایی سادە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1000,17 +1028,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Why didn't you follow my advice?""",
+                      kurdishText: """بۆچی پابەندی ڕاوێژم نەبوویت؟""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٦. (کردار) پەسەندکردنی کەسێک/شتێک وەک ڕێبەر، ڕابەر، سەرمەشق"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_2000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I encourage others to follow our example.""",
+                      kurdishText: """هانی ئەوانی دیکە دەدەم شوێنی ڕێگایئێمە بکەون.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
@@ -1018,8 +1046,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The Senate is expected to follow the lead of the House.""",
+                      kurdishText: """ئەنجوومەنی پیران پێشبینی دەکرێت چاو لە ئەنجوومەنی نوێنەران بکات.""",
+                      kurdishNote: """واتا هەمان کار بکات""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -1027,8 +1056,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The movie follows the book faithfully.""",
+                      kurdishText: """فیلمەکە وەک خۆی شوێن کتێبەکە دەکەوێت.""",
+                      kurdishNote: """واتا هیچ گۆڕانکارییەک ناکات لە ڕووداوەکان، کارەکتەرەکان، هتد""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -1036,8 +1066,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They followed the teachings of Buddha.""",
+                      kurdishText: """شوێن ئامۆژگارییەکانی بوودا دەکەوتن.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -1045,8 +1075,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He always followed the latest fashions (= dressed in fashionable clothes).""",
+                      kurdishText: """هەمیشە تازەترین فاشنی لەبەر دەکرد.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
@@ -1054,44 +1084,44 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It wasn't in his nature to follow blindly.""",
+                      kurdishText: """لە سرووشتیدا نەبوو کوێرانە پابەند بێت.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٧. (کردار) پەنجەنان بە بەستەری وێبسایتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Follow the links to sign up for the webinar.""",
+                      kurdishText: """گرتە لە بەستەرەکان بکە بۆ بەژداربوون لە سیمینارە ئینتەرنێتییەکە.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٨. (کردار) ڕۆشتن بە ڕێگایەک، شەقامێک، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Follow this road until you get to the school, then turn left.""",
+                      kurdishText: """بەم ڕێگایەدا بچۆ تاوەکو دەگەیتە قوتابخانەکە، دواتر بۆ چەپ پێچ بکەوە.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """٩. (کردار) ڕۆشتن بە هەمان ئاراستە یان شان بە شانی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The road follows the edge of a wood for about a mile.""",
+                      kurdishText: """ڕێگاکە بە قەراغی دارستانێک دەچێت بۆ نزیکەی یەک میل.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """١٠. (کردار) بوون بە ئەنجامی پێشبینیکراوی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I don't see how that follows from what you've just said.""",
+                      kurdishText: """تێ ناگەم چۆن ئەوە درووست دەبێت لەوەی ئێستا گوتت.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
@@ -1099,8 +1129,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_3000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It does not necessarily follow that sleep loss would cause these symptoms.""",
+                      kurdishText: """ئەوە واتای ئەوە نییە کە کەمی خەو دەبێتە هۆکاری ئەم نیشانانە.""",
+                      englishNote: """This means that it is not certain or guaranteed that losing sleep will lead to these symptoms.""",
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
@@ -1108,17 +1139,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """If a = b and b = c it follows that a = c.""",
+                      kurdishText: """ئەگەر a = b و b = c واتا a = c.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """١١. (کردار) تێگەشتن لە ڕوونکردنەوەیەک یان واتای شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Do you follow me?""",
+                      kurdishText: """لێم تێدەگەیت؟""",
                       onPressedBritish: () => speaksentence32("en-GB"),
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
@@ -1126,8 +1157,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Sorry, I don't follow.""",
+                      kurdishText: """ببوورە، لێت تێناگەم.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
@@ -1135,17 +1166,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His lecture was complicated and difficult to follow.""",
+                      kurdishText: """وانەکەی ئاڵۆز و سەخت بوو بۆ تێگەشتن.""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """١٢. (کردار) سەیرکردن یان گوێگرتن لە کەسێک/شتێک بە وریایی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The children were following every word of the story intently.""",
+                      kurdishText: """منداڵەکان بە پەرۆشەوە گوێیان لە هەر وشەیەکی چیرۆکەکە دەگرت.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
@@ -1153,17 +1184,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her eyes followed him everywhere (= she was looking at him all the time).""",
+                      kurdishText: """چاوەکانی بۆ هەر شوێنێک بە دوایەوە بوون.""",
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """١٣. (کردار) هەبوونی حەزێکی چالاک بۆ شتێک و بە ئاگا بیت لەوەی چی ڕوودەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We've been following this story for months.""",
+                      kurdishText: """بۆ چەندین مانگ دەبێت چاودێری ئەم ڕووداوە دەکەین.""",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
@@ -1171,35 +1202,35 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Millions of people followed the trial on TV.""",
+                      kurdishText: """ملیۆنان کەس لە تەلەفیزیۆنەوە چاودێریی دانیشتنەکەی دادگایان دەکرد.""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """١٤. (کردار) چاودێری کردنی چالاکیی کەسێک، دامەزراوەیەک، هتد لە تۆڕە کۆمەڵایەتییەکان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I don’t follow many celebrities on TikTok any more.""",
+                      kurdishText: """چی دیکە شوێن زۆر کەسایەتی بەناوبانگ ناکەوم لەسەر تیکتۆک.""",
                       onPressedBritish: () => speaksentence39("en-GB"),
                       onPressedAmerican: () => speaksentence39("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """١٥. (کردار) ئەوەی لەسەر ژیان یان بەرەوپێشچوونی کەسێک/شتێک بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_4000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The novel follows the fortunes of a village community in Scotland.""",
+                      kurdishText: """ڕۆمانەکە باس لە سامانی کۆمەڵگەی گوندێک لە سکۆتلەندا دەکات.""",
                       onPressedBritish: () => speaksentence40("en-GB"),
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(text: """١٦. (کردار) ڕوودان بە شیوەیەکی دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence4100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The day followed the usual pattern.""",
+                      kurdishText: """ڕۆژەکە وەک هەمیشە بوو.""",
                       onPressedBritish: () => speaksentence41("en-GB"),
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
@@ -1658,18 +1689,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/e09xig209cQ?t=';
-const double _startSecondsend = 00000000000000000000000000014;
-const String _videoIdone = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsone = 0000000000000000000000000001636;
-const String _videoIdtwo = 'https://youtu.be/8HEfIJlcFbs?t=';
-const double _startSecondstwo = 000000000000000000000000000284;
-const String _videoIdthree = 'https://youtu.be/gFuEoxh5hd4?t=';
-const double _startSecondsthree = 0000000000000000000000000001563;
-const String _videoIdfour = 'https://youtu.be/Ht0IbFNbfSY?t=';
-const double _startSecondsfour = 0000000000000000000000000007;
-const String _videoIdfive = 'https://youtu.be/tsxmyL7TUJg?t=';
-const double _startSecondsfive = 000000000000000000000000000450;
+const String _videoIdend = 'https://youtu.be/a_TSR_v07m0?t=';
+const double _startSecondsend = 000000000000000000000000000617;
+const String _videoIdone = 'https://youtu.be/hS2x1zl4rn0?t=';
+const double _startSecondsone = 00000000000000000000000000039;
+const String _videoIdtwo = 'https://youtu.be/mp_w0xZ9XFg?t=';
+const double _startSecondstwo = 00000000000000000000000000024;
+const String _videoIdthree = 'https://youtu.be/oEn7XBxOXSw?t=';
+const double _startSecondsthree = 000000000000000000000000000138;
+const String _videoIdfour = 'https://youtu.be/e09xig209cQ?t=';
+const double _startSecondsfour = 000000000000000000000000000204;
+const String _videoIdfive = 'https://youtu.be/iKv4oc2zbeA?t=';
+const double _startSecondsfive = 000000000000000000000000000165;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

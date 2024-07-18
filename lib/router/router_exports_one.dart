@@ -3211,42 +3211,42 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_flurried.dart' show EnglishEntryflurried
 // en_entry_flurry.dart' show EnglishEntryflurry
 // en_entry_flush.dart' show EnglishEntryflush
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_flushed.dart' show EnglishEntryflushed
+// en_entry_fluster.dart' show EnglishEntryfluster
+// en_entry_flute.dart' show EnglishEntryflute
+// en_entry_flutter.dart' show EnglishEntryflutter
+// en_entry_flux.dart' show EnglishEntryflux
+// en_entry_fly.dart' show EnglishEntryfly
+// en_entry_flying_saucer.dart' show EnglishEntryflyingsaucer //// ffff flying saucer
+// en_entry_flying_squad.dart' show EnglishEntryflyingsquad //// فففف flying squad
+// en_entry_flying_visit.dart' show EnglishEntryflyingvisit //// فففف flying visit
+// en_entry_flyer.dart' show EnglishEntryflyer
+// en_entry_flyleaf.dart' show EnglishEntryflyleaf
+// en_entry_flyover.dart' show EnglishEntryflyover
+// en_entry_foal.dart' show EnglishEntryfoal
+// en_entry_foam.dart' show EnglishEntryfoam
+// en_entry_focus.dart' show EnglishEntryfocus
+// en_entry_fodder.dart' show EnglishEntryfodder
+// en_entry_foe.dart' show EnglishEntryfoe
+// en_entry_foetus.dart' show EnglishEntryfoetus
+// en_entry_fog.dart' show EnglishEntryfog
+// en_entry_fogbound.dart' show EnglishEntryfogbound
+// en_entry_foggy.dart' show EnglishEntryfoggy
+// en_entry_foghorn.dart' show EnglishEntryfoghorn
+// en_entry_fog_lamp.dart' show EnglishEntryfoglamp //// فففف fog lamp
+// en_entry_foil.dart' show EnglishEntryfoil
+// en_entry_fold.dart' show EnglishEntryfold
+// en_entry_folder.dart' show EnglishEntryfolder
+// en_entry_foliage.dart' show EnglishEntryfoliage
+// en_entry_folk.dart' show EnglishEntryfolk
+// en_entry_folk_dance.dart' show EnglishEntryfolkdance //// فففف folk dance
+// en_entry_folklore.dart' show EnglishEntryfolklore
+// en_entry_folk_music.dart' show EnglishEntryfolkmusic //// فففف folk music
+// en_entry_folk_song.dart' show EnglishEntryfolksong //// فففف folk song
+// en_entry_follow.dart' show EnglishEntryfollow
+// en_entry_follower.dart' show EnglishEntryfollower
+// en_entry_follow_up.dart' show EnglishEntryfollowup //// ffff follow-up
+// en_entry_following.dart' show EnglishEntryfollowing
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

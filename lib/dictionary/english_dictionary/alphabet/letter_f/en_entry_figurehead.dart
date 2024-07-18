@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: figurehead (Derived forms: figureheads)
+- Noun: figurehead (derived forms: figureheads)
 1. A person used as a cover for some questionable activity (= front man, front, nominal head, straw man, strawman)
  
 2. Figure on the bow of some sailing vessels
@@ -154,11 +154,11 @@ ${englishMeaningConst.text}
 // With short examples define "figurehead", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک کە لە ئاستی باڵایە لە وڵات یان دامەزراوەیەک بەڵام هیچ دەسەڵاتی نییە"""),
+                            """١. (ناو) کەسێک کە لە ئاستی باڵایە لە وڵات یان دامەزراوەیەک بەڵام ھیچ دەسەڵاتی نییە"""),
                     SentencesRow(
                       englishText:
                           """The president of the club is not just a figurehead.""",
-                      kurdishText: """سەرۆکی یانەکە تەنها ناوێک نییە.""",
+                      kurdishText: """سەرۆکی یانەکە تەنھا ناوێک نییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

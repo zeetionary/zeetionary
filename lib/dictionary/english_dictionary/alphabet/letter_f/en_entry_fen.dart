@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fen (Derived forms: fens)
+- Noun: fen (derived forms: fens)
 1. (China) 100 fen is equal to 1 yuan
  
 2. Low-lying wet land with grassy vegetation; usually is a transition zone between land and water (= marsh, marshland, fenland)

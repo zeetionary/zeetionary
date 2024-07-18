@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fertilization (Derived forms: fertilizations)
+- Noun: fertilization (derived forms: fertilizations)
 1. Creation by the physical union of male and female gametes; of sperm and ova in an animal or pollen and ovule in a plant (= fertilisation [Brit], fecundation, impregnation)
  
 2. Making fertile as by applying fertilizer or manure (= fertilisation [Brit], fecundation, dressing)
@@ -155,12 +155,12 @@ ${englishMeaningConst.text}
 // With short examples define "fertilization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پڕۆسەی دانانی هەڵاڵە لەسەر ڕووەکێک بۆ ئەوەی تۆو درووست ببێت؛ پڕۆسەی تێکەڵبوونی سپێرم لەگەڵ هێلکە بۆ ئەوەی منداڵ درووست ببێت"""),
+                            """١. (ناو) پڕۆسەی دانانی ھەڵاڵە لەسەر ڕووەکێک بۆ ئەوەی تۆو درووست ببێت؛ پڕۆسەی تێکەڵبوونی سپێرم لەگەڵ ھێلکە بۆ ئەوەی منداڵ درووست ببێت"""),
                     SentencesRow(
                       englishText:
                           """Immediately after fertilization, the cells of the egg divide.""",
                       kurdishText:
-                          """دەستبەجێ لە دوای پیتاندن، خانەکانی هێلکە دابەش دەبن.""",
+                          """دەستبەجێ لە دوای پیتاندن، خانەکانی ھێلکە دابەش دەبن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

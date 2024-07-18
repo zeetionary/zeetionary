@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fibber (Derived forms: fibbers)
+- Noun: fibber (derived forms: fibbers)
 1. A person who has lied or who lies repeatedly (= liar, prevaricator, kidder [informal], deceiver, storyteller, fabricator, fibster [archaic])
 "a slimy little fibber";
 """,
@@ -155,14 +155,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: درۆزن، چاپ‌وچووپ‌باز، خۆهەڵکێش، فشەبڵە، فشەچی، هاڕەوگیفەکەر
+کوردی: درۆزن، چاپ‌وچووپ‌باز، خۆھەڵکێش، فشەبڵە، فشەچی، ھاڕەوگیفەکەر
 """),
 // With short examples define "fibber", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە درۆ دەکات"""),
                     SentencesRow(
                       englishText: """You fibber!""",
-                      kurdishText: """هەی درۆزن!""",
+                      kurdishText: """ھەی درۆزن!""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -53,7 +53,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: figure of speech (Derived forms: figures of speech)
+- Noun: figure of speech (derived forms: figures of speech)
 1. Language used in a figurative or nonliteral sense (= trope, figure, image)
 """,
   );
@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
-// کوردی: خوازە، ئیستعارە، ڕاگوێست، مەجاز، خواستەمەنی،	وێچواندن، شوبهاندن
+// کوردی: خوازە، ئیستعارە، ڕاگوێست، مەجاز، خواستەمەنی،	وێچواندن، شوبھاندن
 // """),
 // With short examples define "figure of speech", please follow LX instructions
                     const DefinitionKurdish(
@@ -167,7 +167,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """When we talk about ‘selfish’ genes it is just a figure of speech.""",
                       kurdishText:
-                          """کە باس لە جیناتی خۆپەرست دەکەین ئەوە تەنها شوپهاندنە.""",
+                          """کە باس لە جیناتی خۆپەرست دەکەین ئەوە تەنھا شوپھاندنە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -176,7 +176,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """"Break a leg" is a figure of speech, meaning "good luck".""",
                       kurdishText:
-                          """"Break a leg" تەنها شوپهاندنێکە بە واتای بەختێکی باش.""",
+                          """"Break a leg" تەنھا شوپھاندنێکە بە واتای بەختێکی باش.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

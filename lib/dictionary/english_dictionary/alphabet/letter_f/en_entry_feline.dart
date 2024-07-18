@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 1. Of or relating to cats
 "feline fur"
 
-- Noun: feline (Derived forms: felines)
+- Noun: feline (derived forms: felines)
 1. Any of various lithe-bodied roundheaded fissiped mammals, many with retractile claws (= felid)
 """,
   );
@@ -166,7 +166,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She had pretty, almost feline features.""",
                       kurdishText:
-                          """خاسیەتی جوانی تا ڕادەیەک پشیلە ئاسای هەبوو.""",
+                          """خاسیەتی جوانی تا ڕادەیەک پشیلە ئاسای ھەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

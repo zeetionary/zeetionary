@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fellow (Derived forms: fellows)
+- Noun: fellow (derived forms: fellows)
 1. A boy or man (= chap [Brit, informal], feller [non-standard], fella [informal], lad [informal], gent [informal], blighter [Brit, informal], cuss [informal], bloke [Brit, informal], boyo [UK, Ireland], bucko [informal], dog [informal])
 "there's a fellow at the door"; "you lucky fellow";
  
@@ -222,16 +222,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کوڕ، پس،	پیاو، مێر، بنیادەم، کابرا، یارۆ،	ڕفێق، دۆست، هەواڵ، هاوڕێ،	شەریک،	ـهاو (لە لێکدانا)،	ئەندام
+کوردی: کوڕ، پس،	پیاو، مێر، بنیادەم، کابرا، یارۆ،	ڕفێق، دۆست، ھەواڵ، ھاوڕێ،	شەریک،	ـھاو (لە لێکدانا)،	ئەندام
 """),
 // With short examples define "fellow", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) کەسێک کە هاوشێوەی تۆیە بۆ جۆریک"""),
+                        text: """١. (ناو) کەسێک کە ھاوشێوەی تۆیە بۆ جۆریک"""),
                     SentencesRow(
                       englishText:
                           """Thousands of their fellow countrymen are dead.""",
                       kurdishText:
-                          """هەزاران لە هاوڵاتییانی هاوڕێیان مردوون.""",
+                          """ھەزاران لە ھاوڵاتییانی ھاوڕێیان مردوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -240,7 +240,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We sometimes appear to care more for animals than for our fellow human beings.""",
                       kurdishText:
-                          """هەندێک جار وەها دەردەکەوین کە زیاتر گرنگی بە ئاژەڵان دەدەین وەک لە مرۆڤە هاوتاکانمان.""",
+                          """ھەندێک جار وەھا دەردەکەوین کە زیاتر گرنگی بە ئاژەڵان دەدەین وەک لە مرۆڤە ھاوتاکانمان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -256,20 +256,20 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The poor fellow had his wallet stolen.""",
-                      kurdishText: """ئەو پیاوە هەژارە جزدانەکەی دزرا.""",
+                      kurdishText: """ئەو پیاوە ھەژارە جزدانەکەی دزرا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) کەسێک کە کاری لەگەڵ دەکەیت یان وەک تۆیە؛ شتێک کە هاوشێوەی ئەوەیە کە باسکراوە"""),
+                            """٣. (ناو) کەسێک کە کاری لەگەڵ دەکەیت یان وەک تۆیە؛ شتێک کە ھاوشێوەی ئەوەیە کە باسکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has a very good reputation among her fellows.""",
                       kurdishText:
-                          """ناوبانگێکی باشی هەیە لەناو هاوکارەکانیدا.""",
+                          """ناوبانگێکی باشی ھەیە لەناو ھاوکارەکانیدا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -278,14 +278,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """Many caged birds live longer than their fellows in the wild.""",
                       kurdishText:
-                          """زۆر باڵندەی لەقەفەزکراو زیاتر دەژین وەک لە هاوشێوەکانیان لە دەشتدا.""",
+                          """زۆر باڵندەی لەقەفەزکراو زیاتر دەژین وەک لە ھاوشێوەکانیان لە دەشتدا.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) ئەندامێکی باڵای هەندێک زانکۆ یان کۆلێژ"""),
+                            """٤. (ناو) ئەندامێکی باڵای ھەندێک زانکۆ یان کۆلێژ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She's a fellow of New College, Oxford.""",
@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She was elected a fellow of the Academy.""",
                       kurdishText:
-                          """وەک ئەندامێکی ئەکادیمیایەکە هەڵبژێردرا.""",
+                          """وەک ئەندامێکی ئەکادیمیایەکە ھەڵبژێردرا.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: felony (Derived forms: felonies)
+- Noun: felony (derived forms: felonies)
 1. A serious crime (such as murder or arson)
 """,
   );
@@ -160,12 +160,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: تاوان، گوناهـ، کەتن، خراپی، بەدکاری
+کوردی: تاوان، گوناھـ، کەتن، خراپی، بەدکاری
 """),
                     const DefinitionKurdish(text: """١. (ناو) تاوانێکی خەست"""),
                     SentencesRow(
                       englishText: """He was charged with felony assault.""",
-                      kurdishText: """بە تاوانی هێرشکردن سزا درا.""",
+                      kurdishText: """بە تاوانی ھێرشکردن سزا درا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

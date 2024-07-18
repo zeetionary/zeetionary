@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: filler (Derived forms: fillers)
+- Noun: filler (derived forms: fillers)
 1. Used for filling cracks or holes in a surface
  
 2. 100 filler equal 1 forint in Hungary
@@ -180,14 +180,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """She applied some filler to smooth the cracks.""",
                       kurdishText:
-                          """هەندێک پڕکەرەوەی بەکارهێنا بۆ تەختکردنی درزەکان.""",
+                          """ھەندێک پڕکەرەوەی بەکارھێنا بۆ تەختکردنی درزەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) شتێک کە گرنگ نییە بەڵام بەکاردێت بۆ تەواوکردنی شتێک بەهۆی ئەوەی هیچی باشتر بەردەست نییە"""),
+                            """٢. (ناو) شتێک کە گرنگ نییە بەڵام بەکاردێت بۆ تەواوکردنی شتێک بەھۆی ئەوەی ھیچی باشتر بەردەست نییە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -195,7 +195,7 @@ ${englishMeaningConst.text}
                       kurdishText:
                           """گۆرانییەکە لە سەرەتا پڕکەرەوە بوو لە یەکەم ئەلبوومیان.""",
                       kurdishNote:
-                          "واتا لە ئەلبوومی یەکەمیاندا ئەم گۆرانییە تەنها بۆ زیادکردنی ژمارەی گۆرانییەکان دانرابوو",
+                          "واتا لە ئەلبوومی یەکەمیاندا ئەم گۆرانییە تەنھا بۆ زیادکردنی ژمارەی گۆرانییەکان دانرابوو",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -208,7 +208,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Some doctors use lip fillers illegally on under-18s.""",
                       kurdishText:
-                          """هەندێک پزیشک بەشێوەیەکی نایاسایی پڕکەرەوەی لێو بەکاردێنن بۆ مێردمنداڵان.""",
+                          """ھەندێک پزیشک بەشێوەیەکی نایاسایی پڕکەرەوەی لێو بەکاردێنن بۆ مێردمنداڵان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

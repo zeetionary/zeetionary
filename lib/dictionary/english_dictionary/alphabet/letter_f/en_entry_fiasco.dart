@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fiasco (Derived forms: fiascos, fiascoes)
+- Noun: fiasco (derived forms: fiascos, fiascoes)
 1. A disastrous or embarrassing failure (= debacle, débâcle)
 """,
   );
@@ -169,7 +169,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) شتێک کە سەرکەوتوو نابێت، بەشێوەیەک کە خەڵکی شەرمەزار دەکات"""),
                     SentencesRow(
                       englishText: """The party was a complete fiasco.""",
-                      kurdishText: """ئاهەنگەکە ئابڕووچوونێکی تەواوەتی بوو.""",
+                      kurdishText: """ئاھەنگەکە ئابڕووچوونێکی تەواوەتی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

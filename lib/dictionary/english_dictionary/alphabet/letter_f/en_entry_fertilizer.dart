@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fertilizer (Derived forms: fertilizers)
+- Noun: fertilizer (derived forms: fertilizers)
 1. Any substance such as manure or a mixture of nitrates used to make soil more fertile (= fertiliser [Brit], plant food)
 "the fertilizer leached into the ground";
 """,

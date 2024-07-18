@@ -152,7 +152,7 @@ ${englishMeaningConst.text}
 // With short examples define "festive", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە تایبەتە بە بۆنەیەکی تایبەت یان ئاهەنگگێڕان"""),
+                            """١. (ھاوەڵناو) کە تایبەتە بە بۆنەیەکی تایبەت یان ئاھەنگگێڕان"""),
                     SentencesRow(
                       englishText: """The whole town is in (a) festive mood.""",
                       kurdishText: """شارۆچکەکە لە کەشێکی خۆشدایە.""",

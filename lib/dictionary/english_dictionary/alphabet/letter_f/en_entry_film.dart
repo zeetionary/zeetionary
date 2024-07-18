@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: film (Derived forms: films)
+- Noun: film (derived forms: films)
 1. A form of entertainment that enacts a story by sound and a sequence of images giving the illusion of continuous movement (= movie, picture, moving picture, moving-picture show, motion picture, motion-picture show, picture show, pic [informal], flick [informal])
 "the film was shot on location"; 
  
@@ -65,7 +65,7 @@ ${englishMeaningConst.text}
  
 5. A thin sheet of (usually plastic and usually transparent) material used to wrap or cover things (= plastic film)
 
-- Verb: film (Derived forms: filming, films, filmed)
+- Verb: film (derived forms: filming, films, filmed)
 1. Make a film or photograph of something (= shoot, take)
 "film a movie";
  
@@ -290,7 +290,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ناسکەبەرگە، توێژ، توێژاڵ، گەرداڵ، پەردە، ڕووپۆشی ناسک، پەردەی ناسک،	فیلم (وێنەگری)،	فیلم، توێژە، فلیم (سینەمایی)، ئاڵقەی فیلم،	لێڵایی چاو،	هەودا، داو، ڕیشاڵ، تاڵ،	(films) کاری سینەما، سینەماکاری، سینەماگەری، پیشەسازی سینەما
+کوردی: ناسکەبەرگە، توێژ، توێژاڵ، گەرداڵ، پەردە، ڕووپۆشی ناسک، پەردەی ناسک،	فیلم (وێنەگری)،	فیلم، توێژە، فلیم (سینەمایی)، ئاڵقەی فیلم،	لێڵایی چاو،	ھەودا، داو، ڕیشاڵ، تاڵ،	(films) کاری سینەما، سینەماکاری، سینەماگەری، پیشەسازی سینەما
 """),
 // With short examples define "film", please follow LX instructions
                     const DefinitionKurdish(
@@ -315,7 +315,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There's a good film on tonight (= showing at the cinema or on TV).""",
-                      kurdishText: """ئەمشەو فیلمێکی خۆش هەیە.""",
+                      kurdishText: """ئەمشەو فیلمێکی خۆش ھەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) هونەر یان بازرگانی بەرهەمهێنانی فیلم"""),
+                            """٢. (ناو) ھونەر یان بازرگانی بەرھەمھێنانی فیلم"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -354,7 +354,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """You can study theatre, film and dance as well as painting at the school.""",
                       kurdishText:
-                          """دەتوانیت شانۆگەری، فیلمسازی و سەما و هەروەها نیگارکێشی بخوێنیت لە قوتابخانەکە.""",
+                          """دەتوانیت شانۆگەری، فیلمسازی و سەما و ھەروەھا نیگارکێشی بخوێنیت لە قوتابخانەکە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -372,7 +372,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She knows everything there is to know about film.""",
                       kurdishText:
-                          """هەموو شتێک کە هەبێت لەسەر فیلمسازی دەیزانێت.""",
+                          """ھەموو شتێک کە ھەبێت لەسەر فیلمسازی دەیزانێت.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -417,14 +417,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """It was amazing to be able to capture those moments on film.""",
                       kurdishText:
-                          """سەرسوڕهێنەر بوو کە توانرا ئەو ساتانە لەسەر فیلم تۆمار بکرێن.""",
+                          """سەرسوڕھێنەر بوو کە توانرا ئەو ساتانە لەسەر فیلم تۆمار بکرێن.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """CCTV film captured the assault.""",
-                      kurdishText: """کامێرای چاودێری هێرشەکەی تۆمار کرد.""",
+                      kurdishText: """کامێرای چاودێری ھێرشەکەی تۆمار کرد.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -450,7 +450,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """It took them six weeks to film the documentary.""",
                       kurdishText:
-                          """شەش هەفتەی پێچوو بۆیان بۆ وێنەگرتنی دۆکیومێنتارییەکە.""",
+                          """شەش ھەفتەی پێچوو بۆیان بۆ وێنەگرتنی دۆکیومێنتارییەکە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),

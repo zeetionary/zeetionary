@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: film star (Derived forms: film stars)
+- Noun: film star (derived forms: film stars)
 1. A star who plays leading roles in the cinema (= movie star)
 """,
   );

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: finalist (Derived forms: finalists)
+- Noun: finalist (derived forms: finalists)
 1. A contestant who reaches the final stages of a competition
 """,
   );
@@ -151,7 +151,7 @@ ${englishMeaningConst.text}
 // With short examples define "finalist", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک کە بەژداری لە یاریی کۆتایی یارییەک یان پێشبڕکێیەک دەکات، چی بە تەنها یان وەک تیمێک"""),
+                            """١. (ناو) کەسێک کە بەژداری لە یاریی کۆتایی یارییەک یان پێشبڕکێیەک دەکات، چی بە تەنھا یان وەک تیمێک"""),
                     SentencesRow(
                       englishText:
                           """The team play last year’s beaten finalists.""",

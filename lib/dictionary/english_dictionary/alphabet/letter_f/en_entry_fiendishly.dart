@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The murder mystery had a fiendishly clever plot.""",
                       kurdishText:
-                          """نهێنی کوشتنەکە پلانێکی تەواو زیرەکانەی هەیە.""",
+                          """نھێنی کوشتنەکە پلانێکی تەواو زیرەکانەی ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

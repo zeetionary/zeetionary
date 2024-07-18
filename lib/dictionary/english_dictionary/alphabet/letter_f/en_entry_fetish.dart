@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fetish (Derived forms: fetishes)
+- Noun: fetish (derived forms: fetishes)
 1. A form of sexual desire in which gratification depends to an abnormal degree on some object or item of clothing or part of the body
 "common male fetishes are breasts, legs, hair, shoes, and underwear"
  
@@ -172,21 +172,21 @@ ${englishMeaningConst.text}
 // With short examples define "fetish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی کە کەسێک کاتێکی زۆر بەسەر دەبات بە کردن یان بیرکردنەوە لە شتێکی تایبەت، یان وەها بیردەکاتەوە کە گرنگ ترە لەوەی لە ڕاستیدا هەیە"""),
+                            """١. (ناو) ئەوەی کە کەسێک کاتێکی زۆر بەسەر دەبات بە کردن یان بیرکردنەوە لە شتێکی تایبەت، یان وەھا بیردەکاتەوە کە گرنگ ترە لەوەی لە ڕاستیدا ھەیە"""),
                     SentencesRow(
                       englishText: """She has a fetish about cleanliness.""",
-                      kurdishText: """خوویەکی بۆ پاکو خاوێنی هەیە.""",
+                      kurdishText: """خوویەکی بۆ پاکو خاوێنی ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئەوەی کە حەزی سێکسیت بۆ شتێکی تایبەت هەبێت"""),
+                            """٢. (ناو) ئەوەی کە حەزی سێکسیت بۆ شتێکی تایبەت ھەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He has a fetish for high heels.""",
-                      kurdishText: """حەزی بۆ پێڵاوی پاژنە بەرز هەیە.""",
+                      kurdishText: """حەزی بۆ پێڵاوی پاژنە بەرز ھەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -195,7 +195,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """It is possible to develop a fetish about almost anything.""",
                       kurdishText:
-                          """دەکرێت حەزت بەنزیکەیی بۆ هەموو شتێک بچێت.""",
+                          """دەکرێت حەزت بەنزیکەیی بۆ ھەموو شتێک بچێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

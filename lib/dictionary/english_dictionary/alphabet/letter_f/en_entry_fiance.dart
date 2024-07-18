@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fiancé (Derived forms: fiancés)
+- Noun: fiancé (derived forms: fiancés)
 1. A man who is engaged to be married (= groom-to-be)
 """,
   );

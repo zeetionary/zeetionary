@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fertilize (Derived forms: fertilized, fertilizes, fertilizing)
+- Verb: fertilize (derived forms: fertilized, fertilizes, fertilizing)
 1. (farming) provide with fertilizers or add nutrients to (= fertilise [Brit], feed, enrich)
 "We should fertilize soil if we want to grow healthy plants";
  
@@ -153,17 +153,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: پیتاندن، بەپێز کردن، بەرهەمدار کردن
+کوردی: پیتاندن، بەپێز کردن، بەرھەمدار کردن
 """),
 // With short examples define "fertilize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) دانانی هەڵاڵە لەسەر ڕووەکێک بۆ ئەوەی تۆو درووست ببێت؛ تێکەڵبوونی سپێرم لەگەڵ هێلکە بۆ ئەوەی منداڵ درووست ببێت"""),
+                            """١. (کردار) دانانی ھەڵاڵە لەسەر ڕووەکێک بۆ ئەوەی تۆو درووست ببێت؛ تێکەڵبوونی سپێرم لەگەڵ ھێلکە بۆ ئەوەی منداڵ درووست ببێت"""),
                     SentencesRow(
                       englishText:
                           """Flowers are often fertilized by bees as they gather nectar.""",
                       kurdishText:
-                          """گوڵ زۆرجار دەپیتێندرێت لەلایەن مێشهەنگەوە کە شیلە کۆدەکەنەوە.""",
+                          """گوڵ زۆرجار دەپیتێندرێت لەلایەن مێشھەنگەوە کە شیلە کۆدەکەنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: feint (Derived forms: feints)
+- Noun: feint (derived forms: feints)
 1. Any distracting or deceptive manoeuvre (as a mock attack) (= dummy)
 
-- Verb: feint (Derived forms: feints, feinting, feinted)
+- Verb: feint (derived forms: feints, feinting, feinted)
 1. Deceive by a mock action (= juke [N. Amer, informal])
 "The midfielder feinted to shoot";
 """,
@@ -158,29 +158,29 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: پەلاماری فریودەرانە، هێرشی فێڵاوی، هێرشی واخۆپیشاندەرانە (لە شەڕ، شەڕەمشت و شیرەوانی‌دا)،	فێڵ، کەڵەک، فریو
+کوردی: پەلاماری فریودەرانە، ھێرشی فێڵاوی، ھێرشی واخۆپیشاندەرانە (لە شەڕ، شەڕەمشت و شیرەوانی‌دا)،	فێڵ، کەڵەک، فریو
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) جوڵەیەک کە مەبەست لێی ئەوەیە ڕکابەرەکەت فریو بدات بەوەی وەها تێ بگای کە جوڵەیەک دەکەیت لە کاتێکدا شتێکی دیکە دەکەیت"""),
+                            """١. (ناو) جوڵەیەک کە مەبەست لێی ئەوەیە ڕکابەرەکەت فریو بدات بەوەی وەھا تێ بگای کە جوڵەیەک دەکەیت لە کاتێکدا شتێکی دیکە دەکەیت"""),
                     SentencesRow(
                       englishText:
                           """His feint created an opening in the defense.""",
                       kurdishText:
-                          """هێرشە فێڵاوییەکە کرانەوەیەکی درووستکرد لە بەرگریدا.""",
+                          """ھێرشە فێڵاوییەکە کرانەوەیەکی درووستکرد لە بەرگریدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) ئەنجامدانی جوڵەیەک کە مەبەست لێی ئەوەیە ڕکابەرەکەت فریو بدات بەوەی وەها تێ بگای کە جوڵەیەک دەکەیت لە کاتێکدا شتێکی دیکە دەکەیت"""),
+                            """٢. (کردار) ئەنجامدانی جوڵەیەک کە مەبەست لێی ئەوەیە ڕکابەرەکەت فریو بدات بەوەی وەھا تێ بگای کە جوڵەیەک دەکەیت لە کاتێکدا شتێکی دیکە دەکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He feinted with his right hand and struck with his left.""",
                       kurdishText:
-                          """بە دەستی ڕاستی هێرشی گریودانی کرد و بە دەستی چەپی لێیدا.""",
+                          """بە دەستی ڕاستی ھێرشی گریودانی کرد و بە دەستی چەپی لێیدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

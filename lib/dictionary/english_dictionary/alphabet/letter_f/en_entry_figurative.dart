@@ -164,25 +164,25 @@ ${englishMeaningConst.text}
 // With short examples define "figurative", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە زمان بە شێوەیەک بەکاردێت کە جیاوازە لە بەکارهێنانی ئاسایی. بۆ نموونە گوتنی ئەوەی 'لە تووڕەییدا تەقییەوە'"""),
+                            """١. (ھاوەڵناو) کە زمان بە شێوەیەک بەکاردێت کە جیاوازە لە بەکارھێنانی ئاسایی. بۆ نموونە گوتنی ئەوەی 'لە تووڕەییدا تەقییەوە'"""),
                     SentencesRow(
                       englishText:
                           """Of course, she was using the term "massacre" in the figurative sense.""",
                       kurdishText:
-                          """بەدڵنیاییەوە وشەی 'کۆمەڵکوژی' ـی بە خوازەیی بەکارهێنا.""",
+                          """بەدڵنیاییەوە وشەی 'کۆمەڵکوژی' ـی بە خوازەیی بەکارھێنا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) هونەرمەندێک کە شتەکان بە ڕاستی پیشان دەدات"""),
+                            """٢. (ھاوەڵناو) ھونەرمەندێک کە شتەکان بە ڕاستی پیشان دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He studied under a renowned figurative artist.""",
                       kurdishText:
-                          """لە لای هونەرمەندێکی ناسراوی فیگیورەتیڤ خوێندی.""",
+                          """لە لای ھونەرمەندێکی ناسراوی فیگیورەتیڤ خوێندی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

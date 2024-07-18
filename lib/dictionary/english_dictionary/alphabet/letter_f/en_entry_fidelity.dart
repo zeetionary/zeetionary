@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fidelity (Derived forms: fidelities)
+- Noun: fidelity (derived forms: fidelities)
 1. Accuracy with which an electronic system reproduces the sound or image of its input signal
  
 2. The quality of being faithful (= faithfulness)
@@ -181,7 +181,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They still maintain fidelity to their religious tradition.""",
                       kurdishText:
-                          """هێشتا وەفادارن بۆ نەریتە ئایینییەکەیان.""",
+                          """ھێشتا وەفادارن بۆ نەریتە ئایینییەکەیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -196,13 +196,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئەوەی وەفادار بیت بەرامبەر بە هاوژینەکەت بەوەی پەیوەندی سێکسیت لەگەڵ کەسی دیکە نەبێت"""),
+                            """٢. (ناو) ئەوەی وەفادار بیت بەرامبەر بە ھاوژینەکەت بەوەی پەیوەندی سێکسیت لەگەڵ کەسی دیکە نەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """How important do you think sexual fidelity is in a marriage?""",
                       kurdishText:
-                          """وەفاداری سێکسی چەندە لات گرنگە لە هاوسەرگیریدا؟""",
+                          """وەفاداری سێکسی چەندە لات گرنگە لە ھاوسەرگیریدا؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

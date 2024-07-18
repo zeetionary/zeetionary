@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                             """١. (ھاوەڵناو) کە لە ڕیشاڵ درووستکراوە؛ کە شێوەی وەک ڕیشاڵە"""),
                     SentencesRow(
                       englishText: """Grass plants have fibrous roots.""",
-                      kurdishText: """ڕووەکە گیاییەکان ڕەگی ڕیشاڵییان هەیە.""",
+                      kurdishText: """ڕووەکە گیاییەکان ڕەگی ڕیشاڵییان ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: filter (Derived forms: filters)
+- Noun: filter (derived forms: filters)
 1. Device that removes something from whatever passes through it
  
 2. An electrical device that alters the frequency spectrum of signals passing through it
  
 3. [Brit] A traffic light used to allow some of the traffic to turn off while the rest remains stopped
 
-- Verb: filter (Derived forms: filtered, filtering, filters)
+- Verb: filter (derived forms: filtered, filtering, filters)
 1. Remove by passing through a filter (= filtrate, strain, separate out, filter out)
 "filter out the impurities";
  
@@ -239,7 +239,7 @@ ${englishMeaningConst.text}
 // With short examples define "filter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئامێرێک کە کاغەز، خۆڵ، مادەی کیمیایی، هتد لەخۆدەگرێت و شلە یان گاز بەناویدا تێدەپەڕێت بۆ سڕینەوەی هەر مادەیەکی نەویستراو"""),
+                            """١. (ناو) ئامێرێک کە کاغەز، خۆڵ، مادەی کیمیایی، ھتد لەخۆدەگرێت و شلە یان گاز بەناویدا تێدەپەڕێت بۆ سڕینەوەی ھەر مادەیەکی نەویستراو"""),
                     SentencesRow(
                       englishText: """He smokes cigarettes without filters.""",
                       kurdishText: """بەبێ فیلتەر جگەرە دەکێشێت.""",
@@ -258,25 +258,25 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئامێرێک کە تەنها ڕێگا بە دەنگ یان ڕەنگی دیاریکراو دەدات پێێدا تێپەڕێت"""),
+                            """٢. (ناو) ئامێرێک کە تەنھا ڕێگا بە دەنگ یان ڕەنگی دیاریکراو دەدات پێێدا تێپەڕێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The camera has an anti-glare filter.""",
                       kurdishText:
-                          """کامێراکە فلتەرێکی دژ بە ڕۆشنایی درەوشاوە هەیە.""",
+                          """کامێراکە فلتەرێکی دژ بە ڕۆشنایی درەوشاوە ھەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) پڕۆگرامێک کە زانیاری دەپشکنێت بۆ دەرکردنی ئەو بەشانەی کە نەویستراون، یان زانیاری، ئیمەیڵ، هتد ـی دیاریکراو ڕادەگرێت لەوەی بنێردرێن بۆ کۆمپیوتەرێک"""),
+                            """٣. (ناو) پڕۆگرامێک کە زانیاری دەپشکنێت بۆ دەرکردنی ئەو بەشانەی کە نەویستراون، یان زانیاری، ئیمەیڵ، ھتد ـی دیاریکراو ڕادەگرێت لەوەی بنێردرێن بۆ کۆمپیوتەرێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Spam filters block out almost all threats.""",
                       kurdishText:
-                          """فلتەری سپام بەنزیکەیی هەموو هەڕەشەیەک ڕادەگرێت.""",
+                          """فلتەری سپام بەنزیکەیی ھەموو ھەڕەشەیەک ڕادەگرێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -296,12 +296,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) ناردنی شلە، ڕووناکی، هتد بە ئامێرێکی دیاریکراودا، بەتایبەتی بۆ سڕینەوەی شتێک کە ناتەوێت"""),
+                            """٥. (کردار) ناردنی شلە، ڕووناکی، ھتد بە ئامێرێکی دیاریکراودا، بەتایبەتی بۆ سڕینەوەی شتێک کە ناتەوێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """All drinking water must be filtered.""",
                       kurdishText:
-                          """هەموو ئاوێکی خواردنەوە دەبێت فلتەر بکرێت.""",
+                          """ھەموو ئاوێکی خواردنەوە دەبێت فلتەر بکرێت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -310,27 +310,27 @@ ${englishMeaningConst.text}
                       englishText:
                           """Use a sun block that filters UVA effectively.""",
                       kurdishText:
-                          """دژەخۆرێک بەکاربهێنە کە بە کاریگەری ڕێگری لە تیشکی سەروو بنەوشەیی دەکەن.""",
+                          """دژەخۆرێک بەکاربھێنە کە بە کاریگەری ڕێگری لە تیشکی سەروو بنەوشەیی دەکەن.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (کردار) بەکارهێنانی پڕۆگرامێکی تایبەت کە ئیمەیڵ و وێبسایتەکان دەپشکنێت پێش ئەوەی بنێردرێن بۆ کۆمپیوتەرەکەت"""),
+                            """٦. (کردار) بەکارھێنانی پڕۆگرامێکی تایبەت کە ئیمەیڵ و وێبسایتەکان دەپشکنێت پێش ئەوەی بنێردرێن بۆ کۆمپیوتەرەکەت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Most email apps use spam filtering tools.""",
                       kurdishText:
-                          """زۆربەی ئەپی ئیمەیڵ ئامرازەکانی فلتەرکردنی سپام بەکاردەهێنن..""",
+                          """زۆربەی ئەپی ئیمەیڵ ئامرازەکانی فلتەرکردنی سپام بەکاردەھێنن..""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (کردار) جووڵان بە هێواشی بە ئاراستەیەکی دیارکراودا"""),
+                            """٧. (کردار) جووڵان بە ھێواشی بە ئاراستەیەکی دیارکراودا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -355,13 +355,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (کردار) هاتنە شوێنێک بە هێواشی یان بە کەمی"""),
+                            """٩. (کردار) ھاتنە شوێنێک بە ھێواشی یان بە کەمی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Sunlight filtered in through the curtains.""",
                       kurdishText:
-                          """تیشکی خۆر بە پەردەکاندا دەهاتنە ژوورەوە.""",
+                          """تیشکی خۆر بە پەردەکاندا دەھاتنە ژوورەوە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),

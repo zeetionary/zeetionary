@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
 // With short examples define "fiercely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بەشێوەیەک کە هەستی توندی تێدایە؛ کە چالاکی و شێلگیری تێدایە"""),
+                            """١. (ھاوەڵکار) بەشێوەیەک کە ھەستی توندی تێدایە؛ کە چالاکی و شێلگیری تێدایە"""),
                     SentencesRow(
                       englishText:
                           """They remain fiercely opposed to outside intervention.""",

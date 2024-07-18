@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fencing (Derived forms: fencings)
+- Noun: fencing (derived forms: fencings)
 1. A barrier that serves to enclose an area (= fence)
  
 2. Material for building fences (= fencing material)

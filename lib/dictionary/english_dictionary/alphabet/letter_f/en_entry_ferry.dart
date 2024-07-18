@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ferry (Derived forms: ferries)
+- Noun: ferry (derived forms: ferries)
 1. A boat that transports people or vehicles across a body of water and operates on a regular schedule (= ferryboat)
  
 2. Transport by boat or aircraft (= ferrying)
 
-- Verb: ferry (Derived forms: ferrying, ferried, ferries)
+- Verb: ferry (derived forms: ferrying, ferried, ferries)
 1. Transport from one place to another
  
 2. Transport by ferry
@@ -190,7 +190,7 @@ ${englishMeaningConst.text}
 // With short examples define "ferry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بەلەم یان کەشتییەک کە خەڵکی یان کەلوپەل بە ڕووبار یان بەشێکی تەسکی دەریادا هەڵدەگرێت"""),
+                            """١. (ناو) بەلەم یان کەشتییەک کە خەڵکی یان کەلوپەل بە ڕووبار یان بەشێکی تەسکی دەریادا ھەڵدەگرێت"""),
                     SentencesRow(
                       englishText: """We boarded the ferry at Ostend.""",
                       kurdishText: """لە ئۆستێند چووینە سەر کەشتییەکە.""",
@@ -215,7 +215,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) هەڵگرتنی خەڵکی یان شت لە بەلەمێک یان کەشتیدا"""),
+                            """٢. (کردار) ھەڵگرتنی خەڵکی یان شت لە بەلەمێک یان کەشتیدا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -234,7 +234,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The children need to be ferried to and from school.""",
                       kurdishText:
-                          """منداڵەکان دەبێت ببردرێنە قوتابخانە و بهێندرێنەوە.""",
+                          """منداڵەکان دەبێت ببردرێنە قوتابخانە و بھێندرێنەوە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

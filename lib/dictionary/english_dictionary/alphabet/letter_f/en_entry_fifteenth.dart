@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: fifteenth
 1. Coming next after the fourteenth and just before the sixteenth in position (= 15th)
 
-- Noun: fifteenth (Derived forms: fifteenths)
+- Noun: fifteenth (derived forms: fifteenths)
 1. Position 15 in a countable series of things
 """,
   );
@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: پازدەیەم، پازدەهەم، پازدەیەمین، پازدەیەک
+کوردی: پازدەیەم، پازدەھەم، پازدەیەمین، پازدەیەک
 """),
 // With short examples define "fifteenth", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پازدەیەم"""),

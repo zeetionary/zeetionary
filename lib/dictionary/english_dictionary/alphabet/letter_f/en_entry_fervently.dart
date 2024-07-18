@@ -160,7 +160,7 @@ ${englishMeaningConst.text}
 // With short examples define "fervently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بەشێوەیەک کە هەستی بەهێز و لە دڵەوەیە سەبارەت بە شتێک """),
+                            """١. (ھاوەڵکار) بەشێوەیەک کە ھەستی بەھێز و لە دڵەوەیە سەبارەت بە شتێک """),
                     SentencesRow(
                       englishText:
                           """She prayed fervently for his complete recovery.""",
@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """We fervently hope they will succeed.""",
-                      kurdishText: """تامەزرۆیانە بەهیواین سەربکەون.""",
+                      kurdishText: """تامەزرۆیانە بەھیواین سەربکەون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

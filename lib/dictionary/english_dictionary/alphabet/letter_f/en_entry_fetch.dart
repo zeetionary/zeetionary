@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fetch (Derived forms: fetching, fetches, fetched)
+- Verb: fetch (derived forms: fetching, fetches, fetched)
 1. Go or come after and bring or take back (= bring, get, convey)
 "The dog fetched the hat";
  
@@ -61,7 +61,7 @@ ${englishMeaningConst.text}
 3. Remove
 "The devil will fetch you!"
 
-- Noun: fetch (Derived forms: fetches)
+- Noun: fetch (derived forms: fetches)
 1. The action of fetching
  
 2. Distance of water surface exposed to wind for making waves
@@ -188,12 +188,12 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "fetch", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) ڕۆشتن بۆ شوێنێک و هێنانی شتێک"""),
+                        text: """١. (کردار) ڕۆشتن بۆ شوێنێک و ھێنانی شتێک"""),
                     SentencesRow(
                       englishText:
                           """The inhabitants have to walk a mile to fetch water.""",
                       kurdishText:
-                          """دانیشتووەکان دەبێت سەروو یەک میل ڕێ بکەن بۆ هێنان ئاو.""",
+                          """دانیشتووەکان دەبێت سەروو یەک میل ڕێ بکەن بۆ ھێنان ئاو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -202,14 +202,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """She's gone to fetch the kids from school.""",
                       kurdishText:
-                          """ڕۆشتووە بۆ هێنانەوەی منداڵەکان لە قوتابخانە.""",
+                          """ڕۆشتووە بۆ ھێنانەوەی منداڵەکان لە قوتابخانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Could you fetch me my bag?""",
-                      kurdishText: """دەتوانیت جانتاکەمم بۆ بهێنیت؟""",
+                      kurdishText: """دەتوانیت جانتاکەمم بۆ بھێنیت؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

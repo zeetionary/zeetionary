@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fidget (Derived forms: fidgeted, fidgeting, fidgets)
+- Verb: fidget (derived forms: fidgeted, fidgeting, fidgets)
 1. Move restlessly
 "The child is always fidgeting in his seat"
 
-- Noun: fidget (Derived forms: fidgets)
+- Noun: fidget (derived forms: fidgets)
 1. A feeling of agitation expressed in continual motion (= fidgetiness, restlessness)
 "he's got the fidgets";
 """,
@@ -165,12 +165,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: مرۆی ئارام‌لێ‌هەڵگیراو، ژان‌کردوو، حەجمین‌لێ‌بڕاو، بزێو، بەجرت‌وفرت، جرپن، جرت‌وفرت، جرپەجرپ، پەلەپڕووزێ، پەلەپڕووزە، پەلەفرتێ، پەلەفرتە، ژان‌کردوویی، ئارام‌لێهەڵگیراوی
+کوردی: مرۆی ئارام‌لێ‌ھەڵگیراو، ژان‌کردوو، حەجمین‌لێ‌بڕاو، بزێو، بەجرت‌وفرت، جرپن، جرت‌وفرت، جرپەجرپ، پەلەپڕووزێ، پەلەپڕووزە، پەلەفرتێ، پەلەفرتە، ژان‌کردوویی، ئارام‌لێھەڵگیراوی
 """),
 // With short examples define "fidget", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) ئەوەی بەردەوام دەستت، لاقت، یان پێت بجووڵێنیت بەهۆی ئەوەی شڵەژاویت، بێزاریت، هتد"""),
+                            """١. (کردار) ئەوەی بەردەوام دەستت، لاقت، یان پێت بجووڵێنیت بەھۆی ئەوەی شڵەژاویت، بێزاریت، ھتد"""),
                     SentencesRow(
                       englishText: """Sit still and stop fidgeting!""",
                       kurdishText: """بێ چووڵە دابنیشە و بوەستە لە جرت‌وفرت.""",

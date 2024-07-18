@@ -246,7 +246,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Finally, stir in the fruit and walnuts.""",
                       kurdishText:
-                          """لە کۆتاییدا، میوە و گوێزهیندەکە تێڕادە ناوی.""",
+                          """لە کۆتاییدا، میوە و گوێزھیندەکە تێڕادە ناوی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -255,14 +255,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """And finally, I would like to thank you all for coming here today.""",
                       kurdishText:
-                          """و لەکۆتاییدا، دەمەوێت سوپاسی هەموان بکەم بۆ ئەمڕۆ هاتنتان بۆ ئێرە.""",
+                          """و لەکۆتاییدا، دەمەوێت سوپاسی ھەموان بکەم بۆ ئەمڕۆ ھاتنتان بۆ ئێرە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵکار) بەشێوەیەک هەموو باسکردنێکی سەبارەت بە شتێک کۆتایی پێدێنێت و گۆڕان ڕوونادات"""),
+                            """٣. (ھاوەڵکار) بەشێوەیەک ھەموو باسکردنێکی سەبارەت بە شتێک کۆتایی پێدێنێت و گۆڕان ڕوونادات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The plan hasn't been finally approved.""",

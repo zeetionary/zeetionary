@@ -155,23 +155,23 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ئارام‌لێهەڵگیراوانە، بە تاو، حەجمین‌لێ‌بڕاوانە
+کوردی: ئارام‌لێھەڵگیراوانە، بە تاو، حەجمین‌لێ‌بڕاوانە
 """),
 // With short examples define "feverishly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بەشێوەیەک کە هەستی جۆش‌وخرۆشی و نیگەرانی بەهێز پیشان دەدات"""),
+                            """١. (ھاوەڵکار) بەشێوەیەک کە ھەستی جۆش‌وخرۆشی و نیگەرانی بەھێز پیشان دەدات"""),
                     SentencesRow(
                       englishText:
                           """The team worked feverishly to the November deadline.""",
                       kurdishText:
-                          """تیمەکە ئارام‌لێهەڵگیراوانە کاری دەکرد بۆ دواوادەی تشرینی دووەم.""",
+                          """تیمەکە ئارام‌لێھەڵگیراوانە کاری دەکرد بۆ دواوادەی تشرینی دووەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵکار) کە بەهۆی تاوە درووست بووە"""),
+                        text: """٢. (ھاوەڵکار) کە بەھۆی تاوە درووست بووە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

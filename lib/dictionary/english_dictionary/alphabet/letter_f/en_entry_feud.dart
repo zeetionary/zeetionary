@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: feud (Derived forms: feuds)
+- Noun: feud (derived forms: feuds)
 1. A bitter quarrel between two parties
 
-- Verb: feud (Derived forms: feuds, feuding, feuded)
+- Verb: feud (derived forms: feuds, feuding, feuded)
 1. Carry out a feud
 "The two professors have been feuding for years"
 """,
@@ -190,7 +190,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They had a long-running feud over money.""",
                       kurdishText:
-                          """دوژمنایەتییەکی درێژیان هەبوو لەسەر پارە.""",
+                          """دوژمنایەتییەکی درێژیان ھەبوو لەسەر پارە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -206,12 +206,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) هەبوونی مشتومڕێکی توند بۆ ماوەیەکی دوور و درێژ"""),
+                            """٢. (کردار) ھەبوونی مشتومڕێکی توند بۆ ماوەیەکی دوور و درێژ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He has been feuding with his brother for years.""",
-                      kurdishText: """چەندین ساڵە لەگەڵ براکەی مشتومڕی هەیە.""",
+                      kurdishText: """چەندین ساڵە لەگەڵ براکەی مشتومڕی ھەیە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

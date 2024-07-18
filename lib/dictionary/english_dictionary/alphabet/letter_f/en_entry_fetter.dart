@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fetter (Derived forms: fetters)
+- Noun: fetter (derived forms: fetters)
 1. A shackle for the ankles or feet (= hobble)
  
 2. Something that constrains freedom to act
 
-- Verb: fetter (Derived forms: fettering, fetters, fettered)
+- Verb: fetter (derived forms: fettering, fetters, fettered)
 1. Restrain with fetters (= shackle, enfetter)
  
 2. [literary] Be a hindrance or obstacle to (= impede, hinder, entrammel [literary], trammel [literary])
@@ -180,7 +180,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He felt fettered by petty rules and regulations.""",
                       kurdishText:
-                          """هەستی بە قۆڵبەستراوی دەکرد بە وردە یاسا و ڕێسا.""",
+                          """ھەستی بە قۆڵبەستراوی دەکرد بە وردە یاسا و ڕێسا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: finalize (Derived forms: finalized, finalizing, finalizes)
+- Verb: finalize (derived forms: finalized, finalizing, finalizes)
 1. Make final; put the last touches on; put into final form (= finalise [Brit], settle, nail down)
 "let's finalize the proposal";
 """,
@@ -151,12 +151,12 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "finalize", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) کۆتایی هێنان بە کۆتا بەشی شتێک"""),
+                        text: """١. (کردار) کۆتایی ھێنان بە کۆتا بەشی شتێک"""),
                     SentencesRow(
                       englishText:
                           """They met to finalize the terms of the treaty.""",
                       kurdishText:
-                          """کۆبوونەوە بۆ کۆتایی هێنان بە مەرجەکانی ڕێککەوتنەکە.""",
+                          """کۆبوونەوە بۆ کۆتایی ھێنان بە مەرجەکانی ڕێککەوتنەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

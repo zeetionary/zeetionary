@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Make sure you put all the nail filings in the bin.""",
                       kurdishText:
-                          """دڵنیابەرەوە کە هەموو وردە بزمارەکان دەخەیتە زبڵەکەوە.""",
+                          """دڵنیابەرەوە کە ھەموو وردە بزمارەکان دەخەیتە زبڵەکەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

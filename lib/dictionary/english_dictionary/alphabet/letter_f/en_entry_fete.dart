@@ -51,14 +51,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fete (Derived forms: fêted, feting, fêtes, fêting, feted, fetes)
+- Verb: fete (derived forms: fêted, feting, fêtes, fêting, feted, fetes)
 1. Have a celebration (= celebrate, fête)
 "They were feting the patriarch of the family";
  
 2. Bestow honour or rewards upon (= honor [US], honour [Brit, Cdn], reward, fête)
 "Today we fete our soldiers";
 
-- Noun: fete (Derived forms: fêtes, fetes)
+- Noun: fete (derived forms: fêtes, fetes)
 1. An elaborate party (often outdoors) (= feast, fiesta, fête)
  
 2. An organized series of acts and performances (usually in one place) (= festival, fête)
@@ -165,24 +165,24 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ڕێوڕەسم، ئاهەنگ، جەژن، جێژن گرتن
+کوردی: ڕێوڕەسم، ئاھەنگ، جەژن، جێژن گرتن
 """),
 // With short examples define "fete", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئاهەنگێکی دەرەکی کە تێیدا خەڵکی دەتوانن یاری بکەن بۆ بۆردنەوەی خەڵات، کڕینی خواردن و خواردنەوە، هتد، زۆرجار بۆ کۆکردنەوەی پارە بۆ مەبەستێکی تایبەت"""),
+                            """١. (ناو) ئاھەنگێکی دەرەکی کە تێیدا خەڵکی دەتوانن یاری بکەن بۆ بۆردنەوەی خەڵات، کڕینی خواردن و خواردنەوە، ھتد، زۆرجار بۆ کۆکردنەوەی پارە بۆ مەبەستێکی تایبەت"""),
                     SentencesRow(
                       englishText:
                           """They're holding the village fete on the green.""",
                       kurdishText:
-                          """ئاهەنگی گوندەکە لەسەر سەوزاییەکە ڕێکدەخەن.""",
+                          """ئاھەنگی گوندەکە لەسەر سەوزاییەکە ڕێکدەخەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) پەسندان یان بەخێرهاتن کردنی کەسێک بەشێوەیەکی گشتی"""),
+                            """٢. (کردار) پەسندان یان بەخێرھاتن کردنی کەسێک بەشێوەیەکی گشتی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

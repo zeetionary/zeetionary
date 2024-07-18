@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: fifty
 1. Being ten more than forty (= 50, l)
 
-- Noun: fifty (Derived forms: fifties)
+- Noun: fifty (derived forms: fifties)
 1. The cardinal number that is the product of ten and five (= 50, L)
  
 2. A United States bill worth 50 dollars (= fifty dollar bill)
@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """The film was made fifty years ago.""",
                       kurdishText:
-                          """فیلمەکە پەنجا ساڵ پێش ئێستا بەرهەمهێندرا.""",
+                          """فیلمەکە پەنجا ساڵ پێش ئێستا بەرھەمھێندرا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -195,7 +195,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """There are about fifty calories in an apple.""",
-                      kurdishText: """نزیکەی پەنجا کالۆری لە سێودا هەیە.""",
+                      kurdishText: """نزیکەی پەنجا کالۆری لە سێودا ھەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

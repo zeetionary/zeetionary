@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: female (Derived forms: females)
+- Noun: female (derived forms: females)
 1، An animal that produces gametes (ova) that can be fertilized by male gametes (spermatozoa)
  
 2. A person who belongs to the sex that can have babies (= female person)
@@ -244,7 +244,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She has written brilliant roles for strong female characters.""",
                       kurdishText:
-                          """ڕۆڵی بلیمەتانەی کارەکتەری ژنی بەهێزی نووسیوە.""",
+                          """ڕۆڵی بلیمەتانەی کارەکتەری ژنی بەھێزی نووسیوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -269,14 +269,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """She experienced discomfort and sought medical advice regarding issues with her female reproductive organs.""",
                       kurdishText:
-                          """هەستی بە ناڕەحەتی کرد و داوای ڕاوێژی تەندرووستی کرد سەبارەت بە کێشەکانی ئەندامی زاوزێی مێینە.""",
+                          """ھەستی بە ناڕەحەتی کرد و داوای ڕاوێژی تەندرووستی کرد سەبارەت بە کێشەکانی ئەندامی زاوزێی مێینە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵناو) کە ژنان هەیانە؛ کە کاریگەری لە ژنان دەکات"""),
+                            """٣. (ھاوەڵناو) کە ژنان ھەیانە؛ کە کاریگەری لە ژنان دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -303,7 +303,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """When planting cherry trees, you must plant a male tree and a female tree if you want to harvest any fruit.""",
                       kurdishText:
-                          """لە کاتی ناشتنی درەختی گێلاس، دەبێت دارێکی نێرینە و دارێکی مێینە پێکەوە بچێنیت ئەگەر دەتەوێت هیچ میوەیەک گەشە پێ بدەیت.""",
+                          """لە کاتی ناشتنی درەختی گێلاس، دەبێت دارێکی نێرینە و دارێکی مێینە پێکەوە بچێنیت ئەگەر دەتەوێت ھیچ میوەیەک گەشە پێ بدەیت.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -316,7 +316,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """One adult female can lay 400 to 500 eggs.""",
                       kurdishText:
-                          """مێینەیەکی پێگەشتوو دەتوانێت ٤٠٠ بۆ ٥٠٠ هێلکە دابنێت.""",
+                          """مێینەیەکی پێگەشتوو دەتوانێت ٤٠٠ بۆ ٥٠٠ ھێلکە دابنێت.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

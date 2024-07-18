@@ -170,7 +170,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) بەشێوەیەک کە زۆر توندوتیژانە یان دڕە"""),
                     SentencesRow(
                       englishText: """He was ferociously attacked.""",
-                      kurdishText: """دڕندانە هێرشی کرایە سەر.""",
+                      kurdishText: """دڕندانە ھێرشی کرایە سەر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

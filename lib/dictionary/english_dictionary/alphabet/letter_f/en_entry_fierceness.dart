@@ -171,7 +171,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هاری، دڕی، دڕندەیی،	توندوتیژی، توندی
+کوردی: ھاری، دڕی، دڕندەیی،	توندوتیژی، توندی
 """),
 // With short examples define "fierceness", please follow LX instructions
                     const DefinitionKurdish(
@@ -196,7 +196,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئەوەی کە هەستی بەهێز پیشان بدەیت بە چالاکی و شێلگیری زۆرەوە"""),
+                            """٢. (ناو) ئەوەی کە ھەستی بەھێز پیشان بدەیت بە چالاکی و شێلگیری زۆرەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -208,7 +208,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ئەوەی زۆر بەهێز بێت کە زیان درووست بکات"""),
+                            """٣. (ناو) ئەوەی زۆر بەھێز بێت کە زیان درووست بکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

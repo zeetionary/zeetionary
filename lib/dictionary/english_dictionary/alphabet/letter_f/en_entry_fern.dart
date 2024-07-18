@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fern (Derived forms: ferns)
+- Noun: fern (derived forms: ferns)
 1. Any of numerous flowerless and seedless vascular plants having true roots from a rhizome and fronds that uncurl upward; reproduce by spores
 """,
   );
@@ -150,7 +150,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ڕووەکێک کە گەڵای گەورە و جوانی هەیە هیچ گوڵ ناگرێت، و لە ناوچە شێدارەکان گەشە دەکات"""),
+                            """١. (ناو) ڕووەکێک کە گەڵای گەورە و جوانی ھەیە ھیچ گوڵ ناگرێت، و لە ناوچە شێدارەکان گەشە دەکات"""),
                     SentencesRow(
                       englishText:
                           """The fern's leaves were delicate and green.""",

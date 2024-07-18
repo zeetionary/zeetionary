@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: filling (Derived forms: fillings)
+- Noun: filling (derived forms: fillings)
 1. Any material that fills a space or container (= fill)
 "there was not enough filling for the trench";
  
@@ -205,7 +205,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """One of my fillings came out this morning.""",
                       kurdishText:
-                          """یەکێک لە پڕکردنەوەکانم ئەم بەیانییە دەرهات.""",
+                          """یەکێک لە پڕکردنەوەکانم ئەم بەیانییە دەرھات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -214,20 +214,20 @@ ${englishMeaningConst.text}
                       englishText:
                           """She’s only eight years old and she already has five fillings.""",
                       kurdishText:
-                          """تەنها هەشت ساڵانە و پێشوەختە پێنج پڕکردنەوەی ددانی هەبووە.""",
+                          """تەنھا ھەشت ساڵانە و پێشوەختە پێنج پڕکردنەوەی ددانی ھەبووە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئەو خواردنەی کە دەخرێتە ناو لەفە، کێک، هتد"""),
+                            """٢. (ناو) ئەو خواردنەی کە دەخرێتە ناو لەفە، کێک، ھتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She baked a sponge cake with cream filling for the party.""",
                       kurdishText:
-                          """کێکێکی نەرمی بە پڕکراوەی کرێم بۆ ئاهەنگەکە ئامادە کرد.""",
+                          """کێکێکی نەرمی بە پڕکراوەی کرێم بۆ ئاھەنگەکە ئامادە کرد.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

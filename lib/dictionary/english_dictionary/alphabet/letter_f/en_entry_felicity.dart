@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: felicity (Derived forms: felicities)
+- Noun: felicity (derived forms: felicities)
 1. Pleasing and appropriate manner or style (especially manner or style of expression) (= felicitousness)
  
 2. State of well-being characterized by emotions ranging from contentment to intense joy (= happiness)
@@ -171,7 +171,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She felt pure felicity on her wedding day.""",
                       kurdishText:
-                          """لە ڕۆژی هاوسەرگیرییەکەی هەستی بە دڵخۆشی زۆر دەکرد.""",
+                          """لە ڕۆژی ھاوسەرگیرییەکەی ھەستی بە دڵخۆشی زۆر دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

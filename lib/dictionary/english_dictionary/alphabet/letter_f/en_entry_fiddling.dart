@@ -149,7 +149,7 @@ Usage: informal
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هیچەکە، ناگرنگ، قۆڕ، بێ‌بایەخ،	بێ‌فایدە، بێ‌کەڵک، ئایەخ
+کوردی: ھیچەکە، ناگرنگ، قۆڕ، بێ‌بایەخ،	بێ‌فایدە، بێ‌کەڵک، ئایەخ
 """),
 // With short examples define "fiddling", please follow LX instructions
                     const DefinitionKurdish(
@@ -159,7 +159,7 @@ Usage: informal
                       englishText:
                           """She spent hours on fiddling little details of the project.""",
                       kurdishText:
-                          """چەندین کاتژمێری بەسەر برد بە وردەکارییە بچووکی هیچەکەی پڕۆژەکە.""",
+                          """چەندین کاتژمێری بەسەر برد بە وردەکارییە بچووکی ھیچەکەی پڕۆژەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

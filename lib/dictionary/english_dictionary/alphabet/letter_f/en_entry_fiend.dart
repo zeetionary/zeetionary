@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fiend (Derived forms: fiends)
+- Noun: fiend (derived forms: fiends)
 1. A cruel wicked and inhuman person (= monster, devil, demon, ogre)
  
 2. An evil supernatural being (= devil, demon, daemon, daimon)

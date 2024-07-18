@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: ferment (Derived forms: fermented, ferments, fermenting)
+- Verb: ferment (derived forms: fermented, ferments, fermenting)
 1. Cause to undergo fermentation (= work)
 "We ferment the grapes for a very long time to achieve high alcohol content";
  
@@ -64,7 +64,7 @@ ${englishMeaningConst.text}
 4. Work up into agitation or excitement
 "This religion is fermenting Africa"
 
-- Noun: ferment (Derived forms: ferments)
+- Noun: ferment (derived forms: ferments)
 1. A state of agitation or turbulent change or development (= agitation, fermentation, tempestuousness, unrest)
 "the political ferment produced new leadership";
  
@@ -183,12 +183,12 @@ ${englishMeaningConst.text}
 // With short examples define "ferment", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) تێپەڕبوون بە گۆڕانی کیمیایی بەهۆی کاری خومرە یان بەکتریا، زۆرجار کە شەکر بۆ مادەی کحوولی دەگۆڕێت؛ گۆڕینی شت بەم شێوەیە"""),
+                            """١. (کردار) تێپەڕبوون بە گۆڕانی کیمیایی بەھۆی کاری خومرە یان بەکتریا، زۆرجار کە شەکر بۆ مادەی کحوولی دەگۆڕێت؛ گۆڕینی شت بەم شێوەیە"""),
                     SentencesRow(
                       englishText:
                           """Fruit juices ferment if they are kept for too long.""",
                       kurdishText:
-                          """ئاوی میوە دەترشێن ئەگەر بۆ ماوەیەکی زۆر بهێڵدرێنەوە.""",
+                          """ئاوی میوە دەترشێن ئەگەر بۆ ماوەیەکی زۆر بھێڵدرێنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -208,7 +208,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The country is in ferment.""",
-                      kurdishText: """وڵاتەکە لە هەڵایەکدایە.""",
+                      kurdishText: """وڵاتەکە لە ھەڵایەکدایە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

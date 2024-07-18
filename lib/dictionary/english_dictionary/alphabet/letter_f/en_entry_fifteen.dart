@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: fifteen
 1. Being one more than fourteen (= 15, xv)
 
-- Noun: fifteen (Derived forms: fifteens)
+- Noun: fifteen (derived forms: fifteens)
 1. The cardinal number that is the sum of fourteen and one (= 15, XV)
 """,
   );
@@ -180,7 +180,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They hadn't lost an election in fifteen years.""",
                       kurdishText:
-                          """هیچ هەڵبژاردنێکیان لە ١٥ ساڵدا نەدۆڕاندبوو.""",
+                          """ھیچ ھەڵبژاردنێکیان لە ١٥ ساڵدا نەدۆڕاندبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

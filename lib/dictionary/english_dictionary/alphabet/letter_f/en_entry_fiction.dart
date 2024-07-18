@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fiction (Derived forms: fictions)
+- Noun: fiction (derived forms: fictions)
 1. A literary work based on the imagination and not necessarily on fact
  
 2. A deliberately false or improbable account (= fabrication, fable)
@@ -181,7 +181,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: چیرۆک، داستان، چیرۆکی خەیاڵی، هەڵبەستەچیرۆک، ڕازە، چیرۆکەخەیاڵ،	ئەندێشە، درۆ، قسەی بێ‌بنچینە، خەیاڵ،	وێژەی خەیاڵی یان چیرۆکی،	واخۆدەرخستن، واخۆنیشان‌دان، درۆ
+کوردی: چیرۆک، داستان، چیرۆکی خەیاڵی، ھەڵبەستەچیرۆک، ڕازە، چیرۆکەخەیاڵ،	ئەندێشە، درۆ، قسەی بێ‌بنچینە، خەیاڵ،	وێژەی خەیاڵی یان چیرۆکی،	واخۆدەرخستن، واخۆنیشان‌دان، درۆ
 """),
 // With short examples define "fiction", please follow LX instructions
                     const DefinitionKurdish(
@@ -207,7 +207,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The book is a work of fiction and not intended as a historical account.""",
                       kurdishText:
-                          """ئەم کتێبە بەرهەمێکی خەیاڵییە و مەبەست لێی ئەوە نییە گێڕانەوەیەکی مێژووی بێت.""",
+                          """ئەم کتێبە بەرھەمێکی خەیاڵییە و مەبەست لێی ئەوە نییە گێڕانەوەیەکی مێژووی بێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -219,7 +219,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Don't believe what she says—it's pure fiction!""",
                       kurdishText:
-                          """باوەڕ بەوە مەکە کە دەیڵێت ـ هەمووی هەڵبەستراوە.""",
+                          """باوەڕ بەوە مەکە کە دەیڵێت ـ ھەمووی ھەڵبەستراوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -228,7 +228,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """For years he managed to keep up the fiction that he was not married.""",
                       kurdishText:
-                          """بۆ چەندین ساڵ توانی ئەو درۆیە بکات کە هاوسەرگیری نەکردووە.""",
+                          """بۆ چەندین ساڵ توانی ئەو درۆیە بکات کە ھاوسەرگیری نەکردووە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

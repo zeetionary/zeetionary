@@ -160,7 +160,7 @@ Usage: Brit, informal
 // With short examples define "fiddly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە سەختە بکرێت یان بەکاربێت بەهۆی ئەوەی شتی بچووکی تێدایە"""),
+                            """١. (ھاوەڵناو) کە سەختە بکرێت یان بەکاربێت بەھۆی ئەوەی شتی بچووکی تێدایە"""),
                     SentencesRow(
                       englishText: """Zips are less fiddly than buttons.""",
                       kurdishText:

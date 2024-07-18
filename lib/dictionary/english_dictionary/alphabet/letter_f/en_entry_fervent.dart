@@ -158,12 +158,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەپەرۆش، بەتین، بەتاو، گەرم‌وگور، لەشەوق، لەجۆش، بەگوڕ، تامەزرۆ، گەرم‌وگوڕانە،	توندوتیژ، توند، بەهێز، سەخت
+کوردی: بەپەرۆش، بەتین، بەتاو، گەرم‌وگور، لەشەوق، لەجۆش، بەگوڕ، تامەزرۆ، گەرم‌وگوڕانە،	توندوتیژ، توند، بەھێز، سەخت
 """),
 // With short examples define "fervent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەبوونی هەستی بەهێز سەبارەت بە شتێک"""),
+                            """١. (ھاوەڵناو) ھەبوونی ھەستی بەھێز سەبارەت بە شتێک"""),
                     SentencesRow(
                       englishText:
                           """He was one of Franco's most fervent supporters.""",

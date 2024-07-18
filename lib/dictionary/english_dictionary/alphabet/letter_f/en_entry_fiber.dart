@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fiber (Derived forms: fibers)
+- Noun: fiber (derived forms: fibers)
 Usage: US (elsewhere: fibre)
 1. A slender and greatly elongated substance capable of being spun into yarn (= fibre [Brit, Cdn])
  
@@ -199,7 +199,7 @@ Usage: US (elsewhere: fibre)
 // With short examples define "fiber", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو بەشانەی خواردن کە جەستە بە تەندرووستی دەهێڵنەوە بەوەی کە یارمەتی کارکردنی ڕیخۆڵەکان دەدەن و خواردن بەخێرایی بە جەستەدا دەجوولێنن"""),
+                            """١. (ناو) ئەو بەشانەی خواردن کە جەستە بە تەندرووستی دەھێڵنەوە بەوەی کە یارمەتی کارکردنی ڕیخۆڵەکان دەدەن و خواردن بەخێرایی بە جەستەدا دەجوولێنن"""),
                     SentencesRow(
                       englishText:
                           """Dried fruits are especially high in fibre.""",
@@ -226,7 +226,7 @@ Usage: US (elsewhere: fibre)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کەرەستەی وەک جل یان حەبل کە لە ڕێژەیەکی زۆر لە دەزووی سرووشتی یان دەستکرد پێکهاتووە"""),
+                            """٢. (ناو) کەرەستەی وەک جل یان حەبل کە لە ڕێژەیەکی زۆر لە دەزووی سرووشتی یان دەستکرد پێکھاتووە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -239,7 +239,7 @@ Usage: US (elsewhere: fibre)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) یەکێک لە هێڵە باریکەکانی شانەی لەش، وەک ماسولکە، و مادە سرووشتییەکانی وەک دار و لۆکە"""),
+                            """٣. (ناو) یەکێک لە ھێڵە باریکەکانی شانەی لەش، وەک ماسولکە، و مادە سرووشتییەکانی وەک دار و لۆکە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

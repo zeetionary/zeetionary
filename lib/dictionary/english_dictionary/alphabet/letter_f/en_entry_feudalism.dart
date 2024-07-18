@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: feudalism (Derived forms: feudalisms)
+- Noun: feudalism (derived forms: feudalisms)
 1. The social system that developed in Europe in the 8th century; vassals were protected by lords who they had to serve in war (= feudal system)
 """,
   );
@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Land reform was the only way of ensuring an end to feudalism.""",
                       kurdishText:
-                          """چاکسازیی زەوی تەنها ڕێگا بوو بۆ دڵنیایی کردنەوە لە کۆتایی هاتنی دەرەبەگایەتی.""",
+                          """چاکسازیی زەوی تەنھا ڕێگا بوو بۆ دڵنیایی کردنەوە لە کۆتایی ھاتنی دەرەبەگایەتی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: figure (Derived forms: figures)
+- Noun: figure (derived forms: figures)
 1. A diagram or picture illustrating textual material (= fig)
 "the area covered can be seen from Figure 2";
  
@@ -88,7 +88,7 @@ ${englishMeaningConst.text}
 13. A predetermined set of movements in dancing or skating
 "she made the best score on compulsory figures"
 
-- Verb: figure (Derived forms: figuring, figures, figured)
+- Verb: figure (derived forms: figuring, figures, figured)
 1. Judge to be probable (= calculate, estimate, reckon, count on, forecast)
  
 2. Be or play a part of or in (= enter)
@@ -450,7 +450,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ڕەنووس، ژمارە، هێژمار،	بڕ (پارە)،	بایی، نرخ،	شێوە، بیچم،	کۆتەڵ، پەیکەر،	خوازە، فیگۆر، ڕاگوێست، خواستەمەنی،	خستنەڕوو، پیشان‌دان (مرۆڤ یان گیانەوەرێ)،	وێنە،	نیشانە، هێما، کینایە،	هێڵکاری، دیاگرام،	نەخش،	شێوەی ئەندازەیی،	قیافە، قەدوباڵا، بەژن‌وباڵا، هەیکەل، باڵا،	کەسایەتی،	مرۆ، بنیادم، پیاو، کابرا، کەس،	(سکی، یاری سەرسەهۆڵ و هتد) کار، جووڵە یان زنجیرە بزاوتێ،	(موسیقا) بڕگە، گۆشە،	(ویژە) هونەر، ژمێرە، حیساب
+کوردی: ڕەنووس، ژمارە، ھێژمار،	بڕ (پارە)،	بایی، نرخ،	شێوە، بیچم،	کۆتەڵ، پەیکەر،	خوازە، فیگۆر، ڕاگوێست، خواستەمەنی،	خستنەڕوو، پیشان‌دان (مرۆڤ یان گیانەوەرێ)،	وێنە،	نیشانە، ھێما، کینایە،	ھێڵکاری، دیاگرام،	نەخش،	شێوەی ئەندازەیی،	قیافە، قەدوباڵا، بەژن‌وباڵا، ھەیکەل، باڵا،	کەسایەتی،	مرۆ، بنیادم، پیاو، کابرا، کەس،	(سکی، یاری سەرسەھۆڵ و ھتد) کار، جووڵە یان زنجیرە بزاوتێ،	(موسیقا) بڕگە، گۆشە،	(ویژە) ھونەر، ژمێرە، حیساب
 """),
 // With short examples define "figure", please follow LX instructions
                     const DefinitionKurdish(
@@ -538,11 +538,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ئەو بەشەی بیرکاری کە مامەڵە لەگەڵ لێکدان، کۆکردنەوە، هتد ـی ژمارەکان دەکات"""),
+                            """٣. (ناو) ئەو بەشەی بیرکاری کە مامەڵە لەگەڵ لێکدان، کۆکردنەوە، ھتد ـی ژمارەکان دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Are you any good at figures?""",
-                      kurdishText: """هیچ باشیت لە هەژمارکردن؟""",
+                      kurdishText: """ھیچ باشیت لە ھەژمارکردن؟""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -550,7 +550,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """I'm afraid I don't have a head for figures (= I am not good at adding, etc.).""",
-                      kurdishText: """بداخەوەم سەرم دەرناچێت لە هەژمارکردن.""",
+                      kurdishText: """بداخەوەم سەرم دەرناچێت لە ھەژمارکردن.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -574,7 +574,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Several powerful political figures spoke out against him.""",
                               kurdishText:
-                                  """ژمارەیەک کەسایەتی سیاسی بەهێز  دژی قسەیان کرد.""",
+                                  """ژمارەیەک کەسایەتی سیاسی بەھێز  دژی قسەیان کرد.""",
                               onPressedBritish: () => speaksentence12("en-GB"),
                               onPressedAmerican: () => speaksentence12("en-US"),
                             ),
@@ -601,7 +601,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """She is interested in Jesus as a historical figure.""",
                               kurdishText:
-                                  """حەزی بە عیسای مەسیح هەیە وەک کەسایەتییەکی مێژووی.""",
+                                  """حەزی بە عیسای مەسیح ھەیە وەک کەسایەتییەکی مێژووی.""",
                               onPressedBritish: () => speaksentence15("en-GB"),
                               onPressedAmerican: () => speaksentence15("en-US"),
                             ),
@@ -634,11 +634,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (ناو) شێوەی جەستەی مرۆڤ، بەتایبەتی هی ژن کە بە جوان دادەنرێت"""),
+                            """٦. (ناو) شێوەی جەستەی مرۆڤ، بەتایبەتی ھی ژن کە بە جوان دادەنرێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """You have a really good figure.""",
-                      kurdishText: """بەژن‌وباڵایەکی تەواو باشی هەیە.""",
+                      kurdishText: """بەژن‌وباڵایەکی تەواو باشی ھەیە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -661,20 +661,20 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """You have a lovely figure.""",
-                      kurdishText: """قیافەیەکی جوانت هەیە.""",
+                      kurdishText: """قیافەیەکی جوانت ھەیە.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (ناو) کەسێک یان ئاژەڵێک لە وێنەیەک، تابلۆیەک، هتد یان لە چیرۆکیک"""),
+                            """٧. (ناو) کەسێک یان ئاژەڵێک لە وێنەیەک، تابلۆیەک، ھتد یان لە چیرۆکیک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The central figure in the painting is the artist's daughter.""",
                       kurdishText:
-                          """کەسی سەرەکی تابلۆکە کچی هونەرمەندەکەیە.""",
+                          """کەسی سەرەکی تابلۆکە کچی ھونەرمەندەکەیە.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -693,7 +693,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (ناو) وێنەیەک، هێڵکارییەک، هتد لە کتێبێکدا"""),
+                            """٩. (ناو) وێنەیەک، ھێڵکارییەک، ھتد لە کتێبێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -705,13 +705,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٠. (کردار) بوون بە بەشێک لە پڕۆسەیەک، دۆخێک، هتد، بەتایبەتی بەشێکی گرنگ"""),
+                            """١٠. (کردار) بوون بە بەشێک لە پڕۆسەیەک، دۆخێک، ھتد، بەتایبەتی بەشێکی گرنگ"""),
                     const AlsoEnglishckb(word: "ھەروەھا: feature"),
                     SentencesRow(
                       englishText:
                           """My feelings about the matter didn't seem to figure at all.""",
                       kurdishText:
-                          """هەستەکانم سەبارەت بە دۆخەکە هیچ دەرنەکەوت کە گرنگ بێت.""",
+                          """ھەستەکانم سەبارەت بە دۆخەکە ھیچ دەرنەکەوت کە گرنگ بێت.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
@@ -720,14 +720,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """The question of the peace settlement is likely to figure prominently in the talks.""",
                       kurdishText:
-                          """بابەتی ڕێککەوتنی ئاشتی ئەگەری هەیە بە زەقی دەربکەوێت لە گفتوگۆکان.""",
+                          """بابەتی ڕێککەوتنی ئاشتی ئەگەری ھەیە بە زەقی دەربکەوێت لە گفتوگۆکان.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Do I still figure in your plans?""",
-                      kurdishText: """هێشتا بەشێکم لە پلانەکانت؟""",
+                      kurdishText: """ھێشتا بەشێکم لە پلانەکانت؟""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
@@ -780,7 +780,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He tried to figure why she had come.""",
-                      kurdishText: """هەوڵی دا بزانێت بۆچی هاتووە.""",
+                      kurdishText: """ھەوڵی دا بزانێت بۆچی ھاتووە.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),

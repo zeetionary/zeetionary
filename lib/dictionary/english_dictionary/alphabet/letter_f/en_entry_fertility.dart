@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fertility (Derived forms: fertilities)
+- Noun: fertility (derived forms: fertilities)
 1. The ratio of live births in an area to the population of that area; expressed per 1000 population per year (= birthrate, birth rate, fertility rate, natality)
  
 2. The state of being fertile; capable of producing offspring (= fecundity)
@@ -159,12 +159,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: بەبڕشتی، بڕشت، بەبەری، بەبەرهەمی، بەپیتی، مایەداری، ئیروو، زۆربڕی، خورتی، زەنوێری، ئادانی،	داهێنەری، داهێنەرێتی، داهێنان،	بەزەوی، زایا
+کوردی: بەبڕشتی، بڕشت، بەبەری، بەبەرھەمی، بەپیتی، مایەداری، ئیروو، زۆربڕی، خورتی، زەنوێری، ئادانی،	داھێنەری، داھێنەرێتی، داھێنان،	بەزەوی، زایا
 """),
 // With short examples define "fertility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) تایبەتمەندیی زەوی کە بەرهەم باش تێیدا گەشە بکات"""),
+                            """١. (ناو) تایبەتمەندیی زەوی کە بەرھەم باش تێیدا گەشە بکات"""),
                     SentencesRow(
                       englishText:
                           """Improve the soil fertility by adding compost.""",
@@ -176,7 +176,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) توانای هەبوونی منداڵ، بێچوو، میوە، یان ڕووەکی نوێ"""),
+                            """٢. (ناو) توانای ھەبوونی منداڵ، بێچوو، میوە، یان ڕووەکی نوێ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

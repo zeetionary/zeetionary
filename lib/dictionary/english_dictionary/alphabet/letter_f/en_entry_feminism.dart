@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: feminism (Derived forms: feminisms)
+- Noun: feminism (derived forms: feminisms)
 1، A doctrine that advocates equal rights for women
  
 2. The movement aimed at equal rights for women (= feminist movement, women's liberation movement, women's lib [informal])
@@ -153,11 +153,11 @@ ${englishMeaningConst.text}
 // With short examples define "feminism", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو باوەڕەی کە ژنان هەمان هەل و مافی پیاوانیان هەبێت؛ هەوڵدان بۆ بەدەستهێنانی ئەمە"""),
+                            """١. (ناو) ئەو باوەڕەی کە ژنان ھەمان ھەل و مافی پیاوانیان ھەبێت؛ ھەوڵدان بۆ بەدەستھێنانی ئەمە"""),
                     SentencesRow(
                       englishText:
                           """She had a lifelong commitment to feminism.""",
-                      kurdishText: """تێکۆشانێکی زۆری بۆ فێمینیزم هەبوو.""",
+                      kurdishText: """تێکۆشانێکی زۆری بۆ فێمینیزم ھەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

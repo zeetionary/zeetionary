@@ -309,7 +309,7 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerSentences(),
           // SentencesRow(
           //   englishText: """A sense of fatality gripped her.""",
-          //   kurdishText: """رستە_رستە_رستە_رستە.""",
+          //   kurdishText: """رستە_رستە_رستە__رستە.""",
           //   onPressedBritish: () => speaksentence4("en-GB"),
           //   onPressedAmerican: () => speaksentence4("en-US"),
           // ),

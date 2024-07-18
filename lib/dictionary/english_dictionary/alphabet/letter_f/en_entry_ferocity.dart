@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ferocity (Derived forms: ferocities)
+- Noun: ferocity (derived forms: ferocities)
 1. The property of being wild or turbulent (= fierceness, furiousness, fury, vehemence, violence, wildness, vehemency)
 "the storm's ferocity";
 """,
@@ -155,7 +155,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دڕندەیی، هۆڤێتی، دڕێتی، دڕندەگەری، بێ‌بەزەیێتی، زەبروزەنگ، توندوتیژی،	کردەوەی توندوتیژانە، کردەوەی دڕندانە
+کوردی: دڕندەیی، ھۆڤێتی، دڕێتی، دڕندەگەری، بێ‌بەزەیێتی، زەبروزەنگ، توندوتیژی،	کردەوەی توندوتیژانە، کردەوەی دڕندانە
 """),
 // With short examples define "ferocity", please follow LX instructions
                     const DefinitionKurdish(
@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The police were shocked by the ferocity of the attack.""",
-                      kurdishText: """پۆلیس شۆک بوون بە دڕندەیی هێرشەکە.""",
+                      kurdishText: """پۆلیس شۆک بوون بە دڕندەیی ھێرشەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -171,7 +171,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The hurricane hit with terrible ferocity.""",
-                      kurdishText: """گەردەلوولەکە بە توندی زۆرەوە هات.""",
+                      kurdishText: """گەردەلوولەکە بە توندی زۆرەوە ھات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -155,7 +155,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کێوی، دڕ، هۆڤ، دڕندە، بۆهاتوو، پەلاماردەر، تێ‌ڕۆهاتوو، دڕندانە، بێ‌بەزەیی‌یانە،	توندوتیژ، توند، سەخت
+کوردی: کێوی، دڕ، ھۆڤ، دڕندە، بۆھاتوو، پەلاماردەر، تێ‌ڕۆھاتوو، دڕندانە، بێ‌بەزەیی‌یانە،	توندوتیژ، توند، سەخت
 """),
 // With short examples define "ferocious", please follow LX instructions
                     const DefinitionKurdish(
@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """She's got a ferocious (= very bad) temper.""",
-                      kurdishText: """مەجازێکی توندی هەبوو.""",
+                      kurdishText: """مەجازێکی توندی ھەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -171,7 +171,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The president came in for some ferocious criticism.""",
-                      kurdishText: """سەرۆک بۆ ڕەخنەی توند هات.""",
+                      kurdishText: """سەرۆک بۆ ڕەخنەی توند ھات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

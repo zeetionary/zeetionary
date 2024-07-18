@@ -153,12 +153,12 @@ Usage: US (elsewhere: fibreglass)
 // With short examples define "fiberglass", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) مادەیەکی سووکی بەهێز کە لە ڕیشاڵی شووشەیی و پلاستیک درووست دەکرێت و بەکاردێت بۆ درووستکردنی بەلەم، هتد"""),
+                            """١. (ناو) مادەیەکی سووکی بەھێز کە لە ڕیشاڵی شووشەیی و پلاستیک درووست دەکرێت و بەکاردێت بۆ درووستکردنی بەلەم، ھتد"""),
                     SentencesRow(
                       englishText:
                           """The hull of the ship is made of fibreglass-reinforced plastic.""",
                       kurdishText:
-                          """پەیکەری کەشتییەکە لە پلاستیکی بەهێزکراو بە فایبەرگڵاس درووستکراوە.""",
+                          """پەیکەری کەشتییەکە لە پلاستیکی بەھێزکراو بە فایبەرگڵاس درووستکراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Noun: fester
 1. A sore that has become inflamed and formed pus (= suppurating sore)
 
-- Verb: fester (= Derived forms: festering, festered, festers)
+- Verb: fester (= derived forms: festering, festered, festers)
 1. Ripen and generate pus (= maturate, suppurate)
 "her wounds are festering";
 """,
@@ -176,13 +176,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) کە بیرکردنەوە یان هەست خراپ ببێت چونکە بە سەرکەوتووی مامەڵەی لەگەڵ ناکەیت"""),
+                            """٢. (کردار) کە بیرکردنەوە یان ھەست خراپ ببێت چونکە بە سەرکەوتووی مامەڵەی لەگەڵ ناکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's better to express your anger than let it fester inside you.""",
                       kurdishText:
-                          """باشترە ڕقت دەرببڕیت وەک لەوەی بهێڵیت لە ناختدا ڕەگ دابکوتێت.""",
+                          """باشترە ڕقت دەرببڕیت وەک لەوەی بھێڵیت لە ناختدا ڕەگ دابکوتێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

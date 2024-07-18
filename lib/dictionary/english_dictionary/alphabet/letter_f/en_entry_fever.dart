@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fever (Derived forms: fevers)
+- Noun: fever (derived forms: fevers)
 1. A rise in the temperature of the body; frequently a symptom of infection (= febrility, febricity, pyrexia, feverishness)
  
 2. A state of nervous excitement
@@ -192,7 +192,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: تێ، تاوتێ، تا، نۆبەتی،	خرۆش، جۆش‌وخرۆش، تین‌وتاو، تاوتێ، تاووجۆش، ورووژان، ئارام‌لێ‌هەڵگیراوی، هەژان، کڵپەسەندن، شاگەشکەیی، هەڵچوون
+کوردی: تێ، تاوتێ، تا، نۆبەتی،	خرۆش، جۆش‌وخرۆش، تین‌وتاو، تاوتێ، تاووجۆش، ورووژان، ئارام‌لێ‌ھەڵگیراوی، ھەژان، کڵپەسەندن، شاگەشکەیی، ھەڵچوون
 """),
 // With short examples define "fever", please follow LX instructions
                     const DefinitionKurdish(
@@ -208,14 +208,14 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He has a high fever.""",
-                      kurdishText: """تایەکی بەرزی هەیە.""",
+                      kurdishText: """تایەکی بەرزی ھەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He was in bed with a fever.""",
-                      kurdishText: """لە جێگادا کەوت بوو بەهۆی تاوە.""",
+                      kurdishText: """لە جێگادا کەوت بوو بەھۆی تاوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -229,7 +229,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) نەخۆشییەک کە تێیدا کەسێک تایەکی بەرزی هەیە"""),
+                            """٢. (ناو) نەخۆشییەک کە تێیدا کەسێک تایەکی بەرزی ھەیە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -258,7 +258,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Election fever suddenly gripped the nation.""",
                       kurdishText:
-                          """تاووجۆشی هەڵبژاردن زوو باڵی بەسەر وڵاتەکەدا کێشا.""",
+                          """تاووجۆشی ھەڵبژاردن زوو باڵی بەسەر وڵاتەکەدا کێشا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: filth (Derived forms: filths)
+- Noun: filth (derived forms: filths)
 1. Any substance considered disgustingly foul or unpleasant (= crud [informal], skank [informal], scuzz [N. Amer, informal], grot [Brit, informal])
  
 2. Anything regarded as making something unclean (= dirt, grime, soil, stain, grease, grunge)
@@ -159,11 +159,11 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: پیسی، دژوێنی، چڵک، چەپەڵی، گەماری، ناخاوێنی، چڵکنی،	جنێو، قسەی ساردوسووک، قسەی هەرزانە،	ناشیرینی، ناحەزی، هەرزەیی
+کوردی: پیسی، دژوێنی، چڵک، چەپەڵی، گەماری، ناخاوێنی، چڵکنی،	جنێو، قسەی ساردوسووک، قسەی ھەرزانە،	ناشیرینی، ناحەزی، ھەرزەیی
 """),
 // With short examples define "filth", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) هەر مادەیەکی پیسی قێزەون"""),
+                        text: """١. (ناو) ھەر مادەیەکی پیسی قێزەون"""),
                     SentencesRow(
                       englishText: """The floor was covered in filth.""",
                       kurdishText: """زەوییەکە بە پیسی داپۆشرابوو.""",
@@ -173,11 +173,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ڤیدیۆ، گۆڤار، وێبسایت، هتد کە پەیوەندیدارن بە سێکس و بە زۆر بێ‌شەرمانە دادەنرێن"""),
+                            """٢. (ناو) ڤیدیۆ، گۆڤار، وێبسایت، ھتد کە پەیوەندیدارن بە سێکس و بە زۆر بێ‌شەرمانە دادەنرێن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How can you watch such filth?""",
-                      kurdishText: """چۆن سەیری ئەو هەرزەییە ئەکەیت؟""",
+                      kurdishText: """چۆن سەیری ئەو ھەرزەییە ئەکەیت؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fill (Derived forms: fills, filling, filled)
+- Verb: fill (derived forms: fills, filling, filled)
 1. Make full, also in a metaphorical sense (= fill up)
 "fill the child with pride"; "fill a container";
  
@@ -77,7 +77,7 @@ ${englishMeaningConst.text}
 9. Plug with a substance
 "fill a cavity"
 
-- Noun: fill (Derived forms: fills)
+- Noun: fill (derived forms: fills)
 1. A quantity sufficient to satisfy
 "he ate his fill of potatoes"; "she had heard her fill of gossip"
  
@@ -457,7 +457,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """A Disney film can always fill cinemas (= attract a lot of people to see it).""",
                               kurdishText:
-                                  """فیلمێکی سینەما هەمیشە دەکرێت سینەماکان پڕ بکات.""",
+                                  """فیلمێکی سینەما ھەمیشە دەکرێت سینەماکان پڕ بکات.""",
                               onPressedBritish: () => speaksentence5("en-GB"),
                               onPressedAmerican: () => speaksentence5("en-US"),
                             ),
@@ -517,7 +517,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """They used putty to fill the holes.""",
                       kurdishText:
-                          """مەعجوونیان بەکارهێنا بۆ پڕکردنەوەی کونەکان.""",
+                          """مەعجوونیان بەکارھێنا بۆ پڕکردنەوەی کونەکان.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -543,7 +543,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (کردار) واکردنی ئەوەی کە کەسێک هەستێکی بەهێزی هەبێت"""),
+                            """٤. (کردار) واکردنی ئەوەی کە کەسێک ھەستێکی بەھێزی ھەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """A deep joy filled me.""",
@@ -556,7 +556,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """We were all filled with admiration for his achievements.""",
                       kurdishText:
-                          """هەموومان پڕ لە ستایش بووین بۆ دەستکەوتەکانی.""",
+                          """ھەموومان پڕ لە ستایش بووین بۆ دەستکەوتەکانی.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -615,7 +615,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Choose the best word to fill the gap in each sentence.""",
                       kurdishText:
-                          """باشترین وشە هەڵبژێرە بۆ پڕکردنەوەی بۆشاییەکە لەهەر وشەیەک.""",
+                          """باشترین وشە ھەڵبژێرە بۆ پڕکردنەوەی بۆشاییەکە لەھەر وشەیەک.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -624,7 +624,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The product has filled a gap in the market.""",
                       kurdishText:
-                          """بەرهەمەکە بۆشاییەکی لە بازاڕ پڕکردووەتەوە.""",
+                          """بەرھەمەکە بۆشاییەکی لە بازاڕ پڕکردووەتەوە.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -633,7 +633,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She left a space in his life that nothing could fill.""",
                       kurdishText:
-                          """بۆشاییەکی لە ژیانی جێهێشت کە هیچ پڕی نەدەکردەوە.""",
+                          """بۆشاییەکی لە ژیانی جێھێشت کە ھیچ پڕی نەدەکردەوە.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
@@ -649,7 +649,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٨. (کردار) کردنی کارێک، هەبوونی ئەرکێک یان پێگەیەک، هتد"""),
+                            """٨. (کردار) کردنی کارێک، ھەبوونی ئەرکێک یان پێگەیەک، ھتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -670,7 +670,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٩. (کردار) هەڵبژاردنی کەسێک بۆ کارێک"""),
+                        text: """٩. (کردار) ھەڵبژاردنی کەسێک بۆ کارێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The vacancy has already been filled.""",
@@ -681,7 +681,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٠. (کردار) بەکارهێنانی کاتێک بۆ کردنی شتێک"""),
+                            """١٠. (کردار) بەکارھێنانی کاتێک بۆ کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -705,14 +705,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """I have plenty to fill up my leisure hours.""",
                       kurdishText:
-                          """زۆر شتم هەبوو بۆ پڕکردنەوەی کاتی بەتاڵم.""",
+                          """زۆر شتم ھەبوو بۆ پڕکردنەوەی کاتی بەتاڵم.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٢. (کردار) تێرخواردن بەشێوەیەک ئیتر نەتوانیت هیچ بخۆیت"""),
+                            """١٢. (کردار) تێرخواردن بەشێوەیەک ئیتر نەتوانیت ھیچ بخۆیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -725,19 +725,19 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٣. (ناو) بەو هێندەیەی کە ئامادەیت پەسەندی بکەیت"""),
+                            """١٣. (ناو) بەو ھێندەیەی کە ئامادەیت پەسەندی بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I've had my fill of entertaining for one week.""",
                       kurdishText:
-                          """بەشی پێویست بۆ هەفتەیەک خۆشیم وەرگرتووە.""",
+                          """بەشی پێویست بۆ ھەفتەیەک خۆشیم وەرگرتووە.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """١٤. (ناو) هەتا بتوانیت بخۆیت"""),
+                        text: """١٤. (ناو) ھەتا بتوانیت بخۆیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

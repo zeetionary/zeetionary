@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: fiftieth
 1. The ordinal number of fifty in counting order (= 50th)
 
-- Noun: fiftieth (Derived forms: fiftieths)
+- Noun: fiftieth (derived forms: fiftieths)
 1. Position 50 in a countable series of things
 """,
   );
@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """She celebrated her fiftieth birthday.""",
                       kurdishText:
-                          """ئاهەنگی پەنجایەمین ساڵیادی لەدایکبوونی گێڕا.""",
+                          """ئاھەنگی پەنجایەمین ساڵیادی لەدایکبوونی گێڕا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

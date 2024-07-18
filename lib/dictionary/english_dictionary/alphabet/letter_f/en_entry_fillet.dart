@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fillet (Derived forms: fillets)
+- Noun: fillet (derived forms: fillets)
 1. A boneless steak cut from the tenderloin of beef (= filet)
  
 2. A longitudinal slice or boned side of a fish (= filet, fish fillet, fish filet)
@@ -62,7 +62,7 @@ ${englishMeaningConst.text}
  
 5. Fastener consisting of a narrow strip of welded metal used to join steel members (= stopping)
 
-- Verb: fillet (Derived forms: fillets, filleted, filleting)
+- Verb: fillet (derived forms: fillets, filleted, filleting)
 1. Decorate with a lace of geometric designs (= filet)
  
 2. (cooking) cut into filets (= filet)
@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پارچە گۆشت یان ماسییەک کە هیچ ئێسکی تێدا نییە"""),
+                            """١. (ناو) پارچە گۆشت یان ماسییەک کە ھیچ ئێسکی تێدا نییە"""),
                     SentencesRow(
                       englishText:
                           """The chef prepared a beef fillet for the guests.""",

@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fermentation (Derived forms: fermentations)
+- Noun: fermentation (derived forms: fermentations)
 1. A state of agitation or turbulent change or development (= agitation, ferment, tempestuousness, unrest)
 "the political fermentation produced new leadership";
  
@@ -150,7 +150,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ترشاندن، ترشان، هەڵهاتن
+کوردی: ترشاندن، ترشان، ھەڵھاتن
 """),
 // With short examples define "fermentation", please follow LX instructions
                     const DefinitionKurdish(
@@ -158,7 +158,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) پڕۆسەی گۆڕانی کیمیای کە بە خومرە یان بەکتریا ڕوودەدات"""),
                     SentencesRow(
                       englishText: """Fermentation takes about 48 hours.""",
-                      kurdishText: """هەڵهاتن ٤٨ کاتژمێری دەوێت.""",
+                      kurdishText: """ھەڵھاتن ٤٨ کاتژمێری دەوێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

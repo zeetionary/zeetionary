@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: festivity (Derived forms: festivities)
+- Noun: festivity (derived forms: festivities)
 1. Any joyous diversion (= celebration)
 """,
   );
@@ -155,30 +155,30 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: سووران، سوور، ئاهەنگ، بەزم‌وڕەزم، شایی، تۆی
+کوردی: سووران، سوور، ئاھەنگ، بەزم‌وڕەزم، شایی، تۆی
 """),
 // With short examples define "festivity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو چالاکییانەی کە ڕێکخراون بۆ ئاهەنگ گێڕانی بۆنەیەکی تایبەت"""),
+                            """١. (ناو) ئەو چالاکییانەی کە ڕێکخراون بۆ ئاھەنگ گێڕانی بۆنەیەکی تایبەت"""),
                     SentencesRow(
                       englishText:
                           """A number of celebrities will be flying in to take part in the festivities.""",
                       kurdishText:
-                          """ژمارەیەک لە کەسانی بەناوبانگ دەفڕنە ئێرە بۆ ئاهەنگگێڕانەکان.""",
+                          """ژمارەیەک لە کەسانی بەناوبانگ دەفڕنە ئێرە بۆ ئاھەنگگێڕانەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) خۆشی و شادی کە بوونی هەیە کاتێک خەڵکی ئاهەنگ بۆ شتێک دەگێڕن"""),
+                            """٢. (ناو) خۆشی و شادی کە بوونی ھەیە کاتێک خەڵکی ئاھەنگ بۆ شتێک دەگێڕن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The wedding was an occasion of great festivity.""",
                       kurdishText:
-                          """ئاهەنگە هاوسەرگیرییەکە بۆنەیەکی خۆشی و شادی زۆر بوو.""",
+                          """ئاھەنگە ھاوسەرگیرییەکە بۆنەیەکی خۆشی و شادی زۆر بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

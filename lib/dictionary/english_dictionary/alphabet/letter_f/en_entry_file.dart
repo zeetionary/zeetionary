@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: file (Derived forms: filed, files, filing)
+- Verb: file (derived forms: filed, files, filing)
 1. (law) record in a public office or in a court of law (= register)
 "file a complaint"; "file for divorce";
  
@@ -67,7 +67,7 @@ ${englishMeaningConst.text}
 5. Place in a container for keeping records (= file away)
 "File these bills, please"; "file away these bills, please";
 
-- Noun: file (Derived forms: files)
+- Noun: file (derived forms: files)
 1. A set of related records (either written or electronic) kept together (= data file)
  
 2. A line of persons or things ranged one behind the other (= single file, Indian file)
@@ -338,7 +338,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "file", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) شتێک کە کاغەزی تێدا هەڵدەگریت"""),
+                        text: """١. (ناو) شتێک کە کاغەزی تێدا ھەڵدەگریت"""),
                     SentencesRow(
                       englishText: """A stack of files were on my desk.""",
                       kurdishText: """ژمارەیەک فایل لەسەر مێزەکەم بوون.""",
@@ -357,7 +357,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She went to the filing cabinet and took out a file.""",
                       kurdishText:
-                          """چووە کابینەی فایل هەڵگرتنەکە و فایلێکی دەرکرد.""",
+                          """چووە کابینەی فایل ھەڵگرتنەکە و فایلێکی دەرکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -375,14 +375,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """Previously all reports were held in paper files.""",
                       kurdishText:
-                          """پێشووتر هەموو ڕاپۆرتەکان لە فایلی کاغەزیدا هەڵدەگیران.""",
+                          """پێشووتر ھەموو ڕاپۆرتەکان لە فایلی کاغەزیدا ھەڵدەگیران.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ژمارەیەک زانیاری کە لە کۆمپیوتەرێکدا هەڵدەگیرێن"""),
+                            """٢. (ناو) ژمارەیەک زانیاری کە لە کۆمپیوتەرێکدا ھەڵدەگیرێن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -397,7 +397,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Every file on the same disk must have a different name.""",
                       kurdishText:
-                          """هەموو فایلەکانی سەر هەمان دیسک دەبیت ناوێکی جیاوازیان هەبێت.""",
+                          """ھەموو فایلەکانی سەر ھەمان دیسک دەبیت ناوێکی جیاوازیان ھەبێت.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -406,7 +406,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """This feature lets you upload video files to the app.""",
                       kurdishText:
-                          """ئەم تایبەتمەندییە دەهێڵێت فایلی ڤیدیۆیی بخەیتە ئەپەکەوە.""",
+                          """ئەم تایبەتمەندییە دەھێڵێت فایلی ڤیدیۆیی بخەیتە ئەپەکەوە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -455,7 +455,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The company keeps secret files on all its employees.""",
                       kurdishText:
-                          """کۆمپانیاکە زانیاریی نهێنی لەسەر هەموو کارمەندەکانی هەڵدەگرێت.""",
+                          """کۆمپانیاکە زانیاریی نھێنی لەسەر ھەموو کارمەندەکانی ھەڵدەگرێت.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -464,7 +464,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They had it on file that he'd applied for a loan.""",
                       kurdishText:
-                          """بە زانیاری فایل هەیان بوو کە داوای قەرزی کردووە.""",
+                          """بە زانیاری فایل ھەیان بوو کە داوای قەرزی کردووە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -484,12 +484,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (ناو) مادەیەکی کانزایی کە ڕوویەکی زبری هەیە و بەکاردێت بۆ بڕین یان پێدانی شێوە بە مادەی سەخت یان لووسکردنیان"""),
+                            """٥. (ناو) مادەیەکی کانزایی کە ڕوویەکی زبری ھەیە و بەکاردێت بۆ بڕین یان پێدانی شێوە بە مادەی سەخت یان لووسکردنیان"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Use a file to smooth the edge.""",
                       kurdishText:
-                          """بڕبەندێک بەکاربهێنە بۆ لووسکردنی قەراغەکە.""",
+                          """بڕبەندێک بەکاربھێنە بۆ لووسکردنی قەراغەکە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -508,12 +508,12 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (کردار) هەڵگرتنی بەڵگەنامە لە شوێنێکی دیاریکراو و بە ڕیزبەندییەکی دیاریکراو بۆ ئەوەی بە ئاسانی بیان دۆزیتەوە"""),
+                            """٧. (کردار) ھەڵگرتنی بەڵگەنامە لە شوێنێکی دیاریکراو و بە ڕیزبەندییەکی دیاریکراو بۆ ئەوەی بە ئاسانی بیان دۆزیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The forms should be filed alphabetically.""",
-                      kurdishText: """فۆرمەکان بە ئەلف‌وبێ هەڵدەگیرێن.""",
+                      kurdishText: """فۆرمەکان بە ئەلف‌وبێ ھەڵدەگیرێن.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -533,7 +533,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """No criminal charges were filed against him.""",
                       kurdishText:
-                          """هیچ تۆمەتێکی تاوانکاری دژی تۆمار نەکرا.""",
+                          """ھیچ تۆمەتێکی تاوانکاری دژی تۆمار نەکرا.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),

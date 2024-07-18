@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fiddle (Derived forms: fiddles)
+- Noun: fiddle (derived forms: fiddles)
 1. A violin used to play folk music
  
 2. [informal] Bowed stringed instrument that is the highest member of the violin family; this  instrument has four strings and a hollow body and an unfretted fingerboard and is played with a bow (= violin)
@@ -61,7 +61,7 @@ ${englishMeaningConst.text}
  
 4. [Brit, informal] Something awkward to do or use, requiring a degree of manual dexterity
 
-- Verb: fiddle (Derived forms: fiddling, fiddled, fiddles)
+- Verb: fiddle (derived forms: fiddling, fiddled, fiddles)
 1. Manipulate manually or in one's mind or imagination (= toy, diddle [informal], play)
 "Don't fiddle with the screws";
  
@@ -212,7 +212,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) گۆڕینی وردەکاری یان ئامارەکانی شتێک بۆ بەدەستهێنانی پارە بە بە فێڵبازی یان سوودێک بەدەست بهێنیت"""),
+                            """٢. (کردار) گۆڕینی وردەکاری یان ئامارەکانی شتێک بۆ بەدەستھێنانی پارە بە بە فێڵبازی یان سوودێک بەدەست بھێنیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -238,7 +238,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Everyone suspected they were on the fiddle (= cheating).""",
-                      kurdishText: """هەموان گومانیان هەبوو کە فێڵیان دەکرد.""",
+                      kurdishText: """ھەموان گومانیان ھەبوو کە فێڵیان دەکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

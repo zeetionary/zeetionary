@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: filthy (Derived forms: filthiest, filthier)
+- Adjective: filthy (derived forms: filthiest, filthier)
 1. Disgustingly dirty; filled or smeared with offensive matter (= foul, nasty, cruddy [informal])
 "as filthy as a pigsty";
  
@@ -196,7 +196,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: پیس، چڵکن، چەپەڵ، دژوێن، گواوی،	ناشیرین، ناحەز، هەرزانە،	یەکجار، لەڕادەبەدەر
+کوردی: پیس، چڵکن، چەپەڵ، دژوێن، گواوی،	ناشیرین، ناحەز، ھەرزانە،	یەکجار، لەڕادەبەدەر
 """),
 // With short examples define "filthy", please follow LX instructions
                     const DefinitionKurdish(
@@ -212,7 +212,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Why are the streets so filthy in this part of the city?""",
                       kurdishText:
-                          """بۆچی شەقامەکان هێندە پیسن لەم بەشەی شار؟""",
+                          """بۆچی شەقامەکان ھێندە پیسن لەم بەشەی شار؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -224,7 +224,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He's got a filthy mind (= is always thinking about sex).""",
-                      kurdishText: """مێشکێکی پیسی هەیە.""",
+                      kurdishText: """مێشکێکی پیسی ھەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

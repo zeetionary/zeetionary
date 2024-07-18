@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: festival (Derived forms: festivals)
+- Noun: festival (derived forms: festivals)
 1. A day or period of time set aside for feasting and celebration
  
 2. An organized series of acts and performances (usually in one place) (= fete, fête)
@@ -179,12 +179,12 @@ ${englishMeaningConst.text}
 // With short examples define "festival", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ژمارەیەک نمایشی میوزیکی، شانۆ، فیلم، هتد کە زۆرجار ساڵی جارێک لە هەمان شوێن ڕێکدەخرێت"""),
+                            """١. (ناو) ژمارەیەک نمایشی میوزیکی، شانۆ، فیلم، ھتد کە زۆرجار ساڵی جارێک لە ھەمان شوێن ڕێکدەخرێت"""),
                     SentencesRow(
                       englishText:
                           """The pub is holding its annual beer festival later this week.""",
                       kurdishText:
-                          """مەیخانەکە لە ماوەی دواتری ئەم هەفتە فیستیڤاڵی ساڵانەی بیرە ڕێکدەخات.""",
+                          """مەیخانەکە لە ماوەی دواتری ئەم ھەفتە فیستیڤاڵی ساڵانەی بیرە ڕێکدەخات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -193,7 +193,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The festival attracts thousands of visitors every year.""",
                       kurdishText:
-                          """فیستیڤاڵەکە ساڵانە هەزاران سەردانکار لەخۆدەگرێت.""",
+                          """فیستیڤاڵەکە ساڵانە ھەزاران سەردانکار لەخۆدەگرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -209,13 +209,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ڕۆژێک یان کاتێکی ساڵ کە خەڵکی لە کارکردن دەوەستن بۆ ئاهەنگگێڕانی بۆنەیەک، زۆرجار بۆنەیەکی ئایینی"""),
+                            """٢. (ناو) ڕۆژێک یان کاتێکی ساڵ کە خەڵکی لە کارکردن دەوەستن بۆ ئاھەنگگێڕانی بۆنەیەک، زۆرجار بۆنەیەکی ئایینی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The family always celebrates the Jewish festivals.""",
                       kurdishText:
-                          """خێزانەکە هەمیشە ئاهەنگی بۆنە جووەکان دەگێڕێت.""",
+                          """خێزانەکە ھەمیشە ئاھەنگی بۆنە جووەکان دەگێڕێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

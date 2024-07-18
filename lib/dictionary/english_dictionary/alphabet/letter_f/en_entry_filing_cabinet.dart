@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: filing cabinet (Derived forms: filing cabinets)
+- Noun: filing cabinet (derived forms: filing cabinets)
 1. Office furniture consisting of a container for keeping papers in order (= file, file cabinet [US])
 """,
   );
@@ -153,12 +153,12 @@ ${englishMeaningConst.text}
 // With short examples define "filing cabinet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) شوێنێکی گەورە کە بۆ هەڵگرتنی فایل بەکاردێت"""),
+                            """١. (ناو) شوێنێکی گەورە کە بۆ ھەڵگرتنی فایل بەکاردێت"""),
                     SentencesRow(
                       englishText:
                           """She went to the filing cabinet behind her desk and took out a folder.""",
                       kurdishText:
-                          """چووە کابینەی فایلەکەی پشت مێزەکەی و فۆڵدەرێکی دەرهێنا.""",
+                          """چووە کابینەی فایلەکەی پشت مێزەکەی و فۆڵدەرێکی دەرھێنا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

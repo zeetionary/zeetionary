@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fight (Derived forms: fights, fought, fighting)
+- Verb: fight (derived forms: fights, fought, fighting)
 1. Be engaged in a physical struggle, by hand or using weapons (= struggle)
 "the tribesmen fought each other"; "Siblings are always fighting";
  
@@ -64,7 +64,7 @@ ${englishMeaningConst.text}
 4. Exert oneself continuously, vigorously, or obtrusively to gain an end or engage in a crusade for a certain cause or person; be an advocate for (= crusade, press, campaign, push, agitate)
 "She is fighting for women's rights";
 
-- Noun: fight (Derived forms: fights)
+- Noun: fight (derived forms: fights)
 1. The act of fighting; any contest or struggle (= fighting, combat, scrap)
 "a fight broke out at the hockey game";
  
@@ -666,7 +666,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """My little brothers are always fighting.""",
-                      kurdishText: """برا بچووکەکانم هەمیشە شەڕیانە.""",
+                      kurdishText: """برا بچووکەکانم ھەمیشە شەڕیانە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -683,7 +683,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She fought her attacker, eventually forcing him to flee.""",
                       kurdishText:
-                          """دژ بە هێرشکارەکەی شەڕی کرد و لەکۆتاییدا ناچاری کرد هەڵبێت.""",
+                          """دژ بە ھێرشکارەکەی شەڕی کرد و لەکۆتاییدا ناچاری کرد ھەڵبێت.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -707,7 +707,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) هەبوونی مشتومڕێک"""),
+                        text: """٣. (کردار) ھەبوونی مشتومڕێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -747,7 +747,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (کردار) هەوڵدانی زۆر بۆ وەستاندن، مامەڵەکردن لەگەڵ، یان وەستانە دژی شتێک کە ناڕازیت پێی"""),
+                            """٤. (کردار) ھەوڵدانی زۆر بۆ وەستاندن، مامەڵەکردن لەگەڵ، یان وەستانە دژی شتێک کە ناڕازیت پێی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -765,7 +765,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """She fought bravely, but died of the disease.""",
                               kurdishText:
-                                  """بوێرانە هەوڵی دا، بەڵام بە نەخۆشییەکە گیانی لەدەستدا.""",
+                                  """بوێرانە ھەوڵی دا، بەڵام بە نەخۆشییەکە گیانی لەدەستدا.""",
                               onPressedBritish: () => speaksentence17("en-GB"),
                               onPressedAmerican: () => speaksentence17("en-US"),
                             ),
@@ -792,7 +792,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The fire crews had problems fighting the blaze.""",
                               kurdishText:
-                                  """تیمی ئاگرکوژێنەرەوە کێشەیان هەبوو لە وەستانەوە دژ بە ئاگرەکە.""",
+                                  """تیمی ئاگرکوژێنەرەوە کێشەیان ھەبوو لە وەستانەوە دژ بە ئاگرەکە.""",
                               onPressedBritish: () => speaksentence20("en-GB"),
                               onPressedAmerican: () => speaksentence20("en-US"),
                             ),
@@ -819,7 +819,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """She spent her life fighting for the poor.""",
                               kurdishText:
-                                  """ژیانی بەسەر برد بە هەوڵدان بۆ هەژاران.""",
+                                  """ژیانی بەسەر برد بە ھەوڵدان بۆ ھەژاران.""",
                               onPressedBritish: () => speaksentence23("en-GB"),
                               onPressedAmerican: () => speaksentence23("en-US"),
                             ),
@@ -848,13 +848,13 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) هەوڵدانی زۆر بۆ کردن یان بەدەستهێنانی شتێک"""),
+                            """٥. (کردار) ھەوڵدانی زۆر بۆ کردن یان بەدەستھێنانی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We fought for years before we got the recognition we deserved.""",
                       kurdishText:
-                          """چەندین ساڵ هەوڵمان دا پێش ئەوەی ئەو ناسراوییە بەدەست بهێنین کە شایەنی بووین.""",
+                          """چەندین ساڵ ھەوڵمان دا پێش ئەوەی ئەو ناسراوییە بەدەست بھێنین کە شایەنی بووین.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
@@ -874,7 +874,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """He's still fighting for compensation after the accident.""",
                               kurdishText:
-                                  """هێشتا بۆ قەرەبووکردنەوە دەجەنگێت لە دوای ڕووداوەکە.""",
+                                  """ھێشتا بۆ قەرەبووکردنەوە دەجەنگێت لە دوای ڕووداوەکە.""",
                               onPressedBritish: () => speaksentence28("en-GB"),
                               onPressedAmerican: () => speaksentence28("en-US"),
                             ),
@@ -901,7 +901,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """We will never give up fighting for justice.""",
                               kurdishText:
-                                  """هەرگیز ناوەستین لە جەنگان بۆ دادپەروەری.""",
+                                  """ھەرگیز ناوەستین لە جەنگان بۆ دادپەروەری.""",
                               onPressedBritish: () => speaksentence31("en-GB"),
                               onPressedAmerican: () => speaksentence31("en-US"),
                             ),
@@ -910,7 +910,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """He fought tirelessly for the abolition of slavery.""",
                               kurdishText:
-                                  """ماندوونەناسانە دەجەنگا بۆ نەهێشتنی کۆیلایەتی.""",
+                                  """ماندوونەناسانە دەجەنگا بۆ نەھێشتنی کۆیلایەتی.""",
                               onPressedBritish: () => speaksentence32("en-GB"),
                               onPressedAmerican: () => speaksentence32("en-US"),
                             ),
@@ -927,7 +927,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """She fought desperately to suppress her laughter.""",
                               kurdishText:
-                                  """بێهوودە هەوڵی دا بۆ دامرکاندنەوەی پێکەنینەکەی.""",
+                                  """بێھوودە ھەوڵی دا بۆ دامرکاندنەوەی پێکەنینەکەی.""",
                               onPressedBritish: () => speaksentence34("en-GB"),
                               onPressedAmerican: () => speaksentence34("en-US"),
                             ),
@@ -952,7 +952,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There are twelve parties fighting the election.""",
                       kurdishText:
-                          """دوازدە پارت ڕکابەری لە هەڵبژاردنەکە دەکەن.""",
+                          """دوازدە پارت ڕکابەری لە ھەڵبژاردنەکە دەکەن.""",
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
@@ -963,14 +963,14 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Doctors fear he may never fight again.""",
                       kurdishText:
-                          """پزیشکان لەوە دەترسن کە هەرگیز نەتوانێت شەڕ بکات.""",
+                          """پزیشکان لەوە دەترسن کە ھەرگیز نەتوانێت شەڕ بکات.""",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٨. (کردار) هەوڵدان بۆ بەدەستهێنانی ئەوەی کە دەتەوێت لە دادگا"""),
+                            """٨. (کردار) ھەوڵدان بۆ بەدەستھێنانی ئەوەی کە دەتەوێت لە دادگا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -997,7 +997,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """A fight broke out between rival groups of fans.""",
                       kurdishText:
-                          """شەڕێک لە نێوان گرووپە هەوادارە دژبەرەکاندا ڕوویدا.""",
+                          """شەڕێک لە نێوان گرووپە ھەوادارە دژبەرەکاندا ڕوویدا.""",
                       onPressedBritish: () => speaksentence40("en-GB"),
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
@@ -1008,7 +1008,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText:
                                   """Don't get into any more fights!""",
-                              kurdishText: """تێوە مەگلێ لە هیچ شەڕێکی دیکە!""",
+                              kurdishText: """تێوە مەگلێ لە ھیچ شەڕێکی دیکە!""",
                               onPressedBritish: () => speaksentence41("en-GB"),
                               onPressedAmerican: () => speaksentence41("en-US"),
                             ),
@@ -1024,7 +1024,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """He tried to pick a fight with me.""",
                               kurdishText:
-                                  """هەوڵی دا شەڕێکم لەگەڵ دەست پێبکات.""",
+                                  """ھەوڵی دا شەڕێکم لەگەڵ دەست پێبکات.""",
                               onPressedBritish: () => speaksentence43("en-GB"),
                               onPressedAmerican: () => speaksentence43("en-US"),
                             ),
@@ -1041,7 +1041,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """The fight was broken up by a teacher.""",
                               kurdishText:
-                                  """شەڕەکە لەلایەن مامۆستایەکە کۆتایی پێهێندرا.""",
+                                  """شەڕەکە لەلایەن مامۆستایەکە کۆتایی پێھێندرا.""",
                               onPressedBritish: () => speaksentence45("en-GB"),
                               onPressedAmerican: () => speaksentence45("en-US"),
                             ),
@@ -1062,7 +1062,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He is unbeaten in 34 fights.""",
-                      kurdishText: """لە ٣٤ یاریدا شکستی نەهێناوە.""",
+                      kurdishText: """لە ٣٤ یاریدا شکستی نەھێناوە.""",
                       onPressedBritish: () => speaksentence47("en-GB"),
                       onPressedAmerican: () => speaksentence47("en-US"),
                     ),
@@ -1074,7 +1074,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Paul and I had this terrible fight last night.""",
                       kurdishText:
-                          """من و پاوڵ دوێنی شەو مشتومڕێکی توندمان هەبوو.""",
+                          """من و پاوڵ دوێنی شەو مشتومڕێکی توندمان ھەبوو.""",
                       onPressedBritish: () => speaksentence48("en-GB"),
                       onPressedAmerican: () => speaksentence48("en-US"),
                     ),
@@ -1095,7 +1095,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٢. (ناو) لەناوبردن، ڕێگرتن، یان بەدەستهێننای شتێک"""),
+                            """١٢. (ناو) لەناوبردن، ڕێگرتن، یان بەدەستھێننای شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1122,7 +1122,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """Are we losing the fight against illegal drugs?""",
                               kurdishText:
-                                  """ئایا جەنگی دژ بە مادەی هۆشبەر دەدۆڕێنین؟""",
+                                  """ئایا جەنگی دژ بە مادەی ھۆشبەر دەدۆڕێنین؟""",
                               onPressedBritish: () => speaksentence53("en-GB"),
                               onPressedAmerican: () => speaksentence53("en-US"),
                             ),
@@ -1140,7 +1140,7 @@ ${englishMeaningConst.text}
                               englishText:
                                   """She said they would continue their fight to find a cure for AIDS.""",
                               kurdishText:
-                                  """گوتی بەردەوامی بە هەوڵەکانیان دەدەن بۆ دۆزینەوەی چارەسەرێک بۆ ئایدز.""",
+                                  """گوتی بەردەوامی بە ھەوڵەکانیان دەدەن بۆ دۆزینەوەی چارەسەرێک بۆ ئایدز.""",
                               onPressedBritish: () => speaksentence55("en-GB"),
                               onPressedAmerican: () => speaksentence55("en-US"),
                             ),
@@ -1148,7 +1148,7 @@ ${englishMeaningConst.text}
                             SentencesRow(
                               englishText: """The fight for justice goes on.""",
                               kurdishText:
-                                  """هەوڵدان بۆ دادپەروەری بەردەوامە.""",
+                                  """ھەوڵدان بۆ دادپەروەری بەردەوامە.""",
                               onPressedBritish: () => speaksentence56("en-GB"),
                               onPressedAmerican: () => speaksentence56("en-US"),
                             ),
@@ -1173,7 +1173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She now has a fight on her hands (= will have to play very well) to make it through to the next round.""",
                       kurdishText:
-                          """ئێستا ڕکابەرییەکی لە پێشە بۆ چوونە قۆناغی داهاتوو.""",
+                          """ئێستا ڕکابەرییەکی لە پێشە بۆ چوونە قۆناغی داھاتوو.""",
                       onPressedBritish: () => speaksentence58("en-GB"),
                       onPressedAmerican: () => speaksentence58("en-US"),
                     ),

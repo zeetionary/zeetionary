@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fervour (Derived forms: fervours)
+- Noun: fervour (derived forms: fervours)
 Usage: Brit, Cdn (US: fervor)
 1. Feelings of great warmth and intensity (= ardor [US], ardour [Brit, Cdn], fervor [US], fervency, fire, fervidness)
 "he spoke with great fervour";
@@ -163,7 +163,7 @@ Usage: Brit, Cdn (US: fervor)
 """),
 // With short examples define "fervour", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) هەستی زۆر بەهێز سەبارەت بە شتێک"""),
+                        text: """١. (ناو) ھەستی زۆر بەھێز سەبارەت بە شتێک"""),
                     SentencesRow(
                       englishText: """She kissed him with unusual fervour.""",
                       kurdishText: """بە تامەزرۆۆ زۆرەوە ماچی کرد.""",

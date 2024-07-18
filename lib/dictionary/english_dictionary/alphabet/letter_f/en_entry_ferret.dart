@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: ferret (Derived forms: ferrets)
+- Noun: ferret (derived forms: ferrets)
 1. Musteline mammal of prairie regions of United States; nearly extinct (= black-footed ferret, Mustela nigripes)
  
 2. Domesticated albino variety of the European polecat bred for hunting rats and rabbits
 
-- Verb: ferret (Derived forms: ferreted, ferrets, ferreting)
+- Verb: ferret (derived forms: ferreted, ferrets, ferreting)
 1. Hound or harry relentlessly
  
 2. Hunt with ferrets
@@ -168,11 +168,11 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئاژەڵێکی توندوتیژ کە جەستەیەکی باریکی درێژی هەیە، زۆرجار لە ماڵ بەخێو دەکرێت بۆ کوشتنی مشک و جرج"""),
+                            """١. (ناو) ئاژەڵێکی توندوتیژ کە جەستەیەکی باریکی درێژی ھەیە، زۆرجار لە ماڵ بەخێو دەکرێت بۆ کوشتنی مشک و جرج"""),
                     SentencesRow(
                       englishText:
                           """The ferret explored every corner of the room.""",
-                      kurdishText: """مشکەخۆرەکە هەر سووچێکی ژوورەکە دەگەڕا.""",
+                      kurdishText: """مشکەخۆرەکە ھەر سووچێکی ژوورەکە دەگەڕا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

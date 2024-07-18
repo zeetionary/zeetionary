@@ -217,7 +217,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: تووڕە، توندوتیژ، ڕق‌هەستاو، بێ‌بەزەیی، دڕ، دڕندە، بۆهاتوو، یانی‌گر، هار، هۆڤ،	توند، سەخت، گەرم قورس، بێ‌ئەمان، بەهێز،	بێ‌ڕەحم، بێ‌بەزەیی، زۆردار
+کوردی: تووڕە، توندوتیژ، ڕق‌ھەستاو، بێ‌بەزەیی، دڕ، دڕندە، بۆھاتوو، یانی‌گر، ھار، ھۆڤ،	توند، سەخت، گەرم قورس، بێ‌ئەمان، بەھێز،	بێ‌ڕەحم، بێ‌بەزەیی، زۆردار
 """),
 // With short examples define "fierce", please follow LX instructions
                     const DefinitionKurdish(
@@ -241,19 +241,19 @@ ${englishMeaningConst.text}
                       englishText:
                           """The more she struggled, the fiercer he became.""",
                       kurdishText:
-                          """چەند زیاتر تەقەڵای بوو زیاتر ڕق‌هەستاو دەبوو.""",
+                          """چەند زیاتر تەقەڵای بوو زیاتر ڕق‌ھەستاو دەبوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) پیشاندانی هەستی بەهێز یان چالاکیی زۆر"""),
+                            """٢. (ھاوەڵناو) پیشاندانی ھەستی بەھێز یان چالاکیی زۆر"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He launched a fierce attack on the Democrats.""",
-                      kurdishText: """هێرشێکی توندی کردە سەر دیموکراتەکان.""",
+                      kurdishText: """ھێرشێکی توندی کردە سەر دیموکراتەکان.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -284,13 +284,13 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (ھاوەڵناو) کەشوهەوایەکی زۆر توند"""),
+                        text: """٣. (ھاوەڵناو) کەشوھەوایەکی زۆر توند"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fierce winds prevented the race from taking place.""",
                       kurdishText:
-                          """بای بەهێز ڕێگربوون لەوەی پێشبڕکێیەکە ڕووبدات.""",
+                          """بای بەھێز ڕێگربوون لەوەی پێشبڕکێیەکە ڕووبدات.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Firefighters had to retreat from the fierce heat.""",
                       kurdishText:
-                          """ئاگرکوژێنەرەوەکان ناچاربوون لە گەرما بەهێزەکە بگەڕێنەوە.""",
+                          """ئاگرکوژێنەرەوەکان ناچاربوون لە گەرما بەھێزەکە بگەڕێنەوە.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),

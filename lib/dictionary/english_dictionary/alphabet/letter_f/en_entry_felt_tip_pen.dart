@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: felt-tip pen (Derived forms: felt-tip pens)
+- Noun: felt-tip pen (derived forms: felt-tip pens)
 1. A pen with a writing tip made of felt (trade name Magic Marker) (= felt-tipped pen, felt tip, Magic Marker)
 """,
   );

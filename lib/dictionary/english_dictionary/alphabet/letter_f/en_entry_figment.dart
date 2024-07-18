@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: figment (Derived forms: figments)
+- Noun: figment (derived forms: figments)
 1. A contrived or fantastic idea
 "a figment of the imagination"
 """,
@@ -163,7 +163,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) شتێک کە کەسێک خەیاڵی کردووە و لە ڕاستیدا بوونی نییە"""),
                     SentencesRow(
                       englishText: """Maybe all happiness is a figment too.""",
-                      kurdishText: """لەوانەیە هەموو دڵخۆشییەک ئەندێشە بێت.""",
+                      kurdishText: """لەوانەیە ھەموو دڵخۆشییەک ئەندێشە بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Are you telling me that these symptoms are just a figment of my imagination?""",
                       kurdishText:
-                          """پێم دەڵێیت کە ئەم نیشانانە تەنها ئەندێشەی خەیاڵکردنمە؟""",
+                          """پێم دەڵێیت کە ئەم نیشانانە تەنھا ئەندێشەی خەیاڵکردنمە؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: field marshal (Derived forms: field marshals)
+- Noun: field marshal (derived forms: field marshals)
 1. (military) an officer holding the highest rank in the army
 """,
   );
@@ -152,7 +152,7 @@ ${englishMeaningConst.text}
 // With short examples define "field marshal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەفسەرێک کە بەرزترین پێگەی لە سوپای بەریتانیا هەیە"""),
+                            """١. (ناو) ئەفسەرێک کە بەرزترین پێگەی لە سوپای بەریتانیا ھەیە"""),
                     SentencesRow(
                       englishText: """Yes, Field Marshal.""",
                       kurdishText: """بەڵێ، سەرلەشکر.""",

@@ -173,7 +173,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The plant has distinctive, fierily red petals.""",
                       kurdishText:
-                          """ڕووەکەکە پەڕەی جیاکەرەوەی سووری درەوشاوەی هەیە.""",
+                          """ڕووەکەکە پەڕەی جیاکەرەوەی سووری درەوشاوەی ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -193,7 +193,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵکار) بەشێوەیەک کە هەستی بەهێز پیشان دەدات"""),
+                            """٣. (ھاوەڵکار) بەشێوەیەک کە ھەستی بەھێز پیشان دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

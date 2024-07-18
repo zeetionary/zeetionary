@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fielder (Derived forms: fielders)
+- Noun: fielder (derived forms: fielders)
 1. A member of the baseball team that is in the field instead of at bat
  
 2. A member of the cricket team that is fielding rather than batting (= fieldsman)

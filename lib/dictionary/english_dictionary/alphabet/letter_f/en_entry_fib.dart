@@ -51,11 +51,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fib (Derived forms: fibs)
+- Noun: fib (derived forms: fibs)
 1. A trivial lie (= story, tale, tarradiddle [informal], taradiddle [informal], porky [Brit, informal], porky pie [Brit, informal])
 "he told a fib about eating his spinach";
 
-- Verb: fib (Derived forms: fibbing, fibbed, fibs)
+- Verb: fib (derived forms: fibbing, fibbed, fibs)
 1. Tell a relatively insignificant lie
 "Fibbing is not acceptable, even if you don't call it lying"
 """,
@@ -159,14 +159,14 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: درۆی چکۆلە، قسە یان وتەی ناگرنگ و درۆ، قسەی قۆڕ، فشە، تڕەهات، فڵتە
+کوردی: درۆی چکۆلە، قسە یان وتەی ناگرنگ و درۆ، قسەی قۆڕ، فشە، تڕەھات، فڵتە
 """),
 // With short examples define "fib", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) درۆ، زۆرجار کە گرنگ نییە"""),
                     SentencesRow(
                       englishText: """Stop telling fibs.""",
-                      kurdishText: """واز لە گوتنی درۆ بهێنە.""",
+                      kurdishText: """واز لە گوتنی درۆ بھێنە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

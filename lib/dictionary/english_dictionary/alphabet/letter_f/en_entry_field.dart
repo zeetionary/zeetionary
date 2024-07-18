@@ -52,7 +52,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: field (Derived forms: fields)
+- Noun: field (derived forms: fields)
 1. A piece of land cleared of trees and usually enclosed
 "he planted a field of wheat"
  
@@ -98,7 +98,7 @@ ${englishMeaningConst.text}
  
 17. A place where planes take off and land (= airfield, landing field, flying field)
 
-- Verb: field (Derived forms: fields, fielding, fielded)
+- Verb: field (derived forms: fields, fielding, fielded)
 1. Catch or pick up (balls) in baseball or cricket
  
 2. (sport) play as a fielder
@@ -393,7 +393,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کێڵگە، مەزرا، مووچە، هێگا، لەوەڕگە، یورت، جێ‌لەوەڕ، چایەر،	مەیدان، گۆڕەپان، مەڵبەند، بوار، پانتایی، زەمینە، ڕاخستە، وار،	ناوە، ناوچە، ئارا، دەڤەر،	جێگا، جێ، شوێن،	مەودا،	یاریگە، دەشت، مەیدان (وەرزش)،	تیمە بەشداری‌کردووەکان، پێشبڕکێ‌دەرەکان،	شەڕگە، مەیدان یا گۆڕەپانی شەڕ، ناوچەی کرداری شەڕی،	بوار، زەمینە، وار،	بواری خوێندن،	هەتەر، بڕ،	کاری کرداری،	مەیدانی کار،	بواری یان مەیدانی مەگناتیسی،	دەستەی ڕاو،	بابەت یان چالاکی تایبەتی
+کوردی: کێڵگە، مەزرا، مووچە، ھێگا، لەوەڕگە، یورت، جێ‌لەوەڕ، چایەر،	مەیدان، گۆڕەپان، مەڵبەند، بوار، پانتایی، زەمینە، ڕاخستە، وار،	ناوە، ناوچە، ئارا، دەڤەر،	جێگا، جێ، شوێن،	مەودا،	یاریگە، دەشت، مەیدان (وەرزش)،	تیمە بەشداری‌کردووەکان، پێشبڕکێ‌دەرەکان،	شەڕگە، مەیدان یا گۆڕەپانی شەڕ، ناوچەی کرداری شەڕی،	بوار، زەمینە، وار،	بواری خوێندن،	ھەتەر، بڕ،	کاری کرداری،	مەیدانی کار،	بواری یان مەیدانی مەگناتیسی،	دەستەی ڕاو،	بابەت یان چالاکی تایبەتی
 """),
 // With short examples define "field", please follow LX instructions
                     const DefinitionKurdish(
@@ -444,7 +444,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """ژممارە. (ناو) ناوچەیەکی گەورە کە بەو شتەی باسکراوە داپۆشراوە؛ ناوچەیەک کە ئەو شتەی لێ بەدەست دێت کە باسکراوە"""),
+                            """٣. (ناو) ناوچەیەکی گەورە کە بەو شتەی باسکراوە داپۆشراوە؛ ناوچەیەک کە ئەو شتەی لێ بەدەست دێت کە باسکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -458,7 +458,7 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text: """٤. (ناو) گۆڕەپانی یاریکردن"""),
                     AlsoEnglishckblink(
-                      textBeforeLink: "هەروەها: ",
+                      textBeforeLink: "ھەروەھا: ",
                       linkText: "pitch",
                       textAfterLink: ".",
                       onTap: () {
@@ -469,7 +469,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Every player on the field did their best today.""",
                       kurdishText:
-                          """هەموو یاریزانێکی گۆڕەپانەکە ئەمڕۆ باشترینی ئەنجام دا.""",
+                          """ھەموو یاریزانێکی گۆڕەپانەکە ئەمڕۆ باشترینی ئەنجام دا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -478,7 +478,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There was huge excitement as the teams came onto the field.""",
                       kurdishText:
-                          """خرۆشاوی زۆر هەبوو کە تیمەکان هاتنە سەر یاریگایەکە.""",
+                          """خرۆشاوی زۆر ھەبوو کە تیمەکان ھاتنە سەر یاریگایەکە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -491,7 +491,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The strong field includes three world record holders.""",
                       kurdishText:
-                          """تیمە بەرگریکارەکە سێ پاڵەوانی پێشووتری جیهانی لەخۆدەگرێت.""",
+                          """تیمە بەرگریکارەکە سێ پاڵەوانی پێشووتری جیھانی لەخۆدەگرێت.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -529,7 +529,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """All of them are experts in their chosen field.""",
-                      kurdishText: """هەموویان شارەزای بواری خۆیانن.""",
+                      kurdishText: """ھەموویان شارەزای بواری خۆیانن.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -602,7 +602,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٠. (ناو) تەواوی ئەو کەس و بەرهەمانەی کە لە بەشێکی دیاریکراوی بازرگانیدا ڕکابەری دەکەن"""),
+                            """١٠. (ناو) تەواوی ئەو کەس و بەرھەمانەی کە لە بەشێکی دیاریکراوی بازرگانیدا ڕکابەری دەکەن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -614,33 +614,33 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١١. (ناو) ناوچەیەک کە ئەو هێزەی باسکراوە کاریگەری هەیە"""),
+                            """١١. (ناو) ناوچەیەک کە ئەو ھێزەی باسکراوە کاریگەری ھەیە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Weak electric fields are emitted by all living organisms.""",
                       kurdishText:
-                          """بواری کارەبایی لاواز لەلایەن هەموو گیانلەبەرە زیندووەکانەوە دەردەدرێت.""",
+                          """بواری کارەبایی لاواز لەلایەن ھەموو گیانلەبەرە زیندووەکانەوە دەردەدرێت.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٢. (کردار) هەڵبژاردنی بەربژێرێک، قسەکەرێک، تیمێک، هتد کە لە هەڵبژاردنێک، ڕکابەرییەک، هتد نوێنەرایەتیت بکات"""),
+                            """١٢. (کردار) ھەڵبژاردنی بەربژێرێک، قسەکەرێک، تیمێک، ھتد کە لە ھەڵبژاردنێک، ڕکابەرییەک، ھتد نوێنەرایەتیت بکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Each of the main parties fielded more than 300 candidates.""",
                       kurdishText:
-                          """هەر یەک لە پارتە سەرەکییەکان زیاتر لە ٣٠٠ بەربژێریان پاڵاوت.""",
+                          """ھەر یەک لە پارتە سەرەکییەکان زیاتر لە ٣٠٠ بەربژێریان پاڵاوت.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٣. (کردار) بوون بەو تیمەی کە تۆپەکە دەگرێت و فڕێی دەدات لە دوای ئەوەی هاوێژراوە"""),
+                            """١٣. (کردار) بوون بەو تیمەی کە تۆپەکە دەگرێت و فڕێی دەدات لە دوای ئەوەی ھاوێژراوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

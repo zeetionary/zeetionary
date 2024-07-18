@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: filament (Derived forms: filaments)
+- Noun: filament (derived forms: filaments)
 1. A very slender natural or synthetic fibre (= fibril, strand)
  
 2. The stalk of a stamen
@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: لۆ، هەودا، داو، دەزوو، دەزوولە، تاڵ، چڵ،	سیم، وایەر، تاڵ، ڕیشاڵە، ڕشتە
+کوردی: لۆ، ھەودا، داو، دەزوو، دەزوولە، تاڵ، چڵ،	سیم، وایەر، تاڵ، ڕیشاڵە، ڕشتە
 """),
 // With short examples define "filament", please follow LX instructions
                     const DefinitionKurdish(
@@ -171,7 +171,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The light bulb has a tungsten filament inside.""",
                       kurdishText:
-                          """گڵۆپەکە دەزوویەکی تەنگستنی لە ناوەوەیدا هەیە.""",
+                          """گڵۆپەکە دەزوویەکی تەنگستنی لە ناوەوەیدا ھەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

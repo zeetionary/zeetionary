@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: finale (Derived forms: finales)
+- Noun: finale (derived forms: finales)
 1. The closing section of a musical composition (= coda)
  
 2. The temporal end; the concluding time (= stopping point, finis, finish, last, conclusion, close)
@@ -168,7 +168,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The festival ended with a grand finale of fireworks and music.""",
                       kurdishText:
-                          """فیستیڤاڵەکە بە بەشێکی دوایی مەزن لە یاریی ئاگرین و میوزیک کۆتایی هات.""",
+                          """فیستیڤاڵەکە بە بەشێکی دوایی مەزن لە یاریی ئاگرین و میوزیک کۆتایی ھات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

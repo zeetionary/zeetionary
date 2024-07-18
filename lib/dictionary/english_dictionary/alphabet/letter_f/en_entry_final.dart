@@ -61,7 +61,7 @@ ${englishMeaningConst.text}
 3. Not to be altered or undone (= last)
 "the judge's decision is final";
 
-- Noun: final (Derived forms: finals)
+- Noun: final (derived forms: finals)
 1. The final match between the winners of all previous matches in an elimination tournament
  
 2. An examination administered at the end of an academic term (= final examination, final exam)
@@ -287,7 +287,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دوایین، کۆتایی، ئەنجامی، ئاخر، ئاخری، دوایی، هەرەدوایی،	یەکلایی‌کەرەوە، بێ‌چەندوچۆن، بێ‌ئەوملاوئەولا،	دواپێشبڕکێ
+کوردی: دوایین، کۆتایی، ئەنجامی، ئاخر، ئاخری، دوایی، ھەرەدوایی،	یەکلایی‌کەرەوە، بێ‌چەندوچۆن، بێ‌ئەوملاوئەولا،	دواپێشبڕکێ
 """),
 // With short examples define "final", please follow LX instructions
                     const DefinitionKurdish(
@@ -340,7 +340,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """I think you will be satisfied with the final product.""",
-                      kurdishText: """پێموایە ڕازی دەبیت بە بەرهەمی کۆتایی.""",
+                      kurdishText: """پێموایە ڕازی دەبیت بە بەرھەمی کۆتایی.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -349,7 +349,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The final election results have not been announced.""",
                       kurdishText:
-                          """ئەنجامی کۆتایی هەڵبژاردن ڕانەگەیەندراون.""",
+                          """ئەنجامی کۆتایی ھەڵبژاردن ڕانەگەیەندراون.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -358,7 +358,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """No one could have predicted the final outcome.""",
                       kurdishText:
-                          """هیچ کەس پێشبینی دەرەنجامی کۆتایی نەدەکرد.""",
+                          """ھیچ کەس پێشبینی دەرەنجامی کۆتایی نەدەکرد.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

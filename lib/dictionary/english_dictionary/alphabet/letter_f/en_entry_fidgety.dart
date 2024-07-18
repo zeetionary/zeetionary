@@ -158,17 +158,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ئارام‌لێ‌هەڵگیراو، بزێو، نەسرەوتوو، بێ‌وەقرە، بێ‌سرەوت، ژان‌کردوو، حەجمین‌لێ‌بڕاو، بەجرت‌وفرت، جرپن، بەپەلەپڕووزەکەوتوو
+کوردی: ئارام‌لێ‌ھەڵگیراو، بزێو، نەسرەوتوو، بێ‌وەقرە، بێ‌سرەوت، ژان‌کردوو، حەجمین‌لێ‌بڕاو، بەجرت‌وفرت، جرپن، بەپەلەپڕووزەکەوتوو
 """),
 // With short examples define "fidgety", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کەسێک کە ناوانێت لە شوێنێک دابنیشێت، زۆرجار بەهۆی شڵەژاوی یان بێزاری"""),
+                            """١. (ھاوەڵناو) کەسێک کە ناوانێت لە شوێنێک دابنیشێت، زۆرجار بەھۆی شڵەژاوی یان بێزاری"""),
                     SentencesRow(
                       englishText:
                           """The children get fidgety if they have nothing to do.""",
                       kurdishText:
-                          """منداڵەکان بزێو دەبن کە هیچیان نەبێت بیکەن.""",
+                          """منداڵەکان بزێو دەبن کە ھیچیان نەبێت بیکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

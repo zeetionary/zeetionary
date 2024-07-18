@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: fell (Derived forms: felled, fells, felling)
+- Verb: fell (derived forms: felled, fells, felling)
 1. Cause to fall by or as if by delivering a blow (= drop, strike down, cut down)
 "fell a tree";
  
@@ -59,7 +59,7 @@ ${englishMeaningConst.text}
  
 3. Sew a seam by folding the edges
 
-- Noun: fell (Derived forms: fells)
+- Noun: fell (derived forms: fells)
 1. The dressed skin of an animal (especially a large animal) (= hide)
  
 2. Seam made by turning under or folding together and stitching the seamed materials to avoid rough edges (= felled seam)
@@ -185,7 +185,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دڕ، دڕندە، هۆڤ، دڵڕەق، کوشندە
+کوردی: دڕ، دڕندە، ھۆڤ، دڵڕەق، کوشندە
 """),
                     const DefinitionKurdish(
                         text:

@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ناڕاست، ناڕاستەقینە، ئەندێشەیی، داهێنراو، هەڵبەستە، خەیاڵی، خەیاڵکرد، 	واخۆپیشاندەرانە، درۆ، هەڵبەستە 
+کوردی: ناڕاست، ناڕاستەقینە، ئەندێشەیی، داھێنراو، ھەڵبەستە، خەیاڵی، خەیاڵکرد، 	واخۆپیشاندەرانە، درۆ، ھەڵبەستە 
 """),
 // With short examples define "fictitious", please follow LX instructions
                     const DefinitionKurdish(
@@ -168,7 +168,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """All the places and characters in my novel are fictitious (= they do not exist in real life).""",
                       kurdishText:
-                          """هەموو شوێن و کارەکتەرەکانی ڕۆمانەکەم درووستکراون.""",
+                          """ھەموو شوێن و کارەکتەرەکانی ڕۆمانەکەم درووستکراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -177,7 +177,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The account he gives of his childhood is fictitious.""",
                       kurdishText:
-                          """ئەو گێڕانەوەیەی منداڵیی کە دەیڵێت هەڵبەستراوە.""",
+                          """ئەو گێڕانەوەیەی منداڵیی کە دەیڵێت ھەڵبەستراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

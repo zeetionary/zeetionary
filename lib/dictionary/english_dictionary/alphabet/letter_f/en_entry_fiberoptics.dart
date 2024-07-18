@@ -154,12 +154,12 @@ Usage: US (elsewhere: fibreoptics)
 // With short examples define "fiber optics", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بەکارهێنانی ڕیشاڵی شووشەیی بۆ ناردنی زانیاری لە شێوەی شەپۆلی ڕووناکی"""),
+                            """١. (ناو) بەکارھێنانی ڕیشاڵی شووشەیی بۆ ناردنی زانیاری لە شێوەی شەپۆلی ڕووناکی"""),
                     SentencesRow(
                       englishText:
                           """The use of fibre optics has served to increase the volume and speed of data transmission.""",
                       kurdishText:
-                          """بەکارهێنانی فایبەرئۆپتیک یارمەتیدەر بووە لە زیادبوونی ڕێژە و خێرایی داتای گوازراوە.""",
+                          """بەکارھێنانی فایبەرئۆپتیک یارمەتیدەر بووە لە زیادبوونی ڕێژە و خێرایی داتای گوازراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

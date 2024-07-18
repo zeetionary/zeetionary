@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fiancée (Derived forms: fiancées)
+- Noun: fiancée (derived forms: fiancées)
 1. A woman who is engaged to be married (= bride-to-be)
 """,
   );

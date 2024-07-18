@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: fifth 
 1. Coming next after the fourth and just before the sixth in position (= 5th)
 
-- Noun: fifth (Derived forms: fifths)
+- Noun: fifth (derived forms: fifths)
 1. A quantity of liquor equal to one fifth of a United States gallon
  
 2. Position five in a countable series of things

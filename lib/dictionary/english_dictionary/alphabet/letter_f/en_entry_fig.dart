@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fig (Derived forms: figs)
+- Noun: fig (derived forms: figs)
 1. A diagram or picture illustrating textual material (= figure)
 "the area covered can be seen from fig 2";
  
@@ -158,20 +158,20 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: هەنجیر، هەژیر، هژیر،	داری هەنجیر
+کوردی: ھەنجیر، ھەژیر، ھژیر،	داری ھەنجیر
 """),
                     const DefinitionKurdish(
-                        text: """١. (ناو) هەنجیر؛ میوەیەکی نەرمی شیرین"""),
+                        text: """١. (ناو) ھەنجیر؛ میوەیەکی نەرمی شیرین"""),
                     SentencesRow(
                       englishText: """She added figs to the salad.""",
-                      kurdishText: """هەنجیری کردە زەڵاتەکەوە.""",
+                      kurdishText: """ھەنجیری کردە زەڵاتەکەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Figs are rich in fiber and nutrients.""",
-                      kurdishText: """هەنجیر پڕە لە ڕیشاڵ و مادەی خۆراکی.""",
+                      kurdishText: """ھەنجیر پڕە لە ڕیشاڵ و مادەی خۆراکی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

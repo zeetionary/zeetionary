@@ -154,7 +154,7 @@ ${englishMeaningConst.text}
 // With short examples define "figuratively", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بەشێوەیەک کە زمان بە شێوەیەک بەکاردێت کە جیاوازە لە بەکارهێنانی ئاسایی. بۆ نموونە گوتنی ئەوەی 'لە تووڕەییدا تەقییەوە"""),
+                            """١. (ھاوەڵکار) بەشێوەیەک کە زمان بە شێوەیەک بەکاردێت کە جیاوازە لە بەکارھێنانی ئاسایی. بۆ نموونە گوتنی ئەوەی 'لە تووڕەییدا تەقییەوە"""),
                     SentencesRow(
                       englishText:
                           """She is, figuratively speaking, holding a gun to his head.""",

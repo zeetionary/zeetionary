@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fickle (Derived forms: fickler, ficklest)
+- Adjective: fickle (derived forms: fickler, ficklest)
 1. Marked by erratic changeableness in affections or attachments (= volatile)
 "fickle friends";
  
@@ -182,7 +182,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The weather here is notoriously fickle.""",
-                      kurdishText: """کەشووهەوای ئێرە بەدنێوانە ناجێگیرە.""",
+                      kurdishText: """کەشووھەوای ئێرە بەدنێوانە ناجێگیرە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -191,7 +191,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Always be properly dressed and prepared to cope with our fickle weather.""",
                       kurdishText:
-                          """هەمیشە بە گونجاوی جل لەبەر بکە و ئامادە بە بۆ مامەڵەکردن لەگەڵ کەشووهەوای ناجێگیرمان.""",
+                          """ھەمیشە بە گونجاوی جل لەبەر بکە و ئامادە بە بۆ مامەڵەکردن لەگەڵ کەشووھەوای ناجێگیرمان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -213,7 +213,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """She had been a fickle friend, even at the best of times.""",
                       kurdishText:
-                          """تەنانەت لە باشترین کاتەکانیشدا هاوڕێیەکی حولحولی بووە.""",
+                          """تەنانەت لە باشترین کاتەکانیشدا ھاوڕێیەکی حولحولی بووە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

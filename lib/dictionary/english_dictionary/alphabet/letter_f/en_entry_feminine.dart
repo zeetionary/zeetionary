@@ -63,7 +63,7 @@ ${englishMeaningConst.text}
 4. (music or poetry) ending on an unaccented beat or syllable
 "a feminine ending"
 
-- Noun: feminine (Derived forms: feminines)
+- Noun: feminine (derived forms: feminines)
 1. A gender that refers chiefly (but not exclusively) to females or to objects classified as female
 """,
   );
@@ -185,11 +185,11 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەبوونی تایبەتمەندی یان شێوەی ژنانە"""),
+                            """١. (ھاوەڵناو) ھەبوونی تایبەتمەندی یان شێوەی ژنانە"""),
                     SentencesRow(
                       englishText:
                           """He had delicate, almost feminine, features.""",
-                      kurdishText: """ڕواڵەتی ناسکی تا ڕادەیەک ژنانەی هەبوو.""",
+                      kurdishText: """ڕواڵەتی ناسکی تا ڕادەیەک ژنانەی ھەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -210,14 +210,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """Some people prefer not to use the feminine form ‘actress’ and use the word ‘actor’ for both sexes.""",
                       kurdishText:
-                          """هەندێک کەس شێوەی مێی 'actress' بەکارناهێنن و وشەی actor بۆ هەردوو ڕەگەز بەکاردەهێنن.""",
+                          """ھەندێک کەس شێوەی مێی 'actress' بەکارناھێنن و وشەی actor بۆ ھەردوو ڕەگەز بەکاردەھێنن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵناو) لە هەندێک زماندا سەر بەو وشانەیە کە وەک مێینە دەبیندرێن"""),
+                            """٣. (ھاوەڵناو) لە ھەندێک زماندا سەر بەو وشانەیە کە وەک مێینە دەبیندرێن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

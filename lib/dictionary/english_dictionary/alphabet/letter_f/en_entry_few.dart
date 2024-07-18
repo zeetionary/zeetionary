@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 1. A small but indefinite number (a quantifier that can be used with countable nouns and is often preceded by 'a')
 "a few weeks ago"; "a few more wagons than usual"; "an invalid's pleasures are few and far between"; "few roses were still blooming"; "few women have led troops in battle"
 
-- Noun: few (Derived forms: fewer, fewest, fews)
+- Noun: few (derived forms: fewer, fewest, fews)
 1. A small elite group
 "it was designed for the discriminating few"
 """,
@@ -266,15 +266,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: کەمێ، بڕێ، نە زۆر، ژمارەیێکی کەم، هێندێ، چەند، ژمارەیێ، دەگمەن، کەم
+کوردی: کەمێ، بڕێ، نە زۆر، ژمارەیێکی کەم، ھێندێ، چەند، ژمارەیێ، دەگمەن، کەم
 """),
 // With short examples define "few", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (دیارخەر، ھاوەڵناو) لەگەڵ ناوی کۆ و کرداری کۆ بەکاردێت بۆ گوتنی ڕێژەیەکی کەم یان هەندێک"""),
+                            """١. (دیارخەر، ھاوەڵناو) لەگەڵ ناوی کۆ و کرداری کۆ بەکاردێت بۆ گوتنی ڕێژەیەکی کەم یان ھەندێک"""),
                     SentencesRow(
                       englishText: """We've had a few replies.""",
-                      kurdishText: """چەند وەڵامێکی کەممان هەبووە.""",
+                      kurdishText: """چەند وەڵامێکی کەممان ھەبووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -290,7 +290,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Quite a few people are going to arrive early.""",
-                      kurdishText: """هەندێک کەس زوو دەگەن.""",
+                      kurdishText: """ھەندێک کەس زوو دەگەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I try to visit my parents every few weeks.""",
                       kurdishText:
-                          """هەوڵ دەدەم چەند هەفتە جارێک سەردانی دایبابم بکەم.""",
+                          """ھەوڵ دەدەم چەند ھەفتە جارێک سەردانی دایبابم بکەم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -319,7 +319,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """There seem to be fewer tourists around this year.""",
                       kurdishText:
-                          """وەها دەردەکەوێت گەشتیاری کەمتر هەبن ئەمساڵ.""",
+                          """وەھا دەردەکەوێت گەشتیاری کەمتر ھەبن ئەمساڵ.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -335,13 +335,13 @@ ${englishMeaningConst.text}
                       englishText:
                           """The player with the fewest points wins.""",
                       kurdishText:
-                          """ئەو یاریزانەی کە کەمترین خاڵی هەیە دەباتەوە.""",
+                          """ئەو یاریزانەی کە کەمترین خاڵی ھەیە دەباتەوە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (جێناو) ژمارەیەکی کەم؛ هەندێک"""),
+                        text: """٣. (جێناو) ژمارەیەکی کەم؛ ھەندێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -354,7 +354,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Could you give me a few more details?""",
                       kurdishText:
-                          """دەتوانیت هەندێک وردەکاری دیکەم پێبدەیت؟""",
+                          """دەتوانیت ھەندێک وردەکاری دیکەم پێبدەیت؟""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -363,7 +363,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """I've seen most of his movies. Only a few are as good as his first one.""",
                       kurdishText:
-                          """زۆرینەی فیلمەکانییم دیوە. تەنها هەندێکیان وەک ئەوەی یەکەم دانەی باشن.""",
+                          """زۆرینەی فیلمەکانییم دیوە. تەنھا ھەندێکیان وەک ئەوەی یەکەم دانەی باشن.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -394,7 +394,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Fewer than 20 students passed all the exams.""",
                       kurdishText:
-                          """کەمتر لە ٢٠ خوێندکار لە هەموو تاقیکردنەوەکان دەرچوون.""",
+                          """کەمتر لە ٢٠ خوێندکار لە ھەموو تاقیکردنەوەکان دەرچوون.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -424,7 +424,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """She was one of the chosen few (= the small group with special rights).""",
-                      kurdishText: """یەکێک لە کەمینەیەکی هەڵبژێردراو بوو.""",
+                      kurdishText: """یەکێک لە کەمینەیەکی ھەڵبژێردراو بوو.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),

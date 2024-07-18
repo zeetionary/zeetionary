@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fellowship (Derived forms: fellowships)
+- Noun: fellowship (derived forms: fellowships)
 1. An association of people who share common beliefs or activities (= family)
 "the church welcomed new members into its fellowship";
  
@@ -176,11 +176,11 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: دۆستایەتی، ڕفێقایەتی، هاوڕێیی، هاوسۆزی، خەمخۆری،	کۆمەڵە، کۆڕ، ئەنجومەن،	ئەندامێتی
+کوردی: دۆستایەتی، ڕفێقایەتی، ھاوڕێیی، ھاوسۆزی، خەمخۆری،	کۆمەڵە، کۆڕ، ئەنجومەن،	ئەندامێتی
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) هەستی هاوڕێیەتی نێوان دوو کەس کە پیکەوە کار دەکەن یان هەمان حەزیان هەیە"""),
+                            """١. (ناو) ھەستی ھاوڕێیەتی نێوان دوو کەس کە پیکەوە کار دەکەن یان ھەمان حەزیان ھەیە"""),
                     SentencesRow(
                       englishText:
                           """They offer students counselling and fellowship.""",
@@ -191,7 +191,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کۆمەڵێک کەسی ڕێکخراو کە هەمان حەز، ئاماج، یان باوەڕیان هەیە"""),
+                            """٢. (ناو) کۆمەڵێک کەسی ڕێکخراو کە ھەمان حەز، ئاماج، یان باوەڕیان ھەیە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -222,7 +222,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """PhDs can be expensive, unless you get a fellowship.""",
                       kurdishText:
-                          """توێژینەوەی دکتۆرا دەکریت گران‌بەها بێت، مەگەر ئەوەی کە یارمەتی دارایی وەربگریت.""",
+                          """توێژینەوەی دکتۆرا دەکریت گران‌بەھا بێت، مەگەر ئەوەی کە یارمەتی دارایی وەربگریت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

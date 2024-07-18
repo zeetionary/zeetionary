@@ -51,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fence (Derived forms: fences)
+- Noun: fence (derived forms: fences)
 1. A barrier that serves to enclose an area (= fencing)
  
 2. A dealer in stolen property
 
-- Verb: fence (Derived forms: fenced, fencing, fences)
+- Verb: fence (derived forms: fenced, fencing, fences)
 1. Enclose with a fence (= fence in)
 "we fenced in our yard";
  
@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
 // With short examples define "fence", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) پەرژین؛ شتێک کە لە دار یان تاڵە شیش دروستکراوە و بە ستوون ڕادەگیرێت، و لە نێوان دوو ناوچەدا وەک سنوورێک دادەنرێت، یان لە دەوری باخچە، کێڵگە، هتد بۆ ئەوەی ئاژەڵەکان لەناوەوە بمێننەوە، یان مرۆڤ و ئاژەڵەکان لە دەرەوە بمێننەوە"""),
+                            """١. (ناو) پەرژین؛ شتێک کە لە دار یان تاڵە شیش دروستکراوە و بە ستوون ڕادەگیرێت، و لە نێوان دوو ناوچەدا وەک سنوورێک دادەنرێت، یان لە دەوری باخچە، کێڵگە، ھتد بۆ ئەوەی ئاژەڵەکان لەناوەوە بمێننەوە، یان مرۆڤ و ئاژەڵەکان لە دەرەوە بمێننەوە"""),
                     SentencesRow(
                       englishText:
                           """The two women chatted over the garden fence.""",

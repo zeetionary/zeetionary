@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fighter (Derived forms: fighters)
+- Noun: fighter (derived forms: fighters)
 1. Someone who fights (or is fighting) (= combatant, battler, belligerent, scrapper)
  
 2. (military) a high-speed military or naval aeroplane designed to destroy enemy aircraft in the air (= fighter aircraft, attack aircraft)
@@ -175,12 +175,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: شەڕکەر، شەڕڤان، شەڕوان،	خەباتکار،	نەیار، هەڤرک، بەرچەپ،	شەڕەمشتکار، بۆکسۆر،	فڕۆکەی شەڕکەر
+کوردی: شەڕکەر، شەڕڤان، شەڕوان،	خەباتکار،	نەیار، ھەڤرک، بەرچەپ،	شەڕەمشتکار، بۆکسۆر،	فڕۆکەی شەڕکەر
 """),
 // With short examples define "fighter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) فڕۆکەیەکی خێرای جەنگی کە دیزاین کراوە هێرش بکاتە سەر فڕۆکەی دیکە"""),
+                            """١. (ناو) فڕۆکەیەکی خێرای جەنگی کە دیزاین کراوە ھێرش بکاتە سەر فڕۆکەی دیکە"""),
                     SentencesRow(
                       englishText:
                           """The supersonic fighter plane was shot down by a missile.""",
@@ -206,14 +206,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """Rebel fighters still control most of the city.""",
                       kurdishText:
-                          """جەنگاوەرە یاخییەکان هێشتا زۆرینەی شارەکە کۆنترۆڵ دەکەن.""",
+                          """جەنگاوەرە یاخییەکان ھێشتا زۆرینەی شارەکە کۆنترۆڵ دەکەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) کەسێک کە بێ هیوا نابێت یان دان بە شکست نانێت"""),
+                            """٣. (ناو) کەسێک کە بێ ھیوا نابێت یان دان بە شکست نانێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

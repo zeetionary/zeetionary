@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: femininity (Derived forms: femininities)
+- Noun: femininity (derived forms: femininities)
 1. The trait of behaving in ways considered typical for women (= muliebrity)
 """,
   );
@@ -155,12 +155,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ژن بوون، ژنایەتی، ژنێتی، مێیینەتی، هەڵس‌وکەوتی ژنانە
+کوردی: ژن بوون، ژنایەتی، ژنێتی، مێیینەتی، ھەڵس‌وکەوتی ژنانە
 """),
 // With short examples define "femininity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی کە ژن بیت؛ ئەو خاسیەتانەی کە بە هی ژنان دانرێت"""),
+                            """١. (ناو) ئەوەی کە ژن بیت؛ ئەو خاسیەتانەی کە بە ھی ژنان دانرێت"""),
                     SentencesRow(
                       englishText:
                           """Long hair was traditionally regarded as a sign of femininity.""",

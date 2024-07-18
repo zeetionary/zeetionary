@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: feminist (Derived forms: feminists)
+- Noun: feminist (derived forms: feminists)
 1. A supporter of feminism (= women's rightist, women's liberationist, libber [informal], liberationist)
 
 - Adjective: feminist
@@ -155,7 +155,7 @@ ${englishMeaningConst.text}
 // With short examples define "feminist", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەسێک کە باوەڕی بەوە هەیە کە ژنان دەبێت هەمان هەل و مافی پیاوانیان هەبێت"""),
+                            """١. (ناو) کەسێک کە باوەڕی بەوە ھەیە کە ژنان دەبێت ھەمان ھەل و مافی پیاوانیان ھەبێت"""),
                     SentencesRow(
                       englishText:
                           """All her life she was an ardent feminist.""",

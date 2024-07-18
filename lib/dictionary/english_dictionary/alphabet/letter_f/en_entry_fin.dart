@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: fin (Derived forms: fins)
+- Noun: fin (derived forms: fins)
 1. Organ of locomotion and balance in fishes and some other aquatic animals
  
 2. One of a pair of decorations projecting above the rear fenders of an automobile (= tail fin, tailfin)
@@ -64,7 +64,7 @@ ${englishMeaningConst.text}
  
 6. [US, informal] A United States bill worth 5 dollars (= fiver [US, informal], five-spot [US], five dollar bill [US])
 
-- Verb: fin (Derived forms: fins, finning, finned)
+- Verb: fin (derived forms: fins, finning, finned)
 1. Equip (a car) with fins
  
 2. (water sport) propel oneself through the water in a finning motion
@@ -177,7 +177,7 @@ ${englishMeaningConst.text}
 // With short examples define "fin", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بەشێکی باریکی تەخت کە لە لەشی ماسییەوە دەردەچێت و بۆ مەلەکردن و هاوسەنگی بەکاردێت"""),
+                            """١. (ناو) بەشێکی باریکی تەخت کە لە لەشی ماسییەوە دەردەچێت و بۆ مەلەکردن و ھاوسەنگی بەکاردێت"""),
                     SentencesRow(
                       englishText:
                           """We could see the fin of a shark as it slowly circled our boat.""",
@@ -189,11 +189,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) بەشێکی باریکی تەخت کە لە پشتەوەی لاشەی فڕۆکەیەک، پێڕۆیەک، هتد دەردەچێت و بۆ هاوسەنگی و جووڵە بەکاردێت"""),
+                            """٢. (ھاوەڵناو) بەشێکی باریکی تەخت کە لە پشتەوەی لاشەی فڕۆکەیەک، پێڕۆیەک، ھتد دەردەچێت و بۆ ھاوسەنگی و جووڵە بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The aircraft has a long tail fin.""",
-                      kurdishText: """فڕۆکەکە کلکە باڵێکی درێژی هەیە.""",
+                      kurdishText: """فڕۆکەکە کلکە باڵێکی درێژی ھەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

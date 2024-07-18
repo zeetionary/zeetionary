@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fiery (Derived forms: fierier, fieriest)
+- Adjective: fiery (derived forms: fierier, fieriest)
 1. Characterized by intense emotion (= ardent, fervent, fervid, impassioned, perfervid, torrid)
 "fiery oratory";
  
@@ -181,7 +181,7 @@ ${englishMeaningConst.text}
 // With short examples define "fiery", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە وەک ئاگرە؛ کە لە ئاگر پێکهاتووە"""),
+                            """١. (ھاوەڵناو) کە وەک ئاگرە؛ کە لە ئاگر پێکھاتووە"""),
                     SentencesRow(
                       englishText:
                           """The sun was now sinking, a fiery ball of light in the west.""",
@@ -196,14 +196,14 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She has a fiery temper.""",
-                      kurdishText: """خوویەکی زووتووڕەی هەبوو.""",
+                      kurdishText: """خوویەکی زووتووڕەی ھەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ھاوەڵناو) پیشاندانی هەستی بەهێز، بەتایبەتی تووڕەیی"""),
+                            """٣. (ھاوەڵناو) پیشاندانی ھەستی بەھێز، بەتایبەتی تووڕەیی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

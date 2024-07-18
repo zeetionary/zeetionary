@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: felon (Derived forms: felons)
+- Noun: felon (derived forms: felons)
 1. Someone who has committed a crime or has been legally convicted of a crime (= criminal, crook [informal], outlaw, malefactor [formal], crim [Brit, informal])
  
 2. A purulent infection at the end of a finger or toe in the area surrounding the nail (= whitlow)

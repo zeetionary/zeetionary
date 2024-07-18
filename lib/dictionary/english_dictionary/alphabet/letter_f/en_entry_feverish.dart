@@ -160,12 +160,12 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: تادار، تێ‌دار، تێ‌لێهاتوو، تاگرتوو،	ورووژاو، شاگەشکە، ئارام‌لێهەڵگیراو، نائارام، بێ‌ئۆقرە، بێ‌حەجمان، بێ‌تاقەت، نگەران، دڵ‌لەدوا
+کوردی: تادار، تێ‌دار، تێ‌لێھاتوو، تاگرتوو،	ورووژاو، شاگەشکە، ئارام‌لێھەڵگیراو، نائارام، بێ‌ئۆقرە، بێ‌حەجمان، بێ‌تاقەت، نگەران، دڵ‌لەدوا
 """),
 // With short examples define "feverish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەبوونی هەستی بەهێزی جۆش‌وخرۆشی یان نیگەرانی"""),
+                            """١. (ھاوەڵناو) ھەبوونی ھەستی بەھێزی جۆش‌وخرۆشی یان نیگەرانی"""),
                     SentencesRow(
                       englishText:
                           """The whole place was a scene of feverish activity.""",
@@ -177,11 +177,11 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) کە کەسێک تای هەیە؛ کە درووست بووە بەهۆی تاوە"""),
+                            """٢. (ھاوەڵناو) کە کەسێک تای ھەیە؛ کە درووست بووە بەھۆی تاوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She was aching and feverish.""",
-                      kurdishText: """ئێش و تای هەبوو.""",
+                      kurdishText: """ئێش و تای ھەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -51,10 +51,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: felt (Derived forms: felts)
+- Noun: felt (derived forms: felts)
 1. A fabric made of compressed matted animal fibers
 
-- Verb: felt (Derived forms: felts, felted, felting)
+- Verb: felt (derived forms: felts, felted, felting)
 1. Mat together and make felt-like
 "felt the wool"
  
@@ -164,7 +164,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """He wore a felt hat to the party.""",
                       kurdishText:
-                          """کڵاوێکی ئەستووری لەسەر کرد بۆ ئاهەنگەکە.""",
+                          """کڵاوێکی ئەستووری لەسەر کرد بۆ ئاھەنگەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

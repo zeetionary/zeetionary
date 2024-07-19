@@ -303,60 +303,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeliberations4("en-GB"),
             onPressedAmerican: () => speakdeliberations4("en-US"),
           ),
-          // deliberations500"),
-          // speakdeliberations5
-          // deliberations5("en-US"),
-          // deliberations600"),
-          // speakdeliberations6
-          // deliberations6("en-US"),
-          // deliberations700"),
-          // speakdeliberations7
-          // deliberations7("en-US"),
-          // deliberations800"),
-          // speakdeliberations8
-          // deliberations8("en-US"),
-          // deliberations900"),
-          // speakdeliberations9
-          // deliberations9("en-US"),
-          // deliberations1000"),
-          // speakdeliberations10
-          // deliberations10("en-US"),
-          // deliberations1100"),
-          // speakdeliberations11
-          // deliberations11("en-US"),
-          // deliberations1200"),
-          // speakdeliberations12
-          // deliberations12("en-US"),
-          // deliberations1300"),
-          // speakdeliberations13
-          // deliberations13("en-US"),
-          // deliberations1400"),
-          // speakdeliberations14
-          // deliberations14("en-US"),
-          // deliberations1500"),
-          // speakdeliberations15
-          // deliberations15("en-US"),
-          // deliberations1600"),
-          // speakdeliberations16
-          // deliberations16("en-US"),
-          // deliberations1700"),
-          // speakdeliberations17
-          // deliberations17("en-US"),
-          // deliberations1800"),
-          // speakdeliberations18
-          // deliberations18("en-US"),
-          // deliberations1900"),
-          // speakdeliberations19
-          // deliberations19("en-US"),
-          // "After much deliberation, we have decided to award the title to Springfield College.0"),
-          // speakdeliberations20
-          // deliberations20("en-US"),
-          // deliberations2100"),
-          // speakdeliberations21
-          // deliberations21("en-US"),
-          // deliberations2200"),
-          // speakdeliberations22
-          // deliberations22("en-US"),
         ],
       ),
     );

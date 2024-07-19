@@ -287,17 +287,13 @@ class TagsPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(
-          top: 6, left: 6.0, right: 10, bottom: 6),
+      padding: const EdgeInsets.only(top: 6, left: 6.0, right: 10, bottom: 6),
       child: Container(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10.0),
-          color: Theme.of(context)
-              .scaffoldBackgroundColor
-              .withOpacity(0.08),
+          color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.08),
           border: Border.all(
-            color:
-                Theme.of(context).primaryColor.withOpacity(0.3),
+            color: Theme.of(context).primaryColor.withOpacity(0.3),
             width: 1.0,
           ),
         ),
@@ -323,8 +319,8 @@ class TagsPanel extends StatelessWidget {
                   children: [
                     ElevatedButton(
                       onPressed: () {
-                        Routemaster.of(context).push(
-                            '/english-subreddit/reddit-discussion');
+                        Routemaster.of(context)
+                            .push('/english-subreddit/reddit-discussion');
                       },
                       child: Text(
                         'English Discussion',
@@ -337,8 +333,8 @@ class TagsPanel extends StatelessWidget {
                     const SizedBox(width: 15),
                     ElevatedButton(
                       onPressed: () {
-                        Routemaster.of(context).push(
-                            '/english-subreddit/reddit-grammar');
+                        Routemaster.of(context)
+                            .push('/english-subreddit/reddit-grammar');
                       },
                       child: Text(
                         'EFL Grammar',
@@ -351,8 +347,8 @@ class TagsPanel extends StatelessWidget {
                     const SizedBox(width: 15),
                     ElevatedButton(
                       onPressed: () {
-                        Routemaster.of(context).push(
-                            '/english-subreddit/reddit-grammar-two');
+                        Routemaster.of(context)
+                            .push('/english-subreddit/reddit-grammar-two');
                       },
                       child: Text(
                         'Native Grammar',
@@ -365,8 +361,8 @@ class TagsPanel extends StatelessWidget {
                     const SizedBox(width: 15),
                     ElevatedButton(
                       onPressed: () {
-                        Routemaster.of(context).push(
-                            '/english-subreddit/reddit-vocabulary-two');
+                        Routemaster.of(context)
+                            .push('/english-subreddit/reddit-vocabulary-two');
                       },
                       child: Text(
                         'Vocabulary',
@@ -379,8 +375,8 @@ class TagsPanel extends StatelessWidget {
                     const SizedBox(width: 15),
                     ElevatedButton(
                       onPressed: () {
-                        Routemaster.of(context).push(
-                            '/english-subreddit/reddit-vocabulary-three');
+                        Routemaster.of(context)
+                            .push('/english-subreddit/reddit-vocabulary-three');
                       },
                       child: Text(
                         'Advanced vocabulary',
@@ -475,16 +471,28 @@ class RedditComments extends ConsumerWidget {
             return const Center(child: CircularProgressIndicator());
           } else if (snapshot.hasError) {
             return Center(
-              child: Text(
-                'Error: ${snapshot.error}',
-                style: TextStyle(fontSize: textSize + 2),
+              child: Directionality(
+                textDirection: TextDirection.ltr,
+                child: Align(
+                  alignment: Alignment.topLeft,
+                  child: Text(
+                    'Error: ${snapshot.error}',
+                    style: TextStyle(fontSize: textSize + 2),
+                  ),
+                ),
               ),
             );
           } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
             return Center(
-              child: Text(
-                'No data available',
-                style: TextStyle(fontSize: textSize + 2),
+              child: Directionality(
+                textDirection: TextDirection.ltr,
+                child: Align(
+                  alignment: Alignment.topLeft,
+                  child: Text(
+                    'No data available',
+                    style: TextStyle(fontSize: textSize + 2),
+                  ),
+                ),
               ),
             );
           } else {
@@ -517,11 +525,17 @@ class RedditComments extends ConsumerWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        post['title'],
-                        style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: textSize + 2,
+                      Directionality(
+                        textDirection: TextDirection.ltr,
+                        child: Align(
+                          alignment: Alignment.topLeft,
+                          child: Text(
+                            post['title'],
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: textSize + 2,
+                            ),
+                          ),
                         ),
                       ),
                       const SizedBox(height: 10),
@@ -592,11 +606,17 @@ class RedditComments extends ConsumerWidget {
                             ],
                           ),
                           ListTile(
-                            title: MarkdownBody(
-                              data: post['selftext'] ?? '',
-                              styleSheet: MarkdownStyleSheet(
-                                p: TextStyle(
-                                  fontSize: textSize + 2,
+                            title: Directionality(
+                              textDirection: TextDirection.ltr,
+                              child: Align(
+                                alignment: Alignment.topLeft,
+                                child: MarkdownBody(
+                                  data: post['selftext'] ?? '',
+                                  styleSheet: MarkdownStyleSheet(
+                                    p: TextStyle(
+                                      fontSize: textSize + 2,
+                                    ),
+                                  ),
                                 ),
                               ),
                             ),
@@ -621,11 +641,17 @@ class RedditComments extends ConsumerWidget {
                       if (comments.isEmpty)
                         Padding(
                           padding: const EdgeInsets.all(18.0),
-                          child: Text(
-                            'No discussion here',
-                            style: TextStyle(
-                              color: const Color.fromARGB(182, 255, 0, 0),
-                              fontSize: textSize + 2,
+                          child: Directionality(
+                            textDirection: TextDirection.ltr,
+                            child: Align(
+                              alignment: Alignment.topLeft,
+                              child: Text(
+                                'No discussion here',
+                                style: TextStyle(
+                                  color: const Color.fromARGB(182, 255, 0, 0),
+                                  fontSize: textSize + 2,
+                                ),
+                              ),
                             ),
                           ),
                         ),
@@ -727,11 +753,17 @@ class RedditComments extends ConsumerWidget {
                                       ],
                                     ),
                                   ),
-                                  MarkdownBody(
-                                    data: data['body'],
-                                    styleSheet: MarkdownStyleSheet(
-                                      p: TextStyle(
-                                        fontSize: textSize + 2,
+                                  Directionality(
+                                    textDirection: TextDirection.ltr,
+                                    child: Align(
+                                      alignment: Alignment.topLeft,
+                                      child: MarkdownBody(
+                                        data: data['body'],
+                                        styleSheet: MarkdownStyleSheet(
+                                          p: TextStyle(
+                                            fontSize: textSize + 2,
+                                          ),
+                                        ),
                                       ),
                                     ),
                                   ),

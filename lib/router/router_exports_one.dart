@@ -3300,8 +3300,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_forehand.dart' show EnglishEntryforehand
 // en_entry_forehead.dart' show EnglishEntryforehead
 // en_entry_foreign.dart' show EnglishEntryforeign
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_foreigner.dart' show EnglishEntryforeigner
+// en_entry_foreign_exchange.dart' show EnglishEntryforeignexchange //// فففف foreign exchange
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

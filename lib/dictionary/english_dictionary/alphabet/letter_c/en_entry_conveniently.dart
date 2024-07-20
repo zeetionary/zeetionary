@@ -154,7 +154,7 @@ class EnglishEntryconveniently extends StatelessWidget {
                             englishText:
                                 "I asked her to clean up the kitchen but of course she conveniently forgot.",
                             kurdishText:
-                                "داوام لێکرد چێشتخانەکە پاکبکاتەوە بەڵام بەدڵنیاییەوە بە ئاسانی بیری چوو.",
+                                "داوام لێکرد چێشتخانەکە پاکبکاتەوە بەڵام بەدڵنیاییەوە هەر ئاواهی بیری چوو.",
                             onPressedBritish: () =>
                                 speakconvenientlys3("en-GB"),
                             onPressedAmerican: () =>

@@ -1,9 +1,11 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:routemaster/routemaster.dart';
 // import 'package:zeetionary/theme/pallete.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/firebase/core/utils.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 // import 'dart:ui' as ui; // Add this import
 
@@ -152,6 +154,71 @@ class SettingsPage extends ConsumerWidget {
     ref.read(authControllerProvider.notifier).logout();
   }
 
+  Future<void> deleteAccount(BuildContext context, WidgetRef ref) async {
+    final user = FirebaseAuth.instance.currentUser;
+
+    if (user != null) {
+      try {
+        await user.delete();
+        showSnackBar(context, "Account deleted successfully");
+        Routemaster.of(context).replace('/');
+      } catch (e) {
+        showSnackBar(context, "Failed to delete account: $e");
+      }
+    }
+  }
+
+  void showDeleteConfirmationDialog(BuildContext context, WidgetRef ref) {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        final textSize = ref.watch(textSizeProvider) + 2;
+
+        return AlertDialog(
+          title: Text(
+            'Delete Account',
+            style: TextStyle(
+              fontSize: textSize + 3,
+            ),
+          ),
+          content: Text(
+            """Are you sure you want to permanently delete your account? You will lose your purchase of the app.""",
+            style: TextStyle(
+              fontSize: textSize,
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: Text(
+                'Cancel',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
+            ),
+            TextButton(
+              onPressed: () {
+                // Navigator.of(context).pop();
+                deleteAccount(context, ref);
+                // Routemaster.of(context).pop("/settings-screen");
+                Routemaster.of(context).replace("/");
+              },
+              child: Text(
+                'Delete',
+                style: TextStyle(
+                  fontSize: textSize,
+                ),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     // final textSize = ref.watch(textSizeProvider);
@@ -252,7 +319,7 @@ class SettingsPage extends ConsumerWidget {
               color: Colors.red,
             ),
             title: Text(
-              'Log Out',
+              'Log Out or Delete Account',
               style: TextStyle(
                 fontSize: textSize + 2,
                 color: Colors.red,
@@ -282,6 +349,16 @@ class SettingsPage extends ConsumerWidget {
                   logOut(ref);
                   Routemaster.of(context).pop("/settings-screen");
                 },
+              ),
+              ListTile(
+                title: Text(
+                  'Tap to delete account',
+                  style: TextStyle(
+                    fontSize: textSize,
+                    color: Colors.red,
+                  ),
+                ),
+                onTap: () => showDeleteConfirmationDialog(context, ref),
               ),
             ],
           ),

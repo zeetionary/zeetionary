@@ -395,7 +395,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(text: """١. (ناو) یازدەھەم"""),
           SentencesRow(
             englishText: """Today is the eleventh (of May).""",
-            kurdishText: """ئەمڕۆ یەزدەھەمی ئایارە.""", // eleventh
+            kurdishText: """ئەمڕۆ یازدەھەمی ئایارە.""", // eleventh
             onPressedBritish: () => speakelevenths1("en-GB"),
             onPressedAmerican: () => speakelevenths1("en-US"),
           ),

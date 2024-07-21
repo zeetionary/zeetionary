@@ -402,7 +402,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """It's her eighth birthday.""",
-            kurdishText: """ھەشتەم ساڵیادی لەدایکبوونیەتی.""",
+            kurdishText: """ھەشتەم ساڵیادی لەدایکبوونییەتی.""",
             onPressedBritish: () => speakeighths2("en-GB"),
             onPressedAmerican: () => speakeighths2("en-US"),
           ),

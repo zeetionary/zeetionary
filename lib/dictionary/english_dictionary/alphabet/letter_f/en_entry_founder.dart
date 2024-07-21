@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfoster extends StatefulWidget {
-  const EnglishEntryfoster({super.key});
+class EnglishEntryfounder extends StatefulWidget {
+  const EnglishEntryfounder({super.key});
 
   @override
-  State<EnglishEntryfoster> createState() => _EnglishEntryfosterState();
+  State<EnglishEntryfounder> createState() => _EnglishEntryfounderState();
 }
 
-class _EnglishEntryfosterState extends State<EnglishEntryfoster> {
+class _EnglishEntryfounderState extends State<EnglishEntryfounder> {
   @override
   void initState() {
     super.initState();
@@ -51,25 +51,29 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: foster (Derived forms: fosters, fostering, fostered)
-1. Promote the growth of (= further)
-"Foster our children's well-being and education";
+- Noun: founder (Derived forms: founders)
+1. Inflammation of the laminated tissue that attaches the hoof to the foot of a horse (= laminitis)
  
-2. Bring up under fosterage; of children
+2. A person who founds or establishes some institution (= beginner, founding father, father)
+"George Washington is the founder of his country";
  
-3. Help develop, help grow (= nurture)
-"foster his talents";
+3. A worker who makes metal castings
 
-- Adjective: foster
-1. Providing or receiving nurture or parental care though not related by blood or legal ties (= surrogate)
-"foster parent"; "foster child"; "foster home";
-
-- Noun: Foster (Derived forms: Fosters)
-1. United States songwriter whose songs embody the sentiment of the South before the American Civil War (1826-1864) (= Stephen Foster, Stephen Collins Foster)
+- Verb: founder (Derived forms: foundering, foundered, founders)
+1. Fail utterly; collapse (= fall through, fall flat, flop, go to the wall [informal], come to nothing)
+"The project foundered";
+ 
+2. Sink below the surface
+ 
+3. Break down, literally or metaphorically (= collapse, fall in, cave in, give, give way, break)
+"The wall foundered";
+ 
+4. Stumble and nearly fall
+"the horses foundered"
 """,
   );
 
-  final String keyword = "foster";
+  final String keyword = "founder";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -89,22 +93,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""foster""");
+    await flutterTts.speak("""founder""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Such organizations need to foster innovation.""");
+    await flutterTts
+        .speak("""She is the founder and managing director of the company.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """I'm trying to foster an interest in classical music in my children.""");
+    await flutterTts
+        .speak("""The statue commemorates the founder of the college.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -112,7 +117,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """They have fostered over 60 children during the past ten years.""");
+        """He is recognized as one of the founders of computer technology.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -120,7 +125,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""We couldn't adopt a child, so we decided to foster.""");
+        .speak("""The project foundered after problems with funding.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -128,14 +133,14 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""As a child, he had lived with a series of foster parents.""");
+        .speak("""The peace talks foundered on a basic lack of trust.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""Our boat foundered after hitting a rock.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -742,10 +747,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """foster""",
-                      // alsoEnglishWord: "also: foster",
-                      britshText: """IpaUK: /ˈfɒstə(r)/""",
-                      americanText: """IpaUS: /ˈfɑːstər/""",
+                      word: """founder""",
+                      // alsoEnglishWord: "also: founder",
+                      britshText: """IpaUK: /ˈfaʊndə(r)/""",
+                      americanText: """IpaUS: /ˈfaʊndər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -786,16 +791,15 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دامەزرێنەر، بنیاتنەر، بناخەدانەر، پێکهێنەر
 """),
-// With short examples define "foster", please follow LX instructions
-                    const DefinitionKurdish(
-                        text: """١. (کردار) گەشەپێدانی شتێک"""),
+// With short examples define "founder", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) دامەزرێنەر"""),
                     SentencesRow(
                       englishText:
-                          """Such organizations need to foster innovation.""",
+                          """She is the founder and managing director of the company.""",
                       kurdishText:
-                          """دامەزراوەی وەها دەبێت هانی نوێگەری بدەن.""",
+                          """دامەزرێنەر بەڕێوەبەری جێبەجێکاری کۆمپانیاکەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -804,55 +808,56 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """I'm trying to foster an interest in classical music in my children.""",
+                          """The statue commemorates the founder of the college.""",
                       kurdishText:
-                          """هەوڵ دەدەم حەزی میوزیکی کلاسیک لای منداڵەکانم گەشە پێ بدەم.""",
+                          """پەیکەرەکە دامەزرێنەری کۆلێژەکە بە بیردەهێنێتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (کردار) چاودێری کردنی منداڵی کەسێک بەبێ ئەوەی ببیت بە دایک و باوکی یاسایی"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """They have fostered over 60 children during the past ten years.""",
+                          """He is recognized as one of the founders of computer technology.""",
                       kurdishText:
-                          """لە ١٠ ساڵی ڕابردودا سەروو ٦٠ منداڵیان گەورە کردووە.""",
+                          """بە یەکێک لە دامەزرێنەرانی تەکنەلۆژیای کۆمپیوتەر دادەنرێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) شکستهێنان، بە تایبەتی بەهۆی کۆسپێک یان سەختییەک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """We couldn't adopt a child, so we decided to foster.""",
+                          """The project foundered after problems with funding.""",
                       kurdishText:
-                          """نەمان توانی منداڵ هەڵبگرینەوە، بۆیان بڕیارمان دا چاودێری کردن بکەین.""",
+                          """پڕۆژەکە شکستی هێنا لە دوای کێشەی بودجەکەی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٣. (هاوەڵناو) پەیوەندیدار بە بەخێوکردنی منداڵ"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """As a child, he had lived with a series of foster parents.""",
+                          """The peace talks foundered on a basic lack of trust.""",
                       kurdishText:
-                          """وەک منداڵێک، لەگەڵ زنجیرەیەک لە دایک و باوکی بەخێوکار ژیابوو.""",
+                          """گفتوگۆکانی ئاشتی شکستیان هێنا لەسەر نەبوونی متمانەی سەرەتایی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) پڕبوون لە ئاو و نوقمبوون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Our boat foundered after hitting a rock.""",
+                      kurdishText:
+                          """بەلەمەکەمان نوقمبوو لە دوای ئەوەی بەر تاشە بەردێک کەوت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1626,18 +1631,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/TKoCWh2yneM?t=';
-const double _startSecondsend = 000000000000000000000000000336;
-const String _videoIdone = 'https://youtu.be/vn1_vUghWzA?t=';
-const double _startSecondsone = 00000000000000000000000000095;
-const String _videoIdtwo = 'https://youtu.be/yH2FPSupO6c?t=';
-const double _startSecondstwo = 00000000000000000000000000086;
-const String _videoIdthree = 'https://youtu.be/i4FkQMDTqYc?t=';
-const double _startSecondsthree = 000000000000000000000000000505;
-const String _videoIdfour = 'https://youtu.be/FUHkTs-Ipfg?t=';
-const double _startSecondsfour = 0000000000000000000000000001045;
-const String _videoIdfive = 'https://youtu.be/Sbp_EeBk-As?t=';
-const double _startSecondsfive = 0000000000000000000000000001758;
+const String _videoIdend = 'https://youtu.be/R_fZjGm2OrM?t=';
+const double _startSecondsend = 000000000000000000000000000171;
+const String _videoIdone = 'https://youtu.be/O4iGNXsqghs?t=';
+const double _startSecondsone = 0000000000000000000000000007;
+const String _videoIdtwo = 'https://youtu.be/AF8d72mA41M?t=';
+const double _startSecondstwo = 000000000000000000000000000162;
+const String _videoIdthree = 'https://youtu.be/NpBPm0b9deQ?t=';
+const double _startSecondsthree = 00000000000000000000000000080;
+const String _videoIdfour = 'https://youtu.be/3C9wZf88y4Q?t=';
+const double _startSecondsfour = 000000000000000000000000000183;
+const String _videoIdfive = 'https://youtu.be/Oz9zw7-_vhM?t=';
+const double _startSecondsfive = 00000000000000000000000000015;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

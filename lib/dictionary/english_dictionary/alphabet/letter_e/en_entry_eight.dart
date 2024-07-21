@@ -434,7 +434,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Look at page eight.""",
-            kurdishText: """سەیری لاپەڕە ھەشت.""",
+            kurdishText: """سەیری لاپەڕە ھەشت بکە.""",
             onPressedBritish: () => speakeights4("en-GB"),
             onPressedAmerican: () => speakeights4("en-US"),
           ),

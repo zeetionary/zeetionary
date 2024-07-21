@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfifth extends StatefulWidget {
-  const EnglishEntryfifth({super.key});
+class EnglishEntryfourteenth extends StatefulWidget {
+  const EnglishEntryfourteenth({super.key});
 
   @override
-  State<EnglishEntryfifth> createState() => _EnglishEntryfifthState();
+  State<EnglishEntryfourteenth> createState() => _EnglishEntryfourteenthState();
 }
 
-class _EnglishEntryfifthState extends State<EnglishEntryfifth> {
+class _EnglishEntryfourteenthState extends State<EnglishEntryfourteenth> {
   @override
   void initState() {
     super.initState();
@@ -51,22 +51,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: fifth 
-1. Coming next after the fourth and just before the sixth in position (= 5th)
+- Adjective: fourteenth
+1. Coming next after the thirteenth in position (= 14th)
 
-- Noun: fifth (derived forms: fifths)
-1. A quantity of liquor equal to one fifth of a United States gallon
- 
-2. Position five in a countable series of things
-"he was fifth out of several hundred runners"
- 
-3. One part in five equal parts (= one-fifth, fifth part, twenty percent)
- 
-4. The musical interval between one note and another five notes away from it
+- Noun: fourteenth (Derived forms: fourteenths)
+1. Position 14 in a countable series of things
 """,
   );
 
-  final String keyword = "fifth";
+  final String keyword = "fourteenth";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -86,47 +79,55 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""fifth""");
+    await flutterTts.speak("""fourteenth""");
   }
 
-  Future<void> speakfifths1(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
+  Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("Today is the fifth of May.");
+    await flutterTts
+        .speak("""Valentine's Day is the fourteenth (of February).""");
   }
 
-  Future<void> speakfifths2(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
+  Future<void> speaksentence6(String languageCode) async {
+    // DOPSUM: CHANGE speakfourteenth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's her fifth birthday.");
+    await flutterTts.speak("Today is the fourteenth (of May).");
   }
 
-  Future<void> speakfifths3(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
+  Future<void> speaksentence2(String languageCode) async {
+    // DOPSUM: CHANGE speakfourteenth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("My office is on the fifth floor.");
+    await flutterTts.speak("It's her fourteenth birthday.");
   }
 
-  Future<void> speakfifths4(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
+  Future<void> speaksentence3(String languageCode) async {
+    // DOPSUM: CHANGE speakfourteenth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's the fifth time that I've been to America.");
+    await flutterTts.speak("My office is on the fourteenth floor.");
   }
 
-  Future<void> speakfifths5(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
+  Future<void> speaksentence4(String languageCode) async {
+    // DOPSUM: CHANGE speakfourteenth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("He finished fifth in the race.");
+    await flutterTts.speak("It's the fourteenth time that I've been to America.");
+  }
+
+  Future<void> speaksentence5(String languageCode) async {
+    // DOPSUM: CHANGE speakfourteenth
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(1.0);
+    await flutterTts.setSpeechRate(0.5);
+    await flutterTts.speak("He finished fourteenth in the race.");
   }
 
   @override
@@ -145,10 +146,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """fifth""",
-                      // alsoEnglishWord: "also: fifth",
-                      britshText: """IpaUK: /fɪfθ/""",
-                      americanText: """IpaUS: /fɪfθ/""",
+                      word: """fourteenth""",
+                      // alsoEnglishWord: "also: fourteenth",
+                      britshText: """IpaUK: /ˌfɔːˈtiːnθ/""",
+                      americanText: """IpaUS: /ˌfɔːrˈtiːnθ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -189,45 +190,54 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: پێنجەم، پێنجەمین
+کوردی: 
 """),
-// With short examples define "fifth", please follow LX instructions
+// With short examples define "fourteenth", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ژمارەی پلەیی) پێنجەم"""),
+                        text: """١. (ژمارەی پلەیی) چواردەیەم"""),
                     SentencesRow(
-                      englishText: """Today is the fifth of May.""",
-                      kurdishText: """ئەمڕۆ پێنجەمی ئایارە.""", // fifth
-                      onPressedBritish: () => speakfifths1("en-GB"),
-                      onPressedAmerican: () => speakfifths1("en-US"),
+                      englishText:
+                          """Valentine's Day is the fourteenth (of February).""",
+                      kurdishText: """ڕۆژی ڤالانتاین لە چواردەی شوباتە.""",
+                      onPressedBritish: () => speaksentence1("en-GB"),
+                      onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """It's her fifth birthday.""",
-                      kurdishText: """پێنجەم ساڵیادی لەدایکبوونییەتی.""",
-                      onPressedBritish: () => speakfifths2("en-GB"),
-                      onPressedAmerican: () => speakfifths2("en-US"),
+                      englishText: """Today is the fourteenth (of May).""",
+                      kurdishText: """ئەمڕۆ چواردەهەمی ئایارە.""", // fourteenth
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """My office is on the fifth floor.""",
-                      kurdishText: """ئۆفیسەکەم لە نھۆمی پێنجەمە.""",
-                      onPressedBritish: () => speakfifths3("en-GB"),
-                      onPressedAmerican: () => speakfifths3("en-US"),
+                      englishText: """It's her fourteenth birthday.""",
+                      kurdishText: """چواردەهەمین ساڵیادی لە دایکبوونیەتی.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """My office is on the fourteenth floor.""",
+                      kurdishText: """ئۆفیسەکەم لە نھۆمی چواردەهەمە.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """It's the fifth time that I've been to America.""",
-                      kurdishText: """ئەوە پێنجەم جارە چوومەتە ئەمریکا.""",
-                      onPressedBritish: () => speakfifths4("en-GB"),
-                      onPressedAmerican: () => speakfifths4("en-US"),
+                          """It's the fourteenth time that I've been to America.""",
+                      kurdishText:
+                          """ئەوە چواردەهەمین جارە کە چوومەتە ئەمریکا.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He finished fifth in the race.""",
-                      kurdishText: """پێنجەم بوو لە پێشبڕکێکەدا.""",
-                      onPressedBritish: () => speakfifths5("en-GB"),
-                      onPressedAmerican: () => speakfifths5("en-US"),
+                      englishText: """He finished fourteenth in the race.""",
+                      kurdishText: """چواردەهەمین بووە لە پێشبڕکێیەکە.""",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                   ],
                 ),
@@ -297,18 +307,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'LAOoF2gyQaA';
-const double _startSecondsend = 229;
-const String _videoIdone = 'o9zCgPtsups';
-const double _startSecondsone = 700;
-const String _videoIdtwo = 'ewLpXw6uN28';
-const double _startSecondstwo = 604;
-const String _videoIdthree = 'mY3SEMTROas';
-const double _startSecondsthree = 426;
-const String _videoIdfour = 'PXsZntwnArQ';
-const double _startSecondsfour = 117;
-const String _videoIdfive = 'syH0oN_B4g0';
-const double _startSecondsfive = 626;
+const String _videoIdend = 'https://youtu.be/UbnulKZg3L8?t=';
+const double _startSecondsend = 000000000000000000000000000446;
+const String _videoIdone = 'https://youtu.be/j4kI2h3iotA?t=';
+const double _startSecondsone = 0000000000000000000000000001968;
+const String _videoIdtwo = 'https://youtu.be/EXXUhhhu3Lg?t=';
+const double _startSecondstwo = 000000000000000000000000000286;
+const String _videoIdthree = 'https://youtu.be/C-ePy-2WLfY?t=';
+const double _startSecondsthree = 000000000000000000000000000659;
+const String _videoIdfour = 'https://youtu.be/Fut0t204JvE?t=';
+const double _startSecondsfour = 000000000000000000000000000840;
+const String _videoIdfive = 'https://youtu.be/3fILUAGw2mE?t=';
+const double _startSecondsfive = 000000000000000000000000000537;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

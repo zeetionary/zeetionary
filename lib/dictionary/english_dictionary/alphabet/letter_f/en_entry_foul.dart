@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfoster extends StatefulWidget {
-  const EnglishEntryfoster({super.key});
+class EnglishEntryfoul extends StatefulWidget {
+  const EnglishEntryfoul({super.key});
 
   @override
-  State<EnglishEntryfoster> createState() => _EnglishEntryfosterState();
+  State<EnglishEntryfoul> createState() => _EnglishEntryfoulState();
 }
 
-class _EnglishEntryfosterState extends State<EnglishEntryfoster> {
+class _EnglishEntryfoulState extends State<EnglishEntryfoul> {
   @override
   void initState() {
     super.initState();
@@ -51,25 +51,55 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: foster (Derived forms: fosters, fostering, fostered)
-1. Promote the growth of (= further)
-"Foster our children's well-being and education";
+- Adjective: foul (Derived forms: foulest, fouler)
+1. Highly offensive; arousing aversion or disgust (= disgusting, disgustful [archaic], distasteful, loathly, loathsome, repellent, repellant, repelling, revolting, skanky [informal], wicked, yucky [informal], gross-out [informal], loathful [archaic], yukky [informal])
+"a foul smell";
  
-2. Bring up under fosterage; of children
+2. Offensively malodorous (= fetid, foetid [Brit], foul-smelling, funky [N. Amer, informal], noisome, smelly, stinking, ill-scented)
+"a foul odour"; "a foul-smelling odour";
  
-3. Help develop, help grow (= nurture)
-"foster his talents";
+3. Violating accepted standards or rules (= cheating, dirty, unsporting, unsportsmanlike)
+"used foul means to gain power";
+ 
+4. (of a manuscript) defaced with changes (= dirty, marked-up)
+"foul copy";
+ 
+5. Characterized by obscenity (= filthy, nasty, smutty)
+"foul language";
+ 
+6. Disgustingly dirty; filled or smeared with offensive matter (= filthy, nasty, cruddy [informal])
+"a foul pond";
+ 
+7. (nautical) not having freedom of motion due to collision or entanglement; entangled (= afoul, fouled)
+"a foul anchor";
+ 
+8. (of a baseball) not hit between the foul lines
 
-- Adjective: foster
-1. Providing or receiving nurture or parental care though not related by blood or legal ties (= surrogate)
-"foster parent"; "foster child"; "foster home";
+- Noun: foul (Derived forms: fouls)
+1. (sport) an act that violates the rules of a sport
 
-- Noun: Foster (Derived forms: Fosters)
-1. United States songwriter whose songs embody the sentiment of the South before the American Civil War (1826-1864) (= Stephen Foster, Stephen Collins Foster)
+- Verb: foul (Derived forms: fouls, fouling, fouled)
+1. (baseball) hit a foul ball (= pollute, contaminate)
+ 
+2. Make impure in a bad way; make something harmful, especially by the addition of some unwanted substance
+"The industrial wastes fouled the lake";
+ 
+3. Become or cause to become obstructed (= clog, choke off, clog up, back up, congest, choke)
+"The leaves foul our drains in the Fall";
+ 
+4. Commit a foul; break the rules
+ 
+5. Spoil, spot, stain, or pollute (= befoul, defile, maculate [literary])
+"The townspeople fouled the river by emptying raw sewage into it";
+ 
+6. Make unclean
+"foul the water"
+ 
+7. Become soiled and dirty
 """,
   );
 
-  final String keyword = "foster";
+  final String keyword = "foul";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -89,116 +119,116 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""foster""");
+    await flutterTts.speak("""foul""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Such organizations need to foster innovation.""");
+    await flutterTts
+        .speak("""Foul drinking water was blamed for the epidemic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """I'm trying to foster an interest in classical music in my children.""");
+    await flutterTts.speak("""She could smell his foul breath.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """They have fostered over 60 children during the past ten years.""");
+    await flutterTts.speak("""The air in the cell was foul.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""We couldn't adopt a child, so we decided to foster.""");
+    await flutterTts.speak("""She's in a foul mood.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""As a child, he had lived with a series of foster parents.""");
+    await flutterTts.speak("""This tastes foul.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""His boss has a foul temper.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts
+        .speak("""She exploded in a torrent of foul language at me.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""What foul weather!""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""All murders are foul and futile.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""Harper was penalized for a foul tackle.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""He was fouled inside the penalty area.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak("""Do not permit your dog to foul the grass.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts
+        .speak("""The oil spill fouled the river and destroyed habitats.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak("""The rope fouled the propeller.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts
+        .speak("""The referee did not call a foul on the player.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
@@ -742,10 +772,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """foster""",
-                      // alsoEnglishWord: "also: foster",
-                      britshText: """IpaUK: /ˈfɒstə(r)/""",
-                      americanText: """IpaUS: /ˈfɑːstər/""",
+                      word: """foul""",
+                      // alsoEnglishWord: "also: foul",
+                      britshText: """IpaUK: /faʊl/""",
+                      americanText: """IpaUS: /faʊl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -786,16 +816,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بۆگەن، گەنیو، گنخاو، ناخۆش، خراپ، پیس، چەپەڵ، گڵاو، گەمار،	(هەوا) ناخۆش، ناسازگار، پڕبا و بارانی، خراپ،	قەبە، ناحەز، ناشیرین، کرێت، ناشایست،	پیس، بێ‌بەزەیی، چەپەڵ،	هەرزە، پڕ لە قسەی ساردوسووک،	(وەرزش) نادادپەروەرانە، ناپیاوانە، دوور لە ڕێسای وەرزشی،	(دەریاوانی، تەناف و هتد) لێک‌ئاڵاو، ئاڵۆسکاو، تێک‌گیراو، شێواو،	(قۆڵەکوورە و هتد) گیراو، بەرگیراو
 """),
-// With short examples define "foster", please follow LX instructions
+// With short examples define "foul", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) گەشەپێدانی شتێک"""),
+                        text: """١. (ھاوەڵناو) پیس و بۆگەن"""),
                     SentencesRow(
                       englishText:
-                          """Such organizations need to foster innovation.""",
+                          """Foul drinking water was blamed for the epidemic.""",
                       kurdishText:
-                          """دامەزراوەی وەها دەبێت هانی نوێگەری بدەن.""",
+                          """ئاوی خواردنەوەی پیس بە هۆکاری نەخۆشییەکە دانرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -803,47 +833,36 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """I'm trying to foster an interest in classical music in my children.""",
-                      kurdishText:
-                          """هەوڵ دەدەم حەزی میوزیکی کلاسیک لای منداڵەکانم گەشە پێ بدەم.""",
+                      englishText: """She could smell his foul breath.""",
+                      kurdishText: """بۆنی هەناسە پیسەکەیی دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (کردار) چاودێری کردنی منداڵی کەسێک بەبێ ئەوەی ببیت بە دایک و باوکی یاسایی"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """They have fostered over 60 children during the past ten years.""",
-                      kurdishText:
-                          """لە ١٠ ساڵی ڕابردودا سەروو ٦٠ منداڵیان گەورە کردووە.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """We couldn't adopt a child, so we decided to foster.""",
-                      kurdishText:
-                          """نەمان توانی منداڵ هەڵبگرینەوە، بۆیان بڕیارمان دا چاودێری کردن بکەین.""",
+                      englishText: """The air in the cell was foul.""",
+                      kurdishText: """هەوای زیندانەکە پیس بوو.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) زۆر ناخۆش؛ زۆر خراپ"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She's in a foul mood.""",
+                      kurdishText: """لە کەشێکی خراپە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٣. (هاوەڵناو) پەیوەندیدار بە بەخێوکردنی منداڵ"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """As a child, he had lived with a series of foster parents.""",
-                      kurdishText:
-                          """وەک منداڵێک، لەگەڵ زنجیرەیەک لە دایک و باوکی بەخێوکار ژیابوو.""",
+                      englishText: """This tastes foul.""",
+                      kurdishText: """تامی ناخۆشە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -851,62 +870,77 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His boss has a foul temper.""",
+                      kurdishText: """سەرپەرشتەکەی مەجازێکی خراپی هەیە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) کە زمانی ناشرین لەخۆ دەگرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She exploded in a torrent of foul language at me.""",
+                      kurdishText: """بە لێشاوێک لە جنێو پێمدا هاتە خوار.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) کەشووهەوای خراپ کە با و بارانی بەهێزی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """What foul weather!""",
+                      kurdishText: """چی کەشێکی نالەبارە!""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ھاوەڵناو) کە نائەخلاقی و دڕندانەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """All murders are foul and futile.""",
+                      kurdishText: """هەموو کوشتنەکان چەپەڵ و بێ‌بەرهەمن.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٦. (ھاوەڵناو) کە دژ بە یاسکانی وەرزشێکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Harper was penalized for a foul tackle.""",
+                      kurdishText: """هارپەر بۆ لێسەندنێکی هەڵە سزادرا.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٧. (کردار) کردنی شتێک بە یاریزانێکی دیکە کە دژ بە یاساکانی یارییەکەیە؛ لە یاریی بەیسبۆڵ واتا تۆپەکە بخەیتە دەرەوەی یاریگاکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was fouled inside the penalty area.""",
+                      kurdishText: """لە ناو ناوچەی سزا لێیدرا.""",
+                      englishNote:
+                          """This means that he was unfairly stopped or obstructed by another player within the designated penalty area on the field.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (کردار) پیسکردن، بە تایبەتی بە پیسایی جەستە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Do not permit your dog to foul the grass.""",
+                      kurdishText:
+                          """ڕێگا بە سەگەکەت مەدە چیمەنەکە پیس بکات.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -914,26 +948,33 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The oil spill fouled the river and destroyed habitats.""",
+                      kurdishText:
+                          """ڕژانی نەوتەکە ڕووبارەکەی پیسکرد و چەندین ژینگەی ژیانکردنی لەناوبرد.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (کردار) گیربوون لە شتێک و وەستاندنی لە کارکردن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The rope fouled the propeller.""",
+                      kurdishText: """حەبلەکە ئازڵکا بە پەروانەکە.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١٠. (ناو) کارێک کە دژ بە یاساکانی یارییەکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The referee did not call a foul on the player.""",
+                      kurdishText:
+                          """ناوبژیوانەکە فاوڵی ناگرت لەسەر یاریزانەکە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -1626,18 +1667,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/TKoCWh2yneM?t=';
-const double _startSecondsend = 000000000000000000000000000336;
-const String _videoIdone = 'https://youtu.be/vn1_vUghWzA?t=';
-const double _startSecondsone = 00000000000000000000000000095;
-const String _videoIdtwo = 'https://youtu.be/yH2FPSupO6c?t=';
-const double _startSecondstwo = 00000000000000000000000000086;
-const String _videoIdthree = 'https://youtu.be/i4FkQMDTqYc?t=';
-const double _startSecondsthree = 000000000000000000000000000505;
-const String _videoIdfour = 'https://youtu.be/FUHkTs-Ipfg?t=';
-const double _startSecondsfour = 0000000000000000000000000001045;
-const String _videoIdfive = 'https://youtu.be/Sbp_EeBk-As?t=';
-const double _startSecondsfive = 0000000000000000000000000001758;
+const String _videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
+const double _startSecondsend = 000000000000000000000000000625;
+const String _videoIdone = 'https://youtu.be/SY3y6zNTiLs?t=';
+const double _startSecondsone = 000000000000000000000000000128;
+const String _videoIdtwo = 'https://youtu.be/raSeaAeryWE?t=';
+const double _startSecondstwo = 000000000000000000000000000984;
+const String _videoIdthree = 'https://youtu.be/hoihoGGdQ4U?t=';
+const double _startSecondsthree = 000000000000000000000000000697;
+const String _videoIdfour = 'https://youtu.be/JoGjIRVY9t4?t=';
+const double _startSecondsfour = 0000000000000000000000000001580;
+const String _videoIdfive = 'https://youtu.be/mBbOF8LVCj4?t=';
+const double _startSecondsfive = 000000000000000000000000000135;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

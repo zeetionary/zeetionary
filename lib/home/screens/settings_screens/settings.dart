@@ -178,7 +178,7 @@ class SettingsPage extends ConsumerWidget {
           title: Text(
             'Delete Account',
             style: TextStyle(
-              fontSize: textSize + 3,
+              fontSize: textSize + 2,
             ),
           ),
           content: Text(

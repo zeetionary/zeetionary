@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfoyer extends StatefulWidget {
-  const EnglishEntryfoyer({super.key});
+class EnglishEntryfracture extends StatefulWidget {
+  const EnglishEntryfracture({super.key});
 
   @override
-  State<EnglishEntryfoyer> createState() => _EnglishEntryfoyerState();
+  State<EnglishEntryfracture> createState() => _EnglishEntryfractureState();
 }
 
-class _EnglishEntryfoyerState extends State<EnglishEntryfoyer> {
+class _EnglishEntryfractureState extends State<EnglishEntryfracture> {
   @override
   void initState() {
     super.initState();
@@ -51,13 +51,37 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: foyer (Derived forms: foyers)
-1. A large entrance, reception room, or waiting area (= anteroom, antechamber, entrance hall, hall, lobby, vestibule)
-Type of: room
+- Noun: fracture (Derived forms: fractures)
+1. Breaking of hard tissue such as bone (= break)
+"it was a nasty fracture";
+ 
+2. (geology) a crack in the earth's crust resulting from the displacement of one side with respect to the other (= fault, faulting, geological fault, shift, break)
+"they built it right over a geological fracture";
+ 
+3. The act of cracking something (= crack, cracking)
+
+- Verb: fracture (Derived forms: fractured, fractures, fracturing)
+1. Violate or abuse
+"This writer really fractures the language"
+ 
+2. Interrupt, break, or destroy
+"fracture the balance of power"
+ 
+3. Break into pieces
+"The pothole fractured a bolt on the axle"
+ 
+4. Become fractured
+"The tibia fractured from the blow of the iron pipe"
+ 
+5. Break (a bone)
+ 
+6. Fracture a bone of (= break
+)
+"I fractured my foot while playing hockey";
 """,
   );
 
-  final String keyword = "foyer";
+  final String keyword = "fracture";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -77,57 +101,57 @@ Type of: room
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""foyer""");
+    await flutterTts.speak("""fracture""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I’ll meet you in the foyer at 7 o’clock.""");
+    await flutterTts
+        .speak("""Cracks and fractures are appearing in the ancient wall.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""An elegant foyer leads directly to the living room.""");
+    await flutterTts.speak("""She sustained two fractures to her leg.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Old people's bones are more prone to fracture.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Ground movements could cause fracture of the pipe.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""His leg fractured in two places.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""Cast iron is not only heavy, but likely to fracture.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""Many people predicted that the party would fracture and split.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -727,10 +751,10 @@ Type of: room
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """foyer""",
-                      // alsoEnglishWord: "also: foyer",
-                      britshText: """IpaUK: /ˈfɔɪeɪ/""",
-                      americanText: """IpaUS: /ˈfɔɪər/""",
+                      word: """fracture""",
+                      // alsoEnglishWord: "also: fracture",
+                      britshText: """IpaUK: /ˈfræktʃə(r)/""",
+                      americanText: """IpaUS: /ˈfræktʃər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -771,38 +795,32 @@ Type of: room
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شکان، شکاوی، شکست، شکستە، درزبردن، قەڵەشین، قڵیشان، قڵیشاوی
 """),
-// With short examples define "foyer", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ناو) چۆڵاییەکی گەورە لە شوێنی ژوورەوەی بینایەک کە خەڵکی یەک دەبینن یان چاوەڕێ دەکەن"""),
+// With short examples define "fracture", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) شکانی ئێسک یان مادەی ڕەقی دیکە"""),
                     SentencesRow(
                       englishText:
-                          """I’ll meet you in the foyer at 7 o’clock.""",
-                      kurdishText: """کاتژمێر ٧ لە داڵانەکە دەتبینم.""",
+                          """Cracks and fractures are appearing in the ancient wall.""",
+                      kurdishText: """درز و شکاوی لە بینا کۆنەکە دەردەکەون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) هۆڵێک لە خانویەکی تایبەتی یان فلاتێک"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """An elegant foyer leads directly to the living room.""",
-                      kurdishText:
-                          """داڵانێکی جوان ڕاستەوخۆ بەرەو ژووری میوانی دەچێت.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She sustained two fractures to her leg.""",
+                      kurdishText: """تووشی دوو شکاوی بوویەوە لە لاقیدا.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٢. (ناو) ئەوەی شتێکە بشکێت، بە تایبەتی ئێسک"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Old people's bones are more prone to fracture.""",
+                      kurdishText: """ئێسکی بەساڵاچووان زیاتر هەستیارە بە شکان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -810,17 +828,17 @@ Type of: room
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Ground movements could cause fracture of the pipe.""",
+                      kurdishText: """چووڵەی زەوی دەکرێت ببێتە هۆکاری شکانی زیاتری بۆرییەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (کردار) شکان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His leg fractured in two places.""",
+                      kurdishText: """لاقی لە دوو شوێندا شکا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -828,17 +846,18 @@ Type of: room
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Cast iron is not only heavy, but likely to fracture.""",
+                      kurdishText: """ئاسنی پتەوکراو تەنها ئەوە نییە کە سەخت بێت بەڵکو ئەگەری هەیە بشکێت.""",
+                      englishNote: "This means that cast iron (= a type of strong, heavy metal made from iron and carbon) is not only heavy in weight but also prone to breaking or cracking under stress or pressure.",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (کردار) دابەشبوون بۆ چەند بەشێک بەشێوەیەک کە بوونی نەبێت یان یان کار نەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Many people predicted that the party would fracture and split.""",
+                      kurdishText: """زۆر کەس پێشبینی ئەوەیان دەکرد کە پارتەکە کەلێنی تێ بکەوێت و ببێتە دوو بەشەوە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1603,18 +1622,18 @@ Type of: room
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsend = 000000000000000000000000000845;
-const String _videoIdone = 'https://youtu.be/dS3njIz_Qzs?t=';
-const double _startSecondsone = 00000000000000000000000000015;
-const String _videoIdtwo = 'https://youtu.be/Uhh_An7FGek?t=';
-const double _startSecondstwo = 000000000000000000000000000626;
-const String _videoIdthree = 'https://youtu.be/nQEOK8I-Czc?t=';
-const double _startSecondsthree = 000000000000000000000000000141;
-const String _videoIdfour = 'https://youtu.be/VifGQZVJ7ns?t=';
-const double _startSecondsfour = 00000000000000000000000000076;
-const String _videoIdfive = 'https://youtu.be/MClUqaS2oaI?t=';
-const double _startSecondsfive = 000000000000000000000000000222;
+const String _videoIdend = 'https://youtu.be/NFtQOxjWfaA?t=';
+const double _startSecondsend = 00000000000000000000000000069;
+const String _videoIdone = 'https://youtu.be/xVQxvthAcLU?t=';
+const double _startSecondsone = 0000000000000000000000000001493;
+const String _videoIdtwo = 'https://youtu.be/qpi9epVHYlc?t=';
+const double _startSecondstwo = 000000000000000000000000000449;
+const String _videoIdthree = 'https://youtu.be/SwQhKFMxmDY?t=';
+const double _startSecondsthree = 000000000000000000000000000406;
+const String _videoIdfour = 'https://youtu.be/Qiok50TjAIE?t=';
+const double _startSecondsfour = 000000000000000000000000000175;
+const String _videoIdfive = 'https://youtu.be/7jD5Gkh4K34?t=';
+const double _startSecondsfive = 000000000000000000000000000432;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

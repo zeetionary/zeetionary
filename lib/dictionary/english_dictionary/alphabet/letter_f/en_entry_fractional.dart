@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfoyer extends StatefulWidget {
-  const EnglishEntryfoyer({super.key});
+class EnglishEntryfractional extends StatefulWidget {
+  const EnglishEntryfractional({super.key});
 
   @override
-  State<EnglishEntryfoyer> createState() => _EnglishEntryfoyerState();
+  State<EnglishEntryfractional> createState() => _EnglishEntryfractionalState();
 }
 
-class _EnglishEntryfoyerState extends State<EnglishEntryfoyer> {
+class _EnglishEntryfractionalState extends State<EnglishEntryfractional> {
   @override
   void initState() {
     super.initState();
@@ -51,13 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: foyer (Derived forms: foyers)
-1. A large entrance, reception room, or waiting area (= anteroom, antechamber, entrance hall, hall, lobby, vestibule)
-Type of: room
+- Adjective: fractional
+1. Constituting or comprising a part or fraction of a possible whole or entirety (= partial)
+"a fractional share of the vote";
+ 
+2. Constituting a division or an aliquot part of the basic monetary unit (= divisional)
+"American divisional (fractional) coins include the dime and the nickel"; "fractional currency is currency in denominations less than the basic monetary unit";
 """,
   );
 
-  final String keyword = "foyer";
+  final String keyword = "fractional";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -77,14 +80,15 @@ Type of: room
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""foyer""");
+    await flutterTts.speak("""fractional""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I’ll meet you in the foyer at 7 o’clock.""");
+    await flutterTts
+        .speak("""There was a fractional hesitation before he said yes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -92,7 +96,7 @@ Type of: room
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""An elegant foyer leads directly to the living room.""");
+        .speak("""Solve the fractional equation: 𝑥 + 1 / 𝑥 - 2 = 3.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -727,10 +731,10 @@ Type of: room
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """foyer""",
-                      // alsoEnglishWord: "also: foyer",
-                      britshText: """IpaUK: /ˈfɔɪeɪ/""",
-                      americanText: """IpaUS: /ˈfɔɪər/""",
+                      word: """fractional""",
+                      // alsoEnglishWord: "also: fractional",
+                      britshText: """IpaUK: /ˈfrækʃənl/""",
+                      americanText: """IpaUS: /ˈfrækʃənl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -771,29 +775,28 @@ Type of: room
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (بیرکاری) کەرتی، پارەیی،	کەم، بەش‌بەش، هێندەکی، ڕێزە، هیچەکە، ئایەخ، ناگرنگ
 """),
-// With short examples define "foyer", please follow LX instructions
+// With short examples define "fractional", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) چۆڵاییەکی گەورە لە شوێنی ژوورەوەی بینایەک کە خەڵکی یەک دەبینن یان چاوەڕێ دەکەن"""),
+                        text: """١. (ھاوەڵناو) زۆر بچووک؛ کە گرنگ نییە"""),
                     SentencesRow(
                       englishText:
-                          """I’ll meet you in the foyer at 7 o’clock.""",
-                      kurdishText: """کاتژمێر ٧ لە داڵانەکە دەتبینم.""",
+                          """There was a fractional hesitation before he said yes.""",
+                      kurdishText:
+                          """کەمێک دوودڵی هەبوو پێش ئەوەی بڵێت بەڵێ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) هۆڵێک لە خانویەکی تایبەتی یان فلاتێک"""),
+                        text: """٢. (ھاوەڵناو) کە بە شێوەی کەرت نووسراوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """An elegant foyer leads directly to the living room.""",
+                          """Solve the fractional equation: 𝑥 + 1 / 𝑥 - 2 = 3.""",
                       kurdishText:
-                          """داڵانێکی جوان ڕاستەوخۆ بەرەو ژووری میوانی دەچێت.""",
+                          """هاوکێشەی کەرتی 𝑥 + 1 / 𝑥 - 2 = 3 شیکار بکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1603,18 +1606,18 @@ Type of: room
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsend = 000000000000000000000000000845;
-const String _videoIdone = 'https://youtu.be/dS3njIz_Qzs?t=';
-const double _startSecondsone = 00000000000000000000000000015;
-const String _videoIdtwo = 'https://youtu.be/Uhh_An7FGek?t=';
-const double _startSecondstwo = 000000000000000000000000000626;
-const String _videoIdthree = 'https://youtu.be/nQEOK8I-Czc?t=';
-const double _startSecondsthree = 000000000000000000000000000141;
-const String _videoIdfour = 'https://youtu.be/VifGQZVJ7ns?t=';
-const double _startSecondsfour = 00000000000000000000000000076;
-const String _videoIdfive = 'https://youtu.be/MClUqaS2oaI?t=';
-const double _startSecondsfive = 000000000000000000000000000222;
+const String _videoIdend = 'https://youtu.be/LmpAntNjPj0';
+const double _startSecondsend = 0;
+const String _videoIdone = 'https://youtu.be/4P8fKd0IVOs?t=';
+const double _startSecondsone = 000000000000000000000000000743;
+const String _videoIdtwo = 'https://youtu.be/H0gYgu2sin0?t=';
+const double _startSecondstwo = 000000000000000000000000000535;
+const String _videoIdthree = 'https://youtu.be/hZwF9lloNLE?t=';
+const double _startSecondsthree = 00000000000000000000000000033;
+const String _videoIdfour = 'https://youtu.be/T1x_knZmZAk?t=';
+const double _startSecondsfour = 00000000000000000000000000024;
+const String _videoIdfive = 'https://youtu.be/FdKkIbeFXvM?t=';
+const double _startSecondsfive = 00000000000000000000000000078;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

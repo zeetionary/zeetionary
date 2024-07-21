@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfoyer extends StatefulWidget {
-  const EnglishEntryfoyer({super.key});
+class EnglishEntryfractal extends StatefulWidget {
+  const EnglishEntryfractal({super.key});
 
   @override
-  State<EnglishEntryfoyer> createState() => _EnglishEntryfoyerState();
+  State<EnglishEntryfractal> createState() => _EnglishEntryfractalState();
 }
 
-class _EnglishEntryfoyerState extends State<EnglishEntryfoyer> {
+class _EnglishEntryfractalState extends State<EnglishEntryfractal> {
   @override
   void initState() {
     super.initState();
@@ -51,13 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: foyer (Derived forms: foyers)
-1. A large entrance, reception room, or waiting area (= anteroom, antechamber, entrance hall, hall, lobby, vestibule)
-Type of: room
+- Noun: fractal (Derived forms: fractals)
+1. (mathematics) a geometric pattern that is repeated at every scale and so cannot be represented by classical geometry
+"Benoit Mandelbrot pioneered fractal geometry"
 """,
   );
 
-  final String keyword = "foyer";
+  final String keyword = "fractal";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -77,22 +77,22 @@ Type of: room
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""foyer""");
+    await flutterTts.speak("""fractal""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I’ll meet you in the foyer at 7 o’clock.""");
+    await flutterTts.speak(
+        """Romanesco is a type of broccoli that is a neat example of a fractal in nature.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""An elegant foyer leads directly to the living room.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -727,10 +727,10 @@ Type of: room
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """foyer""",
-                      // alsoEnglishWord: "also: foyer",
-                      britshText: """IpaUK: /ˈfɔɪeɪ/""",
-                      americanText: """IpaUS: /ˈfɔɪər/""",
+                      word: """fractal""",
+                      // alsoEnglishWord: "also: fractal",
+                      britshText: """IpaUK: /ˈfræktl/""",
+                      americanText: """IpaUS: /ˈfræktl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -773,27 +773,24 @@ Type of: room
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "foyer", please follow LX instructions
+// With short examples define "fractal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) چۆڵاییەکی گەورە لە شوێنی ژوورەوەی بینایەک کە خەڵکی یەک دەبینن یان چاوەڕێ دەکەن"""),
+                            """١. (ناو) چەمانەوەیەک یان شێوەیەک کە یەکێکی بچووکتری هاوشێوەی تێدایە کە ڕێک هەمان شێوەی هەیە"""),
                     SentencesRow(
                       englishText:
-                          """I’ll meet you in the foyer at 7 o’clock.""",
-                      kurdishText: """کاتژمێر ٧ لە داڵانەکە دەتبینم.""",
+                          """Romanesco is a type of broccoli that is a neat example of a fractal in nature.""",
+                      kurdishText:
+                          """ڕۆمانیسکۆ جۆرێکە لە کەلەرمێکە کە نموونەیەکی گونجاوی فراکتاڵە لە سرووشتدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) هۆڵێک لە خانویەکی تایبەتی یان فلاتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """An elegant foyer leads directly to the living room.""",
-                      kurdishText:
-                          """داڵانێکی جوان ڕاستەوخۆ بەرەو ژووری میوانی دەچێت.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1603,18 +1600,18 @@ Type of: room
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/HDntl7yzzVI?t=';
-const double _startSecondsend = 000000000000000000000000000845;
-const String _videoIdone = 'https://youtu.be/dS3njIz_Qzs?t=';
-const double _startSecondsone = 00000000000000000000000000015;
-const String _videoIdtwo = 'https://youtu.be/Uhh_An7FGek?t=';
-const double _startSecondstwo = 000000000000000000000000000626;
-const String _videoIdthree = 'https://youtu.be/nQEOK8I-Czc?t=';
-const double _startSecondsthree = 000000000000000000000000000141;
-const String _videoIdfour = 'https://youtu.be/VifGQZVJ7ns?t=';
-const double _startSecondsfour = 00000000000000000000000000076;
-const String _videoIdfive = 'https://youtu.be/MClUqaS2oaI?t=';
-const double _startSecondsfive = 000000000000000000000000000222;
+const String _videoIdend = 'https://youtu.be/BaVpeJlcQzg?t=';
+const double _startSecondsend = 000000000000000000000000000867;
+const String _videoIdone = 'https://youtu.be/sY8aFSY2zv4?t=';
+const double _startSecondsone = 000000000000000000000000000248;
+const String _videoIdtwo = 'https://youtu.be/-RdOwhmqP5s';
+const double _startSecondstwo = 0;
+const String _videoIdthree = 'https://youtu.be/uMMQbcisins?t=';
+const double _startSecondsthree = 000000000000000000000000000907;
+const String _videoIdfour = 'https://youtu.be/FOkgpfcnG8o?t=';
+const double _startSecondsfour = 000000000000000000000000000260;
+const String _videoIdfive = 'https://youtu.be/68LWjy7f-tA?t=';
+const double _startSecondsfive = 000000000000000000000000000483;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

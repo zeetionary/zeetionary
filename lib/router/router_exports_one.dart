@@ -3387,10 +3387,10 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_fowl.dart' show EnglishEntryfowl
 // en_entry_fox.dart' show EnglishEntryfox
 // en_entry_foyer.dart' show EnglishEntryfoyer
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_fractal.dart' show EnglishEntryfractal
+// en_entry_fraction.dart' show EnglishEntryfraction
+// en_entry_fractional.dart' show EnglishEntryfractional
+// en_entry_fracture.dart' show EnglishEntryfracture
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

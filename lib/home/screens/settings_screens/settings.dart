@@ -182,7 +182,7 @@ class SettingsPage extends ConsumerWidget {
             ),
           ),
           content: Text(
-            """Are you sure you want to permanently delete your account? You will lose your purchase of the app.""",
+            """Account deletion is permanent. You will lose your purchase of the app.""",
             style: TextStyle(
               fontSize: textSize,
             ),
@@ -210,6 +210,7 @@ class SettingsPage extends ConsumerWidget {
                 'Delete',
                 style: TextStyle(
                   fontSize: textSize,
+                  color: Colors.red,
                 ),
               ),
             ),

@@ -154,7 +154,7 @@ class EnglishEntrybevelled extends StatelessWidget {
                             englishText:
                                 "A picture frame often has bevelled edges.",
                             kurdishText:
-                                "چوارچێوەی وێنە زۆرجار سووچی پەخ‌داری ھەیە.",
+                                "چوارچێوەی وێنە زۆرجار قەراغی پەخ‌داری ھەیە.",
                             onPressedBritish: () => speakbevelleds1("en-GB"),
                             onPressedAmerican: () => speakbevelleds1("en-US"),
                           ),

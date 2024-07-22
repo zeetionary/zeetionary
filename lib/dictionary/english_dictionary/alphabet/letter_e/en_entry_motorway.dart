@@ -45,7 +45,7 @@ class _EnglishEntrymotorwayState extends State<EnglishEntrymotorway> {
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """motorway""",
-                      // alsoEnglishWord: "also: motorway",
+                      alsoEnglishWord: "also: expressway, freeway",
                       britshText: """IpaUK: /ˈməʊtəweɪ/""",
                       americanText: """IpaUS: /ˈməʊtərweɪ/""",
                       onPressedBritish: () => speakheadword("en-GB"),

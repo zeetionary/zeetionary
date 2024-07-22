@@ -6514,6 +6514,7 @@ final Map<String, String> wordRoutes = {
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   // "DOPSUM_DOPSUM_DOPSUM_DOPSUM": "/english-DOPSUM_DOPSUM_DOPSUM_DOPSUM",
   "expressway": "/english-motorway",
+  "freeway": "/english-motorway",
   "fire extinguisher": "/english-extinguisher",
   "eyebrow": "/english-brow",
   "eyelash": "/english-lash",

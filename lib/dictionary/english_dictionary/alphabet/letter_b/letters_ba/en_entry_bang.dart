@@ -291,6 +291,7 @@ class EnglishEntrybang extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
 ٨. (ناو) پەرچەمی قژ؛ بەشی پێشەوە کە شۆڕ دەبێتەوە بۆ ناوچاوان"""),
+                          const AlsoEnglishckb(word: "ھەروەھا: fringe"),
                           SentencesRow(
                             englishText: "She blew her bangs out of her face.",
                             kurdishText: "پەرچەمی لەسەر ڕووخساری لادا.",

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfreeze extends StatefulWidget {
-  const EnglishEntryfreeze({super.key});
+class EnglishEntryfriend extends StatefulWidget {
+  const EnglishEntryfriend({super.key});
 
   @override
-  State<EnglishEntryfreeze> createState() => _EnglishEntryfreezeState();
+  State<EnglishEntryfriend> createState() => _EnglishEntryfriendState();
 }
 
-class _EnglishEntryfreezeState extends State<EnglishEntryfreeze> {
+class _EnglishEntryfriendState extends State<EnglishEntryfriend> {
   @override
   void initState() {
     super.initState();
@@ -51,50 +51,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Verb: freeze (Derived forms: freezes, froze, frozen, freezing)
-1. Change to ice
-"The water in the bowl froze"
+- Noun: friend (Derived forms: friends)
+1. A person you know well and regard with affection and trust (= china [Brit, informal], mate [Brit, informal])
+"he was my best friend at the university";
  
-2. Stop moving or become immobilized (= stop dead)
-"When he saw the police car he froze";
+2. An associate who provides cooperation or assistance (= ally)
  
-3. Be cold
-"I could freeze to death in this office when the air conditioning is turned on"
+3. A person with whom you are acquainted (= acquaintance)
+"we are friends of the family";
  
-4. Cause to change to ice or become very cold
-"Freeze the leftover food"
- 
-5. Stop a process, activity or a habit (= suspend)
-"freeze the aid to the war-torn country";
- 
-6. Be very cold, below the freezing point
-"It is freezing in Kalamazoo"
- 
-7. (physics) change from a liquid to a solid when cold (= freeze out, freeze down)
-"Water freezes at 32 degrees Fahrenheit";
- 
-8. Prohibit the conversion or use of (assets) (= block, immobilize, immobilise [Brit])
-"Freeze the assets of this hostile government";
- 
-9. Anesthetize by cold
- 
-10. Suddenly behave coldly and formally
-"She froze when she saw her ex-husband"
+4. A person who backs a politician or a team etc. (= supporter, protagonist, champion, admirer, booster)
+"they are friends of the library";
 
-- Noun: freeze (Derived forms: freezes)
-1. The withdrawal of heat to change something from a liquid to a solid (= freezing)
- 
-2. Weather cold enough to cause freezing (= frost)
- 
-3. An interruption or temporary suspension of progress or movement (= halt)
-"a nuclear freeze";
- 
-4. Fixing (of prices or wages etc) at a particular level
-"a freeze on hiring"
+- Verb: friend (Derived forms: friended, friending, friends)
+1. Add someone to a list of friends on a social networking site
+
+- Noun: Friend (Derived forms: Friends)
+1. A member of the Religious Society of Friends founded by George Fox (the Friends have never called themselves Quakers) (= Quaker)
 """,
   );
 
-  final String keyword = "freeze";
+  final String keyword = "friend";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -114,169 +91,174 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""freeze""");
+    await flutterTts.speak("""friend""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Water freezes at 0°C.""");
+    await flutterTts.speak("""Is he a friend of yours?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""It's so cold that even the river has frozen.""");
+    await flutterTts.speak("""This is my friend Tom.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The cold weather had frozen the ground.""");
+    await flutterTts.speak("""Jane's a friend of the family.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The clothes froze solid on the washing line.""");
+    await flutterTts.speak("""She's an old friend.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The pipes have frozen, so we've got no water.""");
+    await flutterTts.speak("""He's one of my best friends.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I kept the car running to stop the engine freezing up.""");
+    await flutterTts.speak("""We've been friends for years.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""It may freeze tonight, so bring those plants inside.""");
+    await flutterTts
+        .speak("""They had a quarrel, but they're friends again now.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Every time she opens the window we all freeze.""");
+    await flutterTts
+        .speak("""I'm asking you as a friend not to tell anyone.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Two men froze to death on the mountain.""");
+    await flutterTts
+        .speak("""I heard about it through a friend of a friend.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Can you freeze this cake?""");
+    await flutterTts
+        .speak("""She wanted to share the news with family and friends.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The organ samples were immediately frozen in liquid nitrogen.""");
+    await flutterTts.speak("""How many friends have you got on Facebook?""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Some fruits freeze better than others.""");
+    await flutterTts.speak("""Theatre tickets are 10% cheaper for Friends.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I froze with terror as the door slowly opened.""");
+    await flutterTts
+        .speak("""You're among friends here—you can speak freely.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He was so surprised he froze to the spot.""");
+    await flutterTts.speak("""My friends, let me introduce myself.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""She froze with horror when she saw the body.""");
+    await flutterTts
+        .speak("""I wish our friend at the next table would shut up.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""If your computer freezes, you may have to shut it down manually by holding the power button for several seconds.""");
+    await flutterTts.speak("""I friended her and sent her a message.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Freeze the action there!""");
+    await flutterTts.speak("""speaksentence1700""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Salaries have been frozen for the current year.""");
+    await flutterTts.speak("""speaksentence1800""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The company's assets have been frozen.""");
+    await flutterTts.speak("""speaksentence1900""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The government has imposed a price freeze on bread.""");
+    await flutterTts.speak("""speaksentence_2000""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Due to the crisis, there was a freeze on imports of certain goods.""");
+    await flutterTts.speak("""speaksentence2100""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Farmers still talk about the big freeze of '99.""");
+    await flutterTts.speak("""speaksentence2200""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""A freeze warning was posted for Thursday night.""");
+    await flutterTts.speak("""speaksentence2300""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
@@ -764,10 +746,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """freeze""",
-                      // alsoEnglishWord: "also: freeze",
-                      britshText: """IpaUK: /friːz/""",
-                      americanText: """IpaUS: /friːz/""",
+                      word: """friend""",
+                      // alsoEnglishWord: "also: friend",
+                      britshText: """IpaUK: /frend/""",
+                      americanText: """IpaUS: /frend/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -808,133 +790,167 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دۆست، برادەر، ڕفێق، هاوڕێ، هاودەم، یار، هەڤاڵ،	یارمەتیدەر، بەهانەوەچوو، لایەنگر، داژدار، پشتیوان،	(لە شەڕدا) یەک‌گرتوو، هەڤ‌گرتوو، یەک‌کەوتوو، هاوپەیمان
 """),
-// With short examples define "freeze", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) بەستن"""),
+// With short examples define "friend", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) هاوڕێ"""),
                     SentencesRow(
-                      englishText:
-                          """Water freezes at 0°C.""",
-                      kurdishText: """ئاو لە پلەی یەکی سیلیزی دەیبەستێت.""",
+                      englishText: """Is he a friend of yours?""",
+                      kurdishText: """هاوڕێتە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """It's so cold that even the river has frozen.""",
-                      kurdishText: """هێندە ساردە کە تەنانەت ڕووبارەکەش بەستوویەتی.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText: """This is my friend Tom.""",
+                              kurdishText: """ئەمە تۆمی هاوڕێمە.""",
+                              onPressedBritish: () => speaksentence2("en-GB"),
+                              onPressedAmerican: () => speaksentence2("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """Jane's a friend of the family.""",
+                              kurdishText: """جەین هاوڕێی خێزانەکەیە.""",
+                              onPressedBritish: () => speaksentence3("en-GB"),
+                              onPressedAmerican: () => speaksentence3("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """She's an old friend (= I have known her a long time).""",
+                              kurdishText: """هاوڕێیەکی کۆنە.""",
+                              onPressedBritish: () => speaksentence4("en-GB"),
+                              onPressedAmerican: () => speaksentence4("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """He's one of my best friends.""",
+                              kurdishText: """یەکێکە لە باشترین هاوڕێکانم.""",
+                              onPressedBritish: () => speaksentence5("en-GB"),
+                              onPressedAmerican: () => speaksentence5("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """We've been friends for years.""",
+                              kurdishText: """بۆ چەندین ساڵە هاوڕێین.""",
+                              onPressedBritish: () => speaksentence6("en-GB"),
+                              onPressedAmerican: () => speaksentence6("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """They had a quarrel, but they're friends again now.""",
+                              kurdishText:
+                                  """مشتومڕێکیان هەبوو، بەڵام دووبارە هاوڕێن.""",
+                              onPressedBritish: () => speaksentence7("en-GB"),
+                              onPressedAmerican: () => speaksentence7("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I'm asking you as a friend not to tell anyone.""",
+                              kurdishText:
+                                  """وەک هاوڕێیەک داوات لێدەکەم بە کەس نەڵێیت.""",
+                              onPressedBritish: () => speaksentence8("en-GB"),
+                              onPressedAmerican: () => speaksentence8("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I heard about it through a friend of a friend.""",
+                              kurdishText:
+                                  """لە ڕێگەی هاوڕێی هاوڕێیەکەوە بیستم.""",
+                              onPressedBritish: () => speaksentence9("en-GB"),
+                              onPressedAmerican: () => speaksentence9("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """She wanted to share the news with family and friends.""",
+                              kurdishText:
+                                  """دەیویست هەواڵەکە بە دۆست و خزمان بڵێت.""",
+                              onPressedBritish: () => speaksentence10("en-GB"),
+                              onPressedAmerican: () => speaksentence10("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە لە تۆڕە کۆمەڵایەتییەکان هاوڕێتە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The cold weather had frozen the ground.""",
-                      kurdishText: """کەشە ساردەکە زەوییەکەی بەستووە.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The clothes froze solid on the washing line.""",
-                      kurdishText: """جلەکان لەسەر تەنافەکە بە چڕی بەستوویانە.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) گیران یان لەکارکەوتنی شتێک بەهۆی ئەوەی کە بەستوویەتی"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The pipes have frozen, so we've got no water.""",
-                      kurdishText: """بۆرییەکان بەستوویانە، بۆیە هیچ ئاومان نییە.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I kept the car running to stop the engine freezing up.""",
-                      kurdishText: """ئۆتۆمبێلەکەم لە جووڵەدا هێشتەوە بۆ ئەوەی بزوێنەرەکەی نەیبەستێت.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) کە پلەی گەرمی سفر یان لە ژێر سفرە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """It may freeze tonight, so bring those plants inside.""",
-                      kurdishText: """ئەمشەو ڕەنگە بیبەستێت، بۆیە ئەو ڕووەکانە بێنە ژوورەوە.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (کردار) سەرمابوونی زۆر؛ ئەوەی لە سەرمادا بمریت"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Every time she opens the window we all freeze.""",
-                      kurdishText: """هەر جارێک پەنجەرەکە دەکاتەوە هەموومان لە سەرمادا دەتۆقین.""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Two men froze to death on the mountain.""",
-                      kurdishText: """دوو پیاو لە سەرمادا مردن لەسەر شاخەکە.""",
-                      englishNote: "Also: Two men were frozen to death on the mountain.",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (کردار) هەڵگرتنی شتێک لە پلەی گەرمیی کەمدا بۆ ئەوەی پاراستنی"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Can you freeze this cake?""",
-                      kurdishText: """دەتوانیت ئەم کێکە بە ساردی بهێڵیتەوە؟.""",
-                      onPressedBritish: () => speaksentence10("en-GB"),
-                      onPressedAmerican: () => speaksentence10("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The organ samples were immediately frozen in liquid nitrogen.""",
-                      kurdishText: """نموونە ئەندامییەکان دەستبەجێ لە نایترۆجینی شلە هەڵگیردران.""",
-                      englishNote: "This means that the parts of organs taken for study or analysis (organ samples) were quickly preserved by being placed in extremely cold liquid nitrogen to prevent decay or changes.",
+                      englishText:
+                          """How many friends have you got on Facebook?""",
+                      kurdishText: """چەند هاوڕێت هەیە لەسەر فەیسبووک؟""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (کردار) ئەوەی کە بکرێت لە پلەی گەرمی نزم دابنرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کەسێک کە پشتگیری ڕێکخراوێک دەکات؛ کەسێک کە پشتگیری باوەڕێک، هتد دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Some fruits freeze better than others.""",
-                      kurdishText: """هەندێک میوە باشتر دەیبەستن وەک لەوانی دیکە.""",
+                      englishText:
+                          """Theatre tickets are 10% cheaper for Friends.""",
+                      kurdishText:
+                          """بلیتی هۆڵی شانۆ ١٠٪ هەرزانترە بۆ ئەندامان.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (کردار) لەناکاو وەستان لە جووڵە بەهۆی ترس، هتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) کەسێک کە هەمان بەرژەوەندی و بیرکردنەوەی خۆتی هەیە و پاڵپشتیت دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I froze with terror as the door slowly opened.""",
-                      kurdishText: """لە تۆقاندا لە جووڵە کوتم کە دەرگاکە کەم‌کەم کرایەوە.""",
+                      englishText:
+                          """You're among friends here—you can speak freely.""",
+                      kurdishText:
+                          """لێرە لەناو دۆستانیت ـ دەتوانیت بە ئازادی قسە بکەیت.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ناو) بۆ ناوهێنانی کەسێک کە دیوتە بەڵام هاوڕێت نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was so surprised he froze to the spot.""",
-                      kurdishText: """زۆر سەرسام بووم کە لە جێگای خۆی وشک بوو.""",
+                      englishText: """My friends, let me introduce myself.""",
+                      kurdishText: """هاوڕێیان، با خۆم بناسێنم.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -942,80 +958,85 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She froze with horror when she saw the body.""",
-                      kurdishText: """کە جەستەکەی بینی لە تۆقیندا لە پێ کەوت.""",
+                      englishText:
+                          """I wish our friend at the next table would shut up.""",
+                      kurdishText:
+                          """بە هیوام هاوڕێکەمان لە مێزەکەی دیکە دەمی دابخات.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (کردار) کە کۆمپیوتەرێک لە کار دەکەوێت بەوەی شاشەکەی هێشتا کار دەکات بەڵام ناتوانیت هیچ کارێک ئەنجام بدەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (کردار) زیادکردنی کەسێک وەک هاوڕێ لەسەر تۆڕێکی کۆمەڵایەتی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """If your computer freezes, you may have to shut it down manually by holding the power button for several seconds.""",
-                      kurdishText: """ئەگەر کۆمپیوتەرەکەت جام بکات، ڕەنگە پێویست بێت بیکوژێنیتەوە بە دەستی بەوەی دوگمەی کارکردنی بۆ چەند چرکەیەک.""",
+                      englishText: """I friended her and sent her a message.""",
+                      kurdishText:
+                          """وەک هاوڕێ زیادم کرد و نامەیەکم بۆ نارد.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (کردار) وەستاندنی فیلم یان ڤیدیۆیەک بۆ سەیرکردنی وێنەیەکی دیاریکراو"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Freeze the action there!""",
-                      kurdishText: """لەوێدا فیلمەکە ڕابگرە!""",
+                      englishText: """speaksentence1700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (کردار) جێگیرکردن لە ئاستێکی دیاریکراودا"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Salaries have been frozen for the current year.""",
-                      kurdishText: """مووچەی ئەم ساڵ جێگیر کراوە.""",
+                      englishText: """speaksentence1800""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (کردار) ڕێگری کردن لەوەی پارە، هەژماری بانکی، هتد بەکاربێت بە وەرگرتنی فەرمانی دادگا"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The company's assets have been frozen.""",
-                      kurdishText: """سامانی کۆمپانیاکە دەستی بەسەر گیردراوە.""",
+                      englishText: """speaksentence1900""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٢. (ناو) جێگیرکردن لە ئاستێکی دیاریکراودا"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The government has imposed a price freeze on bread.""",
-                      kurdishText: """حکومەت نرخی جێگیری داناوە لەسەر ناندا.""",
+                      englishText: """speaksentence_2000""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (ناو) وەستاندنی شتێک"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Due to the crisis, there was a freeze on imports of certain goods.""",
-                      kurdishText: """بەهۆی قەیرانەکەوە، ڕاگرتنێک هەبوو لە هاوردەی ژمارەیەک کاڵای دیاریکراو.""",
+                      englishText: """speaksentence2100""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٤. (ناو) ماوەیەک لە کەشووهەوای زۆر سارد"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Farmers still talk about the big freeze of '99.""",
-                      kurdishText: """جوتیاران هێشتا باس لە بەستنە گەورەکەی ٩٩ دەکەن.""",
+                      englishText: """speaksentence2200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٥. (ناو) ماوەیەکی دیاریکراو کە پلەی گەرمی لە ژێر سفرە"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A freeze warning was posted for Thursday night.""",
-                      kurdishText: """ئاگادارییەکی پلەی ژێر سفر ڕاگەیەندرا بۆ شەوی پێنجشەممە.""",
+                      englishText: """speaksentence2300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -1636,18 +1657,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/DPZzrlFCD_I?t=';
-const double _startSecondsend = 000000000000000000000000000108;
-const String _videoIdone = 'https://youtu.be/qWAagS_MANg?t=';
-const double _startSecondsone = 0000000000000000000000000001126;
-const String _videoIdtwo = 'https://youtu.be/bFl3_J2gBu4?t=';
-const double _startSecondstwo = 000000000000000000000000000176;
-const String _videoIdthree = 'https://youtu.be/0ST4_hmop9Y?t=';
-const double _startSecondsthree = 000000000000000000000000000688;
-const String _videoIdfour = 'https://youtu.be/g9QneAV4fVo?t=';
-const double _startSecondsfour = 000000000000000000000000000449;
-const String _videoIdfive = 'https://youtu.be/lsbcN9-jU1Y?t=';
-const double _startSecondsfive = 0000000000000000000000000001150;
+const String _videoIdend = 'https://youtu.be/a_TSR_v07m0?t=';
+const double _startSecondsend = 00000000000000000000000000066;
+const String _videoIdone = 'https://youtu.be/0eEkWvekQiE?t=';
+const double _startSecondsone = 00000000000000000000000000010;
+const String _videoIdtwo = 'https://youtu.be/hTqtGJwsJVE?t=';
+const double _startSecondstwo = 0000000000000000000000000001200;
+const String _videoIdthree = 'https://youtu.be/wizgxRBfVTY?t=';
+const double _startSecondsthree = 000000000000000000000000000107;
+const String _videoIdfour = 'https://youtu.be/nANGQ_9wD-0';
+const double _startSecondsfour = 0;
+const String _videoIdfive = 'https://youtu.be/hS2x1zl4rn0?t=';
+const double _startSecondsfive = 0000000000000000000000000001362;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

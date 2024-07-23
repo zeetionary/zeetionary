@@ -193,6 +193,7 @@ class EnglishEntrychip extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) قاژێکی باریک و درێژی پەتاتە کە لە ڕۆندا برژێندراوە"),
+                          const AlsoEnglishckb(word: "ھەروەھا: French fry"),
                           SentencesRow(
                             englishText: "He was eating a burger and chips.",
                             kurdishText: "لەفە و پەتاتەی دەخوارد.", // chip",

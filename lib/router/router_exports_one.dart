@@ -3522,18 +3522,18 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_fulfil.dart' show EnglishEntryfulfil
 // en_entry_fulfilment.dart' show EnglishEntryfulfilment
 // en_entry_full.dart' show EnglishEntryfull
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_full_board.dart' show EnglishEntryfullboard
+// en_entry_full_length.dart' show EnglishEntryfulllength //// فففف full-length
+// en_entry_full_moon.dart' show EnglishEntryfullmoon //// فففف full moon
+// en_entry_fullness.dart' show EnglishEntryfullness
+// en_entry_full_scale.dart' show EnglishEntryfullscale //// فففف full-scale
+// en_entry_full_stop.dart' show EnglishEntryfullstop //// full stop
+// en_entry_full_time.dart' show EnglishEntryfulltime //// فففف full-time
+// en_entry_fully.dart' show EnglishEntryfully
+// en_entry_fumble.dart' show EnglishEntryfumble
+// en_entry_fume.dart' show EnglishEntryfume
+// en_entry_fun.dart' show EnglishEntryfun
+// en_entry_function.dart' show EnglishEntryfunction
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

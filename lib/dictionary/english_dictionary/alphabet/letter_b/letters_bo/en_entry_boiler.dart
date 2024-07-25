@@ -148,6 +148,7 @@ class EnglishEntryboiler extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) شتێکە کە تێیدا ئاو گەرم دەکرێت بۆ ئەوەی ئاوی گەرم بۆ بینایەک دابین بکات یان ھەڵم درووست بکات بۆ بزوێنەرێک"),
+                          const AlsoEnglishckb(word: "ھەروەھا: furnace"),
                           SentencesRow(
                             englishText:
                                 "You might need to install a new boiler.",

@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfrenchwindow extends StatefulWidget {
-  const EnglishEntryfrenchwindow({super.key});
+class EnglishEntryfutility extends StatefulWidget {
+  const EnglishEntryfutility({super.key});
 
   @override
-  State<EnglishEntryfrenchwindow> createState() =>
-      _EnglishEntryfrenchwindowState();
+  State<EnglishEntryfutility> createState() => _EnglishEntryfutilityState();
 }
 
-class _EnglishEntryfrenchwindowState extends State<EnglishEntryfrenchwindow> {
+class _EnglishEntryfutilityState extends State<EnglishEntryfutility> {
   @override
   void initState() {
     super.initState();
@@ -52,12 +51,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: French window (Derived forms: French windows)
-1. A French door situated in an exterior wall of a building
+- Noun: futility (Derived forms: futilities)
+1. Uselessness as a consequence of having no practical result
+"She finally perceived the futility of her protest"
 """,
   );
 
-  final String keyword = "French window";
+  final String keyword = "futility";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -77,15 +77,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""French window""");
+    await flutterTts.speak("""futility""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """You get to the garden through French windows at the back of the house.""");
+    await flutterTts.speak("""People have got tired of the futility of war.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -727,10 +726,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """French window""",
-                      // alsoEnglishWord: "also: French window",
-                      britshText: """IpaUK: /ˌfrentʃ ˈwɪndəʊ/""",
-                      americanText: """IpaUS: /ˌfrentʃ ˈwɪndəʊ/""",
+                      word: """futility""",
+                      // alsoEnglishWord: "also: futility",
+                      britshText: """IpaUK: /fjuːˈtɪləti/""",
+                      americanText: """IpaUS: /fjuːˈtɪləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -771,17 +770,16 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌سوودی، بێ‌ئەنجامی، بێ‌ئاکامی، بێ‌بەرهەمی، بێ‌واتایی، بێ‌بەهرەیی، هیچی، بێهوودەیی، لەخۆڕایی‌بوون، بێ‌کەڵکی، بەکارنەهاتوویی، نەزۆکی
 """),
-// With short examples define "French window", please follow LX instructions
+// With short examples define "futility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دەرگایەکی شووشەیی، بە تایبەتی دووتایی، کە دەڕوانێت بەسەر باخچە یان باڵکۆنە"""),
+                            """١. (ناو) ئەوەی کە هیچ هۆکارێک نەبێت بۆ کردنی شتێک بەهۆی ئەوەی ئەگەری سەرکەتن نییە"""),
                     SentencesRow(
                       englishText:
-                          """You get to the garden through French windows at the back of the house.""",
-                      kurdishText:
-                          """لە ڕێگەی دەرگا دووتاییەکانەوە لە پشتەوەی خانووەکە دەچیتە باخچەکە.""",
+                          """People have got tired of the futility of war.""",
+                      kurdishText: """خەڵکی بێزار بوونە لە بێ‌هوودەیی جەنگ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1600,18 +1598,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/WgMrfNkt-N4?t=';
-const double _startSecondsend = 000000000000000000000000000217;
-const String _videoIdone = 'https://youtu.be/SD4plbr5qL0?t=';
-const double _startSecondsone = 000000000000000000000000000381;
-const String _videoIdtwo = 'https://youtu.be/KI6JM6qySwk?t=';
-const double _startSecondstwo = 00000000000000000000000000083;
-const String _videoIdthree = 'https://youtu.be/kD6e-JSmx20?t=';
-const double _startSecondsthree = 000000000000000000000000000154;
-const String _videoIdfour = 'https://youtu.be/LLnybXGThbk?t=';
-const double _startSecondsfour = 000000000000000000000000000881;
-const String _videoIdfive = 'https://youtu.be/dzXaNxdXPiE?t=';
-const double _startSecondsfive = 000000000000000000000000000415;
+const String _videoIdend = 'https://youtu.be/Ix6vtM4gP8g?t=';
+const double _startSecondsend = 000000000000000000000000000294;
+const String _videoIdone = 'https://youtu.be/Y63dBBlHlSk?t=';
+const double _startSecondsone = 000000000000000000000000000332;
+const String _videoIdtwo = 'https://youtu.be/yQ1IA117gKE?t=';
+const double _startSecondstwo = 000000000000000000000000000354;
+const String _videoIdthree = 'https://youtu.be/Solb9uA-tgQ?t=';
+const double _startSecondsthree = 0000000000000000000000000003269;
+const String _videoIdfour = 'https://youtu.be/_ltCS-ve104?t=';
+const double _startSecondsfour = 000000000000000000000000000309;
+const String _videoIdfive = 'https://youtu.be/fKfRcOoXKAc?t=';
+const double _startSecondsfive = 0000000000000000000000000002420;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

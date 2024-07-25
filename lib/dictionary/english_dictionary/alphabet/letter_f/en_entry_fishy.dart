@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryfishy extends StatefulWidget {
+  const EnglishEntryfishy({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryfishy> createState() => _EnglishEntryfishyState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryfishyState extends State<EnglishEntryfishy> {
   @override
   void initState() {
     super.initState();
@@ -60,7 +60,7 @@ ${englishMeaningConst.text}
 """,
   );
 
-  final String keyword = "dopsum1";
+  final String keyword = "fishy";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,7 +80,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""fishy""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -121,8 +121,8 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
+                      word: """fishy""",
+                      // alsoEnglishWord: "also: fishy",
                       britshText: """IpaUK: /ˈfɪʃi/""",
                       americanText: """IpaUS: /ˈfɪʃi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -167,7 +167,7 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماسی‌ئاسا، پێوەندی بە ماسی‌یەوە ھەیە (بۆن و بەرام)، پڕماسی،	گوماناوی، گومان‌لەسەر، جێی‌شک
 """),
-// With short examples define "dopsum1", please follow LX instructions
+// With short examples define "fishy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە وەھا دەردەکەوێت ھەڵە، نایاسایی، یان فێڵبازانە بێت"""),

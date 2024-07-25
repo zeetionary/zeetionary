@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfrenchwindow extends StatefulWidget {
-  const EnglishEntryfrenchwindow({super.key});
+class EnglishEntryfutile extends StatefulWidget {
+  const EnglishEntryfutile({super.key});
 
   @override
-  State<EnglishEntryfrenchwindow> createState() =>
-      _EnglishEntryfrenchwindowState();
+  State<EnglishEntryfutile> createState() => _EnglishEntryfutileState();
 }
 
-class _EnglishEntryfrenchwindowState extends State<EnglishEntryfrenchwindow> {
+class _EnglishEntryfutileState extends State<EnglishEntryfutile> {
   @override
   void initState() {
     super.initState();
@@ -52,12 +51,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: French window (Derived forms: French windows)
-1. A French door situated in an exterior wall of a building
+- Adjective: futile
+1. Producing no result or effect (- ineffectual, otiose, unavailing, meaningless)
+"a futile effort";
+ 
+2. Unproductive of success (- bootless, fruitless, sleeveless, vain)
+"futile years after her artistic peak";
 """,
   );
 
-  final String keyword = "French window";
+  final String keyword = "futile";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -77,29 +80,29 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""French window""");
+    await flutterTts.speak("""futile""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak(
-        """You get to the garden through French windows at the back of the house.""");
+    await flutterTts.speak("""Their efforts to revive him were futile.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It would be futile to protest.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""She made one last futile effort to unlock the door.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -727,10 +730,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """French window""",
-                      // alsoEnglishWord: "also: French window",
-                      britshText: """IpaUK: /ˌfrentʃ ˈwɪndəʊ/""",
-                      americanText: """IpaUS: /ˌfrentʃ ˈwɪndəʊ/""",
+                      word: """futile""",
+                      // alsoEnglishWord: "also: futile",
+                      britshText: """IpaUK: /ˈfjuːtaɪl/""",
+                      americanText: """IpaUS: /ˈfjuːtl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -771,17 +774,17 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ئەنجام، بێ‌ئاکام، بێ‌بەرهەم، بێ‌سەروبن، هیچ، بێ‌بەهرە، بێ‌سوود، بێهوودە، لەخۆڕایی، بێ‌کەڵک، بەکارنەهاتوو، نەزۆک
 """),
-// With short examples define "French window", please follow LX instructions
+// With short examples define "futile", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دەرگایەکی شووشەیی، بە تایبەتی دووتایی، کە دەڕوانێت بەسەر باخچە یان باڵکۆنە"""),
+                            """١. (ھاوەڵناو) کە بێ‌سوودە چونکە هیچ ئەگەری سەرکەوتنی نییە"""),
                     SentencesRow(
                       englishText:
-                          """You get to the garden through French windows at the back of the house.""",
+                          """Their efforts to revive him were futile.""",
                       kurdishText:
-                          """لە ڕێگەی دەرگا دووتاییەکانەوە لە پشتەوەی خانووەکە دەچیتە باخچەکە.""",
+                          """هەوڵەکانیان بۆ زیندووکردنەوەی ئەو بێهوودە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -789,8 +792,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It would be futile to protest.""",
+                      kurdishText: """بێ‌ئاکام دەبێت ناڕەزایی دەربڕین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -798,8 +801,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She made one last futile effort to unlock the door.""",
+                      kurdishText:
+                          """کۆتا هەوڵی بێ‌هوودەی دا بۆ کردنەوەی دەرگاکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1600,18 +1605,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/WgMrfNkt-N4?t=';
-const double _startSecondsend = 000000000000000000000000000217;
-const String _videoIdone = 'https://youtu.be/SD4plbr5qL0?t=';
-const double _startSecondsone = 000000000000000000000000000381;
-const String _videoIdtwo = 'https://youtu.be/KI6JM6qySwk?t=';
-const double _startSecondstwo = 00000000000000000000000000083;
-const String _videoIdthree = 'https://youtu.be/kD6e-JSmx20?t=';
-const double _startSecondsthree = 000000000000000000000000000154;
-const String _videoIdfour = 'https://youtu.be/LLnybXGThbk?t=';
-const double _startSecondsfour = 000000000000000000000000000881;
-const String _videoIdfive = 'https://youtu.be/dzXaNxdXPiE?t=';
-const double _startSecondsfive = 000000000000000000000000000415;
+const String _videoIdend = 'https://youtu.be/S3ksC_8jGuc?t=';
+const double _startSecondsend = 00000000000000000000000000083;
+const String _videoIdone = 'https://youtu.be/SwQhKFMxmDY?t=';
+const double _startSecondsone = 0000000000000000000000000003201;
+const String _videoIdtwo = 'https://youtu.be/7eM7pb5M5DU?t=';
+const double _startSecondstwo = 000000000000000000000000000382;
+const String _videoIdthree = 'https://youtu.be/TSmEn1qfhnU?t=';
+const double _startSecondsthree = 000000000000000000000000000661;
+const String _videoIdfour = 'https://youtu.be/8X1xYpPmKvA?t=';
+const double _startSecondsfour = 0000000000000000000000000004106;
+const String _videoIdfive = 'https://youtu.be/4IaOeVgZ-wc?t=';
+const double _startSecondsfive = 0000000000000000000000000003117;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -84,22 +84,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The service is too fussily attentive - we're asked six times if we've enjoyed our food.""");
+    await flutterTts.speak(
+        """The service is too fussily attentive - we're asked six times if we've enjoyed our food.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Her coat fell to the floor, and Bunny fussily swooped to retrieve it.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The 1950s era had fussily constructed garments, cumbersome skirts, cinched waists, and rigid hairstyles.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -774,11 +776,14 @@ ${englishMeaningConst.text}
 کوردی: بە نیگەرانی و دڵەڕاوکێ‌وە
 """),
 // With short examples define "fussily", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە زۆری نیگەرانی و گرنگیدانەوە بەو شتانەی کە گرنگ نین"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە زۆری نیگەرانی و گرنگیدانەوە بەو شتانەی کە گرنگ نین"""),
                     SentencesRow(
                       englishText:
                           """The service is too fussily attentive - we're asked six times if we've enjoyed our food.""",
-                      kurdishText: """خزمەتگوزارییەکە زۆر بە نا پێویستانە بەدەمەوەن ـ شەش جار داوامان لێکرا کە حەزمان لە خواردنەکە بوو.""",
+                      kurdishText:
+                          """خزمەتگوزارییەکە زۆر بە نا پێویستانە بەدەمەوەن ـ شەش جار داوامان لێکرا کە حەزمان لە خواردنەکە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -786,17 +791,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her coat fell to the floor, and Bunny fussily swooped to retrieve it.""",
+                      kurdishText:
+                          """پاڵتۆکەی کەوتە سەر زەوی، و بەنی بە ناپێویستی خێرا خۆی بۆی دانەواند تا هەڵیگرێتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵکار) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵکار) کە جونکاریی زۆر لەخۆ دەگرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The 1950s era had fussily constructed garments, cumbersome skirts, cinched waists, and rigid hairstyles.""",
+                      kurdishText:
+                          """سەردەمی پەنجاکان جلوبەرگی بە ڕازێنراوەیی دروستکراو، تەنوورەی قورس، و کەمەری تەنگکراوی هەبوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -6,15 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryfrenchwindow extends StatefulWidget {
-  const EnglishEntryfrenchwindow({super.key});
+class EnglishEntryfuzziness extends StatefulWidget {
+  const EnglishEntryfuzziness({super.key});
 
   @override
-  State<EnglishEntryfrenchwindow> createState() =>
-      _EnglishEntryfrenchwindowState();
+  State<EnglishEntryfuzziness> createState() => _EnglishEntryfuzzinessState();
 }
 
-class _EnglishEntryfrenchwindowState extends State<EnglishEntryfrenchwindow> {
+class _EnglishEntryfuzzinessState extends State<EnglishEntryfuzziness> {
   @override
   void initState() {
     super.initState();
@@ -52,12 +51,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: French window (Derived forms: French windows)
-1. A French door situated in an exterior wall of a building
+- Noun: fuzziness
+1. The quality of being indistinct and without sharp outlines (- indistinctness, softness, blurriness, fogginess)
 """,
   );
 
-  final String keyword = "French window";
+  final String keyword = "fuzziness";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -77,7 +76,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""French window""");
+    await flutterTts.speak("""fuzziness""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -85,14 +84,14 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """You get to the garden through French windows at the back of the house.""");
+        """The photographer corrected the slight fuzziness of the image.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""There is a lot of fuzziness over this topic.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -727,10 +726,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """French window""",
-                      // alsoEnglishWord: "also: French window",
-                      britshText: """IpaUK: /ˌfrentʃ ˈwɪndəʊ/""",
-                      americanText: """IpaUS: /ˌfrentʃ ˈwɪndəʊ/""",
+                      word: """fuzziness""",
+                      // alsoEnglishWord: "also: fuzziness",
+                      britshText: """IpaUK: /ˈfʌzinəs/""",
+                      americanText: """IpaUS: /ˈfʌzinəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -771,26 +770,29 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێڵی، تاریکی، ماتی، نەڕوونی، ناڕۆشنی
 """),
-// With short examples define "French window", please follow LX instructions
+// With short examples define "fuzziness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دەرگایەکی شووشەیی، بە تایبەتی دووتایی، کە دەڕوانێت بەسەر باخچە یان باڵکۆنە"""),
+                            """١. (ناو) ئەوەی کە لە شێوە یان دەنگ ڕوون نەبێت"""),
                     SentencesRow(
                       englishText:
-                          """You get to the garden through French windows at the back of the house.""",
+                          """The photographer corrected the slight fuzziness of the image.""",
                       kurdishText:
-                          """لە ڕێگەی دەرگا دووتاییەکانەوە لە پشتەوەی خانووەکە دەچیتە باخچەکە.""",
+                          """وێنەگرەکە کەمە ناڕوونییەکەی وێنەکەی چاک کردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی شتێک شڵەژاوی تێدا بێت و بە ڕوونی نەگوترێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is a lot of fuzziness over this topic.""",
+                      kurdishText: """زۆر شڵەژاوی هەیە سەبارەت بەم بابەتە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1600,18 +1602,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/WgMrfNkt-N4?t=';
-const double _startSecondsend = 000000000000000000000000000217;
-const String _videoIdone = 'https://youtu.be/SD4plbr5qL0?t=';
-const double _startSecondsone = 000000000000000000000000000381;
-const String _videoIdtwo = 'https://youtu.be/KI6JM6qySwk?t=';
-const double _startSecondstwo = 00000000000000000000000000083;
-const String _videoIdthree = 'https://youtu.be/kD6e-JSmx20?t=';
-const double _startSecondsthree = 000000000000000000000000000154;
-const String _videoIdfour = 'https://youtu.be/LLnybXGThbk?t=';
-const double _startSecondsfour = 000000000000000000000000000881;
-const String _videoIdfive = 'https://youtu.be/dzXaNxdXPiE?t=';
-const double _startSecondsfive = 000000000000000000000000000415;
+const String _videoIdend = 'https://youtu.be/at-xZA5U1ps?t=';
+const double _startSecondsend = 000000000000000000000000000588;
+const String _videoIdone = 'https://youtu.be/L_Mo0XCeJqw?t=';
+const double _startSecondsone = 000000000000000000000000000339;
+const String _videoIdtwo = 'https://youtu.be/8PTjPzw9VhY?t=';
+const double _startSecondstwo = 0000000000000000000000000003246;
+const String _videoIdthree = 'https://youtu.be/l1SQvO8twcM?t=';
+const double _startSecondsthree = 000000000000000000000000000198;
+const String _videoIdfour = 'https://youtu.be/FnZSyDaTwZs?t=';
+const double _startSecondsfour = 000000000000000000000000000288;
+const String _videoIdfive = 'https://youtu.be/9h_QtLol75I?t=';
+const double _startSecondsfive = 000000000000000000000000000211;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

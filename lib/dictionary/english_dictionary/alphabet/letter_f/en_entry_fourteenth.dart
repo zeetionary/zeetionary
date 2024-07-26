@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: fourteenth
 1. Coming next after the thirteenth in position (= 14th)
 
-- Noun: fourteenth (Derived forms: fourteenths)
+- Noun: fourteenth (derived forms: fourteenths)
 1. Position 14 in a countable series of things
 """,
   );
@@ -119,7 +119,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("It's the fourteenth time that I've been to America.");
+    await flutterTts
+        .speak("It's the fourteenth time that I've been to America.");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -205,21 +206,21 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Today is the fourteenth (of May).""",
-                      kurdishText: """ئەمڕۆ چواردەهەمی ئایارە.""", // fourteenth
+                      kurdishText: """ئەمڕۆ چواردەھەمی ئایارە.""", // fourteenth
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It's her fourteenth birthday.""",
-                      kurdishText: """چواردەهەمین ساڵیادی لە دایکبوونیەتی.""",
+                      kurdishText: """چواردەھەمین ساڵیادی لە دایکبوونیەتی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """My office is on the fourteenth floor.""",
-                      kurdishText: """ئۆفیسەکەم لە نھۆمی چواردەهەمە.""",
+                      kurdishText: """ئۆفیسەکەم لە نھۆمی چواردەھەمە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -228,14 +229,14 @@ ${englishMeaningConst.text}
                       englishText:
                           """It's the fourteenth time that I've been to America.""",
                       kurdishText:
-                          """ئەوە چواردەهەمین جارە کە چوومەتە ئەمریکا.""",
+                          """ئەوە چواردەھەمین جارە کە چوومەتە ئەمریکا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He finished fourteenth in the race.""",
-                      kurdishText: """چواردەهەمین بووە لە پێشبڕکێیەکە.""",
+                      kurdishText: """چواردەھەمین بووە لە پێشبڕکێیەکە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -307,18 +308,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/UbnulKZg3L8?t=';
-const double _startSecondsend = 000000000000000000000000000446;
-const String _videoIdone = 'https://youtu.be/j4kI2h3iotA?t=';
-const double _startSecondsone = 0000000000000000000000000001968;
-const String _videoIdtwo = 'https://youtu.be/EXXUhhhu3Lg?t=';
-const double _startSecondstwo = 000000000000000000000000000286;
-const String _videoIdthree = 'https://youtu.be/C-ePy-2WLfY?t=';
-const double _startSecondsthree = 000000000000000000000000000659;
-const String _videoIdfour = 'https://youtu.be/Fut0t204JvE?t=';
-const double _startSecondsfour = 000000000000000000000000000840;
-const String _videoIdfive = 'https://youtu.be/3fILUAGw2mE?t=';
-const double _startSecondsfive = 000000000000000000000000000537;
+const String _videoIdend = 'UbnulKZg3L8';
+const double _startSecondsend = 446;
+const String _videoIdone = 'j4kI2h3iotA';
+const double _startSecondsone = 1968;
+const String _videoIdtwo = 'EXXUhhhu3Lg';
+const double _startSecondstwo = 286;
+const String _videoIdthree = 'C-ePy-2WLfY';
+const double _startSecondsthree = 659;
+const String _videoIdfour = 'Fut0t204JvE';
+const double _startSecondsfour = 840;
+const String _videoIdfive = '3fILUAGw2mE';
+const double _startSecondsfive = 537;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

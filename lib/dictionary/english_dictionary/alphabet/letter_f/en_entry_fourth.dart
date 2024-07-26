@@ -58,7 +58,7 @@ ${englishMeaningConst.text}
 - Adverb: fourth
 1. In the fourth place (= fourthly)
 
-- Noun: fourth (Derived forms: fourths)
+- Noun: fourth (derived forms: fourths)
 1. Following the third position; number four in a countable series
  
 2. One of four equal parts (= one-fourth, one-quarter, quarter, fourth part, twenty-five percent, quartern)
@@ -299,18 +299,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/FHJ3CMWnVxY?t=';
-const double _startSecondsend = 000000000000000000000000000205;
-const String _videoIdone = 'https://youtu.be/MnExgQ81fhU?t=';
-const double _startSecondsone = 000000000000000000000000000158;
-const String _videoIdtwo = 'https://youtu.be/o9zCgPtsups?t=';
-const double _startSecondstwo = 000000000000000000000000000700;
-const String _videoIdthree = 'https://youtu.be/9TugA_z5vQE?t=';
-const double _startSecondsthree = 000000000000000000000000000311;
-const String _videoIdfour = 'https://youtu.be/PXsZntwnArQ?t=';
-const double _startSecondsfour = 000000000000000000000000000116;
-const String _videoIdfive = 'https://youtu.be/sV6uuMAnJUE?t=';
-const double _startSecondsfive = 000000000000000000000000000636;
+const String _videoIdend = 'FHJ3CMWnVxY';
+const double _startSecondsend = 205;
+const String _videoIdone = 'MnExgQ81fhU';
+const double _startSecondsone = 158;
+const String _videoIdtwo = 'o9zCgPtsups';
+const double _startSecondstwo = 700;
+const String _videoIdthree = '9TugA_z5vQE';
+const double _startSecondsthree = 311;
+const String _videoIdfour = 'PXsZntwnArQ';
+const double _startSecondsfour = 116;
+const String _videoIdfive = 'sV6uuMAnJUE';
+const double _startSecondsfive = 636;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

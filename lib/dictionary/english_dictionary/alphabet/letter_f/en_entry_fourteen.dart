@@ -54,7 +54,7 @@ ${englishMeaningConst.text}
 - Adjective: fourteen
 1. Being one more than thirteen (= 14, xiv)
 
-- Noun: fourteen (Derived forms: fourteens)
+- Noun: fourteen (derived forms: fourteens)
 1. The cardinal number that is the sum of thirteen and one (= 14, XIV)
 """,
   );
@@ -244,7 +244,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Two elevens are twenty-two.""",
-                      kurdishText: """دوو چواردەیی دەکاتە بیست و هەشت.""",
+                      kurdishText: """دوو چواردەیی دەکاتە بیست و ھەشت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -316,18 +316,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/bOolMHIx4xI?t=';
-const double _startSecondsend = 000000000000000000000000000200;
-const String _videoIdone = 'https://youtu.be/hTqtGJwsJVE?t=';
-const double _startSecondsone = 0000000000000000000000000002816;
-const String _videoIdtwo = 'https://youtu.be/kTaYet07Ioo?t=';
-const double _startSecondstwo = 000000000000000000000000000682;
-const String _videoIdthree = 'https://youtu.be/KZbzIf_C6Y4?t=';
-const double _startSecondsthree = 0000000000000000000000000002048;
-const String _videoIdfour = 'https://youtu.be/aXGsieBZ7YY?t=';
-const double _startSecondsfour = 00000000000000000000000000024;
-const String _videoIdfive = 'https://youtu.be/Oij-BdIkPgQ?t=';
-const double _startSecondsfive = 000000000000000000000000000576;
+const String _videoIdend = 'bOolMHIx4xI';
+const double _startSecondsend = 200;
+const String _videoIdone = 'hTqtGJwsJVE';
+const double _startSecondsone = 2816;
+const String _videoIdtwo = 'kTaYet07Ioo';
+const double _startSecondstwo = 682;
+const String _videoIdthree = 'KZbzIf_C6Y4';
+const double _startSecondsthree = 2048;
+const String _videoIdfour = 'aXGsieBZ7YY';
+const double _startSecondsfour = 24;
+const String _videoIdfive = 'Oij-BdIkPgQ';
+const double _startSecondsfive = 576;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

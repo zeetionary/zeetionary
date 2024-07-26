@@ -157,7 +157,7 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) باڵندەیەکی گەورەی پەمەیی کە لاق و ملی درێژی هەیە و لە نزیک ئاو لە وڵاتە گەرمەکان دەژی"""),
+                            """١. (ناو) باڵندەیەکی گەورەی پەمەیی کە لاق و ملی درێژی ھەیە و لە نزیک ئاو لە وڵاتە گەرمەکان دەژی"""),
                     SentencesRow(
                       englishText:
                           """The flamingo stood gracefully in the water.""",

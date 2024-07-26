@@ -51,7 +51,7 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: free (Derived forms: freest, freer)
+- Adjective: free (derived forms: freest, freer)
 1. Costing nothing (= complimentary, costless, gratis, gratuitous, courtesy)
 "free admission";
  
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
 9. (physics) unconstrained or not chemically bound in a molecule or not fixed and capable of relatively unrestricted motion
 "free expansion"; "free oxygen"; "a free electron"
 
-- Verb: free (Derived forms: frees, freed, freeing)
+- Verb: free (derived forms: frees, freed, freeing)
 1. Grant freedom to; free from confinement (= liberate, release, unloose, unloosen, loose)
  
 2. Relieve from (= rid, disembarrass)
@@ -109,7 +109,7 @@ ${englishMeaningConst.text}
  
 11. (chemistry) release (gas or energy) as a result of a chemical reaction or physical decomposition (= release, liberate)
 
-- Noun: free (Derived forms: frees)
+- Noun: free (derived forms: frees)
 1. People who are free (= free people)
 "the home of the free and the brave";
 
@@ -685,125 +685,6 @@ ${englishMeaningConst.text}
         """The government has promised to free up more resources for education.""");
   }
 
-  Future<void> speaksentence74(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence7400""");
-  }
-
-  Future<void> speaksentence75(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence7500""");
-  }
-
-  Future<void> speaksentence76(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence7600""");
-  }
-
-  Future<void> speaksentence77(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence7700""");
-  }
-
-  Future<void> speaksentence78(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence7800""");
-  }
-
-  Future<void> speaksentence79(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence7900""");
-  }
-
-  Future<void> speaksentence80(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_8000""");
-  }
-
-  Future<void> speaksentence81(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8100""");
-  }
-
-  Future<void> speaksentence82(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8200""");
-  }
-
-  Future<void> speaksentence83(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8300""");
-  }
-
-  Future<void> speaksentence84(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8400""");
-  }
-
-  Future<void> speaksentence85(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8500""");
-  }
-
-  Future<void> speaksentence86(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8600""");
-  }
-
-  Future<void> speaksentence87(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8700""");
-  }
-
-  Future<void> speaksentence88(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8800""");
-  }
-
-  Future<void> speaksentence89(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence8900""");
-  }
-
-  Future<void> speaksentence90(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(1.0);
-    await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_9000""");
-  }
-
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -864,7 +745,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: ئازاد، سەرازا، سەربەست، سەربەخۆ، سەربەستانە، ئازادانە، بەردراو، بەڕەڵا، نەبەسراو، پەت‌نەکراو، بەربەڕەڵا، شل، ڕەها،	تەرخان، بەخشراو، جەبە(کراو)،	(لە لێکدانا) بێـ، بەتاڵە لە، خاڵی لە،	خۆڕایی، بێ‌پارە، مفت، بەلاش،	کراوە، دانەخراو، ئاواڵە،	بەدەس‌ودڵ، دڵاوا، بەدەهندە،	ڕەوا، ڕێگەدراو، کۆنتڕۆڵ‌نەکراو،	(کورسی) بەتاڵ، نەگیراو، خاڵی،	(کیمیا) لەگەڵ توخمی تر لێک‌نەدراوە،	قسەلەڕوو،	بێکار، بێ‌ئیش، دەس‌بەتاڵ، ئازاد،	بە خۆڕایی، بەلاش، بێ‌مز،	ئازادانە، سەربەستانە
+کوردی: ئازاد، سەرازا، سەربەست، سەربەخۆ، سەربەستانە، ئازادانە، بەردراو، بەڕەڵا، نەبەسراو، پەت‌نەکراو، بەربەڕەڵا، شل، ڕەھا،	تەرخان، بەخشراو، جەبە(کراو)،	(لە لێکدانا) بێـ، بەتاڵە لە، خاڵی لە،	خۆڕایی، بێ‌پارە، مفت، بەلاش،	کراوە، دانەخراو، ئاواڵە،	بەدەس‌ودڵ، دڵاوا، بەدەھندە،	ڕەوا، ڕێگەدراو، کۆنتڕۆڵ‌نەکراو،	(کورسی) بەتاڵ، نەگیراو، خاڵی،	(کیمیا) لەگەڵ توخمی تر لێک‌نەدراوە،	قسەلەڕوو،	بێکار، بێ‌ئیش، دەس‌بەتاڵ، ئازاد،	بە خۆڕایی، بەلاش، بێ‌مز،	ئازادانە، سەربەستانە
 """),
 // With short examples define "free", please follow LX instructions
                     const DefinitionKurdish(
@@ -876,17 +757,13 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """We try to keep Sundays free.""",
-                      kurdishText: """هەوڵ دەدەین بێ‌ئیش بیین.""",
+                      kurdishText: """ھەوڵ دەدەین بێ‌ئیش بیین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -896,13 +773,11 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Keep Friday night free for my party.""",
                       kurdishText:
-                          """شەوی هەینی بێ‌ئیش بهێڵنەوە بۆ ئاهەنگەکەم.""",
+                          """شەوی ھەینی بێ‌ئیش بھێڵنەوە بۆ ئاھەنگەکەم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -916,36 +791,30 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hospital needs to keep some beds free for emergencies.""",
                       kurdishText:
-                          """نەخۆشخانەکە دەبێت هەندێک قەرەوێڵە بە بەتاڵی بهێڵێتەوە بۆ دۆخی لەناکاو.""",
+                          """نەخۆشخانەکە دەبێت ھەندێک قەرەوێڵە بە بەتاڵی بھێڵێتەوە بۆ دۆخی لەناکاو.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There were no free tables, so we had to share.""",
                       kurdishText:
-                          """هیچ مێزێکی بەتاڵ نەبوو بۆیە پێویست بوو یەکێک هاوبەش بکەین.""",
+                          """ھیچ مێزێکی بەتاڵ نەبوو بۆیە پێویست بوو یەکێک ھاوبەش بکەین.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """None of the library computers were free.""",
                       kurdishText:
-                          """هیچ یەک لە کۆمپیوتەرەکانی کتێبخانەکە بەتاڵ نەبوون (= هەمووی بەکاردەهات).""",
+                          """ھیچ یەک لە کۆمپیوتەرەکانی کتێبخانەکە بەتاڵ نەبوون (= ھەمووی بەکاردەھات).""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -959,8 +828,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     Column(
                       children: [
                         MyExpansionTile(
@@ -973,21 +840,15 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """Use of the pool is free to members.""",
                               kurdishText:
-                                  """بەکارهێنانی مەلەوانگەکە بێ‌بەرامبەرە بۆ ئەندامان.""",
+                                  """بەکارھێنانی مەلەوانگەکە بێ‌بەرامبەرە بۆ ئەندامان.""",
                               onPressedBritish: () => speaksentence11("en-GB"),
                               onPressedAmerican: () => speaksentence11("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -997,9 +858,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence12("en-GB"),
                               onPressedAmerican: () => speaksentence12("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText: """Entrance is free for students.""",
@@ -1008,21 +866,15 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence13("en-GB"),
                               onPressedAmerican: () => speaksentence13("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """Education should be free for everyone.""",
                               kurdishText:
-                                  """فێرکردن دەبێت بێ‌بەرامبەر بێت بۆ هەموان.""",
+                                  """فێرکردن دەبێت بێ‌بەرامبەر بێت بۆ ھەموان.""",
                               onPressedBritish: () => speaksentence14("en-GB"),
                               onPressedAmerican: () => speaksentence14("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText: """Membership is free.""",
@@ -1030,9 +882,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence15("en-GB"),
                               onPressedAmerican: () => speaksentence15("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1042,9 +891,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence16("en-GB"),
                               onPressedAmerican: () => speaksentence16("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText: """They get free medical care.""",
@@ -1053,9 +899,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence17("en-GB"),
                               onPressedAmerican: () => speaksentence17("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1065,9 +908,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence18("en-GB"),
                               onPressedAmerican: () => speaksentence18("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1077,15 +917,12 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence19("en-GB"),
                               onPressedAmerican: () => speaksentence19("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """You get all this absolutely free.""",
                               kurdishText:
-                                  """هەموو ئەمە بە تەواوی بە بێ‌بەرامبەر وەردەگریت.""",
+                                  """ھەموو ئەمە بە تەواوی بە بێ‌بەرامبەر وەردەگریت.""",
                               onPressedBritish: () => speaksentence20("en-GB"),
                               onPressedAmerican: () => speaksentence20("en-US"),
                             ),
@@ -1102,12 +939,10 @@ ${englishMeaningConst.text}
                       englishText:
                           """I have no ambitions other than to have a happy life and be free.""",
                       kurdishText:
-                          """هیچ خواستێکم نییە جگە لەوەی کە ژیانێکی دڵخۆشانەم هەبێت و ئازاد بم.""",
+                          """ھیچ خواستێکم نییە جگە لەوەی کە ژیانێکی دڵخۆشانەم ھەبێت و ئازاد بم.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """You are free to leave at any time.""",
@@ -1115,8 +950,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     Column(
                       children: [
                         MyExpansionTile(
@@ -1129,9 +962,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence23("en-GB"),
                               onPressedAmerican: () => speaksentence23("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1141,56 +971,41 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence24("en-GB"),
                               onPressedAmerican: () => speaksentence24("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """We want an independent state free of foreign interference.""",
                               kurdishText:
-                                  """وڵاتێکی سەربەخۆمان دەوێت هیچ دەستێوەردانی دەرەکی نەبێت.""",
+                                  """وڵاتێکی سەربەخۆمان دەوێت ھیچ دەستێوەردانی دەرەکی نەبێت.""",
                               onPressedBritish: () => speaksentence25("en-GB"),
                               onPressedAmerican: () => speaksentence25("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """Feel free to email me if you have any questions.""",
                               kurdishText:
-                                  """هەر پرسیارێکت بوو ئازادیت لەوەی ئیمەیڵم بۆ بنێریت.""",
+                                  """ھەر پرسیارێکت بوو ئازادیت لەوەی ئیمەیڵم بۆ بنێریت.""",
                               onPressedBritish: () => speaksentence26("en-GB"),
                               onPressedAmerican: () => speaksentence26("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText: """After my divorce I felt free.""",
                               kurdishText:
-                                  """دوای جیابوونەوەکەم هەستم بە ئازادی کرد.""",
+                                  """دوای جیابوونەوەکەم ھەستم بە ئازادی کرد.""",
                               onPressedBritish: () => speaksentence27("en-GB"),
                               onPressedAmerican: () => speaksentence27("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
                                   """You have a completely free choice of topic for your essay.""",
                               kurdishText:
-                                  """تەواو هەڵبژاردنی ئازادت هەیە بۆ داڕشتنەکەت.""",
+                                  """تەواو ھەڵبژاردنی ئازادت ھەیە بۆ داڕشتنەکەت.""",
                               onPressedBritish: () => speaksentence28("en-GB"),
                               onPressedAmerican: () => speaksentence28("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1200,9 +1015,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence29("en-GB"),
                               onPressedAmerican: () => speaksentence29("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (کردار) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1225,44 +1037,36 @@ ${englishMeaningConst.text}
                       englishText:
                           """A true democracy needs free speech and a free press.""",
                       kurdishText:
-                          """دیموکراسیی تەواو دەبێت ئازادیی ڕادەربڕین و میدیای ئازادی هەبێت.""",
+                          """دیموکراسیی تەواو دەبێت ئازادیی ڕادەربڕین و میدیای ئازادی ھەبێت.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He called for free and fair elections.""",
                       kurdishText:
-                          """داوای هەڵبژاردنی ئازاد و دادپەروەرانەی کرد.""",
+                          """داوای ھەڵبژاردنی ئازاد و دادپەروەرانەی کرد.""",
                       onPressedBritish: () => speaksentence32("en-GB"),
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They gave me free access to all the files.""",
                       kurdishText:
-                          """دەستگەشتنی تەواویان پێدام بە هەموو فایلەکان.""",
+                          """دەستگەشتنی تەواویان پێدام بە ھەموو فایلەکان.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In a free country you should be able to go wherever you want.""",
                       kurdishText:
-                          """لە وڵاتێکی ئازاددا دەبێت بتوانیت بچیتە هەر کوێیەک کە دەتەوێت.""",
+                          """لە وڵاتێکی ئازاددا دەبێت بتوانیت بچیتە ھەر کوێیەک کە دەتەوێت.""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1272,8 +1076,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1294,17 +1096,13 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The hostages were all set free.""",
-                      kurdishText: """بارمتەکان هەموویان ئازاد کران.""",
+                      kurdishText: """بارمتەکان ھەموویان ئازاد کران.""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1313,8 +1111,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence39("en-GB"),
                       onPressedAmerican: () => speaksentence39("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She pleaded with them to let her free.""",
@@ -1333,8 +1129,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence41("en-GB"),
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Our livestock is free to roam.
@@ -1343,14 +1137,12 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She opened the cage and let the bird fly free.""",
                       kurdishText:
-                          """قەفەزەکەی کردەوە و هێشتی باڵندەکە بفڕێت بۆ ئازادی.""",
+                          """قەفەزەکەی کردەوە و ھێشتی باڵندەکە بفڕێت بۆ ئازادی.""",
                       onPressedBritish: () => speaksentence43("en-GB"),
                       onPressedAmerican: () => speaksentence43("en-US"),
                     ),
@@ -1362,12 +1154,10 @@ ${englishMeaningConst.text}
                       englishText:
                           """Ensure there is a free flow of air around the machine.""",
                       kurdishText:
-                          """دڵنیا بەرەوە جووڵەی ئازادی هەوا لە ئامێرەکە هەیە.""",
+                          """دڵنیا بەرەوە جووڵەی ئازادی ھەوا لە ئامێرەکە ھەیە.""",
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The roads are relatively free today.""",
@@ -1383,39 +1173,33 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Everyone deserves to live free from fear.""",
-                      kurdishText: """هەموو کەس دەبێت ئازاد لە ترس بژی.""",
+                      kurdishText: """ھەموو کەس دەبێت ئازاد لە ترس بژی.""",
                       onPressedBritish: () => speaksentence46("en-GB"),
                       onPressedAmerican: () => speaksentence46("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was several weeks before he was completely free of pain.""",
                       kurdishText:
-                          """چەند هەفتەیەکی پێچوو پێش ئەوەی بە تەواوی بێ ئازار بێت.""",
+                          """چەند ھەفتەیەکی پێچوو پێش ئەوەی بە تەواوی بێ ئازار بێت.""",
                       onPressedBritish: () => speaksentence47("en-GB"),
                       onPressedAmerican: () => speaksentence47("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our staff have a right to work free from violence or threats.""",
                       kurdishText:
-                          """ستافەکەمان مافیان هەیە کە بەبێ توندووتیژی و هەڕەشە کار بکەن.""",
+                          """ستافەکەمان مافیان ھەیە کە بەبێ توندووتیژی و ھەڕەشە کار بکەن.""",
                       onPressedBritish: () => speaksentence48("en-GB"),
                       onPressedAmerican: () => speaksentence48("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The text should be totally free of mistakes.""",
-                      kurdishText: """نووسراوەکە دەبێت تەواو بەبێ هەڵە بێت.""",
+                      kurdishText: """نووسراوەکە دەبێت تەواو بەبێ ھەڵە بێت.""",
                       onPressedBritish: () => speaksentence49("en-GB"),
                       onPressedAmerican: () => speaksentence49("en-US"),
                     ),
@@ -1431,8 +1215,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence50("en-GB"),
                       onPressedAmerican: () => speaksentence50("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1441,8 +1223,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence51("en-GB"),
                       onPressedAmerican: () => speaksentence51("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1452,8 +1232,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence52("en-GB"),
                       onPressedAmerican: () => speaksentence52("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1463,8 +1241,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence53("en-GB"),
                       onPressedAmerican: () => speaksentence53("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1480,12 +1256,10 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Pull gently on the free end of the rope.""",
-                      kurdishText: """بە هێواشی لا کاروەکەی حەبلەکە ڕابکێشە.""",
+                      kurdishText: """بە ھێواشی لا کاروەکەی حەبلەکە ڕابکێشە.""",
                       onPressedBritish: () => speaksentence55("en-GB"),
                       onPressedAmerican: () => speaksentence55("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1494,8 +1268,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence56("en-GB"),
                       onPressedAmerican: () => speaksentence56("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1504,8 +1276,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence57("en-GB"),
                       onPressedAmerican: () => speaksentence57("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The dog had broken free of its chain.""",
@@ -1524,8 +1294,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence59("en-GB"),
                       onPressedAmerican: () => speaksentence59("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """You can download the app for free.""",
@@ -1541,12 +1309,10 @@ ${englishMeaningConst.text}
                       englishText:
                           """Attach the top and let the ends hang free.""",
                       kurdishText:
-                          """سەرەوەی ببەستەوە بهێڵە کۆتاییەکان بە ئازادی شۆڕببنەوە.""",
+                          """سەرەوەی ببەستەوە بھێڵە کۆتاییەکان بە ئازادی شۆڕببنەوە.""",
                       onPressedBritish: () => speaksentence61("en-GB"),
                       onPressedAmerican: () => speaksentence61("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Her long hair hung free down her back.""",
@@ -1566,8 +1332,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence63("en-GB"),
                       onPressedAmerican: () => speaksentence63("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1577,19 +1341,15 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence64("en-GB"),
                       onPressedAmerican: () => speaksentence64("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They succeeded in freeing their friends from prison.""",
                       kurdishText:
-                          """سەرکەوتوو بوون لە ئازادکردنی هاوڕێکانیان لە زیندان.""",
+                          """سەرکەوتوو بوون لە ئازادکردنی ھاوڕێکانیان لە زیندان.""",
                       onPressedBritish: () => speaksentence65("en-GB"),
                       onPressedAmerican: () => speaksentence65("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1610,8 +1370,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence67("en-GB"),
                       onPressedAmerican: () => speaksentence67("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1623,18 +1381,16 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """١٦. (کردار) نەهێشتنی شتێکی ناخۆشی کەسێک/شتێک"""),
+                            """١٦. (کردار) نەھێشتنی شتێکی ناخۆشی کەسێک/شتێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: rid"),
                     SentencesRow(
                       englishText:
                           """These exercises help free the body of tension.""",
                       kurdishText:
-                          """ئەم ڕاهێنانانە دەکرێت جەستە لە فشار ڕزگار بکەن.""",
+                          """ئەم ڕاھێنانانە دەکرێت جەستە لە فشار ڕزگار بکەن.""",
                       onPressedBritish: () => speaksentence69("en-GB"),
                       onPressedAmerican: () => speaksentence69("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1644,14 +1400,12 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence70("en-GB"),
                       onPressedAmerican: () => speaksentence70("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The centre aims to free young people from dependency on drugs.""",
                       kurdishText:
-                          """سەنتەرەکە ئامانجیەتی گەنجان ڕزگار بکات لەوەی پشت بە مادەی هۆشبەر ببەستن.""",
+                          """سەنتەرەکە ئامانجیەتی گەنجان ڕزگار بکات لەوەی پشت بە مادەی ھۆشبەر ببەستن.""",
                       onPressedBritish: () => speaksentence71("en-GB"),
                       onPressedAmerican: () => speaksentence71("en-US"),
                     ),
@@ -1664,12 +1418,10 @@ ${englishMeaningConst.text}
                       englishText:
                           """We freed time each week for a project meeting.""",
                       kurdishText:
-                          """هەر هەفتەیەک کاتمان بۆ پڕۆژەکە دەهێشتەوە.""",
+                          """ھەر ھەفتەیەک کاتمان بۆ پڕۆژەکە دەھێشتەوە.""",
                       onPressedBritish: () => speaksentence72("en-GB"),
                       onPressedAmerican: () => speaksentence72("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1747,18 +1499,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/fg8Cpl5PIRE';
+const String _videoIdend = 'fg8Cpl5PIRE';
 const double _startSecondsend = 0;
-const String _videoIdone = 'https://youtu.be/nE8nQZPfYpY?t=';
-const double _startSecondsone = 000000000000000000000000000345;
-const String _videoIdtwo = 'https://youtu.be/hFZFjoX2cGg?t=';
-const double _startSecondstwo = 0000000000000000000000000001107;
-const String _videoIdthree = 'https://youtu.be/3C0BdIn6Hdo?t=';
-const double _startSecondsthree = 000000000000000000000000000465;
-const String _videoIdfour = 'https://youtu.be/tnzz-eFmKaw?t=';
-const double _startSecondsfour = 000000000000000000000000000237;
-const String _videoIdfive = 'https://youtu.be/JqDf1X2eIbE?t=';
-const double _startSecondsfive = 00000000000000000000000000062;
+const String _videoIdone = 'nE8nQZPfYpY';
+const double _startSecondsone = 345;
+const String _videoIdtwo = 'hFZFjoX2cGg';
+const double _startSecondstwo = 1107;
+const String _videoIdthree = '3C0BdIn6Hdo';
+const double _startSecondsthree = 465;
+const String _videoIdfour = 'tnzz-eFmKaw';
+const double _startSecondsfour = 237;
+const String _videoIdfive = 'JqDf1X2eIbE';
+const double _startSecondsfive = 62;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

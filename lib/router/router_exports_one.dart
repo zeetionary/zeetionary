@@ -3587,8 +3587,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gabble.dart' show EnglishEntrygabble
 // en_entry_gable.dart' show EnglishEntrygable
 // en_entry_gadget.dart' show EnglishEntrygadget
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_gadgetry.dart' show EnglishEntrygadgetry
+// en_entry_gaelic.dart' show EnglishEntrygaelic //// فففف Gaelic
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

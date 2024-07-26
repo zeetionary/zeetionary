@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
 // With short examples define " ", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە هیچ عەیبەیەکی نییە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ھیچ عەیبەیەکی نییە"""),
                     SentencesRow(
                       englishText: """The system works flawlessly.""",
                       kurdishText: """سیستەمەکە بێ‌خەوشانە کار دەکات.""",

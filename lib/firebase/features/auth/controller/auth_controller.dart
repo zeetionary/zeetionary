@@ -5,7 +5,8 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:google_sign_in/google_sign_in.dart';
 
 // AuthController provider
-final authControllerProvider = StateNotifierProvider<AuthController, bool>((ref) {
+final authControllerProvider =
+    StateNotifierProvider<AuthController, bool>((ref) {
   return AuthController();
 });
 
@@ -14,7 +15,6 @@ final authStateChangeProvider = StreamProvider((ref) {
   final authController = ref.watch(authControllerProvider.notifier);
   return authController.authStateChange;
 });
-
 
 class AuthController extends StateNotifier<bool> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
@@ -33,7 +33,8 @@ class AuthController extends StateNotifier<bool> {
         return; // The user canceled the sign-in
       }
 
-      final GoogleSignInAuthentication googleAuth = await googleUser.authentication;
+      final GoogleSignInAuthentication googleAuth =
+          await googleUser.authentication;
 
       final AuthCredential credential = GoogleAuthProvider.credential(
         accessToken: googleAuth.accessToken,
@@ -42,6 +43,7 @@ class AuthController extends StateNotifier<bool> {
 
       await _auth.signInWithCredential(credential);
     } catch (error) {
+      if (!context.mounted) return;
       showSnackBar(context, error.toString());
     } finally {
       state = false;

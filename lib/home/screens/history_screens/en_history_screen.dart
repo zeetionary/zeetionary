@@ -74,11 +74,23 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       },
     );
 
+    // if (confirmClear == true) {
+    //   await prefs.remove('english history');
+
+    // Update the state to trigger a rebuild
+    //   setState(() {});
+
+    //   ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+    //     content: Directionality(
+    //       textDirection: TextDirection.ltr,
+    //       child: Text('History cleared'),
+    //     ),
+    //   ));
+    // }
+
     if (confirmClear == true) {
       await prefs.remove('english history');
-
-      setState(() {});
-
+      if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
           textDirection: TextDirection.ltr,

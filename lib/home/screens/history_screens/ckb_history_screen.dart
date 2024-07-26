@@ -21,6 +21,7 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
 
     // Show a dialog to confirm clearing kurdish history
     bool confirmClear = await showDialog(
+      
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
@@ -73,8 +74,9 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
       await prefs.remove('kurdish history');
 
       // Update the state to trigger a rebuild
-      setState(() {});
+      // setState(() {});
 
+      if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
         content: Directionality(
           textDirection: TextDirection.rtl,

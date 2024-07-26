@@ -160,6 +160,7 @@ class SettingsPage extends ConsumerWidget {
     if (user != null) {
       try {
         await user.delete();
+      if (!context.mounted) return;
         showSnackBar(context, "Account deleted successfully");
         Routemaster.of(context).replace('/');
       } catch (e) {

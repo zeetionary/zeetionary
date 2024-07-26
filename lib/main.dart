@@ -74,6 +74,7 @@ import 'package:path/path.dart';
 
 // flutter build apk --release --target-platform=android-arm64
 // flutter build apk --release --target-platform=android-arm64 --split-per-abi
+// flutter build apk --release --target=lib/main.dart --target-platform=android-arm64 --split-per-abi
 // flutter build apk --release --target-platform=android-arm64 --verbose
 // flutter build apk --release --target-platform=android-arm64 --stacktrace
 // flutter build apk --release --target-platform=android-arm64 --info

@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygaelic extends StatefulWidget {
-  const EnglishEntrygaelic({super.key});
+class EnglishEntrygalaxy extends StatefulWidget {
+  const EnglishEntrygalaxy({super.key});
 
   @override
-  State<EnglishEntrygaelic> createState() => _EnglishEntrygaelicState();
+  State<EnglishEntrygalaxy> createState() => _EnglishEntrygalaxyState();
 }
 
-class _EnglishEntrygaelicState extends State<EnglishEntrygaelic> {
+class _EnglishEntrygalaxyState extends State<EnglishEntrygalaxy> {
   @override
   void initState() {
     super.initState();
@@ -51,15 +51,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: Gaelic
-1. Relating to or characteristic of the Celts (- Celtic)
-
-- Noun: Gaelic (Derived forms: Gaelics)
-1. Any of several related languages of the Celts in Ireland and Scotland (- Goidelic, Erse, Goidelic language, Erse language, Gaelic language)
+- Noun: galaxy (Derived forms: galaxies)
+1. (astronomy) a collection of star systems; any of the billions of systems each having many stars and nebulae and dust (- extragalactic nebula)
+"'extragalactic nebula' is a former name for 'galaxy'";
+ 
+2. A splendid assemblage (especially of famous people)
+ 
+3. Tufted evergreen perennial herb having spikes of tiny white flowers and glossy green round to heart-shaped leaves that become coppery to maroon or purplish in fall (- galax, wandflower, beetleweed, coltsfoot, Galax urceolata)
 """,
   );
 
-  final String keyword = "Gaelic";
+  final String keyword = "galaxy";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,36 +81,37 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gaelic""");
+    await flutterTts.speak("""galaxy""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The decline of Scots Gaelic will inevitably continue for a while.""");
+    await flutterTts.speak("""The Andromeda galaxy is the closest to ours.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They all spoke Gaelic down in the west.""");
+    await flutterTts.speak("""The Milky Way is a well-known galaxy.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Jupiter is the biggest planet in our solar system, but not the biggest planet in the Galaxy.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Italy, with their galaxy of superstar players, are without a doubt favourites to win the contest.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -729,10 +732,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """Gaelic""",
-                      // alsoEnglishWord: "also: Gaelic",
-                      britshText: """IpaUK: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
-                      americanText: """IpaUS: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
+                      word: """galaxy""",
+                      // alsoEnglishWord: "also: galaxy",
+                      britshText: """IpaUK: /ˈɡæləksi/""",
+                      americanText: """IpaUS: /ˈɡæləksi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -773,42 +776,51 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کاکێشان، کاکێشکە، کاگێشکە، کاڕێژان، کادز،	کۆمەڵ، دەستە، کۆڕ، گروپ 
 """),
-// With short examples define "Gaelic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زمانیکی کێڵتیکی کە لە هەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەر یەک لە سیستەمە گەورەکانی ئەستێرە لە بۆشایی ئاسماندا"""),
                     SentencesRow(
                       englishText:
-                          """The decline of Scots Gaelic will inevitably continue for a while.""",
-                      kurdishText: """کەمبوونەوەی گالیکی سکۆتلەندی بەدڵنیاییەوە بۆ ماوەیەک بەردەوام دەبێت.""",
+                          """The Andromeda galaxy is the closest to ours.""",
+                      kurdishText:
+                          """گەلەئەستێرەی ئەندرۆمیدا نزیکترینە لە هی خۆمانەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن هەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە هەموو قوتابخانەکان دەگوترێتەوە"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They all spoke Gaelic down in the west.""",
-                      kurdishText: """هەموویان لە ڕۆژئاوا بە گالیکی سە دەکەن.""",
-                      englishNote: """This means that in the western region, everyone communicated using the Gaelic language. "Down" adds a sense of direction or location, implying that the west is either geographically lower or perceived as being in a lower position on a map.""",
+                      englishText: """The Milky Way is a well-known galaxy.""",
+                      kurdishText: """ڕێگای شیری گەلەئەستێرەیەکی ناسراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) گەلە ئەستێرەی ڕێگای شیری کە خۆری خۆمان و هەسارەکانیی تێدایە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Jupiter is the biggest planet in our solar system, but not the biggest planet in the Galaxy.""",
+                      kurdishText:
+                          """موشتەری گەورەترین هەسارەی کۆمەڵەی خۆرەکەمانە، بەڵام گەورەترینی گەلە ئەستێرەکەمان نییە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کۆبوونەوەی ژمارەیەک کەسی بەناوبانگ، شارەزا، یان دەوڵەمەند"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Italy, with their galaxy of superstar players, are without a doubt favourites to win the contest.""",
+                      kurdishText:
+                          """ئیتالیا، بە کۆمەڵە یاریزانە ئەستێرەکانی، بێ‌گومان پاڵێوراوی بردنەوەی ڕکابەرییەکەن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1600,18 +1612,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/_0MutuU6eks?t=';
-const double _startSecondsend = 000000000000000000000000000520;
-const String _videoIdone = 'https://youtu.be/Z4H2W-k2j84?t=';
-const double _startSecondsone = 000000000000000000000000000193;
-const String _videoIdtwo = 'https://youtu.be/pLJo7jWJQj0?t=';
-const double _startSecondstwo = 00000000000000000000000000018;
-const String _videoIdthree = 'https://youtu.be/cCdK_Yzt5XI?t=';
-const double _startSecondsthree = 0000000000000000000000000003;
-const String _videoIdfour = 'https://youtu.be/gjiGBpdmk_I?t=';
-const double _startSecondsfour = 000000000000000000000000000637;
-const String _videoIdfive = 'https://youtu.be/Solb9uA-tgQ?t=';
-const double _startSecondsfive = 00000000000000000000000000025471;
+const String _videoIdend = 'https://youtu.be/jsawxvAbMF8';
+const double _startSecondsend = 0;
+const String _videoIdone = 'https://youtu.be/FpXwyDWDww8?t=';
+const double _startSecondsone = 0000000000000000000000000008;
+const String _videoIdtwo = 'https://youtu.be/e3jGWXeBtPo?t=';
+const double _startSecondstwo = 00000000000000000000000000077;
+const String _videoIdthree = 'https://youtu.be/rsPxFml0peo?t=';
+const double _startSecondsthree = 0000000000000000000000000004;
+const String _videoIdfour = 'https://youtu.be/1lPJ5SX5p08?t=';
+const double _startSecondsfour = 000000000000000000000000000295;
+const String _videoIdfive = 'https://youtu.be/g1l_PsQNJas?t=';
+const double _startSecondsfive = 00000000000000000000000000026;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

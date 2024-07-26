@@ -41,7 +41,7 @@ class EnglishEntrybile extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("speakBiles22");
+    await flutterTts.speak("His article was full of loathing and bile.");
   }
 
   Future<void> speakbiles3(String languageCode) async {
@@ -151,6 +151,7 @@ class EnglishEntrybile extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) ئەو شلە سەوزە قاوەییەی کە تامێکی ناخۆشی تاڵ و ناخۆشی ھەیە و لەلایەن جگەرەوە بەرھەم دێت بۆ ئەوەی یارمەتی جەستە بدات بۆ مامەڵەکردن لەگەڵ ئەو چەوریانەی دەیخۆین، و دەکرێت بێتە ناو دەمەوە لەکاتی ڕشانەوە بە گەدەی بەتاڵ"),
+                          const AlsoEnglishckb(word: "ھەروەھا: gall"),
                           SentencesRow(
                             englishText:
                                 "Meat-eaters have to produce extensive bile acids in their intestines to properly digest the meat that they eat.",
@@ -158,6 +159,16 @@ class EnglishEntrybile extends StatelessWidget {
                                 "گۆشتخۆران دەبێت ڕێژەیەکی زۆر لە ترشەڵۆکی زراو بەرھەمبێنن لە ڕیخۆڵەیان بۆ ئەوەی بە جوانی ئەو گۆشتە ھەرس بکەن کە دەیخۆن.",
                             onPressedBritish: () => speakbiles1("en-GB"),
                             onPressedAmerican: () => speakbiles1("en-US"),
+                          ),
+                          const DefinitionKurdish(
+                              text: "٢. (ناو) ڕقی زۆر لە کەسێک/شتێک"),
+                          const AlsoEnglishckb(word: "ھەروەھا: gall"),
+                          SentencesRow(
+                            englishText:
+                                "His article was full of loathing and bile.",
+                            kurdishText: "نووسراوەکەی پڕ بوو لە ڕق و کینە بوو.",
+                            onPressedBritish: () => speakbiles2("en-GB"),
+                            onPressedAmerican: () => speakbiles2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

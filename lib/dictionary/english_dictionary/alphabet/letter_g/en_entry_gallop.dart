@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygaelic extends StatefulWidget {
-  const EnglishEntrygaelic({super.key});
+class EnglishEntrygallop extends StatefulWidget {
+  const EnglishEntrygallop({super.key});
 
   @override
-  State<EnglishEntrygaelic> createState() => _EnglishEntrygaelicState();
+  State<EnglishEntrygallop> createState() => _EnglishEntrygallopState();
 }
 
-class _EnglishEntrygaelicState extends State<EnglishEntrygaelic> {
+class _EnglishEntrygallopState extends State<EnglishEntrygallop> {
   @override
   void initState() {
     super.initState();
@@ -51,15 +51,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: Gaelic
-1. Relating to or characteristic of the Celts (- Celtic)
+- Verb: gallop (Derived forms: galloping, gallops, galloped)
+1. (riding) ride at a gallop
+"He was galloping down the road"
+ 
+2. Go at galloping speed
+"The horse was galloping along"
+ 
+3. (riding) cause to move at full gallop (- extend)
+"Did you gallop the horse just now?";
 
-- Noun: Gaelic (Derived forms: Gaelics)
-1. Any of several related languages of the Celts in Ireland and Scotland (- Goidelic, Erse, Goidelic language, Erse language, Gaelic language)
+- Noun: gallop (Derived forms: gallops)
+1. A fast gait of a horse; a two-beat stride during which all four legs are off the ground simultaneously
 """,
   );
 
-  final String keyword = "Gaelic";
+  final String keyword = "gallop";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,78 +86,77 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gaelic""");
+    await flutterTts.speak("""gallop""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The decline of Scots Gaelic will inevitably continue for a while.""");
+    await flutterTts.speak("""The terrified horse galloped off.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They all spoke Gaelic down in the west.""");
+    await flutterTts.speak("""Jo galloped across the field towards him.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He galloped his horse home.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""She came galloping down the street.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""My horse suddenly broke into a gallop.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""He rode off at a gallop.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""Diane urged her horse into a gallop.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""I went for a gallop by the sea.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""She always lives life at a gallop.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""We had to complete the work at a gallop.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
@@ -729,10 +735,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """Gaelic""",
-                      // alsoEnglishWord: "also: Gaelic",
-                      britshText: """IpaUK: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
-                      americanText: """IpaUS: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
+                      word: """gallop""",
+                      // alsoEnglishWord: "also: gallop",
+                      britshText: """IpaUK: /ˈɡæləp/""",
+                      americanText: """IpaUS: /ˈɡæləp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -773,24 +779,27 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: چوارناڵە، تەقڵەکوت، چارگاڤی، ترەختان، غار، لنگار، لنگدان،	پەلە، تاو، پڕتاو، هەشتاو، لەز،	شەقاوی خێرا و توند
 """),
-// With short examples define "Gaelic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زمانیکی کێڵتیکی کە لە هەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),
+// With short examples define "gallop", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) کە ئەسپێک یان ئاژەڵێک ڕا دەکات و هەر چوار پێی لەگەڵ هەر شەقاوێک لە زەوی بەرز دەبێتەوە"""),
                     SentencesRow(
-                      englishText:
-                          """The decline of Scots Gaelic will inevitably continue for a while.""",
-                      kurdishText: """کەمبوونەوەی گالیکی سکۆتلەندی بەدڵنیاییەوە بۆ ماوەیەک بەردەوام دەبێت.""",
+                      englishText: """The terrified horse galloped off.""",
+                      kurdishText: """ئەسپە ترساوەکە غاری دا و ڕۆشت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن هەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە هەموو قوتابخانەکان دەگوترێتەوە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) غاردانی ئەسپێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They all spoke Gaelic down in the west.""",
-                      kurdishText: """هەموویان لە ڕۆژئاوا بە گالیکی سە دەکەن.""",
-                      englishNote: """This means that in the western region, everyone communicated using the Gaelic language. "Down" adds a sense of direction or location, implying that the west is either geographically lower or perceived as being in a lower position on a map.""",
+                      englishText:
+                          """Jo galloped across the field towards him.""",
+                      kurdishText:
+                          """جۆ غاری ئەسپەکەی دا بە کێڵگەکان دا بەرەو لای.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -798,26 +807,27 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He galloped his horse home.""",
+                      kurdishText: """ئەسپەکەیی بۆ مالەوە غاردا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) ڕاکردنی توند"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: charge"),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She came galloping down the street.""",
+                      kurdishText: """بە شەقامەکەدا بە ڕاکردن هاتە خوار.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (ناو) غاردانی ئەسپ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """My horse suddenly broke into a gallop.""",
+                      kurdishText: """ئەسپەکەم لەناکاو کەوتە غاردان.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -825,8 +835,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He rode off at a gallop.""",
+                      kurdishText: """بە گاردان چوو.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -834,26 +844,27 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Diane urged her horse into a gallop.""",
+                      kurdishText: """دایان ئەسپەکەی خستە غاردان.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ناو) سواری کردنی ئەسپ بە غاردان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I went for a gallop by the sea.""",
+                      kurdishText: """چووم بۆ غاردانێک لە کەناری دەریاکە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """٦. (ناو) بە خێرایی زۆر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She always lives life at a gallop.""",
+                      kurdishText: """هەمیشە بە خێرایی دەژی.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -861,8 +872,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We had to complete the work at a gallop (= very quickly).""",
+                      kurdishText:
+                          """پێویست بوو زۆر بە خێرایی کارەکە تەواو بکەین.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -1600,18 +1613,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/_0MutuU6eks?t=';
-const double _startSecondsend = 000000000000000000000000000520;
-const String _videoIdone = 'https://youtu.be/Z4H2W-k2j84?t=';
-const double _startSecondsone = 000000000000000000000000000193;
-const String _videoIdtwo = 'https://youtu.be/pLJo7jWJQj0?t=';
-const double _startSecondstwo = 00000000000000000000000000018;
-const String _videoIdthree = 'https://youtu.be/cCdK_Yzt5XI?t=';
-const double _startSecondsthree = 0000000000000000000000000003;
-const String _videoIdfour = 'https://youtu.be/gjiGBpdmk_I?t=';
-const double _startSecondsfour = 000000000000000000000000000637;
-const String _videoIdfive = 'https://youtu.be/Solb9uA-tgQ?t=';
-const double _startSecondsfive = 00000000000000000000000000025471;
+const String _videoIdend = 'https://youtu.be/LwZIxGAG8xA?t=';
+const double _startSecondsend = 000000000000000000000000000258;
+const String _videoIdone = 'https://youtu.be/rPe4yziWiOg?t=';
+const double _startSecondsone = 000000000000000000000000000380;
+const String _videoIdtwo = 'https://youtu.be/NZOHQwzA0bM?t=';
+const double _startSecondstwo = 000000000000000000000000000146;
+const String _videoIdthree = 'https://youtu.be/7J7X7aZvMXQ?t=';
+const double _startSecondsthree = 000000000000000000000000000700;
+const String _videoIdfour = 'https://youtu.be/VFoUXFxmnSM?t=';
+const double _startSecondsfour = 0000000000000000000000000001366;
+const String _videoIdfive = 'https://youtu.be/eR-J_JSBNTI?t=';
+const double _startSecondsfive = 0000000000000000000000000001381;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

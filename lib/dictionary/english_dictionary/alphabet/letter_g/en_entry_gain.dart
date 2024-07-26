@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygaelic extends StatefulWidget {
-  const EnglishEntrygaelic({super.key});
+class EnglishEntrygain extends StatefulWidget {
+  const EnglishEntrygain({super.key});
 
   @override
-  State<EnglishEntrygaelic> createState() => _EnglishEntrygaelicState();
+  State<EnglishEntrygain> createState() => _EnglishEntrygainState();
 }
 
-class _EnglishEntrygaelicState extends State<EnglishEntrygaelic> {
+class _EnglishEntrygainState extends State<EnglishEntrygain> {
   @override
   void initState() {
     super.initState();
@@ -51,15 +51,46 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: Gaelic
-1. Relating to or characteristic of the Celts (- Celtic)
+- Verb: gain (Derived forms: gains, gaining, gained)
+1. Have the benefit of; obtain something desirable (- derive)
+"gain pleasure from one's garden";
+ 
+2. Acquire something through effort (- acquire, win)
+"Gain an understanding of international finance";
+ 
+3. Derive a benefit from (- profit, benefit)
+"She gained from his vast experience";
+ 
+4. Be at the destination after some time, either real or abstract; come to a given position (- reach, make, attain, hit, arrive at)
+ 
+5. Obtain advantages, such as points, etc. (- advance, win, pull ahead, make headway, get ahead, gain ground)
+"The home team was gaining ground";
+ 
+6. Rise in rate or price (- advance)
+"The stock market gained 24 points today";
+ 
+7. Increase or develop (- gather)
+"the peace movement gained momentum";
+ 
+8. Receive money in return for work; make a profit as the result of some business transaction (- take in, clear, make, earn, realize, realise [Brit], pull in [informal], bring in)
+"He gains £5,000 each month";
+ 
+9. Increase (one's body weight) (- put on)
+"She gained 20 pounds when she stopped exercising";
 
-- Noun: Gaelic (Derived forms: Gaelics)
-1. Any of several related languages of the Celts in Ireland and Scotland (- Goidelic, Erse, Goidelic language, Erse language, Gaelic language)
+- Noun: gain (Derived forms: gains)
+1. A quantity that is added (- addition, increase)
+"they recorded the cattle's gain in weight over a period of weeks";
+ 
+2. The advantageous quality of being beneficial (- profit)
+ 
+3. The amount of increase in signal power, voltage or current expressed as the ratio of output to input (- amplification)
+ 
+4. The amount by which the revenue of a business exceeds its cost of operating
 """,
   );
 
-  final String keyword = "Gaelic";
+  final String keyword = "gain";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,204 +110,219 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gaelic""");
+    await flutterTts.speak("""gain""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The decline of Scots Gaelic will inevitably continue for a while.""");
+    await flutterTts.speak("""They managed to gain access to secret files.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They all spoke Gaelic down in the west.""");
+    await flutterTts.speak("""How did the thieves gain entry?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The country gained its independence ten years ago.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The party gained over 50 per cent of the vote.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""Police officers quickly gained control of the situation.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""Labour finally gained power in 1997.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts
+        .speak("""He has gained a reputation for unpredictable behaviour.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts
+        .speak("""We managed to gain entry through a back window.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak(
+        """The firm is hoping to gain an advantage over its competitors.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""What do you hope to gain by this?""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts
+        .speak("""There is nothing to be gained from delaying the decision.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts
+        .speak("""Consumers have gained from the increased competition.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts
+        .speak("""If the proposal goes ahead, we all stand to gain.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts.speak("""We all gained a lot from the experience.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts
+        .speak("""As you gain experience, you will grow in confidence.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1600""");
+    await flutterTts.speak("""I've gained weight recently.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1700""");
+    await flutterTts
+        .speak("""He has gained support from major figures in the industry.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1800""");
+    await flutterTts.speak("""My watch gains two minutes every 24 hours.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts
+        .speak("""The euro gained against the dollar again today.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence_2000""");
+    await flutterTts.speak("""At last she gained the shelter of the forest.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2100""");
+    await flutterTts.speak(
+        """The opposition made unexpected gains in the last election.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2200""");
+    await flutterTts.speak("""Regular exercise helps prevent weight gain.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2300""");
+    await flutterTts.speak("""August showed a gain of 144 000 jobs.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2400""");
+    await flutterTts.speak(
+        """This change in the tax system will mean big gains for some companies.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2500""");
+    await flutterTts.speak(
+        """These policies have resulted in great gains in public health.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2600""");
+    await flutterTts.speak("""He is already reaping political gains.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2700""");
+    await flutterTts.speak("""Financial gain was never her motivation.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence2800""");
+    await flutterTts
+        .speak("""They sold the company purely for short-term gain.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
@@ -729,10 +775,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """Gaelic""",
-                      // alsoEnglishWord: "also: Gaelic",
-                      britshText: """IpaUK: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
-                      americanText: """IpaUS: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
+                      word: """gain""",
+                      // alsoEnglishWord: "also: gain",
+                      britshText: """IpaUK: /ɡeɪn/""",
+                      americanText: """IpaUS: /ɡeɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -773,87 +819,118 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەرژەوەندی، خێر، سوود، کەڵک، قازانج، بەهرە، بەرە، بەروبووم،	زۆربوون، چوونەسەرەوە،	بەدەس‌هێنان، دەس‌خستن، گیرخستن، دەسکەوتن،	پێشکەوتن، پێشڤەچوون،	چا(ک)بوونەوە
 """),
-// With short examples define "Gaelic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زمانیکی کێڵتیکی کە لە هەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),
+// With short examples define "gain", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (کردار) بەدەستهێنان یان بردنەوەی شتێک"""),
                     SentencesRow(
                       englishText:
-                          """The decline of Scots Gaelic will inevitably continue for a while.""",
-                      kurdishText: """کەمبوونەوەی گالیکی سکۆتلەندی بەدڵنیاییەوە بۆ ماوەیەک بەردەوام دەبێت.""",
+                          """They managed to gain access to secret files.""",
+                      kurdishText:
+                          """توانی دەستڕاگەشتن بە فایلەکان بەدەست بهێنێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن هەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە هەموو قوتابخانەکان دەگوترێتەوە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """They all spoke Gaelic down in the west.""",
-                      kurdishText: """هەموویان لە ڕۆژئاوا بە گالیکی سە دەکەن.""",
-                      englishNote: """This means that in the western region, everyone communicated using the Gaelic language. "Down" adds a sense of direction or location, implying that the west is either geographically lower or perceived as being in a lower position on a map.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """How did the thieves gain entry?""",
+                              kurdishText: """چۆن دزەکان چوونە ژوورەوە.""",
+                              onPressedBritish: () => speaksentence2("en-GB"),
+                              onPressedAmerican: () => speaksentence2("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The country gained its independence ten years ago.""",
+                              kurdishText:
+                                  """وڵاتەکە دە ساڵ پێش ئێستا سەربەخۆیی بەدەستهێنا.""",
+                              onPressedBritish: () => speaksentence3("en-GB"),
+                              onPressedAmerican: () => speaksentence3("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The party gained over 50 per cent of the vote.""",
+                              kurdishText:
+                                  """پارتەکە سەروو پەنجا لە سەدی دەنگی بەدەستهێنا.""",
+                              onPressedBritish: () => speaksentence4("en-GB"),
+                              onPressedAmerican: () => speaksentence4("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Police officers quickly gained control of the situation.""",
+                              kurdishText:
+                                  """پۆلیس زوو کۆنترۆڵی دۆخەکەی گرتە دەست.""",
+                              onPressedBritish: () => speaksentence5("en-GB"),
+                              onPressedAmerican: () => speaksentence5("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """Labour finally gained power in 1997.""",
+                              kurdishText:
+                                  """پارتی کرێکاران لە کۆتاییدا لە ساڵی ١٩٩٧ دەسەڵاتی گرتە دەست.""",
+                              onPressedBritish: () => speaksentence6("en-GB"),
+                              onPressedAmerican: () => speaksentence6("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """He has gained a reputation for unpredictable behaviour.""",
+                              kurdishText:
+                                  """ناوبانگی بەدەست هێنابوو بۆ ئەوەی کە ڕەفتاری پێشبینی نەکراوە.""",
+                              onPressedBritish: () => speaksentence7("en-GB"),
+                              onPressedAmerican: () => speaksentence7("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """We managed to gain entry through a back window.""",
+                              kurdishText:
+                                  """توانیمان لە پەنجەرەیەکی پشتەوە بچینە ژوورەوە.""",
+                              onPressedBritish: () => speaksentence8("en-GB"),
+                              onPressedAmerican: () => speaksentence8("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) بەدەستهێنانی سوودێک لە شتێک یان کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The firm is hoping to gain an advantage over its competitors.""",
+                      kurdishText:
+                          """کۆمپانیاکە بەهیوایە باڵادەستی بەدەست بهێنێت بەسەر ڕکابەرەکانی.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -861,8 +938,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """What do you hope to gain by this?""",
+                      kurdishText: """بە هیوایت چی بەدەست بخەیت لەمە؟""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -870,8 +947,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is nothing to be gained from delaying the decision.""",
+                      kurdishText:
+                          """هیچ شتێک نییە بەدەست بێت لە دواخستنی بڕیاردانەکە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -879,8 +958,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Consumers have gained from the increased competition.""",
+                      kurdishText:
+                          """کڕیاران سوودیان بینیوە لە زۆربوونی ڕکابەری.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -888,8 +969,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """If the proposal goes ahead, we all stand to gain.""",
+                      kurdishText:
+                          """ئەگەر پێشنیارەکە بەرەو پێش بچێت، هەموومان سوود دەبینین.""",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -897,17 +980,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We all gained a lot from the experience.""",
+                      kurdishText: """هەموومان زۆر سوودمان بینی لە ئەزموون.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) بەدەستهێنانی زیاتر لە شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """As you gain experience, you will grow in confidence.""",
+                      kurdishText:
+                          """کە ئەزموون بەدەست دەهێنیت، باوەڕت زیاد دەکات.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -915,8 +1002,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I've gained weight recently.""",
+                      kurdishText: """تازەگی کێشم زیادی کردووە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -924,44 +1011,58 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He has gained support from major figures in the industry.""",
+                      kurdishText:
+                          """کەمپینەکە پشتیوانی کەسانی گرنگی پیشەسازییەکەی بەدەستهێناوە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (کردار) کە کات خێرا دەچێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """My watch gains two minutes every 24 hours.""",
+                      kurdishText:
+                          """کاتژمێرەکە دوو خولەک پێش دەکەوێت لە هەر ٢٤ کاتژمێرێک.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (کردار) کە دراو بەهای زیاد دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The euro gained against the dollar again today.""",
+                      kurdishText: """یۆرۆ دووبارە دژ بە دۆلار بەهێز بوو.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (کردار) گەشتنە شوێنێک، زۆرجار لە دوای ماوەیەکی زۆر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_2000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """At last she gained the shelter of the forest.""",
+                      kurdishText:
+                          """لە کۆتاییدا گەشت بە پەناگەی دارستانەکە.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٧. (ناو) زیادبوون لە بڕی شتێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The opposition made unexpected gains in the last election.""",
+                      kurdishText:
+                          """ئۆپۆزسیۆن زیادبوونی پێشبینی نەکراوی بەخۆوە دی لە هەڵبژاردنی ڕابردوودا.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -969,8 +1070,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Regular exercise helps prevent weight gain.""",
+                      kurdishText:
+                          """ڕاهێنانی بەردەوام یارمەتیدەر دەبێت لە ڕێگری لە زیادبوونی کێش.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -978,8 +1081,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """August showed a gain of 144 000 jobs.""",
+                      kurdishText:
+                          """زیادبوونی ١٤٤٠٠٠ هەلی کار لە ئابدا هەبوو.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -987,17 +1091,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This change in the tax system will mean big gains for some companies.""",
+                      kurdishText:
+                          """گۆڕان لە سیستەمی باجەکەدا واتا قازانجی زۆر بۆ هەندێک کۆمپانیا.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٨. (ناو) سوود یان بەرەوپێشچوون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These policies have resulted in great gains in public health.""",
+                      kurdishText:
+                          """ئەم سیاسەتانە بوونەتە هۆکاری بەرەوپێشچوونی زۆر لە تەندرووستی گشتیدا.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
@@ -1005,17 +1114,20 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He is already reaping political gains.""",
+                      kurdishText:
+                          """پێشوەختە دەستی کردووە بە بەرەوپێشچوونی سیاسی.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٩. (ناو) قازانجی ئابووری"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Financial gain was never her motivation.""",
+                      kurdishText: """قازانجی دارایی هەرگیز پاڵنەری نەبوو.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
@@ -1023,8 +1135,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They sold the company purely for short-term gain.""",
+                      kurdishText:
+                          """کۆمپانیاکەیان فرۆشت تەنها بۆ قازانجی کورت مەودا.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
@@ -1600,18 +1714,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/_0MutuU6eks?t=';
-const double _startSecondsend = 000000000000000000000000000520;
-const String _videoIdone = 'https://youtu.be/Z4H2W-k2j84?t=';
-const double _startSecondsone = 000000000000000000000000000193;
-const String _videoIdtwo = 'https://youtu.be/pLJo7jWJQj0?t=';
-const double _startSecondstwo = 00000000000000000000000000018;
-const String _videoIdthree = 'https://youtu.be/cCdK_Yzt5XI?t=';
-const double _startSecondsthree = 0000000000000000000000000003;
-const String _videoIdfour = 'https://youtu.be/gjiGBpdmk_I?t=';
-const double _startSecondsfour = 000000000000000000000000000637;
-const String _videoIdfive = 'https://youtu.be/Solb9uA-tgQ?t=';
-const double _startSecondsfive = 00000000000000000000000000025471;
+const String _videoIdend = 'https://youtu.be/dfuPBC-v5NE?t=';
+const double _startSecondsend = 000000000000000000000000000936;
+const String _videoIdone = 'https://youtu.be/lfv0DG98LNs?t=';
+const double _startSecondsone = 000000000000000000000000000356;
+const String _videoIdtwo = 'https://youtu.be/R_fZjGm2OrM?t=';
+const double _startSecondstwo = 00000000000000000000000000098;
+const String _videoIdthree = 'https://youtu.be/hFZFjoX2cGg?t=';
+const double _startSecondsthree = 000000000000000000000000000140;
+const String _videoIdfour = 'https://youtu.be/KJy7T24rhg0?t=';
+const double _startSecondsfour = 000000000000000000000000000716;
+const String _videoIdfive = 'https://youtu.be/zqllxbPWKNI?t=';
+const double _startSecondsfive = 0000000000000000000000000001003;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

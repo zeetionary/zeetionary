@@ -6,14 +6,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygaelic extends StatefulWidget {
-  const EnglishEntrygaelic({super.key});
+class EnglishEntrygallantry extends StatefulWidget {
+  const EnglishEntrygallantry({super.key});
 
   @override
-  State<EnglishEntrygaelic> createState() => _EnglishEntrygaelicState();
+  State<EnglishEntrygallantry> createState() => _EnglishEntrygallantryState();
 }
 
-class _EnglishEntrygaelicState extends State<EnglishEntrygaelic> {
+class _EnglishEntrygallantryState extends State<EnglishEntrygallantry> {
   @override
   void initState() {
     super.initState();
@@ -51,15 +51,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: Gaelic
-1. Relating to or characteristic of the Celts (- Celtic)
+- Noun: gallantry (Derived forms: gallantries)
+1. The qualities of a hero or heroine; exceptional or heroic courage when facing danger (especially in battle) (- heroism, valor [US], valour [Brit, Cdn], valorousness, valiance, valiancy)
+"he showed great gallantry in battle";
+ 
+2. Courtesy towards women (- chivalry)
+ 
+3. Polite attentiveness to women
 
-- Noun: Gaelic (Derived forms: Gaelics)
-1. Any of several related languages of the Celts in Ireland and Scotland (- Goidelic, Erse, Goidelic language, Erse language, Gaelic language)
 """,
   );
 
-  final String keyword = "Gaelic";
+  final String keyword = "gallantry";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +82,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gaelic""");
+    await flutterTts.speak("""gallantry""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +90,14 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts
-        .speak("""The decline of Scots Gaelic will inevitably continue for a while.""");
+        .speak("""He was awarded a gallantry medal for saving life at sea.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They all spoke Gaelic down in the west.""");
+    await flutterTts.speak("""I'd like to think that gallantry isn't dead.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -729,10 +732,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """Gaelic""",
-                      // alsoEnglishWord: "also: Gaelic",
-                      britshText: """IpaUK: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
-                      americanText: """IpaUS: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
+                      word: """gallantry""",
+                      // alsoEnglishWord: "also: gallantry",
+                      britshText: """IpaUK: /ˈɡæləntri/""",
+                      americanText: """IpaUS: /ˈɡæləntri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -773,24 +776,29 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: قارەمانی، نەبەزی، دلێری، نەبەردی، نەبەردایەتی، شێرکرۆژی، کۆڵنەدەری، ئازایەتی،	(پیاو بۆ ژن) سەرنج‌ڕاکێشی، شۆخ‌وشەنگی،	ڕەوشت، تۆرە، ماریفەت
 """),
-// With short examples define "Gaelic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زمانیکی کێڵتیکی کە لە هەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),
+// With short examples define "gallantry", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (ناو) بوێری، بە تایبەتی لە جەنگدا"""),
                     SentencesRow(
                       englishText:
-                          """The decline of Scots Gaelic will inevitably continue for a while.""",
-                      kurdishText: """کەمبوونەوەی گالیکی سکۆتلەندی بەدڵنیاییەوە بۆ ماوەیەک بەردەوام دەبێت.""",
+                          """He was awarded a gallantry medal for saving life at sea.""",
+                      kurdishText:
+                          """مەدالیای پاڵەوانێتیی پێدرا بۆ ڕزگارکردنی ژیان لە دەریادا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن هەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە هەموو قوتابخانەکان دەگوترێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) سەرنجی تایبەت کە پیاوان دەیدەن بە ژنان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They all spoke Gaelic down in the west.""",
-                      kurdishText: """هەموویان لە ڕۆژئاوا بە گالیکی سە دەکەن.""",
-                      englishNote: """This means that in the western region, everyone communicated using the Gaelic language. "Down" adds a sense of direction or location, implying that the west is either geographically lower or perceived as being in a lower position on a map.""",
+                      englishText:
+                          """I'd like to think that gallantry isn't dead.""",
+                      kurdishText:
+                          """حەز دەکەم باوەڕ بەوە بێنم کە جوامێری هێشتا ماوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1600,18 +1608,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/_0MutuU6eks?t=';
-const double _startSecondsend = 000000000000000000000000000520;
-const String _videoIdone = 'https://youtu.be/Z4H2W-k2j84?t=';
-const double _startSecondsone = 000000000000000000000000000193;
-const String _videoIdtwo = 'https://youtu.be/pLJo7jWJQj0?t=';
-const double _startSecondstwo = 00000000000000000000000000018;
-const String _videoIdthree = 'https://youtu.be/cCdK_Yzt5XI?t=';
-const double _startSecondsthree = 0000000000000000000000000003;
-const String _videoIdfour = 'https://youtu.be/gjiGBpdmk_I?t=';
-const double _startSecondsfour = 000000000000000000000000000637;
-const String _videoIdfive = 'https://youtu.be/Solb9uA-tgQ?t=';
-const double _startSecondsfive = 00000000000000000000000000025471;
+const String _videoIdend = 'https://youtu.be/DWnRtK15hDo?t=';
+const double _startSecondsend = 000000000000000000000000000262;
+const String _videoIdone = 'https://youtu.be/VLk4F1thAp0?t=';
+const double _startSecondsone = 000000000000000000000000000254;
+const String _videoIdtwo = 'https://youtu.be/wsqCjO3D9yc?t=';
+const double _startSecondstwo = 000000000000000000000000000199;
+const String _videoIdthree = 'https://youtu.be/1Ch-7rQ8X0c?t=';
+const double _startSecondsthree = 000000000000000000000000000589;
+const String _videoIdfour = 'https://youtu.be/szldaaHfPbs';
+const double _startSecondsfour = 0;
+const String _videoIdfive = 'https://youtu.be/_VYdtCLF9ks?t=';
+const double _startSecondsfive = 000000000000000000000000000217;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrygaelic extends StatefulWidget {
-  const EnglishEntrygaelic({super.key});
+class EnglishEntrygall extends StatefulWidget {
+  const EnglishEntrygall({super.key});
 
   @override
-  State<EnglishEntrygaelic> createState() => _EnglishEntrygaelicState();
+  State<EnglishEntrygall> createState() => _EnglishEntrygallState();
 }
 
-class _EnglishEntrygaelicState extends State<EnglishEntrygaelic> {
+class _EnglishEntrygallState extends State<EnglishEntrygall> {
   @override
   void initState() {
     super.initState();
@@ -51,15 +52,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: Gaelic
-1. Relating to or characteristic of the Celts (- Celtic)
+- Noun: gall (Derived forms: galls)
+1. The trait of being rude and impertinent; inclined to take liberties (- crust, impertinence, impudence, insolence, cheekiness, freshness)
+ 
+2. A feeling of deep and bitter anger and ill-will (- resentment, bitterness, rancor [US], rancour [Brit, Cdn], ill feeling, hard feelings, acrimoniousness, bile)
+ 
+3. An open sore on the back of a horse caused by ill-fitting or badly adjusted saddle (- saddle sore)
+ 
+4. A skin sore caused by chafing
+ 
+5. Abnormal swelling of plant tissue caused by insects, microorganisms or injury
+ 
+6. A digestive juice secreted by the liver and stored in the gallbladder; aids in the digestion of fats (- bile)
 
-- Noun: Gaelic (Derived forms: Gaelics)
-1. Any of several related languages of the Celts in Ireland and Scotland (- Goidelic, Erse, Goidelic language, Erse language, Gaelic language)
+- Verb: gall (Derived forms: galled, galls, galling)
+1. Become or make sore by or as if by rubbing (- chafe, fret)
+ 
+2. Irritate or vex (- irk)
+"It galls me that we lost the suit";
 """,
   );
 
-  final String keyword = "Gaelic";
+  final String keyword = "gall";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,43 +93,45 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gaelic""");
+    await flutterTts.speak("""gall""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The decline of Scots Gaelic will inevitably continue for a while.""");
+    await flutterTts.speak("""Then they had the gall to complain!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They all spoke Gaelic down in the west.""");
+    await flutterTts.speak(
+        """Considering that he never even bothers to visit my parents, I'm amazed that Tim has the gall to ask them for money!""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""She replied with words full of venom and gall.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """One of the best plants to examine for galls is an oak tree.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""It galls me to have to apologize to her.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -729,10 +745,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """Gaelic""",
-                      // alsoEnglishWord: "also: Gaelic",
-                      britshText: """IpaUK: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
-                      americanText: """IpaUS: /ˈɡælɪk/,  /ˈɡeɪlɪk/ in Scotland, /ˈɡeɪlɪk/ in Ireland""",
+                      word: """gall""",
+                      // alsoEnglishWord: "also: gall",
+                      britshText: """IpaUK: /ɡɔːl/""",
+                      americanText: """IpaUS: /ɡɔːl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -773,51 +789,74 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زەرداو، زراو، کرانتی، توورەکەی زراو، کیسەی زراو، زیەڵگ، شت و نێوەرۆکی نێو کیسەی زراو،	توورەکەی زراوی گیانەوەر،	(قسە) ناخۆشی، ڕەقی، تاڵی،	ڕووداری، بێ‌شەرمی، بێ‌حەیایی، جدەو، دڵ‌وجەرگ، زراو، ئازایەتی، غیرەت، بوێری،	عەیب، عار، لکە، داماڵکان، پشتەڕێژ، ڕووشان، پێست ڕۆیشتن، برین،	(هەل)ئاوسان یان ماسینی دار و ڕووەک
 """),
-// With short examples define "Gaelic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زمانیکی کێڵتیکی کە لە هەندێک ناوچەی ڕۆژئاوای سکۆتلەندا قسەی پێ دەکریت و زمانێکی فەرمی سکۆتلەندایە"""),
+// With short examples define "gall", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ڕەفتاری بێ‌ڕێزانە کە جێگەی سەرسامییە بەهۆی ئەوەی کەسەکە خەجاڵەت نابێت"""),
                     SentencesRow(
-                      englishText:
-                          """The decline of Scots Gaelic will inevitably continue for a while.""",
-                      kurdishText: """کەمبوونەوەی گالیکی سکۆتلەندی بەدڵنیاییەوە بۆ ماوەیەک بەردەوام دەبێت.""",
+                      englishText: """Then they had the gall to complain!""",
+                      kurdishText:
+                          """ڕووداری ئەوەیان هەبوو ناڕەزایی دەرببڕن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) زمانێکی کێڵتیکی کە لەلایەن هەندێک خەڵکەوە لە ئێرلەندا قسەی پێ دەکرێت و زمانێکی فەرمی کۆماری ئێرلەندایە کە تێیدا لە هەموو قوتابخانەکان دەگوترێتەوە"""),
+                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They all spoke Gaelic down in the west.""",
-                      kurdishText: """هەموویان لە ڕۆژئاوا بە گالیکی سە دەکەن.""",
-                      englishNote: """This means that in the western region, everyone communicated using the Gaelic language. "Down" adds a sense of direction or location, implying that the west is either geographically lower or perceived as being in a lower position on a map.""",
+                      englishText:
+                          """Considering that he never even bothers to visit my parents, I'm amazed that Tim has the gall to ask them for money!""",
+                      kurdishText:
+                          """بە لەبەرچاوگرتنی ئەوەی کە هەرگیز هەوڵ نادات سەردانی دایبابم بکات، سەرسامم کە تیم ڕووداری ئەوەی هەیە داوای پارەیان لێ بکات!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) هەستێکی پڕ لە ڕق"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She replied with words full of venom and gall.""",
+                      kurdishText:
+                          """بە وشەی پڕ لە ژەهراوی و تووڕەیی وەڵامی دایەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) هەڵاوسانێک لەسەر درەخت، ڕووەک، یان جەستەی ئاژەڵ کە بەهۆی نەخۆشییەوە درووست دەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """One of the best plants to examine for galls is an oak tree.""",
+                      kurdishText:
+                          """یەکێک لە باشترین درەختەکان کە تێیدا بگەڕێت بۆ ئاوسان داربەڕووە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    CustomRichText(
+                      textBeforeLink: "٤. بڕوانە لە ",
+                      linkText: "bile",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-gall/bile");
+                      },
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (کردار) واکردنی ئەوەی کەسێک هەست بە بێزاری یان تووڕەیی بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It galls me to have to apologize to her.""",
+                      kurdishText:
+                          """ئەوە تووڕەم دەکات کە پێویستە داوای لێبووردنی لێ بکەم.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1600,18 +1639,18 @@ ${englishMeaningConst.text}
 }
 
 // 188888880002200
-const String _videoIdend = 'https://youtu.be/_0MutuU6eks?t=';
-const double _startSecondsend = 000000000000000000000000000520;
-const String _videoIdone = 'https://youtu.be/Z4H2W-k2j84?t=';
-const double _startSecondsone = 000000000000000000000000000193;
-const String _videoIdtwo = 'https://youtu.be/pLJo7jWJQj0?t=';
-const double _startSecondstwo = 00000000000000000000000000018;
-const String _videoIdthree = 'https://youtu.be/cCdK_Yzt5XI?t=';
-const double _startSecondsthree = 0000000000000000000000000003;
-const String _videoIdfour = 'https://youtu.be/gjiGBpdmk_I?t=';
-const double _startSecondsfour = 000000000000000000000000000637;
-const String _videoIdfive = 'https://youtu.be/Solb9uA-tgQ?t=';
-const double _startSecondsfive = 00000000000000000000000000025471;
+const String _videoIdend = 'https://youtu.be/4IaOeVgZ-wc?t=';
+const double _startSecondsend = 0000000000000000000000000001107;
+const String _videoIdone = 'https://youtu.be/tTJeePNgOF8?t=';
+const double _startSecondsone = 000000000000000000000000000452;
+const String _videoIdtwo = 'https://youtu.be/4IaOeVgZ-wc?t=';
+const double _startSecondstwo = 0000000000000000000000000001107;
+const String _videoIdthree = 'https://youtu.be/1OceijOEVqU?t=';
+const double _startSecondsthree = 000000000000000000000000000107;
+const String _videoIdfour = 'https://youtu.be/nXosanaAVp4?t=';
+const double _startSecondsfour = 00000000000000000000000000017;
+const String _videoIdfive = 'https://youtu.be/dZ_IwkAE2ls?t=';
+const double _startSecondsfive = 000000000000000000000000000507;
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

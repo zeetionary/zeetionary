@@ -784,7 +784,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بەکارنایەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Is this seat free?""",
                       kurdishText: """ئەم جێگایە بەتاڵە؟""",
@@ -821,7 +820,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە پارەی تێناچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Admission is free.""",
                       kurdishText: """چوونەژوورەوە بێبەرامبەرە.""",
@@ -934,7 +932,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) ئازاد؛ کە ئەوە بکەیت کە خۆت دەتەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I have no ambitions other than to have a happy life and be free.""",
@@ -1032,7 +1029,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە لەلایەن کەسەوە کۆنترۆڵ یان سنووردار نەکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A true democracy needs free speech and a free press.""",
@@ -1089,7 +1085,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) کەسێک کە زیندانی یان کۆیلە نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He walked out of jail a free man.""",
                       kurdishText: """وەک کەسێکی ئازاد لە زیندان دەرچوو.""",
@@ -1122,7 +1117,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) کە نەبەستراوەتەوە یان لە قەفەز نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The researchers set the birds free.""",
                       kurdishText: """توێژەران باڵندەکانیان ئازاد کرد.""",
@@ -1149,7 +1143,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ھاوەڵناو) کە ڕێگای لێ ناگیردرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Ensure there is a free flow of air around the machine.""",
@@ -1169,7 +1162,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ھاوەڵناو) کە کاریگەر نییە بە شتێکی خراپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Everyone deserves to live free from fear.""",
@@ -1206,7 +1198,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ھاوەڵناو) بەبێ ئەو شتەی باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """After six months of treatment he is cancer-free.""",
@@ -1252,7 +1243,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵناو) کە نەبەستراوە بە شتێکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Pull gently on the free end of the rope.""",
@@ -1286,7 +1276,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (ھاوەڵکار) بێ‌بەرامبەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Children under five travel free.""",
                       kurdishText:
@@ -1304,7 +1293,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ھاوەڵکار) کە نەبەستراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Attach the top and let the ends hang free.""",
@@ -1413,7 +1401,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٧. (کردار) ئەوەی شتێک بەردەست بخەیت بۆ مەبەستێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We freed time each week for a project meeting.""",

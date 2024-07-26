@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە زۆر حەزی بە شتێکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """McCormack is a fiend for punctuality.""",
                       kurdishText: """ماک کۆرماک شەیدای پابەندبوون بە کاتە.""",

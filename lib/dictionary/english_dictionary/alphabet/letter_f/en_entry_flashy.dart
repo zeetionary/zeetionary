@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کەسێک کە سەرنج ڕادەکێشێت بە لەبەرکردنی جلی گران‌بەھا، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was one of those flashy guys with too much money to throw around.""",

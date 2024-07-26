@@ -153,9 +153,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "freshwater", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە لە ئاوی سازگار دەژی"""),
@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە ئاوی بێ خوێی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The village is near a freshwater lake.""",
                       kurdishText: """گوندەکە لە نزیک دەریاچەیەکی سازگارە.""",

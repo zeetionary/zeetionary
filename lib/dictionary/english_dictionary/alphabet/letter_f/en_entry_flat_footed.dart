@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) نەبوونی ئامادەیی بۆ ئەوەی ڕوودەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were caught flat-footed by the attack.""",

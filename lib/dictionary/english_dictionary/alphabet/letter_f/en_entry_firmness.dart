@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی ئەگەری کەم بێت بگۆڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The firmness of conviction was evident in her speech.""",
@@ -212,7 +211,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئەوەی بە بەھێزی شوێنی خۆی گرتبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The engineer ensured the firmness of the foundations before construction began.""",
@@ -224,7 +222,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) ئەوەی بەھێز و توند بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The firmness of his handshake reassured me.""",
@@ -236,7 +233,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەوەی بەھێز بێت و لە کۆنترۆڵدا بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His handling of the situation lacked firmness.""",

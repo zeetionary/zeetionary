@@ -341,7 +341,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کە بە خێرایی و نا ھاوسەنگی لێ بدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I could feel a fluttering pulse.""",
                       kurdishText: """ھەستم بە لێدانێکی خێرای دڵ دەکرد.""",
@@ -351,7 +350,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) جووڵەی خێرا و لەسەرەخۆ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The flutter of wings signaled the bird's takeoff.""",
@@ -372,7 +370,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٥. (ناو) گرەوێکی بچووک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Auntie Paula likes to have a bit of a flutter on the horses.""",
@@ -385,7 +382,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ئەوەی شڵەژاو یان سەرلێشێواو بیت لە جۆش‌وخرۆشیدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her sudden arrival caused quite a flutter.""",
@@ -398,7 +394,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) لێدانی خێرای دڵ کە درووست دەبێت کاتێک کەسێک شڵەژاو یان بەجۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her heart gave a flutter when she saw him.""",

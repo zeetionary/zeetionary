@@ -246,7 +246,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) پیاو یان کوڕ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's a nice old fellow.""",
                       kurdishText: """پیاوێکی بەتەمەنی باشە.""",
@@ -264,7 +263,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە کاری لەگەڵ دەکەیت یان وەک تۆیە؛ شتێک کە ھاوشێوەی ئەوەیە کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has a very good reputation among her fellows.""",
@@ -286,7 +284,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ئەندامێکی باڵای ھەندێک زانکۆ یان کۆلێژ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's a fellow of New College, Oxford.""",
                       kurdishText: """ئەندامێکە لە نوو کۆڵێج لە ئۆکسفۆرد.""",
@@ -296,7 +293,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) ئەندامێکی دامەزراوەیەکی ئەکادیمی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was elected a fellow of the Academy.""",

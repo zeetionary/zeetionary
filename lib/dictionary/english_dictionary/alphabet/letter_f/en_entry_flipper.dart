@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارچە پلاستیک یان لاستیکێکی تەخت کە بەکاری دەھێنیت بۆ ئەوەی خێراتر مەلە بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He practiced swimming with new flippers.""",

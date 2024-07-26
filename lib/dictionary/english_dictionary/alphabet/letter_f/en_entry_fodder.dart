@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خەڵک و شت کە وەھا دادەنرێن کە تەنھا یەک بەکارھێنانیان ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He regarded lists of rules, regulations and procedures as dustbin fodder (= only fit to be thrown away).""",

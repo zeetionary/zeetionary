@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی ناوکی ئەتۆم تێکەڵ بکەیت و بۆ پێکھێنانی یەک ناوکی گەورەتر و لە پڕۆسەکەدا وزە دەربدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Scientists study nuclear fusion for energy production.""",

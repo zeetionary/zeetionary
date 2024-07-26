@@ -237,7 +237,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) تەواوی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The disease affects fully 30 per cent of the population.""",

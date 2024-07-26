@@ -227,7 +227,6 @@ Usage: US (elsewhere: fibre)
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەرەستەی وەک جل یان حەبل کە لە ڕێژەیەکی زۆر لە دەزووی سرووشتی یان دەستکرد پێکھاتووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Wear underwear that is made from natural fibres.""",
@@ -240,7 +239,6 @@ Usage: US (elsewhere: fibre)
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) یەکێک لە ھێڵە باریکەکانی شانەی لەش، وەک ماسولکە، و مادە سرووشتییەکانی وەک دار و لۆکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The disease is characterized by degeneration of muscle fibres.""",

@@ -546,7 +546,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئاگر کە لە کۆنترۆڵ دەرچووە و خانوو، دار، ھتد دەسووتێنن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Several youths had set fire to the police car (= had made it start burning).""",
@@ -642,7 +641,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) چینێک لە سووتەمەنی کە خواردن لێنان یان گەرمکردنەوە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They cook on an open fire.""",
                       kurdishText: """لەسەر ئاگرێکی کراوە چێشت لێدەنێت.""",
@@ -698,7 +696,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) شتێک بۆ گەرمکردنەوەی ژوورێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Shall I put the fire on?""",
                       kurdishText: """گەرمکەرەوەکە بکەمەوە؟""",
@@ -723,7 +720,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٥. (ناو) تەقەی چەکێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The gunmen opened fire on (= started shooting at) the police.""",
@@ -783,7 +779,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ناو) ڕەخنەی توند"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She directed her fire against the new education policy.""",
@@ -814,7 +809,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) ھەستی زۆر بەھێز، بەتایبەتی تووڕەیی یان تامەزرۆیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her eyes were full of fire.""",
                       kurdishText: """چاوەکانی پڕ لە تووڕەیی بوون.""",
@@ -833,7 +827,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) تەقەکردن بە چەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The officer ordered his men to fire.""",
                       kurdishText:
@@ -859,7 +852,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) ئەوەی چەکێک بتەقێندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We heard the sound of guns firing.""",
                       kurdishText: """گوێمان لە چەکێک بوو دەتەقی.""",
@@ -869,7 +861,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) دەرکردن لە کار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We had to fire him for dishonesty.""",
                       kurdishText: """پێویست بوو دەری بکەین بۆ فێڵبازی.""",
@@ -888,7 +879,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (کردار) واکردن لە کەسێک زۆر تامەزرۆ بێت لەسەر شتێک یان حەزی لێ بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The talk had fired her with enthusiasm for the project.""",

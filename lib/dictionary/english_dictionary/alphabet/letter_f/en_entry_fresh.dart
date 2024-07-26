@@ -401,7 +401,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) خۆش و پاک و خاوێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Let's go and get some fresh air (= go outside where the air is cooler).""",
@@ -429,7 +428,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە تازە درووست بووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Let me write it down while it's still fresh in my mind.""",
@@ -459,7 +457,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) تازە یان جیاواز بە شێوەیەک کە بۆ شتێکی تر زیاد دەکات یان جێگای دەگرێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Could we order some fresh coffee?""",
                       kurdishText: """داوای ھەندێک قاوەی تازە بکەین؟""",
@@ -505,7 +502,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) کە خوێی تێدا نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is a shortage of fresh water on the island.""",
@@ -516,7 +512,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ھاوەڵناو) بەھێز و سارد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The winds are likely to get fresher towards the end of the day.""",
@@ -529,7 +524,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) کەشێکی تەواو سارد بە کەمێک باوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's fresh this morning, isn't it?""",
                       kurdishText: """ئەم بەیانییە ساردە، وانییە؟""",
@@ -540,7 +534,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) کە درەوشاوە و جوان دەردەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He looked fresh and neat in a clean white shirt.""",
@@ -561,7 +554,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ھاوەڵناو) پڕ لە وزە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Regular exercise will help you feel fresher.""",
@@ -572,7 +564,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ھاوەڵناو) کە تازە لە شتێکەوە ھاتووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The singer is fresh off a successful world tour.""",

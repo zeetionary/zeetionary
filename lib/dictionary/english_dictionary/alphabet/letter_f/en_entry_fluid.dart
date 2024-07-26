@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) لەسەرخۆ و جوان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His piano playing was beautifully fluid.""",
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە ئەگەری ھەیە بگۆڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fluid political situation made investment impossible.""",

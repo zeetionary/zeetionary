@@ -217,7 +217,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو سەھۆڵەی کە درووست دەبێت لە کەشووھەوایەکی وەھادا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The car windows were covered with frost.""",
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دپۆشران بە قوقم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The windows had frosted over.""",
                       kurdishText: """پنجەرەکان زوقمیان لەسەریان گرتبوو.""",
@@ -239,7 +237,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) داپۆشینی ڕووێ کێک بە تێکەڵەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Leave the cake to cool before frosting it.""",

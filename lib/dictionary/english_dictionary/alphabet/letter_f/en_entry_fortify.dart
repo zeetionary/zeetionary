@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) واکردنی ئەوەی خۆت یان کەسێک ھەست بە بەھێزی، بوێری، ھتد بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He fortified himself against the cold with a hot drink.""",
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) واکردنی ئەوەی ھەستێک یان ھەڵوێستێک بەھێز بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The news merely fortified their determination.""",

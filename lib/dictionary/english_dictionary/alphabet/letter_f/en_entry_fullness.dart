@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی ڕەنگێک، تامێک، یان دەنگێک تەواو و قووڵ بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I like this cheese for the fullness of its flavour.""",
@@ -196,7 +195,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئەوەی کە تەواو بێت و خۆشی ببەخشێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I envy him the fullness of his life (= how busy and interesting his life is).""",

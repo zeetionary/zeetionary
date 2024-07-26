@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ڕێژەیەکی زۆر لە کەف لەسەر شلەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The waves left the beach covered with foam.""",
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) مادەیەکی کیمیایی کە وەک کرێم وەھایە و ڕێژەیەکی زۆر لە کەفی نەرم درووست دەکات و بۆ تەراش، ششتن، ھتد بەکاردێت، یان بۆ کوژاندنەوەی ئاگر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fire extinguisher directs foam onto the fire.""",
@@ -216,7 +214,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) درووستکردنی ڕێژەیەکی زۆر لە کەفی بچووک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The toothpaste foamed in his mouth.""",
                       kurdishText: """ھەویرە ددانەکە بوو بە کەف لە دەمیدا.""",

@@ -321,7 +321,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) زۆر ناخۆش؛ زۆر خراپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's in a foul mood.""",
                       kurdishText: """لە کەشێکی خراپە.""",
@@ -345,7 +344,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە زمانی ناشرین لەخۆ دەگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She exploded in a torrent of foul language at me.""",
@@ -357,7 +355,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کەشووھەوای خراپ کە با و بارانی بەھێزی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """What foul weather!""",
                       kurdishText: """چی کەشێکی نالەبارە!""",
@@ -367,7 +364,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) کە نائەخلاقی و دڕندانەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """All murders are foul and futile.""",
                       kurdishText: """ھەموو کوشتنەکان چەپەڵ و بێ‌بەرھەمن.""",
@@ -377,7 +373,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) کە دژ بە یاسکانی وەرزشێکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Harper was penalized for a foul tackle.""",
@@ -389,7 +384,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) کردنی شتێک بە یاریزانێکی دیکە کە دژ بە یاساکانی یارییەکەیە؛ لە یاریی بەیسبۆڵ واتا تۆپەکە بخەیتە دەرەوەی یاریگاکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was fouled inside the penalty area.""",
                       kurdishText: """لە ناو ناوچەی سزا لێیدرا.""",
@@ -402,7 +396,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) پیسکردن، بە تایبەتی بە پیسایی جەستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Do not permit your dog to foul the grass.""",
@@ -424,7 +417,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) گیربوون لە شتێک و وەستاندنی لە کارکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The rope fouled the propeller.""",
                       kurdishText: """حەبلەکە ئازڵکا بە پەروانەکە.""",
@@ -434,7 +426,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ناو) کارێک کە دژ بە یاساکانی یارییەکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The referee did not call a foul on the player.""",

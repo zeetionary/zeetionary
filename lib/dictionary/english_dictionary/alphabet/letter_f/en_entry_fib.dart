@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) درۆکردنی بچووک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Come on, don't fib! Where were you really last night?""",

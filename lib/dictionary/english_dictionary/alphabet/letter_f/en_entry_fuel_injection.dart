@@ -147,9 +147,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سیستەمی ناردنی سووتەمەنی بۆ بزوێنەری ئۆتۆمبێل لەژێر فشاردا بۆ ئەوەی ئاستێکی باشی ھەبێت"""),

@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ناتوانیت ھەستەکانت کۆنترۆڵ بکەیت چونکە تەواو ترساو یان نیگەرانیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Let's go back. Your parents must be getting frantic by now.""",

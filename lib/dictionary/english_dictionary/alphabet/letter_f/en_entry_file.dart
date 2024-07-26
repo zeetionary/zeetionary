@@ -383,7 +383,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژمارەیەک زانیاری کە لە کۆمپیوتەرێکدا ھەڵدەگیرێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You can transfer and edit files on your smartphone.""",
@@ -414,7 +413,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) فایلێک و زانیارییەکانی ناوی، بۆ نموونە لەسەر کەسێک یان بابەتێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Your application will be kept on file (= in a file, to be used later).""",
@@ -472,7 +470,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ژمارەیەک کێشە و بەرپرسیاریەتی کە پەیوەندیدارە بە بەشێکی سیاسەتی حکومەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The politician's handling of flood, infrastructure and education files has been questioned.""",
@@ -485,7 +482,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) مادەیەکی کانزایی کە ڕوویەکی زبری ھەیە و بەکاردێت بۆ بڕین یان پێدانی شێوە بە مادەی سەخت یان لووسکردنیان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Use a file to smooth the edge.""",
                       kurdishText:
@@ -497,7 +493,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ڕیزێک لە شت یان خەڵکی یەک لەدوای یەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They set off in file behind the teacher.""",
@@ -509,7 +504,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) ھەڵگرتنی بەڵگەنامە لە شوێنێکی دیاریکراو و بە ڕیزبەندییەکی دیاریکراو بۆ ئەوەی بە ئاسانی بیان دۆزیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The forms should be filed alphabetically.""",
@@ -528,7 +522,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) پێشکەشکردنی شتێک بۆ ئەوەی بە فەرمی تۆمار بکرێت و مامەڵەی لەگەڵ بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """No criminal charges were filed against him.""",
@@ -548,7 +541,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) ناردنی ڕاپۆرت یان بابەتێک بۆ خاوەن کارەکەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Newspaper and television reporters filed dozens of stories from the scene of the fire.""",
@@ -561,7 +553,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) ڕێکردن لە ڕیزێکی یەک لەدوای یەک بە ئاراستەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The long line of mourners filed silently past.""",

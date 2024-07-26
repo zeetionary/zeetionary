@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گۆڕینی خانوو، بەتایبەتی بە نھێنی بۆ ئەوەی قەرز نەدەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I had to change schools every time my parents flitted.""",

@@ -154,9 +154,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "frigidly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە شێوەیەکی زۆر سارد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Temperatures were frigidly cold over the last 15 days.""",

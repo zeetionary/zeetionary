@@ -163,9 +163,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "the front line", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) گرنگترین شوێن یان پێگە لە مشتومڕێک یان کارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They are on the front line, talking to the customers about our products.""",

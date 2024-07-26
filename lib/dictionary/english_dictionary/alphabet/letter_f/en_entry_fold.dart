@@ -308,7 +308,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) چەماندنەوەی شتێک بۆ ئەوەی بچووکتر یان تەختتر ببێت و ئاسانتر ھەڵبگیرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bed can be folded away during the day.""",
@@ -336,7 +335,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) پێچانەوەی شتێک لە کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She gently folded the baby in a blanket.""",
@@ -350,7 +348,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) داخران بەھۆی شکستەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His business folded and his wife left him.""",
@@ -362,7 +359,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) بەشێکی شتێک کە قەدکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She hid the note in a fold in her robe.""",
@@ -374,7 +370,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ھێڵێک یان خاڵێک کە بە قەدکردن درووست دەبێت، یان کە پیشانی دەدات لە کوێدا شتێک قەد بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Why is the place I want to find always on the fold of the map?""",
@@ -387,7 +382,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) گرووپێک خەڵک کە ھەمان بیرکردنەوەیان ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He called on former Republican voters to return to the fold.""",

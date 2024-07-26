@@ -288,7 +288,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) شتێکی فەرمی؛ کە بە شێوەی فەرمی ڕێکخراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There has been no formal announcement of her resignation yet.""",
@@ -328,7 +327,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە وەرگیردراوە لە ڕێگەی قوتابخانە، کۆلێژ، یان زانکۆ کە خوێندن و تاقیکردنەوەی تێدایە نەک تەنھا بە ئەزموونی کردارەکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He has no formal teaching qualifications.""",
@@ -350,7 +348,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) پەیوەندیدار بە شێوەی کردنی شتێک نەک ئەوەی دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The monarch retains largely formal duties.""",

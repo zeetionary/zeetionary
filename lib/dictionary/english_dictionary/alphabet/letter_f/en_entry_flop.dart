@@ -236,7 +236,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کەوتن، جووڵان، یان شۆڕبوونەوە بەسەر شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her hair flopped over her eyes.""",
                       kurdishText: """قژی شۆڕبوویەوە سەر چاوانی.""",
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) ئەوەی تەواو شکست بێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """England flopped in the European Championship.""",
@@ -267,7 +265,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) کەسێک یان شتێک کە سەرکەوتوو نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The show was the biggest flop in TV history.""",

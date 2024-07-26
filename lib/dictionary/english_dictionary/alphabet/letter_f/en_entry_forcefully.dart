@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە بەکارھێنانی ھێز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were forcefully removed from their land.""",

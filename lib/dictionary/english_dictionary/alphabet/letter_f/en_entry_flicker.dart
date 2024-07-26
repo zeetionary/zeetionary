@@ -243,7 +243,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی دەرببڕدرێت یان لە شوێنێک بۆ ماوەیەک دەربکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Anger flickered in his eyes.""",
                       kurdishText: """تووڕەی دەرکەوت لە چاوەکانی.""",
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) جووڵان بە جووڵەی خێرا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her eyelids flickered as she slept.""",
                       kurdishText: """پێڵووی چاوانی پرتەیان دەکرد کە خەوت.""",
@@ -263,7 +261,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) ڕۆشناییەک کە پرتەی دێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He saw a flicker of light in the darkness.""",
@@ -283,7 +280,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) جووڵەیەکی خێرا بە بەشێکی جەستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her only reaction was a slight flicker of her eyes.""",
@@ -295,7 +291,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ھەستێک کە بۆ ماوەیەکی کەم بەردەوام دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A flicker of guilt crossed his face.""",
                       kurdishText:

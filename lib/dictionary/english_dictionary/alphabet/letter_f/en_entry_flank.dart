@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕاست و چەپی سوپایەک یان تیمێکی وەرزشی لە کاتی یاریدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our orders were to attack their left flank.""",
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ھەبوونی کەسێک/شتێک لە لایەک یان ھەر دوو لای"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She left the courtroom flanked by armed guards.""",

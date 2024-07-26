@@ -162,9 +162,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fire alarm", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کاتێک کە تێیدا زەنگی ئاگرکەوتنەوە دەکەوێتە کار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We had a fire alarm at work this morning.""",

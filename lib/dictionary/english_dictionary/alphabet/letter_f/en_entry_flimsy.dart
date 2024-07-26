@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) قوماشێک کە ناسکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You won't be warm enough in that flimsy dress.""",
@@ -207,7 +206,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە سەختە بۆ باوەڕکردن و لاوازە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The evidence against him is pretty flimsy.""",

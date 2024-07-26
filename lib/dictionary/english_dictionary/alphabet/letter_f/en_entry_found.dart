@@ -203,9 +203,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "found", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) دامەزراندنی شتێک"""),
@@ -244,7 +244,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) دامەزراندنی شار یان وڵاتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The town was founded by English settlers in 1790.""",
@@ -265,7 +264,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی شتێک لەسەر بناغەیەک دامەزرابێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Their marriage was founded on love and mutual respect.""",

@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ھیچ ھەستێکی خۆش یان ھاوڕێیانە پیشان نادات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a frigid atmosphere in the room.""",

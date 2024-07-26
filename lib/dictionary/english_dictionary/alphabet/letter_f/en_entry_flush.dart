@@ -335,7 +335,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) پاککردنەوەی سەرئاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My children never flush the toilet after them.""",
@@ -348,7 +347,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) پاککردنەوەی شتێک بەوەی ئاو بەناویدا تێپەڕێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Flush the pipe out with clean water.""",
                       kurdishText: """بۆرییەکە بە ئاوی پاک پاکبکەوە.""",
@@ -361,7 +359,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) نەھێشتنی شتێک بە بەکارھێنان یان پرژاندنی خێرای ئاو یان شلەی تر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Gallons of toxic waste were flushed into the sea.""",
@@ -383,7 +380,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) زۆرکردن لە ئاژەڵێک یان کەسێک کە ئەو شوێنە جێبھێڵێت کە خۆی لێشاردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They're trying to flush him out of hiding.""",
@@ -404,7 +400,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ڕەنگێکی سوور کە لەسەر ڕووخسار دەردەکەوێت بەھۆی ئەوەی کە شەرمەزار، بەجۆش، یان گەماتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A pink flush spread over his cheeks.""",
                       kurdishText:
@@ -424,7 +419,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) ھەستێکی بەھێزی لەناکاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A flush of embarrassment rose to her cheeks.""",
@@ -437,7 +431,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) پاککردنەوەی سەرئاو بە ئاو پێداکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Give the toilet a flush.""",
                       kurdishText: """پاککردنەوەیەکی سەرئاوەکە بکە.""",
@@ -448,7 +441,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) ھەبوونی پارەیەکی زۆر، بەزۆری بۆ ماوەیەکی کەم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I’m flush this week—I’ll pay.""",
                       kurdishText: """ئەم ھەفتەیە پارەدارم ـ من دەیدەم.""",
@@ -466,7 +458,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ناو) دوو ڕوو کە ھەمان بەرزییان ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Make sure the paving stones are flush with the lawn.""",

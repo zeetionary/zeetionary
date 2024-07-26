@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (کردار) جوڵانی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Share prices are fizzing.""",
                       kurdishText: """نرخی پشکەکان لە جووڵەدان.""",
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەفی شلە؛ خواردنەوەیەک کە کەفی زۆرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The soda had a lot of fizz.""",
                       kurdishText: """سۆدەکە کەفی زۆرە.""",
@@ -235,7 +233,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) دەنگی کەفی شلە یان دەنگێکی وەک ئەمە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a fizz as the tablet dissolved in water.""",
@@ -255,7 +252,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) جووڵە یان چالاکیی بەجۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The fizz has gone out of the market.""",
                       kurdishText: """کەیف‌خۆشی بازاڕەکە نەماوە.""",

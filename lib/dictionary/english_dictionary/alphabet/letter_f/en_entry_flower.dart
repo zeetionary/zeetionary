@@ -273,7 +273,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕووەکێک کە بۆ جوانی گوڵەکانی دەچێندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The forest floor was a carpet of wild flowers.""",
@@ -300,7 +299,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) گوڵێک بە قەدەکەیەوە کە بۆ ڕازاندنەوە لێکراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I picked some flowers.""",
                       kurdishText: """ھەندێک گوڵم لێکردەوە.""",
@@ -323,7 +321,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (کردار) گوڵ گرتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This particular variety flowers in July.""",

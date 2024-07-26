@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ڕەفتاری نادادپەروەری یان فێڵبازانە، بە تایبەتی لە یاریی وەرزشیدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was sent off for foul play.""",
                       kurdishText: """بۆ یاریکردنی ھەڵە کرایە دەرەوە.""",

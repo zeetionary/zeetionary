@@ -155,9 +155,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "full-scale", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بە تەواوی و وریایی کراوە"""),
@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ھەمان قەبارەی ئەو شتەی ھەیە کە پیشانی دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The museum displayed a full-scale model of the dinosaur.""",

@@ -149,9 +149,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچەیەک میوە، گۆشت، یان سەوزە کە بە جۆرە ھەویرێک داپۆشراوە و دەبرژێندرێت"""),

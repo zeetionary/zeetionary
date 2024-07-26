@@ -323,7 +323,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کاری بەرپرس بوون لە خەرجکردنی پارە، بەتایبەتی لە حکومەت یان دامەزراوەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's got a diploma in banking and finance.""",
@@ -352,7 +351,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو پارەیەی کە کەسێک، دامەزراوەیەک، یان حکومەتێک ھەیەتی؛ شێوازی بەڕێوەبردنی پارەکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were unable to manage their finances.""",
@@ -399,7 +397,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) دابینکردنی پارەی پێویست بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He took a job to finance his stay in Germany.""",

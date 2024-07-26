@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) تەواو زیرەکانە و ئاڵۆز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They uncovered a fiendish plan to steal the jewels.""",
@@ -193,7 +192,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە تەواو سەختە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She faced a fiendish problem at work that took days to resolve.""",

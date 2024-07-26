@@ -237,7 +237,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) شکستھێنان، بە تایبەتی بەھۆی کۆسپێک یان سەختییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The project foundered after problems with funding.""",
@@ -258,7 +257,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) پڕبوون لە ئاو و نوقمبوون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our boat foundered after hitting a rock.""",

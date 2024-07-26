@@ -747,7 +747,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شێوەی ھەبوون، دەرکەوتن، دیاربوون، یان پیشاندانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The disease can take several different forms.""",
@@ -810,7 +809,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) بەڵگەنامەیەکی فەرمی کە پرسیاری تێدایە بۆ وەڵامدانەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I filled in/out a form on their website.""",
@@ -848,7 +846,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) شێوەی کەسێک/شتێک؛ کەسێک/شتێک کە تەنھا شێوەکەی دەبیندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The human form has changed little over the last 30 000 years.""",
@@ -870,7 +867,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ڕێکخستنی بەشەکانی شتێک لە کۆی شتەکەدا، بە تایبەتی لە کارێکی ھونەری یان نووسیندا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In a novel, form and content are equally important.""",
@@ -900,7 +896,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) کە شتێک چەندە تەندرووستە؛ ئەوەی شتێک تەندرووست بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """After six months' training the whole team is in superb form.""",
@@ -928,7 +923,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) کە شتێک/کەسێک چەندە ئاستی باشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The player has shown disappointing form recently.""",
@@ -967,7 +961,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ناو) شێوەی ئاسایی کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """What's the form when you apply for a research grant?""",
@@ -998,7 +991,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ناو) ڕێگای کردنی شتەکان کە لە لایەنی کۆمەڵایەتییەوە پەسەندکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When I was a boy it was always considered bad form to talk about food or money.""",
@@ -1010,7 +1002,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ناو) پۆلی قوتابخانەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Who's your form teacher?""",
                       kurdishText: """کێ مامۆستای قوتابخانەکەتانە؟""",
@@ -1021,7 +1012,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) درووستکردنی شتێک بەشێوەیەکی دیاریکراو یان ئەوەی شێوەیەکی دیاریکراوی ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Bend the wire so that it forms a ‘V’.""",
                       kurdishText:
@@ -1084,7 +1074,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) ڕێکخستنی شت یان خەڵکی بەشیوەیەک کە لە گرووپێک بن بە شێوەی دیاریکراوەوە؛ ئەوەی لە گرووپێکی وەھا ڕێکبخرێیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """First get students to form groups of four.""",
@@ -1120,7 +1109,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (کردار) ئەوەی درووست ببێت و کەم‌کەم شێوەیەکی دیاریکراو وەربگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Flowers appeared, but fruits failed to form.""",
@@ -1140,7 +1128,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (کردار) دەستکردن بە درووست بوون و گەشەکردن؛ ئەوەی شتێک وەھا بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A plan formed in my head.""",
                       kurdishText: """پلانێک لە مێشکم درووست بوو.""",
@@ -1178,7 +1165,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٦. (کردار) درووستکردنی دامەزراوەیەک، دەستەیەک، حکومەتێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They hope to form the new government.""",
                       kurdishText: """بەھیوان حکومەتی داھاتوو درووست بکەن.""",
@@ -1212,7 +1198,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٧. (کردار) ئەوەی شتێک ئەرکێک یان شێوەیەکی ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The castle forms the focal point of the city.""",

@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بە زوقم داپۆشراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I looked out over the frosty fields.""",
                       kurdishText: """ڕوانیم بەسەر کێڵگە زوقم‌گرتووەکاندا.""",
@@ -219,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) ساردوسڕی وەک ئاماژەی ئەوەی کەسێک شتێکی بەدڵ نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My questions were met with a frosty silence.""",

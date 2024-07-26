@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کۆتاییەک بۆ ئەو شتەی باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was a fitting finale to the day's events.""",

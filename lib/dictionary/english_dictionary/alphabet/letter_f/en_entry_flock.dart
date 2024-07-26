@@ -223,7 +223,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) گرووپێکی گەورە لە خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They came in flocks to see the festival.""",
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ژمارەیەک کەس کە بە بەردەوامی دەچنە کڵێسای قەشەیەکی تایبەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The priest invited all the members of his flock (= all the people who go to his church) to attend the special service.""",
@@ -248,7 +246,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) چوون بۆ شوێنێک یان کۆبوونەوە بە ژمارەی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Thousands of people flocked to the beach this weekend.""",

@@ -224,7 +224,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بەشێکی بچووک لەسەر کەلوپەلێکی ناوماڵ یان شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our bathroom fittings are easy to install.""",
@@ -236,7 +235,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو بەشانەی ماڵ کە لە شوێنێکی دیاریکراون بەڵام کە دەچیتە خانوویەکی دیکە دەتوانیت بیان بەیت، بۆ نموونە گڵۆپەکان، تەباخ، یان ڕەفەکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The room still has the original fixtures and fittings.""",
@@ -249,7 +247,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) تاقیکردنەوەی جل کە بۆت درووست دەکرێت بۆ ئەوەی بزانیت گونجاوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'm having the final fitting of my wedding dress on Thursday.""",

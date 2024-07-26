@@ -536,7 +536,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ئامراز) بۆ یارمەتیدانی کەسێک شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """What can I do for you (= how can I help you)?""",
@@ -563,7 +562,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ئامراز) بۆ پیشاندانی مەبەست یان ئەرک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Let's go for a walk.""",
                       kurdishText: """با بچینە پیاسەیەک.""",
@@ -589,7 +587,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ئامراز) بۆ پیشاندانی ھۆکار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The town is famous for its cathedral.""",
                       kurdishText:
@@ -629,7 +626,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ئامراز) بۆ بەدەستھێنانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He came to me for advice.""",
                       kurdishText: """بۆ ڕاوێژ ھاتە لام.""",
@@ -656,7 +652,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ئامراز) بۆ پیشاندانی درێژیی کات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm going away for a few days.""",
                       kurdishText: """بۆ چەند ڕۆژێک دوور دەکەومەوە.""",
@@ -673,7 +668,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ئامراز) بۆ پیشاندانی مەودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The road went on for miles and miles.""",
                       kurdishText: """ڕێگاکە بۆ چەندین میل بەردەوام بوو.""",
@@ -684,7 +678,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ئامراز) بۆ گوتنی کەسێک/شتێک بۆ کوێ دەچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Is this the bus for Chicago?""",
                       kurdishText: """ئەم پاسە بۆ شیکاگۆیە؟""",
@@ -704,7 +697,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ئامراز) بۆ گوتنی کاتی ڕوودان یان ڕێکخستنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We're invited for 7.30.""",
                       kurdishText: """بۆ ٧:٣٠ بانگھێشت کراوین.""",
@@ -714,7 +706,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ئامراز) لە بەرامبەر شتێکدا """),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'll swap these two bottles for that one.""",
@@ -726,7 +717,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ئامراز) کە کار بۆ کەسێک دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's working for an insurance company.""",
@@ -738,7 +728,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ئامراز) سەبارەت؛ پەیوەندیدار بە کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They are anxious for her safety.""",
                       kurdishText: """شڵەژاون بۆ سەلامەتیی.""",
@@ -756,7 +745,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ئامراز) وەک نوێنەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I am speaking for everyone in this department.""",
@@ -767,7 +755,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (ئامراز) بە واتای ئەوەی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Shaking your head for ‘No’ is not universal.""",
@@ -778,7 +765,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٥. (ئامراز) وەک پاڵپشتی کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Are you for or against the proposal?""",
                       kurdishText: """لەگەڵ یان دژی پێشنیارەکەیت؟""",
@@ -815,7 +801,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٦. (ئامراز) لەبەرچاوگرتنی ئەوەی چی لە کەسێک/شتێک پێشبینی بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The weather was warm for the time of year.""",
@@ -849,7 +834,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٧. (ئامراز) بۆ گوتنی ئەوەی شتێک چەندە سەخت، پێویست، خۆش، ھتد ـە کە کەسێک کردوویەتی یان ڕەنگە بیکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's useless for us to continue.""",
                       kurdishText: """بێ‌سوودە بۆمان بەردەوام بین.""",
@@ -881,7 +865,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٨. (ئامراز) بۆ گوتنی ئەوەی کێ دەتوانێت یان پێویستە شتێک بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's not for me to say why he left.""",
                       kurdishText: """ئەوە بۆ من نییە بڵێم بۆچی ڕۆشت.""",
@@ -901,7 +884,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٩. (ئامراز) ئەوەی باشتر، دڵخۆشتر، ھتد بیت لە دوای شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You'll feel better for a good night's sleep.""",
@@ -914,7 +896,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٠. (لێکدەر) بۆ باسکردنی ھۆکاری شتێک کە پێشتر باس کراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We listened eagerly, for he brought news of our families.""",

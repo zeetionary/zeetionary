@@ -523,7 +523,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بڕیاردان لە ڕێکەوت، کات، یان بڕی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Has the date of the next meeting been fixed?""",
@@ -576,7 +575,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) ڕێکخستن بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'll fix a meeting.""",
                       kurdishText: """کۆبوونەوەیەک ڕێکدەخەم.""",
@@ -614,7 +612,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) دانانی شتێک لە شوێنێک بۆ ئەوەی نەجووڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The handrail can be fixed directly to the wall.""",
@@ -652,7 +649,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) دۆزینەوە یان گوتنی کات، جێگا، ھتد ـی دیاریکراوی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We can fix the ship's exact position at the time the fire broke out.""",
@@ -664,7 +660,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) دابینکردنی یان ئامادەکردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Can I fix you a drink?""",
                       kurdishText: """دەتوانیت خواردنەوەیەک ئامادە بکەیت؟""",
@@ -691,7 +686,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) چاککردن و دەستکاری قژ یان ڕووخسار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'll fix my hair and then I'll be ready.""",
@@ -703,7 +697,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) دیاریکردنی ئەنجامی شتێک بەشێوەیەک کە ڕاستگۆیانە یان دادپەروەری نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm sure the race was fixed.""",
                       kurdishText: """دڵنیام پێشبڕکێیەکە ڕێکخراو بوو.""",
@@ -714,7 +707,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) سزادانی کەسێک کە زیانی پێگەیاندوویت و وابکەیت چی دیکە زیانت پێ نەگەیەنن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't worry—I'll fix him.""",
                       kurdishText: """نیگەران مەبە ـ مامەڵەی لەگەڵ دەکەم.""",
@@ -725,7 +717,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ناو) چارەسەری شتێک، بەتایبەتی کە ئاسان یان کاتییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Luckily there is an easy fix.""",
                       kurdishText: """خۆشبەختانە چارەسەرێکی ئاسان ھەیە.""",
@@ -763,7 +754,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ناو) بڕێک لە شتێک کە بەردەوام دەتەوێت، بەتایبەتی مادەی ھۆشبەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I need a fix of coffee before I can face the day.""",
@@ -774,7 +764,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """١٢. (ناو) دۆخێکی سەخت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We've got ourselves in a fix about this.""",
@@ -792,7 +781,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ناو) دۆزینەوەی شوێنی کەشتی یان فڕۆکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They managed to get a fix on the yacht's position.""",
@@ -803,7 +791,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (ناو) تێگەشتن لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Investigators are no closer to getting a fix on the extent of the hacking.""",
@@ -815,7 +802,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٥. (ناو) شتێک کە ڕێکخراوە بە فێڵبازی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her promotion was a fix, I'm sure!""",
                       kurdishText: """دڵنیام پلەبەرزکردنەوەکەی ڕێکخراو بوو!""",

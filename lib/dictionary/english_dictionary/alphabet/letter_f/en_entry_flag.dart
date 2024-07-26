@@ -325,7 +325,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بۆ ناوھێنانی وڵات یان دامەزراوەیەکی دیاریکراو و بەھا و باوەڕەکانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team competed under the Olympic flag.""",
@@ -347,7 +346,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ڕاکێشانی سەرنج بۆ ئەو زانیارییانەی کە پێتوایە گرنگن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I've flagged the paragraphs that we need to look at in more detail.""",
@@ -360,7 +358,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ماندووبوون، لاوازبوون، یان لەدەستدانی جۆش‌وخرۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her confidence had never flagged.""",
                       kurdishText: """ورەی ھەرگیز لاواز نەبوو.""",

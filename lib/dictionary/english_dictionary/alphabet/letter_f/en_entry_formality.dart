@@ -220,7 +220,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک کە مەرجە بیکەیت وەک بەشێک لە پڕۆسەیەکی فەرمی، بەڵام گرنگی کەمی ھەیە و کاریگەری نابێت لەسەر ئەوەی چی ڕوودەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Your acceptance into the club will be a mere formality.""",
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) ڕەفتاری درووست و فەرمی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She greeted him with stiff formality.""",
                       kurdishText: """بە ڕێوڕەسمی تەواوە خێراتنی کرد.""",

@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پێگەیەکی گرنگ کە تێبینی دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This issue is very much in the foreground.""",
@@ -195,7 +194,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) پێدانی گرنگی تایبەت بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The play foregrounds the relationship between father and daughter.""",

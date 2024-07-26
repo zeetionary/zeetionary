@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ڕێکخراو بە یاسا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The college has a highly formalized system of assessment.""",

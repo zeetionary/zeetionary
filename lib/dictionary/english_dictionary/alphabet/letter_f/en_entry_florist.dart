@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە گوڵ دەفرۆشێت یان لە شوێنی گوڵ فرۆشتن کار دەکات"""),
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) فرۆشگایەک کە گوڵ و ڕووەک دەفرۆشێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I've ordered some flowers from the florist's.""",

@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی درەوشاوە بێت و سەرنج ڕابکێشێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were noted for the flamboyance of their dress.""",

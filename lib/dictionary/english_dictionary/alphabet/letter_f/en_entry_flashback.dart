@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) یادەوەرییەکی زۆر ڕوونی ڕابردوو وەک ئەوەی لەو ساتەدا بژیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I kept having flashbacks of her lying there bleeding.""",

@@ -432,7 +432,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارچە زەوییەک کە بۆ ئەو مەبەستە بەکاردێت کە ئاماژەی پێکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The pilot guided the plane to a landing field.""",
@@ -445,7 +444,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ناوچەیەکی گەورە کە بەو شتەی باسکراوە داپۆشراوە؛ ناوچەیەک کە ئەو شتەی لێ بەدەست دێت کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Prisoners were sent to work in the gas fields in the north.""",
@@ -486,7 +484,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) لە یاری کریکیتدا ئەو تیمەیە کە تۆپەکە دەگرێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The strong field includes three world record holders.""",
@@ -497,7 +494,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ناو) مەیدانی جەنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He died on the field of battle.""",
                       kurdishText: """لە مەیدانی جەنگدا مرد.""",
@@ -508,7 +504,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) بابەتێک یان چالاکییەکی دیاریکراو کە کەسێک تێیدا کار دەکات یان حەزی پێیەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Child development is such an interesting field.""",
@@ -572,7 +567,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) ئەوەی خەڵکی کاری کرداری بکەن نەک لە کتێبخانە یان تاقیگە کار بکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her findings were based on extensive field and laboratory work.""",
@@ -603,7 +597,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ناو) تەواوی ئەو کەس و بەرھەمانەی کە لە بەشێکی دیاریکراوی بازرگانیدا ڕکابەری دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Google leads the field in computer software.""",
@@ -615,7 +608,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ناو) ناوچەیەک کە ئەو ھێزەی باسکراوە کاریگەری ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Weak electric fields are emitted by all living organisms.""",
@@ -628,7 +620,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) ھەڵبژاردنی بەربژێرێک، قسەکەرێک، تیمێک، ھتد کە لە ھەڵبژاردنێک، ڕکابەرییەک، ھتد نوێنەرایەتیت بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Each of the main parties fielded more than 300 candidates.""",
@@ -641,7 +632,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) بوون بەو تیمەی کە تۆپەکە دەگرێت و فڕێی دەدات لە دوای ئەوەی ھاوێژراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He won the toss and chose to field first.""",
@@ -654,7 +644,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (کردار) گرتنەوەی تۆپەکە لە کریکیتدا و فڕێدانەوەی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He fielded the ball expertly.""",
                       kurdishText: """شارەزایانە تۆپەکەی گرتەوە.""",
@@ -665,7 +654,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (کردار) وەرگرتنی پرسیار و مامەڵەکردن لەگەڵی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The BBC had to field more than 300 phone calls after last night's programme.""",

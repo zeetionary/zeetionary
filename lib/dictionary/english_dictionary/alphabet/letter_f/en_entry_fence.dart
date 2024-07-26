@@ -217,7 +217,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) دەوردانی یان جیاکردنەوەی ناوچەیەک بە پەرژین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His property is fenced with barbed wire.""",

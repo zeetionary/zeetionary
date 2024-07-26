@@ -220,7 +220,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) زۆر بێ‌شەرمانە و ناشرین کە پەیوەندیدارە بە سێکس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He's got a filthy mind (= is always thinking about sex).""",
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە تووڕەیی پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was in a filthy mood.""",
                       kurdishText: """لە کەشێکی تووڕەیی بوو.""",
@@ -255,7 +253,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) سارد و شێدار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Isn't it a filthy day?""",
                       kurdishText: """ڕۆژێکی سارد نییە؟""",

@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شوێنێکی سەر کۆمپیوتەر کە فایلی تێدا ھەڵدەگیرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Download the document and then copy it into a folder on your computer.""",

@@ -223,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) یەک بەشی شتێک؛ یەک بەشی تەواو نەکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I overheard a fragment of their conversation.""",
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) شکان بۆ پارچەی بچووک؛ دابەشبوون بۆ پارچەی بچووک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His day was fragmented by meetings and phone calls.""",

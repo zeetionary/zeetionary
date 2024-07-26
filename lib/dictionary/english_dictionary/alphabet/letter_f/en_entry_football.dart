@@ -258,7 +258,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) تۆپێکی خڕ یان ھێلکەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As a child he was always kicking a football.""",
@@ -270,7 +269,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) شتێک کە بەردەوام دەبێتە ھۆکاری ناکۆکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Healthcare should not become a political football.""",

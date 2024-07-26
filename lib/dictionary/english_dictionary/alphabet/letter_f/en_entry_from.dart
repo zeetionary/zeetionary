@@ -378,7 +378,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ئامراز) بۆ ناوھێنانی بنەچەی کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm from Italy.""",
                       kurdishText: """خەڵکی ئیتالیام.""",
@@ -419,7 +418,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ئامراز) بۆ گوتنی ئەوەی کێ شتێکی ناردووە یان داویەتی بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He received a letter from his friend.""",
                       kurdishText: """نامەیەکی لە ھاوڕێکەیەوە پێگەشت.""",
@@ -439,7 +437,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ئامراز) بۆ گوتنی ئەوەی شتێک کەی دەست پێدەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We're open from 8 a.m. to 7 p.m. every day.""",
@@ -459,7 +456,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ئامراز) بۆ پیشاندانی دووری نێوان دوو شوێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We were 100 metres from the scene of the accident.""",
@@ -472,7 +468,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ئامراز) بۆ پیشاندانی شوێن یان بیرکردنەوەی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You can see the island from here.""",
                       kurdishText: """دەتوانیت دوورگەکە لێرەوە ببینیت.""",
@@ -491,7 +486,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ئامراز) بۆ پیشاندانی مەودای شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The temperature varies from 30 degrees to minus 20.""",
@@ -521,7 +515,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ئامراز) بۆ پیشاندانی دۆخ یان شێوەی کەسێک/شتێک پێش گۆڕانێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Things have gone from bad to worse.""",
                       kurdishText: """شتەکان لە خراپەوە بۆ خراپتر چوونە.""",
@@ -548,7 +541,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ئامراز) کە باسی جیاوازیی نێوان دوو کەس یان شت دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Is Portuguese very different from Spanish?""",
@@ -568,7 +560,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ئامراز) بۆ باسکردنی ئەو مادەیەی کە شتێکی لێ درووستکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Steel is made from iron.""",
                       kurdishText: """پۆڵا لە ئاسن درووست دەکرێت.""",
@@ -579,7 +570,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ئامراز) بۆ گوتنی ئەوەی شتێک جیاکراوەتەوە یان سڕدراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The party was ousted from power after eighteen years.""",
@@ -592,7 +582,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ئامراز) بۆ گوتنی ئەوەی شتێک ڕێگری لێکرا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She saved him from drowning.""",
                       kurdishText: """لە خنکان ڕزگاری کرد.""",
@@ -602,7 +591,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ئامراز) بۆ پیشاندانی ھۆکاری شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She felt sick from tiredness.""",
                       kurdishText: """لە ماندوێتیدا ھەستی بە نەخۆشی کرد.""",
@@ -612,7 +600,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (ئامراز) بۆ پیشاندانی ھۆکاری بڕیارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You can tell a lot about a person from their handwriting.""",

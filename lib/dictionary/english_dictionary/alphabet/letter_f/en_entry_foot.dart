@@ -402,7 +402,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ھەبوونی ئەو جۆر یان ژمارە پێیەی کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The children ran bare-footed on the beach.""",
@@ -415,7 +414,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو بەشەی شتێک، بۆ نموونە جۆراب، کە پێیەکان دادەپۆشێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The foot of his socks wore out quickly.""",
@@ -427,7 +425,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) یەکەیەکی پێوان کە یەکسانە بە ١٢ ئینج یان ٣٠,٤٨ سەنتیمەتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We're flying at 35 000 feet.""",
                       kurdishText: """لە بەرزی ٣٥٠٠٠ پێ دەفڕین.""",
@@ -454,7 +451,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) نزمترین بەشی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The city now reaches to the foot of the surrounding mountains.""",
@@ -475,7 +471,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) بەشی خوارەوە؛ لای دووری شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He sat at the foot of the table.""",
                       kurdishText: """لە خوارەوەی مێزەکە دانیشت.""",

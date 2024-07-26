@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە زوو تووڕە دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She has a fiery temper.""",
                       kurdishText: """خوویەکی زووتووڕەی ھەبوو.""",
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) پیشاندانی ھەستی بەھێز، بەتایبەتی تووڕەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He delivered the sermon with fiery passion.""",
@@ -215,7 +213,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) تامی توون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fiery liquor burnt its way down her throat.""",

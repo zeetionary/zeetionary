@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) عەتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They are about to launch their first fragrance for men.""",

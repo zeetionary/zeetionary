@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ھێرشی لەناکاوی ژمارەیەک سەرباز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Those on the front line make regular forays into enemy territory.""",
@@ -202,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) گەشتێکی کورت بۆ دۆزینەوەی شتێک یان سەردانی شوێنێکی تازە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I made a quick foray into town before lunch to get my sister a present.""",

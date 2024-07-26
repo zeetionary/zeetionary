@@ -208,7 +208,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کەسێک کە زووزوو بیرکردنەوەی دەگۆڕێت بوشێوەیەک کە ناتوانی پشتی پێ ببەستیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She had been a fickle friend, even at the best of times.""",

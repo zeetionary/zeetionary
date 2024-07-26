@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) دابەشکردنی ژمارەیەک، بۆ نموونە ⅝"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How do you express 25% as a fraction?""",
                       kurdishText: """چۆن ٢٥٪ وەک کەرت دەردەبڕیت؟""",

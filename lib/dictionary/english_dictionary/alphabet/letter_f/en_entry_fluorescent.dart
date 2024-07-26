@@ -161,9 +161,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fluorescent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە کاتێک ڕۆشنایی بەردەکەوێت زۆر ڕۆشن دەردەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Workers in fluorescent orange vests were working on the bridge.""",

@@ -268,7 +268,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) پەیوەندیدار بە وڵاتانی دیکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This is a huge departure for the country's foreign policy.""",
@@ -298,7 +297,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە نامۆیە بە کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Dishonesty is foreign to his nature.""",
                       kurdishText: """فێڵبازی لە سرووشتیدا نییە.""",
@@ -317,7 +315,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) شتێک کە چووەتە شوێنێک کە نابێت لێی بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Tears help to protect the eye from potentially harmful foreign bodies.""",

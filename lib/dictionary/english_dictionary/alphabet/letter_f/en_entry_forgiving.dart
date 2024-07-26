@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ئاسان یان سەلامەتە بۆ مامەڵە کردن لەگەڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Snow is a forgiving surface on which to fall.""",

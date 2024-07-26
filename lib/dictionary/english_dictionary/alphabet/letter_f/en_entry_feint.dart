@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەنجامدانی جوڵەیەک کە مەبەست لێی ئەوەیە ڕکابەرەکەت فریو بدات بەوەی وەھا تێ بگای کە جوڵەیەک دەکەیت لە کاتێکدا شتێکی دیکە دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He feinted with his right hand and struck with his left.""",

@@ -259,7 +259,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژمارەیەک ڕیشک کە بەستراوە بە کۆتایی شتێکەوە و شۆڕ دەبێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fringe around the tablecloth swayed gently.""",
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ناوچەیەکی باریک لە دار، بینا، ھتد بە قەراغی شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Along the coast, an industrial fringe had already developed.""",
@@ -283,7 +281,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) بەشی دەرەوەی ناوچە یان گرووپێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The factories are located on the northern fringes of the city.""",
@@ -303,7 +300,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) پێکھێنانی سنووری دەوری شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The beach was fringed by coconut palms.""",

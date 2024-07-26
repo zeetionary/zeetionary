@@ -452,7 +452,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بەرھەمھێنان یان دابینکردنی بەردەوامی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We are looking to improve data flow by up to 50%.""",
@@ -482,7 +481,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) قسەکردنی بەردەوامی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He kept up a flow of chatter.""",
                       kurdishText: """بەردەوام بوو لە بەردەوام چەنەدان.""",
@@ -510,7 +508,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) جووڵان بە بەردەوامی و نەگۆڕی بە ئاراستەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She lost control and the tears began to flow.""",
@@ -553,7 +550,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) جووڵان یان تێپەڕاندن بە بەردەوامی لە شوێنێک یان کەسێک بۆ یەکێکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """New orders are finally starting to flow.""",
@@ -601,7 +597,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) گەشەکردن یان بەرھەمھێنان بەشیوەیەکی سرووشتی و ئاسان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Conversation flowed freely throughout the meal.""",
@@ -623,7 +618,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) ئەوەی بە ئاسانی و بە ڕێژەیەکی زۆر بەردەست بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was obvious that money flowed freely in their family.""",
@@ -644,7 +638,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) کە بە ئاسانی ھەستی پێ بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fear and excitement suddenly flowed over me.""",
@@ -655,7 +648,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) کە بە فشی شۆڕبووەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her hair flowed down over her shoulders.""",

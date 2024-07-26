@@ -172,9 +172,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fundamentally", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەکاردێت کە باسی بابەتێک یان لایەنێکی گرنگی دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fundamentally, there are two different approaches to the problem.""",
@@ -212,7 +211,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بەکاردێت کە باسی گرنگتری لایەنی شتێک دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is fundamentally a nice person, but she finds it difficult to communicate.""",

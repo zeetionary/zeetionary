@@ -171,9 +171,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "forty", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) ژمارە ٤٠"""),
                     SentencesRow(
@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ژمارە) ژمارە، ساڵ، یان پلەی گەرمی نێوان ٤٠ بۆ ٤٩"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """World War II took place during the forties.""",

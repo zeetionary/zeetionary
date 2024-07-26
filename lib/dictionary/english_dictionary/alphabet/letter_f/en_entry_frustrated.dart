@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە ھیچ کاریگەریی نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He stamped his foot in frustrated rage.""",
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کەسێک کە ناتوانێت سەرکەوتوو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Frustrated writers often end up in publishing.""",
@@ -244,7 +242,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کەسێک کە بەشی پێویست سێکس ناکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His frustrated wife expressed her concerns to him again.""",

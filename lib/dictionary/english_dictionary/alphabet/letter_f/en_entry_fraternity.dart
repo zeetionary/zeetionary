@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ھەستی دۆستایەتی و پشتگیری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He described sport as a symbol of peace and a means of promoting fraternity between nations.""",

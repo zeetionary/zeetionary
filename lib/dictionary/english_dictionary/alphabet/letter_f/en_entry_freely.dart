@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەبێ ئەوەی ھیچ شتێک جووڵەی شتێک بوەستێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When the gate is raised, the water can flow freely.""",
@@ -219,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بە ڕاستگۆیی بەبێ ئەوەی گرنگی بەوە بدەیت خەڵکی چی دەڵێن یان دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """For the first time he was able to speak freely without the fear of reprisals against his family.""",
@@ -232,7 +230,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵکار) بەبێ خۆلادان لە ڕاستی ئەگەرچی ڕەنگە ناخۆش بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I freely admit that I made a mistake.""",
                       kurdishText:

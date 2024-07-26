@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fossilize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ئەوەی شتێک نەگۆڕێت تەنانەت کە کۆنیش دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our ideas can sometimes fossilize as we get older.""",

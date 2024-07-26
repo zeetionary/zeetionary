@@ -630,7 +630,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی کە ئەندازە، جۆر، یان ژمارەی گونجاو بێت بۆ شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'd like to have a desk in the room but it won't fit.""",
@@ -679,7 +678,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) جلکردنە بەر کەسێک و ئەوەی وابکەیت گونجاو بێت بۆی """),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'm going to be fitted for my wedding dress today.""",
@@ -691,7 +689,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) دانان یان گونجاندنی شتێک لە شوێنێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They fitted a smoke alarm to the ceiling.""",
@@ -711,7 +708,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) دانانی شتێک لە شوێنی گونجاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How do these two parts fit together?""",
                       kurdishText: """چۆن ئەم دوو بەشە پێکەوە دەگونجێن؟""",
@@ -738,7 +734,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) ئەوەی گونجاو بێت یان یەکبگرێتەوە لەگەڵ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Something doesn't quite fit here.""",
                       kurdishText: """شتێک لێرە یەکناگرێتەوە.""",
@@ -819,7 +814,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) واکردنی ئەوەی کەسێک/شتێک گونجاو ببێت بۆ کار یان دۆخێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His experience fitted him perfectly for the job.""",
@@ -841,7 +835,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) تەندرووست و بەھێز، بەتایبەتی بەھۆی ڕاھێنانی بەردەوامەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Top athletes have to be very fit.""",
                       kurdishText: """وەرزشکارەکان دەبێت تەندرووست بن.""",
@@ -931,7 +924,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ھاوەڵناو) گونجاو؛ کە مەرجەکانی شتێکی تێدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The food was not fit for human consumption.""",
@@ -1004,7 +996,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ھاوەڵناو) ھەبوونی ئامادەیی یان ئەگەری ئەوەی شتێکی زۆر بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They worked until they were fit to drop (= so tired that they were likely to fall down).""",
@@ -1022,7 +1013,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵناو) کە لە ڕووی سێکسییەوە جوانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I met this really fit blonde in a club last night.""",
@@ -1070,7 +1060,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ناو) ماوەیەکی لەناکاو لە کۆکە یان پێکەنین کە ناتوانیت کۆنترۆڵی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He had us all in fits (of laughter) with his jokes.""",
@@ -1088,7 +1077,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ناو) ماوەیەکی کەم لە ھەستی زۆر بەھێز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He pushed the referee in a fit of temper.""",
@@ -1108,7 +1096,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (ناو) ئەو شێوەیەی کە جلێک یان شتێک دەگونجێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The shoe has a special strap to ensure a good fit.""",

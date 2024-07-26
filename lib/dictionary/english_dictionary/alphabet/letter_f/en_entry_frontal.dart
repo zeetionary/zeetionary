@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ھێرشی توند و ڕاستەخۆ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They launched a frontal attack on company directors.""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) پەیوەندیدار بە بەشی پێشەوەی سەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The frontal regions of the brain are involved in planning.""",

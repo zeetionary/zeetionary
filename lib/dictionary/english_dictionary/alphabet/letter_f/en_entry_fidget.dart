@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە بەردەوام دەجووڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You’re such a fidget!""",
                       kurdishText: """چی ژان‌کردوویەکی!""",

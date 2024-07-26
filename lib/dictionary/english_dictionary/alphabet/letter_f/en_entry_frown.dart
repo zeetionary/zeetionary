@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دەربڕینێکی تووڕەیی، نیگەرانی، یان ئەوەی جدی بیت کە وا دەکات لۆچی لەسەر تەوێڵت دەرکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A small frown creased her forehead.""",
                       kurdishText: """مۆنییەکی کەم ناوچاوانیی لۆچ کرد.""",

@@ -392,7 +392,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) فڕۆکەیەک کە گەشتێکی دیاریکراو دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We're booked on the same flight.""",
                       kurdishText: """لەسەر ھەمان فڕۆکە بووین.""",
@@ -442,7 +441,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) فڕین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Barn owls are capable of flight at 56 days.""",
@@ -472,7 +470,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) جووڵە یان ئاراستەی شتێک کە بە ھەوادا گەشت دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The flight of the ball was straight and fast.""",
@@ -484,7 +481,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) زنجیرەیەک لە پلەکانە لە نێوان دوو نھۆمدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She fell down a flight of stairs/steps and hurt her back.""",
@@ -497,7 +493,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ھەڵھاتن لە دۆخێکی سەخت یان مەترسیدار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The main character is a journalist in flight from a failed marriage.""",
@@ -527,7 +522,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) لێدان و ھەڵدانی تۆپێکی بە حەوادا بە شارەزایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He flighted his free kick straight into the goalkeeper's arms.""",

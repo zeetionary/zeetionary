@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ڕاکردن و بازدان بە دڵخۆشییەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Lambs frisked in the fields.""",
                       kurdishText:

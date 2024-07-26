@@ -230,7 +230,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) لاوازیی کەسایەتی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is always a flaw in the character of a tragic hero.""",
@@ -250,7 +249,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ھەڵە یان شکانی بچووک کە وا دەکات شتێک جوانی یان بەھای کەمتر بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Unfortunately, this plate has a slight flaw in it.""",

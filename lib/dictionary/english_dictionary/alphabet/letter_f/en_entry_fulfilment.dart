@@ -190,7 +190,6 @@ Usage: N. Amer (elsewhere: fulfilment)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کردن یان ھەبوونی ئەوەی کە پێویستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company's success was the fulfilment of a promise.""",
@@ -203,7 +202,6 @@ Usage: N. Amer (elsewhere: fulfilment)
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ھەستی دڵخۆشی یان ئاسوودەیی بەوەی دەیکەیت یان کردووتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her job gives her a great sense of fulfilment.""",
@@ -215,7 +213,6 @@ Usage: N. Amer (elsewhere: fulfilment)
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ئامادەکردن و ناردنی شتێک کە کڕیارێک داوای کردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fulfilment of online orders remains a challenge for many retailers.""",

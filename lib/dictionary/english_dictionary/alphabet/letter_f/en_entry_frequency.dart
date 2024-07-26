@@ -251,7 +251,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی شتێک زۆر ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The relative frequency of this illness in the area is of concern to all doctors.""",
@@ -273,7 +272,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ڕێژەی لەرینەوەی دەنگ یان شەپۆلی کارۆموگناتیسی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Electromagnetic waves of radio frequency can make molecules vibrate and heat up.""",
@@ -286,7 +284,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ژمارەی ئەو شەپۆلە ڕادیۆییانەی کە ھەیە بۆ ھەر چرکەیەکی پەیامی ڕادیۆیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There are only a limited number of broadcasting frequencies.""",

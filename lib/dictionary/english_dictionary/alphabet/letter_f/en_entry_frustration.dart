@@ -237,7 +237,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شتێک کە بێزارت دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She took out her frustrations on the children.""",

@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بۆن یان تامی گوڵی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She chose a flowery perfume for the special occasion.""",
@@ -194,7 +193,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) زۆر ئاڵۆز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She prefers clear instructions over flowery language.""",

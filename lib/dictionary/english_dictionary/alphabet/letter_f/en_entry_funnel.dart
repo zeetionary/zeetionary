@@ -205,7 +205,6 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) دووکەڵکێشێکی کانزایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He saw smoke rising from the factory's funnel.""",
@@ -218,7 +217,6 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی زۆر لە شتێک بکەیت بچێتە شوێنێکی تەسکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Huge pipes funnel the water down the mountainside.""",

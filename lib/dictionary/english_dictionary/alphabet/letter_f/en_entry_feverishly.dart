@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) کە بەھۆی تاوە درووست بووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She lay on the bed sweating feverishly.""",

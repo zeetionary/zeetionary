@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ڕێگری کردن لەوەی شتێک ڕووبدات؛ ڕێگریکردن لە کەسێک لەوەی شتێک بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The rescue attempt was frustrated by bad weather.""",

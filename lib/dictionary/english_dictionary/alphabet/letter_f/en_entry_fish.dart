@@ -266,9 +266,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fish", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ماسی"""),
                     SentencesRow(
@@ -322,7 +322,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بەشی نەرمی ماسی کە وەک خواردن دەخورێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The chef's fish dishes are his speciality.""",
@@ -343,7 +342,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) ھەوڵدانی ماسی گرتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The trawler was fishing off the coast of Iceland.""",
@@ -373,7 +371,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) بەسەربردنی کات بە ماسیگرتن بۆ خۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Let's go fishing this weekend.""",
                       kurdishText:
@@ -394,7 +391,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ھەوڵدان بۆ گرتنی ماسی لەو ناوچەیەی کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They fished the lake for salmon.""",
                       kurdishText: """لە دەریاچەکە بۆ سەلەمون ڕاویان دەکرد.""",
@@ -405,7 +401,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) گەڕان بۆ شتێک بە بەکارھێنانی دەستت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She fished around in her bag for her keys.""",

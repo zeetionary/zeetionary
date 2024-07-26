@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە شەڕ دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Rebel fighters still control most of the city.""",
@@ -214,7 +213,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە بێ ھیوا نابێت یان دان بە شکست نانێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is a true fighter and she is resolved to beat this disease.""",

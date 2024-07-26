@@ -215,7 +215,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ڕێژەی ئەو شوێنەی کە شتێک دەیگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The new computer has a smaller footprint.""",

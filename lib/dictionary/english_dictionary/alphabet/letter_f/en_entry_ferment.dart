@@ -177,9 +177,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "ferment", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دۆخی چالاکی یان جۆش‌وخرۆشی سیاسی یان کۆمەڵایەتی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The country is in ferment.""",
                       kurdishText: """وڵاتەکە لە ھەڵایەکدایە.""",

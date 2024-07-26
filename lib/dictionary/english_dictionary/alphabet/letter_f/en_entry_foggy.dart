@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) شڵەژاو و ئەوەی بە ڕوونی بیرنەکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Side effects include headaches, nausea, weakness, and foggy thinking.""",

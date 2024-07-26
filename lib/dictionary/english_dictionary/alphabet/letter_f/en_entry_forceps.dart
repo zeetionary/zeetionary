@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئامرازێک کە لەلایەن پزیشکان و زاناکن بەکاردێت بۆ ھەڵگرتنی شت، زۆرجار شێوەی وەک مەقەستە"""),

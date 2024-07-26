@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بەشێوەیەکی جوان یان ناوازە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The painting depicts a finely-dressed couple.""",
@@ -194,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بەشێوەیەکی زۆر وریایی یان ورد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The match was finely balanced throughout.""",

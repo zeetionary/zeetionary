@@ -219,7 +219,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ئاسان دەچەمێتەوە بەبێ شکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Rubber is a flexible substance.""",
                       kurdishText: """لاستیک مادەی نوشتاوەیە.""",

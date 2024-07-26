@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە وردەکاری و ڕازاندنەوەی زۆرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The author's writing style is known for its use of florid language.""",

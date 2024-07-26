@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خاسیەتێک کە توانای کردنی شت بە شێوەیەکی سەرنجڕاکێش دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She dresses with real flair.""",
                       kurdishText: """بە بەھرەی ڕاستەقینەوە جل لەبەر دەکات.""",

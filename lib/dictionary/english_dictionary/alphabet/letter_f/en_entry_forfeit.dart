@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) لە دەستدان یان دەستبەرداربوون لە شتێک وەک دەرەنجامی شتێک کە دەیکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """If you cancel your flight, you will forfeit your deposit.""",
@@ -214,7 +213,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک کە کەسێک دەبێت بیدات یان لەدەستی داوە بەھۆی ئەوەی شتێکی ھەڵەی کردووە یان دەرەنجامی شتێکە کە کردوویەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team might have avoided the forfeits if it had handled the situation differently.""",
@@ -226,7 +224,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کە لە کەسێک سەندراوە وەک سزا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This booking fee will be forfeit should you decide not to take up the accommodation.""",

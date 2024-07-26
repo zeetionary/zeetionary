@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕێژەیەکی کەم لە بەفر کە بۆ ماوەیەکی کەم دەبارێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Snow flurries began in the early morning.""",

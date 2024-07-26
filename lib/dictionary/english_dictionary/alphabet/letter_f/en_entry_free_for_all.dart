@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "free-for-all", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) مشتومڕ یان شەڕێک کە زۆر کەس بەژداریی تێدا دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Prompt action by prison staff prevented a violent free-for-all.""",

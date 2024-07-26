@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پێستی لاشەی مرۆڤ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His fingers closed around the soft flesh of her arm.""",
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) بەشی نەرمی میوە و سەوزە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Cut the melon in half and scoop out the flesh.""",

@@ -183,7 +183,6 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) ساردی و سەرما"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were exposed to a very intense frigidity.""",
@@ -194,7 +193,6 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) چێژنەبینینی ژن لە سێکس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The psychologist believes sexual frigidity is rooted in childhood trauma.""",

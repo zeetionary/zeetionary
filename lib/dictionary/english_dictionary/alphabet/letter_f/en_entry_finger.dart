@@ -346,7 +346,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ھەبوونی ئەو جۆرە پەنجەیەی باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The long-fingered athlete excelled in basketball.""",
@@ -358,7 +357,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دەستلێدان بە پەبجە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Gary sat fingering his beard, saying nothing.""",
@@ -371,7 +369,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) تاوانبارکردنی کەسێک و ئاگادارکردنەوەی پۆلیس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Who fingered him for the burglaries?""",
                       kurdishText: """کێ بە دزییەکان تۆمەتباری کرد؟""",

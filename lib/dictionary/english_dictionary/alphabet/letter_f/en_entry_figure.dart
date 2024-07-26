@@ -519,7 +519,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژمارەکانی ١ بۆ ٩ بە ژمارەیی نەک نووسراوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Write the figure ‘7’ on the board.""",
                       kurdishText: """ژمارە '٧' لەسەر تەختەکە بنووسە.""",
@@ -539,7 +538,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو بەشەی بیرکاری کە مامەڵە لەگەڵ لێکدان، کۆکردنەوە، ھتد ـی ژمارەکان دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Are you any good at figures?""",
                       kurdishText: """ھیچ باشیت لە ھەژمارکردن؟""",
@@ -557,7 +555,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) کەسێکی لەو شێوەیەی کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When she last saw him, he was a sad figure—old and tired.""",
@@ -613,7 +610,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) شێوەی کەسێک کە لە دوورەوە دەبینرێت بە ناڕوونی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There before him stood a tall figure in black.""",
@@ -635,7 +631,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) شێوەی جەستەی مرۆڤ، بەتایبەتی ھی ژن کە بە جوان دادەنرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You have a really good figure.""",
                       kurdishText: """بەژن‌وباڵایەکی تەواو باشی ھەیە.""",
@@ -669,7 +664,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) کەسێک یان ئاژەڵێک لە وێنەیەک، تابلۆیەک، ھتد یان لە چیرۆکیک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The central figure in the painting is the artist's daughter.""",
@@ -681,7 +675,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) پەیکەری کەس یان ئاژەڵێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He crafted a bronze figure of a horse for the exhibition.""",
@@ -694,7 +687,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) وێنەیەک، ھێڵکارییەک، ھتد لە کتێبێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The results are illustrated in figure 3.""",
@@ -752,7 +744,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (کردار) بڕیاردان یان بیرکردنەوە لەوەی شتێک ڕوودەدات یان ڕاستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I figured (that) if I took the night train, I could be in Scotland by morning.""",
@@ -787,7 +778,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (کردار) خەمڵاندنی بڕ یان تێچووی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We figured the attendance at 150 000.""",
                       kurdishText: """ژمارەی بەژداریمان بە ١٥٠٠٠٠ خەمڵاند.""",

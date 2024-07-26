@@ -229,7 +229,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو بازرگانی و خزمەتگوزارییانەی کە بە مۆڵەت وەرگرتن بەڕێوە دەبردرێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They operate franchises in London and Paris.""",
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) مافی دەنگدان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The franchise was later extended to all adults over eighteen.""",
@@ -264,7 +262,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ژمارەیەک فیلم کە تێیدا ھەمان کۆمەڵە کارەکتەر کە ژمارەیەک فیلم دەردەکەون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Disney has successfully revived the ‘Star Wars’ franchise, with four films already released and more in the works.""",
@@ -276,7 +273,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) پێدان یان فرۆشتنی مافی بریکاری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Catering has been franchised (out) to a private company.""",

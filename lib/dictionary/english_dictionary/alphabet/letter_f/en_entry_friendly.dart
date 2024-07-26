@@ -277,7 +277,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە کەسێک وەک میھرەبان پیشان دەدات؛ کە وات لێدەکات وەھا ھەست بکەیت لەناو دۆستان دایت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This is a very friendly neighbourhood.""",
                       kurdishText: """ئەمە گەڕەکێکی زۆر دۆستانەیە.""",
@@ -304,7 +303,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) مامەڵەکردن لەگەڵ کەسێک وەک ھاوڕێ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We soon became friendly with the couple next door.""",
@@ -325,7 +323,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کە وەک دوژمن سەیری ناکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government has maintained friendly relations with the Japanese.""",
@@ -338,7 +335,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) کە خۆشە بۆ بەکارھێنان؛ کە یارمەتیی کەسێک دەدات؛ کە یارمەتی کەسێک دەدات یان زیان ناگەیەنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This software is much friendlier than the previous version.""",
@@ -360,7 +356,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) یارییەک کە بەشێک نییە لە پاڵەوانێتییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He played for England in a friendly against Spain.""",

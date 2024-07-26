@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یەکەیەکی پێوان کە یەکسانە بە ٢٢٠ یارد، ٢٠١ مەتر، یان ١ لە ٨ ـی میلێک کە ١٦٠٩ مەترە"""),

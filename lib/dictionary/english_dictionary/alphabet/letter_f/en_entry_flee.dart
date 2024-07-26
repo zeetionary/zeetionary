@@ -161,9 +161,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flee", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕاکردن یان ھەڵھاتن لە شوێنێک"""),

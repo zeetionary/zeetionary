@@ -333,7 +333,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ھەڵسوکەوت و چالاکی کە بە جدی نین بەڵکو بۆ خۆشین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We didn't mean to hurt him. It was just a bit of fun.""",
@@ -353,7 +352,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) کە چێژی لێ دەبینیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's really fun to be with.""",
                       kurdishText: """خۆشە لەگەڵی بیت.""",

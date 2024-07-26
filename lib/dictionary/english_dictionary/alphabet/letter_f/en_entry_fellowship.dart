@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کۆمەڵێک کەسی ڕێکخراو کە ھەمان حەز، ئاماج، یان باوەڕیان ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She donated to the National Schizophrenia Fellowship.""",
@@ -205,7 +204,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی ئەندامێکی باڵای زانکۆیەک یان کۆلێژێک بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was awarded a fellowship at the college.""",
@@ -217,7 +215,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) بڕە پارەیەک کە دەدرێت بە خوێندکارێک بۆ بەردەوامی دان بە خوێندن یان ئەنجامدانی توێژینەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """PhDs can be expensive, unless you get a fellowship.""",

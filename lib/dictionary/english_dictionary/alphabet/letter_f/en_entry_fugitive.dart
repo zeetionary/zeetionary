@@ -204,7 +204,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کەسێکی ھەڵھاتوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fugitive families who have fled the fighting in the cities are now trying to survive in the mountains.""",

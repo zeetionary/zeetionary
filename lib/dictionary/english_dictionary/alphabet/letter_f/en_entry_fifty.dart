@@ -171,9 +171,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fifty", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) پەنجا (٥٠)"""),
                     SentencesRow(
@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ژمارە) لە ژمارە ٥٠ بۆ ٥٩"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was born in the fifties.""",
                       kurdishText: """لە پەنجاکان لەدایک بوو.""",

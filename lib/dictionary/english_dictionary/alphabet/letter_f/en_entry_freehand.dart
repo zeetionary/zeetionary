@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) کردن بەبێ ڕاستە یان ئامێری دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It was all done free-hand.""",
                       kurdishText: """ھەمووی تەنھا بەدەستی کرا.""",

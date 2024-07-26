@@ -145,9 +145,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕەبەن، ڕاگەیێنەر؛ ئەندامێکی ژمارەیەک گرووپی کاسۆلیکی ڕۆمانی کە ئەندامەکانی بەڵێن دەدەن بە ھەژاری بمێننەوە"""),

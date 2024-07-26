@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بە شێوەیەکی نامۆ و سەیر ڕەفتار دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He plays a flaky tourist visiting Europe.""",
@@ -198,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە باش کار ناکات یان زۆرجار لە کار دەوەستێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I found the software a bit flaky.""",
                       kurdishText: """نەرمامێرەکەم بە کەمێک کێشەدار بینی.""",

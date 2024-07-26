@@ -166,9 +166,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fluency", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی شتێک بە شارەزایی و ئاسانی بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team lacked fluency during the first half.""",

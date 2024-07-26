@@ -148,9 +148,9 @@ Usage: informal
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fiver", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پێنج پاوەند یان دۆلار"""),

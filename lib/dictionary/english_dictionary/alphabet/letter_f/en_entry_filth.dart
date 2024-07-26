@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڤیدیۆ، گۆڤار، وێبسایت، ھتد کە پەیوەندیدارن بە سێکس و بە زۆر بێ‌شەرمانە دادەنرێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How can you watch such filth?""",
                       kurdishText: """چۆن سەیری ئەو ھەرزەییە ئەکەیت؟""",

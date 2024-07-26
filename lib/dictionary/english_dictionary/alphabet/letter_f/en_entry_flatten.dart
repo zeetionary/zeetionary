@@ -214,9 +214,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flatten", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) تەخت بوون"""),
                     SentencesRow(
@@ -246,7 +246,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) لەناوبردنی بینایەک، دارێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Most of the factory was flattened by the explosion.""",
@@ -267,7 +266,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) پاڵنانی شتێک یان جەستەت بە کەسێک یان شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She flattened her nose against the window and looked in.""",
@@ -289,7 +287,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) بە ئاسانی بەزاندنی کەسێک لە ڕکابەرییەک، مشتومڕێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Our team was flattened this evening!""",
                       kurdishText: """تیمەکان ئەم ئێوارەیە بەزێندرا.""",
@@ -300,7 +297,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) لێدان لە کەسێک ھێندە بە توندی کە بکەوێت بە زەویدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'll flatten you if you do that again!""",
                       kurdishText:

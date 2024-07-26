@@ -550,7 +550,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ڕاھاتن یان گۆڕان بۆ ئەوەی بینین ئاسایی بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It took a few moments for her eyes to focus in the dark.""",
@@ -595,7 +594,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو شتەی خەڵکی زۆرترین حەزیان بۆی ھەیە؛ ئەوەی سەرنجی تابەتی بدەیت بە شتێک و وەھا بکەیت خەڵکی حەزی لێ بکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was the main focus of attention at the meeting.""",
@@ -662,7 +660,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) خاڵێک یان مەودایەک کە لێیەوە دەورووبەری شتێک بە ڕوونی دیارە بە چاو یان لێنز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Some parts of the photograph are out of focus (= blurred rather than clearly seen).""",

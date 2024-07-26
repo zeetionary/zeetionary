@@ -241,7 +241,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بۆ ناساندنی کۆتا شتی لیستێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Finally, stir in the fruit and walnuts.""",
@@ -263,7 +262,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بەشێوەیەک ھەموو باسکردنێکی سەبارەت بە شتێک کۆتایی پێدێنێت و گۆڕان ڕوونادات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The plan hasn't been finally approved.""",
                       kurdishText: """پلانەکە بەشێوەی کۆتایی پەسەند نەکراوە.""",

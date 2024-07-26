@@ -243,7 +243,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو ھەست یان یان پەیوەندییەی کەسانی ھاوڕێ ھەیانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Your friendship is very important to me.""",

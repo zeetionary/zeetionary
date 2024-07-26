@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خۆشی و شادی کە بوونی ھەیە کاتێک خەڵکی ئاھەنگ بۆ شتێک دەگێڕن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The wedding was an occasion of great festivity.""",

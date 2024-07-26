@@ -222,7 +222,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو خواردنەی کە دەخرێتە ناو لەفە، کێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She baked a sponge cake with cream filling for the party.""",

@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) زەوییەک کە لە تەنیشت بینایەک، ڕێگایەک، یان ناوچەیەکی ئاوییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They bought two miles of river frontage along the Colorado.""",

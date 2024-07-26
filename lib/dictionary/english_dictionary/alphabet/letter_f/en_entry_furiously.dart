@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەک کە بە خێرایی، وزە، یان تووڕەیی زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They worked furiously all weekend, trying to get it finished on time.""",

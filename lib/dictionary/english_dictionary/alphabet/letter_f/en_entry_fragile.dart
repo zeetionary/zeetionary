@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) لاواز و ناجێگیر؛ کە بە ئاسانی کاریگەری دەبێت لەسەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The economy remains extremely fragile.""",
                       kurdishText: """ئابووری زۆر ناجێگیر ماوەتەوە.""",
@@ -217,7 +216,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) ناسک و جوان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The woman's fragile face broke into a smile.""",
@@ -228,7 +226,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) لاواز لە ڕووی تەندرووستی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her father is now 86 and in fragile health.""",

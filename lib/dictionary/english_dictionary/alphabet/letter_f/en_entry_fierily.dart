@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەک کە تامێکی توونە لە دەمدا درووست دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The sauce is relatively mild at first taste, but then hits you fierily.""",
@@ -194,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بەشێوەیەک کە ھەستی بەھێز پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She glared at me fierily, not saying a word.""",

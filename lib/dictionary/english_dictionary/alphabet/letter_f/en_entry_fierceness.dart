@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی کە ھەستی بەھێز پیشان بدەیت بە چالاکی و شێلگیری زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I was impressed by the fierceness of his desire to win.""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی زۆر بەھێز بێت کە زیان درووست بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fierceness of the storm was unexpected.""",

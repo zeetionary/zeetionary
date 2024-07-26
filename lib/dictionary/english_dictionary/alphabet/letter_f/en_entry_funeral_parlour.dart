@@ -148,9 +148,9 @@ Usage: Brit, Cdn (US: funeral parlor)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە تێیدا لاشەی مردوویەک ئامادە دەکرێت بۆ ناشتن یان سووتاندن و کەسانی نزیکی دەتوانن لاشەکە ببینن"""),

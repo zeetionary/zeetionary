@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە نامۆیە یان شتی لەبیردەچێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As the story begins, she seems a bit of a flake, and we're not sure how strong her judgment is.""",
@@ -213,7 +212,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) لێبوونەوە بە پارچەی باریک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His skin was dry and flaking.""",
                       kurdishText: """پێستی وشک بوو و توێخی ھەڵدەدا.""",
@@ -223,7 +221,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) شکاندنی شت بۆ بەشی بچووکتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Flake the tuna and add to the sauce.""",
                       kurdishText:

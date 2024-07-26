@@ -170,9 +170,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەک کە بۆ پڕکردنەوەی کون بەکاردێت، بە تایبەتی لە دیواردا پێش بۆیەکردنی"""),
@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە گرنگ نییە بەڵام بەکاردێت بۆ تەواوکردنی شتێک بەھۆی ئەوەی ھیچی باشتر بەردەست نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The song was originally a filler on their first album.""",
@@ -203,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) مادەیەکی نەرم کە دەخرێتە پێستی کەسێک بۆ گۆڕینی شێوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Some doctors use lip fillers illegally on under-18s.""",

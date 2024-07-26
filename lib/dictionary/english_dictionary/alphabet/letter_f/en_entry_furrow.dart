@@ -198,7 +198,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ھێڵێکی قووڵ لە پێستی ڕووخسار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Suddenly he looked tired and there were deep furrows in his brow.""",
@@ -210,7 +209,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) گرژکردنی برۆیەکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The pain of the headache made him furrow his brow (= make lines in the skin above his eyes).""",
@@ -223,7 +221,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) درووستکردنی ھێڵێکی درێژ لەسەر ڕوویەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The wheels of the heavy tractor furrowed the soft ground.""",

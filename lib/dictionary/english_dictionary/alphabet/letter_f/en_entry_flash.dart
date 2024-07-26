@@ -388,7 +388,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) لێدانی ڕۆشنایی بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The lighthouse gives out four flashes every 15 seconds.""",
@@ -410,7 +409,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک کە کەمێک درەوشانەوە درووست دەکات بۆ ماوەیەکی کەم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'll need flash for this shot.""",
                       kurdishText: """بۆ ئەم وێنەیە پێویستم بە فلاشە.""",
@@ -437,7 +435,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) دەرکەوتنی درەوشاوەی لەناکاوی شتێک بۆ ماوەیەکی کەم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bomb exploded in a flash of yellow light.""",
@@ -450,7 +447,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) بیرۆکەیەک یان ھەستێک کە زوو دێتە مێشکت یان لەسەر ڕووخسارت دەردەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He caught the flash of anger in her eyes.""",
@@ -470,7 +466,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) درەوشانەوە بەزۆری بۆ ماوەیەکی کەم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Lightning flashed in the distance.""",
                       kurdishText: """چەخماخە لە دوورەوە دەدرەوشایەوە.""",
@@ -499,7 +494,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) بەکارھێنانی ڕووناکی بۆ پێدانی ئاماژە بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Red lights flashed a warning at them.""",
                       kurdishText: """لایتی سوور ئاگادارکردنەوەیەکی پێدان.""",
@@ -519,7 +513,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) پیشاندانی شتێک بە کەسێک بە خێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He flashed his pass at the security officer.""",
@@ -530,7 +523,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) جووڵان یان تێپەڕین بەخێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A look of terror flashed across his face.""",
@@ -550,7 +542,6 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) لەناکاو بیرکردنەوە لێی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A terrible thought flashed through my mind.""",
@@ -562,7 +553,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """١١. (کردار) دەرکەوتن شتێک بۆ ماوەیەکی کەم، بۆ نموونە لەسەر شاشەی تەلەفیزیۆن یان کۆمپیوتەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His name was flashed up on the screen.""",
                       kurdishText: """ناوی خرایە سەر شاشەکە.""",
@@ -580,7 +570,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) ناردنی زانیاری بە خێرایی بە تەلەفیزیۆن، ڕادیۆ، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """News of their triumph was flashed around the world.""",
@@ -593,7 +582,6 @@ Usage: informal
                     const DefinitionKurdish(
                         text:
                             """١٣. (ھاوەڵناو) کە سەرنج ڕادەکێشێت بەوەی گەورە یان گران‌بەھایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's very flash, isn't he?""",
                       kurdishText: """زۆر سەرنجڕاکێشە، وانییە؟""",

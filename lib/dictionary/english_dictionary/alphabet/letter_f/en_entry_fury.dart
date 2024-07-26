@@ -247,7 +247,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ئەوەی تەواو تووڕە بیت بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He flew into a fury when I refused.""",
                       kurdishText: """کە ڕەتمکردەوە تەواو تووڕە بوو.""",

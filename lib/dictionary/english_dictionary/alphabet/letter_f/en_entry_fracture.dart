@@ -242,7 +242,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی شتێکە بشکێت، بە تایبەتی ئێسک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Old people's bones are more prone to fracture.""",
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (کردار) شکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His leg fractured in two places.""",
                       kurdishText: """لاقی لە دوو شوێندا شکا.""",
@@ -284,7 +282,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) دابەشبوون بۆ چەند بەشێک بەشێوەیەک کە بوونی نەبێت یان یان کار نەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Many people predicted that the party would fracture and split.""",

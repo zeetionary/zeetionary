@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە وەھا پیشان دەدات کە خاسیەت. توانا، ھتد ـی ھەبێت کە لە ڕاستیدا نییەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's nothing but a liar and a fraud.""",
                       kurdishText: """ھیچ نییە جگە لە درۆزن و ساختەچییەک.""",

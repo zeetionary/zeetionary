@@ -341,7 +341,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ھونەر یان بازرگانی بەرھەمھێنانی فیلم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She'd like to write for theatre and film.""",
@@ -396,7 +395,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) وێنەی جووڵاوی ڕووداوی ڕاستی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The accident was caught on film.""",
                       kurdishText: """ڕووداوەکە بە فیلم گیردرا.""",
@@ -431,7 +429,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) تۆمارکردنی فیلم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They are filming in Moscow right now.""",
                       kurdishText: """لە ئێستادا لە مۆسکۆو وێنە دەگرن.""",

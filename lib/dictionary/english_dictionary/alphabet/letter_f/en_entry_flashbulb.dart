@@ -147,9 +147,9 @@ Usage: archaic
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flashbulb", please follow LX instructions
                     const DefinitionKurdish(
                         text:

@@ -348,9 +348,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "freeze", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) بەستن"""),
                     SentencesRow(
@@ -389,7 +389,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گیران یان لەکارکەوتنی شتێک بەھۆی ئەوەی کە بەستوویەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The pipes have frozen, so we've got no water.""",
@@ -411,7 +410,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کە پلەی گەرمی سفر یان لە ژێر سفرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It may freeze tonight, so bring those plants inside.""",
@@ -424,7 +422,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) سەرمابوونی زۆر؛ ئەوەی لە سەرمادا بمریت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Every time she opens the window we all freeze.""",
@@ -447,7 +444,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ھەڵگرتنی شتێک لە پلەی گەرمیی کەمدا بۆ ئەوەی پاراستنی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Can you freeze this cake?""",
                       kurdishText: """دەتوانیت ئەم کێکە بە ساردی بھێڵیتەوە؟.""",
@@ -469,7 +465,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) ئەوەی کە بکرێت لە پلەی گەرمی نزم دابنرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Some fruits freeze better than others.""",
                       kurdishText:
@@ -481,7 +476,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) لەناکاو وەستان لە جووڵە بەھۆی ترس، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I froze with terror as the door slowly opened.""",
@@ -512,7 +506,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) کە کۆمپیوتەرێک لە کار دەکەوێت بەوەی شاشەکەی ھێشتا کار دەکات بەڵام ناتوانیت ھیچ کارێک ئەنجام بدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """If your computer freezes, you may have to shut it down manually by holding the power button for several seconds.""",
@@ -525,7 +518,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) وەستاندنی فیلم یان ڤیدیۆیەک بۆ سەیرکردنی وێنەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Freeze the action there!""",
                       kurdishText: """لەوێدا فیلمەکە ڕابگرە!""",
@@ -536,7 +528,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) جێگیرکردن لە ئاستێکی دیاریکراودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Salaries have been frozen for the current year.""",
@@ -548,7 +539,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (کردار) ڕێگری کردن لەوەی پارە، ھەژماری بانکی، ھتد بەکاربێت بە وەرگرتنی فەرمانی دادگا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The company's assets have been frozen.""",
                       kurdishText:
@@ -559,7 +549,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (ناو) جێگیرکردن لە ئاستێکی دیاریکراودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government has imposed a price freeze on bread.""",
@@ -570,7 +559,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ناو) وەستاندنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Due to the crisis, there was a freeze on imports of certain goods.""",
@@ -582,7 +570,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (ناو) ماوەیەک لە کەشووھەوای زۆر سارد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Farmers still talk about the big freeze of '99.""",
@@ -595,7 +582,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (ناو) ماوەیەکی دیاریکراو کە پلەی گەرمی لە ژێر سفرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A freeze warning was posted for Thursday night.""",

@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ئەوەی کەسێک وەک دوژمن سەیر نەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They valued the friendliness of their neighboring villages.""",

@@ -174,7 +174,6 @@ Usage: literary
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) وەستان لە کردنی شتێک، یان وازھێنان لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She forsook the glamour of the city and went to live in the wilds of Scotland.""",

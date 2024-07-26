@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دابەشبوونی خانەی گیانلەبەرێک وەک بەشێک لە زاوزێ کردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fission of the cell could be inhibited with certain chemicals.""",

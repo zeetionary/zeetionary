@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) کە ھی خۆتە نەک کەسێکی دیکە پێی دابیت یان گوتبێتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Most of the older reporters have experienced war firsthand.""",

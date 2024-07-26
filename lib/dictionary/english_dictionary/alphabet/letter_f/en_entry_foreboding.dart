@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە وات لێ دەکات ھەست بکەیت شتی خراپ ڕوودەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She had a foreboding feeling as the storm approached.""",

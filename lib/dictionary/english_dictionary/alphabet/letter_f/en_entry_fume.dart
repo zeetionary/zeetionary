@@ -221,7 +221,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دووکەڵ، گاز، یان شتێکی ھاوشێوە کە بۆنی توندی ھەیە و مەترسیدارە ھەڵی بمژی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The body of a man was found in a fume-filled car yesterday.""",

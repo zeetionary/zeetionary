@@ -280,7 +280,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) پەنجەنان بە دووگمەیەک بۆ کردنەوەی ئامێرێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You turn the machine on by flipping (= operating) the switch on the side.""",
@@ -293,7 +292,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) فڕێدانی شتێک بۆ شوێنێک بە جوڵەی لەناکاو و خێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They flipped a coin to decide who would get the ticket.""",
@@ -313,7 +311,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) زۆر تووڕەبوون، خرۆشان، یان ئەوەی نەتوانی بە ڕوونی بیربکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She finally flipped under the pressure.""",
@@ -325,7 +322,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) لێدانێکی خێرا بە بەشێکی جەستە کە وا دەکات شتێک ھەڵگەڕێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The whole thing was decided on the flip of a coin.""",
@@ -338,7 +334,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) جووڵەیەک کە تێیدا جەستە لە حەوادا ھەڵدەگەڕێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The handstand was followed by a back flip.""",
@@ -351,7 +346,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) سەیرکردنێکی خێرای کتێب، گۆڤار، وێبسایتێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I had a quick flip through the report while I was waiting.""",

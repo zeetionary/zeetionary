@@ -470,7 +470,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (دیارخەر، ژمارەی پلەیی) گرنگترین یان باشترین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Your first duty is to your family.""",
                       kurdishText: """یەکەم ئەرکت بەرامبەر خێزانەکەتە.""",
@@ -488,7 +487,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) لە سەرەتادا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """First I had to decide what to wear.""",
                       kurdishText:
@@ -523,7 +521,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵکار) بۆ یەکەمین جار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """When did you first meet him?""",
                       kurdishText: """کەی بۆ یەکەمین جار بینیت؟""",
@@ -571,7 +568,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) یەکەم کەس یان شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I was the first in my family to go to college.""",
@@ -590,7 +586,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) ئەوەی پێش ھەموانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The first I knew of a problem was around 9.30 a.m. last Monday.""",
@@ -602,7 +597,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) ئەوەی ئەگەری زۆری ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'd be the first to admit (= I will most willingly admit) I might be wrong.""",
@@ -624,7 +618,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) بەدەستھاتن، بۆنە، ھتد کە پێشتر ئەنجام نەدراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This meeting between the two presidents is a historic first.""",
@@ -637,7 +630,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ناو) یەکەمین گێڕی پێڕۆ، ماتۆڕسکیل، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He stuck the car in first and revved.""",
                       kurdishText:
@@ -656,7 +648,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ناو) بەرزترین بڕوانامەی زانکۆکانی بەریتانیا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She got a first in maths at Oxford.""",
                       kurdishText:

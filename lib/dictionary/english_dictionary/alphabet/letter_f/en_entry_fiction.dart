@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شتێک کە درووستکراوە و ڕاست نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Don't believe what she says—it's pure fiction!""",

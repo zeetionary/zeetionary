@@ -211,7 +211,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) لاواز؛ کە بە ئاسانی زیانی پێدەگات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Human nature is frail.""",
                       kurdishText: """سرووشتی مرۆڤ لاوازە.""",

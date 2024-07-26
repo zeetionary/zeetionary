@@ -148,9 +148,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە ئاسنێک کە لە پێش ئاگردانێک دادەنرێت بۆ ئەوەی ڕێگری بکات لەوەی داری ئاگرەکە بێتە دەرەوە یان منداڵ یان ئاژەڵ خۆیان بسووتێنن"""),

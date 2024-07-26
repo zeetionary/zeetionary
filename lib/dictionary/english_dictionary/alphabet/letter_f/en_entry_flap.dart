@@ -283,7 +283,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) جوڵەیەکی خێرای دەنگداری شتێک کە بە سەرەوخوار یان لابەلا دەچووڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """With a flap of its wings, the bird was gone.""",
@@ -294,7 +293,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) دۆخی نیگەرانی یان بەجۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She gets in a flap over the slightest thing.""",
@@ -315,7 +313,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ڕەخنە یان تووڕەیی گشتی بۆ شتێک کە کەسێکی ناسراو کردوویەتی یان گوتوویەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She claimed to have had an affair with the candidate, which produced a huge media flap.""",
@@ -328,7 +325,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) بەشێکی باڵی فڕۆکە لە کۆتایی باڵی ڕاست و چەپ کە بۆ سەرەوە و خوارەوە دەجووڵێن کۆنترۆڵی جووڵە دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The pilot lowered the flaps as the aircraft came into land.""",
@@ -341,7 +337,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) کە باڵی باڵندە بۆ سەرەوە و خوارەوە دەجووڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bird flapped its wings and flew away.""",
@@ -353,7 +348,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) جوڵاندنی شتێک بەرەو سەرەوە و خوارەوە یان لە لایەک بۆ لایەکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The sails flapped in the breeze.""",
                       kurdishText: """چارۆکەکان لە کزە باکەدا دەشەکانەوە.""",
@@ -380,7 +374,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) ڕەفتارکردن بەشێوەیەکی شڵەژاوی یان بەجۆشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There's no need to flap—I've got everything under control.""",

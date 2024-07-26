@@ -212,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ھەبوونی کێشەی ئەوەی بە ڕوونی قسە بکەیت یان وشەی گونجاو بەکاربھێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """During the interview, she fumbled helplessly for words.""",
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بەکارھێنانی دەست بە لەرزۆکی و نا وریایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """After a brief fumble in her handbag, she produced a clean handkerchief.""",

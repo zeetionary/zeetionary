@@ -416,9 +416,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fill", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پڕکردنی شتێکی لە شتێکی دیکە"""),
@@ -513,7 +513,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) گرتنی کونێک بە مادەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They used putty to fill the holes.""",
                       kurdishText:
@@ -533,7 +532,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) دانانی مادەی تایبەت بۆ پڕکردنەوەی کونی ددان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I need to have two teeth filled.""",
                       kurdishText: """پێویستە دوو ددان پڕبکەمەوە.""",
@@ -544,7 +542,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) واکردنی ئەوەی کە کەسێک ھەستێکی بەھێزی ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A deep joy filled me.""",
                       kurdishText: """خۆشییەکی زۆر دایگرتم.""",
@@ -571,7 +568,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) کە دەنگێک، ڕۆشناییەک، یان بۆنێک ئاسان دەبێت بۆ بینین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The sound of bells ringing filled the air.""",
@@ -598,7 +594,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) پڕ لەو شتەی باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The meeting took place in a smoke-filled room.""",
@@ -610,7 +605,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) دابینکردنی شتێک کە نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Choose the best word to fill the gap in each sentence.""",
@@ -650,7 +644,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) کردنی کارێک، ھەبوونی ئەرکێک یان پێگەیەک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team needs someone to fill the role of manager.""",
@@ -671,7 +664,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) ھەڵبژاردنی کەسێک بۆ کارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The vacancy has already been filled.""",
                       kurdishText: """شوێنە بەتاڵەکە پێشوەختە پڕکراوەتەوە.""",
@@ -682,7 +674,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) بەکارھێنانی کاتێک بۆ کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """How do you fill your day now that you've retired?""",
@@ -713,7 +704,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) تێرخواردن بەشێوەیەک ئیتر نەتوانیت ھیچ بخۆیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The kids filled themselves with snacks.""",
@@ -726,7 +716,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (ناو) بەو ھێندەیەی کە ئامادەیت پەسەندی بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I've had my fill of entertaining for one week.""",
@@ -738,7 +727,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (ناو) ھەتا بتوانیت بخۆیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The pigs had had their fill of the leftovers.""",

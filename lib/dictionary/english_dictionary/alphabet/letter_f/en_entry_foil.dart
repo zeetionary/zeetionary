@@ -243,7 +243,6 @@ Noun: foil (derived forms: foils)
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کاغەز کە بە کانزای زۆر باریک پێچراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The chocolates are individually wrapped in gold foil.""",
@@ -256,7 +255,6 @@ Noun: foil (derived forms: foils)
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کەسێک یان شتێک کە خاسیەتەکانی شتێک پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The couple provided the perfect foil for one another.""",
@@ -282,7 +280,6 @@ Noun: foil (derived forms: foils)
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) وەستاندنی شتێک لەوەی ڕووبدات، بە تایبەتی شتێکی نایاسایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Customs officials foiled an attempt to smuggle the paintings out of the country.""",

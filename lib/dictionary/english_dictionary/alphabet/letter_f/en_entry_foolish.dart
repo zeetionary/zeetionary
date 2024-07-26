@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ھەستکردن یان دەرکەوتن وەک گەمژە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He's afraid of looking foolish in front of his friends.""",

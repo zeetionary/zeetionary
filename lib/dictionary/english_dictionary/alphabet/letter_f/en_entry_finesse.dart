@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) مامەڵەکردن لەگەڵ شتێک کە زیرەکانەیە بەڵام فێڵبازانەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He knew how to finesse a deal to get better terms.""",
@@ -199,7 +198,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) کردنی شتێک بە شارەزایی زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Only a few top players are able to finesse a victory in such a situation.""",

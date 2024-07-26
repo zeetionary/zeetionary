@@ -251,7 +251,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دۆخێک تێیدا شتەکان ڕوون نین و سەختن بۆ تێگەشتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He went through the day with his mind in a fog.""",
@@ -264,7 +263,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی شتێک ناڕوون بکەیت یان سەرلێشێوان درووست بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I tried to clear the confusion that was fogging my brain.""",

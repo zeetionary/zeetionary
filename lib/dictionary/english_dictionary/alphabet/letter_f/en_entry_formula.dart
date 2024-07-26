@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پیت و سمبول کە بەشەکانی پێکھاتەیەک، ھتد ـی کیمیایی پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """CO is the formula for carbon monoxide.""",
                       kurdishText: """CO فۆرمووڵای کاربۆن مۆنۆکسایدە.""",
@@ -213,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ڕێگای دیاریکراوی کردن یان بەدەستھێنانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They're trying to work out a peace formula acceptable to both sides in the dispute.""",

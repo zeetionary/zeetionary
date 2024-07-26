@@ -630,7 +630,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ھێزی جەستەیی، بەتایبەتی کە باسی لێدان دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The shopping centre took the full force of the blast.""",
@@ -685,7 +684,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) کاریگەریی بەھێزی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He controlled himself by sheer force of will.""",
@@ -725,7 +723,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) کەسێک یان شتێک کە ھێزی زۆری ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Ron is the driving force (= the person who has the most influence) behind the project.""",
@@ -771,7 +768,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٥. (ناو) دەسەڵاتی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These guidelines do not have the force of law.""",
@@ -793,7 +789,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ژمارەیەک کەس کە بۆ مەبەستێکی دیاریکراو ڕێکخراون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has attracted a force of passionate young individuals who are committed to the organization.""",
@@ -806,7 +801,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) ژمارەیەک ھێزی چەکداری ڕاھێندراو و ڕێکخراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Rebel forces now control most of the capital.""",
@@ -837,7 +831,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) سوپا، ھێزی ئاسمانی، و ھێزی دەریایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Daisy intends to join the forces when she leaves school this summer.""",
@@ -850,7 +843,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) چەک و سەرباز کە سوپایەک پێی وایە دەکرێت بەکاربێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government is negotiating cuts to nuclear forces.""",
@@ -861,7 +853,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """١٠. (ناو) ھێزی پۆلیس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He joined the force twenty years ago.""",
                       kurdishText: """بیست ساڵ پێش ئێستا بوو بە پۆلیس.""",
@@ -872,7 +863,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ناو) ھێزێک کە وا دەکات شتێک بە ئاراستەیەک بجووڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The moon exerts a force on the earth.""",
                       kurdishText: """مانگ ھێز دەخاتە سەر زەوی.""",
@@ -899,7 +889,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (کردار) زۆرکردن لە کەسێک بۆ کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The President was forced into resigning.""",
@@ -981,7 +970,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) بەکارھێنانی جەستەیی بۆ جووڵاندنی شتێک بە ئاراستەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She forced her way through the crowd of reporters.""",
@@ -1018,7 +1006,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (کردار) واکردنی ئەوەی شتێک ڕووبدات، بە تایبەتی پێش ئەوەی کەسانی دیکە ئامادە بن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was in a position where he had to force a decision.""",
@@ -1040,7 +1027,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (کردار) زۆرکردن لە خۆت بەوەی پێبکەنیت، ھتد نەک ئەوەی بە سرووشتی بیکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She managed to force a smile.""",
                       kurdishText: """توانی بزەیەک بە زۆر بکات.""",

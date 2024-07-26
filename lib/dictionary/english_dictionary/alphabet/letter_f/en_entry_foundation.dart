@@ -284,7 +284,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دامەزراوەیەک کە دامەزراوە بۆ دابینکردنی پارە بۆ مەبەستێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The money will go to the San Francisco AIDS Foundation.""",
@@ -305,7 +304,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) دامەزراندنی دامەزراوەیەکی تازە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The organization has grown enormously since its foundation in 1955.""",
@@ -318,7 +316,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) چینێک لە بەرد، کۆنکریت، ھتد کە بناغەی پتەوی بینایەک پێکدێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The explosion shook the foundations of the houses nearby.""",

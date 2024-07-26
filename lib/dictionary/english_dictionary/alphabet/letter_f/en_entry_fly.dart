@@ -452,7 +452,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) فڕینی فڕۆکە یان کەشتی ئاسمانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were on a plane flying from London to New York.""",
@@ -481,7 +480,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) گەشتکردن لە فڕۆکە یان کەشتی ئاسمانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Is this the first time that you've flown?""",
@@ -515,7 +513,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) فڕاندنی فڕۆکەیەک، کەشتییەکی ئاسمانی، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's learning to fly.""",
                       kurdishText: """فێری فڕین دەبێت.""",
@@ -544,7 +541,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) گواستنەوەی کەلوپەل یان گەشتیار بە فڕۆکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Orders were given to fly the prisoners to the US.""",
@@ -566,7 +562,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) گەشتکردنی ماوەیەکی دیاریکراو لە حەوادا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Some birds fly huge distances when they migrate.""",
@@ -596,7 +591,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) ڕۆشتن یان جوولان بە خێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The train was flying along.""",
                       kurdishText: """شەمەندەفەرەکە بۆ پێشەوە دەچوو.""",
@@ -613,7 +607,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) جووڵان بە لەناکاو و ھێزەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A large stone came flying in through the window.""",
@@ -642,7 +635,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) کە وەھا دەربکەوێت خێرا دەچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Doesn't time fly?""",
                       kurdishText: """کات تێناپەڕێت؟""",
@@ -663,7 +655,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) کە ئاڵایەک ھەڵدراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Flags were flying at half mast on all public buildings.""",
@@ -676,7 +667,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ناو) مێروویەکی بچووک کە دوو باڵی ھەیە و زۆر جۆری جیاوازی ھەیە، و ھەندێکیان نەخۆشی دەگوازنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A fly was buzzing against the window.""",
                       kurdishText:
@@ -708,7 +698,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (ناو) زنجیری پانتۆڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Your fly is undone!""",
                       kurdishText: """زنجیرەکەت کراوەیە!""",

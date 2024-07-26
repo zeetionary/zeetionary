@@ -498,7 +498,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بەشی تەختی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He beat on the door with the flat of his hand.""",
@@ -510,7 +509,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) زەوییەک، بەتایبەتی لە نزیکی ئاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """These birds live on the coastal flats.""",
                       kurdishText:
@@ -520,7 +518,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ھاوەڵناو) تەخت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I need a flat surface to write on.""",
                       kurdishText:
@@ -557,7 +554,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) بەبێ لێژایی یان گرد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The road stretched ahead across the flat landscape.""",
@@ -585,7 +581,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) ئارام و بەبێ شەپۆل"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The sea was almost completely flat.""",
                       kurdishText: """دەریاکە بەنزیکەیی تەواو ھێمن بوو.""",
@@ -604,7 +599,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) فراوان بەڵام کە زۆر بەرز نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Pitta and nan are two types of flat bread.""",
@@ -625,7 +619,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) کە ھەست بە تامەزرۆیی یان حەز پیشان نادات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He felt very flat after his friends had gone home.""",
@@ -637,7 +630,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ھاوەڵناو) کە ھەستی زۆر پیشان نادات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her voice was flat and expressionless.""",
                       kurdishText: """دەنگی مات و بێ‌ھەست بوو.""",
@@ -648,7 +640,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ھاوەڵناو) کە سەرکەوتوو نییە بەھۆی ئەوەی کەم شت دەفرۆشرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The housing market has been flat for months.""",
@@ -661,7 +652,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (ھاوەڵناو) کە بە تەواوی بڕیاری لێدراوە؛ کە ناکرێت گفتوگۆی لەسەر بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her request was met with a flat refusal.""",
@@ -681,7 +671,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (ھاوەڵناو) کە چی دیکە کەفی نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The soda was warm and had gone flat.""",
                       kurdishText: """سۆدەکە گەرم و فلات بوو.""",
@@ -691,7 +680,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ھاوەڵناو) باترییەکی مردوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I left my car lights on and now the battery is flat.""",
@@ -704,7 +692,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (ھاوەڵکار) بە تەختی؛ بە ڕاستی و بەبێ چەمانەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Lie flat and breathe deeply.""",
                       kurdishText:
@@ -732,7 +719,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٥. (ھاوەڵکار) بەشێوەی ڕاستەوخۆ و نەگۆڕ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She told me flat she would not speak to me again.""",
@@ -753,7 +739,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٦. (کردار) ژیان کردن لە فلاتێک یان لەگەڵ کەسێکی دیکە لە فلاتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My sister Zoe flats in Auckland.""",
                       kurdishText: """زۆوی خوشکم لە فلاتێکی ئۆکلاند دەژی.""",

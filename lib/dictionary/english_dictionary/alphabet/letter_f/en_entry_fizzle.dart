@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) کەم‌کەم کۆتایی ھاتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Interest in the project fizzled after the funding was withdrawn.""",

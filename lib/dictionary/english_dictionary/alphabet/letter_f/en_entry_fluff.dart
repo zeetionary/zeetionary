@@ -212,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) تووکی ئاژەڵ یان پەڕی باڵندە، بەزۆری لەسەر ئاژەڵ و باڵندەی گەنج"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The baby birds were still covered in fluff.""",
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کردنی شتێک بە خراپی یان شکستھێنان لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He completely fluffed an easy shot (= in sport).""",
@@ -246,7 +244,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) تەکاندن یان ڕاوەشاندنی شتێک بۆ ئەوەی گەورەتر یان نەرمتر بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Let me fluff up your pillows for you.""",
                       kurdishText: """با سەرینەکانت بتەکێنم.""",

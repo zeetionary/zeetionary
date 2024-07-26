@@ -173,9 +173,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fleece", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) خوری مەڕ"""),
                     SentencesRow(
@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) قوماشێک کە لە خوری مەڕ دەچێت و لە پۆڵیستەر درووستکراوە؛ جلێک کە لەم قوماشە درووستکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was wearing a green fleece and hiking boots.""",
@@ -203,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) وەرگرتنی پارەیەکی زۆر لە کەسێک بە فرۆشتنی شت بە گران‌بەھا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Some local shops have been fleecing tourists.""",

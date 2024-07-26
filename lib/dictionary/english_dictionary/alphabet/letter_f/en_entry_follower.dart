@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە حەزی بە چالاکییەکی دیاریکراو ھەیە و ئاگای لە ھەموو ھەواڵێک ھەیە لەسەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This book is only for the dedicated follower of modernist architecture.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە وەک کەسێکی دیکە کار دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She is a leader, not a follower.""",
                       kurdishText: """سەرکردەیە نەک شوێنکەوتوو.""",
@@ -227,7 +225,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کەسێک کە لە تۆڕێکی کۆمەڵایەتی چاودێری کارەکانی کەسێک دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has over 100,000 followers on Instagram.""",

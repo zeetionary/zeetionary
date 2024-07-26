@@ -250,7 +250,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) جوڵاندنی خۆت یان بەشێکی جەستەت بە ھێزێکی زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She flung herself onto the bed.""",
                       kurdishText: """خۆی ھەڵدایە سەر جێ‌خەوەکە.""",
@@ -269,7 +268,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) گوتنی شتێک بە کەسێک بە توندی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were flinging insults at each other.""",
@@ -281,7 +279,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ماوەیەک لە خۆشی وەرگرتن کە بیر لە شتی دیکە ناکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was determined to have one last fling before retiring.""",
@@ -294,7 +291,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) پەیوەندیی سێکسی کورتخایەن لەگەڵ کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We had a brief fling, but it’s over now.""",

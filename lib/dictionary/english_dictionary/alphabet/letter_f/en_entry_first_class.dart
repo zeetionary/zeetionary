@@ -216,9 +216,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "first class", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -233,7 +233,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو نامانەی کە بە خێرایی دەگوێزرێنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """First class costs more.""",
                       kurdishText: """پلە یەک پارەی زیاتری دەوێت.""",
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بە باشترین کورسییەکانی سەر فڕۆکە، شەمەندەفەر، یان کەشتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She always travels first class.""",
                       kurdishText: """ھەمیشە بە فێرست کلاس گەشت دەکات.""",
@@ -254,7 +252,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵکار) بە خێراترین خۆری مەیڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """ sent the package first class on Monday.""",
@@ -265,7 +262,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) لە باشترین گرووپدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The car was in first-class condition.""",
                       kurdishText: """ئۆتۆمبێلەکە لە دۆخی نایابی بوو.""",
@@ -284,7 +280,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ھاوەڵناو) پەیوەندیدار بە گرانترین شێوەی گەشتکردن لەسەر شەمەندەفەر، فڕۆکە، یان کەشتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She bought a first-class ticket for her trip to Paris.""",
@@ -297,7 +292,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) ئەو شتانەی کە بە خێراترین دەنێردرێن و پارەی زیاتریان دەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They used to guarantee that a first-class letter would arrive the next day.""",
@@ -310,7 +304,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) بڕوانامەیەکی بەرزترین ئاست لە بەریتانیا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was awarded a first-class degree in English.""",

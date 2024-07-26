@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خاڵێک یان پێگەیەکی بەھێز لە کار، بازرگانی، ھتد کە لێیەوە دەکرێت بەرەوپێشچوون ئەنجام بدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company is eager to gain a foothold in Europe.""",

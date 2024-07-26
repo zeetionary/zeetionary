@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ھەڵگرتنی خەڵکی یان شت لە بەلەمێک یان کەشتیدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He offered to ferry us across the river in his boat.""",
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) گواستنەوەی خەڵکی یان کەلوپول لەسەر پێڕۆ لە شوێنێکەوە بۆ شوێنێکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The children need to be ferried to and from school.""",

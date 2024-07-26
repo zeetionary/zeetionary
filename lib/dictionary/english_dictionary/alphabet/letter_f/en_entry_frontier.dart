@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو پەڕی ئەو شوێنانەی کە خەڵکی لێی نیشتەجێبوونە و شارۆچکەیان درووست کردووە و لەو پەڕییەوە دەشتە و زانیاری نییە لەسەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The Homestead Act of 1862 gave free land to pioneers who settled the frontier.""",
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) سنووری شتێک، بە تایبەتی ئەوەی چی زانراوە سەبارەت بە چالاکییەک یان بابەتێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Space is the final frontier for us to explore.""",

@@ -232,7 +232,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شێوە و قەبارەی کتێبێک، گۆڤارێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They've brought out the magazine in a new format.""",
@@ -254,7 +253,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شێوازی ھەڵگرتنی زانیاری لەسەر کۆمپیوتەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The images are stored in a digital format within the database.""",

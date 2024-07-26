@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک لە ماڵێکدا کە شوێنەکەی جێگیرە و نایبەیت کە خانوو دەگۆڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The price of the house includes fixtures and fittings.""",

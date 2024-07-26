@@ -305,7 +305,6 @@ derived forms: fooling, fools, fooled)
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە جاران لە لایەن پاشا یان شاژنەوە بە کرێ دەگیرا بۆ خۆشبەختکردنی بە گوتنی نوکتە، گۆرانی، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fools used to provide entertainment in the royal court.""",
@@ -318,7 +317,6 @@ derived forms: fooling, fools, fooled)
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) خەڵەتاندنی کەسێک بەوەی باوەڕ بە شتێک بکات کە ڕاست نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You don't fool me!""",
                       kurdishText: """تۆ نام‌گەوجێنیت!""",
@@ -354,7 +352,6 @@ derived forms: fooling, fools, fooled)
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ئەنجامدانی کاری گەمژانە، زۆرجار بۆ ئەوەی خەڵکی بخەیتە پێکەنین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Stop fooling around and sit down!""",
                       kurdishText: """بوەستە لە گەمژەیی کردن و دابنیشە.""",
@@ -373,7 +370,6 @@ derived forms: fooling, fools, fooled)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) گەمژە؛ گەمژانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """That was a damn fool thing to do!""",
                       kurdishText: """شتێکی گەمژانە بوو بۆ کردن!""",

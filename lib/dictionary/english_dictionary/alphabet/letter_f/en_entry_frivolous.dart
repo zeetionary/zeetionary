@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ھیچ سوود یان مەبەستێکی نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I feel like doing something completely frivolous today.""",

@@ -182,9 +182,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flex", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارچە وایەرێک کە بە پلاستیک داپۆشراوە و بەکاردێت بۆ گەیاندنی کارەبا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The appliance comes with a flex and a plug.""",

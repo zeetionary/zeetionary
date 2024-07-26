@@ -383,7 +383,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕێژەیەکی زۆر لە خەڵکی یان شت کە پێکەوە دەردەکەون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We are unable to compete with a flood of cheap food imports.""",
@@ -421,7 +420,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) کەوتنە بەر لافاو؛ پڕبوون لە ئاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The cellar floods whenever it rains heavily.""",
@@ -465,7 +463,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) کە ڕووبارێک ھێندە ئاوی تێدایە دەڕأێتە خاکی دەرووبەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The river flooded the valley.""",
                       kurdishText: """ڕووبارەکە ڕژایە دۆڵەکە.""",
@@ -486,7 +483,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) چوونە شوێنێک بە ژمارەی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The home fans flooded onto the pitch at the finish.""",
@@ -507,7 +503,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) ناردنی شتێک بە ژمارەیەکی زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The office was flooded with applications for the job.""",
@@ -526,7 +521,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) ئەوەی شتێک بەردەست بێت بە ڕێژەیەکی زۆر لە شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Cheap imported goods are flooding the market.""",
@@ -548,7 +542,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) کاریگەری کردن لە کەسێک لەناکاو و بەتوندی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Memories of her childhood came flooding back.""",

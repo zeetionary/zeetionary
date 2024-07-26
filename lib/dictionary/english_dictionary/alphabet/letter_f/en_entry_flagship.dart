@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) گرنترین بەرھەم، خزمەتگوزاری، بینا، ھتد کە دامەزراوەیەک ھەیەتی یان بەرھەمی دەھێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The iPhone is Apple's flagship product.""",

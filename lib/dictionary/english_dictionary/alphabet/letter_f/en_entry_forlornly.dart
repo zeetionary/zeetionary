@@ -154,9 +154,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "forlornly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بەشێوەیەک کە چاودێری ناکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her computer sits forlornly in pieces in her room.""",

@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بۆنەیەک یان کەسێک کە ڕەنگە بە بیربێتەوە بەڵام تەنھا وەک ئەوەی کە گرنگ نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The incident seems destined to become a mere footnote in history.""",

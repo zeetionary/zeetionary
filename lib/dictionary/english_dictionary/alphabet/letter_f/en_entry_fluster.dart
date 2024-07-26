@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی لە پەشۆکان یان سەرلێشێواوی بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The important thing when you're cooking for a lot of people is not to get in a fluster.""",

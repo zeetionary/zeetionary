@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گەڕان بۆ شتێک کە ون بووە یان لەناو ژمارەیەکی زۆر شتدا شاردراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She opened the drawer and ferreted around for her keys.""",

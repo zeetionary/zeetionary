@@ -306,7 +306,6 @@ Noun: funny (derived forms: funnies)
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) شتێک کە سەختە بۆ ڕوونکردنەوە؛ شتێک کە نامۆ و پێشبینی نەکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A funny thing happened to me today.""",
                       kurdishText: """ئەمڕۆ شتێکی نامۆم بەسەر ھات.""",
@@ -334,7 +333,6 @@ Noun: funny (derived forms: funnies)
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) ئەگەری ھەیە یان وادیارە کە نایاسایی، ھەڵە، یان فێڵبازانە بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I suspect there may be something funny going on.""",
@@ -355,7 +353,6 @@ Noun: funny (derived forms: funnies)
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە بۆ خۆشی بێ‌ڕێز بیت بەرامبەر بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't you get funny with me!""",
                       kurdishText: """بێ‌ڕێز مەبە لەگەڵم!""",
@@ -365,7 +362,6 @@ Noun: funny (derived forms: funnies)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) کەمێک نەخۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I feel a bit funny today—I don't think I'll go to work.""",
@@ -377,7 +373,6 @@ Noun: funny (derived forms: funnies)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) کەمێک شێتۆکە و نامۆ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """That Dave's a funny chap, isn't he?""",
                       kurdishText: """ئەو دەیڤە شێتۆکەیەکە، وانییە؟""",
@@ -388,7 +383,6 @@ Noun: funny (derived forms: funnies)
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) کە بە شێوەی چاوەڕوانکراو کار ناکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My computer keeps going funny.""",
                       kurdishText: """کۆمپیوتەرەکەم لە کار دەکەوێت.""",

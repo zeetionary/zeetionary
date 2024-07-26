@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕەفتارێک کە ئەوە پیشان دەدات کەسێک بە سەرنجڕاکێش دەبینیت بەڵام جدی نیت لەسەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was a harmless flirtation and nothing more.""",

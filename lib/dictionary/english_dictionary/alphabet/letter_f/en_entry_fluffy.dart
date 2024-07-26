@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) خواردنێک کە نەرم و سووکە و ھەوای تێدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Beat the butter and sugar until soft and fluffy.""",
@@ -196,7 +195,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە نەرم و سووک دەردەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The airplane flew above the fluffy white clouds.""",

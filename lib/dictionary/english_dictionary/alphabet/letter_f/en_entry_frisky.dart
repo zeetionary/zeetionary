@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە لە لایەنی سێکسییەوە دەیەوێت چێژ لە خۆی ببینێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He always gets a bit frisky after a few drinks.""",

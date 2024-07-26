@@ -170,9 +170,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flog", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) لێدان لە کەسێک بە قامچی یان دار"""),
@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) فرۆشتن بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She flogged her guitar to another student.""",

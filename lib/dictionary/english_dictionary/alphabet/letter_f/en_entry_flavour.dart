@@ -243,7 +243,6 @@ Usage: Brit, Cdn (US: flavor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) تامێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This yogurt comes in ten different flavours.""",
@@ -280,7 +279,6 @@ Usage: Brit, Cdn (US: flavor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) کەش یان خاسیەتێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The film retains much of the book's exotic flavour.""",
@@ -301,7 +299,6 @@ Usage: Brit, Cdn (US: flavor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) تێگەشتنی ئەوەی شتێک چۆنە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The following extract gives a flavour of the poet’s later works.""",
@@ -314,7 +311,6 @@ Usage: Brit, Cdn (US: flavor)
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) زیادکردنی شتێک بۆ خواردن یان خواردنەوە بۆ پێدانی تام"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This dish is flavoured with basil and garlic.""",

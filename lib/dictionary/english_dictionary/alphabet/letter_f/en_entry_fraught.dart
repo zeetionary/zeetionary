@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ھەستکردن بە نیگەرانی و سترێس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She looked/sounded fraught.""",
                       kurdishText: """نیگەران دیار بوو.""",

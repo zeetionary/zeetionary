@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ھەبوونی مشتومڕێکی توند بۆ ماوەیەکی دوور و درێژ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He has been feuding with his brother for years.""",

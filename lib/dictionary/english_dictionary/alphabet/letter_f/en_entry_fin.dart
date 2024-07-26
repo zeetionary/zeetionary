@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بەشێکی باریکی تەخت کە لە پشتەوەی لاشەی فڕۆکەیەک، پێڕۆیەک، ھتد دەردەچێت و بۆ ھاوسەنگی و جووڵە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The aircraft has a long tail fin.""",
                       kurdishText: """فڕۆکەکە کلکە باڵێکی درێژی ھەیە.""",

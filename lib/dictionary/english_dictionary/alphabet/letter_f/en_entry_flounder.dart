@@ -178,9 +178,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flounder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ھەبوونی کێشەی زۆر و ئەوەی ئەگەر ھەبێت تەواو شکست بھێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """At that time the industry was floundering.""",
@@ -218,7 +217,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ھەبوونی کێشە لەوەی ڕێ بکەیت یان بگەیت بە شوێنێک لە بەفر، قوڕ، ھتد ــدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was floundering around in the deep end of the swimming pool.""",

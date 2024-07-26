@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) ژەمە خواردنێکی سادە و ھەرزان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He prefers a frugal lunch of bread and cheese.""",

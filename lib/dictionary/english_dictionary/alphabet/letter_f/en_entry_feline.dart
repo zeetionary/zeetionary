@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پشیلە؛ ئاژەڵێک کە لە خێزانی پشیلەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They observed the feline in the wild.""",
                       kurdishText: """پشیلەکەیان لە دەشتەکەدا بینی.""",

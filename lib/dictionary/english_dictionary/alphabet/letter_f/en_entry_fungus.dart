@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) چینێک لە کەڕوو یان جۆرێکی دیکە کوارگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The logs were covered with bright fungus.""",

@@ -204,7 +204,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گەڕان بۆ شتێک، بە تایبەتی بە دەست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her assistant was foraging in a cupboard for some envelopes.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) خواردنی ئەسپ و مانگا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We'll have to maximize home-grown forages so we can cut back on grain.""",

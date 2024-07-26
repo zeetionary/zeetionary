@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەک کە دەکرێت زیانبەخش بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The aircraft was burning fiercely.""",
                       kurdishText: """فڕۆکەکە بە توندی دەسووتا.""",

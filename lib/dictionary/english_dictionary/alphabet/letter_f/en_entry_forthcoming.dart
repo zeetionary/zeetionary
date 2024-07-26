@@ -213,7 +213,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ئامادە یان بەردەست دەخرێت لە کاتی پێویستدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Financial support was not forthcoming.""",
                       kurdishText: """پشتیوانی دارایی بەردەست نەبوو.""",
@@ -233,7 +232,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە ئامادەیە زانیاری بدات لەسەر شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's never very forthcoming about her plans.""",

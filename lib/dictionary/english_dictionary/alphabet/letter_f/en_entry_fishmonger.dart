@@ -154,9 +154,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fishmonger", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ماسی‌فرۆش"""),
                     SentencesRow(
@@ -170,7 +170,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) فرۆشگایەک کە ماسی دەفرۆشێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'll stop at the fishmonger's on my way home from work.""",

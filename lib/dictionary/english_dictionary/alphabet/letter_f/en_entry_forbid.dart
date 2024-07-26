@@ -172,9 +172,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "forbid", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی وا بکەیت ئەستەم یان سەخت بێت شتێک چی دیکە بکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Lack of space forbids further treatment of the topic here.""",

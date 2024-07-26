@@ -217,7 +217,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ژمارەیەک کەشتی کە پێکەوە ڕاودەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The whaling fleet set sail at dawn.""",
                       kurdishText:
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) تەاوی کەشتی جەنگی وڵاتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fleet was mobilized and the country prepared for war.""",
@@ -241,7 +239,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ژمارەیەک فڕۆکە، پاس، تەکسی، ھتد ەکە پێکەوە گەشت دەکەن و یان ھی ھەمان دامەزراوەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The airline is doubling the size of its fleet.""",

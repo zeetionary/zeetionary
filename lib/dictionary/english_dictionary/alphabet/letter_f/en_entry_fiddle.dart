@@ -213,7 +213,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گۆڕینی وردەکاری یان ئامارەکانی شتێک بۆ بەدەستھێنانی پارە بە بە فێڵبازی یان سوودێک بەدەست بھێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She fiddled the books (= changed a company's financial records) while working as an accountant.""",
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) شتێک کە سەختە بۆ کردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I find threading a needle a terrible fiddle.""",

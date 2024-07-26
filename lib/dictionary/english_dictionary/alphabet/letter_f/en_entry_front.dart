@@ -510,7 +510,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو شوێنەی کە دەکەوێتە پێش کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I turned round to face the front.""",
                       kurdishText: """سووڕامەوە بۆ ڕووکردن لە پێشەوە.""",
@@ -537,7 +536,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئەو بەشەی کە دەکەوێتە پێشەوەی گشت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The singer came to the front of the stage.""",
@@ -606,7 +604,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) بەشی پێشەوەی جەستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was lying on her front.""",
                       kurdishText: """لەسەر دەم پاڵکەوت بوو.""",
@@ -623,7 +620,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) لایەکی بینایەکی گەورە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The west front of the cathedral is beautifully decorated.""",
@@ -636,7 +632,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ڕێگا یان ناوچەیەک لە قەراغی دەریاچەیەک، دەریایەک، یان ڕووبارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Couples walked hand in hand along the front.""",
@@ -649,7 +644,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) شوێنێک کە جەنگ تێیدا ڕوودەدات لە جەنگدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """More British troops have been sent to the front.""",
@@ -679,7 +673,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) ناوچەیەکی دیاریکراو لە چالاکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Things are looking unsettled on the economic front.""",
@@ -707,7 +700,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) ڕەفتارێک کە وەک ئەوە دەرناکەوێت کە ھەیە، و ئەنجام دەدرێت بۆ شاردنەوەی بۆچوون یان ھەستی ڕاستەقینە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's not always easy to put on a brave front for the family.""",
@@ -738,7 +730,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ناو) شتێک یان کەسێک کە بەکاردێت بۆ شاردنەوەی چالاکییەکی نایاسایی یان نھێنی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The travel company is just a front for drug trafficking.""",
@@ -750,7 +741,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵناو) لە پێشەوەی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We had seats in the front row.""",
                       kurdishText: """جێگامان لە ڕیزی پێشەوە ھەبوو.""",
@@ -767,7 +757,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (کردار) ڕووکردن لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The cathedral fronts the city's main square.""",
@@ -788,7 +777,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (کردار) کە پێشەوەی بە شتێک داپۆشرا بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A portion of the old wall is fronted with glass.""",
@@ -810,7 +798,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (کردار) سەرکردایەتی کردنی دامەزراوە یان گرووپێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He fronts a multinational company.""",
                       kurdishText:

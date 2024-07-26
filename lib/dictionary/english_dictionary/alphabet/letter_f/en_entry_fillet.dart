@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) لێکردنەوەی ئێسک لە ماسی یان گۆشت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The customer wanted her fish filleted.""",
                       kurdishText: """کڕیارەکە ماسییەکەی بەبێ ئێسک دەویست.""",

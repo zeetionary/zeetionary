@@ -180,9 +180,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "full-length", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) وێنەیەک یان ئاوێنەیەک کە تەواوی جەستەی کەسێک پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He bought a full-length mirror for the bedroom.""",
@@ -210,7 +209,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کتێبێک، شانۆیەک، فیلمێک، ھتد کە کورت نەکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She wrote a full-length novel last year.""",
@@ -223,7 +221,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) پەردە یان پەنجەرە کە دەگاتە سەر زەوییەکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They installed full-length windows in the office.""",
@@ -236,7 +233,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) جلێک کە دەگاتە سەر ئەھنۆی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Victoria wore a full-length skirt to the party.""",

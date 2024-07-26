@@ -222,7 +222,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ئەوەی ھۆگری شتێک بیت، بە تایبەتی شتێک کە لە کۆنەوە حەزت لێی کردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We had grown fond of the house and didn't want to leave.""",
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) حەزکردن لە شتێک کە کەسانی دیکە پێیان ناخۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Sheila's very fond of telling other people what to do.""",
@@ -247,7 +245,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) میھرەبان و خۆشەویست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I have very fond memories of my time in Spain (= I remember it with affection and pleasure).""",
@@ -260,7 +257,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) ھیوایەک سەبارەت بە شتێک کە ئەگەری کەمە ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I waited all day in the fond hope that she would change her mind.""",

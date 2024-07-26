@@ -183,9 +183,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fry", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) برژاندن یان سوورەوەکردن"""),
@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) سووتان بە خۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You'll fry on the beach if you're not careful.""",

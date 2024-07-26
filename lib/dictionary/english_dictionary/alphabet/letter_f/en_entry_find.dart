@@ -798,7 +798,6 @@ Noun: find (derived forms: finds)
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) دۆزینەوەی شتێک بە گەڕان، لێکۆڵینەوە، یان بیرکردنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We found a way out.""",
                       kurdishText: """ڕێگایەکی چوونە دەرەوەمان دۆزییەوە.""",
@@ -874,7 +873,6 @@ Noun: find (derived forms: finds)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دۆزینەوەی شتێک لە دوای ونبوونی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I can't find my keys.""",
                       kurdishText: """ناتوانم کلیلەکانم بدۆزمەوە.""",
@@ -952,7 +950,6 @@ Noun: find (derived forms: finds)
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) زانینی ئەوەی شتێک ڕاستە لە دوای ئەوەی تامت کردووە، تاقیت کردووەتەوە، یان ئەزموونت کردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I find (that) it pays to be honest.""",
                       kurdishText: """دەرکەوتووە بۆم کە ڕاستگۆیی بەسوودە.""",
@@ -1066,7 +1063,6 @@ Noun: find (derived forms: finds)
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ھەبوونی ھەست یان بۆچوونی دیاریکراو لەسەر شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You may find it hard to accept your illness.""",
@@ -1161,7 +1157,6 @@ Noun: find (derived forms: finds)
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) بۆ گوتنی ئەوەی شتێک لە شوێنێک بوونی ھەیە، گەشە دەکات، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These flowers are found only in Africa.""",
@@ -1218,7 +1213,6 @@ Noun: find (derived forms: finds)
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) زانینی ئەوەی خۆت/کەسێک/شتێک کە شتێک بکات یان لە شوێنێکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She woke up and found herself in a hospital bed.""",
@@ -1295,7 +1289,6 @@ Noun: find (derived forms: finds)
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) ھەبوونی شتێک کە بتوانیت بەکاری بھێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """How are we going to find £10  000 for a car?""",
@@ -1316,7 +1309,6 @@ Noun: find (derived forms: finds)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) دۆزینەوەی خاسیەتێک لە خۆتدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I found the courage to speak.""",
                       kurdishText: """بوێری قسەکردنم دۆزییەوە.""",
@@ -1326,7 +1318,6 @@ Noun: find (derived forms: finds)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) گەشتن بە شتێک بە سرووشتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Water will always find its own level.""",
                       kurdishText: """ئاو ھەمیشە ئاستی خۆی دۆدۆزێتەوە.""",
@@ -1355,7 +1346,6 @@ Noun: find (derived forms: finds)
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) دانی بڕیارێکی دیاریکراو لە دادگا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The court found in her favour.""",
                       kurdishText: """دادگاکە لەبەرژەوەندیی بڕیاری دا.""",
@@ -1365,7 +1355,6 @@ Noun: find (derived forms: finds)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ناو) شتێک یان کەسێک کە دۆزراوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This is an important archaeological find.""",

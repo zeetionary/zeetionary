@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) گواستنەوەی کەلوپەل"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Grapes from this region are freighted all over the world.""",

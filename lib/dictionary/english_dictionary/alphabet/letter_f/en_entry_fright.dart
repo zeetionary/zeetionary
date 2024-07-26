@@ -195,7 +195,6 @@ Usage: archaic
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شتێک کە وات لێ دەکات بترسیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You gave me a fright jumping out at me like that.""",

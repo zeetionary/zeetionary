@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ناسکی و زووشکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A deficiency of copper can cause increased bone fragility.""",

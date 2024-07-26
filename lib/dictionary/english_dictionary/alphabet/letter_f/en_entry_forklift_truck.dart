@@ -147,9 +147,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پێڕۆیەکی بچووک کە دوو پارچە ئاسنی بەھێز لە پێشیەوەیەتی بۆ ھەڵگرتنی شت، بۆ نموونە لە کارگەیەکدا"""),

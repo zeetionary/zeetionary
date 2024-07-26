@@ -269,7 +269,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە دەکردرێت یان دەگوترێت کە وا دەکات شتێک، بە تایبەتی مشتومڕێک، بەردەوام بێت یان خراپتر بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His remarks simply added fuel to the fire/flames of her rage.""",
@@ -281,7 +280,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) پێدانی سووتەمەنی بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Uranium is used to fuel nuclear plants.""",
@@ -303,7 +301,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) زیادکردنی بەنزین بۆ ناو پێڕۆیەک (ئۆتۆمبێل، ھەلیکۆپتەر، ھتد)"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The helicopter was already fuelled (up) and ready to go.""",
@@ -316,7 +313,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) زیادکردنی شتێک؛ ئەوەی شتێک بەھێز بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Higher salaries helped to fuel inflation.""",

@@ -242,7 +242,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە پێگەیەکی دیاریکراوی ھەبووە لە پێشوودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Former South African president Nelson Mandela was a key figure in ending apartheid.""",
@@ -284,7 +283,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) بۆ ناوھێنانی یەکەم شت، کەس، یان خەڵک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The former option would be much more sensible.""",
@@ -296,7 +294,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) یەکەم شت، کەس، یان خەڵک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He had to choose between giving up his job and giving up his principles. He chose the former.""",

@@ -307,7 +307,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (دیارخەر، ھاوەڵناو) لەگەڵ ناوی کۆ و کرداری کۆ بەکاردێت بۆ گوتنی ئەوەی کە ژمارەیەک زۆر نەبووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Few people understand the difference.""",
                       kurdishText: """کەم کەس لە جیاوازییەکە تێدەگەن.""",
@@ -342,7 +341,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (جێناو) ژمارەیەکی کەم؛ ھەندێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I recognized a few of the other people.""",
@@ -370,7 +368,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (جێناو) کە ژمارەیەکی زۆر نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Very few of his books are worth reading.""",
@@ -389,7 +386,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (جێناو) کەمتر لە ژمارەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fewer than 20 students passed all the exams.""",
@@ -412,7 +408,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (جێناو) لەگەڵ کرداری کۆ بەکاردێت بۆ گوتنی گرووپێکی بچووک لە خەڵک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Real power belongs to the few.""",
                       kurdishText:

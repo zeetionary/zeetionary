@@ -310,7 +310,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بەشی خوارەوەی پێڕۆیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The floor of the car was very dirty.""",
                       kurdishText: """زەویی ئۆۆتمبێلەکە تەواو پیس بوو.""",
@@ -321,7 +320,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) تەواوی ئەو ژوورانەی کە لە ھەمان نھۆمی یەک بینان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her office is on the second floor.""",
                       kurdishText: """ئۆفیسەکەی لە نھۆمی دووەمە.""",
@@ -340,7 +338,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) زەویی خوار دارستانێک، دەریایەک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A layer of fine mud spread over the floor of the cave.""",
@@ -353,7 +350,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) بەشێکی بینایەک کە گفتووگۆی تێدا دەکرێت، بە تایبەتی لە پەرلەمانێک؛ ئەو کەسانەی بەژداری ئەم گفتووگۆیە دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We will now take any questions from the floor.""",
@@ -375,7 +371,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) سەرسامکردنی کەسێک بەشیوەیەک کە نەزانێت چی دەڵێت یان دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His reply completely floored me.""",
                       kurdishText: """وەڵامەکەی تەواو سەرسامی کردم.""",
@@ -393,7 +388,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) خستنی کەسێک بە لێدان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was floored by the first punch.""",
                       kurdishText: """بە یەکەم مشت کەوێندرا.""",

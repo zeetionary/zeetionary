@@ -336,7 +336,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ئەنجامی پڕۆسەیەکی دیاریکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I think you will be satisfied with the final product.""",
@@ -374,7 +373,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە ناکرێت بگۆڕدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The judge's decision is final.""",
                       kurdishText: """بڕیاری داوەرەکە نەگۆڕە.""",
@@ -409,7 +407,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کۆتایی زنجیرەیەک لە پێشبڕکێ و ڕکابەری کە براوە تێیدا دیاری دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The players met in last year's final.""",
                       kurdishText:
@@ -430,7 +427,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) کۆمەڵە ڕووبەڕووبوونەوەیەک کە لە کۆتایی پاڵەوانێتییەک یان ڕکابەرییەک ڕوودەدەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has qualified for the Olympic finals.""",
@@ -442,7 +438,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) تاقیکردنەوەی خوێندکارانی زانکۆ لە کۆتایی کۆتا ساڵیان لە بەریتانیا؛ تاقیکردنەوەی خوێندکارانی قوتابخانە و زانکۆ لە کۆتایی وەرز لە ئەمریکا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm taking my finals in June.""",
                       kurdishText:

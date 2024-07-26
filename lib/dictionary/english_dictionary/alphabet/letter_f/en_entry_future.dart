@@ -343,7 +343,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی بەسەر کەسێک/شتێک دێت لە داھاتوودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company faces a very uncertain future.""",
@@ -374,7 +373,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی کە شتێک سەرکەوتوو بێت یان لە کاتی داھاتوودا ڕزگاری بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They have a bright future ahead of them.""",
@@ -402,7 +400,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) پەیوەندیدار بە داھاتوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The land will remain untouched for future generations to enjoy.""",

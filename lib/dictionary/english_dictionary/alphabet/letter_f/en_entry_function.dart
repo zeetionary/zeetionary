@@ -324,7 +324,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بۆنەیەکی کۆمەڵایەتی یان فەرمی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hall provided a venue for weddings and other functions.""",
@@ -355,7 +354,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بڕێک کە بەھاکەی پشت بە بەھای شتێکی دیکە دەبەستێت. لە 2x=y, y بەھای گۆڕاوی x دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Salary is a function of age and experience.""",
@@ -367,7 +365,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) کارکردن بە شێوەی درووست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We now have a functioning shower.""",
                       kurdishText: """ئێستاکە گەرماوێکمان ھەیە کە کار دەکات.""",

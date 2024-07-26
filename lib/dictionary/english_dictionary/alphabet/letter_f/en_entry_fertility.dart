@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) توانای ھەبوونی منداڵ، بێچوو، میوە، یان ڕووەکی نوێ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Anxiety and stress affect fertility in both men and women.""",

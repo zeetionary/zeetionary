@@ -264,7 +264,6 @@ Usage: Brit, Cdn (US: fulfill)
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کردن یان ھەبوونی ئەوەی کە پێویستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """No candidate fulfils all the criteria for this position.""",
@@ -303,7 +302,6 @@ Usage: Brit, Cdn (US: fulfill)
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ھەبوونی ئەرک یان مەبەستێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Nursery schools should fulfil the function of preparing children for school.""",
@@ -316,7 +314,6 @@ Usage: Brit, Cdn (US: fulfill)
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) کە کەسێک دڵخۆش و ئاسوودە بکات بەوەی کە دەیکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I need a job that really fulfils me.""",
                       kurdishText: """کارێکم دەوێت کە دڵخۆشم دەکات.""",
@@ -335,7 +332,6 @@ Usage: Brit, Cdn (US: fulfill)
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ئامادەکردن و ناردنی شتێک کە کڕیارێک داوای کردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We aim to fulfil all orders within seven days.""",

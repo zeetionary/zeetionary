@@ -209,7 +209,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بە ئاسانی و باش دەردەبڕدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He speaks fluent Italian.""",
                       kurdishText: """بە ئیتالییەکی پاراو قسە دەکات.""",
@@ -220,7 +219,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە بە شارەزایی و لەسەرەخۆیی دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Arsenal were no match for Barcelona's fluent passing.""",

@@ -230,7 +230,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) نەخۆشییەک کە تێیدا کەسێک تایەکی بەرزی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She caught a fever on her travels in Africa, and died.""",
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) دۆخی شڵەژاوی بەجۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was in a fever of anxiety about him.""",
@@ -253,7 +251,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) حەز و خرۆشاوی زۆر سەبارەت بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Election fever suddenly gripped the nation.""",

@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە لە جێگەیەکی دیاریکراو جێگای نابێتەوە یان سەر بەو شوێنە نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I have always been regarded as a foreigner by the local folk.""",

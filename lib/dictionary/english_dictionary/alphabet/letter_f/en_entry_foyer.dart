@@ -154,9 +154,9 @@ Type of: room
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "foyer", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -172,7 +172,6 @@ Type of: room
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ھۆڵێک لە خانویەکی تایبەتی یان فلاتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """An elegant foyer leads directly to the living room.""",

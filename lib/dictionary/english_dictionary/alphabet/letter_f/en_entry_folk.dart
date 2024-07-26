@@ -252,7 +252,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شێوەیەکی ھاوڕێیانە بۆ بانگکردنی زیاتر لە یەک کەس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Well, folks, what are we going to do today?""",
@@ -263,7 +262,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئەندامانی خێزانەکەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How are your folks?""",
                       kurdishText: """کەسوکارت چۆنن؟""",
@@ -282,7 +280,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە پەیوەندیدارە بە خەڵکی ئاساییەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She had an interest in the folk customs of ancient societies.""",
@@ -294,7 +291,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) بەپێی باوەڕی خەڵکی ئاسایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Garlic is widely used in folk medicine.""",

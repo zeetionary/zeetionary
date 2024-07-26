@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کە تازە درووستبووە یان ڕوویداوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Based on the freshness of the tyre tracks, they were only one or two hours' drive ahead of us.""",
@@ -207,7 +206,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئەوەی شتێک جیاواز یان تازە بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I like the freshness of his approach to the problem.""",
@@ -219,7 +217,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) ئەوەی شتێک خۆش و پاک و خاوێن بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This wine has a freshness and vitality that appeals to many drinkers.""",

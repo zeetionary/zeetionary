@@ -257,7 +257,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بۆ ماوەیەکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It takes her forever to get dressed.""",
                       kurdishText: """تا قیامەتی پێدەچێت کە خۆی بگۆڕێت.""",
@@ -276,7 +275,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی کەسێک شتێک زۆر دەکات و بێزارکەرە بۆ کەسانی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's forever going on about how poor they are.""",

@@ -352,7 +352,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بەرەو داھاتوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The next scene takes the story forwards five years.""",
@@ -373,7 +372,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) بەرەو ئەنجامی باش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We consider this agreement to be an important step forward.""",
@@ -403,7 +401,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵکار) پێشتر؛ زووتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was decided to bring the meeting forward two weeks.""",
@@ -416,7 +413,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵکار) بەرەو پێشەوەی فڕۆکە یان کەشتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The main cabin is situated forward of (= in front of) the mast.""",
@@ -427,7 +423,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) بەرەو پێشەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The door opened, blocking his forward movement.""",
@@ -439,7 +434,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ھاوەڵناو) کە کەوتووەتە پێشەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A bolt may have fallen off the plane's forward door.""",
@@ -451,7 +445,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ھاوەڵناو) پەیوەندیدار بە داھاتوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The plans are still no further forward than they were last month.""",
@@ -464,7 +457,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) ناردن یان پێدانی کەلوپەل یان زانیاری بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We will be forwarding our new catalogue to you next week.""",
@@ -488,7 +480,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) ناردنی نامە، ھتد لەو شوێنەوەی کە کەسێک پێشتر دەژیا بۆ شوێنی ژیانی ئێستای"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Could you forward any mail to us in New York?""",
@@ -500,7 +491,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (کردار) یارمەتیدانی بەرەوپێشبردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He saw the assignment as a way to forward his career.""",

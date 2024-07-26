@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بیر لە شتێک نەکەیتەوە کە دەبێت بیری لێ بکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was soon forgetful of all dangers.""",
                       kurdishText:

@@ -173,9 +173,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "freshen", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) زیادکردنی شڵەی زیاتر بۆ خواردنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Can I freshen your drink, sir?""",
                       kurdishText: """خواردنەوەکەت بۆ تراو بکەم، بەڕێز؟""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) بەھێز و سارد بوون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The wind will freshen tonight.""",
                       kurdishText: """بایەکە ئەمشەو بەھێز دەبێت.""",

@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو شتانەی کە گرنگ نین بەڵام بۆ جوانکاری بەکاردێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This model has fewer frills so it costs less.""",

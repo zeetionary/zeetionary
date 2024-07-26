@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) وێبسایتێکی سەر ئینتەرنێت کە خەڵکی لێدوان دەنووسن و وەڵامی یەکدی دەدەنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's a forum where mothers can exchange advice, support and gossip.""",

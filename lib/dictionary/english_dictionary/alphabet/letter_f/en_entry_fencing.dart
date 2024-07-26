@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو شتانەی کە بۆ درووستکردنی پەرژین بەکاردێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The factory is surrounded by electric fencing.""",

@@ -257,7 +257,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ھاوەڵناو) مێینە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Female lions do not have manes.""",
                       kurdishText: """شێری مێینە قژیان نییە.""",
@@ -277,7 +276,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە ژنان ھەیانە؛ کە کاریگەری لە ژنان دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Weaving was a traditionally female occupation.""",
@@ -298,7 +296,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) ڕووەک یان گوڵێک کە میوە دەگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When planting cherry trees, you must plant a male tree and a female tree if you want to harvest any fruit.""",
@@ -311,7 +308,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئاژەڵێکی مێینە؛ ڕووەکێک کە میوە دەگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """One adult female can lay 400 to 500 eggs.""",
@@ -330,7 +326,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ناو) ژنێک یان کچێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The suspect is a white female aged 30–35.""",

@@ -215,7 +215,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) پێشبینی کردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Snow is forecast for tomorrow.""",
                       kurdishText: """بەفر بۆ سبەی پێشبینی دەکرێت.""",

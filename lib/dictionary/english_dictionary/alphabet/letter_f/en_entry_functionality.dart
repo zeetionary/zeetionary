@@ -159,9 +159,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "functionality", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو ئەرکەی کە شتێک درووستکراوە بۆی بیکات یان چاوەڕێی لێ دەکرێت بیکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Manufacturing processes may be affected by the functionality of the product.""",

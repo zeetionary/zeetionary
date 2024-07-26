@@ -475,7 +475,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) بە کوالێتیی باش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's a particularly fine example of Saxon architecture.""",
@@ -522,7 +521,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) بۆ گوتن بە کەسێک کە کارێک، پێشنیارێک، یان بڕیارێک ئاساییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """‘I'll leave this here, OK?’ ‘Fine.’""",
                       kurdishText: """'لێرە ئەمە جێدەھێڵم، باشە؟' 'باش'.""",
@@ -550,7 +548,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) بۆ گوتنی ئەوەی ڕەزامەندیت بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't worry. Your speech was fine.""",
                       kurdishText: """نیگەران مەبە. گوتارەکەت باش بوو.""",
@@ -592,7 +589,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) کەشێکی خۆش کە باراناوی نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I hope it stays fine for the picnic.""",
                       kurdishText:
@@ -626,7 +622,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) سەرنجڕاکێش و جوان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She is a fine-looking woman.""",
                       kurdishText: """ژنێکی جوانە.""",
@@ -645,7 +640,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ھاوەڵناو) کە لە بەشی بچووک پێکھاتووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She felt the fine sand between her toes.""",
@@ -657,7 +651,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ھاوەڵناو) جوان و بچووک یان تەنک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has inherited her mother's fine features (= a small nose, mouth, etc.).""",
@@ -667,7 +660,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٩. (ھاوەڵناو) زۆر تەنک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His fine blond hair came down almost to his shoulders.""",
@@ -680,7 +672,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ھاوەڵناو) کە سەختە بۆ بینین یان باسکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There's no need to make such fine distinctions.""",
@@ -701,7 +692,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵناو) کە ڕێزی زۆرت بۆی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was a fine man.""",
                       kurdishText: """پیاوێکی بەھەیبەت بوو.""",
@@ -712,7 +702,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ھاوەڵناو) کە گرنگ دیارە بەڵام بێ‌بایەخە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His speech was full of fine words which meant nothing.""",
@@ -725,7 +714,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (ھاوەڵکار) بەشێوەیەک کە پەسەندکراوە یان باشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Keep going like that—you're doing fine.""",
@@ -753,7 +741,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (ناو) بڕە پارەیەک کە لە بەرامبەر شکاندنی یاسا دەدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I got a parking fine for parking on double yellow lines.""",
@@ -773,7 +760,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """١٥. (کردار) سزادان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Any company found to be breaking these rules will be heavily fined.""",

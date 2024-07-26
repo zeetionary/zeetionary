@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کردنی شتێک بە جووڵەی بچووک و خێرا، و بە دڵەڕاوکێوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He noticed the quick, fussy movements of her small hands.""",
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە وردەکاری و جوانکاریی زۆرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The costume designs are too fussy.""",
                       kurdishText: """دیزاینی جلەکانی زۆر ئاڵاوواڵان.""",

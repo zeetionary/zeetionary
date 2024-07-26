@@ -154,9 +154,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fuzzily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە شێوە یان دەنگی ڕوون نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The clock on the wall glowed fuzzily.""",
                       kurdishText:

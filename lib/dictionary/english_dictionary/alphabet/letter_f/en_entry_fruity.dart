@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە کەمێک شێتانەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was well known for his fruity jokes.""",

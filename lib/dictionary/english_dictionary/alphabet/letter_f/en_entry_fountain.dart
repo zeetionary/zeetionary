@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) چوونی ڕێژەیەکی زۆر لە شلە یان مادەیەکی دیکە کە دەکرێت بە حەوادا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The shell exploded, sending a fountain of sand and grit into the air.""",
@@ -201,7 +200,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) سەرچاوەیەکی باشی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Tourism is a fountain of wealth for the city.""",

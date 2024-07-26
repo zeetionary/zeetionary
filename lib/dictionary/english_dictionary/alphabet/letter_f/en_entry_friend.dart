@@ -365,7 +365,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە لە تۆڕە کۆمەڵایەتییەکان ھاوڕێتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """How many friends have you got on Facebook?""",
@@ -377,7 +376,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە پشتگیری ڕێکخراوێک دەکات؛ کەسێک کە پشتگیری باوەڕێک، ھتد دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Theatre tickets are 10% cheaper for Friends.""",
@@ -390,7 +388,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کەسێک کە ھەمان بەرژەوەندی و بیرکردنەوەی خۆتی ھەیە و پاڵپشتیت دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You're among friends here—you can speak freely.""",
@@ -403,7 +400,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) بۆ ناوھێنانی کەسێک کە دیوتە بەڵام ھاوڕێت نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My friends, let me introduce myself.""",
                       kurdishText: """ھاوڕێیان، با خۆم بناسێنم.""",
@@ -423,7 +419,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) زیادکردنی کەسێک وەک ھاوڕێ لەسەر تۆڕێکی کۆمەڵایەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I friended her and sent her a message.""",
                       kurdishText:

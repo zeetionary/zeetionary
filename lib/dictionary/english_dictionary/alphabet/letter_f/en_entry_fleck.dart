@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) کەمێک لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her face was covered with flecks of paint.""",
@@ -195,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) داپۆشین بە خاڵی زۆر ورد یان خاڵی ڕەنگی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His hair was flecked with paint.""",
                       kurdishText: """قژی بە بۆیە خاڵ‌خاڵ بووبوو.""",

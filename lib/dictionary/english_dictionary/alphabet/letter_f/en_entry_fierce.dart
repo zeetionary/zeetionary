@@ -249,7 +249,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) پیشاندانی ھەستی بەھێز یان چالاکیی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He launched a fierce attack on the Democrats.""",
@@ -285,7 +284,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کەشوھەوایەکی زۆر توند"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fierce winds prevented the race from taking place.""",

@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بەشی سەرەکیی شتێک پێکدەھێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hard work is fundamental to success.""",
                       kurdishText: """کاری سەخت بناغەیە بۆ سەرکەوتن.""",
@@ -267,7 +266,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) بەشێکی گرنگ؛ یاسا یان بەھایەکی بنچینەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He taught me the fundamentals of the job.""",

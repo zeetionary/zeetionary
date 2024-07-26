@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) نمایشی یاریی ئاگرین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Thousands of people jammed into square to watch the fireworks.""",

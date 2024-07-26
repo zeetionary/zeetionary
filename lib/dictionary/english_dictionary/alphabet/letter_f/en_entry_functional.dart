@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە مەبەستێکی تایبەتی ھەیە؛ کە ئەوە دەڕەخسێنێت بۆ کەسێک شتێک بکات یان شتێک ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These units played a key functional role in the military operation.""",
@@ -223,7 +222,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە شتێک کار دەکات یان توانای کارکردنی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hospital will soon be fully functional.""",

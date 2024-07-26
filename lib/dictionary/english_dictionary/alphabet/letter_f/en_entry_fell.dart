@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) بڕینەوەی دارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A great number of trees were felled to provide space for grazing.""",
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کەواندنی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He felled his opponent with a single blow.""",
@@ -221,7 +219,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ھاوەڵناو) دڕندە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The knight faced a fell enemy.""",
                       kurdishText: """سوارەکە ڕووبەڕووی دوژمنێکی دڕ بوویەوە.""",

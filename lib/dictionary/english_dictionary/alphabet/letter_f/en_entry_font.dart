@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شێوە و ئەندازەی پیت کە بەکاردێت بۆ چاپکردن، نووسینی کۆمپیوتەر، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The report was typed in a professional font.""",

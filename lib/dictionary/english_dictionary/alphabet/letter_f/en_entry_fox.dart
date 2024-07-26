@@ -192,9 +192,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fox", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ڕێوی؛ پێستی ڕێوی بۆ جلوبەرگ"""),
@@ -219,7 +219,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) کەسێکی فێڵباز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's a wily old fox.""",
                       kurdishText: """فێڵبازێکی پیری فرەزانە.""",
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) ئەوەی سەخت بێت بۆ تێگەشتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The last question foxed even our experts.""",

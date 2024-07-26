@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی وەفادار بیت بەرامبەر بە ھاوژینەکەت بەوەی پەیوەندی سێکسیت لەگەڵ کەسی دیکە نەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """How important do you think sexual fidelity is in a marriage?""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ئەوەی کە درووست بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The story is told with great fidelity to the original.""",

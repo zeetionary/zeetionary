@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارچەیەکی درێژی باریکی شتێک کە وەک دەزوو وایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Underground fungi filaments provide nutrients and water to the trees.""",

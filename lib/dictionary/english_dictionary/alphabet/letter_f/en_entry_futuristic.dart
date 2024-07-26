@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە خەیاڵی داھاتوو دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The cover of the novel shows a futuristic city on the moon.""",

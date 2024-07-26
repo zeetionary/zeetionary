@@ -198,7 +198,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەوەی کارەکەت بفرۆشیت بە ژمارەیەک دامەزراوە نەک کارمەندی یەک دامەزراوە بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I work freelance from home.""",
                       kurdishText: """لە ماڵەوە وەک سەربەخۆ کارم دەکرد.""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) بە دەستھێننانی پارە بەوەی کارەکەت بفرۆشیت بە ژمارەیەک دامەزراوە نەک کارمەندی یەک دامەزراوە بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She freelanced as a sports reporter.""",
                       kurdishText:
@@ -221,7 +219,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کەسێک کە کارەکەی دەفرۆشیت بە ژمارەیەک دامەزراوە نەک کارمەندی یەک دامەزراوە بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The firm employs several freelances.""",
                       kurdishText:

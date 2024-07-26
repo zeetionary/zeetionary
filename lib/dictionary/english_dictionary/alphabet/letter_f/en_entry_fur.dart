@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پێستی ئاژەڵێک کە ھێشتا فەرووەکەی پێوەیە و بەکاردێت بۆ جلوبەرگ؛ مادەیەکی دەستکرد کە وەک فەرووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The animal is hunted for its fur.""",
                       kurdishText: """ئاژەڵەکە بۆ فەرووەکەی ڕاو دەکرێت.""",
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) جلێک کە لە فەرووی سرووشتی یان دەستکرد درووستکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was wearing her fur.""",
                       kurdishText: """فەرووەکەیی لەبەر کردبوو.""",

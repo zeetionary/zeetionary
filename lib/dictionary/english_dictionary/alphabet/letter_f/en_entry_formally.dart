@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەک کە شوێن شێوازی فەرمی کارێک دەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The accounts were formally approved by the board.""",
@@ -203,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) لە ڕێگەی وانە و تاقیکردنەوەوە کە لە قوتابخانە، کۆلێژ، یان زانکۆ وەردەگیرێت نەک ئەزموونی کردارەکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Although not formally trained as an art historian, he is widely respected for his knowledge of the period.""",
@@ -216,7 +214,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵکار) بەو شێوازەی کە شتێک دەردەکەوێت یان پێشکەش دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Formally, the distinction between town and country workers was clear, but in practice there was some overlap.""",

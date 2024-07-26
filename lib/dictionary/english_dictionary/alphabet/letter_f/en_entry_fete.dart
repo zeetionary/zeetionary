@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) پەسندان یان بەخێرھاتن کردنی کەسێک بەشێوەیەکی گشتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was feted by audiences both in her own country and abroad.""",

@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پارچە قوماشێک کە دووراوە بە پەردە، تەنوورە، جل، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The blouse had a ruffled flounce around the neckline for a feminine touch.""",
@@ -194,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) جووڵەیەکی خێرا یان زیادەڕۆ کە دەیکەیت کاتێک دەتەوێت خەڵکی سەرنجت بدەن یان کە تووڕەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She left the room with a flounce.""",
                       kurdishText: """بە دەرپەڕین ژوورەکەی جێھێشت.""",

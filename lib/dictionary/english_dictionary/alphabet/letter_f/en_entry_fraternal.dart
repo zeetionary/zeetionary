@@ -161,9 +161,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fraternal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) دۆستانە وەک نێوان خوشک و بەا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her fraternal rivalry with her sister pushed both to excel.""",

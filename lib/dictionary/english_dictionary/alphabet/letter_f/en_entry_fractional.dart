@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بە شێوەی کەرت نووسراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Solve the fractional equation: 𝑥 + 1 / 𝑥 - 2 = 3.""",

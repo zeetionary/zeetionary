@@ -245,7 +245,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئامرازێک کە وا دەکات بۆمبێک بتەقێتەوە لە کاتێکی دیاریکراودا یان کە بەر شتێک دەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He set the fuse to three minutes.""",
                       kurdishText: """فیوزەکەی لەسەر سێ خولەک دانا.""",
@@ -256,7 +255,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کە دوو شت پێکەوە دەلکێندرێن بۆ پێکھێنانی یەک شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As they heal, the bones will fuse together.""",
@@ -293,7 +291,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) وەستان لە کارکردن یان ئەوەی شتێک بوەستێنیت لە کارکردن بەھۆی ئەوەی فیوزێک تەقیوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The lights have fused.""",
                       kurdishText: """لایتەکە لایتەکان سووتاون.""",
@@ -305,7 +302,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) دانانی فیوز لەسەر ئامێرێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Is this plug fused?""",
                       kurdishText: """ئەم پلاکە فیوزی لێدراوە؟""",

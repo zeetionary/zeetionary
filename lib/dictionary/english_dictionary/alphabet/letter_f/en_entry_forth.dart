@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بەرەو شوێنێک؛ بۆ پێشەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Water gushed forth from a hole in the rock.""",

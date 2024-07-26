@@ -146,9 +146,9 @@ Usage: Brit (N. Amer: flutist)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(text: """١. (ناو) فلوت‌ژەن"""),
                     SentencesRow(
                       englishText:

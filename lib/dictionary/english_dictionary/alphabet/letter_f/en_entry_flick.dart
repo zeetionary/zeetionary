@@ -292,7 +292,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) جووڵان یان جووڵاندن بەھێزی لەناکوی خێرا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The snake's tongue flicked out.""",
                       kurdishText: """زمانی مارەکە خێرا دەرپەڕی.""",
@@ -311,7 +310,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) بزەکردن یان سەیرکردنی کەسێک لەناکاو و بەخێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She flicked a nervous glance at him.""",
                       kurdishText: """نیگایەکی شڵەژاویی لێکرد.""",
@@ -323,7 +321,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) پەنجەنان بە دوگمەیەک بۆ کردنەوەی ئامێرێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She flicked the TV on.""",
                       kurdishText: """تەلەفیزیۆنەکەی کردەوە.""",
@@ -333,7 +330,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) جووڵە یان لێدانێکی خێرا و لەناکاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Bell's flick into the penalty area helped to create the goal.""",
@@ -372,7 +368,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ڕوانینێکی خێرا لە کتێبێک، گۆڤارێک، وێبسایتێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I had a flick through the catalogue while I was waiting.""",

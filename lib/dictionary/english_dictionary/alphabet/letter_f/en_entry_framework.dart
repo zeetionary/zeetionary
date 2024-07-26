@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژمارەیەک باوەڕ، بیرۆکە، یان یاسا کە بەکاردێت وەک بناغەی بڕیاردان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The report provides a framework for further research.""",
@@ -215,7 +214,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) پێکھێنەری سیستەمێکی یاسایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We need to establish a legal framework for the protection of the environment.""",

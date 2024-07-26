@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) پەڕینەوە بە زێ یان ڕووبارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They forded the stream to continue their journey.""",

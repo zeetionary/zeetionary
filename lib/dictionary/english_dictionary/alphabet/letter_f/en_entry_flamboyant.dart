@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بە درەوشاوەیی ڕەنگینە و سەرنج ڕادەکێشێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His clothes were rather flamboyant for such a serious occasion.""",

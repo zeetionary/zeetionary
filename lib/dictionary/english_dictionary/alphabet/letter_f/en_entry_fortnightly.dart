@@ -178,7 +178,6 @@ Usage: Brit
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بەشێوەی دوو ھەفتە جارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The committee meets fortnightly.""",
                       kurdishText: """لیژنەکە دوو ھەفتە جارێک کۆدەبێتەوە.""",

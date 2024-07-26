@@ -253,7 +253,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) تووڕەیی و ناڕەزایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Steve kicks up a fuss every time I suggest seeing you.""",
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) کردنی شتانێک یان پێدانی سەرنجی زۆر بە شتانێک کە گرنگ یان پێویست نین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Stop fussing around and find something useful to do!""",
@@ -296,7 +294,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) نیگەران بوون سەبارەت بەو شتانەی کە زۆر گرنگ نین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Don't fuss, Mum, everything is all right.""",

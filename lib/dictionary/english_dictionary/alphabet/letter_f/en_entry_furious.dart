@@ -250,7 +250,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بە خێرایی، وزە، یان تووڕەیی زۆرەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She drove off at a furious pace.""",
                       kurdishText: """بە خێراییەکی زۆرەوە لێیخوڕی.""",

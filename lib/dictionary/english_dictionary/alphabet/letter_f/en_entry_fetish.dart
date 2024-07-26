@@ -166,9 +166,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fetish", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی کە حەزی سێکسیت بۆ شتێکی تایبەت ھەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He has a fetish for high heels.""",
                       kurdishText: """حەزی بۆ پێڵاوی پاژنە بەرز ھەیە.""",

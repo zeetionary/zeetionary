@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ڕووناککردنەوە بە شەوقاوێژ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The swimming pool is floodlit in the evenings.""",

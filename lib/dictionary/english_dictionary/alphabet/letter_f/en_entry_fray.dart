@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) نیگەران بوون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As the debate went on, tempers began to fray.""",

@@ -169,9 +169,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fetter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) بەستنی زنجیر لە پێی زیندانییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A man lay fettered on the floor of the prison cell.""",
@@ -200,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتیک کە دەتوەستێنێت لەوەی دەتەوێت بیکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were at last freed from the fetters of ignorance.""",

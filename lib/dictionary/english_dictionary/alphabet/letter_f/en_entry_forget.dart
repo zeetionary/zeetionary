@@ -436,7 +436,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ئەوەی شتێکت بیر نەکەوێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Oh, I almost forgot—there was a call for you.""",
@@ -546,7 +545,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) بە ئەنقەست لەبیرکردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Try to forget about what happened.""",
                       kurdishText: """ھەوڵ بدە ئەوە لەبیربکەیت کە چی ڕوویدا.""",
@@ -596,7 +594,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) وەستان لەوەی شتێک بە ئەگەر دابنێیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """If I lose this job, we can forget about buying a new car.""",
@@ -609,7 +606,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ڕەفتارکردن بە شێوەیەک کە پەسەند نەکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I'm forgetting myself. I haven't offered you a drink yet!""",

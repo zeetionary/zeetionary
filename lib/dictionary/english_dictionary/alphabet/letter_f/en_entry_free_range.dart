@@ -155,9 +155,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "free-range", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) پەیوەندیدار بە بەخێوکردنی منداڵان بەشێوەیەک کە ئازادیی زۆریان پێ بدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I wanted the kids to have a free-range childhood.""",

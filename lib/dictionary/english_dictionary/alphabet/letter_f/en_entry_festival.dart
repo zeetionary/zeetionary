@@ -173,9 +173,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "festival", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕۆژێک یان کاتێکی ساڵ کە خەڵکی لە کارکردن دەوەستن بۆ ئاھەنگگێڕانی بۆنەیەک، زۆرجار بۆنەیەکی ئایینی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The family always celebrates the Jewish festivals.""",

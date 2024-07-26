@@ -662,7 +662,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) شەڕکردنی جەستەیی لەگەڵ کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My little brothers are always fighting.""",
@@ -708,7 +707,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) ھەبوونی مشتومڕێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I remember lying in bed listening to my parents fighting.""",
@@ -748,7 +746,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ھەوڵدانی زۆر بۆ وەستاندن، مامەڵەکردن لەگەڵ، یان وەستانە دژی شتێک کە ناڕازیت پێی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We will continue to fight for as long as it takes.""",
@@ -849,7 +846,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ھەوڵدانی زۆر بۆ کردن یان بەدەستھێنانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We fought for years before we got the recognition we deserved.""",
@@ -938,7 +934,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) بەژداری لە ڕکابەرییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She's fighting for a place in the national team.""",
@@ -959,7 +954,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) بەژداری لە یاری مشتەکۆڵە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Doctors fear he may never fight again.""",
                       kurdishText:
@@ -971,7 +965,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) ھەوڵدان بۆ بەدەستھێنانی ئەوەی کە دەتەوێت لە دادگا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He fought his wife for custody of the children.""",
@@ -983,7 +976,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ناو) شەڕکردن لەگەڵ کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He got into a fight with a man in the bar.""",
@@ -1059,7 +1051,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ناو) یاری نێوان دوو کەس لە مشتەکۆڵەدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He is unbeaten in 34 fights.""",
                       kurdishText: """لە ٣٤ یاریدا شکستی نەھێناوە.""",
@@ -1069,7 +1060,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ناو) مشتومڕ لەسەر شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Paul and I had this terrible fight last night.""",
@@ -1096,7 +1086,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ناو) لەناوبردن، ڕێگرتن، یان بەدەستھێننای شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He lost his fight against cancer earlier this year.""",
@@ -1159,7 +1148,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٣. (ناو) ڕکابەریەک، بەتایبەتی وەرزشی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team put up a good fight (= they played well) but were finally beaten.""",
@@ -1180,7 +1168,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٤. (ناو) ڕووبەڕووبوونەوەیەکی جەنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In the fight for Lemburg, the Austrians were defeated.""",

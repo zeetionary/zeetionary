@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی شتێک شڵەژاوی تێدا بێت و بە ڕوونی نەگوترێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is a lot of fuzziness over this topic.""",

@@ -276,7 +276,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەرەستەیەک کە دەسکێکی چەند ددانێکی تیژی ھەیە و لە کاری باخچە و کشتوکاڵ بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Using a garden fork, she dug a hole two foot deep.""",
@@ -289,7 +288,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شوێنێک کە ڕووبارێک، ڕێگایەک، ھتد لێیەوە دەبێتە دوو بەشەوە؛ ھەر یەکێک لەو دوو بەشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Take the right fork.""",
                       kurdishText: """دووڕیانی لای ڕاست بگرە.""",
@@ -309,7 +307,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) دابەشبوون بۆ دوو بەش کە بە ئاراستەی جیاوازدا دەچن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The path forks at the bottom of the hill.""",
@@ -328,7 +325,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) چوون بە لایەکدا کە شتێک دابەش دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Fork right after the bridge.""",
                       kurdishText: """بە ڕاستدا بچۆ لە دوای پردەکە.""",
@@ -339,7 +335,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) جووڵاندن، کەندن، یان ھەڵگرتن بە چنگاڵ یان شەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He forked a piece of meat into his mouth.""",

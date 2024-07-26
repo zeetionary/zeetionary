@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) توانای چەمانەوە بە ئاسانی بەبێ شکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Plastic is more suitable because of its flexibility.""",

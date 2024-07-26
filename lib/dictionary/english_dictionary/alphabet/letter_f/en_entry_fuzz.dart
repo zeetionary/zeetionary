@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) پۆلیس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Watch out! It's the fuzz.""",
                       kurdishText: """ئاگادار بە! پۆلیسە.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) شتێک کە بە ڕوونی نایبینیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I saw it as a dim fuzz through the binoculars.""",

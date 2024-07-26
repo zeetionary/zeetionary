@@ -3624,8 +3624,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gamekeeper.dart' show EnglishEntrygamekeeper
 // en_entry_gamely.dart' show EnglishEntrygamely
 // en_entry_gammon.dart' show EnglishEntrygammon
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_gamut.dart' show EnglishEntrygamut
+// en_entry_gander.dart' show EnglishEntrygander
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

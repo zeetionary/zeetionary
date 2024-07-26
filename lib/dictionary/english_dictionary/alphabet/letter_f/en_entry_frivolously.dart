@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "frivolously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە ھیچ مەبەستێکی نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I never spend money frivolously—I can't afford to.""",

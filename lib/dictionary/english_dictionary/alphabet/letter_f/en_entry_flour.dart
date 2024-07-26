@@ -176,9 +176,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flour", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ئارد"""),
                     SentencesRow(
@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) داپۆشین بە چینێک ئارد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Roll the dough on a lightly floured surface.""",

@@ -302,7 +302,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) لەناکاو دەست پێکردن یان بەھێزتر بوون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Violence flared when the police moved in.""",
@@ -320,7 +319,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) گوتنی شتێک بە تووڕەیی یان توندی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """‘You should have told me!’ she flared at him.""",
@@ -331,7 +329,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) فشبوونی جل لە خوارەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The sleeves are tight to the elbow, then flare out.""",
@@ -344,7 +341,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) بڵێسەی درەوشاوەی ئاگر کە زۆر ناخایەنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The flare of the match lit up his face.""",
@@ -365,7 +361,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ئامێرێک کە بڵێسەیەکی درەوشاوە درووست دەکات و بەتایبەتی وەک ئاماژە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A flare lit up the sky.""",
                       kurdishText: """درەوشانەوەیەک ئاسمانی گەشاندەوە.""",
@@ -394,7 +389,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) شێوەیەک کە بەردەوام گەورە دەبێت؛ جلێل کە لە خوار ئەژنۆوە فراوان دەبێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He grew his hair long and started to wear flares.""",

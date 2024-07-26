@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە دەسووتێت و بە ئاگر داپۆشراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Flaming fragments were still falling from the sky.""",
@@ -205,7 +204,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) بۆ پیشاندانی ئەوەی کە تووڕەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You flaming idiot!""",
                       kurdishText: """ھەی شێت و وێت!""",

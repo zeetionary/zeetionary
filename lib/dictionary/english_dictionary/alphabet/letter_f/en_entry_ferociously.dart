@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) تەواو؛ بە ئاستێکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The group ferociously denounced the ban.""",

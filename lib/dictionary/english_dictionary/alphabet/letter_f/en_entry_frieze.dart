@@ -156,9 +156,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جوانکارییەک کە بە دەوری دەرەوە یان ناوەوەی بەشی سەرەوەی ژوورێک یان بینایەک دەچێت"""),
@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) وێنەیەکی درێژ و باریک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The children made a frieze showing traders and their camels crossing the desert.""",

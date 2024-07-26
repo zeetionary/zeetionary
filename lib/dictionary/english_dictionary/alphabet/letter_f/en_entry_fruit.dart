@@ -238,7 +238,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (کردار) میوە گرتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Over the last few years, our apple trees have been fruiting much earlier than usual.""",

@@ -380,7 +380,6 @@ Adjective: further
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) زیاتر بە ڕابردوو یان داھاتوودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Think further back into your childhood.""",
@@ -400,7 +399,6 @@ Adjective: further
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵکار) بە ئاستێکی زیاتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Costs must be further reduced.""",
                       kurdishText: """تێچوون دەبێط زیاتر کەم بکرێنەوە.""",
@@ -445,7 +443,6 @@ Adjective: further
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵکار) سەرەڕای ئەوەی کە گوتراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Further, it is important to consider the cost of repairs.""",
@@ -458,7 +455,6 @@ Adjective: further
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) یارمەتیدانی شتێک بۆ ئەوەی زیاتر گەشە بکات یان سەرکەوتوو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We are committed to furthering the interests of our members.""",

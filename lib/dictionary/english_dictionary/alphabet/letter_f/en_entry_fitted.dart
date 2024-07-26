@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ژوورێک کە کەلوپەلی خۆی ھەیە و لە شوێنی خۆیان جێگیرکراون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We're having a new fitted kitchen put in.""",
@@ -203,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) جلێک کە درووست کراوە بۆ گونجان لەگەڵ شێوەی ڕووخسار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She wore a fitted jacket to the interview.""",

@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە دەبێت بە موو و قژی لوول"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Oh no, it's raining - my hair will get all fuzzy.""",
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە شێوەی یان دەنگی ڕوون نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """These photographs have come out fuzzy.""",
                       kurdishText: """وێنەکان ناڕوون دەرکەوتوون.""",
@@ -229,7 +227,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) شڵەژاو و کە بە ڕوونی ناگوترێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """My head's a little fuzzy (= I cannot think clearly) this morning after all that wine last night.""",

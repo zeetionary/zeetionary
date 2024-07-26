@@ -517,7 +517,6 @@ Noun: full (derived forms: fullerfulls)
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ھەبوونی ژمارە یان ڕێژەیەکی زۆر لە کەسێک یان شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The sky was full of brightly coloured fireworks.""",
@@ -577,7 +576,6 @@ Noun: full (derived forms: fullerfulls)
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە بەشی تەواو خواردنت خواردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """No more for me, thanks—I'm full up.""",
                       kurdishText: """سوپاس، ھیچی ترم ناوێت ـ تێرم خواردووە.""",
@@ -603,7 +601,6 @@ Noun: full (derived forms: fullerfulls)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کە ھەموو شتێکی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Full details are available on request.""",
                       kurdishText:
@@ -648,7 +645,6 @@ Noun: full (derived forms: fullerfulls)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) تا بەرزترین ئاست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Many people don't use their computers to their full potential.""",
@@ -668,7 +664,6 @@ Noun: full (derived forms: fullerfulls)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ھاوەڵناو) سەرقاڵ؛ پڕ لە چالاکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He'd had a very full life.""",
                       kurdishText: """ژیانێکی زۆر سەرقاڵی ھەبووە.""",
@@ -697,7 +692,6 @@ Noun: full (derived forms: fullerfulls)
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) کە زۆر بیردەکاتەوە یان قسە دەکات لەسەر کاتێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was full of his new job and everything he'd been doing.""",
@@ -710,7 +704,6 @@ Noun: full (derived forms: fullerfulls)
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) بۆ جەختکردنەوە لە بڕ یان ڕێژەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is a full four inches shorter than her sister.""",
@@ -722,7 +715,6 @@ Noun: full (derived forms: fullerfulls)
                     const DefinitionKurdish(
                         text:
                             """٩. (ھاوەڵناو) کە مانگ وەک بازنەی تەواو دەردەکەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The moon was full, the sky clear.""",
                       kurdishText: """مانگ پڕ بوو و ئاسمان ساماڵ بوو.""",
@@ -731,7 +723,6 @@ Noun: full (derived forms: fullerfulls)
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """١٠. (ھاوەڵناو) قەڵەو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He kissed her full sensual lips.""",
                       kurdishText: """لێوە قەڵەوەکانی ماچ کرد.""",
@@ -750,7 +741,6 @@ Noun: full (derived forms: fullerfulls)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵکار) ڕاستەوخۆ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She looked him full in the face.""",
                       kurdishText: """ڕاستەوخۆ سەیری ڕووخساریی دەکرد.""",

@@ -212,7 +212,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) زیاتر لە ھەر شتی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He does a little teaching, but first and foremost he's a writer.""",

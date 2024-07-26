@@ -275,7 +275,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شانس، بە تایبەتی کە پەیوەندیدارە بە کاریگەری لەسەر ژیانی خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I have had the good fortune to work with some brilliant directors.""",
@@ -305,7 +304,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو شتە باش و خراپانەی کە بەسەر کەسێک، خێزانێک، وڵاتێک، ھتد دێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team had a dramatic reversal of fortunes in the second half.""",
@@ -317,7 +315,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) چارەنووس یان داھاتووی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She can tell your fortune by looking at the lines on your hand.""",

@@ -171,9 +171,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "flatter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) باوەڕکردن بە شتێکی باش سەبارەت بە خۆت ئەگەرچی خەڵکی دیکە وا بیرناکەنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I had thought I was quite good with tricky people but perhaps I flatter myself.""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) جوان پیشاندان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """That colour doesn't flatter many people.""",

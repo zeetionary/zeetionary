@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە لە گوڵ درووستکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Floral tributes were sent to the church.""",

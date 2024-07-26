@@ -183,9 +183,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fetch", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕۆشتن بۆ شوێنێک و ھێنانی شتێک"""),
@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ئەوەی شتێک بە نرخێک بفرۆشێردرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The painting is expected to fetch £10 000 at auction.""",

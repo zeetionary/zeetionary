@@ -259,7 +259,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئامێرێک کە تەنھا ڕێگا بە دەنگ یان ڕەنگی دیاریکراو دەدات پێێدا تێپەڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The camera has an anti-glare filter.""",
                       kurdishText:
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) پڕۆگرامێک کە زانیاری دەپشکنێت بۆ دەرکردنی ئەو بەشانەی کە نەویستراون، یان زانیاری، ئیمەیڵ، ھتد ـی دیاریکراو ڕادەگرێت لەوەی بنێردرێن بۆ کۆمپیوتەرێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Spam filters block out almost all threats.""",
@@ -284,7 +282,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ئامرازێک لەسەر کامێرای دیجیتاڵی کە ڕێگا دەدات ڕووخساری خۆت بگۆڕیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The software allows you to apply filters, remove blemishes and add text to your images.""",
@@ -297,7 +294,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) ناردنی شلە، ڕووناکی، ھتد بە ئامێرێکی دیاریکراودا، بەتایبەتی بۆ سڕینەوەی شتێک کە ناتەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """All drinking water must be filtered.""",
                       kurdishText:
@@ -318,7 +314,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) بەکارھێنانی پڕۆگرامێکی تایبەت کە ئیمەیڵ و وێبسایتەکان دەپشکنێت پێش ئەوەی بنێردرێن بۆ کۆمپیوتەرەکەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Most email apps use spam filtering tools.""",
@@ -331,7 +326,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) جووڵان بە ھێواشی بە ئاراستەیەکی دیارکراودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doors opened and people started filtering through.""",
@@ -343,7 +337,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) ئەوەی بزاندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """More details about the crash are filtering through.""",
@@ -356,7 +349,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) ھاتنە شوێنێک بە ھێواشی یان بە کەمی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Sunlight filtered in through the curtains.""",

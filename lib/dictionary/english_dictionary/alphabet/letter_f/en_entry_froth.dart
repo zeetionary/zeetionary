@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێکی کە جدی نییە و بێ بەھایە، بەڵام خۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His books are just froth, but they're enjoyable enough.""",
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) واکردنی ئەوەی شلەیەک کەف بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The waves frothed as they crashed onto the beach.""",
@@ -261,7 +259,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) درووستکردنی تفی زۆر لە دەمدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The dog was frothing at the mouth.""",
                       kurdishText: """سەگەکە تفی دەردەدا لە دەمی.""",

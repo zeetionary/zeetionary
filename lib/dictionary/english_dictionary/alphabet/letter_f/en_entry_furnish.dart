@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) پێدانی شتێک بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She furnished him with the facts surrounding the case.""",

@@ -190,9 +190,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "foster", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) گەشەپێدانی شتێک"""),
@@ -217,7 +217,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) چاودێری کردنی منداڵی کەسێک بەبێ ئەوەی ببیت بە دایک و باوکی یاسایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They have fostered over 60 children during the past ten years.""",
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) پەیوەندیدار بە بەخێوکردنی منداڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As a child, he had lived with a series of foster parents.""",

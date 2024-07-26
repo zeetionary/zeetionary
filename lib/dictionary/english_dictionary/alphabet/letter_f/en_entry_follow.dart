@@ -516,9 +516,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "follow", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ھاتن یان چوون بە دوای شتێکدا"""),
@@ -581,7 +581,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) شوێنکەوتنی کەسێک بۆ ئەوەی بزانیت چی دەکات یان بۆ کوێ دەچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I think we're being followed.""",
                       kurdishText: """پێموایە چاودێری دەکرێین.""",
@@ -601,7 +600,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ھاتن بە دوای شتێک/کەسێک لە ڕووی کات یان ڕیزبەندی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I remember little of the days that followed the accident.""",
@@ -663,7 +661,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) کردنی شتێک لە دوای شتێکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Give your contact details and follow this with a brief profile of yourself.""",
@@ -684,7 +681,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) وەرگرتنی ڕاوێژ، ڕێنمایی، ھتد و کردنی ئەوەی پێت گوتراوە یان پیشان دراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They said they were just following orders.""",
@@ -712,7 +708,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) پەسەندکردنی کەسێک/شتێک وەک ڕێبەر، ڕابەر، سەرمەشق"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I encourage others to follow our example.""",
@@ -766,7 +761,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) پەنجەنان بە بەستەری وێبسایتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Follow the links to sign up for the webinar.""",
@@ -778,7 +772,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) ڕۆشتن بە ڕێگایەک، شەقامێک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Follow this road until you get to the school, then turn left.""",
@@ -791,7 +784,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) ڕۆشتن بە ھەمان ئاراستە یان شان بە شانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The road follows the edge of a wood for about a mile.""",
@@ -804,7 +796,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) بوون بە ئەنجامی پێشبینیکراوی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I don't see how that follows from what you've just said.""",
@@ -836,7 +827,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (کردار) تێگەشتن لە ڕوونکردنەوەیەک یان واتای شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Do you follow me?""",
                       kurdishText: """لێم تێدەگەیت؟""",
@@ -862,7 +852,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) سەیرکردن یان گوێگرتن لە کەسێک/شتێک بە وریایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The children were following every word of the story intently.""",
@@ -884,7 +873,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) ھەبوونی حەزێکی چالاک بۆ شتێک و بە ئاگا بیت لەوەی چی ڕوودەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We've been following this story for months.""",
@@ -906,7 +894,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (کردار) چاودێری کردنی چالاکیی کەسێک، دامەزراوەیەک، ھتد لە تۆڕە کۆمەڵایەتییەکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I don’t follow many celebrities on TikTok any more.""",
@@ -919,7 +906,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (کردار) ئەوەی لەسەر ژیان یان بەرەوپێشچوونی کەسێک/شتێک بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The novel follows the fortunes of a village community in Scotland.""",
@@ -931,7 +917,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٦. (کردار) ڕوودان بە شیوەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The day followed the usual pattern.""",
                       kurdishText: """ڕۆژەکە وەک ھەمیشە بوو.""",

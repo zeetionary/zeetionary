@@ -238,9 +238,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "forgive", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) لێخۆشبوون لە کەسێک"""),
@@ -329,7 +329,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بۆ بەڕێزەوە گوتنی ئەوەی کە داوای بەخشین دەکەیت ئەگەر ئەوەی دەیڵێیت یان دەیکەیت بێڕێزییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Forgive me, but I don't see that any of this concerns me.""",
@@ -359,7 +358,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) لێخۆشبوون لە قەرز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government has agreed to forgive a large part of the debt.""",

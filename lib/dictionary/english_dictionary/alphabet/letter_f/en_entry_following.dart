@@ -257,7 +257,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) جاری دواتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In the following nights, Lucy slept poorly.""",
@@ -278,7 +277,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو شتانەی دواتر باس دەکرێت/دەکرێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The following is a summary of events.""",
                       kurdishText: """ئەمەی دواتر کورتەیەکی ڕووداوەکانە.""",
@@ -297,7 +295,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) ژمارەیەک ھەوادار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The band has a huge following in Italy.""",
@@ -318,7 +315,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ئامراز) لە ئەنجامی شتێک؛ لە دوای"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He took charge of the family business following his father's death.""",

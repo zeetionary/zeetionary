@@ -147,9 +147,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەشتییەکی ئاسمانی کە ھەندێک کەس بانگەشەی ئەوە دەکەن بینیویان بێت و لە ھەسارەیەکی دیکەوە بێت"""),

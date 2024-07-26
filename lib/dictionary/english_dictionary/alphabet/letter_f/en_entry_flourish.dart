@@ -278,7 +278,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) گەشەکردن بە باشی؛ تەندرووست و دڵخۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These plants flourish in a damp climate.""",
@@ -300,7 +299,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) جووڵاندنی شتێک بۆ ئەوەی خەڵکی سەیری بکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He rushed into the room flourishing the newspaper.""",
@@ -313,7 +311,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) جووڵەیەکی زیادەڕۆ کە دەیکەیت بۆ ئەوەی سەرج ڕابکێشیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He opened the door for her with a flourish.""",
@@ -325,7 +322,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) کارێکی سەرنجڕاکێش یان شێوەی کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The season ended with a flourish for Kane, when he scored in the final minute of the match.""",
@@ -338,7 +334,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ڕازاندنەوە یان جوانکاری کە لە نووسین یان قسەکردندا بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His writing is plain and direct, with no stylistic flourishes.""",

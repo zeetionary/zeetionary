@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) سەر بەو وشانەی کە مێینەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Some people prefer not to use the feminine form ‘actress’ and use the word ‘actor’ for both sexes.""",
@@ -218,7 +217,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) لە ھەندێک زماندا سەر بەو وشانەیە کە وەک مێینە دەبیندرێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The French word for ‘table’ is feminine.""",

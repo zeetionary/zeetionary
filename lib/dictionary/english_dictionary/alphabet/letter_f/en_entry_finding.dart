@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) بڕیاری دادگا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The court made a finding in favour of the defendant.""",

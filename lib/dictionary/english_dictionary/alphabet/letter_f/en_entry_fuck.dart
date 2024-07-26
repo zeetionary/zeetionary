@@ -235,7 +235,6 @@ Usage: vulgar
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) جوێنێک کە بەکاردێت بۆ دەربڕینی تووڕەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Oh, fuck! I've lost my keys.""",
                       kurdishText: """ئاھ، نەفرەتی! کلیلەکانم ونکردووە.""",
@@ -259,7 +258,6 @@ Usage: vulgar
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) جووتبوون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She had a quick fuck before leaving.""",
                       kurdishText: """پێش رۆشتن سێکسێکی خێرای ئەنجام دا.""",
@@ -270,7 +268,6 @@ Usage: vulgar
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) بۆ جەختکردنەوە یان ئەوەی کە تووڕە، بێزار، یان سەرسامیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """What the fuck are you doing?""",
                       kurdishText: """چی نەفرەتییەکت دەکەیت؟""",

@@ -367,7 +367,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) شتێک کە پتەو و سەختە بە ئاسانی ناگۆڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """These peaches are still firm.""",
                       kurdishText: """قۆخەکان ھێشتا توندن.""",
@@ -395,7 +394,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە ئەگەری کەمە بگۆڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is a firm favourite with the children.""",
@@ -428,7 +426,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کو توند لە شوێنێک جێگیرە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Stand the fish tank on a firm base.""",
                       kurdishText:
@@ -448,7 +445,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) بەھێز و نەگۆڕ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """With a firm grip on my hand, he pulled me away.""",
@@ -469,7 +465,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ھاوەڵناو) کە بەھێزە و وای پیشان دەدات لە کۆنترۆڵ دایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Parents must be firm with their children.""",
@@ -500,7 +495,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) کە دراوێک لە دراوێکی دیکە کەمتر نابێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The euro remained firm against the dollar, but fell against the yen.""",
@@ -512,7 +506,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) ئەوەی شتێک بەھێز یان توند بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Firm the soil around the plant.""",
                       kurdishText: """خۆڵی دەوری ڕووەکەکە توند بکە.""",

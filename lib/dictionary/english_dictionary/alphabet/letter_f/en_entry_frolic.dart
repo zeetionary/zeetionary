@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) چالاکی و یاری بۆ گاڵتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It was just a harmless frolic.""",
                       kurdishText: """تەنھا شادییەکی بێ‌زیان بوو.""",

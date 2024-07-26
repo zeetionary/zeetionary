@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە دەتوانێت منداڵ، بێچوو، ئاژەڵ. یان ڕووەکی تازە درووست بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The treatment has been tested on healthy fertile women under the age of 35.""",
@@ -219,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە ئەنجامی باشی دەبێت؛ کە چالاکی درووست دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The fall of the old regime provided fertile ground for opportunism.""",

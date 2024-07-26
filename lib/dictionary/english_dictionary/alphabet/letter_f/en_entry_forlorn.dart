@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) شوێنێکی چۆڵ و بێ‌خاوەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Empty houses quickly take on a forlorn look.""",
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە ئەگەری کەمە سەرکەوتوو، ڕاست، ھتد بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She waited in the forlorn hope that he would one day come back to her.""",

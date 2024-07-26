@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بە ڕوونی و بەھێزی دەربڕدراون بەشێوەیەک کە کەسانی دیکە باوەڕ دەکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was never afraid to speak his mind in a forceful manner.""",

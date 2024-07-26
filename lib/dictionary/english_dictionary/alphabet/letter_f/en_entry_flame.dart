@@ -276,7 +276,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ڕەنگی سوور یان پرتەقاڵی درەوشاوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She drove a flame-red car down the street.""",
@@ -288,7 +287,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) ھەستی زۆر بەھێز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His childhood interest in the game had ignited a flame of passion for football.""",
@@ -300,7 +298,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) سووتان بە بڵێسەی درەوشاوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The logs flamed on the hearth.""",
                       kurdishText: """کۆلکە دارەکان لە ئاگردانەکەدا دەگڕان.""",
@@ -317,7 +314,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) سووربەنەوە بەھۆی ھەستی بەھێزەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her cheeks flamed with rage.""",
                       kurdishText: """گۆناکانی لە تووڕەییدا سووربوونەوە.""",

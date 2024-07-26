@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ھێڵێک لە خوارەوەی وێبسایتێک لەسەر ئینتەرنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You can repeat the navigation links in the footer.""",
@@ -200,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کە درێژی یان بەرزی شتێک بە پێ دەردەبڕیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His boat is an eighteen-footer.""",
                       kurdishText: """بەلەمەکەی ھەژدە پێییەکە.""",

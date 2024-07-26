@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بەھای نییە بەڵام چێژبەخش دیارن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her first novel was a frothy romantic comedy.""",

@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە کەسێک تای ھەیە؛ کە درووست بووە بەھۆی تاوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was aching and feverish.""",
                       kurdishText: """ئێش و تای ھەبوو.""",

@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) درووستکراو لە مادەیەک وەک فەرووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Rosie has a massive collection of furry toys.""",

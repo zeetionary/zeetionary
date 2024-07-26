@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی گونجاو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The story is told with great felicity of style.""",
@@ -191,7 +190,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) خاسیەتە سەرکەوتوو گونجاوەکانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her book displays many subtle linguistic felicities.""",

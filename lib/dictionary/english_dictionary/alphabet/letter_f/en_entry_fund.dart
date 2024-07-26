@@ -285,7 +285,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو پارەیەی کە بەردەستە بۆ بەکارھێنان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hospital is trying to raise funds for a new kidney machine.""",
@@ -334,7 +333,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کۆمپانیایەک کە پارەی خەڵک بەڕێوە دەبات بەوەی بۆیان دەخاتە وەبەرھێنانەوە؛ بڕە پارەیەک کە بۆ ئەم جۆرە وەبەرھێنانە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is a fund manager for an Asian bank.""",
@@ -347,7 +345,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) دابینکردنی پارەی چالاکییەک، پڕۆژەیەک، یان دامەزراوەیەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company has agreed to fund my trip to Australia.""",

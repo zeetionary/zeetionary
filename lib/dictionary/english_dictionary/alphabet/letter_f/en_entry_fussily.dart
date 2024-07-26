@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) کە جونکاریی زۆر لەخۆ دەگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The 1950s era had fussily constructed garments, cumbersome skirts, cinched waists, and rigid hairstyles.""",

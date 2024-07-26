@@ -315,7 +315,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) چوارچێوەی کەلوپەلێک، بینایەک، پێڕۆیەک، ھتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The bed frame is made of pine.""",
                       kurdishText:
@@ -335,7 +334,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) شێوەی جەستەی مرۆڤ یان ئاژەڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She has quite a small frame.""",
                       kurdishText: """ھەیکەلێکی بچووکی ھەیە.""",
@@ -346,7 +344,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ئەو تێگەشتنە گشتییانەی کە شتێک پێکدەھێنن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In this course we hope to look at literature in the frame of its social and historical context.""",
@@ -359,7 +356,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) درووستکردنی چوارچێوەیەک لە دەوری شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The photograph had been framed.""",
                       kurdishText: """وێنەکە لە چوارچێوە خرابوو.""",
@@ -378,7 +374,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) دەوردانی کەسێک/شتێک بە شێوەیەک کە وێنەیەکی سەرنجڕاکێش درووست دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I like the way your hair frames your face.""",
@@ -391,7 +386,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) درووستکردنی بەڵگەی ساختە دژ بە کەسێکی بێتاوان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He says he was framed.""",
                       kurdishText: """دەڵێت کە تاوانی بۆ ھەڵبەستراوە.""",
@@ -409,7 +403,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) درووستکردن یان گەشەپێدانی پلانێک، سیستەمێک، یان ژمارەیەک یاسا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Measures to secure oil production must be framed in the context of rising energy demands.""",
@@ -422,7 +415,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) دەربڕینی شتێک بە شێوەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You'll have to be careful how you frame the question.""",

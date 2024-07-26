@@ -266,7 +266,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) درووستکردنی کۆپییەکی ساختەی شتێک بۆ کاری خەڵەتاندن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He's getting good at forging his mother's signature.""",
@@ -288,7 +287,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) پێدانی شێوە بە کانزا بەوەی گەرمی بکەیت و بە چەکووش لێی بدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He taught them to forge iron swords and spears.""",
@@ -301,7 +299,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) چوونە پێشەوە بە لەناکاو و خێرایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She forged through the snow.""",
                       kurdishText: """بە بەفرەکەدا تێپەڕی.""",
@@ -319,7 +316,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) شوێنی ئاسنگەر؛ کوورەی ئاسنگەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The blacksmith worked in his forge all day.""",

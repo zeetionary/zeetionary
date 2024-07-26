@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لاوازیی کەسایەتی یان ئاستی ئەخلاقی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We are all subject to the frailties of human nature.""",

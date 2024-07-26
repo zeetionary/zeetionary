@@ -242,7 +242,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە بە نامۆ دادەنرێت بەھۆی شێوازی دەرکەوتن، بیرکردنەوە، یان ڕەفتاری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was treated like a freak because she didn't want children.""",
@@ -264,7 +263,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک، ڕووەکێک، یان ئاژەڵێک کە شێوەی بە ئاسایی دانانرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This butterfly is a freak of nature, black and white instead of blue.""",
@@ -276,7 +274,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) بۆنەیەکی نامۆ و پێشبینی نەکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """By some freak of fate they all escaped without injury.""",
@@ -288,7 +285,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) نامۆ و پێشبینی نەکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The manager described the 8–0 defeat as a freak result.""",
@@ -300,7 +296,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) تاسان یان شۆک بوون بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Snakes really freak me out.""",
                       kurdishText: """مار ئەمتۆقێنێت.""",

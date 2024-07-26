@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بۆن یان تامی وەک ماسی ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """What's that fishy smell?""",
                       kurdishText: """ئەو بۆنە ماسییە چییە؟""",

@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) جووڵەی بەردەوامی شتێک، بۆ نموونە تەنۆلکەکان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is a rapid flux of ions across the membrane.""",

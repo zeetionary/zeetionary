@@ -146,9 +146,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پێنووسێک کە نووکەکەی لە قوماش درووستکراوە کە نەرم و ئەستوورە و لە لۆکە یان موو درووستکراوە کە پەستێندراونەتە یەکەوە"""),

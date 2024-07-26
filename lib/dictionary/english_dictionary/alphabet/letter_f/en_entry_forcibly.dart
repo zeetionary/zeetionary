@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەک کە شتێک ڕوون دەکاتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It struck me forcibly how honest he'd been.""",

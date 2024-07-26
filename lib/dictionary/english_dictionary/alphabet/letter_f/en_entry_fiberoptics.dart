@@ -148,9 +148,9 @@ Usage: US (elsewhere: fibreoptics)
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "fiber optics", please follow LX instructions
                     const DefinitionKurdish(
                         text:

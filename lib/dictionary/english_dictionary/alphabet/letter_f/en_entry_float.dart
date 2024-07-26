@@ -374,7 +374,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) مانەوە لەسەر ڕووی شلەیەک و نوقم نەبیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Wood floats.""",
                       kurdishText: """تەختە سەرئاو دەکەوێت.""",
@@ -407,7 +406,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) سەرئاوخستنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There wasn't enough water to float the ship.""",
@@ -432,7 +430,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) ڕێکردن بە ھێواشی و لەسەرخۆیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She floated down the steps to greet us.""",
@@ -445,7 +442,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) پێشنیارکردنی بیرۆکە یان پلانێک تاوەکو کەسانی دیکە بیری لێ بکەنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They floated the idea of increased taxes on alcohol.""",
@@ -480,7 +476,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) پێڕۆیەکی گەورە کە خەڵکی لە فیستیڤاڵدا لەسەری دەبن بە جلی تایبەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Children waved excitedly at the passing carnival float.""",
@@ -493,7 +488,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) شتێکی بچووک کە بەستراوە بە قولابی ماسییەوە و دەجووڵێت کە ماسی گیراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fishing nets are often held in position by floats.""",
@@ -506,7 +500,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) شتێکی بچووک کە لەسەر ئاو دەوەستێت و دەستی پێوە دەگریت کە فێری مەلە دەبیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Hold the float in front of you and kick your legs.""",
@@ -518,7 +511,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ناو) یارییەکی منداڵان کە وەک ئاژەڵە و لەسەری دەبیت لە مەلەوانگە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A pool float has now become a holiday essential.""",

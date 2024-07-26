@@ -178,9 +178,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "formulate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) دەربڕینی بیرۆکەکانت بە وشەی ھەڵبژێردراو بە وریایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He struggled to formulate an answer.""",
                       kurdishText: """تەقەڵای بوو کە وەڵامێک ئامادە بکات.""",

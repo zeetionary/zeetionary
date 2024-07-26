@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) نەبوونی تێگەشتن و ڕێککەوتن لە نێوان ئەو کەسانەی کە بۆچوونی جیاوازیان ھەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His decision led to considerable friction in his family.""",

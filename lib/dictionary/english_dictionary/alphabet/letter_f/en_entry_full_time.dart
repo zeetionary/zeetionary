@@ -158,9 +158,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "full-time", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کۆتایی یارییەکی وەرزشی"""),
@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بۆ تەواوی کاتژمێرەکانی کارکردنی ھەفتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She works full-time and still manages to run a home.""",

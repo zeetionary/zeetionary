@@ -177,9 +177,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە وڵاتی فەرەنسا، خەڵکەکەی، یان زمانەکەی"""),
@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) زمانی فەرەنسی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Have you got a dictionary I can use for translating French into English?""",
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) خەڵکی فەرەنسا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The French have a rich history of art and literature.""",

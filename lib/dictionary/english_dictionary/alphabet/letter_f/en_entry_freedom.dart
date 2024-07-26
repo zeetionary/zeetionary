@@ -268,7 +268,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی کە کۆیلە یان زیندانی نەبیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He finally won his freedom after twenty years in jail.""",
@@ -290,7 +289,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی کە لەلایەن حکومەتێکی تاکڕەو یان وڵاتێکی بیانییەوە بەڕێوە نەبردرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We believe in freedom and democracy.""",
                       kurdishText: """باوەڕمان بە ئازادی و دیموکراسی ھەیە.""",
@@ -307,7 +305,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) ئەوەی بە ئازادی بجووڵێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The skirt has a side split for freedom of movement.""",
@@ -320,7 +317,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەوەی کۆنترۆڵ نەکرابیت بەو شتەی کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """All people should be guaranteed freedom from fear.""",

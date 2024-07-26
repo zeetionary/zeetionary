@@ -425,7 +425,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) کۆتایی پێھێنان؛ بە کۆتایی ھاتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The play finished at 10.30.""",
                       kurdishText: """شانۆکە لە ١٠:٣٠ تەواو بوو.""",
@@ -443,7 +442,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) بە تەواوی خواردن، خواردنەوە، یان بەکارھێنانی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I quickly finished my tea.""",
                       kurdishText: """زوو چایەکەم تەواو کرد.""",
@@ -470,7 +468,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) بوون لە پلەیەکی دیاریکراو لە کۆتایی پێشبڕکێ یان پاڵەوانێتییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was delighted to finish second.""",
                       kurdishText: """خۆشحاڵ بوو کە لە پلەی دووەم تەواو بێت.""",
@@ -490,7 +487,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) ماندووکردن یان سەبربڕین لە کەسێک بە ئاستێک کە ناتوانێت بەردەوام بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Climbing that hill really finished me off.""",
@@ -502,7 +498,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) کۆتایی شتێک یان بەشی کۆتایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They won in the end but it was a tight finish.""",
@@ -530,7 +525,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) پلەی کەسێک لە تەواوکردنی شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team are aiming for a top-five finish.""",

@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کە بیرکردنەوە یان ھەست خراپ ببێت چونکە بە سەرکەوتووی مامەڵەی لەگەڵ ناکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's better to express your anger than let it fester inside you.""",

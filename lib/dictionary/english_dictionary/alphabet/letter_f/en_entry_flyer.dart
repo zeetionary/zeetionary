@@ -191,7 +191,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە وەک گەشتیار لە فڕۆکەیەکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm a nervous flyer.""",
                       kurdishText: """فڕۆکەوانێکی شڵەژاوم.""",
@@ -202,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک، بۆ نموونە باڵندە یان مێروو، کە بە ئاراستەیەکی دیاریکراو دەفڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Butterflies can be strong flyers.""",
                       kurdishText: """پەپوولە دەکرێت ھەڵفڕی بەھێز بێت.""",
@@ -213,7 +211,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) پارچە کاغەزێک کە دەدڕیت بە ژمارەیەکی زۆر کەس ئاگادارییەکی تێدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They distributed flyers promoting the event to students.""",

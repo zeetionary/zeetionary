@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە پێکھێنراوە، بە تایبەتی لە شوێنێکی دیاریکراو یان بە شێوەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Massive rock formations rise some 1 500 feet above the canyon floor.""",
@@ -213,7 +212,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) بە شێوەیەک یان ڕێکخستنی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The troops advanced in battle formation.""",

@@ -168,9 +168,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شیرینییەکی نەرمی قاوەیی کە لە شەکر، کەرە، و شیر درووستکراوە"""),
@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕێگای مامەڵە لەگەڵ دۆخێک کە کێشەکان چارەسەر ناکات بەڵام ئامانج لێی ئەوەیە بەو شێوەیە دەربکەوێت کە چارەسەریان دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This solution is a fudge rushed in to win cheers at the party conference.""",
@@ -200,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) مامەڵەکردن لەگەڵ دۆخێک بەشێوەیەک کە زانیاری ڕوون و درووست نادەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Politicians are often very clever at fudging the issue.""",

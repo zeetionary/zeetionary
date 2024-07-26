@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) لاواز و بێ‌ھێز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His essay was full of flabby arguments.""",

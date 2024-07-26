@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بەشێوەیەک کە ھیوایەک پیشان دەدات کە ئەگەری کەمە بێتە دی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I fondly imagined that you cared for me.""",

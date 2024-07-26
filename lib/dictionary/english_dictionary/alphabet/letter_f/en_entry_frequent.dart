@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) سەردانکردنی شوێنێک بە زۆری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We met in a local bar much frequented by students.""",

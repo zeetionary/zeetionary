@@ -157,9 +157,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
 // With short examples define "firing line", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بەرەی پێشەوەی جەنگ"""),
@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پێگەیەک کە دەکرێت سەرزەنشت یان لۆمە بکرێیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The firm is the first in the firing line over corporate abuses.""",

@@ -160,9 +160,9 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const DividerDefinition(),
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئامێرێکی میوزیکی شێوە باریک و درێژە و ژەنیارەکە بە لایەکی ڕووخساریدا ھەڵی دەگرێت و فوو دەکات بە سەرێکیدا"""),

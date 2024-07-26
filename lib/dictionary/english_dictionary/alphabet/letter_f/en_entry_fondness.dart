@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خۆشی، بە تایبەتی بۆ شتێک کە بۆ ماوەیەکی زۆر کردووتەە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was her father’s fondness for drink that brought about the break-up of her parents’ marriage.""",

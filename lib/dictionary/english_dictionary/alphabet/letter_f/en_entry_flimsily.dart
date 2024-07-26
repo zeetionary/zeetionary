@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) کە لاوازە و سەختە بۆ باوەڕکردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The allegations against him were flimsily based.""",

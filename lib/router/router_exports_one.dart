@@ -2900,687 +2900,1369 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
     show EnglishEntryfeeling;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feign.dart'
     show EnglishEntryfeign;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feint.dart' show EnglishEntryfeint;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felicity.dart' show EnglishEntryfelicity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feline.dart' show EnglishEntryfeline;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fell.dart' show EnglishEntryfell;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fellow.dart' show EnglishEntryfellow;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fellowship.dart' show EnglishEntryfellowship;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felony.dart' show EnglishEntryfelony;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felon.dart' show EnglishEntryfelon;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felt.dart' show EnglishEntryfelt;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felt_tip_pen.dart' show EnglishEntryfelttippen; //// فففف felt-tip pen;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_female.dart' show EnglishEntryfemale;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feminine.dart' show EnglishEntryfeminine;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_femininity.dart' show EnglishEntryfemininity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feminism.dart' show EnglishEntryfeminism;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feminist.dart' show EnglishEntryfeminist;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fen.dart' show EnglishEntryfen;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fence.dart' show EnglishEntryfence;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fencing.dart' show EnglishEntryfencing;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferment.dart' show EnglishEntryferment;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fermentation.dart' show EnglishEntryfermentation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fern.dart' show EnglishEntryfern;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferocious.dart' show EnglishEntryferocious;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferociously.dart' show EnglishEntryferociously;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferocity.dart' show EnglishEntryferocity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferret.dart' show EnglishEntryferret;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferry.dart' show EnglishEntryferry;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertile.dart' show EnglishEntryfertile;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertility.dart' show EnglishEntryfertility;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertilize.dart' show EnglishEntryfertilize;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertilization.dart' show EnglishEntryfertilization;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertilizer.dart' show EnglishEntryfertilizer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fervent.dart' show EnglishEntryfervent;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fervently.dart' show EnglishEntryfervently;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fervour.dart' show EnglishEntryfervour;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fester.dart' show EnglishEntryfester;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_festival.dart' show EnglishEntryfestival;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_festive.dart' show EnglishEntryfestive;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_festivity.dart' show EnglishEntryfestivity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fetch.dart' show EnglishEntryfetch;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fete.dart' show EnglishEntryfete;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fetish.dart' show EnglishEntryfetish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fetter.dart' show EnglishEntryfetter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feud.dart' show EnglishEntryfeud;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feudal.dart' show EnglishEntryfeudal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feudalism.dart' show EnglishEntryfeudalism;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fever.dart' show EnglishEntryfever;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feverish.dart' show EnglishEntryfeverish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feverishly.dart' show EnglishEntryfeverishly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_few.dart' show EnglishEntryfew;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiance.dart' show EnglishEntryfiance; //// فففف fiancé;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiancee.dart' show EnglishEntryfiancee; //// ففففfiancée;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiasco.dart' show EnglishEntryfiasco;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fib.dart' show EnglishEntryfib;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fibber.dart' show EnglishEntryfibber;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiber.dart' show EnglishEntryfiber;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiberglass.dart' show EnglishEntryfiberglass;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiberoptics.dart' show EnglishEntryfiberoptics; //// فففف fiber optics;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fibrous.dart' show EnglishEntryfibrous;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fickle.dart' show EnglishEntryfickle;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiction.dart' show EnglishEntryfiction;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fictional.dart' show EnglishEntryfictional;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fictitious.dart' show EnglishEntryfictitious;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiddle.dart' show EnglishEntryfiddle;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiddling.dart' show EnglishEntryfiddling;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiddly.dart' show EnglishEntryfiddly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fidelity.dart' show EnglishEntryfidelity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fidget.dart' show EnglishEntryfidget;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fidgety.dart' show EnglishEntryfidgety;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_field.dart' show EnglishEntryfield;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_field_marshal.dart' show EnglishEntryfieldmarshal; //// ffff field marshal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fielder.dart' show EnglishEntryfielder;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiend.dart' show EnglishEntryfiend;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiendish.dart' show EnglishEntryfiendish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiendishly.dart' show EnglishEntryfiendishly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fierce.dart' show EnglishEntryfierce;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiercely.dart' show EnglishEntryfiercely;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fierceness.dart' show EnglishEntryfierceness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiery.dart' show EnglishEntryfiery;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fierily.dart' show EnglishEntryfierily;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifteen.dart' show EnglishEntryfifteen;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifteenth.dart' show EnglishEntryfifteenth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifth.dart' show EnglishEntryfifth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifty.dart' show EnglishEntryfifty;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiftieth.dart' show EnglishEntryfiftieth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifty_fifty.dart' show EnglishEntryfiftyfifty;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fig.dart' show EnglishEntryfig;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fight.dart' show EnglishEntryfight;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fighter.dart' show EnglishEntryfighter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figment.dart' show EnglishEntryfigment;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figurative.dart' show EnglishEntryfigurative;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figuratively.dart' show EnglishEntryfiguratively;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figure.dart' show EnglishEntryfigure;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figurehead.dart' show EnglishEntryfigurehead;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figure_of_speech.dart' show EnglishEntryfigureofspeech; //// فففف figure of speech;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filament.dart' show EnglishEntryfilament;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_file.dart' show EnglishEntryfile;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filings.dart' show EnglishEntryfilings;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filing_cabinet.dart' show EnglishEntryfilingcabinet; //// فففف filing cabinet;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fill.dart' show EnglishEntryfill;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filler.dart' show EnglishEntryfiller;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filling.dart' show EnglishEntryfilling;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fillet.dart' show EnglishEntryfillet;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_film.dart' show EnglishEntryfilm;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_film_star.dart' show EnglishEntryfilmstar; //// ffff film star;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filter.dart' show EnglishEntryfilter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filth.dart' show EnglishEntryfilth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filthy.dart' show EnglishEntryfilthy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fin.dart' show EnglishEntryfin;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_final.dart' show EnglishEntryfinal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finalist.dart' show EnglishEntryfinalist;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finalize.dart' show EnglishEntryfinalize;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finally.dart' show EnglishEntryfinally;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finale.dart' show EnglishEntryfinale;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finance.dart' show EnglishEntryfinance;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_financial.dart' show EnglishEntryfinancial;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_financially.dart' show EnglishEntryfinancially;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_financier.dart' show EnglishEntryfinancier;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finch.dart' show EnglishEntryfinch;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_find.dart' show EnglishEntryfind;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finder.dart' show EnglishEntryfinder;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finding.dart' show EnglishEntryfinding;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fine.dart' show EnglishEntryfine;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fine_art.dart' show EnglishEntryfineart; //// فففف fineart;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finely.dart' show EnglishEntryfinely;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fineness.dart' show EnglishEntryfineness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finery.dart' show EnglishEntryfinery;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finesse.dart' show EnglishEntryfinesse;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finger.dart' show EnglishEntryfinger;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fingernail.dart' show EnglishEntryfingernail;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fingerprint.dart' show EnglishEntryfingerprint;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fingertip.dart' show EnglishEntryfingertip;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finish.dart' show EnglishEntryfinish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finite.dart' show EnglishEntryfinite;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fir.dart' show EnglishEntryfir;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fir_cone.dart' show EnglishEntryfircone; //// فففف fir cone;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire.dart' show EnglishEntryfire;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_alarm.dart' show EnglishEntryfirealarm; //// فففف fire alarm;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firearm.dart' show EnglishEntryfirearm;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_brigade.dart' show EnglishEntryfirebrigade; //// فففف fire brigade;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_drill.dart' show EnglishEntryfiredrill; //// فففف fire drill;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_engine.dart' show EnglishEntryfireengine; //// فففف fire engine;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_escape.dart' show EnglishEntryfireescape; //// fire escape;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_extinguisher.dart' show EnglishEntryfireextinguisher; //// فففف fire extinguisher;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firefighter.dart' show EnglishEntryfirefighter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireguard.dart' show EnglishEntryfireguard;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireplace.dart' show EnglishEntryfireplace;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireproof.dart' show EnglishEntryfireproof;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireside.dart' show EnglishEntryfireside;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_station.dart' show EnglishEntryfirestation; //// فففف fire station;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firewood.dart' show EnglishEntryfirewood;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firework.dart' show EnglishEntryfirework;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firing_line.dart' show EnglishEntryfiringline; //// فففف firing line;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firing_squad.dart' show EnglishEntryfiringsquad; //// فففف firing squad;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firm.dart' show EnglishEntryfirm;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firmly.dart' show EnglishEntryfirmly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firmness.dart' show EnglishEntryfirmness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first.dart' show EnglishEntryfirst;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_aid.dart' show EnglishEntryfirstaid; //// فففف first aid;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_class.dart' show EnglishEntryfirstclass; //// ffff first class;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_floor.dart' show EnglishEntryfirstfloor; //// فففف first floor;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_hand.dart' show EnglishEntryfirsthand; //// فففف first-hand;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firstly.dart' show EnglishEntryfirstly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_name.dart' show EnglishEntryfirstname; //// فففف first name;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_the_first_person.dart' show EnglishEntrythefirstperson; //// فففف the first person;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_rate.dart' show EnglishEntryfirstrate; //// فففف first-rate;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fish.dart' show EnglishEntryfish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fisherman.dart' show EnglishEntryfisherman;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishery.dart' show EnglishEntryfishery;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishing.dart' show EnglishEntryfishing;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishmonger.dart' show EnglishEntryfishmonger;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishy.dart' show EnglishEntryfishy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fission.dart' show EnglishEntryfission;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fissure.dart' show EnglishEntryfissure;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fist.dart' show EnglishEntryfist;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fistful.dart' show EnglishEntryfistful;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fit.dart' show EnglishEntryfit;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitted.dart' show EnglishEntryfitted;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitful.dart' show EnglishEntryfitful;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitfully.dart' show EnglishEntryfitfully;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitting.dart' show EnglishEntryfitting;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_five.dart' show EnglishEntryfive;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiver.dart' show EnglishEntryfiver;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fix.dart' show EnglishEntryfix;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fixation.dart' show EnglishEntryfixation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fixture.dart' show EnglishEntryfixture;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fizz.dart' show EnglishEntryfizz;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fizzy.dart' show EnglishEntryfizzy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fizzle.dart' show EnglishEntryfizzle;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flab.dart' show EnglishEntryflab;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flabby.dart' show EnglishEntryflabby;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flabbiness.dart' show EnglishEntryflabbiness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flag.dart' show EnglishEntryflag;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagship.dart' show EnglishEntryflagship;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagon.dart' show EnglishEntryflagon;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagrant.dart' show EnglishEntryflagrant;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagrantly.dart' show EnglishEntryflagrantly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagstone.dart' show EnglishEntryflagstone;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flair.dart' show EnglishEntryflair;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flake.dart' show EnglishEntryflake;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaky.dart' show EnglishEntryflaky;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamboyant.dart' show EnglishEntryflamboyant;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamboyance.dart' show EnglishEntryflamboyance;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamboyantly.dart' show EnglishEntryflamboyantly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flame.dart' show EnglishEntryflame;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaming.dart' show EnglishEntryflaming;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamingo.dart' show EnglishEntryflamingo;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flammable.dart' show EnglishEntryflammable;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flan.dart' show EnglishEntryflan;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flank.dart' show EnglishEntryflank;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flap.dart' show EnglishEntryflap;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flare.dart' show EnglishEntryflare;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flare_up.dart' show EnglishEntryflareup; //// فففف flare-up;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flash.dart' show EnglishEntryflash;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashback.dart' show EnglishEntryflashback;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashbulb.dart' show EnglishEntryflashbulb;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashlight.dart' show EnglishEntryflashlight;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashy.dart' show EnglishEntryflashy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashily.dart' show EnglishEntryflashily;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flask.dart' show EnglishEntryflask;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flat.dart' show EnglishEntryflat;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flat_footed.dart' show EnglishEntryflatfooted; //// فففف flat-footed;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flatten.dart' show EnglishEntryflatten;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flatter.dart' show EnglishEntryflatter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flatterer.dart' show EnglishEntryflatterer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flattery.dart' show EnglishEntryflattery;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaunt.dart' show EnglishEntryflaunt;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flautist.dart' show EnglishEntryflautist;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flavour.dart' show EnglishEntryflavour;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flavouring.dart' show EnglishEntryflavouring;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flavourless.dart' show EnglishEntryflavourless;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaw.dart' show EnglishEntryflaw;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flawed.dart' show EnglishEntryflawed;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flawless.dart' show EnglishEntryflawless;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flawlessly.dart' show EnglishEntryflawlessly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flax.dart' show EnglishEntryflax;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaxen.dart' show EnglishEntryflaxen;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flea.dart' show EnglishEntryflea;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleck.dart' show EnglishEntryfleck;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flee.dart' show EnglishEntryflee;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleece.dart' show EnglishEntryfleece;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleecy.dart' show EnglishEntryfleecy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleet.dart' show EnglishEntryfleet;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleeting.dart' show EnglishEntryfleeting;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flesh.dart' show EnglishEntryflesh;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleshy.dart' show EnglishEntryfleshy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flex.dart' show EnglishEntryflex;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flexible.dart' show EnglishEntryflexible;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flexibility.dart' show EnglishEntryflexibility;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flick.dart' show EnglishEntryflick;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flicker.dart' show EnglishEntryflicker;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flight.dart' show EnglishEntryflight;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flight_path.dart' show EnglishEntryflightpath; //// فففف flight path;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flimsy.dart' show EnglishEntryflimsy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flimsily.dart' show EnglishEntryflimsily;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flinch.dart' show EnglishEntryflinch;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fling.dart' show EnglishEntryfling;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flint.dart' show EnglishEntryflint;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flip.dart' show EnglishEntryflip;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flippancy.dart' show EnglishEntryflippancy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flippant.dart' show EnglishEntryflippant;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flippantly.dart' show EnglishEntryflippantly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flipper.dart' show EnglishEntryflipper;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flirt.dart' show EnglishEntryflirt;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flirtation.dart' show EnglishEntryflirtation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flit.dart' show EnglishEntryflit;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_float.dart' show EnglishEntryfloat;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floating.dart' show EnglishEntryfloating;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flock.dart' show EnglishEntryflock;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flog.dart' show EnglishEntryflog;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flogging.dart' show EnglishEntryflogging;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flood.dart' show EnglishEntryflood;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flood_tide.dart' show EnglishEntryfloodtide; //// فففف flood tide;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floodlight.dart' show EnglishEntryfloodlight;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floor.dart' show EnglishEntryfloor;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floorboard.dart' show EnglishEntryfloorboard;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floor_show.dart' show EnglishEntryfloorshow; //// فففف floor show;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flop.dart' show EnglishEntryflop;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floppy.dart' show EnglishEntryfloppy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floppy_disk.dart' show EnglishEntryfloppydisk; //// ffff floppy disk;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flora.dart' show EnglishEntryflora;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floral.dart' show EnglishEntryfloral;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_florid.dart' show EnglishEntryflorid;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_florist.dart' show EnglishEntryflorist;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flotation.dart' show EnglishEntryflotation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flotilla.dart' show EnglishEntryflotilla;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flounce.dart' show EnglishEntryflounce;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flounder.dart' show EnglishEntryflounder;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flour.dart' show EnglishEntryflour;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flourish.dart' show EnglishEntryflourish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flout.dart' show EnglishEntryflout;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flow.dart' show EnglishEntryflow;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flower.dart' show EnglishEntryflower;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flower_bed.dart' show EnglishEntryflowerbed; //// فففف flower bed;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flowerpot.dart' show EnglishEntryflowerpot;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flowery.dart' show EnglishEntryflowery;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flu.dart' show EnglishEntryflu;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluctuate.dart' show EnglishEntryfluctuate;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluctuation.dart' show EnglishEntryfluctuation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluency.dart' show EnglishEntryfluency;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluent.dart' show EnglishEntryfluent;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluently.dart' show EnglishEntryfluently;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluff.dart' show EnglishEntryfluff;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluffy.dart' show EnglishEntryfluffy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluid.dart' show EnglishEntryfluid;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluke.dart' show EnglishEntryfluke;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluorescent.dart' show EnglishEntryfluorescent;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluoride.dart' show EnglishEntryfluoride;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flurried.dart' show EnglishEntryflurried;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flurry.dart' show EnglishEntryflurry;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flush.dart' show EnglishEntryflush;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flushed.dart' show EnglishEntryflushed;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluster.dart' show EnglishEntryfluster;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flute.dart' show EnglishEntryflute;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flutter.dart' show EnglishEntryflutter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flux.dart' show EnglishEntryflux;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fly.dart' show EnglishEntryfly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flying_saucer.dart' show EnglishEntryflyingsaucer; //// ffff flying saucer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flying_squad.dart' show EnglishEntryflyingsquad; //// فففف flying squad;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flying_visit.dart' show EnglishEntryflyingvisit; //// فففف flying visit;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flyer.dart' show EnglishEntryflyer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flyleaf.dart' show EnglishEntryflyleaf;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flyover.dart' show EnglishEntryflyover;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foal.dart' show EnglishEntryfoal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foam.dart' show EnglishEntryfoam;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_focus.dart' show EnglishEntryfocus;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fodder.dart' show EnglishEntryfodder;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foe.dart' show EnglishEntryfoe;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foetus.dart' show EnglishEntryfoetus;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fog.dart' show EnglishEntryfog;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fogbound.dart' show EnglishEntryfogbound;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foggy.dart' show EnglishEntryfoggy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foghorn.dart' show EnglishEntryfoghorn;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fog_lamp.dart' show EnglishEntryfoglamp; //// فففف fog lamp;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foil.dart' show EnglishEntryfoil;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fold.dart' show EnglishEntryfold;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folder.dart' show EnglishEntryfolder;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foliage.dart' show EnglishEntryfoliage;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk.dart' show EnglishEntryfolk;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk_dance.dart' show EnglishEntryfolkdance; //// فففف folk dance;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folklore.dart' show EnglishEntryfolklore;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk_music.dart' show EnglishEntryfolkmusic; //// فففف folk music;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk_song.dart' show EnglishEntryfolksong; //// فففف folk song;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_follow.dart' show EnglishEntryfollow;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_follower.dart' show EnglishEntryfollower;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_follow_up.dart' show EnglishEntryfollowup; //// ffff follow-up;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_following.dart' show EnglishEntryfollowing;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folly.dart' show EnglishEntryfolly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fond.dart' show EnglishEntryfond;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fondly.dart' show EnglishEntryfondly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fondness.dart' show EnglishEntryfondness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fondle.dart' show EnglishEntryfondle;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_font.dart' show EnglishEntryfont;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_food.dart' show EnglishEntryfood;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foodstuff.dart' show EnglishEntryfoodstuff;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fool.dart' show EnglishEntryfool;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolhardy.dart' show EnglishEntryfoolhardy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolish.dart' show EnglishEntryfoolish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolishly.dart' show EnglishEntryfoolishly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolishness.dart' show EnglishEntryfoolishness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolproof.dart' show EnglishEntryfoolproof;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foot.dart' show EnglishEntryfoot;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foot_and_mouth_disease.dart' show EnglishEntryfootandmouthdisease; //// فففف foot-and-mouth disease;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_football.dart' show EnglishEntryfootball;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footballer.dart' show EnglishEntryfootballer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_football_pools.dart' show EnglishEntryfootballpools; //// فففف football pools;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footer.dart' show EnglishEntryfooter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foothill.dart' show EnglishEntryfoothill;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foothold.dart' show EnglishEntryfoothold;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footnote.dart' show EnglishEntryfootnote;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footpath.dart' show EnglishEntryfootpath;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footprint.dart' show EnglishEntryfootprint;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footstep.dart' show EnglishEntryfootstep;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footwear.dart' show EnglishEntryfootwear;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_for.dart' show EnglishEntryfor;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forage.dart' show EnglishEntryforage;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foray.dart' show EnglishEntryforay;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forbearance.dart' show EnglishEntryforbearance;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forbid.dart' show EnglishEntryforbid;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forbidding.dart' show EnglishEntryforbidding;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_force.dart' show EnglishEntryforce;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forceful.dart' show EnglishEntryforceful;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forcefully.dart' show EnglishEntryforcefully;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forceps.dart' show EnglishEntryforceps;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forcible.dart' show EnglishEntryforcible;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forcibly.dart' show EnglishEntryforcibly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ford.dart' show EnglishEntryford;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fore.dart' show EnglishEntryfore;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forearm.dart' show EnglishEntryforearm;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forebear.dart' show EnglishEntryforebear;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreboding.dart' show EnglishEntryforeboding;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forecast.dart' show EnglishEntryforecast;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forecourt.dart' show EnglishEntryforecourt;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forefather.dart' show EnglishEntryforefather;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forefinger.dart' show EnglishEntryforefinger;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forefront.dart' show EnglishEntryforefront;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreground.dart' show EnglishEntryforeground;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forehand.dart' show EnglishEntryforehand;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forehead.dart' show EnglishEntryforehead;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreign.dart' show EnglishEntryforeign;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreigner.dart' show EnglishEntryforeigner;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreign_exchange.dart' show EnglishEntryforeignexchange; //// فففف foreign exchange;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreman.dart' show EnglishEntryforeman;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foremost.dart' show EnglishEntryforemost;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forensic.dart' show EnglishEntryforensic;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forerunner.dart' show EnglishEntryforerunner;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foresee.dart' show EnglishEntryforesee;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreseeable.dart' show EnglishEntryforeseeable;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forest.dart' show EnglishEntryforest;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forestry.dart' show EnglishEntryforestry;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forestall.dart' show EnglishEntryforestall;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foretell.dart' show EnglishEntryforetell;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forethought.dart' show EnglishEntryforethought;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forever.dart' show EnglishEntryforever;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forewarn.dart' show EnglishEntryforewarn;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreword.dart' show EnglishEntryforeword;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forfeit.dart' show EnglishEntryforfeit;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forge.dart' show EnglishEntryforge;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forger.dart' show EnglishEntryforger;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgery.dart' show EnglishEntryforgery;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forget.dart' show EnglishEntryforget;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgetful.dart' show EnglishEntryforgetful;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgivable.dart' show EnglishEntryforgivable;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgive.dart' show EnglishEntryforgive;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgiveness.dart' show EnglishEntryforgiveness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgiving.dart' show EnglishEntryforgiving;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgo.dart' show EnglishEntryforgo;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fork.dart' show EnglishEntryfork;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forked.dart' show EnglishEntryforked;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forklift_truck.dart' show EnglishEntryforklifttruck; //// فففف forklift truck;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forlorn.dart' show EnglishEntryforlorn;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forlornly.dart' show EnglishEntryforlornly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_form.dart' show EnglishEntryform;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formless.dart' show EnglishEntryformless;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formal.dart' show EnglishEntryformal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formality.dart' show EnglishEntryformality;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formalize.dart' show EnglishEntryformalize;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formally.dart' show EnglishEntryformally;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_format.dart' show EnglishEntryformat;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formation.dart' show EnglishEntryformation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formative.dart' show EnglishEntryformative;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_former.dart' show EnglishEntryformer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formidable.dart' show EnglishEntryformidable;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formidably.dart' show EnglishEntryformidably;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formula.dart' show EnglishEntryformula;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formulate.dart' show EnglishEntryformulate;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formulation.dart' show EnglishEntryformulation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forsake.dart' show EnglishEntryforsake;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fort.dart' show EnglishEntryfort;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forte.dart' show EnglishEntryforte;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forth.dart' show EnglishEntryforth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forthcoming.dart' show EnglishEntryforthcoming;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortify.dart' show EnglishEntryfortify;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortification.dart' show EnglishEntryfortification;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortnight.dart' show EnglishEntryfortnight;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortnightly.dart' show EnglishEntryfortnightly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortress.dart' show EnglishEntryfortress;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortuitous.dart' show EnglishEntryfortuitous;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortunate.dart' show EnglishEntryfortunate;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortunately.dart' show EnglishEntryfortunately;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortune.dart' show EnglishEntryfortune;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortune_teller.dart' show EnglishEntryfortuneteller; //// فففف fortune teller;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forty.dart' show EnglishEntryforty;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortieth.dart' show EnglishEntryfortieth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forum.dart' show EnglishEntryforum;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forward.dart' show EnglishEntryforward;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forwardness.dart' show EnglishEntryforwardness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forward_looking.dart' show EnglishEntryforwardlooking; //// فففف forward-looking;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fossil.dart' show EnglishEntryfossil;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fossilize.dart' show EnglishEntryfossilize;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foster.dart' show EnglishEntryfoster;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foul.dart' show EnglishEntryfoul;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foul_play.dart' show EnglishEntryfoulplay; //// فففف foul play;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_found.dart' show EnglishEntryfound;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foundation.dart' show EnglishEntryfoundation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_founder.dart' show EnglishEntryfounder;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foundry.dart' show EnglishEntryfoundry;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fount.dart' show EnglishEntryfount;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fountain.dart' show EnglishEntryfountain;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fountain_pen.dart' show EnglishEntryfountainpen; //// ffff fountain pen;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_four.dart' show EnglishEntryfour;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fourth.dart' show EnglishEntryfourth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fourteen.dart' show EnglishEntryfourteen;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fourteenth.dart' show EnglishEntryfourteenth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fowl.dart' show EnglishEntryfowl;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fox.dart' show EnglishEntryfox;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foyer.dart' show EnglishEntryfoyer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fractal.dart' show EnglishEntryfractal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraction.dart' show EnglishEntryfraction;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fractional.dart' show EnglishEntryfractional;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fracture.dart' show EnglishEntryfracture;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragile.dart' show EnglishEntryfragile;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragility.dart' show EnglishEntryfragility;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragment.dart' show EnglishEntryfragment;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragmentary.dart' show EnglishEntryfragmentary;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragmentation.dart' show EnglishEntryfragmentation;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragrance.dart' show EnglishEntryfragrance;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragrant.dart' show EnglishEntryfragrant;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frail.dart' show EnglishEntryfrail;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frailty.dart' show EnglishEntryfrailty;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frame.dart' show EnglishEntryframe;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_framework.dart' show EnglishEntryframework;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_franchise.dart' show EnglishEntryfranchise;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frank.dart' show EnglishEntryfrank;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frankness.dart' show EnglishEntryfrankness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frankfurter.dart' show EnglishEntryfrankfurter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frantic.dart' show EnglishEntryfrantic;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternal.dart' show EnglishEntryfraternal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternally.dart' show EnglishEntryfraternally;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternity.dart' show EnglishEntryfraternity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternize.dart' show EnglishEntryfraternize;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternization.dart' show EnglishEntryfraternization;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraud.dart' show EnglishEntryfraud;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraudulent.dart' show EnglishEntryfraudulent;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraught.dart' show EnglishEntryfraught;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fray.dart' show EnglishEntryfray;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freak.dart' show EnglishEntryfreak;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freakish.dart' show EnglishEntryfreakish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freckle.dart' show EnglishEntryfreckle;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freckled.dart' show EnglishEntryfreckled;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free.dart' show EnglishEntryfree;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_enterprise.dart' show EnglishEntryfreeenterprise; //// ffff free enterprise;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_for_all.dart' show EnglishEntryfreeforall; //// فففف free-for-all;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freehand.dart' show EnglishEntryfreehand;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freelance.dart' show EnglishEntryfreelance;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freely.dart' show EnglishEntryfreely;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_radical.dart' show EnglishEntryfreeradical; //// فففف free radical;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_range.dart' show EnglishEntryfreerange; //// فففف free-range;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_speech.dart' show EnglishEntryfreespeech; //// فففف free speech;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_trade.dart' show EnglishEntryfreetrade; //// ffff free trade;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_will.dart' show EnglishEntryfreewill; //// ffff free will;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freedom.dart' show EnglishEntryfreedom;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freeze.dart' show EnglishEntryfreeze;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freezer.dart' show EnglishEntryfreezer;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freezing_point.dart' show EnglishEntryfreezingpoint; //// فففف freezing point;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freight.dart' show EnglishEntryfreight;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freighter.dart' show EnglishEntryfreighter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_french.dart' show EnglishEntryfrench; //// ffff French;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_french_window.dart' show EnglishEntryfrenchwindow; //// ffff French window;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frenzy.dart' show EnglishEntryfrenzy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frenzied.dart' show EnglishEntryfrenzied;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frequency.dart' show EnglishEntryfrequency;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frequent.dart' show EnglishEntryfrequent;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frequently.dart' show EnglishEntryfrequently;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fresco.dart' show EnglishEntryfresco;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fresh.dart' show EnglishEntryfresh;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshly.dart' show EnglishEntryfreshly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshness.dart' show EnglishEntryfreshness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshwater.dart' show EnglishEntryfreshwater;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshen.dart' show EnglishEntryfreshen;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fret.dart' show EnglishEntryfret;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fretful.dart' show EnglishEntryfretful;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fretfully.dart' show EnglishEntryfretfully;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friar.dart' show EnglishEntryfriar;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friction.dart' show EnglishEntryfriction;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friday.dart' show EnglishEntryfriday; //// ffff Friday;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fridge.dart' show EnglishEntryfridge;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friend.dart' show EnglishEntryfriend;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendless.dart' show EnglishEntryfriendless;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendly.dart' show EnglishEntryfriendly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendliness.dart' show EnglishEntryfriendliness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendship.dart' show EnglishEntryfriendship;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frieze.dart' show EnglishEntryfrieze;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigate.dart' show EnglishEntryfrigate;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fright.dart' show EnglishEntryfright;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frighten.dart' show EnglishEntryfrighten;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightened.dart' show EnglishEntryfrightened;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightening.dart' show EnglishEntryfrightening;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frighteningly.dart' show EnglishEntryfrighteningly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightful.dart' show EnglishEntryfrightful;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightfully.dart' show EnglishEntryfrightfully;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigid.dart' show EnglishEntryfrigid;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigidity.dart' show EnglishEntryfrigidity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigidly.dart' show EnglishEntryfrigidly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frill.dart' show EnglishEntryfrill;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frilly.dart' show EnglishEntryfrilly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fringe.dart' show EnglishEntryfringe;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frisk.dart' show EnglishEntryfrisk;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frisky.dart' show EnglishEntryfrisky;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fritter.dart' show EnglishEntryfritter;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frivolous.dart' show EnglishEntryfrivolous;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frivolity.dart' show EnglishEntryfrivolity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frivolously.dart' show EnglishEntryfrivolously;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frizzy.dart' show EnglishEntryfrizzy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frog.dart' show EnglishEntryfrog;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frogman.dart' show EnglishEntryfrogman;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frolic.dart' show EnglishEntryfrolic;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_from.dart' show EnglishEntryfrom;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_front.dart' show EnglishEntryfront;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frontage.dart' show EnglishEntryfrontage;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frontal.dart' show EnglishEntryfrontal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_the_front_line.dart' show EnglishEntrythefrontline; //// ffff the front line;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_front_page.dart' show EnglishEntryfrontpage; //// فففف front-page;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frontier.dart' show EnglishEntryfrontier;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frost.dart' show EnglishEntryfrost;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frostbite.dart' show EnglishEntryfrostbite;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frostbitten.dart' show EnglishEntryfrostbitten;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frosty.dart' show EnglishEntryfrosty;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_froth.dart' show EnglishEntryfroth;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frothy.dart' show EnglishEntryfrothy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frown.dart' show EnglishEntryfrown;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frugal.dart' show EnglishEntryfrugal;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruit.dart' show EnglishEntryfruit;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruitful.dart' show EnglishEntryfruitful;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruitless.dart' show EnglishEntryfruitless;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruity.dart' show EnglishEntryfruity;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruition.dart' show EnglishEntryfruition;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frustrate.dart' show EnglishEntryfrustrate;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frustrated.dart' show EnglishEntryfrustrated;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frustration.dart' show EnglishEntryfrustration;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fry.dart' show EnglishEntryfry;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frying_pan.dart' show EnglishEntryfryingpan; //// فففف frying pan;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuck.dart' show EnglishEntryfuck;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuck_all.dart' show EnglishEntryfuckall; //// فففف fuck all;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fucking.dart' show EnglishEntryfucking;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fudge.dart' show EnglishEntryfudge;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuel.dart' show EnglishEntryfuel;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuel_injection.dart' show EnglishEntryfuelinjection; //// فففف fuel injection;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fugitive.dart' show EnglishEntryfugitive;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fulfil.dart' show EnglishEntryfulfil;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fulfilment.dart' show EnglishEntryfulfilment;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full.dart' show EnglishEntryfull;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_board.dart' show EnglishEntryfullboard;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_length.dart' show EnglishEntryfulllength; //// فففف full-length;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_moon.dart' show EnglishEntryfullmoon; //// فففف full moon;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fullness.dart' show EnglishEntryfullness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_scale.dart' show EnglishEntryfullscale; //// فففف full-scale;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_stop.dart' show EnglishEntryfullstop; //// full stop;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_time.dart' show EnglishEntryfulltime; //// فففف full-time;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fully.dart' show EnglishEntryfully;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fumble.dart' show EnglishEntryfumble;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fume.dart' show EnglishEntryfume;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fun.dart' show EnglishEntryfun;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_function.dart' show EnglishEntryfunction;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_functional.dart' show EnglishEntryfunctional;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_functionality.dart' show EnglishEntryfunctionality;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fund.dart' show EnglishEntryfund;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamental.dart' show EnglishEntryfundamental;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamentalism.dart' show EnglishEntryfundamentalism;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamentalist.dart' show EnglishEntryfundamentalist;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamentally.dart' show EnglishEntryfundamentally;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funeral.dart' show EnglishEntryfuneral;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funeral_parlour.dart' show EnglishEntryfuneralparlour; //// فففف funeral parlour;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fungus.dart' show EnglishEntryfungus;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funnel.dart' show EnglishEntryfunnel;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funny.dart' show EnglishEntryfunny;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funnily.dart' show EnglishEntryfunnily;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funny_bone.dart' show EnglishEntryfunnybone; //// فففف funny bone;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fur.dart' show EnglishEntryfur;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furry.dart' show EnglishEntryfurry;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furious.dart' show EnglishEntryfurious;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furiously.dart' show EnglishEntryfuriously;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furlong.dart' show EnglishEntryfurlong;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furnace.dart' show EnglishEntryfurnace;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furnish.dart' show EnglishEntryfurnish;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furnishings.dart' show EnglishEntryfurnishings;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furniture.dart' show EnglishEntryfurniture;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furrier.dart' show EnglishEntryfurrier;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furrow.dart' show EnglishEntryfurrow;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_further.dart' show EnglishEntryfurther;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtherance.dart' show EnglishEntryfurtherance;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_further_education.dart' show EnglishEntryfurthereducation; //// فففف further education;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furthermore.dart' show EnglishEntryfurthermore;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furthermost.dart' show EnglishEntryfurthermost;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtive.dart' show EnglishEntryfurtive;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtively.dart' show EnglishEntryfurtively;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtiveness.dart' show EnglishEntryfurtiveness;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fury.dart' show EnglishEntryfury;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuse.dart' show EnglishEntryfuse;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuselage.dart' show EnglishEntryfuselage;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fusion.dart' show EnglishEntryfusion;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuss.dart' show EnglishEntryfuss;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fussy.dart' show EnglishEntryfussy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fussily.dart' show EnglishEntryfussily;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_futile.dart' show EnglishEntryfutile;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_futility.dart' show EnglishEntryfutility;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_future.dart' show EnglishEntryfuture;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_futuristic.dart' show EnglishEntryfuturistic;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzz.dart' show EnglishEntryfuzz;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzzy.dart' show EnglishEntryfuzzy;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzzily.dart' show EnglishEntryfuzzily;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzziness.dart' show EnglishEntryfuzziness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feint.dart'
+    show EnglishEntryfeint;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felicity.dart'
+    show EnglishEntryfelicity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feline.dart'
+    show EnglishEntryfeline;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fell.dart'
+    show EnglishEntryfell;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fellow.dart'
+    show EnglishEntryfellow;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fellowship.dart'
+    show EnglishEntryfellowship;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felony.dart'
+    show EnglishEntryfelony;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felon.dart'
+    show EnglishEntryfelon;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felt.dart'
+    show EnglishEntryfelt;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_felt_tip_pen.dart'
+    show EnglishEntryfelttippen; //// فففف felt-tip pen;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_female.dart'
+    show EnglishEntryfemale;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feminine.dart'
+    show EnglishEntryfeminine;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_femininity.dart'
+    show EnglishEntryfemininity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feminism.dart'
+    show EnglishEntryfeminism;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feminist.dart'
+    show EnglishEntryfeminist;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fen.dart'
+    show EnglishEntryfen;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fence.dart'
+    show EnglishEntryfence;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fencing.dart'
+    show EnglishEntryfencing;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferment.dart'
+    show EnglishEntryferment;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fermentation.dart'
+    show EnglishEntryfermentation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fern.dart'
+    show EnglishEntryfern;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferocious.dart'
+    show EnglishEntryferocious;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferociously.dart'
+    show EnglishEntryferociously;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferocity.dart'
+    show EnglishEntryferocity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferret.dart'
+    show EnglishEntryferret;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ferry.dart'
+    show EnglishEntryferry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertile.dart'
+    show EnglishEntryfertile;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertility.dart'
+    show EnglishEntryfertility;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertilize.dart'
+    show EnglishEntryfertilize;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertilization.dart'
+    show EnglishEntryfertilization;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fertilizer.dart'
+    show EnglishEntryfertilizer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fervent.dart'
+    show EnglishEntryfervent;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fervently.dart'
+    show EnglishEntryfervently;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fervour.dart'
+    show EnglishEntryfervour;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fester.dart'
+    show EnglishEntryfester;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_festival.dart'
+    show EnglishEntryfestival;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_festive.dart'
+    show EnglishEntryfestive;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_festivity.dart'
+    show EnglishEntryfestivity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fetch.dart'
+    show EnglishEntryfetch;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fete.dart'
+    show EnglishEntryfete;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fetish.dart'
+    show EnglishEntryfetish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fetter.dart'
+    show EnglishEntryfetter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feud.dart'
+    show EnglishEntryfeud;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feudal.dart'
+    show EnglishEntryfeudal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feudalism.dart'
+    show EnglishEntryfeudalism;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fever.dart'
+    show EnglishEntryfever;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feverish.dart'
+    show EnglishEntryfeverish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_feverishly.dart'
+    show EnglishEntryfeverishly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_few.dart'
+    show EnglishEntryfew;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiance.dart'
+    show EnglishEntryfiance; //// فففف fiancé;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiancee.dart'
+    show EnglishEntryfiancee; //// ففففfiancée;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiasco.dart'
+    show EnglishEntryfiasco;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fib.dart'
+    show EnglishEntryfib;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fibber.dart'
+    show EnglishEntryfibber;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiber.dart'
+    show EnglishEntryfiber;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiberglass.dart'
+    show EnglishEntryfiberglass;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiberoptics.dart'
+    show EnglishEntryfiberoptics; //// فففف fiber optics;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fibrous.dart'
+    show EnglishEntryfibrous;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fickle.dart'
+    show EnglishEntryfickle;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiction.dart'
+    show EnglishEntryfiction;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fictional.dart'
+    show EnglishEntryfictional;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fictitious.dart'
+    show EnglishEntryfictitious;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiddle.dart'
+    show EnglishEntryfiddle;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiddling.dart'
+    show EnglishEntryfiddling;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiddly.dart'
+    show EnglishEntryfiddly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fidelity.dart'
+    show EnglishEntryfidelity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fidget.dart'
+    show EnglishEntryfidget;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fidgety.dart'
+    show EnglishEntryfidgety;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_field.dart'
+    show EnglishEntryfield;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_field_marshal.dart'
+    show EnglishEntryfieldmarshal; //// ffff field marshal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fielder.dart'
+    show EnglishEntryfielder;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiend.dart'
+    show EnglishEntryfiend;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiendish.dart'
+    show EnglishEntryfiendish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiendishly.dart'
+    show EnglishEntryfiendishly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fierce.dart'
+    show EnglishEntryfierce;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiercely.dart'
+    show EnglishEntryfiercely;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fierceness.dart'
+    show EnglishEntryfierceness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiery.dart'
+    show EnglishEntryfiery;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fierily.dart'
+    show EnglishEntryfierily;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifteen.dart'
+    show EnglishEntryfifteen;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifteenth.dart'
+    show EnglishEntryfifteenth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifth.dart'
+    show EnglishEntryfifth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifty.dart'
+    show EnglishEntryfifty;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiftieth.dart'
+    show EnglishEntryfiftieth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fifty_fifty.dart'
+    show EnglishEntryfiftyfifty;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fig.dart'
+    show EnglishEntryfig;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fight.dart'
+    show EnglishEntryfight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fighter.dart'
+    show EnglishEntryfighter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figment.dart'
+    show EnglishEntryfigment;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figurative.dart'
+    show EnglishEntryfigurative;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figuratively.dart'
+    show EnglishEntryfiguratively;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figure.dart'
+    show EnglishEntryfigure;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figurehead.dart'
+    show EnglishEntryfigurehead;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_figure_of_speech.dart'
+    show EnglishEntryfigureofspeech; //// فففف figure of speech;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filament.dart'
+    show EnglishEntryfilament;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_file.dart'
+    show EnglishEntryfile;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filings.dart'
+    show EnglishEntryfilings;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filing_cabinet.dart'
+    show EnglishEntryfilingcabinet; //// فففف filing cabinet;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fill.dart'
+    show EnglishEntryfill;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filler.dart'
+    show EnglishEntryfiller;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filling.dart'
+    show EnglishEntryfilling;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fillet.dart'
+    show EnglishEntryfillet;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_film.dart'
+    show EnglishEntryfilm;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_film_star.dart'
+    show EnglishEntryfilmstar; //// ffff film star;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filter.dart'
+    show EnglishEntryfilter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filth.dart'
+    show EnglishEntryfilth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_filthy.dart'
+    show EnglishEntryfilthy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fin.dart'
+    show EnglishEntryfin;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_final.dart'
+    show EnglishEntryfinal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finalist.dart'
+    show EnglishEntryfinalist;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finalize.dart'
+    show EnglishEntryfinalize;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finally.dart'
+    show EnglishEntryfinally;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finale.dart'
+    show EnglishEntryfinale;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finance.dart'
+    show EnglishEntryfinance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_financial.dart'
+    show EnglishEntryfinancial;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_financially.dart'
+    show EnglishEntryfinancially;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_financier.dart'
+    show EnglishEntryfinancier;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finch.dart'
+    show EnglishEntryfinch;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_find.dart'
+    show EnglishEntryfind;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finder.dart'
+    show EnglishEntryfinder;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finding.dart'
+    show EnglishEntryfinding;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fine.dart'
+    show EnglishEntryfine;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fine_art.dart'
+    show EnglishEntryfineart; //// فففف fineart;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finely.dart'
+    show EnglishEntryfinely;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fineness.dart'
+    show EnglishEntryfineness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finery.dart'
+    show EnglishEntryfinery;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finesse.dart'
+    show EnglishEntryfinesse;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finger.dart'
+    show EnglishEntryfinger;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fingernail.dart'
+    show EnglishEntryfingernail;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fingerprint.dart'
+    show EnglishEntryfingerprint;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fingertip.dart'
+    show EnglishEntryfingertip;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finish.dart'
+    show EnglishEntryfinish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_finite.dart'
+    show EnglishEntryfinite;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fir.dart'
+    show EnglishEntryfir;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fir_cone.dart'
+    show EnglishEntryfircone; //// فففف fir cone;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire.dart'
+    show EnglishEntryfire;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_alarm.dart'
+    show EnglishEntryfirealarm; //// فففف fire alarm;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firearm.dart'
+    show EnglishEntryfirearm;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_brigade.dart'
+    show EnglishEntryfirebrigade; //// فففف fire brigade;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_drill.dart'
+    show EnglishEntryfiredrill; //// فففف fire drill;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_engine.dart'
+    show EnglishEntryfireengine; //// فففف fire engine;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_escape.dart'
+    show EnglishEntryfireescape; //// fire escape;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_extinguisher.dart'
+    show EnglishEntryfireextinguisher; //// فففف fire extinguisher;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firefighter.dart'
+    show EnglishEntryfirefighter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireguard.dart'
+    show EnglishEntryfireguard;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireplace.dart'
+    show EnglishEntryfireplace;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireproof.dart'
+    show EnglishEntryfireproof;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fireside.dart'
+    show EnglishEntryfireside;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fire_station.dart'
+    show EnglishEntryfirestation; //// فففف fire station;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firewood.dart'
+    show EnglishEntryfirewood;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firework.dart'
+    show EnglishEntryfirework;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firing_line.dart'
+    show EnglishEntryfiringline; //// فففف firing line;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firing_squad.dart'
+    show EnglishEntryfiringsquad; //// فففف firing squad;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firm.dart'
+    show EnglishEntryfirm;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firmly.dart'
+    show EnglishEntryfirmly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firmness.dart'
+    show EnglishEntryfirmness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first.dart'
+    show EnglishEntryfirst;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_aid.dart'
+    show EnglishEntryfirstaid; //// فففف first aid;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_class.dart'
+    show EnglishEntryfirstclass; //// ffff first class;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_floor.dart'
+    show EnglishEntryfirstfloor; //// فففف first floor;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_hand.dart'
+    show EnglishEntryfirsthand; //// فففف first-hand;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_firstly.dart'
+    show EnglishEntryfirstly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_name.dart'
+    show EnglishEntryfirstname; //// فففف first name;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_the_first_person.dart'
+    show EnglishEntrythefirstperson; //// فففف the first person;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_first_rate.dart'
+    show EnglishEntryfirstrate; //// فففف first-rate;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fish.dart'
+    show EnglishEntryfish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fisherman.dart'
+    show EnglishEntryfisherman;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishery.dart'
+    show EnglishEntryfishery;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishing.dart'
+    show EnglishEntryfishing;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishmonger.dart'
+    show EnglishEntryfishmonger;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fishy.dart'
+    show EnglishEntryfishy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fission.dart'
+    show EnglishEntryfission;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fissure.dart'
+    show EnglishEntryfissure;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fist.dart'
+    show EnglishEntryfist;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fistful.dart'
+    show EnglishEntryfistful;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fit.dart'
+    show EnglishEntryfit;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitted.dart'
+    show EnglishEntryfitted;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitful.dart'
+    show EnglishEntryfitful;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitfully.dart'
+    show EnglishEntryfitfully;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fitting.dart'
+    show EnglishEntryfitting;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_five.dart'
+    show EnglishEntryfive;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fiver.dart'
+    show EnglishEntryfiver;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fix.dart'
+    show EnglishEntryfix;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fixation.dart'
+    show EnglishEntryfixation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fixture.dart'
+    show EnglishEntryfixture;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fizz.dart'
+    show EnglishEntryfizz;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fizzy.dart'
+    show EnglishEntryfizzy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fizzle.dart'
+    show EnglishEntryfizzle;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flab.dart'
+    show EnglishEntryflab;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flabby.dart'
+    show EnglishEntryflabby;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flabbiness.dart'
+    show EnglishEntryflabbiness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flag.dart'
+    show EnglishEntryflag;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagship.dart'
+    show EnglishEntryflagship;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagon.dart'
+    show EnglishEntryflagon;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagrant.dart'
+    show EnglishEntryflagrant;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagrantly.dart'
+    show EnglishEntryflagrantly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flagstone.dart'
+    show EnglishEntryflagstone;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flair.dart'
+    show EnglishEntryflair;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flake.dart'
+    show EnglishEntryflake;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaky.dart'
+    show EnglishEntryflaky;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamboyant.dart'
+    show EnglishEntryflamboyant;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamboyance.dart'
+    show EnglishEntryflamboyance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamboyantly.dart'
+    show EnglishEntryflamboyantly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flame.dart'
+    show EnglishEntryflame;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaming.dart'
+    show EnglishEntryflaming;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flamingo.dart'
+    show EnglishEntryflamingo;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flammable.dart'
+    show EnglishEntryflammable;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flan.dart'
+    show EnglishEntryflan;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flank.dart'
+    show EnglishEntryflank;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flap.dart'
+    show EnglishEntryflap;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flare.dart'
+    show EnglishEntryflare;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flare_up.dart'
+    show EnglishEntryflareup; //// فففف flare-up;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flash.dart'
+    show EnglishEntryflash;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashback.dart'
+    show EnglishEntryflashback;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashbulb.dart'
+    show EnglishEntryflashbulb;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashlight.dart'
+    show EnglishEntryflashlight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashy.dart'
+    show EnglishEntryflashy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flashily.dart'
+    show EnglishEntryflashily;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flask.dart'
+    show EnglishEntryflask;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flat.dart'
+    show EnglishEntryflat;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flat_footed.dart'
+    show EnglishEntryflatfooted; //// فففف flat-footed;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flatten.dart'
+    show EnglishEntryflatten;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flatter.dart'
+    show EnglishEntryflatter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flatterer.dart'
+    show EnglishEntryflatterer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flattery.dart'
+    show EnglishEntryflattery;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaunt.dart'
+    show EnglishEntryflaunt;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flautist.dart'
+    show EnglishEntryflautist;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flavour.dart'
+    show EnglishEntryflavour;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flavouring.dart'
+    show EnglishEntryflavouring;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flavourless.dart'
+    show EnglishEntryflavourless;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaw.dart'
+    show EnglishEntryflaw;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flawed.dart'
+    show EnglishEntryflawed;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flawless.dart'
+    show EnglishEntryflawless;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flawlessly.dart'
+    show EnglishEntryflawlessly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flax.dart'
+    show EnglishEntryflax;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flaxen.dart'
+    show EnglishEntryflaxen;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flea.dart'
+    show EnglishEntryflea;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleck.dart'
+    show EnglishEntryfleck;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flee.dart'
+    show EnglishEntryflee;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleece.dart'
+    show EnglishEntryfleece;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleecy.dart'
+    show EnglishEntryfleecy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleet.dart'
+    show EnglishEntryfleet;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleeting.dart'
+    show EnglishEntryfleeting;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flesh.dart'
+    show EnglishEntryflesh;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fleshy.dart'
+    show EnglishEntryfleshy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flex.dart'
+    show EnglishEntryflex;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flexible.dart'
+    show EnglishEntryflexible;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flexibility.dart'
+    show EnglishEntryflexibility;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flick.dart'
+    show EnglishEntryflick;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flicker.dart'
+    show EnglishEntryflicker;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flight.dart'
+    show EnglishEntryflight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flight_path.dart'
+    show EnglishEntryflightpath; //// فففف flight path;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flimsy.dart'
+    show EnglishEntryflimsy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flimsily.dart'
+    show EnglishEntryflimsily;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flinch.dart'
+    show EnglishEntryflinch;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fling.dart'
+    show EnglishEntryfling;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flint.dart'
+    show EnglishEntryflint;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flip.dart'
+    show EnglishEntryflip;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flippancy.dart'
+    show EnglishEntryflippancy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flippant.dart'
+    show EnglishEntryflippant;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flippantly.dart'
+    show EnglishEntryflippantly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flipper.dart'
+    show EnglishEntryflipper;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flirt.dart'
+    show EnglishEntryflirt;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flirtation.dart'
+    show EnglishEntryflirtation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flit.dart'
+    show EnglishEntryflit;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_float.dart'
+    show EnglishEntryfloat;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floating.dart'
+    show EnglishEntryfloating;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flock.dart'
+    show EnglishEntryflock;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flog.dart'
+    show EnglishEntryflog;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flogging.dart'
+    show EnglishEntryflogging;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flood.dart'
+    show EnglishEntryflood;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flood_tide.dart'
+    show EnglishEntryfloodtide; //// فففف flood tide;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floodlight.dart'
+    show EnglishEntryfloodlight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floor.dart'
+    show EnglishEntryfloor;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floorboard.dart'
+    show EnglishEntryfloorboard;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floor_show.dart'
+    show EnglishEntryfloorshow; //// فففف floor show;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flop.dart'
+    show EnglishEntryflop;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floppy.dart'
+    show EnglishEntryfloppy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floppy_disk.dart'
+    show EnglishEntryfloppydisk; //// ffff floppy disk;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flora.dart'
+    show EnglishEntryflora;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_floral.dart'
+    show EnglishEntryfloral;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_florid.dart'
+    show EnglishEntryflorid;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_florist.dart'
+    show EnglishEntryflorist;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flotation.dart'
+    show EnglishEntryflotation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flotilla.dart'
+    show EnglishEntryflotilla;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flounce.dart'
+    show EnglishEntryflounce;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flounder.dart'
+    show EnglishEntryflounder;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flour.dart'
+    show EnglishEntryflour;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flourish.dart'
+    show EnglishEntryflourish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flout.dart'
+    show EnglishEntryflout;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flow.dart'
+    show EnglishEntryflow;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flower.dart'
+    show EnglishEntryflower;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flower_bed.dart'
+    show EnglishEntryflowerbed; //// فففف flower bed;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flowerpot.dart'
+    show EnglishEntryflowerpot;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flowery.dart'
+    show EnglishEntryflowery;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flu.dart'
+    show EnglishEntryflu;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluctuate.dart'
+    show EnglishEntryfluctuate;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluctuation.dart'
+    show EnglishEntryfluctuation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluency.dart'
+    show EnglishEntryfluency;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluent.dart'
+    show EnglishEntryfluent;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluently.dart'
+    show EnglishEntryfluently;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluff.dart'
+    show EnglishEntryfluff;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluffy.dart'
+    show EnglishEntryfluffy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluid.dart'
+    show EnglishEntryfluid;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluke.dart'
+    show EnglishEntryfluke;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluorescent.dart'
+    show EnglishEntryfluorescent;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluoride.dart'
+    show EnglishEntryfluoride;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flurried.dart'
+    show EnglishEntryflurried;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flurry.dart'
+    show EnglishEntryflurry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flush.dart'
+    show EnglishEntryflush;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flushed.dart'
+    show EnglishEntryflushed;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fluster.dart'
+    show EnglishEntryfluster;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flute.dart'
+    show EnglishEntryflute;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flutter.dart'
+    show EnglishEntryflutter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flux.dart'
+    show EnglishEntryflux;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fly.dart'
+    show EnglishEntryfly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flying_saucer.dart'
+    show EnglishEntryflyingsaucer; //// ffff flying saucer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flying_squad.dart'
+    show EnglishEntryflyingsquad; //// فففف flying squad;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flying_visit.dart'
+    show EnglishEntryflyingvisit; //// فففف flying visit;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flyer.dart'
+    show EnglishEntryflyer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flyleaf.dart'
+    show EnglishEntryflyleaf;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_flyover.dart'
+    show EnglishEntryflyover;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foal.dart'
+    show EnglishEntryfoal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foam.dart'
+    show EnglishEntryfoam;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_focus.dart'
+    show EnglishEntryfocus;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fodder.dart'
+    show EnglishEntryfodder;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foe.dart'
+    show EnglishEntryfoe;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foetus.dart'
+    show EnglishEntryfoetus;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fog.dart'
+    show EnglishEntryfog;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fogbound.dart'
+    show EnglishEntryfogbound;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foggy.dart'
+    show EnglishEntryfoggy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foghorn.dart'
+    show EnglishEntryfoghorn;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fog_lamp.dart'
+    show EnglishEntryfoglamp; //// فففف fog lamp;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foil.dart'
+    show EnglishEntryfoil;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fold.dart'
+    show EnglishEntryfold;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folder.dart'
+    show EnglishEntryfolder;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foliage.dart'
+    show EnglishEntryfoliage;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk.dart'
+    show EnglishEntryfolk;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk_dance.dart'
+    show EnglishEntryfolkdance; //// فففف folk dance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folklore.dart'
+    show EnglishEntryfolklore;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk_music.dart'
+    show EnglishEntryfolkmusic; //// فففف folk music;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folk_song.dart'
+    show EnglishEntryfolksong; //// فففف folk song;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_follow.dart'
+    show EnglishEntryfollow;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_follower.dart'
+    show EnglishEntryfollower;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_follow_up.dart'
+    show EnglishEntryfollowup; //// ffff follow-up;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_following.dart'
+    show EnglishEntryfollowing;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_folly.dart'
+    show EnglishEntryfolly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fond.dart'
+    show EnglishEntryfond;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fondly.dart'
+    show EnglishEntryfondly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fondness.dart'
+    show EnglishEntryfondness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fondle.dart'
+    show EnglishEntryfondle;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_font.dart'
+    show EnglishEntryfont;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_food.dart'
+    show EnglishEntryfood;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foodstuff.dart'
+    show EnglishEntryfoodstuff;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fool.dart'
+    show EnglishEntryfool;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolhardy.dart'
+    show EnglishEntryfoolhardy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolish.dart'
+    show EnglishEntryfoolish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolishly.dart'
+    show EnglishEntryfoolishly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolishness.dart'
+    show EnglishEntryfoolishness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foolproof.dart'
+    show EnglishEntryfoolproof;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foot.dart'
+    show EnglishEntryfoot;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foot_and_mouth_disease.dart'
+    show EnglishEntryfootandmouthdisease; //// فففف foot-and-mouth disease;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_football.dart'
+    show EnglishEntryfootball;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footballer.dart'
+    show EnglishEntryfootballer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_football_pools.dart'
+    show EnglishEntryfootballpools; //// فففف football pools;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footer.dart'
+    show EnglishEntryfooter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foothill.dart'
+    show EnglishEntryfoothill;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foothold.dart'
+    show EnglishEntryfoothold;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footnote.dart'
+    show EnglishEntryfootnote;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footpath.dart'
+    show EnglishEntryfootpath;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footprint.dart'
+    show EnglishEntryfootprint;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footstep.dart'
+    show EnglishEntryfootstep;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_footwear.dart'
+    show EnglishEntryfootwear;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_for.dart'
+    show EnglishEntryfor;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forage.dart'
+    show EnglishEntryforage;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foray.dart'
+    show EnglishEntryforay;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forbearance.dart'
+    show EnglishEntryforbearance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forbid.dart'
+    show EnglishEntryforbid;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forbidding.dart'
+    show EnglishEntryforbidding;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_force.dart'
+    show EnglishEntryforce;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forceful.dart'
+    show EnglishEntryforceful;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forcefully.dart'
+    show EnglishEntryforcefully;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forceps.dart'
+    show EnglishEntryforceps;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forcible.dart'
+    show EnglishEntryforcible;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forcibly.dart'
+    show EnglishEntryforcibly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_ford.dart'
+    show EnglishEntryford;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fore.dart'
+    show EnglishEntryfore;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forearm.dart'
+    show EnglishEntryforearm;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forebear.dart'
+    show EnglishEntryforebear;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreboding.dart'
+    show EnglishEntryforeboding;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forecast.dart'
+    show EnglishEntryforecast;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forecourt.dart'
+    show EnglishEntryforecourt;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forefather.dart'
+    show EnglishEntryforefather;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forefinger.dart'
+    show EnglishEntryforefinger;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forefront.dart'
+    show EnglishEntryforefront;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreground.dart'
+    show EnglishEntryforeground;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forehand.dart'
+    show EnglishEntryforehand;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forehead.dart'
+    show EnglishEntryforehead;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreign.dart'
+    show EnglishEntryforeign;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreigner.dart'
+    show EnglishEntryforeigner;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreign_exchange.dart'
+    show EnglishEntryforeignexchange; //// فففف foreign exchange;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreman.dart'
+    show EnglishEntryforeman;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foremost.dart'
+    show EnglishEntryforemost;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forensic.dart'
+    show EnglishEntryforensic;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forerunner.dart'
+    show EnglishEntryforerunner;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foresee.dart'
+    show EnglishEntryforesee;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreseeable.dart'
+    show EnglishEntryforeseeable;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forest.dart'
+    show EnglishEntryforest;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forestry.dart'
+    show EnglishEntryforestry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forestall.dart'
+    show EnglishEntryforestall;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foretell.dart'
+    show EnglishEntryforetell;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forethought.dart'
+    show EnglishEntryforethought;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forever.dart'
+    show EnglishEntryforever;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forewarn.dart'
+    show EnglishEntryforewarn;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foreword.dart'
+    show EnglishEntryforeword;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forfeit.dart'
+    show EnglishEntryforfeit;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forge.dart'
+    show EnglishEntryforge;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forger.dart'
+    show EnglishEntryforger;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgery.dart'
+    show EnglishEntryforgery;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forget.dart'
+    show EnglishEntryforget;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgetful.dart'
+    show EnglishEntryforgetful;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgivable.dart'
+    show EnglishEntryforgivable;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgive.dart'
+    show EnglishEntryforgive;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgiveness.dart'
+    show EnglishEntryforgiveness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgiving.dart'
+    show EnglishEntryforgiving;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forgo.dart'
+    show EnglishEntryforgo;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fork.dart'
+    show EnglishEntryfork;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forked.dart'
+    show EnglishEntryforked;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forklift_truck.dart'
+    show EnglishEntryforklifttruck; //// فففف forklift truck;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forlorn.dart'
+    show EnglishEntryforlorn;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forlornly.dart'
+    show EnglishEntryforlornly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_form.dart'
+    show EnglishEntryform;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formless.dart'
+    show EnglishEntryformless;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formal.dart'
+    show EnglishEntryformal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formality.dart'
+    show EnglishEntryformality;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formalize.dart'
+    show EnglishEntryformalize;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formally.dart'
+    show EnglishEntryformally;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_format.dart'
+    show EnglishEntryformat;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formation.dart'
+    show EnglishEntryformation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formative.dart'
+    show EnglishEntryformative;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_former.dart'
+    show EnglishEntryformer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formidable.dart'
+    show EnglishEntryformidable;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formidably.dart'
+    show EnglishEntryformidably;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formula.dart'
+    show EnglishEntryformula;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formulate.dart'
+    show EnglishEntryformulate;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_formulation.dart'
+    show EnglishEntryformulation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forsake.dart'
+    show EnglishEntryforsake;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fort.dart'
+    show EnglishEntryfort;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forte.dart'
+    show EnglishEntryforte;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forth.dart'
+    show EnglishEntryforth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forthcoming.dart'
+    show EnglishEntryforthcoming;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortify.dart'
+    show EnglishEntryfortify;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortification.dart'
+    show EnglishEntryfortification;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortnight.dart'
+    show EnglishEntryfortnight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortnightly.dart'
+    show EnglishEntryfortnightly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortress.dart'
+    show EnglishEntryfortress;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortuitous.dart'
+    show EnglishEntryfortuitous;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortunate.dart'
+    show EnglishEntryfortunate;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortunately.dart'
+    show EnglishEntryfortunately;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortune.dart'
+    show EnglishEntryfortune;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortune_teller.dart'
+    show EnglishEntryfortuneteller; //// فففف fortune teller;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forty.dart'
+    show EnglishEntryforty;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fortieth.dart'
+    show EnglishEntryfortieth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forum.dart'
+    show EnglishEntryforum;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forward.dart'
+    show EnglishEntryforward;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forwardness.dart'
+    show EnglishEntryforwardness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_forward_looking.dart'
+    show EnglishEntryforwardlooking; //// فففف forward-looking;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fossil.dart'
+    show EnglishEntryfossil;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fossilize.dart'
+    show EnglishEntryfossilize;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foster.dart'
+    show EnglishEntryfoster;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foul.dart'
+    show EnglishEntryfoul;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foul_play.dart'
+    show EnglishEntryfoulplay; //// فففف foul play;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_found.dart'
+    show EnglishEntryfound;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foundation.dart'
+    show EnglishEntryfoundation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_founder.dart'
+    show EnglishEntryfounder;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foundry.dart'
+    show EnglishEntryfoundry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fount.dart'
+    show EnglishEntryfount;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fountain.dart'
+    show EnglishEntryfountain;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fountain_pen.dart'
+    show EnglishEntryfountainpen; //// ffff fountain pen;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_four.dart'
+    show EnglishEntryfour;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fourth.dart'
+    show EnglishEntryfourth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fourteen.dart'
+    show EnglishEntryfourteen;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fourteenth.dart'
+    show EnglishEntryfourteenth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fowl.dart'
+    show EnglishEntryfowl;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fox.dart'
+    show EnglishEntryfox;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_foyer.dart'
+    show EnglishEntryfoyer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fractal.dart'
+    show EnglishEntryfractal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraction.dart'
+    show EnglishEntryfraction;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fractional.dart'
+    show EnglishEntryfractional;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fracture.dart'
+    show EnglishEntryfracture;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragile.dart'
+    show EnglishEntryfragile;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragility.dart'
+    show EnglishEntryfragility;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragment.dart'
+    show EnglishEntryfragment;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragmentary.dart'
+    show EnglishEntryfragmentary;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragmentation.dart'
+    show EnglishEntryfragmentation;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragrance.dart'
+    show EnglishEntryfragrance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fragrant.dart'
+    show EnglishEntryfragrant;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frail.dart'
+    show EnglishEntryfrail;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frailty.dart'
+    show EnglishEntryfrailty;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frame.dart'
+    show EnglishEntryframe;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_framework.dart'
+    show EnglishEntryframework;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_franchise.dart'
+    show EnglishEntryfranchise;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frank.dart'
+    show EnglishEntryfrank;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frankness.dart'
+    show EnglishEntryfrankness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frankfurter.dart'
+    show EnglishEntryfrankfurter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frantic.dart'
+    show EnglishEntryfrantic;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternal.dart'
+    show EnglishEntryfraternal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternally.dart'
+    show EnglishEntryfraternally;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternity.dart'
+    show EnglishEntryfraternity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternize.dart'
+    show EnglishEntryfraternize;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraternization.dart'
+    show EnglishEntryfraternization;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraud.dart'
+    show EnglishEntryfraud;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraudulent.dart'
+    show EnglishEntryfraudulent;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fraught.dart'
+    show EnglishEntryfraught;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fray.dart'
+    show EnglishEntryfray;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freak.dart'
+    show EnglishEntryfreak;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freakish.dart'
+    show EnglishEntryfreakish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freckle.dart'
+    show EnglishEntryfreckle;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freckled.dart'
+    show EnglishEntryfreckled;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free.dart'
+    show EnglishEntryfree;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_enterprise.dart'
+    show EnglishEntryfreeenterprise; //// ffff free enterprise;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_for_all.dart'
+    show EnglishEntryfreeforall; //// فففف free-for-all;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freehand.dart'
+    show EnglishEntryfreehand;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freelance.dart'
+    show EnglishEntryfreelance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freely.dart'
+    show EnglishEntryfreely;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_radical.dart'
+    show EnglishEntryfreeradical; //// فففف free radical;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_range.dart'
+    show EnglishEntryfreerange; //// فففف free-range;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_speech.dart'
+    show EnglishEntryfreespeech; //// فففف free speech;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_trade.dart'
+    show EnglishEntryfreetrade; //// ffff free trade;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_free_will.dart'
+    show EnglishEntryfreewill; //// ffff free will;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freedom.dart'
+    show EnglishEntryfreedom;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freeze.dart'
+    show EnglishEntryfreeze;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freezer.dart'
+    show EnglishEntryfreezer;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freezing_point.dart'
+    show EnglishEntryfreezingpoint; //// فففف freezing point;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freight.dart'
+    show EnglishEntryfreight;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freighter.dart'
+    show EnglishEntryfreighter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_french.dart'
+    show EnglishEntryfrench; //// ffff French;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_french_window.dart'
+    show EnglishEntryfrenchwindow; //// ffff French window;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frenzy.dart'
+    show EnglishEntryfrenzy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frenzied.dart'
+    show EnglishEntryfrenzied;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frequency.dart'
+    show EnglishEntryfrequency;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frequent.dart'
+    show EnglishEntryfrequent;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frequently.dart'
+    show EnglishEntryfrequently;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fresco.dart'
+    show EnglishEntryfresco;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fresh.dart'
+    show EnglishEntryfresh;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshly.dart'
+    show EnglishEntryfreshly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshness.dart'
+    show EnglishEntryfreshness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshwater.dart'
+    show EnglishEntryfreshwater;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_freshen.dart'
+    show EnglishEntryfreshen;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fret.dart'
+    show EnglishEntryfret;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fretful.dart'
+    show EnglishEntryfretful;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fretfully.dart'
+    show EnglishEntryfretfully;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friar.dart'
+    show EnglishEntryfriar;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friction.dart'
+    show EnglishEntryfriction;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friday.dart'
+    show EnglishEntryfriday; //// ffff Friday;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fridge.dart'
+    show EnglishEntryfridge;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friend.dart'
+    show EnglishEntryfriend;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendless.dart'
+    show EnglishEntryfriendless;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendly.dart'
+    show EnglishEntryfriendly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendliness.dart'
+    show EnglishEntryfriendliness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_friendship.dart'
+    show EnglishEntryfriendship;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frieze.dart'
+    show EnglishEntryfrieze;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigate.dart'
+    show EnglishEntryfrigate;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fright.dart'
+    show EnglishEntryfright;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frighten.dart'
+    show EnglishEntryfrighten;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightened.dart'
+    show EnglishEntryfrightened;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightening.dart'
+    show EnglishEntryfrightening;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frighteningly.dart'
+    show EnglishEntryfrighteningly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightful.dart'
+    show EnglishEntryfrightful;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frightfully.dart'
+    show EnglishEntryfrightfully;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigid.dart'
+    show EnglishEntryfrigid;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigidity.dart'
+    show EnglishEntryfrigidity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frigidly.dart'
+    show EnglishEntryfrigidly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frill.dart'
+    show EnglishEntryfrill;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frilly.dart'
+    show EnglishEntryfrilly;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fringe.dart'
+    show EnglishEntryfringe;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frisk.dart'
+    show EnglishEntryfrisk;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frisky.dart'
+    show EnglishEntryfrisky;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fritter.dart'
+    show EnglishEntryfritter;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frivolous.dart'
+    show EnglishEntryfrivolous;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frivolity.dart'
+    show EnglishEntryfrivolity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frivolously.dart'
+    show EnglishEntryfrivolously;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frizzy.dart'
+    show EnglishEntryfrizzy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frog.dart'
+    show EnglishEntryfrog;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frogman.dart'
+    show EnglishEntryfrogman;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frolic.dart'
+    show EnglishEntryfrolic;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_from.dart'
+    show EnglishEntryfrom;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_front.dart'
+    show EnglishEntryfront;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frontage.dart'
+    show EnglishEntryfrontage;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frontal.dart'
+    show EnglishEntryfrontal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_the_front_line.dart'
+    show EnglishEntrythefrontline; //// ffff the front line;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_front_page.dart'
+    show EnglishEntryfrontpage; //// فففف front-page;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frontier.dart'
+    show EnglishEntryfrontier;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frost.dart'
+    show EnglishEntryfrost;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frostbite.dart'
+    show EnglishEntryfrostbite;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frostbitten.dart'
+    show EnglishEntryfrostbitten;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frosty.dart'
+    show EnglishEntryfrosty;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_froth.dart'
+    show EnglishEntryfroth;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frothy.dart'
+    show EnglishEntryfrothy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frown.dart'
+    show EnglishEntryfrown;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frugal.dart'
+    show EnglishEntryfrugal;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruit.dart'
+    show EnglishEntryfruit;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruitful.dart'
+    show EnglishEntryfruitful;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruitless.dart'
+    show EnglishEntryfruitless;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruity.dart'
+    show EnglishEntryfruity;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fruition.dart'
+    show EnglishEntryfruition;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frustrate.dart'
+    show EnglishEntryfrustrate;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frustrated.dart'
+    show EnglishEntryfrustrated;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frustration.dart'
+    show EnglishEntryfrustration;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fry.dart'
+    show EnglishEntryfry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_frying_pan.dart'
+    show EnglishEntryfryingpan; //// فففف frying pan;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuck.dart'
+    show EnglishEntryfuck;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuck_all.dart'
+    show EnglishEntryfuckall; //// فففف fuck all;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fucking.dart'
+    show EnglishEntryfucking;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fudge.dart'
+    show EnglishEntryfudge;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuel.dart'
+    show EnglishEntryfuel;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuel_injection.dart'
+    show EnglishEntryfuelinjection; //// فففف fuel injection;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fugitive.dart'
+    show EnglishEntryfugitive;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fulfil.dart'
+    show EnglishEntryfulfil;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fulfilment.dart'
+    show EnglishEntryfulfilment;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full.dart'
+    show EnglishEntryfull;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_board.dart'
+    show EnglishEntryfullboard;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_length.dart'
+    show EnglishEntryfulllength; //// فففف full-length;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_moon.dart'
+    show EnglishEntryfullmoon; //// فففف full moon;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fullness.dart'
+    show EnglishEntryfullness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_scale.dart'
+    show EnglishEntryfullscale; //// فففف full-scale;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_stop.dart'
+    show EnglishEntryfullstop; //// full stop;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_full_time.dart'
+    show EnglishEntryfulltime; //// فففف full-time;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fully.dart'
+    show EnglishEntryfully;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fumble.dart'
+    show EnglishEntryfumble;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fume.dart'
+    show EnglishEntryfume;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fun.dart'
+    show EnglishEntryfun;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_function.dart'
+    show EnglishEntryfunction;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_functional.dart'
+    show EnglishEntryfunctional;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_functionality.dart'
+    show EnglishEntryfunctionality;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fund.dart'
+    show EnglishEntryfund;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamental.dart'
+    show EnglishEntryfundamental;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamentalism.dart'
+    show EnglishEntryfundamentalism;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamentalist.dart'
+    show EnglishEntryfundamentalist;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fundamentally.dart'
+    show EnglishEntryfundamentally;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funeral.dart'
+    show EnglishEntryfuneral;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funeral_parlour.dart'
+    show EnglishEntryfuneralparlour; //// فففف funeral parlour;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fungus.dart'
+    show EnglishEntryfungus;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funnel.dart'
+    show EnglishEntryfunnel;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funny.dart'
+    show EnglishEntryfunny;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funnily.dart'
+    show EnglishEntryfunnily;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_funny_bone.dart'
+    show EnglishEntryfunnybone; //// فففف funny bone;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fur.dart'
+    show EnglishEntryfur;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furry.dart'
+    show EnglishEntryfurry;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furious.dart'
+    show EnglishEntryfurious;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furiously.dart'
+    show EnglishEntryfuriously;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furlong.dart'
+    show EnglishEntryfurlong;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furnace.dart'
+    show EnglishEntryfurnace;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furnish.dart'
+    show EnglishEntryfurnish;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furnishings.dart'
+    show EnglishEntryfurnishings;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furniture.dart'
+    show EnglishEntryfurniture;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furrier.dart'
+    show EnglishEntryfurrier;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furrow.dart'
+    show EnglishEntryfurrow;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_further.dart'
+    show EnglishEntryfurther;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtherance.dart'
+    show EnglishEntryfurtherance;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_further_education.dart'
+    show EnglishEntryfurthereducation; //// فففف further education;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furthermore.dart'
+    show EnglishEntryfurthermore;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furthermost.dart'
+    show EnglishEntryfurthermost;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtive.dart'
+    show EnglishEntryfurtive;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtively.dart'
+    show EnglishEntryfurtively;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_furtiveness.dart'
+    show EnglishEntryfurtiveness;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fury.dart'
+    show EnglishEntryfury;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuse.dart'
+    show EnglishEntryfuse;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuselage.dart'
+    show EnglishEntryfuselage;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fusion.dart'
+    show EnglishEntryfusion;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuss.dart'
+    show EnglishEntryfuss;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fussy.dart'
+    show EnglishEntryfussy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fussily.dart'
+    show EnglishEntryfussily;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_futile.dart'
+    show EnglishEntryfutile;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_futility.dart'
+    show EnglishEntryfutility;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_future.dart'
+    show EnglishEntryfuture;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_futuristic.dart'
+    show EnglishEntryfuturistic;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzz.dart'
+    show EnglishEntryfuzz;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzzy.dart'
+    show EnglishEntryfuzzy;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzzily.dart'
+    show EnglishEntryfuzzily;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_entry_fuzziness.dart'
+    show EnglishEntryfuzziness;
+
 
 
 // en_entry_g.dart' show EnglishEntryg
@@ -3626,26 +4308,26 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gammon.dart' show EnglishEntrygammon
 // en_entry_gamut.dart' show EnglishEntrygamut
 // en_entry_gander.dart' show EnglishEntrygander
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_gang.dart' show EnglishEntrygang
+// en_entry_gangling.dart' show EnglishEntrygangling
+// en_entry_gangrene.dart' show EnglishEntrygangrene
+// en_entry_gangrenous.dart' show EnglishEntrygangrenous
+// en_entry_gangster.dart' show EnglishEntrygangster
+// en_entry_gangway.dart' show EnglishEntrygangway
+// en_entry_gap.dart' show EnglishEntrygap
+// en_entry_gape.dart' show EnglishEntrygape
+// en_entry_garage.dart' show EnglishEntrygarage
+// en_entry_garbage.dart' show EnglishEntrygarbage
+// en_entry_garbled.dart' show EnglishEntrygarbled
+// en_entry_garden.dart' show EnglishEntrygarden
+// en_entry_garden_centre.dart' show EnglishEntrygardencentre //// فففف garden centre
+// en_entry_gardener.dart' show EnglishEntrygardener
+// en_entry_gardening.dart' show EnglishEntrygardening
+// en_entry_garden_party.dart' show EnglishEntrygardenparty //// فففف garden party
+// en_entry_gargle.dart' show EnglishEntrygargle
+// en_entry_gargoyle.dart' show EnglishEntrygargoyle
+// en_entry_garish.dart' show EnglishEntrygarish
+// en_entry_garishly.dart' show EnglishEntrygarishly
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

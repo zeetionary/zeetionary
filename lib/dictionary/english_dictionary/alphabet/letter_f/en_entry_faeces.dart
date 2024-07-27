@@ -318,8 +318,8 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Noun: faeces
-1. Usage: Brit, Cdn (US: feces)
-Solid excretory product evacuated from the bowels (= fecal matter [N. Amer], faecal matter [Brit, Cdn], feces [N. Amer], BM, stool, ordure, dejection)
+Usage: Brit, Cdn (US: feces)
+1. Solid excretory product evacuated from the bowels (= fecal matter [N. Amer], faecal matter [Brit, Cdn], feces [N. Amer], BM, stool, ordure, dejection)
 """,
   );
 

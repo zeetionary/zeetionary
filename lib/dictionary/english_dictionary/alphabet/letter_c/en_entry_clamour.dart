@@ -268,8 +268,8 @@ Usage: Brit, Cdn (US: clamor)
 "They clamoured the mayor into building a new park";
 
 - Noun: clamour  (derived forms: clamours)
-1. Usage: Brit, Cdn (US: clamor) (= blare, blaring, cacophony, clamor [US], din)
-A loud harsh or strident noise
+Usage: Brit, Cdn (US: clamor) (= blare, blaring, cacophony, clamor [US], din)
+1. A loud harsh or strident noise
  
 2. Loud and persistent outcry from many people (= clamor [US], clamoring [US], clamouring [Brit, Cdn], hue and cry)
 "he ignored the clamour of the crowd";

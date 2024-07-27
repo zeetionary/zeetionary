@@ -301,8 +301,8 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Adjective: cushy (derived forms: cushier, cushiest)
-1. Usage: informal
-Not burdensome or demanding; borne or done easily and without hardship (= soft, easygoing, easy-going)
+Usage: informal
+1. Not burdensome or demanding; borne or done easily and without hardship (= soft, easygoing, easy-going)
 "what a cushy job!";
 """,
   );

@@ -94,7 +94,7 @@ class EnglishEntryastrology extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryastrology extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstrɒlədʒi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstrɒlədʒi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastrology("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryastrology extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstrɑːlədʒi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstrɑːlədʒi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastrology("en-US"),
                             ),
@@ -170,9 +166,7 @@ class EnglishEntryastrology extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک کەس ھێشتا باوەڕیان بە فەلەکناسی ھەیە.",
                             onPressedBritish: () => speakastrology408("en-GB"),
-                            onPressedAmerican: () =>
-                                speakastrology408(// REPLACE: astrology
-                                    "en-US"),
+                            onPressedAmerican: () => speakastrology408("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

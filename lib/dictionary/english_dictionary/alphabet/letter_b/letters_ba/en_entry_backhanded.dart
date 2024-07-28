@@ -87,7 +87,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌbækˈhændɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌbækˈhændɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbackhanded("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌbækˈhændɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌbækˈhændɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbackhanded("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntrybackhanded extends StatelessWidget {
                             kurdishText:
                                 "لە پەسنێکی دڵپاکانەدا وتی زۆر گەنجە بەپێی تەمەنی خۆی.",
                             onPressedBritish: () => speakbackhandeds2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackhandeds2(// REPLACE: backhanded
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackhandeds2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

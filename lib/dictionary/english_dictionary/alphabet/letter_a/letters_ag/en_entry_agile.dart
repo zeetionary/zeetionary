@@ -77,9 +77,7 @@ class EnglishEntryagile extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈædʒl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈædʒl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakagile("en-US"),
                             ),

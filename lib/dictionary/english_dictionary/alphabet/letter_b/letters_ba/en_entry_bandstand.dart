@@ -87,7 +87,7 @@ class EnglishEntrybandstand extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybandstand extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbændstænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbændstænd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbandstand("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybandstand extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbændstænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbændstænd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbandstand("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybandstand extends StatelessWidget {
                             kurdishText:
                                 "بۆنەکە باندێک لەخۆدەگرێت کە گۆرانی دەڵێن لەسەر سەکۆ نۆژەنکراوەکە.",
                             onPressedBritish: () => speakbandstands1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbandstands1(// REPLACE: bandstand
-                                    "en-US"),
+                            onPressedAmerican: () => speakbandstands1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

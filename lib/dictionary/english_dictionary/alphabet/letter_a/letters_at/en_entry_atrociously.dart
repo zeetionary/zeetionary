@@ -95,7 +95,7 @@ class EnglishEntryatrociously extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryatrociously extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtrəʊʃəsli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtrəʊʃəsli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatrociously("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryatrociously extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtrəʊʃəsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtrəʊʃəsli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatrociously("en-US"),
                             ),
@@ -172,9 +168,8 @@ class EnglishEntryatrociously extends StatelessWidget {
                                 "فیلمەکە خراپ ڕۆڵی تێداگێڕدراوە و شپرزانەش دەرھێنانی بۆکراوە.",
                             onPressedBritish: () =>
                                 speakatrociously302("en-GB"),
-                            onPressedAmerican: () => speakatrociously302(
-                                // REPLACE: atrociously
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakatrociously302("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +182,8 @@ class EnglishEntryatrociously extends StatelessWidget {
                                 "ئەم زیندانییانە دڵڕەقانە مامەڵەیان لەگەڵ کراوە.",
                             onPressedBritish: () =>
                                 speakatrociously303("en-GB"),
-                            onPressedAmerican: () => speakatrociously303(
-                                // REPLACE: atrociously
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakatrociously303("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

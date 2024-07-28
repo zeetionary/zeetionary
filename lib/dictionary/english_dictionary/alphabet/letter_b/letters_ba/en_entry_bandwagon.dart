@@ -87,7 +87,7 @@ class EnglishEntrybandwagon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybandwagon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbændwæɡən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbændwæɡən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbandwagon("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybandwagon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbændwæɡən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbændwæɡən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbandwagon("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntrybandwagon extends StatelessWidget {
                             kurdishText:
                                 "وادیارن کە بەرەیەکی ناڕەزایی دژ بە حکومەتیان دەستپێ‌کردووە.",
                             onPressedBritish: () => speakbandwagons1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbandwagons1(// REPLACE: bandwagon
-                                    "en-US"),
+                            onPressedAmerican: () => speakbandwagons1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -77,9 +77,7 @@ class EnglishEntryactual extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæktʃuəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæktʃuəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakactual("en-US"),
                             ),
@@ -120,18 +118,14 @@ class EnglishEntryactual extends StatelessWidget {
                             kurdishText:
                                 "تێچووی ڕاستی زیاتر لەوە بوو کە چاوەڕێمان دەکرد.",
                             onPressedBritish: () => speakactual4528("en-GB"),
-                            onPressedAmerican: () =>
-                                speakactual4528(// REPLACE: actual
-                                    "en-US"),
+                            onPressedAmerican: () => speakactual4528("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
                             englishText: "What were his actual words?",
                             kurdishText: "قسەکانی بە دەقیقی چی بوون؟",
                             onPressedBritish: () => speakactual4967("en-GB"),
-                            onPressedAmerican: () =>
-                                speakactual4967(// REPLACE: actual
-                                    "en-US"),
+                            onPressedAmerican: () => speakactual4967("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -142,9 +136,7 @@ class EnglishEntryactual extends StatelessWidget {
                             kurdishText:
                                 "ئامادەکاریی ھاوسەرگیرییەکە چەندین ھەفتەی پێدەچوو، بەڵام ئاھەنگەکە خۆی کەمتر لە یەک کاتژمێری دەوێت.",
                             onPressedBritish: () => speakactu437("en-GB"),
-                            onPressedAmerican: () =>
-                                speakactu437(// REPLACE: actual
-                                    "en-US"),
+                            onPressedAmerican: () => speakactu437("en-US"),
                           ),
                         ],
                       ),

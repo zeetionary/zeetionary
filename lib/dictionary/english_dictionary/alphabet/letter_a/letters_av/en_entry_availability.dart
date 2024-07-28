@@ -88,7 +88,7 @@ class EnglishEntryavailability extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,9 +113,7 @@ class EnglishEntryavailability extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˌveɪləˈbɪləti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˌveɪləˈbɪləti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavailability("en-GB"),
                             ),
@@ -123,9 +121,7 @@ class EnglishEntryavailability extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˌveɪləˈbɪləti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˌveɪləˈbɪləti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavailability("en-US"),
                             ),
@@ -165,9 +161,8 @@ class EnglishEntryavailability extends StatelessWidget {
                                 "ڕێژەی بەردەستێتی بلیت سنووردارە، بۆیە زوو شوێنێک بگرە بۆ ئەوەی تووشی نائومێدی نەبی.",
                             onPressedBritish: () =>
                                 speakavailabilitys1("en-GB"),
-                            onPressedAmerican: () => speakavailabilitys1(
-                                // REPLACE: availability
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakavailabilitys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +175,8 @@ class EnglishEntryavailability extends StatelessWidget {
                                 "پێش ئەوەی چاوپێکەوتنەکە ڕێکبخەیت بزانە کاتی دەبێت.",
                             onPressedBritish: () =>
                                 speakavailabilitys2("en-GB"),
-                            onPressedAmerican: () => speakavailabilitys2(
-                                // REPLACE: availability
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakavailabilitys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

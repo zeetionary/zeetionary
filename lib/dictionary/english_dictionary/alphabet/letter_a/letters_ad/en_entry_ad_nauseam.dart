@@ -78,9 +78,7 @@ class EnglishEntryadnauseam extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌæd ˈnɔːziəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˌæd ˈnɔːziəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadnauseam("en-US"),
                             ),

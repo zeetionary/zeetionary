@@ -87,7 +87,7 @@ class EnglishEntrybarbaric extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybarbaric extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bɑːˈbærɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bɑːˈbærɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbarbaric("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybarbaric extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bɑːrˈbærɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bɑːrˈbærɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbarbaric("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybarbaric extends StatelessWidget {
                             kurdishText:
                                 "شێوازی کووشتنی ئەم ئاژەڵانە ناشارستانیەتانەیە.",
                             onPressedBritish: () => speakbarbarics1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbarbarics1(// REPLACE: barbaric
-                                    "en-US"),
+                            onPressedAmerican: () => speakbarbarics1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +171,7 @@ class EnglishEntrybarbaric extends StatelessWidget {
                             kurdishText:
                                 "خێڵەکە ژیانێکی ناشارستانی دەژیان، دابڕاو لە جیھانی دەرەوە.",
                             onPressedBritish: () => speakbarbarics2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbarbarics2(// REPLACE: barbaric
-                                    "en-US"),
+                            onPressedAmerican: () => speakbarbarics2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

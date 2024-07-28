@@ -87,7 +87,7 @@ class EnglishEntrybanter extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybanter extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæntə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæntə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanter("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybanter extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæntər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæntər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanter("en-US"),
                             ),
@@ -161,9 +157,7 @@ class EnglishEntrybanter extends StatelessWidget {
                                 "He enjoyed exchanging banter with the customers.",
                             kurdishText: "حەزی لە شۆخیکردن لەگەڵ کڕیاران بوو.",
                             onPressedBritish: () => speakbanters1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanters1(// REPLACE: banter
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanters1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +171,7 @@ class EnglishEntrybanter extends StatelessWidget {
                             kurdishText:
                                 "شۆخی لەگەڵ پەیامنێران کرد و بۆ وێنەگران وەستا.",
                             onPressedBritish: () => speakbanters2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanters2(// REPLACE: banter
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanters2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

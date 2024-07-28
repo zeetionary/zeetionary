@@ -94,7 +94,7 @@ class EnglishEntryastonishing extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryastonishing extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstɒnɪʃɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstɒnɪʃɪŋ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastonishing("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryastonishing extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstɑːnɪʃɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstɑːnɪʃɪŋ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastonishing("en-US"),
                             ),
@@ -171,9 +167,8 @@ class EnglishEntryastonishing extends StatelessWidget {
                                 "١٠٠ مەتری بڕی بە ڕاکردن لە ١٠,٦ چرکەدا.",
                             onPressedBritish: () =>
                                 speakastonishing1043("en-GB"),
-                            onPressedAmerican: () => speakastonishing1043(
-                                // REPLACE: astonishing
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastonishing1043("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -86,7 +86,7 @@ class EnglishEntrybacterial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybacterial extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bækˈtɪəriəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bækˈtɪəriəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbacterial("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybacterial extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bækˈtɪriəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bækˈtɪriəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbacterial("en-US"),
                             ),
@@ -158,9 +154,7 @@ class EnglishEntrybacterial extends StatelessWidget {
                             kurdishText:
                                 "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو.",
                             onPressedBritish: () => speakbacterials1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbacterials1(// REPLACE: bacterial
-                                    "en-US"),
+                            onPressedAmerican: () => speakbacterials1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

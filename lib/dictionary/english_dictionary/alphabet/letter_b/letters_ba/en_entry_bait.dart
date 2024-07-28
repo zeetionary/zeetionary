@@ -88,7 +88,7 @@ class EnglishEntrybait extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybait extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /beɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /beɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbait("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybait extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /beɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /beɪt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbait("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntrybait extends StatelessWidget {
                             englishText: "Live worms are used as bait.",
                             kurdishText: "کرمی زیندوو وەک تامک بەکاردێن.",
                             onPressedBritish: () => speakbaits1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaits1(// REPLACE: bait
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaits1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntrybait extends StatelessWidget {
                             kurdishText:
                                 "پۆلیس ئەوی وەک داوێک بەکارھێنا بۆ خستنەتەڵەی بکوژەکان.",
                             onPressedBritish: () => speakbaits2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaits2(// REPLACE: bait
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaits2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +182,7 @@ class EnglishEntrybait extends StatelessWidget {
                             kurdishText:
                                 "پارچە گۆشتێکی لەسەر تەڵەکە دانا وەک داو.",
                             onPressedBritish: () => speakbaits3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaits3(// REPLACE: bait
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaits3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +194,7 @@ class EnglishEntrybait extends StatelessWidget {
                             kurdishText:
                                 "سەربازەکان بەھێمنی مانەوە ئەگەرچی جەماوەرەکە توڕەیان کردن.",
                             onPressedBritish: () => speakbaits4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaits4(// REPLACE: bait
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaits4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -218,9 +206,7 @@ class EnglishEntrybait extends StatelessWidget {
                             kurdishText:
                                 "چالاکی ورچ کوشتن لەکۆتاییدا لە ئینگلتەرە قەدەغەکرا لە سەدەی ١٩.",
                             onPressedBritish: () => speakbaits5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaits5(// REPLACE: bait
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaits5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

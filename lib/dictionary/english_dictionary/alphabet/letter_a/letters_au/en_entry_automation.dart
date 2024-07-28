@@ -94,7 +94,7 @@ class EnglishEntryautomation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryautomation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːtəˈmeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌɔːtəˈmeɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautomation("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryautomation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːtəˈmeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌɔːtəˈmeɪʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautomation("en-US"),
                             ),
@@ -172,9 +168,8 @@ class EnglishEntryautomation extends StatelessWidget {
                             kurdishText:
                                 "بەخۆکارکردن لەدەستچوونی زۆر کاری لە کارگەکاندا بەدواداھات.",
                             onPressedBritish: () => speakautomation838("en-GB"),
-                            onPressedAmerican: () => speakautomation838(
-                                // REPLACE: automation
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakautomation838("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

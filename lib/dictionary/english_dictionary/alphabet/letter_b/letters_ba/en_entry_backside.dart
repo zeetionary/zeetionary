@@ -86,7 +86,7 @@ class EnglishEntrybackside extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybackside extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæksaɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæksaɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakb3("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybackside extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæksaɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæksaɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakb3("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntrybackside extends StatelessWidget {
                                 "Get up off your backside and do some work!",
                             kurdishText: "سمتت لە ئەرز ھەڵبڕە و کارێک بکە.",
                             onPressedBritish: () => speakb3s1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s1(// REPLACE: backside
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

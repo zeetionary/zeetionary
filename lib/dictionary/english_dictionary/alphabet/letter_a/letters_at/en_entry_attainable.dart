@@ -95,7 +95,7 @@ class EnglishEntryattainable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryattainable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈteɪnəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈteɪnəbl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattainable("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryattainable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈteɪnəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈteɪnəbl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattainable("en-US"),
                             ),
@@ -173,9 +169,8 @@ class EnglishEntryattainable extends StatelessWidget {
                             kurdishText:
                                 "ئەم پێوەرە بە ئاسانی لەلایەن زۆرینەی خوێندکاران بەدەستدێت.",
                             onPressedBritish: () => speakattainable715("en-GB"),
-                            onPressedAmerican: () => speakattainable715(
-                                // REPLACE: attainable
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattainable715("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

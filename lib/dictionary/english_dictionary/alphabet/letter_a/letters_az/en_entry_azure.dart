@@ -87,7 +87,7 @@ class EnglishEntryazure extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,8 +112,7 @@ class EnglishEntryazure extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæʒə(r)/, /ˈæzjʊə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˈæʒə(r)/, /ˈæzjʊə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakazure("en-GB"),
                             ),
@@ -121,9 +120,7 @@ class EnglishEntryazure extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæʒər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈæʒər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakazure("en-US"),
                             ),
@@ -158,9 +155,7 @@ class EnglishEntryazure extends StatelessWidget {
                                 "The sun shone out of a clear azure sky.",
                             kurdishText: "خۆر درەوشایەوە بە ئاسمانێکی شیندا.",
                             onPressedBritish: () => speakazures1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakazures1(// REPLACE: azure
-                                    "en-US"),
+                            onPressedAmerican: () => speakazures1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +167,7 @@ class EnglishEntryazure extends StatelessWidget {
                             kurdishText:
                                 "دڵی فڕی بە چاوە شینە ئاسمانییەکەی ژنەکە.",
                             onPressedBritish: () => speakazures2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakazures2(// REPLACE: azure
-                                    "en-US"),
+                            onPressedAmerican: () => speakazures2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

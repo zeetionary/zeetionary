@@ -86,7 +86,7 @@ class EnglishEntrybanknote extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybanknote extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæŋknəʊt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæŋknəʊt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanknote("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybanknote extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæŋknəʊt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæŋknəʊt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanknote("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntrybanknote extends StatelessWidget {
                             englishText: "They issue both banknotes and coins.",
                             kurdishText: "پارەی کاغەز و دراویش دەردەکەن.",
                             onPressedBritish: () => speakbanknotes1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanknotes1(// REPLACE: banknote
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanknotes1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

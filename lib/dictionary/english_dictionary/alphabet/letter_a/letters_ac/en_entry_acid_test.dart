@@ -77,9 +77,7 @@ class EnglishEntryacidtest extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌæsɪd ˈtest/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˌæsɪd ˈtest/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacidtest("en-US"),
                             ),

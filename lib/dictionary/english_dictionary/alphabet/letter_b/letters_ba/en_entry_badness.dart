@@ -86,7 +86,7 @@ class EnglishEntrybadness extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybadness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbædnəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbædnəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbadness("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybadness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbædnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbædnəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbadness("en-US"),
                             ),
@@ -157,9 +153,7 @@ class EnglishEntrybadness extends StatelessWidget {
                                 "There was not a hint of badness in him.",
                             kurdishText: "ھیچ ئاماژەی خراپەکاری تێدابوو.",
                             onPressedBritish: () => speakbadnesss1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadnesss1(// REPLACE: badness
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadnesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

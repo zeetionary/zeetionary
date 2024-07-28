@@ -97,7 +97,7 @@ class EnglishEntryassessor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,15 +114,12 @@ class EnglishEntryassessor extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "assessor"), // Find /əˈsesə(r)/
-                            // divvviiider
+                            EntryTitle(word: "assessor"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈsesə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈsesə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakassessor("en-GB"),
                             ),
@@ -130,9 +127,7 @@ class EnglishEntryassessor extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈsesər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈsesər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakassessor("en-US"),
                             ),

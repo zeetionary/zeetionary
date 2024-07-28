@@ -95,7 +95,7 @@ class EnglishEntryattached extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryattached extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtætʃt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtætʃt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattached("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryattached extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtætʃt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtætʃt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattached("en-US"),
                             ),
@@ -170,9 +166,7 @@ class EnglishEntryattached extends StatelessWidget {
                             kurdishText:
                                 "دڵنیابەرەوە ھەموو وایەرەکان بەتوندی پێکەوەنووساون.",
                             onPressedBritish: () => speakattached340("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattached340(// REPLACE: attached
-                                    "en-US"),
+                            onPressedAmerican: () => speakattached340("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +178,7 @@ class EnglishEntryattached extends StatelessWidget {
                             kurdishText:
                                 "گەورەبووینە بەوەی زۆر دڵبەستەی ئەم ماڵە بووینە.",
                             onPressedBritish: () => speakattached342("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattached342(// REPLACE: attached
-                                    "en-US"),
+                            onPressedAmerican: () => speakattached342("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -198,9 +190,7 @@ class EnglishEntryattached extends StatelessWidget {
                             kurdishText:
                                 "خۆش ئەبێت ئەگەر ھەندێک پیاوی دیکە ببینین کە ھاوسەرگیریان نەکردووە.",
                             onPressedBritish: () => speakattached345("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattached345(// REPLACE: attached
-                                    "en-US"),
+                            onPressedAmerican: () => speakattached345("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -211,9 +201,7 @@ class EnglishEntryattached extends StatelessWidget {
                                 "The research unit is attached to the university.",
                             kurdishText: "یەکەی توێژینەوەکە بەشێکە لە زانکۆکە.",
                             onPressedBritish: () => speakattached346("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattached346(// REPLACE: attached
-                                    "en-US"),
+                            onPressedAmerican: () => speakattached346("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

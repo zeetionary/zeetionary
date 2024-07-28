@@ -87,7 +87,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæŋkrʌpt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæŋkrʌpt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbankrupt("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæŋkrʌpt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæŋkrʌpt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbankrupt("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                             kurdishText:
                                 "خانووەکەی لەدەستدا لە دوای ئەوەی مایەپووچ بوو.",
                             onPressedBritish: () => speakbankrupts1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankrupts1(// REPLACE: bankrupt
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankrupts1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                             kurdishText:
                                 "لە دوای جەنگەکە بەریتانیا شەکەت و مایەپووچ بوو.",
                             onPressedBritish: () => speakbankrupts2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankrupts2(// REPLACE: bankrupt
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankrupts2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +181,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                             kurdishText:
                                 "باوەڕی وایە کۆمەڵگەی ئێستا لەلایەنی ئەخلاقییەوە مایەپووچە.",
                             onPressedBritish: () => speakbankrupts3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankrupts3(// REPLACE: bankrupt
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankrupts3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -203,9 +193,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                             kurdishText:
                                 "دواتر بوو بە گەورەترین مایەپووچی بەریتانیا.",
                             onPressedBritish: () => speakbankrupts4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankrupts4(// REPLACE: bankrupt
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankrupts4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -216,9 +204,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                                 "They feared that the loss would bankrupt them.",
                             kurdishText: "ترسان زیانەکە مایەپووچیان بکات.",
                             onPressedBritish: () => speakbankrupts5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankrupts5(// REPLACE: bankrupt
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankrupts5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

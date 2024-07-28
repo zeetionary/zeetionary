@@ -87,7 +87,7 @@ class EnglishEntryavoid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryavoid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈvɔɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈvɔɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavoid("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryavoid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈvɔɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈvɔɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavoid("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntryavoid extends StatelessWidget {
                             kurdishText:
                                 "دەبێت ڕێگەیەک بدۆزینەوە بۆ خەدوورگرتن لە کێشەی ھاوشێوە لە داھاتوودا.",
                             onPressedBritish: () => speakavoids1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavoids1(// REPLACE: avoid
-                                    "en-US"),
+                            onPressedAmerican: () => speakavoids1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntryavoid extends StatelessWidget {
                             englishText: "He's been avoiding me all week.",
                             kurdishText: "تەواوی ھەفتەکە خۆی لێم دزیوەتەوە.",
                             onPressedBritish: () => speakavoids2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavoids2(// REPLACE: avoid
-                                    "en-US"),
+                            onPressedAmerican: () => speakavoids2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +180,7 @@ class EnglishEntryavoid extends StatelessWidget {
                             kurdishText:
                                 "ئۆتۆمبێلەکە خۆیدابەلا بۆ دووربوون لە لێدانی پشیلەکە.",
                             onPressedBritish: () => speakavoids3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavoids3(// REPLACE: avoid
-                                    "en-US"),
+                            onPressedAmerican: () => speakavoids3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

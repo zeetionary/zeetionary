@@ -93,9 +93,7 @@ class EnglishEntryafloat extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈfləʊt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈfləʊt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakafloat("en-US"),
                             ),

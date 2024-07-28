@@ -86,7 +86,7 @@ class EnglishEntrybaldly extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybaldly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbɔːldli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbɔːldli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbaldly("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybaldly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbɔːldli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbɔːldli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbaldly("en-US"),
                             ),
@@ -156,9 +152,7 @@ class EnglishEntrybaldly extends StatelessWidget {
                             englishText: "‘You're lying,’ he said baldly.",
                             kurdishText: "بە کورتی وتی 'درۆدەکەیت'.",
                             onPressedBritish: () => speakbaldlys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaldlys1(// REPLACE: baldly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaldlys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

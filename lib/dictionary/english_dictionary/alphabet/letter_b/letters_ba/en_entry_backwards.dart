@@ -89,7 +89,7 @@ class EnglishEntrybackwards extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,9 +113,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbækwədz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbækwədz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbackwards("en-GB"),
                             ),
@@ -123,9 +121,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbækwərdz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbækwərdz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbackwards("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                             englishText: "He took a step backwards.",
                             kurdishText: "ھەنگاوێکی بەرەو دواوە نا.",
                             onPressedBritish: () => speakbackwardss1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackwardss1(// REPLACE: backwards
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackwardss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                             kurdishText:
                                 "وشەی ‘Ambulance’ بەپێچەوانەوە دەنووسرێت بۆ ئەوەی بتوانی بیخوێنیتەوە لە ئاوێنەدا.",
                             onPressedBritish: () => speakbackwardss2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackwardss2(// REPLACE: backward
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackwardss2("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -187,9 +179,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                             kurdishText:
                                 "لە فیلمەکەدا بەرەو دواوە گەشت بە کاتدا دەکەن.",
                             onPressedBritish: () => speakbackwardss3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackwardss3(// REPLACE: backward
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackwardss3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -201,9 +191,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                             kurdishText:
                                 "ھەستمکرد گەڕانەوە بۆ ژیانکردن لەگەڵ دایک و باوکم ھەنگاوێک بۆ دواوە دەبێت.",
                             onPressedBritish: () => speakbackwardss4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackwardss4(// REPLACE: backward
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackwardss4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

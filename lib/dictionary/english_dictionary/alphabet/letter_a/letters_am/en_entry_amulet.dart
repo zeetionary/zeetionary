@@ -87,7 +87,7 @@ class EnglishEntryamulet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,15 +104,12 @@ class EnglishEntryamulet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amulet"), // Find /ˈæmjʊlət/
-                            // divvviiider
+                            EntryTitle(word: "amulet"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæmjʊlət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈæmjʊlət/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakamulet("en-GB"),
                             ),

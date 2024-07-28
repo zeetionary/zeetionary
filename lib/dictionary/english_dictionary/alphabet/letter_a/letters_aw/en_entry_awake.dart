@@ -87,7 +87,7 @@ class EnglishEntryawake extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryawake extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈweɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈweɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakawake("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryawake extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈweɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈweɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakawake("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntryawake extends StatelessWidget {
                             kurdishText:
                                 "ھێشتا بەخەبەر بووم کە ھات بۆ ژووری نووستنەکەم.",
                             onPressedBritish: () => speakawakes1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawakes1(// REPLACE: awake
-                                    "en-US"),
+                            onPressedAmerican: () => speakawakes1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +168,7 @@ class EnglishEntryawake extends StatelessWidget {
                             englishText: "I awoke from a deep sleep.",
                             kurdishText: "لە خەوێکی قووڵ ھەستام.",
                             onPressedBritish: () => speakawakes2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawakes2(// REPLACE: awake
-                                    "en-US"),
+                            onPressedAmerican: () => speakawakes2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +180,7 @@ class EnglishEntryawake extends StatelessWidget {
                             kurdishText:
                                 "وتارەکەی بە ئەگەری زۆر ترس و ناکۆکی کۆن ھەڵدەداتەوە.",
                             onPressedBritish: () => speakawakes3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawakes3(// REPLACE: awake
-                                    "en-US"),
+                            onPressedAmerican: () => speakawakes3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

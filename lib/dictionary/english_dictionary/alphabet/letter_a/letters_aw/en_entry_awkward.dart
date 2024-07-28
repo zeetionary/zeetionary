@@ -88,7 +88,7 @@ class EnglishEntryawkward extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryawkward extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːkwəd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːkwəd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakawkward("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryawkward extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːkwərd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːkwərd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakawkward("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntryawkward extends StatelessWidget {
                             englishText: "There was an awkward silence.",
                             kurdishText: "بێ‌دەنگییەکی شەرمھێنەر بوو.",
                             onPressedBritish: () => speakawkwards1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwards1(// REPLACE: awkward
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwards1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +168,7 @@ class EnglishEntryawkward extends StatelessWidget {
                             kurdishText:
                                 "ھەستم بە شەرم دەکرد چونکە ئاشکرا بوو دەیانویست تەنھا بن.",
                             onPressedBritish: () => speakawkwards2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwards2(// REPLACE: awkward
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwards2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +179,7 @@ class EnglishEntryawkward extends StatelessWidget {
                                 "You've put me in an awkward position.",
                             kurdishText: "منت خستووەتە بارودۆخێکی نالەبارەوە.",
                             onPressedBritish: () => speakawkwards3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwards3(// REPLACE: awkward
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwards3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -199,9 +189,7 @@ class EnglishEntryawkward extends StatelessWidget {
                             englishText: "Have I come at an awkward time?",
                             kurdishText: "لە کاتێکی نەگونجاو ھاتووم؟",
                             onPressedBritish: () => speakawkwards4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwards4(// REPLACE: awkward
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwards4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -213,9 +201,7 @@ class EnglishEntryawkward extends StatelessWidget {
                             kurdishText:
                                 "ئەم سنووقە زۆر نەشیاوە بۆ ھەڵگرتنی لەلایەن یەک کەس.",
                             onPressedBritish: () => speakawkwards5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwards5(// REPLACE: awkward
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwards5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -227,9 +213,7 @@ class EnglishEntryawkward extends StatelessWidget {
                             kurdishText:
                                 "دەبێت لەسەر لایەکی خراپ خەوتبم، تەواوی جەستەم دێشێ.",
                             onPressedBritish: () => speakawkwards6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwards6(// REPLACE: awkward
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwards6("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

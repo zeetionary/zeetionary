@@ -86,7 +86,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bɑːˈbeəriən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bɑːˈbeəriən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbarbarian("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bɑːrˈberiən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bɑːrˈberiən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbarbarian("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                             kurdishText:
                                 "شارە بە شوورا دەوردراوەکە لە لایەن خێڵە دەشتەکییەکانەوە بەر ھێرش درا.",
                             onPressedBritish: () => speakbarbarians1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbarbarians1(// REPLACE: barbarian
-                                    "en-US"),
+                            onPressedAmerican: () => speakbarbarians1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntrybarbarian extends StatelessWidget {
                             kurdishText:
                                 "چۆن ئەو ناشارستانیەتییانە بە ھاوڕێت دادەنێیت؟",
                             onPressedBritish: () => speakbarbarians2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbarbarians2(// REPLACE: barbarian
-                                    "en-US"),
+                            onPressedAmerican: () => speakbarbarians2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

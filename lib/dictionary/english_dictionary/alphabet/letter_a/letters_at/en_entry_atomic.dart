@@ -96,7 +96,7 @@ class EnglishEntryatomic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryatomic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtɒmɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtɒmɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatomic("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryatomic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtɑːmɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtɑːmɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatomic("en-US"),
                             ),
@@ -171,9 +167,7 @@ class EnglishEntryatomic extends StatelessWidget {
                             kurdishText:
                                 "فیزیای گەردیلە بریتییە لە لێکۆڵینەوە لە پێکھاتە و خاسیەتەکانی گەردیلە.",
                             onPressedBritish: () => speakatomic1217("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatomic1217(// REPLACE: atomic
-                                    "en-US"),
+                            onPressedAmerican: () => speakatomic1217("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +179,7 @@ class EnglishEntryatomic extends StatelessWidget {
                             kurdishText:
                                 "وزەی ناوەکی سەرچاوەیەکی بەھێز و فرەکارەی وزەیە.",
                             onPressedBritish: () => speakatomic1221("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatomic1221(// REPLACE: atomic
-                                    "en-US"),
+                            onPressedAmerican: () => speakatomic1221("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -197,9 +189,7 @@ class EnglishEntryatomic extends StatelessWidget {
                             englishText: "Atomic weapons are very destructive.",
                             kurdishText: "چەکە ئەتۆمییەکان زۆر وێرانکەرن.",
                             onPressedBritish: () => speakatomic1223("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatomic1223(// REPLACE: atomic
-                                    "en-US"),
+                            onPressedAmerican: () => speakatomic1223("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

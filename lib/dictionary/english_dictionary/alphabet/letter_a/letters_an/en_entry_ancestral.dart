@@ -87,7 +87,7 @@ class EnglishEntryancestral extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -104,15 +104,12 @@ class EnglishEntryancestral extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ancestral"), // Find /ænˈsestrəl/
-                            // divvviiider
+                            EntryTitle(word: "ancestral"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ænˈsestrəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ænˈsestrəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakancestral("en-GB"),
                             ),
@@ -120,9 +117,7 @@ class EnglishEntryancestral extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ænˈsestrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ænˈsestrəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakancestral("en-US"),
                             ),

@@ -80,9 +80,7 @@ class EnglishEntryaftermath extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɑːftərmæθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈɑːftərmæθ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaftermath("en-US"),
                             ),

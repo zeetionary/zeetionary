@@ -97,7 +97,7 @@ class EnglishEntryaspect extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,15 +114,12 @@ class EnglishEntryaspect extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aspect"), // Find /ˈæspekt/
-                            // divvviiider
+                            EntryTitle(word: "aspect"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæspekt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈæspekt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaspect("en-GB"),
                             ),
@@ -130,9 +127,7 @@ class EnglishEntryaspect extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæspekt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈæspekt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaspect("en-US"),
                             ),

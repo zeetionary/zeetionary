@@ -78,9 +78,7 @@ class EnglishEntryadditionally extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdɪʃənəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdɪʃənəli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadditionally("en-US"),
                             ),

@@ -77,9 +77,7 @@ class EnglishEntryad extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /æd/, /ˌeɪˈdiː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /æd/, /ˌeɪˈdiː/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakad("en-US"),
                             ),

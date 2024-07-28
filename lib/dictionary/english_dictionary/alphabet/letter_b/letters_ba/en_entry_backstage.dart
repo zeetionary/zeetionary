@@ -90,7 +90,7 @@ class EnglishEntrybackstage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,9 +114,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌbækˈsteɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌbækˈsteɪdʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakb3("en-GB"),
                             ),
@@ -124,9 +122,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌbækˈsteɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌbækˈsteɪdʒ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakb3("en-US"),
                             ),
@@ -165,9 +161,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                             kurdishText:
                                 "لە دوای نمایشەکە، ھەموو ڕێگەمان پێدرا بچینە پشتەوەی پەردە بۆ بینینی ئەکتەرەکان.",
                             onPressedBritish: () => speakb3s1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s1(// REPLACE: backstage
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +173,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                             kurdishText:
                                 "ڕێکخەران دەڵێن پێشبڕکێیەکی دادپەروەرانەیە، بەڵام کێ دەزانێ چی لە پشتەوەی پەردە ڕوودەدات؟",
                             onPressedBritish: () => speakb3s2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s2(// REPLACE: backstage
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +185,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                             kurdishText:
                                 "تاقمی پشتەوەی پەردە ماندوونەناسانە کاریان دەکرد بۆ دڵنیاییکردنەوەی ئەوەی نمایشەکە بەبێ کێشەکە بەڕێوەدەچێت",
                             onPressedBritish: () => speakb3s3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s3(// REPLACE: backstage
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -207,9 +197,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                             kurdishText:
                                 "نێردەکە ژمارەیەک کۆبوونەوەی نھێنیی ئەنجامدا لەگەڵ سەرکردەکانی یاخیبووان بۆ ھێنانەئارای ئاگربەستێک",
                             onPressedBritish: () => speakb3s4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s4(// REPLACE: backstage
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

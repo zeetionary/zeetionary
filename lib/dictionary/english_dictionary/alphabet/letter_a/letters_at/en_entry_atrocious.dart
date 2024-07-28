@@ -95,7 +95,7 @@ class EnglishEntryatrocious extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtrəʊʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtrəʊʃəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatrocious("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtrəʊʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtrəʊʃəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatrocious("en-US"),
                             ),
@@ -171,8 +167,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                                 "بە زمانی فەرەنسی قسەدەکات بە ئەکسێنتێکی زۆر خراپەوە.",
                             onPressedBritish: () => speakatrocious1244("en-GB"),
                             onPressedAmerican: () =>
-                                speakatrocious1244(// REPLACE: atrocious
-                                    "en-US"),
+                                speakatrocious1244("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,8 +180,7 @@ class EnglishEntryatrocious extends StatelessWidget {
                                 "دیکتاتۆرەکە تاوانی قێزەونی دەرحەق بە خەڵکی خۆی ئەنجامدا.",
                             onPressedBritish: () => speakatrocious1246("en-GB"),
                             onPressedAmerican: () =>
-                                speakatrocious1246(// REPLACE: atrocious
-                                    "en-US"),
+                                speakatrocious1246("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

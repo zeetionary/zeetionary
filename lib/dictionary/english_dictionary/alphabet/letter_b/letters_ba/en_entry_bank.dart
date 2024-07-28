@@ -161,7 +161,7 @@ class EnglishEntrybank extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -185,9 +185,7 @@ class EnglishEntrybank extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bæŋk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bæŋk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbank("en-GB"),
                             ),
@@ -195,9 +193,7 @@ class EnglishEntrybank extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæŋk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bæŋk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbank("en-US"),
                             ),
@@ -237,9 +233,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "لە کۆتایی مانگەکەدا پارەم زۆر لە بانک نامێنێت.",
                             onPressedBritish: () => speakbanks1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks1(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -251,9 +245,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "پارەی یاریزانەکە بەرەو کەمبوون دەچوو لە دوای ژمارەیەک دۆڕان.",
                             onPressedBritish: () => speakbanks2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks2(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -265,9 +257,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "دەیانەوێت بانکێکی زانیاری درووست بکەن کە بەردەستبێت بۆ خەڵکی.",
                             onPressedBritish: () => speakbanks3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks3(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -277,9 +267,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "بانکی خوێنەکە ھەمیشە پێویستی بە بەخشینە.",
                             onPressedBritish: () => speakbanks4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks4(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -291,9 +279,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "جل و پێڵاوی کۆن ببە بۆ بانکی دووبارەبەکارھێنانەوەکە.",
                             onPressedBritish: () => speakbanks5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks5(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -305,9 +291,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "ڕووبارەکە قەراخەکانی پڕکرد لە دوای بارانی خەست.",
                             onPressedBritish: () => speakbanks6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks6(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -319,9 +303,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "تەپۆلکەی نزمی زەوی ھەبوو لەنێوان کێڵگە برنجەکان.",
                             onPressedBritish: () => speakbanks7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks7(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -333,9 +315,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "شۆفێرەکە بەوریاییەوە دەرچوو بە پێچکردنەوە تیژەکە لەسەر ڕێگا لێژبووەکە.",
                             onPressedBritish: () => speakbanks8("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks8(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -346,9 +326,7 @@ class EnglishEntrybank extends StatelessWidget {
                                 "The sun disappeared behind a bank of clouds.",
                             kurdishText: "خۆر کەوتە پشت تۆپەڵە ھەورێک.",
                             onPressedBritish: () => speakbanks9("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks9(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -360,9 +338,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "ڕێژەیەکی زۆر لە سویچ و دووگمەی لەپێش بوو.",
                             onPressedBritish: () => speakbanks10("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks10(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -374,9 +350,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "باوەڕوایە ١٠ ملیۆن یۆرۆی قازانج کردبێت (خستبێتە بانک) لە دوو ساڵدا.",
                             onPressedBritish: () => speakbanks11("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks11(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -388,9 +362,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "خێزانەکە بۆ چەندین نەوەیە ھەژماریان لە بانکی ئەمریکا ھەیە.",
                             onPressedBritish: () => speakbanks12("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks12(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -402,9 +374,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "فڕۆکەوانەکە فڕۆکەکەی خست بە لادا بۆ ئەوەی دیمەنێکی باشتری شاخەکە بدات بە گەشتیاران.",
                             onPressedBritish: () => speakbanks13("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks13(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks13("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -416,9 +386,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "بەفرەکە کەڵەکەی کردبوو لە سووچی باخچەکە.",
                             onPressedBritish: () => speakbanks14("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks14(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks14("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -430,9 +398,7 @@ class EnglishEntrybank extends StatelessWidget {
                             kurdishText:
                                 "ئاگرەکەمان خۆشکردەوە بۆ ئەوەی تەواوی شەوەکە بسوتێت.",
                             onPressedBritish: () => speakbanks15("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanks15(// REPLACE: bank
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanks15("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

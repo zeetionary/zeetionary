@@ -79,9 +79,7 @@ class EnglishEntryfarafield extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /fɑːr əˈfiːld/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /fɑːr əˈfiːld/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakFarafield("en-US"),
                             ),

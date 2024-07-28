@@ -77,9 +77,7 @@ class EnglishEntryactor extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæktər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæktər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakactor("en-US"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntryactor extends StatelessWidget {
                             kurdishText:
                                 "یەکێکە لە ئەکتەرە ناسراوەکانی وڵاتەکە.",
                             onPressedBritish: () => speakacto459("en-GB"),
-                            onPressedAmerican: () =>
-                                speakacto459(// REPLACE: actor
-                                    "en-US"),
+                            onPressedAmerican: () => speakacto459("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -133,9 +129,7 @@ class EnglishEntryactor extends StatelessWidget {
                             kurdishText:
                                 "نازانم ئەگەر بە ڕاستی مەبەستی لەو شتانە بوو کە گوتی، ھەمیشە نمایشکارێکی باش بووە (ئاسان نییە بزانی ڕاست ئەکات یان نا).",
                             onPressedBritish: () => speakactor25687("en-GB"),
-                            onPressedAmerican: () =>
-                                speakactor25687(// REPLACE: actor
-                                    "en-US"),
+                            onPressedAmerican: () => speakactor25687("en-US"),
                           ),
                         ],
                       ),

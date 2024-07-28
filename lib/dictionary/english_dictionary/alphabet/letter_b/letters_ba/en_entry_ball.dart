@@ -88,7 +88,7 @@ class EnglishEntryball extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryball extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bɔːl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bɔːl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakball("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryball extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bɔːl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bɔːl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakball("en-US"),
                             ),
@@ -161,9 +157,7 @@ class EnglishEntryball extends StatelessWidget {
                             englishText: "He kicked the ball into the net.",
                             kurdishText: "تۆپەکەی ھەڵدایە ناو تۆڕەکەوە.",
                             onPressedBritish: () => speakballs1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballs1(// REPLACE: ball
-                                    "en-US"),
+                            onPressedAmerican: () => speakballs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntryball extends StatelessWidget {
                             kurdishText:
                                 "کچە بچووکەکە خۆی تۆپەڵە کرد لە باوەشی دایکیدا.",
                             onPressedBritish: () => speakballs2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballs2(// REPLACE: ball
-                                    "en-US"),
+                            onPressedAmerican: () => speakballs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +179,7 @@ class EnglishEntryball extends StatelessWidget {
                             englishText: "That's a great ball from Kane.",
                             kurdishText: "لێدانێکی جوان بوو لەلایەن کەینەوە.",
                             onPressedBritish: () => speakballs3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballs3(// REPLACE: ball
-                                    "en-US"),
+                            onPressedAmerican: () => speakballs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +194,7 @@ class EnglishEntryball extends StatelessWidget {
                             kurdishText:
                                 "گرمۆڵەی دەست ئەو بەشە گۆشتاوییەی بنی پەنجە گەورەیە.",
                             onPressedBritish: () => speakballs4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballs4(// REPLACE: ball
-                                    "en-US"),
+                            onPressedAmerican: () => speakballs4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -216,9 +204,7 @@ class EnglishEntryball extends StatelessWidget {
                             englishText: "He noticed a lump in his left ball.",
                             kurdishText: "تێبینی گرێیەکی کرد لە گونی چەپیدا.",
                             onPressedBritish: () => speakballs5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballs5(// REPLACE: ball
-                                    "en-US"),
+                            onPressedAmerican: () => speakballs5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -228,9 +214,7 @@ class EnglishEntryball extends StatelessWidget {
                             englishText: "She met him at the ball.",
                             kurdishText: "لە ئاھەنگەکە بینی.",
                             onPressedBritish: () => speakballs6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballs6(// REPLACE: ball
-                                    "en-US"),
+                            onPressedAmerican: () => speakballs6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -240,9 +224,7 @@ class EnglishEntryball extends StatelessWidget {
                             englishText: "Her hands balled into fists.",
                             kurdishText: "دەستەکانی خڕبوونە مشت.",
                             onPressedBritish: () => speakballs7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballs7(// REPLACE: ball
-                                    "en-US"),
+                            onPressedAmerican: () => speakballs7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

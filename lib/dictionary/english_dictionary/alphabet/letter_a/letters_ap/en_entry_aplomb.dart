@@ -92,7 +92,7 @@ class EnglishEntryaplomb extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -109,15 +109,12 @@ class EnglishEntryaplomb extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "aplomb"), // Find /əˈplɒm/
-                            // divvviiider
+                            EntryTitle(word: "aplomb"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈplɒm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈplɒm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaplomb("en-GB"),
                             ),
@@ -125,9 +122,7 @@ class EnglishEntryaplomb extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈplɒm/av"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈplɒm/av"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaplomb("en-US"),
                             ),

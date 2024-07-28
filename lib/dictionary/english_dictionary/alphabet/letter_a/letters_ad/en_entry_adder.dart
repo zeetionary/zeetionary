@@ -76,9 +76,7 @@ class EnglishEntryadder extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈædər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈædər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadder("en-US"),
                             ),

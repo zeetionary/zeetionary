@@ -87,7 +87,7 @@ class EnglishEntryavalanche extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈævəlɑːnʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈævəlɑːnʃ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavalanche("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈævəlæntʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈævəlæntʃ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavalanche("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                             kurdishText:
                                 "لە ھەرەسی شەختەبەفردا مرد لە کاتی بەفرەخلیسکێ.",
                             onPressedBritish: () => speakavalanches1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavalanches1(// REPLACE: avalanche
-                                    "en-US"),
+                            onPressedAmerican: () => speakavalanches1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntryavalanche extends StatelessWidget {
                             kurdishText:
                                 "ئەم بابەتە ڕێژەیەکی زۆر مشتومڕی بەدوای‌خۆیداھێناوە.",
                             onPressedBritish: () => speakavalanches2("en-GB"),
-                            onPressedAmerican: () => speakavalanches2(
-                                // REPLACE: avalanche
-                                "en-US"),
+                            onPressedAmerican: () => speakavalanches2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

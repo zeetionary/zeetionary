@@ -76,9 +76,7 @@ class EnglishEntryaerobics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /eˈrəʊbɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /eˈrəʊbɪks/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaerobics("en-US"),
                             ),

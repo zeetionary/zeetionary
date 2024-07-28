@@ -86,7 +86,7 @@ class EnglishEntryaway extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntryaway extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈweɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈweɪ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaway("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntryaway extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈweɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈweɪ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaway("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntryaway extends StatelessWidget {
                             englishText: "The beach is a mile away.",
                             kurdishText: "کەنارەکە یەک میل دوورە.",
                             onPressedBritish: () => speakaways1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaways1(// REPLACE: away
-                                    "en-US"),
+                            onPressedAmerican: () => speakaways1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +166,7 @@ class EnglishEntryaway extends StatelessWidget {
                             kurdishText:
                                 "ڕۆشناییە توندەکە وایکرد ڕووی وەرگێڕێ.",
                             onPressedBritish: () => speakaways2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaways2(// REPLACE: away
-                                    "en-US"),
+                            onPressedAmerican: () => speakaways2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +177,7 @@ class EnglishEntryaway extends StatelessWidget {
                                 "There were ten children away yesterday.",
                             kurdishText: "دوێنێ ١٠ منداڵ نەھاتبوون.",
                             onPressedBritish: () => speakaways3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaways3(// REPLACE: away
-                                    "en-US"),
+                            onPressedAmerican: () => speakaways3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -198,9 +188,7 @@ class EnglishEntryaway extends StatelessWidget {
                                 "They were soon chatting away like old friends.",
                             kurdishText: "ھێشتا گفتوگۆیان بوو وەک ھاوڕێی کۆن.",
                             onPressedBritish: () => speakaways4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaways4(// REPLACE: away
-                                    "en-US"),
+                            onPressedAmerican: () => speakaways4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -210,9 +198,7 @@ class EnglishEntryaway extends StatelessWidget {
                             englishText: "The music faded away.",
                             kurdishText: "میوزیکەکە بە تەواوی داگیرسایەوە.",
                             onPressedBritish: () => speakaways5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaways5(// REPLACE: away
-                                    "en-US"),
+                            onPressedAmerican: () => speakaways5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -224,9 +210,7 @@ class EnglishEntryaway extends StatelessWidget {
                             kurdishText:
                                 "چێڵسی ئەم شەممەیە لە یاریگای ڕکابەرەکەی یاری دەکات.",
                             onPressedBritish: () => speakaways6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaways6(// REPLACE: away
-                                    "en-US"),
+                            onPressedAmerican: () => speakaways6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -238,9 +222,7 @@ class EnglishEntryaway extends StatelessWidget {
                             kurdishText:
                                 "یارییەکەمان لە یاریگای تیمی بەرامبەر دۆڕاند، بەڵام ھەردوو ئەوەمان بردەوە کە لە یاریگەی خۆمان بوو.",
                             onPressedBritish: () => speakaways7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaways7(// REPLACE: away
-                                    "en-US"),
+                            onPressedAmerican: () => speakaways7("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

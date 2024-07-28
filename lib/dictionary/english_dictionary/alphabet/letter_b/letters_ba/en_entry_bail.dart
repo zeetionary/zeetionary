@@ -86,7 +86,7 @@ class EnglishEntrybail extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybail extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /beɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /beɪl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbail("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybail extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /beɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /beɪl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbail("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntrybail extends StatelessWidget {
                             englishText: "Can anyone put up bail for you?",
                             kurdishText: "ھیچ کەس دەتوانێت ببێتە کەفیلت؟",
                             onPressedBritish: () => speakbails1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbails1(// REPLACE: bail
-                                    "en-US"),
+                            onPressedAmerican: () => speakbails1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -170,9 +164,7 @@ class EnglishEntrybail extends StatelessWidget {
                             englishText: "She was released on £2 000 bail.",
                             kurdishText: "بە کەفیلی ٢٠٠٠ پاوەند ئازادکرا.",
                             onPressedBritish: () => speakbails2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbails2(// REPLACE: bail
-                                    "en-US"),
+                            onPressedAmerican: () => speakbails2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +176,7 @@ class EnglishEntrybail extends StatelessWidget {
                             kurdishText:
                                 "بە کەفالەت ئازادکرا تا دەرکەوتنی لە دادگا لە ڕۆژی ١٥ی ئادار.",
                             onPressedBritish: () => speakbails3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbails3(// REPLACE: bail
-                                    "en-US"),
+                            onPressedAmerican: () => speakbails3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +186,7 @@ class EnglishEntrybail extends StatelessWidget {
                             englishText: "Sorry, I really have to bail.",
                             kurdishText: "ببوورە، بەڕاستی دەبێت بڕۆم.",
                             onPressedBritish: () => speakbails4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbails4(// REPLACE: bail
-                                    "en-US"),
+                            onPressedAmerican: () => speakbails4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -78,9 +78,7 @@ class EnglishEntryunderage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈʌndər eɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈʌndər eɪdʒ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakUnderage("en-US"),
                             ),

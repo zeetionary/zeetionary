@@ -47,7 +47,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -72,8 +72,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌeə træfɪk kənˈtrəʊlə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌeə træfɪk kənˈtrəʊlə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakairtrafficcontroller("en-GB"),
@@ -83,8 +82,7 @@ class EnglishEntryairtrafficcontroller extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌer træfɪk kənˈtrəʊlər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˌer træfɪk kənˈtrəʊlər/"),
                             CustomIconButtonAmerican(
                               onPressed: () =>
                                   speakairtrafficcontroller("en-US"),

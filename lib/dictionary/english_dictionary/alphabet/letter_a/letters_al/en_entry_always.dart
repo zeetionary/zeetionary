@@ -114,7 +114,7 @@ class EnglishEntryalways extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -136,9 +136,7 @@ class EnglishEntryalways extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːlweɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːlweɪz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakalways("en-GB"),
                             ),
@@ -146,9 +144,7 @@ class EnglishEntryalways extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːlweɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːlweɪz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakalways("en-US"),
                             ),

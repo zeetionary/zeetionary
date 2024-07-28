@@ -94,7 +94,7 @@ class EnglishEntryatrocity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtrɒsəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtrɒsəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatrocity("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtrɑːsəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtrɑːsəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatrocity("en-US"),
                             ),
@@ -171,9 +167,7 @@ class EnglishEntryatrocity extends StatelessWidget {
                             kurdishText:
                                 "لە جەنگەکەدا، ھەردوو لا تاوانکارییان ئەنجامدا.",
                             onPressedBritish: () => speakatrocity310("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatrocity310(// REPLACE: atrocity
-                                    "en-US"),
+                            onPressedAmerican: () => speakatrocity310("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

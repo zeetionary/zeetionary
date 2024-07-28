@@ -87,7 +87,7 @@ class EnglishEntrybaptism extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybaptism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæptɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæptɪzəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbaptism("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybaptism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæptɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæptɪzəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbaptism("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntrybaptism extends StatelessWidget {
                             kurdishText:
                                 "بەھیواین بتوانین بگەینە پاسادینا بۆ مەراسیمی تەوفنی کوڕەزاکەمان.",
                             onPressedBritish: () => speakbaptisms1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaptisms1(// REPLACE: baptism
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaptisms1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

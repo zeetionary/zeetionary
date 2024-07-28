@@ -87,7 +87,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,8 +113,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bəˌlɪstɪk ˈmɪsaɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /bəˌlɪstɪk ˈmɪsaɪl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakballisticmissile("en-GB"),
                             ),
@@ -123,8 +122,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bəˌlɪstɪk ˈmɪsl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /bəˌlɪstɪk ˈmɪsl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakballisticmissile("en-US"),
                             ),

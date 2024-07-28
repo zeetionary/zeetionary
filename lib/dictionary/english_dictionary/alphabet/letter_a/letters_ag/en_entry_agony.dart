@@ -76,9 +76,7 @@ class EnglishEntryagony extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæɡəni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæɡəni/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakagony("en-US"),
                             ),

@@ -77,9 +77,7 @@ class EnglishEntryacquiescence extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌækwiˈesns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˌækwiˈesns/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacquiescence("en-US"),
                             ),

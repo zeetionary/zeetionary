@@ -95,7 +95,7 @@ class EnglishEntryatm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryatm extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌeɪ tiː ˈem/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌeɪ tiː ˈem/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatm("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryatm extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌeɪ tiː ˈem/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌeɪ tiː ˈem/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatm("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntryatm extends StatelessWidget {
                             kurdishText:
                                 "پێویستە دەزگایەکی خۆکار بدۆزمەوە بۆ ڕاکێشانی ھەندێک کاش پێش ئەوەی فرۆشگاکە دابخرێت.",
                             onPressedBritish: () => speakatm1109("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatm1109(// REPLACE: ATM
-                                    "en-US"),
+                            onPressedAmerican: () => speakatm1109("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

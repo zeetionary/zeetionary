@@ -80,8 +80,7 @@ class EnglishEntryadversely extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈædvɜːrsli/, /ədˈvɜːrsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˈædvɜːrsli/, /ədˈvɜːrsli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadversely("en-US"),
                             ),

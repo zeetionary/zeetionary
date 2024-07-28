@@ -96,7 +96,7 @@ class EnglishEntryautomatic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːtəˈmætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌɔːtəˈmætɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautomatic("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːtəˈmætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌɔːtəˈmætɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautomatic("en-US"),
                             ),
@@ -173,8 +169,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 "سیستەمە لێخوڕە خۆکارەکە لەسەر فڕۆکەکە لەسەر ڕێڕەو ھێشتییەوە تەنانەت لە کاتی ھەڵبەز و دابەز.",
                             onPressedBritish: () => speakautomatic1027("en-GB"),
                             onPressedAmerican: () =>
-                                speakautomatic1027(// REPLACE: automatic
-                                    "en-US"),
+                                speakautomatic1027("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -185,8 +180,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 "دەرگا ئۆتۆماتیکییەکان کرانەوە کە گەشتم بە بەردەمی فرۆشگاکە.",
                             onPressedBritish: () => speakautomatic1030("en-GB"),
                             onPressedAmerican: () =>
-                                speakautomatic1030(// REPLACE: automatic
-                                    "en-US"),
+                                speakautomatic1030("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -198,8 +192,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                             kurdishText: "ھەناسەدان ئەرکێکی خۆنەویستانەی لەشە.",
                             onPressedBritish: () => speakautomatic1031("en-GB"),
                             onPressedAmerican: () =>
-                                speakautomatic1031(// REPLACE: automatic
-                                    "en-US"),
+                                speakautomatic1031("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -211,8 +204,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                             kurdishText: "سزا بۆ ئەم تاوانە ھەمیشە ھەیە.",
                             onPressedBritish: () => speakautomatic1033("en-GB"),
                             onPressedAmerican: () =>
-                                speakautomatic1033(// REPLACE: automatic
-                                    "en-US"),
+                                speakautomatic1033("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -225,8 +217,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 "چەکدارەکە بە چەکێکی خۆکار دەستی بە تەقە کرد.",
                             onPressedBritish: () => speakautomatic1037("en-GB"),
                             onPressedAmerican: () =>
-                                speakautomatic1037(// REPLACE: automatic
-                                    "en-US"),
+                                speakautomatic1037("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -238,8 +229,7 @@ class EnglishEntryautomatic extends StatelessWidget {
                                 "کەیت ئۆتۆمبێلێکی گێڕ ئۆتۆماتیکی ھەیە.",
                             onPressedBritish: () => speakautomatic1039("en-GB"),
                             onPressedAmerican: () =>
-                                speakautomatic1039(// REPLACE: automatic
-                                    "en-US"),
+                                speakautomatic1039("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

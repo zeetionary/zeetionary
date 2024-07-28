@@ -110,9 +110,7 @@ class EnglishEntryagree extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈɡriː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈɡriː/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakagree("en-US"),
                             ),

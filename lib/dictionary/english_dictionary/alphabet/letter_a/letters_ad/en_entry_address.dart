@@ -136,9 +136,7 @@ class EnglishEntryaddress extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdres/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdres/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaddress("en-US"),
                             ),

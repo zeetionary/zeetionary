@@ -96,7 +96,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -121,9 +121,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈθɒrətətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈθɒrətətɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauthoritative("en-GB"),
                             ),
@@ -131,9 +129,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈθɔːrəteɪtɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈθɔːrəteɪtɪv"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauthoritative("en-US"),
                             ),
@@ -174,9 +170,8 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                 "ھەڵسوکەوتێکی زۆردارانەی ھەیە کە ھەندێک جار تا ڕادەیەکی زۆر لەخۆڕازییانەیە.",
                             onPressedBritish: () =>
                                 speakauthoritative743("en-GB"),
-                            onPressedAmerican: () => speakauthoritative743(
-                                // REPLACE: authoritative
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauthoritative743("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +184,8 @@ class EnglishEntryauthoritative extends StatelessWidget {
                                 "بۆچوونی لەسەر بابەتەکە بە باوەڕپێکراو دەدەنرا.",
                             onPressedBritish: () =>
                                 speakauthoritative745("en-GB"),
-                            onPressedAmerican: () => speakauthoritative745(
-                                // REPLACE: authoritative
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauthoritative745("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -88,7 +88,7 @@ class EnglishEntryautonomy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈtɒnəmi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈtɒnəmi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautonomy("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈtɑːnəmi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈtɑːnəmi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautonomy("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                             kurdishText:
                                 "داوا ھەیە بۆ ھەندێک خۆبەڕێوبەری لەلایەن کەمینەکانی باکووری وڵاتەکەوە.",
                             onPressedBritish: () => speakautonomyS1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakautonomyS1(// REPLACE: autonomy
-                                    "en-US"),
+                            onPressedAmerican: () => speakautonomyS1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntryautonomy extends StatelessWidget {
                             kurdishText:
                                 "یەکێک لە ئامانجەکانی کاری پەرستاری لەم سەردەمەدا ئەوەیە نەخۆش بتوانێت سەربەخۆ بێت.",
                             onPressedBritish: () => speakautonomyS2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakautonomyS2(// REPLACE: autonomy
-                                    "en-US"),
+                            onPressedAmerican: () => speakautonomyS2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

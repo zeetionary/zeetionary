@@ -86,9 +86,7 @@ class EnglishEntryactivity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ækˈtɪvəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ækˈtɪvəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaactivity("en-US"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryactivity extends StatelessWidget {
                             kurdishText:
                                 "بازاڕکردن لە ئێستادا بووە بە چالاکییەکی چێژبەخش.",
                             onPressedBritish: () => speakaactiv2537("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaactiv2537(// REPLACE: activity
-                                    "en-US"),
+                            onPressedAmerican: () => speakaactiv2537("en-US"),
                           ),
                           const DividerSentences(),
                           SentencesRow(
@@ -139,9 +135,7 @@ class EnglishEntryactivity extends StatelessWidget {
                             kurdishText:
                                 "خوێندکاران ژمارەیەک چالاکییان لە دەرەوەی بەرنامەی خوێندنیان کرد.",
                             onPressedBritish: () => speakaactivi4687("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaactivi4687(// REPLACE: activity
-                                    "en-US"),
+                            onPressedAmerican: () => speakaactivi4687("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -152,9 +146,7 @@ class EnglishEntryactivity extends StatelessWidget {
                             kurdishText:
                                 "بڕیاری داوە کات و تواناکانی تەرخان بکات بۆ کارە بازرگانییەکانی.",
                             onPressedBritish: () => speakaactivi4584("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaactivi4584(// REPLACE: activity
-                                    "en-US"),
+                            onPressedAmerican: () => speakaactivi4584("en-US"),
                           ),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -165,9 +157,7 @@ class EnglishEntryactivity extends StatelessWidget {
                             kurdishText:
                                 "شەقامەکان پڕ لە ژاوەژاو و چالاکی بوون.",
                             onPressedBritish: () => speakaactiv2468("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaactiv2468(// REPLACE: activity
-                                    "en-US"),
+                            onPressedAmerican: () => speakaactiv2468("en-US"),
                           ),
                         ],
                       ),

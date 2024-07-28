@@ -87,7 +87,7 @@ class EnglishEntryballistics extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryballistics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bəˈlɪstɪks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bəˈlɪstɪks/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakballistics("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryballistics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bəˈlɪstɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bəˈlɪstɪks/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakballistics("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryballistics extends StatelessWidget {
                             kurdishText:
                                 "پسپۆڕێکی ھاوێژەناسییە لە تاقیگەی ئێف-بی-ئای لە کوانتیکۆ.",
                             onPressedBritish: () => speakballisticss1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballisticss1(// REPLACE: ballistics
-                                    "en-US"),
+                            onPressedAmerican: () => speakballisticss1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

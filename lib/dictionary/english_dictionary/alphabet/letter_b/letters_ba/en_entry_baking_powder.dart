@@ -87,7 +87,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,8 +113,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbeɪkɪŋ paʊdə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˈbeɪkɪŋ paʊdə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbakingpowder("en-GB"),
                             ),
@@ -122,9 +121,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbeɪkɪŋ paʊdər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪkɪŋ paʊdər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbakingpowder("en-US"),
                             ),

@@ -247,7 +247,7 @@ class EnglishEntrybad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -271,9 +271,7 @@ class EnglishEntrybad extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bæd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bæd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbad("en-GB"),
                             ),
@@ -281,9 +279,7 @@ class EnglishEntrybad extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bæd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbad("en-US"),
                             ),
@@ -322,8 +318,7 @@ class EnglishEntrybad extends StatelessWidget {
                             kurdishText:
                                 "بەداخەوەم ھەندێک ھەواڵی ناخۆشم پێیە بۆت.",
                             onPressedBritish: () => speakbads1("en-GB"),
-                            onPressedAmerican: () => speakbads1(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -331,8 +326,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "War is always a bad thing.",
                             kurdishText: "جەنگ ھەمیشە شتێکی خراپە.",
                             onPressedBritish: () => speakbads2("en-GB"),
-                            onPressedAmerican: () => speakbads2(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -342,8 +336,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "I thought it was a very bad article.",
                             kurdishText: "وامبیرکردەوە وتارێکی زۆر خراپ بێت.",
                             onPressedBritish: () => speakbads3("en-GB"),
-                            onPressedAmerican: () => speakbads3(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -353,8 +346,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "It was a very bad winter that year.",
                             kurdishText: "ئەو ساڵە زستانێکی زۆر دژوار بوو.",
                             onPressedBritish: () => speakbads4("en-GB"),
-                            onPressedAmerican: () => speakbads4(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -366,8 +358,7 @@ class EnglishEntrybad extends StatelessWidget {
                             kurdishText:
                                 "ئەزانم کاتێکی نەگونجاوە بۆ داواکردنی یارمەتی.",
                             onPressedBritish: () => speakbads5("en-GB"),
-                            onPressedAmerican: () => speakbads5(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -378,8 +369,7 @@ class EnglishEntrybad extends StatelessWidget {
                                 "I will not tolerate this bad behaviour.",
                             kurdishText: "بەرگەی ئەم ڕەفتارە نابەجێیە ناگرم.",
                             onPressedBritish: () => speakbads6("en-GB"),
-                            onPressedAmerican: () => speakbads6(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -389,8 +379,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "Have you been a bad boy?",
                             kurdishText: "منداڵێکی ھاروھاج بوویت؟",
                             onPressedBritish: () => speakbads7("en-GB"),
-                            onPressedAmerican: () => speakbads7(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -400,8 +389,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "You're a bad liar!",
                             kurdishText: "درۆزنێکی باش نیت (دیارە درۆ دەکەیت).",
                             onPressedBritish: () => speakbads8("en-GB"),
-                            onPressedAmerican: () => speakbads8(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads8("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -411,8 +399,7 @@ class EnglishEntrybad extends StatelessWidget {
                             kurdishText:
                                 "دۆڕاوێکی خراپی (شکست پەسەند ناکەیت و ناڕەزایی دەردەبڕی).",
                             onPressedBritish: () => speakbads9("en-GB"),
-                            onPressedAmerican: () => speakbads9(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -422,8 +409,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "Those shoes are bad for her feet.",
                             kurdishText: "ئەو پێڵاوانە خراپن بۆ قاچی.",
                             onPressedBritish: () => speakbads10("en-GB"),
-                            onPressedAmerican: () => speakbads10(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -433,8 +419,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "I've got a bad back.",
                             kurdishText: "پشت‌ئێشەیەکی بەئازارم ھەیە.",
                             onPressedBritish: () => speakbads11("en-GB"),
-                            onPressedAmerican: () => speakbads11(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -446,8 +431,7 @@ class EnglishEntrybad extends StatelessWidget {
                             kurdishText:
                                 "گۆشت بخەرە ساردکەرەوەکەوە بۆ ئەوەی خراپ نەبێت.",
                             onPressedBritish: () => speakbads12("en-GB"),
-                            onPressedAmerican: () => speakbads12(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -459,8 +443,7 @@ class EnglishEntrybad extends StatelessWidget {
                             kurdishText:
                                 "بۆ تەواوی ڕۆژەکە خستمیە حەوسەلەیەکی خراپەوە.",
                             onPressedBritish: () => speakbads13("en-GB"),
-                            onPressedAmerican: () => speakbads13(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads13("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -471,8 +454,7 @@ class EnglishEntrybad extends StatelessWidget {
                                 "She felt pretty bad about leaving him.",
                             kurdishText: "ھەستی بە داخ کرد بۆ جێھێشتنی.",
                             onPressedBritish: () => speakbads14("en-GB"),
-                            onPressedAmerican: () => speakbads14(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads14("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -483,8 +465,7 @@ class EnglishEntrybad extends StatelessWidget {
                             kurdishText:
                                 "بەداخەوەم کە ھەست بە نەخۆشییەکی زۆر دەکەم.",
                             onPressedBritish: () => speakbads15("en-GB"),
-                            onPressedAmerican: () => speakbads15(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads15("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -494,8 +475,7 @@ class EnglishEntrybad extends StatelessWidget {
                             englishText: "She wanted it real bad.",
                             kurdishText: "زۆر بە خراپی دەیویست.",
                             onPressedBritish: () => speakbads16("en-GB"),
-                            onPressedAmerican: () => speakbads16(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads16("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -507,8 +487,7 @@ class EnglishEntrybad extends StatelessWidget {
                             kurdishText:
                                 "ھەمیشە خەڵکی خراپ و باش لە جیھاندا دەبن.",
                             onPressedBritish: () => speakbads17("en-GB"),
-                            onPressedAmerican: () => speakbads17(// REPLACE: bad
-                                "en-US"),
+                            onPressedAmerican: () => speakbads17("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

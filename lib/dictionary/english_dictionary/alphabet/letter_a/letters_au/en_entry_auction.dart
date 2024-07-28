@@ -95,7 +95,7 @@ class EnglishEntryauction extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,8 +120,7 @@ class EnglishEntryauction extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːkʃn/, /ˈɒkʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˈɔːkʃn/, /ˈɒkʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauction("en-GB"),
                             ),
@@ -129,9 +128,7 @@ class EnglishEntryauction extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːkʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːkʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauction("en-US"),
                             ),
@@ -170,9 +167,7 @@ class EnglishEntryauction extends StatelessWidget {
                                 "The house is up for auction (= will be sold at an auction).",
                             kurdishText: "خانووەکە ھەڕاجکراوە.",
                             onPressedBritish: () => speakauction1150("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauction1150(// REPLACE: auction
-                                    "en-US"),
+                            onPressedAmerican: () => speakauction1150("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +179,7 @@ class EnglishEntryauction extends StatelessWidget {
                             kurdishText:
                                 "جلوبەرگەکانی فیلمەکە لە زیادکردنی ئاشکرادا دەفرۆشرێن بۆ کاری خێرخوازی.",
                             onPressedBritish: () => speakauction1154("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauction1154(// REPLACE: auction
-                                    "en-US"),
+                            onPressedAmerican: () => speakauction1154("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

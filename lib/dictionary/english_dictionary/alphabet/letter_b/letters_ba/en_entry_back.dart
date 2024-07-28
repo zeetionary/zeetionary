@@ -251,7 +251,7 @@ class EnglishEntryback extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -275,9 +275,7 @@ class EnglishEntryback extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bæk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speaka3("en-GB"),
                             ),
@@ -285,9 +283,7 @@ class EnglishEntryback extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bæk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speaka3("en-US"),
                             ),
@@ -326,8 +322,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "لەسەر پشتی لەسەر قەنەفەکە پاڵکەوتبوو.",
                             onPressedBritish: () => speaka3s1("en-GB"),
-                            onPressedAmerican: () => speaka3s1(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -338,8 +333,7 @@ class EnglishEntryback extends StatelessWidget {
                                 "She broke her back in a riding accident.",
                             kurdishText: "پشتی شکا لە ڕووداوێکی سوارچاکیدا.",
                             onPressedBritish: () => speaka3s2("en-GB"),
-                            onPressedAmerican: () => speaka3s2(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -351,8 +345,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "پیاوەکە ڕەتیدەکردەوە بچێتە دواوەی ڕیزەکە.",
                             onPressedBritish: () => speaka3s3("en-GB"),
-                            onPressedAmerican: () => speaka3s3(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -364,8 +357,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "کاردێک دەربکە و ناوت لە پشتەوەت بنووسە.",
                             onPressedBritish: () => speaka3s4("en-GB"),
-                            onPressedAmerican: () => speaka3s4(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -377,8 +369,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "پەڕەی ھونەر زۆرجار دەکەوێتە کۆتایی ڕۆژنامەکە.",
                             onPressedBritish: () => speaka3s5("en-GB"),
-                            onPressedAmerican: () => speaka3s5(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -389,8 +380,7 @@ class EnglishEntryback extends StatelessWidget {
                                 "He put his jacket on the back of his chair (= the part of the chair that you put your back against when you sit on it).",
                             kurdishText: "چاکەتەکەی خستە سەر پشتی کوورسیەکە.",
                             onPressedBritish: () => speaka3s6("en-GB"),
-                            onPressedAmerican: () => speaka3s6(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -400,8 +390,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "He plays at left back.",
                             kurdishText: "لە بەشی چەپی بەرگری یاری دەکات.",
                             onPressedBritish: () => speaka3s7("en-GB"),
-                            onPressedAmerican: () => speaka3s7(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -411,8 +400,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "We were sitting in the back row.",
                             kurdishText: "لە ڕیزی دواوە دانیشتبووین.",
                             onPressedBritish: () => speaka3s8("en-GB"),
-                            onPressedAmerican: () => speaka3s8(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -424,8 +412,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "لە ژمارەیەکی پێشووتری گۆڤارەکەدا باسکرا.",
                             onPressedBritish: () => speaka3s9("en-GB"),
-                            onPressedAmerican: () => speaka3s9(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -437,8 +424,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "چەند ھەزارێکی مووچەی نەدراوی ستافەکە قەرزارن.",
                             onPressedBritish: () => speaka3s10("en-GB"),
-                            onPressedAmerican: () => speaka3s10(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -451,8 +437,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "He'll be back on Monday.",
                             kurdishText: "ڕۆژی دووشەممە دەگەڕێتەوە.",
                             onPressedBritish: () => speaka3s11("en-GB"),
-                            onPressedAmerican: () => speaka3s11(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -462,8 +447,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "I moved back to let them pass.",
                             kurdishText: "ھاتمە دواوە و ڕێگەمدا تێپەڕن.",
                             onPressedBritish: () => speaka3s12("en-GB"),
-                            onPressedAmerican: () => speaka3s12(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -475,8 +459,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "پێش پێنج کیلۆمەتر دەبوو بە چەپدا لامان دابا.",
                             onPressedBritish: () => speaka3s13("en-GB"),
-                            onPressedAmerican: () => speaka3s13(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s13("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -486,8 +469,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "If he hits me, I'll hit him back.",
                             kurdishText: "ئەگەر لێمدا، لێیئەدەمەوە.",
                             onPressedBritish: () => speaka3s14("en-GB"),
-                            onPressedAmerican: () => speaka3s14(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s14("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -498,8 +480,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "بەربەستەکان جەماوەرەکەیان دوور ھێشتبوویەوە.",
                             onPressedBritish: () => speaka3s15("en-GB"),
-                            onPressedAmerican: () => speaka3s15(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s15("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -509,8 +490,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "The cathedral dates back to 1123.",
                             kurdishText: "کڵێساکە بۆ ساڵی ١١٢٣ دەگەڕێتەوە.",
                             onPressedBritish: () => speaka3s16("en-GB"),
-                            onPressedAmerican: () => speaka3s16(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s16("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -522,8 +502,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "چیتر نەیدەتوانی فرمێسکەکانی کۆنترۆڵ بکات.",
                             onPressedBritish: () => speaka3s17("en-GB"),
-                            onPressedAmerican: () => speaka3s17(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s17("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -533,8 +512,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "Beards are back.",
                             kurdishText: "ڕیش دووبارە بووە بە باو.",
                             onPressedBritish: () => speaka3s18("en-GB"),
-                            onPressedAmerican: () => speaka3s18(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s18("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -546,8 +524,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "دایک و باوکی پاڵپشتیان کرد لە ھەڵبژاردنی کارەکەی.",
                             onPressedBritish: () => speaka3s19("en-GB"),
-                            onPressedAmerican: () => speaka3s19(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s19("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -559,8 +536,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "پزیشکان پاڵپشتی پلانی بەرزکردنەوەی باجن لەسەر جگەرە.",
                             onPressedBritish: () => speaka3s20("en-GB"),
-                            onPressedAmerican: () => speaka3s20(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s20("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -572,8 +548,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "ھەموو ناڕەزاییەک دەبێت بەڵگەی پشتیوانی ھەبێت.",
                             onPressedBritish: () => speaka3s21("en-GB"),
-                            onPressedAmerican: () => speaka3s21(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s21("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -585,8 +560,7 @@ class EnglishEntryback extends StatelessWidget {
                             kurdishText:
                                 "گرەوم لەسەر براوەکە کرد و پەنجا پاوەندم بردەوە.",
                             onPressedBritish: () => speaka3s22("en-GB"),
-                            onPressedAmerican: () => speaka3s22(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s22("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -596,8 +570,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "She backed into the garage.",
                             kurdishText: "بەکی کردە گەراجەکە.",
                             onPressedBritish: () => speaka3s23("en-GB"),
-                            onPressedAmerican: () => speaka3s23(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s23("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -607,8 +580,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "Each piece is backed with vinyl.",
                             kurdishText: "ھەر پارچەیەک بە ڤینیل داپۆشراوە.",
                             onPressedBritish: () => speaka3s24("en-GB"),
-                            onPressedAmerican: () => speaka3s24(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s24("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -618,8 +590,7 @@ class EnglishEntryback extends StatelessWidget {
                             englishText: "The house is backed by fields.",
                             kurdishText: "خانووەکە کێڵگەی لە پشتەوەیە.",
                             onPressedBritish: () => speaka3s25("en-GB"),
-                            onPressedAmerican: () => speaka3s25(// REPLACE: back
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s25("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

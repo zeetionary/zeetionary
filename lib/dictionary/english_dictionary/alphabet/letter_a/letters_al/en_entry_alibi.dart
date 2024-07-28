@@ -48,7 +48,7 @@ class EnglishEntryalibi extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -70,9 +70,7 @@ class EnglishEntryalibi extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæləbaɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈæləbaɪ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakalibi("en-GB"),
                             ),
@@ -80,9 +78,7 @@ class EnglishEntryalibi extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæləbaɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæləbaɪ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakalibi("en-US"),
                             ),

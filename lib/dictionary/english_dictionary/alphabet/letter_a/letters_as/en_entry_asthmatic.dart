@@ -96,7 +96,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /æsˈmætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /æsˈmætɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakasthmatic("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /æzˈmætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /æzˈmætɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakasthmatic("en-US"),
                             ),
@@ -172,8 +168,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو بردرا بۆ نەخۆشخانە بۆ چارەسەر.",
                             onPressedBritish: () => speakasthmatic1021("en-GB"),
                             onPressedAmerican: () =>
-                                speakasthmatic1021(// REPLACE: asthmatic
-                                    "en-US"),
+                                speakasthmatic1021("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,8 +181,7 @@ class EnglishEntryasthmatic extends StatelessWidget {
                                 "ئەو نەخۆشەی تووشبوو بە ھەناسەتوندی بوو نەیدەتوانی لە چالاکی سەخت بەژداری بکات.",
                             onPressedBritish: () => speakasthmatic1024("en-GB"),
                             onPressedAmerican: () =>
-                                speakasthmatic1024(// REPLACE: asthmatic
-                                    "en-US"),
+                                speakasthmatic1024("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

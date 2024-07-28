@@ -94,7 +94,7 @@ class EnglishEntryathletics extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryathletics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /æθˈletɪks/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /æθˈletɪks/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakathletics("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryathletics extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /æθˈletɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /æθˈletɪks/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakathletics("en-US"),
                             ),
@@ -170,9 +166,7 @@ class EnglishEntryathletics extends StatelessWidget {
                             kurdishText:
                                 "کچەکەم دەیەوێت بەژداری لە یارییە وەرزشییەکاندا بکات.",
                             onPressedBritish: () => speakathletics825("en-GB"),
-                            onPressedAmerican: () =>
-                                speakathletics825(// REPLACE: athletics
-                                    "en-US"),
+                            onPressedAmerican: () => speakathletics825("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

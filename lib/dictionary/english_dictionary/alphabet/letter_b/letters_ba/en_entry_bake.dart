@@ -86,7 +86,7 @@ class EnglishEntrybake extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybake extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /beɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /beɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbake("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybake extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /beɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /beɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbake("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntrybake extends StatelessWidget {
                             englishText: "The bread is baking in the oven.",
                             kurdishText: "نانەکە لە فڕنەکەدا دەبرژێت.",
                             onPressedBritish: () => speakbakes1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbakes1(// REPLACE: bake
-                                    "en-US"),
+                            onPressedAmerican: () => speakbakes1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -171,9 +165,7 @@ class EnglishEntrybake extends StatelessWidget {
                             kurdishText:
                                 "کێکێکی لەدایکبوون بۆ ئەلێکس دەبرژێنم.",
                             onPressedBritish: () => speakbakes2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbakes2(// REPLACE: bake
-                                    "en-US"),
+                            onPressedAmerican: () => speakbakes2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +177,7 @@ class EnglishEntrybake extends StatelessWidget {
                             kurdishText:
                                 "خشتەکان لە کوورەکەدا دانراون بۆ ڕەقبوون.",
                             onPressedBritish: () => speakbakes3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbakes3(// REPLACE: bake
-                                    "en-US"),
+                            onPressedAmerican: () => speakbakes3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -198,9 +188,7 @@ class EnglishEntrybake extends StatelessWidget {
                             kurdishText:
                                 "دانیشتبووین گەرمدەبووینەوە لەبەر خۆرەکە.",
                             onPressedBritish: () => speakbakes4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbakes4(// REPLACE: bake
-                                    "en-US"),
+                            onPressedAmerican: () => speakbakes4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

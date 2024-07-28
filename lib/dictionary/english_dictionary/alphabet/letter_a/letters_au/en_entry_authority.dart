@@ -137,7 +137,7 @@ class EnglishEntryauthority extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -161,9 +161,7 @@ class EnglishEntryauthority extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈθɒrəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈθɒrəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauthority("en-GB"),
                             ),
@@ -171,9 +169,7 @@ class EnglishEntryauthority extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈθɔːrəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈθɔːrəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauthority("en-US"),
                             ),
@@ -213,9 +209,7 @@ class EnglishEntryauthority extends StatelessWidget {
                             kurdishText:
                                 "ئێستا دەسەڵاتی ھەیە بەسەر ئەو کەسانەی کە جاران گەورەی بوون.",
                             onPressedBritish: () => speakauthority804("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthority804(// REPLACE: authority
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthority804("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -225,9 +219,7 @@ class EnglishEntryauthority extends StatelessWidget {
                             kurdishText:
                                 "حکومەتی ناوەندی دەسەڵاتی فراوانی ھەیە بەسەر مامۆستایاندا.",
                             onPressedBritish: () => speakauthority805("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthority805(// REPLACE: authority
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthority805("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -239,9 +231,7 @@ class EnglishEntryauthority extends StatelessWidget {
                             kurdishText:
                                 "ھەندێک شارەزا باوەڕیان وایە کە دەزگاکە ئەگەری ھەیە دەسەڵاتی خۆی تێپەڕاندبێ.",
                             onPressedBritish: () => speakauthority808("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthority808(// REPLACE: authority
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthority808("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -251,9 +241,7 @@ class EnglishEntryauthority extends StatelessWidget {
                             englishText: "He took the car without authority.",
                             kurdishText: "ئۆتۆمبێلەکەی بەبێ مۆڵەت برد.",
                             onPressedBritish: () => speakauthority809("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthority809(// REPLACE: authority
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthority809("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -264,9 +252,7 @@ class EnglishEntryauthority extends StatelessWidget {
                                 "I have to report this to the authorities.",
                             kurdishText: "دەبێت ئەمە بە دەسەڵاتداران بڵێم.",
                             onPressedBritish: () => speakauthority811("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthority811(// REPLACE: authority
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthority811("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -278,9 +264,7 @@ class EnglishEntryauthority extends StatelessWidget {
                             kurdishText:
                                 "بە جێی‌باوەڕەوە قسەی لەسەر بابەتەکە دەکرد.",
                             onPressedBritish: () => speakauthority814("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthority814(// REPLACE: authority
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthority814("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -291,9 +275,7 @@ class EnglishEntryauthority extends StatelessWidget {
                             kurdishText:
                                 "کەسێکی شارەزایە لەسەر یاسای تاوانبارێتی.",
                             onPressedBritish: () => speakauthority816("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthority816(// REPLACE: authority
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthority816("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

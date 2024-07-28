@@ -76,9 +76,7 @@ class EnglishEntryacrylic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkrɪlɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈkrɪlɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacrylic("en-US"),
                             ),

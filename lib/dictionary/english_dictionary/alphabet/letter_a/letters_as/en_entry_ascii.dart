@@ -94,7 +94,7 @@ class EnglishEntryASCII extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,15 +111,12 @@ class EnglishEntryASCII extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ASCII"), // Find /ˈæski/
-                            // divvviiider
+                            EntryTitle(word: "ASCII"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæski/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈæski/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakascii("en-GB"),
                             ),
@@ -127,9 +124,7 @@ class EnglishEntryASCII extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæski/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈæski/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakascii("en-US"),
                             ),

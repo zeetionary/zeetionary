@@ -96,7 +96,7 @@ class EnglishEntryastral extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryastral extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæstrəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈæstrəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastral("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryastral extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæstrəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈæstrəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastral("en-US"),
                             ),
@@ -172,9 +168,7 @@ class EnglishEntryastral extends StatelessWidget {
                             kurdishText:
                                 "ئەستێرەناسەکە بە تەلیسکۆبەکەیەوە سەرنجیدایە تەنە ئەستێرەییەکان.",
                             onPressedBritish: () => speakastral1111("en-GB"),
-                            onPressedAmerican: () =>
-                                speakastral1111(// REPLACE: astral
-                                    "en-US"),
+                            onPressedAmerican: () => speakastral1111("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +180,7 @@ class EnglishEntryastral extends StatelessWidget {
                             kurdishText:
                                 "وای بیرکردەوە کە خەونەکانی بردنی بۆ جیھانی خەیاڵاوی.",
                             onPressedBritish: () => speakastral1115("en-GB"),
-                            onPressedAmerican: () =>
-                                speakastral1115(// REPLACE: astral
-                                    "en-US"),
+                            onPressedAmerican: () => speakastral1115("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

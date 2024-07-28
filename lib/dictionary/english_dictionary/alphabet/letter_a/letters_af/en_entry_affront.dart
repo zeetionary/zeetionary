@@ -78,9 +78,7 @@ class EnglishEntryaffront extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈfrʌnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈfrʌnt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaffront("en-US"),
                             ),

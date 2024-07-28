@@ -199,7 +199,7 @@ class EnglishEntryat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -223,8 +223,7 @@ class EnglishEntryat extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ət/, strong form  /æt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ət/, strong form  /æt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakat("en-GB"),
                             ),
@@ -233,8 +232,7 @@ class EnglishEntryat extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ət/, strong form  /æt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ət/, strong form  /æt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakat("en-US"),
                             ),
@@ -272,8 +270,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "They arrived late at the airport.",
                             kurdishText: "درەنگ گەشتنە فڕۆکەخانەکە.",
                             onPressedBritish: () => speakat642("en-GB"),
-                            onPressedAmerican: () => speakat642(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat642("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -281,8 +278,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "I'll be at home all morning.",
                             kurdishText: "تەواوی بەیانی لە ماڵەوە دەبم.",
                             onPressedBritish: () => speakat643("en-GB"),
-                            onPressedAmerican: () => speakat643(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat643("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -294,8 +290,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "زیاتر لە ھەر کەسێکی تر لە بانکەکە کاری کردووە.",
                             onPressedBritish: () => speakat645("en-GB"),
-                            onPressedAmerican: () => speakat645(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat645("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -305,8 +300,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "We left at 2 o'clock.",
                             kurdishText: "لە کاتژمێر ٢ ڕۆشتین.",
                             onPressedBritish: () => speakat647("en-GB"),
-                            onPressedAmerican: () => speakat647(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat647("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -316,8 +310,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "She got married at 25.",
                             kurdishText: "لە تەمەنی ٢٥ ساڵی ھاوسەرگیری کرد.",
                             onPressedBritish: () => speakat648("en-GB"),
-                            onPressedAmerican: () => speakat648(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat648("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -328,8 +321,7 @@ class EnglishEntryat extends StatelessWidget {
                                 "Somebody threw paint at the prime minister.",
                             kurdishText: "کەسێک بۆیەی گرتە سەرۆک وەزیران.",
                             onPressedBritish: () => speakat650("en-GB"),
-                            onPressedAmerican: () => speakat650(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat650("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -341,8 +333,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "شێتانە دەستی توند کردبوو لە حەبلەکە کە ئەو کەوت.",
                             onPressedBritish: () => speakat656("en-GB"),
-                            onPressedAmerican: () => speakat656(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat656("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -352,8 +343,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "I'm good at French.",
                             kurdishText: "لە فەرەنسی باشم.",
                             onPressedBritish: () => speakat658("en-GB"),
-                            onPressedAmerican: () => speakat658(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat658("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -364,8 +354,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "بەخێرایی ٧٠ میل لە کاتژمێرێکدا لێیدەخوڕی.",
                             onPressedBritish: () => speakat659("en-GB"),
-                            onPressedAmerican: () => speakat659(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat659("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -374,8 +363,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "نرخەکان لە ١٠٠٠ پاوەندەوە دەستپێ‌دەکەن.",
                             onPressedBritish: () => speakat701("en-GB"),
-                            onPressedAmerican: () => speakat701(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat701("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -387,8 +375,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "دەتوانی ژمارەی ئۆتۆمبێلێک لە دووری ٥٠ مەترەوە بخوێنیتەوە؟",
                             onPressedBritish: () => speakat703("en-GB"),
-                            onPressedAmerican: () => speakat703(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat703("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -398,8 +385,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "The country is now at war.",
                             kurdishText: "وڵاتەکە ئێستا لە جەنگدایە.",
                             onPressedBritish: () => speakat706("en-GB"),
-                            onPressedAmerican: () => speakat706(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat706("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -407,8 +393,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "I felt at a disadvantage.",
                             kurdishText: "وام ھەستکرد لە زیاندا بم.",
                             onPressedBritish: () => speakat707("en-GB"),
-                            onPressedAmerican: () => speakat707(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat707("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -417,8 +402,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "پێم‌وایە بەڕێز ھاریس لە خواردنی نیوەڕۆیە.",
                             onPressedBritish: () => speakat708("en-GB"),
-                            onPressedAmerican: () => speakat708(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat708("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -430,8 +414,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "باخچەکە لە جوانترین کاتیدایە لە حوزەیران.",
                             onPressedBritish: () => speakat710("en-GB"),
-                            onPressedAmerican: () => speakat710(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat710("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -441,8 +424,7 @@ class EnglishEntryat extends StatelessWidget {
                             englishText: "She was delighted at the result.",
                             kurdishText: "دڵخۆش بوو بە ئەنجامەکە.",
                             onPressedBritish: () => speakat712("en-GB"),
-                            onPressedAmerican: () => speakat712(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat712("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -454,8 +436,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "بەژداری نانی ئێوارە بوون لەسەر بانگھێشتی بەڕێوبەر.",
                             onPressedBritish: () => speakat716("en-GB"),
-                            onPressedAmerican: () => speakat716(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat716("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -467,8 +448,7 @@ class EnglishEntryat extends StatelessWidget {
                             kurdishText:
                                 "دەتوانیت پەیوەندیم پێوەبکەیت بە ژمارە تەلەفۆنی ٠٠٩٠٠١٠٠٨، بە کۆدی ٧٧٠.",
                             onPressedBritish: () => speakat720("en-GB"),
-                            onPressedAmerican: () => speakat720(// REPLACE: at
-                                "en-US"),
+                            onPressedAmerican: () => speakat720("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

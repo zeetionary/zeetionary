@@ -94,7 +94,7 @@ class EnglishEntryaustere extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,8 +119,7 @@ class EnglishEntryaustere extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɒˈstɪə(r)/, /ɔːˈstɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ɒˈstɪə(r)/, /ɔːˈstɪə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaustere("en-GB"),
                             ),
@@ -128,9 +127,7 @@ class EnglishEntryaustere extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈstɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈstɪr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaustere("en-US"),
                             ),
@@ -167,9 +164,7 @@ class EnglishEntryaustere extends StatelessWidget {
                             englishText: "Their clothes were always austere.",
                             kurdishText: "جلەکانیان ھەمیشە سادە و ساکار بوون.",
                             onPressedBritish: () => speakaustere453("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaustere453(// REPLACE: austere
-                                    "en-US"),
+                            onPressedAmerican: () => speakaustere453("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +174,7 @@ class EnglishEntryaustere extends StatelessWidget {
                             englishText: "His father was a tall, austere man.",
                             kurdishText: "باوکی پیاوێکی درێژی ڕووگرژ بوو.",
                             onPressedBritish: () => speakaustere456("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaustere456(// REPLACE: austere
-                                    "en-US"),
+                            onPressedAmerican: () => speakaustere456("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +186,7 @@ class EnglishEntryaustere extends StatelessWidget {
                             kurdishText:
                                 "لە کاتی جەنگەکەدا ژیانێکی دژواریان ھەبوو.",
                             onPressedBritish: () => speakaustere458("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaustere458(// REPLACE: austere
-                                    "en-US"),
+                            onPressedAmerican: () => speakaustere458("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

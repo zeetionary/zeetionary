@@ -76,9 +76,7 @@ class EnglishEntryaerosol extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈerəsɒl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈerəsɒl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaerosol("en-US"),
                             ),

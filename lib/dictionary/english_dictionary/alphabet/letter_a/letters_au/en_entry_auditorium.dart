@@ -94,7 +94,7 @@ class EnglishEntryauditorium extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryauditorium extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːdɪˈtɔːriəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌɔːdɪˈtɔːriəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauditorium("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryauditorium extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːdɪˈtɔːriəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌɔːdɪˈtɔːriəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauditorium("en-US"),
                             ),
@@ -167,9 +163,8 @@ class EnglishEntryauditorium extends StatelessWidget {
                             kurdishText:
                                 "ھۆڵەکە شوێنی زیاتر لە ھەزار کەسی تێدا دەبێتەوە.",
                             onPressedBritish: () => speakauditorium252("en-GB"),
-                            onPressedAmerican: () => speakauditorium252(
-                                // REPLACE: auditorium
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauditorium252("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -181,9 +176,8 @@ class EnglishEntryauditorium extends StatelessWidget {
                             kurdishText:
                                 "لە دواوەی ئۆدیتۆریۆمە پڕەکە وەستابوو.",
                             onPressedBritish: () => speakauditorium255("en-GB"),
-                            onPressedAmerican: () => speakauditorium255(
-                                // REPLACE: auditorium
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauditorium255("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

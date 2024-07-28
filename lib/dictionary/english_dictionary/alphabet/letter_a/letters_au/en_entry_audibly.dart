@@ -95,7 +95,7 @@ class EnglishEntryaudibly extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryaudibly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːdəbli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːdəbli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaudibly("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryaudibly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːdəbli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːdəbli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaudibly("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntryaudibly extends StatelessWidget {
                             kurdishText:
                                 "فڕۆکە بە دەنگی بیستراو بەسەر سەماندا دەفڕین، بەڵام ئاسمان زۆر ھەوراوی بوو تا ببینرێن.",
                             onPressedBritish: () => speakaudibly105("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaudibly105(// REPLACE: audibly
-                                    "en-US"),
+                            onPressedAmerican: () => speakaudibly105("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

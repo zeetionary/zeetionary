@@ -97,7 +97,7 @@ class EnglishEntryattribute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -121,9 +121,7 @@ class EnglishEntryattribute extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtrɪbjuːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtrɪbjuːt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattribute("en-GB"),
                             ),
@@ -131,9 +129,7 @@ class EnglishEntryattribute extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtrɪbjuːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtrɪbjuːt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattribute("en-US"),
                             ),
@@ -174,8 +170,7 @@ class EnglishEntryattribute extends StatelessWidget {
                                 "سەرکەوتنەکەی دەگەڕێنێتەوە بۆ ھەوڵی بەردەوام و کەمێک بەخت.",
                             onPressedBritish: () => speakattribute1100("en-GB"),
                             onPressedAmerican: () =>
-                                speakattribute1100(// REPLACE: attribute
-                                    "en-US"),
+                                speakattribute1100("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,8 +183,7 @@ class EnglishEntryattribute extends StatelessWidget {
                                 "ئەم شانۆیە زۆرجار دەدرێتە پاڵ شکسپیر.",
                             onPressedBritish: () => speakattribute1110("en-GB"),
                             onPressedAmerican: () =>
-                                speakattribute1110(// REPLACE: attribute
-                                    "en-US"),
+                                speakattribute1110("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,8 +196,7 @@ class EnglishEntryattribute extends StatelessWidget {
                                 "لیژنەکە ڕەتیکردەوە لۆمە ببەخشێتەوە بەبێ زانیاریی زیاتر.",
                             onPressedBritish: () => speakattribute1112("en-GB"),
                             onPressedAmerican: () =>
-                                speakattribute1112(// REPLACE: attribute
-                                    "en-US"),
+                                speakattribute1112("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -216,8 +209,7 @@ class EnglishEntryattribute extends StatelessWidget {
                                 "سنگفراوانی یەکێکە لە خاسیەتە ھەرە گرنگەکانی مامۆستا.",
                             onPressedBritish: () => speakattribute1114("en-GB"),
                             onPressedAmerican: () =>
-                                speakattribute1114(// REPLACE: attribute
-                                    "en-US"),
+                                speakattribute1114("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

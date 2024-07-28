@@ -94,7 +94,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌætməsˈferɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌætməsˈferɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatmospheric("en-GB"),
                             ),
@@ -130,8 +128,7 @@ class EnglishEntryatmospheric extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌætməsˈfɪrɪk/, /ˌætməsˈferɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌætməsˈfɪrɪk/, /ˌætməsˈferɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatmospheric("en-US"),
                             ),
@@ -172,9 +169,8 @@ class EnglishEntryatmospheric extends StatelessWidget {
                                 "ڕووەکەکان سەرچاوەی سەرەکیی ئۆکسجینی بەرگەھەوان.",
                             onPressedBritish: () =>
                                 speakatmospheric1140("en-GB"),
-                            onPressedAmerican: () => speakatmospheric1140(
-                                // REPLACE: atmospheric
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakatmospheric1140("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +182,8 @@ class EnglishEntryatmospheric extends StatelessWidget {
                             kurdishText: "چێشتخانە تازەکە زۆر بزوێنەرە.",
                             onPressedBritish: () =>
                                 speakatmospheric1145("en-GB"),
-                            onPressedAmerican: () => speakatmospheric1145(
-                                // REPLACE: atmospheric
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakatmospheric1145("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

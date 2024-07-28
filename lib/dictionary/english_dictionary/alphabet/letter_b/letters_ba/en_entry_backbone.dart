@@ -87,7 +87,7 @@ class EnglishEntrybackbone extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybackbone extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbækbəʊn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbækbəʊn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakb3("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybackbone extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbækbəʊn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbækbəʊn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakb3("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntrybackbone extends StatelessWidget {
                             kurdishText:
                                 "دکتۆرەکە پشکنینی بۆ بڕبڕەی پشتی نەخۆشەکە کرد بۆ ئاماژەی برین.",
                             onPressedBritish: () => speakb3s1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s1(// REPLACE: backbone
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntrybackbone extends StatelessWidget {
                             kurdishText:
                                 "کشتوکاڵ بڕبڕەی پشتی ئابووری وڵاتەکەیە.",
                             onPressedBritish: () => speakb3s2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s2(// REPLACE: backbone
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +182,7 @@ class EnglishEntrybackbone extends StatelessWidget {
                             kurdishText:
                                 "بوێری ئەوەی نییە ڕووبەڕووی ڕاستییەکە ببێتەوە.",
                             onPressedBritish: () => speakb3s3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s3(// REPLACE: backbone
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

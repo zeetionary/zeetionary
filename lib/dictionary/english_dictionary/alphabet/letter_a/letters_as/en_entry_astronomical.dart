@@ -95,7 +95,7 @@ class EnglishEntryastronomical extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryastronomical extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌæstrəˈnɒmɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌæstrəˈnɒmɪkl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastronomical("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryastronomical extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌæstrəˈnɑːmɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌæstrəˈnɑːmɪkl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastronomical("en-US"),
                             ),
@@ -173,9 +169,8 @@ class EnglishEntryastronomical extends StatelessWidget {
                                 "ڕوانگە ئەستێرەناسییەکە لەسەر لوتکەی شاخێکە.",
                             onPressedBritish: () =>
                                 speakastronomical512("en-GB"),
-                            onPressedAmerican: () => speakastronomical512(
-                                // REPLACE: astronomical
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastronomical512("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +181,8 @@ class EnglishEntryastronomical extends StatelessWidget {
                             kurdishText: "خەرجییەکان زۆر زۆربوون.",
                             onPressedBritish: () =>
                                 speakastronomical514("en-GB"),
-                            onPressedAmerican: () => speakastronomical514(
-                                // REPLACE: astronomical
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastronomical514("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -95,7 +95,7 @@ class EnglishEntryappreciate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,16 +112,13 @@ class EnglishEntryappreciate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "appreciate"),
+                            EntryTitle(word: "appreciate"),
                             // divvviiider
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈpriːʃieɪt/"),
+                            const IPAofEnglish(text: "IpaUK: /əˈpriːʃieɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakappreciate("en-GB"),
                             ),

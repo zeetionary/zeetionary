@@ -86,7 +86,7 @@ class EnglishEntrybaggage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæɡɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæɡɪdʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbaggage("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæɡɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæɡɪdʒ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbaggage("en-US"),
                             ),
@@ -156,9 +152,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                             englishText: "We loaded our baggage into the car.",
                             kurdishText: "جانتاکانمان سەرخستە ناو ئۆتۆمبێلەکە.",
                             onPressedBritish: () => speakbaggages1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaggages1(// REPLACE: baggage
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaggages1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -166,9 +160,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                             englishText: "Let's claim our baggage first.",
                             kurdishText: "با سەرەتا جانتاکانمان وەربگرینەوە.",
                             onPressedBritish: () => speakbaggages2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaggages2(// REPLACE: baggage
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaggages2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +172,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                             kurdishText:
                                 "شەمەندەفەری پڕ لە کەلوپەل دوای سەربازەکان گەشتن.",
                             onPressedBritish: () => speakbaggages3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaggages3(// REPLACE: baggage
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaggages3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),

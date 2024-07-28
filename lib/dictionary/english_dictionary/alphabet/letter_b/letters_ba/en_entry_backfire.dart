@@ -86,7 +86,7 @@ class EnglishEntrybackfire extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybackfire extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌbækˈfaɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌbækˈfaɪə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakb3("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybackfire extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌbækˈfaɪər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌbækˈfaɪər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakb3("en-US"),
                             ),
@@ -161,9 +157,7 @@ class EnglishEntrybackfire extends StatelessWidget {
                             kurdishText:
                                 "بەداخەوە پلانەکە لێکەوتەی پێچەوانەی ھەبوو.",
                             onPressedBritish: () => speakb3s1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s1(// REPLACE: backfire
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntrybackfire extends StatelessWidget {
                             kurdishText:
                                 "خەبەرم‌بووەوە بە دەنگی ئۆتۆمبێلێک کە پێشەسووتەی دەکرد.",
                             onPressedBritish: () => speakb3s2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s2(// REPLACE: backfire
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

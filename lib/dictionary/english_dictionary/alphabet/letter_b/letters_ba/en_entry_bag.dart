@@ -169,7 +169,7 @@ class EnglishEntrybag extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -193,9 +193,7 @@ class EnglishEntrybag extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bæɡ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bæɡ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbag("en-GB"),
                             ),
@@ -203,9 +201,7 @@ class EnglishEntrybag extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæɡ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bæɡ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbag("en-US"),
                             ),
@@ -244,8 +240,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 "He was carrying a heavy bag of groceries.",
                             kurdishText: "توورەکەیەکی قورس لە میوەی ھەڵگرتبوو.",
                             onPressedBritish: () => speakbags1("en-GB"),
-                            onPressedAmerican: () => speakbags1(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -254,8 +249,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 "She tipped out the contents of her bag (= handbag).",
                             kurdishText: "شتومەکەکانی ناو جانتاکەی بەتاڵکرد.",
                             onPressedBritish: () => speakbags2("en-GB"),
-                            onPressedAmerican: () => speakbags2(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -267,8 +261,7 @@ class EnglishEntrybag extends StatelessWidget {
                             kurdishText:
                                 "جانتاکانم کۆکردەوە و بەڕێکەوتم بۆ فڕۆکەخانەکە.",
                             onPressedBritish: () => speakbags3("en-GB"),
-                            onPressedAmerican: () => speakbags3(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -278,8 +271,7 @@ class EnglishEntrybag extends StatelessWidget {
                             englishText: "She ate a bag of chips.",
                             kurdishText: "کیسەیەک جبسی خوارد.",
                             onPressedBritish: () => speakbags4("en-GB"),
-                            onPressedAmerican: () => speakbags4(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -289,8 +281,7 @@ class EnglishEntrybag extends StatelessWidget {
                             englishText: "Get in! There's bags of room.",
                             kurdishText: "وەرە ژوورەوە، جێگەیەکی زۆر ھەیە.",
                             onPressedBritish: () => speakbags8("en-GB"),
-                            onPressedAmerican: () => speakbags8(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -302,8 +293,7 @@ class EnglishEntrybag extends StatelessWidget {
                             kurdishText:
                                 "بیری لە نەشتەرگەری جوانکاری دەکردەوە بۆ چارەسەری گۆشتی زیادەی ژێر چاوانی.",
                             onPressedBritish: () => speakbags5("en-GB"),
-                            onPressedAmerican: () => speakbags5(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -313,8 +303,7 @@ class EnglishEntrybag extends StatelessWidget {
                             englishText: "Silly old bag!",
                             kurdishText: "پیرەژنی دەبەنگ!",
                             onPressedBritish: () => speakbags6("en-GB"),
-                            onPressedAmerican: () => speakbags6(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -324,8 +313,7 @@ class EnglishEntrybag extends StatelessWidget {
                             englishText: "We got a good bag today.",
                             kurdishText: "ئەمڕۆ ڕاوێکی باشمان کرد.",
                             onPressedBritish: () => speakbags7("en-GB"),
-                            onPressedAmerican: () => speakbags7(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -337,8 +325,7 @@ class EnglishEntrybag extends StatelessWidget {
                             kurdishText:
                                 "میوەکان شۆردراون، جتاکراونەتەوە، و لە کیسەکراون لە کێڵگەکە.",
                             onPressedBritish: () => speakbags9("en-GB"),
-                            onPressedAmerican: () => speakbags9(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -348,8 +335,7 @@ class EnglishEntrybag extends StatelessWidget {
                             englishText: "We bagged ten fish in two hours.",
                             kurdishText: "دە ماسیمان لە دوو کاتژمێردا گرت.",
                             onPressedBritish: () => speakbags10("en-GB"),
-                            onPressedAmerican: () => speakbags10(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -361,8 +347,7 @@ class EnglishEntrybag extends StatelessWidget {
                             kurdishText:
                                 "ھارکین لە بردنەوەکەی دوێنێ شەودا دوو گۆڵی تۆمارکرد.",
                             onPressedBritish: () => speakbags11("en-GB"),
-                            onPressedAmerican: () => speakbags11(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -373,8 +358,7 @@ class EnglishEntrybag extends StatelessWidget {
                                 "Sally had managed to bag the two best seats.",
                             kurdishText: "سالی دوو باشترین جێگەی گرتبوو.",
                             onPressedBritish: () => speakbags12("en-GB"),
-                            onPressedAmerican: () => speakbags12(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -386,8 +370,7 @@ class EnglishEntrybag extends StatelessWidget {
                             kurdishText:
                                 "واز لە لۆمەکردنی بێنە، ھەموو ھەوڵی خۆی دەدا.",
                             onPressedBritish: () => speakbags13("en-GB"),
-                            onPressedAmerican: () => speakbags13(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags13("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -399,8 +382,7 @@ class EnglishEntrybag extends StatelessWidget {
                             kurdishText:
                                 "بڕیاریان دا گەشتەکە نەکەن چونکە پارەی کاشیان کەم لەبەردەست بوو.",
                             onPressedBritish: () => speakbags14("en-GB"),
-                            onPressedAmerican: () => speakbags14(// REPLACE: bag
-                                "en-US"),
+                            onPressedAmerican: () => speakbags14("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

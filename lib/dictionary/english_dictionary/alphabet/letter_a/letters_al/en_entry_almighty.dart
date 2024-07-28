@@ -56,7 +56,7 @@ class EnglishEntryalmighty extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -78,9 +78,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːlˈmaɪti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːlˈmaɪti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakalmighty("en-GB"),
                             ),
@@ -88,9 +86,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːlˈmaɪti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ɔːlˈmaɪti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakalmighty("en-US"),
                             ),

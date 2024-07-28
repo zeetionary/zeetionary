@@ -88,7 +88,7 @@ class EnglishEntryaward extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryaward extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈwɔːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈwɔːd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaward("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryaward extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈwɔːrd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈwɔːrd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaward("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryaward extends StatelessWidget {
                             kurdishText:
                                 "کاندیدکرا بۆ خەڵاتی ئۆسکار بۆ باشترین ئەکتەر.",
                             onPressedBritish: () => speakawards1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawards1(// REPLACE: award
-                                    "en-US"),
+                            onPressedAmerican: () => speakawards1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntryaward extends StatelessWidget {
                             kurdishText:
                                 "وەک سەرۆکی بانکەکە، بەخشیشێکی ٢,١٨ ملیۆن دۆلاری وەرگرت.",
                             onPressedBritish: () => speakawards2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawards2(// REPLACE: award
-                                    "en-US"),
+                            onPressedAmerican: () => speakawards2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +184,7 @@ class EnglishEntryaward extends StatelessWidget {
                             kurdishText:
                                 "دادوەرەکە دەسەڵاتی پێدانی قەرەبووی ھەیە.",
                             onPressedBritish: () => speakawards3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawards3(// REPLACE: award
-                                    "en-US"),
+                            onPressedAmerican: () => speakawards3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -206,9 +196,7 @@ class EnglishEntryaward extends StatelessWidget {
                             kurdishText:
                                 "تەواوکردنی گونجاوی کۆرسەکە دەگات بە پێدانی دیپلۆما لە کاری کۆمەڵایەتی.",
                             onPressedBritish: () => speakawards4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawards4(// REPLACE: award
-                                    "en-US"),
+                            onPressedAmerican: () => speakawards4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -220,9 +208,7 @@ class EnglishEntryaward extends StatelessWidget {
                             kurdishText:
                                 "خەڵاتەکە ساڵانە دەبەخشرێت بۆ باشترین بینای تازە.",
                             onPressedBritish: () => speakawards5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawards5(// REPLACE: award
-                                    "en-US"),
+                            onPressedAmerican: () => speakawards5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

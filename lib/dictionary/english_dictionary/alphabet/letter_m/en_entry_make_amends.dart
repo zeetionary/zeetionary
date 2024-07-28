@@ -111,7 +111,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -128,16 +128,12 @@ class EnglishEntrymakeamends extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "make amends"), // Find /meɪk əˈmendz/
-                            // divvviiider
+                            EntryTitle(word: "make amends"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /meɪk əˈmendz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /meɪk əˈmendz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakMakeamends("en-GB"),
                             ),
@@ -145,9 +141,7 @@ class EnglishEntrymakeamends extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /meɪk əˈmendz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /meɪk əˈmendz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakMakeamends("en-US"),
                             ),

@@ -95,7 +95,7 @@ class EnglishEntryastrologer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryastrologer extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstrɒlədʒə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstrɒlədʒə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastrologer("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryastrologer extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstrɑːlədʒər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstrɑːlədʒər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastrologer("en-US"),
                             ),
@@ -173,9 +169,8 @@ class EnglishEntryastrologer extends StatelessWidget {
                             kurdishText:
                                 "فەلەکناسەکە سەیری ھێڵکارییەکانی کرد بۆ دیاریکردنی باشترین کات بۆ چاوپێکەوتنەکە.",
                             onPressedBritish: () => speakastrologer424("en-GB"),
-                            onPressedAmerican: () => speakastrologer424(
-                                // REPLACE: astrologer
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastrologer424("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

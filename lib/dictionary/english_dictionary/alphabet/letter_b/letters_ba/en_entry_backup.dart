@@ -87,7 +87,7 @@ class EnglishEntrybackup extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybackup extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbækʌp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbækʌp/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbackup("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybackup extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbækʌp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbækʌp/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbackup("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntrybackup extends StatelessWidget {
                             kurdishText:
                                 "دەتوانین وەک پشتیوانی بەکاریبێنین ئەگەر یەکێک لە یاریزانەکانی دیکە دابەزێت.",
                             onPressedBritish: () => speakbackups1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackups1(// REPLACE: backup
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackups1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -171,9 +165,7 @@ class EnglishEntrybackup extends StatelessWidget {
                             englishText: "Always make a backup of your work.",
                             kurdishText: "ھەمیشە کۆپییەکی کارەکانت ھەڵبگرە.",
                             onPressedBritish: () => speakbackups2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackups2(// REPLACE: backup
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackups2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -77,9 +77,7 @@ class EnglishEntrycontralto extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /kənˈtræltəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /kənˈtræltəʊ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakContralto("en-GB"),
                             ),
@@ -87,9 +85,7 @@ class EnglishEntrycontralto extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /kənˈtræltəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /kənˈtræltəʊ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakContralto("en-US"),
                             ),

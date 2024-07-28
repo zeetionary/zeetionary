@@ -96,7 +96,7 @@ class EnglishEntryascent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,15 +113,12 @@ class EnglishEntryascent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "ascent"), // Find /əˈsent/
-                            // divvviiider
+                            EntryTitle(word: "ascent"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈsent/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈsent/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakascent("en-GB"),
                             ),
@@ -129,9 +126,7 @@ class EnglishEntryascent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈsent/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈsent/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakascent("en-US"),
                             ),

@@ -88,7 +88,7 @@ class EnglishEntrybanishment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,9 +113,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbænɪʃmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbænɪʃmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanishment("en-GB"),
                             ),
@@ -123,9 +121,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbænɪʃmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbænɪʃmənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanishment("en-US"),
                             ),
@@ -165,9 +161,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                             kurdishText:
                                 "سەردەمێک لە ئارامی درووست بوو بەھۆی دوورخستنەوەی سەرکەوتووانەی سەرکردە سەربازییەکانەوە لە وڵاتەکە.",
                             onPressedBritish: () => speakbanishments1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanishments1(// REPLACE: banishment
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanishments1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +171,7 @@ class EnglishEntrybanishment extends StatelessWidget {
                             kurdishText:
                                 "زۆرینەی ھاوڵاتیانی ناوچەکە زۆر دڵخۆشن بە قەدەغەکردنی ئۆتۆمبێل لە پارکەکە.",
                             onPressedBritish: () => speakbanishments2("en-GB"),
-                            onPressedAmerican: () => speakbanishments2(
-                                // REPLACE: banishment
-                                "en-US"),
+                            onPressedAmerican: () => speakbanishments2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

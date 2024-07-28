@@ -94,7 +94,7 @@ class EnglishEntryarrogant extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,15 +111,12 @@ class EnglishEntryarrogant extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "arrogant"), // Find /ˈærəɡənt/
-                            // divvviiider
+                            EntryTitle(word: "arrogant"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈærəɡənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈærəɡənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakarrogant("en-GB"),
                             ),
@@ -127,9 +124,7 @@ class EnglishEntryarrogant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈærəɡənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈærəɡənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakarrogant("en-US"),
                             ),

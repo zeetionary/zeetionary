@@ -95,7 +95,7 @@ class EnglishEntryatlas extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryatlas extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈætləs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈætləs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatlas("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryatlas extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈætləs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈætləs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatlas("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntryatlas extends StatelessWidget {
                             kurdishText:
                                 "بۆ ئەو کەسانەی کە ئەتڵەسێکیان لەبەردەست نییە، نیوکاسڵ دەکەوێتە باکووری خۆرھەڵاتی ئینگلتەرە.",
                             onPressedBritish: () => speakatlas839("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatlas839(// REPLACE: atlas
-                                    "en-US"),
+                            onPressedAmerican: () => speakatlas839("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

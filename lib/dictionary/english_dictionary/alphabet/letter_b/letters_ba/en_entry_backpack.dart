@@ -86,7 +86,7 @@ class EnglishEntrybackpack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybackpack extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbækpæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbækpæk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakb3("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybackpack extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbækpæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbækpæk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakb3("en-US"),
                             ),
@@ -156,9 +152,7 @@ class EnglishEntrybackpack extends StatelessWidget {
                             englishText: "He was wearing a heavy backpack.",
                             kurdishText: "جانتایەکی قوورسی لەپشت‌کردبوو.",
                             onPressedBritish: () => speakb3s1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s1(// REPLACE: backpack
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -170,9 +164,7 @@ class EnglishEntrybackpack extends StatelessWidget {
                             kurdishText:
                                 "ساڵی پار چوون بۆ گەشتکردن بۆ ئیسپانیا.",
                             onPressedBritish: () => speakb3s2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s2(// REPLACE: backpack
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

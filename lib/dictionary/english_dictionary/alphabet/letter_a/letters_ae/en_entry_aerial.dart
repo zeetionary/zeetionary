@@ -78,9 +78,7 @@ class EnglishEntryaerial extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeriəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈeriəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaerial("en-US"),
                             ),

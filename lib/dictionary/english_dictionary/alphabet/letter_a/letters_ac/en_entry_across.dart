@@ -124,9 +124,7 @@ class EnglishEntryacross extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkrɔːs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈkrɔːs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacross("en-US"),
                             ),

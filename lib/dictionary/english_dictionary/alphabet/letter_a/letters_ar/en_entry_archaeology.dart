@@ -93,7 +93,7 @@ class EnglishEntryarchaeology extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,16 +110,12 @@ class EnglishEntryarchaeology extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "archaeology"), // Find /ˌɑːkiˈɒlədʒi/
-                            // divvviiider
+                            EntryTitle(word: "archaeology"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɑːkiˈɒlədʒi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌɑːkiˈɒlədʒi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakarchaeology("en-GB"),
                             ),
@@ -127,9 +123,7 @@ class EnglishEntryarchaeology extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɑːrkiˈɑːlədʒi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌɑːrkiˈɑːlədʒi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakarchaeology("en-US"),
                             ),

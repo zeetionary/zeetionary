@@ -94,7 +94,7 @@ class EnglishEntryastronomer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryastronomer extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstrɒnəmə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstrɒnəmə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastronomer("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryastronomer extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstrɑːnəmər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstrɑːnəmər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastronomer("en-US"),
                             ),
@@ -171,9 +167,8 @@ class EnglishEntryastronomer extends StatelessWidget {
                             kurdishText:
                                 "ئەستێرەناسان بەردەوامن لە دۆزینەوەی ئەستێرەی تازە.",
                             onPressedBritish: () => speakastronomer503("en-GB"),
-                            onPressedAmerican: () => speakastronomer503(
-                                // REPLACE: astronomer
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastronomer503("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

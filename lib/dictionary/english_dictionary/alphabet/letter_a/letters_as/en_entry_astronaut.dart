@@ -95,7 +95,7 @@ class EnglishEntryastronaut extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryastronaut extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæstrənɔːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈæstrənɔːt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastronaut("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryastronaut extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæstrənɔːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈæstrənɔːt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastronaut("en-US"),
                             ),
@@ -171,9 +167,7 @@ class EnglishEntryastronaut extends StatelessWidget {
                             kurdishText:
                                 "ئاسمانەوانەکان چەندین ساڵ ڕاھێنانیان کرد بۆ ئەرکەکەیان لە چوونە سەر مانگ.",
                             onPressedBritish: () => speakastronaut442("en-GB"),
-                            onPressedAmerican: () =>
-                                speakastronaut442(// REPLACE: astronaut
-                                    "en-US"),
+                            onPressedAmerican: () => speakastronaut442("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

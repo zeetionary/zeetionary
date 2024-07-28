@@ -80,8 +80,7 @@ class EnglishEntryaged extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /eɪdʒd/, /ˈeɪdʒɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /eɪdʒd/, /ˈeɪdʒɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaged("en-US"),
                             ),

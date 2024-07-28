@@ -96,7 +96,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -121,9 +121,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈθentɪkeɪt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈθentɪkeɪt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauthenticate("en-GB"),
                             ),
@@ -131,9 +129,7 @@ class EnglishEntryauthenticate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈθentɪkeɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈθentɪkeɪt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauthenticate("en-US"),
                             ),
@@ -170,9 +166,8 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                 "نامەکە دڵنیایی‌لێکراوەتەوە لەلایەن شارەزایانی دەستوخەتەوە.",
                             onPressedBritish: () =>
                                 speakauthenticate628("en-GB"),
-                            onPressedAmerican: () => speakauthenticate628(
-                                // REPLACE: authenticate
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauthenticate628("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,8 @@ class EnglishEntryauthenticate extends StatelessWidget {
                                 "بەکارھێنەران دەبێت ناسنامەیان پشڕاستبکەنەوە بە زانیارییەکانیان بۆ بەکارھێنانی ئینتەرنێت.",
                             onPressedBritish: () =>
                                 speakauthenticate632("en-GB"),
-                            onPressedAmerican: () => speakauthenticate632(
-                                // REPLACE: authenticate
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauthenticate632("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

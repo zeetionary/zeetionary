@@ -224,7 +224,7 @@ class EnglishEntryattack extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -248,9 +248,7 @@ class EnglishEntryattack extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtæk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtæk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattack("en-GB"),
                             ),
@@ -258,9 +256,7 @@ class EnglishEntryattack extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtæk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtæk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattack("en-US"),
                             ),
@@ -322,8 +318,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "ھێزە یاخییەکان ھێرشێکیان ئەنجامدا بۆ سەر ئامانجی مەدەنی.",
                             onPressedBritish: () => speakattack457("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack457("en-US"),                          ),
+                            onPressedAmerican: () => speakattack457("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -332,8 +328,8 @@ class EnglishEntryattack extends StatelessWidget {
                             englishText: "I had an attack of fever this week.",
                             kurdishText: "ئەم ھەفتەیە ماوەیەک تام ھەبوو.",
                             onPressedBritish: () => speakattack500("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack500("en-US"),                          ),
+                            onPressedAmerican: () => speakattack500("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -342,8 +338,8 @@ class EnglishEntryattack extends StatelessWidget {
                             englishText: "He suffers from attacks of anxiety.",
                             kurdishText: "ماوە ماوە تووشی خەمباری دەبێت.",
                             onPressedBritish: () => speakattack503("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack503("en-US"),                          ),
+                            onPressedAmerican: () => speakattack503("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -354,8 +350,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "پزیشکان دەستیان بە ڕەخنە کردووە و حکومەت تۆمەتبار دەکەن.",
                             onPressedBritish: () => speakattack506("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack506("en-US"),                          ),
+                            onPressedAmerican: () => speakattack506("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -366,8 +362,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "ھێرشبردنی ئەڵمانیا لاوازبووە بەھۆی لەدەستدانی ژمارەیەک یاریزانی گرنگ بەھۆی پێکانەوە.",
                             onPressedBritish: () => speakattack508("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack508("en-US"),                          ),
+                            onPressedAmerican: () => speakattack508("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -378,8 +374,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "ھێرشی بەردەوام لەسەر گۆڵی ئەرسناڵ بوو.",
                             onPressedBritish: () => speakattack510("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack510("en-US"),                          ),
+                            onPressedAmerican: () => speakattack510("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -390,8 +386,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "حکومەت ھەڵمەتێکی فراوانی دژ بە ھەژاری ڕاگەیاند.",
                             onPressedBritish: () => speakattack512("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack512("en-US"),                          ),
+                            onPressedAmerican: () => speakattack512("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -402,8 +398,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "دار سەقفەکان کاریگەربوون بە ڕزین و ھێرشی مێروو.",
                             onPressedBritish: () => speakattack515("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack515("en-US"),                          ),
+                            onPressedAmerican: () => speakattack515("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -414,8 +410,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "زۆر سەگ ھێرش ناکەن مەگەر ئەوەی تووڕە بکرێن.",
                             onPressedBritish: () => speakattack517("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack517("en-US"),                          ),
+                            onPressedAmerican: () => speakattack517("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -424,8 +420,8 @@ class EnglishEntryattack extends StatelessWidget {
                             englishText: "Enemy forces attacked at night.",
                             kurdishText: "ھێزەکانی دوژمن لە شەودا ھێرشیان کرد.",
                             onPressedBritish: () => speakattack519("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack519("en-US"),                          ),
+                            onPressedAmerican: () => speakattack519("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -436,8 +432,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "تازەترین کاری بەتوندی لەلایەن ھەڵسەنگێنەرانەوە ڕەخنەی لێگیراوە.",
                             onPressedBritish: () => speakattack523("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack523("en-US"),                          ),
+                            onPressedAmerican: () => speakattack523("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -448,8 +444,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "بەکتریا کار لەسەر شەکر دەکەن بۆ درووستکردنی ئەسید کە زیان دەگەیەنێت بە ڕووی ددان.",
                             onPressedBritish: () => speakattack525("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack525("en-US"),                          ),
+                            onPressedAmerican: () => speakattack525("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -460,8 +456,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "ئیسپانیا لە گێمی دووەمدا زیاتر ھێرشی کرد و شایەنی گۆڵێک بوون.",
                             onPressedBritish: () => speakattack526("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack526("en-US"),                          ),
+                            onPressedAmerican: () => speakattack526("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -471,8 +467,8 @@ class EnglishEntryattack extends StatelessWidget {
                             kurdishText:
                                 "با مامەڵە لەگەڵ یەک کێشە بکەین لە ھەر کاتێکدا.",
                             onPressedBritish: () => speakattack528("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattack528("en-US"),                          ),
+                            onPressedAmerican: () => speakattack528("en-US"),
+                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

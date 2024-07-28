@@ -77,9 +77,7 @@ class EnglishEntryadrenaline extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdrenəlɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdrenəlɪn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadrenaline("en-US"),
                             ),

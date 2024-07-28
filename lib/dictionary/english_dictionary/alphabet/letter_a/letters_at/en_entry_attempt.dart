@@ -95,7 +95,7 @@ class EnglishEntryattempt extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryattempt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtempt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtempt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattempt("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryattempt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtempt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtempt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattempt("en-US"),
                             ),
@@ -170,9 +166,7 @@ class EnglishEntryattempt extends StatelessWidget {
                             kurdishText:
                                 "مۆڵەتی شۆفێریمم بە یەکەم ھەوڵ دەرھێنا.",
                             onPressedBritish: () => speakattempt742("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattempt742(// REPLACE: attempt
-                                    "en-US"),
+                            onPressedAmerican: () => speakattempt742("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -183,9 +177,7 @@ class EnglishEntryattempt extends StatelessWidget {
                                 "This is the third attempt on the President's life.",
                             kurdishText: "ئەمە سێیەم ھەوڵە بۆ کووشتنی سەرۆک.",
                             onPressedBritish: () => speakattempt743("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattempt743(// REPLACE: attempt
-                                    "en-US"),
+                            onPressedAmerican: () => speakattempt743("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -197,9 +189,7 @@ class EnglishEntryattempt extends StatelessWidget {
                             kurdishText:
                                 "ھەوڵ دەدەم وەڵامی ھەموو پرسیارەکانت بدەمەوە.",
                             onPressedBritish: () => speakattempt749("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattempt749(// REPLACE: attempt
-                                    "en-US"),
+                            onPressedAmerican: () => speakattempt749("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -208,9 +198,7 @@ class EnglishEntryattempt extends StatelessWidget {
                                 "Do not attempt to repair this yourself.",
                             kurdishText: "ھەوڵ مەدە خۆی ئەمە چاکبکەیتەوە.",
                             onPressedBritish: () => speakattempt750("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattempt750(// REPLACE: attempt
-                                    "en-US"),
+                            onPressedAmerican: () => speakattempt750("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

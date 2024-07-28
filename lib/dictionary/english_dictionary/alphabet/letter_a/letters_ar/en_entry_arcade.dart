@@ -94,7 +94,7 @@ class EnglishEntryarcade extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,15 +111,12 @@ class EnglishEntryarcade extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "arcade"), // Find /ɑːˈkeɪd/
-                            // divvviiider
+                            EntryTitle(word: "arcade"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɑːˈkeɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɑːˈkeɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakarcade("en-GB"),
                             ),
@@ -127,9 +124,7 @@ class EnglishEntryarcade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɑːrˈkeɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɑːrˈkeɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakarcade("en-US"),
                             ),

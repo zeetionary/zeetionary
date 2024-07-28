@@ -96,7 +96,7 @@ class EnglishEntryattitude extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryattitude extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈætɪtjuːd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈætɪtjuːd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattitude("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryattitude extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈætɪtuːd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈætɪtuːd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattitude("en-US"),
                             ),
@@ -172,9 +168,7 @@ class EnglishEntryattitude extends StatelessWidget {
                             kurdishText:
                                 "ئەم کۆمەڵگایانە دەبێت ھەڵوێستیان بەرامبەر بە ژنان بگۆڕن.",
                             onPressedBritish: () => speakattitude1030("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattitude1030(// REPLACE: attitude
-                                    "en-US"),
+                            onPressedAmerican: () => speakattitude1030("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +180,7 @@ class EnglishEntryattitude extends StatelessWidget {
                             kurdishText:
                                 "باشترە بۆت واز جوڵانەوەیە بێنیت و ڕەفتارت جوان بکەیت، کوڕە گەنج.",
                             onPressedBritish: () => speakattitude1034("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattitude1034(// REPLACE: attitude
-                                    "en-US"),
+                            onPressedAmerican: () => speakattitude1034("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -200,9 +192,7 @@ class EnglishEntryattitude extends StatelessWidget {
                             kurdishText:
                                 "دەستەکانی نووشتانبوویەوە وەک لە باری نزاکردندا بێ.",
                             onPressedBritish: () => speakattitude1036("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattitude1036(// REPLACE: attitude
-                                    "en-US"),
+                            onPressedAmerican: () => speakattitude1036("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

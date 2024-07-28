@@ -77,9 +77,7 @@ class EnglishEntryaccuser extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkjuːzər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈkjuːzər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccuser("en-US"),
                             ),

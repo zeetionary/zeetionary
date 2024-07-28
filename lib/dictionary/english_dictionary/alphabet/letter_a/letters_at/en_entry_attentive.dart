@@ -94,7 +94,7 @@ class EnglishEntryattentive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryattentive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtentɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtentɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattentive("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryattentive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtentɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtentɪv"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattentive("en-US"),
                             ),
@@ -168,9 +164,7 @@ class EnglishEntryattentive extends StatelessWidget {
                             englishText: "He listened, quiet and attentive.",
                             kurdishText: "گوێی گرت بە ئارامی و سەرنجەوە.",
                             onPressedBritish: () => speakattentive904("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattentive904(// REPLACE: attentive
-                                    "en-US"),
+                            onPressedAmerican: () => speakattentive904("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +176,7 @@ class EnglishEntryattentive extends StatelessWidget {
                             kurdishText:
                                 "ستافی ھوتێلەکە زۆر ڕووخۆش و یارمەتیدەرن.",
                             onPressedBritish: () => speakattentive906("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattentive906(// REPLACE: attentive
-                                    "en-US"),
+                            onPressedAmerican: () => speakattentive906("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -93,7 +93,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,15 +110,12 @@ class EnglishEntryapostrophe extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "apostrophe"), // Find /əˈpɒstrəfi/
-                            // divvviiider
+                            EntryTitle(word: "apostrophe"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈpɒstrəfi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈpɒstrəfi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakapostrophe("en-GB"),
                             ),
@@ -126,9 +123,7 @@ class EnglishEntryapostrophe extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈpɑːstrəfi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈpɑːstrəfi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakapostrophe("en-US"),
                             ),

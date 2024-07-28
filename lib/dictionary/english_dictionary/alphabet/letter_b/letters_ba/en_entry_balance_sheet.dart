@@ -87,7 +87,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæləns ʃiːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæləns ʃiːt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbalancesheet("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæləns ʃiːt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæləns ʃiːt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbalancesheet("en-US"),
                             ),

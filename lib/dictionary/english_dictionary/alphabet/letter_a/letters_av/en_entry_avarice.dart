@@ -87,7 +87,7 @@ class EnglishEntryavarice extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryavarice extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈævərɪs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈævərɪs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavarice("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryavarice extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈævərɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈævərɪs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavarice("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntryavarice extends StatelessWidget {
                             kurdishText:
                                 "ئیمپراتۆریەتییە بازرگانییەکەی سامانێکی ھێندە گەورەی پێدا کە زیاتر بێت لەوەی ھەرگیز خەونی پێوەدیبێت.",
                             onPressedBritish: () => speakavarices1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavarices1(// REPLACE: avarice
-                                    "en-US"),
+                            onPressedAmerican: () => speakavarices1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

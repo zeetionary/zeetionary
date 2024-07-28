@@ -99,7 +99,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -124,9 +124,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈætməsfɪə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈætməsfɪə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatmosphere("en-GB"),
                             ),
@@ -134,9 +132,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈætməsfɪr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈætməsfɪr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatmosphere("en-US"),
                             ),
@@ -177,7 +173,9 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە.",
                             onPressedBritish: () =>
                                 speakatmosphere1119("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1119("en-US"),                          ),
+                            onPressedAmerican: () =>
+                                speakatmosphere1119("en-US"),
+                          ),
                           const DividerSentences(),
                           // const DividerDefinition(),
                           SentencesRow(
@@ -187,7 +185,9 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی.",
                             onPressedBritish: () =>
                                 speakatmosphere1121("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1121("en-US"),                          ),
+                            onPressedAmerican: () =>
+                                speakatmosphere1121("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -199,7 +199,9 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا.",
                             onPressedBritish: () =>
                                 speakatmosphere1123("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1123("en-US"),                          ),
+                            onPressedAmerican: () =>
+                                speakatmosphere1123("en-US"),
+                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -237,7 +239,9 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا.",
                             onPressedBritish: () =>
                                 speakatmosphere1129("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1129("en-US"),                          ),
+                            onPressedAmerican: () =>
+                                speakatmosphere1129("en-US"),
+                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

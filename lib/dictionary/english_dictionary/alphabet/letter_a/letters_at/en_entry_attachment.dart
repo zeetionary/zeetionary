@@ -98,7 +98,7 @@ class EnglishEntryattachment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -123,9 +123,7 @@ class EnglishEntryattachment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtætʃmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtætʃmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattachment("en-GB"),
                             ),
@@ -133,9 +131,7 @@ class EnglishEntryattachment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtætʃmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtætʃmənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattachment("en-US"),
                             ),
@@ -173,9 +169,8 @@ class EnglishEntryattachment extends StatelessWidget {
                             englishText: "No attachment was included.",
                             kurdishText: "ھیچ دۆکیومێنتێک نەنێردرابوو.",
                             onPressedBritish: () => speakattachment356("en-GB"),
-                            onPressedAmerican: () => speakattachment356(
-                                // REPLACE: attachment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattachment356("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +182,8 @@ class EnglishEntryattachment extends StatelessWidget {
                             kurdishText:
                                 "پێویست بوو پشکنین بکەن بۆ توانای لکێنەری کوورسییەکان بە زەویی فڕۆکەکەوە.",
                             onPressedBritish: () => speakattachment401("en-GB"),
-                            onPressedAmerican: () => speakattachment401(
-                                // REPLACE: attachment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattachment401("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -201,9 +195,8 @@ class EnglishEntryattachment extends StatelessWidget {
                             kurdishText:
                                 "زیندانییان ئەکرێت سۆزیان لا درووستبێت بۆ پاسەوانەکانیان.",
                             onPressedBritish: () => speakattachment403("en-GB"),
-                            onPressedAmerican: () => speakattachment403(
-                                // REPLACE: attachment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattachment403("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -215,9 +208,8 @@ class EnglishEntryattachment extends StatelessWidget {
                             kurdishText:
                                 "ئەگەری کەمە واز لە پشتیوانیی لەمێژینەی بھێنێت بۆ فێمینیزم.",
                             onPressedBritish: () => speakattachment405("en-GB"),
-                            onPressedAmerican: () => speakattachment405(
-                                // REPLACE: attachment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattachment405("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -229,9 +221,8 @@ class EnglishEntryattachment extends StatelessWidget {
                             kurdishText:
                                 "ئەم عەسارەی خواردنە پارچەیەکی تایبەتی ھەیە بۆ ھاڕینی قاوە.",
                             onPressedBritish: () => speakattachment419("en-GB"),
-                            onPressedAmerican: () => speakattachment419(
-                                // REPLACE: attachment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattachment419("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

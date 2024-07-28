@@ -95,7 +95,7 @@ class EnglishEntryaudaciously extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryaudaciously extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈdeɪʃəsli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈdeɪʃəsli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaudaciously("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryaudaciously extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈdeɪʃəsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈdeɪʃəsli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaudaciously("en-US"),
                             ),
@@ -174,9 +170,8 @@ class EnglishEntryaudaciously extends StatelessWidget {
                                 "چاونەترسانە داوای پلەبەرزکردنەوەی کرد تەنھا دوای دوو مانگ لە بوون لە کارەکە.",
                             onPressedBritish: () =>
                                 speakaudaciously1239("en-GB"),
-                            onPressedAmerican: () => speakaudaciously1239(
-                                // REPLACE: audaciously
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaudaciously1239("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

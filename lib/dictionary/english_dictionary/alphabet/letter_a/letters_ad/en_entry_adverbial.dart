@@ -76,9 +76,7 @@ class EnglishEntryadverbial extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ædˈvɜːrbiəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ædˈvɜːrbiəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadverbial("en-US"),
                             ),

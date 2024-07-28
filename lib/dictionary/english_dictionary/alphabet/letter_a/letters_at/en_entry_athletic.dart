@@ -95,7 +95,7 @@ class EnglishEntryathletic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryathletic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /æθˈletɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /æθˈletɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakathletic("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryathletic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /æθˈletɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /æθˈletɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakathletic("en-US"),
                             ),
@@ -169,9 +165,7 @@ class EnglishEntryathletic extends StatelessWidget {
                             englishText: "She looks very athletic.",
                             kurdishText: "زۆر وەرزشی دیارە.",
                             onPressedBritish: () => speakathletic808("en-GB"),
-                            onPressedAmerican: () =>
-                                speakathletic808(// REPLACE: athletic
-                                    "en-US"),
+                            onPressedAmerican: () => speakathletic808("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -183,9 +177,7 @@ class EnglishEntryathletic extends StatelessWidget {
                             kurdishText:
                                 "ئەم کۆلێژە تۆمارێکی درێژی نایابییەتی لە وەرزشدا ھەیە.",
                             onPressedBritish: () => speakathletic813("en-GB"),
-                            onPressedAmerican: () =>
-                                speakathletic813(// REPLACE: athletic
-                                    "en-US"),
+                            onPressedAmerican: () => speakathletic813("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

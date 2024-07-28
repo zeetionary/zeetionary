@@ -87,7 +87,7 @@ class EnglishEntryawe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryawe extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔː/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔː/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakawe("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryawe extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔː"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔː"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakawe("en-US"),
                             ),
@@ -161,8 +157,7 @@ class EnglishEntryawe extends StatelessWidget {
                             englishText: "He speaks of her with awe.",
                             kurdishText: "بە ھەیبەتەوە باسی دەکات.",
                             onPressedBritish: () => speakawes1("en-GB"),
-                            onPressedAmerican: () => speakawes1(// REPLACE: awe
-                                "en-US"),
+                            onPressedAmerican: () => speakawes1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,8 +169,7 @@ class EnglishEntryawe extends StatelessWidget {
                             kurdishText:
                                 "زۆر سەرسام بوو بە ئامادەبوونی ئەو ھەموو کەسە بەناوبانگانە.",
                             onPressedBritish: () => speakawes2("en-GB"),
-                            onPressedAmerican: () => speakawes2(// REPLACE: awe
-                                "en-US"),
+                            onPressedAmerican: () => speakawes2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

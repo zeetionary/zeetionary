@@ -96,7 +96,7 @@ class EnglishEntryautocratic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -121,9 +121,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːtəˈkrætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌɔːtəˈkrætɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautocratic("en-GB"),
                             ),
@@ -131,9 +129,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːtəˈkrætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌɔːtəˈkrætɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautocratic("en-US"),
                             ),
@@ -172,9 +168,8 @@ class EnglishEntryautocratic extends StatelessWidget {
                             kurdishText:
                                 "سەرۆک دەستی لەکارکێشایەوە لە دوای ٣٠ ساڵ لە حوکمی سەرکوتکەرانە.",
                             onPressedBritish: () => speakautocratic944("en-GB"),
-                            onPressedAmerican: () => speakautocratic944(
-                                // REPLACE: autocratic
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakautocratic944("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +181,8 @@ class EnglishEntryautocratic extends StatelessWidget {
                             kurdishText:
                                 "سەرۆکە تاکڕەوەکە کارمەندەکانی بەوردی بەڕێوەدەبرد و ھیچ گرنگی بە پێشنیارەکانیان نەدەدا.",
                             onPressedBritish: () => speakautocratic952("en-GB"),
-                            onPressedAmerican: () => speakautocratic952(
-                                // REPLACE: autocratic
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakautocratic952("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

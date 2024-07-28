@@ -78,9 +78,7 @@ class EnglishEntryacuteness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkjuːtnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈkjuːtnəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacuteness("en-US"),
                             ),

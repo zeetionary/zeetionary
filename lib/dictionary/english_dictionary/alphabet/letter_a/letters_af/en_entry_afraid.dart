@@ -76,9 +76,7 @@ class EnglishEntryafraid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈfreɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈfreɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakafraid("en-US"),
                             ),

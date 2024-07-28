@@ -128,7 +128,7 @@ class EnglishEntrybang extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -152,9 +152,7 @@ class EnglishEntrybang extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bæŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bæŋ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbang("en-GB"),
                             ),
@@ -162,9 +160,7 @@ class EnglishEntrybang extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bæŋ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbang("en-US"),
                             ),
@@ -204,9 +200,7 @@ class EnglishEntrybang extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکە بە کەوچکەکەی زرمەی ھەڵساندبوو لە مێزەکە.",
                             onPressedBritish: () => speakbangs1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs1(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -216,9 +210,7 @@ class EnglishEntrybang extends StatelessWidget {
                             englishText: "She banged the door shut.",
                             kurdishText: "دەرگاکەی بەتوندی قەپاتکرد.",
                             onPressedBritish: () => speakbangs2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs2(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -230,9 +222,7 @@ class EnglishEntrybang extends StatelessWidget {
                             kurdishText:
                                 "بەردەوام بوو لە کێشانی کورسییەکە بە دیوارەکەدا.",
                             onPressedBritish: () => speakbangs3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs3(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -243,9 +233,7 @@ class EnglishEntrybang extends StatelessWidget {
                                 "She tripped and banged her knee on the desk.",
                             kurdishText: "پێی ھەڵکەوت و چۆکی کێشا بە مێزەکەدا.",
                             onPressedBritish: () => speakbangs4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs4(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -257,9 +245,7 @@ class EnglishEntrybang extends StatelessWidget {
                             kurdishText:
                                 "سێکسی لەگەڵ یەک دونیا پیاو کردبوو کە تەمەنی ٢٥ ساڵان بوو.",
                             onPressedBritish: () => speakbangs5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs5(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -269,9 +255,7 @@ class EnglishEntrybang extends StatelessWidget {
                             englishText: "The door swung shut with a bang.",
                             kurdishText: "دەرگاکە بە زرمیەکەوە قەپات بوو.",
                             onPressedBritish: () => speakbangs6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs6(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -283,9 +267,7 @@ class EnglishEntrybang extends StatelessWidget {
                             kurdishText:
                                 "پێم‌وایە دەبێت شتێک کێشابێتی بەسەریدا.",
                             onPressedBritish: () => speakbangs7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs7(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -296,9 +278,7 @@ class EnglishEntrybang extends StatelessWidget {
                             englishText: "She blew her bangs out of her face.",
                             kurdishText: "پەرچەمی لەسەر ڕووخساری لادا.",
                             onPressedBritish: () => speakbangs8("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs8(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -309,9 +289,7 @@ class EnglishEntrybang extends StatelessWidget {
                             kurdishText:
                                 "خەمڵاندنەکەم بە تەواوی لەجێی خۆی بوو.",
                             onPressedBritish: () => speakbangs9("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs9(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -323,9 +301,7 @@ class EnglishEntrybang extends StatelessWidget {
                             kurdishText:
                                 "کە منداڵە بچووکەکە چەکێکی پلاستیکی ڕووم تێکردبوو وتی 'تەق تەق، تۆ مردووی'.",
                             onPressedBritish: () => speakbangs10("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangs10(// REPLACE: bang
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangs10("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

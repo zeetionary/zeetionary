@@ -94,7 +94,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,8 +120,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːtəˌbaɪəˈɡræfɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌɔːtəˌbaɪəˈɡræfɪkl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautobiographical("en-GB"),
                             ),
@@ -130,8 +129,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːtəˌbaɪəˈɡræfɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌɔːtəˌbaɪəˈɡræfɪkl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautobiographical("en-US"),
                             ),
@@ -173,9 +171,8 @@ class EnglishEntryautobiographical extends StatelessWidget {
                                 "ڕۆمانەکە تاڕادەیەکی زۆر خۆژین‌نامەییە.",
                             onPressedBritish: () =>
                                 speakautobiographical911("en-GB"),
-                            onPressedAmerican: () => speakautobiographical911(
-                                // REPLACE: autobiographical
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakautobiographical911("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

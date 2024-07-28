@@ -106,7 +106,7 @@ class EnglishEntryband extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -130,9 +130,7 @@ class EnglishEntryband extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bænd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bænd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakband("en-GB"),
                             ),
@@ -140,9 +138,7 @@ class EnglishEntryband extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bænd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bænd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakband("en-US"),
                             ),
@@ -182,9 +178,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "دومەڵەک لێدەدا لە باندێکدا کە لەگەڵ ژمارەیەک ھاوڕێی درووستیکرد.",
                             onPressedBritish: () => speakbands1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands1(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +190,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "دەستەیەکی بچوول لە خۆبەخشانی ڕازیکرد کە یارمەتی بدەن.",
                             onPressedBritish: () => speakbands2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands2(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -210,9 +202,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "ھەموو منداڵانی نەخۆشخانەکان تیزماڵکێکیان لە مەچەکە کە ناویانی لەسەر نووسراوە.",
                             onPressedBritish: () => speakbands3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands3(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -224,9 +214,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "لایتەکە بە ھێڵێکی فراوان بە ئاسماندا بڵاوبووبوویەوە.",
                             onPressedBritish: () => speakbands4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands4(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -238,9 +226,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "ڕادیۆی مەودا کورت شەپۆلی ٢٠-٥٠ مەتر بەکاردێنێت.",
                             onPressedBritish: () => speakbands5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands5(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -251,9 +237,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "سەر بە کام دەستەی باجدانی؟ (چەندە باج دەدەیت).",
                             onPressedBritish: () => speakbands6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands6(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -265,9 +249,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "تیزماڵکمان لە باڵندەکان ئاڵاند بۆ ئەوەی دواتر بیان ناسینەوە.",
                             onPressedBritish: () => speakbands7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands7(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -278,9 +260,7 @@ class EnglishEntryband extends StatelessWidget {
                             kurdishText:
                                 "باجدان دەستە دەستە دەکرێت بەپێی داھات.",
                             onPressedBritish: () => speakbands8("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbands8(// REPLACE: band
-                                    "en-US"),
+                            onPressedAmerican: () => speakbands8("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

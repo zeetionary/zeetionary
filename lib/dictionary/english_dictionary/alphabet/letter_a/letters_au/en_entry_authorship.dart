@@ -95,7 +95,7 @@ class EnglishEntryauthorship extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːθəʃɪp/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːθəʃɪp/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauthorship("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryauthorship extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːθərʃɪp/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːθərʃɪp/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauthorship("en-US"),
                             ),
@@ -171,9 +167,8 @@ class EnglishEntryauthorship extends StatelessWidget {
                                 "The authorship of the poem is unknown.",
                             kurdishText: "نووسەری ھۆنراوەکە نەزانراوە.",
                             onPressedBritish: () => speakauthorship731("en-GB"),
-                            onPressedAmerican: () => speakauthorship731(
-                                // REPLACE: authorship
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauthorship731("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -185,9 +180,8 @@ class EnglishEntryauthorship extends StatelessWidget {
                             kurdishText:
                                 "ڕاپۆرتەکەی بڵاوکردەوە بە نووسەرێتیی ھاوبەشی ھاوکارێکی.",
                             onPressedBritish: () => speakauthorship733("en-GB"),
-                            onPressedAmerican: () => speakauthorship733(
-                                // REPLACE: authorship
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauthorship733("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -89,7 +89,7 @@ class EnglishEntryballet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,9 +113,7 @@ class EnglishEntryballet extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæleɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæleɪ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakballet("en-GB"),
                             ),
@@ -123,9 +121,7 @@ class EnglishEntryballet extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæˈleɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bæˈleɪ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakballet("en-US"),
                             ),
@@ -165,9 +161,7 @@ class EnglishEntryballet extends StatelessWidget {
                             kurdishText:
                                 "ناتالی، بەبێ گومان، قوتابی ئەستێرەی ئەمساڵی وانەی بالێیە.",
                             onPressedBritish: () => speakballets1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballets1(// REPLACE: ballet
-                                    "en-US"),
+                            onPressedAmerican: () => speakballets1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +173,7 @@ class EnglishEntryballet extends StatelessWidget {
                             kurdishText:
                                 "لە تەمەنی ١٥ ساڵیدا لەمێژبوو یەکەم میوزیکی بالێی خۆی داڕشت بوو.",
                             onPressedBritish: () => speakballets2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballets2(// REPLACE: ballet
-                                    "en-US"),
+                            onPressedAmerican: () => speakballets2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +185,7 @@ class EnglishEntryballet extends StatelessWidget {
                             kurdishText:
                                 "ئەندامانی 'بالێی شاھانە' ناسراون بۆ سەنگینی و وەرزشی و کارامەیی ھونەری.",
                             onPressedBritish: () => speakballets3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballets3(// REPLACE: ballet
-                                    "en-US"),
+                            onPressedAmerican: () => speakballets3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

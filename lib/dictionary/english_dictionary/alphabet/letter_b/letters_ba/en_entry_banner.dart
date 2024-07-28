@@ -88,7 +88,7 @@ class EnglishEntrybanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybanner extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbænər/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbænər/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanner("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybanner extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbænər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbænər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanner("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntrybanner extends StatelessWidget {
                             kurdishText:
                                 "خۆپیشاندەران بەیداخێکیان بەدەستەوە بوو کە لەسەری نووسرابوو 'ژیانی سرووشتی بپارێزن'.",
                             onPressedBritish: () => speakbanners1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanners1(// REPLACE: banner
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanners1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntrybanner extends StatelessWidget {
                             kurdishText:
                                 "نووسراوێکیان لەسەر وێبسایتەکە دانا کە ئامۆژگاری کڕیارانی دەکرد زوو داواکاریەکانیان بنێرن.",
                             onPressedBritish: () => speakbanners2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanners2(// REPLACE: banner
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanners2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

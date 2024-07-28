@@ -87,7 +87,7 @@ class EnglishEntryaye extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryaye extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /aɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /aɪ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaye("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryaye extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /aɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /aɪ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaye("en-US"),
                             ),
@@ -159,8 +155,7 @@ class EnglishEntryaye extends StatelessWidget {
                             kurdishText:
                                 "'بینیت چی ڕوویدا؟' 'بەڵێ، لەوێ بووم'.",
                             onPressedBritish: () => speakayes1("en-GB"),
-                            onPressedAmerican: () => speakayes1(// REPLACE: aye
-                                "en-US"),
+                            onPressedAmerican: () => speakayes1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -170,8 +165,7 @@ class EnglishEntryaye extends StatelessWidget {
                             englishText: "I have aye wanted to see London.",
                             kurdishText: "ھەمیشە ویستوومە لەندەن ببینم.",
                             onPressedBritish: () => speakayes2("en-GB"),
-                            onPressedAmerican: () => speakayes2(// REPLACE: aye
-                                "en-US"),
+                            onPressedAmerican: () => speakayes2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

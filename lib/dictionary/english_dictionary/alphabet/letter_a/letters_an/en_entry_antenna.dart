@@ -89,7 +89,7 @@ class EnglishEntryantenna extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,15 +106,12 @@ class EnglishEntryantenna extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "antenna"), // Find /ænˈtenə/
-                            // divvviiider
+                            EntryTitle(word: "antenna"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ænˈtenə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ænˈtenə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakantenna("en-GB"),
                             ),
@@ -122,9 +119,7 @@ class EnglishEntryantenna extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ænˈtenə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ænˈtenə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakantenna("en-US"),
                             ),

@@ -76,9 +76,7 @@ class EnglishEntryaffix extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈfɪks/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈfɪks/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaffix("en-US"),
                             ),

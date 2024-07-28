@@ -87,7 +87,7 @@ class EnglishEntryavoidance extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryavoidance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈvɔɪdəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈvɔɪdəns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavoidance("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryavoidance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈvɔɪdəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈvɔɪdəns/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavoidance("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryavoidance extends StatelessWidget {
                             kurdishText:
                                 "تەندرووستی کەسێک بەھێز دەبێت ئەگەر خۆی لە خەمخواردن بەدووربگرێت.",
                             onPressedBritish: () => speakavoidances1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavoidances1(// REPLACE: avoidance
-                                    "en-US"),
+                            onPressedAmerican: () => speakavoidances1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

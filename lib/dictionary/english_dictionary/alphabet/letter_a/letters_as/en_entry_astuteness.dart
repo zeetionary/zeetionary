@@ -94,7 +94,7 @@ class EnglishEntryastuteness extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryastuteness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstjuːtnəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstjuːtnəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastuteness("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryastuteness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstuːtnəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstuːtnəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastuteness("en-US"),
                             ),
@@ -169,9 +165,8 @@ class EnglishEntryastuteness extends StatelessWidget {
                                 "She is admired for her political astuteness.",
                             kurdishText: "ڕێزلێگیراوە بۆ بیرتیژیی لە سیاسەتدا.",
                             onPressedBritish: () => speakastuteness606("en-GB"),
-                            onPressedAmerican: () => speakastuteness606(
-                                // REPLACE: astuteness
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastuteness606("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

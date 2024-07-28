@@ -87,7 +87,7 @@ class EnglishEntrybacon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybacon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbeɪkən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbeɪkən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbacon("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybacon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbeɪkən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪkən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbacon("en-US"),
                             ),
@@ -157,9 +153,7 @@ class EnglishEntrybacon extends StatelessWidget {
                             englishText: "This bacon is too salty for me.",
                             kurdishText: "گۆشتە بەرازەکە زۆر شۆرە بۆ من.",
                             onPressedBritish: () => speakbacons1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbacons1(// REPLACE: bacon
-                                    "en-US"),
+                            onPressedAmerican: () => speakbacons1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -169,9 +163,7 @@ class EnglishEntrybacon extends StatelessWidget {
                             kurdishText:
                                 "گۆشتی بەراز پێی دەوترێت pork, bacon یان ham.",
                             onPressedBritish: () => speakbacons2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbacons2(// REPLACE: bacon
-                                    "en-US"),
+                            onPressedAmerican: () => speakbacons2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

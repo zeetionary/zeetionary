@@ -95,7 +95,7 @@ class EnglishEntryattend extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryattend extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtend/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtend/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattend("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryattend extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtend/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtend/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattend("en-US"),
                             ),
@@ -170,9 +166,7 @@ class EnglishEntryattend extends StatelessWidget {
                             kurdishText:
                                 "حەز دەکەین ھەرچەند دەکرێت خەڵک ئامادەبێت.",
                             onPressedBritish: () => speakattend759("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattend759(// REPLACE: attend
-                                    "en-US"),
+                            onPressedAmerican: () => speakattend759("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +176,7 @@ class EnglishEntryattend extends StatelessWidget {
                             englishText: "Our children attend the same school.",
                             kurdishText: "منداڵەکانمان دەچنە ھەمان خوێندنگە.",
                             onPressedBritish: () => speakattend800("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattend800(// REPLACE: attend
-                                    "en-US"),
+                            onPressedAmerican: () => speakattend800("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +187,7 @@ class EnglishEntryattend extends StatelessWidget {
                                 "She hadn't been attending during the lesson.",
                             kurdishText: "لە کاتی وانەکەدا سەرنجی نەدەدا.",
                             onPressedBritish: () => speakattend802("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattend802(// REPLACE: attend
-                                    "en-US"),
+                            onPressedAmerican: () => speakattend802("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -208,9 +198,7 @@ class EnglishEntryattend extends StatelessWidget {
                             kurdishText:
                                 "سەرکەوتن دوابەدوای ھەوڵە سەختەکانیان ھات.",
                             onPressedBritish: () => speakattend808("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattend808(// REPLACE: attend
-                                    "en-US"),
+                            onPressedAmerican: () => speakattend808("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -222,9 +210,7 @@ class EnglishEntryattend extends StatelessWidget {
                             kurdishText:
                                 "سەرۆک یارمەتی دەدرا لەلایەن ژمارەیەک لە ئەندامانی ستافەکەیەوە.",
                             onPressedBritish: () => speakattend809("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattend809(// REPLACE: attend
-                                    "en-US"),
+                            onPressedAmerican: () => speakattend809("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

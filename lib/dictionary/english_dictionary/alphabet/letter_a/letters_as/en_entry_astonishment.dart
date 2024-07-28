@@ -94,7 +94,7 @@ class EnglishEntryastonishment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryastonishment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstɒnɪʃmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstɒnɪʃmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastonishment("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryastonishment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstɑːnɪʃmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstɑːnɪʃmənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastonishment("en-US"),
                             ),
@@ -171,9 +167,8 @@ class EnglishEntryastonishment extends StatelessWidget {
                                 "بە سەرسامییەوە لە لە نەناسەکەی دەڕوانی.",
                             onPressedBritish: () =>
                                 speakastonishment1053("en-GB"),
-                            onPressedAmerican: () => speakastonishment1053(
-                                // REPLACE: astonishment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastonishment1053("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

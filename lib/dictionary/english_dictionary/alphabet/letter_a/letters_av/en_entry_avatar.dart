@@ -88,7 +88,7 @@ class EnglishEntryavatar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryavatar extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈævətɑː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈævətɑː(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavatar("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryavatar extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈævətɑːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈævətɑːr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavatar("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntryavatar extends StatelessWidget {
                             kurdishText:
                                 "گوتاما بودا بە ئەڤەتاری خواوەند ڤیشنو دادەنرێت.",
                             onPressedBritish: () => speakavatars1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavatars1(// REPLACE: avatar
-                                    "en-US"),
+                            onPressedAmerican: () => speakavatars1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +168,7 @@ class EnglishEntryavatar extends StatelessWidget {
                             kurdishText:
                                 "یارییەکە جیھانێکی خەیاڵی درووست‌دەکات کە تێیدا خەڵکی مامەڵە لەگەڵ یەکدەکەن و بەژداری دەکەن لە ڕێگەی ئەڤەتارەکانیانەوە.",
                             onPressedBritish: () => speakavatars2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavatars2(// REPLACE: avatar
-                                    "en-US"),
+                            onPressedAmerican: () => speakavatars2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -77,9 +77,7 @@ class EnglishEntryacuteangle extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˌkjuːt ˈæŋɡl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˌkjuːt ˈæŋɡl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacuteangle("en-US"),
                             ),

@@ -87,7 +87,7 @@ class EnglishEntryawesome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryawesome extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːsəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːsəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakawesome("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryawesome extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːsəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːsəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakawesome("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntryawesome extends StatelessWidget {
                             kurdishText:
                                 "کە شەو دایدا، گڕکانەکە فیمەنێکی ئەفسووناوی پۆشی.",
                             onPressedBritish: () => speakawesomes1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawesomes1(// REPLACE: awesome
-                                    "en-US"),
+                            onPressedAmerican: () => speakawesomes1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -169,9 +163,7 @@ class EnglishEntryawesome extends StatelessWidget {
                             englishText: "They had an awesome task ahead.",
                             kurdishText: "ئەرکێکی قورسیان لەپێشە.",
                             onPressedBritish: () => speakawesomes2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawesomes2(// REPLACE: awesome
-                                    "en-US"),
+                            onPressedAmerican: () => speakawesomes2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +174,7 @@ class EnglishEntryawesome extends StatelessWidget {
                                 "Hey, come look at this! It's awesome!",
                             kurdishText: "ھێی، وەرە ئەمە ببینە! زۆرخۆشە!.",
                             onPressedBritish: () => speakawesomes3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawesomes3(// REPLACE: awesome
-                                    "en-US"),
+                            onPressedAmerican: () => speakawesomes3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

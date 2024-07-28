@@ -91,7 +91,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -108,16 +108,12 @@ class EnglishEntryapartfrom extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "apart from"), // Find /əˈpɑːt frəm/
-                            // divvviiider
+                            EntryTitle(word: "apart from"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈpɑːt frəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈpɑːt frəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakapartfrom("en-GB"),
                             ),
@@ -125,9 +121,7 @@ class EnglishEntryapartfrom extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈpɑːrt frəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈpɑːrt frəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakapartfrom("en-US"),
                             ),

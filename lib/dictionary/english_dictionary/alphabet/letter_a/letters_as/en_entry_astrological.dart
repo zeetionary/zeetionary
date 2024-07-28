@@ -95,7 +95,7 @@ class EnglishEntryastrological extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryastrological extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌæstrəˈlɒdʒɪkl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌæstrəˈlɒdʒɪkl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastrological("en-GB"),
                             ),
@@ -131,8 +129,7 @@ class EnglishEntryastrological extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌæstrəˈlɑːdʒɪkl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌæstrəˈlɑːdʒɪkl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastrological("en-US"),
                             ),
@@ -169,9 +166,8 @@ class EnglishEntryastrological extends StatelessWidget {
                                 "حەزئەکات قسە لەسەر ھێما فەلەکناسییەکەی بکات کە بورجی لیۆیە، و ھەموو ڕۆژێک پێشبینییەکانی دەخوێنێتەوە.",
                             onPressedBritish: () =>
                                 speakastrological434("en-GB"),
-                            onPressedAmerican: () => speakastrological434(
-                                // REPLACE: astrological
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakastrological434("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

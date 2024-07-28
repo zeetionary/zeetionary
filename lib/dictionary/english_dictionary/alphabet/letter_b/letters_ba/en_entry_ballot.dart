@@ -88,7 +88,7 @@ class EnglishEntryballot extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryballot extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbælət/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbælət/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakballot("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryballot extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbælət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbælət/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakballot("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryballot extends StatelessWidget {
                             kurdishText:
                                 "ئەندامانی یانەکە لە دەنگدانێکدا بڕیاریاندا کاپتنەکە سڕبکەن.",
                             onPressedBritish: () => speakballots1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballots1(// REPLACE: ballot
-                                    "en-US"),
+                            onPressedAmerican: () => speakballots1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntryballot extends StatelessWidget {
                             kurdishText:
                                 "ڕێژەی سەدی چەند لە دەنگدەران پەڕەی دەنگدانیان پڕکردەوە؟",
                             onPressedBritish: () => speakballots2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballots2(// REPLACE: ballot
-                                    "en-US"),
+                            onPressedAmerican: () => speakballots2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +182,7 @@ class EnglishEntryballot extends StatelessWidget {
                             englishText: "She won 58.8% of the ballot.",
                             kurdishText: "ڕێژەی ٥٨,٨ دەنگەکانی بردەوە.",
                             onPressedBritish: () => speakballots3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballots3(// REPLACE: ballot
-                                    "en-US"),
+                            onPressedAmerican: () => speakballots3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +194,7 @@ class EnglishEntryballot extends StatelessWidget {
                             kurdishText:
                                 "یەکێتییەکە داوای لە ئەندامەکانی کرد دەنگبدەن لەسەر گۆڕانکارییە پێشنیارکراوەکان.",
                             onPressedBritish: () => speakballots4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballots4(// REPLACE: ballot
-                                    "en-US"),
+                            onPressedAmerican: () => speakballots4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -216,9 +204,7 @@ class EnglishEntryballot extends StatelessWidget {
                             englishText: "The workers balloted for a strike.",
                             kurdishText: "کرێکاران دەنگیان بۆ مانگرتن دا.",
                             onPressedBritish: () => speakballots5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballots5(// REPLACE: ballot
-                                    "en-US"),
+                            onPressedAmerican: () => speakballots5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

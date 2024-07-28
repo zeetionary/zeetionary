@@ -85,9 +85,7 @@ class EnglishEntryachieve extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtʃiːv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈtʃiːv/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakachieve("en-US"),
                             ),

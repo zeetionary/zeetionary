@@ -87,7 +87,7 @@ class EnglishEntrybabble extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybabble extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæbl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speaka3("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybabble extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæbl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speaka3("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybabble extends StatelessWidget {
                             kurdishText:
                                 "گوێم لە قاڵەقاڵ دەبوو لە ژوورەکەی تر.",
                             onPressedBritish: () => speaka3s1("en-GB"),
-                            onPressedAmerican: () =>
-                                speaka3s1(// REPLACE: babble
-                                    "en-US"),
+                            onPressedAmerican: () => speaka3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +171,7 @@ class EnglishEntrybabble extends StatelessWidget {
                             kurdishText:
                                 "ناتوانم گوێبگرم لە چەنەدانی بەردەوامی.",
                             onPressedBritish: () => speaka3s2("en-GB"),
-                            onPressedAmerican: () =>
-                                speaka3s2(// REPLACE: babble
-                                    "en-US"),
+                            onPressedAmerican: () => speaka3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +183,7 @@ class EnglishEntrybabble extends StatelessWidget {
                             kurdishText:
                                 "گڕوگاڵی منداڵەکە ھەرزوو دەبێت بە زمانی تەواو.",
                             onPressedBritish: () => speaka3s3("en-GB"),
-                            onPressedAmerican: () =>
-                                speaka3s3(// REPLACE: babble
-                                    "en-US"),
+                            onPressedAmerican: () => speaka3s3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -204,9 +194,7 @@ class EnglishEntrybabble extends StatelessWidget {
                                 "I realized I was babbling like an idiot.",
                             kurdishText: "زانیم کە فڵتەفڵتم دەکرد وەک شێتێک.",
                             onPressedBritish: () => speaka3s4("en-GB"),
-                            onPressedAmerican: () =>
-                                speaka3s4(// REPLACE: babble
-                                    "en-US"),
+                            onPressedAmerican: () => speaka3s4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -218,9 +206,7 @@ class EnglishEntrybabble extends StatelessWidget {
                             kurdishText:
                                 "بۆ ماوەیەک لەلای جۆگەلەیەک وەستان کە خوڕڕەی دەھات.",
                             onPressedBritish: () => speaka3s5("en-GB"),
-                            onPressedAmerican: () =>
-                                speaka3s5(// REPLACE: babble
-                                    "en-US"),
+                            onPressedAmerican: () => speaka3s5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

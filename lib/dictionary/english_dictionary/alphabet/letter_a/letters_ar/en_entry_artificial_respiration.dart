@@ -95,7 +95,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,17 +112,13 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "artificial respiration"), // Find /ˌɑːtɪfɪʃl respəˈreɪʃn/
-                            // divvviiider
+                            EntryTitle(word: "artificial respiration"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɑːtɪfɪʃl respəˈreɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌɑːtɪfɪʃl respəˈreɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakartificialrespiration("en-GB"),
@@ -132,8 +128,7 @@ class EnglishEntryartificialrespiration extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɑːrtɪfɪʃl respəˈreɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌɑːrtɪfɪʃl respəˈreɪʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () =>
                                   speakartificialrespiration("en-US"),

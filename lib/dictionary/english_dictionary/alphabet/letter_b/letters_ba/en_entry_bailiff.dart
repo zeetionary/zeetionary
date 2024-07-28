@@ -88,7 +88,7 @@ class EnglishEntrybailiff extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbeɪlɪf/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbeɪlɪf/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbailiff("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbeɪlɪf/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪlɪf/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbailiff("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                             kurdishText:
                                 "ئەفسەرەکان ئۆتۆمبێل و خانووەکەیان دەستبەسەرکرد.",
                             onPressedBritish: () => speakbailiffs1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbailiffs1(// REPLACE: bailiff
-                                    "en-US"),
+                            onPressedAmerican: () => speakbailiffs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                             kurdishText:
                                 "کێڵگەگێڕەکە سەرپەرشتی فرۆشتنی بەرھەمەکانی کێڵگەکەی دەکرد.",
                             onPressedBritish: () => speakbailiffs2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbailiffs2(// REPLACE: bailiff
-                                    "en-US"),
+                            onPressedAmerican: () => speakbailiffs2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +184,7 @@ class EnglishEntrybailiff extends StatelessWidget {
                             kurdishText:
                                 "دەرگاوانەکە گومان‌لێ‌کراوی لە ژووری دادگا بردە دەرەوە.",
                             onPressedBritish: () => speakbailiffs3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbailiffs3(// REPLACE: bailiff
-                                    "en-US"),
+                            onPressedAmerican: () => speakbailiffs3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

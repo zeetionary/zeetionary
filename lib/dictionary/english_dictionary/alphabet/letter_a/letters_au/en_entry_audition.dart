@@ -94,7 +94,7 @@ class EnglishEntryaudition extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryaudition extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈdɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈdɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaudition("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryaudition extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈdɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈdɪʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaudition("en-US"),
                             ),
@@ -166,9 +162,7 @@ class EnglishEntryaudition extends StatelessWidget {
                             kurdishText:
                                 "نمایشەکان لە کاتژمێر ٩-١٢ لە رۆژی ھەینی دەبێت.",
                             onPressedBritish: () => speakaudition238("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaudition238(// REPLACE: audition
-                                    "en-US"),
+                            onPressedAmerican: () => speakaudition238("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +173,7 @@ class EnglishEntryaudition extends StatelessWidget {
                                 "She was auditioning for the role of Lady Macbeth.",
                             kurdishText: "تاقیکرایەوە بۆ ڕۆڵی خاتوو ماکبێس.",
                             onPressedBritish: () => speakaudition240("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaudition240(// REPLACE: audition
-                                    "en-US"),
+                            onPressedAmerican: () => speakaudition240("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -193,9 +185,7 @@ class EnglishEntryaudition extends StatelessWidget {
                             kurdishText:
                                 "زیاتر لە ٢٠٠ منداڵمان تاقیکردەوە بۆ ڕۆڵەکە.",
                             onPressedBritish: () => speakaudition243("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaudition243(// REPLACE: audition
-                                    "en-US"),
+                            onPressedAmerican: () => speakaudition243("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

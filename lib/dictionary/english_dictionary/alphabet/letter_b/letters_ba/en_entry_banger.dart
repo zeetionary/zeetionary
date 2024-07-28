@@ -88,7 +88,7 @@ class EnglishEntrybanger extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybanger extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæŋə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæŋə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanger("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybanger extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæŋər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæŋər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanger("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybanger extends StatelessWidget {
                                 "I love having bangers and mash for dinner.",
                             kurdishText: "حەزم لە سۆسجە بۆ نانی ئێوارە.",
                             onPressedBritish: () => speakbangers1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangers1(// REPLACE: banger
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +171,7 @@ class EnglishEntrybanger extends StatelessWidget {
                             kurdishText:
                                 "ھێشتا ئەو داشقەیەت بەدەستەوەیە، وایە؟",
                             onPressedBritish: () => speakbangers2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangers2(// REPLACE: banger
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangers2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -191,9 +183,7 @@ class EnglishEntrybanger extends StatelessWidget {
                             kurdishText:
                                 "دەبەنگێک بڕیاریدا یارییەکی ئاگرین ڕێک لە لاگوێمدا بتەقێنێتەوە.",
                             onPressedBritish: () => speakbangers3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangers3(// REPLACE: banger
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangers3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -203,9 +193,7 @@ class EnglishEntrybanger extends StatelessWidget {
                             englishText: "The new album is full of bangers.",
                             kurdishText: "ئەلبوومە تازەکە ھەموو گۆرانی سەمان.",
                             onPressedBritish: () => speakbangers4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbangers4(// REPLACE: banger
-                                    "en-US"),
+                            onPressedAmerican: () => speakbangers4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

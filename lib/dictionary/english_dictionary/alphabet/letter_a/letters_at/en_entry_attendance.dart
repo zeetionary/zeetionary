@@ -94,7 +94,7 @@ class EnglishEntryattendance extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryattendance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtendəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtendəns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattendance("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryattendance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtendəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtendəns/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattendance("en-US"),
                             ),
@@ -169,9 +165,8 @@ class EnglishEntryattendance extends StatelessWidget {
                                 "Attendance at these lectures is not compulsory.",
                             kurdishText: "ئامادەبوون لەم وانانە ناچاری نییە.",
                             onPressedBritish: () => speakattendance817("en-GB"),
-                            onPressedAmerican: () => speakattendance817(
-                                // REPLACE: attendance
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattendance817("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -182,9 +177,8 @@ class EnglishEntryattendance extends StatelessWidget {
                                 "There was an attendance of 42 at the meeting.",
                             kurdishText: "٤٢ کەس لە چاوپێکەوتنەکە بوون.",
                             onPressedBritish: () => speakattendance819("en-GB"),
-                            onPressedAmerican: () => speakattendance819(
-                                // REPLACE: attendance
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattendance819("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

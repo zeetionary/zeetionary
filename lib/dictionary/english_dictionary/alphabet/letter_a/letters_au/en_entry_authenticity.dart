@@ -94,7 +94,7 @@ class EnglishEntryauthenticity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryauthenticity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːθenˈtɪsəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌɔːθenˈtɪsəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauthenticity("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryauthenticity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːθenˈtɪsəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌɔːθenˈtɪsəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauthenticity("en-US"),
                             ),
@@ -170,9 +166,8 @@ class EnglishEntryauthenticity extends StatelessWidget {
                             kurdishText: "ڕەسەنایەتی نامەکە لە دەرەوەی گومانە.",
                             onPressedBritish: () =>
                                 speakauthenticity651("en-GB"),
-                            onPressedAmerican: () => speakauthenticity651(
-                                // REPLACE: authenticity
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauthenticity651("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

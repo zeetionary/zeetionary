@@ -97,7 +97,7 @@ class EnglishEntryausterity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -122,8 +122,7 @@ class EnglishEntryausterity extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɒˈsterəti/, /ɔːˈsterəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ɒˈsterəti/, /ɔːˈsterəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakausterity("en-GB"),
                             ),
@@ -131,9 +130,7 @@ class EnglishEntryausterity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈsterəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈsterəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakausterity("en-US"),
                             ),
@@ -172,9 +169,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 "War was followed by many years of austerity.",
                             kurdishText: "جەنگ چەندین ساڵی نەبوونی بەدواداھات.",
                             onPressedBritish: () => speakausterity518("en-GB"),
-                            onPressedAmerican: () =>
-                                speakausterity518(// REPLACE: austerity
-                                    "en-US"),
+                            onPressedAmerican: () => speakausterity518("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -186,9 +181,7 @@ class EnglishEntryausterity extends StatelessWidget {
                             kurdishText:
                                 "خانووەکە ستایلێکی بە ساکاری دیکۆرات کرابوو، بە دیواری سپی و کەمترین شتومەک.",
                             onPressedBritish: () => speakausterity523("en-GB"),
-                            onPressedAmerican: () =>
-                                speakausterity523(// REPLACE: austerity
-                                    "en-US"),
+                            onPressedAmerican: () => speakausterity523("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -199,9 +192,7 @@ class EnglishEntryausterity extends StatelessWidget {
                                 "He was noted for his austerity and authoritarianism.",
                             kurdishText: "دەناسرا بۆ دژواری و سەرکوتکەری.",
                             onPressedBritish: () => speakausterity524("en-GB"),
-                            onPressedAmerican: () =>
-                                speakausterity524(// REPLACE: austerity
-                                    "en-US"),
+                            onPressedAmerican: () => speakausterity524("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -213,9 +204,7 @@ class EnglishEntryausterity extends StatelessWidget {
                             kurdishText:
                                 "ڕەبەنەکان ژیانێکی لەخواترسی دەژیان بە کەلوپەلی کەم و خواردنی سادە.",
                             onPressedBritish: () => speakausterity527("en-GB"),
-                            onPressedAmerican: () =>
-                                speakausterity527(// REPLACE: austerity
-                                    "en-US"),
+                            onPressedAmerican: () => speakausterity527("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

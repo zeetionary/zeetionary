@@ -78,9 +78,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌerəʊdaɪˈnæmɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˌerəʊdaɪˈnæmɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaerodynamic("en-US"),
                             ),

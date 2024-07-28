@@ -87,7 +87,7 @@ class EnglishEntrybadger extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybadger extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbædʒə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbædʒə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbadger("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybadger extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbædʒər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbædʒər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbadger("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybadger extends StatelessWidget {
                             kurdishText:
                                 "ئاژەڵە ڕاوکەرەکانی کوندەپەپوو بریتین لە ھەڵۆ، کوندەپەپووی گەورەتر، مار، و گۆڕھەڵکەنە.",
                             onPressedBritish: () => speakbadgers1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadgers1(// REPLACE: badger
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadgers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntrybadger extends StatelessWidget {
                                 "I finally badgered him into coming with us.",
                             kurdishText: "لەکۆتاییدا ناچار بە ھاتنم کرد.",
                             onPressedBritish: () => speakbadgers2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadgers2(// REPLACE: badger
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadgers2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

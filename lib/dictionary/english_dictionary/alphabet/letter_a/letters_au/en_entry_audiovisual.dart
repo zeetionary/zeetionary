@@ -95,7 +95,7 @@ class EnglishEntryaudiovisual extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryaudiovisual extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɔːdiəʊˈvɪʒuəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌɔːdiəʊˈvɪʒuəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaudiovisual("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryaudiovisual extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɔːdiəʊˈvɪʒuəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌɔːdiəʊˈvɪʒuəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaudiovisual("en-US"),
                             ),
@@ -172,9 +168,8 @@ class EnglishEntryaudiovisual extends StatelessWidget {
                                 "پریزێنتەیشنەکە کە وێنە و دەنگیش بوو سلایدی باڵندە و تۆماری دەنگیانی لەخۆگرتبوو.",
                             onPressedBritish: () =>
                                 speakaudiovisual151("en-GB"),
-                            onPressedAmerican: () => speakaudiovisual151(
-                                // REPLACE: audiovisual
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakaudiovisual151("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

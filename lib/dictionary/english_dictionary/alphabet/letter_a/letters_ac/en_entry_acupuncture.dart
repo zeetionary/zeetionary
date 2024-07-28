@@ -79,9 +79,7 @@ class EnglishEntryacupuncture extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈækjupʌŋktʃər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈækjupʌŋktʃər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacupuncture("en-US"),
                             ),

@@ -94,7 +94,7 @@ class EnglishEntryaunt extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryaunt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɑːnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɑːnt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaunt("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryaunt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ænt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ænt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaunt("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntryaunt extends StatelessWidget {
                             englishText: "I have an aunt in Australia.",
                             kurdishText: "پورێکم ھەیە لە ئوسترالیا.",
                             onPressedBritish: () => speakaunt352("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaunt352(// REPLACE: aunt
-                                    "en-US"),
+                            onPressedAmerican: () => speakaunt352("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -177,9 +171,7 @@ class EnglishEntryaunt extends StatelessWidget {
                             englishText: "Do you want some tea, Aunt Alice?",
                             kurdishText: "چا ئەخۆیتەوە، پورە ئالیس؟",
                             onPressedBritish: () => speakaunt353("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaunt353(// REPLACE: aunt
-                                    "en-US"),
+                            onPressedAmerican: () => speakaunt353("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

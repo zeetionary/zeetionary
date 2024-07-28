@@ -76,9 +76,7 @@ class EnglishEntryacrobat extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈækrəbæt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈækrəbæt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaacrobat("en-US"),
                             ),

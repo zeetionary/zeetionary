@@ -77,9 +77,7 @@ class EnglishEntryacidrain extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌæsɪd ˈreɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˌæsɪd ˈreɪn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacidrain("en-US"),
                             ),

@@ -46,7 +46,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -80,8 +80,7 @@ class EnglishEntryaircraftcarrier extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈerkræft kæriər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˈerkræft kæriər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaircraftcarrier("en-US"),
                             ),

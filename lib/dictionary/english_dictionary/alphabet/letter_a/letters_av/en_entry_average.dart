@@ -89,7 +89,7 @@ class EnglishEntryaverage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,9 +113,7 @@ class EnglishEntryaverage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈævərɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈævərɪdʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaverage("en-GB"),
                             ),
@@ -123,9 +121,7 @@ class EnglishEntryaverage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈævərɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈævərɪdʒ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaverage("en-US"),
                             ),
@@ -165,9 +161,7 @@ class EnglishEntryaverage extends StatelessWidget {
                             kurdishText:
                                 "تێکڕای تەمەنی بەژداربووان ٥٢ ساڵ بوو.",
                             onPressedBritish: () => speakaverages1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverages1(// REPLACE: average
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverages1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -179,9 +173,7 @@ class EnglishEntryaverage extends StatelessWidget {
                             kurdishText:
                                 "لە ڕۆژێکی ئاساییدا بای ٢٠٠٠ پاوەند سەوزە دەفرۆشن.",
                             onPressedBritish: () => speakaverages2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverages2(// REPLACE: average
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverages2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -192,9 +184,7 @@ class EnglishEntryaverage extends StatelessWidget {
                                 "I was just an average sort of student.",
                             kurdishText: "خوێندکارێکی مام‌ناوەند بووم.",
                             onPressedBritish: () => speakaverages3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverages3(// REPLACE: average
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverages3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -206,9 +196,7 @@ class EnglishEntryaverage extends StatelessWidget {
                             kurdishText:
                                 "دایکان و باوکان بە تێکڕا ٢٢٠ پاوەند لە کایەی منداڵان خەرج‌دەکەن",
                             onPressedBritish: () => speakaverages4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverages4(// REPLACE: average
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverages4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -220,9 +208,7 @@ class EnglishEntryaverage extends StatelessWidget {
                             kurdishText:
                                 "پلەی گەرمی لە سەروو ئاسایین بۆ ئەم کاتەی ساڵ.",
                             onPressedBritish: () => speakaverages5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverages5(// REPLACE: average
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverages5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -234,9 +220,7 @@ class EnglishEntryaverage extends StatelessWidget {
                             kurdishText:
                                 "تێکڕای ١٥ گۆڵی ھەبووە لە دوو وەرزی ڕابردوودا.",
                             onPressedBritish: () => speakaverages6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverages6(// REPLACE: average
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverages6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -248,9 +232,7 @@ class EnglishEntryaverage extends StatelessWidget {
                             kurdishText:
                                 "قازانجەکان تێکڕای تەواوی ماوەکە دەکرێن",
                             onPressedBritish: () => speakaverages7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverages7(// REPLACE: average
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverages7("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

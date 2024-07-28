@@ -86,7 +86,7 @@ class EnglishEntryballpoint extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntryballpoint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbɔːlpɔɪnt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbɔːlpɔɪnt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakballpoint("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntryballpoint extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbɔːlpɔɪnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbɔːlpɔɪnt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakballpoint("en-US"),
                             ),
@@ -157,9 +153,7 @@ class EnglishEntryballpoint extends StatelessWidget {
                                 "The letter was written in blue ballpoint pen.",
                             kurdishText: "نامەکە بە جافێکی شین نووسرابوو.",
                             onPressedBritish: () => speakballpoints1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballpoints1(// REPLACE: ballpoint
-                                    "en-US"),
+                            onPressedAmerican: () => speakballpoints1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

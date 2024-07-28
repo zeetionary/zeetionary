@@ -88,7 +88,7 @@ class EnglishEntryawareness extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryawareness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈweənəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈweənəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakawareness("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryawareness extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈwernəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈwernəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakawareness("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryawareness extends StatelessWidget {
                             kurdishText:
                                 "وادیارە ئاگایی گشتگیر ھەبێت کە ئەمە چارەسەرەکە نییە.",
                             onPressedBritish: () => speakawarenesss1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawarenesss1(// REPLACE: awareness
-                                    "en-US"),
+                            onPressedAmerican: () => speakawarenesss1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntryawareness extends StatelessWidget {
                             kurdishText:
                                 "گرووپەکە ھەوڵ دەدات ھۆشیاری کۆمەڵگە زیادبکات سەبارەت بە بێ‌لانەیی.",
                             onPressedBritish: () => speakawarenesss2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawarenesss2(// REPLACE: awareness
-                                    "en-US"),
+                            onPressedAmerican: () => speakawarenesss2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

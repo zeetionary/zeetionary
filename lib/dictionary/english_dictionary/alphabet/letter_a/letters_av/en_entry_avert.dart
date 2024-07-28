@@ -87,7 +87,7 @@ class EnglishEntryavert extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryavert extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈvɜːt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈvɜːt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavert("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryavert extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈvɜːrt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈvɜːrt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavert("en-US"),
                             ),
@@ -161,9 +157,7 @@ class EnglishEntryavert extends StatelessWidget {
                             englishText: "A disaster was averted.",
                             kurdishText: "ڕێگە لە کارەساتێک گیردرا.",
                             onPressedBritish: () => speakaverts1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverts1(// REPLACE: avert
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverts1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntryavert extends StatelessWidget {
                             kurdishText:
                                 "چاوی لادا لەو ڕووداوە تۆقێنەرەی لە پێشی بوو.",
                             onPressedBritish: () => speakaverts2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaverts2(// REPLACE: avert
-                                    "en-US"),
+                            onPressedAmerican: () => speakaverts2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

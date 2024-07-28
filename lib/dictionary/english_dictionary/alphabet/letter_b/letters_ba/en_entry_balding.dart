@@ -86,7 +86,7 @@ class EnglishEntrybalding extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybalding extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbɔːldɪŋ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbɔːldɪŋ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbalding("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybalding extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbɔːldɪŋ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbɔːldɪŋ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbalding("en-US"),
                             ),
@@ -156,9 +152,7 @@ class EnglishEntrybalding extends StatelessWidget {
                             englishText: "Jackson was plump and balding.",
                             kurdishText: "جاکسن خرپەلەیەکی کەچەڵبوو بوو.",
                             onPressedBritish: () => speakbaldings1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaldings1(// REPLACE: balding
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaldings1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -96,7 +96,7 @@ class EnglishEntryattention extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryattention extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtenʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtenʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattention("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryattention extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtenʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtenʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattention("en-US"),
                             ),
@@ -171,9 +167,7 @@ class EnglishEntryattention extends StatelessWidget {
                                 "His attention turned to other matters.",
                             kurdishText: "سەرنجی چوو بەلای پرسی تردا.",
                             onPressedBritish: () => speakattention846("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattention846(// REPLACE: attention
-                                    "en-US"),
+                            onPressedAmerican: () => speakattention846("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -182,9 +176,7 @@ class EnglishEntryattention extends StatelessWidget {
                                 "She doesn't pay her children much attention.",
                             kurdishText: "زۆر سەرنج نادات بە منداڵەکانی.",
                             onPressedBritish: () => speakattention847("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattention847(// REPLACE: attention
-                                    "en-US"),
+                            onPressedAmerican: () => speakattention847("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,9 +187,7 @@ class EnglishEntryattention extends StatelessWidget {
                                 "He received urgent medical attention.",
                             kurdishText: "چاودێری تایبەتی خێرای وەرگرت.",
                             onPressedBritish: () => speakattention848("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattention848(// REPLACE: attention
-                                    "en-US"),
+                            onPressedAmerican: () => speakattention848("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -209,9 +199,7 @@ class EnglishEntryattention extends StatelessWidget {
                             kurdishText:
                                 "ئامانجی سەرەکی ئەوەبوو لە سەرنجی ڕۆژنامەکان بەدووربێت.",
                             onPressedBritish: () => speakattention852("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattention852(// REPLACE: attention
-                                    "en-US"),
+                            onPressedAmerican: () => speakattention852("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -223,9 +211,7 @@ class EnglishEntryattention extends StatelessWidget {
                             kurdishText:
                                 "ئاگاداری، تکایە گەشتیارانی گەشتی KL412 داوایان لێدەکرێت دەستبەجێ بچن بۆ دەروازەی ٢١.",
                             onPressedBritish: () => speakattention856("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattention856(// REPLACE: attention
-                                    "en-US"),
+                            onPressedAmerican: () => speakattention856("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

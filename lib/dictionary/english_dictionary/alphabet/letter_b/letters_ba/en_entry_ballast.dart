@@ -88,7 +88,7 @@ class EnglishEntryballast extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryballast extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæləst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæləst/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakballast("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryballast extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæləst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæləst/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakballast("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryballast extends StatelessWidget {
                             kurdishText:
                                 "ژێردەریاکە ئاوی ھێنایە ژوورەوە بۆ بەکارھێنانی وەک ھاوسەنگێنە بۆ ئەوەی بە تەواوی خۆی داپۆشێت لەژێر ڕووی دەریاکە.",
                             onPressedBritish: () => speakballasts1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballasts1(// REPLACE: ballast
-                                    "en-US"),
+                            onPressedAmerican: () => speakballasts1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntryballast extends StatelessWidget {
                             kurdishText:
                                 "کرێکارەکان چینێک لە چەوڕێژیان دانا پێش ئەوەی ڕێگاکە قیرتاو بکەن.",
                             onPressedBritish: () => speakballasts2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballasts2(// REPLACE: ballast
-                                    "en-US"),
+                            onPressedAmerican: () => speakballasts2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

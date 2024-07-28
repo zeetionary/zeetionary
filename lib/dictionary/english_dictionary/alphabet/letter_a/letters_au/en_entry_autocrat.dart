@@ -95,7 +95,7 @@ class EnglishEntryautocrat extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːtəkræt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːtəkræt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautocrat("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːtəkræt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːtəkræt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautocrat("en-US"),
                             ),
@@ -169,9 +165,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                             englishText: "He governed as an autocrat.",
                             kurdishText: "وەک سەرکوتکەرێک دەسەڵاتداریی دەکرد.",
                             onPressedBritish: () => speakautocrat934("en-GB"),
-                            onPressedAmerican: () =>
-                                speakautocrat934(// REPLACE: autocrat
-                                    "en-US"),
+                            onPressedAmerican: () => speakautocrat934("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -183,9 +177,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                             kurdishText:
                                 "وتارەکە وەک ملھوڕێک وێنای دەکات کە لە ھاوسەرەکەی تووڕەییە و دابڕاوە لە خێزانەکەی.",
                             onPressedBritish: () => speakautocrat937("en-GB"),
-                            onPressedAmerican: () =>
-                                speakautocrat937(// REPLACE: autocrat
-                                    "en-US"),
+                            onPressedAmerican: () => speakautocrat937("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

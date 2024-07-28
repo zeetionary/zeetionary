@@ -90,7 +90,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,9 +114,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːɡˈzɪliəri/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːɡˈzɪliəri/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauxiliary("en-GB"),
                             ),
@@ -124,9 +122,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːɡˈzɪliəri/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːɡˈzɪliəri/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauxiliary("en-US"),
                             ),
@@ -166,9 +162,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                             kurdishText:
                                 "پەرستارە یارمەتیدەرەکە یارمەتی دکتۆرەکەی دەدا لە چاودێری نەخۆشەکە.",
                             onPressedBritish: () => speakauxiliarys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauxiliarys1(// REPLACE: auxiliary
-                                    "en-US"),
+                            onPressedAmerican: () => speakauxiliarys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -180,9 +174,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                             kurdishText:
                                 "بزوێنەرە یەدەکەکە ھێزی بە بەلەمەکە دا کاتێک بایەکە نەما.",
                             onPressedBritish: () => speakauxiliarys2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauxiliarys2(// REPLACE: auxiliary
-                                    "en-US"),
+                            onPressedAmerican: () => speakauxiliarys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +186,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                             kurdishText:
                                 "لە ڕستەی ‘Do you know where he has gone?’, ‘do’ و ‘has’ کاری یاریدەدەرن.",
                             onPressedBritish: () => speakauxiliarys3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauxiliarys3(// REPLACE: auxiliary
-                                    "en-US"),
+                            onPressedAmerican: () => speakauxiliarys3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -208,9 +198,7 @@ class EnglishEntryauxiliary extends StatelessWidget {
                             kurdishText:
                                 "ئاگرکوژێنەرەوەکان لەلایەن پاشکۆکانەوە کۆمەک دەکران کە یارمەتی دەرکردنی ھاوڵاتییەکانیان دا لە بینا سووتاوەکەوە.",
                             onPressedBritish: () => speakauxiliarys4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauxiliarys4(// REPLACE: auxiliary
-                                    "en-US"),
+                            onPressedAmerican: () => speakauxiliarys4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

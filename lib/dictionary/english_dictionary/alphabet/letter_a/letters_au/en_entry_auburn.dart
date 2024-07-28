@@ -94,7 +94,7 @@ class EnglishEntryauburn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryauburn extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːbən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːbən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauburn("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryauburn extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːbərn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːbərn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauburn("en-US"),
                             ),
@@ -169,9 +165,7 @@ class EnglishEntryauburn extends StatelessWidget {
                                 "She has a freckled complexion and auburn hair.",
                             kurdishText: "ڕووخساری خاڵاوی و قژی خورمایی ھەیە.",
                             onPressedBritish: () => speakauburn1140("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauburn1140(// REPLACE: auburn
-                                    "en-US"),
+                            onPressedAmerican: () => speakauburn1140("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -76,9 +76,7 @@ class EnglishEntryacumen extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈækjəmən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈækjəmən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacumen("en-US"),
                             ),

@@ -86,7 +86,7 @@ class EnglishEntryavid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntryavid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈævɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈævɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavid("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntryavid extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈævɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈævɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavid("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntryavid extends StatelessWidget {
                             kurdishText:
                                 "ئارەزوویەکی زۆری بۆ پڕۆژەکە لا درووست‌بووە.",
                             onPressedBritish: () => speakavids1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavids1(// REPLACE: avid
-                                    "en-US"),
+                            onPressedAmerican: () => speakavids1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -174,9 +168,7 @@ class EnglishEntryavid extends StatelessWidget {
                             englishText: "He was avid for more information.",
                             kurdishText: "تینووی زانیاریی زیاتر بوو.",
                             onPressedBritish: () => speakavids2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavids2(// REPLACE: avid
-                                    "en-US"),
+                            onPressedAmerican: () => speakavids2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

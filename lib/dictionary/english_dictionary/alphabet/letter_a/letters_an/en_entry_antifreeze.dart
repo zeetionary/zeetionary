@@ -89,7 +89,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,15 +106,12 @@ class EnglishEntryantifreeze extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "antifreeze"), // Find /ˈæntifriːz/
-                            // divvviiider
+                            EntryTitle(word: "antifreeze"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈæntifriːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈæntifriːz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakantifreeze("en-GB"),
                             ),
@@ -122,9 +119,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæntifriːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈæntifriːz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakantifreeze("en-US"),
                             ),

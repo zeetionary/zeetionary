@@ -80,8 +80,7 @@ class EnglishEntryadhesive extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ədˈhiːsɪv/, /ədˈhiːzɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ədˈhiːsɪv/, /ədˈhiːzɪv/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadhesive("en-US"),
                             ),

@@ -77,9 +77,7 @@ class EnglishEntryadjournment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdʒɜːrnmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdʒɜːrnmənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadjournment("en-US"),
                             ),

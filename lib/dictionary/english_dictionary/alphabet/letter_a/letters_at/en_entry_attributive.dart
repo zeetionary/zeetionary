@@ -95,7 +95,7 @@ class EnglishEntryattributive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryattributive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtrɪbjətɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtrɪbjətɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattributive("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryattributive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtrɪbjətɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtrɪbjətɪv"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattributive("en-US"),
                             ),
@@ -169,9 +165,8 @@ class EnglishEntryattributive extends StatelessWidget {
                                 "لە ‘the blue sky’ و ‘a family business’, ‘blue’ و ‘family’ ھاوەڵناوی پاڵدەرانەن.",
                             onPressedBritish: () =>
                                 speakattributive1121("en-GB"),
-                            onPressedAmerican: () => speakattributive1121(
-                                // REPLACE: attributive
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattributive1121("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

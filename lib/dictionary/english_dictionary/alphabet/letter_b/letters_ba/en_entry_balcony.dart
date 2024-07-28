@@ -86,7 +86,7 @@ class EnglishEntrybalcony extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybalcony extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbælkəni/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbælkəni/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbalcony("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybalcony extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbælkəni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbælkəni/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbalcony("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntrybalcony extends StatelessWidget {
                             englishText: "We had drinks on the hotel balcony.",
                             kurdishText: "لە بەرھەیوانەکە خواردمانەوە.",
                             onPressedBritish: () => speakbalconys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalconys1(// REPLACE: balcony
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalconys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +167,7 @@ class EnglishEntrybalcony extends StatelessWidget {
                                 "Our seats are in row F of the balcony.",
                             kurdishText: "جێگاکانمان لە ڕیزی Fی لۆژی سەرەوەیە.",
                             onPressedBritish: () => speakbalconys2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalconys2(// REPLACE: balcony
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalconys2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

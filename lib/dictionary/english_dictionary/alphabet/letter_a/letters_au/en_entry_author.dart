@@ -96,7 +96,7 @@ class EnglishEntryauthor extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryauthor extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːθə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːθə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauthor("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryauthor extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːθər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːθər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauthor("en-US"),
                             ),
@@ -170,9 +166,7 @@ class EnglishEntryauthor extends StatelessWidget {
                                 "He is the author of three books on art.",
                             kurdishText: "نووسەری سێ کتێبە لەسەر ھونەر.",
                             onPressedBritish: () => speakauthor717("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthor717(// REPLACE: author
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthor717("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -182,9 +176,7 @@ class EnglishEntryauthor extends StatelessWidget {
                             kurdishText:
                                 "فیلمەکە پشتی بە ڕۆمانێک بەستووە کە ھی ژنەنووسەرێکە.",
                             onPressedBritish: () => speakauthor719("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthor719(// REPLACE: author
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthor719("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -196,9 +188,7 @@ class EnglishEntryauthor extends StatelessWidget {
                             kurdishText:
                                 "وەک خاوەنی پێشنیارەکە ناتوانم لەگەڵم ڕازی بم.",
                             onPressedBritish: () => speakauthor721("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthor721(// REPLACE: author
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthor721("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -208,9 +198,7 @@ class EnglishEntryauthor extends StatelessWidget {
                             englishText: "He has authored more than 30 books.",
                             kurdishText: "زیاتر لە ٣٠ کتێبی نووسیوە.",
                             onPressedBritish: () => speakauthor722("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthor722(// REPLACE: author
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthor722("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

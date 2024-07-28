@@ -87,7 +87,7 @@ class EnglishEntrybale extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybale extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /beɪl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /beɪl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbale("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybale extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /beɪl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /beɪl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbale("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntrybale extends StatelessWidget {
                             kurdishText:
                                 "ئاگرەکە ٥٠٠ گورزە وێنجەی وشکی لەناوبرد.",
                             onPressedBritish: () => speakbales1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbales1(// REPLACE: bale
-                                    "en-US"),
+                            onPressedAmerican: () => speakbales1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntrybale extends StatelessWidget {
                             kurdishText:
                                 "کاغەزی زیادە دەکرێت بە گورزەیەک و دەنێردرێت بۆ دووبارە بەکارھێنان.",
                             onPressedBritish: () => speakbales2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbales2(// REPLACE: bale
-                                    "en-US"),
+                            onPressedAmerican: () => speakbales2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +182,7 @@ class EnglishEntrybale extends StatelessWidget {
                             kurdishText:
                                 "دوێنی بۆ سێ ھەفتە بە کەفالەت ئازادکرا.",
                             onPressedBritish: () => speakbales3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbales3(// REPLACE: bale
-                                    "en-US"),
+                            onPressedAmerican: () => speakbales3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

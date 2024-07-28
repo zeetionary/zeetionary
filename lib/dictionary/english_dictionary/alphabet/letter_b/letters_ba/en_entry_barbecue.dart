@@ -86,7 +86,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -154,9 +154,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                             englishText: "I put another steak on the barbecue.",
                             kurdishText: "پارچە گۆشتێکی ترم خستەسەر مەقاڵەکە.",
                             onPressedBritish: () => speakbarbecues1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbarbecues1(// REPLACE: barbecue
-                                    "en-US"),
+                            onPressedAmerican: () => speakbarbecues1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -166,9 +164,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                             englishText: "Let's have a barbecue!",
                             kurdishText: "با لە دەرەوە نان بخۆین!",
                             onPressedBritish: () => speakbarbecues2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbarbecues2(// REPLACE: barbecue
-                                    "en-US"),
+                            onPressedAmerican: () => speakbarbecues2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +174,7 @@ class EnglishEntrybarbecue extends StatelessWidget {
                             englishText: "We had barbecued chicken wings.",
                             kurdishText: "سنگی مریشکی لە مەقاڵەدراومان ھەبوو.",
                             onPressedBritish: () => speakbarbecues3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbarbecues3(// REPLACE: barbecue
-                                    "en-US"),
+                            onPressedAmerican: () => speakbarbecues3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

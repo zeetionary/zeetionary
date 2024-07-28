@@ -151,7 +151,7 @@ class EnglishEntrybadly extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -175,9 +175,7 @@ class EnglishEntrybadly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbædli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbædli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbadly("en-GB"),
                             ),
@@ -185,9 +183,7 @@ class EnglishEntrybadly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbædli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbædli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbadly("en-US"),
                             ),
@@ -226,9 +222,7 @@ class EnglishEntrybadly extends StatelessWidget {
                                 "The event was really badly organized.",
                             kurdishText: "بۆنەکە لەڕاستیدا خراپ ڕێکخرا.",
                             onPressedBritish: () => speakbadlys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys1(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -239,9 +233,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             kurdishText:
                                 "شتەکان ئەم ماوە زۆر خراپ بەڕێوەچوونە.",
                             onPressedBritish: () => speakbadlys2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys2(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -251,9 +243,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             englishText: "I think he behaved very badly.",
                             kurdishText: "پێموایە کە زۆر ناشرین ڕەفتاری کرد.",
                             onPressedBritish: () => speakbadlys3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys3(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys3("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -261,9 +251,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             englishText: "I think he was treated very badly.",
                             kurdishText: "پێموایە زۆر خراپ مامەڵەی لەگەڵ کرا.",
                             onPressedBritish: () => speakbadlys4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys4(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -273,9 +261,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             kurdishText:
                                 "منداڵەکان زۆر خراپ مامەڵەیان لەگەڵ مردنی سەگەکە کرد.",
                             onPressedBritish: () => speakbadlys5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys5(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -287,9 +273,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             kurdishText:
                                 "وڵاتەکە زۆر خراپ گیرۆدەی قەیرانی دارایی بووە.",
                             onPressedBritish: () => speakbadlys6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys6(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -301,9 +285,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             kurdishText:
                                 "بیناکە بەخراپی پێویستی بە نۆژەنکردنەوە ھەیە.",
                             onPressedBritish: () => speakbadlys7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys7(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -315,9 +297,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             kurdishText:
                                 "قەیرانە ئابوورییەکە وێنایەکی خراپ بۆ سیاسەتی حکومەت درووست‌دەکات.",
                             onPressedBritish: () => speakbadlys8("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys8(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -329,9 +309,7 @@ class EnglishEntrybadly extends StatelessWidget {
                             kurdishText:
                                 "ھەستی بە داخ کرد سەبارەت بەوەی کردبووی.",
                             onPressedBritish: () => speakbadlys9("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadlys9(// REPLACE: badly
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadlys9("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

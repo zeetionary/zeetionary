@@ -94,7 +94,7 @@ class EnglishEntryastronomy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryastronomy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstrɒnəmi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstrɒnəmi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastronomy("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryastronomy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstrɑːnəmi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstrɑːnəmi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastronomy("en-US"),
                             ),
@@ -170,9 +166,7 @@ class EnglishEntryastronomy extends StatelessWidget {
                             kurdishText:
                                 "ئەستێرەناسی یەکێکە لە کۆنترین زانستەکان.",
                             onPressedBritish: () => speakastronomy456("en-GB"),
-                            onPressedAmerican: () =>
-                                speakastronomy456(// REPLACE: astronomy
-                                    "en-US"),
+                            onPressedAmerican: () => speakastronomy456("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -94,7 +94,7 @@ class EnglishEntryaudacity extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryaudacity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈdæsəti/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈdæsəti/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaudacity("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryaudacity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈdæsəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈdæsəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaudacity("en-US"),
                             ),
@@ -168,9 +164,7 @@ class EnglishEntryaudacity extends StatelessWidget {
                                 "He had the audacity to say I was too fat.",
                             kurdishText: "بوێری ئەوەی بوو بڵێت من زۆر قەڵەوم.",
                             onPressedBritish: () => speakaudacity1246("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaudacity1246(// REPLACE: audacity
-                                    "en-US"),
+                            onPressedAmerican: () => speakaudacity1246("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

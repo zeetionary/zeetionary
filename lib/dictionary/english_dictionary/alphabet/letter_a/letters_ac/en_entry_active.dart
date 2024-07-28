@@ -173,9 +173,7 @@ class EnglishEntryactive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæktɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæktɪv/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakactive("en-US"),
                             ),

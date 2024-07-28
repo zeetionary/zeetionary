@@ -95,7 +95,7 @@ class EnglishEntryasylum extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryasylum extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈsaɪləm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈsaɪləm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakasylum("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryasylum extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈsaɪləm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈsaɪləm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakasylum("en-US"),
                             ),
@@ -171,9 +167,7 @@ class EnglishEntryasylum extends StatelessWidget {
                             kurdishText:
                                 "دیبەیتی سەرتاسەری ھەبوو لەسەر ئەوەی ئاخۆ یاساکانی پەنابەری بگۆڕدرێن.",
                             onPressedBritish: () => speakasylum617("en-GB"),
-                            onPressedAmerican: () =>
-                                speakasylum617(// REPLACE: asylum
-                                    "en-US"),
+                            onPressedAmerican: () => speakasylum617("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +178,7 @@ class EnglishEntryasylum extends StatelessWidget {
                                 "Conditions in the asylum were deplorable.",
                             kurdishText: "بارودۆخی شێتخانەکە جەرگبڕ.",
                             onPressedBritish: () => speakasylum620("en-GB"),
-                            onPressedAmerican: () =>
-                                speakasylum620(// REPLACE: asylum
-                                    "en-US"),
+                            onPressedAmerican: () => speakasylum620("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

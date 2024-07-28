@@ -250,7 +250,7 @@ class EnglishEntryaround extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -267,15 +267,12 @@ class EnglishEntryaround extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "around"), // Find /əˈraʊnd/
-                            // divvviiider
+                            EntryTitle(word: "around"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈraʊnd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈraʊnd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaround("en-GB"),
                             ),
@@ -283,9 +280,7 @@ class EnglishEntryaround extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈraʊnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈraʊnd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaround("en-US"),
                             ),

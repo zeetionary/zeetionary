@@ -89,7 +89,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -114,8 +114,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbændwɪdθ/, /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˈbændwɪdθ/, /ˈbændwɪtθ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbandwidth("en-GB"),
                             ),
@@ -124,8 +123,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbændwɪdθ/, /ˈbændwɪtθ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˈbændwɪdθ/, /ˈbændwɪtθ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbandwidth("en-US"),
                             ),
@@ -161,9 +159,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                             kurdishText:
                                 "وێستگەی ڕادیۆکە لەسەر مەودای ٩٢,١ MHz پەخشدەکات.",
                             onPressedBritish: () => speakbandwidths1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbandwidths1(// REPLACE: bandwidth
-                                    "en-US"),
+                            onPressedAmerican: () => speakbandwidths1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +171,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                             kurdishText:
                                 "باندبەرینێکی بەرزتر بەکاربێنە بۆ زیادکردنی سنووری دابەزاندن.",
                             onPressedBritish: () => speakbandwidths2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbandwidths2(// REPLACE: bandwidth
-                                    "en-US"),
+                            onPressedAmerican: () => speakbandwidths2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,9 +183,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                             kurdishText:
                                 "تیمەکە توانای ئەوەی نییە پڕۆژەی دیکە دەستپێ‌بکات لە ئێستادا.",
                             onPressedBritish: () => speakbandwidths3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbandwidths3(// REPLACE: bandwidth
-                                    "en-US"),
+                            onPressedAmerican: () => speakbandwidths3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

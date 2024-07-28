@@ -96,7 +96,7 @@ class EnglishEntryasexual extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,15 +113,12 @@ class EnglishEntryasexual extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "asexual"), // Find /ˌeɪˈsekʃuəl/
-                            // divvviiider
+                            EntryTitle(word: "asexual"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌeɪˈsekʃuəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌeɪˈsekʃuəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakasexual("en-GB"),
                             ),
@@ -129,9 +126,7 @@ class EnglishEntryasexual extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌeɪˈsekʃuəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌeɪˈsekʃuəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakasexual("en-US"),
                             ),

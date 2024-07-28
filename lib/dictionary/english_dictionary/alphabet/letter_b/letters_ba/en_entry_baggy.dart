@@ -86,7 +86,7 @@ class EnglishEntrybaggy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybaggy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæɡi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæɡi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbaggy("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybaggy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæɡi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæɡi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbaggy("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntrybaggy extends StatelessWidget {
                                 "My T-shirt went all baggy in the wash.",
                             kurdishText: "فانیلەکەم لە شۆردنەکەدا فش بووەوە.",
                             onPressedBritish: () => speakbaggys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbaggys1(// REPLACE: baggy
-                                    "en-US"),
+                            onPressedAmerican: () => speakbaggys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -95,7 +95,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,16 +112,12 @@ class EnglishEntryassemblyline extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "assembly line"), // Find /əˈsembli laɪn/
-                            // divvviiider
+                            EntryTitle(word: "assembly line"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈsembli laɪn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈsembli laɪn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakassemblyline("en-GB"),
                             ),
@@ -129,9 +125,7 @@ class EnglishEntryassemblyline extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈsembli laɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈsembli laɪn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakassemblyline("en-US"),
                             ),

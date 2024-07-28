@@ -90,7 +90,7 @@ class EnglishEntrybackground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -115,9 +115,7 @@ class EnglishEntrybackground extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbækɡraʊnd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbækɡraʊnd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakb3("en-GB"),
                             ),
@@ -125,9 +123,7 @@ class EnglishEntrybackground extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbækɡraʊnd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbækɡraʊnd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakb3("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntrybackground extends StatelessWidget {
                             kurdishText:
                                 "دوو پێشینەی جیاوازمان ھەیە بەڵام باش پێکەوە ھەڵدەکەین.",
                             onPressedBritish: () => speakb3s1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s1(// REPLACE: background
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -181,9 +175,7 @@ class EnglishEntrybackground extends StatelessWidget {
                             kurdishText:
                                 "کتێبەکە ھەلومەرجی ئاڵۆزی پێش جەنگەکە ڕووندەکاتەوە.",
                             onPressedBritish: () => speakb3s2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s2(// REPLACE: background
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -194,9 +186,7 @@ class EnglishEntrybackground extends StatelessWidget {
                                 "The mountains in the background were capped with snow.",
                             kurdishText: "چیاکانی پشتەوە بە بەفر داپۆشرابوون.",
                             onPressedBritish: () => speakb3s3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s3(// REPLACE: background
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -208,9 +198,7 @@ class EnglishEntrybackground extends StatelessWidget {
                             kurdishText:
                                 "ڕێژەیەکی زۆر ژاوەژاو لە پشتەوە ھەبوو.",
                             onPressedBritish: () => speakb3s4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s4(// REPLACE: background
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -222,9 +210,7 @@ class EnglishEntrybackground extends StatelessWidget {
                             kurdishText:
                                 "ناوی کۆمپانیاکە بە سوور نووسراوە لەسەر باکگراوندێکی سپی.",
                             onPressedBritish: () => speakb3s5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakb3s5(// REPLACE: background
-                                    "en-US"),
+                            onPressedAmerican: () => speakb3s5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

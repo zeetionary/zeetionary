@@ -95,7 +95,7 @@ class EnglishEntryastutely extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryastutely extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstjuːtli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstjuːtli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastutely("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryastutely extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstuːtli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstuːtli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastutely("en-US"),
                             ),
@@ -172,9 +168,7 @@ class EnglishEntryastutely extends StatelessWidget {
                             kurdishText:
                                 "بەشێوەیەکی بلیمەتانە جیاوازییەکانی نێوان دوو گێڕانەوەکە دەخاتە بەرچاو.",
                             onPressedBritish: () => speakastutely529("en-GB"),
-                            onPressedAmerican: () =>
-                                speakastutely529(// REPLACE: astutely
-                                    "en-US"),
+                            onPressedAmerican: () => speakastutely529("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

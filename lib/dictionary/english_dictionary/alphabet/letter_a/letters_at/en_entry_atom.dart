@@ -96,7 +96,7 @@ class EnglishEntryatom extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryatom extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈætəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈætəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatom("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryatom extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈætəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈætəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatom("en-US"),
                             ),
@@ -172,9 +168,7 @@ class EnglishEntryatom extends StatelessWidget {
                             kurdishText:
                                 "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو.",
                             onPressedBritish: () => speakatom1206("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatom1206(// REPLACE: atom
-                                    "en-US"),
+                            onPressedAmerican: () => speakatom1206("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -184,9 +178,7 @@ class EnglishEntryatom extends StatelessWidget {
                             kurdishText:
                                 "زانا ئێرنێست ڕەزەرفۆرد یەکەم کەس بوو ئەتۆم کەرت بکات.",
                             onPressedBritish: () => speakatom1208("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatom1208(// REPLACE: atom
-                                    "en-US"),
+                            onPressedAmerican: () => speakatom1208("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

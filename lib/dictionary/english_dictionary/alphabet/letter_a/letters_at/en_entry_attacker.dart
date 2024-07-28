@@ -94,7 +94,7 @@ class EnglishEntryattacker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryattacker extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtækə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtækə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattacker("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryattacker extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtækər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtækər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattacker("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntryattacker extends StatelessWidget {
                             englishText: "She didn't really see her attacker.",
                             kurdishText: "لەڕاستیدا ھێرشکارەکەیی نەدیت.",
                             onPressedBritish: () => speakattacker637("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattacker637(// REPLACE: attacker
-                                    "en-US"),
+                            onPressedAmerican: () => speakattacker637("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

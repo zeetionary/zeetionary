@@ -92,7 +92,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -109,17 +109,13 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "Arabic numeral"), // Find /ˌærəbɪk ˈnjuːmərəl/
-                            // divvviiider
+                            EntryTitle(word: "Arabic numeral"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌærəbɪk ˈnjuːmərəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌærəbɪk ˈnjuːmərəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakarabicnumeral("en-GB"),
                             ),
@@ -128,8 +124,7 @@ class EnglishEntryarabicnumeral extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌærəbɪk ˈnuːmərəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌærəbɪk ˈnuːmərəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakarabicnumeral("en-US"),
                             ),

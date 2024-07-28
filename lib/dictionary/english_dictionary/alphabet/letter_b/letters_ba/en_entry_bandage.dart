@@ -86,7 +86,7 @@ class EnglishEntrybandage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntrybandage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbændɪdʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbændɪdʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbandage("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntrybandage extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbændɪdʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbændɪdʒ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbandage("en-US"),
                             ),
@@ -161,9 +157,7 @@ class EnglishEntrybandage extends StatelessWidget {
                                 "He had a strip of bandage tied around his head.",
                             kurdishText: "پارچە پەڕۆیەکی ئاڵاندووە لەسەری.",
                             onPressedBritish: () => speakbandages1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbandages1(// REPLACE: bandage
-                                    "en-US"),
+                            onPressedAmerican: () => speakbandages1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -173,9 +167,7 @@ class EnglishEntrybandage extends StatelessWidget {
                             englishText: "Don't bandage the wound too tightly.",
                             kurdishText: "برینەکە توند مەبەستە.",
                             onPressedBritish: () => speakbandages2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbandages2(// REPLACE: bandage
-                                    "en-US"),
+                            onPressedAmerican: () => speakbandages2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

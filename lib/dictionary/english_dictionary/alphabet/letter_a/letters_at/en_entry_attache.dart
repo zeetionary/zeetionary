@@ -95,7 +95,7 @@ class EnglishEntryattache extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryattache extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtæʃeɪ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtæʃeɪ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattache("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryattache extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌætəˈʃeɪ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌætəˈʃeɪ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattache("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntryattache extends StatelessWidget {
                             kurdishText:
                                 "بەرپرسە بازرگانییەکە ڕاسپێردرا بە بەھێزکردنی بازرگانی نێوان ھەردوو وڵات.",
                             onPressedBritish: () => speakattache432("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattache432(// REPLACE: attaché
-                                    "en-US"),
+                            onPressedAmerican: () => speakattache432("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -95,7 +95,7 @@ class EnglishEntryapproximation extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,16 +112,12 @@ class EnglishEntryapproximation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "approximation"), // Find /əˌprɒksɪˈmeɪʃn/
-                            // divvviiider
+                            EntryTitle(word: "approximation"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˌprɒksɪˈmeɪʃn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˌprɒksɪˈmeɪʃn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakapproximation("en-GB"),
                             ),
@@ -130,8 +126,7 @@ class EnglishEntryapproximation extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˌprɑːksɪˈmeɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /əˌprɑːksɪˈmeɪʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakapproximation("en-US"),
                             ),

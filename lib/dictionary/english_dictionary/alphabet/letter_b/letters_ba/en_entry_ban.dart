@@ -88,7 +88,7 @@ class EnglishEntryban extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntryban extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bæn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bæn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakban("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntryban extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bæn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bæn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakban("en-US"),
                             ),
@@ -163,8 +159,7 @@ class EnglishEntryban extends StatelessWidget {
                             kurdishText:
                                 "یاساکە جگەرەکێشان لە شوێنە گشتییەکان قەدەغەدەکات.",
                             onPressedBritish: () => speakbans1("en-GB"),
-                            onPressedAmerican: () => speakbans1(// REPLACE: ban
-                                "en-US"),
+                            onPressedAmerican: () => speakbans1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,8 +171,7 @@ class EnglishEntryban extends StatelessWidget {
                             kurdishText:
                                 "ئەو بەربەستکراوە لە جێھێشتنی وڵاتەکە لەکاتێکدا تۆمەتەکان لێکۆڵینەوەیان لێ دەکرێت.",
                             onPressedBritish: () => speakbans2("en-GB"),
-                            onPressedAmerican: () => speakbans2(// REPLACE: ban
-                                "en-US"),
+                            onPressedAmerican: () => speakbans2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -189,8 +183,7 @@ class EnglishEntryban extends StatelessWidget {
                             kurdishText:
                                 "زۆرینەی خەڵکی دژی بڕیاری قەدەغەکردنەکەن.",
                             onPressedBritish: () => speakbans3("en-GB"),
-                            onPressedAmerican: () => speakbans3(// REPLACE: ban
-                                "en-US"),
+                            onPressedAmerican: () => speakbans3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,8 +195,7 @@ class EnglishEntryban extends StatelessWidget {
                             kurdishText:
                                 "ڕەفتارەکەی بوو بەھۆی سڕکردنی ھەمیشەیی لە تۆپێنی نێودەوڵەتیدا.",
                             onPressedBritish: () => speakbans4("en-GB"),
-                            onPressedAmerican: () => speakbans4(// REPLACE: ban
-                                "en-US"),
+                            onPressedAmerican: () => speakbans4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

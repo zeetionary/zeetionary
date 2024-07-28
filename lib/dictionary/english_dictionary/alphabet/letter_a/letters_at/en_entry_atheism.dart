@@ -95,7 +95,7 @@ class EnglishEntryatheism extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryatheism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈeɪθiɪzəm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈeɪθiɪzəm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatheism("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryatheism extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeɪθiɪzəm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈeɪθiɪzəm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatheism("en-US"),
                             ),
@@ -171,9 +167,7 @@ class EnglishEntryatheism extends StatelessWidget {
                             kurdishText:
                                 "گیری‌خواردووە لە نێوان ئەیسییزم و ئەو باوەڕە ئاینییانەی لەسەری گەورەکرا.",
                             onPressedBritish: () => speakatheism731("en-GB"),
-                            onPressedAmerican: () =>
-                                speakatheism731(// REPLACE: atheism
-                                    "en-US"),
+                            onPressedAmerican: () => speakatheism731("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

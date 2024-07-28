@@ -95,7 +95,7 @@ class EnglishEntryarterial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,15 +112,12 @@ class EnglishEntryarterial extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "arterial"), // Find /ɑːˈtɪəriəl/
-                            // divvviiider
+                            EntryTitle(word: "arterial"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɑːˈtɪəriəl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɑːˈtɪəriəl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakarterial("en-GB"),
                             ),
@@ -128,9 +125,7 @@ class EnglishEntryarterial extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɑːrˈtɪriəl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɑːrˈtɪriəl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakarterial("en-US"),
                             ),

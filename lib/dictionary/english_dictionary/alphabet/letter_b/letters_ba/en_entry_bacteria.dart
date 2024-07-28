@@ -88,7 +88,7 @@ class EnglishEntrybacteria extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bækˈtɪəriə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bækˈtɪəriə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbacteria("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bækˈtɪriə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bækˈtɪriə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbacteria("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                             kurdishText:
                                 "خواردنێک کە بە بەکتریا پیس بووە مەرج نییە شێوە و تامی خراپ بێت.",
                             onPressedBritish: () => speakbacterias1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbacterias1(// REPLACE: bacteria
-                                    "en-US"),
+                            onPressedAmerican: () => speakbacterias1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -172,9 +166,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                             kurdishText:
                                 "ئەم بەکتریا سوودبەخشانە بەشێوەیەکی سرووشتی لە ڕیخۆڵەدا دەژین.",
                             onPressedBritish: () => speakbacterias2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbacterias2(// REPLACE: bacteria
-                                    "en-US"),
+                            onPressedAmerican: () => speakbacterias2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

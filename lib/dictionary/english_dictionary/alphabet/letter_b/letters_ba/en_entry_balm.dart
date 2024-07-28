@@ -87,7 +87,7 @@ class EnglishEntrybalm extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybalm extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bɑːm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bɑːm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbalm("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybalm extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bɑːm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bɑːm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbalm("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybalm extends StatelessWidget {
                             kurdishText:
                                 "میسرییە کۆنەکان ڕۆنی بامیان بەکاردەھێنا وەک بەشێک لە بۆنەی ئاینی و کاری جوانکاری.",
                             onPressedBritish: () => speakbalms1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalms1(// REPLACE: balm
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalms1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -176,9 +170,7 @@ class EnglishEntrybalm extends StatelessWidget {
                             kurdishText:
                                 "کرێمێکی پێستی بەکارھێنا لە دوای تەراشەکەی.",
                             onPressedBritish: () => speakbalms2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalms2(// REPLACE: balm
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalms2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +182,7 @@ class EnglishEntrybalm extends StatelessWidget {
                             kurdishText:
                                 "میوزیکە ئارامبەخشەکە ھێدی‌کەرەوەی ڕۆحی بوو.",
                             onPressedBritish: () => speakbalms3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalms3(// REPLACE: balm
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalms3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

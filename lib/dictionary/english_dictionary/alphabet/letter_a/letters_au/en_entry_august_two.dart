@@ -95,7 +95,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈɡʌst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈɡʌst/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaugusttwo("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈɡʌst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈɡʌst/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaugusttwo("en-US"),
                             ),
@@ -172,9 +168,7 @@ class EnglishEntryaugusttwo extends StatelessWidget {
                             kurdishText:
                                 "بوێری ئەوەی دژایەتی ڕای لیژنەیەکی بەشکۆی مێژوونووسانی شاھانە بکات.",
                             onPressedBritish: () => speakaugusttwo338("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaugusttwo338(// REPLACE: august
-                                    "en-US"),
+                            onPressedAmerican: () => speakaugusttwo338("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

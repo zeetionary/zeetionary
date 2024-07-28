@@ -143,7 +143,7 @@ class EnglishEntrybalance extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -167,9 +167,7 @@ class EnglishEntrybalance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæləns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæləns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbalance("en-GB"),
                             ),
@@ -177,9 +175,7 @@ class EnglishEntrybalance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæləns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæləns/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbalance("en-US"),
                             ),
@@ -219,9 +215,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "ئەم ڕۆژنامە بێ‌لایەنی خۆی بە باشی دەپارێزێت لە وێناکردنی بەچوونی جیاوازدا.",
                             onPressedBritish: () => speakbalances1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances1(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -231,9 +225,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "ھەوڵبدە ھاوسەنگی بپارێزی لەنێوان کارکردن و حەسانەوە.",
                             onPressedBritish: () => speakbalances2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances2(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -245,9 +237,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "پێیەکانی بڵاوکردەوە و ھاوسەنگیی ڕێکخست.",
                             onPressedBritish: () => speakbalances3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances3(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -259,9 +249,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "داوای لە کاشیەرەکە کرد باڵانسی ھەژمارەکەی ئێستای پێ بڵێت.",
                             onPressedBritish: () => speakbalances4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances4(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -273,9 +261,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "بڕی قەرزی ماوەی ٥٠٠ پاوەند دەبێت لە ماوەی ٩٠ ڕۆژدا بدرێتەوە.",
                             onPressedBritish: () => speakbalances5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances5(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances5("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -287,9 +273,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "پێی‌وایە تەوازن زۆر بەلای سەرمایەداریدا چووە.",
                             onPressedBritish: () => speakbalances6("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances6(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances6("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -301,9 +285,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "زاناکە تەرازوویەکی بەکارھێنا بۆ پێوانی کێشی نموونەکە.",
                             onPressedBritish: () => speakbalances7("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances7(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances7("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -313,9 +295,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             englishText: "How long can you balance on one leg?",
                             kurdishText: "چەندە دەتوانی لەسەر یەک پێ بوەستیت؟",
                             onPressedBritish: () => speakbalances8("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances8(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances8("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -327,9 +307,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "گۆرانییەکە بە تەواوی ھاوسەنگی دەپارێزێت لەنێوان ئاواز و ڕیتم.",
                             onPressedBritish: () => speakbalances9("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances9(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances9("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -341,9 +319,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "قازانجەکانی ئەمساڵ زیانەکانی پار قەرەبوو دەکەنەوە.",
                             onPressedBritish: () => speakbalances10("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances10(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances10("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -355,9 +331,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "تێچووی وەرگرتنی ڕاوێژی یاسایی دەبێت لەبەرچاو بگیردرێت لەگەڵ سوودەکانی (ڕاوێژەکە).",
                             onPressedBritish: () => speakbalances11("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances11(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances11("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -369,9 +343,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "بۆ ھەڵسوڕاندنی بودجە، دەبوو ڕێژەی خەرجی بە ئاستێکی زۆر کەمبکرێتەوە.",
                             onPressedBritish: () => speakbalances12("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances12(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances12("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -383,9 +355,7 @@ class EnglishEntrybalance extends StatelessWidget {
                             kurdishText:
                                 "نەمدەتوانی تێبگەم بۆچی خەرجی و قازانج یەکناگرنەوە.",
                             onPressedBritish: () => speakbalances13("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalances13(// REPLACE: balance
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalances13("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

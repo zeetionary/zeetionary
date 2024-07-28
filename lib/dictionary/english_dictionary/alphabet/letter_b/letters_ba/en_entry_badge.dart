@@ -87,7 +87,7 @@ class EnglishEntrybadge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybadge extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bædʒ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bædʒ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbadge("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybadge extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bædʒ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bædʒ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbadge("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybadge extends StatelessWidget {
                             kurdishText:
                                 "باجێکی پۆشیبوو کە لەسەری نووسرابوو 'دەنگ بدە بە ئۆباما'.",
                             onPressedBritish: () => speakbadges1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadges1(// REPLACE: badge
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadges1("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -174,9 +168,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 "He pulled out a badge and said he was a cop.",
                             kurdishText: "باجێکی دەرھێنا و وتی کەوا پۆلیسە.",
                             onPressedBritish: () => speakbadges2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadges2(// REPLACE: badge
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadges2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +180,7 @@ class EnglishEntrybadge extends StatelessWidget {
                             kurdishText:
                                 "باجی قوتابخانەکەی بەجوانی دووری بە جلەکەیەوە.",
                             onPressedBritish: () => speakbadges3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadges3(// REPLACE: badge
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadges3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -201,9 +191,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 "His gun was a badge of power for him.",
                             kurdishText: "چەکەکەی ھێمای دەسەڵاتی بوو.",
                             onPressedBritish: () => speakbadges4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadges4(// REPLACE: badge
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadges4("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -212,9 +200,7 @@ class EnglishEntrybadge extends StatelessWidget {
                                 "He saw his injuries as a badge of honour.",
                             kurdishText: "برینەکانی وەک سمبولی شکۆداری دەبینی.",
                             onPressedBritish: () => speakbadges5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbadges5(// REPLACE: badge
-                                    "en-US"),
+                            onPressedAmerican: () => speakbadges5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

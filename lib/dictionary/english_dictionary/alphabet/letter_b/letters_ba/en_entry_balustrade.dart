@@ -87,7 +87,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌbæləˈstreɪd/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌbæləˈstreɪd/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbalustrade("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæləstreɪd/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæləstreɪd/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbalustrade("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
                             kurdishText:
                                 "سیاجی پلەکانە گەورەکە بۆیەی سپی کراوە.",
                             onPressedBritish: () => speakbalustrades1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbalustrades1(// REPLACE: balustrade
-                                    "en-US"),
+                            onPressedAmerican: () => speakbalustrades1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

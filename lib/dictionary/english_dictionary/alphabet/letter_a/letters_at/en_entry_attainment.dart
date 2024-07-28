@@ -94,7 +94,7 @@ class EnglishEntryattainment extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryattainment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈteɪnmənt/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈteɪnmənt/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattainment("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryattainment extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈteɪnmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈteɪnmənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattainment("en-US"),
                             ),
@@ -170,9 +166,8 @@ class EnglishEntryattainment extends StatelessWidget {
                             kurdishText:
                                 "بەدەستھێنانە زانستییەکانی شتێکی زانراوە.",
                             onPressedBritish: () => speakattainment730("en-GB"),
-                            onPressedAmerican: () => speakattainment730(
-                                // REPLACE: attainment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattainment730("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +179,8 @@ class EnglishEntryattainment extends StatelessWidget {
                             kurdishText:
                                 "بەدەستھێنانی خوێندن لە سەروو ھەموو شتێکی دادەنا.",
                             onPressedBritish: () => speakattainment732("en-GB"),
-                            onPressedAmerican: () => speakattainment732(
-                                // REPLACE: attainment
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattainment732("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

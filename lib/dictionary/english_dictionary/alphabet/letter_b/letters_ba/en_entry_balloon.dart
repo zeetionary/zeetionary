@@ -87,7 +87,7 @@ class EnglishEntryballoon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryballoon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /bəˈluːn/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /bəˈluːn/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakballoon("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryballoon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /bəˈluːn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /bəˈluːn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakballoon("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntryballoon extends StatelessWidget {
                             englishText: "My balloon has burst!",
                             kurdishText: "فودانکەکەم تەقی!",
                             onPressedBritish: () => speakballoons1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballoons1(// REPLACE: balloon
-                                    "en-US"),
+                            onPressedAmerican: () => speakballoons1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -172,9 +166,7 @@ class EnglishEntryballoon extends StatelessWidget {
                             englishText: "We went up in a balloon.",
                             kurdishText: "سواری باڵۆنێک بووین.",
                             onPressedBritish: () => speakballoons2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballoons2(// REPLACE: balloon
-                                    "en-US"),
+                            onPressedAmerican: () => speakballoons2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,9 +176,7 @@ class EnglishEntryballoon extends StatelessWidget {
                             englishText: "Her skirt ballooned out in the wind.",
                             kurdishText: "تەنوورەکەی لە بایەکەدا خڕبوویەوە.",
                             onPressedBritish: () => speakballoons3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballoons3(// REPLACE: balloon
-                                    "en-US"),
+                            onPressedAmerican: () => speakballoons3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -197,9 +187,7 @@ class EnglishEntryballoon extends StatelessWidget {
                                 "Unemployment ballooned to fourteen per cent.",
                             kurdishText: "بێکاری ھەڵبەزی بۆ ١٤٪.",
                             onPressedBritish: () => speakballoons4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballoons4(// REPLACE: balloon
-                                    "en-US"),
+                            onPressedAmerican: () => speakballoons4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -211,9 +199,7 @@ class EnglishEntryballoon extends StatelessWidget {
                             kurdishText:
                                 "پلانی بوو بێت بە یەکەم کەس بەسەر خولگەی باکووری زەویدا بە باڵۆن گەشت بکات.",
                             onPressedBritish: () => speakballoons5("en-GB"),
-                            onPressedAmerican: () =>
-                                speakballoons5(// REPLACE: balloon
-                                    "en-US"),
+                            onPressedAmerican: () => speakballoons5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

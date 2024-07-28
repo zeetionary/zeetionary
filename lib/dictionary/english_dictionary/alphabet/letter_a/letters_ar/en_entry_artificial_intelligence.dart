@@ -95,7 +95,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,17 +112,13 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "artificial intelligence"), // Find /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/
-                            // divvviiider
+                            EntryTitle(word: "artificial intelligence"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/"),
                             CustomIconButtonBritish(
                               onPressed: () =>
                                   speakartificialintelligence("en-GB"),
@@ -132,8 +128,7 @@ class EnglishEntryartificialintelligence extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌɑːrtɪfɪʃl ɪnˈtelɪdʒəns/"),
                             CustomIconButtonAmerican(
                               onPressed: () =>
                                   speakartificialintelligence("en-US"),

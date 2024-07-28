@@ -87,7 +87,7 @@ class EnglishEntrybanjo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybanjo extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbændʒəʊ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbændʒəʊ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanjo("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybanjo extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbændʒəʊ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbændʒəʊ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanjo("en-US"),
                             ),
@@ -159,9 +155,7 @@ class EnglishEntrybanjo extends StatelessWidget {
                             kurdishText:
                                 "بانجۆ زۆرجار لەگەڵ گۆرانیدا بەکاردێت، و دەنگە تایبەتەکەی دەکرێت ھەستێکی بەتین بۆ گۆرانییەک زیاد بکات.",
                             onPressedBritish: () => speakbanjos1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanjos1(// REPLACE: banjo
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanjos1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

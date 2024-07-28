@@ -88,7 +88,7 @@ class EnglishEntrybanish extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybanish extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbænɪʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbænɪʃ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanish("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybanish extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbænɪʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbænɪʃ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanish("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntrybanish extends StatelessWidget {
                             kurdishText:
                                 "دوورخرایەوە بە ئوسترالیا، شوێنێک کە دوای پێنج ساڵ تێیدا مرد.",
                             onPressedBritish: () => speakbanishs1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanishs1(// REPLACE: banish
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanishs1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -178,9 +172,7 @@ class EnglishEntrybanish extends StatelessWidget {
                             kurdishText:
                                 "دیمەنی خواردن ھەموو بیرێکی تری لە مێشکی دەرکرد.",
                             onPressedBritish: () => speakbanishs2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbanishs2(// REPLACE: banish
-                                    "en-US"),
+                            onPressedAmerican: () => speakbanishs2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

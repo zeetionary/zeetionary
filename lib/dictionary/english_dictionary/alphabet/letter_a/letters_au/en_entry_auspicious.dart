@@ -94,7 +94,7 @@ class EnglishEntryauspicious extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈspɪʃəs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈspɪʃəs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauspicious("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryauspicious extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈspɪʃəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈspɪʃəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauspicious("en-US"),
                             ),
@@ -172,9 +168,8 @@ class EnglishEntryauspicious extends StatelessWidget {
                             kurdishText:
                                 "ڕێکەوتێکی پیرۆز بوو بۆ ھاوسەرگیرییەکە.",
                             onPressedBritish: () => speakauspicious438("en-GB"),
-                            onPressedAmerican: () => speakauspicious438(
-                                // REPLACE: auspicious
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauspicious438("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

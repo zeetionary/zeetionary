@@ -163,9 +163,7 @@ class EnglishEntryadvance extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ədˈvɑːns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ədˈvɑːns/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadvance("en-US"),
                             ),

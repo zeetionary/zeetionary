@@ -96,7 +96,7 @@ class EnglishEntryattractive extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -121,9 +121,7 @@ class EnglishEntryattractive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtræktɪv/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtræktɪv/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattractive("en-GB"),
                             ),
@@ -131,9 +129,7 @@ class EnglishEntryattractive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtræktɪv"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtræktɪv"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattractive("en-US"),
                             ),
@@ -174,9 +170,8 @@ class EnglishEntryattractive extends StatelessWidget {
                                 "حەزم لە جۆنە بەڵام بە ڕووکەش سەرنجڕاکێشی نابینم.",
                             onPressedBritish: () =>
                                 speakattractive1043("en-GB"),
-                            onPressedAmerican: () => speakattractive1043(
-                                // REPLACE: attractive
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattractive1043("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,8 @@ class EnglishEntryattractive extends StatelessWidget {
                             kurdishText: "چاویلکە تازەکەت زۆر قەشەنگە.",
                             onPressedBritish: () =>
                                 speakattractive1045("en-GB"),
-                            onPressedAmerican: () => speakattractive1045(
-                                // REPLACE: attractive
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattractive1045("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -203,9 +197,8 @@ class EnglishEntryattractive extends StatelessWidget {
                                 "ڕێککەوتنەکە وەک دەگوترێت بەتایبەتی دڵگیرە بۆ وەبەرھێنەران.",
                             onPressedBritish: () =>
                                 speakattractive1047("en-GB"),
-                            onPressedAmerican: () => speakattractive1047(
-                                // REPLACE: attractive
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakattractive1047("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

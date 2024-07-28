@@ -87,7 +87,7 @@ class EnglishEntryaxiomatic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌæksiəˈmætɪk/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˌæksiəˈmætɪk/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakaxiomatic("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌæksiəˈmætɪk/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˌæksiəˈmætɪk/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaxiomatic("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntryaxiomatic extends StatelessWidget {
                             kurdishText:
                                 "ئەوە بەڵگەنەویست دیارە کە ھەمووان سوودمەند دەبن لە پەروەردەی زانستیی باشتر.",
                             onPressedBritish: () => speakaxiomatics1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakaxiomatics1(// REPLACE: axiomatic
-                                    "en-US"),
+                            onPressedAmerican: () => speakaxiomatics1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

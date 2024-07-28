@@ -97,7 +97,7 @@ class EnglishEntryautonomous extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -122,9 +122,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈtɒnəməs/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈtɒnəməs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautonomous("en-GB"),
                             ),
@@ -132,9 +130,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈtɑːnəməs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈtɑːnəməs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautonomous("en-US"),
                             ),
@@ -174,9 +170,8 @@ class EnglishEntryautonomous extends StatelessWidget {
                             kurdishText:
                                 "وڵاتەکە ئێستا ١٧ ھەرێمی خۆبەڕێوەبەری ھەیە و ھەریەکەیان کەلتووری بۆ خۆی ھەیە.",
                             onPressedBritish: () => speakautonomous909("en-GB"),
-                            onPressedAmerican: () => speakautonomous909(
-                                // REPLACE: autonomous
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakautonomous909("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +183,8 @@ class EnglishEntryautonomous extends StatelessWidget {
                             kurdishText:
                                 "مامۆستایان ئامانجیانە یارمەتی خوێندکاران بدەن ببن بە فێرخوازی سەربەخۆ.",
                             onPressedBritish: () => speakautonomous912("en-GB"),
-                            onPressedAmerican: () => speakautonomous912(
-                                // REPLACE: autonomous
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakautonomous912("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +196,8 @@ class EnglishEntryautonomous extends StatelessWidget {
                             kurdishText:
                                 "پەرەپێدانی ئۆتۆمبێلی خۆلێخوڕ لەتوانادایە شۆڕشێک درووست بکات لە گواستنەوەدا.",
                             onPressedBritish: () => speakautonomous916("en-GB"),
-                            onPressedAmerican: () => speakautonomous916(
-                                // REPLACE: autonomous
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakautonomous916("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

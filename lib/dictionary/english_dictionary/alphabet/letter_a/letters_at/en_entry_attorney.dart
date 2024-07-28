@@ -96,7 +96,7 @@ class EnglishEntryattorney extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryattorney extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈtɜːni/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈtɜːni/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakattorney("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryattorney extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈtɜːrni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈtɜːrni/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakattorney("en-US"),
                             ),
@@ -172,9 +168,7 @@ class EnglishEntryattorney extends StatelessWidget {
                             kurdishText:
                                 "لەسەر داوای پارێزەرەکەی بێ‌دەنگ مایەوە.",
                             onPressedBritish: () => speakattorney1101("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattorney1101(// REPLACE: attorney
-                                    "en-US"),
+                            onPressedAmerican: () => speakattorney1101("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -184,9 +178,7 @@ class EnglishEntryattorney extends StatelessWidget {
                             kurdishText:
                                 "پارێزەری داوالێکراو داوای وچانێکی کرد.",
                             onPressedBritish: () => speakattorney1103("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattorney1103(// REPLACE: attorney
-                                    "en-US"),
+                            onPressedAmerican: () => speakattorney1103("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -198,9 +190,7 @@ class EnglishEntryattorney extends StatelessWidget {
                             kurdishText:
                                 "کرا بە بریکاری باوکی کە ئەو نەخۆش کەوت.",
                             onPressedBritish: () => speakattorney1107("en-GB"),
-                            onPressedAmerican: () =>
-                                speakattorney1107(// REPLACE: attorney
-                                    "en-US"),
+                            onPressedAmerican: () => speakattorney1107("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -87,7 +87,7 @@ class EnglishEntryawful extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryawful extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːfl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːfl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakawful("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryawful extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːfl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːfl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakawful("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntryawful extends StatelessWidget {
                             kurdishText:
                                 "ھەست بە خراپی دەکەم سەبارەت بە لەبیرچوونی ڕۆژی لەدایکبوونی.",
                             onPressedBritish: () => speakawfuls1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawfuls1(// REPLACE: awful
-                                    "en-US"),
+                            onPressedAmerican: () => speakawfuls1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -177,9 +171,7 @@ class EnglishEntryawful extends StatelessWidget {
                             kurdishText:
                                 "تەنھا دواتر بوو کە ڕاستییە تاڵەکەمان زانی.",
                             onPressedBritish: () => speakawfuls2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawfuls2(// REPLACE: awful
-                                    "en-US"),
+                            onPressedAmerican: () => speakawfuls2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -190,9 +182,7 @@ class EnglishEntryawful extends StatelessWidget {
                                 "It's going to cost an awful lot of money.",
                             kurdishText: "پارەیەکی زۆری تێدەچێت.",
                             onPressedBritish: () => speakawfuls3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawfuls3(// REPLACE: awful
-                                    "en-US"),
+                            onPressedAmerican: () => speakawfuls3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -202,9 +192,7 @@ class EnglishEntryawful extends StatelessWidget {
                             englishText: "Clint is awful smart.",
                             kurdishText: "کلینت فرە زیرەکە.",
                             onPressedBritish: () => speakawfuls4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawfuls4(// REPLACE: awful
-                                    "en-US"),
+                            onPressedAmerican: () => speakawfuls4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

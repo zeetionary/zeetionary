@@ -87,7 +87,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbækɡæmən/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbækɡæmən/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbackgammon("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbækɡæmən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbækɡæmən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbackgammon("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntrybackgammon extends StatelessWidget {
                             kurdishText:
                                 "لە باپیرمەوە فێری تاوڵەکردن بووم و بووە بە یەکێک لە حەزەکانم.",
                             onPressedBritish: () => speakbackgammons1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbackgammons1(// REPLACE: backgammon
-                                    "en-US"),
+                            onPressedAmerican: () => speakbackgammons1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

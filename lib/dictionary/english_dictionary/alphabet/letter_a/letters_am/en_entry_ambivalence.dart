@@ -47,7 +47,7 @@ class EnglishEntryambivalence extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -70,9 +70,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /æmˈbɪvələns/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /æmˈbɪvələns/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakambivalence("en-GB"),
                             ),
@@ -80,9 +78,7 @@ class EnglishEntryambivalence extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /æmˈbɪvələns/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /æmˈbɪvələns/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakambivalence("en-US"),
                             ),

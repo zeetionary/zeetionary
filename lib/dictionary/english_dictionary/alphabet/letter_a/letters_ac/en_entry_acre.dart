@@ -76,9 +76,7 @@ class EnglishEntryacre extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeɪkər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈeɪkər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacre("en-US"),
                             ),

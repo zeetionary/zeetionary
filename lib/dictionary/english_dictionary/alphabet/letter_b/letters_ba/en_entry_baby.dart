@@ -87,7 +87,7 @@ class EnglishEntrybaby extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybaby extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbeɪbi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbeɪbi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speaka3("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybaby extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbeɪbi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbeɪbi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speaka3("en-US"),
                             ),
@@ -160,8 +156,7 @@ class EnglishEntrybaby extends StatelessWidget {
                             englishText: "She had a baby last year.",
                             kurdishText: "ساڵی پار منداڵێکی بوو.",
                             onPressedBritish: () => speaka3s1("en-GB"),
-                            onPressedAmerican: () => speaka3s1(// REPLACE: baby
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -171,8 +166,7 @@ class EnglishEntrybaby extends StatelessWidget {
                             englishText: "He's the baby of the team.",
                             kurdishText: "بچووکترین ئەندامی تیمەکەیە.",
                             onPressedBritish: () => speaka3s2("en-GB"),
-                            onPressedAmerican: () => speaka3s2(// REPLACE: baby
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -184,8 +178,7 @@ class EnglishEntrybaby extends StatelessWidget {
                             kurdishText:
                                 "واز لە گریان بێنە و ھێندە منداڵ مەبە.",
                             onPressedBritish: () => speaka3s3("en-GB"),
-                            onPressedAmerican: () => speaka3s3(// REPLACE: baby
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -195,8 +188,7 @@ class EnglishEntrybaby extends StatelessWidget {
                             englishText: "Oh baby, I love you.",
                             kurdishText: "ئاھ ھەناسەکەم، خۆشمدەوێیت.",
                             onPressedBritish: () => speaka3s4("en-GB"),
-                            onPressedAmerican: () => speaka3s4(// REPLACE: baby
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s4("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -208,8 +200,7 @@ class EnglishEntrybaby extends StatelessWidget {
                             kurdishText:
                                 "کوڕەکان لە ئێستادا ١٠ ساڵان و ١٢ ساڵان بوون و نەیاندەویست دایکیان وەک منداڵ سەیریان بکات.",
                             onPressedBritish: () => speaka3s5("en-GB"),
-                            onPressedAmerican: () => speaka3s5(// REPLACE: baby
-                                "en-US"),
+                            onPressedAmerican: () => speaka3s5("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

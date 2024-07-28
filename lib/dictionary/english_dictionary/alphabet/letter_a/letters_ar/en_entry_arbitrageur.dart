@@ -93,7 +93,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,16 +110,13 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "arbitrageur"), // Find /ˌɑːbɪtrɑːˈʒɜː(r)/
-                            // divvviiider
+                            EntryTitle(word: "arbitrageur"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌɑːbɪtrɑːˈʒɜː(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌɑːbɪtrɑːˈʒɜː(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakarbitrageur("en-GB"),
                             ),
@@ -128,8 +125,7 @@ class EnglishEntryarbitrageur extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌɑːrbɪtrɑːˈʒɜːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                                text: "IpaUS: /ˌɑːrbɪtrɑːˈʒɜːr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakarbitrageur("en-US"),
                             ),

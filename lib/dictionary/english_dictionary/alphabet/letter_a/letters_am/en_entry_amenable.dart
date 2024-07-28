@@ -46,7 +46,7 @@ class EnglishEntryamenable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -63,15 +63,12 @@ class EnglishEntryamenable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(word: "amenable"), // Find /əˈmiːnəbl/
-                            // divvviiider
+                            EntryTitle(word: "amenable"),
                           ],
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈmiːnəbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈmiːnəbl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakamenable("en-GB"),
                             ),

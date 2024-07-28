@@ -87,7 +87,7 @@ class EnglishEntryavailable extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryavailable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈveɪləbl/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈveɪləbl/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakavailable("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryavailable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈveɪləbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈveɪləbl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakavailable("en-US"),
                             ),
@@ -162,9 +158,7 @@ class EnglishEntryavailable extends StatelessWidget {
                             kurdishText:
                                 "کۆپپیەکت بۆ دەنێرین ھەرکە بەردەست بوو.",
                             onPressedBritish: () => speakavailables1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavailables1(// REPLACE: available
-                                    "en-US"),
+                            onPressedAmerican: () => speakavailables1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntryavailable extends StatelessWidget {
                                 "Will she be available this afternoon?",
                             kurdishText: "ئەم نیوەڕۆ کاتی دەبێت؟",
                             onPressedBritish: () => speakavailables2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavailables2(// REPLACE: available
-                                    "en-US"),
+                            onPressedAmerican: () => speakavailables2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -187,9 +179,7 @@ class EnglishEntryavailable extends StatelessWidget {
                             englishText: "Do you think he's available?",
                             kurdishText: "پێت وایە ھێشتا سینگڵ بێ؟",
                             onPressedBritish: () => speakavailables3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakavailables3(// REPLACE: available
-                                    "en-US"),
+                            onPressedAmerican: () => speakavailables3("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -47,7 +47,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -74,7 +74,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                           children: [
                             const IPAofEnglish(
                                 text:
-                                    "IpaUK: /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                    "IpaUK: /ˈæltshaɪməz dɪziːz/, /ˈɔːltshaɪməz dɪziːz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakalzheimersdisease("en-GB"),
                             ),
@@ -83,8 +83,7 @@ class EnglishEntryalzheimersdisease extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɑːltshaɪmərz dɪziːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˈɑːltshaɪmərz dɪziːz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakalzheimersdisease("en-US"),
                             ),

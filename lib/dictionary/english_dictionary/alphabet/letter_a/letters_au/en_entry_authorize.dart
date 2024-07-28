@@ -95,7 +95,7 @@ class EnglishEntryauthorize extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːθəraɪz/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːθəraɪz/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauthorize("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːθəraɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːθəraɪz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauthorize("en-US"),
                             ),
@@ -172,9 +168,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                             kurdishText:
                                 "دەتوانم مۆڵەتی پێدانی تاوەکو ٥٠٠٠ پاوەند بدەم.",
                             onPressedBritish: () => speakauthorize840("en-GB"),
-                            onPressedAmerican: () =>
-                                speakauthorize840(// REPLACE: authorize
-                                    "en-US"),
+                            onPressedAmerican: () => speakauthorize840("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -184,9 +178,7 @@ class EnglishEntryauthorize extends StatelessWidget {
                             kurdishText:
                                 "پۆلیس مۆڵەتی پێدرا گفتوگۆ تەلەفۆنییەکانی تۆمار بکات.",
                             onPressedBritish: () => speakauthorize842("en-GB"),
-                            onPressedAmerican: () => speakauthorize842(
-                                // REPLACE: authorize
-                                "en-US"),
+                            onPressedAmerican: () => speakauthorize842("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

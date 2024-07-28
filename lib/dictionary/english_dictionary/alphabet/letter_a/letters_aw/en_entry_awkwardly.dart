@@ -87,7 +87,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːkwədli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːkwədli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakawkwardly("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːkwərdli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːkwərdli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakawkwardly("en-US"),
                             ),
@@ -161,9 +157,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                             englishText: "‘I'm sorry,’ he said awkwardly.",
                             kurdishText: "بە شەرمەزارییەوە وتی 'بمبوورە'.",
                             onPressedBritish: () => speakawkwardlys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwardlys1(// REPLACE: awkwardly
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwardlys1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                             kurdishText:
                                 "بڵاوکردنەوەی ئامارە ئابوورییەکان لەکاتێکی نالەبار بوو بۆ حکومەت.",
                             onPressedBritish: () => speakawkwardlys2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwardlys2(// REPLACE: awkwardly
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwardlys2("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -188,9 +180,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                             kurdishText:
                                 "ئۆتۆمبێلەکە بەشێوەیەکی خراپ پارک کرابوو.",
                             onPressedBritish: () => speakawkwardlys3("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwardlys3(// REPLACE: awkwardly
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwardlys3("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -201,9 +191,7 @@ class EnglishEntryawkwardly extends StatelessWidget {
                                 "She fell awkwardly and broke her ankle.",
                             kurdishText: "بەشێوەیەکی نائاسایی کەوت و لاقی شکا.",
                             onPressedBritish: () => speakawkwardlys4("en-GB"),
-                            onPressedAmerican: () =>
-                                speakawkwardlys4(// REPLACE: awkwardly
-                                    "en-US"),
+                            onPressedAmerican: () => speakawkwardlys4("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

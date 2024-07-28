@@ -76,9 +76,7 @@ class EnglishEntryacorn extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈeɪkɔːrn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈeɪkɔːrn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacorn("en-US"),
                             ),

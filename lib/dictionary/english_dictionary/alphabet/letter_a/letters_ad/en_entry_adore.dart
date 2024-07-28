@@ -76,9 +76,7 @@ class EnglishEntryadore extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdɔːr/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdɔːr/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadore("en-US"),
                             ),

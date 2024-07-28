@@ -86,7 +86,7 @@ class EnglishEntryautopsy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -110,9 +110,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈɔːtɒpsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈɔːtɒpsi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakautopsy("en-GB"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈɔːtɑːpsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈɔːtɑːpsi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakautopsy("en-US"),
                             ),
@@ -160,9 +156,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                                 "The autopsy revealed that he had been poisoned.",
                             kurdishText: "توێکارییەکە دەریخست ژەھرخواردکراوە.",
                             onPressedBritish: () => speakautopsys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakautopsys1(// REPLACE: autopsy
-                                    "en-US"),
+                            onPressedAmerican: () => speakautopsys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

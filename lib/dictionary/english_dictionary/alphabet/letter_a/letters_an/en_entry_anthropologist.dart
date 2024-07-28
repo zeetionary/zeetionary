@@ -89,7 +89,7 @@ class EnglishEntryanthropologist extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -106,17 +106,13 @@ class EnglishEntryanthropologist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anthropologist"), // Find /ˌænθrəˈpɒlədʒɪst/
-                            // divvviiider
+                            EntryTitle(word: "anthropologist"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌænθrəˈpɒlədʒɪst/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌænθrəˈpɒlədʒɪst/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakanthropologist("en-GB"),
                             ),
@@ -125,8 +121,7 @@ class EnglishEntryanthropologist extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌænθrəˈpɑːlədʒɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˌænθrəˈpɑːlədʒɪst/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakanthropologist("en-US"),
                             ),

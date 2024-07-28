@@ -77,9 +77,7 @@ class EnglishEntryactress extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæktrəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæktrəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakactress("en-US"),
                             ),
@@ -120,9 +118,7 @@ class EnglishEntryactress extends StatelessWidget {
                             kurdishText:
                                 "خانمە ئەکتەرەکەی براوەی خەڵاتی ئۆسکار بۆ ماوەیەک پشووی لە ڕۆڵگێڕان وەرگرتووە.",
                             onPressedBritish: () => speakactress527("en-GB"),
-                            onPressedAmerican: () =>
-                                speakactress527(// REPLACE: actress
-                                    "en-US"),
+                            onPressedAmerican: () => speakactress527("en-US"),
                           ),
                         ],
                       ),

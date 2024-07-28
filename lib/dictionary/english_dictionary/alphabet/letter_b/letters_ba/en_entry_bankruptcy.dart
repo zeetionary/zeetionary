@@ -87,7 +87,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -112,9 +112,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæŋkrʌptsi/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæŋkrʌptsi/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbankruptcy("en-GB"),
                             ),
@@ -122,9 +120,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæŋkrʌptsi/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæŋkrʌptsi/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbankruptcy("en-US"),
                             ),
@@ -164,9 +160,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                             kurdishText:
                                 "ئەگەری ھەیە مایەپووچبوونی زیاتر ڕووبدات لەناو جوتیارە کەمدەرامەتەکاندا.",
                             onPressedBritish: () => speakbankruptcys1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankruptcys1(// REPLACE: bankruptcy
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankruptcys1("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

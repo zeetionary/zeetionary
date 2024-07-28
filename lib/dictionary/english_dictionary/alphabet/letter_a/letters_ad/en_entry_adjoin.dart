@@ -77,9 +77,7 @@ class EnglishEntryadjoin extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdʒɔɪn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdʒɔɪn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadjoin("en-US"),
                             ),

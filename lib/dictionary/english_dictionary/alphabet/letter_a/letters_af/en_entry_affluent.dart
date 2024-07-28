@@ -76,9 +76,7 @@ class EnglishEntryaffluent extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæfluənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæfluənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaffluent("en-US"),
                             ),

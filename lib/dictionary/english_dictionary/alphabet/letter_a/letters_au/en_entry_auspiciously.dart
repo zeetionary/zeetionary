@@ -94,7 +94,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -119,9 +119,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ɔːˈspɪʃəsli/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ɔːˈspɪʃəsli/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakauspiciously("en-GB"),
                             ),
@@ -129,9 +127,7 @@ class EnglishEntryauspiciously extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ɔːˈspɪʃəsli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ɔːˈspɪʃəsli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakauspiciously("en-US"),
                             ),
@@ -167,9 +163,8 @@ class EnglishEntryauspiciously extends StatelessWidget {
                                 "ڕۆژەکە بە ئاماژەیەکی باشەوە دەستی‌پێنەکرد.",
                             onPressedBritish: () =>
                                 speakauspiciously446("en-GB"),
-                            onPressedAmerican: () => speakauspiciously446(
-                                // REPLACE: auspiciously
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakauspiciously446("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

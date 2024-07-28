@@ -87,7 +87,7 @@ class EnglishEntrybanker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -111,9 +111,7 @@ class EnglishEntrybanker extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˈbæŋkə(r)/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /ˈbæŋkə(r)/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakbanker("en-GB"),
                             ),
@@ -121,9 +119,7 @@ class EnglishEntrybanker extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈbæŋkər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /ˈbæŋkər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakbanker("en-US"),
                             ),
@@ -163,9 +159,7 @@ class EnglishEntrybanker extends StatelessWidget {
                             kurdishText:
                                 "تا تەمەنی ٤٠ ساڵی بووبوو بە خاوەن بانکێکی سەرکەوتوو.",
                             onPressedBritish: () => speakbankers1("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankers1(// REPLACE: banker
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankers1("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -175,9 +169,7 @@ class EnglishEntrybanker extends StatelessWidget {
                             englishText: "The banker collected the bets.",
                             kurdishText: "چاودێرەکە پارەی گرەوەکانی کۆکردەوە.",
                             onPressedBritish: () => speakbankers2("en-GB"),
-                            onPressedAmerican: () =>
-                                speakbankers2(// REPLACE: banker
-                                    "en-US"),
+                            onPressedAmerican: () => speakbankers2("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -81,9 +81,7 @@ class EnglishEntryacknowledgement extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əkˈnɑːlɪdʒmənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əkˈnɑːlɪdʒmənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacknowledgement("en-US"),
                             ),

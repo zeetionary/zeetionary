@@ -94,7 +94,7 @@ class EnglishEntryastonish extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -118,9 +118,7 @@ class EnglishEntryastonish extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˈstɒnɪʃ/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˈstɒnɪʃ/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakastonish("en-GB"),
                             ),
@@ -128,9 +126,7 @@ class EnglishEntryastonish extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈstɑːnɪʃ/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˈstɑːnɪʃ/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakastonish("en-US"),
                             ),
@@ -167,9 +163,7 @@ class EnglishEntryastonish extends StatelessWidget {
                             englishText: "The news astonished everyone.",
                             kurdishText: "ھەواڵەکە ھەمووانی حەپەساند.",
                             onPressedBritish: () => speakastonish1031("en-GB"),
-                            onPressedAmerican: () =>
-                                speakastonish1031(// REPLACE: astonish
-                                    "en-US"),
+                            onPressedAmerican: () => speakastonish1031("en-US"),
                           ),
                           // const DividerSentences(),
                           // const DividerDefinition(),

@@ -77,9 +77,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæɡəni ænt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /ˈæɡəni ænt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakagonyaunt("en-US"),
                             ),

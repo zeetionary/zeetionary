@@ -77,9 +77,7 @@ class EnglishEntryagenda extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdʒendə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdʒendə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakagenda("en-US"),
                             ),

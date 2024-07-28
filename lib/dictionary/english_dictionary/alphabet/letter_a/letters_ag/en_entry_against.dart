@@ -95,8 +95,7 @@ class EnglishEntryagainst extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈɡenst/, /əˈɡeɪnst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /əˈɡenst/, /əˈɡeɪnst/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakagainst("en-US"),
                             ),

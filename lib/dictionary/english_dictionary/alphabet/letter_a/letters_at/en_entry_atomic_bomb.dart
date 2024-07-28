@@ -95,7 +95,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -120,9 +120,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUK: /əˌtɒmɪk ˈbɒm/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                            const IPAofEnglish(text: "IpaUK: /əˌtɒmɪk ˈbɒm/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakatomicbomb("en-GB"),
                             ),
@@ -130,9 +128,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˌtɑːmɪk ˈbɑːm/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find WORD_WEB
+                            const IPAofEnglish(text: "IpaUS: /əˌtɑːmɪk ˈbɑːm/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakatomicbomb("en-US"),
                             ),

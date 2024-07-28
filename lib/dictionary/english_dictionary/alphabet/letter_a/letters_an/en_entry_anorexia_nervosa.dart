@@ -96,7 +96,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 2 + VIDEOS FIND: FROM_YOUTUBE_BELOW
+      length: 3,
       child: Scaffold(
         appBar: const ZeetionaryAppbar(),
         body: Padding(
@@ -113,17 +113,13 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "anorexia nervosa"), // Find /ˌænəˌreksiə nɜːˈvəʊsə/
-                            // divvviiider
+                            EntryTitle(word: "anorexia nervosa"),
                           ],
                         ),
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUK: /ˌænəˌreksiə nɜːˈvəʊsə/"), // DOPSUM: WRITE IPA IN BRITISH ENGLISH
+                                text: "IpaUK: /ˌænəˌreksiə nɜːˈvəʊsə/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakanorexianervosa("en-GB"),
                             ),
@@ -132,8 +128,7 @@ class EnglishEntryanorexianervosa extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌænəˌreksiə nɜːrˈvəʊsə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                                text: "IpaUS: /ˌænəˌreksiə nɜːrˈvəʊsə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakanorexianervosa("en-US"),
                             ),

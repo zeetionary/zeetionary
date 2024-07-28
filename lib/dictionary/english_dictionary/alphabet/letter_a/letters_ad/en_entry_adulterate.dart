@@ -78,9 +78,7 @@ class EnglishEntryadulterate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈdʌltəreɪt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH - find Dopsum2
+                            const IPAofEnglish(text: "IpaUS: /əˈdʌltəreɪt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakadulterate("en-US"),
                             ),

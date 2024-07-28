@@ -385,7 +385,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakan45287("en-US"),
           ),
           const DividerDefinition(),
-          const DefinitionKurdish(text: "٣. (ئامراز) بەکاردێت بۆ گشتگیرکردن"),
+          const DefinitionKurdish(text: "٣. (ئامراز) بەکاردێت بۆ گشتگیریکردن"),
           SentencesRow(
             englishText: "A lion is a dangerous animal.",
             kurdishText: "شێر ئاژەڵێکی دڕندەیە.",

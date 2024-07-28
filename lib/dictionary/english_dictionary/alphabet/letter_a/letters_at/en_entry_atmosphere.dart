@@ -177,10 +177,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "گڕکانەکان و کانیاوە گەرمەکان گازی میسان دەخەنە بەرگەھەواوە.",
                             onPressedBritish: () =>
                                 speakatmosphere1119("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1119(
-                                // REPLACE: atmosphere
-                                "en-US"),
-                          ),
+                            onPressedAmerican: () => speakatmosphere1119("en-US"),                          ),
                           const DividerSentences(),
                           // const DividerDefinition(),
                           SentencesRow(
@@ -190,10 +187,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "کەشتییە ئاسمانییەکە دەبێت درەنگانی ئەمڕۆ بگەڕێتەوە ناو بەرگەھەوای زەوی.",
                             onPressedBritish: () =>
                                 speakatmosphere1121("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1121(
-                                // REPLACE: atmosphere
-                                "en-US"),
-                          ),
+                            onPressedAmerican: () => speakatmosphere1121("en-US"),                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -205,10 +199,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "دوورترین بەشی ڕووی دەرەوەی بەرگەھەوای خۆر پێی دەوترێت کۆرۆنا.",
                             onPressedBritish: () =>
                                 speakatmosphere1123("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1123(
-                                // REPLACE: atmosphere
-                                "en-US"),
-                          ),
+                            onPressedAmerican: () => speakatmosphere1123("en-US"),                          ),
                           // const DividerSentences(),
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """
@@ -220,9 +211,8 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "ئەم ڕووەکانە حەزیان بە ژینگەی گەرم و شێدارە.",
                             onPressedBritish: () =>
                                 speakatmosphere1126("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1126(
-                                // REPLACE: atmosphere
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakatmosphere1126("en-US"),
                           ),
                           // const DividerSentences(),
                           const DividerDefinition(),
@@ -235,9 +225,8 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "بەرپرسانی شارەکە کەشێکی پڕ لە ترسیان درووستکردووە.",
                             onPressedBritish: () =>
                                 speakatmosphere1128("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1128(
-                                // REPLACE: atmosphere
-                                "en-US"),
+                            onPressedAmerican: () =>
+                                speakatmosphere1128("en-US"),
                           ),
                           const DividerSentences(),
                           // const DividerDefinition(),
@@ -248,10 +237,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                                 "کەشێکی متمانەی ھاوبەش ھەبوو لە نێوانیاندا.",
                             onPressedBritish: () =>
                                 speakatmosphere1129("en-GB"),
-                            onPressedAmerican: () => speakatmosphere1129(
-                                // REPLACE: atmosphere
-                                "en-US"),
-                          ),
+                            onPressedAmerican: () => speakatmosphere1129("en-US"),                          ),
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],

@@ -4388,19 +4388,19 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gem.dart' show EnglishEntrygem
 // en_entry_gender.dart' show EnglishEntrygender
 // en_entry_gene.dart' show EnglishEntrygene
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_genealogy.dart' show EnglishEntrygenealogy
+// en_entry_genealogical.dart' show EnglishEntrygenealogical
+// en_entry_general.dart' show EnglishEntrygeneral
+// en_entry_general_election.dart' show EnglishEntrygeneralelection //// فففف general election
+// en_entry_generality.dart' show EnglishEntrygenerality
+// en_entry_generally.dart' show EnglishEntrygenerally
+// en_entry_general_practitioner.dart' show EnglishEntrygeneralpractitioner //// فففف general practitioner
+// en_entry_general_strike.dart' show EnglishEntrygeneralstrike //// فففف
+// en_entry_generalize.dart' show EnglishEntrygeneralize
+// en_entry_generalization.dart' show EnglishEntrygeneralization
+// en_entry_generate.dart' show EnglishEntrygenerate
+// en_entry_generative.dart' show EnglishEntrygenerative
+// en_entry_generator.dart' show EnglishEntrygenerator
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

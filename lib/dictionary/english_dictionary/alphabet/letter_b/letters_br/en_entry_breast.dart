@@ -14,7 +14,6 @@ class EnglishEntrybreast extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbreast(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts1(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts2(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -39,7 +36,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts3(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts4(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts5(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -64,7 +58,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts6(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts7(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +72,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts8(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -89,7 +80,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts9(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -97,7 +87,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts10(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -106,7 +95,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts11(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -115,7 +103,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts12(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -123,7 +110,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts13(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -132,7 +118,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts14(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -140,7 +125,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts15(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -148,7 +132,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts16(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -156,7 +139,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts17(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -164,7 +146,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts18(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -172,7 +153,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts19(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -180,7 +160,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts20(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -188,7 +167,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts21(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -196,7 +174,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts22(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -204,7 +181,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts23(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -212,7 +188,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts24(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -220,7 +195,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts25(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -228,7 +202,6 @@ class EnglishEntrybreast extends StatelessWidget {
   }
 
   Future<void> speakbreasts26(String languageCode) async {
-    // DOPSUM: CHANGE speakbreast
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -282,7 +255,7 @@ class EnglishEntrybreast extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

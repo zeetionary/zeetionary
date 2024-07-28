@@ -20,7 +20,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbackwards(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   }
 
   Future<void> speakbackwardss1(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   }
 
   Future<void> speakbackwardss2(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   }
 
   Future<void> speakbackwardss3(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +50,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   }
 
   Future<void> speakbackwardss4(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +58,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   }
 
   Future<void> speakbackwardss5(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +65,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   }
 
   Future<void> speakbackwardss6(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +72,6 @@ class EnglishEntrybackwards extends StatelessWidget {
   }
 
   Future<void> speakbackwardss7(String languageCode) async {
-    // DOPSUM: CHANGE speakBackwards
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +127,7 @@ class EnglishEntrybackwards extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

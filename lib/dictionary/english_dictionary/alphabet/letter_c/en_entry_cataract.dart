@@ -12,7 +12,6 @@ class EnglishEntrycataract extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcataract(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts3(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +41,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts4(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +48,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts5(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +55,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts6(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +62,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts7(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +69,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts8(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -85,7 +76,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts9(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -93,7 +83,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts10(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -101,7 +90,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts11(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -109,7 +97,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts12(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -117,7 +104,6 @@ class EnglishEntrycataract extends StatelessWidget {
   }
 
   Future<void> speakcataracts13(String languageCode) async {
-    // DOPSUM: CHANGE speakcataract
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

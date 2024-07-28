@@ -20,7 +20,6 @@ class EnglishEntrybackward extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbackward(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards1(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards2(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards3(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards4(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +57,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards5(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +64,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards6(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +71,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards7(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +79,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards8(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -96,7 +87,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards9(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -105,7 +95,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards10(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -113,7 +102,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards11(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -121,7 +109,6 @@ class EnglishEntrybackward extends StatelessWidget {
   }
 
   Future<void> speakbackwards12(String languageCode) async {
-    // DOPSUM: CHANGE speakBackward
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -177,7 +164,7 @@ class EnglishEntrybackward extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

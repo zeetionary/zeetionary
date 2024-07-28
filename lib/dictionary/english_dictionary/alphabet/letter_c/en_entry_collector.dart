@@ -12,7 +12,6 @@ class EnglishEntrycollector extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcollector(String languageCode) async {
-    // DOPSUM: CHANGE speakcollector
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycollector extends StatelessWidget {
   }
 
   Future<void> speakcollectors1(String languageCode) async {
-    // DOPSUM: CHANGE speakcollector
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

@@ -139,7 +139,6 @@ class TTSUK extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcorrelation(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -189,7 +188,6 @@ class TTSUS extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcorrelation(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -212,7 +210,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcorrelations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -221,7 +218,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakcorrelations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcorrelation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

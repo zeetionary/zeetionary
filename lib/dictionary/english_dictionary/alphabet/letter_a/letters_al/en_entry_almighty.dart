@@ -12,7 +12,6 @@ class EnglishEntryalmighty extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakalmighty(String languageCode) async {
-    // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryalmighty extends StatelessWidget {
   }
 
   Future<void> speakalmighty23599(String languageCode) async {
-    // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryalmighty extends StatelessWidget {
   }
 
   Future<void> speakalmighty4263(String languageCode) async {
-    // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntryalmighty extends StatelessWidget {
   }
 
   Future<void> speakalmight4693(String languageCode) async {
-    // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntryalmighty extends StatelessWidget {
   }
 
   Future<void> speakalmight45665(String languageCode) async {
-    // DOPSUM: CHANGE speakAlmighty
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -100,7 +95,7 @@ class EnglishEntryalmighty extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

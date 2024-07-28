@@ -12,7 +12,6 @@ class EnglishEntryair extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakair(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair11524(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair42112(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair2133(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +41,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair4144(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +48,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair45666(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +55,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair3544(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair58999(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair49258(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair96354(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntryair extends StatelessWidget {
   }
 
   Future<void> speakair74952(String languageCode) async {
-    // DOPSUM: CHANGE speakAir
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

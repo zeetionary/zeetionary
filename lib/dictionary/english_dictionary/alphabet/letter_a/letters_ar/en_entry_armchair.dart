@@ -18,7 +18,6 @@ class EnglishEntryarmchair extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarmchair(String languageCode) async {
-    // DOPSUM: CHANGE speakArmchair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryarmchair extends StatelessWidget {
   }
 
   Future<void> speakarmchair356(String languageCode) async {
-    // DOPSUM: CHANGE speakArmchair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryarmchair extends StatelessWidget {
   }
 
   Future<void> speakarmchair400(String languageCode) async {
-    // DOPSUM: CHANGE speakArmchair
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +134,7 @@ class EnglishEntryarmchair extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -14,7 +14,6 @@ class EnglishEntryanticipate extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanticipate(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryanticipate extends StatelessWidget {
   }
 
   Future<void> speakanticipate1032(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntryanticipate extends StatelessWidget {
   }
 
   Future<void> speakanticipate1033(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntryanticipate extends StatelessWidget {
   }
 
   Future<void> speakanticipate1036(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntryanticipate extends StatelessWidget {
   }
 
   Future<void> speakanticipate1038(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -56,7 +51,6 @@ class EnglishEntryanticipate extends StatelessWidget {
   }
 
   Future<void> speakanticipate1040(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticipate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +129,7 @@ class EnglishEntryanticipate extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

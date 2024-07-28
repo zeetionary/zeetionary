@@ -12,7 +12,6 @@ class EnglishEntrycompost extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcompost(String languageCode) async {
-    // DOPSUM: CHANGE speakcompost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycompost extends StatelessWidget {
   }
 
   Future<void> speakcomposts1(String languageCode) async {
-    // DOPSUM: CHANGE speakcompost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycompost extends StatelessWidget {
   }
 
   Future<void> speakcomposts2(String languageCode) async {
-    // DOPSUM: CHANGE speakcompost
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

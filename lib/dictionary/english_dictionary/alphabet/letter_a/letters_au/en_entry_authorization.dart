@@ -20,7 +20,6 @@ class EnglishEntryauthorization extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauthorization(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryauthorization extends StatelessWidget {
   }
 
   Future<void> speakauthorization850(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntryauthorization extends StatelessWidget {
   }
 
   Future<void> speakauthorization852(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntryauthorization extends StatelessWidget {
   }
 
   Future<void> speakauthorization853(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthorization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -142,7 +138,7 @@ class EnglishEntryauthorization extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

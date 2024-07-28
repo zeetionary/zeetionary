@@ -12,7 +12,6 @@ class EnglishEntryadmissible extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakadmissible(String languageCode) async {
-    // DOPSUM: CHANGE speakAdmissible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryadmissible extends StatelessWidget {
   }
 
   Future<void> speakadmis25374(String languageCode) async {
-    // DOPSUM: CHANGE speakAdmissible
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

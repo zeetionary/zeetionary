@@ -18,7 +18,6 @@ class EnglishEntryapology extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakapology(String languageCode) async {
-    // DOPSUM: CHANGE speakApology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryapology extends StatelessWidget {
   }
 
   Future<void> speakapology552(String languageCode) async {
-    // DOPSUM: CHANGE speakApology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryapology extends StatelessWidget {
   }
 
   Future<void> speakapology555(String languageCode) async {
-    // DOPSUM: CHANGE speakApology
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -136,7 +133,7 @@ class EnglishEntryapology extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -18,7 +18,6 @@ class EnglishEntryboob extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakboob(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs1(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs2(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs3(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs4(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +54,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs5(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +61,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs6(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +68,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs7(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -83,7 +75,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs8(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -91,7 +82,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs9(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -99,7 +89,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs10(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -107,7 +96,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs11(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -115,7 +103,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs12(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -123,7 +110,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs13(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +117,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs14(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +124,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs15(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -147,7 +131,6 @@ class EnglishEntryboob extends StatelessWidget {
   }
 
   Future<void> speakboobs16(String languageCode) async {
-    // DOPSUM: CHANGE speakboob
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -201,7 +184,7 @@ class EnglishEntryboob extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -20,7 +20,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbarricade(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   }
 
   Future<void> speakbarricades1(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   }
 
   Future<void> speakbarricades2(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   }
 
   Future<void> speakbarricades3(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   }
 
   Future<void> speakbarricades4(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   }
 
   Future<void> speakbarricades5(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   }
 
   Future<void> speakbarricades6(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntrybarricade extends StatelessWidget {
   }
 
   Future<void> speakbarricades7(String languageCode) async {
-    // DOPSUM: CHANGE speakBarricade
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -132,7 +124,7 @@ class EnglishEntrybarricade extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

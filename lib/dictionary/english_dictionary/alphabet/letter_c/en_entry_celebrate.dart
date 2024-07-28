@@ -12,7 +12,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcelebrate(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates1(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates2(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates3(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates4(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates5(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -64,7 +58,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates6(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -73,7 +66,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates7(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -81,7 +73,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates8(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -89,7 +80,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates9(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -97,7 +87,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates10(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -105,7 +94,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates11(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -113,7 +101,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates12(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -121,7 +108,6 @@ class EnglishEntrycelebrate extends StatelessWidget {
   }
 
   Future<void> speakcelebrates13(String languageCode) async {
-    // DOPSUM: CHANGE speakcelebrate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

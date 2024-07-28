@@ -12,7 +12,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcoordinate(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
   }
 
   Future<void> speakcoordinates1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
   }
 
   Future<void> speakcoordinates2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
   }
 
   Future<void> speakcoordinates3(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
   }
 
   Future<void> speakcoordinates4(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -56,7 +51,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
   }
 
   Future<void> speakcoordinates5(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -65,7 +59,6 @@ class EnglishEntrycoordinate extends StatelessWidget {
   }
 
   Future<void> speakcoordinates6(String languageCode) async {
-    // DOPSUM: CHANGE speakcoordinate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

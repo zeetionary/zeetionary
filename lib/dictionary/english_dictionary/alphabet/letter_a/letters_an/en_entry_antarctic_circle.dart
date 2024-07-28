@@ -14,7 +14,6 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakantarcticcircle(String languageCode) async {
-    // DOPSUM: CHANGE speakAntarcticcircle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
   }
 
   Future<void> speakantarcticcircle156(String languageCode) async {
-    // DOPSUM: CHANGE speakAntarcticcircle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +133,7 @@ class EnglishEntryantarcticcircle extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

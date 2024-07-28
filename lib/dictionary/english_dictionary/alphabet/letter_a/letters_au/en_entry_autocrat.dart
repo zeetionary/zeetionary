@@ -20,7 +20,6 @@ class EnglishEntryautocrat extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakautocrat(String languageCode) async {
-    // DOPSUM: CHANGE speakAutocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryautocrat extends StatelessWidget {
   }
 
   Future<void> speakautocrat934(String languageCode) async {
-    // DOPSUM: CHANGE speakAutocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntryautocrat extends StatelessWidget {
   }
 
   Future<void> speakautocrat937(String languageCode) async {
-    // DOPSUM: CHANGE speakAutocrat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -141,7 +138,7 @@ class EnglishEntryautocrat extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

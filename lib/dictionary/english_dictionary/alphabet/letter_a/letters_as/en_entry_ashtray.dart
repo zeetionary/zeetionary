@@ -20,7 +20,6 @@ class EnglishEntryashtray extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakashtray(String languageCode) async {
-    // DOPSUM: CHANGE speakAshtray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryashtray extends StatelessWidget {
   }
 
   Future<void> speakashtray509(String languageCode) async {
-    // DOPSUM: CHANGE speakAshtray
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +137,7 @@ class EnglishEntryashtray extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

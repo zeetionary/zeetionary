@@ -12,7 +12,6 @@ class EnglishEntryclosefitting extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakclosefitting(String languageCode) async {
-    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryclosefitting extends StatelessWidget {
   }
 
   Future<void> speakclosefittings1(String languageCode) async {
-    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryclosefitting extends StatelessWidget {
   }
 
   Future<void> speakclosefittings2(String languageCode) async {
-    // DOPSUM: CHANGE speakclosefitting
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

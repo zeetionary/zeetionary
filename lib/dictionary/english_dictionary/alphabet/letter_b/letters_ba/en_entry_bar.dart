@@ -20,7 +20,6 @@ class EnglishEntrybar extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbar(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars1(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars2(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,7 +41,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars3(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -52,7 +48,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars4(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars5(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars6(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +71,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars7(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +78,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars8(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +85,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars9(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +93,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars10(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -112,7 +101,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars11(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -121,7 +109,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars12(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -129,7 +116,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars13(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +123,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars14(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -145,7 +130,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars15(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -153,7 +137,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars16(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -161,7 +144,6 @@ class EnglishEntrybar extends StatelessWidget {
   }
 
   Future<void> speakbars17(String languageCode) async {
-    // DOPSUM: CHANGE speakBar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -217,7 +199,7 @@ class EnglishEntrybar extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

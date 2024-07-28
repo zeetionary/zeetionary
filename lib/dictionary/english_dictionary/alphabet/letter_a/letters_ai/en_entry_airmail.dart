@@ -12,7 +12,6 @@ class EnglishEntryairmail extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakairmail(String languageCode) async {
-    // DOPSUM: CHANGE speakAirmail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryairmail extends StatelessWidget {
   }
 
   Future<void> speakairmail4699(String languageCode) async {
-    // DOPSUM: CHANGE speakAirmail
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

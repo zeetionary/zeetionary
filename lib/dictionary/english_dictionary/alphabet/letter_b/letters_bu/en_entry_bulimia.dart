@@ -14,7 +14,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbulimia(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   }
 
   Future<void> speakbulimias1(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   }
 
   Future<void> speakbulimias2(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   }
 
   Future<void> speakbulimias3(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   }
 
   Future<void> speakbulimias4(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   }
 
   Future<void> speakbulimias5(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   }
 
   Future<void> speakbulimias6(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrybulimia extends StatelessWidget {
   }
 
   Future<void> speakbulimias7(String languageCode) async {
-    // DOPSUM: CHANGE speakbulimia
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +123,7 @@ class EnglishEntrybulimia extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

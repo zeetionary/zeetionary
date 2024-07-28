@@ -12,7 +12,6 @@ class EnglishEntrycircumference extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcircumference(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumference
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycircumference extends StatelessWidget {
   }
 
   Future<void> speakcircumferences1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumference
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

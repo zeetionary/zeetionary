@@ -12,7 +12,6 @@ class EnglishEntrycontravention extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcontravention(String languageCode) async {
-    // DOPSUM: CHANGE speakcontravention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycontravention extends StatelessWidget {
   }
 
   Future<void> speakcontraventions1(String languageCode) async {
-    // DOPSUM: CHANGE speakcontravention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycontravention extends StatelessWidget {
   }
 
   Future<void> speakcontraventions2(String languageCode) async {
-    // DOPSUM: CHANGE speakcontravention
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

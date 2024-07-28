@@ -12,7 +12,6 @@ class EnglishEntrycoma extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcoma(String languageCode) async {
-    // DOPSUM: CHANGE speakcoma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycoma extends StatelessWidget {
   }
 
   Future<void> speakcomas1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycoma extends StatelessWidget {
   }
 
   Future<void> speakcomas2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

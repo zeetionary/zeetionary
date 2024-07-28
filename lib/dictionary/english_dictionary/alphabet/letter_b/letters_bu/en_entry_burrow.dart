@@ -14,7 +14,6 @@ class EnglishEntryburrow extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakburrow(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows1(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows2(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows3(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows4(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows5(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows6(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows7(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +72,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows8(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -88,7 +79,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows9(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -96,7 +86,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows10(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -104,7 +93,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows11(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -112,7 +100,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows12(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -120,7 +107,6 @@ class EnglishEntryburrow extends StatelessWidget {
   }
 
   Future<void> speakburrows13(String languageCode) async {
-    // DOPSUM: CHANGE speakburrow
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -174,7 +160,7 @@ class EnglishEntryburrow extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

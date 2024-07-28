@@ -14,7 +14,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbureaucracy(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -39,7 +36,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys8(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys9(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys10(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys11(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys12(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrybureaucracy extends StatelessWidget {
   }
 
   Future<void> speakbureaucracys13(String languageCode) async {
-    // DOPSUM: CHANGE speakbureaucracy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -173,7 +159,7 @@ class EnglishEntrybureaucracy extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

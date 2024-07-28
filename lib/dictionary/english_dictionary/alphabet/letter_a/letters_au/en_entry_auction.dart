@@ -20,7 +20,6 @@ class EnglishEntryauction extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauction(String languageCode) async {
-    // DOPSUM: CHANGE speakAuction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryauction extends StatelessWidget {
   }
 
   Future<void> speakauction1150(String languageCode) async {
-    // DOPSUM: CHANGE speakAuction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntryauction extends StatelessWidget {
   }
 
   Future<void> speakauction1154(String languageCode) async {
-    // DOPSUM: CHANGE speakAuction
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -142,7 +139,7 @@ class EnglishEntryauction extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

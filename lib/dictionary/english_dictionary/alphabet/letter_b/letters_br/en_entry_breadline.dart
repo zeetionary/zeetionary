@@ -16,7 +16,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbreadline(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -24,7 +23,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   }
 
   Future<void> speakbreadlines1(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -33,7 +31,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   }
 
   Future<void> speakbreadlines2(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   }
 
   Future<void> speakbreadlines3(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   }
 
   Future<void> speakbreadlines4(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +54,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   }
 
   Future<void> speakbreadlines5(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +61,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   }
 
   Future<void> speakbreadlines6(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +68,6 @@ class EnglishEntrybreadline extends StatelessWidget {
   }
 
   Future<void> speakbreadlines7(String languageCode) async {
-    // DOPSUM: CHANGE speakbreadline
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -129,7 +121,7 @@ class EnglishEntrybreadline extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

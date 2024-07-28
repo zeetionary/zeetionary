@@ -107,7 +107,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays1(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -115,7 +114,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays2(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -123,7 +121,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays3(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +128,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays4(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +135,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays5(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -147,7 +142,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays6(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -156,7 +150,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays7(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -165,7 +158,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays8(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -173,7 +165,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays9(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -181,7 +172,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays10(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -189,7 +179,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays11(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -197,7 +186,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays12(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -205,7 +193,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays13(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -213,7 +200,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays14(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -221,7 +207,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays15(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -229,7 +214,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays16(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -237,7 +221,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays17(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -245,7 +228,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays18(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -253,7 +235,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays19(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -262,7 +243,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays20(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -270,7 +250,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays21(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -279,7 +258,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays22(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -288,7 +266,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays23(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -296,7 +273,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakdays24(String languageCode) async {
-    // DOPSUM: CHANGE speakday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

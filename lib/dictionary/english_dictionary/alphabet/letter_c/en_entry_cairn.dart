@@ -14,7 +14,6 @@ class EnglishEntrycairn extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcairn(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns1(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns2(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -39,7 +36,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns3(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns4(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns5(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns6(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns7(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns8(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns9(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns10(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns11(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns12(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrycairn extends StatelessWidget {
   }
 
   Future<void> speakcairns13(String languageCode) async {
-    // DOPSUM: CHANGE speakcairn
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -173,7 +159,7 @@ class EnglishEntrycairn extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -18,7 +18,6 @@ class EnglishEntryappreciation extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakappreciation(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryappreciation extends StatelessWidget {
   }
 
   Future<void> speakappreciation814(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryappreciation extends StatelessWidget {
   }
 
   Future<void> speakappreciation815(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntryappreciation extends StatelessWidget {
   }
 
   Future<void> speakappreciation817(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -50,7 +46,6 @@ class EnglishEntryappreciation extends StatelessWidget {
   }
 
   Future<void> speakappreciation818(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +54,6 @@ class EnglishEntryappreciation extends StatelessWidget {
   }
 
   Future<void> speakappreciation820(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -68,7 +62,6 @@ class EnglishEntryappreciation extends StatelessWidget {
   }
 
   Future<void> speakappreciation824(String languageCode) async {
-    // DOPSUM: CHANGE speakAppreciation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +132,7 @@ class EnglishEntryappreciation extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

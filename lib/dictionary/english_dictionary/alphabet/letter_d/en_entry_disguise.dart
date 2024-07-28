@@ -139,7 +139,6 @@ class TTSUK extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakdisguise(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -189,7 +188,6 @@ class TTSUS extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakdisguise(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -212,7 +210,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakdisguises1(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -220,7 +217,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises2(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -228,7 +224,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises3(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -236,7 +231,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises4(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -244,7 +238,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises5(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -252,7 +245,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises6(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -261,7 +253,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises7(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -269,7 +260,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises8(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -277,7 +267,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises9(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -285,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises10(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -293,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises11(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -301,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdisguises12(String languageCode) async {
-    // DOPSUM: CHANGE speakdisguise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

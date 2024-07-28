@@ -18,7 +18,6 @@ class EnglishEntryaqualung extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaqualung(String languageCode) async {
-    // DOPSUM: CHANGE speakAqualung
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryaqualung extends StatelessWidget {
   }
 
   Future<void> speakaqualung836(String languageCode) async {
-    // DOPSUM: CHANGE speakAqualung
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +135,7 @@ class EnglishEntryaqualung extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

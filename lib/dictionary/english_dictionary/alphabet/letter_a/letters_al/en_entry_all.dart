@@ -12,7 +12,6 @@ class EnglishEntryall extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakall(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall25344(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall3481(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall3441(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +41,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall39521(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +48,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall36284(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +55,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall48517(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +62,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall35288(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +69,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall32581(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -85,7 +76,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall24163(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -93,7 +83,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall1246(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -101,7 +90,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall38955(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -109,7 +97,6 @@ class EnglishEntryall extends StatelessWidget {
   }
 
   Future<void> speakall3582(String languageCode) async {
-    // DOPSUM: CHANGE speakAll
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -235,7 +222,7 @@ class EnglishEntryall extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

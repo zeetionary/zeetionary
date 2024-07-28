@@ -14,7 +14,6 @@ class EnglishEntrycapital extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcapital(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals1(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals2(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals3(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals4(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals5(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals6(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals7(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +72,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals8(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -89,7 +80,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals9(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -97,7 +87,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals10(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -106,7 +95,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals11(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -114,7 +102,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals12(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -122,7 +109,6 @@ class EnglishEntrycapital extends StatelessWidget {
   }
 
   Future<void> speakcapitals13(String languageCode) async {
-    // DOPSUM: CHANGE speakcapital
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -181,7 +167,7 @@ class EnglishEntrycapital extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

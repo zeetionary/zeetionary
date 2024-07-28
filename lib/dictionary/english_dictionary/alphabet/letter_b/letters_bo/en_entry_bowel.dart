@@ -19,7 +19,6 @@ class EnglishEntrybowel extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbowel(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -27,7 +26,6 @@ class EnglishEntrybowel extends StatelessWidget {
   }
 
   Future<void> speakbowels1(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntrybowel extends StatelessWidget {
   }
 
   Future<void> speakbowels2(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,7 +41,6 @@ class EnglishEntrybowel extends StatelessWidget {
   }
 
   Future<void> speakbowels3(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -52,7 +48,6 @@ class EnglishEntrybowel extends StatelessWidget {
   }
 
   Future<void> speakbowels4(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -60,7 +55,6 @@ class EnglishEntrybowel extends StatelessWidget {
   }
 
   Future<void> speakbowels5(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -68,7 +62,6 @@ class EnglishEntrybowel extends StatelessWidget {
   }
 
   Future<void> speakbowels6(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -76,7 +69,6 @@ class EnglishEntrybowel extends StatelessWidget {
   }
 
   Future<void> speakbowels7(String languageCode) async {
-    // DOPSUM: CHANGE speakbowel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -130,7 +122,7 @@ class EnglishEntrybowel extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

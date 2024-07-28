@@ -269,7 +269,6 @@ class TTSUK extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakeconomical(String languageCode) async {
-    // DOPSUM: CHANGE speakeconomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -319,7 +318,6 @@ class TTSUS extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakeconomical(String languageCode) async {
-    // DOPSUM: CHANGE speakeconomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -342,7 +340,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakeconomicals1(String languageCode) async {
-    // DOPSUM: CHANGE speakeconomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -351,7 +348,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakeconomicals2(String languageCode) async {
-    // DOPSUM: CHANGE speakeconomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -359,7 +355,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakeconomicals3(String languageCode) async {
-    // DOPSUM: CHANGE speakeconomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -367,7 +362,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakeconomicals4(String languageCode) async {
-    // DOPSUM: CHANGE speakeconomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -376,7 +370,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakeconomicals5(String languageCode) async {
-    // DOPSUM: CHANGE speakeconomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

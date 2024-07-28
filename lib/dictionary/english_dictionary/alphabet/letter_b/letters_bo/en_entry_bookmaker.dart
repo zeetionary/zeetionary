@@ -18,7 +18,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbookmaker(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   }
 
   Future<void> speakbookmakers1(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   }
 
   Future<void> speakbookmakers2(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   }
 
   Future<void> speakbookmakers3(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -50,7 +46,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   }
 
   Future<void> speakbookmakers4(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -58,7 +53,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   }
 
   Future<void> speakbookmakers5(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -66,7 +60,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   }
 
   Future<void> speakbookmakers6(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -74,7 +67,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
   }
 
   Future<void> speakbookmakers7(String languageCode) async {
-    // DOPSUM: CHANGE speakbookmaker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -133,7 +125,7 @@ class EnglishEntrybookmaker extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               const Expanded(

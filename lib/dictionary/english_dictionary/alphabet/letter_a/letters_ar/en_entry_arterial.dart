@@ -20,7 +20,6 @@ class EnglishEntryarterial extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarterial(String languageCode) async {
-    // DOPSUM: CHANGE speakArterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryarterial extends StatelessWidget {
   }
 
   Future<void> speakarterial158(String languageCode) async {
-    // DOPSUM: CHANGE speakArterial
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +137,7 @@ class EnglishEntryarterial extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

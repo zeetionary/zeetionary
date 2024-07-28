@@ -14,7 +14,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcanonical(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals1(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals2(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -40,7 +37,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals3(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -49,7 +45,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals4(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -58,7 +53,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals5(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -66,7 +60,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals6(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -74,7 +67,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals7(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -82,7 +74,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals8(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -90,7 +81,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals9(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -98,7 +88,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals10(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -106,7 +95,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals11(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -114,7 +102,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals12(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -122,7 +109,6 @@ class EnglishEntrycanonical extends StatelessWidget {
   }
 
   Future<void> speakcanonicals13(String languageCode) async {
-    // DOPSUM: CHANGE speakcanonical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -176,7 +162,7 @@ class EnglishEntrycanonical extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

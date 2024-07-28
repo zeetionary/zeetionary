@@ -12,7 +12,6 @@ class EnglishEntrycookery extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcookery(String languageCode) async {
-    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycookery extends StatelessWidget {
   }
 
   Future<void> speakcookerys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycookery extends StatelessWidget {
   }
 
   Future<void> speakcookerys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcookery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

@@ -90,7 +90,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakfifths1(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -98,7 +97,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakfifths2(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -106,7 +104,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakfifths3(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -114,7 +111,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakfifths4(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -122,7 +118,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speakfifths5(String languageCode) async {
-    // DOPSUM: CHANGE speakfifth
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

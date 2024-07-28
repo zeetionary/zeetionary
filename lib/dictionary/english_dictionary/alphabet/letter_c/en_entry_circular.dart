@@ -12,7 +12,6 @@ class EnglishEntrycircular extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcircular(String languageCode) async {
-    // DOPSUM: CHANGE speakcircular
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycircular extends StatelessWidget {
   }
 
   Future<void> speakcirculars1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircular
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycircular extends StatelessWidget {
   }
 
   Future<void> speakcirculars2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircular
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycircular extends StatelessWidget {
   }
 
   Future<void> speakcirculars3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircular
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycircular extends StatelessWidget {
   }
 
   Future<void> speakcirculars4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircular
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

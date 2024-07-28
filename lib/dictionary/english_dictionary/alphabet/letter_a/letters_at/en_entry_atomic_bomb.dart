@@ -20,7 +20,6 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakatomicbomb(String languageCode) async {
-    // DOPSUM: CHANGE speakAtomicbomb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryatomicbomb extends StatelessWidget {
   }
 
   Future<void> speakatomicbomb1236(String languageCode) async {
-    // DOPSUM: CHANGE speakAtomicbomb
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -142,7 +140,7 @@ class EnglishEntryatomicbomb extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

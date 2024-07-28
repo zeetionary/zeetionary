@@ -14,7 +14,6 @@ class EnglishEntrycanker extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcanker(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers1(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers2(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers3(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers4(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -56,7 +51,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers5(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -64,7 +58,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers6(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers7(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +72,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers8(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -88,7 +79,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers9(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -96,7 +86,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers10(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -104,7 +93,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers11(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -112,7 +100,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers12(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -120,7 +107,6 @@ class EnglishEntrycanker extends StatelessWidget {
   }
 
   Future<void> speakcankers13(String languageCode) async {
-    // DOPSUM: CHANGE speakcanker
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -179,7 +165,7 @@ class EnglishEntrycanker extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

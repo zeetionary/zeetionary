@@ -12,7 +12,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcastiron(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons1(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons2(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons3(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons4(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons5(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons6(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons7(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons8(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons9(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +84,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons10(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -102,7 +91,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons11(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -110,7 +98,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons12(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -118,7 +105,6 @@ class EnglishEntrycastirontwo extends StatelessWidget {
   }
 
   Future<void> speakcastirons13(String languageCode) async {
-    // DOPSUM: CHANGE speakcastiron
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

@@ -20,7 +20,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbakingpowder(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   }
 
   Future<void> speakbakingpowders1(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   }
 
   Future<void> speakbakingpowders2(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   }
 
   Future<void> speakbakingpowders3(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   }
 
   Future<void> speakbakingpowders4(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   }
 
   Future<void> speakbakingpowders5(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   }
 
   Future<void> speakbakingpowders6(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntrybakingpowder extends StatelessWidget {
   }
 
   Future<void> speakbakingpowders7(String languageCode) async {
-    // DOPSUM: CHANGE speakBakingpowder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +127,7 @@ class EnglishEntrybakingpowder extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

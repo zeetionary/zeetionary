@@ -12,7 +12,6 @@ class EnglishEntrycoalminer extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcoalminer(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalminer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycoalminer extends StatelessWidget {
   }
 
   Future<void> speakcoalminers1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoalminer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

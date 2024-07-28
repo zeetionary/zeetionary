@@ -12,7 +12,6 @@ class EnglishEntryambivalent extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakambivalent(String languageCode) async {
-    // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryambivalent extends StatelessWidget {
   }
 
   Future<void> speakambivalent4633(String languageCode) async {
-    // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryambivalent extends StatelessWidget {
   }
 
   Future<void> speakambivalent46777(String languageCode) async {
-    // DOPSUM: CHANGE speakAmbivalent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -91,7 +88,7 @@ class EnglishEntryambivalent extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

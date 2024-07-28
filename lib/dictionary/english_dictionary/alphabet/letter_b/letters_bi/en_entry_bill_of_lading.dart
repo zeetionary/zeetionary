@@ -20,7 +20,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbilloflading(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   }
 
   Future<void> speakbillofladings1(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   }
 
   Future<void> speakbillofladings2(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   }
 
   Future<void> speakbillofladings3(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   }
 
   Future<void> speakbillofladings4(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   }
 
   Future<void> speakbillofladings5(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   }
 
   Future<void> speakbillofladings6(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntrybilloflading extends StatelessWidget {
   }
 
   Future<void> speakbillofladings7(String languageCode) async {
-    // DOPSUM: CHANGE speakBilloflading
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -133,7 +125,7 @@ class EnglishEntrybilloflading extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               const Expanded(

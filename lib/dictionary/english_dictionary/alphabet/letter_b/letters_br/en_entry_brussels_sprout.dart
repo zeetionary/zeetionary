@@ -14,7 +14,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbrusselssprout(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   }
 
   Future<void> speakbrusselssprouts1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   }
 
   Future<void> speakbrusselssprouts2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -39,7 +36,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   }
 
   Future<void> speakbrusselssprouts3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   }
 
   Future<void> speakbrusselssprouts4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   }
 
   Future<void> speakbrusselssprouts5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   }
 
   Future<void> speakbrusselssprouts6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
   }
 
   Future<void> speakbrusselssprouts7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrusselssprout
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -127,7 +119,7 @@ class EnglishEntrybrusselssprout extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -12,7 +12,6 @@ class EnglishEntrychauvinistic extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakchauvinistic(String languageCode) async {
-    // DOPSUM: CHANGE speakchauvinistic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrychauvinistic extends StatelessWidget {
   }
 
   Future<void> speakchauvinistics1(String languageCode) async {
-    // DOPSUM: CHANGE speakchauvinistic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrychauvinistic extends StatelessWidget {
   }
 
   Future<void> speakchauvinistics2(String languageCode) async {
-    // DOPSUM: CHANGE speakchauvinistic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

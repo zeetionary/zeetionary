@@ -12,7 +12,6 @@ class EnglishEntryachillesheel extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakachillesheel(String languageCode) async {
-    // DOPSUM: CHANGE speakAchillesheel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryachillesheel extends StatelessWidget {
   }
 
   Future<void> speakac153864(String languageCode) async {
-    // DOPSUM: CHANGE speakAchillesheel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

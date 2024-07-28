@@ -12,7 +12,6 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakamericanfootball(String languageCode) async {
-    // DOPSUM: CHANGE speakAmericanfootball
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryamericanfootball extends StatelessWidget {
   }
 
   Future<void> speakamericanfootball45777(String languageCode) async {
-    // DOPSUM: CHANGE speakAmericanfootball
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +75,7 @@ class EnglishEntryamericanfootball extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

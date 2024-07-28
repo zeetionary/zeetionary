@@ -12,7 +12,6 @@ class EnglishEntryadhesion extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakadhesion(String languageCode) async {
-    // DOPSUM: CHANGE speakAdhesion
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

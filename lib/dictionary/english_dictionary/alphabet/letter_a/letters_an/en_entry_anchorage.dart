@@ -12,7 +12,6 @@ class EnglishEntryanchorage extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanchorage(String languageCode) async {
-    // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryanchorage extends StatelessWidget {
   }
 
   Future<void> speakanchorage152(String languageCode) async {
-    // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryanchorage extends StatelessWidget {
   }
 
   Future<void> speakanchorage145(String languageCode) async {
-    // DOPSUM: CHANGE speakAnchorage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -130,7 +127,7 @@ class EnglishEntryanchorage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

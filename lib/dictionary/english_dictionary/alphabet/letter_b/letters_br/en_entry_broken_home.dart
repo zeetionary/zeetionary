@@ -14,7 +14,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbrokenhome(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   }
 
   Future<void> speakbrokenhomes1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   }
 
   Future<void> speakbrokenhomes2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -39,7 +36,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   }
 
   Future<void> speakbrokenhomes3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   }
 
   Future<void> speakbrokenhomes4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   }
 
   Future<void> speakbrokenhomes5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   }
 
   Future<void> speakbrokenhomes6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrybrokenhome extends StatelessWidget {
   }
 
   Future<void> speakbrokenhomes7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrokenhome
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -125,7 +117,7 @@ class EnglishEntrybrokenhome extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

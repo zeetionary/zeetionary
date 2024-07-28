@@ -12,7 +12,6 @@ class EnglishEntryconvex extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakconvex(String languageCode) async {
-    // DOPSUM: CHANGE speakconvex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryconvex extends StatelessWidget {
   }
 
   Future<void> speakconvexs1(String languageCode) async {
-    // DOPSUM: CHANGE speakconvex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryconvex extends StatelessWidget {
   }
 
   Future<void> speakconvexs2(String languageCode) async {
-    // DOPSUM: CHANGE speakconvex
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

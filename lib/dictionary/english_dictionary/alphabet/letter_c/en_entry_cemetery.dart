@@ -12,7 +12,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcemetery(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +33,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,7 +40,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -52,7 +47,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -60,7 +54,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -68,7 +61,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -76,7 +68,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -84,7 +75,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -92,7 +82,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -100,7 +89,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -108,7 +96,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -116,7 +103,6 @@ class EnglishEntrycemetery extends StatelessWidget {
   }
 
   Future<void> speakcemeterys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcemetery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

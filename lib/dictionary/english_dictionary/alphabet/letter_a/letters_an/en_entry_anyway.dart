@@ -16,7 +16,6 @@ class EnglishEntryanyway extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanyway(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -24,7 +23,6 @@ class EnglishEntryanyway extends StatelessWidget {
   }
 
   Future<void> speakanyway847(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -33,7 +31,6 @@ class EnglishEntryanyway extends StatelessWidget {
   }
 
   Future<void> speakanyway849(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntryanyway extends StatelessWidget {
   }
 
   Future<void> speakanyway855(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -50,7 +46,6 @@ class EnglishEntryanyway extends StatelessWidget {
   }
 
   Future<void> speakanyway858(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -58,7 +53,6 @@ class EnglishEntryanyway extends StatelessWidget {
   }
 
   Future<void> speakanyway900(String languageCode) async {
-    // DOPSUM: CHANGE speakAnyway
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +131,7 @@ class EnglishEntryanyway extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

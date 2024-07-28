@@ -12,7 +12,6 @@ class EnglishEntrycooperative extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcooperative(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycooperative extends StatelessWidget {
   }
 
   Future<void> speakcooperatives1(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycooperative extends StatelessWidget {
   }
 
   Future<void> speakcooperatives2(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycooperative extends StatelessWidget {
   }
 
   Future<void> speakcooperatives3(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycooperative extends StatelessWidget {
   }
 
   Future<void> speakcooperatives4(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -56,7 +51,6 @@ class EnglishEntrycooperative extends StatelessWidget {
   }
 
   Future<void> speakcooperatives5(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -65,7 +59,6 @@ class EnglishEntrycooperative extends StatelessWidget {
   }
 
   Future<void> speakcooperatives6(String languageCode) async {
-    // DOPSUM: CHANGE speakcooperative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

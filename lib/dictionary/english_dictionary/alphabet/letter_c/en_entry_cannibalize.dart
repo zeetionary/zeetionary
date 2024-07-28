@@ -14,7 +14,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcannibalize(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes1(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes2(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -40,7 +37,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes3(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -48,7 +44,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes4(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -56,7 +51,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes5(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -64,7 +58,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes6(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes7(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +72,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes8(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -88,7 +79,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes9(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -96,7 +86,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes10(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -104,7 +93,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes11(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -112,7 +100,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes12(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -120,7 +107,6 @@ class EnglishEntrycannibalize extends StatelessWidget {
   }
 
   Future<void> speakcannibalizes13(String languageCode) async {
-    // DOPSUM: CHANGE speakcannibalize
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -174,7 +160,7 @@ class EnglishEntrycannibalize extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

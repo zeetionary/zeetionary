@@ -20,7 +20,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakOnbehalfof(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   }
 
   Future<void> speakOnbehalfofs1(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   }
 
   Future<void> speakOnbehalfofs2(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   }
 
   Future<void> speakOnbehalfofs3(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   }
 
   Future<void> speakOnbehalfofs4(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   }
 
   Future<void> speakOnbehalfofs5(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   }
 
   Future<void> speakOnbehalfofs6(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntryonbehalfof extends StatelessWidget {
   }
 
   Future<void> speakOnbehalfofs7(String languageCode) async {
-    // DOPSUM: CHANGE speakOnbehalfof
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +123,7 @@ class EnglishEntryonbehalfof extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

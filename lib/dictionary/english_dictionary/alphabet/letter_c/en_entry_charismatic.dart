@@ -12,7 +12,6 @@ class EnglishEntrycharismatic extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcharismatic(String languageCode) async {
-    // DOPSUM: CHANGE speakcharismatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycharismatic extends StatelessWidget {
   }
 
   Future<void> speakcharismatics1(String languageCode) async {
-    // DOPSUM: CHANGE speakcharismatic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

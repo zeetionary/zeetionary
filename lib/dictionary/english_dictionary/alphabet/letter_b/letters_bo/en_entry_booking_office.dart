@@ -18,7 +18,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbookingoffice(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   }
 
   Future<void> speakbookingoffices1(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   }
 
   Future<void> speakbookingoffices2(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   }
 
   Future<void> speakbookingoffices3(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -50,7 +46,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   }
 
   Future<void> speakbookingoffices4(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -58,7 +53,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   }
 
   Future<void> speakbookingoffices5(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -66,7 +60,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   }
 
   Future<void> speakbookingoffices6(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -74,7 +67,6 @@ class EnglishEntrybookingoffice extends StatelessWidget {
   }
 
   Future<void> speakbookingoffices7(String languageCode) async {
-    // DOPSUM: CHANGE speakbookingoffice
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -128,7 +120,7 @@ class EnglishEntrybookingoffice extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

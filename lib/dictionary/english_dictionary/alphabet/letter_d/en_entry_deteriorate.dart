@@ -140,7 +140,6 @@ class TTSUK extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakdeteriorate(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -190,7 +189,6 @@ class TTSUS extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakdeteriorate(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -213,7 +211,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakdeteriorates1(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -222,7 +219,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdeteriorates2(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -231,7 +227,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdeteriorates3(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -240,7 +235,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdeteriorates4(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -248,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakdeteriorates20(String languageCode) async {
-    // DOPSUM: CHANGE speakdeteriorate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

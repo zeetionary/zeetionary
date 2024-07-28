@@ -12,7 +12,6 @@ class EnglishEntryanachronism extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanachronism(String languageCode) async {
-    // DOPSUM: CHANGE speakAnachronism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryanachronism extends StatelessWidget {
   }
 
   Future<void> speakanachronism4599(String languageCode) async {
-    // DOPSUM: CHANGE speakAnachronism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntryanachronism extends StatelessWidget {
   }
 
   Future<void> speakanachronism0205(String languageCode) async {
-    // DOPSUM: CHANGE speakAnachronism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -132,7 +129,7 @@ class EnglishEntryanachronism extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

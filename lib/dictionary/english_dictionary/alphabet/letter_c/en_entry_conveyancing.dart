@@ -12,7 +12,6 @@ class EnglishEntryconveyancing extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakconveyancing(String languageCode) async {
-    // DOPSUM: CHANGE speakconveyancing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryconveyancing extends StatelessWidget {
   }
 
   Future<void> speakconveyancings1(String languageCode) async {
-    // DOPSUM: CHANGE speakconveyancing
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

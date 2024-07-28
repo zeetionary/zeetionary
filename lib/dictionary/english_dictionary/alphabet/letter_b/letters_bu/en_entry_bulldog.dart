@@ -14,7 +14,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbulldog(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   }
 
   Future<void> speakbulldogs1(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   }
 
   Future<void> speakbulldogs2(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   }
 
   Future<void> speakbulldogs3(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   }
 
   Future<void> speakbulldogs4(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   }
 
   Future<void> speakbulldogs5(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   }
 
   Future<void> speakbulldogs6(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrybulldog extends StatelessWidget {
   }
 
   Future<void> speakbulldogs7(String languageCode) async {
-    // DOPSUM: CHANGE speakbulldog
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -124,7 +116,7 @@ class EnglishEntrybulldog extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

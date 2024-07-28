@@ -14,7 +14,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcabaret(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets1(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets2(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -39,7 +36,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets3(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets4(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets5(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets6(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets7(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets8(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets9(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets10(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets11(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets12(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrycabaret extends StatelessWidget {
   }
 
   Future<void> speakcabarets13(String languageCode) async {
-    // DOPSUM: CHANGE speakcabaret
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -173,7 +159,7 @@ class EnglishEntrycabaret extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -12,7 +12,6 @@ class EnglishEntrychrysalis extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakchrysalis(String languageCode) async {
-    // DOPSUM: CHANGE speakchrysalis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrychrysalis extends StatelessWidget {
   }
 
   Future<void> speakchrysaliss1(String languageCode) async {
-    // DOPSUM: CHANGE speakchrysalis
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

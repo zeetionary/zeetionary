@@ -18,7 +18,6 @@ class EnglishEntryarbitrage extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarbitrage(String languageCode) async {
-    // DOPSUM: CHANGE speakArbitrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryarbitrage extends StatelessWidget {
   }
 
   Future<void> speakarbitrage1055(String languageCode) async {
-    // DOPSUM: CHANGE speakArbitrage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +137,7 @@ class EnglishEntryarbitrage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

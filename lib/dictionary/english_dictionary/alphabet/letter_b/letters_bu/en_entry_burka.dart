@@ -14,7 +14,6 @@ class EnglishEntryburka extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakburka(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas1(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas2(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -39,7 +36,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas3(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas4(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas5(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas6(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas7(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas8(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas9(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas10(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas11(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas12(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntryburka extends StatelessWidget {
   }
 
   Future<void> speakburkas13(String languageCode) async {
-    // DOPSUM: CHANGE speakburka
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -174,7 +160,7 @@ class EnglishEntryburka extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -20,7 +20,6 @@ class EnglishEntryasphalt extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakasphalt(String languageCode) async {
-    // DOPSUM: CHANGE speakAsphalt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryasphalt extends StatelessWidget {
   }
 
   Future<void> speakasphalt528(String languageCode) async {
-    // DOPSUM: CHANGE speakAsphalt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntryasphalt extends StatelessWidget {
   }
 
   Future<void> speakasphalt530(String languageCode) async {
-    // DOPSUM: CHANGE speakAsphalt
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -138,7 +135,7 @@ class EnglishEntryasphalt extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

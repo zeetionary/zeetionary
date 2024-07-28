@@ -18,7 +18,6 @@ class EnglishEntryblindness extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakblindness(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryblindness extends StatelessWidget {
   }
 
   Future<void> speakblindnesss1(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryblindness extends StatelessWidget {
   }
 
   Future<void> speakblindnesss2(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -43,7 +40,6 @@ class EnglishEntryblindness extends StatelessWidget {
   }
 
   Future<void> speakblindnesss3(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntryblindness extends StatelessWidget {
   }
 
   Future<void> speakblindnesss4(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +54,6 @@ class EnglishEntryblindness extends StatelessWidget {
   }
 
   Future<void> speakblindnesss5(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +61,6 @@ class EnglishEntryblindness extends StatelessWidget {
   }
 
   Future<void> speakblindnesss6(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +68,6 @@ class EnglishEntryblindness extends StatelessWidget {
   }
 
   Future<void> speakblindnesss7(String languageCode) async {
-    // DOPSUM: CHANGE speakblindness
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -129,7 +121,7 @@ class EnglishEntryblindness extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -12,7 +12,6 @@ class EnglishEntrycluster extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcluster(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters1(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters2(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters3(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters4(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters5(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters6(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters7(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -81,7 +73,6 @@ class EnglishEntrycluster extends StatelessWidget {
   }
 
   Future<void> speakclusters8(String languageCode) async {
-    // DOPSUM: CHANGE speakcluster
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

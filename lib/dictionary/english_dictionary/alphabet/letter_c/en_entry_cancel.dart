@@ -14,7 +14,6 @@ class EnglishEntrycancel extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcancel(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels1(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels2(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -40,7 +37,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels3(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -49,7 +45,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels4(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -57,7 +52,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels5(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -66,7 +60,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels6(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +68,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels7(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -83,7 +75,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels8(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -91,7 +82,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels9(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -99,7 +89,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels10(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -107,7 +96,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels11(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -115,7 +103,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels12(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -123,7 +110,6 @@ class EnglishEntrycancel extends StatelessWidget {
   }
 
   Future<void> speakcancels13(String languageCode) async {
-    // DOPSUM: CHANGE speakcancel
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -177,7 +163,7 @@ class EnglishEntrycancel extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

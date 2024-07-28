@@ -20,7 +20,6 @@ class EnglishEntrybalance extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbalance(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances1(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances2(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +43,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances3(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +50,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances4(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +58,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances5(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +65,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances6(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +73,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances7(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -89,7 +81,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances8(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -97,7 +88,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances9(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -105,7 +95,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances10(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -114,7 +103,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances11(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -123,7 +111,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances12(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -132,7 +119,6 @@ class EnglishEntrybalance extends StatelessWidget {
   }
 
   Future<void> speakbalances13(String languageCode) async {
-    // DOPSUM: CHANGE speakBalance
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -189,7 +175,7 @@ class EnglishEntrybalance extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

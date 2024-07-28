@@ -14,7 +14,6 @@ class EnglishEntryburning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakburning(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings1(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings2(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -40,7 +37,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings3(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -48,7 +44,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings4(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -57,7 +52,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings5(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -65,7 +59,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings6(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -73,7 +66,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings7(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -81,7 +73,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings8(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -89,7 +80,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings9(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -97,7 +87,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings10(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -105,7 +94,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings11(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -113,7 +101,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings12(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -121,7 +108,6 @@ class EnglishEntryburning extends StatelessWidget {
   }
 
   Future<void> speakburnings13(String languageCode) async {
-    // DOPSUM: CHANGE speakburning
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -175,7 +161,7 @@ class EnglishEntryburning extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

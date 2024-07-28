@@ -18,7 +18,6 @@ class EnglishEntryarmoured extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarmoured(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoured
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryarmoured extends StatelessWidget {
   }
 
   Future<void> speakarmoured618(String languageCode) async {
-    // DOPSUM: CHANGE speakArmoured
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -136,7 +134,7 @@ class EnglishEntryarmoured extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

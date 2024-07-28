@@ -20,7 +20,6 @@ class EnglishEntryback extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speaka3(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s1(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s2(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,7 +41,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s3(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s4(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s5(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +64,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s6(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +72,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s7(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +79,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s8(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +86,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s9(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -104,7 +94,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s10(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -112,7 +101,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s11(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -120,7 +108,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s12(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -128,7 +115,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s13(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -136,7 +122,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s14(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -144,7 +129,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s15(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -152,7 +136,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s16(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -160,7 +143,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s17(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -168,7 +150,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s18(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -176,7 +157,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s19(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -184,7 +164,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s20(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -193,7 +172,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s21(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -201,7 +179,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s22(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -209,7 +186,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s23(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -217,7 +193,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s24(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -225,7 +200,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s25(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -233,7 +207,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s26(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -241,7 +214,6 @@ class EnglishEntryback extends StatelessWidget {
   }
 
   Future<void> speaka3s27(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -297,7 +269,7 @@ class EnglishEntryback extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

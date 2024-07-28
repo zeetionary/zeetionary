@@ -12,7 +12,6 @@ class EnglishEntryacupuncture extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakacupuncture(String languageCode) async {
-    // DOPSUM: CHANGE speakAcupuncture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryacupuncture extends StatelessWidget {
   }
 
   Future<void> speakacupunct457(String languageCode) async {
-    // DOPSUM: CHANGE speakAcupuncture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

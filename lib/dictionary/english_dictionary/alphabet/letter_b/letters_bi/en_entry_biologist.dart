@@ -20,7 +20,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbiologist(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   }
 
   Future<void> speakbiologists1(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   }
 
   Future<void> speakbiologists2(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   }
 
   Future<void> speakbiologists3(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   }
 
   Future<void> speakbiologists4(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   }
 
   Future<void> speakbiologists5(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   }
 
   Future<void> speakbiologists6(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntrybiologist extends StatelessWidget {
   }
 
   Future<void> speakbiologists7(String languageCode) async {
-    // DOPSUM: CHANGE speakBiologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +123,7 @@ class EnglishEntrybiologist extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

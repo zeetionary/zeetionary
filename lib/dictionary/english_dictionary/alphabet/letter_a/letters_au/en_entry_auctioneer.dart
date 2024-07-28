@@ -20,7 +20,6 @@ class EnglishEntryauctioneer extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauctioneer(String languageCode) async {
-    // DOPSUM: CHANGE speakAuctioneer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryauctioneer extends StatelessWidget {
   }
 
   Future<void> speakauctioneer1221(String languageCode) async {
-    // DOPSUM: CHANGE speakAuctioneer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -142,7 +140,7 @@ class EnglishEntryauctioneer extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

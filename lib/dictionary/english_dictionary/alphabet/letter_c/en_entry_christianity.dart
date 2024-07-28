@@ -12,7 +12,6 @@ class EnglishEntrychristianity extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakChristianity(String languageCode) async {
-    // DOPSUM: CHANGE speakChristianity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrychristianity extends StatelessWidget {
   }
 
   Future<void> speakChristianitys1(String languageCode) async {
-    // DOPSUM: CHANGE speakChristianity
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

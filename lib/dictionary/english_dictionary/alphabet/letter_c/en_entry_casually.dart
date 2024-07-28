@@ -12,7 +12,6 @@ class EnglishEntrycasually extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcasually(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +33,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +41,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +48,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +84,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -102,7 +91,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -110,7 +98,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -118,7 +105,6 @@ class EnglishEntrycasually extends StatelessWidget {
   }
 
   Future<void> speakcasuallys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcasually
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

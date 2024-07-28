@@ -20,7 +20,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbipolardisorder(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 
   Future<void> speakbipolardisorders1(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 
   Future<void> speakbipolardisorders2(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 
   Future<void> speakbipolardisorders3(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 
   Future<void> speakbipolardisorders4(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 
   Future<void> speakbipolardisorders5(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 
   Future<void> speakbipolardisorders6(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
   }
 
   Future<void> speakbipolardisorders7(String languageCode) async {
-    // DOPSUM: CHANGE speakBipolardisorder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -138,7 +130,7 @@ class EnglishEntrybipolardisorder extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

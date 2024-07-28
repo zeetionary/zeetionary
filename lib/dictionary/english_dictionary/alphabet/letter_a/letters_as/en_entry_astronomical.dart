@@ -20,7 +20,6 @@ class EnglishEntryastronomical extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakastronomical(String languageCode) async {
-    // DOPSUM: CHANGE speakAstronomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryastronomical extends StatelessWidget {
   }
 
   Future<void> speakastronomical512(String languageCode) async {
-    // DOPSUM: CHANGE speakAstronomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntryastronomical extends StatelessWidget {
   }
 
   Future<void> speakastronomical514(String languageCode) async {
-    // DOPSUM: CHANGE speakAstronomical
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -142,7 +139,7 @@ class EnglishEntryastronomical extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

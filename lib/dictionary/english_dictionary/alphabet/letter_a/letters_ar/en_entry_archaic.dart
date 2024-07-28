@@ -18,7 +18,6 @@ class EnglishEntryarchaic extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarchaic(String languageCode) async {
-    // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryarchaic extends StatelessWidget {
   }
 
   Future<void> speakarchaic300(String languageCode) async {
-    // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryarchaic extends StatelessWidget {
   }
 
   Future<void> speakarchaic302(String languageCode) async {
-    // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -43,7 +40,6 @@ class EnglishEntryarchaic extends StatelessWidget {
   }
 
   Future<void> speakarchaic304(String languageCode) async {
-    // DOPSUM: CHANGE speakArchaic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +133,7 @@ class EnglishEntryarchaic extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

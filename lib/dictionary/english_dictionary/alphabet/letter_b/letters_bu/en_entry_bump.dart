@@ -14,7 +14,6 @@ class EnglishEntrybump extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbump(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps1(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps2(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps3(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps4(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps5(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps6(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps7(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -81,7 +73,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps8(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -90,7 +81,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps9(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -98,7 +88,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps10(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -107,7 +96,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps11(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -115,7 +103,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps12(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -124,7 +111,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps13(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -132,7 +118,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps14(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -140,7 +125,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps15(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -148,7 +132,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps16(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -156,7 +139,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps17(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -164,7 +146,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps18(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -172,7 +153,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps19(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -180,7 +160,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps20(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -188,7 +167,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps21(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -196,7 +174,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps22(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -204,7 +181,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps23(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -212,7 +188,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps24(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -220,7 +195,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps25(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -228,7 +202,6 @@ class EnglishEntrybump extends StatelessWidget {
   }
 
   Future<void> speakbumps26(String languageCode) async {
-    // DOPSUM: CHANGE speakbump
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -282,7 +255,7 @@ class EnglishEntrybump extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

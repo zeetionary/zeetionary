@@ -53,7 +53,6 @@ class _EnglishEntryabackState extends State<EnglishEntryaback> {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaback(String languageCode) async {
-    // DOPSUM: CHANGE speakaback
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -220,7 +219,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speak1256935(String languageCode) async {
-    // DOPSUM: CHANGE speakDopsum
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

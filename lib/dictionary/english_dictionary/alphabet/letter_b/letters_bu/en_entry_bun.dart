@@ -14,7 +14,6 @@ class EnglishEntrybun extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbun(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns1(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns2(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns3(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns4(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns5(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns6(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns7(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns8(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns9(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns10(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns11(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns12(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrybun extends StatelessWidget {
   }
 
   Future<void> speakbuns13(String languageCode) async {
-    // DOPSUM: CHANGE speakbun
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -173,7 +159,7 @@ class EnglishEntrybun extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -12,7 +12,6 @@ class EnglishEntryangle extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakangle(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle11480(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle46055(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle45906(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle440(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -56,7 +51,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle450(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -65,7 +59,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle905(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -74,7 +67,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle225870(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -83,7 +75,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle5401(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -91,7 +82,6 @@ class EnglishEntryangle extends StatelessWidget {
   }
 
   Future<void> speakangle5580(String languageCode) async {
-    // DOPSUM: CHANGE speakAngle
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -153,7 +143,7 @@ class EnglishEntryangle extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

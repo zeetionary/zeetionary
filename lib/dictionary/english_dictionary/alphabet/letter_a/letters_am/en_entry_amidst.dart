@@ -12,7 +12,6 @@ class EnglishEntryamidst extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakamidst(String languageCode) async {
-    // DOPSUM: CHANGE speakAmidst
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryamidst extends StatelessWidget {
   }
 
   Future<void> speakamid84477(String languageCode) async {
-    // DOPSUM: CHANGE speakAmid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntryamidst extends StatelessWidget {
   }
 
   Future<void> speakamid3251(String languageCode) async {
-    // DOPSUM: CHANGE speakAmid
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -118,7 +115,7 @@ class EnglishEntryamidst extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

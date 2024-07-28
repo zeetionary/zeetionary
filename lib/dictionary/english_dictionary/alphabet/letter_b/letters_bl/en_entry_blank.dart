@@ -18,7 +18,6 @@ class EnglishEntryblank extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakblank(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks1(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks2(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -43,7 +40,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks3(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks4(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -60,7 +55,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks5(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks6(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks7(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +78,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks8(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +85,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks9(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +93,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks10(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -112,7 +101,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks11(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -120,7 +108,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks12(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -128,7 +115,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks13(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -136,7 +122,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks14(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -144,7 +129,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks15(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -152,7 +136,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks16(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -160,7 +143,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks17(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -168,7 +150,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks18(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -176,7 +157,6 @@ class EnglishEntryblank extends StatelessWidget {
   }
 
   Future<void> speakblanks19(String languageCode) async {
-    // DOPSUM: CHANGE speakblank
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -230,7 +210,7 @@ class EnglishEntryblank extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

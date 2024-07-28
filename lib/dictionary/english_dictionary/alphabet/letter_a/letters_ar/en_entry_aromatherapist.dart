@@ -18,7 +18,6 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaromatherapist(String languageCode) async {
-    // DOPSUM: CHANGE speakAromatherapist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryaromatherapist extends StatelessWidget {
   }
 
   Future<void> speakaromatherapist1046(String languageCode) async {
-    // DOPSUM: CHANGE speakAromatherapist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +137,7 @@ class EnglishEntryaromatherapist extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -20,7 +20,6 @@ class EnglishEntryauthority extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakauthority(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryauthority extends StatelessWidget {
   }
 
   Future<void> speakauthority804(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntryauthority extends StatelessWidget {
   }
 
   Future<void> speakauthority805(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +43,6 @@ class EnglishEntryauthority extends StatelessWidget {
   }
 
   Future<void> speakauthority808(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +51,6 @@ class EnglishEntryauthority extends StatelessWidget {
   }
 
   Future<void> speakauthority809(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +58,6 @@ class EnglishEntryauthority extends StatelessWidget {
   }
 
   Future<void> speakauthority811(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +65,6 @@ class EnglishEntryauthority extends StatelessWidget {
   }
 
   Future<void> speakauthority814(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +72,6 @@ class EnglishEntryauthority extends StatelessWidget {
   }
 
   Future<void> speakauthority816(String languageCode) async {
-    // DOPSUM: CHANGE speakAuthority
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -183,7 +175,7 @@ class EnglishEntryauthority extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

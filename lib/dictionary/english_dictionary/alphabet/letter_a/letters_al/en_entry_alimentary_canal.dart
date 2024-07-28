@@ -12,7 +12,6 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakalimentarycanal(String languageCode) async {
-    // DOPSUM: CHANGE speakAlimentarycanal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
   }
 
   Future<void> speakalimentarycanal42588(String languageCode) async {
-    // DOPSUM: CHANGE speakAlimentarycanal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -93,7 +91,7 @@ class EnglishEntryalimentarycanal extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

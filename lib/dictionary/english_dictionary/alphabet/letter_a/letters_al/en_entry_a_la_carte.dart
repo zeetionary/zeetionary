@@ -12,7 +12,6 @@ class EnglishEntryalacarte extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakalacarte(String languageCode) async {
-    // DOPSUM: CHANGE speakAlacarte
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

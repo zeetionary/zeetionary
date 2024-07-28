@@ -12,7 +12,6 @@ class EnglishEntrycommendable extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcommendable(String languageCode) async {
-    // DOPSUM: CHANGE speakcommendable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycommendable extends StatelessWidget {
   }
 
   Future<void> speakcommendables1(String languageCode) async {
-    // DOPSUM: CHANGE speakcommendable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycommendable extends StatelessWidget {
   }
 
   Future<void> speakcommendables2(String languageCode) async {
-    // DOPSUM: CHANGE speakcommendable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

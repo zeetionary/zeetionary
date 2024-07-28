@@ -16,7 +16,6 @@ class EnglishEntrybracket extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbracket(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -24,7 +23,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 
   Future<void> speakbrackets1(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -33,7 +31,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 
   Future<void> speakbrackets2(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -41,7 +38,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 
   Future<void> speakbrackets3(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -50,7 +46,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 
   Future<void> speakbrackets4(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -58,7 +53,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 
   Future<void> speakbrackets5(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +61,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 
   Future<void> speakbrackets6(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -76,7 +69,6 @@ class EnglishEntrybracket extends StatelessWidget {
   }
 
   Future<void> speakbrackets7(String languageCode) async {
-    // DOPSUM: CHANGE speakbracket
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +123,7 @@ class EnglishEntrybracket extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

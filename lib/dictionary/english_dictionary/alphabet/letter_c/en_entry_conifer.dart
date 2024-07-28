@@ -12,7 +12,6 @@ class EnglishEntryconifer extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakconifer(String languageCode) async {
-    // DOPSUM: CHANGE speakconifer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryconifer extends StatelessWidget {
   }
 
   Future<void> speakconifers1(String languageCode) async {
-    // DOPSUM: CHANGE speakconifer
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

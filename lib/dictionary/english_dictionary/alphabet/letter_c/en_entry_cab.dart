@@ -14,7 +14,6 @@ class EnglishEntrycab extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcab(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrycab extends StatelessWidget {
   }
 
   Future<void> speakcabs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcab
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -173,7 +159,7 @@ class EnglishEntrycab extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

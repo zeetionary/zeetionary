@@ -12,7 +12,6 @@ class EnglishEntrycobble extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcobble(String languageCode) async {
-    // DOPSUM: CHANGE speakcobble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycobble extends StatelessWidget {
   }
 
   Future<void> speakcobbles1(String languageCode) async {
-    // DOPSUM: CHANGE speakcobble
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

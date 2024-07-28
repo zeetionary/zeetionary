@@ -12,7 +12,6 @@ class EnglishEntryadder extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakadder(String languageCode) async {
-    // DOPSUM: CHANGE speakAdder
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

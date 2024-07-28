@@ -12,7 +12,6 @@ class EnglishEntrychallenging extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakchallenging(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrychallenging extends StatelessWidget {
   }
 
   Future<void> speakchallengings1(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrychallenging extends StatelessWidget {
   }
 
   Future<void> speakchallengings2(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntrychallenging extends StatelessWidget {
   }
 
   Future<void> speakchallengings3(String languageCode) async {
-    // DOPSUM: CHANGE speakchallenging
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

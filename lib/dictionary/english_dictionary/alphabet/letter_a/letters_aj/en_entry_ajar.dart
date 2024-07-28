@@ -12,7 +12,6 @@ class EnglishEntryajar extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakajar(String languageCode) async {
-    // DOPSUM: CHANGE speakAjar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryajar extends StatelessWidget {
   }
 
   Future<void> speakajar256(String languageCode) async {
-    // DOPSUM: CHANGE speakAjar
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

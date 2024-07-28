@@ -14,7 +14,6 @@ class EnglishEntrycannery extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcannery(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +84,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -102,7 +91,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -110,7 +98,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -118,7 +105,6 @@ class EnglishEntrycannery extends StatelessWidget {
   }
 
   Future<void> speakcannerys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcannery
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -172,7 +158,7 @@ class EnglishEntrycannery extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -12,7 +12,6 @@ class EnglishEntrycontinent extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcontinent(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycontinent extends StatelessWidget {
   }
 
   Future<void> speakcontinents1(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycontinent extends StatelessWidget {
   }
 
   Future<void> speakcontinents2(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycontinent extends StatelessWidget {
   }
 
   Future<void> speakcontinents3(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycontinent extends StatelessWidget {
   }
 
   Future<void> speakcontinents4(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrycontinent extends StatelessWidget {
   }
 
   Future<void> speakcontinents5(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -64,7 +58,6 @@ class EnglishEntrycontinent extends StatelessWidget {
   }
 
   Future<void> speakcontinents6(String languageCode) async {
-    // DOPSUM: CHANGE speakcontinent
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

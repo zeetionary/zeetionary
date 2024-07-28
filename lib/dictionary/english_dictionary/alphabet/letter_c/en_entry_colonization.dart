@@ -12,7 +12,6 @@ class EnglishEntrycolonization extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcolonization(String languageCode) async {
-    // DOPSUM: CHANGE speakcolonization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycolonization extends StatelessWidget {
   }
 
   Future<void> speakcolonizations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcolonization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycolonization extends StatelessWidget {
   }
 
   Future<void> speakcolonizations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcolonization
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

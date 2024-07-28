@@ -18,7 +18,6 @@ class EnglishEntryarchbishop extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarchbishop(String languageCode) async {
-    // DOPSUM: CHANGE speakArchbishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryarchbishop extends StatelessWidget {
   }
 
   Future<void> speakarchbishop315(String languageCode) async {
-    // DOPSUM: CHANGE speakArchbishop
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -136,7 +134,7 @@ class EnglishEntryarchbishop extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

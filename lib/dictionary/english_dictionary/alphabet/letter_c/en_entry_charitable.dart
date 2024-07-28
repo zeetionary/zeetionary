@@ -12,7 +12,6 @@ class EnglishEntrycharitable extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcharitable(String languageCode) async {
-    // DOPSUM: CHANGE speakcharitable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycharitable extends StatelessWidget {
   }
 
   Future<void> speakcharitables1(String languageCode) async {
-    // DOPSUM: CHANGE speakcharitable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycharitable extends StatelessWidget {
   }
 
   Future<void> speakcharitables2(String languageCode) async {
-    // DOPSUM: CHANGE speakcharitable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycharitable extends StatelessWidget {
   }
 
   Future<void> speakcharitables3(String languageCode) async {
-    // DOPSUM: CHANGE speakcharitable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycharitable extends StatelessWidget {
   }
 
   Future<void> speakcharitables4(String languageCode) async {
-    // DOPSUM: CHANGE speakcharitable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

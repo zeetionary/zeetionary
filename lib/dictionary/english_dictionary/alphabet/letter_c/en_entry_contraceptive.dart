@@ -12,7 +12,6 @@ class EnglishEntrycontraceptive extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcontraceptive(String languageCode) async {
-    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycontraceptive extends StatelessWidget {
   }
 
   Future<void> speakcontraceptives1(String languageCode) async {
-    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycontraceptive extends StatelessWidget {
   }
 
   Future<void> speakcontraceptives2(String languageCode) async {
-    // DOPSUM: CHANGE speakcontraceptive
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

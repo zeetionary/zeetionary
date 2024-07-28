@@ -12,7 +12,6 @@ class EnglishEntrychainstore extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakchainstore(String languageCode) async {
-    // DOPSUM: CHANGE speakchainstore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrychainstore extends StatelessWidget {
   }
 
   Future<void> speakchainstores1(String languageCode) async {
-    // DOPSUM: CHANGE speakchainstore
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

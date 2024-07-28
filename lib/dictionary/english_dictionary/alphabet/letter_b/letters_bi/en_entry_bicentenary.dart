@@ -20,7 +20,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbicentenary(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   }
 
   Future<void> speakbicentenarys1(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   }
 
   Future<void> speakbicentenarys2(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   }
 
   Future<void> speakbicentenarys3(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   }
 
   Future<void> speakbicentenarys4(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   }
 
   Future<void> speakbicentenarys5(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   }
 
   Future<void> speakbicentenarys6(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntrybicentenary extends StatelessWidget {
   }
 
   Future<void> speakbicentenarys7(String languageCode) async {
-    // DOPSUM: CHANGE speakBicentenary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -132,7 +124,7 @@ class EnglishEntrybicentenary extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

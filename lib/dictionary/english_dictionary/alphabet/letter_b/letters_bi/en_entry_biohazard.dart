@@ -20,7 +20,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbiohazard(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   }
 
   Future<void> speakbiohazards1(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   }
 
   Future<void> speakbiohazards2(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   }
 
   Future<void> speakbiohazards3(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +49,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   }
 
   Future<void> speakbiohazards4(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +56,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   }
 
   Future<void> speakbiohazards5(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +63,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   }
 
   Future<void> speakbiohazards6(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +70,6 @@ class EnglishEntrybiohazard extends StatelessWidget {
   }
 
   Future<void> speakbiohazards7(String languageCode) async {
-    // DOPSUM: CHANGE speakBiohazard
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +123,7 @@ class EnglishEntrybiohazard extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -20,7 +20,6 @@ class EnglishEntryattorney extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakattorney(String languageCode) async {
-    // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryattorney extends StatelessWidget {
   }
 
   Future<void> speakattorney1101(String languageCode) async {
-    // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntryattorney extends StatelessWidget {
   }
 
   Future<void> speakattorney1103(String languageCode) async {
-    // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +42,6 @@ class EnglishEntryattorney extends StatelessWidget {
   }
 
   Future<void> speakattorney1107(String languageCode) async {
-    // DOPSUM: CHANGE speakAttorney
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -142,7 +138,7 @@ class EnglishEntryattorney extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

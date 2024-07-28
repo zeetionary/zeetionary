@@ -12,7 +12,6 @@ class EnglishEntrycollaboration extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcollaboration(String languageCode) async {
-    // DOPSUM: CHANGE speakcollaboration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycollaboration extends StatelessWidget {
   }
 
   Future<void> speakcollaborations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcollaboration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycollaboration extends StatelessWidget {
   }
 
   Future<void> speakcollaborations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcollaboration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycollaboration extends StatelessWidget {
   }
 
   Future<void> speakcollaborations3(String languageCode) async {
-    // DOPSUM: CHANGE speakcollaboration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycollaboration extends StatelessWidget {
   }
 
   Future<void> speakcollaborations4(String languageCode) async {
-    // DOPSUM: CHANGE speakcollaboration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

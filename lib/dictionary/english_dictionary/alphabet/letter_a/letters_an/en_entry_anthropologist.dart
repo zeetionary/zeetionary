@@ -14,7 +14,6 @@ class EnglishEntryanthropologist extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanthropologist(String languageCode) async {
-    // DOPSUM: CHANGE speakAnthropologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryanthropologist extends StatelessWidget {
   }
 
   Future<void> speakanthropologist857(String languageCode) async {
-    // DOPSUM: CHANGE speakAnthropologist
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +133,7 @@ class EnglishEntryanthropologist extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

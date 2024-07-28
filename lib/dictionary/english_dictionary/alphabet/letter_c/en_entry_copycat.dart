@@ -12,7 +12,6 @@ class EnglishEntrycopycat extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcopycat(String languageCode) async {
-    // DOPSUM: CHANGE speakcopycat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycopycat extends StatelessWidget {
   }
 
   Future<void> speakcopycats1(String languageCode) async {
-    // DOPSUM: CHANGE speakcopycat
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

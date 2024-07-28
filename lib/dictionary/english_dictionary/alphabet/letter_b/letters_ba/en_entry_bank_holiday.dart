@@ -20,7 +20,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbankholiday(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   }
 
   Future<void> speakbankholidays1(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   }
 
   Future<void> speakbankholidays2(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,7 +41,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   }
 
   Future<void> speakbankholidays3(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -52,7 +48,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   }
 
   Future<void> speakbankholidays4(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -60,7 +55,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   }
 
   Future<void> speakbankholidays5(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -68,7 +62,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   }
 
   Future<void> speakbankholidays6(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -76,7 +69,6 @@ class EnglishEntrybankholiday extends StatelessWidget {
   }
 
   Future<void> speakbankholidays7(String languageCode) async {
-    // DOPSUM: CHANGE speakBankholiday
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -134,7 +126,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

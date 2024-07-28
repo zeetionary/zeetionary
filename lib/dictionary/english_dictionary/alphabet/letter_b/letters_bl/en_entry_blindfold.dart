@@ -18,7 +18,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakblindfold(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   }
 
   Future<void> speakblindfolds1(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   }
 
   Future<void> speakblindfolds2(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   }
 
   Future<void> speakblindfolds3(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   }
 
   Future<void> speakblindfolds4(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +54,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   }
 
   Future<void> speakblindfolds5(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +61,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   }
 
   Future<void> speakblindfolds6(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +68,6 @@ class EnglishEntryblindfold extends StatelessWidget {
   }
 
   Future<void> speakblindfolds7(String languageCode) async {
-    // DOPSUM: CHANGE speakblindfold
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -129,7 +121,7 @@ class EnglishEntryblindfold extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

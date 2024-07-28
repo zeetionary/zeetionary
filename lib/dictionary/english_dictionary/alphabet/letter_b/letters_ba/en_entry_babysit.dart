@@ -20,7 +20,6 @@ class EnglishEntrybabysit extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speaka3(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybabysit extends StatelessWidget {
   }
 
   Future<void> speaka3s1(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntrybabysit extends StatelessWidget {
   }
 
   Future<void> speaka3s2(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +48,6 @@ class EnglishEntrybabysit extends StatelessWidget {
   }
 
   Future<void> speaka3s4(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +55,6 @@ class EnglishEntrybabysit extends StatelessWidget {
   }
 
   Future<void> speaka3s5(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +62,6 @@ class EnglishEntrybabysit extends StatelessWidget {
   }
 
   Future<void> speaka3s6(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +69,6 @@ class EnglishEntrybabysit extends StatelessWidget {
   }
 
   Future<void> speaka3s7(String languageCode) async {
-    // DOPSUM: CHANGE speakA3
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +124,7 @@ class EnglishEntrybabysit extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

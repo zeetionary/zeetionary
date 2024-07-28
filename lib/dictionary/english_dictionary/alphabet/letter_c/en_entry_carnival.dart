@@ -13,7 +13,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcarnival(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -21,7 +20,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals1(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals2(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals3(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals4(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals5(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals6(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals7(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals8(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals9(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +84,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals10(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -102,7 +91,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals11(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -110,7 +98,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals12(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -118,7 +105,6 @@ class EnglishEntrycarnival extends StatelessWidget {
   }
 
   Future<void> speakcarnivals13(String languageCode) async {
-    // DOPSUM: CHANGE speakcarnival
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

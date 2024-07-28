@@ -12,7 +12,6 @@ class EnglishEntrycommunism extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcommunism(String languageCode) async {
-    // DOPSUM: CHANGE speakcommunism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycommunism extends StatelessWidget {
   }
 
   Future<void> speakcommunisms1(String languageCode) async {
-    // DOPSUM: CHANGE speakcommunism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycommunism extends StatelessWidget {
   }
 
   Future<void> speakcommunisms2(String languageCode) async {
-    // DOPSUM: CHANGE speakcommunism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycommunism extends StatelessWidget {
   }
 
   Future<void> speakcommunisms3(String languageCode) async {
-    // DOPSUM: CHANGE speakcommunism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

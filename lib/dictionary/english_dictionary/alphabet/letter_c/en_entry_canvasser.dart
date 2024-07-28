@@ -14,7 +14,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcanvasser(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers1(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers2(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers3(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers4(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers5(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers6(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers7(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers8(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers9(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers10(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers11(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers12(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrycanvasser extends StatelessWidget {
   }
 
   Future<void> speakcanvassers13(String languageCode) async {
-    // DOPSUM: CHANGE speakcanvasser
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -173,7 +159,7 @@ class EnglishEntrycanvasser extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

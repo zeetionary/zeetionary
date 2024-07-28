@@ -12,7 +12,6 @@ class EnglishEntrycircumcise extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcircumcise(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumcise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycircumcise extends StatelessWidget {
   }
 
   Future<void> speakcircumcises1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumcise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycircumcise extends StatelessWidget {
   }
 
   Future<void> speakcircumcises2(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumcise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycircumcise extends StatelessWidget {
   }
 
   Future<void> speakcircumcises3(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumcise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycircumcise extends StatelessWidget {
   }
 
   Future<void> speakcircumcises4(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumcise
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

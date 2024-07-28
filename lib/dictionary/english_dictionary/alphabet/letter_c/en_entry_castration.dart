@@ -12,7 +12,6 @@ class EnglishEntrycastration extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcastration(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations1(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations2(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +33,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations3(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,7 +40,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations4(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -52,7 +47,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations5(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -60,7 +54,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations6(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -68,7 +61,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations7(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -76,7 +68,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations8(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -84,7 +75,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations9(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -92,7 +82,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations10(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -100,7 +89,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations11(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -108,7 +96,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations12(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -116,7 +103,6 @@ class EnglishEntrycastration extends StatelessWidget {
   }
 
   Future<void> speakcastrations13(String languageCode) async {
-    // DOPSUM: CHANGE speakcastration
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

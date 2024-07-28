@@ -20,7 +20,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbibliography(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   }
 
   Future<void> speakbibliographys1(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +35,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   }
 
   Future<void> speakbibliographys2(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +43,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   }
 
   Future<void> speakbibliographys3(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +51,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   }
 
   Future<void> speakbibliographys4(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -64,7 +59,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   }
 
   Future<void> speakbibliographys5(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +66,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   }
 
   Future<void> speakbibliographys6(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +73,6 @@ class EnglishEntrybibliography extends StatelessWidget {
   }
 
   Future<void> speakbibliographys7(String languageCode) async {
-    // DOPSUM: CHANGE speakBibliography
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -134,7 +126,7 @@ class EnglishEntrybibliography extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

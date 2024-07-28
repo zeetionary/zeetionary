@@ -12,7 +12,6 @@ class EnglishEntrycone extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcone(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycone extends StatelessWidget {
   }
 
   Future<void> speakcones1(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycone extends StatelessWidget {
   }
 
   Future<void> speakcones2(String languageCode) async {
-    // DOPSUM: CHANGE speakcone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

@@ -14,7 +14,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcapillary(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys2(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys4(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys5(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys6(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys7(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys8(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys9(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +84,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys10(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -102,7 +91,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys11(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -110,7 +98,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys12(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -118,7 +105,6 @@ class EnglishEntrycapillary extends StatelessWidget {
   }
 
   Future<void> speakcapillarys13(String languageCode) async {
-    // DOPSUM: CHANGE speakcapillary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -172,7 +158,7 @@ class EnglishEntrycapillary extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

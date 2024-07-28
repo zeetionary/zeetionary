@@ -12,7 +12,6 @@ class EnglishEntrycollarbone extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcollarbone(String languageCode) async {
-    // DOPSUM: CHANGE speakcollarbone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycollarbone extends StatelessWidget {
   }
 
   Future<void> speakcollarbones1(String languageCode) async {
-    // DOPSUM: CHANGE speakcollarbone
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

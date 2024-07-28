@@ -14,7 +14,6 @@ class EnglishEntryc extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakc(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs1(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs2(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs3(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs4(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs5(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs6(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs7(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs8(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs9(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +84,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs10(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -102,7 +91,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs11(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -110,7 +98,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs12(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -118,7 +105,6 @@ class EnglishEntryc extends StatelessWidget {
   }
 
   Future<void> speakcs13(String languageCode) async {
-    // DOPSUM: CHANGE speakc
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -172,7 +158,7 @@ class EnglishEntryc extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

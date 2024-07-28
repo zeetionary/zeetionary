@@ -12,7 +12,6 @@ class EnglishEntryconcession extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakconcession(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryconcession extends StatelessWidget {
   }
 
   Future<void> speakconcessions1(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntryconcession extends StatelessWidget {
   }
 
   Future<void> speakconcessions2(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntryconcession extends StatelessWidget {
   }
 
   Future<void> speakconcessions3(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntryconcession extends StatelessWidget {
   }
 
   Future<void> speakconcessions4(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -56,7 +51,6 @@ class EnglishEntryconcession extends StatelessWidget {
   }
 
   Future<void> speakconcessions5(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -64,7 +58,6 @@ class EnglishEntryconcession extends StatelessWidget {
   }
 
   Future<void> speakconcessions6(String languageCode) async {
-    // DOPSUM: CHANGE speakconcession
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

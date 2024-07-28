@@ -12,7 +12,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcatchmentarea(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas1(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas2(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas3(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -47,7 +43,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas4(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas5(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas6(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -71,7 +64,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas7(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -79,7 +71,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas8(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -87,7 +78,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas9(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -95,7 +85,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas10(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas11(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas12(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrycatchmentarea extends StatelessWidget {
   }
 
   Future<void> speakcatchmentareas13(String languageCode) async {
-    // DOPSUM: CHANGE speakcatchmentarea
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

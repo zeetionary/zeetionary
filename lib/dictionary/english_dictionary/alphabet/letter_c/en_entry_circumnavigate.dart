@@ -12,7 +12,6 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcircumnavigate(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumnavigate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycircumnavigate extends StatelessWidget {
   }
 
   Future<void> speakcircumnavigates1(String languageCode) async {
-    // DOPSUM: CHANGE speakcircumnavigate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

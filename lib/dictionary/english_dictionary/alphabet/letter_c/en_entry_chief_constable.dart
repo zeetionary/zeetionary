@@ -12,7 +12,6 @@ class EnglishEntrychiefconstable extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakchiefconstable(String languageCode) async {
-    // DOPSUM: CHANGE speakchiefconstable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrychiefconstable extends StatelessWidget {
   }
 
   Future<void> speakchiefconstables1(String languageCode) async {
-    // DOPSUM: CHANGE speakchiefconstable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

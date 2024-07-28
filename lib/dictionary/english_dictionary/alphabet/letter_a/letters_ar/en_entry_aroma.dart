@@ -18,7 +18,6 @@ class EnglishEntryaroma extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakaroma(String languageCode) async {
-    // DOPSUM: CHANGE speakAroma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryaroma extends StatelessWidget {
   }
 
   Future<void> speakaroma822(String languageCode) async {
-    // DOPSUM: CHANGE speakAroma
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -136,7 +134,7 @@ class EnglishEntryaroma extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

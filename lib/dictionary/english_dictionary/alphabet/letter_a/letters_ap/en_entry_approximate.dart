@@ -18,7 +18,6 @@ class EnglishEntryapproximate extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakapproximate(String languageCode) async {
-    // DOPSUM: CHANGE speakApproximate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryapproximate extends StatelessWidget {
   }
 
   Future<void> speakapproximate950(String languageCode) async {
-    // DOPSUM: CHANGE speakApproximate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryapproximate extends StatelessWidget {
   }
 
   Future<void> speakapproximate952(String languageCode) async {
-    // DOPSUM: CHANGE speakApproximate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntryapproximate extends StatelessWidget {
   }
 
   Future<void> speakapproximate954(String languageCode) async {
-    // DOPSUM: CHANGE speakApproximate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -50,7 +46,6 @@ class EnglishEntryapproximate extends StatelessWidget {
   }
 
   Future<void> speakapproximate956(String languageCode) async {
-    // DOPSUM: CHANGE speakApproximate
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +132,7 @@ class EnglishEntryapproximate extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -16,7 +16,6 @@ class EnglishEntryanxiety extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanxiety(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -24,7 +23,6 @@ class EnglishEntryanxiety extends StatelessWidget {
   }
 
   Future<void> speakanxiety651(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -33,7 +31,6 @@ class EnglishEntryanxiety extends StatelessWidget {
   }
 
   Future<void> speakanxiety656(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntryanxiety extends StatelessWidget {
   }
 
   Future<void> speakanxiety700(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntryanxiety extends StatelessWidget {
   }
 
   Future<void> speakanxiety705(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -60,7 +55,6 @@ class EnglishEntryanxiety extends StatelessWidget {
   }
 
   Future<void> speakanxiety708(String languageCode) async {
-    // DOPSUM: CHANGE speakAnxiety
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -139,7 +133,7 @@ class EnglishEntryanxiety extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -12,7 +12,6 @@ class EnglishEntryamenable extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakamenable(String languageCode) async {
-    // DOPSUM: CHANGE speakAmenable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryamenable extends StatelessWidget {
   }
 
   Future<void> speakamenable48577(String languageCode) async {
-    // DOPSUM: CHANGE speakAmenable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryamenable extends StatelessWidget {
   }
 
   Future<void> speakamenable635211(String languageCode) async {
-    // DOPSUM: CHANGE speakAmenable
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -92,7 +89,7 @@ class EnglishEntryamenable extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -270,7 +270,6 @@ class TTSUK extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakelectrically(String languageCode) async {
-    // DOPSUM: CHANGE speakelectrically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -320,7 +319,6 @@ class TTSUS extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakelectrically(String languageCode) async {
-    // DOPSUM: CHANGE speakelectrically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -343,7 +341,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakelectricallys1(String languageCode) async {
-    // DOPSUM: CHANGE speakelectrically
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -362,7 +359,8 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بە ڕێگای کارەباوە، بە کارەباوە، بە برقەوە، وەکوو برق، لە ناکاو
 """),
-          const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە کارەبا"""),
+          const DefinitionKurdish(
+              text: """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە کارەبا"""),
           SentencesRow(
             englishText:
                 """The system can be connected to virtually any type of electrically controlled device.""",

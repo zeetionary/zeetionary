@@ -12,7 +12,6 @@ class EnglishEntrycomparative extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcomparative(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycomparative extends StatelessWidget {
   }
 
   Future<void> speakcomparatives1(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycomparative extends StatelessWidget {
   }
 
   Future<void> speakcomparatives2(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntrycomparative extends StatelessWidget {
   }
 
   Future<void> speakcomparatives3(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrycomparative extends StatelessWidget {
   }
 
   Future<void> speakcomparatives4(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -54,7 +49,6 @@ class EnglishEntrycomparative extends StatelessWidget {
   }
 
   Future<void> speakcomparatives5(String languageCode) async {
-    // DOPSUM: CHANGE speakcomparative
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

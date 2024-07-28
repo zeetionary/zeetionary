@@ -16,7 +16,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbrainwave(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -24,7 +23,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   }
 
   Future<void> speakbrainwaves1(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -32,7 +30,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   }
 
   Future<void> speakbrainwaves2(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -41,7 +38,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   }
 
   Future<void> speakbrainwaves3(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -49,7 +45,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   }
 
   Future<void> speakbrainwaves4(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -57,7 +52,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   }
 
   Future<void> speakbrainwaves5(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -65,7 +59,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   }
 
   Future<void> speakbrainwaves6(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -73,7 +66,6 @@ class EnglishEntrybrainwave extends StatelessWidget {
   }
 
   Future<void> speakbrainwaves7(String languageCode) async {
-    // DOPSUM: CHANGE speakbrainwave
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -127,7 +119,7 @@ class EnglishEntrybrainwave extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

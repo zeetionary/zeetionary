@@ -12,7 +12,6 @@ class EnglishEntrycoach extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcoach(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs1(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs2(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +33,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs3(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -44,7 +40,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs4(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +48,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs5(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -62,7 +56,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs6(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -70,7 +63,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs7(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -78,7 +70,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs8(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -86,7 +77,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs9(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -94,7 +84,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs10(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -103,7 +92,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs11(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -111,7 +99,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs12(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -119,7 +106,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs13(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -127,7 +113,6 @@ class EnglishEntrycoach extends StatelessWidget {
   }
 
   Future<void> speakcoachs14(String languageCode) async {
-    // DOPSUM: CHANGE speakcoach
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

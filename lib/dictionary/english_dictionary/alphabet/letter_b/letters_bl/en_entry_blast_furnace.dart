@@ -18,7 +18,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakblastfurnace(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   }
 
   Future<void> speakblastfurnaces1(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -35,7 +33,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   }
 
   Future<void> speakblastfurnaces2(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -43,7 +40,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   }
 
   Future<void> speakblastfurnaces3(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   }
 
   Future<void> speakblastfurnaces4(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +54,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   }
 
   Future<void> speakblastfurnaces5(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +61,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   }
 
   Future<void> speakblastfurnaces6(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +68,6 @@ class EnglishEntryblastfurnace extends StatelessWidget {
   }
 
   Future<void> speakblastfurnaces7(String languageCode) async {
-    // DOPSUM: CHANGE speakblastfurnace
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -129,7 +121,7 @@ class EnglishEntryblastfurnace extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

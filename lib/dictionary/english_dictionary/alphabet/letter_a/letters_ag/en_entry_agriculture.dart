@@ -12,7 +12,6 @@ class EnglishEntryagriculture extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakagriculture(String languageCode) async {
-    // DOPSUM: CHANGE speakAgriculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryagriculture extends StatelessWidget {
   }
 
   Future<void> speakagri3588(String languageCode) async {
-    // DOPSUM: CHANGE speakAgriculture
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

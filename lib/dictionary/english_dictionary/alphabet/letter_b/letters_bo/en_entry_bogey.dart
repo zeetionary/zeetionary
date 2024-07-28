@@ -18,7 +18,6 @@ class EnglishEntrybogey extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbogey(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntrybogey extends StatelessWidget {
   }
 
   Future<void> speakbogeys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -35,7 +33,6 @@ class EnglishEntrybogey extends StatelessWidget {
   }
 
   Future<void> speakbogeys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -43,7 +40,6 @@ class EnglishEntrybogey extends StatelessWidget {
   }
 
   Future<void> speakbogeys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -52,7 +48,6 @@ class EnglishEntrybogey extends StatelessWidget {
   }
 
   Future<void> speakbogeys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -60,7 +55,6 @@ class EnglishEntrybogey extends StatelessWidget {
   }
 
   Future<void> speakbogeys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -68,7 +62,6 @@ class EnglishEntrybogey extends StatelessWidget {
   }
 
   Future<void> speakbogeys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -76,7 +69,6 @@ class EnglishEntrybogey extends StatelessWidget {
   }
 
   Future<void> speakbogeys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbogey
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +127,7 @@ class EnglishEntrybogey extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

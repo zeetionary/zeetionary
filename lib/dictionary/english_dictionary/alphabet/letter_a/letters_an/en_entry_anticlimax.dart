@@ -14,7 +14,6 @@ class EnglishEntryanticlimax extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakanticlimax(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryanticlimax extends StatelessWidget {
   }
 
   Future<void> speakanticlimax843(String languageCode) async {
-    // DOPSUM: CHANGE speakAnticlimax
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +133,7 @@ class EnglishEntryanticlimax extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -16,7 +16,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakantiseptic(String languageCode) async {
-    // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -24,7 +23,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
   }
 
   Future<void> speakantiseptic1218(String languageCode) async {
-    // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -32,7 +30,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
   }
 
   Future<void> speakantiseptic1221(String languageCode) async {
-    // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -40,7 +37,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
   }
 
   Future<void> speakantiseptic1225(String languageCode) async {
-    // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -49,7 +45,6 @@ class EnglishEntryantiseptic extends StatelessWidget {
   }
 
   Future<void> speakantiseptic1228(String languageCode) async {
-    // DOPSUM: CHANGE speakAntiseptic
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -135,7 +130,7 @@ class EnglishEntryantiseptic extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

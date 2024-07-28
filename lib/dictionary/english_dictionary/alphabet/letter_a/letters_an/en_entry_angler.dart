@@ -12,7 +12,6 @@ class EnglishEntryangler extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakangler(String languageCode) async {
-    // DOPSUM: CHANGE speakAngler
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryangler extends StatelessWidget {
   }
 
   Future<void> speakangler402(String languageCode) async {
-    // DOPSUM: CHANGE speakAngler
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -130,7 +128,7 @@ class EnglishEntryangler extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

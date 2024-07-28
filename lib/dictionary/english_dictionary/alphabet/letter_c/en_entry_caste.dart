@@ -12,7 +12,6 @@ class EnglishEntrycaste extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcaste(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes1(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes2(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes3(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +41,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes4(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +48,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes5(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -61,7 +55,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes6(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -69,7 +62,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes7(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -77,7 +69,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes8(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -85,7 +76,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes9(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -93,7 +83,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes10(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -101,7 +90,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes11(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -109,7 +97,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes12(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -117,7 +104,6 @@ class EnglishEntrycaste extends StatelessWidget {
   }
 
   Future<void> speakcastes13(String languageCode) async {
-    // DOPSUM: CHANGE speakcaste
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

@@ -18,7 +18,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakboaconstrictor(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   }
 
   Future<void> speakboaconstrictors1(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -35,7 +33,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   }
 
   Future<void> speakboaconstrictors2(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -43,7 +40,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   }
 
   Future<void> speakboaconstrictors3(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -51,7 +47,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   }
 
   Future<void> speakboaconstrictors4(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -59,7 +54,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   }
 
   Future<void> speakboaconstrictors5(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -67,7 +61,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   }
 
   Future<void> speakboaconstrictors6(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -75,7 +68,6 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
   }
 
   Future<void> speakboaconstrictors7(String languageCode) async {
-    // DOPSUM: CHANGE speakboaconstrictor
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -131,7 +123,7 @@ class EnglishEntryboaconstrictor extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

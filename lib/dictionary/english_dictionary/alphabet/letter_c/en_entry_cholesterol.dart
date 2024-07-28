@@ -12,7 +12,6 @@ class EnglishEntrycholesterol extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcholesterol(String languageCode) async {
-    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycholesterol extends StatelessWidget {
   }
 
   Future<void> speakcholesterols1(String languageCode) async {
-    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycholesterol extends StatelessWidget {
   }
 
   Future<void> speakcholesterols2(String languageCode) async {
-    // DOPSUM: CHANGE speakcholesterol
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

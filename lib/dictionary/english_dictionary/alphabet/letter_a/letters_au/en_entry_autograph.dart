@@ -20,7 +20,6 @@ class EnglishEntryautograph extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakautograph(String languageCode) async {
-    // DOPSUM: CHANGE speakAutograph
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +27,6 @@ class EnglishEntryautograph extends StatelessWidget {
   }
 
   Future<void> speakautograph1002(String languageCode) async {
-    // DOPSUM: CHANGE speakAutograph
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -36,7 +34,6 @@ class EnglishEntryautograph extends StatelessWidget {
   }
 
   Future<void> speakautograph1005(String languageCode) async {
-    // DOPSUM: CHANGE speakAutograph
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -141,7 +138,7 @@ class EnglishEntryautograph extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

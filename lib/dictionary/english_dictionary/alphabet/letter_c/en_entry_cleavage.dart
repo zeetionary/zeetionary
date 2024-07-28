@@ -12,7 +12,6 @@ class EnglishEntrycleavage extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcleavage(String languageCode) async {
-    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycleavage extends StatelessWidget {
   }
 
   Future<void> speakcleavages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycleavage extends StatelessWidget {
   }
 
   Future<void> speakcleavages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrycleavage extends StatelessWidget {
   }
 
   Future<void> speakcleavages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcleavage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

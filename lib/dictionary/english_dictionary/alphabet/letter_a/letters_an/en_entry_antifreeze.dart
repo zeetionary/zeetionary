@@ -14,7 +14,6 @@ class EnglishEntryantifreeze extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakantifreeze(String languageCode) async {
-    // DOPSUM: CHANGE speakAntifreeze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntryantifreeze extends StatelessWidget {
   }
 
   Future<void> speakantifreeze1051(String languageCode) async {
-    // DOPSUM: CHANGE speakAntifreeze
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -133,7 +131,7 @@ class EnglishEntryantifreeze extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

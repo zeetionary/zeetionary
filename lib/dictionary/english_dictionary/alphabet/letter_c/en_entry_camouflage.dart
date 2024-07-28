@@ -14,7 +14,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcamouflage(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages1(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -31,7 +29,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages2(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -40,7 +37,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages3(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -49,7 +45,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages4(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -57,7 +52,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages5(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -66,7 +60,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages6(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -74,7 +67,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages7(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -82,7 +74,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages8(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -90,7 +81,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages9(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -98,7 +88,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages10(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -106,7 +95,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages11(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -114,7 +102,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages12(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -122,7 +109,6 @@ class EnglishEntrycamouflage extends StatelessWidget {
   }
 
   Future<void> speakcamouflages13(String languageCode) async {
-    // DOPSUM: CHANGE speakcamouflage
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -176,7 +162,7 @@ class EnglishEntrycamouflage extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

@@ -12,7 +12,6 @@ class EnglishEntrycomplementary extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakcomplementary(String languageCode) async {
-    // DOPSUM: CHANGE speakcomplementary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntrycomplementary extends StatelessWidget {
   }
 
   Future<void> speakcomplementarys1(String languageCode) async {
-    // DOPSUM: CHANGE speakcomplementary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -29,7 +27,6 @@ class EnglishEntrycomplementary extends StatelessWidget {
   }
 
   Future<void> speakcomplementarys3(String languageCode) async {
-    // DOPSUM: CHANGE speakcomplementary
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

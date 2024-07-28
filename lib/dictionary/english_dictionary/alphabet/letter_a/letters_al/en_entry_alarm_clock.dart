@@ -12,7 +12,6 @@ class EnglishEntryalarmclock extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakalarmclock(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarmclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryalarmclock extends StatelessWidget {
   }
 
   Future<void> speakalarmclock349(String languageCode) async {
-    // DOPSUM: CHANGE speakAlarmclock
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

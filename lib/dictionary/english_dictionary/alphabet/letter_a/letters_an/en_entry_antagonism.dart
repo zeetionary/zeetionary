@@ -13,7 +13,6 @@ class EnglishEntryantagonism extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakantagonism(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -21,7 +20,6 @@ class EnglishEntryantagonism extends StatelessWidget {
   }
 
   Future<void> speakantagonism1204(String languageCode) async {
-    // DOPSUM: CHANGE speakAntagonism
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -132,7 +130,7 @@ class EnglishEntryantagonism extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

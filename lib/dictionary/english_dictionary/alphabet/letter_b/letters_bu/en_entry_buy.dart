@@ -14,7 +14,6 @@ class EnglishEntrybuy extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbuy(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -22,7 +21,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys1(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -30,7 +28,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys2(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -38,7 +35,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys3(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys4(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys5(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys6(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys7(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -80,7 +72,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys8(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -88,7 +79,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys9(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -97,7 +87,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys10(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -106,7 +95,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys11(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -114,7 +102,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys12(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -122,7 +109,6 @@ class EnglishEntrybuy extends StatelessWidget {
   }
 
   Future<void> speakbuys13(String languageCode) async {
-    // DOPSUM: CHANGE speakbuy
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -176,7 +162,7 @@ class EnglishEntrybuy extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

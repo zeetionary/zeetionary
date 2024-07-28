@@ -18,7 +18,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakbloodgroup(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   }
 
   Future<void> speakbloodgroups1(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   }
 
   Future<void> speakbloodgroups2(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -42,7 +39,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   }
 
   Future<void> speakbloodgroups3(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -50,7 +46,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   }
 
   Future<void> speakbloodgroups4(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -58,7 +53,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   }
 
   Future<void> speakbloodgroups5(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -66,7 +60,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   }
 
   Future<void> speakbloodgroups6(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -74,7 +67,6 @@ class EnglishEntrybloodgroup extends StatelessWidget {
   }
 
   Future<void> speakbloodgroups7(String languageCode) async {
-    // DOPSUM: CHANGE speakbloodgroup
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -133,7 +125,7 @@ class EnglishEntrybloodgroup extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

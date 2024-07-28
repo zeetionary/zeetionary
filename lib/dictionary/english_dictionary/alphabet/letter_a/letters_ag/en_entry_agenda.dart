@@ -12,7 +12,6 @@ class EnglishEntryagenda extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakagenda(String languageCode) async {
-    // DOPSUM: CHANGE speakAgenda
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryagenda extends StatelessWidget {
   }
 
   Future<void> speakagend562221(String languageCode) async {
-    // DOPSUM: CHANGE speakAgenda
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryagenda extends StatelessWidget {
   }
 
   Future<void> speakagenda15622(String languageCode) async {
-    // DOPSUM: CHANGE speakAgenda
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

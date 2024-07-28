@@ -18,7 +18,6 @@ class EnglishEntryapricot extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakapricot(String languageCode) async {
-    // DOPSUM: CHANGE speakApricot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryapricot extends StatelessWidget {
   }
 
   Future<void> speakapricot1040(String languageCode) async {
-    // DOPSUM: CHANGE speakApricot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -34,7 +32,6 @@ class EnglishEntryapricot extends StatelessWidget {
   }
 
   Future<void> speakapricot1043(String languageCode) async {
-    // DOPSUM: CHANGE speakApricot
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +134,7 @@ class EnglishEntryapricot extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

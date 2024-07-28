@@ -18,7 +18,6 @@ class EnglishEntryarduous extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakarduous(String languageCode) async {
-    // DOPSUM: CHANGE speakArduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -26,7 +25,6 @@ class EnglishEntryarduous extends StatelessWidget {
   }
 
   Future<void> speakarduous530(String languageCode) async {
-    // DOPSUM: CHANGE speakArduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -35,7 +33,6 @@ class EnglishEntryarduous extends StatelessWidget {
   }
 
   Future<void> speakarduous531(String languageCode) async {
-    // DOPSUM: CHANGE speakArduous
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -137,7 +134,7 @@ class EnglishEntryarduous extends StatelessWidget {
                 tabs: [
                   UkIconForTab(),
                   KurdIconForTab(),
-                  VideoIconForTab(), // 01
+                  VideoIconForTab(),
                 ],
               ),
               Expanded(

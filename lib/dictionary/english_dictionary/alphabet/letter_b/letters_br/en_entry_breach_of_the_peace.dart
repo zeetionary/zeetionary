@@ -246,7 +246,6 @@ Noun: breach of the peace (derived forms: breaches of the peace)
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -254,7 +253,6 @@ Noun: breach of the peace (derived forms: breaches of the peace)
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

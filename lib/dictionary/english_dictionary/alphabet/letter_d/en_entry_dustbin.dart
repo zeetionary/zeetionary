@@ -508,7 +508,6 @@ Usage: Brit, Cdn (US: trash can)
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -516,7 +515,6 @@ Usage: Brit, Cdn (US: trash can)
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

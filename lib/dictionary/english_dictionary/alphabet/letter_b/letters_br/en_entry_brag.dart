@@ -252,7 +252,6 @@ Usage: N. Amer, informal
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -260,7 +259,6 @@ Usage: N. Amer, informal
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

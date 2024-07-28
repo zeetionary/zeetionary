@@ -275,7 +275,6 @@ Usage: Brit, Cdn (US: clamor) (= blare, blaring, cacophony, clamor [US], din)
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -283,7 +282,6 @@ Usage: Brit, Cdn (US: clamor) (= blare, blaring, cacophony, clamor [US], din)
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

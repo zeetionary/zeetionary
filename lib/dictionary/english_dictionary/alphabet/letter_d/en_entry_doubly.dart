@@ -508,7 +508,6 @@ In a twofold manner
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -516,7 +515,6 @@ In a twofold manner
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

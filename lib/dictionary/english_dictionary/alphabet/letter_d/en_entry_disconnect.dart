@@ -492,7 +492,6 @@ Pull the plug of (electrical appliances) and render inoperable (= unplug)
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -500,7 +499,6 @@ Pull the plug of (electrical appliances) and render inoperable (= unplug)
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

@@ -227,7 +227,6 @@ A trophy made of bronze (or having the appearance of bronze) that is usually awa
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -235,7 +234,6 @@ A trophy made of bronze (or having the appearance of bronze) that is usually awa
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

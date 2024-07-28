@@ -205,7 +205,6 @@ WORD_WEB clueless haʊʊʊʊʊʊʊ4
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -213,7 +212,6 @@ WORD_WEB clueless haʊʊʊʊʊʊʊ4
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

@@ -244,7 +244,6 @@ In deplorable condition (= broken-down, derelict, dilapidated, ramshackle, tatte
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -252,7 +251,6 @@ In deplorable condition (= broken-down, derelict, dilapidated, ramshackle, tatte
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

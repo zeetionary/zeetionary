@@ -320,7 +320,6 @@ Usage: vulgar (=pain in the ass) (= blast, bother [Brit], botheration, bummer [i
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -328,7 +327,6 @@ Usage: vulgar (=pain in the ass) (= blast, bother [Brit], botheration, bummer [i
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

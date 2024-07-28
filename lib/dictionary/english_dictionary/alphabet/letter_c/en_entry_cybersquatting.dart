@@ -297,7 +297,6 @@ Noun: cybersquatting  'sI-bu(r),skwó-ting
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const DividerDefinition(),
-
           EnglishButtonTTS(
             onBritishPressed: (languageCode) =>
                 startSpeaking(languageCode, englishMeaningConst),
@@ -305,7 +304,6 @@ Noun: cybersquatting  'sI-bu(r),skwó-ting
                 startSpeaking(languageCode, englishMeaningConst),
             onStopPressed: stopSpeaking,
           ),
-          // Speaker icon for American English
           englishMeaningConst,
         ],
       ),

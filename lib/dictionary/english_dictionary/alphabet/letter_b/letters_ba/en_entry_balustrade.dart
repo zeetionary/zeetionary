@@ -95,9 +95,7 @@ class EnglishEntrybalustrade extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "balustrade"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "balustrade"),
                             // divvviiider
                           ],
                         ),

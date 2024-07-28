@@ -175,7 +175,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ھەڵگرتن، بردن،	کرێ‌بار،	بار، کەل‌وپەل،	شەمەندەفەری بارھەڵگر یان باری
 """),
-// With short examples define "freight", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو کەلوپەلانەی کە دەگوازرێنەوە بە کەشتی، فڕۆکە، شەمەندەفەر، ھتد؛ ئەو سیستەمەی بۆ ئەمە بەکاردێت"""),
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'BP-ccTYqOoc';
 const double _startSecondsend = 474;
 const String _videoIdone = 'y__v0aEgzO0';

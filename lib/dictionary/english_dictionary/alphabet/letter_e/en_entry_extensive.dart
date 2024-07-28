@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Extensive research has been done into this disease.""");
   }
 
-// With short examples define "extensive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

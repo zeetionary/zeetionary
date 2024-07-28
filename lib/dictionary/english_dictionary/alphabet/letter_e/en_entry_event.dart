@@ -332,7 +332,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He will represent Scotland in the team event.""");
   }
 
-// With short examples define "event", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

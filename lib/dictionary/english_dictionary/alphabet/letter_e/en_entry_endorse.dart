@@ -304,7 +304,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ڕاگەیاندنی پشتگیری لە ڕیکلامێکدا بۆ شتێک بۆ ئەوەی کەسانی دیکە بیکڕن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """I wonder how many celebrities actually use the products they endorse.""",

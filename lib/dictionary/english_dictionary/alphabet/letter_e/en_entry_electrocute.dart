@@ -382,26 +382,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectrocutes2("en-GB"),
             onPressedAmerican: () => speakelectrocutes2("en-US"),
           ),
-          // electrocutes300electrocutes3
-          // electrocutes400electrocutes4
-          // electrocutes500electrocutes5
-          // electrocutes600electrocutes6
-          // electrocutes700electrocutes7
-          // electrocutes800electrocutes8
-          // electrocutes900electrocutes9
-          // electrocutes_1000electrocutes10
-          // electrocutes1100electrocutes11
-          // electrocutes1200electrocutes12
-          // electrocutes1300electrocutes13
-          // electrocutes1400electrocutes14
-          // electrocutes1500electrocutes15
-          // electrocutes1600electrocutes16
-          // electrocutes1700electrocutes17
-          // electrocutes1800electrocutes18
-          // electrocutes1900electrocutes19
-          // electrocutes_2000electrocutes20
-          // electrocutes2100electrocutes21
-          // electrocutes2200electrocuteselectrocutes
         ],
       ),
     );

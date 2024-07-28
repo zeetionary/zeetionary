@@ -386,8 +386,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ناو) پێنناسە"),
-          // "speakdominances300"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          // "speakdominances3          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
           //     ),
@@ -404,44 +403,24 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // dominances400"),
-          // dominances4
-          // dominances500"),
-          // dominances5
-          // dominances600"),
-          // dominances6
-          // dominances700"),
-          // dominances7
-          // dominances800"),
-          // dominances8
-          // dominances900"),
-          // dominances9
-          // dominances_1000"),
-          // dominances10
-          // dominances1100"),
-          // dominances11
-          // dominances1200"),
-          // dominances12
-          // dominances1300"),
-          // dominances13
-          // dominances1400"),
-          // dominances14
-          // dominances1500"),
-          // dominances15
-          // dominances1600"),
-          // dominances16
-          // dominances1700"),
-          // dominances17
-          // dominances1800"),
-          // dominances18
-          // dominances1900"),
-          // dominances19
-          // dominances_2000"),
-          // dominances20
-          // dominances2100"),
-          // dominances21
-          // dominances2200"),
-          // dominances22("en-US"),
+          // dominances4dominances4
+          // dominances5dominances5
+          // dominances6dominances6
+          // dominances7dominances7
+          // dominances8dominances8
+          // dominances9dominances9
+          // dominances_10dominances10
+          // dominances11dominances11
+          // dominances12dominances12
+          // dominances13dominances13
+          // dominances14dominances14
+          // dominances15dominances15
+          // dominances16dominances16
+          // dominances17dominances17
+          // dominances18dominances18
+          // dominances19dominances19
+          // dominances_20dominances20
+          // dominances21dominances21
         ],
       ),
     );

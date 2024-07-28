@@ -376,33 +376,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ھەبوونی شێوەیەک کە درێژترە وەک لەوەی پان بێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Acanthoclinus are elongate fishes.""",
             kurdishText: """ئەکانسۆکلینس ماسی باریکەڵەن.""",
             onPressedBritish: () => speakelongates2("en-GB"),
             onPressedAmerican: () => speakelongates2("en-US"),
           ),
-          // elongates300elongates3
-          // elongates400elongates4
-          // elongates500elongates5
-          // elongates600elongates6
-          // elongates700elongates7
-          // elongates800elongates8
-          // elongates900elongates9
-          // elongates_1000elongates10
-          // elongates1100elongates11
-          // elongates1200elongates12
-          // elongates1300elongates13
-          // elongates1400elongates14
-          // elongates1500elongates15
-          // elongates1600elongates16
-          // elongates1700elongates17
-          // elongates1800elongates18
-          // elongates1900elongates19
-          // elongates_2000elongates20
-          // elongates2100elongates21
-          // elongates2200elongateselongates
         ],
       ),
     );

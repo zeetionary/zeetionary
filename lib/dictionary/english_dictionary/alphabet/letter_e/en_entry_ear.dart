@@ -442,7 +442,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ھەبوونی ئەو جۆرە گوێیەی کە باسکراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The long-eared owl hunts at night.""",
             kurdishText: """کوندەپەپووی گوێدرێژ لە شەودا ڕاو دەکات.""",
@@ -452,7 +451,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) توانای ناسینەوە و لەبەرگرتنەوەی دەنگ بەباشی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She has always had an ear for languages.""",
             kurdishText: """ھەمیشە توانای گوێپێدانی باشی بۆ زمان ھەبووە.""",
@@ -466,7 +464,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakears8("en-GB"),
             onPressedAmerican: () => speakears8("en-US"),
           ),
-          // ears900ears9
           // speakears
         ],
       ),

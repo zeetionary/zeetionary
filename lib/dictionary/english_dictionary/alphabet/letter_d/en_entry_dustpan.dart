@@ -367,48 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdustpans1("en-GB"),
             onPressedAmerican: () => speakdustpans1("en-US"),
           ),
-          // dustpans200
-          // dustpans2("en-US"""),
-          // dustpans300
-          // dustpans3("en-US"""),
-          // dustpans400
-          // dustpans4("en-US"""),
-          // dustpans500
-          // dustpans5("en-US"""),
-          // dustpans600
-          // dustpans6("en-US"""),
-          // dustpans700
-          // dustpans7("en-US"""),
-          // dustpans800
-          // dustpans8("en-US"""),
-          // dustpans900
-          // dustpans9("en-US"""),
-          // dustpans_1000
-          // dustpans10("en-US"""),
-          // dustpans1100
-          // dustpans11("en-US"""),
-          // dustpans1200
-          // dustpans12("en-US"""),
-          // dustpans1300
-          // dustpans13("en-US"""),
-          // dustpans1400
-          // dustpans14("en-US"""),
-          // dustpans1500
-          // dustpans15("en-US"""),
-          // dustpans1600
-          // dustpans16("en-US"""),
-          // dustpans1700
-          // dustpans17("en-US"""),
-          // dustpans1800
-          // dustpans18("en-US"""),
-          // dustpans1900
-          // dustpans19("en-US"""),
-          // dustpans_2000
-          // dustpans20("en-US"""),
-          // dustpans2100
-          // dustpans21("en-US"""),
-          // dustpans2200
-          // dustpans22("en-US"""),
         ],
       ),
     );

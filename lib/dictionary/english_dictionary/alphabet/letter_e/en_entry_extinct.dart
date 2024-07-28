@@ -287,7 +287,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The city was built near an extinct volcano.""");
   }
 
-// With short examples define "extinct", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

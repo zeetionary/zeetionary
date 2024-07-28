@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌ھێزی، خاوی، شلی، خۆنەگرتوویی، نەبەگەیی، شەوێقی، پفەڵی، نەرمی، شۆڕی، داکەوتوویی
 """),
-// With short examples define "flabbiness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی نەرم و قەڵەو بیت"""),
                     SentencesRow(
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '4h36wfqcg9A';
 const double _startSecondsend = 407;
 const String _videoIdone = 'jrIogch5DBU';

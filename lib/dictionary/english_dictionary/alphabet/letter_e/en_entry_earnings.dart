@@ -414,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) قازانجی کۆمپانیایەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The company's earnings per share have fallen to 29p.""",
@@ -432,22 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearningss5("en-GB"),
             onPressedAmerican: () => speakearningss5("en-US"),
           ),
-          // earningss600earningss6
-          // earningss700earningss7
-          // earningss800earningss8
-          // earningss900earningss9
-          // earningss_1000earningss10
-          // earningss1100earningss11
-          // earningss1200earningss12
-          // earningss1300earningss13
-          // earningss1400earningss14
-          // earningss1500earningss15
-          // earningss1600earningss16
-          // earningss1700earningss17
-          // earningss1800earningss18
-          // earningss1900earningss19
-          // earningss_2000earningss20
-          // earningss2100earningss21
           // earningss2200earningssearningss
         ],
       ),

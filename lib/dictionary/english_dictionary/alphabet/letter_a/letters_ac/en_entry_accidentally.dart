@@ -45,9 +45,7 @@ class EnglishEntryaccidentally extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "accidentally"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accidentally"),
                           ],
                         ),
                         Row(
@@ -60,9 +58,7 @@ class EnglishEntryaccidentally extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˌæksɪˈdentəli/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /ˌæksɪˈdentəli/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccidentally("en-US"),
                             ),

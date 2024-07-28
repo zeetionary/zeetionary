@@ -291,7 +291,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""People in this country enjoy a high standard of living.""");
   }
 
-// With short examples define "enjoy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

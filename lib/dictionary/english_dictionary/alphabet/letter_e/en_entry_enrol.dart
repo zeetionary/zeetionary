@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """The centre will soon be ready to enrol candidates for the new programme.""");
   }
 
-// With short examples define "enrol", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

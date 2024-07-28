@@ -95,8 +95,7 @@ class EnglishEntryavoid extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "avoid"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "avoid"),
                             // divvviiider
                           ],
                         ),

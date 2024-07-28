@@ -259,7 +259,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Experimentation with illegal drugs is dangerous.""");
   }
 
-// With short examples define "experimentation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

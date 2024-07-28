@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""It’s a good hotel but the prices are exorbitant.""");
   }
 
-// With short examples define "exorbitant", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -45,9 +45,7 @@ class EnglishEntryaccelerator extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "accelerator"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accelerator"),
                           ],
                         ),
                         Row(
@@ -61,9 +59,7 @@ class EnglishEntryaccelerator extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əkˈseləreɪtər/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əkˈseləreɪtər/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccelerator("en-US"),
                             ),

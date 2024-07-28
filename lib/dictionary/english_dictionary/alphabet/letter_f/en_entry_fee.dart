@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""You have to pay a fee to enter the race.""");
   }
 
-// With short examples define "fee", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

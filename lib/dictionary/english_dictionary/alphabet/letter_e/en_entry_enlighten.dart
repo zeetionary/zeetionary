@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I don't understand this. Could you enlighten me?""");
   }
 
-// With short examples define "enlighten", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

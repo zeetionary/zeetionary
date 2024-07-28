@@ -487,7 +487,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) فایلێکی کۆمپیوتەر کە نووسینی تێدایە و ناوێکی ھەیە کە پێی دەناسرێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Save the document before closing.",
             kurdishText: "دۆکیومێنتەکە پاشەکەوت بکە پێش داخستنی.",
@@ -505,7 +504,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) تۆمارکردنی شتێک لە شێوەی بەڵگەنامەی نووسراو، وێنە، فیلم، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Urban life in the nineteenth century is well documented.",
@@ -545,26 +543,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdocuments12("en-GB"),
             onPressedAmerican: () => speakdocuments12("en-US"),
           ),
-          // documents1300"),
-          // documents13("en-US"),
-          // documents1400"),
-          // documents14("en-US"),
-          // documents1500"),
-          // documents15("en-US"),
-          // documents1600"),
-          // documents16("en-US"),
-          // documents1700"),
-          // documents17("en-US"),
-          // documents1800"),
-          // documents18("en-US"),
-          // documents1900"),
-          // documents19("en-US"),
-          // documents_2000"),
-          // documents20("en-US"),
-          // documents2100"),
-          // documents21("en-US"),
-          // documents2200"),
-          // documents22("en-US"),
         ],
       ),
     );

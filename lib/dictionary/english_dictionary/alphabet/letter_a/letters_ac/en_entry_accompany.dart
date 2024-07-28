@@ -59,8 +59,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "accompany"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accompany"),
                           ],
                         ),
                         Row(
@@ -73,9 +72,7 @@ class EnglishEntryaccompany extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkʌmpəni/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkʌmpəni/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccompany("en-US"),
                             ),

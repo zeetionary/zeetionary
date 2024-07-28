@@ -429,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) یەکێک لەو ناوچانەی وڵاتێک، شارۆچکەیەک، یان ویلایەتێکی بەسەردا دابەشکراوە و سنووری فەرمی خۆیی ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "They redrew districts to make sure Republican candidates would win.",
@@ -461,36 +460,20 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistricts7("en-GB"),
             onPressedAmerican: () => speakdistricts7("en-US"),
           ),
-          // districts800"),
-          // districts8
-          // districts900"),
-          // districts9
-          // districts_1000"),
-          // districts10
-          // districts1100"),
-          // districts11
-          // districts1200"),
-          // districts12
-          // districts1300"),
-          // districts13
-          // districts1400"),
-          // districts14
-          // districts1500"),
-          // districts15
-          // districts1600"),
-          // districts16
-          // districts1700"),
-          // districts17
-          // districts1800"),
-          // districts18
-          // districts1900"),
-          // districts19
-          // districts_2000"),
-          // districts20
-          // districts2100"),
-          // districts21
-          // districts2200"),
-          // districts22("en-US"),
+          // districts8districts8
+          // districts9districts9
+          // districts_10districts10
+          // districts11districts11
+          // districts12districts12
+          // districts13districts13
+          // districts14districts14
+          // districts15districts15
+          // districts16districts16
+          // districts17districts17
+          // districts18districts18
+          // districts19districts19
+          // districts_20districts20
+          // districts21districts21
         ],
       ),
     );

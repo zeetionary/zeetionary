@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""An awful smell exuded from the creature's body.""");
   }
 
-// With short examples define "exude", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

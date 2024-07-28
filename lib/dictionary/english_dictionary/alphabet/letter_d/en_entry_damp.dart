@@ -123,7 +123,7 @@ class EnglishEntrydamp extends StatelessWidget {
                                   ],
                                 ),
                               ),
-                              const CustomSizedBoxForTTS(), // With short examples define "damp", please follow LX instructions
+                              const CustomSizedBoxForTTS(),
                               Column(
                                 children: [
                                   CustomIconButtonBritish(

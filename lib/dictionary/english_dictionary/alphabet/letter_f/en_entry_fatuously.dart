@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They chattered fatuously about old movies.""");
   }
 
-// With short examples define "fatuously", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

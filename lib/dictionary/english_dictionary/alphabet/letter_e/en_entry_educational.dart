@@ -414,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە پەروەردە و فێرکردن دابین دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She fought for educational opportunities for women.""",
@@ -429,22 +428,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeducationals5("en-GB"),
             onPressedAmerican: () => speakeducationals5("en-US"),
           ),
-          // educationals600educationals6
-          // educationals700educationals7
-          // educationals800educationals8
-          // educationals900educationals9
-          // educationals_1000educationals10
-          // educationals1100educationals11
-          // educationals1200educationals12
-          // educationals1300educationals13
-          // educationals1400educationals14
-          // educationals1500educationals15
-          // educationals1600educationals16
-          // educationals1700educationals17
-          // educationals1800educationals18
-          // educationals1900educationals19
-          // educationals_2000educationals20
-          // educationals2100educationals21
           // educationals2200educationalseducationals
         ],
       ),

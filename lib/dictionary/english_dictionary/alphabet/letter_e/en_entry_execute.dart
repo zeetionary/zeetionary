@@ -338,7 +338,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""His will was executed by his lawyers in 2008.""");
   }
 
-// With short examples define "execute", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

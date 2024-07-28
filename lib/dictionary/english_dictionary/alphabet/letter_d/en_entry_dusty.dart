@@ -388,7 +388,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ڕەنگێک کە ڕۆشن نییە؛ ڕەنگێک کە کەمێک خۆڵەمێشییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The living room walls were painted dusty pink.""",
             kurdishText:
@@ -396,44 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdustys3("en-GB"),
             onPressedAmerican: () => speakdustys3("en-US"),
           ),
-          // dustys400
-          // dustys4("en-US"""),
-          // dustys500
-          // dustys5("en-US"""),
-          // dustys600
-          // dustys6("en-US"""),
-          // dustys700
-          // dustys7("en-US"""),
-          // dustys800
-          // dustys8("en-US"""),
-          // dustys900
-          // dustys9("en-US"""),
-          // dustys_1000
-          // dustys10("en-US"""),
-          // dustys1100
-          // dustys11("en-US"""),
-          // dustys1200
-          // dustys12("en-US"""),
-          // dustys1300
-          // dustys13("en-US"""),
-          // dustys1400
-          // dustys14("en-US"""),
-          // dustys1500
-          // dustys15("en-US"""),
-          // dustys1600
-          // dustys16("en-US"""),
-          // dustys1700
-          // dustys17("en-US"""),
-          // dustys1800
-          // dustys18("en-US"""),
-          // dustys1900
-          // dustys19("en-US"""),
-          // dustys_2000
-          // dustys20("en-US"""),
-          // dustys2100
-          // dustys21("en-US"""),
-          // dustys2200
-          // dustys22("en-US"""),
         ],
       ),
     );

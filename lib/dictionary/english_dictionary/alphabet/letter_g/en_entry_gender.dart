@@ -779,7 +779,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "gender", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی ئایا کەسێک ڕەگەزی نێرە یان مێ، بە تایبەتی پەیوەندیدار بە جیاوازیی کەلتووری یان کۆمەڵایەتی نەک زیندەزانی؛ کەسێک کە سەر بە ڕەگەزێکە"""),
@@ -1615,7 +1614,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/Hi0zbU3DW6o?t=';
 const double _startSecondsend = 000000000000000000000000000410;
 const String _videoIdone = 'https://youtu.be/Js2UoMSumx4?t=';

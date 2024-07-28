@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He tends to exaggerate the difficulties.""");
   }
 
-// With short examples define "exaggerate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

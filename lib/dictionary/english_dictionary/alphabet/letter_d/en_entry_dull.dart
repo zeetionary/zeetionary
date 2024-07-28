@@ -503,7 +503,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە ڕۆشن و درەوشاوە نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Her eyes were dull.""",
             kurdishText: """چاوەکانی تەڵخ بوون.""",
@@ -519,7 +518,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) بە ھەورێکی زۆرەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """It was a dull, grey day.""",
             kurdishText: """ڕۆژێکی لێڵی ھەوراوی بوو.""",
@@ -529,7 +527,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) دەنگێک کە ڕوون یان بەرز نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """I heard a dull thud from the kitchen and realized she must have fainted.""",
@@ -541,7 +538,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵناو) ئازارێک کە توند نییە بەڵام بەردەوامە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She felt a dull ache at the back of her head.""",
             kurdishText: """ھەستی بە ژانێکی سووک لە پشتەوەی سەری دەکرد.""",
@@ -551,7 +547,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) کەسێک کە درەنگ لە شت تێدەگات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The teacher patiently explained to the dull pupil.""",
@@ -562,7 +557,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (ھاوەڵناو) بازاڕێکی ھێواش"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Don't sell into a dull market.""",
             kurdishText: """بە بازاڕێکی مردوو مەفرۆشە.""",
@@ -572,7 +566,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (کردار) لاوازکردنی ھەستێک یان ئازارێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The tablets they gave him dulled the pain for a while.""",
@@ -598,7 +591,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (کردار) خاوکردنەوە یان بێزارکردنی کەسێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He felt dulled and stupid with sleep.""",
             kurdishText: """ھەستی بە سستی و گێژی دەکرد لە خەودا.""",
@@ -609,7 +601,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١٠. (کردار) وابکەیت کە شتێک کەمتر ڕۆشن، پاک، یان تیژ بێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """His eyes dulled and he slumped to the ground.""",
             kurdishText: """چاوەکانی تەڵخ بوون و کێشای بە زەوییەکەدا.""",
@@ -624,16 +615,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulls17("en-GB"),
             onPressedAmerican: () => speakdulls17("en-US"),
           ),
-          // dulls1800
-          // dulls18("en-US"""),
-          // dulls1900
-          // dulls19("en-US"""),
-          // dulls_2000
-          // dulls20("en-US"""),
-          // dulls2100
-          // dulls21("en-US"""),
-          // dulls2200
-          // dulls22("en-US"""),
         ],
       ),
     );

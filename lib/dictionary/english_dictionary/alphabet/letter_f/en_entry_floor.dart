@@ -275,7 +275,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەرک، بن،	ناوفەڕش، ناوکۆ، تەرکی دیو، زەمین، عەرز،	بنک، تەخت، تەختاو،	نھۆم، ماخ، مەرتەبە، قات، نشف، قۆر،	ھۆڵ، گۆڕ، بەشێ لە ئەنجومەن کە ئەندامان لەی دادەنیشن و لەوێوە قسە دەکەن، مافی قسەکردن،	ھەرەکەم، کەم‌ترین، لانی‌کەم
 """),
-// With short examples define "floor", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) زەویی ژوورێک"""),
                     SentencesRow(
                       englishText: """His glass fell to the floor and broke.""",
@@ -461,7 +460,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'e09xig209cQ';
 const double _startSecondsend = 14;
 const String _videoIdone = 'HDntl7yzzVI';

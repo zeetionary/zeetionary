@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""We are determined to eradicate racism from our sport.""");
   }
 
-// With short examples define "eradicate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

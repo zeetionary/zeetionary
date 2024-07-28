@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """We know of several mass extinctions in the earth's history.""");
   }
 
-// With short examples define "extinction", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

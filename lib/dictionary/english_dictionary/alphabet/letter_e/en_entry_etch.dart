@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Tiredness was etched on his face.""");
   }
 
-// With short examples define "etch", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

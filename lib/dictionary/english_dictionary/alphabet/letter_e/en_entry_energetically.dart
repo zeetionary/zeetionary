@@ -241,8 +241,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He energetically denied the charge.""");
   }
 
-// With short examples define "energetically", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

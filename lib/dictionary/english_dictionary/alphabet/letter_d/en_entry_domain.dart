@@ -397,7 +397,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ژمارەیەک وێبسایت لەسەر ئینتەرنێت کە ھەمان کۆتاییان ھەیە، بۆ نموونە کۆتایی .com"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The company bought a new domain ending in ‘.com’ for their website.",
@@ -410,49 +409,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) زەوی‌وزار کە لەلایەن ھەمان کەس، حکومەت، ھتد خاوەندارێتی دەکرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The Spice Islands were within the Spanish domains.",
             kurdishText: "دوورگەکانی سپایس لەژێر ھەژموونی ئیسپانیادا بوون.",
             onPressedBritish: () => speakdomains4("en-GB"),
             onPressedAmerican: () => speakdomains4("en-US"),
           ),
-          // domains500"),
-          // domains5
-          // domains600"),
-          // domains6
-          // domains700"),
-          // domains7
-          // domains800"),
-          // domains8
-          // domains900"),
-          // domains9
-          // domains_1000"),
-          // domains10
-          // domains1100"),
-          // domains11
-          // domains1200"),
-          // domains12
-          // domains1300"),
-          // domains13
-          // domains1400"),
-          // domains14
-          // domains1500"),
-          // domains15
-          // domains1600"),
-          // domains16
-          // domains1700"),
-          // domains17
-          // domains1800"),
-          // domains18
-          // domains1900"),
-          // domains19
-          // domains_2000"),
-          // domains20
-          // domains2100"),
-          // domains21
-          // domains2200"),
-          // domains22("en-US"),
+          // domains5domains5
+          // domains6domains6
+          // domains7domains7
+          // domains8domains8
+          // domains9domains9
+          // domains_10domains10
+          // domains11domains11
+          // domains12domains12
+          // domains13domains13
+          // domains14domains14
+          // domains15domains15
+          // domains16domains16
+          // domains17domains17
+          // domains18domains18
+          // domains19domains19
+          // domains_20domains20
+          // domains21domains21
         ],
       ),
     );

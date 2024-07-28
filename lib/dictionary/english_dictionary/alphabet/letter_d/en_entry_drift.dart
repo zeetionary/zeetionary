@@ -514,7 +514,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) چوون بۆ شوێنێک بەھێواشی، یان جوڵان بە ناویدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The crowd drifted away from the scene of the accident.",
@@ -533,7 +532,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) کردنی شتێک، یان ئەوەی ڕووبدات یان بگۆڕێت بەبێ مەبەست یان پلانێکی دیاریکراو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I didn't intend to be a teacher—I just drifted into it.",
@@ -553,7 +551,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) چوون لە دۆخێکەوە بۆ یەکێکی دیکە بەبێ ئەوەی ھەستی پێبکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Finally she drifted into sleep.",
             kurdishText: "لەکۆتاییدا کەوتە خەو.",
@@ -571,7 +568,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) تۆپەڵبوون بەھۆی باوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Some roads are closed because of drifting.",
             kurdishText: "ھەندێک ڕێگا بەھۆی تۆپەڵبوونەوە داخراون.",
@@ -582,7 +578,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) جوڵەیەکی ھێواش و لەسەرخۆ لە شوێنێکەوە بۆ شوێنێکی دیکە؛ گۆڕانێک یان پەرەسەندنێکی لەسەرەخۆ لە دۆخێکەوە بۆ دۆخێکی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He criticized the rightward drift of the party.",
             kurdishText: "ڕەخنەی لە چوونی پارتەکە بۆ ڕاستڕەوی گرت.",
@@ -609,7 +604,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) جوڵەی کەشتی یان فڕۆکە دوور لە ئاراستەکەی بەھۆی باوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Remember to allow for drift.",
             kurdishText: "بیرت بێت حساب بۆ بایەکە بکە.",
@@ -630,7 +624,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٩. (ناو) تۆپەڵێکی گەورە لە شتێک، بەتایبەتی بەفر، کە بەھۆی باوە درووست بووە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The road was blocked by deep drifts of snow.",
             kurdishText: "ڕێگاکە داخراو بوو بەھۆی تۆپەڵبوونی گەورەی بەفرەوە.",
@@ -640,7 +633,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (ناو) ڕێژەیەکی زۆر لە شتێک، بەتایبەتی گوڵ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Plant daffodils in informal drifts.",
             kurdishText: "نێرگزەکان لە گرووپی ناڕێکدا بچێنە.",
@@ -650,7 +642,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ناو) واتای گشتی شتێک کە کەسێک دەیڵێت یان دەینووسێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Do you catch my drift?",
             kurdishText: "کاکڵی قسەکەم وەرگرتم؟",
@@ -666,12 +657,8 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrifts19("en-GB"),
             onPressedAmerican: () => speakdrifts19("en-US"),
           ),
-          // drifts_2000"),
-          // drifts20
-          // drifts2100"),
-          // drifts21
-          // drifts2200"),
-          // drifts22("en-US"),
+          // drifts_20drifts20
+          // drifts21drifts21
         ],
       ),
     );

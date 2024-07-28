@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێبوردە، لێ‌خۆشبوو، بەخشەر، چاوپۆش، بەبەزەیی، دڵنەرم، دڵۆڤان
 """),
-// With short examples define "forgiving", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە ئامادەی بەخشینە"""),
                     SentencesRow(
@@ -267,7 +266,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '4brrubUsqB0';
 const double _startSecondsend = 215;
 const String _videoIdone = 'iq6_iUhLHo4';

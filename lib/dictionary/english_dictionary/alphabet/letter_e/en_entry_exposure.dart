@@ -296,7 +296,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Three of the men died of exposure.""");
   }
 
-// With short examples define "exposure", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

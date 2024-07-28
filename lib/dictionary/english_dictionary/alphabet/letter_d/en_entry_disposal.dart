@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) فرۆشتنی بەشێک لە بازرگانییەک، زەوییەک، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The next step is to think about disposal of your assets.",
@@ -271,44 +270,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisposals3("en-GB"),
             onPressedAmerican: () => speakdisposals3("en-US"),
           ),
-          // disposals400"),
-          // disposals4
-          // disposals500"),
-          // disposals5
-          // disposals600"),
-          // disposals6
-          // disposals700"),
-          // disposals7
-          // disposals800"),
-          // disposals8
-          // disposals900"),
-          // disposals9
-          // disposals_1000"),
-          // disposals10
-          // disposals1100"),
-          // disposals11
-          // disposals1200"),
-          // disposals12
-          // disposals1300"),
-          // disposals13
-          // disposals1400"),
-          // disposals14
-          // disposals1500"),
-          // disposals15
-          // disposals1600"),
-          // disposals16
-          // disposals1700"),
-          // disposals17
-          // disposals1800"),
-          // disposals18
-          // disposals1900"),
-          // disposals19
-          // disposals_2000"),
-          // disposals20
-          // disposals2100"),
-          // disposals21
-          // disposals2200"),
-          // disposals22("en-US"),
+          // disposals4disposals4
+          // disposals5disposals5
+          // disposals6disposals6
+          // disposals7disposals7
+          // disposals8disposals8
+          // disposals9disposals9
+          // disposals_10disposals10
+          // disposals11disposals11
+          // disposals12disposals12
+          // disposals13disposals13
+          // disposals14disposals14
+          // disposals15disposals15
+          // disposals16disposals16
+          // disposals17disposals17
+          // disposals18disposals18
+          // disposals19disposals19
+          // disposals_20disposals20
+          // disposals21disposals21
         ],
       ),
     );

@@ -381,46 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdungs2("en-GB"),
             onPressedAmerican: () => speakdungs2("en-US"),
           ),
-          // dungs300
-          // dungs3("en-US"""),
-          // dungs400
-          // dungs4("en-US"""),
-          // dungs500
-          // dungs5("en-US"""),
-          // dungs600
-          // dungs6("en-US"""),
-          // dungs700
-          // dungs7("en-US"""),
-          // dungs800
-          // dungs8("en-US"""),
-          // dungs900
-          // dungs9("en-US"""),
-          // dungs_1000
-          // dungs10("en-US"""),
-          // dungs1100
-          // dungs11("en-US"""),
-          // dungs1200
-          // dungs12("en-US"""),
-          // dungs1300
-          // dungs13("en-US"""),
-          // dungs1400
-          // dungs14("en-US"""),
-          // dungs1500
-          // dungs15("en-US"""),
-          // dungs1600
-          // dungs16("en-US"""),
-          // dungs1700
-          // dungs17("en-US"""),
-          // dungs1800
-          // dungs18("en-US"""),
-          // dungs1900
-          // dungs19("en-US"""),
-          // dungs_2000
-          // dungs20("en-US"""),
-          // dungs2100
-          // dungs21("en-US"""),
-          // dungs2200
-          // dungs22("en-US"""),
         ],
       ),
     );

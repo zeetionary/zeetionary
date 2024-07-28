@@ -282,7 +282,6 @@ class KurdishMeaning extends StatelessWidget {
         """His visit facilitated the establishment of diplomatic relations between the countries.""");
   }
 
-// With short examples define "establishment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

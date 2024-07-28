@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The riot police swooped in and chaos ensued.""");
   }
 
-// With short examples define "ensue", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

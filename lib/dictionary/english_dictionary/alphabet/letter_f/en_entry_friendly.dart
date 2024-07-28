@@ -247,7 +247,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی:  دڵسۆز، گەرم‌وگوڕ، دۆستانە، برایانە، خۆشەویستانە، دۆست، خۆشەویستی، دۆستایەتی، ھەڤاڵەتی، برایەتی، دڵسۆزی
 """),
-// With short examples define "friendly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) ڕەفتارکردن بە ھاوڕێیانە"""),
                     SentencesRow(
@@ -431,7 +430,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 310;
 const String _videoIdone = '4J0xFUyz1nw';

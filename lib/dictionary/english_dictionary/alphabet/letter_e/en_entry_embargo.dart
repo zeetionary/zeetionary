@@ -405,7 +405,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) قەدەغەکردنی فەرمیی چالاکییەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """There is a complete embargo on taking photographs in court.""",
@@ -417,7 +416,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بە فەرمی قەدەغەکردنی بازرگانی لەگەڵ وڵاتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """There have been calls to embargo all arms shipments to the region.""",
@@ -429,7 +427,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) بە فەرمی قەدەغەکردنی بڵاوکردنەوەی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The report is strictly embargoed for publication until Friday.""",
@@ -438,119 +435,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembargos5("en-GB"),
             onPressedAmerican: () => speakembargos5("en-US"),
           ),
-          // embargos600embargos6
-          // speakembargos6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos700embargos7
-          // speakembargos7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos800embargos8
-          // speakembargos8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos900embargos9
-          // speakembargos9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos_1000embargos10
-          // speakembargos10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1100embargos11
-          // speakembargos11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1200embargos12
-          // speakembargos12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1300embargos13
-          // speakembargos13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1400embargos14
-          // speakembargos14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1500embargos15
-          // speakembargos15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1600embargos16
-          // speakembargos16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1700embargos17
-          // speakembargos17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1800embargos18
-          // speakembargos18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos1900embargos19
-          // speakembargos19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos_2000embargos20
-          // speakembargos20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos2100embargos21
-          // speakembargos21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embargos2200embargosembargos
+          // speakembargos21embargos2200embargosembargos
         ],
       ),
     );

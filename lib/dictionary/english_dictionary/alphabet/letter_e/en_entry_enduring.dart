@@ -256,8 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """It's perhaps the only enduring work of art from the period.""");
   }
 
-// With short examples define "enduring", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

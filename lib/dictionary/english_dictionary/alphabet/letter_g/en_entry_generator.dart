@@ -90,22 +90,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The factory's emergency generators were used during the power cut.""");
+    await flutterTts.speak(
+        """The factory's emergency generators were used during the power cut.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The wind generator delivers 120 watts in a strong breeze.""");
+    await flutterTts
+        .speak("""The wind generator delivers 120 watts in a strong breeze.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The museum uses smells and smoke generators to create atmosphere.""");
+    await flutterTts.speak(
+        """The museum uses smells and smoke generators to create atmosphere.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -780,11 +782,13 @@ ${englishMeaningConst.text}
 کوردی: بەرهەم‌هێنە، پێکهێنەر، کۆمپانی دەزگای بەرهەم‌هێنانی وزەی ئێلیکتریسیتە، داینەمۆ
 """),
 // With short examples define "generator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ئامێرێک کە کارەبا بەرهەم دەهێنێت"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئامێرێک کە کارەبا بەرهەم دەهێنێت"""),
                     SentencesRow(
                       englishText:
                           """The factory's emergency generators were used during the power cut.""",
-                      kurdishText: """مۆلیدە فریاگوزارییەکانی کارگەکە بەکارهاتن لەو ماوەیەی پچڕانی کارەبا.""",
+                      kurdishText:
+                          """مۆلیدە فریاگوزارییەکانی کارگەکە بەکارهاتن لەو ماوەیەی پچڕانی کارەبا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -792,17 +796,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The wind generator delivers 120 watts in a strong breeze.""",
-                      kurdishText: """بەرهەمهێنەرە باییەکە ١٢٠ وات لە بایەکی بەهێزدا بەرهەم دەهێنێت.""",
+                      englishText:
+                          """The wind generator delivers 120 watts in a strong breeze.""",
+                      kurdishText:
+                          """بەرهەمهێنەرە باییەکە ١٢٠ وات لە بایەکی بەهێزدا بەرهەم دەهێنێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ئامێرێک بۆ بەرهەمهێنانی شتێک"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ئامێرێک بۆ بەرهەمهێنانی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The museum uses smells and smoke generators to create atmosphere.""",
-                      kurdishText: """مۆزەخانەکە بەرهەمهێندەری دووکەڵ و بۆن بەکار دەهێنێت بۆ درووستکردنی کەشێک.""",
+                      englishText:
+                          """The museum uses smells and smoke generators to create atmosphere.""",
+                      kurdishText:
+                          """مۆزەخانەکە بەرهەمهێندەری دووکەڵ و بۆن بەکار دەهێنێت بۆ درووستکردنی کەشێک.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1602,7 +1611,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/-cPdImejxEQ';
 const double _startSecondsend = 0;
 const String _videoIdone = 'https://youtu.be/DxL2HoqLbyA?t=';

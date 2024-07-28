@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He confessed to having an extramarital affair.""");
   }
 
-// With short examples define "extramarital", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

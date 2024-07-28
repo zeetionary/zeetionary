@@ -96,8 +96,7 @@ class EnglishEntrybackdate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backdate"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backdate"),
                             // divvviiider
                           ],
                         ),

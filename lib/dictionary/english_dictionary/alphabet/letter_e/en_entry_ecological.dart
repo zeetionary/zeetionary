@@ -366,27 +366,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakecologicals1("en-GB"),
             onPressedAmerican: () => speakecologicals1("en-US"),
           ),
-          // ecologicals200ecologicals2
-          // ecologicals300ecologicals3
-          // ecologicals400ecologicals4
-          // ecologicals500ecologicals5
-          // ecologicals600ecologicals6
-          // ecologicals700ecologicals7
-          // ecologicals800ecologicals8
-          // ecologicals900ecologicals9
-          // ecologicals_1000ecologicals10
-          // ecologicals1100ecologicals11
-          // ecologicals1200ecologicals12
-          // ecologicals1300ecologicals13
-          // ecologicals1400ecologicals14
-          // ecologicals1500ecologicals15
-          // ecologicals1600ecologicals16
-          // ecologicals1700ecologicals17
-          // ecologicals1800ecologicals18
-          // ecologicals1900ecologicals19
-          // ecologicals_2000ecologicals20
-          // ecologicals2100ecologicals21
-          // ecologicals2200ecologicalsecologicals
         ],
       ),
     );

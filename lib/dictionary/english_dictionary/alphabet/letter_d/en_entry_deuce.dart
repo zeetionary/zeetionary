@@ -258,46 +258,10 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdeuces2("en-GB"),
             onPressedAmerican: () => speakdeuces2("en-US"),
           ),
-          // deuces300"),
-          // deuces3
-          // deuces400"),
-          // deuces4
-          // deuces500"),
-          // deuces5
-          // deuces600"),
-          // deuces6
-          // deuces700"),
-          // deuces7("en-US"),
-          // deuces800"),
-          // deuces8("en-US"),
-          // deuces900"),
-          // deuces9("en-US"),
-          // deuces1000"),
-          // deuces10("en-US"),
-          // deuces1100"),
-          // deuces11("en-US"),
-          // deuces1200"),
-          // deuces12("en-US"),
-          // deuces1300"),
-          // deuces13("en-US"),
-          // deuces1400"),
-          // deuces14("en-US"),
-          // deuces1500"),
-          // deuces15("en-US"),
-          // deuces1600"),
-          // deuces16("en-US"),
-          // deuces1700"),
-          // deuces17("en-US"),
-          // deuces1800"),
-          // deuces18("en-US"),
-          // deuces1900"),
-          // deuces19("en-US"),
-          // "What the deuce is he doing?0"),
-          // deuces20("en-US"),
-          // deuces2100"),
-          // deuces21("en-US"),
-          // deuces2200"),
-          // deuces22("en-US"),
+          // deuces3deuces3
+          // deuces4deuces4
+          // deuces5deuces5
+          // deuces6deuces6
         ],
       ),
     );

@@ -367,27 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectrodes1("en-GB"),
             onPressedAmerican: () => speakelectrodes1("en-US"),
           ),
-          // electrodes200electrodes2
-          // electrodes300electrodes3
-          // electrodes400electrodes4
-          // electrodes500electrodes5
-          // electrodes600electrodes6
-          // electrodes700electrodes7
-          // electrodes800electrodes8
-          // electrodes900electrodes9
-          // electrodes_1000electrodes10
-          // electrodes1100electrodes11
-          // electrodes1200electrodes12
-          // electrodes1300electrodes13
-          // electrodes1400electrodes14
-          // electrodes1500electrodes15
-          // electrodes1600electrodes16
-          // electrodes1700electrodes17
-          // electrodes1800electrodes18
-          // electrodes1900electrodes19
-          // electrodes_2000electrodes20
-          // electrodes2100electrodes21
-          // electrodes2200electrodeselectrodes
         ],
       ),
     );

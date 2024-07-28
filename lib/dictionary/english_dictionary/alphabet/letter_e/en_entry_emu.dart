@@ -259,7 +259,6 @@ class KurdishMeaning extends StatelessWidget {
                 """Emus grow to almost two metres and can run at nearly 50 kph.""",
             kurdishText:
                 """ئێمیو تاوەکو نزیکەی دوو مەتر بەرز دەبن و دەتوانن تاوەکو ٥٠ کیلۆمەتر لە کاتژمێرێکدا ڕابکەن.""",
-// With short examples define "emu", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

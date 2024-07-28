@@ -319,7 +319,6 @@ class KurdishMeaning extends StatelessWidget {
         """We got estimates from three firms and accepted the lowest.""");
   }
 
-// With short examples define "estimate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

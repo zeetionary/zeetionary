@@ -130,9 +130,7 @@ class EnglishEntrybaytree extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DefinitionKurdish(text: """
 ١. (ناو) دارێکی بچووک کە گەڵای سەوزی تاریکی ھەیە لەگەڵ بۆنێکی خۆش کە لە خواردندا بەکاردێت"""),

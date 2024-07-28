@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Flies were feasting on the rotting flesh.""");
   }
 
-// With short examples define "feast", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

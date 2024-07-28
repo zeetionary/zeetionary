@@ -268,7 +268,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""What if the UK had joined the Euro in 1999?""");
   }
 
-// With short examples define "euro", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

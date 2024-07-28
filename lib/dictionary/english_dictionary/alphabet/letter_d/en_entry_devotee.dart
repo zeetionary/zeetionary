@@ -265,51 +265,30 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێکی زۆر ئایینی کە سەر بە گرووپێکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The temple was filled with devotees of Krishna.",
             kurdishText: "پەرستگاکە پڕبوو لە مریدەکانی خواوەند کریشنا.",
             onPressedBritish: () => speakdevotees3("en-GB"),
             onPressedAmerican: () => speakdevotees3("en-US"),
           ),
-          // devotees400"),
-          // devotees4
-          // devotees500"),
-          // devotees5
-          // devotees600"),
-          // devotees6
-          // devotees700"),
-          // devotees7
-          // devotees800"),
-          // devotees8
-          // devotees900"),
-          // devotees9
-          // "// speakdevotees1000000000000000000000000000000000"),
-          // devotees10
-          // devotees1100"),
-          // devotees11
-          // devotees1200"),
-          // devotees12
-          // devotees1300"),
-          // devotees13
-          // devotees1400"),
-          // devotees14
-          // devotees1500"),
-          // devotees15
-          // devotees1600"),
-          // devotees16
-          // devotees1700"),
-          // devotees17
-          // devotees1800"),
-          // devotees18
-          // devotees1900"),
-          // devotees19
-          // devotees_2000"),
-          // devotees20
-          // devotees2100"),
-          // devotees21
-          // devotees2200"),
-          // devotees22("en-US"),
+          // devotees4devotees4
+          // devotees5devotees5
+          // devotees6devotees6
+          // devotees7devotees7
+          // devotees8devotees8
+          // devotees9devotees9
+          // "// speakdevotees10000000000000000000000000000000devotees10
+          // devotees11devotees11
+          // devotees12devotees12
+          // devotees13devotees13
+          // devotees14devotees14
+          // devotees15devotees15
+          // devotees16devotees16
+          // devotees17devotees17
+          // devotees18devotees18
+          // devotees19devotees19
+          // devotees_20devotees20
+          // devotees21devotees21
         ],
       ),
     );

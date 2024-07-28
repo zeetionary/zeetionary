@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She appointed him executor of her will.""");
   }
 
-// With short examples define "executor", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

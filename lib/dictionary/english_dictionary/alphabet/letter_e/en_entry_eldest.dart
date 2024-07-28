@@ -373,33 +373,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) بۆ پیشاندانی بەتەمەنترینی سێ کەس یان زیاتر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He was the eldest of four kids.""",
             kurdishText: """بەتەمەنترینی چوار منداڵ بوو.""",
             onPressedBritish: () => speakeldests2("en-GB"),
             onPressedAmerican: () => speakeldests2("en-US"),
           ),
-          // eldests300eldests3
-          // eldests400eldests4
-          // eldests500eldests5
-          // eldests600eldests6
-          // eldests700eldests7
-          // eldests800eldests8
-          // eldests900eldests9
-          // eldests_1000eldests10
-          // eldests1100eldests11
-          // eldests1200eldests12
-          // eldests1300eldests13
-          // eldests1400eldests14
-          // eldests1500eldests15
-          // eldests1600eldests16
-          // eldests1700eldests17
-          // eldests1800eldests18
-          // eldests1900eldests19
-          // eldests_2000eldests20
-          // eldests2100eldests21
-          // eldests2200eldestseldests
         ],
       ),
     );

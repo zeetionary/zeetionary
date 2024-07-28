@@ -98,8 +98,7 @@ class EnglishEntrybackstage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backstage"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backstage"),
                             // divvviiider
                           ],
                         ),

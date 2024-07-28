@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درۆزن، چاپ‌وچووپ‌باز، خۆھەڵکێش، فشەبڵە، فشەچی، ھاڕەوگیفەکەر
 """),
-// With short examples define "fibber", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەسێک کە درۆ دەکات"""),
                     SentencesRow(
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'IFk2cbYy6po';
 const double _startSecondsend = 61;
 const String _videoIdone = '_4xyf0fOd4I';

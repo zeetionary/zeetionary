@@ -396,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) وازھێنان لە شتێک بەھۆی ئەوەی کە ناتەوێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He ditched his girlfriend.",
             kurdishText: "وازی لە کچە دۆستەکەی ھێنا.",

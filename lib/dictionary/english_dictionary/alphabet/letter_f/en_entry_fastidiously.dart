@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Henry was fastidiously clean by the standards of the age.""");
   }
 
-// With short examples define "fastidiously", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -375,33 +375,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) نایاب؛ کە شایەنی تێبینی کردنە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """This shows eminent good sense.""",
             kurdishText: """ئەمە تێگەشتنی نایاب پیشان دەدات.""",
             onPressedBritish: () => speakeminents2("en-GB"),
             onPressedAmerican: () => speakeminents2("en-US"),
           ),
-          // eminents300eminents3
-          // eminents400eminents4
-          // eminents500eminents5
-          // eminents600eminents6
-          // eminents700eminents7
-          // eminents800eminents8
-          // eminents900eminents9
-          // eminents_1000eminents10
-          // eminents1100eminents11
-          // eminents1200eminents12
-          // eminents1300eminents13
-          // eminents1400eminents14
-          // eminents1500eminents15
-          // eminents1600eminents16
-          // eminents1700eminents17
-          // eminents1800eminents18
-          // eminents1900eminents19
-          // eminents_2000eminents20
-          // eminents2100eminents21
-          // eminents2200eminentseminents
         ],
       ),
     );

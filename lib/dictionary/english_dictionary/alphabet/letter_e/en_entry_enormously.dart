@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She was looking forward to the meeting enormously.""");
   }
 
-// With short examples define "enormously", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

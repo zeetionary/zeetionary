@@ -217,7 +217,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flatten", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) تەخت بوون"""),
                     SentencesRow(
                       englishText:
@@ -371,7 +370,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'h0IPcqF2q9U';
 const double _startSecondsend = 448;
 const String _videoIdone = 'toVfvRhWbj8';

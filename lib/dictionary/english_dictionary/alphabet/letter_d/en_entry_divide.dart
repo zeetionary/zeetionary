@@ -612,7 +612,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بەش‌بەشکردنی شتێک و دابەشکردنی بەسەر ژمارەیەک کەسدا "),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They could not agree on how to divide the land.",
             kurdishText:
@@ -652,7 +651,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بەکارھێنانی بەشە جیاوازەکانی کاتت، وزەت، ھتد بۆ چالاکی و کاری جیاواز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "As working parents we think carefully about how we divide our time.",
@@ -680,7 +678,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) دابەش بوون بەسەر دوو بەش یان زیاتر کە بە ئاراستەی جیاوازدا دەچن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Where the path divides, keep right.",
             kurdishText: "لەو شوێنەی ڕێگاکە جیادەبێتەوە، بە ڕاستدا بچۆ.",
@@ -697,7 +694,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) جیاکردنەوەی دوو شت یان کەس"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Can it ever be right to divide a mother from her child?",
@@ -709,7 +705,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بوون بە خاڵی جیاکەرەوەی دوو شت یان کەس"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A fence divides off the western side of the grounds.",
             kurdishText: "پەرژینێک لای ڕۆژئاوای زەوییەکان جیادەکاتەوە.",
@@ -727,7 +722,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (کردار) دابەشکردن؛ دۆزینەوەی ئەوەی ژمارەیەک چەند جار ژمارەیەکی دیکە لەخۆدەگرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "It's easy to divide by ten.",
             kurdishText: "ئاسانە بەسەر ١٠ ـدا دابەش بکەیت.",
@@ -753,7 +747,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٨. (کردار) کە دەکرێت لێکبدرێت بۆ بەدەستھێنانی ژمارەیەکی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "5 divides into 30 6 times.",
             kurdishText: "٥ شەش جار بەسەر ٣٠ ـدا دابەش دەکرێت.",
@@ -763,7 +756,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (کردار) وا لە خەڵکی بکەیت ناکۆک بن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "This issue has bitterly divided the community.",
             kurdishText: "ئەم بابەتە بە توندی کۆمەڵگەکەی دابەش کردووە.",
@@ -789,7 +781,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٠. (ناو) جیاوازییەک کە دوو کەس یان شت لە یەکدی جیادەکاتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He offered advice on bridging cultural divides.",
             kurdishText:
@@ -806,46 +797,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdivides28("en-GB"),
             onPressedAmerican: () => speakdivides28("en-US"),
           ),
-          // divides2900"),
-          // divides29
-          // divides_3000"),
-          // divides30
-          // divides3100"),
-          // divides31
-          // divides3200"),
-          // divides32
-          // divides3300"),
-          // divides33
-          // divides3400"),
-          // divides34
-          // divides3500"),
-          // divides35
-          // divides3600"),
-          // divides36
-          // divides3700"),
-          // divides37
-          // divides3800"),
-          // divides38
-          // divides3900"),
-          // divides39
-          // divides_4000"),
-          // divides40
-          // divides4100"),
-          // divides41
-          // divides4200"),
-          // divides42
-          // divides4300"),
-          // divides43
-          // divides4400"),
-          // divides44
-          // divides4500"),
-          // divides45
-          // divides4600"),
-          // divides46
-          // divides4700"),
-          // divides47
-          // divides4800"),
-          // divides48("en-US"),
+          // divides29divides29
+          // divides_30divides30
+          // divides31divides31
+          // divides32divides32
+          // divides33divides33
+          // divides34divides34
+          // divides35divides35
+          // divides36divides36
+          // divides37divides37
+          // divides38divides38
+          // divides39divides39
+          // divides_40divides40
+          // divides41divides41
+          // divides42divides42
+          // divides43divides43
+          // divides44divides44
+          // divides45divides45
+          // divides46divides46
+          // divides47divides47
         ],
       ),
     );

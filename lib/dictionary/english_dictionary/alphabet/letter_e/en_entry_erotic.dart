@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""There were some overtly erotic scenes in the film.""");
   }
 
-// With short examples define "erotic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

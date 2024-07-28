@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The company fabricates and sells steel.""");
   }
 
-// With short examples define "fabricate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

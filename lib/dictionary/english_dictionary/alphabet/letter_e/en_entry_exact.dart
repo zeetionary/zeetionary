@@ -325,7 +325,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Stress can exact a high price from workers.""");
   }
 
-// With short examples define "exact", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

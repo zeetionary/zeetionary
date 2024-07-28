@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""A DNA test eventually led to his exoneration.""");
   }
 
-// With short examples define "exoneration", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

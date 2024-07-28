@@ -464,7 +464,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەمی تیژی چەقۆ، شمشێر، ھتد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Be careful—it has a sharp edge.""",
             kurdishText: """وریابە ـ دەمێکی تیژی ھەیە.""",
@@ -475,7 +474,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەو خاڵەی شتێک تێیدا رودەدات، بەتایبەتی شتێکی خراپ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """They had brought the country to the edge of disaster.""",
@@ -486,7 +484,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ئەوەی کە کەمێک لە پێش کەسێک یان شتێکەوەیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They have the edge on us.""",
             kurdishText: """لە پێشمانەوەن.""",
@@ -502,7 +499,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ناو) خاسیەتێکی بەھێز"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Her show now has a hard political edge to it.""",
             kurdishText: """بەرنامەکەی ئێستا خاسیەتێکی بەھێزی سیاسیی پێوەیە.""",
@@ -512,7 +508,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (کردار) جوڵان بەوریایی بە ئاراستەیەکدا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She edged a little closer to me.""",
             kurdishText: """کەمێک نزیکتر بوویەوە لێم.""",
@@ -536,7 +531,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (کردار) دانانی شتێک لە قەراغی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The handkerchief is edged with lace.""",
             kurdishText: """دەستەسڕەکە بە کوتاڵی تۆڕی لێودار کرابوو.""",
@@ -546,70 +540,13 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (کردار) کەمێک کەمبوون یان زیادبوون"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Prices edged up 2 per cent in the year.""",
             kurdishText: """نرخەکان ٢ لە سەد زیادیان کرد لە ساڵەکەدا .""",
             onPressedBritish: () => speakedges13("en-GB"),
             onPressedAmerican: () => speakedges13("en-US"),
           ),
-          // edges1400edges14
-          // speakedges14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges1500edges15
-          // speakedges15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges1600edges16
-          // speakedges16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges1700edges17
-          // speakedges17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges1800edges18
-          // speakedges18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges1900edges19
-          // speakedges19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges_2000edges20
-          // speakedges20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges2100edges21
-          // speakedges21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edges2200edgesedges
+          // speakedges21edges2200edgesedges
         ],
       ),
     );

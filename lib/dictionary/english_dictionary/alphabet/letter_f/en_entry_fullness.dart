@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەواوی، پڕی، تژێتی،	تێری،	ئاخنراوی، دارماڵی،	ھەراوی، فشی
 """),
-// With short examples define "fullness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) گەورەی و خڕی"""),
                     SentencesRow(
                       englishText:
@@ -269,7 +268,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Wao0_uB4Zw4';
 const double _startSecondsend = 478;
 const String _videoIdone = 'aTMsfOcHiJg';

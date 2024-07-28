@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) توانای مامەڵەکردن لەگەڵ خەڵکی لە دۆخی جیاوازدا بەبێ ئەوەی تووڕەیان بکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She was praised for her tact and diplomacy.",
             kurdishText: "پەسندرا و بۆ تێگەشتووی و کارزانیی.",
@@ -302,40 +301,22 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiplomacys5("en-GB"),
             onPressedAmerican: () => speakdiplomacys5("en-US"),
           ),
-          // diplomacys600"),
-          // diplomacys6
-          // diplomacys700"),
-          // diplomacys7
-          // diplomacys800"),
-          // diplomacys8
-          // diplomacys900"),
-          // diplomacys9
-          // diplomacys_1000"),
-          // diplomacys10
-          // diplomacys1100"),
-          // diplomacys11
-          // diplomacys1200"),
-          // diplomacys12
-          // diplomacys1300"),
-          // diplomacys13
-          // diplomacys1400"),
-          // diplomacys14
-          // diplomacys1500"),
-          // diplomacys15
-          // diplomacys1600"),
-          // diplomacys16
-          // diplomacys1700"),
-          // diplomacys17
-          // diplomacys1800"),
-          // diplomacys18
-          // diplomacys1900"),
-          // diplomacys19
-          // diplomacys_2000"),
-          // diplomacys20
-          // diplomacys2100"),
-          // diplomacys21
-          // diplomacys2200"),
-          // diplomacys22("en-US"),
+          // diplomacys6diplomacys6
+          // diplomacys7diplomacys7
+          // diplomacys8diplomacys8
+          // diplomacys9diplomacys9
+          // diplomacys_10diplomacys10
+          // diplomacys11diplomacys11
+          // diplomacys12diplomacys12
+          // diplomacys13diplomacys13
+          // diplomacys14diplomacys14
+          // diplomacys15diplomacys15
+          // diplomacys16diplomacys16
+          // diplomacys17diplomacys17
+          // diplomacys18diplomacys18
+          // diplomacys19diplomacys19
+          // diplomacys_20diplomacys20
+          // diplomacys21diplomacys21
         ],
       ),
     );

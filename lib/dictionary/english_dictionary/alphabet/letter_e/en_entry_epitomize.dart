@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""These movies seem to epitomize the 1950s.""");
   }
 
-// With short examples define "epitomize", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

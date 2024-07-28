@@ -80,9 +80,7 @@ class EnglishEntrycnd extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DividerDefinition(),
 //                           const KurdishVocabulary(text: """
@@ -104,8 +102,7 @@ class EnglishEntrycnd extends StatelessWidget {
                           //         ],
                           //       ),
                           //     ),
-                          //     const CustomSizedBoxForTTS(), // With short examples define "CND", please follow LX instructions
-                          //     Column(
+                          //     const CustomSizedBoxForTTS(),                           //     Column(
                           //       children: [
                           //         CustomIconButtonBritish(
                           //           onPressed: () => speakCNDs1("en-GB"),

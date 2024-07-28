@@ -319,7 +319,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The prosecution examined 20 witnesses.""");
   }
 
-// With short examples define "examine", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

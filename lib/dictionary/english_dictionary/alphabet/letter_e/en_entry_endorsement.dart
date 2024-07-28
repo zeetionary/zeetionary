@@ -309,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) لێدوانێک لە ڕیکلامێکدا کە تێیدا کەسێک پشتگیری بەرھەمێک دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """We are happy to give the product our full endorsement.""",

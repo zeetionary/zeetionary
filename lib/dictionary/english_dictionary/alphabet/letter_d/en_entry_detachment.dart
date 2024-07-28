@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کاریگەرنەبوون بە کەسانی دیکە و ھەستەکانی خۆت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The judges show impartiality and detachment.",
             kurdishText: "دادوەرەکان بێلایەنی و سەربەخۆییان پیشاندا.",
@@ -291,49 +290,14 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) گرووپێک سەرباز کە جیاکراونەتەوە لە یەکەی سەرەکی، زۆرجار بۆ ئەرکێکی تایبەت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A detachment of marines was left to guard the site.",
             kurdishText: "پۆلێک مارێنز ھێڵدرانەوە بۆ بەرگری لە شوێنەکە.",
             onPressedBritish: () => speakdetachments4("en-GB"),
             onPressedAmerican: () => speakdetachments4("en-US"),
           ),
-          // detachments500"),
-          // detachments5
-          // detachments600"),
-          // detachments6
-          // detachments700"),
-          // detachments7("en-US"),
-          // detachments800"),
-          // detachments8("en-US"),
-          // detachments900"),
-          // detachments9("en-US"),
-          // detachments1000"),
-          // detachments10("en-US"),
-          // detachments1100"),
-          // detachments11("en-US"),
-          // detachments1200"),
-          // detachments12("en-US"),
-          // detachments1300"),
-          // detachments13("en-US"),
-          // detachments1400"),
-          // detachments14("en-US"),
-          // detachments1500"),
-          // detachments15("en-US"),
-          // detachments1600"),
-          // detachments16("en-US"),
-          // detachments1700"),
-          // detachments17("en-US"),
-          // detachments1800"),
-          // detachments18("en-US"),
-          // detachments1900"),
-          // detachments19("en-US"),
-          // "She watched with complete detachment as the others made all the preparations.0"),
-          // detachments20("en-US"),
-          // detachments2100"),
-          // detachments21("en-US"),
-          // detachments2200"),
-          // detachments22("en-US"),
+          // detachments5detachments5
+          // detachments6detachments6
         ],
       ),
     );

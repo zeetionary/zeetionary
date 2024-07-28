@@ -172,7 +172,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەر ئاو دەکەوێ، لەسەر ئاو دەمێنێتەوە،	ناجێگیر، زوو زوو دەگۆڕدرێ، بگۆڕ، سەرکەوتە، سەراوکەوتە، مەلەون، سواراو،	بگۆڕ، لاداو لە شوێنی سروشتی خۆی،	گەڕۆک، جووڵۆک
 """),
-// With short examples define "floating", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە شوێنێکی جێگیری نییە"""),
                     SentencesRow(
@@ -258,7 +257,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FHJ3CMWnVxY';
 const double _startSecondsend = 43;
 const String _videoIdone = '0Anx3VQ2dcc';

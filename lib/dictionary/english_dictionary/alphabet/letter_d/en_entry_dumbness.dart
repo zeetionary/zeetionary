@@ -376,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لاڵی؛ نەبوونی توانای قسەکردن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Dumbness was seen as the logical consequence of being deaf.""",
@@ -384,46 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumbnesss2("en-GB"),
             onPressedAmerican: () => speakdumbnesss2("en-US"),
           ),
-          // dumbnesss300
-          // dumbnesss3("en-US"""),
-          // dumbnesss400
-          // dumbnesss4("en-US"""),
-          // dumbnesss500
-          // dumbnesss5("en-US"""),
-          // dumbnesss600
-          // dumbnesss6("en-US"""),
-          // dumbnesss700
-          // dumbnesss7("en-US"""),
-          // dumbnesss800
-          // dumbnesss8("en-US"""),
-          // dumbnesss900
-          // dumbnesss9("en-US"""),
-          // dumbnesss_1000
-          // dumbnesss10("en-US"""),
-          // dumbnesss1100
-          // dumbnesss11("en-US"""),
-          // dumbnesss1200
-          // dumbnesss12("en-US"""),
-          // dumbnesss1300
-          // dumbnesss13("en-US"""),
-          // dumbnesss1400
-          // dumbnesss14("en-US"""),
-          // dumbnesss1500
-          // dumbnesss15("en-US"""),
-          // dumbnesss1600
-          // dumbnesss16("en-US"""),
-          // dumbnesss1700
-          // dumbnesss17("en-US"""),
-          // dumbnesss1800
-          // dumbnesss18("en-US"""),
-          // dumbnesss1900
-          // dumbnesss19("en-US"""),
-          // dumbnesss_2000
-          // dumbnesss20("en-US"""),
-          // dumbnesss2100
-          // dumbnesss21("en-US"""),
-          // dumbnesss2200
-          // dumbnesss22("en-US"""),
         ],
       ),
     );

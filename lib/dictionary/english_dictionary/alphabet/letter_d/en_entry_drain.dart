@@ -535,7 +535,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) نەھێشتنی شلە لە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We had to drain the oil out of the engine.",
             kurdishText: "پێویست بوو ڕۆنەکە لە بزوێنەرەکە دەربکەین.",
@@ -600,12 +599,10 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بەتاڵکردنی شتێک بە خواردنەوەی ھەموو ئەوەی تێیدایە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "In one gulp, he drained the glass.",
             kurdishText: "بە یەک ھەڵقوڕان ھەموو گڵاسەکەی بەتاڵکرد.",
@@ -623,7 +620,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) لاوازکردن، ھەژارکردن، ھتد ــی کەسێک بە بردنی ھەموو توانا، پارە، ھتد ــی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "My mother's hospital expenses were slowly draining my income.",
@@ -649,7 +645,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ئاوەڕۆیەک کە زێرابی شلە دەگوازێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We had to call in a plumber to unblock the drain.",
             kurdishText:
@@ -667,7 +662,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) سەرە مەنھۆڵ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She used a drain strainer to prevent food from going down.",
@@ -680,7 +674,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (ناو) شتێک کە پارە، کات، ھتد ـێ زۆر بەکاردێنێت کە دەکرێت بۆ شتێکی بەکاربێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Military spending is a huge drain on the country's resources.",
@@ -689,8 +682,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrains21("en-GB"),
             onPressedAmerican: () => speakdrains21("en-US"),
           ),
-          // drains2200"),
-          // drains22("en-US"),
         ],
       ),
     );

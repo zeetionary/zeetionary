@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The country relies excessively on borrowing from abroad.""");
   }
 
-// With short examples define "excessively", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

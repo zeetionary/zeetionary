@@ -97,9 +97,7 @@ class EnglishEntryagonyaunt extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە لە ڕۆژنامە، گۆڤار، یان وێبسایتێک وەڵامی خەڵکی دەداتەوە و ڕاوێژیان پێدەدا لەسەر کێشەکانیان"""),

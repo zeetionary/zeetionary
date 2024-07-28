@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
         """It seemed to take an eternity for us to get to the hospital.""");
   }
 
-// With short examples define "eternity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

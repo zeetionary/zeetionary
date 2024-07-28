@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵڕەق، بێ‌بەزەیی، دڕندە، زاڵم، زۆردار، بێ‌بەزەیی‌یانە، شەیتانی،	سەخت، گران، دژوار،	زیرەکانە
 """),
-// With short examples define "fiendish", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) توند و ناخۆش"""),
                     SentencesRow(
                       englishText:
@@ -267,7 +266,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'd_fHun8jj2g';
 const double _startSecondsend = 985;
 const String _videoIdone = 'P1yGmJsipqg';

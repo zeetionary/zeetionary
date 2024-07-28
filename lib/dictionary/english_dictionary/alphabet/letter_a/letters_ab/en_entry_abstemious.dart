@@ -57,9 +57,7 @@ class EnglishEntryabstemious extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əbˈstiːmiəs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əbˈstiːmiəs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakabstemious("en-US"),
                             ),

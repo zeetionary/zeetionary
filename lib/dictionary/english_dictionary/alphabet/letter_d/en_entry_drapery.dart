@@ -384,48 +384,26 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // draperys200"),
-          // draperys2
-          // draperys300"),
-          // draperys3
-          // draperys400"),
-          // draperys4
-          // draperys500"),
-          // draperys5
-          // draperys600"),
-          // draperys6
-          // draperys700"),
-          // draperys7
-          // draperys800"),
-          // draperys8
-          // draperys900"),
-          // draperys9
-          // draperys_1000"),
-          // draperys10
-          // draperys1100"),
-          // draperys11
-          // draperys1200"),
-          // draperys12
-          // draperys1300"),
-          // draperys13
-          // draperys1400"),
-          // draperys14
-          // draperys1500"),
-          // draperys15
-          // draperys1600"),
-          // draperys16
-          // draperys1700"),
-          // draperys17
-          // draperys1800"),
-          // draperys18
-          // draperys1900"),
-          // draperys19
-          // draperys_2000"),
-          // draperys20
-          // draperys2100"),
-          // draperys21
-          // draperys2200"),
-          // draperys22("en-US"),
+          // draperys2draperys2
+          // draperys3draperys3
+          // draperys4draperys4
+          // draperys5draperys5
+          // draperys6draperys6
+          // draperys7draperys7
+          // draperys8draperys8
+          // draperys9draperys9
+          // draperys_10draperys10
+          // draperys11draperys11
+          // draperys12draperys12
+          // draperys13draperys13
+          // draperys14draperys14
+          // draperys15draperys15
+          // draperys16draperys16
+          // draperys17draperys17
+          // draperys18draperys18
+          // draperys19draperys19
+          // draperys_20draperys20
+          // draperys21draperys21
         ],
       ),
     );

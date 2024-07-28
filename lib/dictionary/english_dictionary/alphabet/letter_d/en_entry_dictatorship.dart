@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) وڵاتێک کە لەلایەن دیکتاتۆرێکەوە بەڕێوەدەبردرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Some of these countries are democracies and some are dictatorships.",
@@ -284,42 +283,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdictatorships4("en-GB"),
             onPressedAmerican: () => speakdictatorships4("en-US"),
           ),
-          // dictatorships500"),
-          // dictatorships5
-          // dictatorships600"),
-          // dictatorships6
-          // dictatorships700"),
-          // dictatorships7
-          // dictatorships800"),
-          // dictatorships8
-          // dictatorships900"),
-          // dictatorships9
-          // dictatorships_1000"),
-          // dictatorships10
-          // dictatorships1100"),
-          // dictatorships11
-          // dictatorships1200"),
-          // dictatorships12
-          // dictatorships1300"),
-          // dictatorships13
-          // dictatorships1400"),
-          // dictatorships14
-          // dictatorships1500"),
-          // dictatorships15
-          // dictatorships1600"),
-          // dictatorships16
-          // dictatorships1700"),
-          // dictatorships17
-          // dictatorships1800"),
-          // dictatorships18
-          // dictatorships1900"),
-          // dictatorships19
-          // dictatorships_2000"),
-          // dictatorships20
-          // dictatorships2100"),
-          // dictatorships21
-          // dictatorships2200"),
-          // dictatorships22("en-US"),
+          // dictatorships5dictatorships5
+          // dictatorships6dictatorships6
+          // dictatorships7dictatorships7
+          // dictatorships8dictatorships8
+          // dictatorships9dictatorships9
+          // dictatorships_10dictatorships10
+          // dictatorships11dictatorships11
+          // dictatorships12dictatorships12
+          // dictatorships13dictatorships13
+          // dictatorships14dictatorships14
+          // dictatorships15dictatorships15
+          // dictatorships16dictatorships16
+          // dictatorships17dictatorships17
+          // dictatorships18dictatorships18
+          // dictatorships19dictatorships19
+          // dictatorships_20dictatorships20
+          // dictatorships21dictatorships21
         ],
       ),
     );

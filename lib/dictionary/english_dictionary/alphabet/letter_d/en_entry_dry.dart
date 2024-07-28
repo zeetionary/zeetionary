@@ -602,7 +602,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بە بوونی کەمێک باران"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I hope it stays dry for our picnic.",
             kurdishText: "ھیوادارم کەم‌باران بێت بۆ سەفرەکەمان.",
@@ -628,7 +627,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) بەبێ چەوری سرووشتی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "This is a shampoo for dry hair.",
             kurdishText: "ئەمە شامپۆیەکە بۆ قژی وشک.",
@@ -637,7 +635,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) کە بەڵغەم درووست ناکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He had a dry hacking cough all night.",
             kurdishText: "تەواوی شەوەکە کۆکەڕەشەیەکی وشکی ھەبوو.",
@@ -648,7 +645,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) نانێک کە بە تەنھا دەخوردرێت بەبێ پەنیر، دۆشاو، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Breakfast consisted of dry bread and a cup of tea.",
             kurdishText: "نانی بەیانی لە نانەوشکە و پیاڵەیەک چا پێکھاتبوو.",
@@ -657,7 +653,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) کە شیرین نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "This wine is too dry for me.",
             kurdishText: "شەرابەکە زۆر بێ‌تامە بۆ من.",
@@ -667,7 +662,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ھاوەڵناو) گاڵتەیەک کە زیرەکانە و شاراوەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He was a man of few words with a dry sense of humour.",
@@ -678,7 +672,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (ھاوەڵناو) بەبێ پیشاندانی ھەست و سۆز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He replied in a cold, dry manner.",
             kurdishText: "بەشێوەیەکی ساردوسڕ و وشک وەڵامی دایەوە.",
@@ -687,7 +680,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ھاوەڵناو) کە سەرنجڕاکێش نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Government reports tend to make dry reading.",
             kurdishText: "ڕاپۆرتەکانی حکومەت وا دەکەن خوێندنەوە ماندووکەر بێت.",
@@ -696,7 +688,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ھاوەڵناو) بەبێ کحوول"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He's been dry (= has drunk no alcohol) for a year now.",
@@ -707,7 +698,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ھاوەڵناو) تینوو؛ کە تینووت دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm a bit dry.",
             kurdishText: "کەمێک تینووم.",
@@ -723,7 +713,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (ناو) شوێنێکی وشک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You must be so wet! Come into the dry.",
             kurdishText: "دەبێت زۆر تەڕ بیت! وەرە وشکاییەکە.",
@@ -732,7 +721,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٣. (ناو) وەرزی وشکێتی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The dry had started and the grass was turning yellow.",
@@ -742,7 +730,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٤. (کردار) وشکبوون"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He did the laundry and hung it out to dry.",
             kurdishText: "جلەکانی شووشت و ھەڵیواسین تاوەکو وشکببنەوە.",
@@ -770,34 +757,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrys27("en-GB"),
             onPressedAmerican: () => speakdrys27("en-US"),
           ),
-          // drys2800"),
-          // drys28("en-US"),
-          // drys2900"),
-          // drys29("en-US"),
-          // drys_3000"),
-          // drys30("en-US"),
-          // drys3100"),
-          // drys31("en-US"),
-          // drys3200"),
-          // drys32("en-US"),
-          // drys3300"),
-          // drys33("en-US"),
-          // drys3400"),
-          // drys34("en-US"),
-          // drys3500"),
-          // drys35("en-US"),
-          // drys3600"),
-          // drys36("en-US"),
-          // drys3700"),
-          // drys37("en-US"),
-          // drys3800"),
-          // drys38("en-US"),
-          // drys3900"),
-          // drys39("en-US"),
-          // drys_4000"),
-          // drys40("en-US"),
-          // drys4100"),
-          // drys41("en-US"),
         ],
       ),
     );

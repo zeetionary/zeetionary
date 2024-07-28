@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""His argument is based on fallacious reasoning.""");
   }
 
-// With short examples define "fallacious", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

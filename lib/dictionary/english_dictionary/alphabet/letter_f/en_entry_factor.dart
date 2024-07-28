@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
         """The real wage of the average worker has increased by a factor of over ten in the last 70 years.""");
   }
 
-// With short examples define "factor", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

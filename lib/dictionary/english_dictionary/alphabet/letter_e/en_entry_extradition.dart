@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""His lawyers say he plans to fight extradition.""");
   }
 
-// With short examples define "extradition", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

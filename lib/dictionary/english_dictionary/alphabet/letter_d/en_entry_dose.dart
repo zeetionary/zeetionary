@@ -424,7 +424,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بڕێک لە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Workers at the nuclear plant were exposed to high doses of radiation.",
@@ -443,7 +442,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) پێدان یان وەرگرتنی ژەمە دەرمانێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She dosed herself up with vitamin pills.",
             kurdishText: "حەبە ڤیتامینەکانیی خوارد.",
@@ -457,36 +455,20 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoses7("en-GB"),
             onPressedAmerican: () => speakdoses7("en-US"),
           ),
-          // doses800"),
-          // doses8
-          // doses900"),
-          // doses9
-          // doses_1000"),
-          // doses10
-          // doses1100"),
-          // doses11
-          // doses1200"),
-          // doses12
-          // doses1300"),
-          // doses13
-          // doses1400"),
-          // doses14
-          // doses1500"),
-          // doses15
-          // doses1600"),
-          // doses16
-          // doses1700"),
-          // doses17
-          // doses1800"),
-          // doses18
-          // doses1900"),
-          // doses19
-          // doses_2000"),
-          // doses20
-          // doses2100"),
-          // doses21
-          // doses2200"),
-          // doses22("en-US"),
+          // doses8doses8
+          // doses9doses9
+          // doses_10doses10
+          // doses11doses11
+          // doses12doses12
+          // doses13doses13
+          // doses14doses14
+          // doses15doses15
+          // doses16doses16
+          // doses17doses17
+          // doses18doses18
+          // doses19doses19
+          // doses_20doses20
+          // doses21doses21
         ],
       ),
     );

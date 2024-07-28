@@ -334,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""This house isn't big enough for us.0""");
   }
 
-// With short examples define "enough", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -345,7 +344,9 @@ class KurdishMeaning extends StatelessWidget {
           const KurdishVocabulary(text: """
 کوردی: بە ڕادەی پێویست،	بەش‌کردوو، تەواو، بەس، ئەندازە، سەروزیاد
 """),
-          const DefinitionKurdish(text: """١. (دیارخەر) لە پێش ناوی کۆ یان نەژمێردراو بەکاردێت بۆ گوتنی 'ئەوەندەی کە پێویستە یان دەویسترێت'"""),
+          const DefinitionKurdish(
+              text:
+                  """١. (دیارخەر) لە پێش ناوی کۆ یان نەژمێردراو بەکاردێت بۆ گوتنی 'ئەوەندەی کە پێویستە یان دەویسترێت'"""),
           SentencesRow(
             englishText: """Have you made enough copies?""",
             kurdishText: """بەشی پێویست کۆپیت درووست کردووە؟""",

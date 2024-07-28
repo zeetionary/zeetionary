@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: موو، تووک، نەرمەتووک، کوڵکە، پرزە، پڕووش،	گەندەموو، مووی گووگرە
 """),
-// With short examples define "fuzz", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) موو یان فەرووی نەرمی کورت کە شتێک دادەپۆشێت؛ ڕێژەیەکی زۆر لە مووی لوول"""),
@@ -289,7 +288,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'C1oxhniG_Fc';
 const double _startSecondsend = 1150;
 const String _videoIdone = 'apDoJkfR85A';

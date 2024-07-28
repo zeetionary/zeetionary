@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He used his position to enrich himself.""");
   }
 
-// With short examples define "enrich", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

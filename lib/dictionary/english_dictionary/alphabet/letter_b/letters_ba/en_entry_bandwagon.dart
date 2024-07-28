@@ -95,8 +95,7 @@ class EnglishEntrybandwagon extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bandwagon"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bandwagon"),
                             // divvviiider
                           ],
                         ),

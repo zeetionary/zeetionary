@@ -95,8 +95,7 @@ class EnglishEntrybacon extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bacon"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bacon"),
                             // divvviiider
                           ],
                         ),

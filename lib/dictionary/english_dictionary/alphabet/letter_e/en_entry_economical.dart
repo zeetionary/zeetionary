@@ -406,7 +406,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە زیاتر لە پێویست خەرج ناکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """This arrangement is more economical with space.""",
             kurdishText: """ئەم ڕێکخستنە شوێنی کەمتری پێویستە.""",
@@ -425,29 +424,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە پارەی زیاد لە پێویست خەرج ناکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He was economical in all areas of his life.""",
             kurdishText: """نادەسبڵاو بوو لە ھەموو لایەنەکانی ژیانی.""",
             onPressedBritish: () => speakeconomicals5("en-GB"),
             onPressedAmerican: () => speakeconomicals5("en-US"),
           ),
-          // economicals600economicals6
-          // economicals700economicals7
-          // economicals800economicals8
-          // economicals900economicals9
-          // economicals_1000economicals10
-          // economicals1100economicals11
-          // economicals1200economicals12
-          // economicals1300economicals13
-          // economicals1400economicals14
-          // economicals1500economicals15
-          // economicals1600economicals16
-          // economicals1700economicals17
-          // economicals1800economicals18
-          // economicals1900economicals19
-          // economicals_2000economicals20
-          // economicals2100economicals21
           // economicals2200economicalseconomicals
         ],
       ),

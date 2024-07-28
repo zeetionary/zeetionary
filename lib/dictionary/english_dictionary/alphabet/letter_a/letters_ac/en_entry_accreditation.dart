@@ -44,9 +44,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "accreditation"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accreditation"),
                           ],
                         ),
                         Row(
@@ -59,9 +57,7 @@ class EnglishEntryaccreditation extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˌkredɪˈteɪʃn/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˌkredɪˈteɪʃn/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccreditation("en-US"),
                             ),

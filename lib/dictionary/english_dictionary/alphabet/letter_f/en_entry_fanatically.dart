@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The band has a fanatically loyal following.""");
   }
 
-// With short examples define "fanatically", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

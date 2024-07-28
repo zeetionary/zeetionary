@@ -773,7 +773,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "gelignite", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) مادەیەکی تەقەمەنیی زۆر بەهێز"""),
                     SentencesRow(
@@ -1598,7 +1597,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/2gtS8r4jXdM?t=';
 const double _startSecondsend = 00000000000000000000000000016;
 const String _videoIdone = 'https://youtu.be/E14SSjLD4po?t=';

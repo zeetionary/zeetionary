@@ -95,8 +95,7 @@ class EnglishEntrybacklash extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backlash"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backlash"),
                             // divvviiider
                           ],
                         ),

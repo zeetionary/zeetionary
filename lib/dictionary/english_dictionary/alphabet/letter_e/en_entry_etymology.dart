@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """A list of selected words and their etymologies is printed at the back of the book.""");
   }
 
-// With short examples define "etymology", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

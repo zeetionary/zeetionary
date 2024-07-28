@@ -109,9 +109,7 @@ class EnglishEntryautocratic extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "autocratic"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "autocratic"),
                             // divvviiider
                           ],
                         ),

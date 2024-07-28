@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The film is quite faithful to the original novel.""");
   }
 
-// With short examples define "faithful", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

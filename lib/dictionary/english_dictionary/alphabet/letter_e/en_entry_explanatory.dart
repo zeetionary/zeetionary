@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""There are explanatory notes at the back of the book.""");
   }
 
-// With short examples define "explanatory", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

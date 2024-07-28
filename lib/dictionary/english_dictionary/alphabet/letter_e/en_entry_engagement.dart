@@ -295,8 +295,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The general tried to avoid an engagement with the enemy.""");
   }
 
-// With short examples define "engagement", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

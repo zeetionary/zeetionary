@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He detected the fallacy of her argument.""");
   }
 
-// With short examples define "fallacy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

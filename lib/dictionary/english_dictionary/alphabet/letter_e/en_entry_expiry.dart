@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Your passport should be renewed before its expiry.""");
   }
 
-// With short examples define "expiry", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """He didn't like the degree of sexual explicitness in the film.""");
   }
 
-// With short examples define "explicitness", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

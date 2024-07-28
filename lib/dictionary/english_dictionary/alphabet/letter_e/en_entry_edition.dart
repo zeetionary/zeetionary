@@ -427,7 +427,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وەشانێکی کتێبێک یان نووسراوێک کە بەردەوام دەستکاری دەکرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The dictionary is now in its tenth edition.""",
             kurdishText: """فەرھەنگەکە ئێستا لە چاپی دەیەمە.""",
@@ -447,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ڕۆژنامەیەکی یان گۆڤارێک دیاریکراو، یان پڕۆگرامێکی دیاریکراوی ڕادیۆ یان تەلەفیزیۆن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """There will be a live edition of the show tomorrow night.""",
@@ -468,7 +466,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) تەواوی ئەو کۆپییانەی کتێبێک، ڕۆژنامەیەک، گۆڤارێک، ھتد کە بە یەکجار بڵاودەکرێتەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """It was originally published in 1836 in an edition of 500 copies.""",
@@ -477,7 +474,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeditions7("en-GB"),
             onPressedAmerican: () => speakeditions7("en-US"),
           ),
-          // editions800editions8
           // speakeditions
         ],
       ),

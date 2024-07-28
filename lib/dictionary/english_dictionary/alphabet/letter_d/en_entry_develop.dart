@@ -483,7 +483,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دەستپێکردن و پەرەپێدانی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Their relationship has developed over a number of years.",
@@ -513,7 +512,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) پەرەپێدانی بیرۆکەیەک، بەرھەمێک، ھتد و سەرخستنی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The company develops and markets new software.",
             kurdishText:
@@ -539,7 +537,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) ھەبوونی شتێک، وەک نەخۆشییەک یان کێشەیەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She developed lung cancer at the age of sixty.",
             kurdishText: "لە تەمەنی شەست ساڵی تووشی شێرپەنجەی سینگ بوو.",
@@ -574,7 +571,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) دەستکردن بە ڕوودان یان گۆڕان، بەتایبەتی بەشێوەیەکی خراپ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A crisis was rapidly developing in the Gulf.",
             kurdishText: "قەیرانێک بە خێرایی تەشەنەی دەکرد لە کەنداوی عەرەب.",
@@ -616,7 +612,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) بنیادنانی خانوو، کارگە، ھتد ـی تازە لەسەر خاکێک کە پێشووتر بەکار نەدەھات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The site is being developed by a French company.",
             kurdishText:
@@ -653,7 +648,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (کردار) بەرەوپێشچوونی وڵاتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "For a country to develop, a good road network is essential.",
@@ -672,7 +666,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٩. (کردار) زیادکردنی وردەکاریی زیاتر بۆ چیرۆکێک، بیرۆکەیەک، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She develops the theme more fully in her later books.",
@@ -690,62 +683,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdevelops27("en-GB"),
             onPressedAmerican: () => speakdevelops27("en-US"),
           ),
-          // develops2800"),
-          // develops28("en-US"),
-          // develops2900"),
-          // develops29("en-US"),
-          // develops_3000"),
-          // develops30("en-US"),
-          // develops3100"),
-          // develops31("en-US"),
-          // develops3200"),
-          // develops32("en-US"),
-          // develops3300"),
-          // develops33("en-US"),
-          // develops3400"),
-          // develops34("en-US"),
-          // develops3500"),
-          // develops35("en-US"),
-          // develops3600"),
-          // develops36("en-US"),
-          // develops3700"),
-          // develops37("en-US"),
-          // develops3800"),
-          // develops38("en-US"),
-          // develops3900"),
-          // develops39("en-US"),
-          // develops_4000"),
-          // develops40("en-US"),
-          // develops4100"),
-          // develops41("en-US"),
-          // develops4200"),
-          // develops42("en-US"),
-          // develops4300"),
-          // develops43("en-US"),
-          // develops4400"),
-          // develops44("en-US"),
-          // develops4500"),
-          // develops45("en-US"),
-          // develops4600"),
-          // develops46("en-US"),
-          // develops4700"),
-          // develops47("en-US"),
-          // develops4800"),
-          // develops48("en-US"),
-          // develops4900"),
-          // develops49("en-US"),
-          // develops_6000"),
-          // develops50("en-US"),
-          // develops5100"),
-          // develops51("en-US"),
-          // develops5200"),
-          // develops52("en-US"),
-          // develops5300"),
-          // develops53("en-US"),
-          // develops5400"),
-          // develops54("en-US"),
-          // develops5500"),
-          // develops55("en-US"),
         ],
       ),
     );

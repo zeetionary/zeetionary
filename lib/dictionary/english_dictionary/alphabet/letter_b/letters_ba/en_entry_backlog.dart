@@ -95,8 +95,7 @@ class EnglishEntrybacklog extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backlog"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backlog"),
                             // divvviiider
                           ],
                         ),

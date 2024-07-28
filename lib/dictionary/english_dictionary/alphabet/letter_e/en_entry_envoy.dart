@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He served as envoy to the French government.""");
   }
 
-// With short examples define "envoy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

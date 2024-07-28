@@ -324,7 +324,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The full excess fare had to be paid.""");
   }
 
-// With short examples define "excess", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

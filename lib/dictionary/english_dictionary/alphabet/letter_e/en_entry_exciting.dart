@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """It's the most exciting thing that's happened to these people in a long time.""");
   }
 
-// With short examples define "exciting", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """She has brought opera to the masses with evangelistic zeal.""");
   }
 
-// With short examples define "evangelistic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

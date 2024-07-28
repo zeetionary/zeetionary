@@ -422,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) پێدان یان ناردنی زانیاری بە کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Let me deliver the good news first.",
             kurdishText: "بھێڵە سەرەتا ھەواڵە خۆشەکە بڵێم.",
@@ -448,7 +447,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) پێشکەشکردنی وتارێک، نمایشێک، ڕاگەیاندنێک، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She will deliver a major speech on foreign policy tomorrow.",
@@ -476,7 +474,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) کردنی ئەوەی کە بەڵێنت داوە یان چاوەڕوان دەکرێت بیکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He has promised to finish the job by June and I am sure he will deliver.",
@@ -501,7 +498,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) بردنی کەسێک بۆ شوێنێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She delivered the kids on time at their father's house.",
@@ -560,7 +556,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) فڕێدان یان ئامانجگرتنەوە لە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He delivered the blow (= hit somebody hard) with all his force.",

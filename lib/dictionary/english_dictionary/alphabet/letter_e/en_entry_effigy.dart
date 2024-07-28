@@ -381,26 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffigys2("en-GB"),
             onPressedAmerican: () => speakeffigys2("en-US"),
           ),
-          // effigys300effigys3
-          // effigys400effigys4
-          // effigys500effigys5
-          // effigys600effigys6
-          // effigys700effigys7
-          // effigys800effigys8
-          // effigys900effigys9
-          // effigys_1000effigys10
-          // effigys1100effigys11
-          // effigys1200effigys12
-          // effigys1300effigys13
-          // effigys1400effigys14
-          // effigys1500effigys15
-          // effigys1600effigys16
-          // effigys1700effigys17
-          // effigys1800effigys18
-          // effigys1900effigys19
-          // effigys_2000effigys20
-          // effigys2100effigys21
-          // effigys2200effigyseffigys
         ],
       ),
     );

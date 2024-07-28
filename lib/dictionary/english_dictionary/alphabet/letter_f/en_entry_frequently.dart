@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زوو زوو، بارھا، چەندجاران، بەتیکڕاڕ
 """),
-// With short examples define "frequently", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵکار) زۆرجار"""),
                     SentencesRow(
                       englishText:
@@ -241,7 +240,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'nyf7wNn5fw8';
 const double _startSecondsend = 4;
 const String _videoIdone = 'pFEB0chiuJA';

@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """The film keeps its focus on the characters we now know so familiarly.""");
   }
 
-// With short examples define "familiarly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

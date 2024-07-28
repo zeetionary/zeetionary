@@ -81,8 +81,7 @@ class EnglishEntryaccount extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "account"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "account"),
                           ],
                         ),
                         Row(
@@ -95,9 +94,7 @@ class EnglishEntryaccount extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkaʊnt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkaʊnt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccount("en-US"),
                             ),

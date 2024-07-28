@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌بەر، بێ‌میوە، بێ‌بەرھەم،	بێ‌ئەنجام، بێ‌برەو، بێھوودە، نەزۆک
 """),
-// With short examples define "fruitless", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە ھیچ ئەنجامی باشی نابێت"""),
                     SentencesRow(
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Y8hi6A5MPVY';
 const double _startSecondsend = 242;
 const String _videoIdone = 'CupbRr2m_sM';

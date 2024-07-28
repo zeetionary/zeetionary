@@ -258,7 +258,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بێ‌بەھاکردنی شتێک یان پیشاندانی بە کەمتر گرنگ وەک لەوەی ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The existence of slavery represents a devaluation of human life.",
@@ -266,46 +265,10 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdevaluations2("en-GB"),
             onPressedAmerican: () => speakdevaluations2("en-US"),
           ),
-          // devaluations300"),
-          // devaluations3
-          // devaluations400"),
-          // devaluations4
-          // devaluations500"),
-          // devaluations5
-          // devaluations600"),
-          // devaluations6
-          // devaluations700"),
-          // devaluations7("en-US"),
-          // devaluations800"),
-          // devaluations8("en-US"),
-          // devaluations900"),
-          // devaluations9("en-US"),
-          // devaluations1000"),
-          // devaluations10("en-US"),
-          // devaluations1100"),
-          // devaluations11("en-US"),
-          // devaluations1200"),
-          // devaluations12("en-US"),
-          // devaluations1300"),
-          // devaluations13("en-US"),
-          // devaluations1400"),
-          // devaluations14("en-US"),
-          // devaluations1500"),
-          // devaluations15("en-US"),
-          // devaluations1600"),
-          // devaluations16("en-US"),
-          // devaluations1700"),
-          // devaluations17("en-US"),
-          // devaluations1800"),
-          // devaluations18("en-US"),
-          // devaluations1900"),
-          // devaluations19("en-US"),
-          // "The existence of slavery represents a devaluation of human life.0"),
-          // devaluations20("en-US"),
-          // devaluations2100"),
-          // devaluations21("en-US"),
-          // devaluations2200"),
-          // devaluations22("en-US"),
+          // devaluations3devaluations3
+          // devaluations4devaluations4
+          // devaluations5devaluations5
+          // devaluations6devaluations6
         ],
       ),
     );

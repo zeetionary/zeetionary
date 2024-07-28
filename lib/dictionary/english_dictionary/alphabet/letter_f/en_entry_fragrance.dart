@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 	بەرامە، بۆنی خۆش، بۆن‌خۆشی، لابانتە، عەتر، گوڵاو
 """),
-// With short examples define "fragrance", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) بۆنی خۆش"""),
                     SentencesRow(
                       englishText:
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 's3B-qp3U5G0';
 const double _startSecondsend = 317;
 const String _videoIdone = '_wNsZEqpKUA';

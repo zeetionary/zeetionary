@@ -44,9 +44,7 @@ class EnglishEntryacclimatize extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "acclimatize"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "acclimatize"),
                           ],
                         ),
                         Row(
@@ -59,9 +57,7 @@ class EnglishEntryacclimatize extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈklaɪmətaɪz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈklaɪmətaɪz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakacclimatize("en-US"),
                             ),

@@ -401,7 +401,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She was lucky to escape punishment.0""");
   }
 
-// With short examples define "escape", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

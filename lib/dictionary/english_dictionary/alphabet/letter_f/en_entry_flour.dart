@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flour", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ئارد"""),
                     SentencesRow(
                       englishText: """Sift the flour and salt into a bowl.""",
@@ -283,7 +282,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'rEdl2Uetpvo';
 const double _startSecondsend = 13;
 const String _videoIdone = 'VvJm4pQZ04s';

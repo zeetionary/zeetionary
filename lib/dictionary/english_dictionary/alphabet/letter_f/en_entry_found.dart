@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "found", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) دامەزراندنی شتێک"""),
                     SentencesRow(
@@ -339,7 +338,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Cqbleas1mmo';
 const double _startSecondsend = 493;
 const String _videoIdone = 'Mx8JkGHaGUI';

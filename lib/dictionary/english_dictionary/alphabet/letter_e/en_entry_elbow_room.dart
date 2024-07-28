@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئازادیی کردنی ئەوەی دەتەوێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """At first the management gave the new director plenty of elbow room.""",
@@ -386,26 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelbowrooms2("en-GB"),
             onPressedAmerican: () => speakelbowrooms2("en-US"),
           ),
-          // elbowrooms300elbowrooms3
-          // elbowrooms400elbowrooms4
-          // elbowrooms500elbowrooms5
-          // elbowrooms600elbowrooms6
-          // elbowrooms700elbowrooms7
-          // elbowrooms800elbowrooms8
-          // elbowrooms900elbowrooms9
-          // elbowrooms_1000elbowrooms10
-          // elbowrooms1100elbowrooms11
-          // elbowrooms1200elbowrooms12
-          // elbowrooms1300elbowrooms13
-          // elbowrooms1400elbowrooms14
-          // elbowrooms1500elbowrooms15
-          // elbowrooms1600elbowrooms16
-          // elbowrooms1700elbowrooms17
-          // elbowrooms1800elbowrooms18
-          // elbowrooms1900elbowrooms19
-          // elbowrooms_2000elbowrooms20
-          // elbowrooms2100elbowrooms21
-          // elbowrooms2200elbowroomselbowrooms
         ],
       ),
     );

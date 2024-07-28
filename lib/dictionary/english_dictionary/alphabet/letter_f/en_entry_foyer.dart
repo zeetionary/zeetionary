@@ -247,7 +247,6 @@ Type of: room
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HDntl7yzzVI';
 const double _startSecondsend = 845;
 const String _videoIdone = 'dS3njIz_Qzs';

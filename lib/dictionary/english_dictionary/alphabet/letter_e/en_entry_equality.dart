@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
         """Is there a society in the world where women have true equality?""");
   }
 
-// With short examples define "equality", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نێنوک، نێنوخ، نینۆخ، نووخان، ناخون
 """),
-// With short examples define "fingernail", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) نینۆک"""),
                     SentencesRow(
                       englishText:
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Gv4Af83KFrE';
 const double _startSecondsend = 559;
 const String _videoIdone = 'IBEg-jygXrE';

@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """The company also announced enhancements to three of its online databases.""");
   }
 
-// With short examples define "enhancement", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

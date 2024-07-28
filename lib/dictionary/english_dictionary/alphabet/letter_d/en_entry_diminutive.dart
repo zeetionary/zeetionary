@@ -270,7 +270,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) وشەیەک یان بەشێکی وشەکە کە ئەوە دەردەبڕێت کە شتێک بچووکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The findings do not support previous studies on gender differences in parental use of diminutives with young children.",
@@ -281,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کورتکراوەی ناوێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Her friends call her Margaret, never using diminutives such as Maggie.",
@@ -290,42 +288,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiminutives4("en-GB"),
             onPressedAmerican: () => speakdiminutives4("en-US"),
           ),
-          // diminutives500"),
-          // diminutives5
-          // diminutives600"),
-          // diminutives6
-          // diminutives700"),
-          // diminutives7
-          // diminutives800"),
-          // diminutives8
-          // diminutives900"),
-          // diminutives9
-          // diminutives_1000"),
-          // diminutives10
-          // diminutives1100"),
-          // diminutives11
-          // diminutives1200"),
-          // diminutives12
-          // diminutives1300"),
-          // diminutives13
-          // diminutives1400"),
-          // diminutives14
-          // diminutives1500"),
-          // diminutives15
-          // diminutives1600"),
-          // diminutives16
-          // diminutives1700"),
-          // diminutives17
-          // diminutives1800"),
-          // diminutives18
-          // diminutives1900"),
-          // diminutives19
-          // diminutives_2000"),
-          // diminutives20
-          // diminutives2100"),
-          // diminutives21
-          // diminutives2200"),
-          // diminutives22("en-US"),
+          // diminutives5diminutives5
+          // diminutives6diminutives6
+          // diminutives7diminutives7
+          // diminutives8diminutives8
+          // diminutives9diminutives9
+          // diminutives_10diminutives10
+          // diminutives11diminutives11
+          // diminutives12diminutives12
+          // diminutives13diminutives13
+          // diminutives14diminutives14
+          // diminutives15diminutives15
+          // diminutives16diminutives16
+          // diminutives17diminutives17
+          // diminutives18diminutives18
+          // diminutives19diminutives19
+          // diminutives_20diminutives20
+          // diminutives21diminutives21
         ],
       ),
     );

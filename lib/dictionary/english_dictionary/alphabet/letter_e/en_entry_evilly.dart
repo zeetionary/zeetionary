@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """He looked at her before speaking, his eyes narrowing evilly.""");
   }
 
-// With short examples define "evilly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -415,51 +415,30 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کەسێک کە جل لەبەر دەکات بەو جۆرەی باسکراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She was always a very stylish dresser.",
             kurdishText: "ھەمیشە جل‌پۆشێکی زۆر بەستایل بوو.",
             onPressedBritish: () => speakdressers3("en-GB"),
             onPressedAmerican: () => speakdressers3("en-US"),
           ),
-          // dressers400"),
-          // dressers4
-          // dressers500"),
-          // dressers5
-          // dressers600"),
-          // dressers6
-          // dressers700"),
-          // dressers7
-          // dressers800"),
-          // dressers8
-          // dressers900"),
-          // dressers9
-          // dressers_1000"),
-          // dressers10
-          // dressers1100"),
-          // dressers11
-          // dressers1200"),
-          // dressers12
-          // dressers1300"),
-          // dressers13
-          // dressers1400"),
-          // dressers14
-          // dressers1500"),
-          // dressers15
-          // dressers1600"),
-          // dressers16
-          // dressers1700"),
-          // dressers17
-          // dressers1800"),
-          // dressers18
-          // dressers1900"),
-          // dressers19
-          // dressers_2000"),
-          // dressers20
-          // dressers2100"),
-          // dressers21
-          // dressers2200"),
-          // dressers22("en-US"),
+          // dressers4dressers4
+          // dressers5dressers5
+          // dressers6dressers6
+          // dressers7dressers7
+          // dressers8dressers8
+          // dressers9dressers9
+          // dressers_10dressers10
+          // dressers11dressers11
+          // dressers12dressers12
+          // dressers13dressers13
+          // dressers14dressers14
+          // dressers15dressers15
+          // dressers16dressers16
+          // dressers17dressers17
+          // dressers18dressers18
+          // dressers19dressers19
+          // dressers_20dressers20
+          // dressers21dressers21
         ],
       ),
     );

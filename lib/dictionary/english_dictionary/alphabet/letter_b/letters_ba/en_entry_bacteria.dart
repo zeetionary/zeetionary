@@ -96,8 +96,7 @@ class EnglishEntrybacteria extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bacteria"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bacteria"),
                             // divvviiider
                           ],
                         ),

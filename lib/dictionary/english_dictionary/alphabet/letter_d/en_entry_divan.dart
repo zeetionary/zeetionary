@@ -375,7 +375,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کورسییەکی کە پشت یان جێدەستی نییە و زیاتر لە یەک کەس دەگرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He used the divan as a makeshift bed when guests stayed over.",
@@ -384,46 +383,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdivans2("en-GB"),
             onPressedAmerican: () => speakdivans2("en-US"),
           ),
-          // divans300"),
-          // divans3
-          // divans400"),
-          // divans4
-          // divans500"),
-          // divans5
-          // divans600"),
-          // divans6
-          // divans700"),
-          // divans7
-          // divans800"),
-          // divans8
-          // divans900"),
-          // divans9
-          // divans_1000"),
-          // divans10
-          // divans1100"),
-          // divans11
-          // divans1200"),
-          // divans12
-          // divans1300"),
-          // divans13
-          // divans1400"),
-          // divans14
-          // divans1500"),
-          // divans15
-          // divans1600"),
-          // divans16
-          // divans1700"),
-          // divans17
-          // divans1800"),
-          // divans18
-          // divans1900"),
-          // divans19
-          // divans_2000"),
-          // divans20
-          // divans2100"),
-          // divans21
-          // divans2200"),
-          // divans22("en-US"),
+          // divans3divans3
+          // divans4divans4
+          // divans5divans5
+          // divans6divans6
+          // divans7divans7
+          // divans8divans8
+          // divans9divans9
+          // divans_10divans10
+          // divans11divans11
+          // divans12divans12
+          // divans13divans13
+          // divans14divans14
+          // divans15divans15
+          // divans16divans16
+          // divans17divans17
+          // divans18divans18
+          // divans19divans19
+          // divans_20divans20
+          // divans21divans21
         ],
       ),
     );

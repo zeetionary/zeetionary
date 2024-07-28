@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The village school may face eventual closure.""");
   }
 
-// With short examples define "eventual", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

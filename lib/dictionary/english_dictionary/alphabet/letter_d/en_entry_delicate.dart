@@ -336,7 +336,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) بچووک و ھەبوونی شێوەی جوان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She folded her delicate hands on the table.",
             kurdishText: "دەستە باریکەکانی خستە سەر مێزەکە.",
@@ -346,7 +345,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) درووستکراو بەشێوەیەکی وریا و ورد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Weather-forecasters have extremely delicate equipment which helps them predict what the weather is going to be like.",
@@ -359,7 +357,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) کە پێویستیان بە مامەڵەی وریا و ھەستیار ھەیە، یان مامەڵەی وریا و ھەستیار ]یشان دەدەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The delicate surgical operation took five hours.",
             kurdishText: "پڕۆسە ھەستیارە نەشتەرگەرییەکە پێنج کاتژمێری خایاند.",
@@ -373,32 +370,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelicates9("en-GB"),
             onPressedAmerican: () => speakdelicates9("en-US"),
           ),
-          // delicates1000"),
-          // delicates10("en-US"),
-          // delicates1100"),
-          // delicates11("en-US"),
-          // delicates1200"),
-          // delicates12("en-US"),
-          // delicates1300"),
-          // delicates13("en-US"),
-          // delicates1400"),
-          // delicates14("en-US"),
-          // delicates1500"),
-          // delicates15("en-US"),
-          // delicates1600"),
-          // delicates16("en-US"),
-          // delicates1700"),
-          // delicates17("en-US"),
-          // delicates1800"),
-          // delicates18("en-US"),
-          // delicates1900"),
-          // delicates19("en-US"),
-          // "Babies have very delicate skin.0"),
-          // delicates20("en-US"),
-          // delicates2100"),
-          // delicates21("en-US"),
-          // delicates2200"),
-          // delicates22("en-US"),
         ],
       ),
     );

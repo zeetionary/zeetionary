@@ -718,7 +718,6 @@ Noun: find (derived forms: finds)
                     const KurdishVocabulary(text: """
 کوردی: دۆزینەوە، دیتنەوە، پەیداکردن، دۆزمان،	(شتێکی) دۆزراوە، دیتراوە، دۆزەوە، دۆزە
 """),
-// With short examples define "find", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) دۆزینەوەی شتێک بە ڕێکەوت"""),
                     SentencesRow(
@@ -1456,7 +1455,6 @@ Noun: find (derived forms: finds)
   }
 }
 
-// 188888880002200
 const String _videoIdend = '21Z4RIOFhMA';
 const double _startSecondsend = 392;
 const String _videoIdone = 'rPe4yziWiOg';

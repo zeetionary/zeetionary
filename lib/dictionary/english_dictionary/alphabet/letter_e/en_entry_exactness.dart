@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """It is difficult to investigate archaeological sites underwater with the same exactness as on land.""");
   }
 
-// With short examples define "exactness", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

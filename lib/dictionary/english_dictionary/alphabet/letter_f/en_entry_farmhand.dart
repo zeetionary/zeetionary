@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """Thousands of farmhands have found themselves out of work because of falling coffee prices.""");
   }
 
-// With short examples define "farmhand", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

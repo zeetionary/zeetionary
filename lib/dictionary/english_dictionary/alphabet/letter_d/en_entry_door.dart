@@ -514,7 +514,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەو بۆشاییە کراوەی کە دەرگایەکی تێدایە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "As we walked through the door, the phone rang.",
             kurdishText: "کە بە دەرگاکەدا چوو، تەلەفۆنەکە زەنگی لێدا.",
@@ -547,7 +546,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) پێشی دەرگا لە دەرەوەی شوێنێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There's somebody at the door (= at the front door of a house).",
@@ -559,7 +557,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) خانوویەک، ژوورێک، ھتد کە چەند خانوو یان ژوورێکی دیاریکراو دوورە لە یەکێکی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Our other branch is just a few doors down the road.",
             kurdishText:
@@ -571,27 +568,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ناو) ئەو بڕە پارەیەی کە بە فرۆشتنی بلیتی بۆنەیەک بەدەست دەخرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "50% of the door will go to the Red Cross.",
             kurdishText: "٥٠٪ ــی پارەکە دەچێت بۆ مانگی سوور.",
             onPressedBritish: () => speakdoors15("en-GB"),
             onPressedAmerican: () => speakdoors15("en-US"),
           ),
-          // doors1600"),
-          // doors16
-          // doors1700"),
-          // doors17
-          // doors1800"),
-          // doors18
-          // doors1900"),
-          // doors19
-          // doors_2000"),
-          // doors20
-          // doors2100"),
-          // doors21
-          // doors2200"),
-          // doors22("en-US"),
+          // doors16doors16
+          // doors17doors17
+          // doors18doors18
+          // doors19doors19
+          // doors_20doors20
+          // doors21doors21
         ],
       ),
     );

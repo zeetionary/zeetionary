@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She had two extractions.""");
   }
 
-// With short examples define "extraction", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

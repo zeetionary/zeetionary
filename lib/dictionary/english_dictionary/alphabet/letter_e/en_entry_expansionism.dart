@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         """As a consequence of expansionism by some European countries, many ancient cultures have suffered.""");
   }
 
-// With short examples define "expansionism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

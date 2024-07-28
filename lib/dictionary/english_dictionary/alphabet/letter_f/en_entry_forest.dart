@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دارستان، دەحل، جەنگەڵ، جەنگەڵستان، خەلیش، گەبەڵە،	ڕاوگە، جێ‌ڕاو
 """),
-// With short examples define "forest", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دارستان"""),
                     SentencesRow(
                       englishText:
@@ -315,7 +314,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 's3B-qp3U5G0';
 const double _startSecondsend = 820;
 const String _videoIdone = 'yjhibJ-OqxE';

@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرەڕای ئەوەش، سەرباری ئەوەش، بێجگەلە ئەوەش، لەگەڵ ئەوەش‌دا، زێدەباری، ھەروەھا، لە لایەکی ترەوە
 """),
-// With short examples define "furthermore", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) سەرەڕای ئەوەی کە گوتراوە"""),
                     SentencesRow(
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'X3TAROotFfM';
 const double _startSecondsend = 455;
 const String _videoIdone = 'XEZfGlyLQnA';

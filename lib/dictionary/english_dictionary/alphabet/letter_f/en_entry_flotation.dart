@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەراوکەوتەیی، سواراوی، سەرخستن، سەراوخستن، خستنە مەلەونی
 """),
-// With short examples define "flotation", please follow LX instructions
                     CustomRichText(
                       textBeforeLink: "١. بڕوانە لە ",
                       linkText: "crotch",
@@ -239,7 +238,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'L87HuKmGwVQ';
 const double _startSecondsend = 823;
 const String _videoIdone = 'OnjI-FBdRTQ';

@@ -97,8 +97,7 @@ class EnglishEntryaverage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "average"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "average"),
                             // divvviiider
                           ],
                         ),

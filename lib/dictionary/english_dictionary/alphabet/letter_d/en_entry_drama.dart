@@ -444,7 +444,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شانۆ کە وەک کارێکی ئەدەبی سەیر دەکرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I studied English and Drama at college.",
             kurdishText: "لە کۆلێژ ئینگلیزی و درامام خوێند.",
@@ -468,7 +467,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) بۆنەیەکی ورووژێنەر و ناخۆش کە زۆرجار لەناکاوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "We had a little drama last night when the oil in the pan caught fire.",
@@ -480,7 +478,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ئەوەی کە خرۆشاو بیت بە دۆخێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "You couldn't help being thrilled by the drama of the situation.",
@@ -495,32 +492,18 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdramas9("en-GB"),
             onPressedAmerican: () => speakdramas9("en-US"),
           ),
-          // dramas_1000"),
-          // dramas10
-          // dramas1100"),
-          // dramas11
-          // dramas1200"),
-          // dramas12
-          // dramas1300"),
-          // dramas13
-          // dramas1400"),
-          // dramas14
-          // dramas1500"),
-          // dramas15
-          // dramas1600"),
-          // dramas16
-          // dramas1700"),
-          // dramas17
-          // dramas1800"),
-          // dramas18
-          // dramas1900"),
-          // dramas19
-          // dramas_2000"),
-          // dramas20
-          // dramas2100"),
-          // dramas21
-          // dramas2200"),
-          // dramas22("en-US"),
+          // dramas_10dramas10
+          // dramas11dramas11
+          // dramas12dramas12
+          // dramas13dramas13
+          // dramas14dramas14
+          // dramas15dramas15
+          // dramas16dramas16
+          // dramas17dramas17
+          // dramas18dramas18
+          // dramas19dramas19
+          // dramas_20dramas20
+          // dramas21dramas21
         ],
       ),
     );

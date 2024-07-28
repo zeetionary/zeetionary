@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: باریکی، ناسکی، وردی، جوانی
 """),
-// With short examples define "fineness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی کە زۆر باریک بێت"""),
                     SentencesRow(
@@ -237,7 +236,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'iib_imkZ5fk';
 const double _startSecondsend = 250;
 const String _videoIdone = 'GSuFSYY-X9w';

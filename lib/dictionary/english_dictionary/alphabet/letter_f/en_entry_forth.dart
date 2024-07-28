@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێش، پێشەوە، پێشوو،	دوایی، دواتر،	دەرەوە، دەرڤە، لە دەرەوە،	لەمەو بەدواوە، بۆ دواوە
 """),
-// With short examples define "forth", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) دوور لە شوێنێک"""),
                     SentencesRow(
@@ -266,7 +265,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'pFEB0chiuJA';
 const double _startSecondsend = 187;
 const String _videoIdone = 'QLq6GEiHqR8';

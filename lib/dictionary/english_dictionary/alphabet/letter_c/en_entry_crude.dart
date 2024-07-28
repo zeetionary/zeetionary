@@ -275,8 +275,7 @@ class KurdishMeaning extends StatelessWidget {
           // children: [
           // ExampleSentenceEnglish(
           // text:
-          // "speakcrudes200"),
-          // ExampleSentenceKurdish(
+          // "speakcrudes2ExampleSentenceKurdish(
           // text: "رستە_رستە_رستە_رستە."),
           // ],
           // ),

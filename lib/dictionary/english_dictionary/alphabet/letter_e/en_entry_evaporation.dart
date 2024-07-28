@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """Political events caused an evaporation of confidence in the nation’s currency.""");
   }
 
-// With short examples define "evaporation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

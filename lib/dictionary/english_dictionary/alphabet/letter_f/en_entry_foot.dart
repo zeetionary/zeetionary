@@ -307,7 +307,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێ، پا (لە خوارووی قولاپەوە)،	ژێر، خوارەوە، خوارترین بەش، داوێن، پێ، بنار، بن، بنک،	خوارووی گۆرەوی، بنەوەی گۆرەوەی،	بنەما، پایە (لە ھەڵبەستی ئینگلیسی‌دا)،	ھەنگاو، گاڤ، شەقاو،	پیادە، سپای پیادە،	فووت، پێ
 """),
-// With short examples define "foot", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) پێ"""),
                     SentencesRow(
                       englishText: """My feet are aching.""",
@@ -544,7 +543,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 863;
 const String _videoIdone = 'gngPQ771Ahk';

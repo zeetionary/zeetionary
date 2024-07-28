@@ -429,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە سەرنجت لادەبات لەسەر کەسێک/شتێکی دیکە لەکاتێکدا شتێک ڕوودەدات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The fire was started to create a diversion, allowing some prisoners to escape.",
@@ -450,7 +449,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕێگایەک کە بەکاردێت کە ڕێگای سەرەکی داخراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The main road is now closed and diversions are in operation.",
@@ -458,38 +456,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiversions6("en-GB"),
             onPressedAmerican: () => speakdiversions6("en-US"),
           ),
-          // diversions700"),
-          // diversions7
-          // diversions800"),
-          // diversions8
-          // diversions900"),
-          // diversions9
-          // diversions_1000"),
-          // diversions10
-          // diversions1100"),
-          // diversions11
-          // diversions1200"),
-          // diversions12
-          // diversions1300"),
-          // diversions13
-          // diversions1400"),
-          // diversions14
-          // diversions1500"),
-          // diversions15
-          // diversions1600"),
-          // diversions16
-          // diversions1700"),
-          // diversions17
-          // diversions1800"),
-          // diversions18
-          // diversions1900"),
-          // diversions19
-          // diversions_2000"),
-          // diversions20
-          // diversions2100"),
-          // diversions21
-          // diversions2200"),
-          // diversions22("en-US"),
+          // diversions7diversions7
+          // diversions8diversions8
+          // diversions9diversions9
+          // diversions_10diversions10
+          // diversions11diversions11
+          // diversions12diversions12
+          // diversions13diversions13
+          // diversions14diversions14
+          // diversions15diversions15
+          // diversions16diversions16
+          // diversions17diversions17
+          // diversions18diversions18
+          // diversions19diversions19
+          // diversions_20diversions20
+          // diversions21diversions21
         ],
       ),
     );

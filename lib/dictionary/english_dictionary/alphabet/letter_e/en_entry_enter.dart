@@ -369,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""How many students have been entered for the exam?0""");
   }
 
-// With short examples define "enter", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

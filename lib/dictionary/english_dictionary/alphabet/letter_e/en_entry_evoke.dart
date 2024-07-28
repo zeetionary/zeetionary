@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""His case is unlikely to evoke public sympathy.""");
   }
 
-// With short examples define "evoke", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

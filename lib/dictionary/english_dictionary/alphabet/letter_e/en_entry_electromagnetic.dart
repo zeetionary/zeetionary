@@ -368,27 +368,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectromagnetics1("en-GB"),
             onPressedAmerican: () => speakelectromagnetics1("en-US"),
           ),
-          // electromagnetics200electromagnetics2
-          // electromagnetics300electromagnetics3
-          // electromagnetics400electromagnetics4
-          // electromagnetics500electromagnetics5
-          // electromagnetics600electromagnetics6
-          // electromagnetics700electromagnetics7
-          // electromagnetics800electromagnetics8
-          // electromagnetics900electromagnetics9
-          // electromagnetics_1000electromagnetics10
-          // electromagnetics1100electromagnetics11
-          // electromagnetics1200electromagnetics12
-          // electromagnetics1300electromagnetics13
-          // electromagnetics1400electromagnetics14
-          // electromagnetics1500electromagnetics15
-          // electromagnetics1600electromagnetics16
-          // electromagnetics1700electromagnetics17
-          // electromagnetics1800electromagnetics18
-          // electromagnetics1900electromagnetics19
-          // electromagnetics_2000electromagnetics20
-          // electromagnetics2100electromagnetics21
-          // electromagnetics2200electromagneticselectromagnetics
         ],
       ),
     );

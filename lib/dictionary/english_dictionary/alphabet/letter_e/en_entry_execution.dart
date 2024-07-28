@@ -301,7 +301,6 @@ class KurdishMeaning extends StatelessWidget {
         """The court has discretion to stay or suspend execution of the order.""");
   }
 
-// With short examples define "execution", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

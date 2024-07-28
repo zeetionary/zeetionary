@@ -297,7 +297,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) بەردەوام بوون لە ھەبوون بۆ ماوەیەکی زۆر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The political system established in 1400 endured until about 1650.""",

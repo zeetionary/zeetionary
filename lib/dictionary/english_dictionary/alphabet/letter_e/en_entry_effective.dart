@@ -441,7 +441,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) ئەوەی کە ڕاستییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He has now taken effective control of the country.""",
@@ -462,7 +461,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە دەچنە بواری جێبەجێکردنەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The new speed limit on this road becomes effective from 1 June.""",
@@ -471,21 +469,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffectives7("en-GB"),
             onPressedAmerican: () => speakeffectives7("en-US"),
           ),
-          // effectives800effectives8
-          // effectives900effectives9
-          // effectives_1000effectives10
-          // effectives1100effectives11
-          // effectives1200effectives12
-          // effectives1300effectives13
-          // effectives1400effectives14
-          // effectives1500effectives15
-          // effectives1600effectives16
-          // effectives1700effectives17
-          // effectives1800effectives18
-          // effectives1900effectives19
-          // effectives_2000effectives20
-          // effectives2100effectives21
-          // effectives2200effectiveseffectives
         ],
       ),
     );

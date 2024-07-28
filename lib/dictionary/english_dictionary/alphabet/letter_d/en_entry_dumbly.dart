@@ -371,53 +371,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵکار) گەمژانە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """‘This means what?’ Derek asked dumbly.""",
             kurdishText: """دێریک گەمژانە پرسی 'ئەمە واتای چییە؟'""",
             onPressedBritish: () => speakdumblys2("en-GB"),
             onPressedAmerican: () => speakdumblys2("en-US"),
           ),
-          // dumblys300
-          // dumblys3("en-US"""),
-          // dumblys400
-          // dumblys4("en-US"""),
-          // dumblys500
-          // dumblys5("en-US"""),
-          // dumblys600
-          // dumblys6("en-US"""),
-          // dumblys700
-          // dumblys7("en-US"""),
-          // dumblys800
-          // dumblys8("en-US"""),
-          // dumblys900
-          // dumblys9("en-US"""),
-          // dumblys_1000
-          // dumblys10("en-US"""),
-          // dumblys1100
-          // dumblys11("en-US"""),
-          // dumblys1200
-          // dumblys12("en-US"""),
-          // dumblys1300
-          // dumblys13("en-US"""),
-          // dumblys1400
-          // dumblys14("en-US"""),
-          // dumblys1500
-          // dumblys15("en-US"""),
-          // dumblys1600
-          // dumblys16("en-US"""),
-          // dumblys1700
-          // dumblys17("en-US"""),
-          // dumblys1800
-          // dumblys18("en-US"""),
-          // dumblys1900
-          // dumblys19("en-US"""),
-          // dumblys_2000
-          // dumblys20("en-US"""),
-          // dumblys2100
-          // dumblys21("en-US"""),
-          // dumblys2200
-          // dumblys22("en-US"""),
         ],
       ),
     );

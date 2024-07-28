@@ -279,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""This was the book that made her famous.""");
   }
 
-// With short examples define "famous", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

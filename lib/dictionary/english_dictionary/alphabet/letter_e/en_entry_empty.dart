@@ -446,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """I noticed an empty space on the bookshelf.""",
             kurdishText: """لەسەر ڕەفەی کتێبەکە جێگایەکی بەتاڵم بەدیکرد.""",
-// With short examples define "empty", please follow LX instructions
             onPressedBritish: () => speakemptys1("en-GB"),
             onPressedAmerican: () => speakemptys1("en-US"),
           ),
@@ -508,7 +507,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) شتێک کە کەسێک دەیڵێیت یان دەیکات بەڵام واتای نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The politician's promises were just empty rhetoric.""",
@@ -535,7 +533,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە کەسێک ژیان بە بێ مەبەست دەبینێت و """),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """My life seems empty without you.""",
             kurdishText: """ژیانم بێ‌نرخ دیارە بەبێ تۆ.""",
@@ -560,7 +557,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) بەتاڵکردن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She emptied the bins, washed the glasses and went to bed.""",
@@ -605,7 +601,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) بەتاڵ بوون"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The beach gradually emptied of people.""",
             kurdishText: """کەناراوەکە کەم‌کەم بەتاڵ بوو لە خەڵکی.""",
@@ -630,7 +625,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) دەرکردنی شتەکانی ناو شتێک و دانانیان لە شوێنێکی دیکە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He stepped outside to empty the trash.""",
             kurdishText: """چووە دەرەوە بۆ بەتاڵردنی زباڵەکە.""",
@@ -665,7 +659,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (کردار) دڵنیایی کردنەوە لەوەی کە ھەموان شوێنێک جێدەھێڵن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Police had instructions to empty the building because of a bomb threat.""",
@@ -677,7 +670,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (کردار) ڕژان یان جوڵان بۆ شوێنێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The Rhine empties into the North Sea.""",
             kurdishText: """ڕووباری ڕاین بەتاڵ دەبێتە ناو دەریای باکوورەوە.""",

@@ -287,7 +287,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The horse evacuated its bowels all over the path.""");
   }
 
-// With short examples define "evacuate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

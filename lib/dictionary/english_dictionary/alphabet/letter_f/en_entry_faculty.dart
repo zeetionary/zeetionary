@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He had a faculty for seeing his own mistakes.""");
   }
 
-// With short examples define "faculty", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

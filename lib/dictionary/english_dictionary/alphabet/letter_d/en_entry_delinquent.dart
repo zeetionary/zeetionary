@@ -270,7 +270,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە نەیتوانیوە قەرز بداتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Credit delinquents often face penalties and higher interest rates.",
@@ -282,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە حەزی بە ئەنجامدانی تاوان ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "They are carrying out research on the causes of delinquent behaviour among young people.",
@@ -295,49 +293,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) دواکەوتوو لە دانەوەی قەرز؛ قەرزێک کە نەدراوەتەوە لە کاتی خۆیدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She has been delinquent in paying her taxes.",
             kurdishText: "درەنگکەوتووە لە دانەوەی باجەکانی.",
             onPressedBritish: () => speakdelinquents4("en-GB"),
             onPressedAmerican: () => speakdelinquents4("en-US"),
           ),
-          // delinquents500"),
-          // delinquents5("en-US"),
-          // delinquents600"),
-          // delinquents6("en-US"),
-          // delinquents700"),
-          // delinquents7("en-US"),
-          // delinquents800"),
-          // delinquents8("en-US"),
-          // delinquents900"),
-          // delinquents9("en-US"),
-          // delinquents1000"),
-          // delinquents10("en-US"),
-          // delinquents1100"),
-          // delinquents11("en-US"),
-          // delinquents1200"),
-          // delinquents12("en-US"),
-          // delinquents1300"),
-          // delinquents13("en-US"),
-          // delinquents1400"),
-          // delinquents14("en-US"),
-          // delinquents1500"),
-          // delinquents15("en-US"),
-          // delinquents1600"),
-          // delinquents16("en-US"),
-          // delinquents1700"),
-          // delinquents17("en-US"),
-          // delinquents1800"),
-          // delinquents18("en-US"),
-          // delinquents1900"),
-          // delinquents19("en-US"),
-          // "Credit delinquents often face penalties and higher interest rates.0"),
-          // delinquents20("en-US"),
-          // delinquents2100"),
-          // delinquents21("en-US"),
-          // delinquents2200"),
-          // delinquents22("en-US"),
         ],
       ),
     );

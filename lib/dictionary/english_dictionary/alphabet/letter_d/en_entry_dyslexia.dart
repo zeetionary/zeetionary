@@ -365,48 +365,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdyslexias1("en-GB"),
             onPressedAmerican: () => speakdyslexias1("en-US"),
           ),
-          // dyslexias200
-          // dyslexias2("en-US"""),
-          // dyslexias300
-          // dyslexias3("en-US"""),
-          // dyslexias400
-          // dyslexias4("en-US"""),
-          // dyslexias500
-          // dyslexias5("en-US"""),
-          // dyslexias600
-          // dyslexias6("en-US"""),
-          // dyslexias700
-          // dyslexias7("en-US"""),
-          // dyslexias800
-          // dyslexias8("en-US"""),
-          // dyslexias900
-          // dyslexias9("en-US"""),
-          // dyslexias_1000
-          // dyslexias10("en-US"""),
-          // dyslexias1100
-          // dyslexias11("en-US"""),
-          // dyslexias1200
-          // dyslexias12("en-US"""),
-          // dyslexias1300
-          // dyslexias13("en-US"""),
-          // dyslexias1400
-          // dyslexias14("en-US"""),
-          // dyslexias1500
-          // dyslexias15("en-US"""),
-          // dyslexias1600
-          // dyslexias16("en-US"""),
-          // dyslexias1700
-          // dyslexias17("en-US"""),
-          // dyslexias1800
-          // dyslexias18("en-US"""),
-          // dyslexias1900
-          // dyslexias19("en-US"""),
-          // dyslexias_2000
-          // dyslexias20("en-US"""),
-          // dyslexias2100
-          // dyslexias21("en-US"""),
-          // dyslexias2200
-          // dyslexias22("en-US"""),
         ],
       ),
     );

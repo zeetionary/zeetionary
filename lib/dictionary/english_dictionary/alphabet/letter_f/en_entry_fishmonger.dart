@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fishmonger", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ماسی‌فرۆش"""),
                     SentencesRow(
                       englishText:
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'cOEkzIcNFGY';
 const double _startSecondsend = 532;
 const String _videoIdone = 'KObL442PWhQ';

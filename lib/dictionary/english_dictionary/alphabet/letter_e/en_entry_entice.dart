@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The animal refused to be enticed from its hole.""");
   }
 
-// With short examples define "entice", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

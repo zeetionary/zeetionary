@@ -400,7 +400,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) فڕێدانە دەرەوەی شتێک لەناکاو بە ھێزێکی زۆر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Used cartridges are ejected from the gun after firing.""",
@@ -412,7 +411,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) ھاتنە دەرەوە لە فڕۆکەیەک کە لە کەوتندایە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The pilot managed to eject moments before the plane crashed.""",
@@ -421,126 +419,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakejects4("en-GB"),
             onPressedAmerican: () => speakejects4("en-US"),
           ),
-          // ejects500ejects5
-          // speakejects5("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects600ejects6
-          // speakejects6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects700ejects7
-          // speakejects7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects800ejects8
-          // speakejects8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects900ejects9
-          // speakejects9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects_1000ejects10
-          // speakejects10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1100ejects11
-          // speakejects11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1200ejects12
-          // speakejects12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1300ejects13
-          // speakejects13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1400ejects14
-          // speakejects14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1500ejects15
-          // speakejects15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1600ejects16
-          // speakejects16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1700ejects17
-          // speakejects17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1800ejects18
-          // speakejects18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects1900ejects19
-          // speakejects19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects_2000ejects20
-          // speakejects20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects2100ejects21
-          // speakejects21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // ejects2200ejectsejects
+          // speakejects21ejects2200ejectsejects
         ],
       ),
     );

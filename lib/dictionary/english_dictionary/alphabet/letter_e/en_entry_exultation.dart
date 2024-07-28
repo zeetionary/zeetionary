@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The expression on his face was a blend of exultation and hostility.""");
   }
 
-// With short examples define "exultation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

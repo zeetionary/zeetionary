@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""His theory was not new in essence.""");
   }
 
-// With short examples define "essence", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

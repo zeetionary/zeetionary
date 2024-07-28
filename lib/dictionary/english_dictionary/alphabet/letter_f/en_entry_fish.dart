@@ -269,7 +269,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fish", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ماسی"""),
                     SentencesRow(
                       englishText: """They caught several fish.""",
@@ -475,7 +474,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'NRsDebf1hIY';
 const double _startSecondsend = 0;
 const String _videoIdone = 'UpS6uNMsrEw';

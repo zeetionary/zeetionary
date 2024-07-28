@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەرێتی، گەوجێتی،	پێکەنینێتی، گاڵتەجاڕبوون، گاڵتەجاڕێتی
 """),
-// With short examples define "foolishness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) گەمژەیی"""),
                     SentencesRow(
                       englishText:
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'LAbFGixLhz8';
 const double _startSecondsend = 95;
 const String _videoIdone = 'y3eR8QLPjlc';

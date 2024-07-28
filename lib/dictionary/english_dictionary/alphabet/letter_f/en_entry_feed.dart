@@ -381,7 +381,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They needed a bath and a good feed.""");
   }
 
-// With short examples define "feed", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

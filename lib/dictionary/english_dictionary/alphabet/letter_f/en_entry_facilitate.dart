@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The use of computers has greatly facilitated the firm's ability to keep accurate records.""");
   }
 
-// With short examples define "facilitate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

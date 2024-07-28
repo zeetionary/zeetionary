@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The political fallout of the revelations has been immense.""");
   }
 
-// With short examples define "fallout", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

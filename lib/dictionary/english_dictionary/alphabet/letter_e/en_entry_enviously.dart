@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I watched enviously as a group left for a night swim.""");
   }
 
-// With short examples define "enviously", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

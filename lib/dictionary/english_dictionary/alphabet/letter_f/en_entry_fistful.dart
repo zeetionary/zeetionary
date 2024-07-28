@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (پڕ)مشتێ، مستێ، وێچ، وێچێ (لاوێچ: نیومشت)، لاڕبە
 """),
-// With short examples define "fistful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو ڕێژەیەی کە لە مستدا جێی دەبێتەوە"""),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'rUXG_p64Lzo';
 const double _startSecondsend = 761;
 const String _videoIdone = 'E2rtQFAibEA';

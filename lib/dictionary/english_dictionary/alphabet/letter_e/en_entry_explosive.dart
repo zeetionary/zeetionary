@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""There was an explosive growth of the export market.""");
   }
 
-// With short examples define "explosive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

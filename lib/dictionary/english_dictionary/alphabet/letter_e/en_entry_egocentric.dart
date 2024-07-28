@@ -395,24 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakegocentrics3("en-GB"),
             onPressedAmerican: () => speakegocentrics3("en-US"),
           ),
-          // egocentrics400egocentrics4
-          // egocentrics500egocentrics5
-          // egocentrics600egocentrics6
-          // egocentrics700egocentrics7
-          // egocentrics800egocentrics8
-          // egocentrics900egocentrics9
-          // egocentrics_1000egocentrics10
-          // egocentrics1100egocentrics11
-          // egocentrics1200egocentrics12
-          // egocentrics1300egocentrics13
-          // egocentrics1400egocentrics14
-          // egocentrics1500egocentrics15
-          // egocentrics1600egocentrics16
-          // egocentrics1700egocentrics17
-          // egocentrics1800egocentrics18
-          // egocentrics1900egocentrics19
-          // egocentrics_2000egocentrics20
-          // egocentrics2100egocentrics21
           // egocentrics2200egocentricsegocentrics
         ],
       ),

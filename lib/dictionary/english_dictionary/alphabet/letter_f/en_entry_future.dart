@@ -276,7 +276,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: داھاتوو، دادێ، وادێ، پاشەڕۆژ، پاشین، دواڕۆژ،	ڕووداوەکانی داھاتوو،	ھیوای سەرکەوتوویی،	(ڕێزمان) سەردەمی داھاتوو،	داھاتوو، دوایی، دواتر، پاش‌تر، دوا، پاشین
 """),
-// With short examples define "future", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) کاتی داھاتوو"""),
                     SentencesRow(
                       englishText: """We need to plan for the future.""",
@@ -492,7 +491,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 119;
 const String _videoIdone = 't6fIp7mMJ90';

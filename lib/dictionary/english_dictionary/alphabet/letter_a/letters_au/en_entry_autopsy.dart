@@ -94,8 +94,7 @@ class EnglishEntryautopsy extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "autopsy"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "autopsy"),
                             // divvviiider
                           ],
                         ),

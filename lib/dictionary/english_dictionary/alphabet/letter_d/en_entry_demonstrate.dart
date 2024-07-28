@@ -354,7 +354,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) بە کردار پیشاندانی ئەوەی کە چی خاسیەتێک، ھەستێک، یان باوەڕێکت ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The team demonstrated breathtaking skills.",
             kurdishText: "تیمەکە شارەزایی سەرسوڕھێنەرانەیان پیشاندا.",
@@ -373,7 +372,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) پیشاندان یان ڕوونکردنەوەی شێوازی کارکردن یان کردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Her job involves demonstrating new educational software.",
@@ -401,7 +399,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) بەژداری کردن لە گردبوونەوە یان ڕێپێوانێکی گشتی، زۆرجار وەک ناڕەزایەتییەک بۆ پیشاندانی پشتیوانی بۆ شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Hundreds of protesters demonstrated outside the court.",
@@ -417,28 +414,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdemonstrates11("en-GB"),
             onPressedAmerican: () => speakdemonstrates11("en-US"),
           ),
-          // demonstrates1200"),
-          // demonstrates12("en-US"),
-          // demonstrates1300"),
-          // demonstrates13("en-US"),
-          // demonstrates1400"),
-          // demonstrates14("en-US"),
-          // demonstrates1500"),
-          // demonstrates15("en-US"),
-          // demonstrates1600"),
-          // demonstrates16("en-US"),
-          // demonstrates1700"),
-          // demonstrates17("en-US"),
-          // demonstrates1800"),
-          // demonstrates18("en-US"),
-          // demonstrates1900"),
-          // demonstrates19("en-US"),
-          // "These paintings demonstrate his extraordinary ability as a portrait painter.0"),
-          // demonstrates20("en-US"),
-          // demonstrates2100"),
-          // demonstrates21("en-US"),
-          // demonstrates2200"),
-          // demonstrates22("en-US"),
         ],
       ),
     );

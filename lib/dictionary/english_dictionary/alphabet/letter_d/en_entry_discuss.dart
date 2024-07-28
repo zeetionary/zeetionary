@@ -390,12 +390,10 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (کردار) نووسین یان قسەکردن لەسەر شتێک بە وردی و پیشاندانی بیرۆکە و بۆچوونی جیاواز لەسەری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "This topic will be discussed at greater length in the next chapter.",
@@ -422,26 +420,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscusss12("en-GB"),
             onPressedAmerican: () => speakdiscusss12("en-US"),
           ),
-          // discusss1300"),
-          // discusss13("en-US"),
-          // discusss1400"),
-          // discusss14("en-US"),
-          // discusss1500"),
-          // discusss15("en-US"),
-          // discusss1600"),
-          // discusss16("en-US"),
-          // discusss1700"),
-          // discusss17("en-US"),
-          // discusss1800"),
-          // discusss18("en-US"),
-          // discusss1900"),
-          // discusss19("en-US"),
-          // discusss_2000"),
-          // discusss20("en-US"),
-          // discusss2100"),
-          // discusss21("en-US"),
-          // discusss2200"),
-          // discusss22("en-US"),
         ],
       ),
     );

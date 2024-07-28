@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""You don't sound very enthusiastic about the idea.""");
   }
 
-// With short examples define "enthusiastic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

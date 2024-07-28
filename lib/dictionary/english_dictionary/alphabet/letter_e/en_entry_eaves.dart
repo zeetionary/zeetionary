@@ -365,27 +365,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeavess1("en-GB"),
             onPressedAmerican: () => speakeavess1("en-US"),
           ),
-          // eavess200eavess2
-          // eavess300eavess3
-          // eavess400eavess4
-          // eavess500eavess5
-          // eavess600eavess6
-          // eavess700eavess7
-          // eavess800eavess8
-          // eavess900eavess9
-          // eavess_1000eavess10
-          // eavess1100eavess11
-          // eavess1200eavess12
-          // eavess1300eavess13
-          // eavess1400eavess14
-          // eavess1500eavess15
-          // eavess1600eavess16
-          // eavess1700eavess17
-          // eavess1800eavess18
-          // eavess1900eavess19
-          // eavess_2000eavess20
-          // eavess2100eavess21
-          // eavess2200eavesseavess
         ],
       ),
     );

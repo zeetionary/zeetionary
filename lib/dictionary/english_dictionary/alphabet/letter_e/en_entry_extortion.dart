@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He was arrested and charged with extortion.""");
   }
 
-// With short examples define "extortion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

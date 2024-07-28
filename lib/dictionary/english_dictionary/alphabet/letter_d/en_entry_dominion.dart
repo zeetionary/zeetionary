@@ -389,51 +389,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ناوچەیەک کە لەلایەن سەرکردەیەکی سیاسییەوە کۆنترۆڵ کراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The chief's son would inherit all his dominions.",
             kurdishText: "کوڕی سەرکردەکە تەواوی قەڵەمڕەوییەکەی وەردەگرێت.",
             onPressedBritish: () => speakdominions3("en-GB"),
             onPressedAmerican: () => speakdominions3("en-US"),
           ),
-          // dominions400"),
-          // dominions4
-          // dominions500"),
-          // dominions5
-          // dominions600"),
-          // dominions6
-          // dominions700"),
-          // dominions7
-          // dominions800"),
-          // dominions8
-          // dominions900"),
-          // dominions9
-          // dominions_1000"),
-          // dominions10
-          // dominions1100"),
-          // dominions11
-          // dominions1200"),
-          // dominions12
-          // dominions1300"),
-          // dominions13
-          // dominions1400"),
-          // dominions14
-          // dominions1500"),
-          // dominions15
-          // dominions1600"),
-          // dominions16
-          // dominions1700"),
-          // dominions17
-          // dominions1800"),
-          // dominions18
-          // dominions1900"),
-          // dominions19
-          // dominions_2000"),
-          // dominions20
-          // dominions2100"),
-          // dominions21
-          // dominions2200"),
-          // dominions22("en-US"),
+          // dominions4dominions4
+          // dominions5dominions5
+          // dominions6dominions6
+          // dominions7dominions7
+          // dominions8dominions8
+          // dominions9dominions9
+          // dominions_10dominions10
+          // dominions11dominions11
+          // dominions12dominions12
+          // dominions13dominions13
+          // dominions14dominions14
+          // dominions15dominions15
+          // dominions16dominions16
+          // dominions17dominions17
+          // dominions18dominions18
+          // dominions19dominions19
+          // dominions_20dominions20
+          // dominions21dominions21
         ],
       ),
     );

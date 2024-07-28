@@ -395,7 +395,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە پەیوەندیدارە بە ئامێری کارەبایی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Electronic and mechanical components don't last as long as they used to.""",
@@ -404,24 +403,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectronics3("en-GB"),
             onPressedAmerican: () => speakelectronics3("en-US"),
           ),
-          // electronics400electronics4
-          // electronics500electronics5
-          // electronics600electronics6
-          // electronics700electronics7
-          // electronics800electronics8
-          // electronics900electronics9
-          // electronics_1000electronics10
-          // electronics1100electronics11
-          // electronics1200electronics12
-          // electronics1300electronics13
-          // electronics1400electronics14
-          // electronics1500electronics15
-          // electronics1600electronics16
-          // electronics1700electronics17
-          // electronics1800electronics18
-          // electronics1900electronics19
-          // electronics_2000electronics20
-          // electronics2100electronics21
           // electronics2200electronicselectronics
         ],
       ),

@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The group got three encores.""",
             kurdishText: """گرووپەکە سێ نمایشی زیادەیان ئەنجامدا.""",
-// With short examples define "encore", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

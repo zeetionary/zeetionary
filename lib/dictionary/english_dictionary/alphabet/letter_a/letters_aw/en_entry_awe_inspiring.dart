@@ -95,9 +95,7 @@ class EnglishEntryaweinspiring extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "awe-inspiring"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "awe-inspiring"),
                             // divvviiider
                           ],
                         ),

@@ -371,7 +371,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Many of these plants won't tolerate temperature extremes.""");
   }
 
-// With short examples define "extreme", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

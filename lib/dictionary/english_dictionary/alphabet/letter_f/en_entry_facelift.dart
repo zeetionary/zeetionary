@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The town has recently been given a facelift.""");
   }
 
-// With short examples define "facelift", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

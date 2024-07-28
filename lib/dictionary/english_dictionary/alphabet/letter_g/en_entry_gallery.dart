@@ -789,7 +789,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پیشانگای هونەری، نیگارخانە
 """),
-// With short examples define "gallery", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پێشانگای هونەری"""),
                     SentencesRow(
@@ -1625,7 +1624,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/9TugA_z5vQE?t=';
 const double _startSecondsend = 000000000000000000000000000366;
 const String _videoIdone = 'https://youtu.be/TX9qSaGXFyg?t=';

@@ -111,8 +111,7 @@ class EnglishEntrycolonel extends StatelessWidget {
                           //         ],
                           //       ),
                           //     ),
-                          //     const CustomSizedBoxForTTS(), // With short examples define "colonel", please follow LX instructions
-                          //     Column(
+                          //     const CustomSizedBoxForTTS(),                           //     Column(
                           //       children: [
                           //         CustomIconButtonBritish(
                           //           onPressed: () => speakcolonels1("en-GB"),

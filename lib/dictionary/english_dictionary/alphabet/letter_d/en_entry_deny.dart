@@ -330,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ڕەتکردنەوەی داننان یان پەسەندکردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She denied all knowledge of the incident.",
             kurdishText: "نکۆڵی لە ھەر زانیارییەک لەسەر ڕووداوەکە کرد.",
@@ -362,7 +361,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) ڕێگەنەدان بە کەسێک کە شتێکی ھەبێت کە دەیەوێت یان داوای دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They were denied access to the information.",
             englishNote: "Also: Access to the information was denied to them.",
@@ -377,30 +375,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdenys10("en-GB"),
             onPressedAmerican: () => speakdenys10("en-US"),
           ),
-          // denys1100"),
-          // denys11("en-US"),
-          // denys1200"),
-          // denys12("en-US"),
-          // denys1300"),
-          // denys13("en-US"),
-          // denys1400"),
-          // denys14("en-US"),
-          // denys1500"),
-          // denys15("en-US"),
-          // denys1600"),
-          // denys16("en-US"),
-          // denys1700"),
-          // denys17("en-US"),
-          // denys1800"),
-          // denys18("en-US"),
-          // denys1900"),
-          // denys19("en-US"),
-          // "The company strongly denies wrongdoing.0"),
-          // denys20("en-US"),
-          // denys2100"),
-          // denys21("en-US"),
-          // denys2200"),
-          // denys22("en-US"),
         ],
       ),
     );

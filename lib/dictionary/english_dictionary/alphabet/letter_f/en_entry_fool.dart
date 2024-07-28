@@ -262,7 +262,6 @@ derived forms: fooling, fools, fooled)
                     const KurdishVocabulary(text: """
 کوردی: مرۆی گەوج و کەر،	تەڵخەک، گاڵتەجاڕ
 """),
-// With short examples define "fool", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) گەمژە"""),
                     SentencesRow(
                       englishText: """Don't be such a fool!""",
@@ -451,7 +450,6 @@ derived forms: fooling, fools, fooled)
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 1167;
 const String _videoIdone = 'qWAagS_MANg';

@@ -159,7 +159,6 @@ Usage: literary
                     const KurdishVocabulary(text: """
 کوردی: وێڵ کردن، ئازاد کردن، نکۆڵی کردن
 """),
-// With short examples define "forsake", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) جێھێشتنی کەسێک/شتێک"""),
                     SentencesRow(
@@ -249,7 +248,6 @@ Usage: literary
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'fRcPn3mJSyY';
 const double _startSecondsend = 419;
 const String _videoIdone = 'zJt0e8FRBwM';

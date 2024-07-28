@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""An erect penis is a sign of sexual readiness.""");
   }
 
-// With short examples define "erect", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

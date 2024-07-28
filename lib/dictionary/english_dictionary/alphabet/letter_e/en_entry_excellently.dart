@@ -10,7 +10,8 @@ class EnglishEntryexcellently extends StatefulWidget {
   const EnglishEntryexcellently({super.key});
 
   @override
-  State<EnglishEntryexcellently> createState() => _EnglishEntryexcellentlyState();
+  State<EnglishEntryexcellently> createState() =>
+      _EnglishEntryexcellentlyState();
 }
 
 class _EnglishEntryexcellentlyState extends State<EnglishEntryexcellently> {
@@ -247,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Scandinavian trains are excellently clean.""");
   }
 
-// With short examples define "excellently", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

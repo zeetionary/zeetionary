@@ -497,7 +497,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ئەو کارەی کە پیشەکەتە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Report for duty at 8 a.m.""",
             kurdishText: """لە ٨ ـی بەیانی بچۆ سەر کارەکەت.""",
@@ -530,7 +529,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ئەو ئەرکانەی کە بەشێکن لە کارەکەت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I spend a lot of time on administrative duties.""",
             kurdishText: """کاتی زۆرم بەسەر برد بە ئەرکی بەڕێوەبردن.""",
@@ -581,21 +579,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) باجێک کە دەیدەیت بۆ ئەو شتانەی کە دەیانکڕیت، بەتایبەتی بۆ ئەو شتانەی کە دەیانھێنیتە ناو وڵاتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The US imposed a duty on imports.""",
             kurdishText: """ئەمریکا باجی بەسەر ھاوردەدا سەپاند.""",
             onPressedBritish: () => speakdutys15("en-GB"),
             onPressedAmerican: () => speakdutys15("en-US"),
           ),
-          // dutys1600
-          // dutys16// dutys1700
-          // dutys17// dutys1800
-          // dutys18// dutys1900
-          // dutys19// dutys_2000
-          // dutys20// dutys2100
-          // dutys21// dutys2200
-          // dutys22("en-US"""),
         ],
       ),
     );

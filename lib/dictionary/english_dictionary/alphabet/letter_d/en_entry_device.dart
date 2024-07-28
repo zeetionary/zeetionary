@@ -380,7 +380,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئامێرێکی کۆمپیوتەری، بەتایبەتی یەکێکی بچووکی وەک موبایلی زیرەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You can store thousands of photos on your device.",
             kurdishText: "دەتوانیت ھەزاران وێنە لەسەر موبایلەکەت کۆگا بکەیت.",
@@ -396,7 +395,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) بۆمب یان تەقەمەنییەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "It was the world's first atomic device.",
             kurdishText: "یەکەمین بۆمبی ئەتۆمی جیھان بوو.",
@@ -414,7 +412,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) شێوازێکی کردنی شتێک کە ئەنجامێکی دیاریکراوی دەبێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Targeted advertising on social media is very successful as a marketing device.",
@@ -465,27 +462,18 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) شێوازێکی وشە کە ئامانج لێی ئەوەیە کاریگەرییەکی تایبەتی ھەبێت لە نووسین یان قسەکردندا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Metaphor and symbol are literary devices.",
             kurdishText: "میتافۆر و سمبول وەسیلەی ئەدەبین.",
             onPressedBritish: () => speakdevices15("en-GB"),
             onPressedAmerican: () => speakdevices15("en-US"),
           ),
-          // devices1600"),
-          // devices16
-          // devices1700"),
-          // devices17
-          // devices1800"),
-          // devices18
-          // devices1900"),
-          // devices19
-          // devices_2000"),
-          // devices20
-          // devices2100"),
-          // devices21
-          // devices2200"),
-          // devices22("en-US"),
+          // devices16devices16
+          // devices17devices17
+          // devices18devices18
+          // devices19devices19
+          // devices_20devices20
+          // devices21devices21
         ],
       ),
     );

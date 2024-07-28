@@ -141,9 +141,7 @@ class EnglishEntryanus extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           KurdishVocabulary(text: """
 کوردی: کۆم، کونی کۆم، زڕتک، پندرۆ، ڕەش، تریزە، کۆڤک

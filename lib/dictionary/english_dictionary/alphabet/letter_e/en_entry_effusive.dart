@@ -380,26 +380,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffusives2("en-GB"),
             onPressedAmerican: () => speakeffusives2("en-US"),
           ),
-          // effusives300effusives3
-          // effusives400effusives4
-          // effusives500effusives5
-          // effusives600effusives6
-          // effusives700effusives7
-          // effusives800effusives8
-          // effusives900effusives9
-          // effusives_1000effusives10
-          // effusives1100effusives11
-          // effusives1200effusives12
-          // effusives1300effusives13
-          // effusives1400effusives14
-          // effusives1500effusives15
-          // effusives1600effusives16
-          // effusives1700effusives17
-          // effusives1800effusives18
-          // effusives1900effusives19
-          // effusives_2000effusives20
-          // effusives2100effusives21
-          // effusives2200effusiveseffusives
         ],
       ),
     );

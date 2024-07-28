@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: میوە، فێقی، خوزار، یەمیش، فێکی، بار، بەر، بەرھەم،	ئەنجام، ئاکام، پێئاژۆ،	بەرھەم، بەروبۆ
 """),
-// With short examples define "fruit", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) میوە"""),
                     SentencesRow(
                       englishText:
@@ -313,7 +312,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 's3B-qp3U5G0';
 const double _startSecondsend = 423;
 const String _videoIdone = 'XI9kKiyIMf0';

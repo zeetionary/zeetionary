@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە لە منداڵییەوە ھەتە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Few people are blessed with her mental endowments.""",

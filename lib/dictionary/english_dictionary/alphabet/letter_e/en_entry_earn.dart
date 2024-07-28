@@ -463,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) پەیداکردنی پارە وەک قازانج یان سوو لەسەر پارەیەک کە داوتە بە قەرز"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Your money would earn more in a high-interest account.""",
@@ -476,7 +475,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) بەدەستھێنانی شتێک کە شایەنیت، زۆرجار بەھۆی شتێکی باش کە کردووتە یان خاسیەتێک کە ھەتە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He earned a reputation as an expert on tax law.""",
             kurdishText:

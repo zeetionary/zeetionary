@@ -364,48 +364,26 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdominos1("en-GB"),
             onPressedAmerican: () => speakdominos1("en-US"),
           ),
-          // dominos200"),
-          // dominos2
-          // dominos300"),
-          // dominos3
-          // dominos400"),
-          // dominos4
-          // dominos500"),
-          // dominos5
-          // dominos600"),
-          // dominos6
-          // dominos700"),
-          // dominos7
-          // dominos800"),
-          // dominos8
-          // dominos900"),
-          // dominos9
-          // dominos_1000"),
-          // dominos10
-          // dominos1100"),
-          // dominos11
-          // dominos1200"),
-          // dominos12
-          // dominos1300"),
-          // dominos13
-          // dominos1400"),
-          // dominos14
-          // dominos1500"),
-          // dominos15
-          // dominos1600"),
-          // dominos16
-          // dominos1700"),
-          // dominos17
-          // dominos1800"),
-          // dominos18
-          // dominos1900"),
-          // dominos19
-          // dominos_2000"),
-          // dominos20
-          // dominos2100"),
-          // dominos21
-          // dominos2200"),
-          // dominos22("en-US"),
+          // dominos2dominos2
+          // dominos3dominos3
+          // dominos4dominos4
+          // dominos5dominos5
+          // dominos6dominos6
+          // dominos7dominos7
+          // dominos8dominos8
+          // dominos9dominos9
+          // dominos_10dominos10
+          // dominos11dominos11
+          // dominos12dominos12
+          // dominos13dominos13
+          // dominos14dominos14
+          // dominos15dominos15
+          // dominos16dominos16
+          // dominos17dominos17
+          // dominos18dominos18
+          // dominos19dominos19
+          // dominos_20dominos20
+          // dominos21dominos21
         ],
       ),
     );

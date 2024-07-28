@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""There was an air of expectancy among the crowd.""");
   }
 
-// With short examples define "expectancy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -369,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە لە پێش ناوەوە بەکاردێت واتا جیاواز و تاک بە تاک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Each chapter deals with a different type of business.",
@@ -430,11 +429,9 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) نامۆ؛ نەک وەک کەس یان شتانی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Her methods are different, but no less effective for that.",
@@ -443,22 +440,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifferents14("en-GB"),
             onPressedAmerican: () => speakdifferents14("en-US"),
           ),
-          // differents1500"),
-          // differents15("en-US"),
-          // differents1600"),
-          // differents16("en-US"),
-          // differents1700"),
-          // differents17("en-US"),
-          // differents1800"),
-          // differents18("en-US"),
-          // differents1900"),
-          // differents19("en-US"),
-          // differents_2000"),
-          // differents20("en-US"),
-          // differents2100"),
-          // differents21("en-US"),
-          // differents2200"),
-          // differents22("en-US"),
         ],
       ),
     );

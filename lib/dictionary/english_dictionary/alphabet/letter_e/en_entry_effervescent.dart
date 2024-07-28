@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) شلەیەک کە بڵق درووست دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She takes effervescent Vitamin C supplements every morning.""",
@@ -386,26 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffervescents2("en-GB"),
             onPressedAmerican: () => speakeffervescents2("en-US"),
           ),
-          // effervescents300effervescents3
-          // effervescents400effervescents4
-          // effervescents500effervescents5
-          // effervescents600effervescents6
-          // effervescents700effervescents7
-          // effervescents800effervescents8
-          // effervescents900effervescents9
-          // effervescents_1000effervescents10
-          // effervescents1100effervescents11
-          // effervescents1200effervescents12
-          // effervescents1300effervescents13
-          // effervescents1400effervescents14
-          // effervescents1500effervescents15
-          // effervescents1600effervescents16
-          // effervescents1700effervescents17
-          // effervescents1800effervescents18
-          // effervescents1900effervescents19
-          // effervescents_2000effervescents20
-          // effervescents2100effervescents21
-          // effervescents2200effervescentseffervescents
         ],
       ),
     );

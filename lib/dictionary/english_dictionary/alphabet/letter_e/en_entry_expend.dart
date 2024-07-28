@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Most animals expend a lot of energy searching for food.""");
   }
 
-// With short examples define "expend", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

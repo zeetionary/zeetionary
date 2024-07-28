@@ -259,7 +259,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاڵا، درەوش، بەیداخ، پەندێر، بەندێر،	ئاڵای کەشتی،	نیشانەی بەتاڵ‌بوونی تاکسی، تاکسی ئامادەی کرێکێشی،	کلکی گاکێوی یان ئاسک
 """),
-// With short examples define "flag", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ئاڵا"""),
                     SentencesRow(
                       englishText:
@@ -440,7 +439,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QLq6GEiHqR8';
 const double _startSecondsend = 688;
 const String _videoIdone = 'D0x2dgpBDzc';

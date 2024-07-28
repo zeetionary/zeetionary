@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The courts have refused to extradite the suspects from Spain.""");
   }
 
-// With short examples define "extradite", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

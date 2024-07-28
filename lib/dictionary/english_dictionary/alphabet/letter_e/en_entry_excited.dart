@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Some horses become excited when they're in traffic.""");
   }
 
-// With short examples define "excited", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

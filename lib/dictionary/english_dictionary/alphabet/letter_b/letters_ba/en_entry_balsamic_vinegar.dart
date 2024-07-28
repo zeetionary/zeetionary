@@ -95,9 +95,7 @@ class EnglishEntrybalsamicvinegar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "balsamic vinegar"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "balsamic vinegar"),
                             // divvviiider
                           ],
                         ),

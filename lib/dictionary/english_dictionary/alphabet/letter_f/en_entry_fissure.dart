@@ -235,7 +235,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '4J0xFUyz1nw';
 const double _startSecondsend = 883;
 const String _videoIdone = 'M6XiFKB7j0w';

@@ -167,7 +167,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ژمارەی پازدە، ڕەنووسی پازدە
 """),
-// With short examples define "fifteen", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) پازدە (١٥)"""),
                     SentencesRow(
                       englishText: """They live about fifteen miles away.""",
@@ -260,7 +259,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'y1sF6ZeASU0';
 const double _startSecondsend = 265;
 const String _videoIdone = 'S-4rhjO6xYg';

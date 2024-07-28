@@ -342,7 +342,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھەستکردن بە دڵتەنگی و بێ ھیوایی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There was a feeling of gloom and depression in the office when the news of the job cuts was announced.",
@@ -362,7 +361,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ماوەیەک کە چالاکی ئابووری کەمە و خەڵکی ھەژار و بێکارن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The country was in the grip of (an) economic depression.",
@@ -382,7 +380,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) چاڵایی؛ بەشێکی زەوی کە نزمترە لە دەوروبەری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Rainwater collects in shallow depressions on the ground.",
@@ -390,30 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepressions10("en-GB"),
             onPressedAmerican: () => speakdepressions10("en-US"),
           ),
-          // depressions1100"),
-          // depressions11("en-US"),
-          // depressions1200"),
-          // depressions12("en-US"),
-          // depressions1300"),
-          // depressions13("en-US"),
-          // depressions1400"),
-          // depressions14("en-US"),
-          // depressions1500"),
-          // depressions15("en-US"),
-          // depressions1600"),
-          // depressions16("en-US"),
-          // depressions1700"),
-          // depressions17("en-US"),
-          // depressions1800"),
-          // depressions18("en-US"),
-          // depressions1900"),
-          // depressions19("en-US"),
-          // "He had a family history of depression.0"),
-          // depressions20("en-US"),
-          // depressions2100"),
-          // depressions21("en-US"),
-          // depressions2200"),
-          // depressions22("en-US"),
         ],
       ),
     );

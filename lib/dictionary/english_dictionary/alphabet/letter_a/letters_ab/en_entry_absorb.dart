@@ -94,9 +94,7 @@ class EnglishEntryabsorb extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əbˈzɔːrb/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əbˈzɔːrb/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakabsorb("en-US"),
                             ),

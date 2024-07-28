@@ -386,7 +386,6 @@ class KurdishMeaning extends StatelessWidget {
         """The winning entry will be published in next month's issue.0""");
   }
 
-// With short examples define "entry", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

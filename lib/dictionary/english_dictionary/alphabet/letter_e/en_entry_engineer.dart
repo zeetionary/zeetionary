@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Some biotech crops are engineered to ward off pests.""");
   }
 
-// With short examples define "engineer", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

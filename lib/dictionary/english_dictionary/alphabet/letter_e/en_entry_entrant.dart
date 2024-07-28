@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """Samsung and Apple have met strong competition from new entrants in the smartphone market.""");
   }
 
-// With short examples define "entrant", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

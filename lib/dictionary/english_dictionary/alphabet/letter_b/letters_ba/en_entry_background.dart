@@ -98,9 +98,7 @@ class EnglishEntrybackground extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "background"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "background"),
                             // divvviiider
                           ],
                         ),

@@ -94,9 +94,7 @@ class EnglishEntrybankholiday extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "bank holiday"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bank holiday"),
                             // divvviiider
                           ],
                         ),

@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
         """The first exhibit was a knife which the prosecution claimed was the murder weapon.""");
   }
 
-// With short examples define "exhibit", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -356,7 +355,6 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   """٤. (ناو) کۆمەڵە شتێک، بۆ نموونە کاری ھونەری، کە بە خەڵکی پیشان دەدرێن"""),
           const AlsoEnglishckb(word: "ھەروەھا: exhibition"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The new exhibit will tour a dozen US cities next year.""",

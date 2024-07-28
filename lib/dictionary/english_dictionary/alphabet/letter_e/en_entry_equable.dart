@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The south of the country enjoys an equable climate.""");
   }
 
-// With short examples define "equable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

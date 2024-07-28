@@ -380,26 +380,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeightys2("en-GB"),
             onPressedAmerican: () => speakeightys2("en-US"),
           ),
-          // eightys300eightys3
-          // eightys400eightys4
-          // eightys500eightys5
-          // eightys600eightys6
-          // eightys700eightys7
-          // eightys800eightys8
-          // eightys900eightys9
-          // eightys_1000eightys10
-          // eightys1100eightys11
-          // eightys1200eightys12
-          // eightys1300eightys13
-          // eightys1400eightys14
-          // eightys1500eightys15
-          // eightys1600eightys16
-          // eightys1700eightys17
-          // eightys1800eightys18
-          // eightys1900eightys19
-          // eightys_2000eightys20
-          // eightys2100eightys21
-          // eightys2200eightyseightys
         ],
       ),
     );

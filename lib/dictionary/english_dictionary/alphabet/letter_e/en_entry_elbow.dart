@@ -431,7 +431,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەو بەشەی جل کە ئانیشک دادەپۆشێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The jacket was worn at the elbows.""",
             kurdishText: """چاکەتەکە ڕزیبوو لە ئانیشکیدا.""",
@@ -440,7 +439,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) پاڵنان بە ئانیشک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She elbowed me out of the way to get to the front of the line.""",
@@ -456,21 +454,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelbows7("en-GB"),
             onPressedAmerican: () => speakelbows7("en-US"),
           ),
-          // elbows800elbows8
-          // elbows900elbows9
-          // elbows_1000elbows10
-          // elbows1100elbows11
-          // elbows1200elbows12
-          // elbows1300elbows13
-          // elbows1400elbows14
-          // elbows1500elbows15
-          // elbows1600elbows16
-          // elbows1700elbows17
-          // elbows1800elbows18
-          // elbows1900elbows19
-          // elbows_2000elbows20
-          // elbows2100elbows21
-          // elbows2200elbowselbows
         ],
       ),
     );

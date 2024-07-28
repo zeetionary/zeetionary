@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
         """Halfway through the movie reality evaporates and we enter a world of pure fantasy.""");
   }
 
-// With short examples define "evaporate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

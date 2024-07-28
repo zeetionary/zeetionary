@@ -384,7 +384,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەرکردنی کەسێک یان تیمێک لە پاڵەوانێتییەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """There were three eliminations in the first round of the competition.""",
@@ -394,7 +393,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) کوشتنی کەسێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The elimination of his opponents became his strategy for solidifying his grip on power.""",
@@ -403,7 +401,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeliminations3("en-GB"),
             onPressedAmerican: () => speakeliminations3("en-US"),
           ),
-          // eliminations400eliminations4
           // speakeliminations
         ],
       ),

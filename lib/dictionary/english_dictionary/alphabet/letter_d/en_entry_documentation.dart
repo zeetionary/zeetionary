@@ -396,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ڕێنمایی نووسراو بۆ کردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Each product is fully supported with user documentation.",
@@ -404,44 +403,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdocumentations3("en-GB"),
             onPressedAmerican: () => speakdocumentations3("en-US"),
           ),
-          // documentations400"),
-          // documentations4
-          // documentations500"),
-          // documentations5
-          // documentations600"),
-          // documentations6
-          // documentations700"),
-          // documentations7
-          // documentations800"),
-          // documentations8
-          // documentations900"),
-          // documentations9
-          // documentations_1000"),
-          // documentations10
-          // documentations1100"),
-          // documentations11
-          // documentations1200"),
-          // documentations12
-          // documentations1300"),
-          // documentations13
-          // documentations1400"),
-          // documentations14
-          // documentations1500"),
-          // documentations15
-          // documentations1600"),
-          // documentations16
-          // documentations1700"),
-          // documentations17
-          // documentations1800"),
-          // documentations18
-          // documentations1900"),
-          // documentations19
-          // documentations_2000"),
-          // documentations20
-          // documentations2100"),
-          // documentations21
-          // documentations2200"),
-          // documentations22("en-US"),
+          // documentations4documentations4
+          // documentations5documentations5
+          // documentations6documentations6
+          // documentations7documentations7
+          // documentations8documentations8
+          // documentations9documentations9
+          // documentations_10documentations10
+          // documentations11documentations11
+          // documentations12documentations12
+          // documentations13documentations13
+          // documentations14documentations14
+          // documentations15documentations15
+          // documentations16documentations16
+          // documentations17documentations17
+          // documentations18documentations18
+          // documentations19documentations19
+          // documentations_20documentations20
+          // documentations21documentations21
         ],
       ),
     );

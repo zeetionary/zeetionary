@@ -422,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) دووبارە کردنەوەی شتێک، بەتایبەتی کە پێویست نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Parenthood is an experience nothing else can duplicate.""",
@@ -442,7 +441,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) لەبەرگیراوەی شتێکی دیکە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The thieves were equipped with duplicate keys to the safe.""",
@@ -468,36 +466,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduplicates7("en-GB"),
             onPressedAmerican: () => speakduplicates7("en-US"),
           ),
-          // duplicates800
-          // duplicates8("en-US"""),
-          // duplicates900
-          // duplicates9("en-US"""),
-          // duplicates_1000
-          // duplicates10("en-US"""),
-          // duplicates1100
-          // duplicates11("en-US"""),
-          // duplicates1200
-          // duplicates12("en-US"""),
-          // duplicates1300
-          // duplicates13("en-US"""),
-          // duplicates1400
-          // duplicates14("en-US"""),
-          // duplicates1500
-          // duplicates15("en-US"""),
-          // duplicates1600
-          // duplicates16("en-US"""),
-          // duplicates1700
-          // duplicates17("en-US"""),
-          // duplicates1800
-          // duplicates18("en-US"""),
-          // duplicates1900
-          // duplicates19("en-US"""),
-          // duplicates_2000
-          // duplicates20("en-US"""),
-          // duplicates2100
-          // duplicates21("en-US"""),
-          // duplicates2200
-          // duplicates22("en-US"""),
         ],
       ),
     );

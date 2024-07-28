@@ -426,7 +426,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) پیشاندانی خاسیەتێک، ھەستێک، شارەزاییەک، یان ڕەفتارێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I have rarely seen her display any sign of emotion.",
             kurdishText: "بە دەگمەن دیومە ھیچ ھەستێک پیشان بدات.",
@@ -476,7 +475,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) پیشاندانی زانیاری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Giant screens displayed images of cheering crowds.",
             kurdishText:
@@ -488,7 +486,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) نمایشکی کۆمەڵە شتێک لە شوێنێکی گشتیدا بۆ زانیاری، خۆشی، یان ڕیکلام کردن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The medals can be seen in a display cabinet on the first floor.",
@@ -526,7 +523,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) پیشاندانی شتێک یان ئەنجامدانی شارەزاییەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They put on a spectacular firework display.",
             kurdishText: "نمایشێکی یاری ئاگرینی ناوازە دەخەنەڕوو.",
@@ -553,7 +549,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) دۆخێک کە تێیدا خاسیەتێک، ھەستێک، توانایەک، ھتد پیشان دەدەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There may be specific events which trigger aggressive displays in your dog.",
@@ -583,7 +578,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ناو) ئەوەی لەسەر شاشەی کۆمپیوتەرێک دەردەکەوێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The display shows the time in hours and minutes.",
             kurdishText: "شاشەکە کات بە کاتژمێر و خولەک پیشان دەدات.",

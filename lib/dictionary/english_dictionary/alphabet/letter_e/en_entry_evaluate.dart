@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """Candidates are evaluated on their ability to think independently.""");
   }
 
-// With short examples define "evaluate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

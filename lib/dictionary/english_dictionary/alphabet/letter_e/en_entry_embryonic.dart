@@ -407,24 +407,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembryonics3("en-GB"),
             onPressedAmerican: () => speakembryonics3("en-US"),
           ),
-          // embryonics400embryonics4
-          // embryonics500embryonics5
-          // embryonics600embryonics6
-          // embryonics700embryonics7
-          // embryonics800embryonics8
-          // embryonics900embryonics9
-          // embryonics_1000embryonics10
-          // embryonics1100embryonics11
-          // embryonics1200embryonics12
-          // embryonics1300embryonics13
-          // embryonics1400embryonics14
-          // embryonics1500embryonics15
-          // embryonics1600embryonics16
-          // embryonics1700embryonics17
-          // embryonics1800embryonics18
-          // embryonics1900embryonics19
-          // embryonics_2000embryonics20
-          // embryonics2100embryonics21
           // embryonics2200embryonicsembryonics
         ],
       ),

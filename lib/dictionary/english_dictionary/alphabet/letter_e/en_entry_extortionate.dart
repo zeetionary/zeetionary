@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """They are offering loans at extortionate rates of interest.""");
   }
 
-// With short examples define "extortionate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

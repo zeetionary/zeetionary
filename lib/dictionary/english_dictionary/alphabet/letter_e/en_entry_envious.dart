@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He saw the envious look in the other boy's eyes.""");
   }
 
-// With short examples define "envious", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

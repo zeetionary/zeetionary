@@ -173,7 +173,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flog", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) لێدان لە کەسێک بە قامچی یان دار"""),
                     SentencesRow(
@@ -272,7 +271,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'bcdEFos9YQQ';
 const double _startSecondsend = 259;
 const String _videoIdone = 'HF9zRqlN4T0';

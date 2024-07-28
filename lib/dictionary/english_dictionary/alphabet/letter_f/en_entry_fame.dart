@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Her fame rests on a single book.""");
   }
 
-// With short examples define "fame", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

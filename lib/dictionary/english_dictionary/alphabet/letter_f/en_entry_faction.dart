@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The president’s advisors represent every faction of his party.""");
   }
 
-// With short examples define "faction", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

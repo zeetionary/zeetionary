@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """Paul came from Tarsus, a town famed as a centre of learning and culture.""");
   }
 
-// With short examples define "famed", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

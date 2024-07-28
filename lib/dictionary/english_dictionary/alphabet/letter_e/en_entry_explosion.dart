@@ -285,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Do you know what brought on that explosion?""");
   }
 
-// With short examples define "explosion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

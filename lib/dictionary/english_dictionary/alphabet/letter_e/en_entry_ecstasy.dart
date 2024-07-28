@@ -398,24 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // """She received visions and ecstasies, sharing in the saint's sufferings.ecstasys3
-          // ecstasys400ecstasys4
-          // ecstasys500ecstasys5
-          // ecstasys600ecstasys6
-          // ecstasys700ecstasys7
-          // ecstasys800ecstasys8
-          // ecstasys900ecstasys9
-          // ecstasys_1000ecstasys10
-          // ecstasys1100ecstasys11
-          // ecstasys1200ecstasys12
-          // ecstasys1300ecstasys13
-          // ecstasys1400ecstasys14
-          // ecstasys1500ecstasys15
-          // ecstasys1600ecstasys16
-          // ecstasys1700ecstasys17
-          // ecstasys1800ecstasys18
-          // ecstasys1900ecstasys19
-          // ecstasys_2000ecstasys20
-          // ecstasys2100ecstasys21
           // ecstasys2200ecstasysecstasys
         ],
       ),

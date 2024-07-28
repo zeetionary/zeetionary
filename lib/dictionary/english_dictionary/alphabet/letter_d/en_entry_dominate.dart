@@ -464,7 +464,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بوون بە گرتنگترین یان دیارترین خاسیەتی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The train crash dominated the news.",
             kurdishText: "تێکشکانی شەمەندەفەرەکە ھەواڵەکانی گرت.",
@@ -489,7 +488,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بوون بە گەورەترین، بەرزترین، یان دیارترین شت لە شوێنێکدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The cathedral dominates the city.",
             kurdishText: "کڵێساکە خاڵی دیاری شارەکەیە/دەڕوانێت بەسەر شارەکەدا.",
@@ -499,37 +497,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) یاریکردنی زۆر باشتر لە ڕکابەرەکەت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Arsenal dominated the first half of the match.",
             kurdishText: "ئەرسناڵ دەستی گرت بەسەر یەکەم گێمی یارییەکەدا.",
             onPressedBritish: () => speakdominates10("en-GB"),
             onPressedAmerican: () => speakdominates10("en-US"),
           ),
-          // dominates1100"),
-          // dominates11("en-US"),
-          // dominates1200"),
-          // dominates12("en-US"),
-          // dominates1300"),
-          // dominates13("en-US"),
-          // dominates1400"),
-          // dominates14("en-US"),
-          // dominates1500"),
-          // dominates15("en-US"),
-          // dominates1600"),
-          // dominates16("en-US"),
-          // dominates1700"),
-          // dominates17("en-US"),
-          // dominates1800"),
-          // dominates18("en-US"),
-          // dominates1900"),
-          // dominates19("en-US"),
-          // dominates_2000"),
-          // dominates20("en-US"),
-          // dominates2100"),
-          // dominates21("en-US"),
-          // dominates2200"),
-          // dominates22("en-US"),
         ],
       ),
     );

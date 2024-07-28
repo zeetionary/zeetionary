@@ -340,7 +340,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) بڕە پارەیەک کە دەخرێتە ھەژمارێکی بانکییەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She made a deposit of £60 into her account.",
             kurdishText: "٦٠ پاوەندی خستە ھەژمارەکەیەوە.",
@@ -351,7 +350,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) بڕە پارەیەک کە بەربژێرێکی پەرلەمانی بەریتانیا دەیخەوێنێت و وەریدەگرێتەوە ئەگەر بباتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "All the other candidates lost their deposits.",
             kurdishText: "ھەموو کاندیدەکانی دیکە بارمتەکانیان لەدەستدا.",
@@ -361,7 +359,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) دانانی پارە لە ھەژماری بانکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Millions were deposited in Swiss bank accounts.",
             kurdishText: "ملیۆنان خرایە ھەژمارە بانکییەکانی سویسراوە.",
@@ -381,7 +378,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) پێدانی بڕە پارەیەک وەک پێشەکی و دواتر دانەوەی بەشەکەی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "You deposit 20 percent now and pay the rest when the car is delivered.",
@@ -393,37 +389,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) دانانی شتێک لە شوێنێکی دیاریکراو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She deposited a pile of books on my desk.",
             kurdishText: "ڕیزێک کتێبی خستە سەر مێزەکەم.",
             onPressedBritish: () => speakdeposits10("en-GB"),
             onPressedAmerican: () => speakdeposits10("en-US"),
           ),
-          // deposits1100"),
-          // deposits11("en-US"),
-          // deposits1200"),
-          // deposits12("en-US"),
-          // deposits1300"),
-          // deposits13("en-US"),
-          // deposits1400"),
-          // deposits14("en-US"),
-          // deposits1500"),
-          // deposits15("en-US"),
-          // deposits1600"),
-          // deposits16("en-US"),
-          // deposits1700"),
-          // deposits17("en-US"),
-          // deposits1800"),
-          // deposits18("en-US"),
-          // deposits1900"),
-          // deposits19("en-US"),
-          // "We've put down a five per cent deposit on the house.0"),
-          // deposits20("en-US"),
-          // deposits2100"),
-          // deposits21("en-US"),
-          // deposits2200"),
-          // deposits22("en-US"),
         ],
       ),
     );

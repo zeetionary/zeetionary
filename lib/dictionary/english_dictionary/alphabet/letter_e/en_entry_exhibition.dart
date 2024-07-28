@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
         """We were treated to an exhibition of the footballer's speed and skill.""");
   }
 
-// With short examples define "exhibition", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

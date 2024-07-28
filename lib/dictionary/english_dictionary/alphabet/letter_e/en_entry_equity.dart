@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """They strive for a society based on equity and social justice.""");
   }
 
-// With short examples define "equity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

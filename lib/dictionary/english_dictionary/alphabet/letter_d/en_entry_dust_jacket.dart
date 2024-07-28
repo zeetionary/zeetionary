@@ -367,48 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdustjackets1("en-GB"),
             onPressedAmerican: () => speakdustjackets1("en-US"),
           ),
-          // dustjackets200
-          // dustjackets2("en-US"""),
-          // dustjackets300
-          // dustjackets3("en-US"""),
-          // dustjackets400
-          // dustjackets4("en-US"""),
-          // dustjackets500
-          // dustjackets5("en-US"""),
-          // dustjackets600
-          // dustjackets6("en-US"""),
-          // dustjackets700
-          // dustjackets7("en-US"""),
-          // dustjackets800
-          // dustjackets8("en-US"""),
-          // dustjackets900
-          // dustjackets9("en-US"""),
-          // dustjackets_1000
-          // dustjackets10("en-US"""),
-          // dustjackets1100
-          // dustjackets11("en-US"""),
-          // dustjackets1200
-          // dustjackets12("en-US"""),
-          // dustjackets1300
-          // dustjackets13("en-US"""),
-          // dustjackets1400
-          // dustjackets14("en-US"""),
-          // dustjackets1500
-          // dustjackets15("en-US"""),
-          // dustjackets1600
-          // dustjackets16("en-US"""),
-          // dustjackets1700
-          // dustjackets17("en-US"""),
-          // dustjackets1800
-          // dustjackets18("en-US"""),
-          // dustjackets1900
-          // dustjackets19("en-US"""),
-          // dustjackets_2000
-          // dustjackets20("en-US"""),
-          // dustjackets2100
-          // dustjackets21("en-US"""),
-          // dustjackets2200
-          // dustjackets22("en-US"""),
         ],
       ),
     );

@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They danced exuberantly.""");
   }
 
-// With short examples define "exuberantly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

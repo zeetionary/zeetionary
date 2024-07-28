@@ -777,7 +777,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خۆڵ‌وخاک، ئاشغاڵ، گەن‌وگوو، زبڵ، زبڵ‌وزاڵ، پاشماوە، بەرماوە،	هەڵیت‌وپڵیت، قسەی هیچەکە، قسەی قۆڕ، قسەی حەلەق‌ومەلەق
 """),
-// With short examples define "garbage", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) زباڵە"""),
                     SentencesRow(
                       englishText: """Don't forget to take out the garbage.""",
@@ -1608,7 +1607,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/sSdMX8AWurI?t=';
 const double _startSecondsend = 000000000000000000000000000468;
 const String _videoIdone = 'https://youtu.be/XG8b7WhANNA?t=';

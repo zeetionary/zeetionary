@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """The cafe was a bleak, concrete erection with plastic tables and chairs.""");
   }
 
-// With short examples define "erection", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

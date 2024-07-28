@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""A pair of pink shoes completed her striking ensemble.""");
   }
 
-// With short examples define "ensemble", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

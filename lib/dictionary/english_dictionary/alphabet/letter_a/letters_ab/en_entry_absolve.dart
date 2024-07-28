@@ -58,9 +58,7 @@ class EnglishEntryabsolve extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əbˈzɑːlv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əbˈzɑːlv/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakabsolve("en-US"),
                             ),

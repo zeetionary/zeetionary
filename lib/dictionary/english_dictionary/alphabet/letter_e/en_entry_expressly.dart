@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The rule was introduced expressly for this purpose.""");
   }
 
-// With short examples define "expressly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

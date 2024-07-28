@@ -45,9 +45,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "accompanist"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accompanist"),
                           ],
                         ),
                         Row(
@@ -60,9 +58,7 @@ class EnglishEntryaccompanist extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkʌmpənɪst/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkʌmpənɪst/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccompanist("en-US"),
                             ),

@@ -106,8 +106,7 @@ class EnglishEntryattached extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "attached"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "attached"),
                             // divvviiider
                           ],
                         ),

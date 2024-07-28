@@ -468,7 +468,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) شێوازێکی ھاوڕێیانەی بانگکردنی کەسێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Anything else, duck?""",
             kurdishText: """ھیچی ترت ئەوێت، جووجەڵەم؟""",
@@ -479,7 +478,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) ئەوەی سەرت یان جەستەت ببەیتە خوارەوە بۆ ئەوەی لێت نەدرێت یان نەبیندرێیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He had to duck as he came through the door.""",
             kurdishText:
@@ -520,7 +518,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (کردار) ڕاکردنە شوێنێک بەخێرایی، بەتایبەتی بۆ ئەوەی کە نەبیندرێیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She ducked into the room as we came out.""",
             kurdishText:
@@ -532,35 +529,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٨. (کردار) خۆلادان لە ئەرکێک یان بەرپرسیاریەتییەکی سەخت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The government is ducking the issue.""",
             kurdishText: """حکومەت خۆی لە کێشەکە دەدزێتەوە.""",
             onPressedBritish: () => speakducks11("en-GB"),
             onPressedAmerican: () => speakducks11("en-US"),
           ),
-          // ducks1200
-          // ducks12("en-US"""),
-          // ducks1300
-          // ducks13("en-US"""),
-          // ducks1400
-          // ducks14("en-US"""),
-          // ducks1500
-          // ducks15("en-US"""),
-          // ducks1600
-          // ducks16("en-US"""),
-          // ducks1700
-          // ducks17("en-US"""),
-          // ducks1800
-          // ducks18("en-US"""),
-          // ducks1900
-          // ducks19("en-US"""),
-          // ducks_2000
-          // ducks20("en-US"""),
-          // ducks2100
-          // ducks21("en-US"""),
-          // ducks2200
-          // ducks22("en-US"""),
         ],
       ),
     );

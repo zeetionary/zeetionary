@@ -327,7 +327,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) ھەوڵانی زۆر بۆ کردنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I will endeavour to do my best for my country.""",
             kurdishText:

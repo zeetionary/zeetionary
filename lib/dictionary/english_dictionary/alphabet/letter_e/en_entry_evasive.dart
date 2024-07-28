@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He was very evasive with me.""");
   }
 
-// With short examples define "evasive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

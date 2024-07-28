@@ -279,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I don't consider the arms trade to be an ethical one.""");
   }
 
-// With short examples define "ethical", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

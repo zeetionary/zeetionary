@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He keeps a fatherly eye on his players.""");
   }
 
-// With short examples define "fatherly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -336,7 +336,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بڕبەند، کارتیخ، کارتک، ڕنە، ڕنەک، قەڵبە، خورۆک، مۆرە، مورەت،	نێنوک‌ساو، بڕبەندی نێنوک
 """),
-// With short examples define "file", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شتێک کە کاغەزی تێدا ھەڵدەگریت"""),
                     SentencesRow(
@@ -628,7 +627,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'GG0Xyc_wo-o';
 const double _startSecondsend = 155;
 const String _videoIdone = 'G1w3CXrKSwY';

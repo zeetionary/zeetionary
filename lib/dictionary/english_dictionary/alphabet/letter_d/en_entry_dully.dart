@@ -382,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێوەیەک کە کەمێک تاریکە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The moonlight shone dully on the surface of the lake.""",
@@ -394,51 +393,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) کە دەبێت ھۆکاری ئازاری بەردەوام کە زۆر سەخت نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """His leg ached dully.""",
             kurdishText: """لاقی بە سووکی ئازاری ھەبوو.""",
             onPressedBritish: () => speakdullys3("en-GB"),
             onPressedAmerican: () => speakdullys3("en-US"),
           ),
-          // dullys400
-          // dullys4("en-US"""),
-          // dullys500
-          // dullys5("en-US"""),
-          // dullys600
-          // dullys6("en-US"""),
-          // dullys700
-          // dullys7("en-US"""),
-          // dullys800
-          // dullys8("en-US"""),
-          // dullys900
-          // dullys9("en-US"""),
-          // dullys_1000
-          // dullys10("en-US"""),
-          // dullys1100
-          // dullys11("en-US"""),
-          // dullys1200
-          // dullys12("en-US"""),
-          // dullys1300
-          // dullys13("en-US"""),
-          // dullys1400
-          // dullys14("en-US"""),
-          // dullys1500
-          // dullys15("en-US"""),
-          // dullys1600
-          // dullys16("en-US"""),
-          // dullys1700
-          // dullys17("en-US"""),
-          // dullys1800
-          // dullys18("en-US"""),
-          // dullys1900
-          // dullys19("en-US"""),
-          // dullys_2000
-          // dullys20("en-US"""),
-          // dullys2100
-          // dullys21("en-US"""),
-          // dullys2200
-          // dullys22("en-US"""),
         ],
       ),
     );

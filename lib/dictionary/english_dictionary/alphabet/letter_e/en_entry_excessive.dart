@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He claimed that the police had used excessive force.""");
   }
 
-// With short examples define "excessive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

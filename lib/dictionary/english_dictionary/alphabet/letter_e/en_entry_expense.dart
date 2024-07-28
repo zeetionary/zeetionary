@@ -308,7 +308,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""We paid their expenses, but nothing more.""");
   }
 
-// With short examples define "expense", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

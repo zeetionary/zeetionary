@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """She was arrested for falsifying information and obstructing the course of justice.""");
   }
 
-// With short examples define "falsify", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

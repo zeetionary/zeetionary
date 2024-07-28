@@ -108,9 +108,7 @@ class EnglishEntryautomobile extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "automobile"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "automobile"),
                             // divvviiider
                           ],
                         ),

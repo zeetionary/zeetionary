@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The excavations are open to the public.""");
   }
 
-// With short examples define "excavation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

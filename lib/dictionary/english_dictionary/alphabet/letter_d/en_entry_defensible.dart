@@ -274,44 +274,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefensibles3("en-GB"),
             onPressedAmerican: () => speakdefensibles3("en-US"),
           ),
-          // defensibles400"),
-          // defensibles4
-          // defensibles500"),
-          // defensibles5
-          // defensibles600"),
-          // defensibles6
-          // defensibles700"),
-          // defensibles7
-          // defensibles800"),
-          // defensibles8
-          // defensibles900"),
-          // defensibles9
-          // defensibles1000"),
-          // defensibles10
-          // defensibles1100"),
-          // defensibles11
-          // defensibles1200"),
-          // defensibles12
-          // defensibles1300"),
-          // defensibles13
-          // defensibles1400"),
-          // defensibles14
-          // defensibles1500"),
-          // defensibles15
-          // defensibles1600"),
-          // defensibles16
-          // defensibles1700"),
-          // defensibles17
-          // defensibles1800"),
-          // defensibles18
-          // defensibles1900"),
-          // defensibles19
+          // defensibles4defensibles4
+          // defensibles5defensibles5
+          // defensibles6defensibles6
+          // defensibles7defensibles7
+          // defensibles8defensibles8
+          // defensibles9defensibles9
+          // defensibles10defensibles10
+          // defensibles11defensibles11
+          // defensibles12defensibles12
+          // defensibles13defensibles13
+          // defensibles14defensibles14
+          // defensibles15defensibles15
+          // defensibles16defensibles16
+          // defensibles17defensibles17
+          // defensibles18defensibles18
+          // defensibles19defensibles19
           // "Is it morally defensible to deny legal advice to a prisoner?0"),
           // defensibles20
-          // defensibles2100"),
-          // defensibles21
-          // defensibles2200"),
-          // defensibles22("en-US"),
+          // defensibles21defensibles21
         ],
       ),
     );

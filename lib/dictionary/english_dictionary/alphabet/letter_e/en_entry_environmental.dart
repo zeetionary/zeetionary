@@ -267,7 +267,6 @@ class KurdishMeaning extends StatelessWidget {
         """She is the director of environmental health at the council.""");
   }
 
-// With short examples define "environmental", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

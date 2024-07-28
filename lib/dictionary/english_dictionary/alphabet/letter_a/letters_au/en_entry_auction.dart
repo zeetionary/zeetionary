@@ -108,8 +108,7 @@ class EnglishEntryauction extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "auction"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "auction"),
                             // divvviiider
                           ],
                         ),

@@ -609,7 +609,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شەڕ، جەنگ،	خەبات، بەرخۆدان، ئاوقابوون، بەرەنگاری، بەگژداچوون، توانایی بەرەنگاربوونەوە، ورە، توانایی شەڕ، وزەی شەڕ، لەڕووڕاوێستان، ململانێ، مشت‌ومڕ، قڕە، کێشە، پێکادان، بەربوونەیەک، لێک‌سرەواندن، ئامبازی‌یەک‌بوون،	پێشبڕکێم	پێشبڕکێ بۆکس یان شەڕەمشت
 """),
-// With short examples define "fight", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) شەڕکردن لە جەنگ"""),
                     SentencesRow(
@@ -1242,7 +1241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_wNsZEqpKUA';
 const double _startSecondsend = 750;
 const String _videoIdone = 'gFuEoxh5hd4';

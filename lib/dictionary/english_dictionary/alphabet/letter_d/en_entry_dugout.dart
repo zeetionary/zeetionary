@@ -379,7 +379,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شوێنی ئەندامان و ڕاھێنەرانی تیمێک لە تەنیشتی یاریگاوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The manager sprinted out of the dugout to protest against the decision.""",
@@ -388,46 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdugouts2("en-GB"),
             onPressedAmerican: () => speakdugouts2("en-US"),
           ),
-          // dugouts300
-          // dugouts3("en-US"""),
-          // dugouts400
-          // dugouts4("en-US"""),
-          // dugouts500
-          // dugouts5("en-US"""),
-          // dugouts600
-          // dugouts6("en-US"""),
-          // dugouts700
-          // dugouts7("en-US"""),
-          // dugouts800
-          // dugouts8("en-US"""),
-          // dugouts900
-          // dugouts9("en-US"""),
-          // dugouts_1000
-          // dugouts10("en-US"""),
-          // dugouts1100
-          // dugouts11("en-US"""),
-          // dugouts1200
-          // dugouts12("en-US"""),
-          // dugouts1300
-          // dugouts13("en-US"""),
-          // dugouts1400
-          // dugouts14("en-US"""),
-          // dugouts1500
-          // dugouts15("en-US"""),
-          // dugouts1600
-          // dugouts16("en-US"""),
-          // dugouts1700
-          // dugouts17("en-US"""),
-          // dugouts1800
-          // dugouts18("en-US"""),
-          // dugouts1900
-          // dugouts19("en-US"""),
-          // dugouts_2000
-          // dugouts20("en-US"""),
-          // dugouts2100
-          // dugouts21("en-US"""),
-          // dugouts2200
-          // dugouts22("en-US"""),
         ],
       ),
     );

@@ -330,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""American pop music has been exported around the world.""");
   }
 
-// With short examples define "export", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

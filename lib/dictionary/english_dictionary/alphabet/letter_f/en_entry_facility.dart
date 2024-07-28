@@ -317,7 +317,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He plays the piano with surprising facility.""");
   }
 
-// With short examples define "facility", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

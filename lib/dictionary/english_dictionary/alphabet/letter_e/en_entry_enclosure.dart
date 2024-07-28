@@ -272,14 +272,12 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The enclosure for the horses was spacious.""",
             kurdishText: """حەساری ئەسپەکان فراوان بوو.""",
-// With short examples define "enclosure", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) پەرژینکردن یان دیواربەستکردنی شوێنێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The result of the enclosures was that many countrymen lost their only livelihood.""",
@@ -294,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) شتێک کە لەگەڵ نووسراوێک لە پاکەتێکدا دەنێردرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Always state the number of enclosures at the bottom of your letter.""",

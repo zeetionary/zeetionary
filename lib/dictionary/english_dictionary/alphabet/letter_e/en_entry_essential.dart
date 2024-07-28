@@ -319,7 +319,6 @@ class KurdishMeaning extends StatelessWidget {
         """The studio had all the essentials like heating and running water.0""");
   }
 
-// With short examples define "essential", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

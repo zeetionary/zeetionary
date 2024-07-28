@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fraternally", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) دۆستانە"""),
                     SentencesRow(
                       englishText:
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'q1RnjJd2c88';
 const double _startSecondsend = 337;
 const String _videoIdone = 'NMSuOh_ZSWc';

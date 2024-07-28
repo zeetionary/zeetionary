@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Passengers are carried by escalator to the first floor.""");
   }
 
-// With short examples define "escalator", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

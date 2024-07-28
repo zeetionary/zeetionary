@@ -422,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) کە بە فشی شۆڕبووبێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Some silk fabrics will drape beautifully.",
             kurdishText: "ھەندێک قوماشی ئاوریشم بە جوانی شۆڕدەبێتەوە.",
@@ -432,7 +431,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) داپۆشین یان ڕازاندنەوە بە قوماش"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The body was draped in a blanket.",
             kurdishText: "لاشەکە بە بەتانییەک پێچرابوویەوە.",
@@ -443,7 +441,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ئەوەی کە بەشێکی جەستەت بەسەر لەسەر شتێک بە ئارامی دابنێیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "His arm was draped casually around her shoulders.",
             kurdishText: "باڵی لەگۆترە دابوو بەسەر شانیدا.",
@@ -452,7 +449,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) پەردەیەکی ئەستووری درێژ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "These drapes will need to be professionally cleaned.",
             kurdishText: "ئەم پەردانە دەبێت پڕۆفیشناڵانە پاکبکرێنەوە.",
@@ -473,34 +469,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrapes8("en-GB"),
             onPressedAmerican: () => speakdrapes8("en-US"),
           ),
-          // drapes900"),
-          // drapes9("en-US"),
-          // drapes_1000"),
-          // drapes10("en-US"),
-          // drapes1100"),
-          // drapes11("en-US"),
-          // drapes1200"),
-          // drapes12("en-US"),
-          // drapes1300"),
-          // drapes13("en-US"),
-          // drapes1400"),
-          // drapes14("en-US"),
-          // drapes1500"),
-          // drapes15("en-US"),
-          // drapes1600"),
-          // drapes16("en-US"),
-          // drapes1700"),
-          // drapes17("en-US"),
-          // drapes1800"),
-          // drapes18("en-US"),
-          // drapes1900"),
-          // drapes19("en-US"),
-          // drapes_2000"),
-          // drapes20("en-US"),
-          // drapes2100"),
-          // drapes21("en-US"),
-          // drapes2200"),
-          // drapes22("en-US"),
         ],
       ),
     );

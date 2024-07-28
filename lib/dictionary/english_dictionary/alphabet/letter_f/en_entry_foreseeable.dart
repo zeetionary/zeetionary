@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەپێشبینی‌ھاتوو، شیاوی پێشبینی، پێشبینی دەکرێ
 """),
-// With short examples define "foreseeable", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە دەکرێت پێشبینی بکرێت"""),
                     SentencesRow(
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'y1sF6ZeASU0';
 const double _startSecondsend = 1001;
 const String _videoIdone = 'Y5F_ha7d-PI';

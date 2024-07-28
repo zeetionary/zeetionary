@@ -777,12 +777,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قومار، قوماربازی، قومارگەری
 """),
-// With short examples define "gambling", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) کاری قومار"""),
                     SentencesRow(
                       englishText:
                           """The police are trying to stop all illegal gambling.""",
-                      kurdishText: """پۆلیس هەوڵ دەدەن هەموو قومارێکی نایاسایی بوەستێنن.""",
+                      kurdishText:
+                          """پۆلیس هەوڵ دەدەن هەموو قومارێکی نایاسایی بوەستێنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1600,7 +1600,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/-VRx0GRo-Ws?t=';
 const double _startSecondsend = 000000000000000000000000000126;
 const String _videoIdone = 'https://youtu.be/D-qQneOnJl0?t=';

@@ -476,7 +476,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) جیاکردنەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Why is there such a divorce between the arts and the sciences in this country's schools?",
@@ -488,7 +487,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) کۆتایی ھێنان بە ھاوسەرگیری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They're getting divorced.",
             kurdishText: "جیادەبنەوە.",
@@ -513,7 +511,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) جیاکردنەوەی کەسێک، بیرۆکەیەک، بابەتێک، ھتد لە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "They believed that art should be divorced from politics.",
@@ -521,28 +518,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdivorces11("en-GB"),
             onPressedAmerican: () => speakdivorces11("en-US"),
           ),
-          // divorces1200"),
-          // divorces12("en-US"),
-          // divorces1300"),
-          // divorces13("en-US"),
-          // divorces1400"),
-          // divorces14("en-US"),
-          // divorces1500"),
-          // divorces15("en-US"),
-          // divorces1600"),
-          // divorces16("en-US"),
-          // divorces1700"),
-          // divorces17("en-US"),
-          // divorces1800"),
-          // divorces18("en-US"),
-          // divorces1900"),
-          // divorces19("en-US"),
-          // divorces_2000"),
-          // divorces20("en-US"),
-          // divorces2100"),
-          // divorces21("en-US"),
-          // divorces2200"),
-          // divorces22("en-US"),
         ],
       ),
     );

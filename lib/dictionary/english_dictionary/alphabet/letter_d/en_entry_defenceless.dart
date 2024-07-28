@@ -265,44 +265,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefencelesss3("en-GB"),
             onPressedAmerican: () => speakdefencelesss3("en-US"),
           ),
-          // defencelesss400"),
-          // defencelesss4
-          // defencelesss500"),
-          // defencelesss5
-          // defencelesss600"),
-          // defencelesss6
-          // defencelesss700"),
-          // defencelesss7
-          // defencelesss800"),
-          // defencelesss8
-          // defencelesss900"),
-          // defencelesss9
-          // defencelesss1000"),
-          // defencelesss10
-          // defencelesss1100"),
-          // defencelesss11
-          // defencelesss1200"),
-          // defencelesss12
-          // defencelesss1300"),
-          // defencelesss13
-          // defencelesss1400"),
-          // defencelesss14
-          // defencelesss1500"),
-          // defencelesss15
-          // defencelesss1600"),
-          // defencelesss16
-          // defencelesss1700"),
-          // defencelesss17
-          // defencelesss1800"),
-          // defencelesss18
-          // defencelesss1900"),
-          // defencelesss19
+          // defencelesss4defencelesss4
+          // defencelesss5defencelesss5
+          // defencelesss6defencelesss6
+          // defencelesss7defencelesss7
+          // defencelesss8defencelesss8
+          // defencelesss9defencelesss9
+          // defencelesss10defencelesss10
+          // defencelesss11defencelesss11
+          // defencelesss12defencelesss12
+          // defencelesss13defencelesss13
+          // defencelesss14defencelesss14
+          // defencelesss15defencelesss15
+          // defencelesss16defencelesss16
+          // defencelesss17defencelesss17
+          // defencelesss18defencelesss18
+          // defencelesss19defencelesss19
           // "How could anyone steal from a poor defenceless old lady?0"),
           // defencelesss20
-          // defencelesss2100"),
-          // defencelesss21
-          // defencelesss2200"),
-          // defencelesss22("en-US"),
+          // defencelesss21defencelesss21
         ],
       ),
     );

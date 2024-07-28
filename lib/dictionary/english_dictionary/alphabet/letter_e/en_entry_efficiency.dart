@@ -433,7 +433,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕێگاکانی کەمکردنەوەی بەفیڕۆدانی کات و پارە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """We are looking at our business to see where savings and efficiencies can be made.""",
@@ -446,7 +445,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) پەیوەندیی نێوان ئەو وزەیەی کە دەچێتە ناو ئامێرێک یان بزوێنەرێک، و ئەو ڕێژەیەی کە بەرھەمی دەھێنێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """What is the efficiency percentage of solar panels?""",
@@ -454,7 +452,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefficiencys6("en-GB"),
             onPressedAmerican: () => speakefficiencys6("en-US"),
           ),
-          // efficiencys700efficiencys7
           // speakefficiencys
         ],
       ),

@@ -254,7 +254,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I suppose her memory's a bit faulty.""");
   }
 
-// With short examples define "faulty", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

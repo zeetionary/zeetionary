@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The country was not prepared for the rapid escalation of the war.""");
   }
 
-// With short examples define "escalation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

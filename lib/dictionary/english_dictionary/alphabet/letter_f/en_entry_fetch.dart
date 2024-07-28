@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fetch", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕۆشتن بۆ شوێنێک و ھێنانی شتێک"""),
                     SentencesRow(
@@ -291,7 +290,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 314;
 const String _videoIdone = 'D-2799Y07Zc';

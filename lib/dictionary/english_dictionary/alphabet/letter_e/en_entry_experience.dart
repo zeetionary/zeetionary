@@ -411,7 +411,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I experienced a moment of panic as I boarded the plane.""");
   }
 
-// With short examples define "experience", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پازدەیەم، پازدەھەم، پازدەیەمین، پازدەیەک
 """),
-// With short examples define "fifteenth", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پازدەیەم"""),
                     SentencesRow(
                       englishText:
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'UbnulKZg3L8';
 const double _startSecondsend = 711;
 const String _videoIdone = 's4Y3dlTDAxw';

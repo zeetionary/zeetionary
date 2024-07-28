@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Most toxins are naturally excreted from the body.""");
   }
 
-// With short examples define "excrete", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

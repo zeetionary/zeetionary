@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) گرتنەخۆی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """This model embodies many new features.""",
             kurdishText:
@@ -397,24 +396,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembodys3("en-GB"),
             onPressedAmerican: () => speakembodys3("en-US"),
           ),
-          // embodys400embodys4
-          // embodys500embodys5
-          // embodys600embodys6
-          // embodys700embodys7
-          // embodys800embodys8
-          // embodys900embodys9
-          // embodys_1000embodys10
-          // embodys1100embodys11
-          // embodys1200embodys12
-          // embodys1300embodys13
-          // embodys1400embodys14
-          // embodys1500embodys15
-          // embodys1600embodys16
-          // embodys1700embodys17
-          // embodys1800embodys18
-          // embodys1900embodys19
-          // embodys_2000embodys20
-          // embodys2100embodys21
           // embodys2200embodysembodys
         ],
       ),

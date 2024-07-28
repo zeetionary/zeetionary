@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The passages were written facetiously.""");
   }
 
-// With short examples define "facetiously", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

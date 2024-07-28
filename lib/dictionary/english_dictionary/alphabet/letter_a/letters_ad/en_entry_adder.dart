@@ -97,9 +97,7 @@ class EnglishEntryadder extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           KurdishVocabulary(text: """
 کوردی: بەرگیر (مار)، مارگیسک، بۆ ناوی مارە ھاوشێوە یان پێوەندی‌دارەکان بەکاردێنرێ

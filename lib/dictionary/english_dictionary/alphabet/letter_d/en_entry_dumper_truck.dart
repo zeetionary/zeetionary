@@ -365,48 +365,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdumpertrucks1("en-GB"),
             onPressedAmerican: () => speakdumpertrucks1("en-US"),
           ),
-          // dumpertrucks200
-          // dumpertrucks2("en-US"""),
-          // dumpertrucks300
-          // dumpertrucks3("en-US"""),
-          // dumpertrucks400
-          // dumpertrucks4("en-US"""),
-          // dumpertrucks500
-          // dumpertrucks5("en-US"""),
-          // dumpertrucks600
-          // dumpertrucks6("en-US"""),
-          // dumpertrucks700
-          // dumpertrucks7("en-US"""),
-          // dumpertrucks800
-          // dumpertrucks8("en-US"""),
-          // dumpertrucks900
-          // dumpertrucks9("en-US"""),
-          // dumpertrucks_1000
-          // dumpertrucks10("en-US"""),
-          // dumpertrucks1100
-          // dumpertrucks11("en-US"""),
-          // dumpertrucks1200
-          // dumpertrucks12("en-US"""),
-          // dumpertrucks1300
-          // dumpertrucks13("en-US"""),
-          // dumpertrucks1400
-          // dumpertrucks14("en-US"""),
-          // dumpertrucks1500
-          // dumpertrucks15("en-US"""),
-          // dumpertrucks1600
-          // dumpertrucks16("en-US"""),
-          // dumpertrucks1700
-          // dumpertrucks17("en-US"""),
-          // dumpertrucks1800
-          // dumpertrucks18("en-US"""),
-          // dumpertrucks1900
-          // dumpertrucks19("en-US"""),
-          // dumpertrucks_2000
-          // dumpertrucks20("en-US"""),
-          // dumpertrucks2100
-          // dumpertrucks21("en-US"""),
-          // dumpertrucks2200
-          // dumpertrucks22("en-US"""),
         ],
       ),
     );

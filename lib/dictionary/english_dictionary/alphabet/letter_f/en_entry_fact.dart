@@ -385,7 +385,6 @@ class KurdishMeaning extends StatelessWidget {
         """Due to the fact that they did not read English, the prisoners were unaware of what they were signing.""");
   }
 
-// With short examples define "fact", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

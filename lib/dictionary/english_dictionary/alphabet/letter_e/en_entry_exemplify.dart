@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """She exemplified each of the points she was making with an amusing anecdote.""");
   }
 
-// With short examples define "exemplify", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

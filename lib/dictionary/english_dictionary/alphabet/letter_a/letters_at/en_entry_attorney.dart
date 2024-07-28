@@ -108,8 +108,7 @@ class EnglishEntryattorney extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "attorney"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "attorney"),
                             // divvviiider
                           ],
                         ),

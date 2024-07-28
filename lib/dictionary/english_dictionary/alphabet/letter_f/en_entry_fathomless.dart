@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She gazed into the fathomless depths of his brown eyes.""");
   }
 
-// With short examples define "fathomless", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

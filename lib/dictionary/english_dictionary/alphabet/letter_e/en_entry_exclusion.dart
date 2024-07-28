@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """The police announced the exclusion of robbery as a motive.""");
   }
 
-// With short examples define "exclusion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

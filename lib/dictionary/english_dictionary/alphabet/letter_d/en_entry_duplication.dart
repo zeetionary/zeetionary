@@ -378,7 +378,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کردنی شتێک دووبارە، بەتایبەتی کە پێویست نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Organize teams to tackle complex problems and avoid duplication.""",
@@ -387,46 +386,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduplications2("en-GB"),
             onPressedAmerican: () => speakduplications2("en-US"),
           ),
-          // duplications300
-          // duplications3("en-US"""),
-          // duplications400
-          // duplications4("en-US"""),
-          // duplications500
-          // duplications5("en-US"""),
-          // duplications600
-          // duplications6("en-US"""),
-          // duplications700
-          // duplications7("en-US"""),
-          // duplications800
-          // duplications8("en-US"""),
-          // duplications900
-          // duplications9("en-US"""),
-          // duplications_1000
-          // duplications10("en-US"""),
-          // duplications1100
-          // duplications11("en-US"""),
-          // duplications1200
-          // duplications12("en-US"""),
-          // duplications1300
-          // duplications13("en-US"""),
-          // duplications1400
-          // duplications14("en-US"""),
-          // duplications1500
-          // duplications15("en-US"""),
-          // duplications1600
-          // duplications16("en-US"""),
-          // duplications1700
-          // duplications17("en-US"""),
-          // duplications1800
-          // duplications18("en-US"""),
-          // duplications1900
-          // duplications19("en-US"""),
-          // duplications_2000
-          // duplications20("en-US"""),
-          // duplications2100
-          // duplications21("en-US"""),
-          // duplications2200
-          // duplications22("en-US"""),
         ],
       ),
     );

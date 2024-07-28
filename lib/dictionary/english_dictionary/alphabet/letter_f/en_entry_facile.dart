@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The team enjoyed a facile victory in the match.""");
   }
 
-// With short examples define "facile", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

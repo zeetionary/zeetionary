@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""These ideas were originally expounded by Plato.""");
   }
 
-// With short examples define "expound", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

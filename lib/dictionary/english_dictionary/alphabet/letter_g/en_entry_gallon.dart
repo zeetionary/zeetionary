@@ -1600,7 +1600,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/DPZzrlFCD_I?t=';
 const double _startSecondsend = 00000000000000000000000000084;
 const String _videoIdone = 'https://youtu.be/D-2799Y07Zc?t=';

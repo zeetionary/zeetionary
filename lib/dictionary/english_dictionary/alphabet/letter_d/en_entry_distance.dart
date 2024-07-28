@@ -545,7 +545,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەوەی کە دوور بێت بەپێی کات یان مەودا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Distance is no problem on the internet.",
             kurdishText: "دووری لەسەر ئینتەرنێت کێشە نییە.",
@@ -573,7 +572,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) خاڵێک کە بە ڕێژەیەکی دیاریکراو دوورە لە شتێکی ترەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You'll never get the ball in from that distance.",
             kurdishText: "ھەرگیز لەو دوورییەوە تۆپەکە تێناخەیت.",
@@ -600,7 +598,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) جیاوازی یان نەبوونی پەیوەندی نێوان دوو شت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The distance between fashion and art remains as great as ever.",
@@ -630,7 +627,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ناو) دۆخێک کە تێیدا کەمی ھەستی ھاوڕێیەتی یان پەیوەندیی نزیک ھەیە لە نێوان دوو کەس یان گرووپدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The coldness and distance in her voice took me by surprise.",
@@ -650,7 +646,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ئەوەی کە کەمتر تێکەڵ بیت لەگەڵ کەسێک/شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "When he retired, he tried to distance himself from politics.",
@@ -671,7 +666,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (کردار) دوورخستنەوەی کەسێک/شتێک لە کەسێک/شتێک یان ئەوەی پەیوەندیی نێوانیان نەھێڵیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Her mother wished to distance her from the rough village children.",
@@ -689,10 +683,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistances20("en-GB"),
             onPressedAmerican: () => speakdistances20("en-US"),
           ),
-          // distances2100"),
-          // distances21("en-US"),
-          // distances2200"),
-          // distances22("en-US"),
         ],
       ),
     );

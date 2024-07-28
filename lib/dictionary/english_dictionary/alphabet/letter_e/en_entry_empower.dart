@@ -379,7 +379,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) پێدانی دەسەڵاتی زیاتر بە کەسێک بەسەر ژیانی خۆیان یان ئەو دۆخەی تێیدان"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The movement actively empowered women and gave them confidence in themselves.""",
@@ -388,26 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakempowers2("en-GB"),
             onPressedAmerican: () => speakempowers2("en-US"),
           ),
-          // empowers300empowers3
-          // empowers400empowers4
-          // empowers500empowers5
-          // empowers600empowers6
-          // empowers700empowers7
-          // empowers800empowers8
-          // empowers900empowers9
-          // empowers_1000empowers10
-          // empowers1100empowers11
-          // empowers1200empowers12
-          // empowers1300empowers13
-          // empowers1400empowers14
-          // empowers1500empowers15
-          // empowers1600empowers16
-          // empowers1700empowers17
-          // empowers1800empowers18
-          // empowers1900empowers19
-          // empowers_2000empowers20
-          // empowers2100empowers21
-          // empowers2200empowersempowers
         ],
       ),
     );

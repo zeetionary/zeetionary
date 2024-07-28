@@ -776,7 +776,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جل‌وبەرگ، بەرگ، جامە، شمەک، کنج، لەشپۆش
 """),
-// With short examples define "garment", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) پارچە جلێک"""),
                     SentencesRow(
                       englishText:
@@ -1602,7 +1601,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/pTysrwci0pU?t=';
 const double _startSecondsend = 000000000000000000000000000846;
 const String _videoIdone = 'https://youtu.be/kcUFSapjVqk?t=';

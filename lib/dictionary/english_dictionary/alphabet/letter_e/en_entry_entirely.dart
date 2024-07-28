@@ -261,7 +261,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I entirely agree with you.""");
   }
 
-// With short examples define "entirely", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

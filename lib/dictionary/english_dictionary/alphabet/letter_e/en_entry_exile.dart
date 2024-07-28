@@ -289,7 +289,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The family was exiled from France.""");
   }
 
-// With short examples define "exile", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

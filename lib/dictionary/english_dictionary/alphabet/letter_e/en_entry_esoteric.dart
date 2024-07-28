@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She has a somewhat esoteric taste in clothes.""");
   }
 
-// With short examples define "esoteric", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

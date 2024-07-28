@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """Doing it once was just about excusable—doing it twice was certainly not.""");
   }
 
-// With short examples define "excusable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

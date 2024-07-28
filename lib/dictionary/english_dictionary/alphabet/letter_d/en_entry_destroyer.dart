@@ -250,53 +250,16 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێک یان شتێک کە وێرانکەرە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Sugar is the destroyer of healthy teeth.",
             kurdishText: "شەکر وێرانکەری ددانی تەندرووستە.",
             onPressedBritish: () => speakdestroyers2("en-GB"),
             onPressedAmerican: () => speakdestroyers2("en-US"),
           ),
-          // destroyers300"),
-          // destroyers3
-          // destroyers400"),
-          // destroyers4
-          // destroyers500"),
-          // destroyers5
-          // destroyers600"),
-          // destroyers6
-          // destroyers700"),
-          // destroyers7("en-US"),
-          // destroyers800"),
-          // destroyers8("en-US"),
-          // destroyers900"),
-          // destroyers9("en-US"),
-          // destroyers1000"),
-          // destroyers10("en-US"),
-          // destroyers1100"),
-          // destroyers11("en-US"),
-          // destroyers1200"),
-          // destroyers12("en-US"),
-          // destroyers1300"),
-          // destroyers13("en-US"),
-          // destroyers1400"),
-          // destroyers14("en-US"),
-          // destroyers1500"),
-          // destroyers15("en-US"),
-          // destroyers1600"),
-          // destroyers16("en-US"),
-          // destroyers1700"),
-          // destroyers17("en-US"),
-          // destroyers1800"),
-          // destroyers18("en-US"),
-          // destroyers1900"),
-          // destroyers19("en-US"),
-          // "Sugar is the destroyer of healthy teeth.0"),
-          // destroyers20("en-US"),
-          // destroyers2100"),
-          // destroyers21("en-US"),
-          // destroyers2200"),
-          // destroyers22("en-US"),
+          // destroyers3destroyers3
+          // destroyers4destroyers4
+          // destroyers5destroyers5
+          // destroyers6destroyers6
         ],
       ),
     );

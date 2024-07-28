@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترساو، تۆقیو، زەندەق‌چوو، زاروچوو، ترس‌لێ‌نیشتوو
 """),
-// With short examples define "frightened", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) ترساو"""),
                     SentencesRow(
                       englishText: """Don't be frightened.""",
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'S-4rhjO6xYg';
 const double _startSecondsend = 338;
 const String _videoIdone = 'mriYyuDmB58';

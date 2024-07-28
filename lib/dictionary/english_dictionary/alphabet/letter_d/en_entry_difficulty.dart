@@ -341,7 +341,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) سەختی کردن یان تێگەشتن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I had considerable difficulty (in) persuading her to leave.",
@@ -372,7 +371,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ئاستی سەختی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The games have varying levels of difficulty.",
             kurdishText: "یارییەکان ئاستی جیاواز لە سەختییان ھەیە.",
@@ -386,28 +384,16 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficultys11("en-GB"),
             onPressedAmerican: () => speakdifficultys11("en-US"),
           ),
-          // difficultys1200"),
-          // difficultys12
-          // difficultys1300"),
-          // difficultys13
-          // difficultys1400"),
-          // difficultys14
-          // difficultys1500"),
-          // difficultys15
-          // difficultys1600"),
-          // difficultys16
-          // difficultys1700"),
-          // difficultys17
-          // difficultys1800"),
-          // difficultys18
-          // difficultys1900"),
-          // difficultys19
-          // difficultys_2000"),
-          // difficultys20
-          // difficultys2100"),
-          // difficultys21
-          // difficultys2200"),
-          // difficultys22("en-US"),
+          // difficultys12difficultys12
+          // difficultys13difficultys13
+          // difficultys14difficultys14
+          // difficultys15difficultys15
+          // difficultys16difficultys16
+          // difficultys17difficultys17
+          // difficultys18difficultys18
+          // difficultys19difficultys19
+          // difficultys_20difficultys20
+          // difficultys21difficultys21
         ],
       ),
     );

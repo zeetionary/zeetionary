@@ -293,7 +293,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He has become expert on European politics.""");
   }
 
-// With short examples define "expert", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

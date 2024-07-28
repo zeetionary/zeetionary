@@ -621,7 +621,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""How can I face Tom? He'll be so disappointed.""");
   }
 
-// With short examples define "face", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

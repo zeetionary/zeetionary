@@ -414,23 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // easterns500easterns5
-          // easterns600easterns6
-          // easterns700easterns7
-          // easterns800easterns8
-          // easterns900easterns9
-          // easterns_1000easterns10
-          // easterns1100easterns11
-          // easterns1200easterns12
-          // easterns1300easterns13
-          // easterns1400easterns14
-          // easterns1500easterns15
-          // easterns1600easterns16
-          // easterns1700easterns17
-          // easterns1800easterns18
-          // easterns1900easterns19
-          // easterns_2000easterns20
-          // easterns2100easterns21
           // easterns2200easternseasterns
         ],
       ),

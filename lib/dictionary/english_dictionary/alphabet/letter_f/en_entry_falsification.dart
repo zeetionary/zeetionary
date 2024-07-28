@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """He pleaded guilty to the charge of falsification of accounting records.""");
   }
 
-// With short examples define "falsification", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -426,7 +426,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They are unlikely to get here on time, I fear.""");
   }
 
-// With short examples define "fear", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

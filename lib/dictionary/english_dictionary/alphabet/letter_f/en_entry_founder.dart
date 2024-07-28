@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دامەزرێنەر، بنیاتنەر، بناخەدانەر، پێکھێنەر
 """),
-// With short examples define "founder", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دامەزرێنەر"""),
                     SentencesRow(
                       englishText:
@@ -332,7 +331,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'R_fZjGm2OrM';
 const double _startSecondsend = 171;
 const String _videoIdone = 'O4iGNXsqghs';

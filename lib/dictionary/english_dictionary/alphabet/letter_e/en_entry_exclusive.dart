@@ -317,7 +317,6 @@ class KurdishMeaning extends StatelessWidget {
         """We feature an exclusive on the mothers whose babies were swapped at birth.""");
   }
 
-// With short examples define "exclusive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

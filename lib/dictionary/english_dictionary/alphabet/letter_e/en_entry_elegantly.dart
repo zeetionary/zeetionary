@@ -382,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە سەرنجڕاکێشە و جوان دیزاین کراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The cottage was simply and elegantly furnished.""",
             kurdishText:
@@ -393,7 +392,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵکار) کە زیرەکانە بەڵام سادەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """These concepts are simply and elegantly expressed in his writing.""",
@@ -402,133 +400,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelegantlys3("en-GB"),
             onPressedAmerican: () => speakelegantlys3("en-US"),
           ),
-          // elegantlys400elegantlys4
-          // speakelegantlys4("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys500elegantlys5
-          // speakelegantlys5("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys600elegantlys6
-          // speakelegantlys6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys700elegantlys7
-          // speakelegantlys7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys800elegantlys8
-          // speakelegantlys8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys900elegantlys9
-          // speakelegantlys9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys_1000elegantlys10
-          // speakelegantlys10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1100elegantlys11
-          // speakelegantlys11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1200elegantlys12
-          // speakelegantlys12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1300elegantlys13
-          // speakelegantlys13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1400elegantlys14
-          // speakelegantlys14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1500elegantlys15
-          // speakelegantlys15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1600elegantlys16
-          // speakelegantlys16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1700elegantlys17
-          // speakelegantlys17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1800elegantlys18
-          // speakelegantlys18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys1900elegantlys19
-          // speakelegantlys19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys_2000elegantlys20
-          // speakelegantlys20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys2100elegantlys21
-          // speakelegantlys21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elegantlys2200elegantlyselegantlys
+          // speakelegantlys21elegantlys2200elegantlyselegantlys
         ],
       ),
     );

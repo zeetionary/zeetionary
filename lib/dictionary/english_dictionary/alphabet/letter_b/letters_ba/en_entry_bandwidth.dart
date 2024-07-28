@@ -97,8 +97,7 @@ class EnglishEntrybandwidth extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bandwidth"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bandwidth"),
                             // divvviiider
                           ],
                         ),

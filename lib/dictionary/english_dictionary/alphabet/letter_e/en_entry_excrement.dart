@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""There was excrement smeared up the wall.""");
   }
 
-// With short examples define "excrement", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

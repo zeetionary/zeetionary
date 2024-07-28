@@ -427,7 +427,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) یەک قوم لە خواردنەوەی شلە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He took a deep draught of his beer.",
             kurdishText: "قومێکی قووڵی لە بیرەکە دا.",
@@ -436,7 +435,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) گیراوە؛ دەرمان بە شلەیی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She drank a sleeping draught to help with her insomnia.",
@@ -447,7 +445,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) نووسینی یەکەم بەرنووسی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'll draught a letter for you.",
             kurdishText: "یەکەم بەرنووسی نامەیەکت بۆ دەنووسم.",
@@ -457,7 +454,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) ھەڵبژاردنی خەڵکی ناردنیان بۆ ئەرکێکی تایبەت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Extra police are being draughted in to control the crowds.",
@@ -465,36 +461,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdraughts7("en-GB"),
             onPressedAmerican: () => speakdraughts7("en-US"),
           ),
-          // draughts800"),
-          // draughts8("en-US"),
-          // draughts900"),
-          // draughts9("en-US"),
-          // draughts_1000"),
-          // draughts10("en-US"),
-          // draughts1100"),
-          // draughts11("en-US"),
-          // draughts1200"),
-          // draughts12("en-US"),
-          // draughts1300"),
-          // draughts13("en-US"),
-          // draughts1400"),
-          // draughts14("en-US"),
-          // draughts1500"),
-          // draughts15("en-US"),
-          // draughts1600"),
-          // draughts16("en-US"),
-          // draughts1700"),
-          // draughts17("en-US"),
-          // draughts1800"),
-          // draughts18("en-US"),
-          // draughts1900"),
-          // draughts19("en-US"),
-          // draughts_2000"),
-          // draughts20("en-US"),
-          // draughts2100"),
-          // draughts21("en-US"),
-          // draughts2200"),
-          // draughts22("en-US"),
         ],
       ),
     );

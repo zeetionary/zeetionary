@@ -376,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دەستکردن بە ھەبوون یان ئەوەی پێ بزاندرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Language has not always kept up with the emergence of new types of family.""",
@@ -385,26 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemergences2("en-GB"),
             onPressedAmerican: () => speakemergences2("en-US"),
           ),
-          // emergences300emergences3
-          // emergences400emergences4
-          // emergences500emergences5
-          // emergences600emergences6
-          // emergences700emergences7
-          // emergences800emergences8
-          // emergences900emergences9
-          // emergences_1000emergences10
-          // emergences1100emergences11
-          // emergences1200emergences12
-          // emergences1300emergences13
-          // emergences1400emergences14
-          // emergences1500emergences15
-          // emergences1600emergences16
-          // emergences1700emergences17
-          // emergences1800emergences18
-          // emergences1900emergences19
-          // emergences_2000emergences20
-          // emergences2100emergences21
-          // emergences2200emergencesemergences
         ],
       ),
     );

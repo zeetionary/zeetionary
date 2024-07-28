@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         """It is one of the most famous churches built in the Victorian era.""");
   }
 
-// With short examples define "era", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

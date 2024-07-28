@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
         """Most of his family are sports enthusiasts, but he's the exception to the rule.""");
   }
 
-// With short examples define "exception", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

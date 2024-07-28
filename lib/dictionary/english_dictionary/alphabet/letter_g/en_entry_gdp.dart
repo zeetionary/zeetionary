@@ -84,8 +84,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""GDP grew 5.8 percent in the first quarter.""");
+    await flutterTts.speak("""GDP grew 5.8 percent in the first quarter.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -774,11 +773,14 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "GDP", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) تێکڕای بەرهەمی ناوخۆیی؛ تەواوی ئەو کەلووپەل و خزمەتگوزارییانەی کە لە ساڵێکدا لە لایەن وڵاتێکەوە بەرهەم هاتوون"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) تێکڕای بەرهەمی ناوخۆیی؛ تەواوی ئەو کەلووپەل و خزمەتگوزارییانەی کە لە ساڵێکدا لە لایەن وڵاتێکەوە بەرهەم هاتوون"""),
                     SentencesRow(
                       englishText:
                           """GDP grew 5.8 percent in the first quarter.""",
-                      kurdishText: """لە چارەکی یەکەمدا جی‌دی‌پی بە ڕێژەی ٥,٨ گەشەی کرد.""",
+                      kurdishText:
+                          """لە چارەکی یەکەمدا جی‌دی‌پی بە ڕێژەی ٥,٨ گەشەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -786,7 +788,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """There was a 42-per-cent decline in GDP.""",
+                      englishText:
+                          """There was a 42-per-cent decline in GDP.""",
                       kurdishText: """٤٢ لە سەد دابەزین لە جی‌دی‌پی هەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
@@ -1596,7 +1599,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/fn39vHu0tm8?t=';
 const double _startSecondsend = 00000000000000000000000000080;
 const String _videoIdone = 'https://youtu.be/FH-mKagDQDg?t=';

@@ -348,7 +348,6 @@ Usage: vulgar
   }
 }
 
-// 188888880002200
 const String _videoIdend = '21Z4RIOFhMA';
 const double _startSecondsend = 291;
 const String _videoIdone = '_spuxXnul0U';

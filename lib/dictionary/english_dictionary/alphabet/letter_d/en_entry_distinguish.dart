@@ -478,7 +478,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) بوون بە خاڵی جیاکەرەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "What was it that distinguished her from her classmates?",
@@ -513,7 +512,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) توانینی ئەوەی شتێک ببینیت یان گوێت لێی بێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I could not distinguish her words, but she sounded agitated.",
@@ -524,35 +522,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) کردنی شتێک زۆر بە باشی کە خەڵکی سەرسامت دەبن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She has already distinguished herself as an athlete.",
             kurdishText: "پێشوەختە خۆی وەک وەرزشوانێک دیاری کردووە.",
             onPressedBritish: () => speakdistinguishs11("en-GB"),
             onPressedAmerican: () => speakdistinguishs11("en-US"),
           ),
-          // distinguishs1200"),
-          // distinguishs12("en-US"),
-          // distinguishs1300"),
-          // distinguishs13("en-US"),
-          // distinguishs1400"),
-          // distinguishs14("en-US"),
-          // distinguishs1500"),
-          // distinguishs15("en-US"),
-          // distinguishs1600"),
-          // distinguishs16("en-US"),
-          // distinguishs1700"),
-          // distinguishs17("en-US"),
-          // distinguishs1800"),
-          // distinguishs18("en-US"),
-          // distinguishs1900"),
-          // distinguishs19("en-US"),
-          // distinguishs_2000"),
-          // distinguishs20("en-US"),
-          // distinguishs2100"),
-          // distinguishs21("en-US"),
-          // distinguishs2200"),
-          // distinguishs22("en-US"),
         ],
       ),
     );

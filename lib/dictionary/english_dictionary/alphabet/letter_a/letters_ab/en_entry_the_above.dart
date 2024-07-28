@@ -57,9 +57,7 @@ class EnglishEntrytheabove extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ði əˈbʌv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /ði əˈbʌv/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakTheabove("en-US"),
                             ),

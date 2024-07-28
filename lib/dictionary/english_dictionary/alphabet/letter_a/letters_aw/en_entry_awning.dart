@@ -95,8 +95,7 @@ class EnglishEntryawning extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "awning"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "awning"),
                             // divvviiider
                           ],
                         ),

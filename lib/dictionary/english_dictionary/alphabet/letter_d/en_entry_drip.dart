@@ -462,7 +462,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ئەوەی ڕێگا بە شتێک بدەیت تکە بکات یان ببیتە ھۆکاری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her hair dripped down her back.",
             kurdishText: "قژی بە پشتیدا تکەی دەکرد.",
@@ -486,7 +485,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) لەخۆگرتنی ڕێژەیەکی زۆر لە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The trees were dripping with fruit.",
             kurdishText: "دارەکان پڕ لە میوە بوون.",
@@ -504,7 +502,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) ئەوەی کە قەترە قەترەی شلە دەکەوێت؛ دەنگی تکەتک کەوتن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "All I could hear was the drip of the rain from the roof.",
@@ -516,7 +513,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) قەترەیەک شلە کە لە شتێکەوە دەکەوێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "We put a bucket under the hole in the roof to catch the drips.",
@@ -527,7 +523,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) زنجیرە ڕووداوێک، بەتایبەتی ڕووداوی خراپ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The drip, drip of negative comments began to have an effect.",
@@ -544,8 +539,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          // "speakdrips1200"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          // "speakdrips12          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
           //     ),
@@ -562,26 +556,15 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // drips1300"),
-          // drips13
-          // drips1400"),
-          // drips14
-          // drips1500"),
-          // drips15
-          // drips1600"),
-          // drips16
-          // drips1700"),
-          // drips17
-          // drips1800"),
-          // drips18
-          // drips1900"),
-          // drips19
-          // drips_2000"),
-          // drips20
-          // drips2100"),
-          // drips21
-          // drips2200"),
-          // drips22("en-US"),
+          // drips13drips13
+          // drips14drips14
+          // drips15drips15
+          // drips16drips16
+          // drips17drips17
+          // drips18drips18
+          // drips19drips19
+          // drips_20drips20
+          // drips21drips21
         ],
       ),
     );

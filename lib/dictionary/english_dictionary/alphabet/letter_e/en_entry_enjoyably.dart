@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """Few books bring science and history together so enjoyably.""");
   }
 
-// With short examples define "enjoyably", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

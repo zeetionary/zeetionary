@@ -171,7 +171,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "frighten", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ترساندنی کەسێک لەناکاو"""),
                     SentencesRow(
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'P8m-KThvtxA';
 const double _startSecondsend = 151;
 const String _videoIdone = 'i7mqjhOYL-8';

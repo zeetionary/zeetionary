@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: """The yard had been enclosed with iron railings.""",
             kurdishText: """حەوشەکە بە محاجەرەی ئاسنین داخرابوو.""",
-// With short examples define "enclose", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -303,7 +302,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) دەوردانی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She felt his arms enclose her.""",
             kurdishText: """(خوازراوی) ھەستی دەکرد باڵی لە دەوری ئاڵابوو.""",
@@ -323,7 +321,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) ناردنی شتێک لە ھەمان پاکەت یان بەرگەنامەی شتێکی دیکە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Please return the completed form, enclosing a recent photograph.""",

@@ -148,9 +148,8 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-// With short examples define "feminism", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو باوەڕەی کە ژنان ھەمان ھەل و مافی پیاوانیان ھەبێت؛ ھەوڵدان بۆ بەدەستھێنانی ئەمە"""),

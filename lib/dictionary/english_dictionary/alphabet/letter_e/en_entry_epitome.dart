@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They regarded him as the epitome of evil.""");
   }
 
-// With short examples define "epitome", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

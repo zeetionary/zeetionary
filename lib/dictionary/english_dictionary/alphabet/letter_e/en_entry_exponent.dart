@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """She studied under a leading exponent of the Japanese flute.""");
   }
 
-// With short examples define "exponent", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

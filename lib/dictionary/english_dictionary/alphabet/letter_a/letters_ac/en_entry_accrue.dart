@@ -37,8 +37,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "accrue"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accrue"),
                           ],
                         ),
                         Row(
@@ -51,9 +50,7 @@ class EnglishEntryaccrue extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkruː/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkruː/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccrue("en-US"),
                             ),

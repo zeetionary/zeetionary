@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوژمن، گاڤبەر، نەیار، ناحەز
 """),
-// With short examples define "foe", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دوژمن"""),
                     SentencesRow(
                       englishText:
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '-HyHZsa79LU';
 const double _startSecondsend = 1149;
 const String _videoIdone = '-r_l-cTcWsE';

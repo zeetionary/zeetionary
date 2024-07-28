@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاوەماسی، ماسیگری، ماسی‌یەوانی 
 """),
-// With short examples define "fishing", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) کاری ماسیگری"""),
                     SentencesRow(
                       englishText: """My dad loves to go fishing.""",
@@ -255,7 +254,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '0ST4_hmop9Y';
 const double _startSecondsend = 1215;
 const String _videoIdone = '6j5Rr9hWxz8';

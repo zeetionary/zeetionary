@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە نھێنی یان نەھێنی، (بە)پەنامەکی، بەدزی‌یەوە، لەبنەوە
 """),
-// With short examples define "furtively", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بە شێوەیەک کە ڕەفتار دەکەیت بە شێوەیەک کە دەتەوێت شتێک بە نھێنی بھێڵیتەوە و ماتەوێت ببیندرێیت"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'E1WZ2i6yeWw';
 const double _startSecondsend = 250;
 const String _videoIdone = 'U8Cq8c-Ohps';

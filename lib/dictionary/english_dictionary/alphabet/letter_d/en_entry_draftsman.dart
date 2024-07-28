@@ -385,46 +385,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdraftsmans2("en-GB"),
             onPressedAmerican: () => speakdraftsmans2("en-US"),
           ),
-          // draftsmans300"),
-          // draftsmans3
-          // draftsmans400"),
-          // draftsmans4
-          // draftsmans500"),
-          // draftsmans5
-          // draftsmans600"),
-          // draftsmans6
-          // draftsmans700"),
-          // draftsmans7
-          // draftsmans800"),
-          // draftsmans8
-          // draftsmans900"),
-          // draftsmans9
-          // draftsmans_1000"),
-          // draftsmans10
-          // draftsmans1100"),
-          // draftsmans11
-          // draftsmans1200"),
-          // draftsmans12
-          // draftsmans1300"),
-          // draftsmans13
-          // draftsmans1400"),
-          // draftsmans14
-          // draftsmans1500"),
-          // draftsmans15
-          // draftsmans1600"),
-          // draftsmans16
-          // draftsmans1700"),
-          // draftsmans17
-          // draftsmans1800"),
-          // draftsmans18
-          // draftsmans1900"),
-          // draftsmans19
-          // draftsmans_2000"),
-          // draftsmans20
-          // draftsmans2100"),
-          // draftsmans21
-          // draftsmans2200"),
-          // draftsmans22("en-US"),
+          // draftsmans3draftsmans3
+          // draftsmans4draftsmans4
+          // draftsmans5draftsmans5
+          // draftsmans6draftsmans6
+          // draftsmans7draftsmans7
+          // draftsmans8draftsmans8
+          // draftsmans9draftsmans9
+          // draftsmans_10draftsmans10
+          // draftsmans11draftsmans11
+          // draftsmans12draftsmans12
+          // draftsmans13draftsmans13
+          // draftsmans14draftsmans14
+          // draftsmans15draftsmans15
+          // draftsmans16draftsmans16
+          // draftsmans17draftsmans17
+          // draftsmans18draftsmans18
+          // draftsmans19draftsmans19
+          // draftsmans_20draftsmans20
+          // draftsmans21draftsmans21
         ],
       ),
     );

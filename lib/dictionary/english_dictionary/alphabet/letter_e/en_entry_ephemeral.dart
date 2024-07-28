@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""It is a critic’s job to follow every ephemeral fashion.""");
   }
 
-// With short examples define "ephemeral", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

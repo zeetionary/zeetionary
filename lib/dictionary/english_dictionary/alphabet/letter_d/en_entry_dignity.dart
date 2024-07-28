@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) وەرگرتنی شکۆ و ڕێز لەلایەن خەڵکییەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The terminally ill should be allowed to die with dignity.",
@@ -315,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ھەستکردن بە گرنگی و بەھای خۆت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "It's difficult to preserve your dignity when you have no job and no home.",
@@ -331,36 +329,20 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdignitys7("en-GB"),
             onPressedAmerican: () => speakdignitys7("en-US"),
           ),
-          // dignitys800"),
-          // dignitys8
-          // dignitys900"),
-          // dignitys9
-          // dignitys_1000"),
-          // dignitys10
-          // dignitys1100"),
-          // dignitys11
-          // dignitys1200"),
-          // dignitys12
-          // dignitys1300"),
-          // dignitys13
-          // dignitys1400"),
-          // dignitys14
-          // dignitys1500"),
-          // dignitys15
-          // dignitys1600"),
-          // dignitys16
-          // dignitys1700"),
-          // dignitys17
-          // dignitys1800"),
-          // dignitys18
-          // dignitys1900"),
-          // dignitys19
-          // dignitys_2000"),
-          // dignitys20
-          // dignitys2100"),
-          // dignitys21
-          // dignitys2200"),
-          // dignitys22("en-US"),
+          // dignitys8dignitys8
+          // dignitys9dignitys9
+          // dignitys_10dignitys10
+          // dignitys11dignitys11
+          // dignitys12dignitys12
+          // dignitys13dignitys13
+          // dignitys14dignitys14
+          // dignitys15dignitys15
+          // dignitys16dignitys16
+          // dignitys17dignitys17
+          // dignitys18dignitys18
+          // dignitys19dignitys19
+          // dignitys_20dignitys20
+          // dignitys21dignitys21
         ],
       ),
     );

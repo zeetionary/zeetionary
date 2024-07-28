@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The equipment of the photographic studio was expensive.""");
   }
 
-// With short examples define "equipment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """They received an eviction notice telling them they had to leave in seven days.""");
   }
 
-// With short examples define "eviction", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

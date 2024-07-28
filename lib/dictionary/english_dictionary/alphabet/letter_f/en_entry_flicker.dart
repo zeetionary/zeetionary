@@ -221,7 +221,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درەوشانەوە، بریسکانەوە، پڕشنگ‌دانەوە، پڕیشکە، چەخماخە، ترووسکە، برووسکە،	شێواوی، پشێوی،	لەرانەوە،	پرتە، پت، پرتەپرت، لێدان،	لێدانی سووک و کت‌وپڕ، فرتە، فڕین
 """),
-// With short examples define "flicker", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) پرتەپرت کردن"""),
                     SentencesRow(
@@ -372,7 +371,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qjqh9UVfNNk';
 const double _startSecondsend = 1120;
 const String _videoIdone = 'APIvXUbye2c';

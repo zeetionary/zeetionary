@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نووکی یا سەری قامک، پۆرتک، سەری پەنجە
 """),
-// With short examples define "fingertip", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لەو بەشەی پەنجە کە دوورترین لە دەست"""),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'CXvG2CBJ3SE';
 const double _startSecondsend = 573;
 const String _videoIdone = 'dtp6b76pMak';

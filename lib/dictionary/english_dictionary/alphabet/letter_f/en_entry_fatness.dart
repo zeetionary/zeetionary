@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Fatness tends to run in families.""");
   }
 
-// With short examples define "fatness", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -383,26 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemperors2("en-GB"),
             onPressedAmerican: () => speakemperors2("en-US"),
           ),
-          // emperors300emperors3
-          // emperors400emperors4
-          // emperors500emperors5
-          // emperors600emperors6
-          // emperors700emperors7
-          // emperors800emperors8
-          // emperors900emperors9
-          // emperors_1000emperors10
-          // emperors1100emperors11
-          // emperors1200emperors12
-          // emperors1300emperors13
-          // emperors1400emperors14
-          // emperors1500emperors15
-          // emperors1600emperors16
-          // emperors1700emperors17
-          // emperors1800emperors18
-          // emperors1900emperors19
-          // emperors_2000emperors20
-          // emperors2100emperors21
-          // emperors2200emperorsemperors
         ],
       ),
     );

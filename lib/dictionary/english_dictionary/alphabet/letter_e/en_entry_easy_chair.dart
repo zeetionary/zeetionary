@@ -364,27 +364,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasychairs1("en-GB"),
             onPressedAmerican: () => speakeasychairs1("en-US"),
           ),
-          // easychairs200easychairs2
-          // easychairs300easychairs3
-          // easychairs400easychairs4
-          // easychairs500easychairs5
-          // easychairs600easychairs6
-          // easychairs700easychairs7
-          // easychairs800easychairs8
-          // easychairs900easychairs9
-          // easychairs_1000easychairs10
-          // easychairs1100easychairs11
-          // easychairs1200easychairs12
-          // easychairs1300easychairs13
-          // easychairs1400easychairs14
-          // easychairs1500easychairs15
-          // easychairs1600easychairs16
-          // easychairs1700easychairs17
-          // easychairs1800easychairs18
-          // easychairs1900easychairs19
-          // easychairs_2000easychairs20
-          // easychairs2100easychairs21
-          // easychairs2200easychairseasychairs
         ],
       ),
     );

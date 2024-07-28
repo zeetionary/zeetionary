@@ -386,7 +386,6 @@ Usage: Brit, Cdn (US: flavor)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'cY4e0uvp7uI';
 const double _startSecondsend = 600;
 const String _videoIdone = '5fTd1aYzNHI';

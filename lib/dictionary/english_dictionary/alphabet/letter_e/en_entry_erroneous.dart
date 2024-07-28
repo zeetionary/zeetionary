@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The theory is based on several erroneous beliefs.""");
   }
 
-// With short examples define "erroneous", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

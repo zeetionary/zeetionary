@@ -374,7 +374,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو شێوازەی کە پارە کاریگەری درووست دەکات یان ڕێکخراوە لە ناو بەشێکی بازرگانییەک یان کۆمەڵگە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The economics of the project are very encouraging.""",
@@ -382,7 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomicss2("en-GB"),
             onPressedAmerican: () => speakeconomicss2("en-US"),
           ),
-          // economicss300economicss3
           // speakeconomicss
         ],
       ),

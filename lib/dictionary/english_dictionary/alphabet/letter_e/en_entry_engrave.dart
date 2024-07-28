@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The silver cup was engraved with his name.""");
   }
 
-// With short examples define "engrave", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

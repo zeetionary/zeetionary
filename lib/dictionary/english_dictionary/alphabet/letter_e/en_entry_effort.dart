@@ -552,7 +552,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وزەی جەستەیی یان دەروونی کە پێویستە بۆ کردنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """You should put more effort into your work.""",
             kurdishText: """دەبێت وزەی زیاتر بدەیت بە کارەکە.""",
@@ -587,7 +586,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) چالاکی کۆمەڵە کەسێک بۆ کردنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The United Nations’ peacekeeping effort reduced violence in the region.""",
@@ -599,14 +597,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) ئەنجامی ھەوڵی کردنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I'm afraid this essay is a poor effort.""",
             kurdishText: """بەداخەوەم کە ئەم داڕشتنە ئەنجامێکی خراپە.""",
             onPressedBritish: () => speakefforts15("en-GB"),
             onPressedAmerican: () => speakefforts15("en-US"),
           ),
-          // efforts1600efforts16
           // speakefforts
         ],
       ),

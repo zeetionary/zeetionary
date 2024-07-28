@@ -428,45 +428,27 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شتێک کە کاریگەری سەرەکی لەسەر شتێک ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Housing is a key driver of the economy.",
             kurdishText: "خانووبەرە پاڵنەری سەرەکی ئابوورییە.",
             onPressedBritish: () => speakdrivers6("en-GB"),
             onPressedAmerican: () => speakdrivers6("en-US"),
           ),
-          // drivers700"),
-          // drivers7
-          // drivers800"),
-          // drivers8
-          // drivers900"),
-          // drivers9
-          // drivers_1000"),
-          // drivers10
-          // drivers1100"),
-          // drivers11
-          // drivers1200"),
-          // drivers12
-          // drivers1300"),
-          // drivers13
-          // drivers1400"),
-          // drivers14
-          // drivers1500"),
-          // drivers15
-          // drivers1600"),
-          // drivers16
-          // drivers1700"),
-          // drivers17
-          // drivers1800"),
-          // drivers18
-          // drivers1900"),
-          // drivers19
-          // drivers_2000"),
-          // drivers20
-          // drivers2100"),
-          // drivers21
-          // drivers2200"),
-          // drivers22("en-US"),
+          // drivers7drivers7
+          // drivers8drivers8
+          // drivers9drivers9
+          // drivers_10drivers10
+          // drivers11drivers11
+          // drivers12drivers12
+          // drivers13drivers13
+          // drivers14drivers14
+          // drivers15drivers15
+          // drivers16drivers16
+          // drivers17drivers17
+          // drivers18drivers18
+          // drivers19drivers19
+          // drivers_20drivers20
+          // drivers21drivers21
         ],
       ),
     );

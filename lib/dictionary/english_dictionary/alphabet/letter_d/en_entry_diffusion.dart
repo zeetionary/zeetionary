@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پڕۆسەی بڵاوبوونەوەی گاز یان شلە بە ناو شتێک یان بە مادەی دەورووبەری بە تێکەڵبوون لەگەڵی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The inward diffusion of oxygen was fairly rapid at room temperature.",
@@ -274,44 +273,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiffusions3("en-GB"),
             onPressedAmerican: () => speakdiffusions3("en-US"),
           ),
-          // diffusions400"),
-          // diffusions4
-          // diffusions500"),
-          // diffusions5
-          // diffusions600"),
-          // diffusions6
-          // diffusions700"),
-          // diffusions7
-          // diffusions800"),
-          // diffusions8
-          // diffusions900"),
-          // diffusions9
-          // diffusions_1000"),
-          // diffusions10
-          // diffusions1100"),
-          // diffusions11
-          // diffusions1200"),
-          // diffusions12
-          // diffusions1300"),
-          // diffusions13
-          // diffusions1400"),
-          // diffusions14
-          // diffusions1500"),
-          // diffusions15
-          // diffusions1600"),
-          // diffusions16
-          // diffusions1700"),
-          // diffusions17
-          // diffusions1800"),
-          // diffusions18
-          // diffusions1900"),
-          // diffusions19
-          // diffusions_2000"),
-          // diffusions20
-          // diffusions2100"),
-          // diffusions21
-          // diffusions2200"),
-          // diffusions22("en-US"),
+          // diffusions4diffusions4
+          // diffusions5diffusions5
+          // diffusions6diffusions6
+          // diffusions7diffusions7
+          // diffusions8diffusions8
+          // diffusions9diffusions9
+          // diffusions_10diffusions10
+          // diffusions11diffusions11
+          // diffusions12diffusions12
+          // diffusions13diffusions13
+          // diffusions14diffusions14
+          // diffusions15diffusions15
+          // diffusions16diffusions16
+          // diffusions17diffusions17
+          // diffusions18diffusions18
+          // diffusions19diffusions19
+          // diffusions_20diffusions20
+          // diffusions21diffusions21
         ],
       ),
     );

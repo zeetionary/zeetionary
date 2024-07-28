@@ -259,7 +259,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He has an explosively combative temperament.""");
   }
 
-// With short examples define "explosively", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

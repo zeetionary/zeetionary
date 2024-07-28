@@ -414,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
         """This very problem has exercised the minds of some of our most eminent scientists.""");
   }
 
-// With short examples define "exercise", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

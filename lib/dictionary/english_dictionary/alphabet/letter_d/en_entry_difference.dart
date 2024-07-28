@@ -429,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ناکۆکی نێوان خەڵکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We have our differences, but she's still my sister.",
             kurdishText: "ناکۆکی خۆمان ھەیە، بەڵام ھێشتا خوشکمە.",
@@ -445,22 +444,13 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifferences14("en-GB"),
             onPressedAmerican: () => speakdifferences14("en-US"),
           ),
-          // differences1500"),
-          // differences15
-          // differences1600"),
-          // differences16
-          // differences1700"),
-          // differences17
-          // differences1800"),
-          // differences18
-          // differences1900"),
-          // differences19
-          // differences_2000"),
-          // differences20
-          // differences2100"),
-          // differences21
-          // differences2200"),
-          // differences22("en-US"),
+          // differences15differences15
+          // differences16differences16
+          // differences17differences17
+          // differences18differences18
+          // differences19differences19
+          // differences_20differences20
+          // differences21differences21
         ],
       ),
     );

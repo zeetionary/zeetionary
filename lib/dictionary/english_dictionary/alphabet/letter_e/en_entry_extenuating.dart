@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         """There were extenuating circumstances and the defendant did not receive a prison sentence.""");
   }
 
-// With short examples define "extenuating", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

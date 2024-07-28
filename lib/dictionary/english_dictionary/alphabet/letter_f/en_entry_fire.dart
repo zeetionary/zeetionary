@@ -510,7 +510,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاگر، ئاور،	ئاورگرتن، سووتان، سووتمان، ئاوری ماڵ‌وێران‌کەر، گرتن، ئاورتێ‌بەربوون،	(سەربازی) خستن، تەقاندن،	کوورە،	تین‌وگوڕ، داگیرسان، بەپەرۆشی، خرۆش، تامەزرۆیی
 """),
-// With short examples define "fire", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ئاگر"""),
                     SentencesRow(
                       englishText: """Most animals are afraid of fire.""",
@@ -961,7 +960,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'fvoCzunex3I';
 const double _startSecondsend = 29;
 const String _videoIdone = 'kXShLPXfWZA';

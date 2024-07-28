@@ -393,31 +393,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) خوو یان کاری نائاسایی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """We all have our little eccentricities.""",
             kurdishText: """ھەموومان خووی نامۆی خۆمان ھەیە.""",
             onPressedBritish: () => speakeccentricitys3("en-GB"),
             onPressedAmerican: () => speakeccentricitys3("en-US"),
           ),
-          // eccentricitys400eccentricitys4
-          // eccentricitys500eccentricitys5
-          // eccentricitys600eccentricitys6
-          // eccentricitys700eccentricitys7
-          // eccentricitys800eccentricitys8
-          // eccentricitys900eccentricitys9
-          // eccentricitys_1000eccentricitys10
-          // eccentricitys1100eccentricitys11
-          // eccentricitys1200eccentricitys12
-          // eccentricitys1300eccentricitys13
-          // eccentricitys1400eccentricitys14
-          // eccentricitys1500eccentricitys15
-          // eccentricitys1600eccentricitys16
-          // eccentricitys1700eccentricitys17
-          // eccentricitys1800eccentricitys18
-          // eccentricitys1900eccentricitys19
-          // eccentricitys_2000eccentricitys20
-          // eccentricitys2100eccentricitys21
           // eccentricitys2200eccentricityseccentricitys
         ],
       ),

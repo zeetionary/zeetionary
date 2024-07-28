@@ -367,27 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelementaryschools1("en-GB"),
             onPressedAmerican: () => speakelementaryschools1("en-US"),
           ),
-          // elementaryschools200elementaryschools2
-          // elementaryschools300elementaryschools3
-          // elementaryschools400elementaryschools4
-          // elementaryschools500elementaryschools5
-          // elementaryschools600elementaryschools6
-          // elementaryschools700elementaryschools7
-          // elementaryschools800elementaryschools8
-          // elementaryschools900elementaryschools9
-          // elementaryschools_1000elementaryschools10
-          // elementaryschools1100elementaryschools11
-          // elementaryschools1200elementaryschools12
-          // elementaryschools1300elementaryschools13
-          // elementaryschools1400elementaryschools14
-          // elementaryschools1500elementaryschools15
-          // elementaryschools1600elementaryschools16
-          // elementaryschools1700elementaryschools17
-          // elementaryschools1800elementaryschools18
-          // elementaryschools1900elementaryschools19
-          // elementaryschools_2000elementaryschools20
-          // elementaryschools2100elementaryschools21
-          // elementaryschools2200elementaryschoolselementaryschools
         ],
       ),
     );

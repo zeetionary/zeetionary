@@ -246,16 +246,13 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          // discourses200"),
-          // discourses2("en-US"),
           // // const DividerSentences(),
           // Row(
           //   children: [
           //     const Expanded(
           //       child: Column(
           //         children: [
-          // "speakdiscourses300"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          // "speakdiscourses3          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
           //     ),
@@ -272,44 +269,24 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // discourses400"),
-          // discourses4
-          // discourses500"),
-          // discourses5
-          // discourses600"),
-          // discourses6
-          // discourses700"),
-          // discourses7
-          // discourses800"),
-          // discourses8
-          // discourses900"),
-          // discourses9
-          // discourses_1000"),
-          // discourses10
-          // discourses1100"),
-          // discourses11
-          // discourses1200"),
-          // discourses12
-          // discourses1300"),
-          // discourses13
-          // discourses1400"),
-          // discourses14
-          // discourses1500"),
-          // discourses15
-          // discourses1600"),
-          // discourses16
-          // discourses1700"),
-          // discourses17
-          // discourses1800"),
-          // discourses18
-          // discourses1900"),
-          // discourses19
-          // discourses_2000"),
-          // discourses20
-          // discourses2100"),
-          // discourses21
-          // discourses2200"),
-          // discourses22("en-US"),
+          // discourses4discourses4
+          // discourses5discourses5
+          // discourses6discourses6
+          // discourses7discourses7
+          // discourses8discourses8
+          // discourses9discourses9
+          // discourses_10discourses10
+          // discourses11discourses11
+          // discourses12discourses12
+          // discourses13discourses13
+          // discourses14discourses14
+          // discourses15discourses15
+          // discourses16discourses16
+          // discourses17discourses17
+          // discourses18discourses18
+          // discourses19discourses19
+          // discourses_20discourses20
+          // discourses21discourses21
         ],
       ),
     );

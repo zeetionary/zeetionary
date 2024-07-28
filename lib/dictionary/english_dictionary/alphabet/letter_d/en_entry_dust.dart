@@ -447,7 +447,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) تۆزی ورد کە درووست دەبێت لە بینا، سەرزەوی، کەلووپەلی ماڵەوە، ھتد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The books were all covered with dust.""",
             kurdishText: """کتێبەکان ھەموو بە تۆز داپۆشرابوون.""",
@@ -472,7 +471,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) لێکردنەوەی تۆز لە کەلووپەل و شت بە قوماشێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I broke the vase while I was dusting.""",
             kurdishText: """گوڵدانەکەم شکاند کە پاککردنەوەم دەکرد.""",
@@ -490,7 +488,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) لێکردنەوەی تۆز لە خۆت/کەسێک/شتێک بە دەستت یان فڵچەیەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She dusted some ash from her sleeve.""",
             kurdishText: """ھەندێک خۆڵەمێشی لە قۆڵەکەی لێکردەوە.""",
@@ -500,37 +497,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) داپۆشینی شتێک بە وردە ھاڕاوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Dust the cake with sugar.""",
             kurdishText: """کێکەکە بە شەکر بپرژێنە.""",
             onPressedBritish: () => speakdusts10("en-GB"),
             onPressedAmerican: () => speakdusts10("en-US"),
           ),
-          // dusts1100
-          // dusts11("en-US"""),
-          // dusts1200
-          // dusts12("en-US"""),
-          // dusts1300
-          // dusts13("en-US"""),
-          // dusts1400
-          // dusts14("en-US"""),
-          // dusts1500
-          // dusts15("en-US"""),
-          // dusts1600
-          // dusts16("en-US"""),
-          // dusts1700
-          // dusts17("en-US"""),
-          // dusts1800
-          // dusts18("en-US"""),
-          // dusts1900
-          // dusts19("en-US"""),
-          // dusts_2000
-          // dusts20("en-US"""),
-          // dusts2100
-          // dusts21("en-US"""),
-          // dusts2200
-          // dusts22("en-US"""),
         ],
       ),
     );

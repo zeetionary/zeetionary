@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She held up her arms in entreaty.""");
   }
 
-// With short examples define "entreaty", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

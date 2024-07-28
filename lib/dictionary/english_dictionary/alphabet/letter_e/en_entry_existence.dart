@@ -310,7 +310,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""We led a poor but happy enough existence as children.""");
   }
 
-// With short examples define "existence", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

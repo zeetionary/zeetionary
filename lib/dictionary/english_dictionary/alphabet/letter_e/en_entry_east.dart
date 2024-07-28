@@ -501,7 +501,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕۆژھەڵاتی وڵاتێک، شارێک، ھتد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The east of the country is especially popular with tourists.""",
@@ -540,7 +539,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) وڵاتانی ڕۆژھەڵاتی ئاسیا، بەتایبەتی چین، ژاپۆن، و ھندستان"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """European traders started trading with the East in the 15th century.""",
@@ -552,7 +550,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵناو) لە ڕۆژھەڵات یان بەرەو ڕۆژھەڵات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They live on the east coast.""",
             kurdishText: """لە کەناری ڕۆژھەڵات دەژین.""",
@@ -568,7 +565,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ھاوەڵکار) بەرەو ڕۆژھەڵات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The house faces east.""",
             kurdishText: """خانووەکە ڕووی لە ڕۆژھەڵاتە.""",
@@ -584,56 +580,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٦. (ھاوەڵکار) نزیکتر لە ڕۆژھەڵات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They live five miles east of Oxford.""",
             kurdishText: """پێنج میل لە ڕۆژھەڵاتی ئۆکسفۆردەوە دەژین.""",
             onPressedBritish: () => speakeasts15("en-GB"),
             onPressedAmerican: () => speakeasts15("en-US"),
           ),
-          // easts1600easts16
-          // speakeasts16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // easts1700easts17
-          // speakeasts17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // easts1800easts18
-          // speakeasts18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // easts1900easts19
-          // speakeasts19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // easts_2000easts20
-          // speakeasts20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // easts2100easts21
-          // speakeasts21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // easts2200eastseasts
         ],
       ),
     );

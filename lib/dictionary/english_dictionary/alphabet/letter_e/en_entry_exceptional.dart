@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
         """This deadline will be extended only in exceptional circumstances.""");
   }
 
-// With short examples define "exceptional", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

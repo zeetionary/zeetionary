@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ئەوەی کە بگۆڕدرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """There is some elasticity in our plans - nothing has been firmly decided yet.""",
@@ -386,26 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelasticitys2("en-GB"),
             onPressedAmerican: () => speakelasticitys2("en-US"),
           ),
-          // elasticitys300elasticitys3
-          // elasticitys400elasticitys4
-          // elasticitys500elasticitys5
-          // elasticitys600elasticitys6
-          // elasticitys700elasticitys7
-          // elasticitys800elasticitys8
-          // elasticitys900elasticitys9
-          // elasticitys_1000elasticitys10
-          // elasticitys1100elasticitys11
-          // elasticitys1200elasticitys12
-          // elasticitys1300elasticitys13
-          // elasticitys1400elasticitys14
-          // elasticitys1500elasticitys15
-          // elasticitys1600elasticitys16
-          // elasticitys1700elasticitys17
-          // elasticitys1800elasticitys18
-          // elasticitys1900elasticitys19
-          // elasticitys_2000elasticitys20
-          // elasticitys2100elasticitys21
-          // elasticitys2200elasticityselasticitys
         ],
       ),
     );

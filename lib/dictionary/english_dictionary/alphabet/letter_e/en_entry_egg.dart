@@ -468,7 +468,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ھێلکەیەک کە دەخوردرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """You've got some egg on your shirt.""",
             kurdishText: """ھەندێک ھێلکە بە جلەکەتەوەیە.""",
@@ -518,7 +517,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) خانەیەک کە لەگەڵ سپێرم یەک دەگرێت و منداڵێک یان بیچووی ئاژەڵێک درووست دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The male sperm fertilizes the female egg.""",
             kurdishText: """سپێرمی نێرینەکە ھێلکەی مێینەکە دەپیتێنێت.""",
@@ -533,15 +531,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeggs12("en-GB"),
             onPressedAmerican: () => speakeggs12("en-US"),
           ),
-          // eggs1300eggs13
-          // eggs1400eggs14
-          // eggs1500eggs15
-          // eggs1600eggs16
-          // eggs1700eggs17
-          // eggs1800eggs18
-          // eggs1900eggs19
-          // eggs_2000eggs20
-          // eggs2100eggs21
           // eggs2200eggseggs
         ],
       ),

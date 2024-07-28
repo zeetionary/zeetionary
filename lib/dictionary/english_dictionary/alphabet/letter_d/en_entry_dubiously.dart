@@ -381,7 +381,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەشێوەیەک کە تەڵەکەبازی لەخۆدەگرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The main impact of the law will be to protect the wealthy and their dubiously acquired assets.""",
@@ -393,7 +392,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵکار) بەشێوەیەک کە باش نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He entered the country on dubiously authentic travel documents.""",
@@ -402,44 +400,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdubiouslys3("en-GB"),
             onPressedAmerican: () => speakdubiouslys3("en-US"),
           ),
-          // dubiouslys400
-          // dubiouslys4("en-US"""),
-          // dubiouslys500
-          // dubiouslys5("en-US"""),
-          // dubiouslys600
-          // dubiouslys6("en-US"""),
-          // dubiouslys700
-          // dubiouslys7("en-US"""),
-          // dubiouslys800
-          // dubiouslys8("en-US"""),
-          // dubiouslys900
-          // dubiouslys9("en-US"""),
-          // dubiouslys_1000
-          // dubiouslys10("en-US"""),
-          // dubiouslys1100
-          // dubiouslys11("en-US"""),
-          // dubiouslys1200
-          // dubiouslys12("en-US"""),
-          // dubiouslys1300
-          // dubiouslys13("en-US"""),
-          // dubiouslys1400
-          // dubiouslys14("en-US"""),
-          // dubiouslys1500
-          // dubiouslys15("en-US"""),
-          // dubiouslys1600
-          // dubiouslys16("en-US"""),
-          // dubiouslys1700
-          // dubiouslys17("en-US"""),
-          // dubiouslys1800
-          // dubiouslys18("en-US"""),
-          // dubiouslys1900
-          // dubiouslys19("en-US"""),
-          // dubiouslys_2000
-          // dubiouslys20("en-US"""),
-          // dubiouslys2100
-          // dubiouslys21("en-US"""),
-          // dubiouslys2200
-          // dubiouslys22("en-US"""),
         ],
       ),
     );

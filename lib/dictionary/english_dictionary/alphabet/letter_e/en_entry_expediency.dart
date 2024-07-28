@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """Some of their critics claim that recent decisions about tax are are nothing more than political expediency.""");
   }
 
-// With short examples define "expediency", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

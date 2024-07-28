@@ -439,7 +439,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھونەر یان پڕۆسەی کاری دیزاین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm doing a course in art and design.",
             kurdishText: "کۆرسێک لەسەر ھونەر و دیزاین ئەنجام دەدەم.",
@@ -473,7 +472,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) پلانێک یان وێنەیەکی کێشراو کە لێیەوە دەکرێت ھەندێک دیزاین درووست بکرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He has created some new and original designs.",
             kurdishText: "ھەندێک دیزاینی تازە و ڕەسەنی درووستکردووە.",
@@ -498,7 +496,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) شێوە دیزاینێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The tiles come in a huge range of colours and designs.",
@@ -517,7 +514,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) پلان یان مەبەست"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "It is all part of his grand design.",
             kurdishText: "ھەمووی بەشێکن لە پلانە گەورەکەی.",
@@ -542,7 +538,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (کردار) دیزاینکردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He designed and built his own house.",
             kurdishText: "ماڵەکەی خۆی دیزاین کرد و بنیاتی نا.",
@@ -569,7 +564,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (کردار) بیرکردنەوە لە پلانێک، سیستەمێک، شێوازی کردنی شتێک، ھتد زۆرجار بۆ مەبەستێک، بەکارھێنانێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The method is specifically designed for use in small groups.",

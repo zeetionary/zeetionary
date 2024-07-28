@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دۆخی ھەبوونی کەمئەندامی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He qualifies for help on the grounds of disability.",
             kurdishText: "شایستەی یارمەتی دەبێت بە ھۆکاری کەمئەندامی.",
@@ -288,42 +287,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisabilitys4("en-GB"),
             onPressedAmerican: () => speakdisabilitys4("en-US"),
           ),
-          // disabilitys500"),
-          // disabilitys5
-          // disabilitys600"),
-          // disabilitys6
-          // disabilitys700"),
-          // disabilitys7
-          // disabilitys800"),
-          // disabilitys8
-          // disabilitys900"),
-          // disabilitys9
-          // disabilitys_1000"),
-          // disabilitys10
-          // disabilitys1100"),
-          // disabilitys11
-          // disabilitys1200"),
-          // disabilitys12
-          // disabilitys1300"),
-          // disabilitys13
-          // disabilitys1400"),
-          // disabilitys14
-          // disabilitys1500"),
-          // disabilitys15
-          // disabilitys1600"),
-          // disabilitys16
-          // disabilitys1700"),
-          // disabilitys17
-          // disabilitys1800"),
-          // disabilitys18
-          // disabilitys1900"),
-          // disabilitys19
-          // disabilitys_2000"),
-          // disabilitys20
-          // disabilitys2100"),
-          // disabilitys21
-          // disabilitys2200"),
-          // disabilitys22("en-US"),
+          // disabilitys5disabilitys5
+          // disabilitys6disabilitys6
+          // disabilitys7disabilitys7
+          // disabilitys8disabilitys8
+          // disabilitys9disabilitys9
+          // disabilitys_10disabilitys10
+          // disabilitys11disabilitys11
+          // disabilitys12disabilitys12
+          // disabilitys13disabilitys13
+          // disabilitys14disabilitys14
+          // disabilitys15disabilitys15
+          // disabilitys16disabilitys16
+          // disabilitys17disabilitys17
+          // disabilitys18disabilitys18
+          // disabilitys19disabilitys19
+          // disabilitys_20disabilitys20
+          // disabilitys21disabilitys21
         ],
       ),
     );

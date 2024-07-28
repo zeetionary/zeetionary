@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """He initially equivocated on the question of whether he was religious.""");
   }
 
-// With short examples define "equivocate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

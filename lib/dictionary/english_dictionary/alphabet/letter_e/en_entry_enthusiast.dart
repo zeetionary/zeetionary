@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They are great enthusiasts of the American work ethic.""");
   }
 
-// With short examples define "enthusiast", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

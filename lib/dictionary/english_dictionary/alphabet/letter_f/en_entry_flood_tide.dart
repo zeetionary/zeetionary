@@ -230,7 +230,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'gW-Up4Envow';
 const double _startSecondsend = 765;
 const String _videoIdone = 'jYjhaHf7pBo';

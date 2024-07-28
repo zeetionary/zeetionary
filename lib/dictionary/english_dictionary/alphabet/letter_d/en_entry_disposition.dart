@@ -263,51 +263,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەوەی کە حەز بکەیت بە شێوەیەکی دیاریکراو ڕەفتار بکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Do people have a natural disposition to be good?",
             kurdishText: "ئایا خەڵکی خووی ئەوەیان ھەیە کە باش بن؟",
             onPressedBritish: () => speakdispositions3("en-GB"),
             onPressedAmerican: () => speakdispositions3("en-US"),
           ),
-          // dispositions400"),
-          // dispositions4
-          // dispositions500"),
-          // dispositions5
-          // dispositions600"),
-          // dispositions6
-          // dispositions700"),
-          // dispositions7
-          // dispositions800"),
-          // dispositions8
-          // dispositions900"),
-          // dispositions9
-          // dispositions_1000"),
-          // dispositions10
-          // dispositions1100"),
-          // dispositions11
-          // dispositions1200"),
-          // dispositions12
-          // dispositions1300"),
-          // dispositions13
-          // dispositions1400"),
-          // dispositions14
-          // dispositions1500"),
-          // dispositions15
-          // dispositions1600"),
-          // dispositions16
-          // dispositions1700"),
-          // dispositions17
-          // dispositions1800"),
-          // dispositions18
-          // dispositions1900"),
-          // dispositions19
-          // dispositions_2000"),
-          // dispositions20
-          // dispositions2100"),
-          // dispositions21
-          // dispositions2200"),
-          // dispositions22("en-US"),
+          // dispositions4dispositions4
+          // dispositions5dispositions5
+          // dispositions6dispositions6
+          // dispositions7dispositions7
+          // dispositions8dispositions8
+          // dispositions9dispositions9
+          // dispositions_10dispositions10
+          // dispositions11dispositions11
+          // dispositions12dispositions12
+          // dispositions13dispositions13
+          // dispositions14dispositions14
+          // dispositions15dispositions15
+          // dispositions16dispositions16
+          // dispositions17dispositions17
+          // dispositions18dispositions18
+          // dispositions19dispositions19
+          // dispositions_20dispositions20
+          // dispositions21dispositions21
         ],
       ),
     );

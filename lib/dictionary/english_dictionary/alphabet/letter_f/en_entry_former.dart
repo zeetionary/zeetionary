@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕابردوو، بووری، پێشوو، لەوەپێش، جاران، زوو، بەرین، ساڵان، بەری،	یەکەمین، ھەوەڵین، یەکەم، یەکەمین، سەرەتا، پێشین، پێکھێنەر، دامەزرێنەر
 """),
-// With short examples define "former", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە پێشووتر بوونی ھەبووە"""),
                     SentencesRow(
@@ -369,7 +368,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'wE1azf6azWw';
 const double _startSecondsend = 495;
 const String _videoIdone = 'tsxmyL7TUJg';

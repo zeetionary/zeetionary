@@ -337,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She flashed him a false smile of congratulation.""");
   }
 
-// With short examples define "false", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -684,7 +684,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بردنی کەسێک بۆ شوێنێک بە ئۆتۆمبێل، تەکسی، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Could you drive me home?",
             kurdishText: "دەتوانیت بمگەیەنیتە ماڵەوە؟",
@@ -716,7 +715,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) کە ئۆتۆمبێل بکەری ڕستەیە واتا کەسێک شۆفێری دەکات و ئۆتۆمبێلەکە بە ڕێگادا دەچێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A stream of black cars drove by us.",
             kurdishText: "زنجیرە ئۆتۆمبێلێک تێپەڕین بە لاماندا.",
@@ -754,7 +752,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) وا لە کەسێک بکەیت تووڕە، بێ‌ئۆقرە، ھتد بێت، یان وا بکەیت شتێکی توندوتیژ بکەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Hunger drove her to steal.",
             kurdishText: "برسێتی وایلێکرد دزی بکات.",
@@ -781,7 +778,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) واکردنی ئەوەی کەسێک بە شێوەیەکی دیاریکراو مامەڵە بکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The urge to survive drove them on.",
             kurdishText: "ویستی مانەوە بەردەوامی پێدان.",
@@ -807,7 +803,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (کردار) دابینکردنی ئەو ھێزەی کە وا دەکات ئامێرێک کاربکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The engine drives the wheels.",
             kurdishText: "بزوێنەرەکە کار بە ویلەکان دەکات.",
@@ -825,7 +820,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٨. (کردار) واکردنی ئەوەی کەسێک/شتێک بە ئاراستەیەکی دیاریکراودا بچێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The enemy was driven back.",
             kurdishText: "دووژمن پاشەکشەی پێکرا.",
@@ -836,7 +830,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٩. (کردار) ھەبوونی کاریگەری لەسەر شتێک یان وا بکەیت کە بەرەوپێش بچێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "This is the main factor driving investment in the area.",
@@ -858,7 +851,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٠. (کردار) زۆرکردن لە شتێک کە بە ئاراستەیەک یان شوێنێکی دیاریکراودا بچێت بە پاڵنانی، لێدانی، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The knife had been driven through his heart.",
             kurdishText: "چەقۆیەکە کرابوو بە دڵیدا.",
@@ -875,7 +867,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) کونکردنە شتێک بە بەکارھێنانی ھیز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They drove a tunnel through the solid rock.",
             kurdishText: "تونێلێکیان لێدا بە گابەردە سەختەکەدا.",
@@ -884,7 +875,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (کردار) لێدان لە تۆپێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "From the free kick, Owen drove the ball straight at the keeper.",
@@ -895,7 +885,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٣. (کردار) ھەڵگرتنی شتێک لەگەڵ خۆت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Huge waves drove the yacht onto the rocks.",
             kurdishText: "شەپۆلی گەورە یەختەکەیان کێشا بە بەردەکاندا.",
@@ -905,7 +894,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٤. (کردار) کەوتن یان جوڵانی بە خێرایی و ھێزی زۆرەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The waves drove against the shore.",
             kurdishText: "شەپۆلەکان کێشایان بە کەنارەکەدا.",
@@ -914,7 +902,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٥. (ناو) گەشتێک لە ئۆتۆمبێلێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Let's go for a drive.",
             kurdishText: "با بچین بۆ فڕەیەک.",
@@ -939,7 +926,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٦. (ناو) ئەو ئامێرانەی کە وزە لە بزوێنەرەو بۆ ویلەکان دەگوازنەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He uses a car with left-hand drive (= in which the driver sits in the seat on the left).",
@@ -951,7 +937,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٧. (ناو) لە ئۆتۆمبێلی گێڕ ئۆتۆماتیکدا ئەو کاتەیە کە گێڕەکە لەسەر پیتی D دەبێت و تێیدا گێڕەکان لەکاردان و بزوێنەرەکە دەکرێت ھێز بنێرێت بۆ ویلەکان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He jumped in, put the car in drive and set off.",
             kurdishText:
@@ -975,7 +960,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٩. (ناو) ھەوڵێکی ڕێکخراو لەلایەن گرووپێک کەسەوە بۆ کردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The party spearheaded the drive for independence.",
             kurdishText: "پارتەکە سەرمەشقی ھەوڵەکانی سەربەخۆیی بوو.",
@@ -984,7 +968,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢٠. (ناو) وزە و ورەی کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The treatment should not affect your sex drive or fertility.",
@@ -996,7 +979,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢١. (ناو) حەزێکی زۆر بۆ کردنی شتێک یان بەدەستھێنانی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He'll do very well—he has tremendous drive.",
             kurdishText: "زۆر باش دەبێت ـ گوڕوتین مەزنی ھەیە.",
@@ -1005,7 +987,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢٢. (ناو) لێدانێکی بەھێز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Cole scored with a thunderous left-foot drive.",
             kurdishText:
@@ -1016,53 +997,31 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٣. (ناو) بەشێکی کۆمپیوتەر کە زانیاری ھەڵدەگرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The computer has a built-in DVD drive.",
             kurdishText: "کۆمپیوتەرەکە درایڤێکی دی‌ڤی‌دی ناوەکی ھەیە.",
             onPressedBritish: () => speakdrives41("en-GB"),
             onPressedAmerican: () => speakdrives41("en-US"),
           ),
-          // drives4200"),
-          // drives42
-          // drives4300"),
-          // drives43
-          // drives4400"),
-          // drives44
-          // drives4500"),
-          // drives45
-          // drives4600"),
-          // drives46
-          // drives4700"),
-          // drives47
-          // drives4800"),
-          // drives48
-          // drives4900"),
-          // drives49
-          // drives_6000"),
-          // drives50
-          // drives5100"),
-          // drives51
-          // drives5200"),
-          // drives52
-          // drives5300"),
-          // drives53
-          // drives5400"),
-          // drives54
-          // drives5500"),
-          // drives55
-          // drives5600"),
-          // drives56
-          // drives5700"),
-          // drives57
-          // drives5800"),
-          // drives58
-          // drives5900"),
-          // drives59
-          // drives6000"),
-          // drives60
-          // drives6100"),
-          // drives61("en-US"),
+          // drives42drives42
+          // drives43drives43
+          // drives44drives44
+          // drives45drives45
+          // drives46drives46
+          // drives47drives47
+          // drives48drives48
+          // drives49drives49
+          // drives_60drives50
+          // drives51drives51
+          // drives52drives52
+          // drives53drives53
+          // drives54drives54
+          // drives55drives55
+          // drives56drives56
+          // drives57drives57
+          // drives58drives58
+          // drives59drives59
+          // drives60drives60
         ],
       ),
     );

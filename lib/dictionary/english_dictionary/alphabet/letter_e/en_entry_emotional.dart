@@ -433,7 +433,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە وا لە خەڵکی دەکات ھەستی بەھێز دەرببڕن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The anniversary of the accident was very emotional for him.""",
@@ -452,7 +451,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) بۆ کەسێکە کە ھەست و سۆزی زۆر پیشان دەدات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She was in a very emotional state.""",
             kurdishText: """لە دۆخێکی زۆر سۆزەکی بوو.""",
@@ -466,21 +464,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotionals7("en-GB"),
             onPressedAmerican: () => speakemotionals7("en-US"),
           ),
-          // emotionals800emotionals8
-          // emotionals900emotionals9
-          // emotionals_1000emotionals10
-          // emotionals1100emotionals11
-          // emotionals1200emotionals12
-          // emotionals1300emotionals13
-          // emotionals1400emotionals14
-          // emotionals1500emotionals15
-          // emotionals1600emotionals16
-          // emotionals1700emotionals17
-          // emotionals1800emotionals18
-          // emotionals1900emotionals19
-          // emotionals_2000emotionals20
-          // emotionals2100emotionals21
-          // emotionals2200emotionalsemotionals
         ],
       ),
     );

@@ -274,7 +274,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دۆست، برادەر، ڕفێق، ھاوڕێ، ھاودەم، یار، ھەڤاڵ،	یارمەتیدەر، بەھانەوەچوو، لایەنگر، داژدار، پشتیوان،	(لە شەڕدا) یەک‌گرتوو، ھەڤ‌گرتوو، یەک‌کەوتوو، ھاوپەیمان
 """),
-// With short examples define "friend", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ھاوڕێ"""),
                     SentencesRow(
                       englishText: """Is he a friend of yours?""",
@@ -493,7 +492,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'a_TSR_v07m0';
 const double _startSecondsend = 66;
 const String _videoIdone = '0eEkWvekQiE';

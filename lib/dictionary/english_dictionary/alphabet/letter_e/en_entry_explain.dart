@@ -322,7 +322,6 @@ class KurdishMeaning extends StatelessWidget {
         """The government now has to explain its decision to the public.""");
   }
 
-// With short examples define "explain", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

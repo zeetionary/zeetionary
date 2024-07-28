@@ -323,7 +323,6 @@ class KurdishMeaning extends StatelessWidget {
         """Fanned by a westerly wind, the fire spread rapidly through the city.""");
   }
 
-// With short examples define "fan", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -400,7 +400,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) لەدەستدانی دەسەڵات، گرنگی، ھتد، بەتایبەتی بەھۆی ئەوەی کەسێکی دیکە دەسەڵات، گرنگی، ھتد ـی زیاتری بەدەستھێناوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The election result marked the eclipse of the right wing.""",
@@ -421,7 +420,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) بوونە ھۆکاری گیرانی خۆر یان مانگ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The moon will be totally eclipsed at 12.10 p.m.""",
             kurdishText:
@@ -433,7 +431,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) واکردنی ئەوەی کەسێک/شتێک گرنگ، بەناوبانگ، یان باش نەبێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Though a talented player, he was completely eclipsed by his brother.""",
@@ -442,119 +439,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeclipses5("en-GB"),
             onPressedAmerican: () => speakeclipses5("en-US"),
           ),
-          // eclipses600eclipses6
-          // speakeclipses6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses700eclipses7
-          // speakeclipses7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses800eclipses8
-          // speakeclipses8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses900eclipses9
-          // speakeclipses9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses_1000eclipses10
-          // speakeclipses10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1100eclipses11
-          // speakeclipses11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1200eclipses12
-          // speakeclipses12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1300eclipses13
-          // speakeclipses13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1400eclipses14
-          // speakeclipses14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1500eclipses15
-          // speakeclipses15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1600eclipses16
-          // speakeclipses16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1700eclipses17
-          // speakeclipses17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1800eclipses18
-          // speakeclipses18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses1900eclipses19
-          // speakeclipses19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses_2000eclipses20
-          // speakeclipses20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses2100eclipses21
-          // speakeclipses21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eclipses2200eclipseseclipses
+          // speakeclipses21eclipses2200eclipseseclipses
         ],
       ),
     );

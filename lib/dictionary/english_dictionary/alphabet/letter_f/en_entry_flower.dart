@@ -236,7 +236,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گوڵ،	ھەڵبژاردە، سەرتۆپ، سەرگوڵ، سەرتل، باش‌ترین، باش‌ترین بەش
 """),
-// With short examples define "flower", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) گوڵ"""),
                     SentencesRow(
                       englishText:
@@ -403,7 +402,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HDntl7yzzVI';
 const double _startSecondsend = 1331;
 const String _videoIdone = 'yjhibJ-OqxE';

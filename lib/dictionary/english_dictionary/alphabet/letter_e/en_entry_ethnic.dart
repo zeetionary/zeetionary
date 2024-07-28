@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """I did not want to be classified according to my skin colour or ethnic origin.""");
   }
 
-// With short examples define "ethnic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

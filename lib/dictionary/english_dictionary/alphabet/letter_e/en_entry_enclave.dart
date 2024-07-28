@@ -258,7 +258,6 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """The northern part of the city is a Christian enclave.""",
             kurdishText: """بەشی باکووری وڵاتەکە ھەرێمێکی مەسیحییە.""",
-// With short examples define "enclave", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

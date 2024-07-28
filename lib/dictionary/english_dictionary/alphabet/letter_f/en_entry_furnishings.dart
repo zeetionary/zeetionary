@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "furnishings", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کەلوپەلی ناوماڵ، فەرش، پەردە، ھتد"""),
                     SentencesRow(
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '9zX2BQFZ_BI';
 const double _startSecondsend = 52;
 const String _videoIdone = 'ipeoe_6J2ys';

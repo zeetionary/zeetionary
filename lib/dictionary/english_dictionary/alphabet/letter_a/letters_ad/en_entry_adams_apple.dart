@@ -97,9 +97,7 @@ class EnglishEntryadamsapple extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DefinitionKurdish(text: """
 کوردی: سێوی ئادەم، کەڵەشێرە، قورتمە، زەنگەلووک، کەڵەبابەی گەردن، قوڕقوڕاگە (لەو داستانەوە گیراوەتەوە کە تێکەیێ لە میوەی قەدەخەکراو لە گەرووی ئادەم‌دا گیری کردووە (یان بۆتە گرێ)

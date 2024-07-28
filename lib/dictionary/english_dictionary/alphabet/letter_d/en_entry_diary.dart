@@ -278,49 +278,29 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کتێبێک یان ئەپێک کە بۆشایی تێدایە بۆ ھەر ڕۆژێکی ساڵ بۆ تۆمارکردنی ئەو شتانەی کە دەبێت لە داھاتوودا بیان کەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I've made a note in my diary.",
             kurdishText: "تێبینییەکم لە ساڵنامەکەم نووسی.",
             onPressedBritish: () => speakdiarys4("en-GB"),
             onPressedAmerican: () => speakdiarys4("en-US"),
           ),
-          // diarys500"),
-          // diarys5
-          // diarys600"),
-          // diarys6
-          // diarys700"),
-          // diarys7
-          // diarys800"),
-          // diarys8
-          // diarys900"),
-          // diarys9
-          // diarys_1000"),
-          // diarys10
-          // diarys1100"),
-          // diarys11
-          // diarys1200"),
-          // diarys12
-          // diarys1300"),
-          // diarys13
-          // diarys1400"),
-          // diarys14
-          // diarys1500"),
-          // diarys15
-          // diarys1600"),
-          // diarys16
-          // diarys1700"),
-          // diarys17
-          // diarys1800"),
-          // diarys18
-          // diarys1900"),
-          // diarys19
-          // diarys_2000"),
-          // diarys20
-          // diarys2100"),
-          // diarys21
-          // diarys2200"),
-          // diarys22("en-US"),
+          // diarys5diarys5
+          // diarys6diarys6
+          // diarys7diarys7
+          // diarys8diarys8
+          // diarys9diarys9
+          // diarys_10diarys10
+          // diarys11diarys11
+          // diarys12diarys12
+          // diarys13diarys13
+          // diarys14diarys14
+          // diarys15diarys15
+          // diarys16diarys16
+          // diarys17diarys17
+          // diarys18diarys18
+          // diarys19diarys19
+          // diarys_20diarys20
+          // diarys21diarys21
         ],
       ),
     );

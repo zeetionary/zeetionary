@@ -165,7 +165,6 @@ Usage: Brit
                     const KurdishVocabulary(text: """
 کوردی: دووھەفتەیی، لامانگە، (ھەر) دوو ھەفتە جارێ، دووھەفتەنامە
 """),
-// With short examples define "fortnightly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) دوو ھەفتە جارێک"""),
                     SentencesRow(
@@ -251,7 +250,6 @@ Usage: Brit
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'T1qjjr2V-7g';
 const double _startSecondsend = 476;
 const String _videoIdone = 'n9IxomBusuw';

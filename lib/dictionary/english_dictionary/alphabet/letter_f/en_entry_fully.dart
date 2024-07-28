@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەتەواوەتی، بەتەواوی، تەواو،	بە دووردرێژی، بە تێروتەسەلی،	لانی‌کەم
 """),
-// With short examples define "fully", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە تەواوی"""),
                     SentencesRow(
@@ -312,7 +311,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 431;
 const String _videoIdone = 'hFZFjoX2cGg';

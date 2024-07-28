@@ -368,68 +368,47 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => downtoearthths1("en-GB"),
             onPressedAmerican: () => downtoearthths1("en-US"),
           ),
-          // "downtoearthths200"),
-          // downtoearthths2
+          // "downtoearthths2downtoearthths2
           //           onPressed: () => downtoearthths2("en-US"),
-          // "downtoearthths300"),
-          // downtoearthths3
+          // "downtoearthths3downtoearthths3
           //           onPressed: () => downtoearthths3("en-US"),
-          // "downtoearthths400"),
-          // downtoearthths4
+          // "downtoearthths4downtoearthths4
           //           onPressed: () => downtoearthths4("en-US"),
-          // "downtoearthths500"),
-          // downtoearthths5
+          // "downtoearthths5downtoearthths5
           //           onPressed: () => downtoearthths5("en-US"),
-          // "downtoearthths600"),
-          // downtoearthths6
+          // "downtoearthths6downtoearthths6
           //           onPressed: () => downtoearthths6("en-US"),
-          // "downtoearthths700"),
-          // downtoearthths7
+          // "downtoearthths7downtoearthths7
           //           onPressed: () => downtoearthths7("en-US"),
-          // "downtoearthths800"),
-          // downtoearthths8
+          // "downtoearthths8downtoearthths8
           //           onPressed: () => downtoearthths8("en-US"),
-          // "downtoearthths900"),
-          // downtoearthths9
+          // "downtoearthths9downtoearthths9
           //           onPressed: () => downtoearthths9("en-US"),
-          // "downtoearthths_1000"),
-          // downtoearthths10
+          // "downtoearthths_10downtoearthths10
           //           onPressed: () => downtoearthths10("en-US"),
-          // "downtoearthths1100"),
-          // downtoearthths11
+          // "downtoearthths11downtoearthths11
           //           onPressed: () => downtoearthths11("en-US"),
-          // "downtoearthths1200"),
-          // downtoearthths12
+          // "downtoearthths12downtoearthths12
           //           onPressed: () => downtoearthths12("en-US"),
-          // "downtoearthths1300"),
-          // downtoearthths13
+          // "downtoearthths13downtoearthths13
           //           onPressed: () => downtoearthths13("en-US"),
-          // "downtoearthths1400"),
-          // downtoearthths14
+          // "downtoearthths14downtoearthths14
           //           onPressed: () => downtoearthths14("en-US"),
-          // "downtoearthths1500"),
-          // downtoearthths15
+          // "downtoearthths15downtoearthths15
           //           onPressed: () => downtoearthths15("en-US"),
-          // "downtoearthths1600"),
-          // downtoearthths16
+          // "downtoearthths16downtoearthths16
           //           onPressed: () => downtoearthths16("en-US"),
-          // "downtoearthths1700"),
-          // downtoearthths17
+          // "downtoearthths17downtoearthths17
           //           onPressed: () => downtoearthths17("en-US"),
-          // "downtoearthths1800"),
-          // downtoearthths18
+          // "downtoearthths18downtoearthths18
           //           onPressed: () => downtoearthths18("en-US"),
-          // "downtoearthths1900"),
-          // downtoearthths19
+          // "downtoearthths19downtoearthths19
           //           onPressed: () => downtoearthths19("en-US"),
-          // "downtoearthths_2000"),
-          // downtoearthths20
+          // "downtoearthths_20downtoearthths20
           //           onPressed: () => downtoearthths20("en-US"),
-          // "downtoearthths2100"),
-          // downtoearthths21
+          // "downtoearthths21downtoearthths21
           //           onPressed: () => downtoearthths21("en-US"),
-          // "downtoearthths2200"),
-          // downtoearthths22
+          // "downtoearthths22downtoearthths22
           //           onPressed: () => downtoearthths22("en-US"),
         ],
       ),

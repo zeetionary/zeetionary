@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Going to the theatre is our only extravagance.""");
   }
 
-// With short examples define "extravagance", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

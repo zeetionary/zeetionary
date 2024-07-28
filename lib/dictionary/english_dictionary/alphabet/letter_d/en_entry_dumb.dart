@@ -446,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە بە شێوەیەکی کاتی قسە ناکات یان ڕەتیدەکاتەوە قسە بکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """We were all struck dumb with amazement.""",
             kurdishText: """ھەموومان لە سەرسوڕماندا لاڵ بووین.""",
@@ -463,41 +462,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە توانای قسەکردنی نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She was born deaf and dumb.""",
             kurdishText: """بە کەڕی و لاڵی لەدایکبوو.""",
             onPressedBritish: () => speakdumbs8("en-GB"),
             onPressedAmerican: () => speakdumbs8("en-US"),
           ),
-          // dumbs900
-          // dumbs9("en-US"""),
-          // dumbs_1000
-          // dumbs10("en-US"""),
-          // dumbs1100
-          // dumbs11("en-US"""),
-          // dumbs1200
-          // dumbs12("en-US"""),
-          // dumbs1300
-          // dumbs13("en-US"""),
-          // dumbs1400
-          // dumbs14("en-US"""),
-          // dumbs1500
-          // dumbs15("en-US"""),
-          // dumbs1600
-          // dumbs16("en-US"""),
-          // dumbs1700
-          // dumbs17("en-US"""),
-          // dumbs1800
-          // dumbs18("en-US"""),
-          // dumbs1900
-          // dumbs19("en-US"""),
-          // dumbs_2000
-          // dumbs20("en-US"""),
-          // dumbs2100
-          // dumbs21("en-US"""),
-          // dumbs2200
-          // dumbs22("en-US"""),
         ],
       ),
     );

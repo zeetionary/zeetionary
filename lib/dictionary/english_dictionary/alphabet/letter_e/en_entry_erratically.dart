@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He was obviously upset and was driving erratically.""");
   }
 
-// With short examples define "erratically", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

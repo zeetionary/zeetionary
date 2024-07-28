@@ -267,7 +267,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) بە پلان ھەڵوەشاندنەوەی دامەزراوەیەک کەم کەم"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The government was in the process of dismantling the state-owned industries.",
@@ -280,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) پیشاندانی ئەوەی کە لێدوانێک یان ڕوونکردنەوەیەک ناڕاستە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "You need to sharpen your abilities to dismantle his excuses.",
@@ -289,42 +287,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdismantles4("en-GB"),
             onPressedAmerican: () => speakdismantles4("en-US"),
           ),
-          // dismantles500"),
-          // dismantles5("en-US"),
-          // dismantles600"),
-          // dismantles6("en-US"),
-          // dismantles700"),
-          // dismantles7("en-US"),
-          // dismantles800"),
-          // dismantles8("en-US"),
-          // dismantles900"),
-          // dismantles9("en-US"),
-          // dismantles_1000"),
-          // dismantles10("en-US"),
-          // dismantles1100"),
-          // dismantles11("en-US"),
-          // dismantles1200"),
-          // dismantles12("en-US"),
-          // dismantles1300"),
-          // dismantles13("en-US"),
-          // dismantles1400"),
-          // dismantles14("en-US"),
-          // dismantles1500"),
-          // dismantles15("en-US"),
-          // dismantles1600"),
-          // dismantles16("en-US"),
-          // dismantles1700"),
-          // dismantles17("en-US"),
-          // dismantles1800"),
-          // dismantles18("en-US"),
-          // dismantles1900"),
-          // dismantles19("en-US"),
-          // dismantles_2000"),
-          // dismantles20("en-US"),
-          // dismantles2100"),
-          // dismantles21("en-US"),
-          // dismantles2200"),
-          // dismantles22("en-US"),
         ],
       ),
     );

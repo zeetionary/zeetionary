@@ -363,27 +363,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthworms1("en-GB"),
             onPressedAmerican: () => speakearthworms1("en-US"),
           ),
-          // earthworms200earthworms2
-          // earthworms300earthworms3
-          // earthworms400earthworms4
-          // earthworms500earthworms5
-          // earthworms600earthworms6
-          // earthworms700earthworms7
-          // earthworms800earthworms8
-          // earthworms900earthworms9
-          // earthworms_1000earthworms10
-          // earthworms1100earthworms11
-          // earthworms1200earthworms12
-          // earthworms1300earthworms13
-          // earthworms1400earthworms14
-          // earthworms1500earthworms15
-          // earthworms1600earthworms16
-          // earthworms1700earthworms17
-          // earthworms1800earthworms18
-          // earthworms1900earthworms19
-          // earthworms_2000earthworms20
-          // earthworms2100earthworms21
-          // earthworms2200earthwormsearthworms
         ],
       ),
     );

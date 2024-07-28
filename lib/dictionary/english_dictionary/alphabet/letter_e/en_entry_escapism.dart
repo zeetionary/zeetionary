@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""For John, books are a form of escapism.""");
   }
 
-// With short examples define "escapism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

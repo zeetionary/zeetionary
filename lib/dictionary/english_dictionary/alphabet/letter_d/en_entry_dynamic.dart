@@ -424,7 +424,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) پڕۆسەیەک، ڕێککەوتنێک، یان سیستەمێک کە ھەمیشە دەگۆڕێت و پەرەدەسەنێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The business has managed to change and remain dynamic.""",
@@ -444,7 +443,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) ھێزێک کە جوڵە درووست دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """A dynamic force can accelerate a car forward.""",
             kurdishText:
@@ -456,7 +454,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) شێوازی کاردانەوەی خەڵک/شت بۆ یەکدی لە دۆخێکی دیاریکراودا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Market dynamics are working in the company’s favour.""",
@@ -467,7 +464,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) زانستی ئەو ھێزانەی جووڵە درووست دەکەن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Scientists study fluid dynamics to understand ocean currents.""",
@@ -476,22 +472,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdynamics7("en-GB"),
             onPressedAmerican: () => speakdynamics7("en-US"),
           ),
-          // dynamics800
-          // dynamics8// dynamics900
-          // dynamics9// dynamics_1000
-          // dynamics10// dynamics1100
-          // dynamics11// dynamics1200
-          // dynamics12// dynamics1300
-          // dynamics13// dynamics1400
-          // dynamics14// dynamics1500
-          // dynamics15// dynamics1600
-          // dynamics16// dynamics1700
-          // dynamics17// dynamics1800
-          // dynamics18// dynamics1900
-          // dynamics19// dynamics_2000
-          // dynamics20// dynamics2100
-          // dynamics21// dynamics2200
-          // dynamics22("en-US"""),
         ],
       ),
     );

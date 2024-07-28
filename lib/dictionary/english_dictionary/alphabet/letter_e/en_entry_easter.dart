@@ -405,30 +405,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ڕۆژی ئیستەر و ڕۆژانی نزیکی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I prefer to spend Easter at home.""",
             kurdishText: """پێم باشترە ڕۆژانی ئیستەر لە ماڵەوە بەسەر ببەم.""",
             onPressedBritish: () => speakEasters4("en-GB"),
             onPressedAmerican: () => speakEasters4("en-US"),
           ),
-          // Easters500Easters5
-          // Easters600Easters6
-          // Easters700Easters7
-          // Easters800Easters8
-          // Easters900Easters9
-          // Easters_1000Easters10
-          // Easters1100Easters11
-          // Easters1200Easters12
-          // Easters1300Easters13
-          // Easters1400Easters14
-          // Easters1500Easters15
-          // Easters1600Easters16
-          // Easters1700Easters17
-          // Easters1800Easters18
-          // Easters1900Easters19
-          // Easters_2000Easters20
-          // Easters2100Easters21
           // Easters2200EastersEasters
         ],
       ),

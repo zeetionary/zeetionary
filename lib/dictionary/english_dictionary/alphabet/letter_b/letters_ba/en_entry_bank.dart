@@ -161,8 +161,7 @@ class EnglishEntrybank extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bank"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bank"),
                             // divvviiider
                           ],
                         ),

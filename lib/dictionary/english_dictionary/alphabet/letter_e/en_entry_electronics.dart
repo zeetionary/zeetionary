@@ -404,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) بەکارھێنانی تەکنەلۆژیای ئێلیکترۆنیکی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """About 45 000 people worked in electronics in Scotland.""",
@@ -422,7 +421,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectronicss4("en-GB"),
             onPressedAmerican: () => speakelectronicss4("en-US"),
           ),
-          // electronicss500electronicss5
           // speakelectronicss
         ],
       ),

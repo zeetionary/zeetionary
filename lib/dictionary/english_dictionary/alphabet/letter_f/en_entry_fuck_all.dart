@@ -240,7 +240,6 @@ Usage: Brit, vulgar
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'uPeOgQSsjDM';
 const double _startSecondsend = 34;
 const String _videoIdone = 'i7QJkWoaBkg';

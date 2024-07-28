@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """They are good at finding inventive solutions to everyday problems.""");
   }
 
-// With short examples define "everyday", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

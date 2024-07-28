@@ -262,51 +262,30 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەو ڕێژەیەی کە بە پێی ئەوە پێوانەیەک جیاوازە لە بڕێک یان ژمارەیەکی جێگیر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The compass shows a deviation of 5°.",
             kurdishText: "قیبلەنماکە لادانی ٥ پلە پیشان دەدات.",
             onPressedBritish: () => speakdeviations3("en-GB"),
             onPressedAmerican: () => speakdeviations3("en-US"),
           ),
-          // deviations400"),
-          // deviations4
-          // deviations500"),
-          // deviations5
-          // deviations600"),
-          // deviations6
-          // deviations700"),
-          // deviations7
-          // deviations800"),
-          // deviations8
-          // deviations900"),
-          // deviations9
-          // deviations1000"),
-          // deviations10
-          // deviations1100"),
-          // deviations11
-          // deviations1200"),
-          // deviations12
-          // deviations1300"),
-          // deviations13
-          // deviations1400"),
-          // deviations14
-          // deviations1500"),
-          // deviations15
-          // deviations1600"),
-          // deviations16
-          // deviations1700"),
-          // deviations17
-          // deviations1800"),
-          // deviations18
-          // deviations1900"),
-          // deviations19
-          // deviations_2000"),
-          // deviations20
-          // deviations2100"),
-          // deviations21
-          // deviations2200"),
-          // deviations22("en-US"),
+          // deviations4deviations4
+          // deviations5deviations5
+          // deviations6deviations6
+          // deviations7deviations7
+          // deviations8deviations8
+          // deviations9deviations9
+          // deviations10deviations10
+          // deviations11deviations11
+          // deviations12deviations12
+          // deviations13deviations13
+          // deviations14deviations14
+          // deviations15deviations15
+          // deviations16deviations16
+          // deviations17deviations17
+          // deviations18deviations18
+          // deviations19deviations19
+          // deviations_20deviations20
+          // deviations21deviations21
         ],
       ),
     );

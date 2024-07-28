@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Animal behaviour is fascinating to most people.""");
   }
 
-// With short examples define "fascinating", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

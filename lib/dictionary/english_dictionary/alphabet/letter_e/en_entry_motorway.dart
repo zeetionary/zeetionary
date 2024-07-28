@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""We were on the motorway to London.""");
   }
 
-// With short examples define "motorway", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

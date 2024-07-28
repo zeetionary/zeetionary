@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
                 """Many satellite broadcasts are encoded so that they can only be received by people who have paid to see them.""",
             kurdishText:
                 """زۆر پەخشی سەتەلایت دەکرێن بە کۆد بۆ ئەوەی تەنھا ئەو بتوانن بیان بینن کە پارەیان بۆی داوە.""",
-// With short examples define "encode", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -283,7 +282,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ھەبوونی ئەرکی درووستکردنی پڕۆتینێکی تایبەت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """These genes encode proteins that play essential roles in cell physiology.""",
@@ -295,7 +293,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) دەربڕینی شتێک بە زمانێکی بیانی بە درووستی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Grammatical information helps learners to encode sentences.""",

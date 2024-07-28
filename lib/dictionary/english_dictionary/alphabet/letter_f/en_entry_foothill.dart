@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەپکی داوێنی شاخ، گرد
 """),
-// With short examples define "foothill", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گرد یان شاخێک لە بەشی خوارەوەی یەکێکی دیکە"""),
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'dNEp3hoHSDI';
 const double _startSecondsend = 719;
 const String _videoIdone = 'GBYvJgrf-Dk';

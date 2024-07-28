@@ -108,9 +108,7 @@ class EnglishEntryautomation extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "automation"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "automation"),
                             // divvviiider
                           ],
                         ),

@@ -290,7 +290,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کردن بە وریایی و ھێواشی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "These objects are very old and should be treated with great delicacy.",
@@ -312,7 +311,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) ھەستیاری دۆخێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I need to talk to you about a matter of some delicacy.",
@@ -324,7 +322,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ناو) جۆرە خواردنێک کە زۆر بە تایبەت دادەنرێت لە شوێنێکی دیاریکراودا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "In some parts of the world, sheep's eyes are considered a great delicacy.",
@@ -333,38 +330,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelicacys6("en-GB"),
             onPressedAmerican: () => speakdelicacys6("en-US"),
           ),
-          // delicacys700"),
-          // delicacys7("en-US"),
-          // delicacys800"),
-          // delicacys8("en-US"),
-          // delicacys900"),
-          // delicacys9("en-US"),
-          // delicacys1000"),
-          // delicacys10("en-US"),
-          // delicacys1100"),
-          // delicacys11("en-US"),
-          // delicacys1200"),
-          // delicacys12("en-US"),
-          // delicacys1300"),
-          // delicacys13("en-US"),
-          // delicacys1400"),
-          // delicacys14("en-US"),
-          // delicacys1500"),
-          // delicacys15("en-US"),
-          // delicacys1600"),
-          // delicacys16("en-US"),
-          // delicacys1700"),
-          // delicacys17("en-US"),
-          // delicacys1800"),
-          // delicacys18("en-US"),
-          // delicacys1900"),
-          // delicacys19("en-US"),
-          // "The eggs of this bird are considered a great delicacy.0"),
-          // delicacys20("en-US"),
-          // delicacys2100"),
-          // delicacys21("en-US"),
-          // delicacys2200"),
-          // delicacys22("en-US"),
         ],
       ),
     );

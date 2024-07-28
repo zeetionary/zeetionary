@@ -290,7 +290,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) بەشی خڕی تەلەفۆنی کۆن کە سوڕ دەدرێت بۆ پەیوەندی کردن بە ژمارەیەکی دیاریکراوەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He turned the dial carefully to avoid mistakes.",
             kurdishText:
@@ -316,38 +315,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdials6("en-GB"),
             onPressedAmerican: () => speakdials6("en-US"),
           ),
-          // dials700"),
-          // dials7
-          // dials800"),
-          // dials8
-          // dials900"),
-          // dials9
-          // dials_1000"),
-          // dials10
-          // dials1100"),
-          // dials11
-          // dials1200"),
-          // dials12
-          // dials1300"),
-          // dials13
-          // dials1400"),
-          // dials14
-          // dials1500"),
-          // dials15
-          // dials1600"),
-          // dials16
-          // dials1700"),
-          // dials17
-          // dials1800"),
-          // dials18
-          // dials1900"),
-          // dials19
-          // dials_2000"),
-          // dials20
-          // dials2100"),
-          // dials21
-          // dials2200"),
-          // dials22("en-US"),
+          // dials7dials7
+          // dials8dials8
+          // dials9dials9
+          // dials_10dials10
+          // dials11dials11
+          // dials12dials12
+          // dials13dials13
+          // dials14dials14
+          // dials15dials15
+          // dials16dials16
+          // dials17dials17
+          // dials18dials18
+          // dials19dials19
+          // dials_20dials20
+          // dials21dials21
         ],
       ),
     );

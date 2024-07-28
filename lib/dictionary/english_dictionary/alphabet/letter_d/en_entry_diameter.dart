@@ -264,44 +264,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiameters3("en-GB"),
             onPressedAmerican: () => speakdiameters3("en-US"),
           ),
-          // diameters400"),
-          // diameters4
-          // diameters500"),
-          // diameters5
-          // diameters600"),
-          // diameters6
-          // diameters700"),
-          // diameters7
-          // diameters800"),
-          // diameters8
-          // diameters900"),
-          // diameters9
-          // diameters_1000"),
-          // diameters10
-          // diameters1100"),
-          // diameters11
-          // diameters1200"),
-          // diameters12
-          // diameters1300"),
-          // diameters13
-          // diameters1400"),
-          // diameters14
-          // diameters1500"),
-          // diameters15
-          // diameters1600"),
-          // diameters16
-          // diameters1700"),
-          // diameters17
-          // diameters1800"),
-          // diameters18
-          // diameters1900"),
-          // diameters19
-          // diameters_2000"),
-          // diameters20
-          // diameters2100"),
-          // diameters21
-          // diameters2200"),
-          // diameters22("en-US"),
+          // diameters4diameters4
+          // diameters5diameters5
+          // diameters6diameters6
+          // diameters7diameters7
+          // diameters8diameters8
+          // diameters9diameters9
+          // diameters_10diameters10
+          // diameters11diameters11
+          // diameters12diameters12
+          // diameters13diameters13
+          // diameters14diameters14
+          // diameters15diameters15
+          // diameters16diameters16
+          // diameters17diameters17
+          // diameters18diameters18
+          // diameters19diameters19
+          // diameters_20diameters20
+          // diameters21diameters21
         ],
       ),
     );

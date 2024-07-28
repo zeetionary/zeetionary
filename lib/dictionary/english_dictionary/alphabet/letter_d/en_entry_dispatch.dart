@@ -277,7 +277,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) ناردنی نامەیەک نامەیەک یان پاکێجێک بۆ شوێنێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Goods are dispatched within 24 hours of your order reaching us.",
@@ -290,7 +289,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) مامەڵەکردن لەگەڵ کەسێک/شتێک بە خێرایی و تەواوی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He dispatched the younger player in straight sets.",
             kurdishText:
@@ -300,7 +298,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) کوشتن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Our handsome hero manages to dispatch another five villains.",
@@ -311,7 +308,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) ناردنی کەسێک/شتێک بۆ شوێنێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "More food supplies are ready for immediate dispatch.",
             kurdishText: "پاشەکەوتی زیاتری خواردن ئامادەیە بۆ ناردنی دەستبەجێ.",
@@ -322,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) پەیامێک یان ڕاپۆرتێک کە لە نێوان دوو ئەفسەری سەربازی یان بەرپرسی حکومی ئاڵوگۆڕ دەکرێت، یان ڕاپۆرتی ڕۆژنامەنووسێک کە لە دەرەوەی وڵات کار دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "In her latest dispatch, Clare Duggan, our war correspondent, reported an increase in fighting.",
@@ -331,38 +326,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdispatchs6("en-GB"),
             onPressedAmerican: () => speakdispatchs6("en-US"),
           ),
-          // dispatchs700"),
-          // dispatchs7
-          // dispatchs800"),
-          // dispatchs8
-          // dispatchs900"),
-          // dispatchs9
-          // dispatchs_1000"),
-          // dispatchs10
-          // dispatchs1100"),
-          // dispatchs11
-          // dispatchs1200"),
-          // dispatchs12
-          // dispatchs1300"),
-          // dispatchs13
-          // dispatchs1400"),
-          // dispatchs14
-          // dispatchs1500"),
-          // dispatchs15
-          // dispatchs1600"),
-          // dispatchs16
-          // dispatchs1700"),
-          // dispatchs17
-          // dispatchs1800"),
-          // dispatchs18
-          // dispatchs1900"),
-          // dispatchs19
-          // dispatchs_2000"),
-          // dispatchs20
-          // dispatchs2100"),
-          // dispatchs21
-          // dispatchs2200"),
-          // dispatchs22("en-US"),
+          // dispatchs7dispatchs7
+          // dispatchs8dispatchs8
+          // dispatchs9dispatchs9
+          // dispatchs_10dispatchs10
+          // dispatchs11dispatchs11
+          // dispatchs12dispatchs12
+          // dispatchs13dispatchs13
+          // dispatchs14dispatchs14
+          // dispatchs15dispatchs15
+          // dispatchs16dispatchs16
+          // dispatchs17dispatchs17
+          // dispatchs18dispatchs18
+          // dispatchs19dispatchs19
+          // dispatchs_20dispatchs20
+          // dispatchs21dispatchs21
         ],
       ),
     );

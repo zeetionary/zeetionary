@@ -358,7 +358,6 @@ class KurdishMeaning extends StatelessWidget {
         """She said she wanted a dog but it was only a passing fancy.""");
   }
 
-// With short examples define "fancy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

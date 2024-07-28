@@ -229,7 +229,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سووتەمەنی، سوخت، سووتەک، شەواتەک، ئاوردوو، بزوێنەر، پاڵنەر، مایە، ھۆ
 """),
-// With short examples define "fuel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەر مادەیەک کە گەرمی یان وزە بەرھەم دەھێنێت کە دەسووتێندرێت"""),
@@ -396,7 +395,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'AFS6saV981Q';
 const double _startSecondsend = 949;
 const String _videoIdone = 'ARomrjtLTQU';

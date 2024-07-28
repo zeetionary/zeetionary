@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """He had an accident, evidently because he was driving at excessive speed.""");
   }
 
-// With short examples define "evidently", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

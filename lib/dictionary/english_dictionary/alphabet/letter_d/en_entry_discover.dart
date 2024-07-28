@@ -391,7 +391,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) زانین لەسەر شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She was determined to discover the truth about her neighbours.",
@@ -425,7 +424,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) بوون بە یەکەم کەس کە بزانیت کەسێک لە گۆرانی گوتن، نمایش کردن، ھتد باشە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The singer was discovered while still at school.",
             kurdishText:
@@ -433,24 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscovers13("en-GB"),
             onPressedAmerican: () => speakdiscovers13("en-US"),
           ),
-          // discovers1400"),
-          // discovers14("en-US"),
-          // discovers1500"),
-          // discovers15("en-US"),
-          // discovers1600"),
-          // discovers16("en-US"),
-          // discovers1700"),
-          // discovers17("en-US"),
-          // discovers1800"),
-          // discovers18("en-US"),
-          // discovers1900"),
-          // discovers19("en-US"),
-          // discovers_2000"),
-          // discovers20("en-US"),
-          // discovers2100"),
-          // discovers21("en-US"),
-          // discovers2200"),
-          // discovers22("en-US"),
         ],
       ),
     );

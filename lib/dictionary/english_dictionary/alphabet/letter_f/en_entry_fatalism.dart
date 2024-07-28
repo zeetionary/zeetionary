@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """There is a mood of profound fatalism amongst party members.""");
   }
 
-// With short examples define "fatalism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

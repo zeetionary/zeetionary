@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She has feathery blond hair that shines in the sun.""");
   }
 
-// With short examples define "feathery", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

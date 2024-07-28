@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The vernal equinox marks the start of spring.""");
   }
 
-// With short examples define "equinox", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

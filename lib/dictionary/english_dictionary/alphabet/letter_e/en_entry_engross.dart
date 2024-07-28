@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""What is it about Harry Potter that so engrosses children?""");
   }
 
-// With short examples define "engross", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

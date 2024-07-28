@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "forty", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) ژمارە ٤٠"""),
                     SentencesRow(
                       englishText: """He looks about forty.""",
@@ -278,7 +277,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ewLpXw6uN28';
 const double _startSecondsend = 448;
 const String _videoIdone = '65CFesU4KVQ';

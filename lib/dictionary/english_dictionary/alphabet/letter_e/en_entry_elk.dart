@@ -366,8 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           //         children: [
           //           ExampleSentenceEnglish(
           //               text:
-          //                   """          //     const CustomSizedBoxForTTS(), // With short examples define "elk", please follow LX instructions
-          //     Column(
+          //                   """          //     const CustomSizedBoxForTTS(),           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
           //           onPressed: () => speakelks1("en-GB"),
@@ -388,7 +387,6 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          // elks200elks2
           // speakelks
         ],
       ),

@@ -270,7 +270,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""It is now more expensive for Europeans to visit here.""");
   }
 
-// With short examples define "expensive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

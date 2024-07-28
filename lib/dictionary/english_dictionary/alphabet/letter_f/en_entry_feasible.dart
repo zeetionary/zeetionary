@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """It's perfectly feasible to produce electricity without creating pollution.""");
   }
 
-// With short examples define "feasible", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

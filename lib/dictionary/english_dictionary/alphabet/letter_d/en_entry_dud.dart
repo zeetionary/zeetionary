@@ -392,7 +392,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) شتێک کە سوودی نییە چونکە کارناکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """A customer had tried to pay with a dud cheque (= one for which a bank will not give money).""",
@@ -401,44 +400,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduds2("en-GB"),
             onPressedAmerican: () => speakduds2("en-US"),
           ),
-          // duds400
-          // duds4("en-US"""),
-          // duds500
-          // duds5("en-US"""),
-          // duds600
-          // duds6("en-US"""),
-          // duds700
-          // duds7("en-US"""),
-          // duds800
-          // duds8("en-US"""),
-          // duds900
-          // duds9("en-US"""),
-          // duds_1000
-          // duds10("en-US"""),
-          // duds1100
-          // duds11("en-US"""),
-          // duds1200
-          // duds12("en-US"""),
-          // duds1300
-          // duds13("en-US"""),
-          // duds1400
-          // duds14("en-US"""),
-          // duds1500
-          // duds15("en-US"""),
-          // duds1600
-          // duds16("en-US"""),
-          // duds1700
-          // duds17("en-US"""),
-          // duds1800
-          // duds18("en-US"""),
-          // duds1900
-          // duds19("en-US"""),
-          // duds_2000
-          // duds20("en-US"""),
-          // duds2100
-          // duds21("en-US"""),
-          // duds2200
-          // duds22("en-US"""),
         ],
       ),
     );

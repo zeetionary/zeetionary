@@ -637,7 +637,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) کە ڕوودەدات بەبێ دەستێوەردانی دەرەکی یان لەخۆگرتنی کەسی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She has been in direct contact with the prime minister.",
@@ -700,7 +699,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) بەبێ ھیچ شتێک لە نێوان سەرچاوەی گەرمی یان ڕۆشنایی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The plant should not be placed in direct sunlight.",
             kurdishText: "ڕووەکەکە نابێت لە پێش تیشکی ڕاستەوخۆی خۆر دابنرێت.",
@@ -719,7 +717,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) گوتنی ڕاستەوخۆی ئەوەی دەتەوێت بە ڕوونی کە ھەموان تێبگەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He would not give a direct answer.",
             kurdishText: "وەڵامێکی ڕاستەوخۆی نەدەدایەوە.",
@@ -750,7 +747,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ھاوەڵناو) کە بە ڕوونی شتێک پیشان دەدات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There is no direct evidence for the beneficial effects of these herbs.",
@@ -789,7 +785,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (ھاوەڵناو) خزمێک کە لە ڕێگەی دایک و باوکەوە بە یەکدی دەگەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Diana is a direct descendant of Robert Peel.",
             kurdishText: "دایانا خزمی ڕاستەوخۆی ڕۆبێرت پیڵە.",
@@ -799,7 +794,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) کۆنترۆڵکردن یان ڕاستەوخۆ بەرپرسی کەس/شتێک بیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He was asked to take command and direct operations.",
             kurdishText:
@@ -851,7 +845,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (کردار) بوون بە دەرھێنەری فیلم، شانۆ، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She prefers to act rather than direct.",
             kurdishText: "پێی خۆشە نواندن بکات نەک دەرھێنان.",
@@ -875,7 +868,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (کردار) ئاراستەکردنی شتێک لە ئامانجێکی دیاریکراو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He directed his attention to the next task.",
             kurdishText: "سەرنجی خستە سەر ئەرکی دواتر.",
@@ -909,7 +901,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١١. (کردار) پیشاندانی کەسێک کە چۆن بگات بە شوێنێک یان بۆ کوێ بچێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "It's not far—I'll direct you.",
             kurdishText: "دوور نییە ـ ئاراستەت دەکەم.",
@@ -932,7 +923,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (کردار) دەرکردنی فەرمانێکی فەرمی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The police officers had been directed to search the building.",
@@ -954,7 +944,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (کردار) ناردنی نامەیەک بۆ شوێن یان کەسێکی دیاریکراو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Direct any complaints to the Customer Services department.",
@@ -984,7 +973,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٥. (کردار) بەبێ لەخۆگرتنی کەسانی دیکە، یان ئەوەی ھیچ کەس/شتێک لە نێواندا بێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I prefer to deal with him direct.",
             kurdishText: "باشترە لام ڕاستەوخۆ مامەڵەی لەگەڵ بکەم.",
@@ -998,24 +986,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdopsum1s46("en-GB"),
             onPressedAmerican: () => speakdopsum1s46("en-US"),
           ),
-          // dopsum1s4700"),
-          // dopsum1s47("en-US"),
-          // dopsum1s4800"),
-          // dopsum1s48("en-US"),
-          // dopsum1s4900"),
-          // dopsum1s49("en-US"),
-          // dopsum1s_6000"),
-          // dopsum1s50("en-US"),
-          // dopsum1s5100"),
-          // dopsum1s51("en-US"),
-          // dopsum1s5200"),
-          // dopsum1s52("en-US"),
-          // dopsum1s5300"),
-          // dopsum1s53("en-US"),
-          // dopsum1s5400"),
-          // dopsum1s54("en-US"),
-          // dopsum1s5500"),
-          // dopsum1s55("en-US"),
         ],
       ),
     );

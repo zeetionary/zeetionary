@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         """Exceptionally, students may be accepted without formal qualifications.""");
   }
 
-// With short examples define "exceptionally", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Fees must be paid in full at the time of enrolment.""");
   }
 
-// With short examples define "enrolment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

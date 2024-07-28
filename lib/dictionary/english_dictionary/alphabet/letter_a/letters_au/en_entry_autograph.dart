@@ -108,8 +108,7 @@ class EnglishEntryautograph extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "autograph"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "autograph"),
                             // divvviiider
                           ],
                         ),

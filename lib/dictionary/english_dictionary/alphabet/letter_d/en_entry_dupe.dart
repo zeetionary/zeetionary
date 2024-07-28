@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێک کە خەڵەتێندراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """These men were simply the dupes of their unscrupulous leaders.""",
@@ -398,44 +397,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdupes3("en-GB"),
             onPressedAmerican: () => speakdupes3("en-US"),
           ),
-          // dupes400
-          // dupes4("en-US"""),
-          // dupes500
-          // dupes5("en-US"""),
-          // dupes600
-          // dupes6("en-US"""),
-          // dupes700
-          // dupes7("en-US"""),
-          // dupes800
-          // dupes8("en-US"""),
-          // dupes900
-          // dupes9("en-US"""),
-          // dupes_1000
-          // dupes10("en-US"""),
-          // dupes1100
-          // dupes11("en-US"""),
-          // dupes1200
-          // dupes12("en-US"""),
-          // dupes1300
-          // dupes13("en-US"""),
-          // dupes1400
-          // dupes14("en-US"""),
-          // dupes1500
-          // dupes15("en-US"""),
-          // dupes1600
-          // dupes16("en-US"""),
-          // dupes1700
-          // dupes17("en-US"""),
-          // dupes1800
-          // dupes18("en-US"""),
-          // dupes1900
-          // dupes19("en-US"""),
-          // dupes_2000
-          // dupes20("en-US"""),
-          // dupes2100
-          // dupes21("en-US"""),
-          // dupes2200
-          // dupes22("en-US"""),
         ],
       ),
     );

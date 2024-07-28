@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""We will continue federal funding for the arts.""");
   }
 
-// With short examples define "federal", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

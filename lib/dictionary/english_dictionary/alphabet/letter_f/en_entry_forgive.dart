@@ -241,7 +241,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "forgive", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) لێخۆشبوون لە کەسێک"""),
                     SentencesRow(
@@ -433,7 +432,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '9TugA_z5vQE';
 const double _startSecondsend = 644;
 const String _videoIdone = 'D0x2dgpBDzc';

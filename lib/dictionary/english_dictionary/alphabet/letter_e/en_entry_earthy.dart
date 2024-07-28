@@ -374,33 +374,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) وەک یان پەیوەندیدار بە زەوی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He enjoyed the earthy smell of the forest.""",
             kurdishText: """چێژی لە بۆنی خۆڵاوی دارستانەکە بینی.""",
             onPressedBritish: () => speakearthys2("en-GB"),
             onPressedAmerican: () => speakearthys2("en-US"),
           ),
-          // earthys300earthys3
-          // earthys400earthys4
-          // earthys500earthys5
-          // earthys600earthys6
-          // earthys700earthys7
-          // earthys800earthys8
-          // earthys900earthys9
-          // earthys_1000earthys10
-          // earthys1100earthys11
-          // earthys1200earthys12
-          // earthys1300earthys13
-          // earthys1400earthys14
-          // earthys1500earthys15
-          // earthys1600earthys16
-          // earthys1700earthys17
-          // earthys1800earthys18
-          // earthys1900earthys19
-          // earthys_2000earthys20
-          // earthys2100earthys21
-          // earthys2200earthysearthys
         ],
       ),
     );

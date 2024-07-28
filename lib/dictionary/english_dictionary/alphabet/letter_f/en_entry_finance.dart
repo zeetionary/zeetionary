@@ -282,7 +282,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەڕێوەبەرایەتی (کاروباری) دارایی،	توانایی ماڵی یان دارایی، پارە، سەرمایە،	بودجە، دابین‌کردنی بودجە،	دارایی،	سەرمایەنانەوە، دابین‌کردنی سەرمایە،	پاەرەدان، پارەبەقەرزدان، سەرچاوە دارایی‌یەکان، دارایی، دەسمایە
 """),
-// With short examples define "finance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو پارەیەی کە بۆ بەڕێوەبردنی بازرگانییەک، چالاکییەک، یان پڕۆژەیەک"""),
@@ -508,7 +507,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'f5NJQiY9AuY';
 const double _startSecondsend = 127;
 const String _videoIdone = 'Wao0_uB4Zw4';

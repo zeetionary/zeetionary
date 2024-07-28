@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Travelling all that way to work every day is a real fag.""");
   }
 
-// With short examples define "fag", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

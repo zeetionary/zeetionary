@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The town lies exactly on the Equator, near Lake Victoria.""");
   }
 
-// With short examples define "equator", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

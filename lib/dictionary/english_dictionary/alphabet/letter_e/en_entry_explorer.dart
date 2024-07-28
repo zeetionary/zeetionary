@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The river Amazon was named by Spanish explorer Francisco de Orellana.""");
   }
 
-// With short examples define "explorer", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەوندە، ڕژۆک، شل، شلە، ئاوەکی، ڕەوان،	نەرم، نەچەسپیو، بگۆڕ، لەگۆڕان‌ھاتوو، ناسەقامگیر، ناجێگیر، شلە، شل، ڕژۆک
 """),
-// With short examples define "fluid", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) شلە"""),
                     SentencesRow(
                       englishText:
@@ -295,7 +294,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qWAagS_MANg';
 const double _startSecondsend = 239;
 const String _videoIdone = 'BZbChKzedEk';

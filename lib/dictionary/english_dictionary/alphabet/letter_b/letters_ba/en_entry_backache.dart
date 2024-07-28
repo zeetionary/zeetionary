@@ -94,8 +94,7 @@ class EnglishEntrybackache extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backache"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backache"),
                             // divvviiider
                           ],
                         ),

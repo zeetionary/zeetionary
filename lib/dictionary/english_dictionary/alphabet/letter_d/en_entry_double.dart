@@ -520,7 +520,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە دوو بەشی ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Go through the double doors and turn left.",
             kurdishText: "بە جووت دەرگاکان بچۆ و بە چەپدا پێچ بکەوە.",
@@ -547,7 +546,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە بۆ دوو کەس یان شت درووستکراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The double bed provided plenty of space for them to sleep.",
@@ -559,7 +557,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) کە دوو شت یان خاسیەتی تێدایە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "It has the double advantage of being both easy and cheap.",
@@ -569,7 +566,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (دیارخەر) دوو ھێندە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "His income is double hers.",
             kurdishText: "داھاتەکەی دوو ھێندەی ھی ئەوە.",
@@ -593,7 +589,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (جێناو) ژمارەیەک یان بڕێک کە دوو ھێندەی یەکێکی دیکەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He gets paid double for doing the same job I do.",
             kurdishText: "دوو ھێندەی پێدەدرێت بۆ کردنی ھەمان کار.",
@@ -612,7 +607,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) کردن یان بوون بە دوو ھێندە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Membership almost doubled in two years.",
             kurdishText: "ئەندامییەتی بەنزیکەیی دوو ھێندە بوو لە دوو ساڵدا.",
@@ -631,7 +625,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) چەماندنەوە بۆ ئەوەی ببێت بە دووان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She doubled the blanket and put it under his head.",
             kurdishText: "بەتانییەکەی دووتوێ کرد و خستییە ژێر سەری.",
@@ -640,7 +633,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ھاوەڵکار) بە دوو بەش"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Fold the blanket double.",
             kurdishText: "بە تانییەکە بۆ دوو توێ بچەمێنەوە.",
@@ -657,7 +649,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ھاوەڵکار) بە بڕی دوو ھێندە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "You have to be careful, and this counts double for people with children.",
@@ -670,7 +661,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١١. (ناو) کەسێک یان شتێک کە ڕێک لە یەکێکی دیکە دەکات؛ ئەکتەرێک کە شوێنی یەکێکی دیکە دەگرێتەوە لە فیلمێکدا بۆ ئەنجامدانی دیمەنی ترسناک یان تایبەت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She's the double of her mother.",
             kurdishText: "لێکچووی دایکیەتی.",
@@ -679,7 +669,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٢. (ناو) ژووری خەوی دوو کەسی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Is that a single or a double you want?",
             kurdishText: "تاکەکەسی یان دوو کەسیت دەوێت؟",
@@ -690,7 +679,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٣. (ناو) گڵاسێک خواردنەوەی کحولی بەھێز کە دوو ھێندەی ڕێژەی ئاسایی تێدایە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Two Scotches, please—and make those doubles, will you?",
@@ -699,8 +687,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdoubles21("en-GB"),
             onPressedAmerican: () => speakdoubles21("en-US"),
           ),
-          // doubles2200"),
-          // doubles22("en-US"),
         ],
       ),
     );

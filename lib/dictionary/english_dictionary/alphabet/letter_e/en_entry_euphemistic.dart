@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         """‘We’re letting you go’ is a euphemistic way of saying ‘You’re fired.’""");
   }
 
-// With short examples define "euphemistic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

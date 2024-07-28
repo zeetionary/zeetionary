@@ -300,7 +300,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ئاستی دۆخێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The company faced a problem of considerable dimensions with its finances.",
@@ -312,45 +311,27 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) لایەنێکی سەیرکردن یان بیرکردنەوە لە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her job added a new dimension to her life.",
             kurdishText: "کارەکەی لایەنێکی تازەی بۆ ژیانی زیادکرد.",
             onPressedBritish: () => speakdimensions6("en-GB"),
             onPressedAmerican: () => speakdimensions6("en-US"),
           ),
-          // dimensions700"),
-          // dimensions7
-          // dimensions800"),
-          // dimensions8
-          // dimensions900"),
-          // dimensions9
-          // dimensions_1000"),
-          // dimensions10
-          // dimensions1100"),
-          // dimensions11
-          // dimensions1200"),
-          // dimensions12
-          // dimensions1300"),
-          // dimensions13
-          // dimensions1400"),
-          // dimensions14
-          // dimensions1500"),
-          // dimensions15
-          // dimensions1600"),
-          // dimensions16
-          // dimensions1700"),
-          // dimensions17
-          // dimensions1800"),
-          // dimensions18
-          // dimensions1900"),
-          // dimensions19
-          // dimensions_2000"),
-          // dimensions20
-          // dimensions2100"),
-          // dimensions21
-          // dimensions2200"),
-          // dimensions22("en-US"),
+          // dimensions7dimensions7
+          // dimensions8dimensions8
+          // dimensions9dimensions9
+          // dimensions_10dimensions10
+          // dimensions11dimensions11
+          // dimensions12dimensions12
+          // dimensions13dimensions13
+          // dimensions14dimensions14
+          // dimensions15dimensions15
+          // dimensions16dimensions16
+          // dimensions17dimensions17
+          // dimensions18dimensions18
+          // dimensions19dimensions19
+          // dimensions_20dimensions20
+          // dimensions21dimensions21
         ],
       ),
     );

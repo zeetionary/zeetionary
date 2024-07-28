@@ -59,8 +59,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "accuse"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accuse"),
                           ],
                         ),
                         Row(
@@ -73,9 +72,7 @@ class EnglishEntryaccuse extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkjuːz/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkjuːz/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccuse("en-US"),
                             ),

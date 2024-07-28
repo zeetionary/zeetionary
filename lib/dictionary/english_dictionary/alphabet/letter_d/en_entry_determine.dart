@@ -347,7 +347,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) واکردنی ئەوەی شتێک بە ڕێگایەک یان شێوازێکی دیاریکراو ڕووبدات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Rural voters in key states will determine the outcome of the election.",
@@ -376,7 +375,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) بە فەرمی بڕیاردان یان دیاریکردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A date for the meeting has yet to be determined.",
             kurdishText:
@@ -396,7 +394,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) بە تەواوی بڕیاردان بۆ کردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They determined to start early.",
             kurdishText: "بڕیاریاندا زوو دەستپێ بکەن.",
@@ -410,28 +407,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetermines11("en-GB"),
             onPressedAmerican: () => speakdetermines11("en-US"),
           ),
-          // determines1200"),
-          // determines12("en-US"),
-          // determines1300"),
-          // determines13("en-US"),
-          // determines1400"),
-          // determines14("en-US"),
-          // determines1500"),
-          // determines15("en-US"),
-          // determines1600"),
-          // determines16("en-US"),
-          // determines1700"),
-          // determines17("en-US"),
-          // determines1800"),
-          // determines18("en-US"),
-          // determines1900"),
-          // determines19("en-US"),
-          // "Try to determine the extent of the problem.0"),
-          // determines20("en-US"),
-          // determines2100"),
-          // determines21("en-US"),
-          // determines2200"),
-          // determines22("en-US"),
         ],
       ),
     );

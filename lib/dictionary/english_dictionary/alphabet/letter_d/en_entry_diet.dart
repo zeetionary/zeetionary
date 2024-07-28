@@ -364,7 +364,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕێژەیەکی زۆر لە ھەندێک چالاکیی سنووردار"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Children today are brought up on a diet of video games and TV on demand.",
@@ -375,7 +374,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دەسکردن بە پارێز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She's always dieting but she never seems to lose any weight.",
@@ -384,30 +382,17 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiets10("en-GB"),
             onPressedAmerican: () => speakdiets10("en-US"),
           ),
-          // diets1100"),
-          // diets11
-          // diets1200"),
-          // diets12
-          // diets1300"),
-          // diets13
-          // diets1400"),
-          // diets14
-          // diets1500"),
-          // diets15
-          // diets1600"),
-          // diets16
-          // diets1700"),
-          // diets17
-          // diets1800"),
-          // diets18
-          // diets1900"),
-          // diets19
-          // diets_2000"),
-          // diets20
-          // diets2100"),
-          // diets21
-          // diets2200"),
-          // diets22("en-US"),
+          // diets11diets11
+          // diets12diets12
+          // diets13diets13
+          // diets14diets14
+          // diets15diets15
+          // diets16diets16
+          // diets17diets17
+          // diets18diets18
+          // diets19diets19
+          // diets_20diets20
+          // diets21diets21
         ],
       ),
     );

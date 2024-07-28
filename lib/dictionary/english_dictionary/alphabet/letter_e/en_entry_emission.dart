@@ -378,7 +378,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) گاس، گەرمی، ڕۆشنایی، ھتد کە دەردرێتە ھەواوەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The government has pledged to clean up industrial emissions.""",
@@ -386,26 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemissions2("en-GB"),
             onPressedAmerican: () => speakemissions2("en-US"),
           ),
-          // emissions300emissions3
-          // emissions400emissions4
-          // emissions500emissions5
-          // emissions600emissions6
-          // emissions700emissions7
-          // emissions800emissions8
-          // emissions900emissions9
-          // emissions_1000emissions10
-          // emissions1100emissions11
-          // emissions1200emissions12
-          // emissions1300emissions13
-          // emissions1400emissions14
-          // emissions1500emissions15
-          // emissions1600emissions16
-          // emissions1700emissions17
-          // emissions1800emissions18
-          // emissions1900emissions19
-          // emissions_2000emissions20
-          // emissions2100emissions21
-          // emissions2200emissionsemissions
         ],
       ),
     );

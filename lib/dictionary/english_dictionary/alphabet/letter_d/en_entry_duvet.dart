@@ -380,46 +380,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduvets2("en-GB"),
             onPressedAmerican: () => speakduvets2("en-US"),
           ),
-          // duvets300
-          // duvets3("en-US"""),
-          // duvets400
-          // duvets4("en-US"""),
-          // duvets500
-          // duvets5("en-US"""),
-          // duvets600
-          // duvets6("en-US"""),
-          // duvets700
-          // duvets7("en-US"""),
-          // duvets800
-          // duvets8("en-US"""),
-          // duvets900
-          // duvets9("en-US"""),
-          // duvets_1000
-          // duvets10("en-US"""),
-          // duvets1100
-          // duvets11("en-US"""),
-          // duvets1200
-          // duvets12("en-US"""),
-          // duvets1300
-          // duvets13("en-US"""),
-          // duvets1400
-          // duvets14("en-US"""),
-          // duvets1500
-          // duvets15("en-US"""),
-          // duvets1600
-          // duvets16("en-US"""),
-          // duvets1700
-          // duvets17("en-US"""),
-          // duvets1800
-          // duvets18("en-US"""),
-          // duvets1900
-          // duvets19("en-US"""),
-          // duvets_2000
-          // duvets20("en-US"""),
-          // duvets2100
-          // duvets21("en-US"""),
-          // duvets2200
-          // duvets22("en-US"""),
         ],
       ),
     );

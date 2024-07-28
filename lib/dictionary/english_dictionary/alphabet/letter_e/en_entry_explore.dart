@@ -310,7 +310,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She explored the sand with her toes.""");
   }
 
-// With short examples define "explore", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

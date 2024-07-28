@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She admired the evenness of his teeth.""");
   }
 
-// With short examples define "evenness", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

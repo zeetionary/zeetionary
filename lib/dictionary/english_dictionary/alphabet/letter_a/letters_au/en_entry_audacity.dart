@@ -108,8 +108,7 @@ class EnglishEntryaudacity extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "audacity"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "audacity"),
                             // divvviiider
                           ],
                         ),

@@ -742,7 +742,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) خستنی شتێک بە ئەنقەست"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Medical supplies are being dropped into the stricken area.",
@@ -782,7 +781,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) کەوتن بەھۆی ماندوێتییەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She expects everyone to work till they drop.",
             kurdishText:
@@ -800,7 +798,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) لاوازکردن یان کەمکردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The temperature has dropped considerably.",
             kurdishText: "پلەی گەرمی بەشێوەیەکی بەرچاو دابەزیبوو.",
@@ -846,7 +843,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) شکستھێنان لە بردنەوەی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "It's a long time since we dropped a game.",
             kurdishText: "ماوەیەکی زۆر تێپەڕیوە لەوەتەی یارییەکمان دۆڕاندبێت.",
@@ -881,7 +877,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) لێژبوونەوە بە ئاستێکی زۆر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "In front of them the valley dropped away from the road.",
@@ -900,7 +895,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٨. (کردار) وەستان بۆ ئەوەی کەسێک لە ئۆتۆمبێلێک دابەزێت؛ گەیاندنی شتێک بۆ شوێنێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Can you drop me near the bank?",
             kurdishText: "دەتوانیت لە نزیک بانکەکە دامبەزێنیت؟",
@@ -919,7 +913,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (کردار) ناردنی ئیمەیڵ یان نامەیەکی کورت بۆ کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Drop me a line when you get there.",
             kurdishText: "دوو دێڕم بۆ بنێرە کە گەشتیتە ئەوێ.",
@@ -939,7 +932,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٠. (کردار) دانانی نووسینێک، ئایکۆنێک، ھتد لە فایلێک، فۆڵدەرێک، یان شاشەی کۆمپیوتەرێک بە بەکارھێنانی ماوسەکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You can easily drag and drop files into a folder.",
             kurdishText:
@@ -950,7 +942,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) ئەوەی شتێک نەکەیت بە ڕێکەوت یان بە ئەنقەست"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She's been dropped from the team because of injury.",
             kurdishText: "لە تیمەکە دەرکراوە بەھۆی برینێکەوە.",
@@ -970,7 +961,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٢. (کردار) وازھێنانی لە بینینی کەسێک لە ڕووی کۆمەڵایەتییەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She's dropped most of her old friends.",
             kurdishText: "وازی لە زۆرێک لە ھاوڕێ کۆنەکانی ھێنا.",
@@ -980,7 +970,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (کردار) وەستان لە کردن یان باسکردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I dropped German (= stopped studying it) when I was 14.",
@@ -1011,7 +1000,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٤. (ناو) دڵۆپە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The first drops of rain fell.",
             kurdishText: "یەکەمین دڵۆپەکانی باران بارین.",
@@ -1027,7 +1015,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٥. (ناو) ڕێژەیەکی کەم لە شلە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Could I have a drop more milk in my coffee, please?",
             kurdishText: "تکایە دەکرێت کەمێک شیری زیاترم ھەبێت لە قاوەکەم؟",
@@ -1066,7 +1053,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٦. (ناو) کەمبوونی بڕ، ژمارە، یان ڕێژەی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We've seen a 15 per cent drop in price since May.",
             kurdishText:
@@ -1092,7 +1078,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٧. (ناو) مەودایەک لە خاڵێکی بەرزەوە بۆ نزم"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There was a sheer drop of fifty metres to the rocks below.",
@@ -1103,7 +1088,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٨. (ناو) قەترەی چاو، لووت، یان گوێ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Use the drops three times a day.",
             kurdishText: "قەترەکە سێ ڕۆژ لە ڕۆژێکدا بەکاربھێنە.",
@@ -1113,7 +1097,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٩. (ناو) گەیاندنی شتێک بە ئۆتۆمبێل یان فڕۆکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Aid agencies are organizing food drops to civilians in the war zone.",
@@ -1122,70 +1105,37 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrops49("en-GB"),
             onPressedAmerican: () => speakdrops49("en-US"),
           ),
-          // drops_6000"),
-          // drops50
-          // drops5100"),
-          // drops51
-          // drops5200"),
-          // drops52
-          // drops5300"),
-          // drops53
-          // drops5400"),
-          // drops54
-          // drops5500"),
-          // drops55
-          // drops5600"),
-          // drops56
-          // drops5700"),
-          // drops57
-          // drops5800"),
-          // drops58
-          // drops5900"),
-          // drops59
-          // drops6000"),
-          // drops60
-          // drops6100"),
-          // drops61
-          // drops6200"),
-          // drops62
-          // drops6300"),
-          // drops63
-          // drops6400"),
-          // drops65
-          // drops6600"),
-          // drops66
-          // drops6700"),
-          // drops67
-          // drops6800"),
-          // drops68
-          // drops6900"),
-          // drops69
-          // drops7000"),
-          // drops70
-          // drops7100"),
-          // drops71
-          // drops7200"),
-          // drops72
-          // drops7300"),
-          // drops73
-          // drops7400"),
-          // drops75
-          // drops7700"),
-          // drops76
-          // drops7700"),
-          // drops77
-          // drops7800"),
-          // drops79
-          // drops8000"),
-          // drops80
-          // drops8100"),
-          // drops81
-          // drops8200"),
-          // drops82
-          // drops8300"),
-          // drops83
-          // drops8400"),
-          // drops84("en-US"),
+          // drops_60drops50
+          // drops51drops51
+          // drops52drops52
+          // drops53drops53
+          // drops54drops54
+          // drops55drops55
+          // drops56drops56
+          // drops57drops57
+          // drops58drops58
+          // drops59drops59
+          // drops60drops60
+          // drops61drops61
+          // drops62drops62
+          // drops63drops63
+          // drops64drops65
+          // drops66drops66
+          // drops67drops67
+          // drops68drops68
+          // drops69drops69
+          // drops70drops70
+          // drops71drops71
+          // drops72drops72
+          // drops73drops73
+          // drops74drops75
+          // drops77drops76
+          // drops77drops77
+          // drops78drops79
+          // drops80drops80
+          // drops81drops81
+          // drops82drops82
+          // drops83drops83
         ],
       ),
     );

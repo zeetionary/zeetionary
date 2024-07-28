@@ -392,7 +392,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) بەرزی شوێنیک، بەتایبەتی لە ئاستی ڕووی دەریاوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The city is at an elevation of 2 000 metres.""",
             kurdishText: """شارەکە لە بەرزی ٢٠٠٠ مەترە.""",
@@ -401,7 +400,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) گرد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The flagpole stands on a small elevation in front of the building.""",
@@ -413,7 +411,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) لایەکی بینایەک، یان وێنەیەکی لەلایەن ئەندازیارێکەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """This plan shows the front, side, and back elevations of the new supermarket.""",
@@ -422,7 +419,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevations4("en-GB"),
             onPressedAmerican: () => speakelevations4("en-US"),
           ),
-          // elevations500elevations5
           // speakelevations
         ],
       ),

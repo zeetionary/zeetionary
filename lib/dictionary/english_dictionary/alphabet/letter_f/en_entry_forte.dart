@@ -160,7 +160,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خالێ بەھێزی،	ھونەر، شاکار
 """),
-// With short examples define "forte", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شتێک کە کەسێک باش دەیکات"""),
                     SentencesRow(
@@ -236,7 +235,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'xvmTr6S00Aw';
 const double _startSecondsend = 215;
 const String _videoIdone = 'hTqtGJwsJVE';

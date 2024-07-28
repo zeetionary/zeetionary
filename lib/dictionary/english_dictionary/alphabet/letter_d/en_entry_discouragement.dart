@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھەوڵدان بۆ وەستاندنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The government's discouragement affected the turnout at the protest.",
@@ -269,7 +268,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شتێک کە متمانە و جۆش و خرۆشیت سەبارەت بە کردنی شتێک ناھێڵێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Despite all these discouragements, she refused to give up.",
@@ -278,44 +276,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscouragements3("en-GB"),
             onPressedAmerican: () => speakdiscouragements3("en-US"),
           ),
-          // discouragements400"),
-          // discouragements4
-          // discouragements500"),
-          // discouragements5
-          // discouragements600"),
-          // discouragements6
-          // discouragements700"),
-          // discouragements7
-          // discouragements800"),
-          // discouragements8
-          // discouragements900"),
-          // discouragements9
-          // discouragements_1000"),
-          // discouragements10
-          // discouragements1100"),
-          // discouragements11
-          // discouragements1200"),
-          // discouragements12
-          // discouragements1300"),
-          // discouragements13
-          // discouragements1400"),
-          // discouragements14
-          // discouragements1500"),
-          // discouragements15
-          // discouragements1600"),
-          // discouragements16
-          // discouragements1700"),
-          // discouragements17
-          // discouragements1800"),
-          // discouragements18
-          // discouragements1900"),
-          // discouragements19
-          // discouragements_2000"),
-          // discouragements20
-          // discouragements2100"),
-          // discouragements21
-          // discouragements2200"),
-          // discouragements22("en-US"),
+          // discouragements4discouragements4
+          // discouragements5discouragements5
+          // discouragements6discouragements6
+          // discouragements7discouragements7
+          // discouragements8discouragements8
+          // discouragements9discouragements9
+          // discouragements_10discouragements10
+          // discouragements11discouragements11
+          // discouragements12discouragements12
+          // discouragements13discouragements13
+          // discouragements14discouragements14
+          // discouragements15discouragements15
+          // discouragements16discouragements16
+          // discouragements17discouragements17
+          // discouragements18discouragements18
+          // discouragements19discouragements19
+          // discouragements_20discouragements20
+          // discouragements21discouragements21
         ],
       ),
     );

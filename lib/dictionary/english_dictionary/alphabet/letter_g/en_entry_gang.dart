@@ -784,7 +784,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دارودەستە (تاوان‌کاران)،	قەلەوقوتە، دەستەشەلاتی، لات‌ولووت،	دەستەی کرێکاران
 """),
-// With short examples define "gang", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) گرووپێکی ڕێکخراوی تاوانکاری"""),
                     SentencesRow(
@@ -1621,7 +1620,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/L9Mu93VJLcc?t=';
 const double _startSecondsend = 000000000000000000000000000972;
 const String _videoIdone = 'https://youtu.be/APIvXUbye2c?t=';

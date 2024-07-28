@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I can't stand the sense of entitlement among these kids.""");
   }
 
-// With short examples define "entitlement", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

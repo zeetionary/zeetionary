@@ -87,8 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The garter slipped down her leg.""");
+    await flutterTts.speak("""The garter slipped down her leg.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -776,22 +775,24 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: کەژی گۆرەوی، بەستی گۆروا
 // """),
-                    const DefinitionKurdish(text: """١. (ناو) قایشێک کە زۆرجار لە لاق دەبەسترێت بۆ ئەوەی گۆرەوی یان کۆڵۆن لە جێگای خۆی بهێڵێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) قایشێک کە زۆرجار لە لاق دەبەسترێت بۆ ئەوەی گۆرەوی یان کۆڵۆن لە جێگای خۆی بهێڵێتەوە"""),
                     SentencesRow(
-                      englishText:
-                          """The garter slipped down her leg.""",
+                      englishText: """The garter slipped down her leg.""",
                       kurdishText: """The garter slipped down her leg..""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     CustomRichText(
-                    textBeforeLink: "٢. بڕوانە لە ",
-                    linkText: "suspender",
-                    textAfterLink: "",
-                    onTap: () {
-                    Routemaster.of(context).push("/english-garter/suspender");
-                    },
+                      textBeforeLink: "٢. بڕوانە لە ",
+                      linkText: "suspender",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context)
+                            .push("/english-garter/suspender");
+                      },
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
@@ -1607,7 +1608,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/WUjVPIEtJd0?t=';
 const double _startSecondsend = 0000000000000000000000000001441;
 const String _videoIdone = 'https://youtu.be/l0MF_AdmPLY?t=';

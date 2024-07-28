@@ -151,7 +151,6 @@ Usage: Brit, Cdn (US: flavorless)
                     const KurdishVocabulary(text: """
 کوردی: بێ‌تام، بێ‌چێژ، بێ‌مەزە، بێ‌لەزەت، تامسار
 """),
-// With short examples define "flavourless", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە تامی نییە"""),
                     SentencesRow(
@@ -228,7 +227,6 @@ Usage: Brit, Cdn (US: flavorless)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DvwtPD6o_z4';
 const double _startSecondsend = 1170;
 const String _videoIdone = 'nbCgfiqq-5c';

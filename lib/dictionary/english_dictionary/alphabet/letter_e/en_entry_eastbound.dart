@@ -365,27 +365,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeastbounds1("en-GB"),
             onPressedAmerican: () => speakeastbounds1("en-US"),
           ),
-          // eastbounds200eastbounds2
-          // eastbounds300eastbounds3
-          // eastbounds400eastbounds4
-          // eastbounds500eastbounds5
-          // eastbounds600eastbounds6
-          // eastbounds700eastbounds7
-          // eastbounds800eastbounds8
-          // eastbounds900eastbounds9
-          // eastbounds_1000eastbounds10
-          // eastbounds1100eastbounds11
-          // eastbounds1200eastbounds12
-          // eastbounds1300eastbounds13
-          // eastbounds1400eastbounds14
-          // eastbounds1500eastbounds15
-          // eastbounds1600eastbounds16
-          // eastbounds1700eastbounds17
-          // eastbounds1800eastbounds18
-          // eastbounds1900eastbounds19
-          // eastbounds_2000eastbounds20
-          // eastbounds2100eastbounds21
-          // eastbounds2200eastboundseastbounds
         ],
       ),
     );

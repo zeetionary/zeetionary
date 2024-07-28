@@ -279,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
         """Almost all accidents start with a simple error by the pilot.""");
   }
 
-// With short examples define "error", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

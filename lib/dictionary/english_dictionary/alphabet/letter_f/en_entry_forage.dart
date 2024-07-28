@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تفاق، ئالیک، واشە، ئاڵف، ئاژو، کاوگیا، کاووێنجە،	لەدواگەڕان، (بە شوێن‌دا)خولانەوە، گەڕان، سووڕانەوە
 """),
-// With short examples define "forage", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) گەڕان بۆ خواردن"""),
                     SentencesRow(
@@ -290,7 +289,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'helhqdNlWhg';
 const double _startSecondsend = 186;
 const String _videoIdone = 'yRmOWcWdQAo';

@@ -109,9 +109,7 @@ class EnglishEntryastrologer extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "astrologer"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "astrologer"),
                             // divvviiider
                           ],
                         ),

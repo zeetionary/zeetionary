@@ -309,40 +309,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefensives5("en-GB"),
             onPressedAmerican: () => speakdefensives5("en-US"),
           ),
-          // defensives600"),
-          // defensives6
-          // defensives700"),
-          // defensives7
-          // defensives800"),
-          // defensives8
-          // defensives900"),
-          // defensives9
-          // defensives1000"),
-          // defensives10
-          // defensives1100"),
-          // defensives11
-          // defensives1200"),
-          // defensives12
-          // defensives1300"),
-          // defensives13
-          // defensives1400"),
-          // defensives14
-          // defensives1500"),
-          // defensives15
-          // defensives1600"),
-          // defensives16
-          // defensives1700"),
-          // defensives17
-          // defensives1800"),
-          // defensives18
-          // defensives1900"),
-          // defensives19
+          // defensives6defensives6
+          // defensives7defensives7
+          // defensives8defensives8
+          // defensives9defensives9
+          // defensives10defensives10
+          // defensives11defensives11
+          // defensives12defensives12
+          // defensives13defensives13
+          // defensives14defensives14
+          // defensives15defensives15
+          // defensives16defensives16
+          // defensives17defensives17
+          // defensives18defensives18
+          // defensives19defensives19
           // "Troops took up a defensive position around the town.0"),
           // defensives20
-          // defensives2100"),
-          // defensives21
-          // defensives2200"),
-          // defensives22("en-US"),
+          // defensives21defensives21
         ],
       ),
     );

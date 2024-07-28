@@ -366,7 +366,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""2x plus y equals 7 (= 2x+y=7)0""");
   }
 
-// With short examples define "equal", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

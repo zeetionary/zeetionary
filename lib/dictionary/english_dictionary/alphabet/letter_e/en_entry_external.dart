@@ -295,7 +295,6 @@ class KurdishMeaning extends StatelessWidget {
         """The country was promised military aid in the case of external threat.""");
   }
 
-// With short examples define "external", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

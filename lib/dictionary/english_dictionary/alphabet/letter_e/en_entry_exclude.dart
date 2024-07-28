@@ -318,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The possibility of error cannot be absolutely excluded.""");
   }
 
-// With short examples define "exclude", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

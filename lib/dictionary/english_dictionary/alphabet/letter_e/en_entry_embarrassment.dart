@@ -453,7 +453,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دۆخێک کە کێشە بۆ کەسێک درووست دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Her resignation will be a severe embarrassment to the party.""",
@@ -475,14 +474,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک کە کێشە بۆ کەسانی دیکە درووست دەکات و دەبێتە جێگای شەرمەزاری"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Poor Lucy! He's such an embarrassment to her.""",
             kurdishText: """لووسی داماو! ئەو خەجاڵەتییەکی گەورەیە بۆی.""",
             onPressedBritish: () => speakembarrassments8("en-GB"),
             onPressedAmerican: () => speakembarrassments8("en-US"),
           ),
-          // embarrassments900embarrassments9
           // speakembarrassments
         ],
       ),

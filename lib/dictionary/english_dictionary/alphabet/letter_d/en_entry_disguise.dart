@@ -335,7 +335,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) شاردەوەی شتێک یان گۆڕینی بۆ ئەوەی نەناسرێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She made no attempt to disguise her surprise.",
             kurdishText: "ھیچ ھەوڵێکی نەدا بۆ شاردنەوەی حەپەسانی.",
@@ -362,7 +361,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) شتێک کە لەبەری دەکەیت یان بەکاری دەھێنیت بۆ ئەوەی شێوەت بگۆڕیت تاوەکو خەڵکی نەتناسنەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She wore glasses and a wig as a disguise.",
             kurdishText: "چاویلکە و زڕپرچی لەبەرکرد بۆ خۆشاردنەوە.",
@@ -380,7 +378,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ھونەری گۆڕینی ڕواڵەت بۆ ئەوەی خەڵکی نەتناسنەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He is a master of disguise.",
             kurdishText: "شارەزای خۆشاردنەوەیە.",
@@ -390,7 +387,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) شێوازێکی شاردنەوەی ڕواڵەتی سرووشتی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "His angelic look is just a disguise.",
             kurdishText: "شێوە فریشتەئاساکەی تەنھا فریودەرێکە.",
@@ -404,26 +400,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisguises12("en-GB"),
             onPressedAmerican: () => speakdisguises12("en-US"),
           ),
-          // disguises1300"),
-          // disguises13
-          // disguises1400"),
-          // disguises14
-          // disguises1500"),
-          // disguises15
-          // disguises1600"),
-          // disguises16
-          // disguises1700"),
-          // disguises17
-          // disguises1800"),
-          // disguises18
-          // disguises1900"),
-          // disguises19
-          // disguises_2000"),
-          // disguises20
-          // disguises2100"),
-          // disguises21
-          // disguises2200"),
-          // disguises22("en-US"),
+          // disguises13disguises13
+          // disguises14disguises14
+          // disguises15disguises15
+          // disguises16disguises16
+          // disguises17disguises17
+          // disguises18disguises18
+          // disguises19disguises19
+          // disguises_20disguises20
+          // disguises21disguises21
         ],
       ),
     );

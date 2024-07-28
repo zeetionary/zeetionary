@@ -418,7 +418,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) شتێک کە پێناچێت ڕووبدات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "It's doubtful if this painting is a Picasso.",
             kurdishText: "گومان ھەیە کە ئەم تابلۆیە ھی پیکاسۆ بێت.",
@@ -444,7 +443,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) شتێک کە ئەگەری ھەیە خراپتر ببێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "At the beginning of the war things were looking very doubtful.",
@@ -456,43 +454,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) کە گومان ھەیە ڕاستی بێت یان ئەو باشە بێت کە بانگەشەی بۆ دەکرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "This wine is of doubtful quality.",
             kurdishText: "شەرابەکە کوالێتی بەشکی ھەیە.",
             onPressedBritish: () => speakdoubtfuls7("en-GB"),
             onPressedAmerican: () => speakdoubtfuls7("en-US"),
           ),
-          // doubtfuls800"),
-          // doubtfuls8("en-US"),
-          // doubtfuls900"),
-          // doubtfuls9("en-US"),
-          // doubtfuls_1000"),
-          // doubtfuls10("en-US"),
-          // doubtfuls1100"),
-          // doubtfuls11("en-US"),
-          // doubtfuls1200"),
-          // doubtfuls12("en-US"),
-          // doubtfuls1300"),
-          // doubtfuls13("en-US"),
-          // doubtfuls1400"),
-          // doubtfuls14("en-US"),
-          // doubtfuls1500"),
-          // doubtfuls15("en-US"),
-          // doubtfuls1600"),
-          // doubtfuls16("en-US"),
-          // doubtfuls1700"),
-          // doubtfuls17("en-US"),
-          // doubtfuls1800"),
-          // doubtfuls18("en-US"),
-          // doubtfuls1900"),
-          // doubtfuls19("en-US"),
-          // doubtfuls_2000"),
-          // doubtfuls20("en-US"),
-          // doubtfuls2100"),
-          // doubtfuls21("en-US"),
-          // doubtfuls2200"),
-          // doubtfuls22("en-US"),
         ],
       ),
     );

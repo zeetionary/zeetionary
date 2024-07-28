@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەقی، پتەوی، توندی، سەختی،	تۆکمەیی، جێگیری، سەقامگیری، لێبڕاوی، بڕایی، شێلگیری
 """),
-// With short examples define "firmness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) سەختی و توندی"""),
                     SentencesRow(
                       englishText:
@@ -307,7 +306,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DPZzrlFCD_I';
 const double _startSecondsend = 68;
 const String _videoIdone = 'PYzhuFS8YkE';

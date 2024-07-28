@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """Beauty treatments range from an eyelash tint at £8 to a deep cleansing facial costing £80.""");
   }
 
-// With short examples define "facial", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

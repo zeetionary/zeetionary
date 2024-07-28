@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The symptoms may be exacerbated by certain drugs.""");
   }
 
-// With short examples define "exacerbate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

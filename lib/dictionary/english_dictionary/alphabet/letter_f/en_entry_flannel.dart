@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""OK, cut the flannel and tell me what you really want!""");
   }
 
-// With short examples define "flannel", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

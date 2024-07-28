@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) جۆرە بۆیەیەک کە وشک دەبێتەوە بەبێ ئەوەی ڕوویەکی درەوشاوە درووست بکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They gave the walls a coat of white emulsion.""",
             kurdishText: """چینێک لە بۆیەی سپییان لە دیوارەکە دا.""",

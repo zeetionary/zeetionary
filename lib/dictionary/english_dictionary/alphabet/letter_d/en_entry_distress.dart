@@ -420,7 +420,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کێشەی قووڵ کە درووست دەبێت بەھۆی ئەوەی بەشی پێویست نییە لە پارە، خواردن، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The charity aims to relieve poverty and distress caused by natural disasters.",
@@ -433,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دۆخێک کە تێیدا کەشتییەک، فڕۆکەیەک، ھتد لە دۆخێکی سەختدایە و پێویستی بە یارمەتییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "It is a rule of the sea to help another boat in distress.",
@@ -445,7 +443,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ئازاری جەستەیی، بەتایبەتی بەھۆی سەختی ھەناسەدان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The baby was clearly in distress.",
             kurdishText: "منداڵەکە بە ئاشکرایی لە نەڕەحەتیدا بوو.",
@@ -456,7 +453,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) وا لە کەسێک بکەیت ھەست بە نیگەرانی یان بێزاری بکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "It was clear that the letter had deeply distressed her.",
@@ -471,36 +467,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistresss7("en-GB"),
             onPressedAmerican: () => speakdistresss7("en-US"),
           ),
-          // distresss800"),
-          // distresss8("en-US"),
-          // distresss900"),
-          // distresss9("en-US"),
-          // distresss_1000"),
-          // distresss10("en-US"),
-          // distresss1100"),
-          // distresss11("en-US"),
-          // distresss1200"),
-          // distresss12("en-US"),
-          // distresss1300"),
-          // distresss13("en-US"),
-          // distresss1400"),
-          // distresss14("en-US"),
-          // distresss1500"),
-          // distresss15("en-US"),
-          // distresss1600"),
-          // distresss16("en-US"),
-          // distresss1700"),
-          // distresss17("en-US"),
-          // distresss1800"),
-          // distresss18("en-US"),
-          // distresss1900"),
-          // distresss19("en-US"),
-          // distresss_2000"),
-          // distresss20("en-US"),
-          // distresss2100"),
-          // distresss21("en-US"),
-          // distresss2200"),
-          // distresss22("en-US"),
         ],
       ),
     );

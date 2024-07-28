@@ -783,7 +783,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قومار، قومارگەری، قوماربازی، گرێو، مەرج(بەستن)،	مەترسی
 """),
-// With short examples define "gamble", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) قومار کردن"""),
                     SentencesRow(
                       englishText:
@@ -1620,7 +1619,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/AF8d72mA41M?t=';
 const double _startSecondsend = 000000000000000000000000000184;
 const String _videoIdone = 'https://youtu.be/b5fNif_WGdc?t=';

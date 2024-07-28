@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""These are very highly evolved animals.""");
   }
 
-// With short examples define "evolve", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

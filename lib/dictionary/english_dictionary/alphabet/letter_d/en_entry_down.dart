@@ -678,7 +678,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵکار) لە ھەستانەوە بۆ دابەزین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He had to go and lie down for a while.",
             kurdishText: "پێویست بوو بچێت و کەمێک ڕابکشێت.",
@@ -687,7 +686,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵکار) بۆ ئاستێکی کەمتر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Prices have gone down recently.",
             kurdishText: "نرخەکان تازەگی دابەزیون.",
@@ -706,7 +704,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵکار) بۆ وتنی ئەوەی بڕ یان ھێزی شتێک کەمترە، یان ئەوەی چالاکی کەمتر ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Turn the music down!",
             kurdishText: "میوزیکەکە کز بکە!",
@@ -722,7 +719,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ھاوەڵکار) لەسەر کاغەز؛ لە لیستێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Did you get that down?",
             kurdishText: "ئەوەت نووسی؟",
@@ -747,7 +743,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ھاوەڵکار) خوێندنەوە لە سەرەوە بۆ خوارەوە، نەک لە لایەک بۆ لایەکەی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I can't do 3 down.",
             kurdishText: "ناتوانم سێیەم بۆ خوارەوە شیکار بکەم.",
@@ -757,7 +752,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ھاوەڵکار) بەرەو باشوور یان لە باشووری وڵاتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They flew down to Texas.",
             kurdishText: "بەرەو باشوور بۆ تێکساس فڕین.",
@@ -775,7 +769,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٨. (ھاوەڵکار) لە شوێنێک گرنگەوە بۆ یەکێک کە بچووکترە یان کەمتر گرنگە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We've got people from the head office coming down.",
             kurdishText:
@@ -795,7 +788,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٩. (ھاوەڵکار) بۆ پیشاندانی سنووری مەودایەک یان ڕیزبەندییەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Everyone will be there, from the Principal down.",
             kurdishText: "ھەمووان لەوێ دەبن، لە بەڕێوەبەرەکەوە بۆ ئەوانی دیکە.",
@@ -805,7 +797,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (ھاوەڵکار) لەدەستدانی بڕە پارەیەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "At the end of the day we were £20 down.",
             kurdishText: "لە کۆتایی ڕۆژەکەدا ٢٠ پاوەندمان لەدەستدابوو.",
@@ -815,7 +806,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ھاوەڵکار) پێدانی بڕە پارەیەک وەک پێشەکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I gave him £1,000 down, and paid the rest in instalments.",
@@ -828,7 +818,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٢. (ھاوەڵکار) بۆ گوتنی ئەوەی چەندی ئەو شتانەت کردووە کە لە لیستێک داتناون"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Well, I've seen six apartments so far. That's six down and four to go!",
@@ -840,7 +829,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (ھاوەڵکار) لە شوێنێکی ناوخۆیی یان چوون بۆی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I saw him down at the shops.",
             kurdishText: "لە دووکانەکان بینیم.",
@@ -849,7 +837,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٤. (ئامراز) بۆ خوارەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The stone rolled down the hill.",
             kurdishText: "بەردەکە بە گردەکەدا غلۆربوویەوە.",
@@ -873,7 +860,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٥. (ئامراز) بۆ ئەو ئاراستەیەی کە سەیری دەکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He lives just down the street.",
             kurdishText: "کەمێک لە خوارەوەی شەقامەکەی دەژی.",
@@ -897,7 +883,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٦. (ئامراز) تەواوی ماوەیەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "These myths have come down to us from prehistoric times.",
@@ -910,7 +895,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٧. (کردار) تەواوکردنی خواردنەوەیەک یان خواردنی شتێک بە خێرایی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We downed our coffees and left.",
             kurdishText: "قاوەکانمان ھەڵقوڕاند و ڕۆشتین.",
@@ -919,7 +903,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٨. (کردار) خستنی کەسێک/شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Storms downed trees and power lines.",
             kurdishText: "زریانەکان دارەکان و ھێڵەکانی کارەبایان کەواند.",
@@ -929,7 +912,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٩. (ھاوەڵناو) بەرەو خوارەوە یان دوور لە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The down escalator isn't working.",
             kurdishText: "پلیکانە کارەباییەکانی دابەزین کار ناکەن.",
@@ -945,7 +927,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢٠. (ھاوەڵناو) دەڵتەنگ و خەمبار"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I feel a bit down today.",
             kurdishText: "ئەمڕۆ کەمێک ھەست بە خەمباری دەکەم.",
@@ -968,7 +949,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢١. (ھاوەڵناو) کە کارناکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The system was down all morning.",
             kurdishText: "سیستەمەکە تەواوی بەیانییەکە کاری نەدەکرد.",
@@ -978,7 +958,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٢. (ناو) پەڕی نەرمی باڵندە؛ مووی نەرم"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She bought a down jacket to stay warm in winter.",
             kurdishText:
@@ -990,7 +969,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢٣. (ناو) ماوەیەک لە ھەستکردن بە نیگەرانی یان کە شتەکان باش نین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We all have our downs from time to time.",
             kurdishText: "ھەموومان ڕۆژەڕەشی خۆمان ھەیە ماوە ماوە.",
@@ -1004,86 +982,45 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdowns41("en-GB"),
             onPressedAmerican: () => speakdowns41("en-US"),
           ),
-          // downs4200"),
-          // downs42
-          // downs4300"),
-          // downs43
-          // downs4400"),
-          // downs44
-          // downs4500"),
-          // downs45
-          // downs4600"),
-          // downs46
-          // downs4700"),
-          // downs47
-          // downs4800"),
-          // downs48
-          // downs4900"),
-          // downs49
-          // downs_6000"),
-          // downs50
-          // downs5100"),
-          // downs51
-          // downs5200"),
-          // downs52
-          // downs5300"),
-          // downs53
-          // downs5400"),
-          // downs54
-          // downs5500"),
-          // downs55
-          // downs5600"),
-          // downs56
-          // downs5700"),
-          // downs57
-          // downs5800"),
-          // downs58
-          // downs5900"),
-          // downs59
-          // downs6000"),
-          // downs60
-          // downs6100"),
-          // downs61
-          // downs6200"),
-          // downs62
-          // downs6300"),
-          // downs63
-          // downs6400"),
-          // downs65
-          // downs6600"),
-          // downs66
-          // downs6700"),
-          // downs67
-          // downs6800"),
-          // downs68
-          // downs6900"),
-          // downs69
-          // downs7000"),
-          // downs70
-          // downs7100"),
-          // downs71
-          // downs7200"),
-          // downs72
-          // downs7300"),
-          // downs73
-          // downs7400"),
-          // downs75
-          // downs7700"),
-          // downs76
-          // downs7700"),
-          // downs77
-          // downs7800"),
-          // downs79
-          // downs8000"),
-          // downs80
-          // downs8100"),
-          // downs81
-          // downs8200"),
-          // downs82
-          // downs8300"),
-          // downs83
-          // downs8400"),
-          // downs84("en-US"),
+          // downs42downs42
+          // downs43downs43
+          // downs44downs44
+          // downs45downs45
+          // downs46downs46
+          // downs47downs47
+          // downs48downs48
+          // downs49downs49
+          // downs_60downs50
+          // downs51downs51
+          // downs52downs52
+          // downs53downs53
+          // downs54downs54
+          // downs55downs55
+          // downs56downs56
+          // downs57downs57
+          // downs58downs58
+          // downs59downs59
+          // downs60downs60
+          // downs61downs61
+          // downs62downs62
+          // downs63downs63
+          // downs64downs65
+          // downs66downs66
+          // downs67downs67
+          // downs68downs68
+          // downs69downs69
+          // downs70downs70
+          // downs71downs71
+          // downs72downs72
+          // downs73downs73
+          // downs74downs75
+          // downs77downs76
+          // downs77downs77
+          // downs78downs79
+          // downs80downs80
+          // downs81downs81
+          // downs82downs82
+          // downs83downs83
         ],
       ),
     );

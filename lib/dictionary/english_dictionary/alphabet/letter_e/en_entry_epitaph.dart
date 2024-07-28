@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""These films stand as an epitaph to the great director.""");
   }
 
-// With short examples define "epitaph", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -258,7 +258,6 @@ class KurdishMeaning extends StatelessWidget {
         """The results cannot be extrapolated to other patient groups.""");
   }
 
-// With short examples define "extrapolate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

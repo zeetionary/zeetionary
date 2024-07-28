@@ -375,7 +375,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) لە کاتی چاوەڕوانکراو یان درووست"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """They duly arrived at 9.30 in spite of torrential rain.""",
@@ -383,46 +382,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdulys2("en-GB"),
             onPressedAmerican: () => speakdulys2("en-US"),
           ),
-          // dulys300
-          // dulys3("en-US"""),
-          // dulys400
-          // dulys4("en-US"""),
-          // dulys500
-          // dulys5("en-US"""),
-          // dulys600
-          // dulys6("en-US"""),
-          // dulys700
-          // dulys7("en-US"""),
-          // dulys800
-          // dulys8("en-US"""),
-          // dulys900
-          // dulys9("en-US"""),
-          // dulys_1000
-          // dulys10("en-US"""),
-          // dulys1100
-          // dulys11("en-US"""),
-          // dulys1200
-          // dulys12("en-US"""),
-          // dulys1300
-          // dulys13("en-US"""),
-          // dulys1400
-          // dulys14("en-US"""),
-          // dulys1500
-          // dulys15("en-US"""),
-          // dulys1600
-          // dulys16("en-US"""),
-          // dulys1700
-          // dulys17("en-US"""),
-          // dulys1800
-          // dulys18("en-US"""),
-          // dulys1900
-          // dulys19("en-US"""),
-          // dulys_2000
-          // dulys20("en-US"""),
-          // dulys2100
-          // dulys21("en-US"""),
-          // dulys2200
-          // dulys22("en-US"""),
         ],
       ),
     );

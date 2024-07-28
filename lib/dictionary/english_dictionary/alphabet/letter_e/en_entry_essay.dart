@@ -277,7 +277,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The procedure was first essayed in 1923.""");
   }
 
-// With short examples define "essay", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

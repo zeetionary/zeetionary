@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """Scientists discovered remains of woolly mammoths and mastodons believed to be from the Pleistocene epoch, more than 10,000 years ago.""");
   }
 
-// With short examples define "epoch", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

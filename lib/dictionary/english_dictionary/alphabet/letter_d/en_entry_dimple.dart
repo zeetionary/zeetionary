@@ -255,51 +255,30 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھەر چاڵییەک لەسەر ڕوویەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The pane of glass had a small dimple in it.",
             kurdishText: "شووشەی پەنجەرەکە چاڵێکی تێدا بوو.",
             onPressedBritish: () => speakdimples3("en-GB"),
             onPressedAmerican: () => speakdimples3("en-US"),
           ),
-          // dimples400"),
-          // dimples4
-          // dimples500"),
-          // dimples5
-          // dimples600"),
-          // dimples6
-          // dimples700"),
-          // dimples7
-          // dimples800"),
-          // dimples8
-          // dimples900"),
-          // dimples9
-          // dimples_1000"),
-          // dimples10
-          // dimples1100"),
-          // dimples11
-          // dimples1200"),
-          // dimples12
-          // dimples1300"),
-          // dimples13
-          // dimples1400"),
-          // dimples14
-          // dimples1500"),
-          // dimples15
-          // dimples1600"),
-          // dimples16
-          // dimples1700"),
-          // dimples17
-          // dimples1800"),
-          // dimples18
-          // dimples1900"),
-          // dimples19
-          // dimples_2000"),
-          // dimples20
-          // dimples2100"),
-          // dimples21
-          // dimples2200"),
-          // dimples22("en-US"),
+          // dimples4dimples4
+          // dimples5dimples5
+          // dimples6dimples6
+          // dimples7dimples7
+          // dimples8dimples8
+          // dimples9dimples9
+          // dimples_10dimples10
+          // dimples11dimples11
+          // dimples12dimples12
+          // dimples13dimples13
+          // dimples14dimples14
+          // dimples15dimples15
+          // dimples16dimples16
+          // dimples17dimples17
+          // dimples18dimples18
+          // dimples19dimples19
+          // dimples_20dimples20
+          // dimples21dimples21
         ],
       ),
     );

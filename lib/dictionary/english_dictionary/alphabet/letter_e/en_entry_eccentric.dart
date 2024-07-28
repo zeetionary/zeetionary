@@ -376,33 +376,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کەسێک کە خەڵکی بە نامۆ دایدەنێن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Most people considered him a harmless eccentric.""",
             kurdishText: """زۆر کەس بە شێتۆکەیەکی بێ‌زیان دایان دەنا.""",
             onPressedBritish: () => speakeccentrics2("en-GB"),
             onPressedAmerican: () => speakeccentrics2("en-US"),
           ),
-          // eccentrics300eccentrics3
-          // eccentrics400eccentrics4
-          // eccentrics500eccentrics5
-          // eccentrics600eccentrics6
-          // eccentrics700eccentrics7
-          // eccentrics800eccentrics8
-          // eccentrics900eccentrics9
-          // eccentrics_1000eccentrics10
-          // eccentrics1100eccentrics11
-          // eccentrics1200eccentrics12
-          // eccentrics1300eccentrics13
-          // eccentrics1400eccentrics14
-          // eccentrics1500eccentrics15
-          // eccentrics1600eccentrics16
-          // eccentrics1700eccentrics17
-          // eccentrics1800eccentrics18
-          // eccentrics1900eccentrics19
-          // eccentrics_2000eccentrics20
-          // eccentrics2100eccentrics21
-          // eccentrics2200eccentricseccentrics
         ],
       ),
     );

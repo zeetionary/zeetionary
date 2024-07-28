@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He told his story simply and without exaggeration.""");
   }
 
-// With short examples define "exaggeration", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

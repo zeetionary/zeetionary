@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The amount of blood in the faeces was measured.""");
   }
 
-// With short examples define "faeces", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

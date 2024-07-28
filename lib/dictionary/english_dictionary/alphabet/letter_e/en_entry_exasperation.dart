@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """After ten hours of fruitless negotiations, he stormed out of the meeting in exasperation.""");
   }
 
-// With short examples define "exasperation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -280,7 +280,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە بەشێوەیەک ڕەفتار دەکات وەک ئەوەی دەسەڵاتی تەواوی بەسەر کەسێکدا ھەبێت و پێیان دەڵێت چی بکەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Her father was a dictator and the whole family was afraid of him.",
@@ -288,42 +287,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdictators4("en-GB"),
             onPressedAmerican: () => speakdictators4("en-US"),
           ),
-          // dictators500"),
-          // dictators5
-          // dictators600"),
-          // dictators6
-          // dictators700"),
-          // dictators7
-          // dictators800"),
-          // dictators8
-          // dictators900"),
-          // dictators9
-          // dictators_1000"),
-          // dictators10
-          // dictators1100"),
-          // dictators11
-          // dictators1200"),
-          // dictators12
-          // dictators1300"),
-          // dictators13
-          // dictators1400"),
-          // dictators14
-          // dictators1500"),
-          // dictators15
-          // dictators1600"),
-          // dictators16
-          // dictators1700"),
-          // dictators17
-          // dictators1800"),
-          // dictators18
-          // dictators1900"),
-          // dictators19
-          // dictators_2000"),
-          // dictators20
-          // dictators2100"),
-          // dictators21
-          // dictators2200"),
-          // dictators22("en-US"),
+          // dictators5dictators5
+          // dictators6dictators6
+          // dictators7dictators7
+          // dictators8dictators8
+          // dictators9dictators9
+          // dictators_10dictators10
+          // dictators11dictators11
+          // dictators12dictators12
+          // dictators13dictators13
+          // dictators14dictators14
+          // dictators15dictators15
+          // dictators16dictators16
+          // dictators17dictators17
+          // dictators18dictators18
+          // dictators19dictators19
+          // dictators_20dictators20
+          // dictators21dictators21
         ],
       ),
     );

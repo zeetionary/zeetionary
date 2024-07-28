@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They had been exhorted to action.""");
   }
 
-// With short examples define "exhort", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

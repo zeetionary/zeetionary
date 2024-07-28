@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""News of the bombing extinguished all hope of peace.""");
   }
 
-// With short examples define "extinguish", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

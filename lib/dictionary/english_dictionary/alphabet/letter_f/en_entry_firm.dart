@@ -334,7 +334,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پتەو، تۆکمە، قایم (نە زۆر و نە کەم)، جێگیر، بەھێز، سەخت، نەلەق، پێ‌بەجێ، سەقامگیر، چەقیو، ڕەق، توند، ڕۆنەچوو، دانەدەر،	بەڕشت، شێلگر، (لەسەر)سوور، بڕا، پتەو، بەبڕیار،	یەکلایی‌کەرەوە، لێبڕاوانە،	بەوەفا، بەئەمەگ، یەکلایی،	پتەو، بەبیروباوەڕ، تۆکمە،	لێ‌ڕابینراو، باوەڕپێکراو، بەڵگەنامەیی، جێ‌متمانە،	تەواو، ڕەبەق،	سەقامگیر، جێگیر (پارە، دراو و ھتد)، پتەو، تۆکمە، یەکلایی‌کەرەوانە، لێبڕاوانە
 """),
-// With short examples define "firm", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بازرگانی یان کۆمپانیایەک"""),
                     SentencesRow(
@@ -588,7 +587,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DPZzrlFCD_I';
 const double _startSecondsend = 43;
 const String _videoIdone = 'qWAagS_MANg';

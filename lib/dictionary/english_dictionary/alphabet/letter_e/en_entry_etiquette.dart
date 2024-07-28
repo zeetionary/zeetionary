@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""We have put together a tweeting etiquette guide.""");
   }
 
-// With short examples define "etiquette", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

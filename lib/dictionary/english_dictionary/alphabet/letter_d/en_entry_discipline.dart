@@ -339,7 +339,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) ڕێگای ڕاھێنانی مێشک و جەستەت یان کۆنترۆڵکردنی ڕەفتارت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Yoga is a good discipline for learning to relax.",
             kurdishText: "یۆگا ڕێچکەیەکی باشە بۆ حەسانەوە.",
@@ -350,7 +349,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) توانای کۆنترۆڵکردنی ڕەفتارت یان شێوازی ژیان، کار، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her determination and discipline were admirable.",
             kurdishText: "شێلگیری و توندوتۆڵی شایەنی ڕێز بوون.",
@@ -360,7 +358,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بابەتێک کە خەڵکی دەیخوێنن یان فێردەکرێن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Scholars from various disciplines have been working on these problems.",
@@ -379,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) سزادانی کەسێک بۆ شتێک کە کردوویەتی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The officers were disciplined for using racist language.",
@@ -401,7 +397,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) ڕاھێنانی کەسێک، بەتایبەتی منداڵێک، کە پابەندی یاسا بێت و شێوازی ڕەفتاری کۆنترۆڵ بکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "This book contains a guide to the best ways of disciplining your child.",
@@ -414,7 +409,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (کردار) کۆنترۆڵکردنی شێوازی ڕەفتارت و ئەوەی ئەو شتانە بکەیت کە دەبێت بیانکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Dieting is a matter of disciplining yourself.",
             kurdishText: "پارێزکردن پەیوەندیدارە بە کۆنترۆڵکردنی خۆت.",
@@ -430,26 +424,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisciplines12("en-GB"),
             onPressedAmerican: () => speakdisciplines12("en-US"),
           ),
-          // disciplines1300"),
-          // disciplines13("en-US"),
-          // disciplines1400"),
-          // disciplines14("en-US"),
-          // disciplines1500"),
-          // disciplines15("en-US"),
-          // disciplines1600"),
-          // disciplines16("en-US"),
-          // disciplines1700"),
-          // disciplines17("en-US"),
-          // disciplines1800"),
-          // disciplines18("en-US"),
-          // disciplines1900"),
-          // disciplines19("en-US"),
-          // disciplines_2000"),
-          // disciplines20("en-US"),
-          // disciplines2100"),
-          // disciplines21("en-US"),
-          // disciplines2200"),
-          // disciplines22("en-US"),
         ],
       ),
     );

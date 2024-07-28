@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""This resulted in a considerable loss to the exchequer.""");
   }
 
-// With short examples define "exchequer", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

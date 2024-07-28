@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """These countries can no longer be viewed as a single entity.""");
   }
 
-// With short examples define "entity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

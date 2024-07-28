@@ -375,33 +375,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شتێک کە نموونەیەکی گونجاو یان بنچینەیەک وێنا دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The dove is an emblem of peace.""",
             kurdishText: """کۆتر ھێمای ئاشتییە.""",
             onPressedBritish: () => speakemblems2("en-GB"),
             onPressedAmerican: () => speakemblems2("en-US"),
           ),
-          // emblems300emblems3
-          // emblems400emblems4
-          // emblems500emblems5
-          // emblems600emblems6
-          // emblems700emblems7
-          // emblems800emblems8
-          // emblems900emblems9
-          // emblems_1000emblems10
-          // emblems1100emblems11
-          // emblems1200emblems12
-          // emblems1300emblems13
-          // emblems1400emblems14
-          // emblems1500emblems15
-          // emblems1600emblems16
-          // emblems1700emblems17
-          // emblems1800emblems18
-          // emblems1900emblems19
-          // emblems_2000emblems20
-          // emblems2100emblems21
-          // emblems2200emblemsemblems
         ],
       ),
     );

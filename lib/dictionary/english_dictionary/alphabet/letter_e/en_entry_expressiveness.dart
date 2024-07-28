@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """People remarked on the expressiveness of her face and hands.""");
   }
 
-// With short examples define "expressiveness", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

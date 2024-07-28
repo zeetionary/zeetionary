@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە توندی، توند، بە تووڕەیی‌یەوە، بە ڕق‌ھەستانەوە
 """),
-// With short examples define "furiously", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە تووڕەیی زۆرەوە"""),
                     SentencesRow(
@@ -254,7 +253,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '1KgSp94nCZw';
 const double _startSecondsend = 97;
 const String _videoIdone = '3Kd2x1mXV_k';

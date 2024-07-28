@@ -300,7 +300,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک/شتێک کە جێگای نائومێدییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "That new restaurant was a big disappointment.",
             kurdishText: "چێشتخانە تازەکە نائومێدییەکی گەورە بوو.",
@@ -314,38 +313,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisappointments6("en-GB"),
             onPressedAmerican: () => speakdisappointments6("en-US"),
           ),
-          // disappointments700"),
-          // disappointments7
-          // disappointments800"),
-          // disappointments8
-          // disappointments900"),
-          // disappointments9
-          // disappointments_1000"),
-          // disappointments10
-          // disappointments1100"),
-          // disappointments11
-          // disappointments1200"),
-          // disappointments12
-          // disappointments1300"),
-          // disappointments13
-          // disappointments1400"),
-          // disappointments14
-          // disappointments1500"),
-          // disappointments15
-          // disappointments1600"),
-          // disappointments16
-          // disappointments1700"),
-          // disappointments17
-          // disappointments1800"),
-          // disappointments18
-          // disappointments1900"),
-          // disappointments19
-          // disappointments_2000"),
-          // disappointments20
-          // disappointments2100"),
-          // disappointments21
-          // disappointments2200"),
-          // disappointments22("en-US"),
+          // disappointments7disappointments7
+          // disappointments8disappointments8
+          // disappointments9disappointments9
+          // disappointments_10disappointments10
+          // disappointments11disappointments11
+          // disappointments12disappointments12
+          // disappointments13disappointments13
+          // disappointments14disappointments14
+          // disappointments15disappointments15
+          // disappointments16disappointments16
+          // disappointments17disappointments17
+          // disappointments18disappointments18
+          // disappointments19disappointments19
+          // disappointments_20disappointments20
+          // disappointments21disappointments21
         ],
       ),
     );

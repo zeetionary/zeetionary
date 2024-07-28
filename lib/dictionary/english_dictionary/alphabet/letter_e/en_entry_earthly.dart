@@ -391,7 +391,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ئەگەری ھەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """There's no earthly reason why you shouldn't go.""",
             kurdishText: """ھیچ ھۆکارێکی باوەڕپێکراو نەبوو کە نەچیت.""",
@@ -414,23 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthlys4("en-GB"),
             onPressedAmerican: () => speakearthlys4("en-US"),
           ),
-          // earthlys500earthlys5
-          // earthlys600earthlys6
-          // earthlys700earthlys7
-          // earthlys800earthlys8
-          // earthlys900earthlys9
-          // earthlys_1000earthlys10
-          // earthlys1100earthlys11
-          // earthlys1200earthlys12
-          // earthlys1300earthlys13
-          // earthlys1400earthlys14
-          // earthlys1500earthlys15
-          // earthlys1600earthlys16
-          // earthlys1700earthlys17
-          // earthlys1800earthlys18
-          // earthlys1900earthlys19
-          // earthlys_2000earthlys20
-          // earthlys2100earthlys21
           // earthlys2200earthlysearthlys
         ],
       ),

@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""His comment triggered an eruption of laughter.""");
   }
 
-// With short examples define "eruption", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

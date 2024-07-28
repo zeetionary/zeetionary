@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""We're going to have this picture enlarged.""");
   }
 
-// With short examples define "enlarge", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

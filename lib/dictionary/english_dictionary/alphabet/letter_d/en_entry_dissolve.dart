@@ -451,7 +451,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) تواندنەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Dissolve the tablet in water.",
             kurdishText: "حەبەکە لە ئاودا بتوێنەوە.",
@@ -462,7 +461,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بە فەرمی کۆتایی ھێنان بە ھاوسەرگیرییەک، ڕێکەوتنێکی بازرگانی، یان پەرلەمان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Their marriage was dissolved in 1999.",
             kurdishText: "ھاوسەرگیرییەکەیان لە ساڵی ١٩٩٩ کۆتایی پێھێندرا.",
@@ -479,7 +477,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) ونبوون یان ونکردن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "When the ambulance had gone, the crowd dissolved.",
             kurdishText: "کە ئەمبولانسەکە ڕۆشت، خەڵکەکە نەمان.",
@@ -505,7 +502,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) لەناکاو دەستکردن بە پێکەنین، گریان، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Every time she heard his name, she dissolved into tears.",
@@ -516,35 +512,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) سڕینەوە یان لەناوبردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "All the original calcium had dissolved away.",
             kurdishText: "تەواوی کالسیۆمە ڕەسەنەکە لەناچووبوو.",
             onPressedBritish: () => speakdissolves11("en-GB"),
             onPressedAmerican: () => speakdissolves11("en-US"),
           ),
-          // dissolves1200"),
-          // dissolves12("en-US"),
-          // dissolves1300"),
-          // dissolves13("en-US"),
-          // dissolves1400"),
-          // dissolves14("en-US"),
-          // dissolves1500"),
-          // dissolves15("en-US"),
-          // dissolves1600"),
-          // dissolves16("en-US"),
-          // dissolves1700"),
-          // dissolves17("en-US"),
-          // dissolves1800"),
-          // dissolves18("en-US"),
-          // dissolves1900"),
-          // dissolves19("en-US"),
-          // dissolves_2000"),
-          // dissolves20("en-US"),
-          // dissolves2100"),
-          // dissolves21("en-US"),
-          // dissolves2200"),
-          // dissolves22("en-US"),
         ],
       ),
     );

@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
         """Children like to share interests and enjoyments with their parents.""");
   }
 
-// With short examples define "enjoyment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

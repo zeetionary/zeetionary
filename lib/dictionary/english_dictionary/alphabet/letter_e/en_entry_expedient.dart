@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """The government has clearly decided that a cut in interest rates would be politically expedient.""");
   }
 
-// With short examples define "expedient", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

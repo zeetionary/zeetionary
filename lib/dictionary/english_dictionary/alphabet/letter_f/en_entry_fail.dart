@@ -511,7 +511,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""My pancakes were an epic fail.""");
   }
 
-// With short examples define "fail", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

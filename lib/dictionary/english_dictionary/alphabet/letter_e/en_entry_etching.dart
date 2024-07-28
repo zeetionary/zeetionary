@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """The exhibition features a selection of his early etchings and drawings.""");
   }
 
-// With short examples define "etching", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

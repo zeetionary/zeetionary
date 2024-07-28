@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڕندەیی، ھۆڤێتی، دڕێتی، دڕندەگەری، بێ‌بەزەیێتی، زەبروزەنگ، توندوتیژی،	کردەوەی توندوتیژانە، کردەوەی دڕندانە
 """),
-// With short examples define "ferocity", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) توندوتیژی؛ ڕەفتاری توندوتیژی"""),
                     SentencesRow(

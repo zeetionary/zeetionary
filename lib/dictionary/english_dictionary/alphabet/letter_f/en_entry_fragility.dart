@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناسکی، زووشکاوی، قرچی، قرپی، ھەڵپەڕیوی، ڕێزەڵۆکی، لەشکان‌ھاتوویی،	ھەستیاری، ناسکی،	سستی، لاوازی، بێ‌ھێزی، بێ‌گیانی
 """),
-// With short examples define "fragility", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ناسکی و لاوازی"""),
                     SentencesRow(
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tZBk_Hb-X0w';
 const double _startSecondsend = 244;
 const String _videoIdone = 'wf6x4FHTMKo';

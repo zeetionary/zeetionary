@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He enunciated his vision of the future.""");
   }
 
-// With short examples define "enunciate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -395,7 +395,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The warm climate favours many types of tropical plants.""");
   }
 
-// With short examples define "favour", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -311,7 +311,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە خراپ ڕەفتار دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Have another slice of cake - go on, be a devil!",
             kurdishText: "پارچە کێکێکی دیکە ببە ـ بچۆ، ناجسن بە.",
@@ -343,34 +342,19 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdevils8("en-GB"),
             onPressedAmerican: () => speakdevils8("en-US"),
           ),
-          // devils900"),
-          // devils9
-          // devils1000"),
-          // devils10
-          // devils1100"),
-          // devils11
-          // devils1200"),
-          // devils12
-          // devils1300"),
-          // devils13
-          // devils1400"),
-          // devils14
-          // devils1500"),
-          // devils15
-          // devils1600"),
-          // devils16
-          // devils1700"),
-          // devils17
-          // devils1800"),
-          // devils18
-          // devils1900"),
-          // devils19
-          // devils_2000"),
-          // devils20
-          // devils2100"),
-          // devils21
-          // devils2200"),
-          // devils22("en-US"),
+          // devils9devils9
+          // devils10devils10
+          // devils11devils11
+          // devils12devils12
+          // devils13devils13
+          // devils14devils14
+          // devils15devils15
+          // devils16devils16
+          // devils17devils17
+          // devils18devils18
+          // devils19devils19
+          // devils_20devils20
+          // devils21devils21
         ],
       ),
     );

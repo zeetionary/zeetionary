@@ -95,8 +95,7 @@ class EnglishEntrybagpipes extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bagpipes"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bagpipes"),
                             // divvviiider
                           ],
                         ),

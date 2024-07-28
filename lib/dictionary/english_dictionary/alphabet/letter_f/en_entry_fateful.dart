@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He made the fateful decision to send in the troops.""");
   }
 
-// With short examples define "fateful", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -384,26 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefficientlys2("en-GB"),
             onPressedAmerican: () => speakefficientlys2("en-US"),
           ),
-          // efficientlys300efficientlys3
-          // efficientlys400efficientlys4
-          // efficientlys500efficientlys5
-          // efficientlys600efficientlys6
-          // efficientlys700efficientlys7
-          // efficientlys800efficientlys8
-          // efficientlys900efficientlys9
-          // efficientlys_1000efficientlys10
-          // efficientlys1100efficientlys11
-          // efficientlys1200efficientlys12
-          // efficientlys1300efficientlys13
-          // efficientlys1400efficientlys14
-          // efficientlys1500efficientlys15
-          // efficientlys1600efficientlys16
-          // efficientlys1700efficientlys17
-          // efficientlys1800efficientlys18
-          // efficientlys1900efficientlys19
-          // efficientlys_2000efficientlys20
-          // efficientlys2100efficientlys21
-          // efficientlys2200efficientlysefficientlys
         ],
       ),
     );

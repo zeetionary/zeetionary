@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "five", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ژمارە) ژمارە پێنج ٥"""),
                     SentencesRow(
@@ -336,7 +335,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 441;
 const String _videoIdone = 'wTNJZEcHdPw';

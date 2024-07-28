@@ -429,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) زەبرێک کە دەخرێتە سەر وشەیەک یان واژەیەک لە کاتی خوێندنەوە، بەتایبەتی بۆ پیشاندانی ئەوەی کە گرنگە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """You're placing the emphasis on the wrong syllable.""",
@@ -444,22 +443,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemphasiss6("en-GB"),
             onPressedAmerican: () => speakemphasiss6("en-US"),
           ),
-          // emphasiss700emphasiss7
-          // emphasiss800emphasiss8
-          // emphasiss900emphasiss9
-          // emphasiss_1000emphasiss10
-          // emphasiss1100emphasiss11
-          // emphasiss1200emphasiss12
-          // emphasiss1300emphasiss13
-          // emphasiss1400emphasiss14
-          // emphasiss1500emphasiss15
-          // emphasiss1600emphasiss16
-          // emphasiss1700emphasiss17
-          // emphasiss1800emphasiss18
-          // emphasiss1900emphasiss19
-          // emphasiss_2000emphasiss20
-          // emphasiss2100emphasiss21
-          // emphasiss2200emphasissemphasiss
         ],
       ),
     );

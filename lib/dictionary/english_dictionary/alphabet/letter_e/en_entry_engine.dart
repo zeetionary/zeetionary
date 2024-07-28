@@ -285,8 +285,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He was the engine behind the victory.""");
   }
 
-// With short examples define "engine", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

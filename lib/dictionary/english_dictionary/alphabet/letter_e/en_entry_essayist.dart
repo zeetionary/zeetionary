@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She became a renowned political essayist.""");
   }
 
-// With short examples define "essayist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

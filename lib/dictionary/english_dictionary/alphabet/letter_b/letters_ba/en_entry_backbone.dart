@@ -95,8 +95,7 @@ class EnglishEntrybackbone extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backbone"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backbone"),
                             // divvviiider
                           ],
                         ),

@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """All wafer fabrication at San Jose will transfer to the Minneapolis plant.""");
   }
 
-// With short examples define "fabrication", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

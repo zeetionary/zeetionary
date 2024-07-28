@@ -266,44 +266,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdialects3("en-GB"),
             onPressedAmerican: () => speakdialects3("en-US"),
           ),
-          // dialects400"),
-          // dialects4
-          // dialects500"),
-          // dialects5
-          // dialects600"),
-          // dialects6
-          // dialects700"),
-          // dialects7
-          // dialects800"),
-          // dialects8
-          // dialects900"),
-          // dialects9
-          // dialects_1000"),
-          // dialects10
-          // dialects1100"),
-          // dialects11
-          // dialects1200"),
-          // dialects12
-          // dialects1300"),
-          // dialects13
-          // dialects1400"),
-          // dialects14
-          // dialects1500"),
-          // dialects15
-          // dialects1600"),
-          // dialects16
-          // dialects1700"),
-          // dialects17
-          // dialects1800"),
-          // dialects18
-          // dialects1900"),
-          // dialects19
-          // dialects_2000"),
-          // dialects20
-          // dialects2100"),
-          // dialects21
-          // dialects2200"),
-          // dialects22("en-US"),
+          // dialects4dialects4
+          // dialects5dialects5
+          // dialects6dialects6
+          // dialects7dialects7
+          // dialects8dialects8
+          // dialects9dialects9
+          // dialects_10dialects10
+          // dialects11dialects11
+          // dialects12dialects12
+          // dialects13dialects13
+          // dialects14dialects14
+          // dialects15dialects15
+          // dialects16dialects16
+          // dialects17dialects17
+          // dialects18dialects18
+          // dialects19dialects19
+          // dialects_20dialects20
+          // dialects21dialects21
         ],
       ),
     );

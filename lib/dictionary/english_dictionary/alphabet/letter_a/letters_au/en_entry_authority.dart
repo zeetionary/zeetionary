@@ -145,8 +145,7 @@ class EnglishEntryauthority extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "authority"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "authority"),
                             // divvviiider
                           ],
                         ),

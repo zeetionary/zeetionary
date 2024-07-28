@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سارد، بەستەڵەک، شەختەبەند، تۆف‌وبەند، بەستوو،	بێ‌ھەست، وشک، ساردوسڕ، نادۆستانە،	ژنی سارد
 """),
-// With short examples define "frigid", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) زۆر سارد"""),
                     SentencesRow(
                       englishText: """They travelled over frigid lands.""",
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qr4MSVxfYBE';
 const double _startSecondsend = 739;
 const String _videoIdone = 'C_7tn_oGHI0';

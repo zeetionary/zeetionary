@@ -254,7 +254,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Fear engulfed her.""");
   }
 
-// With short examples define "engulf", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

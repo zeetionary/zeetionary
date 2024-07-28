@@ -221,7 +221,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تووڕھەڵدان، ھاویشتن، فڕێدان،	فلینگ (جۆرێ سەما و ھەڵپەڕکێی توندی سکاتلەندی)،	ماوەی ڕابواردن، سەروبەندی خۆشی، سەردەمی ڕادان،	پێوەندی سێکسی ناڕەوا، تێکەڵی دڵدارانە
 """),
-// With short examples define "fling", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) فڕێدان یان پاڵنان بە ھێزەوە"""),
                     SentencesRow(
@@ -373,7 +372,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'gneBUA39mnI';
 const double _startSecondsend = 129;
 const String _videoIdone = 'NFtQOxjWfaA';

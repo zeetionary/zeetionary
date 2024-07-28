@@ -446,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) نیگەرانکردنی کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The letter shocked and disturbed me.",
             kurdishText: "نامەکە شۆک و نیگەرانی کردم.",
@@ -463,7 +462,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) جوڵاندنی شتێک یان گۆڕینی شوێنی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Don't disturb the papers on my desk.",
             kurdishText: "کاغەزەکانی سەر مێزەکەم مەجوڵێنە.",
@@ -473,7 +471,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) واکردنی ئەوەی شتێک جیاواز لە ئاسایی کاربکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "During a magnetic storm, the earth's magnetic field is disturbed.",
@@ -482,34 +479,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisturbs8("en-GB"),
             onPressedAmerican: () => speakdisturbs8("en-US"),
           ),
-          // disturbs900"),
-          // disturbs9("en-US"),
-          // disturbs_1000"),
-          // disturbs10("en-US"),
-          // disturbs1100"),
-          // disturbs11("en-US"),
-          // disturbs1200"),
-          // disturbs12("en-US"),
-          // disturbs1300"),
-          // disturbs13("en-US"),
-          // disturbs1400"),
-          // disturbs14("en-US"),
-          // disturbs1500"),
-          // disturbs15("en-US"),
-          // disturbs1600"),
-          // disturbs16("en-US"),
-          // disturbs1700"),
-          // disturbs17("en-US"),
-          // disturbs1800"),
-          // disturbs18("en-US"),
-          // disturbs1900"),
-          // disturbs19("en-US"),
-          // disturbs_2000"),
-          // disturbs20("en-US"),
-          // disturbs2100"),
-          // disturbs21("en-US"),
-          // disturbs2200"),
-          // disturbs22("en-US"),
         ],
       ),
     );

@@ -313,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He fastened his gaze on her face.""");
   }
 
-// With short examples define "fasten", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

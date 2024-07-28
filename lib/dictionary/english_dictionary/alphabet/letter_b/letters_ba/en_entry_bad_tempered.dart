@@ -94,9 +94,7 @@ class EnglishEntrybadtempered extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "bad-tempered"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bad-tempered"),
                             // divvviiider
                           ],
                         ),

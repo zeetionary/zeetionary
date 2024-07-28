@@ -364,27 +364,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffeminates1("en-GB"),
             onPressedAmerican: () => speakeffeminates1("en-US"),
           ),
-          // effeminates200effeminates2
-          // effeminates300effeminates3
-          // effeminates400effeminates4
-          // effeminates500effeminates5
-          // effeminates600effeminates6
-          // effeminates700effeminates7
-          // effeminates800effeminates8
-          // effeminates900effeminates9
-          // effeminates_1000effeminates10
-          // effeminates1100effeminates11
-          // effeminates1200effeminates12
-          // effeminates1300effeminates13
-          // effeminates1400effeminates14
-          // effeminates1500effeminates15
-          // effeminates1600effeminates16
-          // effeminates1700effeminates17
-          // effeminates1800effeminates18
-          // effeminates1900effeminates19
-          // effeminates_2000effeminates20
-          // effeminates2100effeminates21
-          // effeminates2200effeminateseffeminates
         ],
       ),
     );

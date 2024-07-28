@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
         """This study represents a major expenditure of time and effort.""");
   }
 
-// With short examples define "expenditure", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

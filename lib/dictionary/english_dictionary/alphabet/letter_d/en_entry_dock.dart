@@ -420,7 +420,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کۆمەڵە لەنگەرگای بەندەرێک کە بەکاردێن بۆ چاککردنەوەی کەشتییەکان، ھەڵگرتنی کەلوپەل، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "There are plans to redevelop the old docks.",
             kurdishText: "پلان ھەیە لەنگەرە کۆنەکان دووبارە بنیاتبنرێنەوە.",
@@ -444,7 +443,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) چوونی کەشتییەک بۆ بەندەرێک و مانەوەی لەوێ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The ferry is expected to dock at 6.",
             kurdishText: "بەلەمەکە چاوەڕێ دەکرێت لە کاتژمێر ٦ لەنگەر بگرێت.",
@@ -455,7 +453,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) گەشتن بە یەکی دوو کەشتی ئاسمانی لە بۆشایی ئاسماندا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The Russians and Americans docked (= joined together in space) (their spacecraft) just after one o'clock this morning.",
@@ -467,43 +464,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بینی بەشێک لە مووچەی کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They've docked 15 per cent off my pay for this week.",
             kurdishText: "١٥ لە سەدیان لە مووچەکەم بۆ ئەم ھەفتەیە بڕیوە.",
             onPressedBritish: () => speakdocks7("en-GB"),
             onPressedAmerican: () => speakdocks7("en-US"),
           ),
-          // docks800"),
-          // docks8("en-US"),
-          // docks900"),
-          // docks9("en-US"),
-          // docks_1000"),
-          // docks10("en-US"),
-          // docks1100"),
-          // docks11("en-US"),
-          // docks1200"),
-          // docks12("en-US"),
-          // docks1300"),
-          // docks13("en-US"),
-          // docks1400"),
-          // docks14("en-US"),
-          // docks1500"),
-          // docks15("en-US"),
-          // docks1600"),
-          // docks16("en-US"),
-          // docks1700"),
-          // docks17("en-US"),
-          // docks1800"),
-          // docks18("en-US"),
-          // docks1900"),
-          // docks19("en-US"),
-          // docks_2000"),
-          // docks20("en-US"),
-          // docks2100"),
-          // docks21("en-US"),
-          // docks2200"),
-          // docks22("en-US"),
         ],
       ),
     );

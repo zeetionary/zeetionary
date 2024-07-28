@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """Smoking by expectant mothers may increase the chances of brain damage in their babies.""");
   }
 
-// With short examples define "expectant", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

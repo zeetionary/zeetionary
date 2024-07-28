@@ -246,7 +246,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چنگاڵ، چەتاڵ، ملێبۆک،	شەن، شەنە، ھەسک، درگان، گۆ، کارێج، تەبور، ملێب، قەلەپیسک، ھیرگووش، سێ‌دەندەک، پەنجە، پەنجەقازی (ئامێری کشت‌وکاڵ)،	دوڕیانە، دووڕێیانە،	(لق)لێبوونەوە، پەل‌لێبوونەوە،	دوولقانە، دووفلیقانە، دووحاچە، دوولکانە (دووچەرخە)،	بنی ڕان، گەڵ، ناوگەڵ، خەرک
 """),
-// With short examples define "fork", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) چنگاڵ"""),
                     SentencesRow(
                       englishText:
@@ -416,7 +415,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'njn6krU3tQ8';
 const double _startSecondsend = 0;
 const String _videoIdone = 'hTqtGJwsJVE';

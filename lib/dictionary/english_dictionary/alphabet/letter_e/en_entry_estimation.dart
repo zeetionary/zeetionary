@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
         """Estimations of our total world sales are around 50 million.""");
   }
 
-// With short examples define "estimation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

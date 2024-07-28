@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The plan was fatally flawed from the start.""");
   }
 
-// With short examples define "fatally", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

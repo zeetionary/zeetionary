@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He applied for exemption from military service.""");
   }
 
-// With short examples define "exemption", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

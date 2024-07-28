@@ -427,7 +427,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) پەسەندکردنی شتێک، بۆ نموونە بیرۆکەیەک، پێشنیارێک، کۆمەڵە باوەڕێک، ھتد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The country's eager embrace of modern technology led to rapid innovation.""",
@@ -438,7 +437,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) لە باوەش گرتن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They embraced and promised to keep in touch.""",
             kurdishText:
@@ -457,7 +455,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) پەسەندکردنی شتێک، بۆ نموونە بیرۆکەیەک، پێشنیارێک، کۆمەڵە باوەڕێک، ھتد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """It is unlikely that such countries will embrace capitalist ideas.""",
@@ -477,7 +474,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (کردار) لەخۆگرتنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The talks embraced a wide range of issues.""",
             kurdishText:
@@ -485,98 +481,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembraces8("en-GB"),
             onPressedAmerican: () => speakembraces8("en-US"),
           ),
-          // embraces900embraces9
-          // speakembraces9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces_1000embraces10
-          // speakembraces10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1100embraces11
-          // speakembraces11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1200embraces12
-          // speakembraces12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1300embraces13
-          // speakembraces13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1400embraces14
-          // speakembraces14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1500embraces15
-          // speakembraces15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1600embraces16
-          // speakembraces16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1700embraces17
-          // speakembraces17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1800embraces18
-          // speakembraces18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces1900embraces19
-          // speakembraces19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces_2000embraces20
-          // speakembraces20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces2100embraces21
-          // speakembraces21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // embraces2200embracesembraces
         ],
       ),
     );

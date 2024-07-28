@@ -293,7 +293,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بۆگەن، گەنیو، گنخاو، ناخۆش، خراپ، پیس، چەپەڵ، گڵاو، گەمار،	(ھەوا) ناخۆش، ناسازگار، پڕبا و بارانی، خراپ،	قەبە، ناحەز، ناشیرین، کرێت، ناشایست،	پیس، بێ‌بەزەیی، چەپەڵ،	ھەرزە، پڕ لە قسەی ساردوسووک،	(وەرزش) نادادپەروەرانە، ناپیاوانە، دوور لە ڕێسای وەرزشی،	(دەریاوانی، تەناف و ھتد) لێک‌ئاڵاو، ئاڵۆسکاو، تێک‌گیراو، شێواو،	(قۆڵەکوورە و ھتد) گیراو، بەرگیراو
 """),
-// With short examples define "foul", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پیس و بۆگەن"""),
                     SentencesRow(
@@ -501,7 +500,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QLq6GEiHqR8';
 const double _startSecondsend = 625;
 const String _videoIdone = 'SY3y6zNTiLs';

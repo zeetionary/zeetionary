@@ -307,7 +307,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) گومانکردن لەوەی کە شتێک ڕاستە یان لەلایەنی یاساییەوە ڕاست یان پەسەندە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "These figures have been disputed.",
             kurdishText: "ئامارەکان تانەیان لێدراوە.",
@@ -331,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) مشتومڕکردن لەگەڵ کەسێک سەبارەت بە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The United Nations recognizes the area as a disputed territory.",
@@ -348,34 +346,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisputes8("en-GB"),
             onPressedAmerican: () => speakdisputes8("en-US"),
           ),
-          // disputes900"),
-          // disputes9("en-US"),
-          // disputes_1000"),
-          // disputes10("en-US"),
-          // disputes1100"),
-          // disputes11("en-US"),
-          // disputes1200"),
-          // disputes12("en-US"),
-          // disputes1300"),
-          // disputes13("en-US"),
-          // disputes1400"),
-          // disputes14("en-US"),
-          // disputes1500"),
-          // disputes15("en-US"),
-          // disputes1600"),
-          // disputes16("en-US"),
-          // disputes1700"),
-          // disputes17("en-US"),
-          // disputes1800"),
-          // disputes18("en-US"),
-          // disputes1900"),
-          // disputes19("en-US"),
-          // disputes_2000"),
-          // disputes20("en-US"),
-          // disputes2100"),
-          // disputes21("en-US"),
-          // disputes2200"),
-          // disputes22("en-US"),
         ],
       ),
     );

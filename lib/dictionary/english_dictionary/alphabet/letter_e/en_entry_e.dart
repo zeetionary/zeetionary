@@ -372,14 +372,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) نمرەیەکی زۆر خراپ کە دەدرێت بە خوێندکارێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He got (an) E in French.""",
             kurdishText: """لە زمانی فەرەنسی زۆر خراپەی وەرگرت.""",
             onPressedBritish: () => speakes2("en-GB"),
             onPressedAmerican: () => speakes2("en-US"),
           ),
-          // es300es3
           // speakes
         ],
       ),

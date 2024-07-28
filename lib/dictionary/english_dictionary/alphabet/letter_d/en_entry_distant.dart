@@ -446,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) کە وەک شتێکی دیکە نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Their life seemed utterly distant from his own.",
             kurdishText: "ژیان تەواو جیاواز بوو لە ھی ئەو.",
@@ -456,7 +455,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کە پەیوەندیدارە پێتەوە بەڵام زۆرنا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We invited a distant cousin to the wedding.",
             kurdishText:
@@ -468,7 +466,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) کەسێک کە دۆست نییە؛ کە بە شوێن پەیوەندیی نزیکەوە نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "When they met, he was very cold and distant.",
             kurdishText: "کە یەکیان بینی زۆر ساردوسڕ و مڕومۆچ بوو.",
@@ -488,39 +485,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ھاوەڵناو) کە سەرنج بە شتێک نادەیت بەڵکو بە تەواوی بیر لە شتێکی دیکە دەکەیتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He seemed distant and distracted.",
             kurdishText: "ھۆش‌پەرت و سەرنج‌ڕۆشتوو دیاربوو.",
             onPressedBritish: () => speakdistants9("en-GB"),
             onPressedAmerican: () => speakdistants9("en-US"),
           ),
-          // distants_1000"),
-          // distants10("en-US"),
-          // distants1100"),
-          // distants11("en-US"),
-          // distants1200"),
-          // distants12("en-US"),
-          // distants1300"),
-          // distants13("en-US"),
-          // distants1400"),
-          // distants14("en-US"),
-          // distants1500"),
-          // distants15("en-US"),
-          // distants1600"),
-          // distants16("en-US"),
-          // distants1700"),
-          // distants17("en-US"),
-          // distants1800"),
-          // distants18("en-US"),
-          // distants1900"),
-          // distants19("en-US"),
-          // distants_2000"),
-          // distants20("en-US"),
-          // distants2100"),
-          // distants21("en-US"),
-          // distants2200"),
-          // distants22("en-US"),
         ],
       ),
     );

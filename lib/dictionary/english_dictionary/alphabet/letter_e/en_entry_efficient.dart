@@ -412,23 +412,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakefficients4("en-GB"),
             onPressedAmerican: () => speakefficients4("en-US"),
           ),
-          // efficients500efficients5
-          // efficients600efficients6
-          // efficients700efficients7
-          // efficients800efficients8
-          // efficients900efficients9
-          // efficients_1000efficients10
-          // efficients1100efficients11
-          // efficients1200efficients12
-          // efficients1300efficients13
-          // efficients1400efficients14
-          // efficients1500efficients15
-          // efficients1600efficients16
-          // efficients1700efficients17
-          // efficients1800efficients18
-          // efficients1900efficients19
-          // efficients_2000efficients20
-          // efficients2100efficients21
           // efficients2200efficientsefficients
         ],
       ),

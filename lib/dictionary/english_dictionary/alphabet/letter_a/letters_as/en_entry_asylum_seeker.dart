@@ -109,9 +109,7 @@ class EnglishEntryasylumseeker extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "asylum seeker"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "asylum seeker"),
                             // divvviiider
                           ],
                         ),

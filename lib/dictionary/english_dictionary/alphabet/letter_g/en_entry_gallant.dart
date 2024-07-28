@@ -787,7 +787,6 @@ Usage: archaic
                     const KurdishVocabulary(text: """
 کوردی: قارەمان، ئازاد، نەبەز، ئازا، شێرکرۆژ، دلێر، نەبەرد، کۆڵنەدەر،	(وەکوو کەشتی) بەشکۆ، جوان، شایانە،	(بەتایبەت سەبارەت بە ژنان) بەڕەوشت، ڕەوشت‌زان، بەڕەوشتانە، لە ڕووی ڕەوشتەوە
 """),
-// With short examples define "gallant", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) بوێر"""),
                     SentencesRow(
                       englishText:
@@ -1615,7 +1614,6 @@ Usage: archaic
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/xpSaVRJqs1g?t=';
 const double _startSecondsend = 000000000000000000000000000512;
 const String _videoIdone = 'https://youtu.be/n3U2Jx6BVK4?t=';

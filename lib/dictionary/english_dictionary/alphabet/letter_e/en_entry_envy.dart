@@ -277,7 +277,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I don't envy her that job.""");
   }
 
-// With short examples define "envy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

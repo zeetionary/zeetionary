@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """It is difficult to find staff with the level of expertise required for this job.""");
   }
 
-// With short examples define "expertise", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

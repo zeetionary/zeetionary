@@ -302,7 +302,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) وەستاندنی ناردنی ھێڵی تەلەفۆن، ئاو، یان کارەبا بۆ بینایەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You may be disconnected if you do not pay the bill.",
             kurdishText:
@@ -313,7 +312,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) لێکۆردنەوەی دوو شت لە یەکدی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The ski had become disconnected from the boot.",
             kurdishText: "دارەخلیسکەکە لە پووتەکە لێ بووبوویەوە.",
@@ -322,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) پچڕانی پەیوەندیی تەلەفۆنی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We were suddenly disconnected.",
             kurdishText: "لەناکاو پەیوەندییەکەمان پچڕا.",
@@ -332,7 +329,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) پچڕاندنی پەیوەستبوون بە ئینتەرنێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "My computer crashes every time I disconnect from the internet.",
@@ -345,7 +341,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) نەھێشتنی بەستنەوەی کەسێک بە ئامێرێکەوە، بەتایبەتی ئامێری ھێشتنەوە لە ژیاندا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "It was the family's decision to disconnect her from the life support machine.",
@@ -357,7 +352,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) جیاوازی یان نەبوونی پەیوەندی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There is a fundamental disconnect between union leaders and members.",
@@ -379,7 +373,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٨. (کردار) نەبوونی پەیوەندی لەگەڵ تۆڕێک، سەرچاوەی کارەبا، ئینتەرنێت، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There might be a power failure or sudden network disconnect.",
@@ -388,32 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisconnects9("en-GB"),
             onPressedAmerican: () => speakdisconnects9("en-US"),
           ),
-          // disconnects_1000"),
-          // disconnects10("en-US"),
-          // disconnects1100"),
-          // disconnects11("en-US"),
-          // disconnects1200"),
-          // disconnects12("en-US"),
-          // disconnects1300"),
-          // disconnects13("en-US"),
-          // disconnects1400"),
-          // disconnects14("en-US"),
-          // disconnects1500"),
-          // disconnects15("en-US"),
-          // disconnects1600"),
-          // disconnects16("en-US"),
-          // disconnects1700"),
-          // disconnects17("en-US"),
-          // disconnects1800"),
-          // disconnects18("en-US"),
-          // disconnects1900"),
-          // disconnects19("en-US"),
-          // disconnects_2000"),
-          // disconnects20("en-US"),
-          // disconnects2100"),
-          // disconnects21("en-US"),
-          // disconnects2200"),
-          // disconnects22("en-US"),
         ],
       ),
     );

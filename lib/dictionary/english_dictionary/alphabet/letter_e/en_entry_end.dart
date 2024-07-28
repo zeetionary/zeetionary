@@ -592,7 +592,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دۆخێک کە تێیدا شتێک چی دیکە بوونی نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """It was the end of all his dreams.""",
             kurdishText: """ئەوە کۆتایی خەونەکانی بوو.""",
@@ -773,7 +772,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ناو) یەکێک لە لایەکانی یاریگای وەرزشی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The teams changed ends at half-time.""",
             kurdishText: """لە نیوەی گێمەکەدا تیمەکان سەریان گۆڕییەوە.""",
@@ -816,7 +814,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """١٠. (کردار) کۆتایی ھاتن؛ کۆتایی پێھێنان"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The road ends here.""",
             kurdishText: """ڕێگاکە لێرەدا کۆتایی دێت.""",

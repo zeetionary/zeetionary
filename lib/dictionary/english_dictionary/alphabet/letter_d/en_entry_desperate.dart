@@ -388,7 +388,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کارێک کە ھیوای سەرکەوتنی کەمە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He made a desperate bid for freedom.",
             kurdishText: "ھەوڵێکی بێھوودەی دا بۆ سەرکەوتن.",
@@ -415,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) ویستنی زۆری شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm desperate for a coffee.",
             kurdishText: "موحتاجی کارێکم.",
@@ -440,7 +438,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) تەواو جدی یان مەترسیدار"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They face a desperate shortage of clean water.",
             kurdishText: "تووشی کەماسییەکی توندی ئاوی پاک بوونەتەوە.-",
@@ -461,20 +458,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdesperates15("en-GB"),
             onPressedAmerican: () => speakdesperates15("en-US"),
           ),
-          // desperates1600"),
-          // desperates16("en-US"),
-          // desperates1700"),
-          // desperates17("en-US"),
-          // desperates1800"),
-          // desperates18("en-US"),
-          // desperates1900"),
-          // desperates19("en-US"),
-          // "Stores are getting desperate after two years of poor sales.0"),
-          // desperates20("en-US"),
-          // desperates2100"),
-          // desperates21("en-US"),
-          // desperates2200"),
-          // desperates22("en-US"),
         ],
       ),
     );

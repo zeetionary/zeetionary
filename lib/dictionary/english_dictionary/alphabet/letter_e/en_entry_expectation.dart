@@ -327,7 +327,6 @@ class KurdishMeaning extends StatelessWidget {
         """Some parents have unrealistic expectations of their children.""");
   }
 
-// With short examples define "expectation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

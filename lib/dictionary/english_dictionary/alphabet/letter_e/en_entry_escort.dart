@@ -294,7 +294,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Let me escort you home.""");
   }
 
-// With short examples define "escort", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -309,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دۆخێکی شێواو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The room was in a state of disorder.",
             kurdishText: "دۆخەکە لە شپرزاییدا بوو.",
@@ -335,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕەفتاری توندوتیژی گرووپێکی گەورە لە خەڵکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Twenty people were arrested after a night of civil disorder.",
@@ -359,32 +357,18 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisorders9("en-GB"),
             onPressedAmerican: () => speakdisorders9("en-US"),
           ),
-          // disorders_1000"),
-          // disorders10
-          // disorders1100"),
-          // disorders11
-          // disorders1200"),
-          // disorders12
-          // disorders1300"),
-          // disorders13
-          // disorders1400"),
-          // disorders14
-          // disorders1500"),
-          // disorders15
-          // disorders1600"),
-          // disorders16
-          // disorders1700"),
-          // disorders17
-          // disorders1800"),
-          // disorders18
-          // disorders1900"),
-          // disorders19
-          // disorders_2000"),
-          // disorders20
-          // disorders2100"),
-          // disorders21
-          // disorders2200"),
-          // disorders22("en-US"),
+          // disorders_10disorders10
+          // disorders11disorders11
+          // disorders12disorders12
+          // disorders13disorders13
+          // disorders14disorders14
+          // disorders15disorders15
+          // disorders16disorders16
+          // disorders17disorders17
+          // disorders18disorders18
+          // disorders19disorders19
+          // disorders_20disorders20
+          // disorders21disorders21
         ],
       ),
     );

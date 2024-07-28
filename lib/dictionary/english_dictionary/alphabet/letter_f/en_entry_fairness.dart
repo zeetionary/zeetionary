@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""A tan emphasized the fairness of her hair.""");
   }
 
-// With short examples define "fairness", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

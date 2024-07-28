@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """Police have not so far been able to extort a confession from the people accused of the bombing.""");
   }
 
-// With short examples define "extort", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

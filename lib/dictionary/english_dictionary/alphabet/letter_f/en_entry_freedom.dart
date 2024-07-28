@@ -226,7 +226,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئازادی، سەربەستی، سەرازایی، سەربەخۆیی، بەڕەڵایی، نەگیراوی، ناکۆیلەیی، ڕزگاری،	مافی بەکارھێنان، بەکارھێنانی ناسنوورداری شتێ،	مافی ڕامیاری،	ماف،	مافی جیابوونەوە یان تەڵاق،	قسەلەڕوویی
 """),
-// With short examples define "freedom", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ئازادی"""),
                     SentencesRow(
                       englishText: """Press freedom is under attack.""",
@@ -392,7 +391,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_wNsZEqpKUA';
 const double _startSecondsend = 1275;
 const String _videoIdone = 'zqllxbPWKNI';

@@ -306,7 +306,6 @@ class KurdishMeaning extends StatelessWidget {
         """The teacher gave the children a detailed explanation of the story.""");
   }
 
-// With short examples define "explanation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

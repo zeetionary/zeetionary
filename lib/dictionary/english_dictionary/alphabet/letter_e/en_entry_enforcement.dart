@@ -242,8 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Voters support the enforcement of immigration laws.""");
   }
 
-// With short examples define "enforcement", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

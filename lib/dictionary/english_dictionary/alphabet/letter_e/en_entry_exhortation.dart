@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """Experience shows that encouragement and exhortation have not produced change.""");
   }
 
-// With short examples define "exhortation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

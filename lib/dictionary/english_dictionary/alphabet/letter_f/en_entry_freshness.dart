@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تازەیی، ڕەنگ‌وبۆ،	فێنکی،	شیرینی، سووکی، خۆشی،	خۆشحاڵی، بەکەیفی، کەیف‌سازی، بەگوڕی،	بێ‌ئەزموونی، خاوی)
 """),
-// With short examples define "freshness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) تازەیی خواردن"""),
                     SentencesRow(
                       englishText:
@@ -292,7 +291,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'X5oD_thIk3c';
 const double _startSecondsend = 251;
 const String _videoIdone = 'NM4ArR-qbHQ';

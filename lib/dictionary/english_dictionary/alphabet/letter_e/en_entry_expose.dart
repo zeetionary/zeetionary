@@ -311,7 +311,6 @@ class KurdishMeaning extends StatelessWidget {
         """We want to expose the kids to as much art and culture as possible.""");
   }
 
-// With short examples define "expose", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

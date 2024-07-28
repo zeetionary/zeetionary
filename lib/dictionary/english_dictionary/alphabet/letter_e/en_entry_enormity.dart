@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The enormities of the Hitler regime shocked the world.""");
   }
 
-// With short examples define "enormity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

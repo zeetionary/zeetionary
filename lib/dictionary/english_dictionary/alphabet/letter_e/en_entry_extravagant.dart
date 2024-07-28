@@ -281,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
         """I was embarrassed by all the extravagant praise I was getting.""");
   }
 
-// With short examples define "extravagant", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

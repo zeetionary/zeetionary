@@ -84,15 +84,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Genes control the development of an embryo.""");
+    await flutterTts.speak("""Genes control the development of an embryo.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Gene mutations are alterations in the DNA code.""");
+    await flutterTts
+        .speak("""Gene mutations are alterations in the DNA code.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -106,7 +106,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""We may be able to identify the genes responsible for disease resistance.""");
+    await flutterTts.speak(
+        """We may be able to identify the genes responsible for disease resistance.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -774,7 +775,9 @@ ${englishMeaningConst.text}
 کوردی: نژادە، بۆهێڵ، ژێن
 """),
 // With short examples define "gene", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) یەکەیەکی ناو خانە کە خاسیەتێکی دیاریکراو کۆنترۆڵ دەکات لە شتێکی زیندوو کە لە دایبابەوە گوازراوەتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یەکەیەکی ناو خانە کە خاسیەتێکی دیاریکراو کۆنترۆڵ دەکات لە شتێکی زیندوو کە لە دایبابەوە گوازراوەتەوە"""),
                     SentencesRow(
                       englishText:
                           """Genes control the development of an embryo.""",
@@ -786,8 +789,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Gene mutations are alterations in the DNA code.""",
-                      kurdishText: """گۆڕانی بۆهێڵ گۆڕانە لە کۆدی دی‌ئێن‌ئەی.""",
+                      englishText:
+                          """Gene mutations are alterations in the DNA code.""",
+                      kurdishText:
+                          """گۆڕانی بۆهێڵ گۆڕانە لە کۆدی دی‌ئێن‌ئەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -795,7 +800,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The gene is passed on to their children.""",
+                      englishText:
+                          """The gene is passed on to their children.""",
                       kurdishText: """بۆهێڵەکە دەگوازرێتەوە منداڵەکانیان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
@@ -804,8 +810,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We may be able to identify the genes responsible for disease resistance.""",
-                      kurdishText: """ڕەنگە بتوانین ئەو بۆهێڵانە بناسینەوە کە بەرپرسی پاراستنن لە نەخۆشی.""",
+                      englishText:
+                          """We may be able to identify the genes responsible for disease resistance.""",
+                      kurdishText:
+                          """ڕەنگە بتوانین ئەو بۆهێڵانە بناسینەوە کە بەرپرسی پاراستنن لە نەخۆشی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1596,7 +1604,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/qsYUDM15T8U?t=';
 const double _startSecondsend = 000000000000000000000000000203;
 const String _videoIdone = 'https://youtu.be/8eq2vGEEbB4?t=';

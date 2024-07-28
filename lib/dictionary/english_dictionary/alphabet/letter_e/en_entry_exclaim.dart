@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They all exclaimed over her beautiful clothes.""");
   }
 
-// With short examples define "exclaim", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

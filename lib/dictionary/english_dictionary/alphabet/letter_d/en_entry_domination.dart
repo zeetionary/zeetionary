@@ -394,7 +394,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەوەی کە گرنگترین خاسیەتی شتێک بێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Visitors noticed the domination of photography in this year's exhibition.",
@@ -403,44 +402,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdominations3("en-GB"),
             onPressedAmerican: () => speakdominations3("en-US"),
           ),
-          // dominations400"),
-          // dominations4
-          // dominations500"),
-          // dominations5
-          // dominations600"),
-          // dominations6
-          // dominations700"),
-          // dominations7
-          // dominations800"),
-          // dominations8
-          // dominations900"),
-          // dominations9
-          // dominations_1000"),
-          // dominations10
-          // dominations1100"),
-          // dominations11
-          // dominations1200"),
-          // dominations12
-          // dominations1300"),
-          // dominations13
-          // dominations1400"),
-          // dominations14
-          // dominations1500"),
-          // dominations15
-          // dominations1600"),
-          // dominations16
-          // dominations1700"),
-          // dominations17
-          // dominations1800"),
-          // dominations18
-          // dominations1900"),
-          // dominations19
-          // dominations_2000"),
-          // dominations20
-          // dominations2100"),
-          // dominations21
-          // dominations2200"),
-          // dominations22("en-US"),
+          // dominations4dominations4
+          // dominations5dominations5
+          // dominations6dominations6
+          // dominations7dominations7
+          // dominations8dominations8
+          // dominations9dominations9
+          // dominations_10dominations10
+          // dominations11dominations11
+          // dominations12dominations12
+          // dominations13dominations13
+          // dominations14dominations14
+          // dominations15dominations15
+          // dominations16dominations16
+          // dominations17dominations17
+          // dominations18dominations18
+          // dominations19dominations19
+          // dominations_20dominations20
+          // dominations21dominations21
         ],
       ),
     );

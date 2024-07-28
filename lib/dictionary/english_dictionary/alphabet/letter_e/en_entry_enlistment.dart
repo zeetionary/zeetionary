@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """One possibility would be to increase the maximum age for enlistment to 40.""");
   }
 
-// With short examples define "enlistment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

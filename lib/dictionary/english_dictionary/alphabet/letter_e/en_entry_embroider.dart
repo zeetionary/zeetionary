@@ -402,24 +402,6 @@ class KurdishMeaning extends StatelessWidget {
               Routemaster.of(context).push("/english-embroider/embellish");
             },
           ),
-          // embroiders400embroiders4
-          // embroiders500embroiders5
-          // embroiders600embroiders6
-          // embroiders700embroiders7
-          // embroiders800embroiders8
-          // embroiders900embroiders9
-          // embroiders_1000embroiders10
-          // embroiders1100embroiders11
-          // embroiders1200embroiders12
-          // embroiders1300embroiders13
-          // embroiders1400embroiders14
-          // embroiders1500embroiders15
-          // embroiders1600embroiders16
-          // embroiders1700embroiders17
-          // embroiders1800embroiders18
-          // embroiders1900embroiders19
-          // embroiders_2000embroiders20
-          // embroiders2100embroiders21
           // embroiders2200embroidersembroiders
         ],
       ),

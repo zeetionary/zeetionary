@@ -788,7 +788,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "g", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) حەوتەم پیتی ئەلفوبێی ئینگلیزی"""),
                     SentencesRow(
@@ -1612,7 +1611,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
 const double _startSecondsend = 000000000000000000000000000947;
 const String _videoIdone = 'https://youtu.be/xY3Z8acE8ew?t=';

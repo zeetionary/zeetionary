@@ -772,7 +772,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەترسانە، بەغیرەتانە
 """),
-// With short examples define "gamely", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بەشێوەیەک کە بوێرانەیە"""),
                     SentencesRow(
@@ -1596,7 +1595,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/DQYHCLz_bgw?t=';
 const double _startSecondsend = 000000000000000000000000000117;
 const String _videoIdone = 'https://youtu.be/wGGzn86MQqU?t=';

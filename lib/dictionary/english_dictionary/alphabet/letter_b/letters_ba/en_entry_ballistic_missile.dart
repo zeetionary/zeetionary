@@ -95,9 +95,7 @@ class EnglishEntryballisticmissile extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ballistic missile"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "ballistic missile"),
                             // divvviiider
                           ],
                         ),

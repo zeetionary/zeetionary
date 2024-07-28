@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She had expired while bearing her son.""");
   }
 
-// With short examples define "expire", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

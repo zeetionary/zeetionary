@@ -1597,7 +1597,6 @@ Usage: Brit, Cdn (US: gearshift)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/gkyVZxtsubM?t=';
 const double _startSecondsend = 0000000000000000000000000002590;
 const String _videoIdone = 'https://youtu.be/hjsrqMe0B3s?t=';

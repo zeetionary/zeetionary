@@ -377,26 +377,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearaches2("en-GB"),
             onPressedAmerican: () => speakearaches2("en-US"),
           ),
-          // earaches300earaches3
-          // earaches400earaches4
-          // earaches500earaches5
-          // earaches600earaches6
-          // earaches700earaches7
-          // earaches800earaches8
-          // earaches900earaches9
-          // earaches_1000earaches10
-          // earaches1100earaches11
-          // earaches1200earaches12
-          // earaches1300earaches13
-          // earaches1400earaches14
-          // earaches1500earaches15
-          // earaches1600earaches16
-          // earaches1700earaches17
-          // earaches1800earaches18
-          // earaches1900earaches19
-          // earaches_2000earaches20
-          // earaches2100earaches21
-          // earaches2200earachesearaches
         ],
       ),
     );

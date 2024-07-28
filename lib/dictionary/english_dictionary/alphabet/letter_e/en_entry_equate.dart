@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I don't see how you can equate the two things.""");
   }
 
-// With short examples define "equate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

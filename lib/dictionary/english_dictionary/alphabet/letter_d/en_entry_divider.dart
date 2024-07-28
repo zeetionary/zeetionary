@@ -385,7 +385,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) پڕگاڵ؛ کەرەستەیەک کە لە دوو لاقی درێژی پێکھاتووە بەکاردێت بۆ پێوانەکردنی گۆشە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The artist used a pair of dividers to create precise circles.",
@@ -396,7 +395,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شتێک کە خەڵکی لەسەری ناکۆکن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "On the Labour side, the big divider was still nuclear weapons.",
@@ -405,44 +403,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdividers3("en-GB"),
             onPressedAmerican: () => speakdividers3("en-US"),
           ),
-          // dividers400"),
-          // dividers4
-          // dividers500"),
-          // dividers5
-          // dividers600"),
-          // dividers6
-          // dividers700"),
-          // dividers7
-          // dividers800"),
-          // dividers8
-          // dividers900"),
-          // dividers9
-          // dividers_1000"),
-          // dividers10
-          // dividers1100"),
-          // dividers11
-          // dividers1200"),
-          // dividers12
-          // dividers1300"),
-          // dividers13
-          // dividers1400"),
-          // dividers14
-          // dividers1500"),
-          // dividers15
-          // dividers1600"),
-          // dividers16
-          // dividers1700"),
-          // dividers17
-          // dividers1800"),
-          // dividers18
-          // dividers1900"),
-          // dividers19
-          // dividers_2000"),
-          // dividers20
-          // dividers2100"),
-          // dividers21
-          // dividers2200"),
-          // dividers22("en-US"),
+          // dividers4dividers4
+          // dividers5dividers5
+          // dividers6dividers6
+          // dividers7dividers7
+          // dividers8dividers8
+          // dividers9dividers9
+          // dividers_10dividers10
+          // dividers11dividers11
+          // dividers12dividers12
+          // dividers13dividers13
+          // dividers14dividers14
+          // dividers15dividers15
+          // dividers16dividers16
+          // dividers17dividers17
+          // dividers18dividers18
+          // dividers19dividers19
+          // dividers_20dividers20
+          // dividers21dividers21
         ],
       ),
     );

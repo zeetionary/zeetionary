@@ -259,7 +259,6 @@ Noun: funny (derived forms: funnies)
                     const KurdishVocabulary(text: """
 کوردی: پێکەنینی، پێکەنیناوی، خۆش، قۆڕ، بەزم،	سەیر، سەمەرە،	نەخۆش، ناساز،	نیوەشێت، گێژ، حەپۆل،	گوماناوی، گومان‌لەسەر، جێی‌شک
 """),
-// With short examples define "funny", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە دەتخاتە پێکەنین"""),
                     SentencesRow(
@@ -456,7 +455,6 @@ Noun: funny (derived forms: funnies)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hS2x1zl4rn0';
 const double _startSecondsend = 564;
 const String _videoIdone = '_spuxXnul0U';

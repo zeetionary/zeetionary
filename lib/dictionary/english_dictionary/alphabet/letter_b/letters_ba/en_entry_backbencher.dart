@@ -95,9 +95,7 @@ class EnglishEntrybackbencher extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "backbencher"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backbencher"),
                             // divvviiider
                           ],
                         ),
@@ -134,9 +132,7 @@ class EnglishEntrybackbencher extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DividerDefinition(),
                           DefinitionKurdish(text: """

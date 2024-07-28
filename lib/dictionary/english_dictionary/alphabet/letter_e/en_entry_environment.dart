@@ -282,7 +282,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The tests were carried out in a controlled environment.""");
   }
 
-// With short examples define "environment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

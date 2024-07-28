@@ -396,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ئامراز) لە کاتێکی دیاریکراوی ماوەیەکدا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He was taken to the hospital during the night.""",
             kurdishText: """بردرا بۆ نەخۆشخانە لە شەوەکەدا.""",
@@ -410,42 +409,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdurings4("en-GB"),
             onPressedAmerican: () => speakdurings4("en-US"),
           ),
-          // durings500
-          // durings5("en-US"""),
-          // durings600
-          // durings6("en-US"""),
-          // durings700
-          // durings7("en-US"""),
-          // durings800
-          // durings8("en-US"""),
-          // durings900
-          // durings9("en-US"""),
-          // durings_1000
-          // durings10("en-US"""),
-          // durings1100
-          // durings11("en-US"""),
-          // durings1200
-          // durings12("en-US"""),
-          // durings1300
-          // durings13("en-US"""),
-          // durings1400
-          // durings14("en-US"""),
-          // durings1500
-          // durings15("en-US"""),
-          // durings1600
-          // durings16("en-US"""),
-          // durings1700
-          // durings17("en-US"""),
-          // durings1800
-          // durings18("en-US"""),
-          // durings1900
-          // durings19("en-US"""),
-          // durings_2000
-          // durings20("en-US"""),
-          // durings2100
-          // durings21("en-US"""),
-          // durings2200
-          // durings22("en-US"""),
         ],
       ),
     );

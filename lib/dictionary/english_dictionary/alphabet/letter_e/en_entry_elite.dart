@@ -418,7 +418,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: """٢. (ھاوەڵناو) وەرزشکارێک کە """),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Public opinion is influenced by the small elite who control the media.""",
@@ -431,7 +430,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) گرووپێک خەڵک کە زۆرترین توانایان ھەیە لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The club has returned to the elite of European football.""",
@@ -444,7 +442,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) سەر بە گرووپێکی بچووکی خەڵکی کە دەسەڵات و کاریگەرییان زۆرە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The company's future rested on the decisions of an elite group of senior officials.""",
@@ -457,7 +454,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) ھەبوونی زۆرترین توانا لە بەرزترین ئاستی پاڵەوانێتییەکدا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """As an elite athlete for Spain, the tournament was his oppurtunity to shine.""",
@@ -466,22 +462,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelites6("en-GB"),
             onPressedAmerican: () => speakelites6("en-US"),
           ),
-          // elites700elites7
-          // elites800elites8
-          // elites900elites9
-          // elites_1000elites10
-          // elites1100elites11
-          // elites1200elites12
-          // elites1300elites13
-          // elites1400elites14
-          // elites1500elites15
-          // elites1600elites16
-          // elites1700elites17
-          // elites1800elites18
-          // elites1900elites19
-          // elites_2000elites20
-          // elites2100elites21
-          // elites2200eliteselites
         ],
       ),
     );

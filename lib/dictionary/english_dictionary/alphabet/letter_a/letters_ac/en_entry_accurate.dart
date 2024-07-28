@@ -67,8 +67,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "accurate"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accurate"),
                           ],
                         ),
                         Row(
@@ -81,9 +80,7 @@ class EnglishEntryaccurate extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈækjərət/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /ˈækjərət/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccurate("en-US"),
                             ),

@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) لە ھەرە سەرەتاکانی گەشەکردندا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She shared the embryo of an idea with her team.""",
             kurdishText: """بناخەی بیرۆکەیەکی لەگەڵ تیمەکەی باسکرد.""",

@@ -460,7 +460,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دابەستن، گیرکردن، چەسپاندن،	سەرێشە، گێچەڵ، تەنگ‌وچەڵەمە، گرفتاری، گۆڵمەز، دەردەسەر،	پەیداکردن یان دۆزینەوەی بارودۆخ، دیاری‌کردنی ھەل‌ومەرج (کەشتی، فڕۆکە و ھتد)، ڕەوش، ھەل‌ومەرج، بارودۆخ،	(ھەڵبژاردن) فرت‌وفێڵ، دەسکاری، گزەکاری،	کردنەڕەگ، دەرزی‌لێدان (نافەرمی، بەنگ)
 """),
-// With short examples define "fix", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) چاککردنەوە یان باشکردنی شتێک"""),
                     SentencesRow(
@@ -875,7 +874,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'O4iGNXsqghs';
 const double _startSecondsend = 398;
 const String _videoIdone = 'QLq6GEiHqR8';

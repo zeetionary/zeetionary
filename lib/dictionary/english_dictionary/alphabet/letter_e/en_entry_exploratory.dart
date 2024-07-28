@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """We're having an exploratory meeting next week to talk about merging the two companies.""");
   }
 
-// With short examples define "exploratory", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

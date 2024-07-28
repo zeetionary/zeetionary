@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He protested feebly, but was ignored.""");
   }
 
-// With short examples define "feebly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

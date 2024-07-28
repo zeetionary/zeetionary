@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
         """I'm trying to do what is best, but equally I've got to consider the cost.""");
   }
 
-// With short examples define "equally", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""A sense of fatality gripped her.""");
   }
 
-// With short examples define "fatality", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

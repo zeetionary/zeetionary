@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The snake sank its fangs into its victim.""");
   }
 
-// With short examples define "fang", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

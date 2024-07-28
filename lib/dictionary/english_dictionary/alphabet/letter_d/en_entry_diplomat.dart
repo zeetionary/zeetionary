@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە شارەزایە لە مامەڵە لەگەڵ کەسانی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "You’ll need to be a real diplomat to persuade them to come to some agreement.",
@@ -273,44 +272,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiplomats3("en-GB"),
             onPressedAmerican: () => speakdiplomats3("en-US"),
           ),
-          // diplomats400"),
-          // diplomats4
-          // diplomats500"),
-          // diplomats5
-          // diplomats600"),
-          // diplomats6
-          // diplomats700"),
-          // diplomats7
-          // diplomats800"),
-          // diplomats8
-          // diplomats900"),
-          // diplomats9
-          // diplomats_1000"),
-          // diplomats10
-          // diplomats1100"),
-          // diplomats11
-          // diplomats1200"),
-          // diplomats12
-          // diplomats1300"),
-          // diplomats13
-          // diplomats1400"),
-          // diplomats14
-          // diplomats1500"),
-          // diplomats15
-          // diplomats1600"),
-          // diplomats16
-          // diplomats1700"),
-          // diplomats17
-          // diplomats1800"),
-          // diplomats18
-          // diplomats1900"),
-          // diplomats19
-          // diplomats_2000"),
-          // diplomats20
-          // diplomats2100"),
-          // diplomats21
-          // diplomats2200"),
-          // diplomats22("en-US"),
+          // diplomats4diplomats4
+          // diplomats5diplomats5
+          // diplomats6diplomats6
+          // diplomats7diplomats7
+          // diplomats8diplomats8
+          // diplomats9diplomats9
+          // diplomats_10diplomats10
+          // diplomats11diplomats11
+          // diplomats12diplomats12
+          // diplomats13diplomats13
+          // diplomats14diplomats14
+          // diplomats15diplomats15
+          // diplomats16diplomats16
+          // diplomats17diplomats17
+          // diplomats18diplomats18
+          // diplomats19diplomats19
+          // diplomats_20diplomats20
+          // diplomats21diplomats21
         ],
       ),
     );

@@ -374,33 +374,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) کەفی بچووکی گاس لە شلەدا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The wine has a light effervescence.""",
             kurdishText: """شەرابەکە کەف‌کردنێکی ڕۆشنی ھەیە.""",
             onPressedBritish: () => speakeffervescences2("en-GB"),
             onPressedAmerican: () => speakeffervescences2("en-US"),
           ),
-          // effervescences300effervescences3
-          // effervescences400effervescences4
-          // effervescences500effervescences5
-          // effervescences600effervescences6
-          // effervescences700effervescences7
-          // effervescences800effervescences8
-          // effervescences900effervescences9
-          // effervescences_1000effervescences10
-          // effervescences1100effervescences11
-          // effervescences1200effervescences12
-          // effervescences1300effervescences13
-          // effervescences1400effervescences14
-          // effervescences1500effervescences15
-          // effervescences1600effervescences16
-          // effervescences1700effervescences17
-          // effervescences1800effervescences18
-          // effervescences1900effervescences19
-          // effervescences_2000effervescences20
-          // effervescences2100effervescences21
-          // effervescences2200effervescenceseffervescences
         ],
       ),
     );

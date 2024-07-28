@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         """Irrigation measures will be necessary in areas of erratic rainfall.""");
   }
 
-// With short examples define "erratic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

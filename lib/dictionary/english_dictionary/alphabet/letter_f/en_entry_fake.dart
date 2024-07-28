@@ -309,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He faked a yawn.""");
   }
 
-// With short examples define "fake", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

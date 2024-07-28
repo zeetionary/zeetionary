@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The fans were exultant at their team’s victory.""");
   }
 
-// With short examples define "exultant", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

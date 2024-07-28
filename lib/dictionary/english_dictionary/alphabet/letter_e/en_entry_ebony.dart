@@ -376,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) ھەبوونی ڕەنگی ڕەش"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Their eyes were painted ebony and their mouths red.""",
@@ -384,26 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakebonys2("en-GB"),
             onPressedAmerican: () => speakebonys2("en-US"),
           ),
-          // ebonys300ebonys3
-          // ebonys400ebonys4
-          // ebonys500ebonys5
-          // ebonys600ebonys6
-          // ebonys700ebonys7
-          // ebonys800ebonys8
-          // ebonys900ebonys9
-          // ebonys_1000ebonys10
-          // ebonys1100ebonys11
-          // ebonys1200ebonys12
-          // ebonys1300ebonys13
-          // ebonys1400ebonys14
-          // ebonys1500ebonys15
-          // ebonys1600ebonys16
-          // ebonys1700ebonys17
-          // ebonys1800ebonys18
-          // ebonys1900ebonys19
-          // ebonys_2000ebonys20
-          // ebonys2100ebonys21
-          // ebonys2200ebonysebonys
         ],
       ),
     );

@@ -292,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەوەی کە لە ژێر جادوودا بیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """It was a place of deep mystery and enchantment.""",
             kurdishText: """شوێنێکی پڕ لە نھێنی و جادوولێکراو بوو.""",
@@ -301,7 +300,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) جادوو"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They had been turned to stone by an enchantment.""",
             kurdishText: """کردرابوون بە بەرد بە جادوویەک.""",

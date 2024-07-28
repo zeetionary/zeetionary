@@ -85,8 +85,7 @@ Usage: Brit, informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""Don’t gawp at me like that!""");
+    await flutterTts.speak("""Don’t gawp at me like that!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -775,11 +774,12 @@ Usage: Brit, informal
 کوردی: 
 """),
 // With short examples define "gawp", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ڕوانین لە کەسێک بە بێ‌ڕێزی یان گەمژانە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) ڕوانین لە کەسێک بە بێ‌ڕێزی یان گەمژانە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: gape"),
                     SentencesRow(
-                      englishText:
-                          """Don’t gawp at me like that!""",
+                      englishText: """Don’t gawp at me like that!""",
                       kurdishText: """بەو شێوەیە مۆڕەم لێ مەکە!""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -1598,7 +1598,6 @@ Usage: Brit, informal
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/2GFaN9-1iz0?t=';
 const double _startSecondsend = 0000000000000000000000000001125;
 const String _videoIdone = 'https://youtu.be/9JYCNNr5PLI?t=';

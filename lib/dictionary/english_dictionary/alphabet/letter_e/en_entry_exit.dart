@@ -337,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I exited the database and switched off the computer.""");
   }
 
-// With short examples define "exit", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

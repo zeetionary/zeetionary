@@ -109,8 +109,7 @@ class EnglishEntryatheist extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "atheist"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "atheist"),
                             // divvviiider
                           ],
                         ),

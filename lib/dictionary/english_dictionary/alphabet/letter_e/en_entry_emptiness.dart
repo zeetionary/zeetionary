@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) بەتاڵی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The silence and emptiness of the house did not scare her.""",
@@ -286,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) شوێنێکی چۆڵ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He stared out at the vast emptiness of the sea.""",
             kurdishText: """ڕوانی بەسەر چۆڵی فراوانی دەریاکەدا.""",

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Expatriate Britons in Spain enjoy the sunny weather.""");
   }
 
-// With short examples define "expatriate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

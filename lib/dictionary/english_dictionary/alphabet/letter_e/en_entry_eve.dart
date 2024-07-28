@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Where did you spend Christmas Eve?""");
   }
 
-// With short examples define "eve", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

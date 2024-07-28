@@ -97,9 +97,7 @@ class EnglishEntryalacarte extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DefinitionKurdish(text: """
 ١. (ھاوەڵناو و ھاوەڵکار) ھەڵبژاردنی خواردن لە چێشتخانەیەک بە دیاریکردنی بەش بەش لە کۆمەڵە خواردنێک کە نرخیان جیاوازە، لە جیاتی ھەڵبژاردنی یەک ژەم کە نرخێکی دیاریکراوی ھەیە """),

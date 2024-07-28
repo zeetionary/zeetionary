@@ -97,8 +97,7 @@ class EnglishEntryaxis extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "axis"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "axis"),
                             // divvviiider
                           ],
                         ),

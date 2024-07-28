@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """As a teacher I try to familiarize students with a wide variety of fiction.""");
   }
 
-// With short examples define "familiarize", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

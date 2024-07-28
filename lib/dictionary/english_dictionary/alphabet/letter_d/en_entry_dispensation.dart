@@ -250,46 +250,25 @@ class KurdishMeaning extends StatelessWidget {
           //       ),
           //     ),
           // dispensations2
-          // dispensations300"),
-          // dispensations3
-          // dispensations400"),
-          // dispensations4
-          // dispensations500"),
-          // dispensations5
-          // dispensations600"),
-          // dispensations6
-          // dispensations700"),
-          // dispensations7
-          // dispensations800"),
-          // dispensations8
-          // dispensations900"),
-          // dispensations9
-          // dispensations_1000"),
-          // dispensations10
-          // dispensations1100"),
-          // dispensations11
-          // dispensations1200"),
-          // dispensations12
-          // dispensations1300"),
-          // dispensations13
-          // dispensations1400"),
-          // dispensations14
-          // dispensations1500"),
-          // dispensations15
-          // dispensations1600"),
-          // dispensations16
-          // dispensations1700"),
-          // dispensations17
-          // dispensations1800"),
-          // dispensations18
-          // dispensations1900"),
-          // dispensations19
-          // dispensations_2000"),
-          // dispensations20
-          // dispensations2100"),
-          // dispensations21
-          // dispensations2200"),
-          // dispensations22("en-US"),
+          // dispensations3dispensations3
+          // dispensations4dispensations4
+          // dispensations5dispensations5
+          // dispensations6dispensations6
+          // dispensations7dispensations7
+          // dispensations8dispensations8
+          // dispensations9dispensations9
+          // dispensations_10dispensations10
+          // dispensations11dispensations11
+          // dispensations12dispensations12
+          // dispensations13dispensations13
+          // dispensations14dispensations14
+          // dispensations15dispensations15
+          // dispensations16dispensations16
+          // dispensations17dispensations17
+          // dispensations18dispensations18
+          // dispensations19dispensations19
+          // dispensations_20dispensations20
+          // dispensations21dispensations21
         ],
       ),
     );

@@ -391,7 +391,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) کە وەھا لە خەڵکی دەکات ھەست بە سۆزی زۆر بکەن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The interviewer had not realized that was an emotionally charged issue (= causing strong feelings) in this community.""",
@@ -400,24 +399,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemotionallys3("en-GB"),
             onPressedAmerican: () => speakemotionallys3("en-US"),
           ),
-          // emotionallys400emotionallys4
-          // emotionallys500emotionallys5
-          // emotionallys600emotionallys6
-          // emotionallys700emotionallys7
-          // emotionallys800emotionallys8
-          // emotionallys900emotionallys9
-          // emotionallys_1000emotionallys10
-          // emotionallys1100emotionallys11
-          // emotionallys1200emotionallys12
-          // emotionallys1300emotionallys13
-          // emotionallys1400emotionallys14
-          // emotionallys1500emotionallys15
-          // emotionallys1600emotionallys16
-          // emotionallys1700emotionallys17
-          // emotionallys1800emotionallys18
-          // emotionallys1900emotionallys19
-          // emotionallys_2000emotionallys20
-          // emotionallys2100emotionallys21
           // emotionallys2200emotionallysemotionallys
         ],
       ),

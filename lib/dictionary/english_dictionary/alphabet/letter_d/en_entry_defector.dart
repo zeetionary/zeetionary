@@ -243,8 +243,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefectors1("en-GB"),
             onPressedAmerican: () => speakdefectors1("en-US"),
           ),
-          // "speakdefectors200"),
-          //           ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
+          // "speakdefectors2          ExampleSentenceKurdish(text: "رستە_رستە_رستە_رستە."),
           //         ],
           //       ),
           //     ),
@@ -270,44 +269,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefectors3("en-GB"),
             onPressedAmerican: () => speakdefectors3("en-US"),
           ),
-          // defectors400"),
-          // defectors4
-          // defectors500"),
-          // defectors5
-          // defectors600"),
-          // defectors6
-          // defectors700"),
-          // defectors7
-          // defectors800"),
-          // defectors8
-          // defectors900"),
-          // defectors9
-          // defectors1000"),
-          // defectors10
-          // defectors1100"),
-          // defectors11
-          // defectors1200"),
-          // defectors12
-          // defectors1300"),
-          // defectors13
-          // defectors1400"),
-          // defectors14
-          // defectors1500"),
-          // defectors15
-          // defectors1600"),
-          // defectors16
-          // defectors1700"),
-          // defectors17
-          // defectors1800"),
-          // defectors18
-          // defectors1900"),
-          // defectors19
-          // defectors2000"),
-          // defectors20
-          // defectors2100"),
-          // defectors21
-          // defectors2200"),
-          // defectors22("en-US"),
+          // defectors4defectors4
+          // defectors5defectors5
+          // defectors6defectors6
+          // defectors7defectors7
+          // defectors8defectors8
+          // defectors9defectors9
+          // defectors10defectors10
+          // defectors11defectors11
+          // defectors12defectors12
+          // defectors13defectors13
+          // defectors14defectors14
+          // defectors15defectors15
+          // defectors16defectors16
+          // defectors17defectors17
+          // defectors18defectors18
+          // defectors19defectors19
+          // defectors20defectors20
+          // defectors21defectors21
         ],
       ),
     );

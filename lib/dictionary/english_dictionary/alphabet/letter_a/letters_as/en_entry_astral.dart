@@ -109,8 +109,7 @@ class EnglishEntryastral extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "astral"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "astral"),
                             // divvviiider
                           ],
                         ),

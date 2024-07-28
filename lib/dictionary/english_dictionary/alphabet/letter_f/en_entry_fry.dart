@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fry", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) برژاندن یان سوورەوەکردن"""),
                     SentencesRow(
@@ -303,7 +302,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qWAagS_MANg';
 const double _startSecondsend = 166;
 const String _videoIdone = 'D_Y18GEjfNY';

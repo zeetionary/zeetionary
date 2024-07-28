@@ -254,7 +254,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Didn't you like it? Everybody else did.""");
   }
 
-// With short examples define "everybody", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

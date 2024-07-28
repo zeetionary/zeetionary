@@ -451,7 +451,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) بڕیاردانی کردنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Increasing numbers of people elect to work from home nowadays.""",
@@ -464,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) کەسێک کە بۆ کارێک ھەڵبژێردراوە بەڵام ھێشتا دەست بەکار نەبووە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The president elect has been preparing to take office in January.""",
@@ -477,7 +475,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) کەسانێک کە ھەڵبژێردراون بۆ خاسیەتێکی دیاریکراو"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He was convinced he was among the elect, the wise, those who would shape the future.""",
@@ -486,98 +483,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelects8("en-GB"),
             onPressedAmerican: () => speakelects8("en-US"),
           ),
-          // elects900elects9
-          // speakelects9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects_1000elects10
-          // speakelects10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1100elects11
-          // speakelects11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1200elects12
-          // speakelects12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1300elects13
-          // speakelects13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1400elects14
-          // speakelects14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1500elects15
-          // speakelects15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1600elects16
-          // speakelects16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1700elects17
-          // speakelects17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1800elects18
-          // speakelects18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects1900elects19
-          // speakelects19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects_2000elects20
-          // speakelects20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects2100elects21
-          // speakelects21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elects2200electselects
         ],
       ),
     );

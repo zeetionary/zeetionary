@@ -448,7 +448,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""This message needs to be sent by express.""");
   }
 
-// With short examples define "express", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

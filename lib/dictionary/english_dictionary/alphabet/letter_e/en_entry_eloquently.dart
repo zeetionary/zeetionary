@@ -376,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) کە بەباشی شتێک دەردەبڕێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """His face expressed his grief more eloquently than any words.""",
@@ -385,26 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeloquentlys2("en-GB"),
             onPressedAmerican: () => speakeloquentlys2("en-US"),
           ),
-          // eloquentlys300eloquentlys3
-          // eloquentlys400eloquentlys4
-          // eloquentlys500eloquentlys5
-          // eloquentlys600eloquentlys6
-          // eloquentlys700eloquentlys7
-          // eloquentlys800eloquentlys8
-          // eloquentlys900eloquentlys9
-          // eloquentlys_1000eloquentlys10
-          // eloquentlys1100eloquentlys11
-          // eloquentlys1200eloquentlys12
-          // eloquentlys1300eloquentlys13
-          // eloquentlys1400eloquentlys14
-          // eloquentlys1500eloquentlys15
-          // eloquentlys1600eloquentlys16
-          // eloquentlys1700eloquentlys17
-          // eloquentlys1800eloquentlys18
-          // eloquentlys1900eloquentlys19
-          // eloquentlys_2000eloquentlys20
-          // eloquentlys2100eloquentlys21
-          // eloquentlys2200eloquentlyseloquentlys
         ],
       ),
     );

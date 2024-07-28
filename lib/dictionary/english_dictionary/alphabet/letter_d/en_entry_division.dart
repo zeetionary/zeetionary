@@ -500,7 +500,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پڕۆسەی دابەشکردنی ژمارە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She calculated the division by three in her head, quickly determining the answer.",
@@ -511,7 +510,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) جیاوازی یان ناکۆکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We choose peace over hatred and division.",
             kurdishText: "ئاشتیمان ھەڵبژارد بەسەر ڕق و دووبەرەکایەتی.",
@@ -544,7 +542,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) بەشێکی گەورە یان گرنگی دامەزراوەیەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The company's sales division is going to be restructured.",
@@ -571,7 +568,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ناو) بەشێکی شارێک یان وڵاتێک کە بە بەشێکی جیاواز دادەنرێت بۆ مەبەستی بەڕێوەبردن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Nagpur is the most eastern division in the state.",
             kurdishText: "ناگپوور ڕۆژھەڵاتترین بەشی ویلایەتەکەیە.",
@@ -582,7 +578,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) گرووپێک لە ژمارەیەک تیم یان وەرزشکار کە دژ بە یەکدی ڕکابەری دەکەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The club will finish second in Division One.",
             kurdishText: "یانەکە دووەم دەبێت لە کۆمەڵەی یەک.",
@@ -591,7 +586,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (ناو) یەکەیەکی سوپا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The commander of the fourth infantry division defied orders.",
@@ -602,7 +596,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) ھێڵێک کە شتێک دابەش دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "A hedge forms the division between their land and ours.",
@@ -619,18 +612,11 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdivisions16("en-GB"),
             onPressedAmerican: () => speakdivisions16("en-US"),
           ),
-          // divisions1700"),
-          // divisions17
-          // divisions1800"),
-          // divisions18
-          // divisions1900"),
-          // divisions19
-          // divisions_2000"),
-          // divisions20
-          // divisions2100"),
-          // divisions21
-          // divisions2200"),
-          // divisions22("en-US"),
+          // divisions17divisions17
+          // divisions18divisions18
+          // divisions19divisions19
+          // divisions_20divisions20
+          // divisions21divisions21
         ],
       ),
     );

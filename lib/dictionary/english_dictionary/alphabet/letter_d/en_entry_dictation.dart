@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) تاقیکردنەوەیەک کە تێیدا خوێندکاران ئەوە دەنووسنەوە کە بۆیان دەخوێندرێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The teacher gave them a dictation.",
             kurdishText: "مامۆستاکە تاقیکردنەوەی دیکتەیشنی پێیان کرد.",
@@ -280,42 +279,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdictations4("en-GB"),
             onPressedAmerican: () => speakdictations4("en-US"),
           ),
-          // dictations500"),
-          // dictations5
-          // dictations600"),
-          // dictations6
-          // dictations700"),
-          // dictations7
-          // dictations800"),
-          // dictations8
-          // dictations900"),
-          // dictations9
-          // dictations_1000"),
-          // dictations10
-          // dictations1100"),
-          // dictations11
-          // dictations1200"),
-          // dictations12
-          // dictations1300"),
-          // dictations13
-          // dictations1400"),
-          // dictations14
-          // dictations1500"),
-          // dictations15
-          // dictations1600"),
-          // dictations16
-          // dictations1700"),
-          // dictations17
-          // dictations1800"),
-          // dictations18
-          // dictations1900"),
-          // dictations19
-          // dictations_2000"),
-          // dictations20
-          // dictations2100"),
-          // dictations21
-          // dictations2200"),
-          // dictations22("en-US"),
+          // dictations5dictations5
+          // dictations6dictations6
+          // dictations7dictations7
+          // dictations8dictations8
+          // dictations9dictations9
+          // dictations_10dictations10
+          // dictations11dictations11
+          // dictations12dictations12
+          // dictations13dictations13
+          // dictations14dictations14
+          // dictations15dictations15
+          // dictations16dictations16
+          // dictations17dictations17
+          // dictations18dictations18
+          // dictations19dictations19
+          // dictations_20dictations20
+          // dictations21dictations21
         ],
       ),
     );

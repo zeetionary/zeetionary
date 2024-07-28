@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """It is a sad moment when you realize you are expendable in your job.""");
   }
 
-// With short examples define "expendable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

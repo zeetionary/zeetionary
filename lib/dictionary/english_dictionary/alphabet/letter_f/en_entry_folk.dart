@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەڵک، گەل، جەماوەر، دەستە، کۆمەڵ،	خەڵکی ڕەمەکی، خەڵکی ئاسایی، خزم، کەس‌وکار، دایک و باوک،	خەڵک، خوجێیی، ناوچەیی، نەریتی، ڕەمەکی، گەلی، گەلێری
 """),
-// With short examples define "folk", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) خەڵکی بە گشتی"""),
                     SentencesRow(
                       englishText:
@@ -366,7 +365,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 626;
 const String _videoIdone = 'LAOoF2gyQaA';

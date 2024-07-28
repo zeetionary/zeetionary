@@ -94,8 +94,7 @@ class EnglishEntrybarbed extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "barbed"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "barbed"),
                             // divvviiider
                           ],
                         ),

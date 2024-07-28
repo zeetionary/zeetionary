@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاوردوو، ئێزنگ، ھێزم، قەڵاشکەری، ئەنجینە، ھەژگەڵ، ھەژگ‌وبژاڵ
 """),
-// With short examples define "firewood", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دار کە پارچەپارچە دەکرێت بۆ سوتاندن بەکاردێت"""),
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Ir3eJ1t13fk';
 const double _startSecondsend = 112;
 const String _videoIdone = 'ySOKrCusEjw';

@@ -320,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) واکردنی ئەوەی خەڵکی بوەستن لە باوەڕکردن بە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "These theories are now largely discredited among linguists.",
@@ -367,39 +366,24 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) شتێک یان کەسێک کە جێگای ئابڕووچوونە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They were a discredit to their country.",
             kurdishText: "شەرمھێنەر بوون بۆ وڵاتەکەیان.",
             onPressedBritish: () => speakdiscredits9("en-GB"),
             onPressedAmerican: () => speakdiscredits9("en-US"),
           ),
-          // discredits_1000"),
-          // discredits10
-          // discredits1100"),
-          // discredits11
-          // discredits1200"),
-          // discredits12
-          // discredits1300"),
-          // discredits13
-          // discredits1400"),
-          // discredits14
-          // discredits1500"),
-          // discredits15
-          // discredits1600"),
-          // discredits16
-          // discredits1700"),
-          // discredits17
-          // discredits1800"),
-          // discredits18
-          // discredits1900"),
-          // discredits19
-          // discredits_2000"),
-          // discredits20
-          // discredits2100"),
-          // discredits21
-          // discredits2200"),
-          // discredits22("en-US"),
+          // discredits_10discredits10
+          // discredits11discredits11
+          // discredits12discredits12
+          // discredits13discredits13
+          // discredits14discredits14
+          // discredits15discredits15
+          // discredits16discredits16
+          // discredits17discredits17
+          // discredits18discredits18
+          // discredits19discredits19
+          // discredits_20discredits20
+          // discredits21discredits21
         ],
       ),
     );

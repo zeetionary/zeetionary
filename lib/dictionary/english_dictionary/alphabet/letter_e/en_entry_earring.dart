@@ -380,26 +380,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearrings2("en-GB"),
             onPressedAmerican: () => speakearrings2("en-US"),
           ),
-          // earrings300earrings3
-          // earrings400earrings4
-          // earrings500earrings5
-          // earrings600earrings6
-          // earrings700earrings7
-          // earrings800earrings8
-          // earrings900earrings9
-          // earrings_1000earrings10
-          // earrings1100earrings11
-          // earrings1200earrings12
-          // earrings1300earrings13
-          // earrings1400earrings14
-          // earrings1500earrings15
-          // earrings1600earrings16
-          // earrings1700earrings17
-          // earrings1800earrings18
-          // earrings1900earrings19
-          // earrings_2000earrings20
-          // earrings2100earrings21
-          // earrings2200earringsearrings
         ],
       ),
     );

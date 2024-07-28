@@ -255,8 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The summit was enfolded in a circle of white cloud.""");
   }
 
-// With short examples define "enfold", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

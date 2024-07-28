@@ -97,9 +97,7 @@ class EnglishEntryacorn extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           KurdishVocabulary(text: """
 کوردی: (بەر یان دەنکەکەی) بەڕوو، کۆپەک

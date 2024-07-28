@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Have some dinner with us - you must be famished!""");
   }
 
-// With short examples define "famished", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

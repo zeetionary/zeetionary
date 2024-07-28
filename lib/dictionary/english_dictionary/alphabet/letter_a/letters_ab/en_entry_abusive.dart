@@ -65,9 +65,7 @@ class EnglishEntryabusive extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbjuːsɪv/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈbjuːsɪv/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakabusive("en-US"),
                             ),

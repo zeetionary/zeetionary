@@ -379,46 +379,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakDVDs2("en-GB"),
             onPressedAmerican: () => speakDVDs2("en-US"),
           ),
-          // DVDs300
-          // DVDs3("en-US"""),
-          // DVDs400
-          // DVDs4("en-US"""),
-          // DVDs500
-          // DVDs5("en-US"""),
-          // DVDs600
-          // DVDs6("en-US"""),
-          // DVDs700
-          // DVDs7("en-US"""),
-          // DVDs800
-          // DVDs8("en-US"""),
-          // DVDs900
-          // DVDs9("en-US"""),
-          // DVDs_1000
-          // DVDs10("en-US"""),
-          // DVDs1100
-          // DVDs11("en-US"""),
-          // DVDs1200
-          // DVDs12("en-US"""),
-          // DVDs1300
-          // DVDs13("en-US"""),
-          // DVDs1400
-          // DVDs14("en-US"""),
-          // DVDs1500
-          // DVDs15("en-US"""),
-          // DVDs1600
-          // DVDs16("en-US"""),
-          // DVDs1700
-          // DVDs17("en-US"""),
-          // DVDs1800
-          // DVDs18("en-US"""),
-          // DVDs1900
-          // DVDs19("en-US"""),
-          // DVDs_2000
-          // DVDs20("en-US"""),
-          // DVDs2100
-          // DVDs21("en-US"""),
-          // DVDs2200
-          // DVDs22("en-US"""),
         ],
       ),
     );

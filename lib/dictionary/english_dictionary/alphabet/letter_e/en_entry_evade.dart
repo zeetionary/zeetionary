@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Come on, don't you think you're evading the issue?""");
   }
 
-// With short examples define "evade", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

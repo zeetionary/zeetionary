@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Fortinbras speaks the epilogue in Shakespeare’s ‘Hamlet’.""");
   }
 
-// With short examples define "epilogue", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -379,53 +379,31 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئەوەی کە شتی زیاتر لە خۆبگرێت و فرەڕەنگی ھەبێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Diversification of your investments lowers risk.",
             kurdishText: "ھەمەچەشنکردنی وەبەرھێنانت مەترسی کەمدەکاتەوە.",
             onPressedBritish: () => speakdiversifications2("en-GB"),
             onPressedAmerican: () => speakdiversifications2("en-US"),
           ),
-          // diversifications300"),
-          // diversifications3
-          // diversifications400"),
-          // diversifications4
-          // diversifications500"),
-          // diversifications5
-          // diversifications600"),
-          // diversifications6
-          // diversifications700"),
-          // diversifications7
-          // diversifications800"),
-          // diversifications8
-          // diversifications900"),
-          // diversifications9
-          // diversifications_1000"),
-          // diversifications10
-          // diversifications1100"),
-          // diversifications11
-          // diversifications1200"),
-          // diversifications12
-          // diversifications1300"),
-          // diversifications13
-          // diversifications1400"),
-          // diversifications14
-          // diversifications1500"),
-          // diversifications15
-          // diversifications1600"),
-          // diversifications16
-          // diversifications1700"),
-          // diversifications17
-          // diversifications1800"),
-          // diversifications18
-          // diversifications1900"),
-          // diversifications19
-          // diversifications_2000"),
-          // diversifications20
-          // diversifications2100"),
-          // diversifications21
-          // diversifications2200"),
-          // diversifications22("en-US"),
+          // diversifications3diversifications3
+          // diversifications4diversifications4
+          // diversifications5diversifications5
+          // diversifications6diversifications6
+          // diversifications7diversifications7
+          // diversifications8diversifications8
+          // diversifications9diversifications9
+          // diversifications_10diversifications10
+          // diversifications11diversifications11
+          // diversifications12diversifications12
+          // diversifications13diversifications13
+          // diversifications14diversifications14
+          // diversifications15diversifications15
+          // diversifications16diversifications16
+          // diversifications17diversifications17
+          // diversifications18diversifications18
+          // diversifications19diversifications19
+          // diversifications_20diversifications20
+          // diversifications21diversifications21
         ],
       ),
     );

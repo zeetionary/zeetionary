@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Kane equalized early in the second half.""");
   }
 
-// With short examples define "equalize", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

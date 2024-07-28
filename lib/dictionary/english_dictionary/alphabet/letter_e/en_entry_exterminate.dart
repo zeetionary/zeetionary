@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """Once cockroaches get into a building, it's very difficult to exterminate them.""");
   }
 
-// With short examples define "exterminate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -425,7 +425,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مێش، پێشکە، تۆفانە، مەگەز، مەگەس، زنجیر، دوگمە،	(بەشێ لە چادر) باڵ،	فڕین، پەڕین، بازدان، باڵ‌گرتنەوە،	پەڕە،	تەشی، زیرەک، زرینگ، مدریک
 """),
-// With short examples define "fly", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) فڕین بە باڵ"""),
                     SentencesRow(
                       englishText: """Penguins can't fly.""",
@@ -771,7 +770,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 251;
 const String _videoIdone = '_Z0ZQT0FttM';

@@ -293,7 +293,6 @@ class KurdishMeaning extends StatelessWidget {
         """Small businesses have been exempted from the tax increase.""");
   }
 
-// With short examples define "exempt", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

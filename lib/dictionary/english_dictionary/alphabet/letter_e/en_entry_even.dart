@@ -398,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He spoke in a steady, even voice.""");
   }
 
-// With short examples define "even", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

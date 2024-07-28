@@ -384,26 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakegoisms2("en-GB"),
             onPressedAmerican: () => speakegoisms2("en-US"),
           ),
-          // egoisms300egoisms3
-          // egoisms400egoisms4
-          // egoisms500egoisms5
-          // egoisms600egoisms6
-          // egoisms700egoisms7
-          // egoisms800egoisms8
-          // egoisms900egoisms9
-          // egoisms_1000egoisms10
-          // egoisms1100egoisms11
-          // egoisms1200egoisms12
-          // egoisms1300egoisms13
-          // egoisms1400egoisms14
-          // egoisms1500egoisms15
-          // egoisms1600egoisms16
-          // egoisms1700egoisms17
-          // egoisms1800egoisms18
-          // egoisms1900egoisms19
-          // egoisms_2000egoisms20
-          // egoisms2100egoisms21
-          // egoisms2200egoismsegoisms
         ],
       ),
     );

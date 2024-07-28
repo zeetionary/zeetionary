@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """She had managed to exorcise these unhappy memories from her mind.""");
   }
 
-// With short examples define "exorcize", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

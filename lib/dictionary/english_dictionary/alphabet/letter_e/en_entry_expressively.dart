@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He raised his eyebrows expressively.""");
   }
 
-// With short examples define "expressively", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

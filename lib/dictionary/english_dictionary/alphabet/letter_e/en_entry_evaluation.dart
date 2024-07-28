@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """Evaluation of this new treatment cannot take place until all the data has been collected.""");
   }
 
-// With short examples define "evaluation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

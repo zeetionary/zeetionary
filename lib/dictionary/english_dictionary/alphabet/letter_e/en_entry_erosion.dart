@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """Many see these security measures as an erosion of civil liberties.""");
   }
 
-// With short examples define "erosion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

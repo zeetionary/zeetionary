@@ -177,7 +177,6 @@ Usage: archaic
                     const KurdishVocabulary(text: """
 کوردی: ترس، خۆف، فەرھـ، تۆقین
 """),
-// With short examples define "fright", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ھەستی ترس"""),
                     SentencesRow(
                       englishText: """She cried out in fright.""",
@@ -277,7 +276,6 @@ Usage: archaic
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'sV6uuMAnJUE';
 const double _startSecondsend = 831;
 const String _videoIdone = '544DTGHIBM0';

@@ -96,8 +96,7 @@ class EnglishEntryawareness extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "awareness"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "awareness"),
                             // divvviiider
                           ],
                         ),

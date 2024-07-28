@@ -364,27 +364,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakellipses1("en-GB"),
             onPressedAmerican: () => speakellipses1("en-US"),
           ),
-          // ellipses200ellipses2
-          // ellipses300ellipses3
-          // ellipses400ellipses4
-          // ellipses500ellipses5
-          // ellipses600ellipses6
-          // ellipses700ellipses7
-          // ellipses800ellipses8
-          // ellipses900ellipses9
-          // ellipses_1000ellipses10
-          // ellipses1100ellipses11
-          // ellipses1200ellipses12
-          // ellipses1300ellipses13
-          // ellipses1400ellipses14
-          // ellipses1500ellipses15
-          // ellipses1600ellipses16
-          // ellipses1700ellipses17
-          // ellipses1800ellipses18
-          // ellipses1900ellipses19
-          // ellipses_2000ellipses20
-          // ellipses2100ellipses21
-          // ellipses2200ellipsesellipses
         ],
       ),
     );

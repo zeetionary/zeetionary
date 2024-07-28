@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""There was a small fairground just by the river.""");
   }
 
-// With short examples define "fairground", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

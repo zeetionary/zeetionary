@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گوڵ‌ئاسا، گوڵی، وەکوو گوڵ، گوڵکرد، لە گوڵ‌دروس‌کراو، گوڵدار، بە گوڵ‌ڕازاو یان جوان‌کراو
 """),
-// With short examples define "floral", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە وێنەی گووڵی پێوەیە"""),
                     SentencesRow(
@@ -251,7 +250,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'HDntl7yzzVI';
 const double _startSecondsend = 1315;
 const String _videoIdone = 's3B-qp3U5G0';

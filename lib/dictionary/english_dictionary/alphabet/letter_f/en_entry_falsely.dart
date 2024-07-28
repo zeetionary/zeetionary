@@ -254,7 +254,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She smiled falsely at his joke.""");
   }
 
-// With short examples define "falsely", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

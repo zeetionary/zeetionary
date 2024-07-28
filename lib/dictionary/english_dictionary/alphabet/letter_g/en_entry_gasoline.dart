@@ -774,7 +774,6 @@ Usage: N. Amer (elsewhere: petrol)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "gasoline", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بەنزینی ئۆتۆمبێل"""),
                     const AlsoEnglishckb(word: "ھەروەھا: gas، petrol"),
@@ -1600,7 +1599,6 @@ Usage: N. Amer (elsewhere: petrol)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/toVfvRhWbj8?t=';
 const double _startSecondsend = 00000000000000000000000000046;
 const String _videoIdone = 'https://youtu.be/Bbi0kEaTgio?t=';

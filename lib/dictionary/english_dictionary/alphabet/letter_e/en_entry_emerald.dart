@@ -382,7 +382,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) بەردێکی سەوزی گران‌بەھایە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She wore a ring with a large emerald to the party.""",
@@ -393,31 +392,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) ڕەنگی سەوزی درەوشاوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Her dress was a stunning emerald.""",
             kurdishText: """جلەکەی سەوزێکی کاڵی سەرنجڕاکێش بوو.""",
             onPressedBritish: () => speakemeralds3("en-GB"),
             onPressedAmerican: () => speakemeralds3("en-US"),
           ),
-          // emeralds400emeralds4
-          // emeralds500emeralds5
-          // emeralds600emeralds6
-          // emeralds700emeralds7
-          // emeralds800emeralds8
-          // emeralds900emeralds9
-          // emeralds_1000emeralds10
-          // emeralds1100emeralds11
-          // emeralds1200emeralds12
-          // emeralds1300emeralds13
-          // emeralds1400emeralds14
-          // emeralds1500emeralds15
-          // emeralds1600emeralds16
-          // emeralds1700emeralds17
-          // emeralds1800emeralds18
-          // emeralds1900emeralds19
-          // emeralds_2000emeralds20
-          // emeralds2100emeralds21
           // emeralds2200emeraldsemeralds
         ],
       ),

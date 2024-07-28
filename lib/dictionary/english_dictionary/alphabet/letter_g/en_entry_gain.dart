@@ -821,7 +821,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرژەوەندی، خێر، سوود، کەڵک، قازانج، بەهرە، بەرە، بەروبووم،	زۆربوون، چوونەسەرەوە،	بەدەس‌هێنان، دەس‌خستن، گیرخستن، دەسکەوتن،	پێشکەوتن، پێشڤەچوون،	چا(ک)بوونەوە
 """),
-// With short examples define "gain", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) بەدەستهێنان یان بردنەوەی شتێک"""),
                     SentencesRow(
@@ -1713,7 +1712,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/dfuPBC-v5NE?t=';
 const double _startSecondsend = 000000000000000000000000000936;
 const String _videoIdone = 'https://youtu.be/lfv0DG98LNs?t=';

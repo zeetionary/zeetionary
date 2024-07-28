@@ -98,9 +98,7 @@ class EnglishEntryaerodynamic extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە خاسیەتەکانی شتێک کە کاردەکاتە سەر جووڵەی لە ھەوادا"""),

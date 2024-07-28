@@ -407,7 +407,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) بوونە ھۆکاری کێشە یان ناڕەحەتی بۆ کەسێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The speech was deliberately designed to embarrass the prime minister.""",
@@ -416,23 +415,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrasss4("en-GB"),
             onPressedAmerican: () => speakembarrasss4("en-US"),
           ),
-          // embarrasss500embarrasss5
-          // embarrasss600embarrasss6
-          // embarrasss700embarrasss7
-          // embarrasss800embarrasss8
-          // embarrasss900embarrasss9
-          // embarrasss_1000embarrasss10
-          // embarrasss1100embarrasss11
-          // embarrasss1200embarrasss12
-          // embarrasss1300embarrasss13
-          // embarrasss1400embarrasss14
-          // embarrasss1500embarrasss15
-          // embarrasss1600embarrasss16
-          // embarrasss1700embarrasss17
-          // embarrasss1800embarrasss18
-          // embarrasss1900embarrasss19
-          // embarrasss_2000embarrasss20
-          // embarrasss2100embarrasss21
           // embarrasss2200embarrasssembarrasss
         ],
       ),

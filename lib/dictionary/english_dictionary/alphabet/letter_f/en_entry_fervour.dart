@@ -246,7 +246,6 @@ Usage: Brit, Cdn (US: fervor)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Y5suNtLwbBw';
 const double _startSecondsend = 297;
 const String _videoIdone = 'HGz-_6pViAY';

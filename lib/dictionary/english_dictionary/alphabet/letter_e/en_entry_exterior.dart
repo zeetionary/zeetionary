@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
         """The exterior lights of the house came on as I approached the door.""");
   }
 
-// With short examples define "exterior", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

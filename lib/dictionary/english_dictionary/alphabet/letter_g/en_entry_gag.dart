@@ -112,8 +112,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""They tied him up and put a gag on him.""");
+    await flutterTts.speak("""They tied him up and put a gag on him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -127,14 +126,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I did a few opening gags about the band that had played before me.""");
+    await flutterTts.speak(
+        """I did a few opening gags about the band that had played before me.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""It was just a gag—we didn't mean to upset anyone.""");
+    await flutterTts
+        .speak("""It was just a gag—we didn't mean to upset anyone.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -148,14 +149,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""The new laws are seen as an attempt to gag the press.""");
+    await flutterTts
+        .speak("""The new laws are seen as an attempt to gag the press.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""I tried my best to eat it but the meat was so fatty I gagged on it.""");
+    await flutterTts.speak(
+        """I tried my best to eat it but the meat was so fatty I gagged on it.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -802,43 +805,56 @@ ${englishMeaningConst.text}
 کوردی: دەمبێن، دەمبەست، دەم‌تەپێن،	شەویلکەگر، شەویلکەبەند، دەم‌ڕاگرە،	بەرتەنگی، بەرگیری، دەمبەستان، تەنگژە، نوکتە، گاڵتە، شیرین‌کاری،	فێڵ، کەڵەک
 """),
 // With short examples define "gag", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) پارچە قوماشێک کە دەخرێتە دەم یان دەبەسترێت لە دەم بۆ ڕێگری لە قسەکردنی کەسێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە قوماشێک کە دەخرێتە دەم یان دەبەسترێت لە دەم بۆ ڕێگری لە قسەکردنی کەسێک"""),
                     SentencesRow(
-                      englishText:
-                          """They tied him up and put a gag on him.""",
+                      englishText: """They tied him up and put a gag on him.""",
                       kurdishText: """بەستیانەوە و پەڕۆیەکیان خستە دەمی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) فەرمانێک کە ڕێگری لەوە دەکات شتێک باس بکرێت بۆ خەڵکی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) فەرمانێک کە ڕێگری لەوە دەکات شتێک باس بکرێت بۆ خەڵکی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The judge issued a gag order on the case.""",
-                      kurdishText: """دادوەرەکە فەرمانی نهێنی‌پارێزی لەسەر کەیسەکە سەپاند.""",
+                      englishText:
+                          """The judge issued a gag order on the case.""",
+                      kurdishText:
+                          """دادوەرەکە فەرمانی نهێنی‌پارێزی لەسەر کەیسەکە سەپاند.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) نوکتە یان چیرۆکێکی پێکەنیناوی"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) نوکتە یان چیرۆکێکی پێکەنیناوی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I did a few opening gags about the band that had played before me.""",
-                      kurdishText: """چەند نوکتەیەکم گوت سەبارەت بەو باندەی کە پێش من نمایشیان کردبوو.""",
+                      englishText:
+                          """I did a few opening gags about the band that had played before me.""",
+                      kurdishText:
+                          """چەند نوکتەیەکم گوت سەبارەت بەو باندەی کە پێش من نمایشیان کردبوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ناو) گاڵتەیەک کە لەگەڵ کەسێک دەیکەیت"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) گاڵتەیەک کە لەگەڵ کەسێک دەیکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """It was just a gag—we didn't mean to upset anyone.""",
-                      kurdishText: """تەنها گاڵتەیەک بوو ـ نەمانویست کەس بێزار بکەین.""",
+                      englishText:
+                          """It was just a gag—we didn't mean to upset anyone.""",
+                      kurdishText:
+                          """تەنها گاڵتەیەک بوو ـ نەمانویست کەس بێزار بکەین.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (کردار) دانانی پارچە پەڕۆیەک لەسەر یان ناو دەمی کەسێک بۆ ئەوەی قسە نەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (کردار) دانانی پارچە پەڕۆیەک لەسەر یان ناو دەمی کەسێک بۆ ئەوەی قسە نەکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The hostages were bound and gagged.""",
@@ -847,20 +863,28 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (کردار) ڕێگری لە کەسێک لەوەی کە بە ئازادی قسە بکات یان بۆچوونەکانی دەرببڕێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (کردار) ڕێگری لە کەسێک لەوەی کە بە ئازادی قسە بکات یان بۆچوونەکانی دەرببڕێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The new laws are seen as an attempt to gag the press.""",
-                      kurdishText: """یاسا تازەکان وەک هەوڵێک دەبینرێن بۆ سەرکوتکردنی ڕۆژنامەوانان.""",
+                      englishText:
+                          """The new laws are seen as an attempt to gag the press.""",
+                      kurdishText:
+                          """یاسا تازەکان وەک هەوڵێک دەبینرێن بۆ سەرکوتکردنی ڕۆژنامەوانان.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (کردار) هەبوونی ئەو هەستەی کە خەریکە دەڕشێیتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٧. (کردار) هەبوونی ئەو هەستەی کە خەریکە دەڕشێیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I tried my best to eat it but the meat was so fatty I gagged on it.""",
-                      kurdishText: """هەموو هەوڵم دا کە بیخۆم بەڵم گۆشتەکە هێندە چەور بوو ڕشانەوەم پێی هات.""",
+                      englishText:
+                          """I tried my best to eat it but the meat was so fatty I gagged on it.""",
+                      kurdishText:
+                          """هەموو هەوڵم دا کە بیخۆم بەڵم گۆشتەکە هێندە چەور بوو ڕشانەوەم پێی هات.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1624,7 +1648,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/_wNsZEqpKUA?t=';
 const double _startSecondsend = 0000000000000000000000000001119;
 const String _videoIdone = 'https://youtu.be/N4kvtt2T_6Y?t=';

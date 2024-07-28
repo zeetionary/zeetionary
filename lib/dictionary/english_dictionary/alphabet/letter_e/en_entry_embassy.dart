@@ -385,7 +385,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەو بینایەی نوێنەرانی وڵاتێکی بیانی لێیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The Ambassador held a reception at the embassy.""",
             kurdishText: """نوێنەرەکە پێشوازییەکی لە باڵیۆزخانەکە ڕێکخست.""",
@@ -400,24 +399,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembassys3("en-GB"),
             onPressedAmerican: () => speakembassys3("en-US"),
           ),
-          // embassys400embassys4
-          // embassys500embassys5
-          // embassys600embassys6
-          // embassys700embassys7
-          // embassys800embassys8
-          // embassys900embassys9
-          // embassys_1000embassys10
-          // embassys1100embassys11
-          // embassys1200embassys12
-          // embassys1300embassys13
-          // embassys1400embassys14
-          // embassys1500embassys15
-          // embassys1600embassys16
-          // embassys1700embassys17
-          // embassys1800embassys18
-          // embassys1900embassys19
-          // embassys_2000embassys20
-          // embassys2100embassys21
           // embassys2200embassysembassys
         ],
       ),

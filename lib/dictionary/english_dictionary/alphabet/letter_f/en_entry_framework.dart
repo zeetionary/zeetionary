@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لاشە، پەیکەر، چوارچێوە، شیپانە، شیرازە، چێوە، داربەند	پێکھاتە، ڕێکخستە، دەزگا، سیستم،	بنچینە، بنەڕەت، بنیان، بنەما،	پێودانگ، پێوەر
 """),
-// With short examples define "framework", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو بەشانەی بینا یان شتێک کە ڕایدەگرێت و شێوەی پێدەدات"""),
@@ -289,7 +288,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Unzc731iCUY';
 const double _startSecondsend = 2881;
 const String _videoIdone = '9yjZpBq1XBE';

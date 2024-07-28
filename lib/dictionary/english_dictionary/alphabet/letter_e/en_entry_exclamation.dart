@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She took his hand and uttered an exclamation of shock.""");
   }
 
-// With short examples define "exclamation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

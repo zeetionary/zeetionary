@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێکەنینی‌یانە، گاڵتەجاڕانە، سەیر، بە شێوەیەکی سەیر، بە شێوەیەکی نائاسایی
 """),
-// With short examples define "funnily", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) بە شێوەیەکی نامۆ"""),
                     SentencesRow(
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'XXhc5UTxv5I';
 const double _startSecondsend = 1331;
 const String _videoIdone = 'Unzc731iCUY';

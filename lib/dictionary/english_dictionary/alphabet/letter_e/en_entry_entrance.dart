@@ -339,7 +339,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The police were unable to gain entrance to the house.0""");
   }
 
-// With short examples define "entrance", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

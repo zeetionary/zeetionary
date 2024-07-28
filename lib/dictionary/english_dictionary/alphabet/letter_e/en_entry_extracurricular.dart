@@ -243,7 +243,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She's involved in many extracurricular activities.""");
   }
 
-// With short examples define "extracurricular", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

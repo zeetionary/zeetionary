@@ -368,48 +368,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdyedinthewools1("en-GB"),
             onPressedAmerican: () => speakdyedinthewools1("en-US"),
           ),
-          // dyedinthewools200
-          // dyedinthewools2("en-US"""),
-          // dyedinthewools300
-          // dyedinthewools3("en-US"""),
-          // dyedinthewools400
-          // dyedinthewools4("en-US"""),
-          // dyedinthewools500
-          // dyedinthewools5("en-US"""),
-          // dyedinthewools600
-          // dyedinthewools6("en-US"""),
-          // dyedinthewools700
-          // dyedinthewools7("en-US"""),
-          // dyedinthewools800
-          // dyedinthewools8("en-US"""),
-          // dyedinthewools900
-          // dyedinthewools9("en-US"""),
-          // dyedinthewools_1000
-          // dyedinthewools10("en-US"""),
-          // dyedinthewools1100
-          // dyedinthewools11("en-US"""),
-          // dyedinthewools1200
-          // dyedinthewools12("en-US"""),
-          // dyedinthewools1300
-          // dyedinthewools13("en-US"""),
-          // dyedinthewools1400
-          // dyedinthewools14("en-US"""),
-          // dyedinthewools1500
-          // dyedinthewools15("en-US"""),
-          // dyedinthewools1600
-          // dyedinthewools16("en-US"""),
-          // dyedinthewools1700
-          // dyedinthewools17("en-US"""),
-          // dyedinthewools1800
-          // dyedinthewools18("en-US"""),
-          // dyedinthewools1900
-          // dyedinthewools19("en-US"""),
-          // dyedinthewools_2000
-          // dyedinthewools20("en-US"""),
-          // dyedinthewools2100
-          // dyedinthewools21("en-US"""),
-          // dyedinthewools2200
-          // dyedinthewools22("en-US"""),
         ],
       ),
     );

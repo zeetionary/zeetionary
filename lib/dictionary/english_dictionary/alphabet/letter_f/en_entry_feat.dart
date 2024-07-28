@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She was capable of remarkable feats.""");
   }
 
-// With short examples define "feat", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """Many dolphins die each year from entanglement in fishing nets.""");
   }
 
-// With short examples define "entanglement", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

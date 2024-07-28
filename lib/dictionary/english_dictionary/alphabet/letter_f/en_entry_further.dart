@@ -291,7 +291,6 @@ Adjective: further
                     const KurdishVocabulary(text: """
 کوردی: دوورتر،	زۆرتر، پتر، زیاتر،	دیسان، دی، تر،	(لە) پێش‌تر،	لە دەرەوەی،	سەرەڕای ئەوەش، سەرباری ئەوەش، زێدەباری،	ھەروەھا
 """),
-// With short examples define "further", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) زیاتر"""),
                     SentencesRow(
                       englishText: """Cook for a further 2 minutes.""",
@@ -530,7 +529,6 @@ Adjective: further
   }
 }
 
-// 188888880002200
 const String _videoIdend = '1SO0uvexcew';
 const double _startSecondsend = 21;
 const String _videoIdone = 'pFEB0chiuJA';

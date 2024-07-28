@@ -359,37 +359,23 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کۆبوونەوەیەکی گەورەی کۆمەڵایەتی بۆ خواردنی نانی ئێوارە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The club's annual dinner will be held on 3 June.",
             kurdishText: "شێوی ساڵانەی یانەکە لە ٣ ـی حوزەیران دەبێت.",
             onPressedBritish: () => speakdinners10("en-GB"),
             onPressedAmerican: () => speakdinners10("en-US"),
           ),
-          // dinners1100"),
-          // dinners11
-          // dinners1200"),
-          // dinners12
-          // dinners1300"),
-          // dinners13
-          // dinners1400"),
-          // dinners14
-          // dinners1500"),
-          // dinners15
-          // dinners1600"),
-          // dinners16
-          // dinners1700"),
-          // dinners17
-          // dinners1800"),
-          // dinners18
-          // dinners1900"),
-          // dinners19
-          // dinners_2000"),
-          // dinners20
-          // dinners2100"),
-          // dinners21
-          // dinners2200"),
-          // dinners22("en-US"),
+          // dinners11dinners11
+          // dinners12dinners12
+          // dinners13dinners13
+          // dinners14dinners14
+          // dinners15dinners15
+          // dinners16dinners16
+          // dinners17dinners17
+          // dinners18dinners18
+          // dinners19dinners19
+          // dinners_20dinners20
+          // dinners21dinners21
         ],
       ),
     );

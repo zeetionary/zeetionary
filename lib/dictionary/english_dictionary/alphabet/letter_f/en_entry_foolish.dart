@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گەوج، کەر، بودەڵە، بێ‌مێشک،	پێکەنینی، گاڵتەجاڕ،	گەوجانە
 """),
-// With short examples define "foolish", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) گەمژە"""),
                     SentencesRow(
                       englishText:
@@ -282,7 +281,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Mx8JkGHaGUI';
 const double _startSecondsend = 2523;
 const String _videoIdone = 'Js2UoMSumx4';

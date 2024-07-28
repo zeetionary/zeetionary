@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەنیا، تەنیاباڵ، بێکەس، بێ‌خاوەند، تاک‌وتەنیا، بێ‌یار
 """),
-// With short examples define "friendless", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) بەبێ ھاوڕێ"""),
                     SentencesRow(
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'j1BfO7VlIw4';
 const double _startSecondsend = 570;
 const String _videoIdone = 'iZbala54uzk';

@@ -385,7 +385,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ئەوەی کە ڕۆشن یان درەوشاوە نەبێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The sky was bright, contrasting with the dullness of the bare tree branches reaching upwards.""",
@@ -396,7 +395,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) ھەوراوی و کەمێک تاریک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The dullness of the cloudy sky and the increasing wind made us decide to turn back.""",
@@ -405,26 +403,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdullnesss3("en-GB"),
             onPressedAmerican: () => speakdullnesss3("en-US"),
           ),
-          // dullnesss400
-          // dullnesss4// dullnesss500
-          // dullnesss5// dullnesss600
-          // dullnesss6// dullnesss700
-          // dullnesss7// dullnesss800
-          // dullnesss8// dullnesss900
-          // dullnesss9// dullnesss_1000
-          // dullnesss10// dullnesss1100
-          // dullnesss11// dullnesss1200
-          // dullnesss12// dullnesss1300
-          // dullnesss13// dullnesss1400
-          // dullnesss14// dullnesss1500
-          // dullnesss15// dullnesss1600
-          // dullnesss16// dullnesss1700
-          // dullnesss17// dullnesss1800
-          // dullnesss18// dullnesss1900
-          // dullnesss19// dullnesss_2000
-          // dullnesss20// dullnesss2100
-          // dullnesss21// dullnesss2200
-          // dullnesss22("en-US"""),
         ],
       ),
     );

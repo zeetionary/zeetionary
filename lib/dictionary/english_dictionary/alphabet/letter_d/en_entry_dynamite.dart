@@ -390,7 +390,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) شتێک کە ئەگەری ھەیە کاردانەوەی توندوتیژی لێبکەوێتەوە یان کێشەی زۆر درووست بکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Don’t mention the war—it’s political dynamite.""",
             kurdishText: """باسی جەنگەکە مەکە ـ بڤەیەکی سیاسییە.""",
@@ -407,7 +406,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) لەناوبردنی شتێک بە دینامیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The rebels had dynamited the railway line.""",
             kurdishText:
@@ -415,42 +413,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdynamites4("en-GB"),
             onPressedAmerican: () => speakdynamites4("en-US"),
           ),
-          // dynamites500
-          // dynamites5("en-US"""),
-          // dynamites600
-          // dynamites6("en-US"""),
-          // dynamites700
-          // dynamites7("en-US"""),
-          // dynamites800
-          // dynamites8("en-US"""),
-          // dynamites900
-          // dynamites9("en-US"""),
-          // dynamites_1000
-          // dynamites10("en-US"""),
-          // dynamites1100
-          // dynamites11("en-US"""),
-          // dynamites1200
-          // dynamites12("en-US"""),
-          // dynamites1300
-          // dynamites13("en-US"""),
-          // dynamites1400
-          // dynamites14("en-US"""),
-          // dynamites1500
-          // dynamites15("en-US"""),
-          // dynamites1600
-          // dynamites16("en-US"""),
-          // dynamites1700
-          // dynamites17("en-US"""),
-          // dynamites1800
-          // dynamites18("en-US"""),
-          // dynamites1900
-          // dynamites19("en-US"""),
-          // dynamites_2000
-          // dynamites20("en-US"""),
-          // dynamites2100
-          // dynamites21("en-US"""),
-          // dynamites2200
-          // dynamites22("en-US"""),
         ],
       ),
     );

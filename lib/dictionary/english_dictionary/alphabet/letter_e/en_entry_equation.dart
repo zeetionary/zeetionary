@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Money also comes into the equation.""");
   }
 
-// With short examples define "equation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -439,7 +439,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) وەستان لەوەی کە بیربکەیتەوە کەسێک/شتێک ڕەنگە بەرپرس بێت بۆ شتێک یان ھەڵببژێردرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The police have eliminated two suspects from their investigation.""",
@@ -459,7 +458,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) تێکشکاندنی تیمێک یان کەسێک بەشێوەیەک کە چی دیکە بەژداری ڕکابەرییەک نەکەن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """All the English teams were eliminated in the early stages of the competition.""",
@@ -478,105 +476,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) کوشتنی کەسێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Most of the regime's opponents were eliminated.""",
             kurdishText: """زۆرێک لە دژبەرانی ڕژێمەکە کوژران.""",
             onPressedBritish: () => speakeliminates8("en-GB"),
             onPressedAmerican: () => speakeliminates8("en-US"),
           ),
-          // eliminates900eliminates9
-          // speakeliminates9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates_1000eliminates10
-          // speakeliminates10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1100eliminates11
-          // speakeliminates11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1200eliminates12
-          // speakeliminates12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1300eliminates13
-          // speakeliminates13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1400eliminates14
-          // speakeliminates14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1500eliminates15
-          // speakeliminates15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1600eliminates16
-          // speakeliminates16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1700eliminates17
-          // speakeliminates17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1800eliminates18
-          // speakeliminates18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates1900eliminates19
-          // speakeliminates19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates_2000eliminates20
-          // speakeliminates20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates2100eliminates21
-          // speakeliminates21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eliminates2200eliminateseliminates
         ],
       ),
     );

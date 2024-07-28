@@ -281,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
         """The book contains a highly explicit description of torture.""");
   }
 
-// With short examples define "explicit", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

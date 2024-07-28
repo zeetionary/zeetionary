@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The entire process takes less than 15 minutes.""");
   }
 
-// With short examples define "entire", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

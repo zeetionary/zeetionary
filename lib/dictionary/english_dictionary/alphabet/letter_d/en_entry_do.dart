@@ -961,7 +961,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ڕەفتارکردن یان ھەنگاونان بەو شێوەیەی کە باسکراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Do as you're told!",
             kurdishText: "ئەوە بکە کە پێت گوتراوە.",
@@ -988,7 +987,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بەکاردێت بۆ قسەکردن یان پرسین لەسەر سەرکەوتن یان بەرەوپێشچوونی کەسێک/شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "How is the business doing?",
             kurdishText: "بازرگانییەکە چۆن دەڕوات؟",
@@ -1029,7 +1027,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ئەنجامدانی چالاکییەک یان ئەرکێک، یان کارکردن تێیدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm doing some research on the subject.",
             kurdishText: "ھەندێک توێژینەوە لەسەر بابەتەکە دەکەم.",
@@ -1053,7 +1050,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) ئەنجامدانی ئەو چالاکی یان ئەرکەی باسکراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I like listening to the radio when I'm doing the ironing.",
@@ -1079,7 +1075,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) لەگەڵ ناو بەکاردێت قسەکردن لەسەر ئەرکەکانی وەک پاککردنەوە، شۆردن، ڕێکخستن، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I like the way you've done your hair.",
             kurdishText: "حەزم بەو شێوەیە کە قژت داھێناوە.",
@@ -1106,7 +1101,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) کارکردن لە شتێکدا وەک پیشە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "What do you do (= what is your job)?",
             kurdishText: "چی کارەیت؟",
@@ -1136,7 +1130,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (کردار) فێربوون یان خوێندنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm doing physics, biology and chemistry.",
             kurdishText: "فیزیا، زیندەزانی، و کیمیا دەخوێنم.",
@@ -1152,7 +1145,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) دۆزینەوەی وەڵامی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I can't do this sum.",
             kurdishText: "ناتوانم ئەم کۆکردنەوەیە بکەم.",
@@ -1169,7 +1161,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٠. (کردار) بەرھەمھێنان یان درووستکردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Who's doing the food?",
             kurdishText: "کێ خواردنەکە ئامادە دەکات؟.",
@@ -1194,7 +1185,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) ئەوەی کە گونجاو یان بەس بێت بۆ کەسێک/شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "‘Can you lend me some money?’ ‘Sure—will £20 do?’",
             kurdishText:
@@ -1220,7 +1210,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٢. (کردار) ئەنجامدانی شانۆیەک یان ئۆپێرایەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The children are doing a play at the end of term.",
             kurdishText: "منداڵەکان لەکۆتایی وەرزەکە شانۆیەک ئەنجام دەدەن.",
@@ -1240,7 +1229,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٣. (کردار) لاسایی کردنەوەی کەسێک، بەتایبەتی بۆ ئەوەی کەسانی دیکە بخەیتە پێکەنین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Can you do a Welsh accent?",
             kurdishText: "دەتوانیت لاسایی ئەکسێنتی وێڵزی بکەیتەوە؟",
@@ -1249,7 +1237,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٤. (کردار) کۆتایی پێھێنانی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Sit there and wait till I'm done.",
             kurdishText: "لەوێ دابنیشە و چاوەڕێ بە تاوەکو تەواو دەبم.",
@@ -1273,7 +1260,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٥. (کردار) گەشتکردن بە مەودایەکی دیاریکراودا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "How many miles did you do during your tour?",
             kurdishText: "لە گەشتەکەتدا چەند میلت بڕی؟",
@@ -1290,7 +1276,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٦. (کردار) کۆتایی ھێنان بە ھەشتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We did the round trip in two hours.",
             kurdishText: "تەواوی گەشتەکەمان لە دوو کاتژمێردا کرد.",
@@ -1300,7 +1285,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٧. (کردار) ڕۆشتن یان گەشتن بە خێراییەکی دیاریکراو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The car was doing 90 miles an hour.",
             kurdishText: "ئۆتۆمبێلەکە لە ٩٠ میل لە کاتژمێرێکدا دەچوو.",
@@ -1320,7 +1304,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٩. (کردار) بەسەربردنی ماوەیەک بە کردنی شتێکەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She did a year at college, but then dropped out.",
             kurdishText: "ساڵێکی بە کلێژەوە بەسەربرد، بەڵام دواتر وازیھێان.",
@@ -1338,7 +1321,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢٠. (کردار) مامەڵەکردن لەگەڵ یان چوونە دەمی کەسێک/شتێکەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The hairdresser said she could do me (= cut my hair) at three.",
@@ -1348,7 +1330,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢١. (کردار) لێنانی خواردن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "How would you like your steak done?",
             kurdishText: "حەز دەکەیت پارچە گۆشتەکەت چۆن لێبنرێت؟",
@@ -1357,7 +1338,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢٢. (کردار) فێڵکردن لە کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "This isn't a genuine antique—you've been done.",
             kurdishText: "ئەمە ئەنتیکێکی ڕاستی نییە ـ خەڵەتێندراویت.",
@@ -1382,7 +1362,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢٤. (کردار) دزیکردن لە شوێنێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The gang did a warehouse and a supermarket.",
             kurdishText: "گرووپەکە کۆگایەک و سوپەرمارکێتێکیان بڕی.",
@@ -1392,7 +1371,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٥. (کردار) بەکارھێنانی مادەیەکی ھۆشبەر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He doesn't smoke, drink or do drugs.",
             kurdishText: "جگەرە ناکێشێت، ناخواتەوە، و مادەی ھۆشبەریش ناکێشێت.",
@@ -1401,7 +1379,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢٦. (کردار) ھەبوونی سێکس لەگەڵ "),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He bragged to his friends about doing her after the party.",
@@ -1414,7 +1391,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢٧. (کاری یاریدەدەر) لە پێش کردارێک بەکاردێت بۆ درووستکردنی ڕستەی نەرێ یان پرسیاری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I don't like fish.",
             kurdishText: "حەزم بە ماسی نییە.",
@@ -1438,7 +1414,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٨. (کاری یاریدەدەر) بەکاردێت بۆ درووستکردنی کلکە پرسیار"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You live in New York, don't you?",
             kurdishText: "لە نیویۆرک دەژیت، وانییە؟",
@@ -1456,7 +1431,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢٩. (کاری یاریدەدەر) بەکاردێت بۆ دوورکەوتنەوە لە بەکارھێنانەوەی کردارێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He plays better than he did a year ago.",
             kurdishText: "باشتر یاری دەکات وەک لەوەی ساڵێک پێش ئێستا دەیکرد.",
@@ -1481,7 +1455,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣٠. (کاری یاریدەدەر) کە کاری یاریدەدەر لە ڕستەیەکدا نییە، بەکاردێت بۆ جەختکردنەوە لەوەی کە دەیڵێیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He does look tired.",
             kurdishText: "ماندوو دیارە.",
@@ -1504,7 +1477,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣٢. (ناو) ئاھەنگێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Are you having a big do for your birthday?",
             kurdishText: "ئاھەنگێکی گەورەت دەبێت بۆ ڕۆژی لەدایکبوونت؟",
@@ -1520,7 +1492,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣٣. (ناو) شێوازی داھێنانی قژی کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I like your new do, Alex.",
             kurdishText: "حەزم بە قژ داھێنانە تازەکەتە، ئەلێکس.",
@@ -1529,18 +1500,11 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // "I like your new do, Alex."),
           // dos77
-          // dos7800"),
-          // dos79
-          // dos8000"),
-          // dos80
-          // dos8100"),
-          // dos81
-          // dos8200"),
-          // dos82
-          // dos8300"),
-          // dos83
-          // dos8400"),
-          // dos84("en-US"),
+          // dos78dos79
+          // dos80dos80
+          // dos81dos81
+          // dos82dos82
+          // dos83dos83
         ],
       ),
     );

@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The assumption involves considerable extrapolation.""");
   }
 
-// With short examples define "extrapolation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

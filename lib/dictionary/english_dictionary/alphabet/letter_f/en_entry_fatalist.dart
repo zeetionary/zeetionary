@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I'm a fatalist.""");
   }
 
-// With short examples define "fatalist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

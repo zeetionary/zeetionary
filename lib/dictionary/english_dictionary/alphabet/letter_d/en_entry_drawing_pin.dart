@@ -368,48 +368,26 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrawingpins1("en-GB"),
             onPressedAmerican: () => speakdrawingpins1("en-US"),
           ),
-          // drawingpins200"),
-          // drawingpins2
-          // drawingpins300"),
-          // drawingpins3
-          // drawingpins400"),
-          // drawingpins4
-          // drawingpins500"),
-          // drawingpins5
-          // drawingpins600"),
-          // drawingpins6
-          // drawingpins700"),
-          // drawingpins7
-          // drawingpins800"),
-          // drawingpins8
-          // drawingpins900"),
-          // drawingpins9
-          // drawingpins_1000"),
-          // drawingpins10
-          // drawingpins1100"),
-          // drawingpins11
-          // drawingpins1200"),
-          // drawingpins12
-          // drawingpins1300"),
-          // drawingpins13
-          // drawingpins1400"),
-          // drawingpins14
-          // drawingpins1500"),
-          // drawingpins15
-          // drawingpins1600"),
-          // drawingpins16
-          // drawingpins1700"),
-          // drawingpins17
-          // drawingpins1800"),
-          // drawingpins18
-          // drawingpins1900"),
-          // drawingpins19
-          // drawingpins_2000"),
-          // drawingpins20
-          // drawingpins2100"),
-          // drawingpins21
-          // drawingpins2200"),
-          // drawingpins22("en-US"),
+          // drawingpins2drawingpins2
+          // drawingpins3drawingpins3
+          // drawingpins4drawingpins4
+          // drawingpins5drawingpins5
+          // drawingpins6drawingpins6
+          // drawingpins7drawingpins7
+          // drawingpins8drawingpins8
+          // drawingpins9drawingpins9
+          // drawingpins_10drawingpins10
+          // drawingpins11drawingpins11
+          // drawingpins12drawingpins12
+          // drawingpins13drawingpins13
+          // drawingpins14drawingpins14
+          // drawingpins15drawingpins15
+          // drawingpins16drawingpins16
+          // drawingpins17drawingpins17
+          // drawingpins18drawingpins18
+          // drawingpins19drawingpins19
+          // drawingpins_20drawingpins20
+          // drawingpins21drawingpins21
         ],
       ),
     );

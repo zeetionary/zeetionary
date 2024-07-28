@@ -95,8 +95,7 @@ class EnglishEntrybackwater extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backwater"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backwater"),
                             // divvviiider
                           ],
                         ),

@@ -379,7 +379,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شێواندنی ڕاستی، بیرۆکە، ھتد کە وادەکات شتێک چی دیکە ڕاست نەبێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "His views are represented here without distortion or exaggeration.",
@@ -387,46 +386,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistortions2("en-GB"),
             onPressedAmerican: () => speakdistortions2("en-US"),
           ),
-          // distortions300"),
-          // distortions3
-          // distortions400"),
-          // distortions4
-          // distortions500"),
-          // distortions5
-          // distortions600"),
-          // distortions6
-          // distortions700"),
-          // distortions7
-          // distortions800"),
-          // distortions8
-          // distortions900"),
-          // distortions9
-          // distortions_1000"),
-          // distortions10
-          // distortions1100"),
-          // distortions11
-          // distortions1200"),
-          // distortions12
-          // distortions1300"),
-          // distortions13
-          // distortions1400"),
-          // distortions14
-          // distortions1500"),
-          // distortions15
-          // distortions1600"),
-          // distortions16
-          // distortions1700"),
-          // distortions17
-          // distortions1800"),
-          // distortions18
-          // distortions1900"),
-          // distortions19
-          // distortions_2000"),
-          // distortions20
-          // distortions2100"),
-          // distortions21
-          // distortions2200"),
-          // distortions22("en-US"),
+          // distortions3distortions3
+          // distortions4distortions4
+          // distortions5distortions5
+          // distortions6distortions6
+          // distortions7distortions7
+          // distortions8distortions8
+          // distortions9distortions9
+          // distortions_10distortions10
+          // distortions11distortions11
+          // distortions12distortions12
+          // distortions13distortions13
+          // distortions14distortions14
+          // distortions15distortions15
+          // distortions16distortions16
+          // distortions17distortions17
+          // distortions18distortions18
+          // distortions19distortions19
+          // distortions_20distortions20
+          // distortions21distortions21
         ],
       ),
     );

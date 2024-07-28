@@ -381,26 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectricchairs2("en-GB"),
             onPressedAmerican: () => speakelectricchairs2("en-US"),
           ),
-          // electricchairs300electricchairs3
-          // electricchairs400electricchairs4
-          // electricchairs500electricchairs5
-          // electricchairs600electricchairs6
-          // electricchairs700electricchairs7
-          // electricchairs800electricchairs8
-          // electricchairs900electricchairs9
-          // electricchairs_1000electricchairs10
-          // electricchairs1100electricchairs11
-          // electricchairs1200electricchairs12
-          // electricchairs1300electricchairs13
-          // electricchairs1400electricchairs14
-          // electricchairs1500electricchairs15
-          // electricchairs1600electricchairs16
-          // electricchairs1700electricchairs17
-          // electricchairs1800electricchairs18
-          // electricchairs1900electricchairs19
-          // electricchairs_2000electricchairs20
-          // electricchairs2100electricchairs21
-          // electricchairs2200electricchairselectricchairs
         ],
       ),
     );

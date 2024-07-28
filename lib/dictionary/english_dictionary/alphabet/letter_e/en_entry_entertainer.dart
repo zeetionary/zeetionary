@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         """Although her acting skills were limited, she was a great entertainer.""");
   }
 
-// With short examples define "entertainer", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

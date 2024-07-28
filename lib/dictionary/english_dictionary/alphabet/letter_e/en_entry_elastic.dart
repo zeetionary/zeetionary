@@ -403,7 +403,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە لە لاستیک درووستکراوە؛ کە دەکرێت کێشی بێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """A lot of sportswear is made of very elastic material.""",
@@ -413,7 +412,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە دەکرێت بگۆڕدرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The demand for the product is elastic.""",
             kurdishText: """ئەڵماسی بەرھەمەکە بگۆڕە.""",
@@ -427,22 +425,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelastics5("en-GB"),
             onPressedAmerican: () => speakelastics5("en-US"),
           ),
-          // elastics600elastics6
-          // elastics700elastics7
-          // elastics800elastics8
-          // elastics900elastics9
-          // elastics_1000elastics10
-          // elastics1100elastics11
-          // elastics1200elastics12
-          // elastics1300elastics13
-          // elastics1400elastics14
-          // elastics1500elastics15
-          // elastics1600elastics16
-          // elastics1700elastics17
-          // elastics1800elastics18
-          // elastics1900elastics19
-          // elastics_2000elastics20
-          // elastics2100elastics21
           // elastics2200elasticselastics
         ],
       ),

@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The ship sank in 20 fathoms.""");
   }
 
-// With short examples define "fathom", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

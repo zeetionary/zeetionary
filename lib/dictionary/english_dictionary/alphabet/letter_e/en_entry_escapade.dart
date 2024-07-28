@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """The people who planned the escapade did not realize what they were getting involved in.""");
   }
 
-// With short examples define "escapade", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

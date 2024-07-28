@@ -258,7 +258,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She is an engineering student at the university.""");
   }
 
-// With short examples define "engineering", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -267,7 +266,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(
               text:

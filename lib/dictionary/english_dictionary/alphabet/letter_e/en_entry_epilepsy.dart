@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She can't drive because she suffers from/has epilepsy.""");
   }
 
-// With short examples define "epilepsy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -309,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I repeated the question and waited for her to expand.""");
   }
 
-// With short examples define "expand", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -318,7 +317,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(
               text:

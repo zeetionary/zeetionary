@@ -444,7 +444,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) داوایەکی نووسراو بۆ بانکێک کە پارە بە کەسیک بدات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Payment must be made by bank draft drawn on a UK bank.",
@@ -491,7 +490,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) نووسینی یەکەم بەرنووسی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'll draft a letter for you.",
             kurdishText: "یەکەم بەرنووسی نامەیەکت بۆ دەنووسم.",
@@ -509,7 +507,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ھەڵبژاردنی خەڵکی ناردنیان بۆ ئەرکێکی تایبەت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Extra police are being drafted in to control the crowds.",
@@ -520,39 +517,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) فەرمانکردن بە خەڵکی بۆ چوون بۆ خزمەتی سەربازی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They were drafted into the army.",
             kurdishText: "پەلکێشی سوپا کران.",
             onPressedBritish: () => speakdrafts9("en-GB"),
             onPressedAmerican: () => speakdrafts9("en-US"),
           ),
-          // drafts_1000"),
-          // drafts10("en-US"),
-          // drafts1100"),
-          // drafts11("en-US"),
-          // drafts1200"),
-          // drafts12("en-US"),
-          // drafts1300"),
-          // drafts13("en-US"),
-          // drafts1400"),
-          // drafts14("en-US"),
-          // drafts1500"),
-          // drafts15("en-US"),
-          // drafts1600"),
-          // drafts16("en-US"),
-          // drafts1700"),
-          // drafts17("en-US"),
-          // drafts1800"),
-          // drafts18("en-US"),
-          // drafts1900"),
-          // drafts19("en-US"),
-          // drafts_2000"),
-          // drafts20("en-US"),
-          // drafts2100"),
-          // drafts21("en-US"),
-          // drafts2200"),
-          // drafts22("en-US"),
         ],
       ),
     );

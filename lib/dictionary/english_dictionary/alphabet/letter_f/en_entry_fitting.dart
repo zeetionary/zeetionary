@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گونجاو، لەبار، شیاو، باش، بەجێ، کەل‌وپەل، شت‌ومەک، کەرەسە، ئەسپاپ، شت‌ومەکی نێوماڵ
 """),
-// With short examples define "fitting", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) گونجاو بۆ بۆنەیەکی دیاریکراو"""),
                     SentencesRow(
@@ -322,7 +321,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 882;
 const String _videoIdone = 'XnbCSboujF4';

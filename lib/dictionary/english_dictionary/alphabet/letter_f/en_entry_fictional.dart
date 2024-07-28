@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەیاڵی، ئەندێشەیی، چیرۆک‌ئاسا، ناڕاست(ەقینە)، داستانی، ئەفسانەیی
 """),
-// With short examples define "fictional", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە ڕاست نییە و خەیاڵییە"""),
                     SentencesRow(
@@ -230,7 +229,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_GFkHA5EZdE';
 const double _startSecondsend = 201;
 const String _videoIdone = 'RpeYKjzN4HU';

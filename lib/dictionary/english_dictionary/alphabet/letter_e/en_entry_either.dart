@@ -491,7 +491,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (دیارخەر، جێناو) دوو شت ھەردووکیان"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The offices on either side were empty.""",
             kurdishText: """ئۆفیسەکانی ھەردوولا بەتاڵ بوون.""",
@@ -509,7 +508,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) لە دوای ڕستەی نەرێ بەکاردێت بۆ گوتنی 'ھەروەھا'"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Pete can't go and I can't either.""",
             kurdishText: """پیت ناتوانێت بچێت و ھەروەھا منیش.""",
@@ -527,7 +525,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵکار) بۆ پیشاندانی دو ھەڵبژاردە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Well, I think she's either Czech or Slovak.""",
             kurdishText: """ھا، پێموایە یان چیکییە یان سلۆڤاکییە.""",
@@ -553,7 +550,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵکار) بۆ زیادکردنی زانیاریی زیادە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """I know a good Italian restaurant. It's not far from here, either.""",
@@ -562,63 +558,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeithers13("en-GB"),
             onPressedAmerican: () => speakeithers13("en-US"),
           ),
-          // eithers1400eithers14
-          // speakeithers14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers1500eithers15
-          // speakeithers15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers1600eithers16
-          // speakeithers16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers1700eithers17
-          // speakeithers17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers1800eithers18
-          // speakeithers18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers1900eithers19
-          // speakeithers19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers_2000eithers20
-          // speakeithers20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers2100eithers21
-          // speakeithers21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eithers2200eitherseithers
+          // speakeithers21eithers2200eitherseithers
         ],
       ),
     );

@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سستی، لاوازی، بێ‌ھێزی، بێ‌گیانی، بێ‌بنگەیی،	لاوازی یان سستی ئاکاری،	زووشکاوی، ناسکی، ھەڵپەڕیوی، تورتی، قرپی،	ناتەواوی، کەمی
 """),
-// With short examples define "frailty", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) لاوازی و ناتەندرووستی"""),
                     SentencesRow(
@@ -249,7 +248,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'bl9DuMLr9k8';
 const double _startSecondsend = 197;
 const String _videoIdone = 'z3uvnwBMTdY';

@@ -99,9 +99,7 @@ class EnglishEntryacuteaccent extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           KurdishVocabulary(text: """
 کوردی: زەبر یان ھێزی سووک، نیشانەیێ (´) لەسەر بزوێنێ کە دەبێ گۆ بکرێ، وەکوو e لە وشەکانی fiancé یان café دا

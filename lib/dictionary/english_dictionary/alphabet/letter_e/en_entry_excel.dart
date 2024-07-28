@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
         """The British team have excelled themselves this year to reach the finals.""");
   }
 
-// With short examples define "excel", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

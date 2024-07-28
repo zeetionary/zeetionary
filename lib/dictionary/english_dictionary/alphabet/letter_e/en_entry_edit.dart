@@ -422,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ئامادەکردنی نووسینێک، کتێبێک، ھتد بۆ بڵاوکردنەوە بە چاککردنەوەی ھەڵەکانی و باشترکردنی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """This draft text will need to be edited.""",
             kurdishText: """ئەم نووسینە بەرنووسە پێویستی بە دەستکاری ھەیە.""",
@@ -448,7 +447,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) دەستکاری نووسین و زانیاری لەسەر شاشەیەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """You can download the file and edit it on your computer.""",
@@ -461,7 +459,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) دەستکاریکردنی فیلمێک، پڕۆگرامێکی تەلەفیزیۆنی؛ بڕیاردانی ئەوەی چی لەوە پیشان بدرێت کە تۆمارکراوە و بە چی ڕیزبەندییەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The movie's 129 minutes were edited down from 150 hours of footage.""",
@@ -474,7 +471,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ئامادەکردنی کتێبێک بۆ بڵاوکردنەوە بە کۆکردنەوە و ڕێکخستنی ژمارەیەک نووسین یەک نووسەر یان زیاتر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He's editing a book of essays by Isaiah Berlin.""",
             kurdishText: """کتێبێکی وتارەکانی ئیزایا بەرلین ئامادە دەکات.""",
@@ -485,105 +481,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (کردار) بوون بە بەرپرسی پلاندانان و بڵاوکەرەوەی ڕۆژنامەیەک، گۆڤارێک، ھتد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She used to edit a women's magazine.""",
             kurdishText: """جاران نووسەری گۆڤارێکی ژنان بوو.""",
             onPressedBritish: () => speakedits8("en-GB"),
             onPressedAmerican: () => speakedits8("en-US"),
           ),
-          // edits900edits9
-          // speakedits9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits_1000edits10
-          // speakedits10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1100edits11
-          // speakedits11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1200edits12
-          // speakedits12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1300edits13
-          // speakedits13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1400edits14
-          // speakedits14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1500edits15
-          // speakedits15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1600edits16
-          // speakedits16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1700edits17
-          // speakedits17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1800edits18
-          // speakedits18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits1900edits19
-          // speakedits19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits_2000edits20
-          // speakedits20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits2100edits21
-          // speakedits21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // edits2200editsedits
         ],
       ),
     );

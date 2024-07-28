@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) کەم‌کەم فراوانبوون بەسەر ناوچەیەکدا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The growing town soon encroached on the surrounding countryside.""",

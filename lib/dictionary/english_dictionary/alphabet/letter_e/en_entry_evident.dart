@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""It was evident to me that the mission would fail.""");
   }
 
-// With short examples define "evident", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

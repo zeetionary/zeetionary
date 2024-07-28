@@ -525,10 +525,8 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) خواردنەوەی کحوولی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They went for a drink together.",
             kurdishText: "پێکەوە چوون بۆ خواردنەوەیەک.",
@@ -558,7 +556,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) بۆنەیەکی خواردنەوەی کحوولی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Would you like to come for drinks on Sunday?",
             kurdishText: "دەتەوێت یەکشەممە بێیت بۆ خواردنەوە؟",
@@ -567,7 +564,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) خواردنەوەی شتێکی شلە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I don't drink coffee.",
             kurdishText: "قاوە ناخۆمەوە.",
@@ -597,7 +593,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) خواردنەوەی مادەی کحوولی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He doesn't drink.",
             kurdishText: "ناخواتەوە.",
@@ -626,14 +621,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrinks18("en-GB"),
             onPressedAmerican: () => speakdrinks18("en-US"),
           ),
-          // drinks1900"),
-          // drinks19("en-US"),
-          // drinks_2000"),
-          // drinks20("en-US"),
-          // drinks2100"),
-          // drinks21("en-US"),
-          // drinks2200"),
-          // drinks22("en-US"),
         ],
       ),
     );

@@ -352,7 +352,6 @@ class KurdishMeaning extends StatelessWidget {
         """These emails are still circulating, as evidenced by my receiving one just this morning.""");
   }
 
-// With short examples define "evidence", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

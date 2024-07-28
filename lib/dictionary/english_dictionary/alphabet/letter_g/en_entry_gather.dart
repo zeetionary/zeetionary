@@ -815,7 +815,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gather", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) کۆبوونەوە یان کۆکردنەوە"""),
                     SentencesRow(
@@ -1162,7 +1161,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
 const double _startSecondsend = 000000000000000000000000000696;
 const String _videoIdone = 'https://youtu.be/E2_kRmS6y8A?t=';

@@ -250,7 +250,6 @@ Usage: vulgar
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 46;
 const String _videoIdone = 'G-Wn48geCJ8';

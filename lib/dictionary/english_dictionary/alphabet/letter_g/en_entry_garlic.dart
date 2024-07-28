@@ -776,7 +776,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "garlic", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) سیر"""),
                     SentencesRow(
                       englishText:
@@ -1602,7 +1601,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/k3CE7EnAXR0?t=';
 const double _startSecondsend = 00000000000000000000000000060;
 const String _videoIdone = 'https://youtu.be/F3RGIBExjfE?t=';

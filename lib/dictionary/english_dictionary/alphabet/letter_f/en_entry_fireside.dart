@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گوێ‌ئاگردان، لای کوورە، پاڵ کوورە، تەنیشت کوورە
 """),
-// With short examples define "fireside", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو بەشەی ژوورێک کە لە تەنیشت ئاگردانە"""),
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qRLjB5LS_-g';
 const double _startSecondsend = 540;
 const String _videoIdone = 'f10-hSdykYQ';

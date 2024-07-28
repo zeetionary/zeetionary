@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The Mona Lisa has a famously enigmatic smile.""");
   }
 
-// With short examples define "enigmatic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

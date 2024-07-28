@@ -369,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
         """The school has established a reputation for academic excellence.0""");
   }
 
-// With short examples define "establish", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

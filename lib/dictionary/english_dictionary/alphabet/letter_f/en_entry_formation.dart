@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێکھێنان، گووران، دروس‌بوون، چێ‌بوون، ڕسکان، بن‌گیری، بن‌گیربوون، دامەزران، دامەزراندن، پێکھاتن، بنیات‌نان، دروست‌کردن، پێکەوەنان، ڕۆنان، داڕشتن، سازدانم	شێوە، بیچم،	ڕێکخستن،	(زەوی‌ناسی) چین‌چین‌بوون، چین‌بەندی، چینێتی
 """),
-// With short examples define "formation", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پێکھێنانی شتێک"""),
                     SentencesRow(
@@ -296,7 +295,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'AF8d72mA41M';
 const double _startSecondsend = 1154;
 const String _videoIdone = 'yRmOWcWdQAo';

@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""‘I warned you not to phone me,’ he said evenly.""");
   }
 
-// With short examples define "evenly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

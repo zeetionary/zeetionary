@@ -277,44 +277,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefenders3("en-GB"),
             onPressedAmerican: () => speakdefenders3("en-US"),
           ),
-          // defenders400"),
-          // defenders4
-          // defenders500"),
-          // defenders5
-          // defenders600"),
-          // defenders6
-          // defenders700"),
-          // defenders7
-          // defenders800"),
-          // defenders8
-          // defenders900"),
-          // defenders9
-          // defenders1000"),
-          // defenders10
-          // defenders1100"),
-          // defenders11
-          // defenders1200"),
-          // defenders12
-          // defenders1300"),
-          // defenders13
-          // defenders1400"),
-          // defenders14
-          // defenders1500"),
-          // defenders15
-          // defenders1600"),
-          // defenders16
-          // defenders1700"),
-          // defenders17
-          // defenders1800"),
-          // defenders18
-          // defenders1900"),
-          // defenders19
+          // defenders4defenders4
+          // defenders5defenders5
+          // defenders6defenders6
+          // defenders7defenders7
+          // defenders8defenders8
+          // defenders9defenders9
+          // defenders10defenders10
+          // defenders11defenders11
+          // defenders12defenders12
+          // defenders13defenders13
+          // defenders14defenders14
+          // defenders15defenders15
+          // defenders16defenders16
+          // defenders17defenders17
+          // defenders18defenders18
+          // defenders19defenders19
           // "She is a defender of women’s rights.0"),
           // defenders20
-          // defenders2100"),
-          // defenders21
-          // defenders2200"),
-          // defenders22("en-US"),
+          // defenders21defenders21
         ],
       ),
     );

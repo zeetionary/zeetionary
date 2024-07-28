@@ -394,7 +394,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) زیادکردنی وردەکاری بۆ چیرۆک کە وا دەکات سەرنجڕاکێش بێت، ئەگەرچی مەرج بییە ھەموو کات ڕاست بن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She laid out the facts without embellishment or exaggeration.""",
@@ -402,7 +401,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembellishments3("en-GB"),
             onPressedAmerican: () => speakembellishments3("en-US"),
           ),
-          // embellishments400embellishments4
           // speakembellishments
         ],
       ),

@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fleece", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) خوری مەڕ"""),
                     SentencesRow(
                       englishText:
@@ -277,7 +276,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'A5-8y0DgTC0';
 const double _startSecondsend = 584;
 const String _videoIdone = 'aTrtKikAW6E';

@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Scientific exactitude ensures reliable results.""");
   }
 
-// With short examples define "exactitude", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

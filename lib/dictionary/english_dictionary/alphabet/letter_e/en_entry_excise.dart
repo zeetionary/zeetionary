@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         """The excise (duty) on beer was increased under the last government.""");
   }
 
-// With short examples define "excise", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

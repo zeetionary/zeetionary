@@ -10,7 +10,8 @@ class EnglishEntryexceedingly extends StatefulWidget {
   const EnglishEntryexceedingly({super.key});
 
   @override
-  State<EnglishEntryexceedingly> createState() => _EnglishEntryexceedinglyState();
+  State<EnglishEntryexceedingly> createState() =>
+      _EnglishEntryexceedinglyState();
 }
 
 class _EnglishEntryexceedinglyState extends State<EnglishEntryexceedingly> {
@@ -241,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He was clever, handsome, and exceedingly rich.""");
   }
 
-// With short examples define "exceedingly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

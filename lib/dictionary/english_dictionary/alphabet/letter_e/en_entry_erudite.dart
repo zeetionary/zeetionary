@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """She could turn any conversation into an erudite discussion.""");
   }
 
-// With short examples define "erudite", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

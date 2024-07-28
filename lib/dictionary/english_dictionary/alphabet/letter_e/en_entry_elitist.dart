@@ -384,7 +384,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) ھەستکردن بەوەی باشتریت چونکە بەشێکی لە کەمینەیەکی باڵادەست"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She accused him of being elitist.""",
             kurdishText: """بە ئیلیتیست تۆمەتباری کرد.""",
@@ -395,7 +394,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک کە پێی وایە لە کەسانی دیکە باشترە چونکە سەر بە کەمینەیەکی باڵادەستە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She rejected suggestions that she and her husband were elitists, out of touch with working men and women.""",
@@ -404,24 +402,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelitists3("en-GB"),
             onPressedAmerican: () => speakelitists3("en-US"),
           ),
-          // elitists400elitists4
-          // elitists500elitists5
-          // elitists600elitists6
-          // elitists700elitists7
-          // elitists800elitists8
-          // elitists900elitists9
-          // elitists_1000elitists10
-          // elitists1100elitists11
-          // elitists1200elitists12
-          // elitists1300elitists13
-          // elitists1400elitists14
-          // elitists1500elitists15
-          // elitists1600elitists16
-          // elitists1700elitists17
-          // elitists1800elitists18
-          // elitists1900elitists19
-          // elitists_2000elitists20
-          // elitists2100elitists21
           // elitists2200elitistselitists
         ],
       ),

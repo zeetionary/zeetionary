@@ -431,7 +431,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) جۆرێکی دیاریکراو لە فێرکردن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The council has launched a new health education campaign.""",
@@ -453,7 +452,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) ئەو دامەزراوە و کەسانەی بەرپرسی پەروەردە و فێرکردنن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """There should be closer links between education and industry.""",
@@ -466,14 +464,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) بابەتی چۆنیەتی ئەنجامدانی پەروەردە و فێرکردن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He has a degree in education.""",
             kurdishText: """بڕوانامەی لە پەروەردەدا ھەیە.""",
             onPressedBritish: () => speakeducations7("en-GB"),
             onPressedAmerican: () => speakeducations7("en-US"),
           ),
-          // educations800educations8
           // speakeducations
         ],
       ),

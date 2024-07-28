@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Police had to evict demonstrators from the building.""");
   }
 
-// With short examples define "evict", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -295,7 +295,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) نەبینینی شتێک وەک ئەوەی گرنگ بێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her dismissal of the threats seemed irresponsible.",
             kurdishText: "لەبەرچاونەگرتنی ھەڕەشەکان نابەرپرسانە دیاربوو.",
@@ -315,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کۆتایی ھێنان بە کەیسێکی دادگا بەھۆی ئەوەی بەڵگەی تەواو نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The judge ordered the dismissal of the case due to insufficient evidence.",
@@ -324,38 +322,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdismissals6("en-GB"),
             onPressedAmerican: () => speakdismissals6("en-US"),
           ),
-          // dismissals700"),
-          // dismissals7
-          // dismissals800"),
-          // dismissals8
-          // dismissals900"),
-          // dismissals9
-          // dismissals_1000"),
-          // dismissals10
-          // dismissals1100"),
-          // dismissals11
-          // dismissals1200"),
-          // dismissals12
-          // dismissals1300"),
-          // dismissals13
-          // dismissals1400"),
-          // dismissals14
-          // dismissals1500"),
-          // dismissals15
-          // dismissals1600"),
-          // dismissals16
-          // dismissals1700"),
-          // dismissals17
-          // dismissals1800"),
-          // dismissals18
-          // dismissals1900"),
-          // dismissals19
-          // dismissals_2000"),
-          // dismissals20
-          // dismissals2100"),
-          // dismissals21
-          // dismissals2200"),
-          // dismissals22("en-US"),
+          // dismissals7dismissals7
+          // dismissals8dismissals8
+          // dismissals9dismissals9
+          // dismissals_10dismissals10
+          // dismissals11dismissals11
+          // dismissals12dismissals12
+          // dismissals13dismissals13
+          // dismissals14dismissals14
+          // dismissals15dismissals15
+          // dismissals16dismissals16
+          // dismissals17dismissals17
+          // dismissals18dismissals18
+          // dismissals19dismissals19
+          // dismissals_20dismissals20
+          // dismissals21dismissals21
         ],
       ),
     );

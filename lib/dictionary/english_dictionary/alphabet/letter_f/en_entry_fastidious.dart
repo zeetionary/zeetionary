@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """The child seemed fastidious about getting her fingers dirty.""");
   }
 
-// With short examples define "fastidious", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

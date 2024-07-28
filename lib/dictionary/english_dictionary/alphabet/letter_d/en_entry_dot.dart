@@ -447,7 +447,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) خاڵێک لە ناوی وێبسایتێکدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "\"What's the web address?\" \"www dot cambridge dot org\".",
@@ -459,7 +458,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئەو ئاماژەیەی کۆدی مۆرس کە کورتترە لەوەی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Telegrams were sent using the complex dots and dashes of Morse code.",
@@ -470,7 +468,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دانانی خاڵێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Why do you never dot your i's?",
             kurdishText: "بۆچی ھەرگیز خاڵ ناخەیتە سەر پیتە i ــەکانت؟",
@@ -479,7 +476,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) بڵاوکردنەوە بە ناوچەیەکدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The countryside was dotted with small villages.",
             kurdishText: "دەشتەکە پڕبوو لە گوند.",
@@ -505,7 +501,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) دانانی بڕێکی کەم لە شتێک لە ژمارەیەک شوێن یان لەسەر ڕوویەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Dot your face with the cream.",
             englishNote: "Similar: Dot the cream all over your face.",
@@ -513,30 +508,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdots10("en-GB"),
             onPressedAmerican: () => speakdots10("en-US"),
           ),
-          // dots1100"),
-          // dots11("en-US"),
-          // dots1200"),
-          // dots12("en-US"),
-          // dots1300"),
-          // dots13("en-US"),
-          // dots1400"),
-          // dots14("en-US"),
-          // dots1500"),
-          // dots15("en-US"),
-          // dots1600"),
-          // dots16("en-US"),
-          // dots1700"),
-          // dots17("en-US"),
-          // dots1800"),
-          // dots18("en-US"),
-          // dots1900"),
-          // dots19("en-US"),
-          // dots_2000"),
-          // dots20("en-US"),
-          // dots2100"),
-          // dots21("en-US"),
-          // dots2200"),
-          // dots22("en-US"),
         ],
       ),
     );

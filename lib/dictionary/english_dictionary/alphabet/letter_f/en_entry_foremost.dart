@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناسراوترین، ناودارترین،	گرنگ‌ترین،	باش‌ترین، چاک‌ترین،	سەرەکی، بنچینەیی،	(لە)پێش‌ترین، لەپێشەوەترین، پێش‌تر لە ھەموو
 """),
-// With short examples define "foremost", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) گرنگترین یان بەناوبانگترین"""),
                     SentencesRow(
@@ -296,7 +295,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'D_Y18GEjfNY';
 const double _startSecondsend = 320;
 const String _videoIdone = '8HEfIJlcFbs';

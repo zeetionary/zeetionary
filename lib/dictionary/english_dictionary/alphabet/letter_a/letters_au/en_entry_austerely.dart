@@ -107,8 +107,7 @@ class EnglishEntryausterely extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "austerely"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "austerely"),
                             // divvviiider
                           ],
                         ),

@@ -383,46 +383,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdivergences2("en-GB"),
             onPressedAmerican: () => speakdivergences2("en-US"),
           ),
-          // divergences300"),
-          // divergences3
-          // divergences400"),
-          // divergences4
-          // divergences500"),
-          // divergences5
-          // divergences600"),
-          // divergences6
-          // divergences700"),
-          // divergences7
-          // divergences800"),
-          // divergences8
-          // divergences900"),
-          // divergences9
-          // divergences_1000"),
-          // divergences10
-          // divergences1100"),
-          // divergences11
-          // divergences1200"),
-          // divergences12
-          // divergences1300"),
-          // divergences13
-          // divergences1400"),
-          // divergences14
-          // divergences1500"),
-          // divergences15
-          // divergences1600"),
-          // divergences16
-          // divergences1700"),
-          // divergences17
-          // divergences1800"),
-          // divergences18
-          // divergences1900"),
-          // divergences19
-          // divergences_2000"),
-          // divergences20
-          // divergences2100"),
-          // divergences21
-          // divergences2200"),
-          // divergences22("en-US"),
+          // divergences3divergences3
+          // divergences4divergences4
+          // divergences5divergences5
+          // divergences6divergences6
+          // divergences7divergences7
+          // divergences8divergences8
+          // divergences9divergences9
+          // divergences_10divergences10
+          // divergences11divergences11
+          // divergences12divergences12
+          // divergences13divergences13
+          // divergences14divergences14
+          // divergences15divergences15
+          // divergences16divergences16
+          // divergences17divergences17
+          // divergences18divergences18
+          // divergences19divergences19
+          // divergences_20divergences20
+          // divergences21divergences21
         ],
       ),
     );

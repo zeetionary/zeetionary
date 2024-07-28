@@ -326,7 +326,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They handed over the weapons as a gesture of good faith.""");
   }
 
-// With short examples define "faith", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

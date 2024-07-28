@@ -94,8 +94,7 @@ class EnglishEntrybail extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bail"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bail"),
                             // divvviiider
                           ],
                         ),

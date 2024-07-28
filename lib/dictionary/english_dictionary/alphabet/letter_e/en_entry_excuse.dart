@@ -421,7 +421,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She was excused from giving evidence because of her age.""");
   }
 
-// With short examples define "excuse", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

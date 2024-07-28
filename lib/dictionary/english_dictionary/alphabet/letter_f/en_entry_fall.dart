@@ -683,7 +683,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The falls upstream are full of salmon.""");
   }
 
-// With short examples define "fall", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

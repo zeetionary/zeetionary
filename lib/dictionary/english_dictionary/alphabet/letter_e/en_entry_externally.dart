@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """The university has many externally funded research projects.""");
   }
 
-// With short examples define "externally", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

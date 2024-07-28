@@ -95,9 +95,7 @@ class EnglishEntrybalancesheet extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "balance sheet"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "balance sheet"),
                             // divvviiider
                           ],
                         ),

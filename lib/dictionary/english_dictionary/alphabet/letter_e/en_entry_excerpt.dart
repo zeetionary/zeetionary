@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The document was excerpted from an unidentified FBI file.""");
   }
 
-// With short examples define "excerpt", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

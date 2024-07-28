@@ -475,7 +475,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) کە دەزاندرێن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """No new evidence emerged during the investigation.""",
@@ -511,7 +510,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) دەستکردن بە ھەبوون"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """After the elections opposition groups began to emerge.""",
@@ -538,7 +536,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (کردار) ڕزگاربوون لە دۆخێک یان ئەزموونێکی سەخت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She emerged from the scandal with her reputation intact.""",
@@ -554,63 +551,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemerges13("en-GB"),
             onPressedAmerican: () => speakemerges13("en-US"),
           ),
-          // emerges1400emerges14
-          // speakemerges14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges1500emerges15
-          // speakemerges15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges1600emerges16
-          // speakemerges16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges1700emerges17
-          // speakemerges17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges1800emerges18
-          // speakemerges18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges1900emerges19
-          // speakemerges19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges_2000emerges20
-          // speakemerges20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges2100emerges21
-          // speakemerges21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emerges2200emergesemerges
+          // speakemerges21emerges2200emergesemerges
         ],
       ),
     );

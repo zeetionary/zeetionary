@@ -404,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وتاری سەرنووسەر سەبارەت بە بۆچوونەکانی لەسەر بابەتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He declared his support for the president in an editorial.""",
@@ -421,23 +420,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeditorials4("en-GB"),
             onPressedAmerican: () => speakeditorials4("en-US"),
           ),
-          // editorials500editorials5
-          // editorials600editorials6
-          // editorials700editorials7
-          // editorials800editorials8
-          // editorials900editorials9
-          // editorials_1000editorials10
-          // editorials1100editorials11
-          // editorials1200editorials12
-          // editorials1300editorials13
-          // editorials1400editorials14
-          // editorials1500editorials15
-          // editorials1600editorials16
-          // editorials1700editorials17
-          // editorials1800editorials18
-          // editorials1900editorials19
-          // editorials_2000editorials20
-          // editorials2100editorials21
           // editorials2200editorialseditorials
         ],
       ),

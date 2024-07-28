@@ -95,8 +95,7 @@ class EnglishEntrybadger extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "badger"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "badger"),
                             // divvviiider
                           ],
                         ),

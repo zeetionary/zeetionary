@@ -388,31 +388,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کاری گوڵ‌چنی بەم شێوەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I'm not very good at embroidery.""",
             kurdishText: """زۆر باش نیم لە گوڵ‌چنی.""",
             onPressedBritish: () => speakembroiderys3("en-GB"),
             onPressedAmerican: () => speakembroiderys3("en-US"),
           ),
-          // embroiderys400embroiderys4
-          // embroiderys500embroiderys5
-          // embroiderys600embroiderys6
-          // embroiderys700embroiderys7
-          // embroiderys800embroiderys8
-          // embroiderys900embroiderys9
-          // embroiderys_1000embroiderys10
-          // embroiderys1100embroiderys11
-          // embroiderys1200embroiderys12
-          // embroiderys1300embroiderys13
-          // embroiderys1400embroiderys14
-          // embroiderys1500embroiderys15
-          // embroiderys1600embroiderys16
-          // embroiderys1700embroiderys17
-          // embroiderys1800embroiderys18
-          // embroiderys1900embroiderys19
-          // embroiderys_2000embroiderys20
-          // embroiderys2100embroiderys21
           // embroiderys2200embroiderysembroiderys
         ],
       ),

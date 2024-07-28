@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Sophie's notebook is covered with stickers.""");
   }
 
-// With short examples define "notebook", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

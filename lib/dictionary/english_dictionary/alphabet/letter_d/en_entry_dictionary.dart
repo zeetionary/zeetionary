@@ -286,42 +286,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdictionarys4("en-GB"),
             onPressedAmerican: () => speakdictionarys4("en-US"),
           ),
-          // dictionarys500"),
-          // dictionarys5
-          // dictionarys600"),
-          // dictionarys6
-          // dictionarys700"),
-          // dictionarys7
-          // dictionarys800"),
-          // dictionarys8
-          // dictionarys900"),
-          // dictionarys9
-          // dictionarys_1000"),
-          // dictionarys10
-          // dictionarys1100"),
-          // dictionarys11
-          // dictionarys1200"),
-          // dictionarys12
-          // dictionarys1300"),
-          // dictionarys13
-          // dictionarys1400"),
-          // dictionarys14
-          // dictionarys1500"),
-          // dictionarys15
-          // dictionarys1600"),
-          // dictionarys16
-          // dictionarys1700"),
-          // dictionarys17
-          // dictionarys1800"),
-          // dictionarys18
-          // dictionarys1900"),
-          // dictionarys19
-          // dictionarys_2000"),
-          // dictionarys20
-          // dictionarys2100"),
-          // dictionarys21
-          // dictionarys2200"),
-          // dictionarys22("en-US"),
+          // dictionarys5dictionarys5
+          // dictionarys6dictionarys6
+          // dictionarys7dictionarys7
+          // dictionarys8dictionarys8
+          // dictionarys9dictionarys9
+          // dictionarys_10dictionarys10
+          // dictionarys11dictionarys11
+          // dictionarys12dictionarys12
+          // dictionarys13dictionarys13
+          // dictionarys14dictionarys14
+          // dictionarys15dictionarys15
+          // dictionarys16dictionarys16
+          // dictionarys17dictionarys17
+          // dictionarys18dictionarys18
+          // dictionarys19dictionarys19
+          // dictionarys_20dictionarys20
+          // dictionarys21dictionarys21
         ],
       ),
     );

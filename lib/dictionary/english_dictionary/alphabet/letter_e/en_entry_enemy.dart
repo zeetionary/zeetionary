@@ -292,8 +292,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Poverty and ignorance are the enemies of progress.""");
   }
 
-// With short examples define "enemy", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

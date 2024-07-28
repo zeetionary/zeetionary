@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I couldn't read the address on the envelope.""");
   }
 
-// With short examples define "envelope", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

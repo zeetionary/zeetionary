@@ -772,7 +772,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بریقەدارانە، بە ئاڵاو واڵاوە
 """),
-// With short examples define "gaudily", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText:
@@ -1596,7 +1595,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/DF-93e26uys?t=';
 const double _startSecondsend = 000000000000000000000000000433;
 const String _videoIdone = 'https://youtu.be/wE8Ks1hCWBw?t=';

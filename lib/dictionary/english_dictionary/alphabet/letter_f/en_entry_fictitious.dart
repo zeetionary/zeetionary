@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناڕاست، ناڕاستەقینە، ئەندێشەیی، داھێنراو، ھەڵبەستە، خەیاڵی، خەیاڵکرد، 	واخۆپیشاندەرانە، درۆ، ھەڵبەستە 
 """),
-// With short examples define "fictitious", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە درووست کراوە و ڕاست نییە"""),
                     SentencesRow(
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'a_TSR_v07m0';
 const double _startSecondsend = 242;
 const String _videoIdone = 'anbBwpoI9TI';

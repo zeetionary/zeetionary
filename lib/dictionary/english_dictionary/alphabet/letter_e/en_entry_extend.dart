@@ -412,7 +412,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Jim didn't really have to extend himself in the exam.""");
   }
 
-// With short examples define "extend", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

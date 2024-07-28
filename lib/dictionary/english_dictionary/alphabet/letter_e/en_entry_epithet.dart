@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Racial epithets were scrawled on the walls.""");
   }
 
-// With short examples define "epithet", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

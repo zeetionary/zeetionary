@@ -341,7 +341,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) وەستان لە بوون"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The problem won't just disappear.",
             kurdishText: "کێشەکە ھەروا چارە نابێت.",
@@ -374,7 +373,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) ونبوون"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "I can never find a pen in this house. They disappear as soon as I buy them.",
@@ -403,33 +401,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) کوشتن یان ھێشتنەوەی کەسێک بەبێ دادگایی لە زیندان، بەزۆری بۆ ھۆکاری سیاسی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "One month later, he was disappeared by the regime.",
             kurdishText: "مانگێک دواتر لەلایەن ڕژێمەوە سەرنقووم کرا.",
             onPressedBritish: () => speakdisappears12("en-GB"),
             onPressedAmerican: () => speakdisappears12("en-US"),
           ),
-          // disappears1300"),
-          // disappears13("en-US"),
-          // disappears1400"),
-          // disappears14("en-US"),
-          // disappears1500"),
-          // disappears15("en-US"),
-          // disappears1600"),
-          // disappears16("en-US"),
-          // disappears1700"),
-          // disappears17("en-US"),
-          // disappears1800"),
-          // disappears18("en-US"),
-          // disappears1900"),
-          // disappears19("en-US"),
-          // disappears_2000"),
-          // disappears20("en-US"),
-          // disappears2100"),
-          // disappears21("en-US"),
-          // disappears2200"),
-          // disappears22("en-US"),
         ],
       ),
     );

@@ -190,7 +190,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دووکەڵ، ھەڵم، ھەڵم کردن، دووکەڵ کردن
 """),
-// With short examples define "fume", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) زۆر تووڕەبوون سەبارەت بە شتێک"""),
                     SentencesRow(
@@ -305,7 +304,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '1Gxrwh4zGPg';
 const double _startSecondsend = 375;
 const String _videoIdone = 'raSeaAeryWE';

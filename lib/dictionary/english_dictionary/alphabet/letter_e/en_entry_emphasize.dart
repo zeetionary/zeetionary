@@ -436,7 +436,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) واکردنی ئەوەی شتێک بە ئاسانی تێبینی بکرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The rising tone of his voice emphasized his panic.""",
@@ -448,7 +447,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) دانانی زەبرێک  لەسەر وشەیەک یان واژەیەک لە کاتی خوێندنەوە، بەتایبەتی بۆ پیشاندانی ئەوەی کە گرنگە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """You can use italics or capitals to emphasize a word in a piece of writing.""",
@@ -457,112 +455,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemphasizes6("en-GB"),
             onPressedAmerican: () => speakemphasizes6("en-US"),
           ),
-          // emphasizes700emphasizes7
-          // speakemphasizes7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes800emphasizes8
-          // speakemphasizes8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes900emphasizes9
-          // speakemphasizes9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes_1000emphasizes10
-          // speakemphasizes10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1100emphasizes11
-          // speakemphasizes11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1200emphasizes12
-          // speakemphasizes12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1300emphasizes13
-          // speakemphasizes13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1400emphasizes14
-          // speakemphasizes14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1500emphasizes15
-          // speakemphasizes15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1600emphasizes16
-          // speakemphasizes16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1700emphasizes17
-          // speakemphasizes17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1800emphasizes18
-          // speakemphasizes18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes1900emphasizes19
-          // speakemphasizes19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes_2000emphasizes20
-          // speakemphasizes20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes2100emphasizes21
-          // speakemphasizes21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // emphasizes2200emphasizesemphasizes
         ],
       ),
     );

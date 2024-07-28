@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەلەکە، خاڵێگە، پووتەگا، تەنیشت، برک، لاقەد، لاپاڵ، قەبرغە، نیڤ‌تەنگ (لەش)،	گۆشتی کەلەکە، تەڕاف،	لا، تەنیشت (خانوو)،	(سەربازی) باڵ، قۆڵ، باسک
 """),
-// With short examples define "flank", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لای شتێک، بۆ نموونە بینا یان شاخێک"""),
@@ -307,7 +306,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tsxmyL7TUJg';
 const double _startSecondsend = 1104;
 const String _videoIdone = 'zqllxbPWKNI';

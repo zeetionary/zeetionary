@@ -276,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I'm tired of your eternal arguments.""");
   }
 
-// With short examples define "eternal", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -423,7 +423,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەوەی کە ژمارەیەکی زۆر لە خەڵکی یان شت لەخۆدەگرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There is a need for greater diversity and choice in education.",
@@ -443,7 +442,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) لە خۆگرتنی ژمارەیەکی زۆر لە خەڵکی لە ئایین و نەتەوەی جیاوازەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "You're lucky to work for a company that values diversity.",
@@ -452,38 +450,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiversitys6("en-GB"),
             onPressedAmerican: () => speakdiversitys6("en-US"),
           ),
-          // diversitys700"),
-          // diversitys7
-          // diversitys800"),
-          // diversitys8
-          // diversitys900"),
-          // diversitys9
-          // diversitys_1000"),
-          // diversitys10
-          // diversitys1100"),
-          // diversitys11
-          // diversitys1200"),
-          // diversitys12
-          // diversitys1300"),
-          // diversitys13
-          // diversitys1400"),
-          // diversitys14
-          // diversitys1500"),
-          // diversitys15
-          // diversitys1600"),
-          // diversitys16
-          // diversitys1700"),
-          // diversitys17
-          // diversitys1800"),
-          // diversitys18
-          // diversitys1900"),
-          // diversitys19
-          // diversitys_2000"),
-          // diversitys20
-          // diversitys2100"),
-          // diversitys21
-          // diversitys2200"),
-          // diversitys22("en-US"),
+          // diversitys7diversitys7
+          // diversitys8diversitys8
+          // diversitys9diversitys9
+          // diversitys_10diversitys10
+          // diversitys11diversitys11
+          // diversitys12diversitys12
+          // diversitys13diversitys13
+          // diversitys14diversitys14
+          // diversitys15diversitys15
+          // diversitys16diversitys16
+          // diversitys17diversitys17
+          // diversitys18diversitys18
+          // diversitys19diversitys19
+          // diversitys_20diversitys20
+          // diversitys21diversitys21
         ],
       ),
     );

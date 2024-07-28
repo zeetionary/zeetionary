@@ -493,7 +493,6 @@ class KurdishMeaning extends StatelessWidget {
 
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) خاکی سەر زەوی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """After a week at sea, it was good to feel the earth beneath our feet again.""",
@@ -521,7 +520,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) ئەو مادانەی ڕووەک تێیدا گەشە دەکەن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I cleaned off the earth clinging to my boots.""",
             kurdishText: """ئەو خۆڵەم لێکردەوە کە نووسابوو بە پووتەکانمەوە.""",
@@ -559,7 +557,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) حەشارگەی ژێر زەوی ئاژەڵێک، بەتایبەتی ڕێوی"""),
-          // earths1400earths14
           // speakearths
         ],
       ),

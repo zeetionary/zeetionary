@@ -410,7 +410,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) مادەی وزەبەخش"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The athlete failed a dope test.",
             kurdishText:
@@ -420,7 +419,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێکی گەمژە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You shouldn't have told him, you dope!",
             kurdishText: "نەدەبوو پێت گوتبا، ھەی گەمژە!",
@@ -431,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) زانیاری لەسەر کەسێک/شتێک، بەتایبەتی کە بە گشتی نەزانراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Give me the dope on the new boss.",
             kurdishText: "وردەکارییەکانم لەسەر سەرپەرشتیارە تازەکە پێ بڵێ.",
@@ -441,7 +438,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) پێدانی مادەی وزەبەخش بە کەسێک یان ئاژەڵێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They were arrested for doping racehorses.",
             kurdishText: "دەستگیرکران بۆ وزەبەخشدان بە ئەسپەکان.",
@@ -452,7 +448,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) پێدانی دەرمان بە کەسێک یان ئاژەڵێک بۆ ئەوەی بێھۆش ببێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The wine was doped.",
             kurdishText: "شەرابەکە دەمانخوارد کرابوو.",
@@ -468,36 +463,20 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdopes7("en-GB"),
             onPressedAmerican: () => speakdopes7("en-US"),
           ),
-          // dopes800"),
-          // dopes8
-          // dopes900"),
-          // dopes9
-          // dopes_1000"),
-          // dopes10
-          // dopes1100"),
-          // dopes11
-          // dopes1200"),
-          // dopes12
-          // dopes1300"),
-          // dopes13
-          // dopes1400"),
-          // dopes14
-          // dopes1500"),
-          // dopes15
-          // dopes1600"),
-          // dopes16
-          // dopes1700"),
-          // dopes17
-          // dopes1800"),
-          // dopes18
-          // dopes1900"),
-          // dopes19
-          // dopes_2000"),
-          // dopes20
-          // dopes2100"),
-          // dopes21
-          // dopes2200"),
-          // dopes22("en-US"),
+          // dopes8dopes8
+          // dopes9dopes9
+          // dopes_10dopes10
+          // dopes11dopes11
+          // dopes12dopes12
+          // dopes13dopes13
+          // dopes14dopes14
+          // dopes15dopes15
+          // dopes16dopes16
+          // dopes17dopes17
+          // dopes18dopes18
+          // dopes19dopes19
+          // dopes_20dopes20
+          // dopes21dopes21
         ],
       ),
     );

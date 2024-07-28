@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The taxi drove her from the airport along featureless expressways.""");
   }
 
-// With short examples define "featureless", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

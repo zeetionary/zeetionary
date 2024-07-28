@@ -281,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) سیحر کردن لە کەسێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She enchanted the prince with her magic.""",
             kurdishText: """بە جادوو سیحریان لە شازادەکە کرد.""",

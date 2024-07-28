@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""An exorcist was called in to get rid of the ghost.""");
   }
 
-// With short examples define "exorcist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

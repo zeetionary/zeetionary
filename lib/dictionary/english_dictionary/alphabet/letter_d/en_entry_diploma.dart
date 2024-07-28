@@ -260,51 +260,30 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بڕوانامەی دیپلۆما"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The university awards diplomas in higher education.",
             kurdishText: "زانکۆکە دیپلۆما دەبەخشێت لە خوێندنی باڵادا.",
             onPressedBritish: () => speakdiplomas3("en-GB"),
             onPressedAmerican: () => speakdiplomas3("en-US"),
           ),
-          // diplomas400"),
-          // diplomas4
-          // diplomas500"),
-          // diplomas5
-          // diplomas600"),
-          // diplomas6
-          // diplomas700"),
-          // diplomas7
-          // diplomas800"),
-          // diplomas8
-          // diplomas900"),
-          // diplomas9
-          // diplomas_1000"),
-          // diplomas10
-          // diplomas1100"),
-          // diplomas11
-          // diplomas1200"),
-          // diplomas12
-          // diplomas1300"),
-          // diplomas13
-          // diplomas1400"),
-          // diplomas14
-          // diplomas1500"),
-          // diplomas15
-          // diplomas1600"),
-          // diplomas16
-          // diplomas1700"),
-          // diplomas17
-          // diplomas1800"),
-          // diplomas18
-          // diplomas1900"),
-          // diplomas19
-          // diplomas_2000"),
-          // diplomas20
-          // diplomas2100"),
-          // diplomas21
-          // diplomas2200"),
-          // diplomas22("en-US"),
+          // diplomas4diplomas4
+          // diplomas5diplomas5
+          // diplomas6diplomas6
+          // diplomas7diplomas7
+          // diplomas8diplomas8
+          // diplomas9diplomas9
+          // diplomas_10diplomas10
+          // diplomas11diplomas11
+          // diplomas12diplomas12
+          // diplomas13diplomas13
+          // diplomas14diplomas14
+          // diplomas15diplomas15
+          // diplomas16diplomas16
+          // diplomas17diplomas17
+          // diplomas18diplomas18
+          // diplomas19diplomas19
+          // diplomas_20diplomas20
+          // diplomas21diplomas21
         ],
       ),
     );

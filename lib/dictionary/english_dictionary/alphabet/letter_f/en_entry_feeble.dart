@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Don't be so feeble! Tell her you don't want to go.""");
   }
 
-// With short examples define "feeble", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

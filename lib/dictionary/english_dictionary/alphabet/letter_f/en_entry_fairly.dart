@@ -292,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Her attitude could fairly be described as hostile.""");
   }
 
-// With short examples define "fairly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

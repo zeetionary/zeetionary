@@ -380,26 +380,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakecclesiasticals2("en-GB"),
             onPressedAmerican: () => speakecclesiasticals2("en-US"),
           ),
-          // ecclesiasticals300ecclesiasticals3
-          // ecclesiasticals400ecclesiasticals4
-          // ecclesiasticals500ecclesiasticals5
-          // ecclesiasticals600ecclesiasticals6
-          // ecclesiasticals700ecclesiasticals7
-          // ecclesiasticals800ecclesiasticals8
-          // ecclesiasticals900ecclesiasticals9
-          // ecclesiasticals_1000ecclesiasticals10
-          // ecclesiasticals1100ecclesiasticals11
-          // ecclesiasticals1200ecclesiasticals12
-          // ecclesiasticals1300ecclesiasticals13
-          // ecclesiasticals1400ecclesiasticals14
-          // ecclesiasticals1500ecclesiasticals15
-          // ecclesiasticals1600ecclesiasticals16
-          // ecclesiasticals1700ecclesiasticals17
-          // ecclesiasticals1800ecclesiasticals18
-          // ecclesiasticals1900ecclesiasticals19
-          // ecclesiasticals_2000ecclesiasticals20
-          // ecclesiasticals2100ecclesiasticals21
-          // ecclesiasticals2200ecclesiasticalsecclesiasticals
         ],
       ),
     );

@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I've heard loads of good feedback about this site.""");
   }
 
-// With short examples define "feedback", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

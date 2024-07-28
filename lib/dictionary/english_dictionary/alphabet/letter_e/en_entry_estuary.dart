@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Fishing is popular in the Rance estuary.""");
   }
 
-// With short examples define "estuary", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

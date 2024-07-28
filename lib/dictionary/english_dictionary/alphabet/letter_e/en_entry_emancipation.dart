@@ -385,26 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemancipations2("en-GB"),
             onPressedAmerican: () => speakemancipations2("en-US"),
           ),
-          // emancipations300emancipations3
-          // emancipations400emancipations4
-          // emancipations500emancipations5
-          // emancipations600emancipations6
-          // emancipations700emancipations7
-          // emancipations800emancipations8
-          // emancipations900emancipations9
-          // emancipations_1000emancipations10
-          // emancipations1100emancipations11
-          // emancipations1200emancipations12
-          // emancipations1300emancipations13
-          // emancipations1400emancipations14
-          // emancipations1500emancipations15
-          // emancipations1600emancipations16
-          // emancipations1700emancipations17
-          // emancipations1800emancipations18
-          // emancipations1900emancipations19
-          // emancipations_2000emancipations20
-          // emancipations2100emancipations21
-          // emancipations2200emancipationsemancipations
         ],
       ),
     );

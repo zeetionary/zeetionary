@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He is a football fanatic who never misses a game.""");
   }
 
-// With short examples define "fanatic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

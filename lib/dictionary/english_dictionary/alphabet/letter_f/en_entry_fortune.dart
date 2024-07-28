@@ -225,7 +225,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەخت، شانس، چارەنووس، فاڵ، قسمەت،	خۆش‌بەختی، بەختیاری، بەختەوەری،	سەرکەوتن، ڕووداو، ڕێکەوت، پێش‌ھات، 	سامان، دەوڵەت، ماڵ، دارایی، پارەیەکی زۆر، لۆدە پارەیێ
 """),
-// With short examples define "fortune", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) پارەی زۆر"""),
                     SentencesRow(
                       englishText: """He made a fortune in real estate.""",
@@ -390,7 +389,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 420;
 const String _videoIdone = 'hS2x1zl4rn0';

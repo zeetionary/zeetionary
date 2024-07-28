@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """These species of weeds are stubbornly resistant to eradication.""");
   }
 
-// With short examples define "eradication", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

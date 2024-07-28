@@ -364,27 +364,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeiderdowns1("en-GB"),
             onPressedAmerican: () => speakeiderdowns1("en-US"),
           ),
-          // eiderdowns200eiderdowns2
-          // eiderdowns300eiderdowns3
-          // eiderdowns400eiderdowns4
-          // eiderdowns500eiderdowns5
-          // eiderdowns600eiderdowns6
-          // eiderdowns700eiderdowns7
-          // eiderdowns800eiderdowns8
-          // eiderdowns900eiderdowns9
-          // eiderdowns_1000eiderdowns10
-          // eiderdowns1100eiderdowns11
-          // eiderdowns1200eiderdowns12
-          // eiderdowns1300eiderdowns13
-          // eiderdowns1400eiderdowns14
-          // eiderdowns1500eiderdowns15
-          // eiderdowns1600eiderdowns16
-          // eiderdowns1700eiderdowns17
-          // eiderdowns1800eiderdowns18
-          // eiderdowns1900eiderdowns19
-          // eiderdowns_2000eiderdowns20
-          // eiderdowns2100eiderdowns21
-          // eiderdowns2200eiderdownseiderdowns
         ],
       ),
     );

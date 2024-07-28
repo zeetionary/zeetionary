@@ -64,9 +64,7 @@ class EnglishEntryabundant extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbʌndənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈbʌndənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakabundant("en-US"),
                             ),

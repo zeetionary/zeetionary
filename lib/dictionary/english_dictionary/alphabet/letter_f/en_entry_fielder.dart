@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: تۆپگرەوە، یاریزانی ئاخری یاریگا
 // """),
-// With short examples define "fielder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لە یاریی کریکیتدا یاریزانێکی ئەو تیمەیە کە تۆپەکە دەگریتەوە"""),
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'AbnMSk_G9BM';
 const double _startSecondsend = 0;
 const String _videoIdone = 'bMsdlCDqhtI';

@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """We need to construct an equitable method of local taxation.""");
   }
 
-// With short examples define "equitable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

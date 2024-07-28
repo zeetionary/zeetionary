@@ -284,7 +284,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""My family means everything to me.""");
   }
 
-// With short examples define "everything", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

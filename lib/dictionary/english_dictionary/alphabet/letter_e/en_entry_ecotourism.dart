@@ -366,27 +366,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakecotourisms1("en-GB"),
             onPressedAmerican: () => speakecotourisms1("en-US"),
           ),
-          // ecotourisms200ecotourisms2
-          // ecotourisms300ecotourisms3
-          // ecotourisms400ecotourisms4
-          // ecotourisms500ecotourisms5
-          // ecotourisms600ecotourisms6
-          // ecotourisms700ecotourisms7
-          // ecotourisms800ecotourisms8
-          // ecotourisms900ecotourisms9
-          // ecotourisms_1000ecotourisms10
-          // ecotourisms1100ecotourisms11
-          // ecotourisms1200ecotourisms12
-          // ecotourisms1300ecotourisms13
-          // ecotourisms1400ecotourisms14
-          // ecotourisms1500ecotourisms15
-          // ecotourisms1600ecotourisms16
-          // ecotourisms1700ecotourisms17
-          // ecotourisms1800ecotourisms18
-          // ecotourisms1900ecotourisms19
-          // ecotourisms_2000ecotourisms20
-          // ecotourisms2100ecotourisms21
-          // ecotourisms2200ecotourismsecotourisms
         ],
       ),
     );

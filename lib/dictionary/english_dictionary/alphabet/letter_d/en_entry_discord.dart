@@ -251,46 +251,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscords2("en-GB"),
             onPressedAmerican: () => speakdiscords2("en-US"),
           ),
-          // discords300"),
-          // discords3
-          // discords400"),
-          // discords4
-          // discords500"),
-          // discords5
-          // discords600"),
-          // discords6
-          // discords700"),
-          // discords7
-          // discords800"),
-          // discords8
-          // discords900"),
-          // discords9
-          // discords_1000"),
-          // discords10
-          // discords1100"),
-          // discords11
-          // discords1200"),
-          // discords12
-          // discords1300"),
-          // discords13
-          // discords1400"),
-          // discords14
-          // discords1500"),
-          // discords15
-          // discords1600"),
-          // discords16
-          // discords1700"),
-          // discords17
-          // discords1800"),
-          // discords18
-          // discords1900"),
-          // discords19
-          // discords_2000"),
-          // discords20
-          // discords2100"),
-          // discords21
-          // discords2200"),
-          // discords22("en-US"),
+          // discords3discords3
+          // discords4discords4
+          // discords5discords5
+          // discords6discords6
+          // discords7discords7
+          // discords8discords8
+          // discords9discords9
+          // discords_10discords10
+          // discords11discords11
+          // discords12discords12
+          // discords13discords13
+          // discords14discords14
+          // discords15discords15
+          // discords16discords16
+          // discords17discords17
+          // discords18discords18
+          // discords19discords19
+          // discords_20discords20
+          // discords21discords21
         ],
       ),
     );

@@ -367,48 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdysenterys1("en-GB"),
             onPressedAmerican: () => speakdysenterys1("en-US"),
           ),
-          // dysenterys200
-          // dysenterys2("en-US"""),
-          // dysenterys300
-          // dysenterys3("en-US"""),
-          // dysenterys400
-          // dysenterys4("en-US"""),
-          // dysenterys500
-          // dysenterys5("en-US"""),
-          // dysenterys600
-          // dysenterys6("en-US"""),
-          // dysenterys700
-          // dysenterys7("en-US"""),
-          // dysenterys800
-          // dysenterys8("en-US"""),
-          // dysenterys900
-          // dysenterys9("en-US"""),
-          // dysenterys_1000
-          // dysenterys10("en-US"""),
-          // dysenterys1100
-          // dysenterys11("en-US"""),
-          // dysenterys1200
-          // dysenterys12("en-US"""),
-          // dysenterys1300
-          // dysenterys13("en-US"""),
-          // dysenterys1400
-          // dysenterys14("en-US"""),
-          // dysenterys1500
-          // dysenterys15("en-US"""),
-          // dysenterys1600
-          // dysenterys16("en-US"""),
-          // dysenterys1700
-          // dysenterys17("en-US"""),
-          // dysenterys1800
-          // dysenterys18("en-US"""),
-          // dysenterys1900
-          // dysenterys19("en-US"""),
-          // dysenterys_2000
-          // dysenterys20("en-US"""),
-          // dysenterys2100
-          // dysenterys21("en-US"""),
-          // dysenterys2200
-          // dysenterys22("en-US"""),
         ],
       ),
     );

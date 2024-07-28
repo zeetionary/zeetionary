@@ -404,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) بەرمیل"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Hazardous waste is stored in drums until it can be disposed of.",
@@ -421,8 +420,7 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          // drums400"),
-          // speakdrums4
+          // drums4speakdrums4
           // drums4("en-US"),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) دوومەڵەک لێدان"),
@@ -439,60 +437,43 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) دەرکردنی دەنگێک بە کێشان بە ڕوویەکدا دووبارە و دووبارە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "His fingers drummed on the door frame.",
             kurdishText: "پەنجەکانی تەقەتەقیان دەکرد لەسەر چوارچێوەی دەرگاکە.",
             onPressedBritish: () => speakdrums6("en-GB"),
             onPressedAmerican: () => speakdrums6("en-US"),
           ),
-          // drums700"),
-          // speakdrums7
+          // drums7speakdrums7
           // drums7("en-US"),
-          // drums800"),
-          // speakdrums8
+          // drums8speakdrums8
           // drums8("en-US"),
-          // drums900"),
-          // speakdrums9
+          // drums9speakdrums9
           // drums9("en-US"),
-          // drums_1000"),
-          // speakdrums10
+          // drums_10speakdrums10
           // drums10("en-US"),
-          // drums1100"),
-          // speakdrums11
+          // drums11speakdrums11
           // drums11("en-US"),
-          // drums1200"),
-          // speakdrums12
+          // drums12speakdrums12
           // drums12("en-US"),
-          // drums1300"),
-          // speakdrums13
+          // drums13speakdrums13
           // drums13("en-US"),
-          // drums1400"),
-          // speakdrums14
+          // drums14speakdrums14
           // drums14("en-US"),
-          // drums1500"),
-          // speakdrums15
+          // drums15speakdrums15
           // drums15("en-US"),
-          // drums1600"),
-          // speakdrums16
+          // drums16speakdrums16
           // drums16("en-US"),
-          // drums1700"),
-          // speakdrums17
+          // drums17speakdrums17
           // drums17("en-US"),
-          // drums1800"),
-          // speakdrums18
+          // drums18speakdrums18
           // drums18("en-US"),
-          // drums1900"),
-          // speakdrums19
+          // drums19speakdrums19
           // drums19("en-US"),
-          // drums_2000"),
-          // speakdrums20
+          // drums_20speakdrums20
           // drums20("en-US"),
-          // drums2100"),
-          // speakdrums21
+          // drums21speakdrums21
           // drums21("en-US"),
-          // drums2200"),
-          // speakdrums22
+          // drums22speakdrums22
           // drums22("en-US"),
         ],
       ),

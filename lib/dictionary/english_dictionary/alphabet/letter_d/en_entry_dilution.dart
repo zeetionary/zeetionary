@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) لاوازکردن یان کەمکردنی کاریگەری شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "This is a serious dilution of their election promises.",
@@ -272,44 +271,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdilutions3("en-GB"),
             onPressedAmerican: () => speakdilutions3("en-US"),
           ),
-          // dilutions400"),
-          // dilutions4
-          // dilutions500"),
-          // dilutions5
-          // dilutions600"),
-          // dilutions6
-          // dilutions700"),
-          // dilutions7
-          // dilutions800"),
-          // dilutions8
-          // dilutions900"),
-          // dilutions9
-          // dilutions_1000"),
-          // dilutions10
-          // dilutions1100"),
-          // dilutions11
-          // dilutions1200"),
-          // dilutions12
-          // dilutions1300"),
-          // dilutions13
-          // dilutions1400"),
-          // dilutions14
-          // dilutions1500"),
-          // dilutions15
-          // dilutions1600"),
-          // dilutions16
-          // dilutions1700"),
-          // dilutions17
-          // dilutions1800"),
-          // dilutions18
-          // dilutions1900"),
-          // dilutions19
-          // dilutions_2000"),
-          // dilutions20
-          // dilutions2100"),
-          // dilutions21
-          // dilutions2200"),
-          // dilutions22("en-US"),
+          // dilutions4dilutions4
+          // dilutions5dilutions5
+          // dilutions6dilutions6
+          // dilutions7dilutions7
+          // dilutions8dilutions8
+          // dilutions9dilutions9
+          // dilutions_10dilutions10
+          // dilutions11dilutions11
+          // dilutions12dilutions12
+          // dilutions13dilutions13
+          // dilutions14dilutions14
+          // dilutions15dilutions15
+          // dilutions16dilutions16
+          // dilutions17dilutions17
+          // dilutions18dilutions18
+          // dilutions19dilutions19
+          // dilutions_20dilutions20
+          // dilutions21dilutions21
         ],
       ),
     );

@@ -432,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) دۆخێک کە تێیدا کەسێک کاری ھەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Employment levels rose for the first time this year.""",
@@ -452,7 +451,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) وەرگرتنی کەسێک بۆ کار"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The company's employment practices have been widely criticized.""",
@@ -463,7 +461,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) بەکارھێنانی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """How can you justify the employment of capital punishment?""",
@@ -472,21 +469,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemployments7("en-GB"),
             onPressedAmerican: () => speakemployments7("en-US"),
           ),
-          // employments800employments8
-          // employments900employments9
-          // employments_1000employments10
-          // employments1100employments11
-          // employments1200employments12
-          // employments1300employments13
-          // employments1400employments14
-          // employments1500employments15
-          // employments1600employments16
-          // employments1700employments17
-          // employments1800employments18
-          // employments1900employments19
-          // employments_2000employments20
-          // employments2100employments21
-          // employments2200employmentsemployments
         ],
       ),
     );

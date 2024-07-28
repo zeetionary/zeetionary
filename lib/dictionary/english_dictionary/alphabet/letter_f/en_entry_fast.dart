@@ -435,7 +435,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He observes the fast of Ramadan.""");
   }
 
-// With short examples define "fast", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

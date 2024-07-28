@@ -291,8 +291,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I phoned earlier but you were engaged.""");
   }
 
-// With short examples define "engaged", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

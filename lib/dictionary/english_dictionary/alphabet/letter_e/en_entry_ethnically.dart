@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""My father, who is ethnically Chinese, was born in the UK.""");
   }
 
-// With short examples define "ethnically", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

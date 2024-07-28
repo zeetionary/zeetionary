@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """The government ordered the immediate expulsion of the two men.""");
   }
 
-// With short examples define "expulsion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""My euphoric mood could not last.""");
   }
 
-// With short examples define "euphoric", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

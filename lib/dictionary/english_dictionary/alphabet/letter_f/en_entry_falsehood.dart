@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """It is an offence to deliberately publish a serious falsehood.""");
   }
 
-// With short examples define "falsehood", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

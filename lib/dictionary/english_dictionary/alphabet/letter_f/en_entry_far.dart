@@ -473,7 +473,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She is on the far right of the party.""");
   }
 
-// With short examples define "far", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

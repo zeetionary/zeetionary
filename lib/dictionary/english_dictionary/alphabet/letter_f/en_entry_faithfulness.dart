@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She had doubts about his faithfulness.""");
   }
 
-// With short examples define "faithfulness", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

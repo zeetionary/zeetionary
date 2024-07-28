@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She had four children but never showed any favouritism.""");
   }
 
-// With short examples define "favouritism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

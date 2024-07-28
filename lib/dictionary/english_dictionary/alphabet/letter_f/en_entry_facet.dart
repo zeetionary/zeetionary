@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """It is a curious facet of human nature that the more we have the more we want.""");
   }
 
-// With short examples define "facet", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

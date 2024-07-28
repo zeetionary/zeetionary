@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fiancée", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ژنێک کە کەسێک مارەی بڕیوە"""),
                     SentencesRow(
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'apmF_FXcZKc';
 const double _startSecondsend = 277;
 const String _videoIdone = 'f7QWMUCMYOE';

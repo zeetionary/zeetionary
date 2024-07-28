@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He was known as a powerful king and a fearless warrior.""");
   }
 
-// With short examples define "fearless", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

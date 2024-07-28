@@ -228,7 +228,6 @@ Usage: Brit, Cdn (US: funeral parlor)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Z9O5BiS79DU';
 const double _startSecondsend = 21;
 const String _videoIdone = 'ehDYphVfiYM';

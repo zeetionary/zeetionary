@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """These latest discoveries have further enhanced our understanding of the origins of the universe.""");
   }
 
-// With short examples define "enhance", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

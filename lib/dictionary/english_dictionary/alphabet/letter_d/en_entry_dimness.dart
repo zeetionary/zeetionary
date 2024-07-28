@@ -252,7 +252,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) لاوازیی یادەوەری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The dimness of his recollections made details hard to remember.",
@@ -263,51 +262,30 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) نەبوونی زیرەکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They show their dimness with every word they say.",
             kurdishText: "بە ھەر وشەیەک کە دەیڵێن گێژیەتییان پیشان دەدەن.",
             onPressedBritish: () => speakdimnesss3("en-GB"),
             onPressedAmerican: () => speakdimnesss3("en-US"),
           ),
-          // dimnesss400"),
-          // dimnesss4
-          // dimnesss500"),
-          // dimnesss5
-          // dimnesss600"),
-          // dimnesss6
-          // dimnesss700"),
-          // dimnesss7
-          // dimnesss800"),
-          // dimnesss8
-          // dimnesss900"),
-          // dimnesss9
-          // dimnesss_1000"),
-          // dimnesss10
-          // dimnesss1100"),
-          // dimnesss11
-          // dimnesss1200"),
-          // dimnesss12
-          // dimnesss1300"),
-          // dimnesss13
-          // dimnesss1400"),
-          // dimnesss14
-          // dimnesss1500"),
-          // dimnesss15
-          // dimnesss1600"),
-          // dimnesss16
-          // dimnesss1700"),
-          // dimnesss17
-          // dimnesss1800"),
-          // dimnesss18
-          // dimnesss1900"),
-          // dimnesss19
-          // dimnesss_2000"),
-          // dimnesss20
-          // dimnesss2100"),
-          // dimnesss21
-          // dimnesss2200"),
-          // dimnesss22("en-US"),
+          // dimnesss4dimnesss4
+          // dimnesss5dimnesss5
+          // dimnesss6dimnesss6
+          // dimnesss7dimnesss7
+          // dimnesss8dimnesss8
+          // dimnesss9dimnesss9
+          // dimnesss_10dimnesss10
+          // dimnesss11dimnesss11
+          // dimnesss12dimnesss12
+          // dimnesss13dimnesss13
+          // dimnesss14dimnesss14
+          // dimnesss15dimnesss15
+          // dimnesss16dimnesss16
+          // dimnesss17dimnesss17
+          // dimnesss18dimnesss18
+          // dimnesss19dimnesss19
+          // dimnesss_20dimnesss20
+          // dimnesss21dimnesss21
         ],
       ),
     );

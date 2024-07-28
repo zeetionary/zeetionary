@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He delivered his speech with evangelical fervour.""");
   }
 
-// With short examples define "evangelical", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

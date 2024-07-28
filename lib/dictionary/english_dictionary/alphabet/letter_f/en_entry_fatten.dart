@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """She's very thin after her illness—but we'll soon fatten her up.""");
   }
 
-// With short examples define "fatten", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

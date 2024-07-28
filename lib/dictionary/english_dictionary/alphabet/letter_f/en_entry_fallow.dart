@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """After a long fallow period, the author has brought out a new book.""");
   }
 
-// With short examples define "fallow", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

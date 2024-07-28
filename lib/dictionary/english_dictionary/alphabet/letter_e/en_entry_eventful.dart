@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""It had been a long and eventful journey.""");
   }
 
-// With short examples define "eventful", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

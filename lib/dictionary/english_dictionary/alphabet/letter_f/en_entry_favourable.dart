@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         """An area with a favourable climate will inevitably be richer than one without.""");
   }
 
-// With short examples define "favourable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

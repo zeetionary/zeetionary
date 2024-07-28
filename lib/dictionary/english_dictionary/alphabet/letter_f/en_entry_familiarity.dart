@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He treated her with the easy familiarity of an equal.""");
   }
 
-// With short examples define "familiarity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

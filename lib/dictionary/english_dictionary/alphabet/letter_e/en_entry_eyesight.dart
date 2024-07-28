@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She has started to lose her eyesight.""");
   }
 
-// With short examples define "eyesight", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

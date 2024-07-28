@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He left estate valued at a million dollars.""");
   }
 
-// With short examples define "estate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

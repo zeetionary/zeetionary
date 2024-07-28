@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The essay contains a number of factual errors.""");
   }
 
-// With short examples define "factual", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

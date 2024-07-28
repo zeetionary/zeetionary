@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Koalas eat very few things besides eucalyptus leaves.""");
   }
 
-// With short examples define "eucalyptus", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

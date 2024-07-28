@@ -109,9 +109,7 @@ class EnglishEntryautonomous extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "autonomous"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "autonomous"),
                             // divvviiider
                           ],
                         ),

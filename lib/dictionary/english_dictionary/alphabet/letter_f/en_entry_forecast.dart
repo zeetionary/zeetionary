@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 	پێش‌بینی، بەربووری، پێش‌زانی،	پێشبینی باری کەش‌وھەوا
 """),
-// With short examples define "forecast", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) پێشبینی"""),
                     SentencesRow(
                       englishText: """The sales forecasts are encouraging.""",
@@ -297,7 +296,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DPZzrlFCD_I';
 const double _startSecondsend = 266;
 const String _videoIdone = 'mncCR3wehF8';

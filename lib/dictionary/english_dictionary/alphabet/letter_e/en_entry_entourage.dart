@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """The star arrived in London with her usual entourage of dancers and backing singers.""");
   }
 
-// With short examples define "entourage", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

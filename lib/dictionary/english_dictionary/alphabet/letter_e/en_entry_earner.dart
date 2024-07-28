@@ -378,7 +378,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) چالاکییەک یان بازرگانییەک کە قازانج دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Tourism is the country's biggest foreign currency earner.""",
@@ -387,7 +386,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearners2("en-GB"),
             onPressedAmerican: () => speakearners2("en-US"),
           ),
-          // earners300earners3
           // speakearners
         ],
       ),

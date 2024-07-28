@@ -109,9 +109,7 @@ class EnglishEntryleadastray extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "lead astray"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "lead astray"),
                             // divvviiider
                           ],
                         ),

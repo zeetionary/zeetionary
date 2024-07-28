@@ -507,7 +507,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) جلێک لە جۆرێکی دیاریکراو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He has no dress sense (= no idea of how to dress well).",
@@ -525,7 +524,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) لەبەرکردنی جل"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I dressed quickly.",
             kurdishText: "بەخێرایی جلم لەبەرکرد.",
@@ -563,7 +561,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) لەبەرکردنی جۆرە جلێکی دیاریکراو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "All staff are expected to dress appropriately.",
             kurdishText:
@@ -594,7 +591,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) لەبەرکردنی جلی فەرمی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Do they expect us to dress for dinner?",
             kurdishText:
@@ -605,7 +601,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) دابینکردنی جل بۆ کەسێکی بەناوبانگ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He dresses many of Hollywood's most famous young stars.",
@@ -617,7 +612,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) چارەسەرکردنی برینێک یان داپۆشینی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The nurse will dress that cut for you.",
             kurdishText: "پەرستارەکە ئاگای لە برینەکەت دەبێت.",
@@ -627,7 +621,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) ئامادەکردنی خۆراک بۆ لێنان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She dressed the chicken before roasting it.",
             kurdishText: "مریشکەکەی کەوڵ کرد پێش برژاندنی.",
@@ -636,19 +629,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) ڕازاندنەوەی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She had her hair dressed by a stylist.",
             kurdishText: "قژی لای ئاڕایشت‌گەرێک ڕازاندەوە.",
             onPressedBritish: () => speakdresss19("en-GB"),
             onPressedAmerican: () => speakdresss19("en-US"),
           ),
-          // dresss_2000"),
-          // dresss20("en-US"),
-          // dresss2100"),
-          // dresss21("en-US"),
-          // dresss2200"),
-          // dresss22("en-US"),
         ],
       ),
     );

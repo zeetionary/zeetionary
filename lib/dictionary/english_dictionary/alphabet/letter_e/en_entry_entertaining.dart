@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I found the talk both informative and entertaining.""");
   }
 
-// With short examples define "entertaining", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

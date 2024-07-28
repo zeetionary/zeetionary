@@ -235,10 +235,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdearths1("en-GB"),
             onPressedAmerican: () => speakdearths1("en-US"),
           ),
-          // const DividerDefinition(),
-          // const DefinitionKurdish(text: "٢. (ھاوەڵناو) پێنناسە"),
-          // dearths200"),
-          // dearths2("en-US"),
         ],
       ),
     );

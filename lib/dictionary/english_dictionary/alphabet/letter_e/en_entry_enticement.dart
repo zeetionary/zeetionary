@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""One of the enticements of the job is the company car.""");
   }
 
-// With short examples define "enticement", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

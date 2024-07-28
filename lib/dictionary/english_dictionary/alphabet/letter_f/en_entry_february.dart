@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""It was a cold February morning.""");
   }
 
-// With short examples define "February", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

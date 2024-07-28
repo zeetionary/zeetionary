@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """If you like the picture I can send you an enlargement of it.""");
   }
 
-// With short examples define "enlargement", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

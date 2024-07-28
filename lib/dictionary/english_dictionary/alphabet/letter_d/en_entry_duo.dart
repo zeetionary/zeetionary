@@ -389,48 +389,6 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // duos200
-          // duos2("en-US"""),
-          // duos300
-          // duos3("en-US"""),
-          // duos400
-          // duos4("en-US"""),
-          // duos500
-          // duos5("en-US"""),
-          // duos600
-          // duos6("en-US"""),
-          // duos700
-          // duos7("en-US"""),
-          // duos800
-          // duos8("en-US"""),
-          // duos900
-          // duos9("en-US"""),
-          // duos_1000
-          // duos10("en-US"""),
-          // duos1100
-          // duos11("en-US"""),
-          // duos1200
-          // duos12("en-US"""),
-          // duos1300
-          // duos13("en-US"""),
-          // duos1400
-          // duos14("en-US"""),
-          // duos1500
-          // duos15("en-US"""),
-          // duos1600
-          // duos16("en-US"""),
-          // duos1700
-          // duos17("en-US"""),
-          // duos1800
-          // duos18("en-US"""),
-          // duos1900
-          // duos19("en-US"""),
-          // duos_2000
-          // duos20("en-US"""),
-          // duos2100
-          // duos21("en-US"""),
-          // duos2200
-          // duos22("en-US"""),
         ],
       ),
     );

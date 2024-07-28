@@ -336,7 +336,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوابەش، بەشی دوایی، دوایی، کۆتایی،	تەواوێتی،	قۆناخی کۆتایی
 """),
-// With short examples define "finish", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) تەواوکردنی شتێک"""),
                     SentencesRow(
@@ -600,7 +599,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 519;
 const String _videoIdone = 'hS2x1zl4rn0';

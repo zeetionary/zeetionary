@@ -257,46 +257,26 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdetriments2("en-GB"),
             onPressedAmerican: () => speakdetriments2("en-US"),
           ),
-          // detriments300"),
-          // detriments3
-          // detriments400"),
-          // detriments4
-          // detriments500"),
-          // detriments5
-          // detriments600"),
-          // detriments6
-          // detriments700"),
-          // detriments7
-          // detriments800"),
-          // detriments8
-          // detriments900"),
-          // detriments9
-          // detriments1000"),
-          // detriments10
-          // detriments1100"),
-          // detriments11
-          // detriments1200"),
-          // detriments12
-          // detriments1300"),
-          // detriments13
-          // detriments1400"),
-          // detriments14
-          // detriments1500"),
-          // detriments15
-          // detriments1600"),
-          // detriments16
-          // detriments1700"),
-          // detriments17
-          // detriments1800"),
-          // detriments18
-          // detriments1900"),
-          // detriments19
+          // detriments3detriments3
+          // detriments4detriments4
+          // detriments5detriments5
+          // detriments6detriments6
+          // detriments7detriments7
+          // detriments8detriments8
+          // detriments9detriments9
+          // detriments10detriments10
+          // detriments11detriments11
+          // detriments12detriments12
+          // detriments13detriments13
+          // detriments14detriments14
+          // detriments15detriments15
+          // detriments16detriments16
+          // detriments17detriments17
+          // detriments18detriments18
+          // detriments19detriments19
           // "Too many tests are a detriment to good education.0"),
           // detriments20
-          // detriments2100"),
-          // detriments21
-          // detriments2200"),
-          // detriments22("en-US"),
+          // detriments21detriments21
         ],
       ),
     );

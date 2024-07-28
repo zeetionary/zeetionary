@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The customer is threatening to escalate his complaint.""");
   }
 
-// With short examples define "escalate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

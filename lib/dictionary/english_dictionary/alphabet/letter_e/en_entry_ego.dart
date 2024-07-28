@@ -423,7 +423,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو بەشەی مێشک کە بەرپرسە بۆ ھەستکردن بەوەی کە کێیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Freud introduced the idea that a part of the ego is unconscious.""",
@@ -432,22 +431,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakegos5("en-GB"),
             onPressedAmerican: () => speakegos5("en-US"),
           ),
-          // egos600egos6
-          // egos700egos7
-          // egos800egos8
-          // egos900egos9
-          // egos_1000egos10
-          // egos1100egos11
-          // egos1200egos12
-          // egos1300egos13
-          // egos1400egos14
-          // egos1500egos15
-          // egos1600egos16
-          // egos1700egos17
-          // egos1800egos18
-          // egos1900egos19
-          // egos_2000egos20
-          // egos2100egos21
           // egos2200egosegos
         ],
       ),

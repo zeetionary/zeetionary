@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The characters' names are as fancifully evocative as those found in children's books.""");
   }
 
-// With short examples define "fancifully", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

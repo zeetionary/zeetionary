@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He’s pretty extrovert when he’s on stage.""");
   }
 
-// With short examples define "extrovert", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

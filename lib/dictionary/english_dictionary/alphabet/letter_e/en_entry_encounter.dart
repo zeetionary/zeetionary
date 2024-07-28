@@ -335,7 +335,6 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """We encountered a number of difficulties in the first week.""",
             kurdishText: """لە یەکەم ھەفتەدا تووشی ژمارەیەکی سەختی بووین.""",
-// With short examples define "encounter", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),

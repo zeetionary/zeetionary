@@ -396,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) کەوتن یان ڕژان بە قەترەی بچووک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Melted wax dribbled down the side of the candle.",
             kurdishText: "مێوە تواوەکە لە کەناری مۆمەکەوە دەڕژا.",
@@ -406,7 +405,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ڕژاندنی شتێک بەھێواشی یان دڵۆپ دڵۆپ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Dribble a little olive oil over the salad.",
             kurdishText: "کەمێک زەیتی زەیتوون بڕژێنە بەسەر زەڵاتەکەدا.",
@@ -415,7 +413,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) دڵۆپەیەکی بچووک لە شلە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Add just a dribble of oil.",
             kurdishText: "تەنھا یەک قەترە زەیت زیاد بکە.",
@@ -424,47 +421,28 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) تف لە دەمی کەسێکەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "There was dribble all down the baby's front.",
             kurdishText: "تف بە تەواوی پێشەوەی منداڵەکە ھاتبووە خوارەوە.",
             onPressedBritish: () => speakdribbles5("en-GB"),
             onPressedAmerican: () => speakdribbles5("en-US"),
           ),
-          // dribbles600"),
-          // dribbles6
-          // dribbles700"),
-          // dribbles7
-          // dribbles800"),
-          // dribbles8
-          // dribbles900"),
-          // dribbles9
-          // dribbles_1000"),
-          // dribbles10
-          // dribbles1100"),
-          // dribbles11
-          // dribbles1200"),
-          // dribbles12
-          // dribbles1300"),
-          // dribbles13
-          // dribbles1400"),
-          // dribbles14
-          // dribbles1500"),
-          // dribbles15
-          // dribbles1600"),
-          // dribbles16
-          // dribbles1700"),
-          // dribbles17
-          // dribbles1800"),
-          // dribbles18
-          // dribbles1900"),
-          // dribbles19
-          // dribbles_2000"),
-          // dribbles20
-          // dribbles2100"),
-          // dribbles21
-          // dribbles2200"),
-          // dribbles22("en-US"),
+          // dribbles6dribbles6
+          // dribbles7dribbles7
+          // dribbles8dribbles8
+          // dribbles9dribbles9
+          // dribbles_10dribbles10
+          // dribbles11dribbles11
+          // dribbles12dribbles12
+          // dribbles13dribbles13
+          // dribbles14dribbles14
+          // dribbles15dribbles15
+          // dribbles16dribbles16
+          // dribbles17dribbles17
+          // dribbles18dribbles18
+          // dribbles19dribbles19
+          // dribbles_20dribbles20
+          // dribbles21dribbles21
         ],
       ),
     );

@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""His speech was full of evasions and half-truths.""");
   }
 
-// With short examples define "evasion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

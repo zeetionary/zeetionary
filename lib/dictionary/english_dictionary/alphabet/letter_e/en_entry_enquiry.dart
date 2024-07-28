@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Ask at enquiries to see if your bag has been handed in.""");
   }
 
-// With short examples define "enquiry", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

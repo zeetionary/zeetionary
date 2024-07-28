@@ -257,7 +257,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێدانی خێرا و سووک،	پەلەپیتکە، پتە، پلیکە
 """),
-// With short examples define "flip", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) سەرووخوار کردن بە خێرایی"""),
                     SentencesRow(
@@ -430,7 +429,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'qWAagS_MANg';
 const double _startSecondsend = 122;
 const String _videoIdone = 'AF8d72mA41M';

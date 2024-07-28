@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """A priest performed an exorcism and afterwards the ghost disappeared.""");
   }
 
-// With short examples define "exorcism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

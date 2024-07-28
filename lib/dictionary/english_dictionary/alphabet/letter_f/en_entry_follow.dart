@@ -519,7 +519,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "follow", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ھاتن یان چوون بە دوای شتێکدا"""),
                     SentencesRow(
@@ -990,7 +989,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'a_TSR_v07m0';
 const double _startSecondsend = 617;
 const String _videoIdone = 'hS2x1zl4rn0';

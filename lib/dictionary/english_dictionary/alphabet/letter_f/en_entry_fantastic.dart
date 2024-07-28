@@ -299,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""It may sound rather fantastic, but it's the truth.""");
   }
 
-// With short examples define "fantastic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

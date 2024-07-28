@@ -273,7 +273,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە پڕ لە خۆشییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He was enchanted to see her again after so long.""",
             kurdishText: """شاگەشکە بوو بە بینینی لە دوای ماوەیەکی وەھا زۆر.""",

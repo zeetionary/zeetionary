@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fourth", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ژمارەی پلەیی) پێنجەم"""),
                     SentencesRow(
@@ -293,7 +292,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FHJ3CMWnVxY';
 const double _startSecondsend = 205;
 const String _videoIdone = 'MnExgQ81fhU';

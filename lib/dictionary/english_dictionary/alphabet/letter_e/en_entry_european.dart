@@ -279,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She is a good European because she promotes unity.""");
   }
 
-// With short examples define "European", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They claimed the smoking ban amounted to health fascism.""");
   }
 
-// With short examples define "fascism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

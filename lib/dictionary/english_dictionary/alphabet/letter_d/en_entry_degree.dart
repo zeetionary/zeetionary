@@ -360,7 +360,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) یەکەی پێوانی گۆشە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I turned the wheel 90 degrees,",
             kurdishText: "ویلەکەم بە ٩٠ پلە بادایەوە.",
@@ -416,7 +415,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) بڕوانامەی خوێندکار لەکاتی تەواوکردنی زانکۆ یان کۆرسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "My brother has a master's degree from Harvard.",
             kurdishText: "براکەم بڕوانامەی ماستەری ھەیە لە ھارڤارد.",
@@ -441,7 +439,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) کۆرسێکی کۆلێژ یان زانکۆ کە زۆرجار سێ ساڵ یان زیاتر دەخایەنێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm hoping to do a chemistry degree.",
             kurdishText: "ھیوادارم کۆرسێکی کیمیا بخوێنم.",
@@ -456,20 +453,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdegrees15("en-GB"),
             onPressedAmerican: () => speakdegrees15("en-US"),
           ),
-          // degrees1600"),
-          // degrees16("en-US"),
-          // degrees1700"),
-          // degrees17("en-US"),
-          // degrees1800"),
-          // degrees18("en-US"),
-          // degrees1900"),
-          // degrees19("en-US"),
-          // "Temperatures are expected to drop below 2 degrees.0"),
-          // degrees20("en-US"),
-          // degrees2100"),
-          // degrees21("en-US"),
-          // degrees2200"),
-          // degrees22("en-US"),
         ],
       ),
     );

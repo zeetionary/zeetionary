@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سووران، سوور، ئاھەنگ، بەزم‌وڕەزم، شایی، تۆی
 """),
-// With short examples define "festivity", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو چالاکییانەی کە ڕێکخراون بۆ ئاھەنگ گێڕانی بۆنەیەکی تایبەت"""),
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'o_L_NlRExOw';
 const double _startSecondsend = 637;
 const String _videoIdone = 'sTG1MQdlNRY';

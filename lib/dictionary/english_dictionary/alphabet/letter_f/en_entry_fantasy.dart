@@ -294,7 +294,6 @@ class KurdishMeaning extends StatelessWidget {
         """She wrote a series of fantasy novels filled with wizards, witches and dragons.""");
   }
 
-// With short examples define "fantasy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

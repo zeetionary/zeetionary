@@ -270,7 +270,6 @@ class KurdishMeaning extends StatelessWidget {
         """These universities are becoming degree factories, with no sense of what higher learning is really about.""");
   }
 
-// With short examples define "factory", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

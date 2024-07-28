@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """Carbon dioxide is eliminated from the body during exhalation.""");
   }
 
-// With short examples define "exhalation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

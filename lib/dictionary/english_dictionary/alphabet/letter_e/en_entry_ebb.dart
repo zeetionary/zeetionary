@@ -401,7 +401,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) داشکانی دەریا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The tide began to ebb in the afternoon.""",
             kurdishText: """ئاستی دەریا دەستی بە داشکان کرد لە نیوەڕۆدا.""",
@@ -411,7 +410,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) کەم کەم لاوازبوون یان کەمبوون"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The pain was ebbing.""",
             kurdishText: """ئازارەکە سووک دەبوو.""",
@@ -425,22 +423,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakebbs5("en-GB"),
             onPressedAmerican: () => speakebbs5("en-US"),
           ),
-          // ebbs600ebbs6
-          // ebbs700ebbs7
-          // ebbs800ebbs8
-          // ebbs900ebbs9
-          // ebbs_1000ebbs10
-          // ebbs1100ebbs11
-          // ebbs1200ebbs12
-          // ebbs1300ebbs13
-          // ebbs1400ebbs14
-          // ebbs1500ebbs15
-          // ebbs1600ebbs16
-          // ebbs1700ebbs17
-          // ebbs1800ebbs18
-          // ebbs1900ebbs19
-          // ebbs_2000ebbs20
-          // ebbs2100ebbs21
           // ebbs2200ebbsebbs
         ],
       ),

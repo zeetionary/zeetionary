@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Her new book is wonderfully evocative of village life.""");
   }
 
-// With short examples define "evocative", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

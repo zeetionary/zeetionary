@@ -363,48 +363,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdustcarts1("en-GB"),
             onPressedAmerican: () => speakdustcarts1("en-US"),
           ),
-          // dustcarts200
-          // dustcarts2("en-US"""),
-          // dustcarts300
-          // dustcarts3("en-US"""),
-          // dustcarts400
-          // dustcarts4("en-US"""),
-          // dustcarts500
-          // dustcarts5("en-US"""),
-          // dustcarts600
-          // dustcarts6("en-US"""),
-          // dustcarts700
-          // dustcarts7("en-US"""),
-          // dustcarts800
-          // dustcarts8("en-US"""),
-          // dustcarts900
-          // dustcarts9("en-US"""),
-          // dustcarts_1000
-          // dustcarts10("en-US"""),
-          // dustcarts1100
-          // dustcarts11("en-US"""),
-          // dustcarts1200
-          // dustcarts12("en-US"""),
-          // dustcarts1300
-          // dustcarts13("en-US"""),
-          // dustcarts1400
-          // dustcarts14("en-US"""),
-          // dustcarts1500
-          // dustcarts15("en-US"""),
-          // dustcarts1600
-          // dustcarts16("en-US"""),
-          // dustcarts1700
-          // dustcarts17("en-US"""),
-          // dustcarts1800
-          // dustcarts18("en-US"""),
-          // dustcarts1900
-          // dustcarts19("en-US"""),
-          // dustcarts_2000
-          // dustcarts20("en-US"""),
-          // dustcarts2100
-          // dustcarts21("en-US"""),
-          // dustcarts2200
-          // dustcarts22("en-US"""),
         ],
       ),
     );

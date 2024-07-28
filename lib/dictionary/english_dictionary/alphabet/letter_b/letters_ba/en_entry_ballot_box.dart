@@ -96,9 +96,7 @@ class EnglishEntryballotbox extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "ballot box"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "ballot box"),
                             // divvviiider
                           ],
                         ),

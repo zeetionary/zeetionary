@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لە سەرەتا، یەکەمین، یەکەم
 """),
-// With short examples define "firstly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بۆ گوتنی یەکەم شتی لیستێک"""),
                     SentencesRow(
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'NFtQOxjWfaA';
 const double _startSecondsend = 337;
 const String _videoIdone = 'xVQxvthAcLU';

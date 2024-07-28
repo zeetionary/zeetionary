@@ -456,7 +456,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) وازھێنان لە کەسێک/شتێک یان جێھێشتنی بۆ کەسێکی دیکە کە مامەڵەی لەگەڵ بکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He's got no right to keep dumping his problems on me.""",
@@ -468,7 +467,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) فرۆشتنی شت بە نرخێکی کەم، زۆرجار کە وڵاتێکی دیکە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """They accused the West of dumping out-of-date medicines on developing countries.""",
@@ -481,7 +479,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) دانانی کەسێک/شتێک بە کەمتەرخەمی یان ناشرینی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Just dump your stuff over there—we'll sort it out later.""",
@@ -492,7 +489,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) کۆتایی ھێنان بە پەیوەندیی خۆشەویستی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Did you hear he's dumped his girlfriend?""",
             kurdishText: """بیستت کە لە دۆستە کچەکەی جیابووەتەوە؟""",
@@ -509,7 +505,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ناو) تەنەکەی زباڵە؛ شوێنی فڕێدانی زباڵە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They took the mattress to the dump.""",
             kurdishText: """ڕەیەخەکانیان برد بۆ زباڵەکە.""",
@@ -525,7 +520,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (ناو) شوێنێکی پیس"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """How can you live in this dump?""",
             kurdishText: """چۆن دەتوانیت لەم زباڵەیەدا بژیت؟""",
@@ -534,7 +528,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٨. (ناو) کۆگای کاتی بۆ سوپا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Soldiers guarded the ammunition dump carefully.""",
             kurdishText:
@@ -544,24 +537,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٩. (ناو) پیسایی کردن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The dog went outside to have a dump.""",
             kurdishText: """سەگەکە چووە دەرەوە بۆ گووکردن.""",
             onPressedBritish: () => speakdumps12("en-GB"),
             onPressedAmerican: () => speakdumps12("en-US"),
           ),
-          // dumps1300
-          // dumps13// dumps1400
-          // dumps14// dumps1500
-          // dumps15// dumps1600
-          // dumps16// dumps1700
-          // dumps17// dumps1800
-          // dumps18// dumps1900
-          // dumps19// dumps_2000
-          // dumps20// dumps2100
-          // dumps21// dumps2200
-          // dumps22("en-US"""),
         ],
       ),
     );

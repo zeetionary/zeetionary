@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """While she was in Hawaii, she studied the local flora and fauna.""");
   }
 
-// With short examples define "fauna", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

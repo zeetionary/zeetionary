@@ -283,43 +283,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefensivelys3("en-GB"),
             onPressedAmerican: () => speakdefensivelys3("en-US"),
           ),
-          // defensivelys400"),
-          // defensivelys4
-          // defensivelys500"),
-          // defensivelys5
-          // defensivelys600"),
-          // defensivelys6
-          // defensivelys700"),
-          // defensivelys7
-          // defensivelys800"),
-          // defensivelys8
-          // defensivelys900"),
-          // defensivelys9
-          // defensivelys1000"),
-          // defensivelys10
-          // defensivelys1100"),
-          // defensivelys11
-          // defensivelys1200"),
-          // defensivelys12
-          // defensivelys1300"),
-          // defensivelys13
-          // defensivelys1400"),
-          // defensivelys14
-          // defensivelys1500"),
-          // defensivelys15
-          // defensivelys1600"),
-          // defensivelys16
-          // defensivelys1700"),
-          // defensivelys17
-          // defensivelys1800"),
-          // defensivelys18
-          // defensivelys1900"),
-          // defensivelys19
+          // defensivelys4defensivelys4
+          // defensivelys5defensivelys5
+          // defensivelys6defensivelys6
+          // defensivelys7defensivelys7
+          // defensivelys8defensivelys8
+          // defensivelys9defensivelys9
+          // defensivelys10defensivelys10
+          // defensivelys11defensivelys11
+          // defensivelys12defensivelys12
+          // defensivelys13defensivelys13
+          // defensivelys14defensivelys14
+          // defensivelys15defensivelys15
+          // defensivelys16defensivelys16
+          // defensivelys17defensivelys17
+          // defensivelys18defensivelys18
+          // defensivelys19defensivelys19
           // defensivelys20
-          // defensivelys2100"),
-          // defensivelys21
-          // defensivelys2200"),
-          // defensivelys22("en-US"),
+          // defensivelys21defensivelys21
         ],
       ),
     );

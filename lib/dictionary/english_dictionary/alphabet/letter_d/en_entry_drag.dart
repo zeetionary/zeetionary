@@ -540,7 +540,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) گرتنی شتێک و ڕاکێشانی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The child dragged at his mother's sleeve, begging her to stay.",
@@ -551,7 +550,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) ڕێکردن بە ھێواشی و سەختی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I managed to drag myself out of bed.",
             kurdishText: "توانیم خۆم لە جێخەوەکە بێنمە دەرەوە.",
@@ -569,7 +567,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ڕازیکردنی کەسێک کە بێت یان بچێت بۆ شوێنێک کە نایەوێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm sorry to drag you all this way in the heat.",
             kurdishText: "بمبوورە کە ئەم ھەموو ڕێگایە لەبەر گەرمایەکە ھێناومی.",
@@ -594,7 +591,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) تێپەڕبوون بە ھێواشی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Time dragged terribly.",
             kurdishText: "کات زۆر ھێواش تێدەپەڕی.",
@@ -611,7 +607,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) جوڵاندنی شتێک کە بە کەمی بەر زەوی بکەوێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "This dress is too long—it drags on the ground when I walk.",
@@ -624,7 +619,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (کردار) گەڕان بە بنی ڕووبارێک، دەریاچەیەک، ھتد بە تۆڕ یان قولاپ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They dragged the canal for the murder weapon.",
             kurdishText: "نۆکەندەکە گەڕان بۆ چەکی پیاوکوژی.",
@@ -634,7 +628,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) جوڵاندن لەسەر شاشەی کۆمپیوتەر بە ماوس"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Click on the file and drag it across.",
             kurdishText: "کلیک لەسەر فایلەکە بکە و ڕایبکێشە ئەمبەر.",
@@ -643,7 +636,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (ناو) شت یان کەسێکی بێزارکەر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He's such a drag.",
             kurdishText: "زۆر بێزارکەرە.",
@@ -661,7 +653,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٠. (ناو) کەسێک یان شتێک کە پەرەسەندن و چوونەپێشەوە سەخت دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He came to be seen as a drag on his own party's prospects.",
@@ -683,15 +674,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٢. (ناو) ئەو جلانەی کە لەلایەن ڕەگەزی بەرامبەرەوە لەبەر دەکرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He performed in drag.",
             kurdishText: "بە جلی ژنانەوە نمایشی کرد.",
             onPressedBritish: () => speakdrags21("en-GB"),
             onPressedAmerican: () => speakdrags21("en-US"),
           ),
-          // drags2200"),
-          // drags22("en-US"),
         ],
       ),
     );

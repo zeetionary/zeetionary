@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Bad weather has resulted in crop failure.""");
   }
 
-// With short examples define "failure", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Her boss sent her on an errand into town.""");
   }
 
-// With short examples define "errand", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

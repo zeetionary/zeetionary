@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         """He was discovered to have been expropriating company funds.""");
   }
 
-// With short examples define "expropriate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

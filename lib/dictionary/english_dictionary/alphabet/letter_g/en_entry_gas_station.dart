@@ -1599,7 +1599,6 @@ Usage: N. Amer (elsewhere: petrol station)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
 const double _startSecondsend = 000000000000000000000000000992;
 const String _videoIdone = 'https://youtu.be/y1sF6ZeASU0?t=';

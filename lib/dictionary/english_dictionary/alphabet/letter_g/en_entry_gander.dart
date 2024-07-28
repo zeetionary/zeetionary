@@ -773,7 +773,7 @@ ${englishMeaningConst.text}
                   children: [
                     const DividerDefinition(),
 //                     const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
                     const DefinitionKurdish(text: """١. (ناو) قازی نێرە"""),
                     SentencesRow(
@@ -1598,7 +1598,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/0zXfDafyyao?t=';
 const double _startSecondsend = 000000000000000000000000000322;
 const String _videoIdone = 'https://youtu.be/544DTGHIBM0?t=';

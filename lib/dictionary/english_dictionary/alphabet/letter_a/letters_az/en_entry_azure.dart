@@ -95,8 +95,7 @@ class EnglishEntryazure extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "azure"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "azure"),
                             // divvviiider
                           ],
                         ),

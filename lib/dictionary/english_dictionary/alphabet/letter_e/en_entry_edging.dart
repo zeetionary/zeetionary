@@ -363,27 +363,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakedgings1("en-GB"),
             onPressedAmerican: () => speakedgings1("en-US"),
           ),
-          // edgings200edgings2
-          // edgings300edgings3
-          // edgings400edgings4
-          // edgings500edgings5
-          // edgings600edgings6
-          // edgings700edgings7
-          // edgings800edgings8
-          // edgings900edgings9
-          // edgings_1000edgings10
-          // edgings1100edgings11
-          // edgings1200edgings12
-          // edgings1300edgings13
-          // edgings1400edgings14
-          // edgings1500edgings15
-          // edgings1600edgings16
-          // edgings1700edgings17
-          // edgings1800edgings18
-          // edgings1900edgings19
-          // edgings_2000edgings20
-          // edgings2100edgings21
-          // edgings2200edgingsedgings
         ],
       ),
     );

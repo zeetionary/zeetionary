@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Much of his fabulous wealth was acquired dishonestly.""");
   }
 
-// With short examples define "fabulous", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

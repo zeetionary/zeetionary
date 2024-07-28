@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) قسەیەک یان نووسینێکی کە بەشەکانی پێکەوە لۆژیکانە پەیوەندیدار نین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The three parts of his argument feel a little disconnected.",
@@ -284,7 +283,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) کە نەبەستراوە بە تۆڕێک، سەرچاوەی وزەوە، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "All he found was an empty office and a disconnected phone.",
@@ -293,42 +291,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisconnecteds4("en-GB"),
             onPressedAmerican: () => speakdisconnecteds4("en-US"),
           ),
-          // disconnecteds500"),
-          // disconnecteds5("en-US"),
-          // disconnecteds600"),
-          // disconnecteds6("en-US"),
-          // disconnecteds700"),
-          // disconnecteds7("en-US"),
-          // disconnecteds800"),
-          // disconnecteds8("en-US"),
-          // disconnecteds900"),
-          // disconnecteds9("en-US"),
-          // disconnecteds_1000"),
-          // disconnecteds10("en-US"),
-          // disconnecteds1100"),
-          // disconnecteds11("en-US"),
-          // disconnecteds1200"),
-          // disconnecteds12("en-US"),
-          // disconnecteds1300"),
-          // disconnecteds13("en-US"),
-          // disconnecteds1400"),
-          // disconnecteds14("en-US"),
-          // disconnecteds1500"),
-          // disconnecteds15("en-US"),
-          // disconnecteds1600"),
-          // disconnecteds16("en-US"),
-          // disconnecteds1700"),
-          // disconnecteds17("en-US"),
-          // disconnecteds1800"),
-          // disconnecteds18("en-US"),
-          // disconnecteds1900"),
-          // disconnecteds19("en-US"),
-          // disconnecteds_2000"),
-          // disconnecteds20("en-US"),
-          // disconnecteds2100"),
-          // disconnecteds21("en-US"),
-          // disconnecteds2200"),
-          // disconnecteds22("en-US"),
         ],
       ),
     );

@@ -239,48 +239,26 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiamondjubilees1("en-GB"),
             onPressedAmerican: () => speakdiamondjubilees1("en-US"),
           ),
-          // diamondjubilees200"),
-          // diamondjubilees2
-          // diamondjubilees300"),
-          // diamondjubilees3
-          // diamondjubilees400"),
-          // diamondjubilees4
-          // diamondjubilees500"),
-          // diamondjubilees5
-          // diamondjubilees600"),
-          // diamondjubilees6
-          // diamondjubilees700"),
-          // diamondjubilees7
-          // diamondjubilees800"),
-          // diamondjubilees8
-          // diamondjubilees900"),
-          // diamondjubilees9
-          // diamondjubilees_1000"),
-          // diamondjubilees10
-          // diamondjubilees1100"),
-          // diamondjubilees11
-          // diamondjubilees1200"),
-          // diamondjubilees12
-          // diamondjubilees1300"),
-          // diamondjubilees13
-          // diamondjubilees1400"),
-          // diamondjubilees14
-          // diamondjubilees1500"),
-          // diamondjubilees15
-          // diamondjubilees1600"),
-          // diamondjubilees16
-          // diamondjubilees1700"),
-          // diamondjubilees17
-          // diamondjubilees1800"),
-          // diamondjubilees18
-          // diamondjubilees1900"),
-          // diamondjubilees19
-          // diamondjubilees_2000"),
-          // diamondjubilees20
-          // diamondjubilees2100"),
-          // diamondjubilees21
-          // diamondjubilees2200"),
-          // diamondjubilees22("en-US"),
+          // diamondjubilees2diamondjubilees2
+          // diamondjubilees3diamondjubilees3
+          // diamondjubilees4diamondjubilees4
+          // diamondjubilees5diamondjubilees5
+          // diamondjubilees6diamondjubilees6
+          // diamondjubilees7diamondjubilees7
+          // diamondjubilees8diamondjubilees8
+          // diamondjubilees9diamondjubilees9
+          // diamondjubilees_10diamondjubilees10
+          // diamondjubilees11diamondjubilees11
+          // diamondjubilees12diamondjubilees12
+          // diamondjubilees13diamondjubilees13
+          // diamondjubilees14diamondjubilees14
+          // diamondjubilees15diamondjubilees15
+          // diamondjubilees16diamondjubilees16
+          // diamondjubilees17diamondjubilees17
+          // diamondjubilees18diamondjubilees18
+          // diamondjubilees19diamondjubilees19
+          // diamondjubilees_20diamondjubilees20
+          // diamondjubilees21diamondjubilees21
         ],
       ),
     );

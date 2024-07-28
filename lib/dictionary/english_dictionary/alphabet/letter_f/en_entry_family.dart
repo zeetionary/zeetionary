@@ -471,7 +471,6 @@ class KurdishMeaning extends StatelessWidget {
         """She had to sell the family jewels in order to pay off her gambling debts.""");
   }
 
-// With short examples define "family", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

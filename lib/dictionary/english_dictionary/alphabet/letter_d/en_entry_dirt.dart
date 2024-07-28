@@ -325,7 +325,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) گڵ و خۆڵ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He picked up a handful of dirt and threw it at them.",
             kurdishText: "پڕ بە مشتی خۆڵی ھەڵگرت و تێی ھاویشتن.",
@@ -357,7 +356,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) زانیاریی خراپ کە دەکرێت دژی کەسێک بەکاربێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Do you have any dirt on the new guy?",
             kurdishText: "ھیچ نھێنییەکی ئەو کابرا تازە دەزانی؟",
@@ -371,30 +369,17 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirts10("en-GB"),
             onPressedAmerican: () => speakdirts10("en-US"),
           ),
-          // dirts1100"),
-          // dirts11
-          // dirts1200"),
-          // dirts12
-          // dirts1300"),
-          // dirts13
-          // dirts1400"),
-          // dirts14
-          // dirts1500"),
-          // dirts15
-          // dirts1600"),
-          // dirts16
-          // dirts1700"),
-          // dirts17
-          // dirts1800"),
-          // dirts18
-          // dirts1900"),
-          // dirts19
-          // dirts_2000"),
-          // dirts20
-          // dirts2100"),
-          // dirts21
-          // dirts2200"),
-          // dirts22("en-US"),
+          // dirts11dirts11
+          // dirts12dirts12
+          // dirts13dirts13
+          // dirts14dirts14
+          // dirts15dirts15
+          // dirts16dirts16
+          // dirts17dirts17
+          // dirts18dirts18
+          // dirts19dirts19
+          // dirts_20dirts20
+          // dirts21dirts21
         ],
       ),
     );

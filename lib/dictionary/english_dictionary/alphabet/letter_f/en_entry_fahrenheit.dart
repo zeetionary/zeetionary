@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """Temperatures tomorrow will rise to around seventy degrees Fahrenheit.""");
   }
 
-// With short examples define "Fahrenheit", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

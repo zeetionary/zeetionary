@@ -275,7 +275,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""His achievements have exceeded expectations.""");
   }
 
-// With short examples define "exceed", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

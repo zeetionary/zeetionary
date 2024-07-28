@@ -108,9 +108,7 @@ class EnglishEntryautobiographical extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "autobiographical"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "autobiographical"),
                             // divvviiider
                           ],
                         ),

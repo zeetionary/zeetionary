@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The organization was often criticized for being too entrenched in its views.""");
   }
 
-// With short examples define "entrenched", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -395,24 +395,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasygoings3("en-GB"),
             onPressedAmerican: () => speakeasygoings3("en-US"),
           ),
-          // easygoings400easygoings4
-          // easygoings500easygoings5
-          // easygoings600easygoings6
-          // easygoings700easygoings7
-          // easygoings800easygoings8
-          // easygoings900easygoings9
-          // easygoings_1000easygoings10
-          // easygoings1100easygoings11
-          // easygoings1200easygoings12
-          // easygoings1300easygoings13
-          // easygoings1400easygoings14
-          // easygoings1500easygoings15
-          // easygoings1600easygoings16
-          // easygoings1700easygoings17
-          // easygoings1800easygoings18
-          // easygoings1900easygoings19
-          // easygoings_2000easygoings20
-          // easygoings2100easygoings21
           // easygoings2200easygoingseasygoings
         ],
       ),

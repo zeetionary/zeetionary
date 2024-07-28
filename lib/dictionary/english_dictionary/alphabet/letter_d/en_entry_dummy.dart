@@ -406,7 +406,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) شتێک کە وەک ڕاستی دەردەکەوێت بەڵام ساختەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The bottles of whisky on display are all dummies.""",
@@ -416,7 +415,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) کەسێکی گەمژە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Don't just stand there, you dummy.""",
             kurdishText: """تەنھا لەوێ مەوەستە، گەمژە.""",
@@ -425,7 +423,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵناو) ساختە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """They used a dummy bomb in the drill.""",
             kurdishText: """لە مەشقەکەدا بۆمبێکی ساختەیان بەکارھێنا.""",
@@ -436,7 +433,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (کردار) واپیشاندان کە ھەنگاوێکی دیاریکراو دەنێیت بۆ سەرشێواندن لە دووژمنەکەت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She dummied a shot that brought the goalie to her knees.""",
@@ -446,39 +442,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdummys5("en-US"),
           ),
           // """He was accused of dummying a penalty.
-          // dummys6("en-US"""),
-          // dummys700
-          // dummys7("en-US"""),
-          // dummys800
-          // dummys8("en-US"""),
-          // dummys900
-          // dummys9("en-US"""),
-          // dummys_1000
-          // dummys10("en-US"""),
-          // dummys1100
-          // dummys11("en-US"""),
-          // dummys1200
-          // dummys12("en-US"""),
-          // dummys1300
-          // dummys13("en-US"""),
-          // dummys1400
-          // dummys14("en-US"""),
-          // dummys1500
-          // dummys15("en-US"""),
-          // dummys1600
-          // dummys16("en-US"""),
-          // dummys1700
-          // dummys17("en-US"""),
-          // dummys1800
-          // dummys18("en-US"""),
-          // dummys1900
-          // dummys19("en-US"""),
-          // dummys_2000
-          // dummys20("en-US"""),
-          // dummys2100
-          // dummys21("en-US"""),
-          // dummys2200
-          // dummys22("en-US"""),
         ],
       ),
     );

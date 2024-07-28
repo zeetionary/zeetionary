@@ -439,7 +439,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) نامەیەک کە بە ئیمەیڵ دەنێردرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """We've been exchanging emails over the past few weeks.""",
@@ -464,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (کردار) ناردنی نامە بە ئیمەیڵ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Patrick emailed me yesterday.""",
             kurdishText: """پاتریک دوێنێ ئیمەیڵی بۆ ناردم.""",
@@ -479,7 +477,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemails8("en-GB"),
             onPressedAmerican: () => speakemails8("en-US"),
           ),
-          // emails900emails9
           // speakemails
         ],
       ),

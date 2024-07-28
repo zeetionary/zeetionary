@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The newspaper article enraged him.""");
   }
 
-// With short examples define "enrage", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

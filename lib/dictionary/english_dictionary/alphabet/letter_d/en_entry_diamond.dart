@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شێوەیەک کە چوار لای یەکسانی ھەیە بە ھەمان درێژی و و گۆشەکانی ٩٠ نین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Joe's socks had diamond patterns on them.",
             kurdishText: "گۆرەوییەکانی جۆو شێوە ئەڵماسیان لەسەر بوو.",
@@ -282,42 +281,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiamonds4("en-US"),
           ),
           // skipped_meaning
-          // diamonds500"),
-          // diamonds5
-          // diamonds600"),
-          // diamonds6
-          // diamonds700"),
-          // diamonds7
-          // diamonds800"),
-          // diamonds8
-          // diamonds900"),
-          // diamonds9
-          // diamonds_1000"),
-          // diamonds10
-          // diamonds1100"),
-          // diamonds11
-          // diamonds1200"),
-          // diamonds12
-          // diamonds1300"),
-          // diamonds13
-          // diamonds1400"),
-          // diamonds14
-          // diamonds1500"),
-          // diamonds15
-          // diamonds1600"),
-          // diamonds16
-          // diamonds1700"),
-          // diamonds17
-          // diamonds1800"),
-          // diamonds18
-          // diamonds1900"),
-          // diamonds19
-          // diamonds_2000"),
-          // diamonds20
-          // diamonds2100"),
-          // diamonds21
-          // diamonds2200"),
-          // diamonds22("en-US"),
+          // diamonds5diamonds5
+          // diamonds6diamonds6
+          // diamonds7diamonds7
+          // diamonds8diamonds8
+          // diamonds9diamonds9
+          // diamonds_10diamonds10
+          // diamonds11diamonds11
+          // diamonds12diamonds12
+          // diamonds13diamonds13
+          // diamonds14diamonds14
+          // diamonds15diamonds15
+          // diamonds16diamonds16
+          // diamonds17diamonds17
+          // diamonds18diamonds18
+          // diamonds19diamonds19
+          // diamonds_20diamonds20
+          // diamonds21diamonds21
         ],
       ),
     );

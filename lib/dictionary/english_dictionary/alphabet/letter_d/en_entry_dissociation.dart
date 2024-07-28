@@ -379,7 +379,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ئەوەی کە دەری ببڕیت کە پشتگیری شتێک ناکەیت یان ڕازی نیت پێی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Dissociation from Cabinet decisions by individual ministers is unacceptable.",
@@ -388,46 +387,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdissociations2("en-GB"),
             onPressedAmerican: () => speakdissociations2("en-US"),
           ),
-          // dissociations300"),
-          // dissociations3
-          // dissociations400"),
-          // dissociations4
-          // dissociations500"),
-          // dissociations5
-          // dissociations600"),
-          // dissociations6
-          // dissociations700"),
-          // dissociations7
-          // dissociations800"),
-          // dissociations8
-          // dissociations900"),
-          // dissociations9
-          // dissociations_1000"),
-          // dissociations10
-          // dissociations1100"),
-          // dissociations11
-          // dissociations1200"),
-          // dissociations12
-          // dissociations1300"),
-          // dissociations13
-          // dissociations1400"),
-          // dissociations14
-          // dissociations1500"),
-          // dissociations15
-          // dissociations1600"),
-          // dissociations16
-          // dissociations1700"),
-          // dissociations17
-          // dissociations1800"),
-          // dissociations18
-          // dissociations1900"),
-          // dissociations19
-          // dissociations_2000"),
-          // dissociations20
-          // dissociations2100"),
-          // dissociations21
-          // dissociations2200"),
-          // dissociations22("en-US"),
+          // dissociations3dissociations3
+          // dissociations4dissociations4
+          // dissociations5dissociations5
+          // dissociations6dissociations6
+          // dissociations7dissociations7
+          // dissociations8dissociations8
+          // dissociations9dissociations9
+          // dissociations_10dissociations10
+          // dissociations11dissociations11
+          // dissociations12dissociations12
+          // dissociations13dissociations13
+          // dissociations14dissociations14
+          // dissociations15dissociations15
+          // dissociations16dissociations16
+          // dissociations17dissociations17
+          // dissociations18dissociations18
+          // dissociations19dissociations19
+          // dissociations_20dissociations20
+          // dissociations21dissociations21
         ],
       ),
     );

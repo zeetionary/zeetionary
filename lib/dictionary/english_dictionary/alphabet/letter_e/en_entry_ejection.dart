@@ -386,7 +386,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) فڕێدانە دەرەوەی کەسێک لەناکاو و بە ھێزێکی زۆرەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The volcano's ejection of hot rocks and ash created a massive cloud in the sky.""",
@@ -398,7 +397,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) دەرچوون لە فڕۆکەیەکەوە کە خەریکە تێکدەشکێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Engineers tested a parachute system that would allow pilots to survive high-altitude ejection.""",
@@ -407,24 +405,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakejections3("en-GB"),
             onPressedAmerican: () => speakejections3("en-US"),
           ),
-          // ejections400ejections4
-          // ejections500ejections5
-          // ejections600ejections6
-          // ejections700ejections7
-          // ejections800ejections8
-          // ejections900ejections9
-          // ejections_1000ejections10
-          // ejections1100ejections11
-          // ejections1200ejections12
-          // ejections1300ejections13
-          // ejections1400ejections14
-          // ejections1500ejections15
-          // ejections1600ejections16
-          // ejections1700ejections17
-          // ejections1800ejections18
-          // ejections1900ejections19
-          // ejections_2000ejections20
-          // ejections2100ejections21
           // ejections2200ejectionsejections
         ],
       ),

@@ -314,7 +314,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرەو پێش، پێشەوە، بەر، پێش‌تر،	داھاتوو،	سەربە داھاتوو، داھاتوویی،	ڕوولە پێشەوە، بەرەو پێشەوە،	زووترگەییو، پێش‌وەخت،	پێشکەوتوو، پێشکەوتن‌خواز، پێشەنگ،	خوازیار، ئامادە، پێخۆشبوو، ھۆگر، تامەزرۆ،	ڕووھەڵماڵراو، بێ‌شەرم، ڕوودار، بێ‌شەرمانە،	شینکڕی، پێشکڕی(ن)،	تونڕەو، ڕادیکاڵ
 """),
-// With short examples define "forward", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بەرەو پێشەوە"""),
                     SentencesRow(
@@ -566,7 +565,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_spuxXnul0U';
 const double _startSecondsend = 1017;
 const String _videoIdone = 'khOUvmOQExc';

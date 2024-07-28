@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "frighteningly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە شێوەیەکی ترسنال"""),
                     SentencesRow(
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'kn-h78tuNiU';
 const double _startSecondsend = 64;
 const String _videoIdone = 'qg2nGY1aqlg';

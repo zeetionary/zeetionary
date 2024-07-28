@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەف، سەرکەف، سەرکوڵ،	فڵتە، قسەی ھیچەکە، یاوە، ھەڵیت‌وپڵیت
 """),
-// With short examples define "froth", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) کەفی سەر شلە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: foam"),
                     SentencesRow(
@@ -341,7 +340,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Bbi0kEaTgio';
 const double _startSecondsend = 116;
 const String _videoIdone = 'XFeItKoT0Fw';

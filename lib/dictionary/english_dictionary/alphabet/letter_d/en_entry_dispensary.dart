@@ -236,48 +236,26 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdispensarys1("en-GB"),
             onPressedAmerican: () => speakdispensarys1("en-US"),
           ),
-          // dispensarys200"),
-          // dispensarys2
-          // dispensarys300"),
-          // dispensarys3
-          // dispensarys400"),
-          // dispensarys4
-          // dispensarys500"),
-          // dispensarys5
-          // dispensarys600"),
-          // dispensarys6
-          // dispensarys700"),
-          // dispensarys7
-          // dispensarys800"),
-          // dispensarys8
-          // dispensarys900"),
-          // dispensarys9
-          // dispensarys_1000"),
-          // dispensarys10
-          // dispensarys1100"),
-          // dispensarys11
-          // dispensarys1200"),
-          // dispensarys12
-          // dispensarys1300"),
-          // dispensarys13
-          // dispensarys1400"),
-          // dispensarys14
-          // dispensarys1500"),
-          // dispensarys15
-          // dispensarys1600"),
-          // dispensarys16
-          // dispensarys1700"),
-          // dispensarys17
-          // dispensarys1800"),
-          // dispensarys18
-          // dispensarys1900"),
-          // dispensarys19
-          // dispensarys_2000"),
-          // dispensarys20
-          // dispensarys2100"),
-          // dispensarys21
-          // dispensarys2200"),
-          // dispensarys22("en-US"),
+          // dispensarys2dispensarys2
+          // dispensarys3dispensarys3
+          // dispensarys4dispensarys4
+          // dispensarys5dispensarys5
+          // dispensarys6dispensarys6
+          // dispensarys7dispensarys7
+          // dispensarys8dispensarys8
+          // dispensarys9dispensarys9
+          // dispensarys_10dispensarys10
+          // dispensarys11dispensarys11
+          // dispensarys12dispensarys12
+          // dispensarys13dispensarys13
+          // dispensarys14dispensarys14
+          // dispensarys15dispensarys15
+          // dispensarys16dispensarys16
+          // dispensarys17dispensarys17
+          // dispensarys18dispensarys18
+          // dispensarys19dispensarys19
+          // dispensarys_20dispensarys20
+          // dispensarys21dispensarys21
         ],
       ),
     );

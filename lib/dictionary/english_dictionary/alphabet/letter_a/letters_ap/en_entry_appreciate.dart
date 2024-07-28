@@ -141,9 +141,7 @@ class EnglishEntryappreciate extends StatelessWidget {
                   children: [
                     const EnglishMeaning(),
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           const DividerDefinition(),
                           const DefinitionKurdish(text: """

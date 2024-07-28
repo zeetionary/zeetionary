@@ -266,44 +266,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirectorys3("en-GB"),
             onPressedAmerican: () => speakdirectorys3("en-US"),
           ),
-          // directorys400"),
-          // directorys4
-          // directorys500"),
-          // directorys5
-          // directorys600"),
-          // directorys6
-          // directorys700"),
-          // directorys7
-          // directorys800"),
-          // directorys8
-          // directorys900"),
-          // directorys9
-          // directorys_1000"),
-          // directorys10
-          // directorys1100"),
-          // directorys11
-          // directorys1200"),
-          // directorys12
-          // directorys1300"),
-          // directorys13
-          // directorys1400"),
-          // directorys14
-          // directorys1500"),
-          // directorys15
-          // directorys1600"),
-          // directorys16
-          // directorys1700"),
-          // directorys17
-          // directorys1800"),
-          // directorys18
-          // directorys1900"),
-          // directorys19
-          // directorys_2000"),
-          // directorys20
-          // directorys2100"),
-          // directorys21
-          // directorys2200"),
-          // directorys22("en-US"),
+          // directorys4directorys4
+          // directorys5directorys5
+          // directorys6directorys6
+          // directorys7directorys7
+          // directorys8directorys8
+          // directorys9directorys9
+          // directorys_10directorys10
+          // directorys11directorys11
+          // directorys12directorys12
+          // directorys13directorys13
+          // directorys14directorys14
+          // directorys15directorys15
+          // directorys16directorys16
+          // directorys17directorys17
+          // directorys18directorys18
+          // directorys19directorys19
+          // directorys_20directorys20
+          // directorys21directorys21
         ],
       ),
     );

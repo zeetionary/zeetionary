@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مۆن، ڕووگرژ، ڕووتاڵ،	نادۆستانە، دوژمنانە، ڕقەبەرانە، ترسناک، ترسێنەر،	بێزەون،	ھەڕەشەیی‌یانە، لەگەڵ‌ھەڕەشە، مەترسی‌دار
 """),
-// With short examples define "forbidding", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کە نەیار و تۆقێنەر دیارە"""),
                     SentencesRow(
@@ -231,7 +230,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'sQ0WsP7osAU';
 const double _startSecondsend = 231;
 const String _videoIdone = '8fCqhpV2SG4';

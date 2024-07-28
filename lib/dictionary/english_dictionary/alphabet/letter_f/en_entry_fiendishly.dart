@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌داد، یەکجار، زۆر
 """),
-// With short examples define "fiendishly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) تەواو؛ بە ئاستێکی زۆر"""),
                     SentencesRow(
@@ -228,7 +227,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'XOAOqQuMgao';
 const double _startSecondsend = 470;
 const String _videoIdone = 'gufZgb9ArKU';

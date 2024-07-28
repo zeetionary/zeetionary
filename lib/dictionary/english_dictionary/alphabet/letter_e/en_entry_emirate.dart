@@ -387,33 +387,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ناوچەیەک کە ئەمیرێک دەسەڵاتدارییەتی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The emirate has its own legal system.""",
             kurdishText: """ئیمارەتەکە سیستەمی یاسایی خۆی ھەیە.""",
             onPressedBritish: () => speakemirates2("en-GB"),
             onPressedAmerican: () => speakemirates2("en-US"),
           ),
-          // emirates300emirates3
-          // emirates400emirates4
-          // emirates500emirates5
-          // emirates600emirates6
-          // emirates700emirates7
-          // emirates800emirates8
-          // emirates900emirates9
-          // emirates_1000emirates10
-          // emirates1100emirates11
-          // emirates1200emirates12
-          // emirates1300emirates13
-          // emirates1400emirates14
-          // emirates1500emirates15
-          // emirates1600emirates16
-          // emirates1700emirates17
-          // emirates1800emirates18
-          // emirates1900emirates19
-          // emirates_2000emirates20
-          // emirates2100emirates21
-          // emirates2200emiratesemirates
         ],
       ),
     );

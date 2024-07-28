@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 	پەشۆکاو، تاساو، ھەژیو، نگەران، شڵەژاو،	شێت‌ئاسا، شێتانە، بەپەلە، بە ھەشتاو
 """),
-// With short examples define "frantic", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بە پۆشۆکاوی دەکرێت"""),
                     SentencesRow(
@@ -297,7 +296,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'FQ4hvLqNfqo';
 const double _startSecondsend = 830;
 const String _videoIdone = 'KZbzIf_C6Y4';

@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەرەکی، دەروەیی، دەرەوە،	لە دەرەوەی وڵات، ھەٌڵکەوتوو لە دەرەوەی وڵات (خۆ)،	بێگانە، بیانی، لایدە، نەناس، لاوەکی، غەوارە، غەیرە، نائاشنا، ناشناس، نائاسایی،	بێگانە، بیانی، لە لایەن دەزگای پاراستنەوە وەک بەشێکی خۆ ناناسرێتەوە
 """),
-// With short examples define "foreign", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) لە وڵاتێکی دیکەوە"""),
                     SentencesRow(
@@ -390,7 +389,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '3C0BdIn6Hdo';
 const double _startSecondsend = 47;
 const String _videoIdone = '_GFkHA5EZdE';

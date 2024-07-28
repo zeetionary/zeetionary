@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """He was one of the entrepreneurs of the 80s who made their money in property.""");
   }
 
-// With short examples define "entrepreneur", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

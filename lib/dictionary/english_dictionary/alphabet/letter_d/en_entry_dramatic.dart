@@ -432,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) بەجۆش"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "They watched dramatic pictures of the police raid on TV.",
@@ -444,7 +443,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) پەیوەندیدار بە شانۆ و ھۆڵی شانۆ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Students will study various plays and dramatic texts.",
@@ -464,43 +462,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ھاوەڵناو) کە زیادەڕۆی لە شتێک دەکات بۆ ڕاکێشانی سەرنج"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Don't be so dramatic!",
             kurdishText: "ھێندە ھەست‌بزوێن مەبە!.",
             onPressedBritish: () => speakdramatics7("en-GB"),
             onPressedAmerican: () => speakdramatics7("en-US"),
           ),
-          // dramatics800"),
-          // dramatics8("en-US"),
-          // dramatics900"),
-          // dramatics9("en-US"),
-          // dramatics_1000"),
-          // dramatics10("en-US"),
-          // dramatics1100"),
-          // dramatics11("en-US"),
-          // dramatics1200"),
-          // dramatics12("en-US"),
-          // dramatics1300"),
-          // dramatics13("en-US"),
-          // dramatics1400"),
-          // dramatics14("en-US"),
-          // dramatics1500"),
-          // dramatics15("en-US"),
-          // dramatics1600"),
-          // dramatics16("en-US"),
-          // dramatics1700"),
-          // dramatics17("en-US"),
-          // dramatics1800"),
-          // dramatics18("en-US"),
-          // dramatics1900"),
-          // dramatics19("en-US"),
-          // dramatics_2000"),
-          // dramatics20("en-US"),
-          // dramatics2100"),
-          // dramatics21("en-US"),
-          // dramatics2200"),
-          // dramatics22("en-US"),
         ],
       ),
     );

@@ -394,7 +394,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کەسێک بە پێداگری قسە دەکات بۆ ئەوەی مەبەستەکەی بە تەواوی بگەیەنێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He was emphatic that he could not work with her.""",
             kurdishText: """پێداگر بوو لەوەی کە ناتوانێت کاری لەگەڵ بکات.""",
@@ -412,7 +411,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) بردنەوەیەک بە ئەنجامێکی زۆرەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Poland reached the final of the championship yesterday with an emphatic 5–0 victory over Italy.""",
@@ -421,23 +419,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemphatics4("en-GB"),
             onPressedAmerican: () => speakemphatics4("en-US"),
           ),
-          // emphatics500emphatics5
-          // emphatics600emphatics6
-          // emphatics700emphatics7
-          // emphatics800emphatics8
-          // emphatics900emphatics9
-          // emphatics_1000emphatics10
-          // emphatics1100emphatics11
-          // emphatics1200emphatics12
-          // emphatics1300emphatics13
-          // emphatics1400emphatics14
-          // emphatics1500emphatics15
-          // emphatics1600emphatics16
-          // emphatics1700emphatics17
-          // emphatics1800emphatics18
-          // emphatics1900emphatics19
-          // emphatics_2000emphatics20
-          // emphatics2100emphatics21
           // emphatics2200emphaticsemphatics
         ],
       ),

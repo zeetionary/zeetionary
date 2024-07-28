@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """During their mission, they encounter all kinds of bizarre and fanciful creatures.""");
   }
 
-// With short examples define "fanciful", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

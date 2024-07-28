@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """The girls learn exactly what is entailed in caring for a newborn baby.""");
   }
 
-// With short examples define "entail", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -429,7 +429,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە ھێندە قازانج دەکات تاوەکو بەردەوام ببێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The college was not achieving the numbers of students needed to make it economic.""",
@@ -447,22 +446,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomics6("en-GB"),
             onPressedAmerican: () => speakeconomics6("en-US"),
           ),
-          // economics700economics7
-          // economics800economics8
-          // economics900economics9
-          // economics_1000economics10
-          // economics1100economics11
-          // economics1200economics12
-          // economics1300economics13
-          // economics1400economics14
-          // economics1500economics15
-          // economics1600economics16
-          // economics1700economics17
-          // economics1800economics18
-          // economics1900economics19
-          // economics_2000economics20
-          // economics2100economics21
-          // economics2200economicseconomics
         ],
       ),
     );

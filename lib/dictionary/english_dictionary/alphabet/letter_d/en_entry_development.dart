@@ -413,7 +413,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) گەشەی ئابووری وڵاتێک یان ھەرێمێک بە زیادکردنی چالاکیی بازرگانی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Increased tourism will promote job creation and economic development.",
@@ -433,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) پڕۆسەی درووستکردنی شتێکی تازە یان پێشکەوتووتر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Pete is head of product development.",
             kurdishText: "پیت سەرپەرشتی گەشەپێدانی بەرھەمەکانە.",
@@ -460,7 +458,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) ڕووداو یان قۆناغێکی تازە کە ئەگەری ھەیە گۆڕانکاری بکات لەوەی چی لە دۆخێکی بەردەوامدا ڕوودەدات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Have there been any further developments?",
             kurdishText: "ھیچ پەرەسەندنی زیاتر ھەبووە؟",
@@ -486,7 +483,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) پارچە زەوییەک کە بینای تازەی لەسەرە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I live in a brand-new housing development.",
             kurdishText: "لە پڕۆژەیەکی خانووبەرەی تازەدا دەژیم.",
@@ -506,7 +502,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) پڕۆسەی بەکارھێنانی پارچە زەوییەک، ڤە تایبەتی بۆ قازانجکردن لێی بە بنیادنان لەسەری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The city has undergone rapid development.",
             kurdishText: "شارەکە بە بەرەوپێشچوونی خێرادا چووە.",
@@ -520,14 +515,9 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdevelopments18("en-GB"),
             onPressedAmerican: () => speakdevelopments18("en-US"),
           ),
-          // developments1900"),
-          // developments19
-          // developments_2000"),
-          // developments20
-          // developments2100"),
-          // developments21
-          // developments2200"),
-          // developments22("en-US"),
+          // developments19developments19
+          // developments_20developments20
+          // developments21developments21
         ],
       ),
     );

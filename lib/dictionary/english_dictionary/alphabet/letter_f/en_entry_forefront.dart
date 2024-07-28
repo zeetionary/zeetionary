@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕیزی پێشەوە، پێش‌ڕێز، ھێڵی پێشەوە،	لەپێشەوە، لەپێش
 """),
-// With short examples define "forefront", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پێگەی گرنگ یان لە پێشەوە"""),
                     SentencesRow(
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '60FM9WjkXtA';
 const double _startSecondsend = 862;
 const String _videoIdone = 'ea4Tq7HB7kU';

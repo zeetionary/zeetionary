@@ -706,7 +706,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The film has a documentary feel to it.""");
   }
 
-// With short examples define "feel", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

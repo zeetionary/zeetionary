@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە حەزی بە ژینگەناسییە و باوەڕی وایە ژینگە دەبێت بپارێزرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He became an ecologist to help protect natural habitats.""",
@@ -386,26 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakecologists2("en-GB"),
             onPressedAmerican: () => speakecologists2("en-US"),
           ),
-          // ecologists300ecologists3
-          // ecologists400ecologists4
-          // ecologists500ecologists5
-          // ecologists600ecologists6
-          // ecologists700ecologists7
-          // ecologists800ecologists8
-          // ecologists900ecologists9
-          // ecologists_1000ecologists10
-          // ecologists1100ecologists11
-          // ecologists1200ecologists12
-          // ecologists1300ecologists13
-          // ecologists1400ecologists14
-          // ecologists1500ecologists15
-          // ecologists1600ecologists16
-          // ecologists1700ecologists17
-          // ecologists1800ecologists18
-          // ecologists1900ecologists19
-          // ecologists_2000ecologists20
-          // ecologists2100ecologists21
-          // ecologists2200ecologistsecologists
         ],
       ),
     );

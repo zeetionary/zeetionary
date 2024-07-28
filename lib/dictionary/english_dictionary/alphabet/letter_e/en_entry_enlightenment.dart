@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """This is something about which we would welcome further enlightenment.""");
   }
 
-// With short examples define "enlightenment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

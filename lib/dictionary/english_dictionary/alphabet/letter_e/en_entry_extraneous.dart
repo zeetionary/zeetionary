@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""We shall ignore factors extraneous to the problem.""");
   }
 
-// With short examples define "extraneous", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

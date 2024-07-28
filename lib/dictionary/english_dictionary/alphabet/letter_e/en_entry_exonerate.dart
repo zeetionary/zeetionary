@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The president cannot be exonerated from responsibility for this problem.""");
   }
 
-// With short examples define "exonerate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -284,7 +284,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قاپ، چێوە، باڵشمە، چوارچێوە،	لەش، لاشە، چوارچێوە، بەدەنە،	(ماشێن، فڕۆکە و ھتد) شاسی، چێوە،	قیافە، ھەیکەڵ، جەستە، پەیکەر،	پێکھاتە، داڕشتە، ڕێکخستە، قاڵب، چوارچێوە،	دیمەن،	وێنە، تاکەوێنە، دیمەن (سینەما، تەلەفزیۆن و وێنەگری)،	داربەست، چێوبەست،	قەفەسە، بێرکم،	خانووبەرە، دەزگا،	دەزگا،	(زمانەوانی) چوارچێوە، چێوە،	(چەرخ) چوارچێوە، لاشە،	(تەون) دار، داروبار
 """),
-// With short examples define "frame", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) چوارچێوەیەک کە شتێک ڕاگیر دەکات"""),
                     SentencesRow(
@@ -490,7 +489,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Kou7ur5xt_4';
 const double _startSecondsend = 311;
 const String _videoIdone = '_wNsZEqpKUA';

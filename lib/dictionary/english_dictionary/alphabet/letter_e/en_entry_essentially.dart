@@ -258,7 +258,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He was, essentially, a teacher, not a manager.""");
   }
 
-// With short examples define "essentially", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

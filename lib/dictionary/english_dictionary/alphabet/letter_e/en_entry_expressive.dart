@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """Every word and gesture is expressive of the artist's sincerity.""");
   }
 
-// With short examples define "expressive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

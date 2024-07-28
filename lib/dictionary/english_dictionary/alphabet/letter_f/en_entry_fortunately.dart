@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەختەوەرانە، بە خۆشی‌یەوە، خواپێداوانە
 """),
-// With short examples define "fortunately", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە بەختی باش"""),
                     SentencesRow(
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DwsZggwPRKc';
 const double _startSecondsend = 110;
 const String _videoIdone = 'zqllxbPWKNI';

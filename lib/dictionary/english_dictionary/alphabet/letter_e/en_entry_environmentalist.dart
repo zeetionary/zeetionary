@@ -251,7 +251,6 @@ class KurdishMeaning extends StatelessWidget {
         """The expansion plans will face fierce resistance from environmentalists.""");
   }
 
-// With short examples define "environmentalist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

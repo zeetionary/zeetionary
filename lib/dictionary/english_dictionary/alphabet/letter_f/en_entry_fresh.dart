@@ -354,7 +354,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تازە، نەو، نوێ، تەڕ، تەڕوتازە، تەڕوبڕ، ئاودار، گەش‌وتازە، گوڵ‌بەدەم،	خاوێن، تەمیز، (چێشت و ئاو) تازەلێنراو، نەماوە، تازە، کۆن نییە، نابەیات،	(ئاو) شیرین، خۆش، نەسوێر، سووک،	فێنک، سارد،	(با) توند، بەقەوەت،	بەکەیف، خۆشحاڵ، بەگوڕ، بەتین،	ڕوودار، بێ‌حەیا، بێ‌شەرم،	تازەکار، خاو، نۆکار، سەرەتا، دەسپێک، ھەوەڵ
 """),
-// With short examples define "fresh", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) خواردنی تازە"""),
                     SentencesRow(
@@ -648,7 +647,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 740;
 const String _videoIdone = 'j1BfO7VlIw4';

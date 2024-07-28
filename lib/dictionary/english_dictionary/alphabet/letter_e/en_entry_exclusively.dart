@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """This is a charity that relies almost exclusively on voluntary contributions.""");
   }
 
-// With short examples define "exclusively", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

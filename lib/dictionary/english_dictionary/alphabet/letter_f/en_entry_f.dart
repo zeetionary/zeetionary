@@ -254,7 +254,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Water freezes at 32°F.""");
   }
 
-// With short examples define "f", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

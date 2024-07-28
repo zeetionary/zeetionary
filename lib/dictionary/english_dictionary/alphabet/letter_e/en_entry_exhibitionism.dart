@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""It's exhibitionism to flaunt wealth so blatantly.""");
   }
 
-// With short examples define "exhibitionism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

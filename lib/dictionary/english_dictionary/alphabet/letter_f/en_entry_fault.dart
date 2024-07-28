@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He had always been polite—she couldn't fault him on that.""");
   }
 
-// With short examples define "fault", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

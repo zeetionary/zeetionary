@@ -366,27 +366,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomists1("en-GB"),
             onPressedAmerican: () => speakeconomists1("en-US"),
           ),
-          // economists200economists2
-          // economists300economists3
-          // economists400economists4
-          // economists500economists5
-          // economists600economists6
-          // economists700economists7
-          // economists800economists8
-          // economists900economists9
-          // economists_1000economists10
-          // economists1100economists11
-          // economists1200economists12
-          // economists1300economists13
-          // economists1400economists14
-          // economists1500economists15
-          // economists1600economists16
-          // economists1700economists17
-          // economists1800economists18
-          // economists1900economists19
-          // economists_2000economists20
-          // economists2100economists21
-          // economists2200economistseconomists
         ],
       ),
     );

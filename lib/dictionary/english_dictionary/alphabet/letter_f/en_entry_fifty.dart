@@ -174,7 +174,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fifty", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) پەنجا (٥٠)"""),
                     SentencesRow(
                       englishText:
@@ -275,7 +274,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'nW948Va-l10';
 const double _startSecondsend = 111;
 const String _videoIdone = '8_AE-QHWj-A';

@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بۆن‌خۆش، عەتراوی، بۆندار
 """),
-// With short examples define "fragrant", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) ھەبوونی بۆنی خۆش"""),
                     SentencesRow(
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '1Gxrwh4zGPg';
 const double _startSecondsend = 1646;
 const String _videoIdone = 'S-4rhjO6xYg';

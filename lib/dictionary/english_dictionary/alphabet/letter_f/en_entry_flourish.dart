@@ -236,7 +236,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەکان، توند جووڵانەوە، جیفڕک، تەکانی توند،	ڕازاندنەوە، نەخش‌ونیگار، ھێڵی چەماوە، جوان‌نووسی، کەوانەھێڵ، پێچ‌وخەم، کێش‌وسووڕ، ھێڵی کەوانەیی،	فانفار، بەرز و بەشکۆ،	ڕووان، شین‌بوون، ھەڵدان، گەشەکردن، نەش‌ونەما، پەرەسەندن، پێشکەوتن
 """),
-// With short examples define "flourish", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ئەوەی بەخێرایی گەشە بکەیت"""),
                     SentencesRow(
@@ -409,7 +408,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'n5x7GLl-mMo';
 const double _startSecondsend = 232;
 const String _videoIdone = 'J-K5OjAkiEA';

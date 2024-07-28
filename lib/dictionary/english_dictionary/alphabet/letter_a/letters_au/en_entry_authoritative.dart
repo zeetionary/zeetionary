@@ -109,9 +109,7 @@ class EnglishEntryauthoritative extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "authoritative"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "authoritative"),
                             // divvviiider
                           ],
                         ),

@@ -455,7 +455,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) کە ئەگەری زۆری ھەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Are you sure you locked the gate? You could easily have forgotten.""",
@@ -474,7 +473,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ھاوەڵکار) بێ گومان"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """It's easily the best play I've seen this year.""",
             kurdishText: """بەدڵنیاییەوە باشترین یارییە تا ئێستا بینیبێتم.""",
@@ -493,7 +491,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ھاوەڵکار) بەخێرایی؛ خێراتر لە ئاسایی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I get bored easily.""",
             kurdishText: """بە ئاسانی بێزار دەبم.""",
@@ -507,18 +504,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasilys10("en-GB"),
             onPressedAmerican: () => speakeasilys10("en-US"),
           ),
-          // easilys1100easilys11
-          // easilys1200easilys12
-          // easilys1300easilys13
-          // easilys1400easilys14
-          // easilys1500easilys15
-          // easilys1600easilys16
-          // easilys1700easilys17
-          // easilys1800easilys18
-          // easilys1900easilys19
-          // easilys_2000easilys20
-          // easilys2100easilys21
-          // easilys2200easilyseasilys
         ],
       ),
     );

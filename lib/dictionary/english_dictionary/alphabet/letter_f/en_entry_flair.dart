@@ -162,7 +162,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: توانایی، توانست، توانایی سروشتی، بەھرە، لێھاتوویی، توانایی لێک‌کردنەوە، زیرەکی،	ئارەزوو، حەز، مەیل، ویست
 """),
-// With short examples define "flair", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) توانای سرووشتی کردنی شتێک بە باشی"""),
                     SentencesRow(
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'pTysrwci0pU';
 const double _startSecondsend = 915;
 const String _videoIdone = 'KJy7T24rhg0';

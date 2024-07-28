@@ -134,8 +134,7 @@ class EnglishEntrybackward extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backward"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backward"),
                             // divvviiider
                           ],
                         ),

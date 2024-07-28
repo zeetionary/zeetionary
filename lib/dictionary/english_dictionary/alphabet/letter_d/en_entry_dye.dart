@@ -394,7 +394,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) مادەیەک کە بۆ بۆیەکردن بەکاردێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She dipped the material into the dye.""",
             kurdishText: """مادەکە ژەند بە بۆیەکەدا.""",
@@ -409,42 +408,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdyes4("en-GB"),
             onPressedAmerican: () => speakdyes4("en-US"),
           ),
-          // dyes500
-          // dyes5("en-US"""),
-          // dyes600
-          // dyes6("en-US"""),
-          // dyes700
-          // dyes7("en-US"""),
-          // dyes800
-          // dyes8("en-US"""),
-          // dyes900
-          // dyes9("en-US"""),
-          // dyes_1000
-          // dyes10("en-US"""),
-          // dyes1100
-          // dyes11("en-US"""),
-          // dyes1200
-          // dyes12("en-US"""),
-          // dyes1300
-          // dyes13("en-US"""),
-          // dyes1400
-          // dyes14("en-US"""),
-          // dyes1500
-          // dyes15("en-US"""),
-          // dyes1600
-          // dyes16("en-US"""),
-          // dyes1700
-          // dyes17("en-US"""),
-          // dyes1800
-          // dyes18("en-US"""),
-          // dyes1900
-          // dyes19("en-US"""),
-          // dyes_2000
-          // dyes20("en-US"""),
-          // dyes2100
-          // dyes21("en-US"""),
-          // dyes2200
-          // dyes22("en-US"""),
         ],
       ),
     );

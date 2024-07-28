@@ -406,7 +406,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) سەر بە بنچینەییترین جۆر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """How could you make such an elementary mistake?""",
             kurdishText: """چۆن توانیت ھەڵەیەکی ھێندە بنچینەیی بکەیت؟""",
@@ -429,22 +428,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelementarys5("en-GB"),
             onPressedAmerican: () => speakelementarys5("en-US"),
           ),
-          // elementarys600elementarys6
-          // elementarys700elementarys7
-          // elementarys800elementarys8
-          // elementarys900elementarys9
-          // elementarys_1000elementarys10
-          // elementarys1100elementarys11
-          // elementarys1200elementarys12
-          // elementarys1300elementarys13
-          // elementarys1400elementarys14
-          // elementarys1500elementarys15
-          // elementarys1600elementarys16
-          // elementarys1700elementarys17
-          // elementarys1800elementarys18
-          // elementarys1900elementarys19
-          // elementarys_2000elementarys20
-          // elementarys2100elementarys21
           // elementarys2200elementaryselementarys
         ],
       ),

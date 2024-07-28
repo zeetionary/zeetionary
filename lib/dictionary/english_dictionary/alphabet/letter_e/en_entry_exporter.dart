@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Japan is a major exporter of cars.""");
   }
 
-// With short examples define "exporter", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

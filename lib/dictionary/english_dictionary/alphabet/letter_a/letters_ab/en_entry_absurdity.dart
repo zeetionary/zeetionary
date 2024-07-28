@@ -58,9 +58,7 @@ class EnglishEntryabsurdity extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əbˈsɜːrdəti/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əbˈsɜːrdəti/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaabsurdity("en-US"),
                             ),

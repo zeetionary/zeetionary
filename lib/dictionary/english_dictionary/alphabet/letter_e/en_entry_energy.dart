@@ -331,8 +331,6 @@ class KurdishMeaning extends StatelessWidget {
         """The £500 million programme is centred around energy efficiency and renewable power sources.0""");
   }
 
-// With short examples define "energy", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

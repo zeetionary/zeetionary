@@ -301,7 +301,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I tried extracting the rusty nails with a hammer.""");
   }
 
-// With short examples define "extract", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

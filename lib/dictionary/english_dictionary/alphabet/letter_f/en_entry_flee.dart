@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flee", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕاکردن یان ھەڵھاتن لە شوێنێک"""),
                     SentencesRow(
@@ -257,7 +256,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tsxmyL7TUJg';
 const double _startSecondsend = 1110;
 const String _videoIdone = 'zqllxbPWKNI';

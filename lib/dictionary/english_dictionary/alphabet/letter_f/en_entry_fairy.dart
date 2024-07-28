@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """She used to think there were fairies at the bottom of her garden.""");
   }
 
-// With short examples define "fairy", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

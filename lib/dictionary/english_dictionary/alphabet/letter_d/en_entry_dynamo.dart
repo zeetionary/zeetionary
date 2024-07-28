@@ -376,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێک کە وزەی زۆری ھەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Onstage she is a human dynamo, spending the hour in perpetual motion.""",
@@ -385,46 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdynamos2("en-GB"),
             onPressedAmerican: () => speakdynamos2("en-US"),
           ),
-          // dynamos300
-          // dynamos3("en-US"""),
-          // dynamos400
-          // dynamos4("en-US"""),
-          // dynamos500
-          // dynamos5("en-US"""),
-          // dynamos600
-          // dynamos6("en-US"""),
-          // dynamos700
-          // dynamos7("en-US"""),
-          // dynamos800
-          // dynamos8("en-US"""),
-          // dynamos900
-          // dynamos9("en-US"""),
-          // dynamos_1000
-          // dynamos10("en-US"""),
-          // dynamos1100
-          // dynamos11("en-US"""),
-          // dynamos1200
-          // dynamos12("en-US"""),
-          // dynamos1300
-          // dynamos13("en-US"""),
-          // dynamos1400
-          // dynamos14("en-US"""),
-          // dynamos1500
-          // dynamos15("en-US"""),
-          // dynamos1600
-          // dynamos16("en-US"""),
-          // dynamos1700
-          // dynamos17("en-US"""),
-          // dynamos1800
-          // dynamos18("en-US"""),
-          // dynamos1900
-          // dynamos19("en-US"""),
-          // dynamos_2000
-          // dynamos20("en-US"""),
-          // dynamos2100
-          // dynamos21("en-US"""),
-          // dynamos2200
-          // dynamos22("en-US"""),
         ],
       ),
     );

@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """He is in the enviable position of having two job offers to choose from.""");
   }
 
-// With short examples define "enviable", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

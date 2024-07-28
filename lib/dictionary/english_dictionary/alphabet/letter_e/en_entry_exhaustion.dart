@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Two of the horses collapsed with exhaustion.""");
   }
 
-// With short examples define "exhaustion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

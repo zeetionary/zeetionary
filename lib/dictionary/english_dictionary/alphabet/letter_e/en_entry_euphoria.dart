@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The news sparked a wave of euphoria across the country.""");
   }
 
-// With short examples define "euphoria", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

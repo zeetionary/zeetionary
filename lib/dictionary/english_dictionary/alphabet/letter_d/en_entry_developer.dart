@@ -262,51 +262,30 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بەرھەمی تازە دیزاین و درووست دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Google is a leading software developer.",
             kurdishText: "گووگڵ گەشەپێدەرێکی سەرەکی نەرمامێرە.",
             onPressedBritish: () => speakdevelopers3("en-GB"),
             onPressedAmerican: () => speakdevelopers3("en-US"),
           ),
-          // developers400"),
-          // developers4
-          // developers500"),
-          // developers5
-          // developers600"),
-          // developers6
-          // developers700"),
-          // developers7
-          // developers800"),
-          // developers8
-          // developers900"),
-          // developers9
-          // developers1000"),
-          // developers10
-          // developers1100"),
-          // developers11
-          // developers1200"),
-          // developers12
-          // developers1300"),
-          // developers13
-          // developers1400"),
-          // developers14
-          // developers1500"),
-          // developers15
-          // developers1600"),
-          // developers16
-          // developers1700"),
-          // developers17
-          // developers1800"),
-          // developers18
-          // developers1900"),
-          // developers19
-          // developers_2000"),
-          // developers20
-          // developers2100"),
-          // developers21
-          // developers2200"),
-          // developers22("en-US"),
+          // developers4developers4
+          // developers5developers5
+          // developers6developers6
+          // developers7developers7
+          // developers8developers8
+          // developers9developers9
+          // developers10developers10
+          // developers11developers11
+          // developers12developers12
+          // developers13developers13
+          // developers14developers14
+          // developers15developers15
+          // developers16developers16
+          // developers17developers17
+          // developers18developers18
+          // developers19developers19
+          // developers_20developers20
+          // developers21developers21
         ],
       ),
     );

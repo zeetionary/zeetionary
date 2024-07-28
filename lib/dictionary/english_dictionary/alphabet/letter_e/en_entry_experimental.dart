@@ -266,7 +266,6 @@ class KurdishMeaning extends StatelessWidget {
         """Experimental data suggests that cholesterol may play a role in the disease.""");
   }
 
-// With short examples define "experimental", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

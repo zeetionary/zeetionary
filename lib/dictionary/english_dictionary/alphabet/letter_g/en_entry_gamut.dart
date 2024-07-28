@@ -774,7 +774,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const KurdishVocabulary(text: """
 کوردی: بوار، پانتایی، ڕاخستە، هەموو مەودایێ، ڕادە"""),
-// With short examples define "gamut", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کۆمەڵەیەکی تەواو لە جۆرە شتێک"""),
                     SentencesRow(
@@ -1601,7 +1600,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/D7Cv7x6jjYQ?t=';
 const double _startSecondsend = 000000000000000000000000000172;
 const String _videoIdone = 'https://youtu.be/x629nYBuLpY?t=';

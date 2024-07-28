@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She enumerated the main points.""");
   }
 
-// With short examples define "enumerate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

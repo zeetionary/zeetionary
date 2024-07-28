@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""There was a faraway look in her eyes.""");
   }
 
-// With short examples define "faraway", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

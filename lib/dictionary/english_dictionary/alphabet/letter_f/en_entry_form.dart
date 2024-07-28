@@ -659,7 +659,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وشە، شێوگ، پەیڤ،	بیچم، نموود، ڕوو، شێوە، تاپۆ، ڕوخسار،	شت،	چوارچێوە، قاڵب، داڕێژگە، بۆتە، داڕێژگ،	جۆر، چەشن، ئاوا، ڕەنگ،	شێواز، شێوە، ڕێگا،	ڕواڵەت، ڕووکەش،	ڕەسم، نەریت، باو، کەڤنەشۆپ،	داب‌ودەستوور،	کردەوە، کار، کردە،	ڕێکخستن، شێوەی کار، جووڵانەوە،	ئامادەیی، سازبوون، تەیاری،	پرسیارنامە، داخوازی‌نامە،	ڕەوش، دۆخ، بارودۆخ، کاودان، دەست‌ودار،	ڕێژە، شێوگ، دەمکات،	تەخت، میز (بێ‌پشتی)،	پۆل، ساڵ،	(بریتانیا) کون، بوودڕ، کولانە، لان (ھی کەروێشک)،	دڵ‌ودەروون، ورە،	(نافەرمی، بریتانیا) پێشینە، ڕابووری
 """),
-// With short examples define "form", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) جۆرێک لە شتێک"""),
                     SentencesRow(
                       englishText:
@@ -1299,7 +1298,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '21Z4RIOFhMA';
 const double _startSecondsend = 751;
 const String _videoIdone = 'khOUvmOQExc';

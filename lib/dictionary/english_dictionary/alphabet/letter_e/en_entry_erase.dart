@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""You cannot erase injustice from the world.""");
   }
 
-// With short examples define "erase", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

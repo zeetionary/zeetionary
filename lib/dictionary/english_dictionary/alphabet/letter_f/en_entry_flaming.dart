@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گڕکێشاو، گڕگرتوو، بڵێسەسەندوو، کڵپەکردوو،	درەوشاوە، بریقەدار،	سوور، ڕۆشن، گەش، نارنجی، توندوتیژ، ئاورین
 """),
-// With short examples define "flaming", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پڕ لە تووڕەیی"""),
                     SentencesRow(
@@ -285,7 +284,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'MzSktgpfD84';
 const double _startSecondsend = 468;
 const String _videoIdone = 'FWYsvw_U3Zw';

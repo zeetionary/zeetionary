@@ -298,7 +298,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) بەخشێنی وزە و کاتی زۆر بە شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Her devotion to the job left her with very little free time.",
@@ -318,7 +317,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) نازی ئایینی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He was a man of deep religious devotion.",
             kurdishText: "پیاوێکی نوێژکاری قووڵی ئایینی بوو.",
@@ -335,43 +333,26 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) نوێژ و نزای ئایینی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She went to her devotions.",
             kurdishText: "چوو بۆ نزاکانی.",
             onPressedBritish: () => speakdevotions7("en-GB"),
             onPressedAmerican: () => speakdevotions7("en-US"),
           ),
-          // devotions800"),
-          // devotions8
-          // devotions900"),
-          // devotions9
-          // "// speakdevotions1000000000000000000000000000000000"),
-          // devotions10
-          // devotions1100"),
-          // devotions11
-          // devotions1200"),
-          // devotions12
-          // devotions1300"),
-          // devotions13
-          // devotions1400"),
-          // devotions14
-          // devotions1500"),
-          // devotions15
-          // devotions1600"),
-          // devotions16
-          // devotions1700"),
-          // devotions17
-          // devotions1800"),
-          // devotions18
-          // devotions1900"),
-          // devotions19
-          // devotions_2000"),
-          // devotions20
-          // devotions2100"),
-          // devotions21
-          // devotions2200"),
-          // devotions22("en-US"),
+          // devotions8devotions8
+          // devotions9devotions9
+          // "// speakdevotions10000000000000000000000000000000devotions10
+          // devotions11devotions11
+          // devotions12devotions12
+          // devotions13devotions13
+          // devotions14devotions14
+          // devotions15devotions15
+          // devotions16devotions16
+          // devotions17devotions17
+          // devotions18devotions18
+          // devotions19devotions19
+          // devotions_20devotions20
+          // devotions21devotions21
         ],
       ),
     );

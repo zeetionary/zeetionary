@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He erred in agreeing to her appointment to the position.""");
   }
 
-// With short examples define "err", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

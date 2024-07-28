@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Tours are arranged all year round January excepted.""");
   }
 
-// With short examples define "except", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

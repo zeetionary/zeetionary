@@ -377,33 +377,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە شێوەیەک کە وا دەکات کەسێک/شتێک خراپ، گەمژە، تەڵەکەباز"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The play was embarrassingly bad.""",
             kurdishText: """شانۆکە نیگەرانکەرانە خراپ بوو.""",
             onPressedBritish: () => speakembarrassinglys2("en-GB"),
             onPressedAmerican: () => speakembarrassinglys2("en-US"),
           ),
-          // embarrassinglys300embarrassinglys3
-          // embarrassinglys400embarrassinglys4
-          // embarrassinglys500embarrassinglys5
-          // embarrassinglys600embarrassinglys6
-          // embarrassinglys700embarrassinglys7
-          // embarrassinglys800embarrassinglys8
-          // embarrassinglys900embarrassinglys9
-          // embarrassinglys_1000embarrassinglys10
-          // embarrassinglys1100embarrassinglys11
-          // embarrassinglys1200embarrassinglys12
-          // embarrassinglys1300embarrassinglys13
-          // embarrassinglys1400embarrassinglys14
-          // embarrassinglys1500embarrassinglys15
-          // embarrassinglys1600embarrassinglys16
-          // embarrassinglys1700embarrassinglys17
-          // embarrassinglys1800embarrassinglys18
-          // embarrassinglys1900embarrassinglys19
-          // embarrassinglys_2000embarrassinglys20
-          // embarrassinglys2100embarrassinglys21
-          // embarrassinglys2200embarrassinglysembarrassinglys
         ],
       ),
     );

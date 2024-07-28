@@ -267,51 +267,30 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پڕۆسەی پارچەپارچەبوون و کەم کەم لەناوچوون"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The explosion caused the aircraft's disintegration.",
             kurdishText: "تەقینەوەکە بوو بە ھۆکاری پارچەپارچەبوونی فڕۆکەکە.",
             onPressedBritish: () => speakdisintegrations3("en-GB"),
             onPressedAmerican: () => speakdisintegrations3("en-US"),
           ),
-          // disintegrations400"),
-          // disintegrations4
-          // disintegrations500"),
-          // disintegrations5
-          // disintegrations600"),
-          // disintegrations6
-          // disintegrations700"),
-          // disintegrations7
-          // disintegrations800"),
-          // disintegrations8
-          // disintegrations900"),
-          // disintegrations9
-          // disintegrations_1000"),
-          // disintegrations10
-          // disintegrations1100"),
-          // disintegrations11
-          // disintegrations1200"),
-          // disintegrations12
-          // disintegrations1300"),
-          // disintegrations13
-          // disintegrations1400"),
-          // disintegrations14
-          // disintegrations1500"),
-          // disintegrations15
-          // disintegrations1600"),
-          // disintegrations16
-          // disintegrations1700"),
-          // disintegrations17
-          // disintegrations1800"),
-          // disintegrations18
-          // disintegrations1900"),
-          // disintegrations19
-          // disintegrations_2000"),
-          // disintegrations20
-          // disintegrations2100"),
-          // disintegrations21
-          // disintegrations2200"),
-          // disintegrations22("en-US"),
+          // disintegrations4disintegrations4
+          // disintegrations5disintegrations5
+          // disintegrations6disintegrations6
+          // disintegrations7disintegrations7
+          // disintegrations8disintegrations8
+          // disintegrations9disintegrations9
+          // disintegrations_10disintegrations10
+          // disintegrations11disintegrations11
+          // disintegrations12disintegrations12
+          // disintegrations13disintegrations13
+          // disintegrations14disintegrations14
+          // disintegrations15disintegrations15
+          // disintegrations16disintegrations16
+          // disintegrations17disintegrations17
+          // disintegrations18disintegrations18
+          // disintegrations19disintegrations19
+          // disintegrations_20disintegrations20
+          // disintegrations21disintegrations21
         ],
       ),
     );

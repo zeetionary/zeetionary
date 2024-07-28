@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fourteen", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) چواردە"""),
                     SentencesRow(
                       englishText:
@@ -308,7 +307,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'bOolMHIx4xI';
 const double _startSecondsend = 200;
 const String _videoIdone = 'hTqtGJwsJVE';

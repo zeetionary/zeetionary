@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """The work of over 500 exhibitors will be on display at the arts and crafts show.""");
   }
 
-// With short examples define "exhibitor", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

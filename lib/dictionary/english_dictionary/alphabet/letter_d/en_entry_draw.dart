@@ -748,7 +748,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) باسکردنی شتێک بە وشە بە شێوەیەک کە وێنایەک درووست بکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The report drew a grim picture of inefficiency and corruption.",
@@ -761,7 +760,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) ھەبوونی بیرکردنەوەیەکی دیاریکراو لە دوای ئەوەی کە لێکۆڵینەوەت لە شتێک کردووە یان بیرت لێکردووەتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Is it possible to draw inferences about the environment during the Bronze Age?",
@@ -789,7 +787,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) پیشاندانی بەرواردی نێوان دوو شت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He attempted to draw a contrast between himself and the prime minister.",
@@ -810,7 +807,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) درووستکردنی/ھێنانە بوونی کاردانەوەیەک یان وەڵامێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The plan has drawn a lot of criticism.",
             kurdishText: "پلانەکە زۆر ڕەخنەی تووش بووە.",
@@ -835,7 +831,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ئاراستەکردنی سەرنجی کەسێک بۆ شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Our aim is to draw attention to the plight of these children.",
@@ -861,7 +856,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) سەرنجڕاکێشانی کەسێک یان حەزی لا درووست بکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The movie is drawing large audiences.",
             kurdishText: "فیلمەکە گوێگری زۆری کۆکردووەتەوە.",
@@ -894,7 +888,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) ڕۆشتن بەو ئاراستەیەی کە باسکراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The train drew into the station.",
             kurdishText: "شەمەندەفەرەکە ھاتە ناو وێستگەکە.",
@@ -926,7 +919,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (کردار) جوڵاندنی شتێک/کەسێک بە ڕاکێشانی بە ھێواشی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He drew the cork out of the bottle.",
             kurdishText: "تۆپەوانەکەی لە بوتڵەکە دەرکرد.",
@@ -958,7 +950,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (کردار) بەستن یان کردنەوەی پەردە، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The blinds were drawn.",
             kurdishText: "پەردەکان کرابوونەوە.",
@@ -984,7 +975,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٢. (کردار) دەرھێنانی چەک یان شمشیر بۆ ھێرشکردنە سەر کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She drew a revolver on me.",
             kurdishText: "شەشتیرێکی لێم ڕاکێشا.",
@@ -1001,7 +991,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٣. (کردار) وا لە کەسێک بکەیت زیاتر لەسەر شتێک بڵێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Spielberg refused to be drawn on his next movie.",
             kurdishText: "سپیڵبێرگ ڕەتیکردەوە بدركیندرێت لەسەر فیلمی داھاتووی.",
@@ -1012,7 +1001,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٤. (کردار) بڕیاردان لەسەر شتێک بە ڕاکێشانی کارد، بلیت، ژمارە بە شانس"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We drew for partners.",
             kurdishText: "ڕاکێشانیان بۆ ھاوبەش کرد.",
@@ -1046,7 +1034,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٥. (کردار) تەواوبوونی یارییەک بەبێ بردنەوەی ھیچ لایەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "England and France drew 3–3.",
             kurdishText: "ئینگلتەرە و فەرەنسا ٣-٣ یەکسان بوون.",
@@ -1064,7 +1051,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٦. (کردار) ڕاکێشانی پارە لە بانکێک یان ھەژمارێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I drew out £200.",
             kurdishText: "٢٠٠ پاوەندم ڕاکێشا.",
@@ -1088,7 +1074,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٧. (کردار) دەرھێنانی گاس یان شلە لە شوێنێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The device draws gas along the pipe.",
             kurdishText: "ئامێرەکە گاس بە بۆرییەکەدا ڕادەکێشێت.",
@@ -1097,7 +1082,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٨. (کردار) ھەڵمژینی دووکەڵ یان ھەوا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She breathed deeply, drawing in the fresh mountain air.",
@@ -1128,7 +1112,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٠. (ناو) یارییەک کە بە یەکسانی تەواو دەبێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The match ended in a two-all draw.",
             kurdishText: "یارییەکە کۆتایی ھات بە دوو (خاڵ/گۆڵ) بۆ ھەر لایەک.",
@@ -1147,7 +1130,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢١. (ناو) یارییەکی وەرزشی یان ژمارەیەک یاری کە تیمەکان یان یاریزانەکان بە ڕاکێشان ھەڵدەبژێردرێن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Liverpool have an away draw against Manchester United.",
@@ -1159,7 +1141,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢٢. (ناو) شتێک یان کەسێک کە سەرنجی زۆر کەس ڕادەکێشێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She is currently one of the biggest draws on the Irish music scene.",
@@ -1178,66 +1159,35 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdraws51("en-GB"),
             onPressedAmerican: () => speakdraws51("en-US"),
           ),
-          // draws5200"),
-          // draws52
-          // draws5300"),
-          // draws53
-          // draws5400"),
-          // draws54
-          // draws5500"),
-          // draws55
-          // draws5600"),
-          // draws56
-          // draws5700"),
-          // draws57
-          // draws5800"),
-          // draws58
-          // draws5900"),
-          // draws59
-          // draws6000"),
-          // draws60
-          // draws6100"),
-          // draws61
-          // draws6200"),
-          // draws62
-          // draws6300"),
-          // draws63
-          // draws6400"),
-          // draws65
-          // draws6600"),
-          // draws66
-          // draws6700"),
-          // draws67
-          // draws6800"),
-          // draws68
-          // draws6900"),
-          // draws69
-          // draws7000"),
-          // draws70
-          // draws7100"),
-          // draws71
-          // draws7200"),
-          // draws72
-          // draws7300"),
-          // draws73
-          // draws7400"),
-          // draws75
-          // draws7700"),
-          // draws76
-          // draws7700"),
-          // draws77
-          // draws7800"),
-          // draws79
-          // draws8000"),
-          // draws80
-          // draws8100"),
-          // draws81
-          // draws8200"),
-          // draws82
-          // draws8300"),
-          // draws83
-          // draws8400"),
-          // draws84("en-US"),
+          // draws52draws52
+          // draws53draws53
+          // draws54draws54
+          // draws55draws55
+          // draws56draws56
+          // draws57draws57
+          // draws58draws58
+          // draws59draws59
+          // draws60draws60
+          // draws61draws61
+          // draws62draws62
+          // draws63draws63
+          // draws64draws65
+          // draws66draws66
+          // draws67draws67
+          // draws68draws68
+          // draws69draws69
+          // draws70draws70
+          // draws71draws71
+          // draws72draws72
+          // draws73draws73
+          // draws74draws75
+          // draws77draws76
+          // draws77draws77
+          // draws78draws79
+          // draws80draws80
+          // draws81draws81
+          // draws82draws82
+          // draws83draws83
         ],
       ),
     );

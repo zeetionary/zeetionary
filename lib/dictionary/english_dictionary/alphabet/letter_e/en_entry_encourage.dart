@@ -334,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ڕازیکردنی کەسێک بۆ کردنی کارێک بەوەی ئاسانی بکەیت و ڕازیان بکەیت کە شتێکی باشە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Banks actively encouraged people to borrow money.""",
@@ -365,7 +364,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) واکردنی ئەوەی ئەگەری ڕوودان یان گەشەسەندنی شتێک زیاد ببێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The government should encourage the use of renewable energy sources.""",

@@ -333,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
         """These extensions are very easy to use and won't damage your own hair.""");
   }
 
-// With short examples define "extension", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

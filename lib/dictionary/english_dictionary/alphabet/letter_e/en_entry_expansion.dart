@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The expansion of higher education will continue.""");
   }
 
-// With short examples define "expansion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The money had been saved for just such an eventuality.""");
   }
 
-// With short examples define "eventuality", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

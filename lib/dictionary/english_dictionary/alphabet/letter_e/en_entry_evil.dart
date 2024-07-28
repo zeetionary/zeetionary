@@ -330,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
         """They hardly mentioned such social evils as racism and sexism.""");
   }
 
-// With short examples define "evil", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

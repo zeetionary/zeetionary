@@ -96,8 +96,7 @@ class EnglishEntrybanish extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "banish"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "banish"),
                             // divvviiider
                           ],
                         ),

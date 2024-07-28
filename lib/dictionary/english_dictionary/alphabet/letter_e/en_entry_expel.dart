@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Expel all the air from your chest.""");
   }
 
-// With short examples define "expel", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

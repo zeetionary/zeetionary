@@ -254,7 +254,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""A feeling of despair enveloped him.""");
   }
 
-// With short examples define "envelop", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

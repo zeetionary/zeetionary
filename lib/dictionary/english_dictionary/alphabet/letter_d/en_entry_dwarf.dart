@@ -398,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کەسێکی کورتەباڵا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She met a dwarf who was a talented musician.""",
             kurdishText:
@@ -409,7 +408,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە بچووکترە لە ڕێژەی ئاسایی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """You can grow dwarf conifers in pots on the patio.""",
@@ -422,7 +420,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) بچووک پیشاندانی شتێک یان ئەوەی کە گرنگ نەبێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The new skyscraper will dwarf all those near it.""",
             kurdishText:
@@ -439,40 +436,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdwarfs5("en-GB"),
             onPressedAmerican: () => speakdwarfs5("en-US"),
           ),
-          // dwarfs600
-          // dwarfs6("en-US"""),
-          // dwarfs700
-          // dwarfs7("en-US"""),
-          // dwarfs800
-          // dwarfs8("en-US"""),
-          // dwarfs900
-          // dwarfs9("en-US"""),
-          // dwarfs_1000
-          // dwarfs10("en-US"""),
-          // dwarfs1100
-          // dwarfs11("en-US"""),
-          // dwarfs1200
-          // dwarfs12("en-US"""),
-          // dwarfs1300
-          // dwarfs13("en-US"""),
-          // dwarfs1400
-          // dwarfs14("en-US"""),
-          // dwarfs1500
-          // dwarfs15("en-US"""),
-          // dwarfs1600
-          // dwarfs16("en-US"""),
-          // dwarfs1700
-          // dwarfs17("en-US"""),
-          // dwarfs1800
-          // dwarfs18("en-US"""),
-          // dwarfs1900
-          // dwarfs19("en-US"""),
-          // dwarfs_2000
-          // dwarfs20("en-US"""),
-          // dwarfs2100
-          // dwarfs21("en-US"""),
-          // dwarfs2200
-          // dwarfs22("en-US"""),
         ],
       ),
     );

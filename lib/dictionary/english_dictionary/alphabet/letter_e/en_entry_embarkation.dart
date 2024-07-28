@@ -381,26 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarkations2("en-GB"),
             onPressedAmerican: () => speakembarkations2("en-US"),
           ),
-          // embarkations300embarkations3
-          // embarkations400embarkations4
-          // embarkations500embarkations5
-          // embarkations600embarkations6
-          // embarkations700embarkations7
-          // embarkations800embarkations8
-          // embarkations900embarkations9
-          // embarkations_1000embarkations10
-          // embarkations1100embarkations11
-          // embarkations1200embarkations12
-          // embarkations1300embarkations13
-          // embarkations1400embarkations14
-          // embarkations1500embarkations15
-          // embarkations1600embarkations16
-          // embarkations1700embarkations17
-          // embarkations1800embarkations18
-          // embarkations1900embarkations19
-          // embarkations_2000embarkations20
-          // embarkations2100embarkations21
-          // embarkations2200embarkationsembarkations
         ],
       ),
     );

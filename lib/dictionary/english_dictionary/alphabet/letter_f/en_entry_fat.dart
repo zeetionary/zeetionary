@@ -313,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""You should cut down on fats and carbohydrates.""");
   }
 
-// With short examples define "fat", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

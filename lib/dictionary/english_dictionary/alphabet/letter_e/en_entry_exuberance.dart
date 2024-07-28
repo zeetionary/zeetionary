@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Nothing will curb her natural exuberance.""");
   }
 
-// With short examples define "exuberance", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

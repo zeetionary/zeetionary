@@ -434,7 +434,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) کە وا دەکات کەسێک/شتێک خراپ، گەمژە، تەڵەکەباز دەربکەوێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """This EU ruling puts Britain in a very embarrassing position.""",
@@ -451,22 +450,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembarrassings6("en-GB"),
             onPressedAmerican: () => speakembarrassings6("en-US"),
           ),
-          // embarrassings700embarrassings7
-          // embarrassings800embarrassings8
-          // embarrassings900embarrassings9
-          // embarrassings_1000embarrassings10
-          // embarrassings1100embarrassings11
-          // embarrassings1200embarrassings12
-          // embarrassings1300embarrassings13
-          // embarrassings1400embarrassings14
-          // embarrassings1500embarrassings15
-          // embarrassings1600embarrassings16
-          // embarrassings1700embarrassings17
-          // embarrassings1800embarrassings18
-          // embarrassings1900embarrassings19
-          // embarrassings_2000embarrassings20
-          // embarrassings2100embarrassings21
-          // embarrassings2200embarrassingsembarrassings
         ],
       ),
     );

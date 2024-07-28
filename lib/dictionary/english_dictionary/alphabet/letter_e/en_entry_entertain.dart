@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They entertained us to lunch in their new house.""");
   }
 
-// With short examples define "entertain", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         """It requires no great exertion of the imagination to recognize the truth of this.""");
   }
 
-// With short examples define "exertion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

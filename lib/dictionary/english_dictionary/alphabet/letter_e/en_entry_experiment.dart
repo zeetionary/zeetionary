@@ -320,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The students freely experimented with paints.""");
   }
 
-// With short examples define "experiment", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

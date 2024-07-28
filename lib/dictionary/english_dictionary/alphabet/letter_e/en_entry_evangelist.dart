@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I've always been an evangelist for new technology.""");
   }
 
-// With short examples define "evangelist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

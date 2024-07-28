@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         """They plan to hold the Olympics' equestrian events in another part of the city.""");
   }
 
-// With short examples define "equestrian", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

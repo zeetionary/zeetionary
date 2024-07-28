@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""These figures compare favourably with last year's.""");
   }
 
-// With short examples define "favourably", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

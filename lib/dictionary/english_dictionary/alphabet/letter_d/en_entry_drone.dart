@@ -432,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دەنگەدەنگێکی نزمی بەردەوام"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Outside the tent I could hear the constant drone of insects.",
@@ -463,43 +462,26 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) دەرکردنی دەنگێکی نزمی بەردەوام"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A plane was droning in the distance.",
             kurdishText: "فڕۆکەیەک لە دوورەوە گیڤەی دەھات.",
             onPressedBritish: () => speakdrones7("en-GB"),
             onPressedAmerican: () => speakdrones7("en-US"),
           ),
-          // drones800"),
-          // drones8
-          // drones900"),
-          // drones9
-          // drones_1000"),
-          // drones10
-          // drones1100"),
-          // drones11
-          // drones1200"),
-          // drones12
-          // drones1300"),
-          // drones13
-          // drones1400"),
-          // drones14
-          // drones1500"),
-          // drones15
-          // drones1600"),
-          // drones16
-          // drones1700"),
-          // drones17
-          // drones1800"),
-          // drones18
-          // drones1900"),
-          // drones19
-          // drones_2000"),
-          // drones20
-          // drones2100"),
-          // drones21
-          // drones2200"),
-          // drones22("en-US"),
+          // drones8drones8
+          // drones9drones9
+          // drones_10drones10
+          // drones11drones11
+          // drones12drones12
+          // drones13drones13
+          // drones14drones14
+          // drones15drones15
+          // drones16drones16
+          // drones17drones17
+          // drones18drones18
+          // drones19drones19
+          // drones_20drones20
+          // drones21drones21
         ],
       ),
     );

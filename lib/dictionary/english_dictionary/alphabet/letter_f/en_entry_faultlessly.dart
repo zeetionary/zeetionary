@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He drove the car faultlessly.""");
   }
 
-// With short examples define "faultlessly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

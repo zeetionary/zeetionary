@@ -365,48 +365,26 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdramatizations1("en-GB"),
             onPressedAmerican: () => speakdramatizations1("en-US"),
           ),
-          // dramatizations200"),
-          // dramatizations2
-          // dramatizations300"),
-          // dramatizations3
-          // dramatizations400"),
-          // dramatizations4
-          // dramatizations500"),
-          // dramatizations5
-          // dramatizations600"),
-          // dramatizations6
-          // dramatizations700"),
-          // dramatizations7
-          // dramatizations800"),
-          // dramatizations8
-          // dramatizations900"),
-          // dramatizations9
-          // dramatizations_1000"),
-          // dramatizations10
-          // dramatizations1100"),
-          // dramatizations11
-          // dramatizations1200"),
-          // dramatizations12
-          // dramatizations1300"),
-          // dramatizations13
-          // dramatizations1400"),
-          // dramatizations14
-          // dramatizations1500"),
-          // dramatizations15
-          // dramatizations1600"),
-          // dramatizations16
-          // dramatizations1700"),
-          // dramatizations17
-          // dramatizations1800"),
-          // dramatizations18
-          // dramatizations1900"),
-          // dramatizations19
-          // dramatizations_2000"),
-          // dramatizations20
-          // dramatizations2100"),
-          // dramatizations21
-          // dramatizations2200"),
-          // dramatizations22("en-US"),
+          // dramatizations2dramatizations2
+          // dramatizations3dramatizations3
+          // dramatizations4dramatizations4
+          // dramatizations5dramatizations5
+          // dramatizations6dramatizations6
+          // dramatizations7dramatizations7
+          // dramatizations8dramatizations8
+          // dramatizations9dramatizations9
+          // dramatizations_10dramatizations10
+          // dramatizations11dramatizations11
+          // dramatizations12dramatizations12
+          // dramatizations13dramatizations13
+          // dramatizations14dramatizations14
+          // dramatizations15dramatizations15
+          // dramatizations16dramatizations16
+          // dramatizations17dramatizations17
+          // dramatizations18dramatizations18
+          // dramatizations19dramatizations19
+          // dramatizations_20dramatizations20
+          // dramatizations21dramatizations21
         ],
       ),
     );

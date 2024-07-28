@@ -67,8 +67,7 @@ class EnglishEntryaccent extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "accent"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accent"),
                           ],
                         ),
                         Row(
@@ -83,8 +82,7 @@ class EnglishEntryaccent extends StatelessWidget {
                         Row(
                           children: [
                             const IPAofEnglish(
-                                text:
-                                    "IpaUS: /ˈæksent/ /ˈæksənt/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                                text: "IpaUS: /ˈæksent/ /ˈæksənt/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccent("en-US"),
                             ),

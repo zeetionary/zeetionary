@@ -367,7 +367,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He's fathered three children.""");
   }
 
-// With short examples define "father", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

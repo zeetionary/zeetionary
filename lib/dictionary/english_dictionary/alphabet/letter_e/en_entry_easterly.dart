@@ -390,7 +390,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) بایەک کە لە ڕۆژھەڵاتەوە دێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The migrating falcons were blown off course by easterly winds.""",
@@ -399,24 +398,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasterlys3("en-GB"),
             onPressedAmerican: () => speakeasterlys3("en-US"),
           ),
-          // easterlys400easterlys4
-          // easterlys500easterlys5
-          // easterlys600easterlys6
-          // easterlys700easterlys7
-          // easterlys800easterlys8
-          // easterlys900easterlys9
-          // easterlys_1000easterlys10
-          // easterlys1100easterlys11
-          // easterlys1200easterlys12
-          // easterlys1300easterlys13
-          // easterlys1400easterlys14
-          // easterlys1500easterlys15
-          // easterlys1600easterlys16
-          // easterlys1700easterlys17
-          // easterlys1800easterlys18
-          // easterlys1900easterlys19
-          // easterlys_2000easterlys20
-          // easterlys2100easterlys21
           // easterlys2200easterlyseasterlys
         ],
       ),

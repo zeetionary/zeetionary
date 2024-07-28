@@ -515,7 +515,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ناو) ھەڵبژێردراو بە ھەڵبژاردن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Her election will mark a new beginning for the country.""",
@@ -531,15 +530,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelections12("en-GB"),
             onPressedAmerican: () => speakelections12("en-US"),
           ),
-          // elections1300elections13
-          // elections1400elections14
-          // elections1500elections15
-          // elections1600elections16
-          // elections1700elections17
-          // elections1800elections18
-          // elections1900elections19
-          // elections_2000elections20
-          // elections2100elections21
           // elections2200electionselections
         ],
       ),

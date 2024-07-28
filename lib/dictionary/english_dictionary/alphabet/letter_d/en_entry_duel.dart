@@ -383,7 +383,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ڕکابەری یان کێشمەکێش لە نێوان دوو کەس یان گرووپ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The debate rapidly descended into a verbal duel between the two candidates.""",
@@ -396,51 +395,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) وەستانەوە دژ بە کەسێک بە چەک ، وەک ئەوەی لە ڕابردوودا دەکرا کە دو کەس ناکۆکییان دەبوو"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The two men duelled to the death.""",
             kurdishText: """دوو پیاوەکە تا مردن جەنگان.""",
             onPressedBritish: () => speakduels3("en-GB"),
             onPressedAmerican: () => speakduels3("en-US"),
           ),
-          // duels400
-          // duels4("en-US"""),
-          // duels500
-          // duels5("en-US"""),
-          // duels600
-          // duels6("en-US"""),
-          // duels700
-          // duels7("en-US"""),
-          // duels800
-          // duels8("en-US"""),
-          // duels900
-          // duels9("en-US"""),
-          // duels_1000
-          // duels10("en-US"""),
-          // duels1100
-          // duels11("en-US"""),
-          // duels1200
-          // duels12("en-US"""),
-          // duels1300
-          // duels13("en-US"""),
-          // duels1400
-          // duels14("en-US"""),
-          // duels1500
-          // duels15("en-US"""),
-          // duels1600
-          // duels16("en-US"""),
-          // duels1700
-          // duels17("en-US"""),
-          // duels1800
-          // duels18("en-US"""),
-          // duels1900
-          // duels19("en-US"""),
-          // duels_2000
-          // duels20("en-US"""),
-          // duels2100
-          // duels21("en-US"""),
-          // duels2200
-          // duels22("en-US"""),
         ],
       ),
     );

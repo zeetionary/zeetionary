@@ -268,7 +268,6 @@ A lack of affection or enthusiasm (= coldness, coolness, frigidness, iciness, ch
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'mGVWN106UBE';
 const double _startSecondsend = 227;
 const String _videoIdone = '6bYYpi5cJZs';

@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Everywhere we went was full of tourists.""");
   }
 
-// With short examples define "everywhere", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

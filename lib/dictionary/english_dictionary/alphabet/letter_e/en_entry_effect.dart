@@ -485,7 +485,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وێنایەک یان دەنگێک کە کەسێک ھەوڵ دەدات درووستی بکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Add a scarf for a casual effect.""",
             kurdishText: """لەچکێکی زیاد بکە بۆ ئەنجامێکی ڕەمەکی.""",
@@ -512,7 +511,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) واکردنی ئەوەی شتێک ڕووبدات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """These drugs can sometimes effect miraculous cures.""",
@@ -530,7 +528,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeffects11("en-GB"),
             onPressedAmerican: () => speakeffects11("en-US"),
           ),
-          // effects1200effects12
           // speakeffects
         ],
       ),

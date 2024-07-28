@@ -196,7 +196,6 @@ Usage: US (elsewhere: fibre)
                     const KurdishVocabulary(text: """
 کوردی: ڕیشاڵ، بەن، دەزوو، داو، تاڵ، فیبر
 """),
-// With short examples define "fiber", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو بەشانەی خواردن کە جەستە بە تەندرووستی دەھێڵنەوە بەوەی کە یارمەتی کارکردنی ڕیخۆڵەکان دەدەن و خواردن بەخێرایی بە جەستەدا دەجوولێنن"""),
@@ -323,7 +322,6 @@ Usage: US (elsewhere: fibre)
   }
 }
 
-// 188888880002200
 const String _videoIdend = '04K0bLwCDdM';
 const double _startSecondsend = 102;
 const String _videoIdone = 'AuW3ZKHzvLA';

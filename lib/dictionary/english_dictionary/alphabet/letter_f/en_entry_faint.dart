@@ -321,7 +321,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He fell to the ground in a dead faint.""");
   }
 
-// With short examples define "faint", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

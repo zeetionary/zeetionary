@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """He was the official examiner of electronic voting systems for Pennsylvania and Texas for 20 years.""");
   }
 
-// With short examples define "examiner", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

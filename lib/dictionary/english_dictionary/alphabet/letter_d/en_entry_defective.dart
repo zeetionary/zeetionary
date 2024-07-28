@@ -280,42 +280,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefectives4("en-GB"),
             onPressedAmerican: () => speakdefectives4("en-US"),
           ),
-          // defectives500"),
-          // defectives5
-          // defectives600"),
-          // defectives6
-          // defectives700"),
-          // defectives7
-          // defectives800"),
-          // defectives8
-          // defectives900"),
-          // defectives9
-          // defectives1000"),
-          // defectives10
-          // defectives1100"),
-          // defectives11
-          // defectives1200"),
-          // defectives12
-          // defectives1300"),
-          // defectives13
-          // defectives1400"),
-          // defectives14
-          // defectives1500"),
-          // defectives15
-          // defectives1600"),
-          // defectives16
-          // defectives1700"),
-          // defectives17
-          // defectives1800"),
-          // defectives18
-          // defectives1900"),
-          // defectives19
-          // defectives2000"),
-          // defectives20
-          // defectives2100"),
-          // defectives21
-          // defectives2200"),
-          // defectives22("en-US"),
+          // defectives5defectives5
+          // defectives6defectives6
+          // defectives7defectives7
+          // defectives8defectives8
+          // defectives9defectives9
+          // defectives10defectives10
+          // defectives11defectives11
+          // defectives12defectives12
+          // defectives13defectives13
+          // defectives14defectives14
+          // defectives15defectives15
+          // defectives16defectives16
+          // defectives17defectives17
+          // defectives18defectives18
+          // defectives19defectives19
+          // defectives20defectives20
+          // defectives21defectives21
         ],
       ),
     );

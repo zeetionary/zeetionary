@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Crime and poverty are epidemic in the city.""");
   }
 
-// With short examples define "epidemic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

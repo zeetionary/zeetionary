@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێنجەم، پێنجەمین
 """),
-// With short examples define "fifth", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ژمارەی پلەیی) پێنجەم"""),
                     SentencesRow(
@@ -291,7 +290,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'LAOoF2gyQaA';
 const double _startSecondsend = 229;
 const String _videoIdone = 'o9zCgPtsups';

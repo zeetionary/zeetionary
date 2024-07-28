@@ -289,7 +289,6 @@ class KurdishMeaning extends StatelessWidget {
                 """This new programme will enable older people to study at college.""",
             kurdishText:
                 """پڕۆگرامە تازەکە ڕێگا بە کەسانی بەتەمەن دەدات لە کۆلێژ بخوێنن.""",
-// With short examples define "enable", please follow LX instructions
             onPressedBritish: () => speaksentence1("en-GB"),
             onPressedAmerican: () => speaksentence1("en-US"),
           ),
@@ -313,7 +312,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) درووستکردنی دۆخی لەبار بۆ ڕوودانی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The irrigation scheme has enabled the development of many small farms.""",

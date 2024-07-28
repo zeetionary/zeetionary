@@ -386,7 +386,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو، ھاوەڵناو) خانوویەک کە لەگەڵ یەکێکی دیکە تەنھا یەک دیوار بە ھاوبەشی لە نێوانیانە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """A family lived in each half of the duplex house.""",
             kurdishText: """خێزانێک لە ھەر لایەکی خانووە دوولۆنەکە دەژیان.""",
@@ -397,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) پرینتەرێک کە دەتوانێت لەسەر ھەردوو لای کاغەزێک چاپ بکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """This model comes with nice features such as Wi-Fi and duplex printing.""",
@@ -406,44 +404,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakduplexs3("en-GB"),
             onPressedAmerican: () => speakduplexs3("en-US"),
           ),
-          // duplexs400
-          // duplexs4("en-US"""),
-          // duplexs500
-          // duplexs5("en-US"""),
-          // duplexs600
-          // duplexs6("en-US"""),
-          // duplexs700
-          // duplexs7("en-US"""),
-          // duplexs800
-          // duplexs8("en-US"""),
-          // duplexs900
-          // duplexs9("en-US"""),
-          // duplexs_1000
-          // duplexs10("en-US"""),
-          // duplexs1100
-          // duplexs11("en-US"""),
-          // duplexs1200
-          // duplexs12("en-US"""),
-          // duplexs1300
-          // duplexs13("en-US"""),
-          // duplexs1400
-          // duplexs14("en-US"""),
-          // duplexs1500
-          // duplexs15("en-US"""),
-          // duplexs1600
-          // duplexs16("en-US"""),
-          // duplexs1700
-          // duplexs17("en-US"""),
-          // duplexs1800
-          // duplexs18("en-US"""),
-          // duplexs1900
-          // duplexs19("en-US"""),
-          // duplexs_2000
-          // duplexs20("en-US"""),
-          // duplexs2100
-          // duplexs21("en-US"""),
-          // duplexs2200
-          // duplexs22("en-US"""),
         ],
       ),
     );

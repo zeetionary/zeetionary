@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Many admired her ethereal beauty at the party.""");
   }
 
-// With short examples define "ethereal", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

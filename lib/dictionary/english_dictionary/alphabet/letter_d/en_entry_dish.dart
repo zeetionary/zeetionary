@@ -313,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) قاپ‌وقاچاغ کە پێویستە بشۆردرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'll do the dishes (= wash them).",
             kurdishText: "من قاپەکان دەشۆم.",
@@ -340,7 +339,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) خواردنێک کە وەک بەشێک لە ژەمێک بە شێوەیەکی دیاریکراو ئامادەکراوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "This makes an excellent hot main dish.",
             kurdishText: "ئەمە خواردنێکی سەرەکیی ناوازەی گەرم پێکدێنێت.",
@@ -371,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ناو) ھەر شتێک کە شێوەی وەک دەفرێکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The soap dish keeps the soap dry and clean.",
             kurdishText: "جێ‌سابوونەکە سابوونەکە بە وشکی و پاک دەھێڵێتەوە.",
@@ -380,35 +377,22 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) ژنێکی ورووژێنەر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "What a dish!",
             kurdishText: "چی ورووژێنەرە!",
             onPressedBritish: () => speakdishs11("en-GB"),
             onPressedAmerican: () => speakdishs11("en-US"),
           ),
-          // dishs1200"),
-          // dishs12
-          // dishs1300"),
-          // dishs13
-          // dishs1400"),
-          // dishs14
-          // dishs1500"),
-          // dishs15
-          // dishs1600"),
-          // dishs16
-          // dishs1700"),
-          // dishs17
-          // dishs1800"),
-          // dishs18
-          // dishs1900"),
-          // dishs19
-          // dishs_2000"),
-          // dishs20
-          // dishs2100"),
-          // dishs21
-          // dishs2200"),
-          // dishs22("en-US"),
+          // dishs12dishs12
+          // dishs13dishs13
+          // dishs14dishs14
+          // dishs15dishs15
+          // dishs16dishs16
+          // dishs17dishs17
+          // dishs18dishs18
+          // dishs19dishs19
+          // dishs_20dishs20
+          // dishs21dishs21
         ],
       ),
     );

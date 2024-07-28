@@ -451,7 +451,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دۆخێک کە تێیدا خەڵکی توندوتیژانە ڕەفتار دەکەن لە شوێنێکی گشتیدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "News of the arrests provoked serious disturbances in the streets.",
@@ -481,7 +480,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دۆخێک کە تێیدا فەرمانێکی جەستە یان مێشکی کەسێک کارناکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Many patients reported sleep disturbances after taking the drug.",
@@ -490,34 +488,19 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdisturbances8("en-GB"),
             onPressedAmerican: () => speakdisturbances8("en-US"),
           ),
-          // disturbances900"),
-          // disturbances9
-          // disturbances_1000"),
-          // disturbances10
-          // disturbances1100"),
-          // disturbances11
-          // disturbances1200"),
-          // disturbances12
-          // disturbances1300"),
-          // disturbances13
-          // disturbances1400"),
-          // disturbances14
-          // disturbances1500"),
-          // disturbances15
-          // disturbances1600"),
-          // disturbances16
-          // disturbances1700"),
-          // disturbances17
-          // disturbances1800"),
-          // disturbances18
-          // disturbances1900"),
-          // disturbances19
-          // disturbances_2000"),
-          // disturbances20
-          // disturbances2100"),
-          // disturbances21
-          // disturbances2200"),
-          // disturbances22("en-US"),
+          // disturbances9disturbances9
+          // disturbances_10disturbances10
+          // disturbances11disturbances11
+          // disturbances12disturbances12
+          // disturbances13disturbances13
+          // disturbances14disturbances14
+          // disturbances15disturbances15
+          // disturbances16disturbances16
+          // disturbances17disturbances17
+          // disturbances18disturbances18
+          // disturbances19disturbances19
+          // disturbances_20disturbances20
+          // disturbances21disturbances21
         ],
       ),
     );

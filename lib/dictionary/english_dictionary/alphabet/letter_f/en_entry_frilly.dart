@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چین‌دار، چین‌چین
 """),
-// With short examples define "frilly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە چین‌چینە"""),
                     SentencesRow(
@@ -225,7 +224,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ZzdV_HM95RQ';
 const double _startSecondsend = 176;
 const String _videoIdone = 'WUjVPIEtJd0';

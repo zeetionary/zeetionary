@@ -177,7 +177,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "foresee", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) پێشبینی کردنی داھاتوو"""),
                     SentencesRow(
@@ -279,7 +278,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '0zXfDafyyao';
 const double _startSecondsend = 1126;
 const String _videoIdone = 'VNZ0so0LCoM';

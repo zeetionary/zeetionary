@@ -447,7 +447,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (کردار) دەرکردنەوەی دەنگ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The whole house echoed.""",
             kurdishText: """خانووەکە دەنگی دایەوە.""",
@@ -472,7 +471,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) دووبارەکردنەوەی بۆچوون یان بیرۆکەیەک چونکە لەگەڵی ڕازیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """This is a view echoed by many on the right of the party.""",
@@ -491,7 +489,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ناو) دەنگدانەوەی دەنگ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """There was an echo on the phone and I couldn't hear clearly.""",
@@ -510,7 +507,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) شتێک کە شتێکی دیکەت بەبیردەھێنێتەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Yesterday's crash has grim echoes of previous disasters.""",
@@ -523,7 +519,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) دیدو و بۆچوونیک کە لەگەڵ یەکێکی دیکە دەگونجێت کە پێشتر باسکراوە یان بیری لێکراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """His words were an echo of what she had heard many times before.""",
@@ -532,7 +527,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakechos11("en-GB"),
             onPressedAmerican: () => speakechos11("en-US"),
           ),
-          // echos1200echos12
           // speakechos
         ],
       ),

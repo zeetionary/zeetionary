@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The body was discovered when builders excavated the area.""");
   }
 
-// With short examples define "excavate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

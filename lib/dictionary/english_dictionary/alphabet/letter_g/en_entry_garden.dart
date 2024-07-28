@@ -96,8 +96,7 @@ Usage: Brit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""The main bedroom overlooks the garden.""");
+    await flutterTts.speak("""The main bedroom overlooks the garden.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -132,28 +131,32 @@ Usage: Brit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""They sat in the garden and enjoyed the sunshine.""");
+    await flutterTts
+        .speak("""They sat in the garden and enjoyed the sunshine.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""These flowers brighten up backyard gardens all over the country.""");
+    await flutterTts.speak(
+        """These flowers brighten up backyard gardens all over the country.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Maggie unwound the hose and watered the garden.""");
+    await flutterTts
+        .speak("""Maggie unwound the hose and watered the garden.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""Thousands of people now visit the gardens every year.""");
+    await flutterTts
+        .speak("""Thousands of people now visit the gardens every year.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
@@ -786,11 +789,13 @@ Usage: Brit
 کوردی: باخ، باخچە، باغ و باغات،	حەسار، حەوشە،	ناوچەی بەپیت، دەڤەری بەبڕشت
 """),
 // With short examples define "garden", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) باخچەی ماڵ کە تێیدا گوڵ، سەوزە، میوە، هتد دەچێنیت """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) باخچەی ماڵ کە تێیدا گوڵ، سەوزە، میوە، هتد دەچێنیت """),
                     SentencesRow(
-                      englishText:
-                          """The main bedroom overlooks the garden.""",
-                      kurdishText: """ژووری خەوی سەرەکی بەسەر باخچەکەدا دەڕوانێت.""",
+                      englishText: """The main bedroom overlooks the garden.""",
+                      kurdishText:
+                          """ژووری خەوی سەرەکی بەسەر باخچەکەدا دەڕوانێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -798,7 +803,8 @@ Usage: Brit
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She has created a garden out of a wilderness.""",
+                      englishText:
+                          """She has created a garden out of a wilderness.""",
                       kurdishText: """باخچەیەکی لە دەشتێکەوە درووستکردووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
@@ -807,8 +813,10 @@ Usage: Brit
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The garden is laid out in 18th-century style.""",
-                      kurdishText: """باخچەکە بە ستایڵی سەدەی هەژدە درووستکراوە.""",
+                      englishText:
+                          """The garden is laid out in 18th-century style.""",
+                      kurdishText:
+                          """باخچەکە بە ستایڵی سەدەی هەژدە درووستکراوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -816,8 +824,10 @@ Usage: Brit
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We got someone to design the garden for us.""",
-                      kurdishText: """کەسێکمان هێنا باخچەکەمان بۆ دیزاین بکات.""",
+                      englishText:
+                          """We got someone to design the garden for us.""",
+                      kurdishText:
+                          """کەسێکمان هێنا باخچەکەمان بۆ دیزاین بکات.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -826,7 +836,8 @@ Usage: Brit
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Weekends were spent doing the garden.""",
-                      kurdishText: """کۆتاییەکانی هەفتەکان بە خەریک بوون بە باخچەکەوە بەسەر دەبران.""",
+                      kurdishText:
+                          """کۆتاییەکانی هەفتەکان بە خەریک بوون بە باخچەکەوە بەسەر دەبران.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -834,17 +845,23 @@ Usage: Brit
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They sat in the garden and enjoyed the sunshine.""",
-                      kurdishText: """لە باخچەکە دانیشتبوون و چێژیان لە تیشکی خۆر دەبینی.""",
+                      englishText:
+                          """They sat in the garden and enjoyed the sunshine.""",
+                      kurdishText:
+                          """لە باخچەکە دانیشتبوون و چێژیان لە تیشکی خۆر دەبینی.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) بەشێکی حەوشە کە ڕووەک و گوڵی تێدا دەچێنیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بەشێکی حەوشە کە ڕووەک و گوڵی تێدا دەچێنیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """These flowers brighten up backyard gardens all over the country.""",
-                      kurdishText: """ئەم گوڵانە باخچەکانی حەوشەی پشتەوە لە تەواوی وڵاتدا دەگەشێننەوە.""",
+                      englishText:
+                          """These flowers brighten up backyard gardens all over the country.""",
+                      kurdishText:
+                          """ئەم گوڵانە باخچەکانی حەوشەی پشتەوە لە تەواوی وڵاتدا دەگەشێننەوە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -852,8 +869,10 @@ Usage: Brit
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Maggie unwound the hose and watered the garden.""",
-                      kurdishText: """ماگی سۆندەکەی کردەوە و ئاوی باخچەکەی دا.""",
+                      englishText:
+                          """Maggie unwound the hose and watered the garden.""",
+                      kurdishText:
+                          """ماگی سۆندەکەی کردەوە و ئاوی باخچەکەی دا.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -861,17 +880,21 @@ Usage: Brit
                     const DefinitionKurdish(text: """٣. (ناو) پارکی گشتی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Thousands of people now visit the gardens every year.""",
-                      kurdishText: """هەزاران کەس ئێستا هەموو ساڵێک سەردانی باخچەکان دەکەن.""",
+                      englishText:
+                          """Thousands of people now visit the gardens every year.""",
+                      kurdishText:
+                          """هەزاران کەس ئێستا هەموو ساڵێک سەردانی باخچەکان دەکەن.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (کردار) کارکردن لە باخچە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (کردار) کارکردن لە باخچە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """More people are choosing to garden.""",
-                      kurdishText: """زۆر کەس لە ئێستادا ئەوە هەڵدەبژێرن کە لە باخچە کار بکەن.""",
+                      kurdishText:
+                          """زۆر کەس لە ئێستادا ئەوە هەڵدەبژێرن کە لە باخچە کار بکەن.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -1608,7 +1631,6 @@ Usage: Brit
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/zJRSjaycVGE?t=';
 const double _startSecondsend = 00000000000000000000000000011;
 const String _videoIdone = 'https://youtu.be/NdXw8UzMlLs?t=';

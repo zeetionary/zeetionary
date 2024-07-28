@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خشڵ‌وزێو، خشڵ‌وزەنبەر، زێڕوزیو، جل‌وبەرگ و جەواھێرات
 """),
-// With short examples define "finery", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) جل و خشڵی درەوشاوە و جوان"""),
                     SentencesRow(
@@ -227,7 +226,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'sjvlW0AzKlY';
 const double _startSecondsend = 100;
 const String _videoIdone = 'xxSyov0Hjz8';

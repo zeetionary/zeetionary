@@ -95,8 +95,7 @@ class EnglishEntrybankrupt extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "bankrupt"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "bankrupt"),
                             // divvviiider
                           ],
                         ),

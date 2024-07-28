@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "firearm", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) چەکێک کە ھەڵدەگیرێت"""),
                     SentencesRow(
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'ViW36wuOBBU';
 const double _startSecondsend = 68;
 const String _videoIdone = 'aPn8dGYPoYM';

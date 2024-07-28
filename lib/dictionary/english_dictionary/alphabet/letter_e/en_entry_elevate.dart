@@ -408,7 +408,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) بەرزکردنەوە یان دانان لە شوێنێکی بەرزتر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """It is important that the injured leg should be elevated.""",
@@ -419,7 +418,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) بەرزکردنەوەی ئاستی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Smoking often elevates blood pressure.""",
             kurdishText: """جگەرەکێشان زۆرجار فشاری خوێن بەرز دەکاتەوە.""",
@@ -430,7 +428,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (کردار) بەھێزکردنی کەشی دەروونی کەسێک بەشێوەیەک کە ھەست بە دڵخۆشی بکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The song never failed to elevate his spirits.""",
             kurdishText:
@@ -438,119 +435,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelevates5("en-GB"),
             onPressedAmerican: () => speakelevates5("en-US"),
           ),
-          // elevates600elevates6
-          // speakelevates6("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates700elevates7
-          // speakelevates7("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates800elevates8
-          // speakelevates8("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates900elevates9
-          // speakelevates9("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates_1000elevates10
-          // speakelevates10("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1100elevates11
-          // speakelevates11("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1200elevates12
-          // speakelevates12("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1300elevates13
-          // speakelevates13("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1400elevates14
-          // speakelevates14("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1500elevates15
-          // speakelevates15("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1600elevates16
-          // speakelevates16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1700elevates17
-          // speakelevates17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1800elevates18
-          // speakelevates18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates1900elevates19
-          // speakelevates19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates_2000elevates20
-          // speakelevates20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates2100elevates21
-          // speakelevates21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // elevates2200elevateselevates
+          // speakelevates21elevates2200elevateselevates
         ],
       ),
     );

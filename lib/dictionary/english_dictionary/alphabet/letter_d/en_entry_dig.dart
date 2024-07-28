@@ -321,7 +321,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) دەرکردن لە زەوی بە ئامێرێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'll dig some potatoes for lunch.",
             kurdishText: "ھەندێک پەتاتە بۆ نانی نیوەڕی دەردێنم.",
@@ -331,7 +330,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) گەڕان لە شتێکدا بۆ دۆزینەوەی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I dug around in my bag for a pen.",
             kurdishText: "لە جانتاکەمدا بۆ پنووسێک گەڕام.",
@@ -340,7 +338,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) پاڵنانێکی ھێواش بە پەنجە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She gave him a dig in the ribs.",
             kurdishText: "پاڵێکی بە پەراسوویەوە نا.",
@@ -350,7 +347,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) قسەیەک کە ئامانج لێی ئەوەیە کە کەسێک بێزار بکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He kept making little digs at me.",
             kurdishText: "بەردوام بوو لەوەی توانجی بچووکم لێبدا.",
@@ -368,37 +364,23 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ھەڵکۆڵین بۆ زانینی زانیاری لەسەر مێژووی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I went on a dig over the summer.",
             kurdishText: "لە ھاویندا چووم بۆ ھەڵکۆڵین.",
             onPressedBritish: () => speakdigs10("en-GB"),
             onPressedAmerican: () => speakdigs10("en-US"),
           ),
-          // digs1100"),
-          // digs11
-          // digs1200"),
-          // digs12
-          // digs1300"),
-          // digs13
-          // digs1400"),
-          // digs14
-          // digs1500"),
-          // digs15
-          // digs1600"),
-          // digs16
-          // digs1700"),
-          // digs17
-          // digs1800"),
-          // digs18
-          // digs1900"),
-          // digs19
-          // digs_2000"),
-          // digs20
-          // digs2100"),
-          // digs21
-          // digs2200"),
-          // digs22("en-US"),
+          // digs11digs11
+          // digs12digs12
+          // digs13digs13
+          // digs14digs14
+          // digs15digs15
+          // digs16digs16
+          // digs17digs17
+          // digs18digs18
+          // digs19digs19
+          // digs_20digs20
+          // digs21digs21
         ],
       ),
     );

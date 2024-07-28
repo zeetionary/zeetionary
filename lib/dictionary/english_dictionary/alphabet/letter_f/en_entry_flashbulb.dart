@@ -229,7 +229,6 @@ Usage: archaic
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'AEm-2giH_zw';
 const double _startSecondsend = 178;
 const String _videoIdone = 'kxcZjUtYR0g';

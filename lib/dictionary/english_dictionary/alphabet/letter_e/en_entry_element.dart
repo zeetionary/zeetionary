@@ -521,7 +521,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) ڕێژەیەکی کەم"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """These rumours do contain an element of truth.""",
             kurdishText: """ئەم دەنگۆیانە یەک نەخت ڕاستییان تێدا نییە.""",
@@ -553,7 +552,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٣. (ناو) توخمی کیمیایی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Different atoms of the same element are called isotopes.""",
@@ -574,7 +572,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) یەکێک لە چوار مادەی خاک، ھەوا، ئاگر یان ئاو کە خەڵکی باوەڕیان وابوو ھەموو شتێکی دیکەی لێ درووست بووە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Each element was thought to balance the natural world.""",
@@ -586,7 +583,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) کەشووھەوا، بەتایبەتی کەشووھەوای خراپ"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The place was completely exposed to the elements.""",
@@ -606,7 +602,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٦. (ناو) بنچینە سەرەتاییەکانی بابەتێک کە دەبێت سەرەتا فێریان بیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He taught me the elements of map-reading.""",
             kurdishText: """بنچینەکانی خوێندنەوەی نەخشەی فێرکردم.""",
@@ -617,7 +612,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٧. (ناو) گرووپیک خەڵک کە بەشێک لە گرووپیکی گەورەتر پێکدێنن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """These ideas are not just the province of a fringe element in the party.""",
@@ -629,14 +623,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (ناو) ژینگەیەکی سرووشتی یان گونجاو"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Water is a fish's natural element.""",
             kurdishText: """ئاو ژینگەی سرووشتی ماسییە.""",
             onPressedBritish: () => speakelements17("en-GB"),
             onPressedAmerican: () => speakelements17("en-US"),
           ),
-          // elements1800elements18
           // speakelements
         ],
       ),

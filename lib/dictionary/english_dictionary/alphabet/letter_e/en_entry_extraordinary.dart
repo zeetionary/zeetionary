@@ -304,7 +304,6 @@ class KurdishMeaning extends StatelessWidget {
         """The ruling Socialist Party held an extraordinary congress in July, two months before the annual congress.""");
   }
 
-// With short examples define "extraordinary", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

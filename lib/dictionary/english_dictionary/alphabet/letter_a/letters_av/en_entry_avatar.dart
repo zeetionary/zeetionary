@@ -96,8 +96,7 @@ class EnglishEntryavatar extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "avatar"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "avatar"),
                             // divvviiider
                           ],
                         ),

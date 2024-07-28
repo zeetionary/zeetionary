@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """The report includes a seemingly exhaustive list of 160 benefits.""");
   }
 
-// With short examples define "exhaustive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

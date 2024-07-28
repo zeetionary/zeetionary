@@ -458,7 +458,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبھێڵێت بەھۆی ئەوەی تەندرووستی باشە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Patients were being discharged from the hospital too early.",
@@ -486,7 +485,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ڕێگادان بە کەسێک کە دادگا یان زیندان جێبھێڵێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He was conditionally discharged after admitting the theft.",
@@ -505,7 +503,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ڕێگادان بە ئەندامێکی دەستەی سوێندخۆران کە کار لەسەر کەیسێک نەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "If the jury cannot agree, it should be discharged.",
             kurdishText:
@@ -516,7 +513,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (کردار) ڕێگادان بەوەی گاز یان شلە بڕژێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The river is diverted through the power station before discharging into the sea.",
@@ -537,7 +533,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) ھاتنە دەرەوەی شلەی وەک کێم لە جەستەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The wound started discharging pus.",
             kurdishText: "برینەکە دەستی بە دەردانی کێم کرد.",
@@ -546,7 +541,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) دەردانی وزە یان ھێز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Lightning is caused by clouds discharging electricity.",
@@ -559,7 +553,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٨. (کردار) کردنی ھەر شتێک کە پێویستە بۆ ئەنجامدانی ئەرکێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I will faithfully discharge my duties.",
             kurdishText: "بە ئەمەکەوە کۆتایی بە ئەرکەکانم دێنم.",
@@ -582,7 +575,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) تەقاندنی فیشەکێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The police officer accidentally discharged a firearm while unloading it.",
@@ -601,7 +593,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٠. (ناو) ڕژاندنی گاس یان شلە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "A ban on the discharge of toxic waste will soon be implemented.",
@@ -621,7 +612,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١١. (ناو) دەرچوونی وزەی کارەبا لە شتێکەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The storm produced a loud thunder with each electrical discharge.",
@@ -634,7 +624,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٢. (ناو) مۆڵەتدان یان دەرکردنی کەسێک لە ھێزی پۆلیس یان سوپا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The illness resulted in his discharge from the army.",
             kurdishText: "نەخۆشییەکە درووست بوو بەھۆی دەرکردنی لە سوپا.",
@@ -652,7 +641,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "١٣. (ناو) ڕێگەدان بە کەسێک کە نەخۆشخانە جێبھێڵێت بەھۆی ئەوەی تەندرووستە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The doctor will provide instructions before your discharge from the hospital.",
@@ -664,7 +652,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٤. (ناو) ڕێگادان بە کەسێک کە زیندان یان دادگا جێبھێڵێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He was given an absolute discharge but banned from driving for twelve months.",
@@ -676,7 +663,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "١٥. (ناو) ئەنجامدانی ئەرکێک یان دانەوەی قەرز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The judge gave him a one-year conditional discharge.",
             kurdishText: "دادوەرەکە یەک ساڵ ئازادیی بە مەرجی پێدرا.",
@@ -685,39 +671,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "١٦. (ناو) تەقاندنی فیشەکێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The gun had an accidental discharge when it fell.",
             kurdishText: "چەکەکە تەقاندنێکی بەڕێکەوتی ھەبوو کە کەوت.",
             onPressedBritish: () => speakdopsum1s27("en-GB"),
             onPressedAmerican: () => speakdopsum1s27("en-US"),
           ),
-          // dopsum1s2800"),
-          // dopsum1s28
-          // dopsum1s2900"),
-          // dopsum1s29
-          // dopsum1s_3000"),
-          // dopsum1s30
-          // dopsum1s3100"),
-          // dopsum1s31
-          // dopsum1s3200"),
-          // dopsum1s32
-          // dopsum1s3300"),
-          // dopsum1s33
-          // dopsum1s3400"),
-          // dopsum1s34
-          // dopsum1s3500"),
-          // dopsum1s35
-          // dopsum1s3600"),
-          // dopsum1s36
-          // dopsum1s3700"),
-          // dopsum1s37
-          // dopsum1s3800"),
-          // dopsum1s38
-          // dopsum1s3900"),
-          // dopsum1s39
-          // dopsum1s_4000"),
-          // dopsum1s40("en-US"),
         ],
       ),
     );

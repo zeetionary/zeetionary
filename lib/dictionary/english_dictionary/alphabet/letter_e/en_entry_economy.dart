@@ -476,7 +476,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) وڵاتێک، کاتێک بیر لە سیستەمی ئابوورییەکەی دەکەیتەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Ireland was one of the fastest-growing economies in Western Europe in the 1990s.""",
@@ -489,7 +488,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) بەکارھێنانی سەرچاوەکان بەشێوەیەک کە لە بەفیڕۆدان دوور دەبێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """It's a false economy to buy cheap clothes (= it seems cheaper but it is not really since they do not last very long).""",
@@ -509,7 +507,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) کە بە لەبەرچاوگرتنی پارەکەی شتێکی باشە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Buy the large economy pack.""",
             kurdishText: """پاکەتە گەورە کەم‌خەرجییەکە بکڕە.""",
@@ -519,7 +516,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ناو) ڕێگاکانی پاشەکەوتکردنی پارە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """We need to make substantial economies.""",
             kurdishText: """دەبێت دەست‌پێوەگرتنی گەورە بکەین.""",
@@ -529,7 +525,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ناو) بەکارھێنانی کەمترین لە شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She writes with a great economy of words (= using only the necessary words).""",
@@ -537,7 +532,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeconomys11("en-GB"),
             onPressedAmerican: () => speakeconomys11("en-US"),
           ),
-          // economys1200economys12
           // speakeconomys
         ],
       ),

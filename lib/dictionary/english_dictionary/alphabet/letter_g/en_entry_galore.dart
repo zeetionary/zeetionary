@@ -775,7 +775,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە بڕێکی زۆر، زۆر، فرە، تا بتەوێ، تا دڵ حەز کا
 """),
-// With short examples define "galore", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) بە ژمارەی زۆر"""),
                     SentencesRow(
@@ -1598,7 +1597,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/Cqbleas1mmo?t=';
 const double _startSecondsend = 000000000000000000000000000390;
 const String _videoIdone = 'https://youtu.be/Am1lDj2mUVY?t=';

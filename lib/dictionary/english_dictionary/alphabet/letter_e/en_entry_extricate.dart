@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""It took hours to extricate the car from the sand.""");
   }
 
-// With short examples define "extricate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

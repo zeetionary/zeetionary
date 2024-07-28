@@ -294,7 +294,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""I think we've exhausted that particular topic.""");
   }
 
-// With short examples define "exhaust", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

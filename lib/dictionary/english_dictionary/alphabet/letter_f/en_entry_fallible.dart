@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """We place our trust in doctors, but they are fallible like everyone else.""");
   }
 
-// With short examples define "fallible", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

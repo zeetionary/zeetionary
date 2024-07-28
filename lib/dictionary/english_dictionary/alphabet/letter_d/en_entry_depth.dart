@@ -360,7 +360,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) دووری لە پێشەوە بۆ پاش"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The depth of the shelves is 30 centimetres.",
             kurdishText: "قووڵی ڕەفەکان ٣٠ سەنتیمەترە.",
@@ -369,7 +368,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) توانا و ھێزی ھەست"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The demonstration showed the depth of feeling against the war.",
@@ -381,7 +379,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) ئەو خاسیەتانەی کە وا لە کەسێک دەکات سەرنجڕاکێش بێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "This film lacks the complexity or depth of his best movies.",
@@ -400,7 +397,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ھەبوونی زانیاریی زۆر لەسەر شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "His ideas lack depth.",
             kurdishText: "بیرۆکەکانی قووڵییان نییە.",
@@ -418,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ناو) قووڵترین بەش"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She was in the depths of despair.",
             kurdishText: "لە قووڵایی نەھامەتیدا بوو.",
@@ -432,24 +427,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdepths13("en-GB"),
             onPressedAmerican: () => speakdepths13("en-US"),
           ),
-          // depths1400"),
-          // depths14("en-US"),
-          // depths1500"),
-          // depths15("en-US"),
-          // depths1600"),
-          // depths16("en-US"),
-          // depths1700"),
-          // depths17("en-US"),
-          // depths1800"),
-          // depths18("en-US"),
-          // depths1900"),
-          // depths19("en-US"),
-          // "Water was found at a depth of 30 metres.0"),
-          // depths20("en-US"),
-          // depths2100"),
-          // depths21("en-US"),
-          // depths2200"),
-          // depths22("en-US"),
         ],
       ),
     );

@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         """The experience had seriously eroded his confidence in himself.""");
   }
 
-// With short examples define "erode", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

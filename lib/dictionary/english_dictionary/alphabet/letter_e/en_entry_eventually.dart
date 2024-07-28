@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """She hopes eventually to attend medical school and become a doctor.""");
   }
 
-// With short examples define "eventually", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

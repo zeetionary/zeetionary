@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گۆشتی، گۆشتن، قەڵەو، خرپنە، خروخۆڵ، پڕگۆشت
 """),
-// With short examples define "fleshy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە گۆشتی زۆرە"""),
                     SentencesRow(
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'Fa13JKGG0ds';
 const double _startSecondsend = 403;
 const String _videoIdone = 'D7Cv7x6jjYQ';

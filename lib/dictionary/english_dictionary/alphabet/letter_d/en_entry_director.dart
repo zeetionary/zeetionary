@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) دەرھێنەری فیلم یان شانۆیەک کە بە ئەکتەرەکان و ستافەکە دەڵێت چی بکەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "There was an opportunity to meet the cast and director backstage.",
@@ -308,7 +307,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) کەسێک کە بەرپرسی چالاکییەکی دیاریکراوە لە بەشێکی کۆمپانیایەک، کۆلێژێک، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She was artistic director of the city's photography festival.",
@@ -323,38 +321,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirectors6("en-GB"),
             onPressedAmerican: () => speakdirectors6("en-US"),
           ),
-          // directors700"),
-          // directors7
-          // directors800"),
-          // directors8
-          // directors900"),
-          // directors9
-          // directors_1000"),
-          // directors10
-          // directors1100"),
-          // directors11
-          // directors1200"),
-          // directors12
-          // directors1300"),
-          // directors13
-          // directors1400"),
-          // directors14
-          // directors1500"),
-          // directors15
-          // directors1600"),
-          // directors16
-          // directors1700"),
-          // directors17
-          // directors1800"),
-          // directors18
-          // directors1900"),
-          // directors19
-          // directors_2000"),
-          // directors20
-          // directors2100"),
-          // directors21
-          // directors2200"),
-          // directors22("en-US"),
+          // directors7directors7
+          // directors8directors8
+          // directors9directors9
+          // directors_10directors10
+          // directors11directors11
+          // directors12directors12
+          // directors13directors13
+          // directors14directors14
+          // directors15directors15
+          // directors16directors16
+          // directors17directors17
+          // directors18directors18
+          // directors19directors19
+          // directors_20directors20
+          // directors21directors21
         ],
       ),
     );

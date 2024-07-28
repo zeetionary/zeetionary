@@ -329,7 +329,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (کردار) داشکاندن لە نرخی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Most of our stock has been discounted by up to 40 per cent.",
@@ -365,7 +364,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) گوتن یان بیرکردنەوەی ئەوەی کە شتێک گرنگ نییە یان ڕاست نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "We cannot discount the possibility of further strikes.",
@@ -382,30 +380,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscounts10("en-GB"),
             onPressedAmerican: () => speakdiscounts10("en-US"),
           ),
-          // discounts1100"),
-          // discounts11("en-US"),
-          // discounts1200"),
-          // discounts12("en-US"),
-          // discounts1300"),
-          // discounts13("en-US"),
-          // discounts1400"),
-          // discounts14("en-US"),
-          // discounts1500"),
-          // discounts15("en-US"),
-          // discounts1600"),
-          // discounts16("en-US"),
-          // discounts1700"),
-          // discounts17("en-US"),
-          // discounts1800"),
-          // discounts18("en-US"),
-          // discounts1900"),
-          // discounts19("en-US"),
-          // discounts_2000"),
-          // discounts20("en-US"),
-          // discounts2100"),
-          // discounts21("en-US"),
-          // discounts2200"),
-          // discounts22("en-US"),
         ],
       ),
     );

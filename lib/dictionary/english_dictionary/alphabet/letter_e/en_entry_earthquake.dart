@@ -427,22 +427,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthquakes5("en-GB"),
             onPressedAmerican: () => speakearthquakes5("en-US"),
           ),
-          // earthquakes600earthquakes6
-          // earthquakes700earthquakes7
-          // earthquakes800earthquakes8
-          // earthquakes900earthquakes9
-          // earthquakes_1000earthquakes10
-          // earthquakes1100earthquakes11
-          // earthquakes1200earthquakes12
-          // earthquakes1300earthquakes13
-          // earthquakes1400earthquakes14
-          // earthquakes1500earthquakes15
-          // earthquakes1600earthquakes16
-          // earthquakes1700earthquakes17
-          // earthquakes1800earthquakes18
-          // earthquakes1900earthquakes19
-          // earthquakes_2000earthquakes20
-          // earthquakes2100earthquakes21
           // earthquakes2200earthquakesearthquakes
         ],
       ),

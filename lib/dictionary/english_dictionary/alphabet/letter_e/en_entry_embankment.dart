@@ -366,27 +366,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembankments1("en-GB"),
             onPressedAmerican: () => speakembankments1("en-US"),
           ),
-          // embankments200embankments2
-          // embankments300embankments3
-          // embankments400embankments4
-          // embankments500embankments5
-          // embankments600embankments6
-          // embankments700embankments7
-          // embankments800embankments8
-          // embankments900embankments9
-          // embankments_1000embankments10
-          // embankments1100embankments11
-          // embankments1200embankments12
-          // embankments1300embankments13
-          // embankments1400embankments14
-          // embankments1500embankments15
-          // embankments1600embankments16
-          // embankments1700embankments17
-          // embankments1800embankments18
-          // embankments1900embankments19
-          // embankments_2000embankments20
-          // embankments2100embankments21
-          // embankments2200embankmentsembankments
         ],
       ),
     );

@@ -263,51 +263,30 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) پێگەی بەڕێوەبەربوونی کۆمپانیایەک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She has held a number of directorships.",
             kurdishText: "ژمارەیەک پێگەی بەڕێوەبەری ھەبووە.",
             onPressedBritish: () => speakdirectorships3("en-GB"),
             onPressedAmerican: () => speakdirectorships3("en-US"),
           ),
-          // directorships400"),
-          // directorships4
-          // directorships500"),
-          // directorships5
-          // directorships600"),
-          // directorships6
-          // directorships700"),
-          // directorships7
-          // directorships800"),
-          // directorships8
-          // directorships900"),
-          // directorships9
-          // directorships_1000"),
-          // directorships10
-          // directorships1100"),
-          // directorships11
-          // directorships1200"),
-          // directorships12
-          // directorships1300"),
-          // directorships13
-          // directorships1400"),
-          // directorships14
-          // directorships1500"),
-          // directorships15
-          // directorships1600"),
-          // directorships16
-          // directorships1700"),
-          // directorships17
-          // directorships1800"),
-          // directorships18
-          // directorships1900"),
-          // directorships19
-          // directorships_2000"),
-          // directorships20
-          // directorships2100"),
-          // directorships21
-          // directorships2200"),
-          // directorships22("en-US"),
+          // directorships4directorships4
+          // directorships5directorships5
+          // directorships6directorships6
+          // directorships7directorships7
+          // directorships8directorships8
+          // directorships9directorships9
+          // directorships_10directorships10
+          // directorships11directorships11
+          // directorships12directorships12
+          // directorships13directorships13
+          // directorships14directorships14
+          // directorships15directorships15
+          // directorships16directorships16
+          // directorships17directorships17
+          // directorships18directorships18
+          // directorships19directorships19
+          // directorships_20directorships20
+          // directorships21directorships21
         ],
       ),
     );

@@ -378,7 +378,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) پڕۆسەی کەم کەم نەمانی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The dissolution of barriers of class and gender improves equality.",
@@ -387,46 +386,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdissolutions2("en-GB"),
             onPressedAmerican: () => speakdissolutions2("en-US"),
           ),
-          // dissolutions300"),
-          // dissolutions3
-          // dissolutions400"),
-          // dissolutions4
-          // dissolutions500"),
-          // dissolutions5
-          // dissolutions600"),
-          // dissolutions6
-          // dissolutions700"),
-          // dissolutions7
-          // dissolutions800"),
-          // dissolutions8
-          // dissolutions900"),
-          // dissolutions9
-          // dissolutions_1000"),
-          // dissolutions10
-          // dissolutions1100"),
-          // dissolutions11
-          // dissolutions1200"),
-          // dissolutions12
-          // dissolutions1300"),
-          // dissolutions13
-          // dissolutions1400"),
-          // dissolutions14
-          // dissolutions1500"),
-          // dissolutions15
-          // dissolutions1600"),
-          // dissolutions16
-          // dissolutions1700"),
-          // dissolutions17
-          // dissolutions1800"),
-          // dissolutions18
-          // dissolutions1900"),
-          // dissolutions19
-          // dissolutions_2000"),
-          // dissolutions20
-          // dissolutions2100"),
-          // dissolutions21
-          // dissolutions2200"),
-          // dissolutions22("en-US"),
+          // dissolutions3dissolutions3
+          // dissolutions4dissolutions4
+          // dissolutions5dissolutions5
+          // dissolutions6dissolutions6
+          // dissolutions7dissolutions7
+          // dissolutions8dissolutions8
+          // dissolutions9dissolutions9
+          // dissolutions_10dissolutions10
+          // dissolutions11dissolutions11
+          // dissolutions12dissolutions12
+          // dissolutions13dissolutions13
+          // dissolutions14dissolutions14
+          // dissolutions15dissolutions15
+          // dissolutions16dissolutions16
+          // dissolutions17dissolutions17
+          // dissolutions18dissolutions18
+          // dissolutions19dissolutions19
+          // dissolutions_20dissolutions20
+          // dissolutions21dissolutions21
         ],
       ),
     );

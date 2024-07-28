@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
         """The government needs to ensure (that) workers' rights are respected.""");
   }
 
-// With short examples define "ensure", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

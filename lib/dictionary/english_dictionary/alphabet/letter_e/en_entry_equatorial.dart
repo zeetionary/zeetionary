@@ -243,7 +243,6 @@ class KurdishMeaning extends StatelessWidget {
         """The equatorial climate of the Amazonian rain forests is hot and wet.""");
   }
 
-// With short examples define "equatorial", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

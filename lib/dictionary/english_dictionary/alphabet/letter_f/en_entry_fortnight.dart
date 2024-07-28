@@ -167,7 +167,6 @@ Usage: Brit (N. Amer: two weeks)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fortnight", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) دوو ھەفتە"""),
                     SentencesRow(
                       englishText:
@@ -262,7 +261,6 @@ Usage: Brit (N. Amer: two weeks)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'sLA3egyypiI';
 const double _startSecondsend = 587;
 const String _videoIdone = 'DGXf9LcPKWM';

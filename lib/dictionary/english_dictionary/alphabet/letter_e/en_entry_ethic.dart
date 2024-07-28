@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """The children learned an ethic of hard work from their parents.""");
   }
 
-// With short examples define "ethic", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

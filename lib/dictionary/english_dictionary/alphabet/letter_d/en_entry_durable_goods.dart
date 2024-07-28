@@ -367,48 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdurablegoodss1("en-GB"),
             onPressedAmerican: () => speakdurablegoodss1("en-US"),
           ),
-          // durablegoodss200
-          // durablegoodss2("en-US"""),
-          // durablegoodss300
-          // durablegoodss3("en-US"""),
-          // durablegoodss400
-          // durablegoodss4("en-US"""),
-          // durablegoodss500
-          // durablegoodss5("en-US"""),
-          // durablegoodss600
-          // durablegoodss6("en-US"""),
-          // durablegoodss700
-          // durablegoodss7("en-US"""),
-          // durablegoodss800
-          // durablegoodss8("en-US"""),
-          // durablegoodss900
-          // durablegoodss9("en-US"""),
-          // durablegoodss_1000
-          // durablegoodss10("en-US"""),
-          // durablegoodss1100
-          // durablegoodss11("en-US"""),
-          // durablegoodss1200
-          // durablegoodss12("en-US"""),
-          // durablegoodss1300
-          // durablegoodss13("en-US"""),
-          // durablegoodss1400
-          // durablegoodss14("en-US"""),
-          // durablegoodss1500
-          // durablegoodss15("en-US"""),
-          // durablegoodss1600
-          // durablegoodss16("en-US"""),
-          // durablegoodss1700
-          // durablegoodss17("en-US"""),
-          // durablegoodss1800
-          // durablegoodss18("en-US"""),
-          // durablegoodss1900
-          // durablegoodss19("en-US"""),
-          // durablegoodss_2000
-          // durablegoodss20("en-US"""),
-          // durablegoodss2100
-          // durablegoodss21("en-US"""),
-          // durablegoodss2200
-          // durablegoodss22("en-US"""),
         ],
       ),
     );

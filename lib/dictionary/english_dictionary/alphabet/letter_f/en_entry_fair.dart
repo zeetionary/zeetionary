@@ -439,7 +439,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I bought it at a local craft fair.""");
   }
 
-// With short examples define "fair", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

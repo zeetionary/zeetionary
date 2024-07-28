@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: درۆی چکۆلە، قسە یان وتەی ناگرنگ و درۆ، قسەی قۆڕ، فشە، تڕەھات، فڵتە
 """),
-// With short examples define "fib", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) درۆ، زۆرجار کە گرنگ نییە"""),
                     SentencesRow(
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '0ST4_hmop9Y';
 const double _startSecondsend = 136;
 const String _videoIdone = 'waZyyWnNJ_Y';

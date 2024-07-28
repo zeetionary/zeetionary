@@ -416,7 +416,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) کەسێک کە کتێبێک یان نووسراوی دیکە بۆ بڵاوکردنەوە ئامادە دەکات، بۆ نموونە بە ڕاستکردنەوەی ھەڵە و باشترکردنی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Jenny Cook is a writer and editor based in New York.""",
@@ -428,7 +427,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) کەسێک کە کاری دەستکاریکردنی فیلم یان پڕۆگرامی ڕادیۆیی یان تەلەفیزیۆن دەکات بە دانان و ڕێکخستنی ئەوەی کە پیشان دەدرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Kazan hired him as cameraman, editor and producer for ‘The Visitors’.""",
@@ -441,7 +439,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ڕۆژنامەنووسێک کە لەسەر بابەتێکی دیاریکراو کار دەکات"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The economics editor explained the impact of new trade policies.""",
@@ -454,7 +451,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ناو) کەسێک کە نووسینی نووسەرێک یان زیاتر کۆدەکاتەوە و بە کتێبێک بڵاویان دەکاتەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She's the editor of a new collection of children stories.""",
@@ -462,7 +458,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeditors6("en-GB"),
             onPressedAmerican: () => speakeditors6("en-US"),
           ),
-          // editors700editors7
           // speakeditors
         ],
       ),

@@ -314,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
         """The club will hold a social evening to welcome new members.""");
   }
 
-// With short examples define "evening", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

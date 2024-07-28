@@ -243,7 +243,6 @@ class KurdishMeaning extends StatelessWidget {
         """In those rocks may lie the best chance of finding extraterrestrial life.""");
   }
 
-// With short examples define "extraterrestrial", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

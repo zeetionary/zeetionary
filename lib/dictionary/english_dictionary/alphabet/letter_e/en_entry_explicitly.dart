@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """The report states explicitly that the system was to blame.""");
   }
 
-// With short examples define "explicitly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

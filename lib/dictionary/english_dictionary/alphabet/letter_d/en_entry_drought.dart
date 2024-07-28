@@ -377,7 +377,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ماوەیەکی دوور و ودرێژ لە نەبوونی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The team is desperate to end a ten-game goal drought.",
@@ -386,46 +385,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdroughts2("en-GB"),
             onPressedAmerican: () => speakdroughts2("en-US"),
           ),
-          // droughts300"),
-          // droughts3
-          // droughts400"),
-          // droughts4
-          // droughts500"),
-          // droughts5
-          // droughts600"),
-          // droughts6
-          // droughts700"),
-          // droughts7
-          // droughts800"),
-          // droughts8
-          // droughts900"),
-          // droughts9
-          // droughts_1000"),
-          // droughts10
-          // droughts1100"),
-          // droughts11
-          // droughts1200"),
-          // droughts12
-          // droughts1300"),
-          // droughts13
-          // droughts1400"),
-          // droughts14
-          // droughts1500"),
-          // droughts15
-          // droughts1600"),
-          // droughts16
-          // droughts1700"),
-          // droughts17
-          // droughts1800"),
-          // droughts18
-          // droughts1900"),
-          // droughts19
-          // droughts_2000"),
-          // droughts20
-          // droughts2100"),
-          // droughts21
-          // droughts2200"),
-          // droughts22("en-US"),
+          // droughts3droughts3
+          // droughts4droughts4
+          // droughts5droughts5
+          // droughts6droughts6
+          // droughts7droughts7
+          // droughts8droughts8
+          // droughts9droughts9
+          // droughts_10droughts10
+          // droughts11droughts11
+          // droughts12droughts12
+          // droughts13droughts13
+          // droughts14droughts14
+          // droughts15droughts15
+          // droughts16droughts16
+          // droughts17droughts17
+          // droughts18droughts18
+          // droughts19droughts19
+          // droughts_20droughts20
+          // droughts21droughts21
         ],
       ),
     );

@@ -466,7 +466,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) پەیوەندیدار بە ماڵێک یان خێزانێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She spent the morning doing domestic chores like cleaning and laundry.",
@@ -486,7 +485,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ھاوەڵناو) ئاژەڵی ماڵی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Most domestic cats hate getting wet.",
             kurdishText: "زۆرینەی پشیلە ماڵییەکان ڕقیان لەوەیە تەڕبن.",
@@ -496,7 +494,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (ھاوەڵناو) کە حەزی بە ژیانی ماڵەوەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm not a very domestic sort of person.",
             kurdishText: "کەسێکی زۆر ماڵی نییم.",
@@ -507,7 +504,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ناو) کەسێک کە لەماڵی کەسێکی دیکە کارەکانی ماڵەوە دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The family employed a domestic to assist with daily chores.",
@@ -519,37 +515,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) شەڕێک لە نێوان دوو ئەندامی ھەمان خێزان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The police were called to sort out a domestic.",
             kurdishText: "پۆلیس بانگکران بۆ چارەسەری کێشەیەکی خێزانی.",
             onPressedBritish: () => speakdomestics10("en-GB"),
             onPressedAmerican: () => speakdomestics10("en-US"),
           ),
-          // domestics1100"),
-          // domestics11("en-US"),
-          // domestics1200"),
-          // domestics12("en-US"),
-          // domestics1300"),
-          // domestics13("en-US"),
-          // domestics1400"),
-          // domestics14("en-US"),
-          // domestics1500"),
-          // domestics15("en-US"),
-          // domestics1600"),
-          // domestics16("en-US"),
-          // domestics1700"),
-          // domestics17("en-US"),
-          // domestics1800"),
-          // domestics18("en-US"),
-          // domestics1900"),
-          // domestics19("en-US"),
-          // domestics_2000"),
-          // domestics20("en-US"),
-          // domestics2100"),
-          // domestics21("en-US"),
-          // domestics2200"),
-          // domestics22("en-US"),
         ],
       ),
     );

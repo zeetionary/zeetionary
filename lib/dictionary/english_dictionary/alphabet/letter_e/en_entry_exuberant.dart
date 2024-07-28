@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She admired the exuberant growth of summer flowers.""");
   }
 
-// With short examples define "exuberant", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

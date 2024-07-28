@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
         """The advertising campaign failed to excite much interest in consumers.""");
   }
 
-// With short examples define "excite", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

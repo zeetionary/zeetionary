@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He spent his time fantasizing revenge.""");
   }
 
-// With short examples define "fantasize", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -289,7 +289,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Win a fantastic shopping expedition to New York!""");
   }
 
-// With short examples define "expedition", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

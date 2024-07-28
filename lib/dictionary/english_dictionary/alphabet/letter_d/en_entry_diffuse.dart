@@ -274,7 +274,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە ڕوون و ئاسان نییە بۆ تێگەشتن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "His diffuse style of writing filled pages with unnecessary details.",
@@ -287,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بڵاوکردنەوەی شتێک یان بڵاوبوونەوە بە ھەموو لایەکدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Technologies diffuse rapidly.",
             kurdishText: "تەکنەلۆژیا بەخێرایی بڵاودەبێتەوە.",
@@ -307,7 +305,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) واکردنی ئەوەی کە گاز یان شلە بڵاوبێتەوە بە ناو شتێک یان بە مادەی دەورووبەری بە تێکەڵبوون لەگەڵی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Oxygen diffuses from the lungs into the bloodstream.",
             kurdishText:
@@ -323,38 +320,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiffuses6("en-GB"),
             onPressedAmerican: () => speakdiffuses6("en-US"),
           ),
-          // diffuses700"),
-          // diffuses7("en-US"),
-          // diffuses800"),
-          // diffuses8("en-US"),
-          // diffuses900"),
-          // diffuses9("en-US"),
-          // diffuses_1000"),
-          // diffuses10("en-US"),
-          // diffuses1100"),
-          // diffuses11("en-US"),
-          // diffuses1200"),
-          // diffuses12("en-US"),
-          // diffuses1300"),
-          // diffuses13("en-US"),
-          // diffuses1400"),
-          // diffuses14("en-US"),
-          // diffuses1500"),
-          // diffuses15("en-US"),
-          // diffuses1600"),
-          // diffuses16("en-US"),
-          // diffuses1700"),
-          // diffuses17("en-US"),
-          // diffuses1800"),
-          // diffuses18("en-US"),
-          // diffuses1900"),
-          // diffuses19("en-US"),
-          // diffuses_2000"),
-          // diffuses20("en-US"),
-          // diffuses2100"),
-          // diffuses21("en-US"),
-          // diffuses2200"),
-          // diffuses22("en-US"),
         ],
       ),
     );

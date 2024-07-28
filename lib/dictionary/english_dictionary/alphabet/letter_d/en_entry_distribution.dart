@@ -444,7 +444,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) دابەشکردنی شتێک بەسەر ژمارەیەکی زۆر لە خەڵکیدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The food was packed up for distribution to communities.",
@@ -472,7 +471,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) سیستەمی گواستنەوە و گەیاندنی بەرھەمێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "We focused on finding new distribution channels for our products.",
@@ -490,34 +488,19 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistributions8("en-GB"),
             onPressedAmerican: () => speakdistributions8("en-US"),
           ),
-          // distributions900"),
-          // distributions9
-          // distributions_1000"),
-          // distributions10
-          // distributions1100"),
-          // distributions11
-          // distributions1200"),
-          // distributions12
-          // distributions1300"),
-          // distributions13
-          // distributions1400"),
-          // distributions14
-          // distributions1500"),
-          // distributions15
-          // distributions1600"),
-          // distributions16
-          // distributions1700"),
-          // distributions17
-          // distributions1800"),
-          // distributions18
-          // distributions1900"),
-          // distributions19
-          // distributions_2000"),
-          // distributions20
-          // distributions2100"),
-          // distributions21
-          // distributions2200"),
-          // distributions22("en-US"),
+          // distributions9distributions9
+          // distributions_10distributions10
+          // distributions11distributions11
+          // distributions12distributions12
+          // distributions13distributions13
+          // distributions14distributions14
+          // distributions15distributions15
+          // distributions16distributions16
+          // distributions17distributions17
+          // distributions18distributions18
+          // distributions19distributions19
+          // distributions_20distributions20
+          // distributions21distributions21
         ],
       ),
     );

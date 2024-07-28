@@ -389,27 +389,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdykes2("en-GB"),
             onPressedAmerican: () => speakdykes2("en-US"),
           ),
-          // dykes300
-          // dykes3// dykes400
-          // dykes4// dykes500
-          // dykes5// dykes600
-          // dykes6// dykes700
-          // dykes7// dykes800
-          // dykes8// dykes900
-          // dykes9// dykes_1000
-          // dykes10// dykes1100
-          // dykes11// dykes1200
-          // dykes12// dykes1300
-          // dykes13// dykes1400
-          // dykes14// dykes1500
-          // dykes15// dykes1600
-          // dykes16// dykes1700
-          // dykes17// dykes1800
-          // dykes18// dykes1900
-          // dykes19// dykes_2000
-          // dykes20// dykes2100
-          // dykes21// dykes2200
-          // dykes22("en-US"""),
         ],
       ),
     );

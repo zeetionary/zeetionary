@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کێوی، دڕ، ھۆڤ، دڕندە، بۆھاتوو، پەلاماردەر، تێ‌ڕۆھاتوو، دڕندانە، بێ‌بەزەیی‌یانە،	توندوتیژ، توند، سەخت
 """),
-// With short examples define "ferocious", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر توندوتیژ و دڕ"""),
                     SentencesRow(

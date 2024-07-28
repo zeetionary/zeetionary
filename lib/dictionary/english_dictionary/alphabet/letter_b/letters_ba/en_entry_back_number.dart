@@ -95,9 +95,7 @@ class EnglishEntrybacknumber extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "back number"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "back number"),
                             // divvviiider
                           ],
                         ),

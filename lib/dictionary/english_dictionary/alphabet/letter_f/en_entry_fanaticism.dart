@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Fanaticism has already destroyed countless lives.""");
   }
 
-// With short examples define "fanaticism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

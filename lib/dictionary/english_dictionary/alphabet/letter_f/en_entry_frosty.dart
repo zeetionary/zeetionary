@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زۆر سارد، ساردوسڕ (لە ڕەفتاردا)،	بەستوو، شەختەبەند، سەھۆڵ‌بەند
 """),
-// With short examples define "frosty", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) زۆر سارد"""),
                     SentencesRow(
                       englishText: """He breathed in the frosty air.""",
@@ -293,7 +292,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 's3B-qp3U5G0';
 const double _startSecondsend = 819;
 const String _videoIdone = 'tJuYL3nPINM';

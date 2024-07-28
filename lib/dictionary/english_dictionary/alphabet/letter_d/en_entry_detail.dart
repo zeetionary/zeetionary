@@ -422,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) زانیاری لەسەر شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Please provide the following details: name, age and sex.",
@@ -456,7 +455,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) پێدانی لیستێکی زانیاری یان ھەموو زانیاریی بەردەست لەسەر شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "In this lecture, I will detail the history of television from the beginning.",
@@ -477,7 +475,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) پێدانی فەرمانی فەرمی بە کەسێک بۆ ئەنجامدانی ئەرکێکی تایبەت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Several of the men were detailed to form a search party.",
@@ -489,25 +486,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) پاککردنەوەی ئۆتۆمبێل بە تەواوی و پاکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He got work for a while detailing cars.",
             kurdishText: "بۆ ماوەیەک کاری شووشتنی ئۆتۆمبێلی دەکرد.",
             onPressedBritish: () => speakdetails16("en-GB"),
             onPressedAmerican: () => speakdetails16("en-US"),
           ),
-          // details1700"),
-          // details17("en-US"),
-          // details1800"),
-          // details18("en-US"),
-          // details1900"),
-          // details19("en-US"),
-          // "Tell me the main points now; leave the details till later.0"),
-          // details20("en-US"),
-          // details2100"),
-          // details21("en-US"),
-          // details2200"),
-          // details22("en-US"),
         ],
       ),
     );

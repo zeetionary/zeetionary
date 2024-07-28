@@ -97,9 +97,7 @@ class EnglishEntryaerospace extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           KurdishVocabulary(text: """
 کوردی: ھەواـ بۆشایی (= سازگەری یا سەنعەتی دروس‌کردنی ئەو فڕۆکە و کەل‌وپەل و دەزگایانەی کە بۆ بۆشایی یان ئاسمان دەنێردرێن)

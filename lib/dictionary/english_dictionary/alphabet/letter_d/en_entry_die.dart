@@ -570,7 +570,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) وەستان لە کارکردن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "My phone died and I had no way to contact you.",
             kurdishText:

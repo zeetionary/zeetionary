@@ -472,7 +472,6 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerSentences(),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) شتێک کە لە ئاستێکی خراپە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her last movie was an absolute dog.",
             kurdishText: "کۆتا فیلمی ھیچەکەیەکی تەواو بوو.",
@@ -486,7 +485,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) بۆ ناوھێنانی پیاوێک کە شتێکی خراپی کردووە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "You dirty dog!",
             kurdishText: "ھەی سەگی پیس!",
@@ -503,7 +501,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) کە بۆ ماوەیەکی زۆر کێشەت بۆ درووست دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He had been dogged by ill health all his life.",
             kurdishText:
@@ -520,7 +517,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٧. (کردار) شوێنکەوتنی کەسێک بە نزیکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She had the impression that someone was dogging her steps.",
@@ -528,28 +524,16 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdogs11("en-GB"),
             onPressedAmerican: () => speakdogs11("en-US"),
           ),
-          // dogs1200"),
-          // dogs12
-          // dogs1300"),
-          // dogs13
-          // dogs1400"),
-          // dogs14
-          // dogs1500"),
-          // dogs15
-          // dogs1600"),
-          // dogs16
-          // dogs1700"),
-          // dogs17
-          // dogs1800"),
-          // dogs18
-          // dogs1900"),
-          // dogs19
-          // dogs_2000"),
-          // dogs20
-          // dogs2100"),
-          // dogs21
-          // dogs2200"),
-          // dogs22("en-US"),
+          // dogs12dogs12
+          // dogs13dogs13
+          // dogs14dogs14
+          // dogs15dogs15
+          // dogs16dogs16
+          // dogs17dogs17
+          // dogs18dogs18
+          // dogs19dogs19
+          // dogs_20dogs20
+          // dogs21dogs21
         ],
       ),
     );

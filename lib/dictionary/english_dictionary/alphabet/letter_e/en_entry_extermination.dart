@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """International measures have been taken to prevent the extermination of the whale.""");
   }
 
-// With short examples define "extermination", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
         """The course is designed to equip students for a career in nursing.""");
   }
 
-// With short examples define "equip", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

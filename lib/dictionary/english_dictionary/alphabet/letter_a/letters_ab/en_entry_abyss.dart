@@ -58,9 +58,7 @@ class EnglishEntryabyss extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈbɪs/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈbɪs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakabyss("en-US"),
                             ),

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He raised an enquiring eyebrow in my direction.""");
   }
 
-// With short examples define "enquiring", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

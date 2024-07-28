@@ -268,44 +268,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdissatisfactions3("en-GB"),
             onPressedAmerican: () => speakdissatisfactions3("en-US"),
           ),
-          // dissatisfactions400"),
-          // dissatisfactions4
-          // dissatisfactions500"),
-          // dissatisfactions5
-          // dissatisfactions600"),
-          // dissatisfactions6
-          // dissatisfactions700"),
-          // dissatisfactions7
-          // dissatisfactions800"),
-          // dissatisfactions8
-          // dissatisfactions900"),
-          // dissatisfactions9
-          // dissatisfactions_1000"),
-          // dissatisfactions10
-          // dissatisfactions1100"),
-          // dissatisfactions11
-          // dissatisfactions1200"),
-          // dissatisfactions12
-          // dissatisfactions1300"),
-          // dissatisfactions13
-          // dissatisfactions1400"),
-          // dissatisfactions14
-          // dissatisfactions1500"),
-          // dissatisfactions15
-          // dissatisfactions1600"),
-          // dissatisfactions16
-          // dissatisfactions1700"),
-          // dissatisfactions17
-          // dissatisfactions1800"),
-          // dissatisfactions18
-          // dissatisfactions1900"),
-          // dissatisfactions19
-          // dissatisfactions_2000"),
-          // dissatisfactions20
-          // dissatisfactions2100"),
-          // dissatisfactions21
-          // dissatisfactions2200"),
-          // dissatisfactions22("en-US"),
+          // dissatisfactions4dissatisfactions4
+          // dissatisfactions5dissatisfactions5
+          // dissatisfactions6dissatisfactions6
+          // dissatisfactions7dissatisfactions7
+          // dissatisfactions8dissatisfactions8
+          // dissatisfactions9dissatisfactions9
+          // dissatisfactions_10dissatisfactions10
+          // dissatisfactions11dissatisfactions11
+          // dissatisfactions12dissatisfactions12
+          // dissatisfactions13dissatisfactions13
+          // dissatisfactions14dissatisfactions14
+          // dissatisfactions15dissatisfactions15
+          // dissatisfactions16dissatisfactions16
+          // dissatisfactions17dissatisfactions17
+          // dissatisfactions18dissatisfactions18
+          // dissatisfactions19dissatisfactions19
+          // dissatisfactions_20dissatisfactions20
+          // dissatisfactions21dissatisfactions21
         ],
       ),
     );

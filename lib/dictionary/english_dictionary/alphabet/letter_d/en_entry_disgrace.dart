@@ -333,7 +333,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شتێک کە ھێندە خراپە کە کەسانی پەیوەندیدار پێوەی دەبێت ھەست بە شەرم بکەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Your homework is an absolute disgrace.",
             kurdishText:
@@ -366,7 +365,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ڕەفتارکردن بە شێوەیەک کە شەرمەزاری لێدەکەوێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I disgraced myself by drinking far too much.",
             kurdishText: "خۆم شەرمەزار کرد بە خواردنەوەی ئێجگار زۆر.",
@@ -384,35 +382,22 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) لەدەستدانی ڕێزی کەسانی دیکە بە شێوەیەک کە پێگەیەکی دەسەڵات لەدەست دەدەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He was publicly disgraced and sent into exile.",
             kurdishText: "بە شێوەیەکی گشتی بێڕێز کرا و دوورخرایەوە.",
             onPressedBritish: () => speakdisgraces11("en-GB"),
             onPressedAmerican: () => speakdisgraces11("en-US"),
           ),
-          // disgraces1200"),
-          // disgraces12
-          // disgraces1300"),
-          // disgraces13
-          // disgraces1400"),
-          // disgraces14
-          // disgraces1500"),
-          // disgraces15
-          // disgraces1600"),
-          // disgraces16
-          // disgraces1700"),
-          // disgraces17
-          // disgraces1800"),
-          // disgraces18
-          // disgraces1900"),
-          // disgraces19
-          // disgraces_2000"),
-          // disgraces20
-          // disgraces2100"),
-          // disgraces21
-          // disgraces2200"),
-          // disgraces22("en-US"),
+          // disgraces12disgraces12
+          // disgraces13disgraces13
+          // disgraces14disgraces14
+          // disgraces15disgraces15
+          // disgraces16disgraces16
+          // disgraces17disgraces17
+          // disgraces18disgraces18
+          // disgraces19disgraces19
+          // disgraces_20disgraces20
+          // disgraces21disgraces21
         ],
       ),
     );

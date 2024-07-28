@@ -278,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The wing of the plane showed signs of metal fatigue.""");
   }
 
-// With short examples define "fatigue", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

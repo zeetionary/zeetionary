@@ -508,7 +508,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) جیاکردنەوەی خەڵکی و شت بۆ گرووپی جیاواز"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The new law makes no distinction between adults and children (= treats them equally).",
@@ -527,7 +526,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) ئەوەی کە شتێکی تایبەت بیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She had the distinction of being the first woman to fly the Atlantic.",
@@ -548,7 +546,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) خاسیەتی ئەوەی کە نایاب یان گرنگ بیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She is a historian of great distinction.",
             kurdishText: "مێژوونووسێکی خاوەن پێگەیە.",
@@ -562,26 +559,15 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdistinctions12("en-GB"),
             onPressedAmerican: () => speakdistinctions12("en-US"),
           ),
-          // distinctions1300"),
-          // distinctions13
-          // distinctions1400"),
-          // distinctions14
-          // distinctions1500"),
-          // distinctions15
-          // distinctions1600"),
-          // distinctions16
-          // distinctions1700"),
-          // distinctions17
-          // distinctions1800"),
-          // distinctions18
-          // distinctions1900"),
-          // distinctions19
-          // distinctions_2000"),
-          // distinctions20
-          // distinctions2100"),
-          // distinctions21
-          // distinctions2200"),
-          // distinctions22("en-US"),
+          // distinctions13distinctions13
+          // distinctions14distinctions14
+          // distinctions15distinctions15
+          // distinctions16distinctions16
+          // distinctions17distinctions17
+          // distinctions18distinctions18
+          // distinctions19distinctions19
+          // distinctions_20distinctions20
+          // distinctions21distinctions21
         ],
       ),
     );

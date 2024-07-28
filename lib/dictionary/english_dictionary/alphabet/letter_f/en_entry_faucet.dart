@@ -254,7 +254,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""She repaired a leaky faucet.""");
   }
 
-// With short examples define "faucet", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

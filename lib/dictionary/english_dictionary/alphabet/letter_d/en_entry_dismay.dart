@@ -264,44 +264,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdismays3("en-GB"),
             onPressedAmerican: () => speakdismays3("en-US"),
           ),
-          // dismays400"),
-          // dismays4
-          // dismays500"),
-          // dismays5
-          // dismays600"),
-          // dismays6
-          // dismays700"),
-          // dismays7
-          // dismays800"),
-          // dismays8
-          // dismays900"),
-          // dismays9
-          // dismays_1000"),
-          // dismays10
-          // dismays1100"),
-          // dismays11
-          // dismays1200"),
-          // dismays12
-          // dismays1300"),
-          // dismays13
-          // dismays1400"),
-          // dismays14
-          // dismays1500"),
-          // dismays15
-          // dismays1600"),
-          // dismays16
-          // dismays1700"),
-          // dismays17
-          // dismays1800"),
-          // dismays18
-          // dismays1900"),
-          // dismays19
-          // dismays_2000"),
-          // dismays20
-          // dismays2100"),
-          // dismays21
-          // dismays2200"),
-          // dismays22("en-US"),
+          // dismays4dismays4
+          // dismays5dismays5
+          // dismays6dismays6
+          // dismays7dismays7
+          // dismays8dismays8
+          // dismays9dismays9
+          // dismays_10dismays10
+          // dismays11dismays11
+          // dismays12dismays12
+          // dismays13dismays13
+          // dismays14dismays14
+          // dismays15dismays15
+          // dismays16dismays16
+          // dismays17dismays17
+          // dismays18dismays18
+          // dismays19dismays19
+          // dismays_20dismays20
+          // dismays21dismays21
         ],
       ),
     );

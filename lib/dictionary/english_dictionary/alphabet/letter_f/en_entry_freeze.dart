@@ -351,7 +351,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "freeze", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) بەستن"""),
                     SentencesRow(
                       englishText: """Water freezes at 0°C.""",
@@ -657,7 +656,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'DPZzrlFCD_I';
 const double _startSecondsend = 108;
 const String _videoIdone = 'qWAagS_MANg';

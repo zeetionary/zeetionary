@@ -37,8 +37,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "accordion"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accordion"),
                           ],
                         ),
                         Row(
@@ -51,9 +50,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkɔːrdiən/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkɔːrdiən/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaaccordion("en-US"),
                             ),
@@ -76,9 +73,7 @@ class EnglishEntryaccordion extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           KurdishVocabulary(text: """
 کوردی: (میوزیک) ئاکۆردیەن، ئاکاردیۆن

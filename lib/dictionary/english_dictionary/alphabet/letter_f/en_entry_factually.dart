@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He's making statements that are not factually accurate.""");
   }
 
-// With short examples define "factually", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

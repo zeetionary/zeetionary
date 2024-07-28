@@ -94,8 +94,7 @@ class EnglishEntrybarcode extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "barcode"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "barcode"),
                             // divvviiider
                           ],
                         ),

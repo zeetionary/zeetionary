@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەرەسە یان ماکی خۆراکی، مادەی خۆراکی
 """),
-// With short examples define "foodstuff", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ھەر شتێک کە بخورێت"""),
                     SentencesRow(
@@ -229,7 +228,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '4QDDxmtbUsw';
 const double _startSecondsend = 36;
 const String _videoIdone = 'UiS27feX8o0';

@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The drought has made farmers anxious about the harvest.""");
   }
 
-// With short examples define "farmer", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

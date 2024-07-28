@@ -272,7 +272,6 @@ class KurdishMeaning extends StatelessWidget {
         """She watched in fascination as the cat pounced on the mouse.""");
   }
 
-// With short examples define "fascination", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """I am eternally amazed at what some people will do for money.""");
   }
 
-// With short examples define "eternally", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -402,7 +402,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) قازانج یان سوودی زۆر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Exercising regularly will pay dividends in the end.",
             kurdishText: "ڕاھێنانی بەردەوام لە کۆتاییدا قازانجی دەبێت.",
@@ -418,42 +417,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdividends4("en-GB"),
             onPressedAmerican: () => speakdividends4("en-US"),
           ),
-          // dividends500"),
-          // dividends5
-          // dividends600"),
-          // dividends6
-          // dividends700"),
-          // dividends7
-          // dividends800"),
-          // dividends8
-          // dividends900"),
-          // dividends9
-          // dividends_1000"),
-          // dividends10
-          // dividends1100"),
-          // dividends11
-          // dividends1200"),
-          // dividends12
-          // dividends1300"),
-          // dividends13
-          // dividends1400"),
-          // dividends14
-          // dividends1500"),
-          // dividends15
-          // dividends1600"),
-          // dividends16
-          // dividends1700"),
-          // dividends17
-          // dividends1800"),
-          // dividends18
-          // dividends1900"),
-          // dividends19
-          // dividends_2000"),
-          // dividends20
-          // dividends2100"),
-          // dividends21
-          // dividends2200"),
-          // dividends22("en-US"),
+          // dividends5dividends5
+          // dividends6dividends6
+          // dividends7dividends7
+          // dividends8dividends8
+          // dividends9dividends9
+          // dividends_10dividends10
+          // dividends11dividends11
+          // dividends12dividends12
+          // dividends13dividends13
+          // dividends14dividends14
+          // dividends15dividends15
+          // dividends16dividends16
+          // dividends17dividends17
+          // dividends18dividends18
+          // dividends19dividends19
+          // dividends_20dividends20
+          // dividends21dividends21
         ],
       ),
     );

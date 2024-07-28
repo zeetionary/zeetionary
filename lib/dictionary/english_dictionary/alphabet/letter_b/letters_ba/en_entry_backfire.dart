@@ -94,8 +94,7 @@ class EnglishEntrybackfire extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "backfire"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backfire"),
                             // divvviiider
                           ],
                         ),

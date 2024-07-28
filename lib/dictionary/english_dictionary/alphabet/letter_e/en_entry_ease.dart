@@ -486,7 +486,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ئەو دۆخەی کە تێیدا ئاسوودە و بێ کێشە و ئازاریت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """In his retirement, he lived a life of ease.""",
             kurdishText: """لە خانەنشینییدا، ژیانێکی بێ‌کێشە ژیا.""",
@@ -496,7 +495,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (کردار) سوککردنی کێشەیەک یان ئازارێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The pain immediately eased.""",
             kurdishText: """ئازارەکە دەستبەجێ سووکبوو.""",
@@ -544,10 +542,8 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (کردار) ئاسانکردنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """His family connections eased his passage into the top ranks of the industry.""",
@@ -559,7 +555,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (کردار) جوڵان بەھێواشی و وریایی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He eased slowly forwards.""",
             kurdishText: """بەھێواشی بۆ پێشەوە ھەنگاوی نا.""",
@@ -590,56 +585,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٧. (کردار) کەمبوونەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Share prices eased back from yesterday's levels.""",
             kurdishText: """نرخی پشکەکان لە ئاستی دوێنێ کەمبووبەوە.""",
             onPressedBritish: () => speakeases15("en-GB"),
             onPressedAmerican: () => speakeases15("en-US"),
           ),
-          // eases1600eases16
-          // speakeases16("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eases1700eases17
-          // speakeases17("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eases1800eases18
-          // speakeases18("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eases1900eases19
-          // speakeases19("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eases_2000eases20
-          // speakeases20("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eases2100eases21
-          // speakeases21("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
-          // eases2200easeseases
         ],
       ),
     );

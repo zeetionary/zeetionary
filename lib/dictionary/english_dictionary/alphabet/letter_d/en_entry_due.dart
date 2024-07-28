@@ -497,7 +497,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە چاوەڕوانکراوە یان ئامادەیی بۆ کراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The next train is due in five minutes.""",
             kurdishText:
@@ -523,7 +522,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) کە قەرزێک دەبیت دەستبەجێ بدرێتەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Payment is due on 1 October.""",
             kurdishText: """دانەوەی قەرزەکە لە یەکی تشرینی یەکەم دەبێت.""",
@@ -534,7 +532,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ھاوەڵناو) کە دەبێت بدرێت بە کەسێک بەھۆی ئەوەی مافیەتی یان شایەنیەتی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Our thanks are due to the whole team.""",
             kurdishText: """سوپاسمان بۆ تەواوی تیمەکەیە.""",
@@ -551,7 +548,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ھاوەڵناو) کە شایەنی شتێکە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I'm still due 15 days' leave.""",
             kurdishText: """ھێشتا ١٥ ڕۆژ مۆڵەتم ماوە.""",
@@ -568,7 +564,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵناو) کە لە ھەلومەرجێکدا گونجاو دەبێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """After due consideration, we have decided to appoint Mr Davis to the job.""",
@@ -580,7 +575,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٧. (ناو) شتێک کە وەک مافی کەسێک دەبێت پێی بدرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She's a slow worker, but to give her her due (= to be fair to her), she does try very hard.""",
@@ -592,7 +586,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٨. (ناو) بڕە پارەیەک کە دەیدەیت بە دامەزراوەیەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Members of the society pay £1,000 in annual dues.""",
@@ -604,7 +597,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٩. (ھاوەڵکار) بە تەواوی؛ بەھێڵێکی ڕاست"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The village lies five miles due north of York.""",
             kurdishText: """گوندەکە ڕێک پێنج میل لە باکووری یۆرکە.""",
@@ -620,13 +612,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdues16("en-GB"),
             onPressedAmerican: () => speakdues16("en-US"),
           ),
-          // dues1700
-          // dues17// dues1800
-          // dues18// dues1900
-          // dues19// dues_2000
-          // dues20// dues2100
-          // dues21// dues2200
-          // dues22("en-US"""),
         ],
       ),
     );

@@ -243,7 +243,6 @@ Usage: Brit, informal
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tURHTuKHBZs';
 const double _startSecondsend = 1483;
 const String _videoIdone = 'P7pUT0gbZZQ';

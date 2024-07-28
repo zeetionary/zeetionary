@@ -268,7 +268,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) بەشی دەرەوەی ددان"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Brushing helps keep tooth enamel strong.""",
             kurdishText:

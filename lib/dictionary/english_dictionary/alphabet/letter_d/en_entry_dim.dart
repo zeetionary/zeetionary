@@ -344,7 +344,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ھاوەڵناو) شوێنێک کە ناتوانی باش ببینیت بەھۆی ئەوەی کە ڕۆشنایی زۆر نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The room was dim because the curtains were half drawn.",
@@ -364,7 +363,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) شێوەیەک کە ناتوانیت باش بیبینیت بەھۆی ئەوەی ڕۆشنایی زۆر نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I could see a dim shape in the doorway.",
             kurdishText: "شێوەیەکی ناڕوونم دەبینی لەپێش دەرگاکە.",
@@ -373,7 +371,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ھاوەڵناو) چاوێک کە باش نابینێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "His eyesight is getting dim.",
             kurdishText: "بینایی کز دەبێت.",
@@ -383,7 +380,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ھاوەڵناو) یادەوەرییەک کە باش بیرت نایەتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She had a dim recollection of the visit.",
             kurdishText: "بیرەوەرییەکی لاوازی سەردانەکەی ھەبوو.",
@@ -392,7 +388,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٦. (ھاوەڵناو) کەسێک کە زیرەک نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He's very dim.",
             kurdishText: "تەواو گێژە.",
@@ -409,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (ھاوەڵناو) کە ھیچ ھۆکارێک نادات بۆ ھەبوونی ھیوا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her future career prospects look dim.",
             kurdishText: "ئاسۆی کاری داھاتووی کز دیارە.",
@@ -418,7 +412,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (کردار) کزبوونی ڕۆشنایی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The lights in the theatre dimmed as the curtain rose.",
@@ -435,7 +428,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٩. (کردار) کاڵبوونەوەی ھەست یان شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her passion for dancing never dimmed over the years.",
             kurdishText:
@@ -443,22 +435,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdims14("en-GB"),
             onPressedAmerican: () => speakdims14("en-US"),
           ),
-          // dims1500"),
-          // dims15("en-US"),
-          // dims1600"),
-          // dims16("en-US"),
-          // dims1700"),
-          // dims17("en-US"),
-          // dims1800"),
-          // dims18("en-US"),
-          // dims1900"),
-          // dims19("en-US"),
-          // dims_2000"),
-          // dims20("en-US"),
-          // dims2100"),
-          // dims21("en-US"),
-          // dims2200"),
-          // dims22("en-US"),
         ],
       ),
     );

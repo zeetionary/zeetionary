@@ -375,53 +375,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) تۆپەڵێکی بچووک لە ھەویری شیرینی کە زۆرجار میوەی تێدەخرێت و وەک شیرینی دەخوردرێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The bakery sold warm apple dumplings.""",
             kurdishText: """نانەواکە پرپۆڵەی گەرمی سێوی دەفرۆشت.""",
             onPressedBritish: () => speakdumplings2("en-GB"),
             onPressedAmerican: () => speakdumplings2("en-US"),
           ),
-          // dumplings300
-          // dumplings3("en-US"""),
-          // dumplings400
-          // dumplings4("en-US"""),
-          // dumplings500
-          // dumplings5("en-US"""),
-          // dumplings600
-          // dumplings6("en-US"""),
-          // dumplings700
-          // dumplings7("en-US"""),
-          // dumplings800
-          // dumplings8("en-US"""),
-          // dumplings900
-          // dumplings9("en-US"""),
-          // dumplings_1000
-          // dumplings10("en-US"""),
-          // dumplings1100
-          // dumplings11("en-US"""),
-          // dumplings1200
-          // dumplings12("en-US"""),
-          // dumplings1300
-          // dumplings13("en-US"""),
-          // dumplings1400
-          // dumplings14("en-US"""),
-          // dumplings1500
-          // dumplings15("en-US"""),
-          // dumplings1600
-          // dumplings16("en-US"""),
-          // dumplings1700
-          // dumplings17("en-US"""),
-          // dumplings1800
-          // dumplings18("en-US"""),
-          // dumplings1900
-          // dumplings19("en-US"""),
-          // dumplings_2000
-          // dumplings20("en-US"""),
-          // dumplings2100
-          // dumplings21("en-US"""),
-          // dumplings2200
-          // dumplings22("en-US"""),
         ],
       ),
     );

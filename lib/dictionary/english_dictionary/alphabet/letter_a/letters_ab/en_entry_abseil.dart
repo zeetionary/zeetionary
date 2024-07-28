@@ -59,8 +59,6 @@ ${englishMeaningConst.text}
 "You have to learn how to abseil when you want to do technical climbing";
 """,
   );
-// 188888880002200
-
   final String keyword = "abseil";
   List<Map<String, dynamic>> filteredSentences = [];
 

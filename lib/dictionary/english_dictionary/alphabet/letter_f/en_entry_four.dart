@@ -204,7 +204,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "four", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) ژمارە ٤"""),
                     SentencesRow(
                       englishText: """There are only four cookies left.""",
@@ -333,7 +332,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hFZFjoX2cGg';
 const double _startSecondsend = 244;
 const String _videoIdone = 'wTNJZEcHdPw';

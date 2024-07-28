@@ -392,31 +392,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵکار) بەدڵنیایی و بە ڕێژەیەکی زۆر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The proposal was emphatically defeated.""",
             kurdishText: """پێشنیارەکە مسۆگەرانە ڕەتکرایەوە.""",
             onPressedBritish: () => speakemphaticallys3("en-GB"),
             onPressedAmerican: () => speakemphaticallys3("en-US"),
           ),
-          // emphaticallys400emphaticallys4
-          // emphaticallys500emphaticallys5
-          // emphaticallys600emphaticallys6
-          // emphaticallys700emphaticallys7
-          // emphaticallys800emphaticallys8
-          // emphaticallys900emphaticallys9
-          // emphaticallys_1000emphaticallys10
-          // emphaticallys1100emphaticallys11
-          // emphaticallys1200emphaticallys12
-          // emphaticallys1300emphaticallys13
-          // emphaticallys1400emphaticallys14
-          // emphaticallys1500emphaticallys15
-          // emphaticallys1600emphaticallys16
-          // emphaticallys1700emphaticallys17
-          // emphaticallys1800emphaticallys18
-          // emphaticallys1900emphaticallys19
-          // emphaticallys_2000emphaticallys20
-          // emphaticallys2100emphaticallys21
           // emphaticallys2200emphaticallysemphaticallys
         ],
       ),

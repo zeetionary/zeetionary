@@ -367,27 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemergencyrooms1("en-GB"),
             onPressedAmerican: () => speakemergencyrooms1("en-US"),
           ),
-          // emergencyrooms200emergencyrooms2
-          // emergencyrooms300emergencyrooms3
-          // emergencyrooms400emergencyrooms4
-          // emergencyrooms500emergencyrooms5
-          // emergencyrooms600emergencyrooms6
-          // emergencyrooms700emergencyrooms7
-          // emergencyrooms800emergencyrooms8
-          // emergencyrooms900emergencyrooms9
-          // emergencyrooms_1000emergencyrooms10
-          // emergencyrooms1100emergencyrooms11
-          // emergencyrooms1200emergencyrooms12
-          // emergencyrooms1300emergencyrooms13
-          // emergencyrooms1400emergencyrooms14
-          // emergencyrooms1500emergencyrooms15
-          // emergencyrooms1600emergencyrooms16
-          // emergencyrooms1700emergencyrooms17
-          // emergencyrooms1800emergencyrooms18
-          // emergencyrooms1900emergencyrooms19
-          // emergencyrooms_2000emergencyrooms20
-          // emergencyrooms2100emergencyrooms21
-          // emergencyrooms2200emergencyroomsemergencyrooms
         ],
       ),
     );

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """We're looking at the feasibility of building a shopping centre there.""");
   }
 
-// With short examples define "feasibility", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

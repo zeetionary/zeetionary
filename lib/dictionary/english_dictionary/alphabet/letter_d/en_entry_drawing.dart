@@ -400,7 +400,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھونەر و شارەزایی وێنەکێشان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I'm not very good at drawing.",
             kurdishText: "زۆر باش نییم لە وێنەکێشاندا.",
@@ -436,42 +435,23 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-          // drawings500"),
-          // drawings5
-          // drawings600"),
-          // drawings6
-          // drawings700"),
-          // drawings7
-          // drawings800"),
-          // drawings8
-          // drawings900"),
-          // drawings9
-          // drawings_1000"),
-          // drawings10
-          // drawings1100"),
-          // drawings11
-          // drawings1200"),
-          // drawings12
-          // drawings1300"),
-          // drawings13
-          // drawings1400"),
-          // drawings14
-          // drawings1500"),
-          // drawings15
-          // drawings1600"),
-          // drawings16
-          // drawings1700"),
-          // drawings17
-          // drawings1800"),
-          // drawings18
-          // drawings1900"),
-          // drawings19
-          // drawings_2000"),
-          // drawings20
-          // drawings2100"),
-          // drawings21
-          // drawings2200"),
-          // drawings22("en-US"),
+          // drawings5drawings5
+          // drawings6drawings6
+          // drawings7drawings7
+          // drawings8drawings8
+          // drawings9drawings9
+          // drawings_10drawings10
+          // drawings11drawings11
+          // drawings12drawings12
+          // drawings13drawings13
+          // drawings14drawings14
+          // drawings15drawings15
+          // drawings16drawings16
+          // drawings17drawings17
+          // drawings18drawings18
+          // drawings19drawings19
+          // drawings_20drawings20
+          // drawings21drawings21
         ],
       ),
     );

@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         """The trade union federation has called for a national strike.""");
   }
 
-// With short examples define "federation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

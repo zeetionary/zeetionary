@@ -418,7 +418,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بەشێوەیەک کە بەھا یان خزمەتگوزاری باش دەدات بەدەستەوە بە لەبەرچاوگرتنی ئەو کات یان پارەیەی کە تەرخانکراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """I'll do the job as economically as possible.""",
             kurdishText: """بە کەمترین کات/تێچوو کارەکە دەکەم.""",
@@ -429,29 +428,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵکار) بەشێوەیەک کە زیاتر کە پێویستی شتێک بەکارناھێنێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Learn to express yourself more economically.""",
             kurdishText: """فێربە پوختترانە خۆت دەرببڕە.""",
             onPressedBritish: () => speakeconomicallys5("en-GB"),
             onPressedAmerican: () => speakeconomicallys5("en-US"),
           ),
-          // economicallys600economicallys6
-          // economicallys700economicallys7
-          // economicallys800economicallys8
-          // economicallys900economicallys9
-          // economicallys_1000economicallys10
-          // economicallys1100economicallys11
-          // economicallys1200economicallys12
-          // economicallys1300economicallys13
-          // economicallys1400economicallys14
-          // economicallys1500economicallys15
-          // economicallys1600economicallys16
-          // economicallys1700economicallys17
-          // economicallys1800economicallys18
-          // economicallys1900economicallys19
-          // economicallys_2000economicallys20
-          // economicallys2100economicallys21
           // economicallys2200economicallyseconomicallys
         ],
       ),

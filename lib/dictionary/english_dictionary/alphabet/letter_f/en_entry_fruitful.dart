@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەبەر، پڕبەر، بەبڕشت، بەردار، ئادان (دار)
 """),
-// With short examples define "fruitful", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە ئەنجامی باشی دەبێت"""),
                     SentencesRow(
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'R21IXVYnvHk';
 const double _startSecondsend = 575;
 const String _videoIdone = 'SDpCzJw2xm4';

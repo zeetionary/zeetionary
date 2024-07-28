@@ -499,7 +499,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) مەلەکردن لە ژێر ئاودا بە بەستنی کەرەستەی تایبەتی ھەناسەدان بۆ گەڕان بە شوێن شتدا یان کۆکردنەوەیان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The main purpose of his holiday to Greece was to go diving.",
@@ -511,7 +510,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) دابەزینە ئاستێکی نزمتری ژێرئاو"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The submarine dived to avoid being seen.",
             kurdishText: "ژێردەریاکە زیاتر دابەزی بۆ ئەوەی دووربێت لە بینین.",
@@ -528,7 +526,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) دابەزین بە ستوونی لە حەوادا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The seagulls soared then dived.",
             kurdishText: "نەورەسەکان بەرزبوونەوە و دابەزین.",
@@ -546,7 +543,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) بازدان یان جوڵان بە ئاراستەیەکی دیاریکراو، بەتایبەتی بۆ دووربوون لە شتێک، ھەوڵدانی گرتنی تۆپێک، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "We heard an explosion and dived for cover (= got into a place where we would be protected).",
@@ -572,7 +568,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) بازدانە ناو ئاو بەوەی سەر و دەستت سەرەتا بچێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He did a dive off a cliff.",
             kurdishText: "لە قەدپاڵێکەوە خۆی ھەڵدا.",
@@ -582,7 +577,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٧. (کردار) چوونە ژێرئاو و مەلەکردن بە کەرەستەی تایبەت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "We did a deep dive to see if we could find the wreckage.",
@@ -594,7 +588,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٨. (کردار) لەناکاو مەلەکردن بۆ خوارەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The plane went into a steep dive.",
             kurdishText: "فڕۆکەکە کەوتە دابەزینێکی لێژەوە.",
@@ -610,18 +603,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdives16("en-GB"),
             onPressedAmerican: () => speakdives16("en-US"),
           ),
-          // dives1700"),
-          // dives17("en-US"),
-          // dives1800"),
-          // dives18("en-US"),
-          // dives1900"),
-          // dives19("en-US"),
-          // dives_2000"),
-          // dives20("en-US"),
-          // dives2100"),
-          // dives21("en-US"),
-          // dives2200"),
-          // dives22("en-US"),
         ],
       ),
     );

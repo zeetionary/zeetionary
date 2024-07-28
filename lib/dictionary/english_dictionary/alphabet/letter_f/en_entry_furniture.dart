@@ -156,7 +156,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەل‌وپەلی نێوماڵ، سامانی ناوماڵ، شمەکی ماڵ، ڕایەخ، ھاجەت،	کەل‌وپەل، شمەک، شت‌ومەک
 """),
-// With short examples define "furniture", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو کەلوپەلانەی کە دەکرێت بجوڵێندرێن، وەک کورسی، جێخەو، مێز، ھتد، و دەخرێنە ژوور ئان ئۆفیسێک بۆ ئەوەی گونجاو بێت بۆ ژیان یان کارکردن"""),
@@ -242,7 +241,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_wNsZEqpKUA';
 const double _startSecondsend = 1118;
 const String _videoIdone = 'AwhBTrzzqeg';

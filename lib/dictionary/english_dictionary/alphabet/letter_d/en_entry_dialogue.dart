@@ -279,7 +279,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) گفتوگۆی فەرمی لە نێوان دوو گرووپ یان وڵاتدا، بە تایبەتی کە دەیانەوێت کێشەیەک چارەسەر بکەن، کۆتایی بە مشتومڕێک بھێنن، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The president told reporters there had been a constructive dialogue.",
@@ -306,40 +305,22 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdialogues5("en-GB"),
             onPressedAmerican: () => speakdialogues5("en-US"),
           ),
-          // dialogues600"),
-          // dialogues6
-          // dialogues700"),
-          // dialogues7
-          // dialogues800"),
-          // dialogues8
-          // dialogues900"),
-          // dialogues9
-          // dialogues_1000"),
-          // dialogues10
-          // dialogues1100"),
-          // dialogues11
-          // dialogues1200"),
-          // dialogues12
-          // dialogues1300"),
-          // dialogues13
-          // dialogues1400"),
-          // dialogues14
-          // dialogues1500"),
-          // dialogues15
-          // dialogues1600"),
-          // dialogues16
-          // dialogues1700"),
-          // dialogues17
-          // dialogues1800"),
-          // dialogues18
-          // dialogues1900"),
-          // dialogues19
-          // dialogues_2000"),
-          // dialogues20
-          // dialogues2100"),
-          // dialogues21
-          // dialogues2200"),
-          // dialogues22("en-US"),
+          // dialogues6dialogues6
+          // dialogues7dialogues7
+          // dialogues8dialogues8
+          // dialogues9dialogues9
+          // dialogues_10dialogues10
+          // dialogues11dialogues11
+          // dialogues12dialogues12
+          // dialogues13dialogues13
+          // dialogues14dialogues14
+          // dialogues15dialogues15
+          // dialogues16dialogues16
+          // dialogues17dialogues17
+          // dialogues18dialogues18
+          // dialogues19dialogues19
+          // dialogues_20dialogues20
+          // dialogues21dialogues21
         ],
       ),
     );

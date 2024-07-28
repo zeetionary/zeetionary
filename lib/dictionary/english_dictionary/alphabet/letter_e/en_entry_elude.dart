@@ -409,7 +409,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) کە شتێک وادەکات نەتوانی بەدەستی بھێنیت، یان ئەوەی کە بیرت بکەوێتەوە یان لێی تێ بگەیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He was extremely tired but sleep eluded him.""",
             kurdishText: """تەواو ماندوو بوو بەڵام خەوی نەدەھات.""",
@@ -434,22 +433,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeludes5("en-GB"),
             onPressedAmerican: () => speakeludes5("en-US"),
           ),
-          // eludes600eludes6
-          // eludes700eludes7
-          // eludes800eludes8
-          // eludes900eludes9
-          // eludes_1000eludes10
-          // eludes1100eludes11
-          // eludes1200eludes12
-          // eludes1300eludes13
-          // eludes1400eludes14
-          // eludes1500eludes15
-          // eludes1600eludes16
-          // eludes1700eludes17
-          // eludes1800eludes18
-          // eludes1900eludes19
-          // eludes_2000eludes20
-          // eludes2100eludes21
           // eludes2200eludeseludes
         ],
       ),

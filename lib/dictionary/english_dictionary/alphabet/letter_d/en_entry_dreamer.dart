@@ -383,7 +383,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەسێک کە بیر لەوە ناکاتەوە کە لە دەورووبەری ڕوودەدات بەڵکو بیر لە شتی دیکە ناکاتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "She often missed instructions because she was a dreamer.",
@@ -394,51 +393,30 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) کەسێک کە خەون دەبینێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Dreamers do not always remember their dreams.",
             kurdishText: "خەونبینان مەرج نییە ھەمیشە خەونەکانیان بیربێت.",
             onPressedBritish: () => speakdreamers3("en-GB"),
             onPressedAmerican: () => speakdreamers3("en-US"),
           ),
-          // dreamers400"),
-          // dreamers4
-          // dreamers500"),
-          // dreamers5
-          // dreamers600"),
-          // dreamers6
-          // dreamers700"),
-          // dreamers7
-          // dreamers800"),
-          // dreamers8
-          // dreamers900"),
-          // dreamers9
-          // dreamers_1000"),
-          // dreamers10
-          // dreamers1100"),
-          // dreamers11
-          // dreamers1200"),
-          // dreamers12
-          // dreamers1300"),
-          // dreamers13
-          // dreamers1400"),
-          // dreamers14
-          // dreamers1500"),
-          // dreamers15
-          // dreamers1600"),
-          // dreamers16
-          // dreamers1700"),
-          // dreamers17
-          // dreamers1800"),
-          // dreamers18
-          // dreamers1900"),
-          // dreamers19
-          // dreamers_2000"),
-          // dreamers20
-          // dreamers2100"),
-          // dreamers21
-          // dreamers2200"),
-          // dreamers22("en-US"),
+          // dreamers4dreamers4
+          // dreamers5dreamers5
+          // dreamers6dreamers6
+          // dreamers7dreamers7
+          // dreamers8dreamers8
+          // dreamers9dreamers9
+          // dreamers_10dreamers10
+          // dreamers11dreamers11
+          // dreamers12dreamers12
+          // dreamers13dreamers13
+          // dreamers14dreamers14
+          // dreamers15dreamers15
+          // dreamers16dreamers16
+          // dreamers17dreamers17
+          // dreamers18dreamers18
+          // dreamers19dreamers19
+          // dreamers_20dreamers20
+          // dreamers21dreamers21
         ],
       ),
     );

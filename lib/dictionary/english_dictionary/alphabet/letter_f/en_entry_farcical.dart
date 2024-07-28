@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Such a farcical situation could never happen in Germany.""");
   }
 
-// With short examples define "farcical", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

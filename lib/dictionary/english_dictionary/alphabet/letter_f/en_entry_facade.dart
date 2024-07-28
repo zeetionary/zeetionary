@@ -264,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""We are fed up with this façade of democracy.""");
   }
 
-// With short examples define "facade", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

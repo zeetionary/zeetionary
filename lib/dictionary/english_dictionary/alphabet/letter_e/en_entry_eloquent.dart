@@ -390,31 +390,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە توانای دەربڕینی ھەستێکی ھەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """His eyes were eloquent.""",
             kurdishText: """چاوەکانی بەدوو بوون.""",
             onPressedBritish: () => speakeloquents3("en-GB"),
             onPressedAmerican: () => speakeloquents3("en-US"),
           ),
-          // eloquents400eloquents4
-          // eloquents500eloquents5
-          // eloquents600eloquents6
-          // eloquents700eloquents7
-          // eloquents800eloquents8
-          // eloquents900eloquents9
-          // eloquents_1000eloquents10
-          // eloquents1100eloquents11
-          // eloquents1200eloquents12
-          // eloquents1300eloquents13
-          // eloquents1400eloquents14
-          // eloquents1500eloquents15
-          // eloquents1600eloquents16
-          // eloquents1700eloquents17
-          // eloquents1800eloquents18
-          // eloquents1900eloquents19
-          // eloquents_2000eloquents20
-          // eloquents2100eloquents21
           // eloquents2200eloquentseloquents
         ],
       ),

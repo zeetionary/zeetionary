@@ -407,7 +407,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) قوماشێکی نەرم کە دەخرێتە سەر برینێک بۆ پاراستنی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Place the dressing directly onto the wound and hold it in place.",
@@ -418,7 +417,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) جلپۆشین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Many of our patients need help with dressing.",
             kurdishText:
@@ -426,42 +424,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdressings4("en-GB"),
             onPressedAmerican: () => speakdressings4("en-US"),
           ),
-          // dressings500"),
-          // dressings5
-          // dressings600"),
-          // dressings6
-          // dressings700"),
-          // dressings7
-          // dressings800"),
-          // dressings8
-          // dressings900"),
-          // dressings9
-          // dressings_1000"),
-          // dressings10
-          // dressings1100"),
-          // dressings11
-          // dressings1200"),
-          // dressings12
-          // dressings1300"),
-          // dressings13
-          // dressings1400"),
-          // dressings14
-          // dressings1500"),
-          // dressings15
-          // dressings1600"),
-          // dressings16
-          // dressings1700"),
-          // dressings17
-          // dressings1800"),
-          // dressings18
-          // dressings1900"),
-          // dressings19
-          // dressings_2000"),
-          // dressings20
-          // dressings2100"),
-          // dressings21
-          // dressings2200"),
-          // dressings22("en-US"),
+          // dressings5dressings5
+          // dressings6dressings6
+          // dressings7dressings7
+          // dressings8dressings8
+          // dressings9dressings9
+          // dressings_10dressings10
+          // dressings11dressings11
+          // dressings12dressings12
+          // dressings13dressings13
+          // dressings14dressings14
+          // dressings15dressings15
+          // dressings16dressings16
+          // dressings17dressings17
+          // dressings18dressings18
+          // dressings19dressings19
+          // dressings_20dressings20
+          // dressings21dressings21
         ],
       ),
     );

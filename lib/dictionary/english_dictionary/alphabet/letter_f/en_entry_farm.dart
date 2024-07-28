@@ -313,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The land has been intensively farmed.""");
   }
 
-// With short examples define "farm", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

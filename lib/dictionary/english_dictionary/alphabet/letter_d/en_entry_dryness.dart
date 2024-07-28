@@ -404,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەم‌بارانی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The result of this summer's dryness was a poor harvest.",
@@ -416,7 +415,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) نەبوونی چەوری سرووشتی کە پێست یان موو تەندرووست و نەرم دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Regular application of the lotion will help prevent dryness of the skin.",
@@ -427,7 +425,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) ئەوەی کە شەرابێک شیرین نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "This chart shows the scale of dryness of red and white wines.",
@@ -439,7 +436,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٥. (ناو) ئەوەی کە  شۆخییەک بە زیرەکانە و نھێنی بێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Not everyone appreciated the dryness of his humour.",
             kurdishText:
@@ -450,45 +446,27 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) شتێک، بەتایبەتی نووسین، کە سەرنجڕاکێش نییە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He defended her prose against the charge of dryness.",
             kurdishText: "پشتگیری لە پەخشانەکەی دژ بەوەی کە وشک و ناخۆش بێت.",
             onPressedBritish: () => speakdrynesss6("en-GB"),
             onPressedAmerican: () => speakdrynesss6("en-US"),
           ),
-          // drynesss700"),
-          // drynesss7
-          // drynesss800"),
-          // drynesss8
-          // drynesss900"),
-          // drynesss9
-          // drynesss_1000"),
-          // drynesss10
-          // drynesss1100"),
-          // drynesss11
-          // drynesss1200"),
-          // drynesss12
-          // drynesss1300"),
-          // drynesss13
-          // drynesss1400"),
-          // drynesss14
-          // drynesss1500"),
-          // drynesss15
-          // drynesss1600"),
-          // drynesss16
-          // drynesss1700"),
-          // drynesss17
-          // drynesss1800"),
-          // drynesss18
-          // drynesss1900"),
-          // drynesss19
-          // drynesss_2000"),
-          // drynesss20
-          // drynesss2100"),
-          // drynesss21
-          // drynesss2200"),
-          // drynesss22("en-US"),
+          // drynesss7drynesss7
+          // drynesss8drynesss8
+          // drynesss9drynesss9
+          // drynesss_10drynesss10
+          // drynesss11drynesss11
+          // drynesss12drynesss12
+          // drynesss13drynesss13
+          // drynesss14drynesss14
+          // drynesss15drynesss15
+          // drynesss16drynesss16
+          // drynesss17drynesss17
+          // drynesss18drynesss18
+          // drynesss19drynesss19
+          // drynesss_20drynesss20
+          // drynesss21drynesss21
         ],
       ),
     );

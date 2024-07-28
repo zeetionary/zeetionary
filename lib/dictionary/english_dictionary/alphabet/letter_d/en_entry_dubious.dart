@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ڕاستگۆ نییە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The man who sold it to him was known to be of dubious character.""",
@@ -398,44 +397,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdubiouss3("en-GB"),
             onPressedAmerican: () => speakdubiouss3("en-US"),
           ),
-          // dubiouss400
-          // dubiouss4("en-US"""),
-          // dubiouss500
-          // dubiouss5("en-US"""),
-          // dubiouss600
-          // dubiouss6("en-US"""),
-          // dubiouss700
-          // dubiouss7("en-US"""),
-          // dubiouss800
-          // dubiouss8("en-US"""),
-          // dubiouss900
-          // dubiouss9("en-US"""),
-          // dubiouss_1000
-          // dubiouss10("en-US"""),
-          // dubiouss1100
-          // dubiouss11("en-US"""),
-          // dubiouss1200
-          // dubiouss12("en-US"""),
-          // dubiouss1300
-          // dubiouss13("en-US"""),
-          // dubiouss1400
-          // dubiouss14("en-US"""),
-          // dubiouss1500
-          // dubiouss15("en-US"""),
-          // dubiouss1600
-          // dubiouss16("en-US"""),
-          // dubiouss1700
-          // dubiouss17("en-US"""),
-          // dubiouss1800
-          // dubiouss18("en-US"""),
-          // dubiouss1900
-          // dubiouss19("en-US"""),
-          // dubiouss_2000
-          // dubiouss20("en-US"""),
-          // dubiouss2100
-          // dubiouss21("en-US"""),
-          // dubiouss2200
-          // dubiouss22("en-US"""),
         ],
       ),
     );

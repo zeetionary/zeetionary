@@ -286,7 +286,6 @@ class KurdishMeaning extends StatelessWidget {
         """Ask a friend to recommend a doctor or, failing that, ask for a list in your local library.""");
   }
 
-// With short examples define "failing", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

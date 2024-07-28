@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The play deals with the fallibility of human nature.""");
   }
 
-// With short examples define "fallibility", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

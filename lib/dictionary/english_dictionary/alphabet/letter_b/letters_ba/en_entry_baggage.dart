@@ -94,8 +94,7 @@ class EnglishEntrybaggage extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "baggage"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "baggage"),
                             // divvviiider
                           ],
                         ),

@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The chicks have grown their adult feathers.""");
   }
 
-// With short examples define "feather", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

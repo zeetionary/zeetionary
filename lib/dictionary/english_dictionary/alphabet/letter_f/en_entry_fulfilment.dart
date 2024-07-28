@@ -288,7 +288,6 @@ Usage: N. Amer (elsewhere: fulfilment)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'KmaS21OmhKI';
 const double _startSecondsend = 1117;
 const String _videoIdone = 'jZB08H8ND8o';

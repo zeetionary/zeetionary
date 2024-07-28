@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They argued in favour of legalizing voluntary euthanasia.""");
   }
 
-// With short examples define "euthanasia", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

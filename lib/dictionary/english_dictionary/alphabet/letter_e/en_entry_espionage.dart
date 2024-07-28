@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She may call it research; I call it industrial espionage.""");
   }
 
-// With short examples define "espionage", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

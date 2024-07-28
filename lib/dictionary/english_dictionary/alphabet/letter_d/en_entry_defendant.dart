@@ -259,46 +259,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdefendants2("en-GB"),
             onPressedAmerican: () => speakdefendants2("en-US"),
           ),
-          // defendants300"),
-          // defendants3("en-US"),
-          // defendants400"),
-          // defendants4
-          // defendants500"),
-          // defendants5
-          // defendants600"),
-          // defendants6
-          // defendants700"),
-          // defendants7
-          // defendants800"),
-          // defendants8
-          // defendants900"),
-          // defendants9
-          // defendants1000"),
-          // defendants10
-          // defendants1100"),
-          // defendants11
-          // defendants1200"),
-          // defendants12
-          // defendants1300"),
-          // defendants13
-          // defendants1400"),
-          // defendants14
-          // defendants1500"),
-          // defendants15
-          // defendants1600"),
-          // defendants16
-          // defendants1700"),
-          // defendants17
-          // defendants1800"),
-          // defendants18
-          // defendants1900"),
-          // defendants19
+          // defendants4defendants4
+          // defendants5defendants5
+          // defendants6defendants6
+          // defendants7defendants7
+          // defendants8defendants8
+          // defendants9defendants9
+          // defendants10defendants10
+          // defendants11defendants11
+          // defendants12defendants12
+          // defendants13defendants13
+          // defendants14defendants14
+          // defendants15defendants15
+          // defendants16defendants16
+          // defendants17defendants17
+          // defendants18defendants18
+          // defendants19defendants19
           // "The jury found the defendant guilty on all counts.0"),
           // defendants20
-          // defendants2100"),
-          // defendants21
-          // defendants2200"),
-          // defendants22("en-US"),
+          // defendants21defendants21
         ],
       ),
     );

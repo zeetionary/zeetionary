@@ -260,7 +260,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""He sat down to try and recover his equilibrium.""");
   }
 
-// With short examples define "equilibrium", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

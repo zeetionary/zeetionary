@@ -93,7 +93,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""He has produced a genealogy of his family going back to 1732.""");
+    await flutterTts.speak(
+        """He has produced a genealogy of his family going back to 1732.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -775,7 +776,9 @@ ${englishMeaningConst.text}
 کوردی: ڕەچەڵەک‌ناسی، بنەچەک‌ناسی،	ڕەگەزنامە، ڕەچەڵەک‌نامە،	ڕەچەڵەک، بنەچەک، خێزان
 """),
 // With short examples define "genealogy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) لێکۆڵینەوە لە مێژووی خێزانی، بە تایبەتی ئەوەی کە باوانی کەسێکی دیاریکراو کێ بوونە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) لێکۆڵینەوە لە مێژووی خێزانی، بە تایبەتی ئەوەی کە باوانی کەسێکی دیاریکراو کێ بوونە"""),
                     SentencesRow(
                       englishText:
                           """I became interested in the genealogy of my family.""",
@@ -787,8 +790,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He has produced a genealogy of his family going back to 1732.""",
-                      kurdishText: """ڕەچەڵەکناسییەکی خێزانەکەی درووستکردووە کە تاوەکو ١٧٣٢ دەچێت.""",
+                      englishText:
+                          """He has produced a genealogy of his family going back to 1732.""",
+                      kurdishText:
+                          """ڕەچەڵەکناسییەکی خێزانەکەی درووستکردووە کە تاوەکو ١٧٣٢ دەچێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1597,7 +1602,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/Pon4Zux5MaQ?t=';
 const double _startSecondsend = 000000000000000000000000000223;
 const String _videoIdone = 'https://youtu.be/2Hq4CtLfnZs?t=';

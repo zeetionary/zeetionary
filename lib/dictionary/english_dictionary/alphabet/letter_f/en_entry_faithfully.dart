@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She promised faithfully not to tell anyone my secret.""");
   }
 
-// With short examples define "faithfully", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

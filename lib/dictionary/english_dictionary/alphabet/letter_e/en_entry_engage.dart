@@ -309,8 +309,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The fleet sailed out of Cadiz to engage with the enemy.0""");
   }
 
-// With short examples define "engage", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

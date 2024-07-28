@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The movie is meant to be escapist.""");
   }
 
-// With short examples define "escapist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

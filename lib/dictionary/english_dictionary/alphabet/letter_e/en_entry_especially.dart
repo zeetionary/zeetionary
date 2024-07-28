@@ -294,7 +294,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""I wasn't feeling especially happy that day.""");
   }
 
-// With short examples define "especially", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

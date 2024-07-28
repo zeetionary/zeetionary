@@ -384,26 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelbowgreases2("en-GB"),
             onPressedAmerican: () => speakelbowgreases2("en-US"),
           ),
-          // elbowgreases300elbowgreases3
-          // elbowgreases400elbowgreases4
-          // elbowgreases500elbowgreases5
-          // elbowgreases600elbowgreases6
-          // elbowgreases700elbowgreases7
-          // elbowgreases800elbowgreases8
-          // elbowgreases900elbowgreases9
-          // elbowgreases_1000elbowgreases10
-          // elbowgreases1100elbowgreases11
-          // elbowgreases1200elbowgreases12
-          // elbowgreases1300elbowgreases13
-          // elbowgreases1400elbowgreases14
-          // elbowgreases1500elbowgreases15
-          // elbowgreases1600elbowgreases16
-          // elbowgreases1700elbowgreases17
-          // elbowgreases1800elbowgreases18
-          // elbowgreases1900elbowgreases19
-          // elbowgreases_2000elbowgreases20
-          // elbowgreases2100elbowgreases21
-          // elbowgreases2200elbowgreaseselbowgreases
         ],
       ),
     );

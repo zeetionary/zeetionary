@@ -324,7 +324,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کاری لێکدراو) دڵنیابوون یان پێشبینی کردنی ئەوەی شتێک ڕوودەدات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Depend upon it (= you can be sure) we won't give up.",
             kurdishText: "بە پشتبەستن پێی کۆڵ نادەین.",
@@ -357,7 +356,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کاری لێکدراو) پشتبەستن بە کەسێکی دیکە بۆ پارە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I don't want to depend too much on my parents.",
             kurdishText: "نامەوێت زۆر پشت بە دایبابم ببەستم.",
@@ -390,30 +388,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdependons10("en-GB"),
             onPressedAmerican: () => speakdependons10("en-US"),
           ),
-          // dependons1100"),
-          // dependons11("en-US"),
-          // dependons1200"),
-          // dependons12("en-US"),
-          // dependons1300"),
-          // dependons13("en-US"),
-          // dependons1400"),
-          // dependons14("en-US"),
-          // dependons1500"),
-          // dependons15("en-US"),
-          // dependons1600"),
-          // dependons16("en-US"),
-          // dependons1700"),
-          // dependons17("en-US"),
-          // dependons1800"),
-          // dependons18("en-US"),
-          // dependons1900"),
-          // dependons19("en-US"),
-          // "He knew he could depend upon her to deal with the situation.0"),
-          // dependons20("en-US"),
-          // dependons2100"),
-          // dependons21("en-US"),
-          // dependons2200"),
-          // dependons22("en-US"),
         ],
       ),
     );

@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The private lives of movie stars never fail to fascinate.""");
   }
 
-// With short examples define "fascinate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

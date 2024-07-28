@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She walked up to the platform without faltering.""");
   }
 
-// With short examples define "falter", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

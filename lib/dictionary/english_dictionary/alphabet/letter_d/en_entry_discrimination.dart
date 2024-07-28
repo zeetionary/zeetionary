@@ -319,7 +319,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) توانای بڕیاردانی ئەوەی چی باشە، درووستە، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He showed great discrimination in his choice of friends.",
@@ -340,7 +339,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ناو) توانای ناسینەوەی جیاوازی نێوان شتێک لەگەڵ شتێکی دیکە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Young children find it difficult to make fine discriminations.",
@@ -356,34 +354,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscriminations8("en-GB"),
             onPressedAmerican: () => speakdiscriminations8("en-US"),
           ),
-          // discriminations900"),
-          // discriminations9("en-US"),
-          // discriminations_1000"),
-          // discriminations10("en-US"),
-          // discriminations1100"),
-          // discriminations11("en-US"),
-          // discriminations1200"),
-          // discriminations12("en-US"),
-          // discriminations1300"),
-          // discriminations13("en-US"),
-          // discriminations1400"),
-          // discriminations14("en-US"),
-          // discriminations1500"),
-          // discriminations15("en-US"),
-          // discriminations1600"),
-          // discriminations16("en-US"),
-          // discriminations1700"),
-          // discriminations17("en-US"),
-          // discriminations1800"),
-          // discriminations18("en-US"),
-          // discriminations1900"),
-          // discriminations19("en-US"),
-          // discriminations_2000"),
-          // discriminations20("en-US"),
-          // discriminations2100"),
-          // discriminations21("en-US"),
-          // discriminations2200"),
-          // discriminations22("en-US"),
         ],
       ),
     );

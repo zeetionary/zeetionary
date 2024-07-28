@@ -863,7 +863,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""speaksentence_9000""");
   }
 
-// With short examples define "eyesore", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

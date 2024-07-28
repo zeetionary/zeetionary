@@ -248,8 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The guidelines are legally enforceable.""");
   }
 
-// With short examples define "enforceable", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -394,24 +394,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakemployees3("en-GB"),
             onPressedAmerican: () => speakemployees3("en-US"),
           ),
-          // employees400employees4
-          // employees500employees5
-          // employees600employees6
-          // employees700employees7
-          // employees800employees8
-          // employees900employees9
-          // employees_1000employees10
-          // employees1100employees11
-          // employees1200employees12
-          // employees1300employees13
-          // employees1400employees14
-          // employees1500employees15
-          // employees1600employees16
-          // employees1700employees17
-          // employees1800employees18
-          // employees1900employees19
-          // employees_2000employees20
-          // employees2100employees21
           // employees2200employeesemployees
         ],
       ),

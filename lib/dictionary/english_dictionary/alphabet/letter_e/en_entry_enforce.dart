@@ -263,8 +263,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""You can't enforce cooperation between the players.""");
   }
 
-// With short examples define "enforce", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -273,7 +271,7 @@ class KurdishMeaning extends StatelessWidget {
         children: [
           const DividerDefinition(),
           //           const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
           const DefinitionKurdish(
               text:

@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
         """It is envisaged that the talks will take place in the spring.""");
   }
 
-// With short examples define "envisage", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -356,7 +356,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Why ever did you agree?""");
   }
 
-// With short examples define "ever", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

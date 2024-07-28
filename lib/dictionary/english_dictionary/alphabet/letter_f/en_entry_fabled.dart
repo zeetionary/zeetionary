@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""For the first week he never actually saw the fabled Jack.""");
   }
 
-// With short examples define "fabled", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

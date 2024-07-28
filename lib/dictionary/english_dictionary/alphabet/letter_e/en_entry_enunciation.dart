@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""There has been no clear enunciation of this policy.""");
   }
 
-// With short examples define "enunciation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

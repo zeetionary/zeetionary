@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She had written a letter to her faithless lover.""");
   }
 
-// With short examples define "faithless", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

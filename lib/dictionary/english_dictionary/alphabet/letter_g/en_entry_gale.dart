@@ -775,7 +775,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕەشەبا، زلان، زوورباک، تووفان، گوژین، بای توند و بەقەوەت، پووگ
 """),
-// With short examples define "gale", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بایەکی تەواو بەهێز"""),
                     SentencesRow(
@@ -1599,7 +1598,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'https://youtu.be/7zpojhD4hpI?t=';
 const double _startSecondsend = 000000000000000000000000000948;
 const String _videoIdone = 'https://youtu.be/HbUGTcdFIio?t=';

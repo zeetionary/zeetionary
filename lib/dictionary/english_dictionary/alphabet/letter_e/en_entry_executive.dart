@@ -303,7 +303,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Executive power is held by the president.""");
   }
 
-// With short examples define "executive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -109,8 +109,7 @@ class EnglishEntryaubergine extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aubergine"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "aubergine"),
                             // divvviiider
                           ],
                         ),

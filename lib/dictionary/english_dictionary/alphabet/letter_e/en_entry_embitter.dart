@@ -383,26 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakembitters2("en-GB"),
             onPressedAmerican: () => speakembitters2("en-US"),
           ),
-          // embitters300embitters3
-          // embitters400embitters4
-          // embitters500embitters5
-          // embitters600embitters6
-          // embitters700embitters7
-          // embitters800embitters8
-          // embitters900embitters9
-          // embitters_1000embitters10
-          // embitters1100embitters11
-          // embitters1200embitters12
-          // embitters1300embitters13
-          // embitters1400embitters14
-          // embitters1500embitters15
-          // embitters1600embitters16
-          // embitters1700embitters17
-          // embitters1800embitters18
-          // embitters1900embitters19
-          // embitters_2000embitters20
-          // embitters2100embitters21
-          // embitters2200embittersembitters
         ],
       ),
     );

@@ -405,7 +405,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) پڕ لە جۆش‌وخرۆشی؛ بەجۆشھێنەر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The atmosphere was electric.""",
             kurdishText: """کەشەکە ھەژێنەر بوو.""",
@@ -424,7 +423,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ناو) سیستەمی وایەری کارەبایی بینایەک، ھتد"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """There's a problem with the electrics.""",
             kurdishText: """کێشەیەک لە کارەباییەکەدا ھەیە.""",
@@ -434,7 +432,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٤. (ناو) سەرچاوەی کارەبا بۆ بینایەک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The electric will be off tomorrow.""",
             kurdishText: """کارەبا سبەی نابێت.""",
@@ -449,22 +446,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectrics6("en-GB"),
             onPressedAmerican: () => speakelectrics6("en-US"),
           ),
-          // electrics700electrics7
-          // electrics800electrics8
-          // electrics900electrics9
-          // electrics_1000electrics10
-          // electrics1100electrics11
-          // electrics1200electrics12
-          // electrics1300electrics13
-          // electrics1400electrics14
-          // electrics1500electrics15
-          // electrics1600electrics16
-          // electrics1700electrics17
-          // electrics1800electrics18
-          // electrics1900electrics19
-          // electrics_2000electrics20
-          // electrics2100electrics21
-          // electrics2200electricselectrics
         ],
       ),
     );

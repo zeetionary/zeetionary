@@ -414,7 +414,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (کردار) ڕوونکردنەوە یان باسکردنی شتێک بە وردەکاریی زیاتر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He said he was resigning but did not elaborate on his reasons.""",
@@ -443,7 +442,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (کردار) گەڵاڵەکردنی پلانێک، بیرۆکەیەک، ھتد و وا بکەیت کە ئاڵۆز یان پڕ وردەکاری بێت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """In his plays he takes simple traditional tales and elaborates them.""",
@@ -452,22 +450,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelaborates6("en-GB"),
             onPressedAmerican: () => speakelaborates6("en-US"),
           ),
-          // elaborates700elaborates7
-          // elaborates800elaborates8
-          // elaborates900elaborates9
-          // elaborates_1000elaborates10
-          // elaborates1100elaborates11
-          // elaborates1200elaborates12
-          // elaborates1300elaborates13
-          // elaborates1400elaborates14
-          // elaborates1500elaborates15
-          // elaborates1600elaborates16
-          // elaborates1700elaborates17
-          // elaborates1800elaborates18
-          // elaborates1900elaborates19
-          // elaborates_2000elaborates20
-          // elaborates2100elaborates21
-          // elaborates2200elaborateselaborates
         ],
       ),
     );

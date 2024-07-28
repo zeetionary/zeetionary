@@ -45,9 +45,7 @@ class EnglishEntryaccountable extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "accountable"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accountable"),
                           ],
                         ),
                         Row(
@@ -60,9 +58,7 @@ class EnglishEntryaccountable extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkaʊntəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkaʊntəbl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccountable("en-US"),
                             ),

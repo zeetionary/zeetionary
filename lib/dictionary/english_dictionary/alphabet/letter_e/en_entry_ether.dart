@@ -247,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Her words disappeared into the ether.""");
   }
 
-// With short examples define "ether", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

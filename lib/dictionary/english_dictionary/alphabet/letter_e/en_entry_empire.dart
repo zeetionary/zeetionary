@@ -415,7 +415,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ژمارەیەک دامەزراوەی بازرگانی کە لەلایەن یەک کەسەوە کۆنترۆڵ دەکرێن"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """He has built a huge business empire from humble beginnings.""",
@@ -428,7 +427,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) چالاکییەک کە لەلایەن کەسێک یان گرووپێک کۆنترۆڵکراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """All the businessmen jealously guarded their own little empires.""",
@@ -437,7 +435,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakempires5("en-GB"),
             onPressedAmerican: () => speakempires5("en-US"),
           ),
-          // empires600empires6
           // speakempires
         ],
       ),

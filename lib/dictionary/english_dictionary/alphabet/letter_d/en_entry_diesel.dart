@@ -274,49 +274,29 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ئۆتۆمبێلێک کە بە گازوایل کار دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Our new car is a diesel.",
             kurdishText: "ئۆتۆمبێلە تازەکەمان گازوایلە.",
             onPressedBritish: () => speakdiesels4("en-GB"),
             onPressedAmerican: () => speakdiesels4("en-US"),
           ),
-          // diesels500"),
-          // diesels5
-          // diesels600"),
-          // diesels6
-          // diesels700"),
-          // diesels7
-          // diesels800"),
-          // diesels8
-          // diesels900"),
-          // diesels9
-          // diesels_1000"),
-          // diesels10
-          // diesels1100"),
-          // diesels11
-          // diesels1200"),
-          // diesels12
-          // diesels1300"),
-          // diesels13
-          // diesels1400"),
-          // diesels14
-          // diesels1500"),
-          // diesels15
-          // diesels1600"),
-          // diesels16
-          // diesels1700"),
-          // diesels17
-          // diesels1800"),
-          // diesels18
-          // diesels1900"),
-          // diesels19
-          // diesels_2000"),
-          // diesels20
-          // diesels2100"),
-          // diesels21
-          // diesels2200"),
-          // diesels22("en-US"),
+          // diesels5diesels5
+          // diesels6diesels6
+          // diesels7diesels7
+          // diesels8diesels8
+          // diesels9diesels9
+          // diesels_10diesels10
+          // diesels11diesels11
+          // diesels12diesels12
+          // diesels13diesels13
+          // diesels14diesels14
+          // diesels15diesels15
+          // diesels16diesels16
+          // diesels17diesels17
+          // diesels18diesels18
+          // diesels19diesels19
+          // diesels_20diesels20
+          // diesels21diesels21
         ],
       ),
     );

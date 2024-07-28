@@ -230,7 +230,6 @@ Usage: US (elsewhere: fibreoptics)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'tyixMpuGEL8';
 const double _startSecondsend = 1959;
 const String _videoIdone = 'dYbpekjbK9s';

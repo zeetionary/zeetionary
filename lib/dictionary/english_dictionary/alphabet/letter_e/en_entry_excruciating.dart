@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He rolled on the floor in excruciating agony.""");
   }
 
-// With short examples define "excruciating", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

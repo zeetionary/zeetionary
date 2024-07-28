@@ -163,7 +163,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خولیایی، دڵبەستەیی، خۆشەویستی، بەپەرۆشی، تامەزرۆیی، ھۆگری، شەیدایی، تاسە
 """),
-// With short examples define "fondness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) حەز و خۆشەویستی بۆ کەسێک، بە تایبەتی کە بۆ ماوەیەکی زۆرە ناسیوتە"""),
@@ -254,7 +253,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'GjbxgP9jL18';
 const double _startSecondsend = 33;
 const String _videoIdone = 'WVzvTLSK5dY';

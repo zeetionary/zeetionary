@@ -298,7 +298,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) کەسێک کە بەژداری کۆنفرانسێک دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The conference was attended by delegates from 56 countries.",
@@ -319,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) پێدانی بەشێک لە دەسەڵات، کار، یان ھێز بە کەسێک کە لە پێگەیەکی نزمتر لە خۆتە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Some managers find it difficult to delegate.",
             kurdishText: "ھەندێک بەڕێوەبەر بە سەختی دەبینن کە ڕاگواستن بکەن.",
@@ -336,43 +334,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) ھەڵبژاردنی کەسێک بۆ کردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I've been delegated to organize the Christmas party.",
             kurdishText: "دەستنیشانکراوم بۆ ڕێکخستنی ئاھەنگەکەی کریسمس.",
             onPressedBritish: () => speakdelegates7("en-GB"),
             onPressedAmerican: () => speakdelegates7("en-US"),
           ),
-          // delegates800"),
-          // delegates8("en-US"),
-          // delegates900"),
-          // delegates9("en-US"),
-          // delegates1000"),
-          // delegates10("en-US"),
-          // delegates1100"),
-          // delegates11("en-US"),
-          // delegates1200"),
-          // delegates12("en-US"),
-          // delegates1300"),
-          // delegates13("en-US"),
-          // delegates1400"),
-          // delegates14("en-US"),
-          // delegates1500"),
-          // delegates15("en-US"),
-          // delegates1600"),
-          // delegates16("en-US"),
-          // delegates1700"),
-          // delegates17("en-US"),
-          // delegates1800"),
-          // delegates18("en-US"),
-          // delegates1900"),
-          // delegates19("en-US"),
-          // "The delegates voted to support the resolution.0"),
-          // delegates20("en-US"),
-          // delegates2100"),
-          // delegates21("en-US"),
-          // delegates2200"),
-          // delegates22("en-US"),
         ],
       ),
     );

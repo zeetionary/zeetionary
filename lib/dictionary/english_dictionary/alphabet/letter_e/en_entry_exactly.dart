@@ -296,7 +296,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Exactly what are you trying to tell me?""");
   }
 
-// With short examples define "exactly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

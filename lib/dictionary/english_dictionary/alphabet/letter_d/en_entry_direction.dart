@@ -461,12 +461,10 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٢. (ناو) ڕێنمایی سەبارەت بە کردنی شتێک، ڕۆشتن بۆ شوێنێک، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Let's stop and ask for directions.",
             kurdishText: "با بوەستین و پرسیار بۆ ناونیشان بکەیت.",
@@ -492,7 +490,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ئاراستەی بەرەوپێشچوونی کەس/شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The exhibition provides evidence of several new directions in her work.",
@@ -542,12 +539,10 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٤. (ناو) شوێنی گشتی کە کەسێک یان شتێک لێیەوە دێت یان گەشە دەکات"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Support came from an unexpected direction.",
             kurdishText: "پشتیوانی لە بەرەیەکی چاوەڕوان نەکراوەوە ھات.",
@@ -564,7 +559,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (ناو) مەبەست؛ ئامانج"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "We are looking for somebody with a clear sense of direction.",
@@ -590,7 +584,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (ناو) ھونەری بەڕێوەبردن و ئاراستەکردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She was entrusted with the direction of the project.",
             kurdishText: "متمانەی بەڕێوەبردنی پڕۆژەکەی پێدرا.",
@@ -622,40 +615,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdirections24("en-GB"),
             onPressedAmerican: () => speakdirections24("en-US"),
           ),
-          // directions2500"),
-          // directions25("en-US"),
-          // directions2600"),
-          // directions26("en-US"),
-          // directions2700"),
-          // directions27("en-US"),
-          // directions2800"),
-          // directions28("en-US"),
-          // directions2900"),
-          // directions29("en-US"),
-          // directions_3000"),
-          // directions30("en-US"),
-          // directions3100"),
-          // directions31("en-US"),
-          // directions3200"),
-          // directions32("en-US"),
-          // directions3300"),
-          // directions33("en-US"),
-          // directions3400"),
-          // directions34("en-US"),
-          // directions3500"),
-          // directions35("en-US"),
-          // directions3600"),
-          // directions36("en-US"),
-          // directions3700"),
-          // directions37("en-US"),
-          // directions3800"),
-          // directions38("en-US"),
-          // directions3900"),
-          // directions39("en-US"),
-          // directions_4000"),
-          // directions40("en-US"),
-          // directions4100"),
-          // directions41("en-US"),
         ],
       ),
     );

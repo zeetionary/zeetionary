@@ -401,7 +401,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) کە سەرنجڕاکێشە جوان دیزاین کراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """She was looking for something cool and elegant to wear.""",
@@ -419,29 +418,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٣. (ھاوەڵناو) زیرەکانە بەڵام سادە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He found an elegant solution to the problem.""",
             kurdishText: """چارەسەرێکی سادەی بۆ کێشەکە دۆزییەوە.""",
             onPressedBritish: () => speakelegants5("en-GB"),
             onPressedAmerican: () => speakelegants5("en-US"),
           ),
-          // elegants600elegants6
-          // elegants700elegants7
-          // elegants800elegants8
-          // elegants900elegants9
-          // elegants_1000elegants10
-          // elegants1100elegants11
-          // elegants1200elegants12
-          // elegants1300elegants13
-          // elegants1400elegants14
-          // elegants1500elegants15
-          // elegants1600elegants16
-          // elegants1700elegants17
-          // elegants1800elegants18
-          // elegants1900elegants19
-          // elegants_2000elegants20
-          // elegants2100elegants21
           // elegants2200elegantselegants
         ],
       ),

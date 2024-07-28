@@ -204,7 +204,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (تەم‌و)مژ، دوومان، مۆران، تومان، چەمان، تەم،	دووکەڵ، دوومان،	ھەور،	(وێنە) سووتان، تاریک‌ھاتن،	تاریکی، لێڵی، ناڕۆشنی،	پەشۆکان، سەرلێ‌شێوان، شڵەژان
 """),
-// With short examples define "fog", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) تەم"""),
                     SentencesRow(
                       englishText:
@@ -338,7 +337,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'OY_OHFAgUiA';
 const double _startSecondsend = 50;
 const String _videoIdone = 'kSlq08dm89I';

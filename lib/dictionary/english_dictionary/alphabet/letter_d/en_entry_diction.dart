@@ -235,48 +235,26 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdictions1("en-GB"),
             onPressedAmerican: () => speakdictions1("en-US"),
           ),
-          // dictions200"),
-          // dictions2
-          // dictions300"),
-          // dictions3
-          // dictions400"),
-          // dictions4
-          // dictions500"),
-          // dictions5
-          // dictions600"),
-          // dictions6
-          // dictions700"),
-          // dictions7
-          // dictions800"),
-          // dictions8
-          // dictions900"),
-          // dictions9
-          // dictions_1000"),
-          // dictions10
-          // dictions1100"),
-          // dictions11
-          // dictions1200"),
-          // dictions12
-          // dictions1300"),
-          // dictions13
-          // dictions1400"),
-          // dictions14
-          // dictions1500"),
-          // dictions15
-          // dictions1600"),
-          // dictions16
-          // dictions1700"),
-          // dictions17
-          // dictions1800"),
-          // dictions18
-          // dictions1900"),
-          // dictions19
-          // dictions_2000"),
-          // dictions20
-          // dictions2100"),
-          // dictions21
-          // dictions2200"),
-          // dictions22("en-US"),
+          // dictions2dictions2
+          // dictions3dictions3
+          // dictions4dictions4
+          // dictions5dictions5
+          // dictions6dictions6
+          // dictions7dictions7
+          // dictions8dictions8
+          // dictions9dictions9
+          // dictions_10dictions10
+          // dictions11dictions11
+          // dictions12dictions12
+          // dictions13dictions13
+          // dictions14dictions14
+          // dictions15dictions15
+          // dictions16dictions16
+          // dictions17dictions17
+          // dictions18dictions18
+          // dictions19dictions19
+          // dictions_20dictions20
+          // dictions21dictions21
         ],
       ),
     );

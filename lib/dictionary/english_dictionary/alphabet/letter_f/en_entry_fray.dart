@@ -169,7 +169,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاژاوە، گۆنگەڵ، کێشە، بگرەوبەردە، ململانێ، جوڕڕە، ھەرا، قڕە، شەڕەقسە، مشت‌ومڕ
 """),
-// With short examples define "fray", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) شیبوونەوە"""),
                     SentencesRow(
                       englishText: """This material frays easily.""",
@@ -263,7 +262,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'zqllxbPWKNI';
 const double _startSecondsend = 465;
 const String _videoIdone = 'HDntl7yzzVI';

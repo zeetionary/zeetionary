@@ -561,7 +561,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) ئاسوودە، حەساوە، و بێ‌خەم"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He has not had an easy life.""",
             kurdishText: """ژیانێکی ئاسانی نەبووە.""",
@@ -632,7 +631,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵناو) خۆش و ھاوڕێیانە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He had an easy manner.""",
             kurdishText: """ھەڵسوکەوتی ھاوڕێیانەی ھەبووە.""",
@@ -643,7 +641,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٥. (ھاوەڵکار) بۆ گوتن بە کەسێک کە وریا بێت لەکاتی کردنی شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Easy with that chair—one of its legs is loose.""",
             kurdishText: """ئاگاداری ئەو کورسییە بە ـ یەکێک لە لاقەکانی شلە.""",
@@ -657,8 +654,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeasys19("en-GB"),
             onPressedAmerican: () => speakeasys19("en-US"),
           ),
-          // easys_2000easys20
-          // easys2100easys21
           // easys2200easyseasys
         ],
       ),

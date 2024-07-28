@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fox", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ڕێوی؛ پێستی ڕێوی بۆ جلوبەرگ"""),
                     SentencesRow(
@@ -305,7 +304,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'CH_kj3H9uHg';
 const double _startSecondsend = 32;
 const String _videoIdone = 'rJ6Tnn183Os';

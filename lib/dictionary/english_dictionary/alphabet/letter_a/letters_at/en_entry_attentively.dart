@@ -107,9 +107,7 @@ class EnglishEntryattentively extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "attentively"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "attentively"),
                             // divvviiider
                           ],
                         ),

@@ -309,7 +309,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They can't exist on the money he's earning.""");
   }
 
-// With short examples define "exist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

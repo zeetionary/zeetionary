@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""In order to be successful he would have to exert himself.""");
   }
 
-// With short examples define "exert", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

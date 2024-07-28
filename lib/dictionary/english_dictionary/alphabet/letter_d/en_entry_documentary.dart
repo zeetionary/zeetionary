@@ -404,7 +404,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) کە لە بەڵگەنامە پێکھاتووە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Human rights campaigners have discovered documentary evidence of torture.",
@@ -417,7 +416,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) کە زانیاری لەسەر ڕاستییەکانی شتێک دەدات، بەتایبەتی بە بەکارھێنانی وێنە، تۆمار، چاوپێکەوتن لەگەڵ کەسانی بەژداربوو، ھتد"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The film was given a documentary style by the director.",
@@ -426,42 +424,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdocumentarys4("en-GB"),
             onPressedAmerican: () => speakdocumentarys4("en-US"),
           ),
-          // documentarys500"),
-          // documentarys5("en-US"),
-          // documentarys600"),
-          // documentarys6("en-US"),
-          // documentarys700"),
-          // documentarys7("en-US"),
-          // documentarys800"),
-          // documentarys8("en-US"),
-          // documentarys900"),
-          // documentarys9("en-US"),
-          // documentarys_1000"),
-          // documentarys10("en-US"),
-          // documentarys1100"),
-          // documentarys11("en-US"),
-          // documentarys1200"),
-          // documentarys12("en-US"),
-          // documentarys1300"),
-          // documentarys13("en-US"),
-          // documentarys1400"),
-          // documentarys14("en-US"),
-          // documentarys1500"),
-          // documentarys15("en-US"),
-          // documentarys1600"),
-          // documentarys16("en-US"),
-          // documentarys1700"),
-          // documentarys17("en-US"),
-          // documentarys1800"),
-          // documentarys18("en-US"),
-          // documentarys1900"),
-          // documentarys19("en-US"),
-          // documentarys_2000"),
-          // documentarys20("en-US"),
-          // documentarys2100"),
-          // documentarys21("en-US"),
-          // documentarys2200"),
-          // documentarys22("en-US"),
         ],
       ),
     );

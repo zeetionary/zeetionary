@@ -319,7 +319,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ناو) کۆتاییھێنان بە شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Today is the anniversary of the ending of the Pacific War.""",
@@ -346,7 +345,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) بەشی کۆتایی وشەیەک کە دەلکێندرێت بە بەشە سەرەکییەکەوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """To make the plural of "dog", you add the plural ending -s.""",

@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Even after years he still remains an enigma to me.""");
   }
 
-// With short examples define "enigma", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

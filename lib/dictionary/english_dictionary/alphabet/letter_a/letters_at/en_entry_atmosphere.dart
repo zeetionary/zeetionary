@@ -108,9 +108,7 @@ class EnglishEntryatmosphere extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "atmosphere"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "atmosphere"),
                             // divvviiider
                           ],
                         ),

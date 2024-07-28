@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێ‌خۆشبوون، لێ‌بوردن، بەخشین، بەخشایشت، جەبە، چاوپۆشی
 """),
-// With short examples define "forgiveness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) لێخۆشبوون"""),
                     SentencesRow(
                       englishText:
@@ -244,7 +243,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'fGMCjELDyUY';
 const double _startSecondsend = 2521;
 const String _videoIdone = 'YbNeOLbFZVg';

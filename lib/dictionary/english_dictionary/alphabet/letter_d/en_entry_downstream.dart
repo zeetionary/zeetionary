@@ -398,7 +398,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ھاوەڵناو) لە خاڵێکی ڕووبارێک کە نزیک دەریایە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He saw something floating in the downstream section of the river about a mile from his home.",
@@ -411,7 +410,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (ھاوەڵناو) شتێک کە دواتر ڕوودەدات لە زنجیرە ڕووداوێکدا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "All too often, we pay no attention to the downstream impact of our products.",
@@ -420,42 +418,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdownstreams4("en-GB"),
             onPressedAmerican: () => speakdownstreams4("en-US"),
           ),
-          // downstreams500"),
-          // downstreams5("en-US"),
-          // downstreams600"),
-          // downstreams6("en-US"),
-          // downstreams700"),
-          // downstreams7("en-US"),
-          // downstreams800"),
-          // downstreams8("en-US"),
-          // downstreams900"),
-          // downstreams9("en-US"),
-          // downstreams_1000"),
-          // downstreams10("en-US"),
-          // downstreams1100"),
-          // downstreams11("en-US"),
-          // downstreams1200"),
-          // downstreams12("en-US"),
-          // downstreams1300"),
-          // downstreams13("en-US"),
-          // downstreams1400"),
-          // downstreams14("en-US"),
-          // downstreams1500"),
-          // downstreams15("en-US"),
-          // downstreams1600"),
-          // downstreams16("en-US"),
-          // downstreams1700"),
-          // downstreams17("en-US"),
-          // downstreams1800"),
-          // downstreams18("en-US"),
-          // downstreams1900"),
-          // downstreams19("en-US"),
-          // downstreams_2000"),
-          // downstreams20("en-US"),
-          // downstreams2100"),
-          // downstreams21("en-US"),
-          // downstreams2200"),
-          // downstreams22("en-US"),
         ],
       ),
     );

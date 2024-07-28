@@ -343,7 +343,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (کردار) چوونە خوارەوە یان ئاستێکی نزمتر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The sun dipped below the horizon.",
             kurdishText: "خۆر دابەزییە خوار ئاسۆ.",
@@ -367,7 +366,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) مەلەیەکی خێرا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Let's go for a dip before breakfast.",
             kurdishText: "با پێش نانی بەیانی بچین بۆ سووکەمەلێیەک.",
@@ -378,7 +376,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) کەمبوونەوەیەک لە بڕ یان سەرکەوتنی شتێک، زۆرجار بە کاتی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Share prices have taken a slight dip.",
             kurdishText: "نرخی پشکەکان کەمێک داشکانیان بینیوە.",
@@ -396,7 +393,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (ناو) شوێنێک کە ڕووەکەی لەناکاو دادەبەزێت و دووبارە بەرز دەبێتەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The village lay in a dip among the hills.",
             kurdishText: "گوندەکە لە لێژییەک لە گردەکاندا ھەڵکەوتووە.",
@@ -407,7 +403,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (ناو) تێکەڵەیەک کە پارچە خواردن دەژەنرێتە ناوی پێش خواردن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She made a creamy dip for the chips.",
             kurdishText: "تێکەڵەیەکی کرێمداری بۆ چیپسەکە ئامادەکرد.",
@@ -418,7 +413,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٧. (ناو) شلەیەک مادەی کیمیایی تێدایە و مەڕ و ئاژەڵی دیکەی تێدەخرێت بۆ ئەوەی مێرووی سەر لەشیان بکوژێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The dip effectively killed the lice on the sheep.",
             kurdishText:
@@ -428,7 +422,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٨. (ناو) سەیرکردنێکی خێرای شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A brief dip into history confirms this view.",
             kurdishText: "ڕوانینێکی خێرا لە مێژوو ئەم دیدە پشتڕاست دەکاتەوە.",
@@ -438,29 +431,19 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٩. (ناو) لەقاندنی شتێک بۆ سەرەوە و خوارەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He gave a dip of his head.",
             kurdishText: "سەرەلەقەیەکی کرد.",
             onPressedBritish: () => speakdips14("en-GB"),
             onPressedAmerican: () => speakdips14("en-US"),
           ),
-          // dips1500"),
-          // dips15
-          // dips1600"),
-          // dips16
-          // dips1700"),
-          // dips17
-          // dips1800"),
-          // dips18
-          // dips1900"),
-          // dips19
-          // dips_2000"),
-          // dips20
-          // dips2100"),
-          // dips21
-          // dips2200"),
-          // dips22("en-US"),
+          // dips15dips15
+          // dips16dips16
+          // dips17dips17
+          // dips18dips18
+          // dips19dips19
+          // dips_20dips20
+          // dips21dips21
         ],
       ),
     );

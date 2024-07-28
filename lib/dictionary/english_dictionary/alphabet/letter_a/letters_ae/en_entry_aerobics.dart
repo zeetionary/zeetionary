@@ -97,9 +97,7 @@ class EnglishEntryaerobics extends StatelessWidget {
                   children: [
                     EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
                     SingleChildScrollView(
-                      // DOPSUM: KURDISH MEANING
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
+                      child: CustomColumnWidget(
                         children: [
                           DefinitionKurdish(text: """
 ١. (ناو) ڕاھێنانی جەستەیی بۆ بەھێزکردنی دڵ و سنگ، زۆرجار بەکۆمەڵ دەکرێت لەگەل میوزیک"""),

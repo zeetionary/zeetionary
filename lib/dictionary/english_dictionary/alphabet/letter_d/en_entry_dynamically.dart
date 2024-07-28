@@ -380,7 +380,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵکار) بە شێوەیەک کە بەوزەیە و بەردەوام لە گەشەدایە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Russian literature developed dynamically through the nineteenth century.""",
@@ -397,46 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           //     const Expanded(
           //       child: Column(
           //         children: [
-          // dynamicallys300
-          // dynamicallys3("en-US"""),
-          // dynamicallys400
-          // dynamicallys4("en-US"""),
-          // dynamicallys500
-          // dynamicallys5("en-US"""),
-          // dynamicallys600
-          // dynamicallys6("en-US"""),
-          // dynamicallys700
-          // dynamicallys7("en-US"""),
-          // dynamicallys800
-          // dynamicallys8("en-US"""),
-          // dynamicallys900
-          // dynamicallys9("en-US"""),
-          // dynamicallys_1000
-          // dynamicallys10("en-US"""),
-          // dynamicallys1100
-          // dynamicallys11("en-US"""),
-          // dynamicallys1200
-          // dynamicallys12("en-US"""),
-          // dynamicallys1300
-          // dynamicallys13("en-US"""),
-          // dynamicallys1400
-          // dynamicallys14("en-US"""),
-          // dynamicallys1500
-          // dynamicallys15("en-US"""),
-          // dynamicallys1600
-          // dynamicallys16("en-US"""),
-          // dynamicallys1700
-          // dynamicallys17("en-US"""),
-          // dynamicallys1800
-          // dynamicallys18("en-US"""),
-          // dynamicallys1900
-          // dynamicallys19("en-US"""),
-          // dynamicallys_2000
-          // dynamicallys20("en-US"""),
-          // dynamicallys2100
-          // dynamicallys21("en-US"""),
-          // dynamicallys2200
-          // dynamicallys22("en-US"""),
         ],
       ),
     );

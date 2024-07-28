@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """Thousands of people died during the terrible famine of that year.""");
   }
 
-// With short examples define "famine", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

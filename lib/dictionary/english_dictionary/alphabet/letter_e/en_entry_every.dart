@@ -324,7 +324,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He had every reason to be angry.""");
   }
 
-// With short examples define "every", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

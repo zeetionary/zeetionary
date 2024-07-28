@@ -94,9 +94,7 @@ class EnglishEntrybackstroke extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "backstroke"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "backstroke"),
                             // divvviiider
                           ],
                         ),

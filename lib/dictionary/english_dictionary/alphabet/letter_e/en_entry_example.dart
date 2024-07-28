@@ -363,7 +363,6 @@ class KurdishMeaning extends StatelessWidget {
         """They started to plan protests, inspired by the example of their neighbours.""");
   }
 
-// With short examples define "example", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

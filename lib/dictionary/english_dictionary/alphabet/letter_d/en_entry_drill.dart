@@ -427,7 +427,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (ناو) شێوازێکی فێربوونی شتێک بە ئەنجامدانی ڕاھێنانی دووبارە و دووبارە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The teacher used a math drill to practice multiplication.",
@@ -438,7 +437,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) کونکردن بە دریڵ"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The dentist started drilling my tooth.",
             kurdishText: "پزیشکە ددانەکە دەستی بە کونکردنی ددانم کرد.",
@@ -456,7 +454,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (کردار) ھەوڵدان بۆ بەدەستھێنانی نەوت یان ئاو بە کەندنی زەوی یان بنکی دەریا"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "They're drilling for oil off the Irish coast.",
             kurdishText: "لە کەناراوەکانی ئێرلەندا بۆ نەوت دەگەڕێن.",
@@ -467,7 +464,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) فێرکردنی کەسێک کە شتێک بکات بە دووبارەکردنەوەی بۆ چەندین جار"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The children were drilled to leave the classroom quickly when the fire bell rang.",
@@ -480,7 +476,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٦. (کردار) مەشقکردن بە سەرباز بۆ ئەنجامدانی کردەی سەربازی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The soldiers were being drilled outside the barracks.",
@@ -488,34 +483,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdrills8("en-GB"),
             onPressedAmerican: () => speakdrills8("en-US"),
           ),
-          // drills900"),
-          // drills9("en-US"),
-          // drills_1000"),
-          // drills10("en-US"),
-          // drills1100"),
-          // drills11("en-US"),
-          // drills1200"),
-          // drills12("en-US"),
-          // drills1300"),
-          // drills13("en-US"),
-          // drills1400"),
-          // drills14("en-US"),
-          // drills1500"),
-          // drills15("en-US"),
-          // drills1600"),
-          // drills16("en-US"),
-          // drills1700"),
-          // drills17("en-US"),
-          // drills1800"),
-          // drills18("en-US"),
-          // drills1900"),
-          // drills19("en-US"),
-          // drills_2000"),
-          // drills20("en-US"),
-          // drills2100"),
-          // drills21("en-US"),
-          // drills2200"),
-          // drills22("en-US"),
         ],
       ),
     );

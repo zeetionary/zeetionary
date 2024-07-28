@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """He has designed dresses for many celebrities, most famously Elizabeth Taylor.""");
   }
 
-// With short examples define "famously", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

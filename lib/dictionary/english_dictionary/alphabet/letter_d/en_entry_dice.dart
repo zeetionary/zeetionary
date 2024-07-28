@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) یارییەک کە بە زار دەکرێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "We played dice all night.",
             kurdishText: "تەواوی شەوەکە یاری زار زارێنمان کرد.",
@@ -279,49 +278,29 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) بڕینی گۆشت، سەوزە، ھتد بە شێوەی چوارگۆشە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Peel and dice the potatoes.",
             kurdishText: "پەتاتەکان پاک و قاژ بکە.",
             onPressedBritish: () => speakdices4("en-GB"),
             onPressedAmerican: () => speakdices4("en-US"),
           ),
-          // dices500"),
-          // dices5
-          // dices600"),
-          // dices6
-          // dices700"),
-          // dices7
-          // dices800"),
-          // dices8
-          // dices900"),
-          // dices9
-          // dices_1000"),
-          // dices10
-          // dices1100"),
-          // dices11
-          // dices1200"),
-          // dices12
-          // dices1300"),
-          // dices13
-          // dices1400"),
-          // dices14
-          // dices1500"),
-          // dices15
-          // dices1600"),
-          // dices16
-          // dices1700"),
-          // dices17
-          // dices1800"),
-          // dices18
-          // dices1900"),
-          // dices19
-          // dices_2000"),
-          // dices20
-          // dices2100"),
-          // dices21
-          // dices2200"),
-          // dices22("en-US"),
+          // dices5dices5
+          // dices6dices6
+          // dices7dices7
+          // dices8dices8
+          // dices9dices9
+          // dices_10dices10
+          // dices11dices11
+          // dices12dices12
+          // dices13dices13
+          // dices14dices14
+          // dices15dices15
+          // dices16dices16
+          // dices17dices17
+          // dices18dices18
+          // dices19dices19
+          // dices_20dices20
+          // dices21dices21
         ],
       ),
     );

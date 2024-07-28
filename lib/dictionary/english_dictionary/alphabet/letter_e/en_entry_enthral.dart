@@ -255,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The story never fails to enthral.""");
   }
 
-// With short examples define "enthral", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

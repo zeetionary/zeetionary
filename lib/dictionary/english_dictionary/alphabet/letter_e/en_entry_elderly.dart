@@ -389,7 +389,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٢. (ھاوەڵناو) کەسانی پیر"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Children and the elderly are those most at risk from the infection.""",
@@ -398,24 +397,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelderlys3("en-GB"),
             onPressedAmerican: () => speakelderlys3("en-US"),
           ),
-          // elderlys400elderlys4
-          // elderlys500elderlys5
-          // elderlys600elderlys6
-          // elderlys700elderlys7
-          // elderlys800elderlys8
-          // elderlys900elderlys9
-          // elderlys_1000elderlys10
-          // elderlys1100elderlys11
-          // elderlys1200elderlys12
-          // elderlys1300elderlys13
-          // elderlys1400elderlys14
-          // elderlys1500elderlys15
-          // elderlys1600elderlys16
-          // elderlys1700elderlys17
-          // elderlys1800elderlys18
-          // elderlys1900elderlys19
-          // elderlys_2000elderlys20
-          // elderlys2100elderlys21
           // elderlys2200elderlyselderlys
         ],
       ),

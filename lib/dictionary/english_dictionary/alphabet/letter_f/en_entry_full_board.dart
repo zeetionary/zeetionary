@@ -227,7 +227,6 @@ Usage: Brit, Cdn (US: American plan)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'rmgAqYwFFA8';
 const double _startSecondsend = 422;
 const String _videoIdone = '4se4_ZqkcKw';

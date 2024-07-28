@@ -263,7 +263,6 @@ class KurdishMeaning extends StatelessWidget {
         """After a brief excursion into drama, he concentrated on his main interest, which was poetry.""");
   }
 
-// With short examples define "excursion", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

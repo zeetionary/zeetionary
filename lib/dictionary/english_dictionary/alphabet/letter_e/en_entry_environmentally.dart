@@ -244,7 +244,6 @@ class KurdishMeaning extends StatelessWidget {
         """There is a need for energy policies that are environmentally sound.""");
   }
 
-// With short examples define "environmentally", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

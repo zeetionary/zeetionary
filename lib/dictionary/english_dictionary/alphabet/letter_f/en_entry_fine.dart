@@ -447,7 +447,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: باش، خاس، چاک، زۆر باش، خۆش، جوان، ڕند، چەلەنگ،	(ھەوا) خۆرکەوتوو، خۆروبان، تاووبان، نابارانی، ساو، ڕوون،	بەکەیف، بەدەماخ، لەش‌ساغ، ساغ،	ناسک،	گونجاو، باش،	ورد، ئاردەبێژ، نەرم،	باریک، ناسک، نەرم، ئاوەڕێس، موویین،	(دەرزی و ھتد) تیژ، نووک‌تیژ،	پەتی، ناتێکەڵ، پوخت، پاڵێوراو،	تەواو، بەس،	خراپ، شپرزە،	(نووسراوە و وتار) تەق‌وڕەق، جەریمە، زیانە، بژێرە
 """),
-// With short examples define "fine", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) لە تەندرووستی باشدا"""),
                     SentencesRow(
@@ -851,7 +850,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'hS2x1zl4rn0';
 const double _startSecondsend = 197;
 const String _videoIdone = '47MNn4bsmSw';

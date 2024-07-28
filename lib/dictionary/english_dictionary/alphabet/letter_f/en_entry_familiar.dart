@@ -323,7 +323,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He was being overly familiar with Gloria.""");
   }
 
-// With short examples define "familiar", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

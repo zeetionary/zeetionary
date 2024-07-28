@@ -296,7 +296,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The island is 300 square kilometres in extent.""");
   }
 
-// With short examples define "extent", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

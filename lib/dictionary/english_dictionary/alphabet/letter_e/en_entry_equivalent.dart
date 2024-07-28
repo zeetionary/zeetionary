@@ -288,7 +288,6 @@ class KurdishMeaning extends StatelessWidget {
         """I think that covering up the facts is equivalent to lying really.""");
   }
 
-// With short examples define "equivalent", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

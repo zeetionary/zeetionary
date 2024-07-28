@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕق‌ھەستاو، لەدین‌دەرچوو، بەردبەباکەر، زۆرتووڕە، سوورەوەبوو،	توند، توندوتیژ، سەخت، بێ‌ئەمان، دژوار،	(خێرایی) شێتانە، زۆر توند
 """),
-// With short examples define "furious", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر تووڕە"""),
                     SentencesRow(
@@ -332,7 +331,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'QLq6GEiHqR8';
 const double _startSecondsend = 912;
 const String _videoIdone = 'AF8d72mA41M';

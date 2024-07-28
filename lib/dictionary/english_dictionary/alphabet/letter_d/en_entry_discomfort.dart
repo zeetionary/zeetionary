@@ -304,7 +304,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) ھەستکردن بە نیگەرانی یان شەرمەزاری"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "John's presence caused her considerable discomfort.",
             kurdishText: "ئامادەیی جۆن نیگەرانییەکی زۆری بۆ درووستکرد.",
@@ -329,7 +328,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) ناڕەحەتکردن یان شەرمەزارکردنی کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Many patients complained of being discomforted by the doctor’s manner.",
@@ -338,36 +336,20 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscomforts7("en-GB"),
             onPressedAmerican: () => speakdiscomforts7("en-US"),
           ),
-          // discomforts800"),
-          // discomforts8
-          // discomforts900"),
-          // discomforts9
-          // discomforts_1000"),
-          // discomforts10
-          // discomforts1100"),
-          // discomforts11
-          // discomforts1200"),
-          // discomforts12
-          // discomforts1300"),
-          // discomforts13
-          // discomforts1400"),
-          // discomforts14
-          // discomforts1500"),
-          // discomforts15
-          // discomforts1600"),
-          // discomforts16
-          // discomforts1700"),
-          // discomforts17
-          // discomforts1800"),
-          // discomforts18
-          // discomforts1900"),
-          // discomforts19
-          // discomforts_2000"),
-          // discomforts20
-          // discomforts2100"),
-          // discomforts21
-          // discomforts2200"),
-          // discomforts22("en-US"),
+          // discomforts8discomforts8
+          // discomforts9discomforts9
+          // discomforts_10discomforts10
+          // discomforts11discomforts11
+          // discomforts12discomforts12
+          // discomforts13discomforts13
+          // discomforts14discomforts14
+          // discomforts15discomforts15
+          // discomforts16discomforts16
+          // discomforts17discomforts17
+          // discomforts18discomforts18
+          // discomforts19discomforts19
+          // discomforts_20discomforts20
+          // discomforts21discomforts21
         ],
       ),
     );

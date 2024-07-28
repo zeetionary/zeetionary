@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         """A facsimile of the document is available in the British Library.""");
   }
 
-// With short examples define "facsimile", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

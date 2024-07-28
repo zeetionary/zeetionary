@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         """He didn't look like the sort of man you should entrust a task like this to.""");
   }
 
-// With short examples define "entrust", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

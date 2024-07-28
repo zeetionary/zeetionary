@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The city retains much of its historic fabric.""");
   }
 
-// With short examples define "fabric", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -600,7 +600,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) گەشتن یان کردن لە پێش کاتی پێشبینیکراو"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """You're early! I wasn't expecting you till seven.""",
             kurdishText: """زوو ھاتوویت! تاوەکو حەوت چاوەڕێم نەدەکردی.""",
@@ -639,7 +638,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) سەر بە سەرەتاکانی مێژوو یان بزووتنەوەیەکی کەلتووری"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The gallery has an unrivalled collection of early twentieth-century art.""",
@@ -659,7 +657,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٤. (ھاوەڵکار) لە سەرەتای شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """We arrived early the next day.""",
             kurdishText: """ڕۆژی دواتر زوو گەشتین.""",
@@ -691,7 +688,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٥. (ھاوەڵکار) پێش کاتی ھەمیشەیی یان دیاریکراو"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Why don't you go home early if you're not feeling well?""",
@@ -738,27 +734,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٦. (ھاوەڵکار) پێش کاتی ئێستا یان ئەو کاتەی باسکراوە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She had seen him earlier in the day.""",
             kurdishText: """پێشووتر لە ڕۆژەکەدا بینیبووی.""",
             onPressedBritish: () => speakearlys25("en-GB"),
             onPressedAmerican: () => speakearlys25("en-US"),
           ),
-          // earlys2600earlys26
-          // earlys2700earlys27
-          // earlys2800earlys28
-          // earlys2900earlys29
-          // earlys_3000earlys30
-          // earlys3100earlys31
-          // earlys3200earlys32
-          // earlys3300earlys33
-          // earlys3400earlys34
-          // earlys3500earlys35
-          // earlys3600earlys36
-          // earlys3700earlys37
-          // earlys3800earlys38
-          // speakearlys38("en-US"""),
           //         ),
           //       ],
           //     ),

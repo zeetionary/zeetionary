@@ -367,27 +367,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearthenwares1("en-GB"),
             onPressedAmerican: () => speakearthenwares1("en-US"),
           ),
-          // earthenwares200earthenwares2
-          // earthenwares300earthenwares3
-          // earthenwares400earthenwares4
-          // earthenwares500earthenwares5
-          // earthenwares600earthenwares6
-          // earthenwares700earthenwares7
-          // earthenwares800earthenwares8
-          // earthenwares900earthenwares9
-          // earthenwares_1000earthenwares10
-          // earthenwares1100earthenwares11
-          // earthenwares1200earthenwares12
-          // earthenwares1300earthenwares13
-          // earthenwares1400earthenwares14
-          // earthenwares1500earthenwares15
-          // earthenwares1600earthenwares16
-          // earthenwares1700earthenwares17
-          // earthenwares1800earthenwares18
-          // earthenwares1900earthenwares19
-          // earthenwares_2000earthenwares20
-          // earthenwares2100earthenwares21
-          // earthenwares2200earthenwaresearthenwares
         ],
       ),
     );

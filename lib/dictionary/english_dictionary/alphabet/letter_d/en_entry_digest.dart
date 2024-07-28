@@ -331,7 +331,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) شیکردنەوە یان دەرھێنانی مادەی بەسوود لە مادەیەک بە گەرمی، ئەنزیم، یان توێنەر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The plant uses anaerobic bacteria to digest organic material and release methane gas.",
@@ -352,7 +351,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٣. (کردار) بیرکردنەوە لە شتێک بۆ ئەوەی بە تەواوی لێی تێ بگەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "He paused, waiting for her to digest the information.",
@@ -371,7 +369,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٤. (ناو) کورتە ڕاپۆرتێک کە گرنگترین زانیاری نووسراوێکی درێژتری تێدایە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "A digest of the research findings is now available.",
             kurdishText: "پوختەیەکی دۆزرانەوەی لێکۆڵینەوەکە ئێستا بەردەستە.",
@@ -387,30 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdigests10("en-GB"),
             onPressedAmerican: () => speakdigests10("en-US"),
           ),
-          // digests1100"),
-          // digests11("en-US"),
-          // digests1200"),
-          // digests12("en-US"),
-          // digests1300"),
-          // digests13("en-US"),
-          // digests1400"),
-          // digests14("en-US"),
-          // digests1500"),
-          // digests15("en-US"),
-          // digests1600"),
-          // digests16("en-US"),
-          // digests1700"),
-          // digests17("en-US"),
-          // digests1800"),
-          // digests18("en-US"),
-          // digests1900"),
-          // digests19("en-US"),
-          // digests_2000"),
-          // digests20("en-US"),
-          // digests2100"),
-          // digests21("en-US"),
-          // digests2200"),
-          // digests22("en-US"),
         ],
       ),
     );

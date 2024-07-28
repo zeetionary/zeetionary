@@ -416,7 +416,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) تایبەتمەندی یان خاسیەتێک کە تایبەتە بە کەسێک/شتێک"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The incident has all the earmarks of a terrorist attack.""",
@@ -429,7 +428,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ناو) لە ئەمریکا، بریتییە لە ڕێنمایی حکومەت بۆ خەرجکردنی گوژمەیەک پارە لە شتێکدا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Federal earmarks for scientific research can be based on political connections and lobbying.""",
@@ -438,22 +436,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakearmarks5("en-GB"),
             onPressedAmerican: () => speakearmarks5("en-US"),
           ),
-          // earmarks600earmarks6
-          // earmarks700earmarks7
-          // earmarks800earmarks8
-          // earmarks900earmarks9
-          // earmarks_1000earmarks10
-          // earmarks1100earmarks11
-          // earmarks1200earmarks12
-          // earmarks1300earmarks13
-          // earmarks1400earmarks14
-          // earmarks1500earmarks15
-          // earmarks1600earmarks16
-          // earmarks1700earmarks17
-          // earmarks1800earmarks18
-          // earmarks1900earmarks19
-          // earmarks_2000earmarks20
-          // earmarks2100earmarks21
           // earmarks2200earmarksearmarks
         ],
       ),

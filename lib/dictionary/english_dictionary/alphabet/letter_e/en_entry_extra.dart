@@ -347,7 +347,6 @@ class KurdishMeaning extends StatelessWidget {
         """He wanted to cook something extra special for dinner that night.""");
   }
 
-// With short examples define "extra", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

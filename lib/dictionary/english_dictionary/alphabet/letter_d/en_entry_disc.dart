@@ -271,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) سی‌دی یان دی‌ڤی‌دی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "This recording is available online or on disc.",
             kurdishText: "ئەم تۆمارە بە ئۆنلاین یان لەسەر خەپلە بەردەستە.",
@@ -287,45 +286,27 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (ناو) پەپکەیەک بۆ کۆمپیوتەر"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He inserted the disc into the machine.",
             kurdishText: "پەپکەکەی خستە ناو ئامێرەکە.",
             onPressedBritish: () => speakdiscs6("en-GB"),
             onPressedAmerican: () => speakdiscs6("en-US"),
           ),
-          // discs700"),
-          // discs7
-          // discs800"),
-          // discs8
-          // discs900"),
-          // discs9
-          // discs_1000"),
-          // discs10
-          // discs1100"),
-          // discs11
-          // discs1200"),
-          // discs12
-          // discs1300"),
-          // discs13
-          // discs1400"),
-          // discs14
-          // discs1500"),
-          // discs15
-          // discs1600"),
-          // discs16
-          // discs1700"),
-          // discs17
-          // discs1800"),
-          // discs18
-          // discs1900"),
-          // discs19
-          // discs_2000"),
-          // discs20
-          // discs2100"),
-          // discs21
-          // discs2200"),
-          // discs22("en-US"),
+          // discs7discs7
+          // discs8discs8
+          // discs9discs9
+          // discs_10discs10
+          // discs11discs11
+          // discs12discs12
+          // discs13discs13
+          // discs14discs14
+          // discs15discs15
+          // discs16discs16
+          // discs17discs17
+          // discs18discs18
+          // discs19discs19
+          // discs_20discs20
+          // discs21discs21
         ],
       ),
     );

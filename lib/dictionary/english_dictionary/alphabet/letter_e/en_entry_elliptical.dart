@@ -377,33 +377,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (ھاوەڵناو) ھەبوونی شێوە ھێلکەیی"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """She bought an elliptical mirror for her room.""",
             kurdishText: """ئاوێنەیی ھێلکەیی بۆ ژوورەکەی کڕی.""",
             onPressedBritish: () => speakellipticals2("en-GB"),
             onPressedAmerican: () => speakellipticals2("en-US"),
           ),
-          // ellipticals300ellipticals3
-          // ellipticals400ellipticals4
-          // ellipticals500ellipticals5
-          // ellipticals600ellipticals6
-          // ellipticals700ellipticals7
-          // ellipticals800ellipticals8
-          // ellipticals900ellipticals9
-          // ellipticals_1000ellipticals10
-          // ellipticals1100ellipticals11
-          // ellipticals1200ellipticals12
-          // ellipticals1300ellipticals13
-          // ellipticals1400ellipticals14
-          // ellipticals1500ellipticals15
-          // ellipticals1600ellipticals16
-          // ellipticals1700ellipticals17
-          // ellipticals1800ellipticals18
-          // ellipticals1900ellipticals19
-          // ellipticals_2000ellipticals20
-          // ellipticals2100ellipticals21
-          // ellipticals2200ellipticalsellipticals
         ],
       ),
     );

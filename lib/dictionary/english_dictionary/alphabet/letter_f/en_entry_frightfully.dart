@@ -165,7 +165,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لە ئەندازەبەدەر، یەکجار
 """),
-// With short examples define "frightfully", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) ئێجگار زۆر"""),
                     SentencesRow(
@@ -257,7 +256,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '_yMMTVVJI4c';
 const double _startSecondsend = 305;
 const String _videoIdone = 'YAEZiwpCK3s';

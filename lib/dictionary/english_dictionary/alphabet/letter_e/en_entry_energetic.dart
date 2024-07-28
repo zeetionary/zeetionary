@@ -257,8 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         """She seems remarkably energetic for a woman who has been so ill.""");
   }
 
-// With short examples define "energetic", please follow LX instructions
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

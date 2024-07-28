@@ -384,26 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakempiricals2("en-GB"),
             onPressedAmerican: () => speakempiricals2("en-US"),
           ),
-          // empiricals300empiricals3
-          // empiricals400empiricals4
-          // empiricals500empiricals5
-          // empiricals600empiricals6
-          // empiricals700empiricals7
-          // empiricals800empiricals8
-          // empiricals900empiricals9
-          // empiricals_1000empiricals10
-          // empiricals1100empiricals11
-          // empiricals1200empiricals12
-          // empiricals1300empiricals13
-          // empiricals1400empiricals14
-          // empiricals1500empiricals15
-          // empiricals1600empiricals16
-          // empiricals1700empiricals17
-          // empiricals1800empiricals18
-          // empiricals1900empiricals19
-          // empiricals_2000empiricals20
-          // empiricals2100empiricals21
-          // empiricals2200empiricalsempiricals
         ],
       ),
     );

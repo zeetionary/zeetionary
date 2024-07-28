@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They were threatened with excommunication.""");
   }
 
-// With short examples define "excommunication", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

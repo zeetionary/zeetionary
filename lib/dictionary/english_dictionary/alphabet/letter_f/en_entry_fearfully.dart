@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""We watched fearfully.""");
   }
 
-// With short examples define "fearfully", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

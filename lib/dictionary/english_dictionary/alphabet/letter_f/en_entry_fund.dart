@@ -251,7 +251,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دراونامە، بودجە،	سنووق،	پارە، پووڵ، ماڵ،	سەرمایە، دەسمایە،	سەرمایەی ھەمیشەیی یان جێگیر
 """),
-// With short examples define "fund", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بڕە پارەیەک کە ھەڵگیراوە یان بەردەستە بۆ مەبەستێکی دیاریکراو"""),
@@ -436,7 +435,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'y1sF6ZeASU0';
 const double _startSecondsend = 998;
 const String _videoIdone = 'mY3SEMTROas';

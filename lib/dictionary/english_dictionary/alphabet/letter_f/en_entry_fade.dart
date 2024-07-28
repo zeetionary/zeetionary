@@ -270,7 +270,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Summer was fading into autumn.""");
   }
 
-// With short examples define "fade", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

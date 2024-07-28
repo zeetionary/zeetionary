@@ -314,7 +314,6 @@ class KurdishMeaning extends StatelessWidget {
         """For some reason fate conspired against them and everything they did was problematic.""");
   }
 
-// With short examples define "fate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

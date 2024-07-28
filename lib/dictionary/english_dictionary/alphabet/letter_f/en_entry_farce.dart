@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The trial was a complete farce.""");
   }
 
-// With short examples define "farce", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

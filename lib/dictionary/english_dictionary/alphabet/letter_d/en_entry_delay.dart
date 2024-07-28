@@ -328,7 +328,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شکستھێنان لەوەی شتێک لەکاتی خۆیدا بکەیت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Report it to the police without delay (= immediately).",
@@ -338,7 +337,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٣. (کردار) دواخستنی کەسێک/شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Thousands of commuters were delayed for over an hour.",
@@ -362,7 +360,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (کردار) دواخستنی کردنی شتێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Don't delay—call us today!",
             kurdishText: "دوای مەخە ـ ئەمڕۆ پەیوەندیمان پێوە بکە!",
@@ -384,30 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdelays10("en-GB"),
             onPressedAmerican: () => speakdelays10("en-US"),
           ),
-          // delays1100"),
-          // delays11("en-US"),
-          // delays1200"),
-          // delays12("en-US"),
-          // delays1300"),
-          // delays13("en-US"),
-          // delays1400"),
-          // delays14("en-US"),
-          // delays1500"),
-          // delays15("en-US"),
-          // delays1600"),
-          // delays16("en-US"),
-          // delays1700"),
-          // delays17("en-US"),
-          // delays1800"),
-          // delays18("en-US"),
-          // delays1900"),
-          // delays19("en-US"),
-          // "Increased congestion and traffic delays are expected.0"),
-          // delays20("en-US"),
-          // delays2100"),
-          // delays21("en-US"),
-          // delays2200"),
-          // delays22("en-US"),
         ],
       ),
     );

@@ -95,9 +95,7 @@ class EnglishEntrybackbreaking extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "back-breaking"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "back-breaking"),
                             // divvviiider
                           ],
                         ),

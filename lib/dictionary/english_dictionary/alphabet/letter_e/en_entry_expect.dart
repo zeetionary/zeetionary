@@ -352,7 +352,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Are you clear what is expected of you?""");
   }
 
-// With short examples define "expect", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

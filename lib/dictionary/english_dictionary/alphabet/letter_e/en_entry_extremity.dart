@@ -265,7 +265,6 @@ class KurdishMeaning extends StatelessWidget {
         """In such a situation, your heart pumps faster to prevent your extremities from freezing.""");
   }
 
-// With short examples define "extremity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

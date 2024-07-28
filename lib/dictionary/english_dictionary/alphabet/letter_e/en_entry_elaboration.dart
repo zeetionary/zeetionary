@@ -379,7 +379,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) گەڵاڵەکردنی پلان، بیرۆکە، ھتد ـی ئاڵۆز یان پڕ وردەکاری"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Further discussion led to the elaboration of new policy principles.""",
@@ -388,26 +387,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelaborations2("en-GB"),
             onPressedAmerican: () => speakelaborations2("en-US"),
           ),
-          // elaborations300elaborations3
-          // elaborations400elaborations4
-          // elaborations500elaborations5
-          // elaborations600elaborations6
-          // elaborations700elaborations7
-          // elaborations800elaborations8
-          // elaborations900elaborations9
-          // elaborations_1000elaborations10
-          // elaborations1100elaborations11
-          // elaborations1200elaborations12
-          // elaborations1300elaborations13
-          // elaborations1400elaborations14
-          // elaborations1500elaborations15
-          // elaborations1600elaborations16
-          // elaborations1700elaborations17
-          // elaborations1800elaborations18
-          // elaborations1900elaborations19
-          // elaborations_2000elaborations20
-          // elaborations2100elaborations21
-          // elaborations2200elaborationselaborations
         ],
       ),
     );

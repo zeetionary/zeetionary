@@ -446,7 +446,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ھاوەڵناو) بۆ ناساندنی کەسی گەورەتر کە باسی دوو کەس دەکەیت"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """Of the two brothers Harvey is the elder.""",
             kurdishText: """لە نێوان دوو براکەدا ھارڤی بەتەمەنەکەیە.""",
@@ -464,7 +463,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٣. (ھاوەڵناو) لە پێش ناو بەکاردێت بۆ ناساندنی ئەو کەسەی کە گەورەترە و ھەمان ناوی لەگەڵ کەسێکی دیکە ھەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """The elder Pitt's policies strengthened the British Empire.""",
@@ -476,7 +474,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٤. (ناو) ئەو کەسانەی دەسەڵات، ئەزموون، و تەمەنی زیاتریان ھەیە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """Children have no respect for their elders nowadays.""",
@@ -495,14 +492,12 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: """٥. (ناو) کەسێک کە بەتەمەنترە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """He is her elder by several years.""",
             kurdishText: """بە چەند ساڵێک لێی گەورەترە.""",
             onPressedBritish: () => speakelders9("en-GB"),
             onPressedAmerican: () => speakelders9("en-US"),
           ),
-          // elders_1000elders10
           // speakelders
         ],
       ),

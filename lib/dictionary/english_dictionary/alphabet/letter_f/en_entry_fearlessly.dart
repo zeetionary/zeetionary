@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""They fought fearlessly against the invading armies.""");
   }
 
-// With short examples define "fearlessly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

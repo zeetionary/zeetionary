@@ -396,7 +396,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """٢. (ناو) ماوەیەک لە مێژووی وڵاتێک کە تێیدا بنەماڵەیەک دەسەڵاتداربوونە"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 """A Ming dynasty vase was among the disovered artifacts.""",
@@ -405,44 +404,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdynastys3("en-GB"),
             onPressedAmerican: () => speakdynastys3("en-US"),
           ),
-          // dynastys400
-          // dynastys4("en-US"""),
-          // dynastys500
-          // dynastys5("en-US"""),
-          // dynastys600
-          // dynastys6("en-US"""),
-          // dynastys700
-          // dynastys7("en-US"""),
-          // dynastys800
-          // dynastys8("en-US"""),
-          // dynastys900
-          // dynastys9("en-US"""),
-          // dynastys_1000
-          // dynastys10("en-US"""),
-          // dynastys1100
-          // dynastys11("en-US"""),
-          // dynastys1200
-          // dynastys12("en-US"""),
-          // dynastys1300
-          // dynastys13("en-US"""),
-          // dynastys1400
-          // dynastys14("en-US"""),
-          // dynastys1500
-          // dynastys15("en-US"""),
-          // dynastys1600
-          // dynastys16("en-US"""),
-          // dynastys1700
-          // dynastys17("en-US"""),
-          // dynastys1800
-          // dynastys18("en-US"""),
-          // dynastys1900
-          // dynastys19("en-US"""),
-          // dynastys_2000
-          // dynastys20("en-US"""),
-          // dynastys2100
-          // dynastys21("en-US"""),
-          // dynastys2200
-          // dynastys22("en-US"""),
         ],
       ),
     );

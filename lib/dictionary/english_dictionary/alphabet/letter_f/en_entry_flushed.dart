@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "flushed", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) سوورەوەبوو"""),
                     SentencesRow(
@@ -247,7 +246,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '1uu9VWBgcBU';
 const double _startSecondsend = 543;
 const String _videoIdone = 'ZHIcVi7F6hM';

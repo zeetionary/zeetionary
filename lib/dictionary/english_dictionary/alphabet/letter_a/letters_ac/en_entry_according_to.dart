@@ -52,9 +52,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "according to"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "according to"),
                           ],
                         ),
                         Row(
@@ -67,9 +65,7 @@ class EnglishEntryaccordingto extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əˈkɔːrdɪŋ tə/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əˈkɔːrdɪŋ tə/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccordingto("en-US"),
                             ),

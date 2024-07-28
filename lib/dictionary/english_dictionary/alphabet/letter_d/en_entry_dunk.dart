@@ -377,53 +377,12 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: """٢. (کردار) پاڵنانە ژێر ئاو؛ کردن بە ئاودا"""),
-          // const DividerSentences(),
           SentencesRow(
             englishText: """The camera survived being dunked in the river.""",
             kurdishText: """کامێرا دەرچوو لەوەی بخووسێندرێت لە ئاوەکەدا.""",
             onPressedBritish: () => speakdunks2("en-GB"),
             onPressedAmerican: () => speakdunks2("en-US"),
           ),
-          // dunks300
-          // dunks3("en-US"""),
-          // dunks400
-          // dunks4("en-US"""),
-          // dunks500
-          // dunks5("en-US"""),
-          // dunks600
-          // dunks6("en-US"""),
-          // dunks700
-          // dunks7("en-US"""),
-          // dunks800
-          // dunks8("en-US"""),
-          // dunks900
-          // dunks9("en-US"""),
-          // dunks_1000
-          // dunks10("en-US"""),
-          // dunks1100
-          // dunks11("en-US"""),
-          // dunks1200
-          // dunks12("en-US"""),
-          // dunks1300
-          // dunks13("en-US"""),
-          // dunks1400
-          // dunks14("en-US"""),
-          // dunks1500
-          // dunks15("en-US"""),
-          // dunks1600
-          // dunks16("en-US"""),
-          // dunks1700
-          // dunks17("en-US"""),
-          // dunks1800
-          // dunks18("en-US"""),
-          // dunks1900
-          // dunks19("en-US"""),
-          // dunks_2000
-          // dunks20("en-US"""),
-          // dunks2100
-          // dunks21("en-US"""),
-          // dunks2200
-          // dunks22("en-US"""),
         ],
       ),
     );

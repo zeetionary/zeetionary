@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She was clearly exasperated by all my questions.""");
   }
 
-// With short examples define "exasperate", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

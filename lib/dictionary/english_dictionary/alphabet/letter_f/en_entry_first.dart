@@ -388,7 +388,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: یەکەمین، ھەوەڵین، سەرەتاترین، دەسپێک، یەکەم، ھەوەڵ،	لەپێشەوە، پێش‌تر، لە سەرەتادا،	یەکەمین جار، بۆ ھەوەڵین یان یەکەمین جار،	پێش، بەری، لەوەپێش، لەپێش‌ھەموو، بەر لە گشت، بەر لە ھەرشتێ،	سەرەتا، دەسپێک، بەرایی، پێشەنگ، سەرکێش، سەرجەلە،	(گێڕ) یەک.	یەکەم کەس،	پلەی یەک، نمرەی یەک
 """),
-// With short examples define "first", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (دیارخەر، ژمارەی پلەیی) یەکەم"""),
                     SentencesRow(
@@ -722,7 +721,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '21Z4RIOFhMA';
 const double _startSecondsend = 316;
 const String _videoIdone = 'Oq61TxejZ5g';

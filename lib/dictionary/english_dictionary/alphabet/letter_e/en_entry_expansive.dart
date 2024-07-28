@@ -256,7 +256,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She was clearly relaxed and in an expansive mood.""");
   }
 
-// With short examples define "expansive", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

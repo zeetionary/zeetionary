@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لا، بەر، ڕووکار، پانایی پێشەوەی خانووبەرە، پێشەخانوو، لای پێشەوەی خانوو،	ڕوو،	دیمەن،	گوێ، پاڵ، کەنار، دەم
 """),
-// With short examples define "frontage", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بەشی پێشەوەی بینایەک"""),
                     SentencesRow(
@@ -253,7 +252,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'nQEOK8I-Czc';
 const double _startSecondsend = 84;
 const String _videoIdone = 'OQ6NfFIr2jw';

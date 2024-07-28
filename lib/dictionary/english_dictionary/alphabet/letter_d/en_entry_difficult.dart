@@ -456,7 +456,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ھاوەڵناو) پڕ لە کێشە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "I found myself in a difficult situation.",
             kurdishText: "خۆم لە دۆخێکی سەخت بینییەوە.",
@@ -512,7 +511,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ھاوەڵناو) کەسێک کە بە ئاسانی ڕازی نابێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "Don't pay any attention to her—she's just being difficult.",
@@ -527,12 +525,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdifficults19("en-GB"),
             onPressedAmerican: () => speakdifficults19("en-US"),
           ),
-          // difficults_2000"),
-          // difficults20("en-US"),
-          // difficults2100"),
-          // difficults21("en-US"),
-          // difficults2200"),
-          // difficults22("en-US"),
         ],
       ),
     );

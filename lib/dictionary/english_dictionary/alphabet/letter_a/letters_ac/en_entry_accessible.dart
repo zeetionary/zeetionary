@@ -59,9 +59,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word:
-                                    "accessible"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "accessible"),
                           ],
                         ),
                         Row(
@@ -74,9 +72,7 @@ class EnglishEntryaccessible extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(
-                                text:
-                                    "IpaUS: /əkˈsesəbl/"), // DOPSUM: WRITE IPA IN AMERICAN ENGLISH
+                            const IPAofEnglish(text: "IpaUS: /əkˈsesəbl/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakaccessible("en-US"),
                             ),

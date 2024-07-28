@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The movie was released with little fanfare in 2019.""");
   }
 
-// With short examples define "fanfare", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """Officials ordered the evacuation of the building as the fire spread.""");
   }
 
-// With short examples define "evacuation", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

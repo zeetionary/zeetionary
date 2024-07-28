@@ -159,7 +159,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەفاوی، کەف‌پۆش، کەف‌کردوو، لەکەفەوەدراو،	سووک، ھیچ، بێ‌بایەخ، فشە، ئایەخ، بێ‌واتا
 """),
-// With short examples define "frothy", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) شلەیەک کە کەفی کردووە"""),
                     SentencesRow(
@@ -248,7 +247,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = '6NOtF4l9i9g';
 const double _startSecondsend = 148;
 const String _videoIdone = 'qS250xspGmI';

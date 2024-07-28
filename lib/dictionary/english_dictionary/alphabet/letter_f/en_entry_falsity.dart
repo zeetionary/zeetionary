@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""There are quite a few falsities in this article.""");
   }
 
-// With short examples define "falsity", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

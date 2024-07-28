@@ -420,22 +420,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeachs5("en-GB"),
             onPressedAmerican: () => speakeachs5("en-US"),
           ),
-          // eachs600eachs6
-          // eachs700eachs7
-          // eachs800eachs8
-          // eachs900eachs9
-          // eachs_1000eachs10
-          // eachs1100eachs11
-          // eachs1200eachs12
-          // eachs1300eachs13
-          // eachs1400eachs14
-          // eachs1500eachs15
-          // eachs1600eachs16
-          // eachs1700eachs17
-          // eachs1800eachs18
-          // eachs1900eachs19
-          // eachs_2000eachs20
-          // eachs2100eachs21
           // eachs2200eachseachs
         ],
       ),

@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "foster", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) گەشەپێدانی شتێک"""),
                     SentencesRow(
@@ -313,7 +312,6 @@ ${englishMeaningConst.text}
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'TKoCWh2yneM';
 const double _startSecondsend = 336;
 const String _videoIdone = 'vn1_vUghWzA';

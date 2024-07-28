@@ -248,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""The music was expertly performed.""");
   }
 
-// With short examples define "expertly", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

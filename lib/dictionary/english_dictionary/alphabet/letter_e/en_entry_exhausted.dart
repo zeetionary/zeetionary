@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""You cannot grow crops on exhausted land.""");
   }
 
-// With short examples define "exhausted", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -269,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""Could you fax it to me?""");
   }
 
-// With short examples define "fax", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

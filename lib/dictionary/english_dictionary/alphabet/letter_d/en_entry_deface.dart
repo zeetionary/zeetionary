@@ -250,8 +250,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (ھاوەڵناو) پێنناسە"),
-          // defaces300"),
-          // defaces3("en-US"),
         ],
       ),
     );

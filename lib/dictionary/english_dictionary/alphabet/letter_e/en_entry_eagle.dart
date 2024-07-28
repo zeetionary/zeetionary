@@ -384,26 +384,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeagles2("en-GB"),
             onPressedAmerican: () => speakeagles2("en-US"),
           ),
-          // eagles300eagles3
-          // eagles400eagles4
-          // eagles500eagles5
-          // eagles600eagles6
-          // eagles700eagles7
-          // eagles800eagles8
-          // eagles900eagles9
-          // eagles_1000eagles10
-          // eagles1100eagles11
-          // eagles1200eagles12
-          // eagles1300eagles13
-          // eagles1400eagles14
-          // eagles1500eagles15
-          // eagles1600eagles16
-          // eagles1700eagles17
-          // eagles1800eagles18
-          // eagles1900eagles19
-          // eagles_2000eagles20
-          // eagles2100eagles21
-          // eagles2200eagleseagles
         ],
       ),
     );

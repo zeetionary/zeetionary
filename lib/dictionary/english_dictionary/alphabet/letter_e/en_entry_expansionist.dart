@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""He was a ruthless expansionist.""");
   }
 
-// With short examples define "expansionist", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

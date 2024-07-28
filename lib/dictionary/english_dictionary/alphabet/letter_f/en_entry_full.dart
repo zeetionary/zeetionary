@@ -429,7 +429,6 @@ Noun: full (derived forms: fullerfulls)
                     const KurdishVocabulary(text: """
 کوردی: پڕ، تژی، سەرڕێژ، لێوڕێژ، قەڵاپرچن، دارماڵ، کەلالە، زەبەند،	خڕیلانە، قەڵەو، گۆشتن، خروخۆڵ،	تەواو، ڕەبەق،	دوورودرێژ، تێروتەسەل، تێروپڕ، چڕوپڕ،	گیراو، سەرقاڵ، پڕکار، دەس‌گیراو، خەریک،	تێر، نەبرسی،	تۆخ، توند، پڕڕەنگ،	(جل‌وبەرگ) ھەراو، فش،	زرینگاوە، گڕ، پڕزرینگە،	(مانگ) پڕ، (مانگی) شەوی چاردە، ھەلاب
 """),
-// With short examples define "full", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پڕ"""),
                     SentencesRow(
                       englishText:
@@ -814,7 +813,6 @@ Noun: full (derived forms: fullerfulls)
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'VrKW58MS12g';
 const double _startSecondsend = 435;
 const String _videoIdone = '_Z0ZQT0FttM';

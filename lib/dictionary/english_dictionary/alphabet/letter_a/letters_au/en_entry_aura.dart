@@ -108,8 +108,7 @@ class EnglishEntryaura extends StatelessWidget {
                       children: [
                         const Row(
                           children: [
-                            EntryTitle(
-                                word: "aura"), // DOPSUM: CHANGE WORD ENTRY
+                            EntryTitle(word: "aura"),
                             // divvviiider
                           ],
                         ),

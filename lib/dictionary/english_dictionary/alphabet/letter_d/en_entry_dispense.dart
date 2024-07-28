@@ -262,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٢. (کردار) دابینکردنی شتێک، بەتایبەتی خزمەتگوزاری، بۆ خەڵکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "The organization dispenses free healthcare to those who need it.",
@@ -282,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (کردار) ئامادەکردنی دەرمان و پێدانی بە خەڵکی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "A pharmacist will never dispense a prescription unless they know it is genuine.",
@@ -291,42 +289,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdispenses4("en-GB"),
             onPressedAmerican: () => speakdispenses4("en-US"),
           ),
-          // dispenses500"),
-          // dispenses5("en-US"),
-          // dispenses600"),
-          // dispenses6("en-US"),
-          // dispenses700"),
-          // dispenses7("en-US"),
-          // dispenses800"),
-          // dispenses8("en-US"),
-          // dispenses900"),
-          // dispenses9("en-US"),
-          // dispenses_1000"),
-          // dispenses10("en-US"),
-          // dispenses1100"),
-          // dispenses11("en-US"),
-          // dispenses1200"),
-          // dispenses12("en-US"),
-          // dispenses1300"),
-          // dispenses13("en-US"),
-          // dispenses1400"),
-          // dispenses14("en-US"),
-          // dispenses1500"),
-          // dispenses15("en-US"),
-          // dispenses1600"),
-          // dispenses16("en-US"),
-          // dispenses1700"),
-          // dispenses17("en-US"),
-          // dispenses1800"),
-          // dispenses18("en-US"),
-          // dispenses1900"),
-          // dispenses19("en-US"),
-          // dispenses_2000"),
-          // dispenses20("en-US"),
-          // dispenses2100"),
-          // dispenses21("en-US"),
-          // dispenses2200"),
-          // dispenses22("en-US"),
         ],
       ),
     );

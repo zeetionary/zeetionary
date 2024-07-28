@@ -281,7 +281,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The movement is undergoing an ideological evolution.""");
   }
 
-// With short examples define "evolution", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

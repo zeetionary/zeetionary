@@ -342,7 +342,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Olive oil and garlic feature prominently in his recipes.""");
   }
 
-// With short examples define "feature", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

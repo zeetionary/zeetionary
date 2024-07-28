@@ -385,26 +385,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakelectricians2("en-GB"),
             onPressedAmerican: () => speakelectricians2("en-US"),
           ),
-          // electricians300electricians3
-          // electricians400electricians4
-          // electricians500electricians5
-          // electricians600electricians6
-          // electricians700electricians7
-          // electricians800electricians8
-          // electricians900electricians9
-          // electricians_1000electricians10
-          // electricians1100electricians11
-          // electricians1200electricians12
-          // electricians1300electricians13
-          // electricians1400electricians14
-          // electricians1500electricians15
-          // electricians1600electricians16
-          // electricians1700electricians17
-          // electricians1800electricians18
-          // electricians1900electricians19
-          // electricians_2000electricians20
-          // electricians2100electricians21
-          // electricians2200electricianselectricians
         ],
       ),
     );

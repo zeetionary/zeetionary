@@ -571,11 +571,9 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٢. (ناو) شوێنی پزیشک کە تێیدا نەخۆش دەبینێت"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Why don't you go to the doctor's?",
             kurdishText: "بۆچی ناچیت بۆ لای پزیشکەکە؟",
@@ -585,7 +583,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٣. (ناو) کەسێک کە بەرزترین بڕوانامەی زانکۆی ھەیە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText:
                 "After years of hard work, she finally became a doctor of psychology.",
@@ -597,7 +594,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٤. (کردار) گۆڕینی شتێک بۆ خەڵەتاندنی کەسێک"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "He was accused of doctoring the figures.",
             kurdishText: "تاوانبارکرا بە چەواشەکردنی ئامارەکان.",
@@ -608,23 +604,12 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   "٥. (کردار) زیادکردنی شتێکی زیانبەخش یان ژەھراوی بۆ خواردن یان خواردنەوە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "The wine had been doctored.",
             kurdishText: "شەرابەکە ژەھراوی کرابوو.",
             onPressedBritish: () => speakdoctors17("en-GB"),
             onPressedAmerican: () => speakdoctors17("en-US"),
           ),
-          // doctors1800"),
-          // doctors18("en-US"),
-          // doctors1900"),
-          // doctors19("en-US"),
-          // doctors_2000"),
-          // doctors20("en-US"),
-          // doctors2100"),
-          // doctors21("en-US"),
-          // doctors2200"),
-          // doctors22("en-US"),
         ],
       ),
     );

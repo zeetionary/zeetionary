@@ -241,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""// speaksentence100000""");
   }
 
-// With short examples define "facecloth", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

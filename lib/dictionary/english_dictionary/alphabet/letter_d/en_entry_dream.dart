@@ -553,7 +553,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) ھیوا و ئاواتێک کە ھەتە"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Her lifelong dream was to be a famous writer.",
             kurdishText: "خەونی لەمێژینەی ئەوە بوو ببێت بە نووسەر.",
@@ -606,12 +605,10 @@ class KurdishMeaning extends StatelessWidget {
               ),
             ],
           ),
-
           const DividerDefinition(),
           const DefinitionKurdish(
               text:
                   "٣. (ناو) دۆخێک کە تێیدا شتەکان ڕاستی نین یان بەشێک نین لە ژیانی ئاسایی"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "She walked around in a dream all day.",
             kurdishText: "تەواوی ڕۆژەکە بە خەیاڵەوە بە ڕێگادا دەچوو.",
@@ -629,7 +626,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٤. (ناو) کەسێک یان شتێکی جوان"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "That meal was an absolute dream.",
             kurdishText: "چێشتەکە تەواو ناوازە بوو.",
@@ -638,7 +634,6 @@ class KurdishMeaning extends StatelessWidget {
           ),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٥. (کردار) خەوبینین"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "Did I talk in my sleep? I must have been dreaming.",
             kurdishText: "لە خەوەکەمدا قسەم کرد؟ دەبێت خەونم بینیبێت.",
@@ -669,7 +664,6 @@ class KurdishMeaning extends StatelessWidget {
           const DividerDefinition(),
           const DefinitionKurdish(
               text: "٦. (کردار) خەیاڵکردن بەو شتانەی کە دەتەوێت ڕووبدەن"),
-          // const DividerSentences(),
           SentencesRow(
             englishText: "It was the kind of trip most of us only dream about.",
             kurdishText:

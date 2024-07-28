@@ -240,7 +240,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""‘Pass away’ is a euphemism for ‘die’.""");
   }
 
-// With short examples define "euphemism", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -249,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
         """An enzyme in the saliva of the mouth starts the process of breaking down the food.""");
   }
 
-// With short examples define "enzyme", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -168,7 +168,6 @@ The act of inspiring with fear (= terrorization, terrorisation [Brit])
                     const KurdishVocabulary(text: """
 کوردی: ترسێنەر، ترسناک، جێی‌ترس، تۆقێنەر
 """),
-// With short examples define "frightening", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە وات لێدەکات بترسیت"""),
                     SentencesRow(
@@ -261,7 +260,6 @@ The act of inspiring with fear (= terrorization, terrorisation [Brit])
   }
 }
 
-// 188888880002200
 const String _videoIdend = 'PkUg89kLLBE';
 const double _startSecondsend = 748;
 const String _videoIdone = 'kElsSj8hky4';

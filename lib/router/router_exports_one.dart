@@ -4373,21 +4373,21 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gawp.dart' show EnglishEntrygawp
 // en_entry_gay.dart' show EnglishEntrygay
 // en_entry_gaze.dart' show EnglishEntrygaze
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_gazelle.dart' show EnglishEntrygazelle
+// en_entry_gazette.dart' show EnglishEntrygazette
+// en_entry_gazump.dart' show EnglishEntrygazump
+// en_entry_gdp.dart' show EnglishEntrygdp //// ffff GDP
+// en_entry_gear.dart' show EnglishEntrygear
+// en_entry_gearbox.dart' show EnglishEntrygearbox
+// en_entry_gear_lever.dart' show EnglishEntrygearlever //// ffff gear lever
+// en_entry_geek.dart' show EnglishEntrygeek
+// en_entry_geeky.dart' show EnglishEntrygeeky
+// en_entry_gelatin.dart' show EnglishEntrygelatin
+// en_entry_gelding.dart' show EnglishEntrygelding
+// en_entry_gelignite.dart' show EnglishEntrygelignite
+// en_entry_gem.dart' show EnglishEntrygem
+// en_entry_gender.dart' show EnglishEntrygender
+// en_entry_gene.dart' show EnglishEntrygene
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

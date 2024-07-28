@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublebarrelleds1("en-US"),
           ),
           // doublebarrelleds200"),
-          // speakdoublebarrelleds2
           // doublebarrelleds2("en-US"),
           // doublebarrelleds300"),
-          // speakdoublebarrelleds3
           // doublebarrelleds3("en-US"),
           // doublebarrelleds400"),
-          // speakdoublebarrelleds4
           // doublebarrelleds4("en-US"),
           // doublebarrelleds500"),
-          // speakdoublebarrelleds5
           // doublebarrelleds5("en-US"),
           // doublebarrelleds600"),
-          // speakdoublebarrelleds6
           // doublebarrelleds6("en-US"),
           // doublebarrelleds700"),
-          // speakdoublebarrelleds7
           // doublebarrelleds7("en-US"),
           // doublebarrelleds800"),
-          // speakdoublebarrelleds8
           // doublebarrelleds8("en-US"),
           // doublebarrelleds900"),
-          // speakdoublebarrelleds9
           // doublebarrelleds9("en-US"),
           // doublebarrelleds_1000"),
-          // speakdoublebarrelleds10
           // doublebarrelleds10("en-US"),
           // doublebarrelleds1100"),
-          // speakdoublebarrelleds11
           // doublebarrelleds11("en-US"),
           // doublebarrelleds1200"),
-          // speakdoublebarrelleds12
           // doublebarrelleds12("en-US"),
           // doublebarrelleds1300"),
-          // speakdoublebarrelleds13
           // doublebarrelleds13("en-US"),
           // doublebarrelleds1400"),
-          // speakdoublebarrelleds14
           // doublebarrelleds14("en-US"),
           // doublebarrelleds1500"),
-          // speakdoublebarrelleds15
           // doublebarrelleds15("en-US"),
           // doublebarrelleds1600"),
-          // speakdoublebarrelleds16
           // doublebarrelleds16("en-US"),
           // doublebarrelleds1700"),
-          // speakdoublebarrelleds17
           // doublebarrelleds17("en-US"),
           // doublebarrelleds1800"),
-          // speakdoublebarrelleds18
           // doublebarrelleds18("en-US"),
           // doublebarrelleds1900"),
-          // speakdoublebarrelleds19
           // doublebarrelleds19("en-US"),
           // doublebarrelleds_2000"),
-          // speakdoublebarrelleds20
           // doublebarrelleds20("en-US"),
           // doublebarrelleds2100"),
-          // speakdoublebarrelleds21
           // doublebarrelleds21("en-US"),
           // doublebarrelleds2200"),
-          // speakdoublebarrelleds22
           // doublebarrelleds22("en-US"),
         ],
       ),

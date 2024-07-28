@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdews2("en-US"),
           ),
           // dews300"),
-          // speakdews3
           // dews3("en-US"),
           // dews400"),
-          // speakdews4
           // dews4("en-US"),
           // dews500"),
-          // speakdews5
           // dews5("en-US"),
           // dews600"),
-          // speakdews6
           // dews6("en-US"),
           // dews700"),
-          // speakdews7
           // dews7("en-US"),
           // dews800"),
-          // speakdews8
           // dews8("en-US"),
           // dews900"),
-          // speakdews9
           // dews9("en-US"),
           // dews_1000"),
-          // speakdews10
           // dews10("en-US"),
           // dews1100"),
-          // speakdews11
           // dews11("en-US"),
           // dews1200"),
-          // speakdews12
           // dews12("en-US"),
           // dews1300"),
-          // speakdews13
           // dews13("en-US"),
           // dews1400"),
-          // speakdews14
           // dews14("en-US"),
           // dews1500"),
-          // speakdews15
           // dews15("en-US"),
           // dews1600"),
-          // speakdews16
           // dews16("en-US"),
           // dews1700"),
-          // speakdews17
           // dews17("en-US"),
           // dews1800"),
-          // speakdews18
           // dews18("en-US"),
           // dews1900"),
-          // speakdews19
           // dews19("en-US"),
           // dews_2000"),
-          // speakdews20
           // dews20("en-US"),
           // dews2100"),
-          // speakdews21
           // dews21("en-US"),
           // dews2200"),
-          // speakdews22
           // dews22("en-US"),
         ],
       ),

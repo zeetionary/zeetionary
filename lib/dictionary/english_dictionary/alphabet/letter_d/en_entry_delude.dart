@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -275,61 +273,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeludes3("en-US"),
           ),
           // deludes400"),
-          // speakdeludes4
           // deludes4("en-US"),
           // deludes500"),
-          // speakdeludes5
           // deludes5("en-US"),
           // deludes600"),
-          // speakdeludes6
           // deludes6("en-US"),
           // deludes700"),
-          // speakdeludes7
           // deludes7("en-US"),
           // deludes800"),
-          // speakdeludes8
           // deludes8("en-US"),
           // deludes900"),
-          // speakdeludes9
           // deludes9("en-US"),
           // deludes1000"),
-          // speakdeludes10
           // deludes10("en-US"),
           // deludes1100"),
-          // speakdeludes11
           // deludes11("en-US"),
           // deludes1200"),
-          // speakdeludes12
           // deludes12("en-US"),
           // deludes1300"),
-          // speakdeludes13
           // deludes13("en-US"),
           // deludes1400"),
-          // speakdeludes14
           // deludes14("en-US"),
           // deludes1500"),
-          // speakdeludes15
           // deludes15("en-US"),
           // deludes1600"),
-          // speakdeludes16
           // deludes16("en-US"),
           // deludes1700"),
-          // speakdeludes17
           // deludes17("en-US"),
           // deludes1800"),
-          // speakdeludes18
           // deludes18("en-US"),
           // deludes1900"),
-          // speakdeludes19
           // deludes19("en-US"),
           // "He's deluding himself if he thinks it's going to be easy.0"),
-          // speakdeludes20
           // deludes20("en-US"),
           // deludes2100"),
-          // speakdeludes21
           // deludes21("en-US"),
           // deludes2200"),
-          // speakdeludes22
           // deludes22("en-US"),
         ],
       ),

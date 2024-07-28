@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoorways2("en-US"),
           ),
           // doorways300"),
-          // speakdoorways3
           // doorways3("en-US"),
           // doorways400"),
-          // speakdoorways4
           // doorways4("en-US"),
           // doorways500"),
-          // speakdoorways5
           // doorways5("en-US"),
           // doorways600"),
-          // speakdoorways6
           // doorways6("en-US"),
           // doorways700"),
-          // speakdoorways7
           // doorways7("en-US"),
           // doorways800"),
-          // speakdoorways8
           // doorways8("en-US"),
           // doorways900"),
-          // speakdoorways9
           // doorways9("en-US"),
           // doorways_1000"),
-          // speakdoorways10
           // doorways10("en-US"),
           // doorways1100"),
-          // speakdoorways11
           // doorways11("en-US"),
           // doorways1200"),
-          // speakdoorways12
           // doorways12("en-US"),
           // doorways1300"),
-          // speakdoorways13
           // doorways13("en-US"),
           // doorways1400"),
-          // speakdoorways14
           // doorways14("en-US"),
           // doorways1500"),
-          // speakdoorways15
           // doorways15("en-US"),
           // doorways1600"),
-          // speakdoorways16
           // doorways16("en-US"),
           // doorways1700"),
-          // speakdoorways17
           // doorways17("en-US"),
           // doorways1800"),
-          // speakdoorways18
           // doorways18("en-US"),
           // doorways1900"),
-          // speakdoorways19
           // doorways19("en-US"),
           // doorways_2000"),
-          // speakdoorways20
           // doorways20("en-US"),
           // doorways2100"),
-          // speakdoorways21
           // doorways21("en-US"),
           // doorways2200"),
-          // speakdoorways22
           // doorways22("en-US"),
         ],
       ),

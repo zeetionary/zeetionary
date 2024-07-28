@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,43 +382,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakembarkations2("en-US"),
           ),
           // embarkations300embarkations3
-          // speakembarkations3
           // embarkations400embarkations4
-          // speakembarkations4
           // embarkations500embarkations5
-          // speakembarkations5
           // embarkations600embarkations6
-          // speakembarkations6
           // embarkations700embarkations7
-          // speakembarkations7
           // embarkations800embarkations8
-          // speakembarkations8
           // embarkations900embarkations9
-          // speakembarkations9
           // embarkations_1000embarkations10
-          // speakembarkations10
           // embarkations1100embarkations11
-          // speakembarkations11
           // embarkations1200embarkations12
-          // speakembarkations12
           // embarkations1300embarkations13
-          // speakembarkations13
           // embarkations1400embarkations14
-          // speakembarkations14
           // embarkations1500embarkations15
-          // speakembarkations15
           // embarkations1600embarkations16
-          // speakembarkations16
           // embarkations1700embarkations17
-          // speakembarkations17
           // embarkations1800embarkations18
-          // speakembarkations18
           // embarkations1900embarkations19
-          // speakembarkations19
           // embarkations_2000embarkations20
-          // speakembarkations20
           // embarkations2100embarkations21
-          // speakembarkations21
           // embarkations2200embarkations22
           // speakembarkations22("en-US"""),
           //         ),

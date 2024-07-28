@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesertislands1("en-US"),
           ),
           // desertislands200"),
-          // speakdesertislands2
           // desertislands2("en-US"),
           // desertislands300"),
-          // speakdesertislands3
           // desertislands3("en-US"),
           // desertislands400"),
-          // speakdesertislands4
           // desertislands4("en-US"),
           // desertislands500"),
-          // speakdesertislands5
           // desertislands5("en-US"),
           // desertislands600"),
-          // speakdesertislands6
           // desertislands6("en-US"),
           // desertislands700"),
-          // speakdesertislands7
           // desertislands7("en-US"),
           // desertislands800"),
-          // speakdesertislands8
           // desertislands8("en-US"),
           // desertislands900"),
-          // speakdesertislands9
           // desertislands9("en-US"),
           // desertislands1000"),
-          // speakdesertislands10
           // desertislands10("en-US"),
           // desertislands1100"),
-          // speakdesertislands11
           // desertislands11("en-US"),
           // desertislands1200"),
-          // speakdesertislands12
           // desertislands12("en-US"),
           // desertislands1300"),
-          // speakdesertislands13
           // desertislands13("en-US"),
           // desertislands1400"),
-          // speakdesertislands14
           // desertislands14("en-US"),
           // desertislands1500"),
-          // speakdesertislands15
           // desertislands15("en-US"),
           // desertislands1600"),
-          // speakdesertislands16
           // desertislands16("en-US"),
           // desertislands1700"),
-          // speakdesertislands17
           // desertislands17("en-US"),
           // desertislands1800"),
-          // speakdesertislands18
           // desertislands18("en-US"),
           // desertislands1900"),
-          // speakdesertislands19
           // desertislands19("en-US"),
           // desertislands2000"),
-          // speakdesertislands20
           // desertislands20("en-US"),
           // desertislands2100"),
-          // speakdesertislands21
           // desertislands21("en-US"),
           // desertislands2200"),
-          // speakdesertislands22
           // desertislands22("en-US"),
         ],
       ),

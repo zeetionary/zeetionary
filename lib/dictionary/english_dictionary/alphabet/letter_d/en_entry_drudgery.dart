@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -365,67 +363,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrudgerys1("en-US"),
           ),
           // drudgerys200"),
-          // speakdrudgerys2
           // drudgerys2("en-US"),
           // drudgerys300"),
-          // speakdrudgerys3
           // drudgerys3("en-US"),
           // drudgerys400"),
-          // speakdrudgerys4
           // drudgerys4("en-US"),
           // drudgerys500"),
-          // speakdrudgerys5
           // drudgerys5("en-US"),
           // drudgerys600"),
-          // speakdrudgerys6
           // drudgerys6("en-US"),
           // drudgerys700"),
-          // speakdrudgerys7
           // drudgerys7("en-US"),
           // drudgerys800"),
-          // speakdrudgerys8
           // drudgerys8("en-US"),
           // drudgerys900"),
-          // speakdrudgerys9
           // drudgerys9("en-US"),
           // drudgerys_1000"),
-          // speakdrudgerys10
           // drudgerys10("en-US"),
           // drudgerys1100"),
-          // speakdrudgerys11
           // drudgerys11("en-US"),
           // drudgerys1200"),
-          // speakdrudgerys12
           // drudgerys12("en-US"),
           // drudgerys1300"),
-          // speakdrudgerys13
           // drudgerys13("en-US"),
           // drudgerys1400"),
-          // speakdrudgerys14
           // drudgerys14("en-US"),
           // drudgerys1500"),
-          // speakdrudgerys15
           // drudgerys15("en-US"),
           // drudgerys1600"),
-          // speakdrudgerys16
           // drudgerys16("en-US"),
           // drudgerys1700"),
-          // speakdrudgerys17
           // drudgerys17("en-US"),
           // drudgerys1800"),
-          // speakdrudgerys18
           // drudgerys18("en-US"),
           // drudgerys1900"),
-          // speakdrudgerys19
           // drudgerys19("en-US"),
           // drudgerys_2000"),
-          // speakdrudgerys20
           // drudgerys20("en-US"),
           // drudgerys2100"),
-          // speakdrudgerys21
           // drudgerys21("en-US"),
           // drudgerys2200"),
-          // speakdrudgerys22
           // drudgerys22("en-US"),
         ],
       ),

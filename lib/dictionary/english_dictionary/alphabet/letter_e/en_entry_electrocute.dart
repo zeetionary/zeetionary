@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -385,43 +383,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectrocutes2("en-US"),
           ),
           // electrocutes300electrocutes3
-          // speakelectrocutes3
           // electrocutes400electrocutes4
-          // speakelectrocutes4
           // electrocutes500electrocutes5
-          // speakelectrocutes5
           // electrocutes600electrocutes6
-          // speakelectrocutes6
           // electrocutes700electrocutes7
-          // speakelectrocutes7
           // electrocutes800electrocutes8
-          // speakelectrocutes8
           // electrocutes900electrocutes9
-          // speakelectrocutes9
           // electrocutes_1000electrocutes10
-          // speakelectrocutes10
           // electrocutes1100electrocutes11
-          // speakelectrocutes11
           // electrocutes1200electrocutes12
-          // speakelectrocutes12
           // electrocutes1300electrocutes13
-          // speakelectrocutes13
           // electrocutes1400electrocutes14
-          // speakelectrocutes14
           // electrocutes1500electrocutes15
-          // speakelectrocutes15
           // electrocutes1600electrocutes16
-          // speakelectrocutes16
           // electrocutes1700electrocutes17
-          // speakelectrocutes17
           // electrocutes1800electrocutes18
-          // speakelectrocutes18
           // electrocutes1900electrocutes19
-          // speakelectrocutes19
           // electrocutes_2000electrocutes20
-          // speakelectrocutes20
           // electrocutes2100electrocutes21
-          // speakelectrocutes21
           // electrocutes2200electrocutes22
           // speakelectrocutes22("en-US"""),
           //         ),

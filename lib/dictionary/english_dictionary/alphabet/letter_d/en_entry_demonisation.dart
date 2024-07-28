@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemonisations1("en-US"),
           ),
           // demonisations200"),
-          // speakdemonisations2
           // demonisations2("en-US"),
           // demonisations300"),
-          // speakdemonisations3
           // demonisations3("en-US"),
           // demonisations400"),
-          // speakdemonisations4
           // demonisations4("en-US"),
           // demonisations500"),
-          // speakdemonisations5
           // demonisations5("en-US"),
           // demonisations600"),
-          // speakdemonisations6
           // demonisations6("en-US"),
           // demonisations700"),
-          // speakdemonisations7
           // demonisations7("en-US"),
           // demonisations800"),
-          // speakdemonisations8
           // demonisations8("en-US"),
           // demonisations900"),
-          // speakdemonisations9
           // demonisations9("en-US"),
           // demonisations1000"),
-          // speakdemonisations10
           // demonisations10("en-US"),
           // demonisations1100"),
-          // speakdemonisations11
           // demonisations11("en-US"),
           // demonisations1200"),
-          // speakdemonisations12
           // demonisations12("en-US"),
           // demonisations1300"),
-          // speakdemonisations13
           // demonisations13("en-US"),
           // demonisations1400"),
-          // speakdemonisations14
           // demonisations14("en-US"),
           // demonisations1500"),
-          // speakdemonisations15
           // demonisations15("en-US"),
           // demonisations1600"),
-          // speakdemonisations16
           // demonisations16("en-US"),
           // demonisations1700"),
-          // speakdemonisations17
           // demonisations17("en-US"),
           // demonisations1800"),
-          // speakdemonisations18
           // demonisations18("en-US"),
           // demonisations1900"),
-          // speakdemonisations19
           // demonisations19("en-US"),
           // demonisations2000"),
-          // speakdemonisations20
           // demonisations20("en-US"),
           // demonisations2100"),
-          // speakdemonisations21
           // demonisations21("en-US"),
           // demonisations2200"),
-          // speakdemonisations22
           // demonisations22("en-US"),
         ],
       ),

@@ -285,9 +285,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -376,43 +374,30 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelicates9("en-US"),
           ),
           // delicates1000"),
-          // speakdelicates10
           // delicates10("en-US"),
           // delicates1100"),
-          // speakdelicates11
           // delicates11("en-US"),
           // delicates1200"),
-          // speakdelicates12
           // delicates12("en-US"),
           // delicates1300"),
-          // speakdelicates13
           // delicates13("en-US"),
           // delicates1400"),
-          // speakdelicates14
           // delicates14("en-US"),
           // delicates1500"),
-          // speakdelicates15
           // delicates15("en-US"),
           // delicates1600"),
-          // speakdelicates16
           // delicates16("en-US"),
           // delicates1700"),
-          // speakdelicates17
           // delicates17("en-US"),
           // delicates1800"),
-          // speakdelicates18
           // delicates18("en-US"),
           // delicates1900"),
-          // speakdelicates19
           // delicates19("en-US"),
           // "Babies have very delicate skin.0"),
-          // speakdelicates20
           // delicates20("en-US"),
           // delicates2100"),
-          // speakdelicates21
           // delicates21("en-US"),
           // delicates2200"),
-          // speakdelicates22
           // delicates22("en-US"),
         ],
       ),

@@ -253,9 +253,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -297,58 +295,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestructions4("en-US"),
           ),
           // destructions500"),
-          // speakdestructions5
           // destructions5("en-US"),
           // destructions600"),
-          // speakdestructions6
           // destructions6("en-US"),
           // destructions700"),
-          // speakdestructions7
           // destructions7("en-US"),
           // destructions800"),
-          // speakdestructions8
           // destructions8("en-US"),
           // destructions900"),
-          // speakdestructions9
           // destructions9("en-US"),
           // destructions1000"),
-          // speakdestructions10
           // destructions10("en-US"),
           // destructions1100"),
-          // speakdestructions11
           // destructions11("en-US"),
           // destructions1200"),
-          // speakdestructions12
           // destructions12("en-US"),
           // destructions1300"),
-          // speakdestructions13
           // destructions13("en-US"),
           // destructions1400"),
-          // speakdestructions14
           // destructions14("en-US"),
           // destructions1500"),
-          // speakdestructions15
           // destructions15("en-US"),
           // destructions1600"),
-          // speakdestructions16
           // destructions16("en-US"),
           // destructions1700"),
-          // speakdestructions17
           // destructions17("en-US"),
           // destructions1800"),
-          // speakdestructions18
           // destructions18("en-US"),
           // destructions1900"),
-          // speakdestructions19
           // destructions19("en-US"),
           // "He had miraculously survived the destruction of the spacecraft.0"),
-          // speakdestructions20
           // destructions20("en-US"),
           // destructions2100"),
-          // speakdestructions21
           // destructions21("en-US"),
           // destructions2200"),
-          // speakdestructions22
           // destructions22("en-US"),
         ],
       ),

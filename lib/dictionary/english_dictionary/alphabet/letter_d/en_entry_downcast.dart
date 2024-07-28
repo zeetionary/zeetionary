@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdowncasts2("en-US"),
           ),
           // downcasts300"),
-          // speakdowncasts3
           // downcasts3("en-US"),
           // downcasts400"),
-          // speakdowncasts4
           // downcasts4("en-US"),
           // downcasts500"),
-          // speakdowncasts5
           // downcasts5("en-US"),
           // downcasts600"),
-          // speakdowncasts6
           // downcasts6("en-US"),
           // downcasts700"),
-          // speakdowncasts7
           // downcasts7("en-US"),
           // downcasts800"),
-          // speakdowncasts8
           // downcasts8("en-US"),
           // downcasts900"),
-          // speakdowncasts9
           // downcasts9("en-US"),
           // downcasts_1000"),
-          // speakdowncasts10
           // downcasts10("en-US"),
           // downcasts1100"),
-          // speakdowncasts11
           // downcasts11("en-US"),
           // downcasts1200"),
-          // speakdowncasts12
           // downcasts12("en-US"),
           // downcasts1300"),
-          // speakdowncasts13
           // downcasts13("en-US"),
           // downcasts1400"),
-          // speakdowncasts14
           // downcasts14("en-US"),
           // downcasts1500"),
-          // speakdowncasts15
           // downcasts15("en-US"),
           // downcasts1600"),
-          // speakdowncasts16
           // downcasts16("en-US"),
           // downcasts1700"),
-          // speakdowncasts17
           // downcasts17("en-US"),
           // downcasts1800"),
-          // speakdowncasts18
           // downcasts18("en-US"),
           // downcasts1900"),
-          // speakdowncasts19
           // downcasts19("en-US"),
           // downcasts_2000"),
-          // speakdowncasts20
           // downcasts20("en-US"),
           // downcasts2100"),
-          // speakdowncasts21
           // downcasts21("en-US"),
           // downcasts2200"),
-          // speakdowncasts22
           // downcasts22("en-US"),
         ],
       ),

@@ -249,9 +249,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -294,58 +292,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeletes4("en-US"),
           ),
           // deletes500"),
-          // speakdeletes5
           // deletes5("en-US"),
           // deletes600"),
-          // speakdeletes6
           // deletes6("en-US"),
           // deletes700"),
-          // speakdeletes7
           // deletes7("en-US"),
           // deletes800"),
-          // speakdeletes8
           // deletes8("en-US"),
           // deletes900"),
-          // speakdeletes9
           // deletes9("en-US"),
           // deletes1000"),
-          // speakdeletes10
           // deletes10("en-US"),
           // deletes1100"),
-          // speakdeletes11
           // deletes11("en-US"),
           // deletes1200"),
-          // speakdeletes12
           // deletes12("en-US"),
           // deletes1300"),
-          // speakdeletes13
           // deletes13("en-US"),
           // deletes1400"),
-          // speakdeletes14
           // deletes14("en-US"),
           // deletes1500"),
-          // speakdeletes15
           // deletes15("en-US"),
           // deletes1600"),
-          // speakdeletes16
           // deletes16("en-US"),
           // deletes1700"),
-          // speakdeletes17
           // deletes17("en-US"),
           // deletes1800"),
-          // speakdeletes18
           // deletes18("en-US"),
           // deletes1900"),
-          // speakdeletes19
           // deletes19("en-US"),
           // "Delete the word ‘it’ and insert ‘them’.0"),
-          // speakdeletes20
           // deletes20("en-US"),
           // deletes2100"),
-          // speakdeletes21
           // deletes21("en-US"),
           // deletes2200"),
-          // speakdeletes22
           // deletes22("en-US"),
         ],
       ),

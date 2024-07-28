@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -278,61 +276,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefiantlys3("en-US"),
           ),
           // defiantlys400"),
-          // speakdefiantlys4
           // defiantlys4("en-US"),
           // defiantlys500"),
-          // speakdefiantlys5
           // defiantlys5("en-US"),
           // defiantlys600"),
-          // speakdefiantlys6
           // defiantlys6("en-US"),
           // defiantlys700"),
-          // speakdefiantlys7
           // defiantlys7("en-US"),
           // defiantlys800"),
-          // speakdefiantlys8
           // defiantlys8("en-US"),
           // defiantlys900"),
-          // speakdefiantlys9
           // defiantlys9("en-US"),
           // defiantlys1000"),
-          // speakdefiantlys10
           // defiantlys10("en-US"),
           // defiantlys1100"),
-          // speakdefiantlys11
           // defiantlys11("en-US"),
           // defiantlys1200"),
-          // speakdefiantlys12
           // defiantlys12("en-US"),
           // defiantlys1300"),
-          // speakdefiantlys13
           // defiantlys13("en-US"),
           // defiantlys1400"),
-          // speakdefiantlys14
           // defiantlys14("en-US"),
           // defiantlys1500"),
-          // speakdefiantlys15
           // defiantlys15("en-US"),
           // defiantlys1600"),
-          // speakdefiantlys16
           // defiantlys16("en-US"),
           // defiantlys1700"),
-          // speakdefiantlys17
           // defiantlys17("en-US"),
           // defiantlys1800"),
-          // speakdefiantlys18
           // defiantlys18("en-US"),
           // defiantlys1900"),
-          // speakdefiantlys19
           // defiantlys19("en-US"),
           // "They defiantly refused to identify themselves in court.0"),
-          // speakdefiantlys20
           // defiantlys20("en-US"),
           // defiantlys2100"),
-          // speakdefiantlys21
           // defiantlys21("en-US"),
           // defiantlys2200"),
-          // speakdefiantlys22
           // defiantlys22("en-US"),
         ],
       ),

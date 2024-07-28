@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistastes2("en-US"),
           ),
           // distastes300"),
-          // speakdistastes3
           // distastes3("en-US"),
           // distastes400"),
-          // speakdistastes4
           // distastes4("en-US"),
           // distastes500"),
-          // speakdistastes5
           // distastes5("en-US"),
           // distastes600"),
-          // speakdistastes6
           // distastes6("en-US"),
           // distastes700"),
-          // speakdistastes7
           // distastes7("en-US"),
           // distastes800"),
-          // speakdistastes8
           // distastes8("en-US"),
           // distastes900"),
-          // speakdistastes9
           // distastes9("en-US"),
           // distastes_1000"),
-          // speakdistastes10
           // distastes10("en-US"),
           // distastes1100"),
-          // speakdistastes11
           // distastes11("en-US"),
           // distastes1200"),
-          // speakdistastes12
           // distastes12("en-US"),
           // distastes1300"),
-          // speakdistastes13
           // distastes13("en-US"),
           // distastes1400"),
-          // speakdistastes14
           // distastes14("en-US"),
           // distastes1500"),
-          // speakdistastes15
           // distastes15("en-US"),
           // distastes1600"),
-          // speakdistastes16
           // distastes16("en-US"),
           // distastes1700"),
-          // speakdistastes17
           // distastes17("en-US"),
           // distastes1800"),
-          // speakdistastes18
           // distastes18("en-US"),
           // distastes1900"),
-          // speakdistastes19
           // distastes19("en-US"),
           // distastes_2000"),
-          // speakdistastes20
           // distastes20("en-US"),
           // distastes2100"),
-          // speakdistastes21
           // distastes21("en-US"),
           // distastes2200"),
-          // speakdistastes22
           // distastes22("en-US"),
         ],
       ),

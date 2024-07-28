@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -398,41 +396,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeasygoings3("en-US"),
           ),
           // easygoings400easygoings4
-          // speakeasygoings4
           // easygoings500easygoings5
-          // speakeasygoings5
           // easygoings600easygoings6
-          // speakeasygoings6
           // easygoings700easygoings7
-          // speakeasygoings7
           // easygoings800easygoings8
-          // speakeasygoings8
           // easygoings900easygoings9
-          // speakeasygoings9
           // easygoings_1000easygoings10
-          // speakeasygoings10
           // easygoings1100easygoings11
-          // speakeasygoings11
           // easygoings1200easygoings12
-          // speakeasygoings12
           // easygoings1300easygoings13
-          // speakeasygoings13
           // easygoings1400easygoings14
-          // speakeasygoings14
           // easygoings1500easygoings15
-          // speakeasygoings15
           // easygoings1600easygoings16
-          // speakeasygoings16
           // easygoings1700easygoings17
-          // speakeasygoings17
           // easygoings1800easygoings18
-          // speakeasygoings18
           // easygoings1900easygoings19
-          // speakeasygoings19
           // easygoings_2000easygoings20
-          // speakeasygoings20
           // easygoings2100easygoings21
-          // speakeasygoings21
           // easygoings2200easygoings22
           // speakeasygoings22("en-US"""),
           //         ),

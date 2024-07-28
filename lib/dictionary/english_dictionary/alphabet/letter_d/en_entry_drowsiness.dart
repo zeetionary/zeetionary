@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrowsinesss1("en-US"),
           ),
           // drowsinesss200"),
-          // speakdrowsinesss2
           // drowsinesss2("en-US"),
           // drowsinesss300"),
-          // speakdrowsinesss3
           // drowsinesss3("en-US"),
           // drowsinesss400"),
-          // speakdrowsinesss4
           // drowsinesss4("en-US"),
           // drowsinesss500"),
-          // speakdrowsinesss5
           // drowsinesss5("en-US"),
           // drowsinesss600"),
-          // speakdrowsinesss6
           // drowsinesss6("en-US"),
           // drowsinesss700"),
-          // speakdrowsinesss7
           // drowsinesss7("en-US"),
           // drowsinesss800"),
-          // speakdrowsinesss8
           // drowsinesss8("en-US"),
           // drowsinesss900"),
-          // speakdrowsinesss9
           // drowsinesss9("en-US"),
           // drowsinesss_1000"),
-          // speakdrowsinesss10
           // drowsinesss10("en-US"),
           // drowsinesss1100"),
-          // speakdrowsinesss11
           // drowsinesss11("en-US"),
           // drowsinesss1200"),
-          // speakdrowsinesss12
           // drowsinesss12("en-US"),
           // drowsinesss1300"),
-          // speakdrowsinesss13
           // drowsinesss13("en-US"),
           // drowsinesss1400"),
-          // speakdrowsinesss14
           // drowsinesss14("en-US"),
           // drowsinesss1500"),
-          // speakdrowsinesss15
           // drowsinesss15("en-US"),
           // drowsinesss1600"),
-          // speakdrowsinesss16
           // drowsinesss16("en-US"),
           // drowsinesss1700"),
-          // speakdrowsinesss17
           // drowsinesss17("en-US"),
           // drowsinesss1800"),
-          // speakdrowsinesss18
           // drowsinesss18("en-US"),
           // drowsinesss1900"),
-          // speakdrowsinesss19
           // drowsinesss19("en-US"),
           // drowsinesss_2000"),
-          // speakdrowsinesss20
           // drowsinesss20("en-US"),
           // drowsinesss2100"),
-          // speakdrowsinesss21
           // drowsinesss21("en-US"),
           // drowsinesss2200"),
-          // speakdrowsinesss22
           // drowsinesss22("en-US"),
         ],
       ),

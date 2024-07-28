@@ -375,9 +375,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -425,40 +423,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectronicss4("en-US"),
           ),
           // electronicss500electronicss5
-          // speakelectronicss5
-          // speakelectronicss600electronicss6
-          // speakelectronicss6
-          // speakelectronicss700electronicss7
-          // speakelectronicss7
-          // speakelectronicss800electronicss8
-          // speakelectronicss8
-          // speakelectronicss900electronicss9
-          // speakelectronicss9
-          // speakelectronicss_1000electronicss10
-          // speakelectronicss10
-          // speakelectronicss1100electronicss11
-          // speakelectronicss11
-          // speakelectronicss1200electronicss12
-          // speakelectronicss12
-          // speakelectronicss1300electronicss13
-          // speakelectronicss13
-          // speakelectronicss1400electronicss14
-          // speakelectronicss14
-          // speakelectronicss1500electronicss15
-          // speakelectronicss15
-          // speakelectronicss1600electronicss16
-          // speakelectronicss16
-          // speakelectronicss1700electronicss17
-          // speakelectronicss17
-          // speakelectronicss1800electronicss18
-          // speakelectronicss18
-          // speakelectronicss1900electronicss19
-          // speakelectronicss19
-          // speakelectronicss_2000electronicss20
-          // speakelectronicss20
-          // speakelectronicss2100electronicss21
-          // speakelectronicss21
-          // speakelectronicss2200electronicss22
           // speakelectronicss22("en-US"""),
           //         ),
           //       ],

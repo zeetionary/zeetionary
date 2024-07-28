@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -272,61 +270,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisarms3("en-US"),
           ),
           // disarms400"),
-          // speakdisarms4
           // disarms4("en-US"),
           // disarms500"),
-          // speakdisarms5
           // disarms5("en-US"),
           // disarms600"),
-          // speakdisarms6
           // disarms6("en-US"),
           // disarms700"),
-          // speakdisarms7
           // disarms7("en-US"),
           // disarms800"),
-          // speakdisarms8
           // disarms8("en-US"),
           // disarms900"),
-          // speakdisarms9
           // disarms9("en-US"),
           // disarms_1000"),
-          // speakdisarms10
           // disarms10("en-US"),
           // disarms1100"),
-          // speakdisarms11
           // disarms11("en-US"),
           // disarms1200"),
-          // speakdisarms12
           // disarms12("en-US"),
           // disarms1300"),
-          // speakdisarms13
           // disarms13("en-US"),
           // disarms1400"),
-          // speakdisarms14
           // disarms14("en-US"),
           // disarms1500"),
-          // speakdisarms15
           // disarms15("en-US"),
           // disarms1600"),
-          // speakdisarms16
           // disarms16("en-US"),
           // disarms1700"),
-          // speakdisarms17
           // disarms17("en-US"),
           // disarms1800"),
-          // speakdisarms18
           // disarms18("en-US"),
           // disarms1900"),
-          // speakdisarms19
           // disarms19("en-US"),
           // disarms_2000"),
-          // speakdisarms20
           // disarms20("en-US"),
           // disarms2100"),
-          // speakdisarms21
           // disarms21("en-US"),
           // disarms2200"),
-          // speakdisarms22
           // disarms22("en-US"),
         ],
       ),

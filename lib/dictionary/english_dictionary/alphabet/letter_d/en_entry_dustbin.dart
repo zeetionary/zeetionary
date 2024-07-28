@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -395,61 +393,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdustbins3("en-US"),
           ),
           // dustbins400
-          // speakdustbins4
           // dustbins4("en-US"""),
           // dustbins500
-          // speakdustbins5
           // dustbins5("en-US"""),
           // dustbins600
-          // speakdustbins6
           // dustbins6("en-US"""),
           // dustbins700
-          // speakdustbins7
           // dustbins7("en-US"""),
           // dustbins800
-          // speakdustbins8
           // dustbins8("en-US"""),
           // dustbins900
-          // speakdustbins9
           // dustbins9("en-US"""),
           // dustbins_1000
-          // speakdustbins10
           // dustbins10("en-US"""),
           // dustbins1100
-          // speakdustbins11
           // dustbins11("en-US"""),
           // dustbins1200
-          // speakdustbins12
           // dustbins12("en-US"""),
           // dustbins1300
-          // speakdustbins13
           // dustbins13("en-US"""),
           // dustbins1400
-          // speakdustbins14
           // dustbins14("en-US"""),
           // dustbins1500
-          // speakdustbins15
           // dustbins15("en-US"""),
           // dustbins1600
-          // speakdustbins16
           // dustbins16("en-US"""),
           // dustbins1700
-          // speakdustbins17
           // dustbins17("en-US"""),
           // dustbins1800
-          // speakdustbins18
           // dustbins18("en-US"""),
           // dustbins1900
-          // speakdustbins19
           // dustbins19("en-US"""),
           // dustbins_2000
-          // speakdustbins20
           // dustbins20("en-US"""),
           // dustbins2100
-          // speakdustbins21
           // dustbins21("en-US"""),
           // dustbins2200
-          // speakdustbins22
           // dustbins22("en-US"""),
         ],
       ),

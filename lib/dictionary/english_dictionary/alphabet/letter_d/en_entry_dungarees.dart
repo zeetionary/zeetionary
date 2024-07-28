@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdungareess1("en-US"),
           ),
           // dungareess200
-          // speakdungareess2
           // dungareess2("en-US"""),
           // dungareess300
-          // speakdungareess3
           // dungareess3("en-US"""),
           // dungareess400
-          // speakdungareess4
           // dungareess4("en-US"""),
           // dungareess500
-          // speakdungareess5
           // dungareess5("en-US"""),
           // dungareess600
-          // speakdungareess6
           // dungareess6("en-US"""),
           // dungareess700
-          // speakdungareess7
           // dungareess7("en-US"""),
           // dungareess800
-          // speakdungareess8
           // dungareess8("en-US"""),
           // dungareess900
-          // speakdungareess9
           // dungareess9("en-US"""),
           // dungareess_1000
-          // speakdungareess10
           // dungareess10("en-US"""),
           // dungareess1100
-          // speakdungareess11
           // dungareess11("en-US"""),
           // dungareess1200
-          // speakdungareess12
           // dungareess12("en-US"""),
           // dungareess1300
-          // speakdungareess13
           // dungareess13("en-US"""),
           // dungareess1400
-          // speakdungareess14
           // dungareess14("en-US"""),
           // dungareess1500
-          // speakdungareess15
           // dungareess15("en-US"""),
           // dungareess1600
-          // speakdungareess16
           // dungareess16("en-US"""),
           // dungareess1700
-          // speakdungareess17
           // dungareess17("en-US"""),
           // dungareess1800
-          // speakdungareess18
           // dungareess18("en-US"""),
           // dungareess1900
-          // speakdungareess19
           // dungareess19("en-US"""),
           // dungareess_2000
-          // speakdungareess20
           // dungareess20("en-US"""),
           // dungareess2100
-          // speakdungareess21
           // dungareess21("en-US"""),
           // dungareess2200
-          // speakdungareess22
           // dungareess22("en-US"""),
         ],
       ),

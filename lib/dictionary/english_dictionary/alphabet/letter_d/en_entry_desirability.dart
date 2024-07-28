@@ -252,9 +252,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -295,58 +293,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesirabilitys4("en-US"),
           ),
           // desirabilitys500"),
-          // speakdesirabilitys5
           // desirabilitys5("en-US"),
           // desirabilitys600"),
-          // speakdesirabilitys6
           // desirabilitys6("en-US"),
           // desirabilitys700"),
-          // speakdesirabilitys7
           // desirabilitys7("en-US"),
           // desirabilitys800"),
-          // speakdesirabilitys8
           // desirabilitys8("en-US"),
           // desirabilitys900"),
-          // speakdesirabilitys9
           // desirabilitys9("en-US"),
           // desirabilitys1000"),
-          // speakdesirabilitys10
           // desirabilitys10("en-US"),
           // desirabilitys1100"),
-          // speakdesirabilitys11
           // desirabilitys11("en-US"),
           // desirabilitys1200"),
-          // speakdesirabilitys12
           // desirabilitys12("en-US"),
           // desirabilitys1300"),
-          // speakdesirabilitys13
           // desirabilitys13("en-US"),
           // desirabilitys1400"),
-          // speakdesirabilitys14
           // desirabilitys14("en-US"),
           // desirabilitys1500"),
-          // speakdesirabilitys15
           // desirabilitys15("en-US"),
           // desirabilitys1600"),
-          // speakdesirabilitys16
           // desirabilitys16("en-US"),
           // desirabilitys1700"),
-          // speakdesirabilitys17
           // desirabilitys17("en-US"),
           // desirabilitys1800"),
-          // speakdesirabilitys18
           // desirabilitys18("en-US"),
           // desirabilitys1900"),
-          // speakdesirabilitys19
           // desirabilitys19("en-US"),
           // "Too much emphasis is placed on the desirability of being thin.0"),
-          // speakdesirabilitys20
           // desirabilitys20("en-US"),
           // desirabilitys2100"),
-          // speakdesirabilitys21
           // desirabilitys21("en-US"),
           // desirabilitys2200"),
-          // speakdesirabilitys22
           // desirabilitys22("en-US"),
         ],
       ),

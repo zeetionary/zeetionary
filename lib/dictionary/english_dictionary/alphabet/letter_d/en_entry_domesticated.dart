@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -405,61 +403,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdomesticateds3("en-US"),
           ),
           // domesticateds400"),
-          // speakdomesticateds4
           // domesticateds4("en-US"),
           // domesticateds500"),
-          // speakdomesticateds5
           // domesticateds5("en-US"),
           // domesticateds600"),
-          // speakdomesticateds6
           // domesticateds6("en-US"),
           // domesticateds700"),
-          // speakdomesticateds7
           // domesticateds7("en-US"),
           // domesticateds800"),
-          // speakdomesticateds8
           // domesticateds8("en-US"),
           // domesticateds900"),
-          // speakdomesticateds9
           // domesticateds9("en-US"),
           // domesticateds_1000"),
-          // speakdomesticateds10
           // domesticateds10("en-US"),
           // domesticateds1100"),
-          // speakdomesticateds11
           // domesticateds11("en-US"),
           // domesticateds1200"),
-          // speakdomesticateds12
           // domesticateds12("en-US"),
           // domesticateds1300"),
-          // speakdomesticateds13
           // domesticateds13("en-US"),
           // domesticateds1400"),
-          // speakdomesticateds14
           // domesticateds14("en-US"),
           // domesticateds1500"),
-          // speakdomesticateds15
           // domesticateds15("en-US"),
           // domesticateds1600"),
-          // speakdomesticateds16
           // domesticateds16("en-US"),
           // domesticateds1700"),
-          // speakdomesticateds17
           // domesticateds17("en-US"),
           // domesticateds1800"),
-          // speakdomesticateds18
           // domesticateds18("en-US"),
           // domesticateds1900"),
-          // speakdomesticateds19
           // domesticateds19("en-US"),
           // domesticateds_2000"),
-          // speakdomesticateds20
           // domesticateds20("en-US"),
           // domesticateds2100"),
-          // speakdomesticateds21
           // domesticateds21("en-US"),
           // domesticateds2200"),
-          // speakdomesticateds22
           // domesticateds22("en-US"),
         ],
       ),

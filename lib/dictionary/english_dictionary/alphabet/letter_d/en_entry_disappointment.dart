@@ -259,9 +259,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -317,52 +315,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisappointments6("en-US"),
           ),
           // disappointments700"),
-          // speakdisappointments7
           // disappointments7
           // disappointments800"),
-          // speakdisappointments8
           // disappointments8
           // disappointments900"),
-          // speakdisappointments9
           // disappointments9
           // disappointments_1000"),
-          // speakdisappointments10
           // disappointments10
           // disappointments1100"),
-          // speakdisappointments11
           // disappointments11
           // disappointments1200"),
-          // speakdisappointments12
           // disappointments12
           // disappointments1300"),
-          // speakdisappointments13
           // disappointments13
           // disappointments1400"),
-          // speakdisappointments14
           // disappointments14
           // disappointments1500"),
-          // speakdisappointments15
           // disappointments15
           // disappointments1600"),
-          // speakdisappointments16
           // disappointments16
           // disappointments1700"),
-          // speakdisappointments17
           // disappointments17
           // disappointments1800"),
-          // speakdisappointments18
           // disappointments18
           // disappointments1900"),
-          // speakdisappointments19
           // disappointments19
           // disappointments_2000"),
-          // speakdisappointments20
           // disappointments20
           // disappointments2100"),
-          // speakdisappointments21
           // disappointments21
           // disappointments2200"),
-          // speakdisappointments22
           // disappointments22("en-US"),
         ],
       ),

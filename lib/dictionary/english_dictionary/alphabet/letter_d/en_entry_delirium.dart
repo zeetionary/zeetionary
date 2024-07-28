@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeliriums2("en-US"),
           ),
           // deliriums300"),
-          // speakdeliriums3
           // deliriums3("en-US"),
           // deliriums400"),
-          // speakdeliriums4
           // deliriums4("en-US"),
           // deliriums500"),
-          // speakdeliriums5
           // deliriums5("en-US"),
           // deliriums600"),
-          // speakdeliriums6
           // deliriums6("en-US"),
           // deliriums700"),
-          // speakdeliriums7
           // deliriums7("en-US"),
           // deliriums800"),
-          // speakdeliriums8
           // deliriums8("en-US"),
           // deliriums900"),
-          // speakdeliriums9
           // deliriums9("en-US"),
           // deliriums1000"),
-          // speakdeliriums10
           // deliriums10("en-US"),
           // deliriums1100"),
-          // speakdeliriums11
           // deliriums11("en-US"),
           // deliriums1200"),
-          // speakdeliriums12
           // deliriums12("en-US"),
           // deliriums1300"),
-          // speakdeliriums13
           // deliriums13("en-US"),
           // deliriums1400"),
-          // speakdeliriums14
           // deliriums14("en-US"),
           // deliriums1500"),
-          // speakdeliriums15
           // deliriums15("en-US"),
           // deliriums1600"),
-          // speakdeliriums16
           // deliriums16("en-US"),
           // deliriums1700"),
-          // speakdeliriums17
           // deliriums17("en-US"),
           // deliriums1800"),
-          // speakdeliriums18
           // deliriums18("en-US"),
           // deliriums1900"),
-          // speakdeliriums19
           // deliriums19("en-US"),
           // "I've never seen such delirium at a football game before.0"),
-          // speakdeliriums20
           // deliriums20("en-US"),
           // deliriums2100"),
-          // speakdeliriums21
           // deliriums21("en-US"),
           // deliriums2200"),
-          // speakdeliriums22
           // deliriums22("en-US"),
         ],
       ),

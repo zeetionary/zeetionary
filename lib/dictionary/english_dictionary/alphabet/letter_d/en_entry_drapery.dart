@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,67 +385,46 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // draperys200"),
-          // speakdraperys2
           // draperys2
           // draperys300"),
-          // speakdraperys3
           // draperys3
           // draperys400"),
-          // speakdraperys4
           // draperys4
           // draperys500"),
-          // speakdraperys5
           // draperys5
           // draperys600"),
-          // speakdraperys6
           // draperys6
           // draperys700"),
-          // speakdraperys7
           // draperys7
           // draperys800"),
-          // speakdraperys8
           // draperys8
           // draperys900"),
-          // speakdraperys9
           // draperys9
           // draperys_1000"),
-          // speakdraperys10
           // draperys10
           // draperys1100"),
-          // speakdraperys11
           // draperys11
           // draperys1200"),
-          // speakdraperys12
           // draperys12
           // draperys1300"),
-          // speakdraperys13
           // draperys13
           // draperys1400"),
-          // speakdraperys14
           // draperys14
           // draperys1500"),
-          // speakdraperys15
           // draperys15
           // draperys1600"),
-          // speakdraperys16
           // draperys16
           // draperys1700"),
-          // speakdraperys17
           // draperys17
           // draperys1800"),
-          // speakdraperys18
           // draperys18
           // draperys1900"),
-          // speakdraperys19
           // draperys19
           // draperys_2000"),
-          // speakdraperys20
           // draperys20
           // draperys2100"),
-          // speakdraperys21
           // draperys21
           // draperys2200"),
-          // speakdraperys22
           // draperys22("en-US"),
         ],
       ),

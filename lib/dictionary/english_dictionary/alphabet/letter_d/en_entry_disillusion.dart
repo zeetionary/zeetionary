@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisillusions2("en-US"),
           ),
           // disillusions300"),
-          // speakdisillusions3
           // disillusions3("en-US"),
           // disillusions400"),
-          // speakdisillusions4
           // disillusions4("en-US"),
           // disillusions500"),
-          // speakdisillusions5
           // disillusions5("en-US"),
           // disillusions600"),
-          // speakdisillusions6
           // disillusions6("en-US"),
           // disillusions700"),
-          // speakdisillusions7
           // disillusions7("en-US"),
           // disillusions800"),
-          // speakdisillusions8
           // disillusions8("en-US"),
           // disillusions900"),
-          // speakdisillusions9
           // disillusions9("en-US"),
           // disillusions_1000"),
-          // speakdisillusions10
           // disillusions10("en-US"),
           // disillusions1100"),
-          // speakdisillusions11
           // disillusions11("en-US"),
           // disillusions1200"),
-          // speakdisillusions12
           // disillusions12("en-US"),
           // disillusions1300"),
-          // speakdisillusions13
           // disillusions13("en-US"),
           // disillusions1400"),
-          // speakdisillusions14
           // disillusions14("en-US"),
           // disillusions1500"),
-          // speakdisillusions15
           // disillusions15("en-US"),
           // disillusions1600"),
-          // speakdisillusions16
           // disillusions16("en-US"),
           // disillusions1700"),
-          // speakdisillusions17
           // disillusions17("en-US"),
           // disillusions1800"),
-          // speakdisillusions18
           // disillusions18("en-US"),
           // disillusions1900"),
-          // speakdisillusions19
           // disillusions19("en-US"),
           // disillusions_2000"),
-          // speakdisillusions20
           // disillusions20("en-US"),
           // disillusions2100"),
-          // speakdisillusions21
           // disillusions21("en-US"),
           // disillusions2200"),
-          // speakdisillusions22
           // disillusions22("en-US"),
         ],
       ),

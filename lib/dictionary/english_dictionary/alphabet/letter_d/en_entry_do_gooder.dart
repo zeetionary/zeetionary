@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdogooders1("en-US"),
           ),
           // dogooders200"),
-          // speakdogooders2
           // dogooders2("en-US"),
           // dogooders300"),
-          // speakdogooders3
           // dogooders3("en-US"),
           // dogooders400"),
-          // speakdogooders4
           // dogooders4("en-US"),
           // dogooders500"),
-          // speakdogooders5
           // dogooders5("en-US"),
           // dogooders600"),
-          // speakdogooders6
           // dogooders6("en-US"),
           // dogooders700"),
-          // speakdogooders7
           // dogooders7("en-US"),
           // dogooders800"),
-          // speakdogooders8
           // dogooders8("en-US"),
           // dogooders900"),
-          // speakdogooders9
           // dogooders9("en-US"),
           // dogooders_1000"),
-          // speakdogooders10
           // dogooders10("en-US"),
           // dogooders1100"),
-          // speakdogooders11
           // dogooders11("en-US"),
           // dogooders1200"),
-          // speakdogooders12
           // dogooders12("en-US"),
           // dogooders1300"),
-          // speakdogooders13
           // dogooders13("en-US"),
           // dogooders1400"),
-          // speakdogooders14
           // dogooders14("en-US"),
           // dogooders1500"),
-          // speakdogooders15
           // dogooders15("en-US"),
           // dogooders1600"),
-          // speakdogooders16
           // dogooders16("en-US"),
           // dogooders1700"),
-          // speakdogooders17
           // dogooders17("en-US"),
           // dogooders1800"),
-          // speakdogooders18
           // dogooders18("en-US"),
           // dogooders1900"),
-          // speakdogooders19
           // dogooders19("en-US"),
           // dogooders_2000"),
-          // speakdogooders20
           // dogooders20("en-US"),
           // dogooders2100"),
-          // speakdogooders21
           // dogooders21("en-US"),
           // dogooders2200"),
-          // speakdogooders22
           // dogooders22("en-US"),
         ],
       ),

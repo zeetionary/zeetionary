@@ -273,9 +273,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -340,49 +338,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefines7("en-US"),
           ),
           // defines800"),
-          // speakdefines8
           // defines8("en-US"),
           // defines900"),
-          // speakdefines9
           // defines9("en-US"),
           // defines1000"),
-          // speakdefines10
           // defines10("en-US"),
           // defines1100"),
-          // speakdefines11
           // defines11("en-US"),
           // defines1200"),
-          // speakdefines12
           // defines12("en-US"),
           // defines1300"),
-          // speakdefines13
           // defines13("en-US"),
           // defines1400"),
-          // speakdefines14
           // defines14("en-US"),
           // defines1500"),
-          // speakdefines15
           // defines15("en-US"),
           // defines1600"),
-          // speakdefines16
           // defines16("en-US"),
           // defines1700"),
-          // speakdefines17
           // defines17("en-US"),
           // defines1800"),
-          // speakdefines18
           // defines18("en-US"),
           // defines1900"),
-          // speakdefines19
           // defines19("en-US"),
           // "Life imprisonment is defined as 60 years under state law.0"),
-          // speakdefines20
           // defines20("en-US"),
           // defines2100"),
-          // speakdefines21
           // defines21("en-US"),
           // defines2200"),
-          // speakdefines22
           // defines22("en-US"),
         ],
       ),

@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -404,61 +402,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdullys3("en-US"),
           ),
           // dullys400
-          // speakdullys4
           // dullys4("en-US"""),
           // dullys500
-          // speakdullys5
           // dullys5("en-US"""),
           // dullys600
-          // speakdullys6
           // dullys6("en-US"""),
           // dullys700
-          // speakdullys7
           // dullys7("en-US"""),
           // dullys800
-          // speakdullys8
           // dullys8("en-US"""),
           // dullys900
-          // speakdullys9
           // dullys9("en-US"""),
           // dullys_1000
-          // speakdullys10
           // dullys10("en-US"""),
           // dullys1100
-          // speakdullys11
           // dullys11("en-US"""),
           // dullys1200
-          // speakdullys12
           // dullys12("en-US"""),
           // dullys1300
-          // speakdullys13
           // dullys13("en-US"""),
           // dullys1400
-          // speakdullys14
           // dullys14("en-US"""),
           // dullys1500
-          // speakdullys15
           // dullys15("en-US"""),
           // dullys1600
-          // speakdullys16
           // dullys16("en-US"""),
           // dullys1700
-          // speakdullys17
           // dullys17("en-US"""),
           // dullys1800
-          // speakdullys18
           // dullys18("en-US"""),
           // dullys1900
-          // speakdullys19
           // dullys19("en-US"""),
           // dullys_2000
-          // speakdullys20
           // dullys20("en-US"""),
           // dullys2100
-          // speakdullys21
           // dullys21("en-US"""),
           // dullys2200
-          // speakdullys22
           // dullys22("en-US"""),
         ],
       ),

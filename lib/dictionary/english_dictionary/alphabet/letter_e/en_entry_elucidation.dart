@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,43 +382,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelucidations2("en-US"),
           ),
           // elucidations300elucidations3
-          // speakelucidations3
           // elucidations400elucidations4
-          // speakelucidations4
           // elucidations500elucidations5
-          // speakelucidations5
           // elucidations600elucidations6
-          // speakelucidations6
           // elucidations700elucidations7
-          // speakelucidations7
           // elucidations800elucidations8
-          // speakelucidations8
           // elucidations900elucidations9
-          // speakelucidations9
           // elucidations_1000elucidations10
-          // speakelucidations10
           // elucidations1100elucidations11
-          // speakelucidations11
           // elucidations1200elucidations12
-          // speakelucidations12
           // elucidations1300elucidations13
-          // speakelucidations13
           // elucidations1400elucidations14
-          // speakelucidations14
           // elucidations1500elucidations15
-          // speakelucidations15
           // elucidations1600elucidations16
-          // speakelucidations16
           // elucidations1700elucidations17
-          // speakelucidations17
           // elucidations1800elucidations18
-          // speakelucidations18
           // elucidations1900elucidations19
-          // speakelucidations19
           // elucidations_2000elucidations20
-          // speakelucidations20
           // elucidations2100elucidations21
-          // speakelucidations21
           // elucidations2200elucidations22
           // speakelucidations22("en-US"""),
           //         ),

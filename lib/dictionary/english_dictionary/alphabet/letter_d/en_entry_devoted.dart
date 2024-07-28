@@ -241,9 +241,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -273,61 +271,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevoteds3("en-US"),
           ),
           // devoteds400"),
-          // speakdevoteds4
           // devoteds4("en-US"),
           // devoteds500"),
-          // speakdevoteds5
           // devoteds5("en-US"),
           // devoteds600"),
-          // speakdevoteds6
           // devoteds6("en-US"),
           // devoteds700"),
-          // speakdevoteds7
           // devoteds7("en-US"),
           // devoteds800"),
-          // speakdevoteds8
           // devoteds8("en-US"),
           // devoteds900"),
-          // speakdevoteds9
           // devoteds9("en-US"),
           // "// speakdevoteds1000000000000000000000000000000000"),
-          // speakdevoteds10
           // devoteds10("en-US"),
           // devoteds1100"),
-          // speakdevoteds11
           // devoteds11("en-US"),
           // devoteds1200"),
-          // speakdevoteds12
           // devoteds12("en-US"),
           // devoteds1300"),
-          // speakdevoteds13
           // devoteds13("en-US"),
           // devoteds1400"),
-          // speakdevoteds14
           // devoteds14("en-US"),
           // devoteds1500"),
-          // speakdevoteds15
           // devoteds15("en-US"),
           // devoteds1600"),
-          // speakdevoteds16
           // devoteds16("en-US"),
           // devoteds1700"),
-          // speakdevoteds17
           // devoteds17("en-US"),
           // devoteds1800"),
-          // speakdevoteds18
           // devoteds18("en-US"),
           // devoteds1900"),
-          // speakdevoteds19
           // devoteds19("en-US"),
           // devoteds_2000"),
-          // speakdevoteds20
           // devoteds20("en-US"),
           // devoteds2100"),
-          // speakdevoteds21
           // devoteds21("en-US"),
           // devoteds2200"),
-          // speakdevoteds22
           // devoteds22("en-US"),
         ],
       ),

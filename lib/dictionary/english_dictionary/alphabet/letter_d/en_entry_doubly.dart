@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,64 +386,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublys2("en-US"),
           ),
           // doublys300"),
-          // speakdoublys3
           // doublys3("en-US"),
           // doublys400"),
-          // speakdoublys4
           // doublys4("en-US"),
           // doublys500"),
-          // speakdoublys5
           // doublys5("en-US"),
           // doublys600"),
-          // speakdoublys6
           // doublys6("en-US"),
           // doublys700"),
-          // speakdoublys7
           // doublys7("en-US"),
           // doublys800"),
-          // speakdoublys8
           // doublys8("en-US"),
           // doublys900"),
-          // speakdoublys9
           // doublys9("en-US"),
           // doublys_1000"),
-          // speakdoublys10
           // doublys10("en-US"),
           // doublys1100"),
-          // speakdoublys11
           // doublys11("en-US"),
           // doublys1200"),
-          // speakdoublys12
           // doublys12("en-US"),
           // doublys1300"),
-          // speakdoublys13
           // doublys13("en-US"),
           // doublys1400"),
-          // speakdoublys14
           // doublys14("en-US"),
           // doublys1500"),
-          // speakdoublys15
           // doublys15("en-US"),
           // doublys1600"),
-          // speakdoublys16
           // doublys16("en-US"),
           // doublys1700"),
-          // speakdoublys17
           // doublys17("en-US"),
           // doublys1800"),
-          // speakdoublys18
           // doublys18("en-US"),
           // doublys1900"),
-          // speakdoublys19
           // doublys19("en-US"),
           // doublys_2000"),
-          // speakdoublys20
           // doublys20("en-US"),
           // doublys2100"),
-          // speakdoublys21
           // doublys21("en-US"),
           // doublys2200"),
-          // speakdoublys22
           // doublys22("en-US"),
         ],
       ),

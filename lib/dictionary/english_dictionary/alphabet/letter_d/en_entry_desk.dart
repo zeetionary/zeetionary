@@ -262,9 +262,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -322,52 +320,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesks6("en-US"),
           ),
           // desks700"),
-          // speakdesks7
           // desks7("en-US"),
           // desks800"),
-          // speakdesks8
           // desks8("en-US"),
           // desks900"),
-          // speakdesks9
           // desks9("en-US"),
           // desks1000"),
-          // speakdesks10
           // desks10("en-US"),
           // desks1100"),
-          // speakdesks11
           // desks11("en-US"),
           // desks1200"),
-          // speakdesks12
           // desks12("en-US"),
           // desks1300"),
-          // speakdesks13
           // desks13("en-US"),
           // desks1400"),
-          // speakdesks14
           // desks14("en-US"),
           // desks1500"),
-          // speakdesks15
           // desks15("en-US"),
           // desks1600"),
-          // speakdesks16
           // desks16("en-US"),
           // desks1700"),
-          // speakdesks17
           // desks17("en-US"),
           // desks1800"),
-          // speakdesks18
           // desks18("en-US"),
           // desks1900"),
-          // speakdesks19
           // desks19("en-US"),
           // "The mayor sat behind his desk.0"),
-          // speakdesks20
           // desks20("en-US"),
           // desks2100"),
-          // speakdesks21
           // desks21("en-US"),
           // desks2200"),
-          // speakdesks22
           // desks22("en-US"),
         ],
       ),

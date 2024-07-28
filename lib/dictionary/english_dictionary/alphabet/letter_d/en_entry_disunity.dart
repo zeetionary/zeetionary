@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisunitys2("en-US"),
           ),
           // disunitys300"),
-          // speakdisunitys3
           // disunitys3("en-US"),
           // disunitys400"),
-          // speakdisunitys4
           // disunitys4("en-US"),
           // disunitys500"),
-          // speakdisunitys5
           // disunitys5("en-US"),
           // disunitys600"),
-          // speakdisunitys6
           // disunitys6("en-US"),
           // disunitys700"),
-          // speakdisunitys7
           // disunitys7("en-US"),
           // disunitys800"),
-          // speakdisunitys8
           // disunitys8("en-US"),
           // disunitys900"),
-          // speakdisunitys9
           // disunitys9("en-US"),
           // disunitys_1000"),
-          // speakdisunitys10
           // disunitys10("en-US"),
           // disunitys1100"),
-          // speakdisunitys11
           // disunitys11("en-US"),
           // disunitys1200"),
-          // speakdisunitys12
           // disunitys12("en-US"),
           // disunitys1300"),
-          // speakdisunitys13
           // disunitys13("en-US"),
           // disunitys1400"),
-          // speakdisunitys14
           // disunitys14("en-US"),
           // disunitys1500"),
-          // speakdisunitys15
           // disunitys15("en-US"),
           // disunitys1600"),
-          // speakdisunitys16
           // disunitys16("en-US"),
           // disunitys1700"),
-          // speakdisunitys17
           // disunitys17("en-US"),
           // disunitys1800"),
-          // speakdisunitys18
           // disunitys18("en-US"),
           // disunitys1900"),
-          // speakdisunitys19
           // disunitys19("en-US"),
           // disunitys_2000"),
-          // speakdisunitys20
           // disunitys20("en-US"),
           // disunitys2100"),
-          // speakdisunitys21
           // disunitys21("en-US"),
           // disunitys2200"),
-          // speakdisunitys22
           // disunitys22("en-US"),
         ],
       ),

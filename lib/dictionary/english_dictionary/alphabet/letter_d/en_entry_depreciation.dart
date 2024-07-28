@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepreciations1("en-US"),
           ),
           // depreciations200"),
-          // speakdepreciations2
           // depreciations2("en-US"),
           // depreciations300"),
-          // speakdepreciations3
           // depreciations3("en-US"),
           // depreciations400"),
-          // speakdepreciations4
           // depreciations4("en-US"),
           // depreciations500"),
-          // speakdepreciations5
           // depreciations5("en-US"),
           // depreciations600"),
-          // speakdepreciations6
           // depreciations6("en-US"),
           // depreciations700"),
-          // speakdepreciations7
           // depreciations7("en-US"),
           // depreciations800"),
-          // speakdepreciations8
           // depreciations8("en-US"),
           // depreciations900"),
-          // speakdepreciations9
           // depreciations9("en-US"),
           // depreciations1000"),
-          // speakdepreciations10
           // depreciations10("en-US"),
           // depreciations1100"),
-          // speakdepreciations11
           // depreciations11("en-US"),
           // depreciations1200"),
-          // speakdepreciations12
           // depreciations12("en-US"),
           // depreciations1300"),
-          // speakdepreciations13
           // depreciations13("en-US"),
           // depreciations1400"),
-          // speakdepreciations14
           // depreciations14("en-US"),
           // depreciations1500"),
-          // speakdepreciations15
           // depreciations15("en-US"),
           // depreciations1600"),
-          // speakdepreciations16
           // depreciations16("en-US"),
           // depreciations1700"),
-          // speakdepreciations17
           // depreciations17("en-US"),
           // depreciations1800"),
-          // speakdepreciations18
           // depreciations18("en-US"),
           // depreciations1900"),
-          // speakdepreciations19
           // depreciations19("en-US"),
           // depreciations2000"),
-          // speakdepreciations20
           // depreciations20("en-US"),
           // depreciations2100"),
-          // speakdepreciations21
           // depreciations21("en-US"),
           // depreciations2200"),
-          // speakdepreciations22
           // depreciations22("en-US"),
         ],
       ),

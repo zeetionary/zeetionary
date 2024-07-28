@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisgruntleds2("en-US"),
           ),
           // disgruntleds300"),
-          // speakdisgruntleds3
           // disgruntleds3("en-US"),
           // disgruntleds400"),
-          // speakdisgruntleds4
           // disgruntleds4("en-US"),
           // disgruntleds500"),
-          // speakdisgruntleds5
           // disgruntleds5("en-US"),
           // disgruntleds600"),
-          // speakdisgruntleds6
           // disgruntleds6("en-US"),
           // disgruntleds700"),
-          // speakdisgruntleds7
           // disgruntleds7("en-US"),
           // disgruntleds800"),
-          // speakdisgruntleds8
           // disgruntleds8("en-US"),
           // disgruntleds900"),
-          // speakdisgruntleds9
           // disgruntleds9("en-US"),
           // disgruntleds_1000"),
-          // speakdisgruntleds10
           // disgruntleds10("en-US"),
           // disgruntleds1100"),
-          // speakdisgruntleds11
           // disgruntleds11("en-US"),
           // disgruntleds1200"),
-          // speakdisgruntleds12
           // disgruntleds12("en-US"),
           // disgruntleds1300"),
-          // speakdisgruntleds13
           // disgruntleds13("en-US"),
           // disgruntleds1400"),
-          // speakdisgruntleds14
           // disgruntleds14("en-US"),
           // disgruntleds1500"),
-          // speakdisgruntleds15
           // disgruntleds15("en-US"),
           // disgruntleds1600"),
-          // speakdisgruntleds16
           // disgruntleds16("en-US"),
           // disgruntleds1700"),
-          // speakdisgruntleds17
           // disgruntleds17("en-US"),
           // disgruntleds1800"),
-          // speakdisgruntleds18
           // disgruntleds18("en-US"),
           // disgruntleds1900"),
-          // speakdisgruntleds19
           // disgruntleds19("en-US"),
           // disgruntleds_2000"),
-          // speakdisgruntleds20
           // disgruntleds20("en-US"),
           // disgruntleds2100"),
-          // speakdisgruntleds21
           // disgruntleds21("en-US"),
           // disgruntleds2200"),
-          // speakdisgruntleds22
           // disgruntleds22("en-US"),
         ],
       ),

@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,45 +367,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeconomists1("en-US"),
           ),
           // economists200economists2
-          // speakeconomists2
           // economists300economists3
-          // speakeconomists3
           // economists400economists4
-          // speakeconomists4
           // economists500economists5
-          // speakeconomists5
           // economists600economists6
-          // speakeconomists6
           // economists700economists7
-          // speakeconomists7
           // economists800economists8
-          // speakeconomists8
           // economists900economists9
-          // speakeconomists9
           // economists_1000economists10
-          // speakeconomists10
           // economists1100economists11
-          // speakeconomists11
           // economists1200economists12
-          // speakeconomists12
           // economists1300economists13
-          // speakeconomists13
           // economists1400economists14
-          // speakeconomists14
           // economists1500economists15
-          // speakeconomists15
           // economists1600economists16
-          // speakeconomists16
           // economists1700economists17
-          // speakeconomists17
           // economists1800economists18
-          // speakeconomists18
           // economists1900economists19
-          // speakeconomists19
           // economists_2000economists20
-          // speakeconomists20
           // economists2100economists21
-          // speakeconomists21
           // economists2200economists22
           // speakeconomists22("en-US"""),
           //         ),

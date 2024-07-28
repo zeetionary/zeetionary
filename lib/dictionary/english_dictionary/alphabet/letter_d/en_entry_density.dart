@@ -241,9 +241,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -276,61 +274,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdensitys3("en-US"),
           ),
           // densitys400"),
-          // speakdensitys4
           // densitys4("en-US"),
           // densitys500"),
-          // speakdensitys5
           // densitys5("en-US"),
           // densitys600"),
-          // speakdensitys6
           // densitys6("en-US"),
           // densitys700"),
-          // speakdensitys7
           // densitys7("en-US"),
           // densitys800"),
-          // speakdensitys8
           // densitys8("en-US"),
           // densitys900"),
-          // speakdensitys9
           // densitys9("en-US"),
           // densitys1000"),
-          // speakdensitys10
           // densitys10("en-US"),
           // densitys1100"),
-          // speakdensitys11
           // densitys11("en-US"),
           // densitys1200"),
-          // speakdensitys12
           // densitys12("en-US"),
           // densitys1300"),
-          // speakdensitys13
           // densitys13("en-US"),
           // densitys1400"),
-          // speakdensitys14
           // densitys14("en-US"),
           // densitys1500"),
-          // speakdensitys15
           // densitys15("en-US"),
           // densitys1600"),
-          // speakdensitys16
           // densitys16("en-US"),
           // densitys1700"),
-          // speakdensitys17
           // densitys17("en-US"),
           // densitys1800"),
-          // speakdensitys18
           // densitys18("en-US"),
           // densitys1900"),
-          // speakdensitys19
           // densitys19("en-US"),
           // "The area has a high/low population density.0"),
-          // speakdensitys20
           // densitys20("en-US"),
           // densitys2100"),
-          // speakdensitys21
           // densitys21("en-US"),
           // densitys2200"),
-          // speakdensitys22
           // densitys22("en-US"),
         ],
       ),

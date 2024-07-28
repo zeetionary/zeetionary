@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetestables1("en-US"),
           ),
           // detestables200"),
-          // speakdetestables2
           // detestables2("en-US"),
           // detestables300"),
-          // speakdetestables3
           // detestables3("en-US"),
           // detestables400"),
-          // speakdetestables4
           // detestables4("en-US"),
           // detestables500"),
-          // speakdetestables5
           // detestables5("en-US"),
           // detestables600"),
-          // speakdetestables6
           // detestables6("en-US"),
           // detestables700"),
-          // speakdetestables7
           // detestables7("en-US"),
           // detestables800"),
-          // speakdetestables8
           // detestables8("en-US"),
           // detestables900"),
-          // speakdetestables9
           // detestables9("en-US"),
           // detestables1000"),
-          // speakdetestables10
           // detestables10("en-US"),
           // detestables1100"),
-          // speakdetestables11
           // detestables11("en-US"),
           // detestables1200"),
-          // speakdetestables12
           // detestables12("en-US"),
           // detestables1300"),
-          // speakdetestables13
           // detestables13("en-US"),
           // detestables1400"),
-          // speakdetestables14
           // detestables14("en-US"),
           // detestables1500"),
-          // speakdetestables15
           // detestables15("en-US"),
           // detestables1600"),
-          // speakdetestables16
           // detestables16("en-US"),
           // detestables1700"),
-          // speakdetestables17
           // detestables17("en-US"),
           // detestables1800"),
-          // speakdetestables18
           // detestables18("en-US"),
           // detestables1900"),
-          // speakdetestables19
           // detestables19("en-US"),
           // detestables2000"),
-          // speakdetestables20
           // detestables20("en-US"),
           // detestables2100"),
-          // speakdetestables21
           // detestables21("en-US"),
           // detestables2200"),
-          // speakdetestables22
           // detestables22("en-US"),
         ],
       ),

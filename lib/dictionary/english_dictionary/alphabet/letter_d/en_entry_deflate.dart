@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -288,61 +286,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeflates3("en-US"),
           ),
           // deflates400"),
-          // speakdeflates4
           // deflates4("en-US"),
           // deflates500"),
-          // speakdeflates5
           // deflates5("en-US"),
           // deflates600"),
-          // speakdeflates6
           // deflates6("en-US"),
           // deflates700"),
-          // speakdeflates7
           // deflates7("en-US"),
           // deflates800"),
-          // speakdeflates8
           // deflates8("en-US"),
           // deflates900"),
-          // speakdeflates9
           // deflates9("en-US"),
           // deflates1000"),
-          // speakdeflates10
           // deflates10("en-US"),
           // deflates1100"),
-          // speakdeflates11
           // deflates11("en-US"),
           // deflates1200"),
-          // speakdeflates12
           // deflates12("en-US"),
           // deflates1300"),
-          // speakdeflates13
           // deflates13("en-US"),
           // deflates1400"),
-          // speakdeflates14
           // deflates14("en-US"),
           // deflates1500"),
-          // speakdeflates15
           // deflates15("en-US"),
           // deflates1600"),
-          // speakdeflates16
           // deflates16("en-US"),
           // deflates1700"),
-          // speakdeflates17
           // deflates17("en-US"),
           // deflates1800"),
-          // speakdeflates18
           // deflates18("en-US"),
           // deflates1900"),
-          // speakdeflates19
           // deflates19("en-US"),
           // "All the criticism had left her feeling totally deflated.0"),
-          // speakdeflates20
           // deflates20("en-US"),
           // deflates2100"),
-          // speakdeflates21
           // deflates21("en-US"),
           // deflates2200"),
-          // speakdeflates22
           // deflates22("en-US"),
         ],
       ),

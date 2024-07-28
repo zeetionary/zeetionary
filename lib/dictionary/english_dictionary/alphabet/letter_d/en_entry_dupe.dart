@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -401,61 +399,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdupes3("en-US"),
           ),
           // dupes400
-          // speakdupes4
           // dupes4("en-US"""),
           // dupes500
-          // speakdupes5
           // dupes5("en-US"""),
           // dupes600
-          // speakdupes6
           // dupes6("en-US"""),
           // dupes700
-          // speakdupes7
           // dupes7("en-US"""),
           // dupes800
-          // speakdupes8
           // dupes8("en-US"""),
           // dupes900
-          // speakdupes9
           // dupes9("en-US"""),
           // dupes_1000
-          // speakdupes10
           // dupes10("en-US"""),
           // dupes1100
-          // speakdupes11
           // dupes11("en-US"""),
           // dupes1200
-          // speakdupes12
           // dupes12("en-US"""),
           // dupes1300
-          // speakdupes13
           // dupes13("en-US"""),
           // dupes1400
-          // speakdupes14
           // dupes14("en-US"""),
           // dupes1500
-          // speakdupes15
           // dupes15("en-US"""),
           // dupes1600
-          // speakdupes16
           // dupes16("en-US"""),
           // dupes1700
-          // speakdupes17
           // dupes17("en-US"""),
           // dupes1800
-          // speakdupes18
           // dupes18("en-US"""),
           // dupes1900
-          // speakdupes19
           // dupes19("en-US"""),
           // dupes_2000
-          // speakdupes20
           // dupes20("en-US"""),
           // dupes2100
-          // speakdupes21
           // dupes21("en-US"""),
           // dupes2200
-          // speakdupes22
           // dupes22("en-US"""),
         ],
       ),

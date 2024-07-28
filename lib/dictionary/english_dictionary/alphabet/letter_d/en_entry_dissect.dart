@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -272,61 +270,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissects3("en-US"),
           ),
           // dissects400"),
-          // speakdissects4
           // dissects4("en-US"),
           // dissects500"),
-          // speakdissects5
           // dissects5("en-US"),
           // dissects600"),
-          // speakdissects6
           // dissects6("en-US"),
           // dissects700"),
-          // speakdissects7
           // dissects7("en-US"),
           // dissects800"),
-          // speakdissects8
           // dissects8("en-US"),
           // dissects900"),
-          // speakdissects9
           // dissects9("en-US"),
           // dissects_1000"),
-          // speakdissects10
           // dissects10("en-US"),
           // dissects1100"),
-          // speakdissects11
           // dissects11("en-US"),
           // dissects1200"),
-          // speakdissects12
           // dissects12("en-US"),
           // dissects1300"),
-          // speakdissects13
           // dissects13("en-US"),
           // dissects1400"),
-          // speakdissects14
           // dissects14("en-US"),
           // dissects1500"),
-          // speakdissects15
           // dissects15("en-US"),
           // dissects1600"),
-          // speakdissects16
           // dissects16("en-US"),
           // dissects1700"),
-          // speakdissects17
           // dissects17("en-US"),
           // dissects1800"),
-          // speakdissects18
           // dissects18("en-US"),
           // dissects1900"),
-          // speakdissects19
           // dissects19("en-US"),
           // dissects_2000"),
-          // speakdissects20
           // dissects20("en-US"),
           // dissects2100"),
-          // speakdissects21
           // dissects21("en-US"),
           // dissects2200"),
-          // speakdissects22
           // dissects22("en-US"),
         ],
       ),

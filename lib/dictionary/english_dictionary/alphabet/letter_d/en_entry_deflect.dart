@@ -273,9 +273,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -344,49 +342,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeflects7("en-US"),
           ),
           // deflects800"),
-          // speakdeflects8
           // deflects8("en-US"),
           // deflects900"),
-          // speakdeflects9
           // deflects9("en-US"),
           // deflects1000"),
-          // speakdeflects10
           // deflects10("en-US"),
           // deflects1100"),
-          // speakdeflects11
           // deflects11("en-US"),
           // deflects1200"),
-          // speakdeflects12
           // deflects12("en-US"),
           // deflects1300"),
-          // speakdeflects13
           // deflects13("en-US"),
           // deflects1400"),
-          // speakdeflects14
           // deflects14("en-US"),
           // deflects1500"),
-          // speakdeflects15
           // deflects15("en-US"),
           // deflects1600"),
-          // speakdeflects16
           // deflects16("en-US"),
           // deflects1700"),
-          // speakdeflects17
           // deflects17("en-US"),
           // deflects1800"),
-          // speakdeflects18
           // deflects18("en-US"),
           // deflects1900"),
-          // speakdeflects19
           // deflects19("en-US"),
           // "He raised his arm to try to deflect the blow.0"),
-          // speakdeflects20
           // deflects20("en-US"),
           // deflects2100"),
-          // speakdeflects21
           // deflects21("en-US"),
           // deflects2200"),
-          // speakdeflects22
           // deflects22("en-US"),
         ],
       ),

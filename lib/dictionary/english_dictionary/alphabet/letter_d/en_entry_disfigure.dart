@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -266,61 +264,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisfigures3("en-US"),
           ),
           // disfigures400"),
-          // speakdisfigures4
           // disfigures4("en-US"),
           // disfigures500"),
-          // speakdisfigures5
           // disfigures5("en-US"),
           // disfigures600"),
-          // speakdisfigures6
           // disfigures6("en-US"),
           // disfigures700"),
-          // speakdisfigures7
           // disfigures7("en-US"),
           // disfigures800"),
-          // speakdisfigures8
           // disfigures8("en-US"),
           // disfigures900"),
-          // speakdisfigures9
           // disfigures9("en-US"),
           // disfigures_1000"),
-          // speakdisfigures10
           // disfigures10("en-US"),
           // disfigures1100"),
-          // speakdisfigures11
           // disfigures11("en-US"),
           // disfigures1200"),
-          // speakdisfigures12
           // disfigures12("en-US"),
           // disfigures1300"),
-          // speakdisfigures13
           // disfigures13("en-US"),
           // disfigures1400"),
-          // speakdisfigures14
           // disfigures14("en-US"),
           // disfigures1500"),
-          // speakdisfigures15
           // disfigures15("en-US"),
           // disfigures1600"),
-          // speakdisfigures16
           // disfigures16("en-US"),
           // disfigures1700"),
-          // speakdisfigures17
           // disfigures17("en-US"),
           // disfigures1800"),
-          // speakdisfigures18
           // disfigures18("en-US"),
           // disfigures1900"),
-          // speakdisfigures19
           // disfigures19("en-US"),
           // disfigures_2000"),
-          // speakdisfigures20
           // disfigures20("en-US"),
           // disfigures2100"),
-          // speakdisfigures21
           // disfigures21("en-US"),
           // disfigures2200"),
-          // speakdisfigures22
           // disfigures22("en-US"),
         ],
       ),

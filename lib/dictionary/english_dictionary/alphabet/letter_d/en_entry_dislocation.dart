@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdislocations3("en-US"),
           ),
           // dislocations400"),
-          // speakdislocations4
           // dislocations4("en-US"),
           // dislocations500"),
-          // speakdislocations5
           // dislocations5("en-US"),
           // dislocations600"),
-          // speakdislocations6
           // dislocations6("en-US"),
           // dislocations700"),
-          // speakdislocations7
           // dislocations7("en-US"),
           // dislocations800"),
-          // speakdislocations8
           // dislocations8("en-US"),
           // dislocations900"),
-          // speakdislocations9
           // dislocations9("en-US"),
           // dislocations_1000"),
-          // speakdislocations10
           // dislocations10("en-US"),
           // dislocations1100"),
-          // speakdislocations11
           // dislocations11("en-US"),
           // dislocations1200"),
-          // speakdislocations12
           // dislocations12("en-US"),
           // dislocations1300"),
-          // speakdislocations13
           // dislocations13("en-US"),
           // dislocations1400"),
-          // speakdislocations14
           // dislocations14("en-US"),
           // dislocations1500"),
-          // speakdislocations15
           // dislocations15("en-US"),
           // dislocations1600"),
-          // speakdislocations16
           // dislocations16("en-US"),
           // dislocations1700"),
-          // speakdislocations17
           // dislocations17("en-US"),
           // dislocations1800"),
-          // speakdislocations18
           // dislocations18("en-US"),
           // dislocations1900"),
-          // speakdislocations19
           // dislocations19("en-US"),
           // dislocations_2000"),
-          // speakdislocations20
           // dislocations20("en-US"),
           // dislocations2100"),
-          // speakdislocations21
           // dislocations21("en-US"),
           // dislocations2200"),
-          // speakdislocations22
           // dislocations22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdizzilys2("en-US"),
           ),
           // dizzilys300"),
-          // speakdizzilys3
           // dizzilys3("en-US"),
           // dizzilys400"),
-          // speakdizzilys4
           // dizzilys4("en-US"),
           // dizzilys500"),
-          // speakdizzilys5
           // dizzilys5("en-US"),
           // dizzilys600"),
-          // speakdizzilys6
           // dizzilys6("en-US"),
           // dizzilys700"),
-          // speakdizzilys7
           // dizzilys7("en-US"),
           // dizzilys800"),
-          // speakdizzilys8
           // dizzilys8("en-US"),
           // dizzilys900"),
-          // speakdizzilys9
           // dizzilys9("en-US"),
           // dizzilys_1000"),
-          // speakdizzilys10
           // dizzilys10("en-US"),
           // dizzilys1100"),
-          // speakdizzilys11
           // dizzilys11("en-US"),
           // dizzilys1200"),
-          // speakdizzilys12
           // dizzilys12("en-US"),
           // dizzilys1300"),
-          // speakdizzilys13
           // dizzilys13("en-US"),
           // dizzilys1400"),
-          // speakdizzilys14
           // dizzilys14("en-US"),
           // dizzilys1500"),
-          // speakdizzilys15
           // dizzilys15("en-US"),
           // dizzilys1600"),
-          // speakdizzilys16
           // dizzilys16("en-US"),
           // dizzilys1700"),
-          // speakdizzilys17
           // dizzilys17("en-US"),
           // dizzilys1800"),
-          // speakdizzilys18
           // dizzilys18("en-US"),
           // dizzilys1900"),
-          // speakdizzilys19
           // dizzilys19("en-US"),
           // dizzilys_2000"),
-          // speakdizzilys20
           // dizzilys20("en-US"),
           // dizzilys2100"),
-          // speakdizzilys21
           // dizzilys21("en-US"),
           // dizzilys2200"),
-          // speakdizzilys22
           // dizzilys22("en-US"),
         ],
       ),

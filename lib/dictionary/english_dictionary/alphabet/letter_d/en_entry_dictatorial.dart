@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -289,58 +287,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdictatorials4("en-US"),
           ),
           // dictatorials500"),
-          // speakdictatorials5
           // dictatorials5("en-US"),
           // dictatorials600"),
-          // speakdictatorials6
           // dictatorials6("en-US"),
           // dictatorials700"),
-          // speakdictatorials7
           // dictatorials7("en-US"),
           // dictatorials800"),
-          // speakdictatorials8
           // dictatorials8("en-US"),
           // dictatorials900"),
-          // speakdictatorials9
           // dictatorials9("en-US"),
           // dictatorials_1000"),
-          // speakdictatorials10
           // dictatorials10("en-US"),
           // dictatorials1100"),
-          // speakdictatorials11
           // dictatorials11("en-US"),
           // dictatorials1200"),
-          // speakdictatorials12
           // dictatorials12("en-US"),
           // dictatorials1300"),
-          // speakdictatorials13
           // dictatorials13("en-US"),
           // dictatorials1400"),
-          // speakdictatorials14
           // dictatorials14("en-US"),
           // dictatorials1500"),
-          // speakdictatorials15
           // dictatorials15("en-US"),
           // dictatorials1600"),
-          // speakdictatorials16
           // dictatorials16("en-US"),
           // dictatorials1700"),
-          // speakdictatorials17
           // dictatorials17("en-US"),
           // dictatorials1800"),
-          // speakdictatorials18
           // dictatorials18("en-US"),
           // dictatorials1900"),
-          // speakdictatorials19
           // dictatorials19("en-US"),
           // dictatorials_2000"),
-          // speakdictatorials20
           // dictatorials20("en-US"),
           // dictatorials2100"),
-          // speakdictatorials21
           // dictatorials21("en-US"),
           // dictatorials2200"),
-          // speakdictatorials22
           // dictatorials22("en-US"),
         ],
       ),

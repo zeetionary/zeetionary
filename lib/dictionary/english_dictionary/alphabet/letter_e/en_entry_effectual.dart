@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeffectuals1("en-US"),
           ),
           // effectuals200effectuals2
-          // speakeffectuals2
           // effectuals300effectuals3
-          // speakeffectuals3
           // effectuals400effectuals4
-          // speakeffectuals4
           // effectuals500effectuals5
-          // speakeffectuals5
           // effectuals600effectuals6
-          // speakeffectuals6
           // effectuals700effectuals7
-          // speakeffectuals7
           // effectuals800effectuals8
-          // speakeffectuals8
           // effectuals900effectuals9
-          // speakeffectuals9
           // effectuals_1000effectuals10
-          // speakeffectuals10
           // effectuals1100effectuals11
-          // speakeffectuals11
           // effectuals1200effectuals12
-          // speakeffectuals12
           // effectuals1300effectuals13
-          // speakeffectuals13
           // effectuals1400effectuals14
-          // speakeffectuals14
           // effectuals1500effectuals15
-          // speakeffectuals15
           // effectuals1600effectuals16
-          // speakeffectuals16
           // effectuals1700effectuals17
-          // speakeffectuals17
           // effectuals1800effectuals18
-          // speakeffectuals18
           // effectuals1900effectuals19
-          // speakeffectuals19
           // effectuals_2000effectuals20
-          // speakeffectuals20
           // effectuals2100effectuals21
-          // speakeffectuals21
           // effectuals2200effectuals22
           // speakeffectuals22("en-US"""),
           //         ),

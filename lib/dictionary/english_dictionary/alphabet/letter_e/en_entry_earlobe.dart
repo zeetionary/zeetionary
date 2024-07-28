@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -380,43 +378,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakearlobes2("en-US"),
           ),
           // earlobes300earlobes3
-          // speakearlobes3
           // earlobes400earlobes4
-          // speakearlobes4
           // earlobes500earlobes5
-          // speakearlobes5
           // earlobes600earlobes6
-          // speakearlobes6
           // earlobes700earlobes7
-          // speakearlobes7
           // earlobes800earlobes8
-          // speakearlobes8
           // earlobes900earlobes9
-          // speakearlobes9
           // earlobes_1000earlobes10
-          // speakearlobes10
           // earlobes1100earlobes11
-          // speakearlobes11
           // earlobes1200earlobes12
-          // speakearlobes12
           // earlobes1300earlobes13
-          // speakearlobes13
           // earlobes1400earlobes14
-          // speakearlobes14
           // earlobes1500earlobes15
-          // speakearlobes15
           // earlobes1600earlobes16
-          // speakearlobes16
           // earlobes1700earlobes17
-          // speakearlobes17
           // earlobes1800earlobes18
-          // speakearlobes18
           // earlobes1900earlobes19
-          // speakearlobes19
           // earlobes_2000earlobes20
-          // speakearlobes20
           // earlobes2100earlobes21
-          // speakearlobes21
           // earlobes2200earlobes22
           // speakearlobes22("en-US"""),
           //         ),

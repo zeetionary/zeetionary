@@ -12,7 +12,6 @@ class EnglishEntryabuse extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabuse(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryabuse extends StatelessWidget {
   }
 
   Future<void> speaka5741(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryabuse extends StatelessWidget {
   }
 
   Future<void> speaka15876(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntryabuse extends StatelessWidget {
   }
 
   Future<void> speaka1258(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -46,7 +42,6 @@ class EnglishEntryabuse extends StatelessWidget {
   }
 
   Future<void> speaka14582(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -55,7 +50,6 @@ class EnglishEntryabuse extends StatelessWidget {
   }
 
   Future<void> speaka25641(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -63,7 +57,6 @@ class EnglishEntryabuse extends StatelessWidget {
   }
 
   Future<void> speaka45961(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -72,7 +65,6 @@ class EnglishEntryabuse extends StatelessWidget {
   }
 
   Future<void> speaka26935(String languageCode) async {
-    // speakAbuse
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

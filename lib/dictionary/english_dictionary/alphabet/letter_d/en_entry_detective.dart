@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetectives2("en-US"),
           ),
           // detectives300"),
-          // speakdetectives3
           // detectives3("en-US"),
           // detectives400"),
-          // speakdetectives4
           // detectives4("en-US"),
           // detectives500"),
-          // speakdetectives5
           // detectives5("en-US"),
           // detectives600"),
-          // speakdetectives6
           // detectives6("en-US"),
           // detectives700"),
-          // speakdetectives7
           // detectives7("en-US"),
           // detectives800"),
-          // speakdetectives8
           // detectives8("en-US"),
           // detectives900"),
-          // speakdetectives9
           // detectives9("en-US"),
           // detectives1000"),
-          // speakdetectives10
           // detectives10("en-US"),
           // detectives1100"),
-          // speakdetectives11
           // detectives11("en-US"),
           // detectives1200"),
-          // speakdetectives12
           // detectives12("en-US"),
           // detectives1300"),
-          // speakdetectives13
           // detectives13("en-US"),
           // detectives1400"),
-          // speakdetectives14
           // detectives14("en-US"),
           // detectives1500"),
-          // speakdetectives15
           // detectives15("en-US"),
           // detectives1600"),
-          // speakdetectives16
           // detectives16("en-US"),
           // detectives1700"),
-          // speakdetectives17
           // detectives17("en-US"),
           // detectives1800"),
-          // speakdetectives18
           // detectives18("en-US"),
           // detectives1900"),
-          // speakdetectives19
           // detectives19("en-US"),
           // "Sherlock Holmes was Conan Doyle's fictional detective.0"),
-          // speakdetectives20
           // detectives20("en-US"),
           // detectives2100"),
-          // speakdetectives21
           // detectives21("en-US"),
           // detectives2200"),
-          // speakdetectives22
           // detectives22("en-US"),
         ],
       ),

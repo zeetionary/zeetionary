@@ -230,9 +230,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -259,64 +257,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisillusionments2("en-US"),
           ),
           // disillusionments300"),
-          // speakdisillusionments3
           // disillusionments3("en-US"),
           // disillusionments400"),
-          // speakdisillusionments4
           // disillusionments4("en-US"),
           // disillusionments500"),
-          // speakdisillusionments5
           // disillusionments5("en-US"),
           // disillusionments600"),
-          // speakdisillusionments6
           // disillusionments6("en-US"),
           // disillusionments700"),
-          // speakdisillusionments7
           // disillusionments7("en-US"),
           // disillusionments800"),
-          // speakdisillusionments8
           // disillusionments8("en-US"),
           // disillusionments900"),
-          // speakdisillusionments9
           // disillusionments9("en-US"),
           // disillusionments_1000"),
-          // speakdisillusionments10
           // disillusionments10("en-US"),
           // disillusionments1100"),
-          // speakdisillusionments11
           // disillusionments11("en-US"),
           // disillusionments1200"),
-          // speakdisillusionments12
           // disillusionments12("en-US"),
           // disillusionments1300"),
-          // speakdisillusionments13
           // disillusionments13("en-US"),
           // disillusionments1400"),
-          // speakdisillusionments14
           // disillusionments14("en-US"),
           // disillusionments1500"),
-          // speakdisillusionments15
           // disillusionments15("en-US"),
           // disillusionments1600"),
-          // speakdisillusionments16
           // disillusionments16("en-US"),
           // disillusionments1700"),
-          // speakdisillusionments17
           // disillusionments17("en-US"),
           // disillusionments1800"),
-          // speakdisillusionments18
           // disillusionments18("en-US"),
           // disillusionments1900"),
-          // speakdisillusionments19
           // disillusionments19("en-US"),
           // disillusionments_2000"),
-          // speakdisillusionments20
           // disillusionments20("en-US"),
           // disillusionments2100"),
-          // speakdisillusionments21
           // disillusionments21("en-US"),
           // disillusionments2200"),
-          // speakdisillusionments22
           // disillusionments22("en-US"),
         ],
       ),

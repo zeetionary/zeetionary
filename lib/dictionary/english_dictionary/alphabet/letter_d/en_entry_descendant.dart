@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -284,61 +282,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdescendants3("en-US"),
           ),
           // descendants400"),
-          // speakdescendants4
           // descendants4("en-US"),
           // descendants500"),
-          // speakdescendants5
           // descendants5("en-US"),
           // descendants600"),
-          // speakdescendants6
           // descendants6("en-US"),
           // descendants700"),
-          // speakdescendants7
           // descendants7("en-US"),
           // descendants800"),
-          // speakdescendants8
           // descendants8("en-US"),
           // descendants900"),
-          // speakdescendants9
           // descendants9("en-US"),
           // descendants1000"),
-          // speakdescendants10
           // descendants10("en-US"),
           // descendants1100"),
-          // speakdescendants11
           // descendants11("en-US"),
           // descendants1200"),
-          // speakdescendants12
           // descendants12("en-US"),
           // descendants1300"),
-          // speakdescendants13
           // descendants13("en-US"),
           // descendants1400"),
-          // speakdescendants14
           // descendants14("en-US"),
           // descendants1500"),
-          // speakdescendants15
           // descendants15("en-US"),
           // descendants1600"),
-          // speakdescendants16
           // descendants16("en-US"),
           // descendants1700"),
-          // speakdescendants17
           // descendants17("en-US"),
           // descendants1800"),
-          // speakdescendants18
           // descendants18("en-US"),
           // descendants1900"),
-          // speakdescendants19
           // descendants19("en-US"),
           // "Many of them are descendants of the original settlers.0"),
-          // speakdescendants20
           // descendants20("en-US"),
           // descendants2100"),
-          // speakdescendants21
           // descendants21("en-US"),
           // descendants2200"),
-          // speakdescendants22
           // descendants22("en-US"),
         ],
       ),

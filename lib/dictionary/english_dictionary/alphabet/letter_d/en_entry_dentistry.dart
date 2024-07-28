@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdentistrys1("en-US"),
           ),
           // dentistrys200"),
-          // speakdentistrys2
           // dentistrys2("en-US"),
           // dentistrys300"),
-          // speakdentistrys3
           // dentistrys3("en-US"),
           // dentistrys400"),
-          // speakdentistrys4
           // dentistrys4("en-US"),
           // dentistrys500"),
-          // speakdentistrys5
           // dentistrys5("en-US"),
           // dentistrys600"),
-          // speakdentistrys6
           // dentistrys6("en-US"),
           // dentistrys700"),
-          // speakdentistrys7
           // dentistrys7("en-US"),
           // dentistrys800"),
-          // speakdentistrys8
           // dentistrys8("en-US"),
           // dentistrys900"),
-          // speakdentistrys9
           // dentistrys9("en-US"),
           // dentistrys1000"),
-          // speakdentistrys10
           // dentistrys10("en-US"),
           // dentistrys1100"),
-          // speakdentistrys11
           // dentistrys11("en-US"),
           // dentistrys1200"),
-          // speakdentistrys12
           // dentistrys12("en-US"),
           // dentistrys1300"),
-          // speakdentistrys13
           // dentistrys13("en-US"),
           // dentistrys1400"),
-          // speakdentistrys14
           // dentistrys14("en-US"),
           // dentistrys1500"),
-          // speakdentistrys15
           // dentistrys15("en-US"),
           // dentistrys1600"),
-          // speakdentistrys16
           // dentistrys16("en-US"),
           // dentistrys1700"),
-          // speakdentistrys17
           // dentistrys17("en-US"),
           // dentistrys1800"),
-          // speakdentistrys18
           // dentistrys18("en-US"),
           // dentistrys1900"),
-          // speakdentistrys19
           // dentistrys19("en-US"),
           // dentistrys2000"),
-          // speakdentistrys20
           // dentistrys20("en-US"),
           // dentistrys2100"),
-          // speakdentistrys21
           // dentistrys21("en-US"),
           // dentistrys2200"),
-          // speakdentistrys22
           // dentistrys22("en-US"),
         ],
       ),

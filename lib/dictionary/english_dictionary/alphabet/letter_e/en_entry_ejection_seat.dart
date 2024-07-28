@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,45 +367,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakejectionseats1("en-US"),
           ),
           // ejectionseats200ejectionseats2
-          // speakejectionseats2
           // ejectionseats300ejectionseats3
-          // speakejectionseats3
           // ejectionseats400ejectionseats4
-          // speakejectionseats4
           // ejectionseats500ejectionseats5
-          // speakejectionseats5
           // ejectionseats600ejectionseats6
-          // speakejectionseats6
           // ejectionseats700ejectionseats7
-          // speakejectionseats7
           // ejectionseats800ejectionseats8
-          // speakejectionseats8
           // ejectionseats900ejectionseats9
-          // speakejectionseats9
           // ejectionseats_1000ejectionseats10
-          // speakejectionseats10
           // ejectionseats1100ejectionseats11
-          // speakejectionseats11
           // ejectionseats1200ejectionseats12
-          // speakejectionseats12
           // ejectionseats1300ejectionseats13
-          // speakejectionseats13
           // ejectionseats1400ejectionseats14
-          // speakejectionseats14
           // ejectionseats1500ejectionseats15
-          // speakejectionseats15
           // ejectionseats1600ejectionseats16
-          // speakejectionseats16
           // ejectionseats1700ejectionseats17
-          // speakejectionseats17
           // ejectionseats1800ejectionseats18
-          // speakejectionseats18
           // ejectionseats1900ejectionseats19
-          // speakejectionseats19
           // ejectionseats_2000ejectionseats20
-          // speakejectionseats20
           // ejectionseats2100ejectionseats21
-          // speakejectionseats21
           // ejectionseats2200ejectionseats22
           // speakejectionseats22("en-US"""),
           //         ),

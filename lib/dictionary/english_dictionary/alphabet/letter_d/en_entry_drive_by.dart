@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrivebys2("en-US"),
           ),
           // drivebys300"),
-          // speakdrivebys3
           // drivebys3("en-US"),
           // drivebys400"),
-          // speakdrivebys4
           // drivebys4("en-US"),
           // drivebys500"),
-          // speakdrivebys5
           // drivebys5("en-US"),
           // drivebys600"),
-          // speakdrivebys6
           // drivebys6("en-US"),
           // drivebys700"),
-          // speakdrivebys7
           // drivebys7("en-US"),
           // drivebys800"),
-          // speakdrivebys8
           // drivebys8("en-US"),
           // drivebys900"),
-          // speakdrivebys9
           // drivebys9("en-US"),
           // drivebys_1000"),
-          // speakdrivebys10
           // drivebys10("en-US"),
           // drivebys1100"),
-          // speakdrivebys11
           // drivebys11("en-US"),
           // drivebys1200"),
-          // speakdrivebys12
           // drivebys12("en-US"),
           // drivebys1300"),
-          // speakdrivebys13
           // drivebys13("en-US"),
           // drivebys1400"),
-          // speakdrivebys14
           // drivebys14("en-US"),
           // drivebys1500"),
-          // speakdrivebys15
           // drivebys15("en-US"),
           // drivebys1600"),
-          // speakdrivebys16
           // drivebys16("en-US"),
           // drivebys1700"),
-          // speakdrivebys17
           // drivebys17("en-US"),
           // drivebys1800"),
-          // speakdrivebys18
           // drivebys18("en-US"),
           // drivebys1900"),
-          // speakdrivebys19
           // drivebys19("en-US"),
           // drivebys_2000"),
-          // speakdrivebys20
           // drivebys20("en-US"),
           // drivebys2100"),
-          // speakdrivebys21
           // drivebys21("en-US"),
           // drivebys2200"),
-          // speakdrivebys22
           // drivebys22("en-US"),
         ],
       ),

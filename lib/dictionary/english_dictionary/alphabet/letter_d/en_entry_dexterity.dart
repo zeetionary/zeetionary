@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -268,61 +266,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdexteritys3("en-US"),
           ),
           // dexteritys400"),
-          // speakdexteritys4
           // dexteritys4("en-US"),
           // dexteritys500"),
-          // speakdexteritys5
           // dexteritys5("en-US"),
           // dexteritys600"),
-          // speakdexteritys6
           // dexteritys6("en-US"),
           // dexteritys700"),
-          // speakdexteritys7
           // dexteritys7("en-US"),
           // dexteritys800"),
-          // speakdexteritys8
           // dexteritys8("en-US"),
           // dexteritys900"),
-          // speakdexteritys9
           // dexteritys9("en-US"),
           // dexteritys_1000"),
-          // speakdexteritys10
           // dexteritys10("en-US"),
           // dexteritys1100"),
-          // speakdexteritys11
           // dexteritys11("en-US"),
           // dexteritys1200"),
-          // speakdexteritys12
           // dexteritys12("en-US"),
           // dexteritys1300"),
-          // speakdexteritys13
           // dexteritys13("en-US"),
           // dexteritys1400"),
-          // speakdexteritys14
           // dexteritys14("en-US"),
           // dexteritys1500"),
-          // speakdexteritys15
           // dexteritys15("en-US"),
           // dexteritys1600"),
-          // speakdexteritys16
           // dexteritys16("en-US"),
           // dexteritys1700"),
-          // speakdexteritys17
           // dexteritys17("en-US"),
           // dexteritys1800"),
-          // speakdexteritys18
           // dexteritys18("en-US"),
           // dexteritys1900"),
-          // speakdexteritys19
           // dexteritys19("en-US"),
           // dexteritys_2000"),
-          // speakdexteritys20
           // dexteritys20("en-US"),
           // dexteritys2100"),
-          // speakdexteritys21
           // dexteritys21("en-US"),
           // dexteritys2200"),
-          // speakdexteritys22
           // dexteritys22("en-US"),
         ],
       ),

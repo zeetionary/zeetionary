@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,64 +275,44 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          // speakdimensionals3
           // dimensionals3("en-US"),
           // dimensionals400"),
-          // speakdimensionals4
           // dimensionals4("en-US"),
           // dimensionals500"),
-          // speakdimensionals5
           // dimensionals5("en-US"),
           // dimensionals600"),
-          // speakdimensionals6
           // dimensionals6("en-US"),
           // dimensionals700"),
-          // speakdimensionals7
           // dimensionals7("en-US"),
           // dimensionals800"),
-          // speakdimensionals8
           // dimensionals8("en-US"),
           // dimensionals900"),
-          // speakdimensionals9
           // dimensionals9("en-US"),
           // dimensionals_1000"),
-          // speakdimensionals10
           // dimensionals10("en-US"),
           // dimensionals1100"),
-          // speakdimensionals11
           // dimensionals11("en-US"),
           // dimensionals1200"),
-          // speakdimensionals12
           // dimensionals12("en-US"),
           // dimensionals1300"),
-          // speakdimensionals13
           // dimensionals13("en-US"),
           // dimensionals1400"),
-          // speakdimensionals14
           // dimensionals14("en-US"),
           // dimensionals1500"),
-          // speakdimensionals15
           // dimensionals15("en-US"),
           // dimensionals1600"),
-          // speakdimensionals16
           // dimensionals16("en-US"),
           // dimensionals1700"),
-          // speakdimensionals17
           // dimensionals17("en-US"),
           // dimensionals1800"),
-          // speakdimensionals18
           // dimensionals18("en-US"),
           // dimensionals1900"),
-          // speakdimensionals19
           // dimensionals19("en-US"),
           // dimensionals_2000"),
-          // speakdimensionals20
           // dimensionals20("en-US"),
           // dimensionals2100"),
-          // speakdimensionals21
           // dimensionals21("en-US"),
           // dimensionals2200"),
-          // speakdimensionals22
           // dimensionals22("en-US"),
         ],
       ),

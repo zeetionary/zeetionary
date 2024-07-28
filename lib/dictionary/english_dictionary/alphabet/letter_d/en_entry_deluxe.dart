@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -236,67 +234,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeluxes1("en-US"),
           ),
           // deluxes200"),
-          // speakdeluxes2
           // deluxes2("en-US"),
           // deluxes300"),
-          // speakdeluxes3
           // deluxes3("en-US"),
           // deluxes400"),
-          // speakdeluxes4
           // deluxes4("en-US"),
           // deluxes500"),
-          // speakdeluxes5
           // deluxes5("en-US"),
           // deluxes600"),
-          // speakdeluxes6
           // deluxes6("en-US"),
           // deluxes700"),
-          // speakdeluxes7
           // deluxes7("en-US"),
           // deluxes800"),
-          // speakdeluxes8
           // deluxes8("en-US"),
           // deluxes900"),
-          // speakdeluxes9
           // deluxes9("en-US"),
           // deluxes1000"),
-          // speakdeluxes10
           // deluxes10("en-US"),
           // deluxes1100"),
-          // speakdeluxes11
           // deluxes11("en-US"),
           // deluxes1200"),
-          // speakdeluxes12
           // deluxes12("en-US"),
           // deluxes1300"),
-          // speakdeluxes13
           // deluxes13("en-US"),
           // deluxes1400"),
-          // speakdeluxes14
           // deluxes14("en-US"),
           // deluxes1500"),
-          // speakdeluxes15
           // deluxes15("en-US"),
           // deluxes1600"),
-          // speakdeluxes16
           // deluxes16("en-US"),
           // deluxes1700"),
-          // speakdeluxes17
           // deluxes17("en-US"),
           // deluxes1800"),
-          // speakdeluxes18
           // deluxes18("en-US"),
           // deluxes1900"),
-          // speakdeluxes19
           // deluxes19("en-US"),
           // deluxes2000"),
-          // speakdeluxes20
           // deluxes20("en-US"),
           // deluxes2100"),
-          // speakdeluxes21
           // deluxes21("en-US"),
           // deluxes2200"),
-          // speakdeluxes22
           // deluxes22("en-US"),
         ],
       ),

@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisruptions2("en-US"),
           ),
           // disruptions300"),
-          // speakdisruptions3
           // disruptions3("en-US"),
           // disruptions400"),
-          // speakdisruptions4
           // disruptions4("en-US"),
           // disruptions500"),
-          // speakdisruptions5
           // disruptions5("en-US"),
           // disruptions600"),
-          // speakdisruptions6
           // disruptions6("en-US"),
           // disruptions700"),
-          // speakdisruptions7
           // disruptions7("en-US"),
           // disruptions800"),
-          // speakdisruptions8
           // disruptions8("en-US"),
           // disruptions900"),
-          // speakdisruptions9
           // disruptions9("en-US"),
           // disruptions_1000"),
-          // speakdisruptions10
           // disruptions10("en-US"),
           // disruptions1100"),
-          // speakdisruptions11
           // disruptions11("en-US"),
           // disruptions1200"),
-          // speakdisruptions12
           // disruptions12("en-US"),
           // disruptions1300"),
-          // speakdisruptions13
           // disruptions13("en-US"),
           // disruptions1400"),
-          // speakdisruptions14
           // disruptions14("en-US"),
           // disruptions1500"),
-          // speakdisruptions15
           // disruptions15("en-US"),
           // disruptions1600"),
-          // speakdisruptions16
           // disruptions16("en-US"),
           // disruptions1700"),
-          // speakdisruptions17
           // disruptions17("en-US"),
           // disruptions1800"),
-          // speakdisruptions18
           // disruptions18("en-US"),
           // disruptions1900"),
-          // speakdisruptions19
           // disruptions19("en-US"),
           // disruptions_2000"),
-          // speakdisruptions20
           // disruptions20("en-US"),
           // disruptions2100"),
-          // speakdisruptions21
           // disruptions21("en-US"),
           // disruptions2200"),
-          // speakdisruptions22
           // disruptions22("en-US"),
         ],
       ),

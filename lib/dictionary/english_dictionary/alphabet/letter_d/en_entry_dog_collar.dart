@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdogcollars2("en-US"),
           ),
           // dogcollars300"),
-          // speakdogcollars3
           // dogcollars3("en-US"),
           // dogcollars400"),
-          // speakdogcollars4
           // dogcollars4("en-US"),
           // dogcollars500"),
-          // speakdogcollars5
           // dogcollars5("en-US"),
           // dogcollars600"),
-          // speakdogcollars6
           // dogcollars6("en-US"),
           // dogcollars700"),
-          // speakdogcollars7
           // dogcollars7("en-US"),
           // dogcollars800"),
-          // speakdogcollars8
           // dogcollars8("en-US"),
           // dogcollars900"),
-          // speakdogcollars9
           // dogcollars9("en-US"),
           // dogcollars_1000"),
-          // speakdogcollars10
           // dogcollars10("en-US"),
           // dogcollars1100"),
-          // speakdogcollars11
           // dogcollars11("en-US"),
           // dogcollars1200"),
-          // speakdogcollars12
           // dogcollars12("en-US"),
           // dogcollars1300"),
-          // speakdogcollars13
           // dogcollars13("en-US"),
           // dogcollars1400"),
-          // speakdogcollars14
           // dogcollars14("en-US"),
           // dogcollars1500"),
-          // speakdogcollars15
           // dogcollars15("en-US"),
           // dogcollars1600"),
-          // speakdogcollars16
           // dogcollars16("en-US"),
           // dogcollars1700"),
-          // speakdogcollars17
           // dogcollars17("en-US"),
           // dogcollars1800"),
-          // speakdogcollars18
           // dogcollars18("en-US"),
           // dogcollars1900"),
-          // speakdogcollars19
           // dogcollars19("en-US"),
           // dogcollars_2000"),
-          // speakdogcollars20
           // dogcollars20("en-US"),
           // dogcollars2100"),
-          // speakdogcollars21
           // dogcollars21("en-US"),
           // dogcollars2200"),
-          // speakdogcollars22
           // dogcollars22("en-US"),
         ],
       ),

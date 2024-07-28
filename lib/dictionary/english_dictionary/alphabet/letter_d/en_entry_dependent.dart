@@ -285,9 +285,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -390,46 +388,32 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // dependents900"),
-          // speakdependents9
           // dependents9("en-US"),
           // dependents1000"),
-          // speakdependents10
           // dependents10("en-US"),
           // dependents1100"),
-          // speakdependents11
           // dependents11("en-US"),
           // dependents1200"),
-          // speakdependents12
           // dependents12("en-US"),
           // dependents1300"),
-          // speakdependents13
           // dependents13("en-US"),
           // dependents1400"),
-          // speakdependents14
           // dependents14("en-US"),
           // dependents1500"),
-          // speakdependents15
           // dependents15("en-US"),
           // dependents1600"),
-          // speakdependents16
           // dependents16("en-US"),
           // dependents1700"),
-          // speakdependents17
           // dependents17("en-US"),
           // dependents1800"),
-          // speakdependents18
           // dependents18("en-US"),
           // dependents1900"),
-          // speakdependents19
           // dependents19("en-US"),
           // "The festival is heavily dependent on sponsorship for its success.0"),
-          // speakdependents20
           // dependents20("en-US"),
           // dependents2100"),
-          // speakdependents21
           // dependents21("en-US"),
           // dependents2200"),
-          // speakdependents22
           // dependents22("en-US"),
         ],
       ),

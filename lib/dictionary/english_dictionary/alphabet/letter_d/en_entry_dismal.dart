@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -288,58 +286,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdismals4("en-US"),
           ),
           // dismals500"),
-          // speakdismals5
           // dismals5("en-US"),
           // dismals600"),
-          // speakdismals6
           // dismals6("en-US"),
           // dismals700"),
-          // speakdismals7
           // dismals7("en-US"),
           // dismals800"),
-          // speakdismals8
           // dismals8("en-US"),
           // dismals900"),
-          // speakdismals9
           // dismals9("en-US"),
           // dismals_1000"),
-          // speakdismals10
           // dismals10("en-US"),
           // dismals1100"),
-          // speakdismals11
           // dismals11("en-US"),
           // dismals1200"),
-          // speakdismals12
           // dismals12("en-US"),
           // dismals1300"),
-          // speakdismals13
           // dismals13("en-US"),
           // dismals1400"),
-          // speakdismals14
           // dismals14("en-US"),
           // dismals1500"),
-          // speakdismals15
           // dismals15("en-US"),
           // dismals1600"),
-          // speakdismals16
           // dismals16("en-US"),
           // dismals1700"),
-          // speakdismals17
           // dismals17("en-US"),
           // dismals1800"),
-          // speakdismals18
           // dismals18("en-US"),
           // dismals1900"),
-          // speakdismals19
           // dismals19("en-US"),
           // dismals_2000"),
-          // speakdismals20
           // dismals20("en-US"),
           // dismals2100"),
-          // speakdismals21
           // dismals21("en-US"),
           // dismals2200"),
-          // speakdismals22
           // dismals22("en-US"),
         ],
       ),

@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespicables3("en-US"),
           ),
           // despicables400"),
-          // speakdespicables4
           // despicables4("en-US"),
           // despicables500"),
-          // speakdespicables5
           // despicables5("en-US"),
           // despicables600"),
-          // speakdespicables6
           // despicables6("en-US"),
           // despicables700"),
-          // speakdespicables7
           // despicables7("en-US"),
           // despicables800"),
-          // speakdespicables8
           // despicables8("en-US"),
           // despicables900"),
-          // speakdespicables9
           // despicables9("en-US"),
           // despicables1000"),
-          // speakdespicables10
           // despicables10("en-US"),
           // despicables1100"),
-          // speakdespicables11
           // despicables11("en-US"),
           // despicables1200"),
-          // speakdespicables12
           // despicables12("en-US"),
           // despicables1300"),
-          // speakdespicables13
           // despicables13("en-US"),
           // despicables1400"),
-          // speakdespicables14
           // despicables14("en-US"),
           // despicables1500"),
-          // speakdespicables15
           // despicables15("en-US"),
           // despicables1600"),
-          // speakdespicables16
           // despicables16("en-US"),
           // despicables1700"),
-          // speakdespicables17
           // despicables17("en-US"),
           // despicables1800"),
-          // speakdespicables18
           // despicables18("en-US"),
           // despicables1900"),
-          // speakdespicables19
           // despicables19("en-US"),
           // "Police have condemned the theft from an elderly widow as despicable.0"),
-          // speakdespicables20
           // despicables20("en-US"),
           // despicables2100"),
-          // speakdespicables21
           // despicables21("en-US"),
           // despicables2200"),
-          // speakdespicables22
           // despicables22("en-US"),
         ],
       ),

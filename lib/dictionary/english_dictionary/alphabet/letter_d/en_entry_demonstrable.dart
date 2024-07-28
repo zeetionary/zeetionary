@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemonstrables2("en-US"),
           ),
           // demonstrables300"),
-          // speakdemonstrables3
           // demonstrables3("en-US"),
           // demonstrables400"),
-          // speakdemonstrables4
           // demonstrables4("en-US"),
           // demonstrables500"),
-          // speakdemonstrables5
           // demonstrables5("en-US"),
           // demonstrables600"),
-          // speakdemonstrables6
           // demonstrables6("en-US"),
           // demonstrables700"),
-          // speakdemonstrables7
           // demonstrables7("en-US"),
           // demonstrables800"),
-          // speakdemonstrables8
           // demonstrables8("en-US"),
           // demonstrables900"),
-          // speakdemonstrables9
           // demonstrables9("en-US"),
           // demonstrables1000"),
-          // speakdemonstrables10
           // demonstrables10("en-US"),
           // demonstrables1100"),
-          // speakdemonstrables11
           // demonstrables11("en-US"),
           // demonstrables1200"),
-          // speakdemonstrables12
           // demonstrables12("en-US"),
           // demonstrables1300"),
-          // speakdemonstrables13
           // demonstrables13("en-US"),
           // demonstrables1400"),
-          // speakdemonstrables14
           // demonstrables14("en-US"),
           // demonstrables1500"),
-          // speakdemonstrables15
           // demonstrables15("en-US"),
           // demonstrables1600"),
-          // speakdemonstrables16
           // demonstrables16("en-US"),
           // demonstrables1700"),
-          // speakdemonstrables17
           // demonstrables17("en-US"),
           // demonstrables1800"),
-          // speakdemonstrables18
           // demonstrables18("en-US"),
           // demonstrables1900"),
-          // speakdemonstrables19
           // demonstrables19("en-US"),
           // "The report contains numerous demonstrable errors.0"),
-          // speakdemonstrables20
           // demonstrables20("en-US"),
           // demonstrables2100"),
-          // speakdemonstrables21
           // demonstrables21("en-US"),
           // demonstrables2200"),
-          // speakdemonstrables22
           // demonstrables22("en-US"),
         ],
       ),

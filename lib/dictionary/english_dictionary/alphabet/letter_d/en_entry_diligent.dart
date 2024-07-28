@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiligents3("en-US"),
           ),
           // diligents400"),
-          // speakdiligents4
           // diligents4("en-US"),
           // diligents500"),
-          // speakdiligents5
           // diligents5("en-US"),
           // diligents600"),
-          // speakdiligents6
           // diligents6("en-US"),
           // diligents700"),
-          // speakdiligents7
           // diligents7("en-US"),
           // diligents800"),
-          // speakdiligents8
           // diligents8("en-US"),
           // diligents900"),
-          // speakdiligents9
           // diligents9("en-US"),
           // diligents_1000"),
-          // speakdiligents10
           // diligents10("en-US"),
           // diligents1100"),
-          // speakdiligents11
           // diligents11("en-US"),
           // diligents1200"),
-          // speakdiligents12
           // diligents12("en-US"),
           // diligents1300"),
-          // speakdiligents13
           // diligents13("en-US"),
           // diligents1400"),
-          // speakdiligents14
           // diligents14("en-US"),
           // diligents1500"),
-          // speakdiligents15
           // diligents15("en-US"),
           // diligents1600"),
-          // speakdiligents16
           // diligents16("en-US"),
           // diligents1700"),
-          // speakdiligents17
           // diligents17("en-US"),
           // diligents1800"),
-          // speakdiligents18
           // diligents18("en-US"),
           // diligents1900"),
-          // speakdiligents19
           // diligents19("en-US"),
           // diligents_2000"),
-          // speakdiligents20
           // diligents20("en-US"),
           // diligents2100"),
-          // speakdiligents21
           // diligents21("en-US"),
           // diligents2200"),
-          // speakdiligents22
           // diligents22("en-US"),
         ],
       ),

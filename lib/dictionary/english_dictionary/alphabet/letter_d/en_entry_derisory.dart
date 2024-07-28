@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -260,67 +258,46 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // derisorys200"),
-          // speakderisorys2
           // derisorys2("en-US"),
           // derisorys300"),
-          // speakderisorys3
           // derisorys3("en-US"),
           // derisorys400"),
-          // speakderisorys4
           // derisorys4("en-US"),
           // derisorys500"),
-          // speakderisorys5
           // derisorys5("en-US"),
           // derisorys600"),
-          // speakderisorys6
           // derisorys6("en-US"),
           // derisorys700"),
-          // speakderisorys7
           // derisorys7("en-US"),
           // derisorys800"),
-          // speakderisorys8
           // derisorys8("en-US"),
           // derisorys900"),
-          // speakderisorys9
           // derisorys9("en-US"),
           // derisorys1000"),
-          // speakderisorys10
           // derisorys10("en-US"),
           // derisorys1100"),
-          // speakderisorys11
           // derisorys11("en-US"),
           // derisorys1200"),
-          // speakderisorys12
           // derisorys12("en-US"),
           // derisorys1300"),
-          // speakderisorys13
           // derisorys13("en-US"),
           // derisorys1400"),
-          // speakderisorys14
           // derisorys14("en-US"),
           // derisorys1500"),
-          // speakderisorys15
           // derisorys15("en-US"),
           // derisorys1600"),
-          // speakderisorys16
           // derisorys16("en-US"),
           // derisorys1700"),
-          // speakderisorys17
           // derisorys17("en-US"),
           // derisorys1800"),
-          // speakderisorys18
           // derisorys18("en-US"),
           // derisorys1900"),
-          // speakderisorys19
           // derisorys19("en-US"),
           // derisorys2000"),
-          // speakderisorys20
           // derisorys20("en-US"),
           // derisorys2100"),
-          // speakderisorys21
           // derisorys21("en-US"),
           // derisorys2200"),
-          // speakderisorys22
           // derisorys22("en-US"),
         ],
       ),

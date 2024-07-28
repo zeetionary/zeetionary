@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetainees1("en-US"),
           ),
           // detainees200"),
-          // speakdetainees2
           // detainees2("en-US"),
           // detainees300"),
-          // speakdetainees3
           // detainees3("en-US"),
           // detainees400"),
-          // speakdetainees4
           // detainees4("en-US"),
           // detainees500"),
-          // speakdetainees5
           // detainees5("en-US"),
           // detainees600"),
-          // speakdetainees6
           // detainees6("en-US"),
           // detainees700"),
-          // speakdetainees7
           // detainees7("en-US"),
           // detainees800"),
-          // speakdetainees8
           // detainees8("en-US"),
           // detainees900"),
-          // speakdetainees9
           // detainees9("en-US"),
           // detainees1000"),
-          // speakdetainees10
           // detainees10("en-US"),
           // detainees1100"),
-          // speakdetainees11
           // detainees11("en-US"),
           // detainees1200"),
-          // speakdetainees12
           // detainees12("en-US"),
           // detainees1300"),
-          // speakdetainees13
           // detainees13("en-US"),
           // detainees1400"),
-          // speakdetainees14
           // detainees14("en-US"),
           // detainees1500"),
-          // speakdetainees15
           // detainees15("en-US"),
           // detainees1600"),
-          // speakdetainees16
           // detainees16("en-US"),
           // detainees1700"),
-          // speakdetainees17
           // detainees17("en-US"),
           // detainees1800"),
-          // speakdetainees18
           // detainees18("en-US"),
           // detainees1900"),
-          // speakdetainees19
           // detainees19("en-US"),
           // detainees2000"),
-          // speakdetainees20
           // detainees20("en-US"),
           // detainees2100"),
-          // speakdetainees21
           // detainees21("en-US"),
           // detainees2200"),
-          // speakdetainees22
           // detainees22("en-US"),
         ],
       ),

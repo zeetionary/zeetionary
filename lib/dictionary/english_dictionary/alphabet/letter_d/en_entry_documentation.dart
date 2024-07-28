@@ -367,9 +367,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -407,61 +405,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdocumentations3("en-US"),
           ),
           // documentations400"),
-          // speakdocumentations4
           // documentations4
           // documentations500"),
-          // speakdocumentations5
           // documentations5
           // documentations600"),
-          // speakdocumentations6
           // documentations6
           // documentations700"),
-          // speakdocumentations7
           // documentations7
           // documentations800"),
-          // speakdocumentations8
           // documentations8
           // documentations900"),
-          // speakdocumentations9
           // documentations9
           // documentations_1000"),
-          // speakdocumentations10
           // documentations10
           // documentations1100"),
-          // speakdocumentations11
           // documentations11
           // documentations1200"),
-          // speakdocumentations12
           // documentations12
           // documentations1300"),
-          // speakdocumentations13
           // documentations13
           // documentations1400"),
-          // speakdocumentations14
           // documentations14
           // documentations1500"),
-          // speakdocumentations15
           // documentations15
           // documentations1600"),
-          // speakdocumentations16
           // documentations16
           // documentations1700"),
-          // speakdocumentations17
           // documentations17
           // documentations1800"),
-          // speakdocumentations18
           // documentations18
           // documentations1900"),
-          // speakdocumentations19
           // documentations19
           // documentations_2000"),
-          // speakdocumentations20
           // documentations20
           // documentations2100"),
-          // speakdocumentations21
           // documentations21
           // documentations2200"),
-          // speakdocumentations22
           // documentations22("en-US"),
         ],
       ),

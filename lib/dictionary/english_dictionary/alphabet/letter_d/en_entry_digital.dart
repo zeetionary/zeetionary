@@ -258,9 +258,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -325,52 +323,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdigitals6("en-US"),
           ),
           // digitals700"),
-          // speakdigitals7
           // digitals7("en-US"),
           // digitals800"),
-          // speakdigitals8
           // digitals8("en-US"),
           // digitals900"),
-          // speakdigitals9
           // digitals9("en-US"),
           // digitals_1000"),
-          // speakdigitals10
           // digitals10("en-US"),
           // digitals1100"),
-          // speakdigitals11
           // digitals11("en-US"),
           // digitals1200"),
-          // speakdigitals12
           // digitals12("en-US"),
           // digitals1300"),
-          // speakdigitals13
           // digitals13("en-US"),
           // digitals1400"),
-          // speakdigitals14
           // digitals14("en-US"),
           // digitals1500"),
-          // speakdigitals15
           // digitals15("en-US"),
           // digitals1600"),
-          // speakdigitals16
           // digitals16("en-US"),
           // digitals1700"),
-          // speakdigitals17
           // digitals17("en-US"),
           // digitals1800"),
-          // speakdigitals18
           // digitals18("en-US"),
           // digitals1900"),
-          // speakdigitals19
           // digitals19("en-US"),
           // digitals_2000"),
-          // speakdigitals20
           // digitals20("en-US"),
           // digitals2100"),
-          // speakdigitals21
           // digitals21("en-US"),
           // digitals2200"),
-          // speakdigitals22
           // digitals22("en-US"),
         ],
       ),

@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownloadables1("en-US"),
           ),
           // downloadables200"),
-          // speakdownloadables2
           // downloadables2("en-US"),
           // downloadables300"),
-          // speakdownloadables3
           // downloadables3("en-US"),
           // downloadables400"),
-          // speakdownloadables4
           // downloadables4("en-US"),
           // downloadables500"),
-          // speakdownloadables5
           // downloadables5("en-US"),
           // downloadables600"),
-          // speakdownloadables6
           // downloadables6("en-US"),
           // downloadables700"),
-          // speakdownloadables7
           // downloadables7("en-US"),
           // downloadables800"),
-          // speakdownloadables8
           // downloadables8("en-US"),
           // downloadables900"),
-          // speakdownloadables9
           // downloadables9("en-US"),
           // downloadables_1000"),
-          // speakdownloadables10
           // downloadables10("en-US"),
           // downloadables1100"),
-          // speakdownloadables11
           // downloadables11("en-US"),
           // downloadables1200"),
-          // speakdownloadables12
           // downloadables12("en-US"),
           // downloadables1300"),
-          // speakdownloadables13
           // downloadables13("en-US"),
           // downloadables1400"),
-          // speakdownloadables14
           // downloadables14("en-US"),
           // downloadables1500"),
-          // speakdownloadables15
           // downloadables15("en-US"),
           // downloadables1600"),
-          // speakdownloadables16
           // downloadables16("en-US"),
           // downloadables1700"),
-          // speakdownloadables17
           // downloadables17("en-US"),
           // downloadables1800"),
-          // speakdownloadables18
           // downloadables18("en-US"),
           // downloadables1900"),
-          // speakdownloadables19
           // downloadables19("en-US"),
           // downloadables_2000"),
-          // speakdownloadables20
           // downloadables20("en-US"),
           // downloadables2100"),
-          // speakdownloadables21
           // downloadables21("en-US"),
           // downloadables2200"),
-          // speakdownloadables22
           // downloadables22("en-US"),
         ],
       ),

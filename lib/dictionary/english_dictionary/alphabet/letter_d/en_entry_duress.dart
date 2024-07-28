@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduresss2("en-US"),
           ),
           // duresss300
-          // speakduresss3
           // duresss3("en-US"""),
           // duresss400
-          // speakduresss4
           // duresss4("en-US"""),
           // duresss500
-          // speakduresss5
           // duresss5("en-US"""),
           // duresss600
-          // speakduresss6
           // duresss6("en-US"""),
           // duresss700
-          // speakduresss7
           // duresss7("en-US"""),
           // duresss800
-          // speakduresss8
           // duresss8("en-US"""),
           // duresss900
-          // speakduresss9
           // duresss9("en-US"""),
           // duresss_1000
-          // speakduresss10
           // duresss10("en-US"""),
           // duresss1100
-          // speakduresss11
           // duresss11("en-US"""),
           // duresss1200
-          // speakduresss12
           // duresss12("en-US"""),
           // duresss1300
-          // speakduresss13
           // duresss13("en-US"""),
           // duresss1400
-          // speakduresss14
           // duresss14("en-US"""),
           // duresss1500
-          // speakduresss15
           // duresss15("en-US"""),
           // duresss1600
-          // speakduresss16
           // duresss16("en-US"""),
           // duresss1700
-          // speakduresss17
           // duresss17("en-US"""),
           // duresss1800
-          // speakduresss18
           // duresss18("en-US"""),
           // duresss1900
-          // speakduresss19
           // duresss19("en-US"""),
           // duresss_2000
-          // speakduresss20
           // duresss20("en-US"""),
           // duresss2100
-          // speakduresss21
           // duresss21("en-US"""),
           // duresss2200
-          // speakduresss22
           // duresss22("en-US"""),
         ],
       ),

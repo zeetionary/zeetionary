@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdormouses1("en-US"),
           ),
           // dormouses200"),
-          // speakdormouses2
           // dormouses2("en-US"),
           // dormouses300"),
-          // speakdormouses3
           // dormouses3("en-US"),
           // dormouses400"),
-          // speakdormouses4
           // dormouses4("en-US"),
           // dormouses500"),
-          // speakdormouses5
           // dormouses5("en-US"),
           // dormouses600"),
-          // speakdormouses6
           // dormouses6("en-US"),
           // dormouses700"),
-          // speakdormouses7
           // dormouses7("en-US"),
           // dormouses800"),
-          // speakdormouses8
           // dormouses8("en-US"),
           // dormouses900"),
-          // speakdormouses9
           // dormouses9("en-US"),
           // dormouses_1000"),
-          // speakdormouses10
           // dormouses10("en-US"),
           // dormouses1100"),
-          // speakdormouses11
           // dormouses11("en-US"),
           // dormouses1200"),
-          // speakdormouses12
           // dormouses12("en-US"),
           // dormouses1300"),
-          // speakdormouses13
           // dormouses13("en-US"),
           // dormouses1400"),
-          // speakdormouses14
           // dormouses14("en-US"),
           // dormouses1500"),
-          // speakdormouses15
           // dormouses15("en-US"),
           // dormouses1600"),
-          // speakdormouses16
           // dormouses16("en-US"),
           // dormouses1700"),
-          // speakdormouses17
           // dormouses17("en-US"),
           // dormouses1800"),
-          // speakdormouses18
           // dormouses18("en-US"),
           // dormouses1900"),
-          // speakdormouses19
           // dormouses19("en-US"),
           // dormouses_2000"),
-          // speakdormouses20
           // dormouses20("en-US"),
           // dormouses2100"),
-          // speakdormouses21
           // dormouses21("en-US"),
           // dormouses2200"),
-          // speakdormouses22
           // dormouses22("en-US"),
         ],
       ),

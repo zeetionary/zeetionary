@@ -12,7 +12,6 @@ class EnglishEntryabundant extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabundant(String languageCode) async {
-    // speakAbundant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryabundant extends StatelessWidget {
   }
 
   Future<void> speaka15742(String languageCode) async {
-    // speakAbundant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryabundant extends StatelessWidget {
   }
 
   Future<void> speaka96852(String languageCode) async {
-    // speakAbundant
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

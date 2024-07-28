@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -381,64 +379,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdukes2("en-US"),
           ),
           // dukes300
-          // speakdukes3
           // dukes3("en-US"""),
           // dukes400
-          // speakdukes4
           // dukes4("en-US"""),
           // dukes500
-          // speakdukes5
           // dukes5("en-US"""),
           // dukes600
-          // speakdukes6
           // dukes6("en-US"""),
           // dukes700
-          // speakdukes7
           // dukes7("en-US"""),
           // dukes800
-          // speakdukes8
           // dukes8("en-US"""),
           // dukes900
-          // speakdukes9
           // dukes9("en-US"""),
           // dukes_1000
-          // speakdukes10
           // dukes10("en-US"""),
           // dukes1100
-          // speakdukes11
           // dukes11("en-US"""),
           // dukes1200
-          // speakdukes12
           // dukes12("en-US"""),
           // dukes1300
-          // speakdukes13
           // dukes13("en-US"""),
           // dukes1400
-          // speakdukes14
           // dukes14("en-US"""),
           // dukes1500
-          // speakdukes15
           // dukes15("en-US"""),
           // dukes1600
-          // speakdukes16
           // dukes16("en-US"""),
           // dukes1700
-          // speakdukes17
           // dukes17("en-US"""),
           // dukes1800
-          // speakdukes18
           // dukes18("en-US"""),
           // dukes1900
-          // speakdukes19
           // dukes19("en-US"""),
           // dukes_2000
-          // speakdukes20
           // dukes20("en-US"""),
           // dukes2100
-          // speakdukes21
           // dukes21("en-US"""),
           // dukes2200
-          // speakdukes22
           // dukes22("en-US"""),
         ],
       ),

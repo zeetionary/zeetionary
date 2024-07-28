@@ -373,9 +373,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -420,58 +418,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdonates4("en-US"),
           ),
           // donates500"),
-          // speakdonates5
           // donates5("en-US"),
           // donates600"),
-          // speakdonates6
           // donates6("en-US"),
           // donates700"),
-          // speakdonates7
           // donates7("en-US"),
           // donates800"),
-          // speakdonates8
           // donates8("en-US"),
           // donates900"),
-          // speakdonates9
           // donates9("en-US"),
           // donates_1000"),
-          // speakdonates10
           // donates10("en-US"),
           // donates1100"),
-          // speakdonates11
           // donates11("en-US"),
           // donates1200"),
-          // speakdonates12
           // donates12("en-US"),
           // donates1300"),
-          // speakdonates13
           // donates13("en-US"),
           // donates1400"),
-          // speakdonates14
           // donates14("en-US"),
           // donates1500"),
-          // speakdonates15
           // donates15("en-US"),
           // donates1600"),
-          // speakdonates16
           // donates16("en-US"),
           // donates1700"),
-          // speakdonates17
           // donates17("en-US"),
           // donates1800"),
-          // speakdonates18
           // donates18("en-US"),
           // donates1900"),
-          // speakdonates19
           // donates19("en-US"),
           // donates_2000"),
-          // speakdonates20
           // donates20("en-US"),
           // donates2100"),
-          // speakdonates21
           // donates21("en-US"),
           // donates2200"),
-          // speakdonates22
           // donates22("en-US"),
         ],
       ),

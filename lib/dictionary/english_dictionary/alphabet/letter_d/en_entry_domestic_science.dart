@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -372,67 +370,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdomesticsciences1("en-US"),
           ),
           // domesticsciences200"),
-          // speakdomesticsciences2
           // domesticsciences2("en-US"),
           // domesticsciences300"),
-          // speakdomesticsciences3
           // domesticsciences3("en-US"),
           // domesticsciences400"),
-          // speakdomesticsciences4
           // domesticsciences4("en-US"),
           // domesticsciences500"),
-          // speakdomesticsciences5
           // domesticsciences5("en-US"),
           // domesticsciences600"),
-          // speakdomesticsciences6
           // domesticsciences6("en-US"),
           // domesticsciences700"),
-          // speakdomesticsciences7
           // domesticsciences7("en-US"),
           // domesticsciences800"),
-          // speakdomesticsciences8
           // domesticsciences8("en-US"),
           // domesticsciences900"),
-          // speakdomesticsciences9
           // domesticsciences9("en-US"),
           // domesticsciences_1000"),
-          // speakdomesticsciences10
           // domesticsciences10("en-US"),
           // domesticsciences1100"),
-          // speakdomesticsciences11
           // domesticsciences11("en-US"),
           // domesticsciences1200"),
-          // speakdomesticsciences12
           // domesticsciences12("en-US"),
           // domesticsciences1300"),
-          // speakdomesticsciences13
           // domesticsciences13("en-US"),
           // domesticsciences1400"),
-          // speakdomesticsciences14
           // domesticsciences14("en-US"),
           // domesticsciences1500"),
-          // speakdomesticsciences15
           // domesticsciences15("en-US"),
           // domesticsciences1600"),
-          // speakdomesticsciences16
           // domesticsciences16("en-US"),
           // domesticsciences1700"),
-          // speakdomesticsciences17
           // domesticsciences17("en-US"),
           // domesticsciences1800"),
-          // speakdomesticsciences18
           // domesticsciences18("en-US"),
           // domesticsciences1900"),
-          // speakdomesticsciences19
           // domesticsciences19("en-US"),
           // domesticsciences_2000"),
-          // speakdomesticsciences20
           // domesticsciences20("en-US"),
           // domesticsciences2100"),
-          // speakdomesticsciences21
           // domesticsciences21("en-US"),
           // domesticsciences2200"),
-          // speakdomesticsciences22
           // domesticsciences22("en-US"),
         ],
       ),

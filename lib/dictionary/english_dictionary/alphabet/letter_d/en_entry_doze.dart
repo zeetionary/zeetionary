@@ -372,9 +372,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -416,58 +414,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdozes4("en-US"),
           ),
           // dozes500"),
-          // speakdozes5
           // dozes5("en-US"),
           // dozes600"),
-          // speakdozes6
           // dozes6("en-US"),
           // dozes700"),
-          // speakdozes7
           // dozes7("en-US"),
           // dozes800"),
-          // speakdozes8
           // dozes8("en-US"),
           // dozes900"),
-          // speakdozes9
           // dozes9("en-US"),
           // dozes_1000"),
-          // speakdozes10
           // dozes10("en-US"),
           // dozes1100"),
-          // speakdozes11
           // dozes11("en-US"),
           // dozes1200"),
-          // speakdozes12
           // dozes12("en-US"),
           // dozes1300"),
-          // speakdozes13
           // dozes13("en-US"),
           // dozes1400"),
-          // speakdozes14
           // dozes14("en-US"),
           // dozes1500"),
-          // speakdozes15
           // dozes15("en-US"),
           // dozes1600"),
-          // speakdozes16
           // dozes16("en-US"),
           // dozes1700"),
-          // speakdozes17
           // dozes17("en-US"),
           // dozes1800"),
-          // speakdozes18
           // dozes18("en-US"),
           // dozes1900"),
-          // speakdozes19
           // dozes19("en-US"),
           // dozes_2000"),
-          // speakdozes20
           // dozes20("en-US"),
           // dozes2100"),
-          // speakdozes21
           // dozes21("en-US"),
           // dozes2200"),
-          // speakdozes22
           // dozes22("en-US"),
         ],
       ),

@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -242,67 +240,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevilsadvocates1("en-US"),
           ),
           // devilsadvocates200"),
-          // speakdevilsadvocates2
           // devilsadvocates2("en-US"),
           // devilsadvocates300"),
-          // speakdevilsadvocates3
           // devilsadvocates3("en-US"),
           // devilsadvocates400"),
-          // speakdevilsadvocates4
           // devilsadvocates4("en-US"),
           // devilsadvocates500"),
-          // speakdevilsadvocates5
           // devilsadvocates5("en-US"),
           // devilsadvocates600"),
-          // speakdevilsadvocates6
           // devilsadvocates6("en-US"),
           // devilsadvocates700"),
-          // speakdevilsadvocates7
           // devilsadvocates7("en-US"),
           // devilsadvocates800"),
-          // speakdevilsadvocates8
           // devilsadvocates8("en-US"),
           // devilsadvocates900"),
-          // speakdevilsadvocates9
           // devilsadvocates9("en-US"),
           // devilsadvocates1000"),
-          // speakdevilsadvocates10
           // devilsadvocates10("en-US"),
           // devilsadvocates1100"),
-          // speakdevilsadvocates11
           // devilsadvocates11("en-US"),
           // devilsadvocates1200"),
-          // speakdevilsadvocates12
           // devilsadvocates12("en-US"),
           // devilsadvocates1300"),
-          // speakdevilsadvocates13
           // devilsadvocates13("en-US"),
           // devilsadvocates1400"),
-          // speakdevilsadvocates14
           // devilsadvocates14("en-US"),
           // devilsadvocates1500"),
-          // speakdevilsadvocates15
           // devilsadvocates15("en-US"),
           // devilsadvocates1600"),
-          // speakdevilsadvocates16
           // devilsadvocates16("en-US"),
           // devilsadvocates1700"),
-          // speakdevilsadvocates17
           // devilsadvocates17("en-US"),
           // devilsadvocates1800"),
-          // speakdevilsadvocates18
           // devilsadvocates18("en-US"),
           // devilsadvocates1900"),
-          // speakdevilsadvocates19
           // devilsadvocates19("en-US"),
           // devilsadvocates_2000"),
-          // speakdevilsadvocates20
           // devilsadvocates20("en-US"),
           // devilsadvocates2100"),
-          // speakdevilsadvocates21
           // devilsadvocates21("en-US"),
           // devilsadvocates2200"),
-          // speakdevilsadvocates22
           // devilsadvocates22("en-US"),
         ],
       ),

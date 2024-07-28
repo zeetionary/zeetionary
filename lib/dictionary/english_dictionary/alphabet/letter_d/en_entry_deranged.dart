@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderangeds2("en-US"),
           ),
           // derangeds300"),
-          // speakderangeds3
           // derangeds3("en-US"),
           // derangeds400"),
-          // speakderangeds4
           // derangeds4("en-US"),
           // derangeds500"),
-          // speakderangeds5
           // derangeds5("en-US"),
           // derangeds600"),
-          // speakderangeds6
           // derangeds6("en-US"),
           // derangeds700"),
-          // speakderangeds7
           // derangeds7("en-US"),
           // derangeds800"),
-          // speakderangeds8
           // derangeds8("en-US"),
           // derangeds900"),
-          // speakderangeds9
           // derangeds9("en-US"),
           // derangeds1000"),
-          // speakderangeds10
           // derangeds10("en-US"),
           // derangeds1100"),
-          // speakderangeds11
           // derangeds11("en-US"),
           // derangeds1200"),
-          // speakderangeds12
           // derangeds12("en-US"),
           // derangeds1300"),
-          // speakderangeds13
           // derangeds13("en-US"),
           // derangeds1400"),
-          // speakderangeds14
           // derangeds14("en-US"),
           // derangeds1500"),
-          // speakderangeds15
           // derangeds15("en-US"),
           // derangeds1600"),
-          // speakderangeds16
           // derangeds16("en-US"),
           // derangeds1700"),
-          // speakderangeds17
           // derangeds17("en-US"),
           // derangeds1800"),
-          // speakderangeds18
           // derangeds18("en-US"),
           // derangeds1900"),
-          // speakderangeds19
           // derangeds19("en-US"),
           // "Deranged with panic, I ran back and forth.0"),
-          // speakderangeds20
           // derangeds20("en-US"),
           // derangeds2100"),
-          // speakderangeds21
           // derangeds21("en-US"),
           // derangeds2200"),
-          // speakderangeds22
           // derangeds22("en-US"),
         ],
       ),

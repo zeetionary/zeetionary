@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdominos1("en-US"),
           ),
           // dominos200"),
-          // speakdominos2
           // dominos2
           // dominos300"),
-          // speakdominos3
           // dominos3
           // dominos400"),
-          // speakdominos4
           // dominos4
           // dominos500"),
-          // speakdominos5
           // dominos5
           // dominos600"),
-          // speakdominos6
           // dominos6
           // dominos700"),
-          // speakdominos7
           // dominos7
           // dominos800"),
-          // speakdominos8
           // dominos8
           // dominos900"),
-          // speakdominos9
           // dominos9
           // dominos_1000"),
-          // speakdominos10
           // dominos10
           // dominos1100"),
-          // speakdominos11
           // dominos11
           // dominos1200"),
-          // speakdominos12
           // dominos12
           // dominos1300"),
-          // speakdominos13
           // dominos13
           // dominos1400"),
-          // speakdominos14
           // dominos14
           // dominos1500"),
-          // speakdominos15
           // dominos15
           // dominos1600"),
-          // speakdominos16
           // dominos16
           // dominos1700"),
-          // speakdominos17
           // dominos17
           // dominos1800"),
-          // speakdominos18
           // dominos18
           // dominos1900"),
-          // speakdominos19
           // dominos19
           // dominos_2000"),
-          // speakdominos20
           // dominos20
           // dominos2100"),
-          // speakdominos21
           // dominos21
           // dominos2200"),
-          // speakdominos22
           // dominos22("en-US"),
         ],
       ),

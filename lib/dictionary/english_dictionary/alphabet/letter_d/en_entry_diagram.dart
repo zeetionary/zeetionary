@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -286,58 +284,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiagrams4("en-US"),
           ),
           // diagrams500"),
-          // speakdiagrams5
           // diagrams5("en-US"),
           // diagrams600"),
-          // speakdiagrams6
           // diagrams6("en-US"),
           // diagrams700"),
-          // speakdiagrams7
           // diagrams7("en-US"),
           // diagrams800"),
-          // speakdiagrams8
           // diagrams8("en-US"),
           // diagrams900"),
-          // speakdiagrams9
           // diagrams9("en-US"),
           // diagrams_1000"),
-          // speakdiagrams10
           // diagrams10("en-US"),
           // diagrams1100"),
-          // speakdiagrams11
           // diagrams11("en-US"),
           // diagrams1200"),
-          // speakdiagrams12
           // diagrams12("en-US"),
           // diagrams1300"),
-          // speakdiagrams13
           // diagrams13("en-US"),
           // diagrams1400"),
-          // speakdiagrams14
           // diagrams14("en-US"),
           // diagrams1500"),
-          // speakdiagrams15
           // diagrams15("en-US"),
           // diagrams1600"),
-          // speakdiagrams16
           // diagrams16("en-US"),
           // diagrams1700"),
-          // speakdiagrams17
           // diagrams17("en-US"),
           // diagrams1800"),
-          // speakdiagrams18
           // diagrams18("en-US"),
           // diagrams1900"),
-          // speakdiagrams19
           // diagrams19("en-US"),
           // diagrams_2000"),
-          // speakdiagrams20
           // diagrams20("en-US"),
           // diagrams2100"),
-          // speakdiagrams21
           // diagrams21("en-US"),
           // diagrams2200"),
-          // speakdiagrams22
           // diagrams22("en-US"),
         ],
       ),

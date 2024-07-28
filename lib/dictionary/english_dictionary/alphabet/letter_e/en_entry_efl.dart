@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakEFLs1("en-US"),
           ),
           // EFLs200EFLs2
-          // speakEFLs2
           // EFLs300EFLs3
-          // speakEFLs3
           // EFLs400EFLs4
-          // speakEFLs4
           // EFLs500EFLs5
-          // speakEFLs5
           // EFLs600EFLs6
-          // speakEFLs6
           // EFLs700EFLs7
-          // speakEFLs7
           // EFLs800EFLs8
-          // speakEFLs8
           // EFLs900EFLs9
-          // speakEFLs9
           // EFLs_1000EFLs10
-          // speakEFLs10
           // EFLs1100EFLs11
-          // speakEFLs11
           // EFLs1200EFLs12
-          // speakEFLs12
           // EFLs1300EFLs13
-          // speakEFLs13
           // EFLs1400EFLs14
-          // speakEFLs14
           // EFLs1500EFLs15
-          // speakEFLs15
           // EFLs1600EFLs16
-          // speakEFLs16
           // EFLs1700EFLs17
-          // speakEFLs17
           // EFLs1800EFLs18
-          // speakEFLs18
           // EFLs1900EFLs19
-          // speakEFLs19
           // EFLs_2000EFLs20
-          // speakEFLs20
           // EFLs2100EFLs21
-          // speakEFLs21
           // EFLs2200EFLs22
           // speakEFLs22("en-US"""),
           //         ),

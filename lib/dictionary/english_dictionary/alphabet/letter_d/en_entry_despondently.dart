@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespondentlys2("en-US"),
           ),
           // despondentlys300"),
-          // speakdespondentlys3
           // despondentlys3("en-US"),
           // despondentlys400"),
-          // speakdespondentlys4
           // despondentlys4("en-US"),
           // despondentlys500"),
-          // speakdespondentlys5
           // despondentlys5("en-US"),
           // despondentlys600"),
-          // speakdespondentlys6
           // despondentlys6("en-US"),
           // despondentlys700"),
-          // speakdespondentlys7
           // despondentlys7("en-US"),
           // despondentlys800"),
-          // speakdespondentlys8
           // despondentlys8("en-US"),
           // despondentlys900"),
-          // speakdespondentlys9
           // despondentlys9("en-US"),
           // despondentlys1000"),
-          // speakdespondentlys10
           // despondentlys10("en-US"),
           // despondentlys1100"),
-          // speakdespondentlys11
           // despondentlys11("en-US"),
           // despondentlys1200"),
-          // speakdespondentlys12
           // despondentlys12("en-US"),
           // despondentlys1300"),
-          // speakdespondentlys13
           // despondentlys13("en-US"),
           // despondentlys1400"),
-          // speakdespondentlys14
           // despondentlys14("en-US"),
           // despondentlys1500"),
-          // speakdespondentlys15
           // despondentlys15("en-US"),
           // despondentlys1600"),
-          // speakdespondentlys16
           // despondentlys16("en-US"),
           // despondentlys1700"),
-          // speakdespondentlys17
           // despondentlys17("en-US"),
           // despondentlys1800"),
-          // speakdespondentlys18
           // despondentlys18("en-US"),
           // despondentlys1900"),
-          // speakdespondentlys19
           // despondentlys19("en-US"),
           // "She turned despondently from the window.0"),
-          // speakdespondentlys20
           // despondentlys20("en-US"),
           // despondentlys2100"),
-          // speakdespondentlys21
           // despondentlys21("en-US"),
           // despondentlys2200"),
-          // speakdespondentlys22
           // despondentlys22("en-US"),
         ],
       ),

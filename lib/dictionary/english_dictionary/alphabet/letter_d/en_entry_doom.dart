@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -418,58 +416,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdooms4("en-US"),
           ),
           // dooms500"),
-          // speakdooms5
           // dooms5("en-US"),
           // dooms600"),
-          // speakdooms6
           // dooms6("en-US"),
           // dooms700"),
-          // speakdooms7
           // dooms7("en-US"),
           // dooms800"),
-          // speakdooms8
           // dooms8("en-US"),
           // dooms900"),
-          // speakdooms9
           // dooms9("en-US"),
           // dooms_1000"),
-          // speakdooms10
           // dooms10("en-US"),
           // dooms1100"),
-          // speakdooms11
           // dooms11("en-US"),
           // dooms1200"),
-          // speakdooms12
           // dooms12("en-US"),
           // dooms1300"),
-          // speakdooms13
           // dooms13("en-US"),
           // dooms1400"),
-          // speakdooms14
           // dooms14("en-US"),
           // dooms1500"),
-          // speakdooms15
           // dooms15("en-US"),
           // dooms1600"),
-          // speakdooms16
           // dooms16("en-US"),
           // dooms1700"),
-          // speakdooms17
           // dooms17("en-US"),
           // dooms1800"),
-          // speakdooms18
           // dooms18("en-US"),
           // dooms1900"),
-          // speakdooms19
           // dooms19("en-US"),
           // dooms_2000"),
-          // speakdooms20
           // dooms20("en-US"),
           // dooms2100"),
-          // speakdooms21
           // dooms21("en-US"),
           // dooms2200"),
-          // speakdooms22
           // dooms22("en-US"),
         ],
       ),

@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -390,64 +388,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduplications2("en-US"),
           ),
           // duplications300
-          // speakduplications3
           // duplications3("en-US"""),
           // duplications400
-          // speakduplications4
           // duplications4("en-US"""),
           // duplications500
-          // speakduplications5
           // duplications5("en-US"""),
           // duplications600
-          // speakduplications6
           // duplications6("en-US"""),
           // duplications700
-          // speakduplications7
           // duplications7("en-US"""),
           // duplications800
-          // speakduplications8
           // duplications8("en-US"""),
           // duplications900
-          // speakduplications9
           // duplications9("en-US"""),
           // duplications_1000
-          // speakduplications10
           // duplications10("en-US"""),
           // duplications1100
-          // speakduplications11
           // duplications11("en-US"""),
           // duplications1200
-          // speakduplications12
           // duplications12("en-US"""),
           // duplications1300
-          // speakduplications13
           // duplications13("en-US"""),
           // duplications1400
-          // speakduplications14
           // duplications14("en-US"""),
           // duplications1500
-          // speakduplications15
           // duplications15("en-US"""),
           // duplications1600
-          // speakduplications16
           // duplications16("en-US"""),
           // duplications1700
-          // speakduplications17
           // duplications17("en-US"""),
           // duplications1800
-          // speakduplications18
           // duplications18("en-US"""),
           // duplications1900
-          // speakduplications19
           // duplications19("en-US"""),
           // duplications_2000
-          // speakduplications20
           // duplications20("en-US"""),
           // duplications2100
-          // speakduplications21
           // duplications21("en-US"""),
           // duplications2200
-          // speakduplications22
           // duplications22("en-US"""),
         ],
       ),

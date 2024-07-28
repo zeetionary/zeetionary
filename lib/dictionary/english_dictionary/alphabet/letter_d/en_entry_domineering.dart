@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdomineerings2("en-US"),
           ),
           // domineerings300"),
-          // speakdomineerings3
           // domineerings3("en-US"),
           // domineerings400"),
-          // speakdomineerings4
           // domineerings4("en-US"),
           // domineerings500"),
-          // speakdomineerings5
           // domineerings5("en-US"),
           // domineerings600"),
-          // speakdomineerings6
           // domineerings6("en-US"),
           // domineerings700"),
-          // speakdomineerings7
           // domineerings7("en-US"),
           // domineerings800"),
-          // speakdomineerings8
           // domineerings8("en-US"),
           // domineerings900"),
-          // speakdomineerings9
           // domineerings9("en-US"),
           // domineerings_1000"),
-          // speakdomineerings10
           // domineerings10("en-US"),
           // domineerings1100"),
-          // speakdomineerings11
           // domineerings11("en-US"),
           // domineerings1200"),
-          // speakdomineerings12
           // domineerings12("en-US"),
           // domineerings1300"),
-          // speakdomineerings13
           // domineerings13("en-US"),
           // domineerings1400"),
-          // speakdomineerings14
           // domineerings14("en-US"),
           // domineerings1500"),
-          // speakdomineerings15
           // domineerings15("en-US"),
           // domineerings1600"),
-          // speakdomineerings16
           // domineerings16("en-US"),
           // domineerings1700"),
-          // speakdomineerings17
           // domineerings17("en-US"),
           // domineerings1800"),
-          // speakdomineerings18
           // domineerings18("en-US"),
           // domineerings1900"),
-          // speakdomineerings19
           // domineerings19("en-US"),
           // domineerings_2000"),
-          // speakdomineerings20
           // domineerings20("en-US"),
           // domineerings2100"),
-          // speakdomineerings21
           // domineerings21("en-US"),
           // domineerings2200"),
-          // speakdomineerings22
           // domineerings22("en-US"),
         ],
       ),

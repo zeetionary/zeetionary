@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -280,61 +278,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefenders3("en-US"),
           ),
           // defenders400"),
-          // speakdefenders4
           // defenders4
           // defenders500"),
-          // speakdefenders5
           // defenders5
           // defenders600"),
-          // speakdefenders6
           // defenders6
           // defenders700"),
-          // speakdefenders7
           // defenders7
           // defenders800"),
-          // speakdefenders8
           // defenders8
           // defenders900"),
-          // speakdefenders9
           // defenders9
           // defenders1000"),
-          // speakdefenders10
           // defenders10
           // defenders1100"),
-          // speakdefenders11
           // defenders11
           // defenders1200"),
-          // speakdefenders12
           // defenders12
           // defenders1300"),
-          // speakdefenders13
           // defenders13
           // defenders1400"),
-          // speakdefenders14
           // defenders14
           // defenders1500"),
-          // speakdefenders15
           // defenders15
           // defenders1600"),
-          // speakdefenders16
           // defenders16
           // defenders1700"),
-          // speakdefenders17
           // defenders17
           // defenders1800"),
-          // speakdefenders18
           // defenders18
           // defenders1900"),
-          // speakdefenders19
           // defenders19
           // "She is a defender of women’s rights.0"),
-          // speakdefenders20
           // defenders20
           // defenders2100"),
-          // speakdefenders21
           // defenders21
           // defenders2200"),
-          // speakdefenders22
           // defenders22("en-US"),
         ],
       ),

@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisbelieves2("en-US"),
           ),
           // disbelieves300"),
-          // speakdisbelieves3
           // disbelieves3("en-US"),
           // disbelieves400"),
-          // speakdisbelieves4
           // disbelieves4("en-US"),
           // disbelieves500"),
-          // speakdisbelieves5
           // disbelieves5("en-US"),
           // disbelieves600"),
-          // speakdisbelieves6
           // disbelieves6("en-US"),
           // disbelieves700"),
-          // speakdisbelieves7
           // disbelieves7("en-US"),
           // disbelieves800"),
-          // speakdisbelieves8
           // disbelieves8("en-US"),
           // disbelieves900"),
-          // speakdisbelieves9
           // disbelieves9("en-US"),
           // disbelieves_1000"),
-          // speakdisbelieves10
           // disbelieves10("en-US"),
           // disbelieves1100"),
-          // speakdisbelieves11
           // disbelieves11("en-US"),
           // disbelieves1200"),
-          // speakdisbelieves12
           // disbelieves12("en-US"),
           // disbelieves1300"),
-          // speakdisbelieves13
           // disbelieves13("en-US"),
           // disbelieves1400"),
-          // speakdisbelieves14
           // disbelieves14("en-US"),
           // disbelieves1500"),
-          // speakdisbelieves15
           // disbelieves15("en-US"),
           // disbelieves1600"),
-          // speakdisbelieves16
           // disbelieves16("en-US"),
           // disbelieves1700"),
-          // speakdisbelieves17
           // disbelieves17("en-US"),
           // disbelieves1800"),
-          // speakdisbelieves18
           // disbelieves18("en-US"),
           // disbelieves1900"),
-          // speakdisbelieves19
           // disbelieves19("en-US"),
           // disbelieves_2000"),
-          // speakdisbelieves20
           // disbelieves20("en-US"),
           // disbelieves2100"),
-          // speakdisbelieves21
           // disbelieves21("en-US"),
           // disbelieves2200"),
-          // speakdisbelieves22
           // disbelieves22("en-US"),
         ],
       ),

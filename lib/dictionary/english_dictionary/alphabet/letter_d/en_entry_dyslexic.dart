@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdyslexics1("en-US"),
           ),
           // dyslexics200
-          // speakdyslexics2
           // dyslexics2("en-US"""),
           // dyslexics300
-          // speakdyslexics3
           // dyslexics3("en-US"""),
           // dyslexics400
-          // speakdyslexics4
           // dyslexics4("en-US"""),
           // dyslexics500
-          // speakdyslexics5
           // dyslexics5("en-US"""),
           // dyslexics600
-          // speakdyslexics6
           // dyslexics6("en-US"""),
           // dyslexics700
-          // speakdyslexics7
           // dyslexics7("en-US"""),
           // dyslexics800
-          // speakdyslexics8
           // dyslexics8("en-US"""),
           // dyslexics900
-          // speakdyslexics9
           // dyslexics9("en-US"""),
           // dyslexics_1000
-          // speakdyslexics10
           // dyslexics10("en-US"""),
           // dyslexics1100
-          // speakdyslexics11
           // dyslexics11("en-US"""),
           // dyslexics1200
-          // speakdyslexics12
           // dyslexics12("en-US"""),
           // dyslexics1300
-          // speakdyslexics13
           // dyslexics13("en-US"""),
           // dyslexics1400
-          // speakdyslexics14
           // dyslexics14("en-US"""),
           // dyslexics1500
-          // speakdyslexics15
           // dyslexics15("en-US"""),
           // dyslexics1600
-          // speakdyslexics16
           // dyslexics16("en-US"""),
           // dyslexics1700
-          // speakdyslexics17
           // dyslexics17("en-US"""),
           // dyslexics1800
-          // speakdyslexics18
           // dyslexics18("en-US"""),
           // dyslexics1900
-          // speakdyslexics19
           // dyslexics19("en-US"""),
           // dyslexics_2000
-          // speakdyslexics20
           // dyslexics20("en-US"""),
           // dyslexics2100
-          // speakdyslexics21
           // dyslexics21("en-US"""),
           // dyslexics2200
-          // speakdyslexics22
           // dyslexics22("en-US"""),
         ],
       ),

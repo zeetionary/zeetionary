@@ -250,9 +250,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -294,58 +292,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepartments4("en-US"),
           ),
           // departments500"),
-          // speakdepartments5
           // departments5("en-US"),
           // departments600"),
-          // speakdepartments6
           // departments6("en-US"),
           // departments700"),
-          // speakdepartments7
           // departments7("en-US"),
           // departments800"),
-          // speakdepartments8
           // departments8("en-US"),
           // departments900"),
-          // speakdepartments9
           // departments9("en-US"),
           // departments1000"),
-          // speakdepartments10
           // departments10("en-US"),
           // departments1100"),
-          // speakdepartments11
           // departments11("en-US"),
           // departments1200"),
-          // speakdepartments12
           // departments12("en-US"),
           // departments1300"),
-          // speakdepartments13
           // departments13("en-US"),
           // departments1400"),
-          // speakdepartments14
           // departments14("en-US"),
           // departments1500"),
-          // speakdepartments15
           // departments15("en-US"),
           // departments1600"),
-          // speakdepartments16
           // departments16("en-US"),
           // departments1700"),
-          // speakdepartments17
           // departments17("en-US"),
           // departments1800"),
-          // speakdepartments18
           // departments18("en-US"),
           // departments1900"),
-          // speakdepartments19
           // departments19("en-US"),
           // "The children's department sells a wide range of good quality clothes.0"),
-          // speakdepartments20
           // departments20("en-US"),
           // departments2100"),
-          // speakdepartments21
           // departments21("en-US"),
           // departments2200"),
-          // speakdepartments22
           // departments22("en-US"),
         ],
       ),

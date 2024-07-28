@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemarcates2("en-US"),
           ),
           // demarcates300"),
-          // speakdemarcates3
           // demarcates3("en-US"),
           // demarcates400"),
-          // speakdemarcates4
           // demarcates4("en-US"),
           // demarcates500"),
-          // speakdemarcates5
           // demarcates5("en-US"),
           // demarcates600"),
-          // speakdemarcates6
           // demarcates6("en-US"),
           // demarcates700"),
-          // speakdemarcates7
           // demarcates7("en-US"),
           // demarcates800"),
-          // speakdemarcates8
           // demarcates8("en-US"),
           // demarcates900"),
-          // speakdemarcates9
           // demarcates9("en-US"),
           // demarcates1000"),
-          // speakdemarcates10
           // demarcates10("en-US"),
           // demarcates1100"),
-          // speakdemarcates11
           // demarcates11("en-US"),
           // demarcates1200"),
-          // speakdemarcates12
           // demarcates12("en-US"),
           // demarcates1300"),
-          // speakdemarcates13
           // demarcates13("en-US"),
           // demarcates1400"),
-          // speakdemarcates14
           // demarcates14("en-US"),
           // demarcates1500"),
-          // speakdemarcates15
           // demarcates15("en-US"),
           // demarcates1600"),
-          // speakdemarcates16
           // demarcates16("en-US"),
           // demarcates1700"),
-          // speakdemarcates17
           // demarcates17("en-US"),
           // demarcates1800"),
-          // speakdemarcates18
           // demarcates18("en-US"),
           // demarcates1900"),
-          // speakdemarcates19
           // demarcates19("en-US"),
           // "The police demarcated the city into eighteen geographical divisions.0"),
-          // speakdemarcates20
           // demarcates20("en-US"),
           // demarcates2100"),
-          // speakdemarcates21
           // demarcates21("en-US"),
           // demarcates2200"),
-          // speakdemarcates22
           // demarcates22("en-US"),
         ],
       ),

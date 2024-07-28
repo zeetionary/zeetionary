@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivinelys2("en-US"),
           ),
           // divinelys300"),
-          // speakdivinelys3
           // divinelys3("en-US"),
           // divinelys400"),
-          // speakdivinelys4
           // divinelys4("en-US"),
           // divinelys500"),
-          // speakdivinelys5
           // divinelys5("en-US"),
           // divinelys600"),
-          // speakdivinelys6
           // divinelys6("en-US"),
           // divinelys700"),
-          // speakdivinelys7
           // divinelys7("en-US"),
           // divinelys800"),
-          // speakdivinelys8
           // divinelys8("en-US"),
           // divinelys900"),
-          // speakdivinelys9
           // divinelys9("en-US"),
           // divinelys_1000"),
-          // speakdivinelys10
           // divinelys10("en-US"),
           // divinelys1100"),
-          // speakdivinelys11
           // divinelys11("en-US"),
           // divinelys1200"),
-          // speakdivinelys12
           // divinelys12("en-US"),
           // divinelys1300"),
-          // speakdivinelys13
           // divinelys13("en-US"),
           // divinelys1400"),
-          // speakdivinelys14
           // divinelys14("en-US"),
           // divinelys1500"),
-          // speakdivinelys15
           // divinelys15("en-US"),
           // divinelys1600"),
-          // speakdivinelys16
           // divinelys16("en-US"),
           // divinelys1700"),
-          // speakdivinelys17
           // divinelys17("en-US"),
           // divinelys1800"),
-          // speakdivinelys18
           // divinelys18("en-US"),
           // divinelys1900"),
-          // speakdivinelys19
           // divinelys19("en-US"),
           // divinelys_2000"),
-          // speakdivinelys20
           // divinelys20("en-US"),
           // divinelys2100"),
-          // speakdivinelys21
           // divinelys21("en-US"),
           // divinelys2200"),
-          // speakdivinelys22
           // divinelys22("en-US"),
         ],
       ),

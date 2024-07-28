@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrivingtests1("en-US"),
           ),
           // drivingtests200"),
-          // speakdrivingtests2
           // drivingtests2("en-US"),
           // drivingtests300"),
-          // speakdrivingtests3
           // drivingtests3("en-US"),
           // drivingtests400"),
-          // speakdrivingtests4
           // drivingtests4("en-US"),
           // drivingtests500"),
-          // speakdrivingtests5
           // drivingtests5("en-US"),
           // drivingtests600"),
-          // speakdrivingtests6
           // drivingtests6("en-US"),
           // drivingtests700"),
-          // speakdrivingtests7
           // drivingtests7("en-US"),
           // drivingtests800"),
-          // speakdrivingtests8
           // drivingtests8("en-US"),
           // drivingtests900"),
-          // speakdrivingtests9
           // drivingtests9("en-US"),
           // drivingtests_1000"),
-          // speakdrivingtests10
           // drivingtests10("en-US"),
           // drivingtests1100"),
-          // speakdrivingtests11
           // drivingtests11("en-US"),
           // drivingtests1200"),
-          // speakdrivingtests12
           // drivingtests12("en-US"),
           // drivingtests1300"),
-          // speakdrivingtests13
           // drivingtests13("en-US"),
           // drivingtests1400"),
-          // speakdrivingtests14
           // drivingtests14("en-US"),
           // drivingtests1500"),
-          // speakdrivingtests15
           // drivingtests15("en-US"),
           // drivingtests1600"),
-          // speakdrivingtests16
           // drivingtests16("en-US"),
           // drivingtests1700"),
-          // speakdrivingtests17
           // drivingtests17("en-US"),
           // drivingtests1800"),
-          // speakdrivingtests18
           // drivingtests18("en-US"),
           // drivingtests1900"),
-          // speakdrivingtests19
           // drivingtests19("en-US"),
           // drivingtests_2000"),
-          // speakdrivingtests20
           // drivingtests20("en-US"),
           // drivingtests2100"),
-          // speakdrivingtests21
           // drivingtests21("en-US"),
           // drivingtests2200"),
-          // speakdrivingtests22
           // drivingtests22("en-US"),
         ],
       ),

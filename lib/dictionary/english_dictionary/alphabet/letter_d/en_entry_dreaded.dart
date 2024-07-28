@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -379,64 +377,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdreadeds2("en-US"),
           ),
           // dreadeds300"),
-          // speakdreadeds3
           // dreadeds3("en-US"),
           // dreadeds400"),
-          // speakdreadeds4
           // dreadeds4("en-US"),
           // dreadeds500"),
-          // speakdreadeds5
           // dreadeds5("en-US"),
           // dreadeds600"),
-          // speakdreadeds6
           // dreadeds6("en-US"),
           // dreadeds700"),
-          // speakdreadeds7
           // dreadeds7("en-US"),
           // dreadeds800"),
-          // speakdreadeds8
           // dreadeds8("en-US"),
           // dreadeds900"),
-          // speakdreadeds9
           // dreadeds9("en-US"),
           // dreadeds_1000"),
-          // speakdreadeds10
           // dreadeds10("en-US"),
           // dreadeds1100"),
-          // speakdreadeds11
           // dreadeds11("en-US"),
           // dreadeds1200"),
-          // speakdreadeds12
           // dreadeds12("en-US"),
           // dreadeds1300"),
-          // speakdreadeds13
           // dreadeds13("en-US"),
           // dreadeds1400"),
-          // speakdreadeds14
           // dreadeds14("en-US"),
           // dreadeds1500"),
-          // speakdreadeds15
           // dreadeds15("en-US"),
           // dreadeds1600"),
-          // speakdreadeds16
           // dreadeds16("en-US"),
           // dreadeds1700"),
-          // speakdreadeds17
           // dreadeds17("en-US"),
           // dreadeds1800"),
-          // speakdreadeds18
           // dreadeds18("en-US"),
           // dreadeds1900"),
-          // speakdreadeds19
           // dreadeds19("en-US"),
           // dreadeds_2000"),
-          // speakdreadeds20
           // dreadeds20("en-US"),
           // dreadeds2100"),
-          // speakdreadeds21
           // dreadeds21("en-US"),
           // dreadeds2200"),
-          // speakdreadeds22
           // dreadeds22("en-US"),
         ],
       ),

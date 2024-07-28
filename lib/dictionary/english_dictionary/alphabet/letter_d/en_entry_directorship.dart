@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -273,61 +271,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirectorships3("en-US"),
           ),
           // directorships400"),
-          // speakdirectorships4
           // directorships4
           // directorships500"),
-          // speakdirectorships5
           // directorships5
           // directorships600"),
-          // speakdirectorships6
           // directorships6
           // directorships700"),
-          // speakdirectorships7
           // directorships7
           // directorships800"),
-          // speakdirectorships8
           // directorships8
           // directorships900"),
-          // speakdirectorships9
           // directorships9
           // directorships_1000"),
-          // speakdirectorships10
           // directorships10
           // directorships1100"),
-          // speakdirectorships11
           // directorships11
           // directorships1200"),
-          // speakdirectorships12
           // directorships12
           // directorships1300"),
-          // speakdirectorships13
           // directorships13
           // directorships1400"),
-          // speakdirectorships14
           // directorships14
           // directorships1500"),
-          // speakdirectorships15
           // directorships15
           // directorships1600"),
-          // speakdirectorships16
           // directorships16
           // directorships1700"),
-          // speakdirectorships17
           // directorships17
           // directorships1800"),
-          // speakdirectorships18
           // directorships18
           // directorships1900"),
-          // speakdirectorships19
           // directorships19
           // directorships_2000"),
-          // speakdirectorships20
           // directorships20
           // directorships2100"),
-          // speakdirectorships21
           // directorships21
           // directorships2200"),
-          // speakdirectorships22
           // directorships22("en-US"),
         ],
       ),

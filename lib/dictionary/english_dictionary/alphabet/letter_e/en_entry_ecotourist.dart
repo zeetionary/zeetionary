@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakecotourists1("en-US"),
           ),
           // ecotourists200ecotourists2
-          // speakecotourists2
           // ecotourists300ecotourists3
-          // speakecotourists3
           // ecotourists400ecotourists4
-          // speakecotourists4
           // ecotourists500ecotourists5
-          // speakecotourists5
           // ecotourists600ecotourists6
-          // speakecotourists6
           // ecotourists700ecotourists7
-          // speakecotourists7
           // ecotourists800ecotourists8
-          // speakecotourists8
           // ecotourists900ecotourists9
-          // speakecotourists9
           // ecotourists_1000ecotourists10
-          // speakecotourists10
           // ecotourists1100ecotourists11
-          // speakecotourists11
           // ecotourists1200ecotourists12
-          // speakecotourists12
           // ecotourists1300ecotourists13
-          // speakecotourists13
           // ecotourists1400ecotourists14
-          // speakecotourists14
           // ecotourists1500ecotourists15
-          // speakecotourists15
           // ecotourists1600ecotourists16
-          // speakecotourists16
           // ecotourists1700ecotourists17
-          // speakecotourists17
           // ecotourists1800ecotourists18
-          // speakecotourists18
           // ecotourists1900ecotourists19
-          // speakecotourists19
           // ecotourists_2000ecotourists20
-          // speakecotourists20
           // ecotourists2100ecotourists21
-          // speakecotourists21
           // ecotourists2200ecotourists22
           // speakecotourists22("en-US"""),
           //         ),

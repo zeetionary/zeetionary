@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -413,58 +411,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrawers4("en-US"),
           ),
           // drawers500"),
-          // speakdrawers5
           // drawers5("en-US"),
           // drawers600"),
-          // speakdrawers6
           // drawers6("en-US"),
           // drawers700"),
-          // speakdrawers7
           // drawers7("en-US"),
           // drawers800"),
-          // speakdrawers8
           // drawers8("en-US"),
           // drawers900"),
-          // speakdrawers9
           // drawers9("en-US"),
           // drawers_1000"),
-          // speakdrawers10
           // drawers10("en-US"),
           // drawers1100"),
-          // speakdrawers11
           // drawers11("en-US"),
           // drawers1200"),
-          // speakdrawers12
           // drawers12("en-US"),
           // drawers1300"),
-          // speakdrawers13
           // drawers13("en-US"),
           // drawers1400"),
-          // speakdrawers14
           // drawers14("en-US"),
           // drawers1500"),
-          // speakdrawers15
           // drawers15("en-US"),
           // drawers1600"),
-          // speakdrawers16
           // drawers16("en-US"),
           // drawers1700"),
-          // speakdrawers17
           // drawers17("en-US"),
           // drawers1800"),
-          // speakdrawers18
           // drawers18("en-US"),
           // drawers1900"),
-          // speakdrawers19
           // drawers19("en-US"),
           // drawers_2000"),
-          // speakdrawers20
           // drawers20("en-US"),
           // drawers2100"),
-          // speakdrawers21
           // drawers21("en-US"),
           // drawers2200"),
-          // speakdrawers22
           // drawers22("en-US"),
         ],
       ),

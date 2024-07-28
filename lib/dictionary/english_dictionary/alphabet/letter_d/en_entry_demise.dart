@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -281,61 +279,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemises3("en-US"),
           ),
           // demises400"),
-          // speakdemises4
           // demises4("en-US"),
           // demises500"),
-          // speakdemises5
           // demises5("en-US"),
           // demises600"),
-          // speakdemises6
           // demises6("en-US"),
           // demises700"),
-          // speakdemises7
           // demises7("en-US"),
           // demises800"),
-          // speakdemises8
           // demises8("en-US"),
           // demises900"),
-          // speakdemises9
           // demises9("en-US"),
           // demises1000"),
-          // speakdemises10
           // demises10("en-US"),
           // demises1100"),
-          // speakdemises11
           // demises11("en-US"),
           // demises1200"),
-          // speakdemises12
           // demises12("en-US"),
           // demises1300"),
-          // speakdemises13
           // demises13("en-US"),
           // demises1400"),
-          // speakdemises14
           // demises14("en-US"),
           // demises1500"),
-          // speakdemises15
           // demises15("en-US"),
           // demises1600"),
-          // speakdemises16
           // demises16("en-US"),
           // demises1700"),
-          // speakdemises17
           // demises17("en-US"),
           // demises1800"),
-          // speakdemises18
           // demises18("en-US"),
           // demises1900"),
-          // speakdemises19
           // demises19("en-US"),
           // "The war brought about the industry's sudden demise.0"),
-          // speakdemises20
           // demises20("en-US"),
           // demises2100"),
-          // speakdemises21
           // demises21("en-US"),
           // demises2200"),
-          // speakdemises22
           // demises22("en-US"),
         ],
       ),

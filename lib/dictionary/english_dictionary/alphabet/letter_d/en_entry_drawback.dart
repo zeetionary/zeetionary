@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -380,64 +378,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrawbacks2("en-US"),
           ),
           // drawbacks300"),
-          // speakdrawbacks3
           // drawbacks3("en-US"),
           // drawbacks400"),
-          // speakdrawbacks4
           // drawbacks4("en-US"),
           // drawbacks500"),
-          // speakdrawbacks5
           // drawbacks5("en-US"),
           // drawbacks600"),
-          // speakdrawbacks6
           // drawbacks6("en-US"),
           // drawbacks700"),
-          // speakdrawbacks7
           // drawbacks7("en-US"),
           // drawbacks800"),
-          // speakdrawbacks8
           // drawbacks8("en-US"),
           // drawbacks900"),
-          // speakdrawbacks9
           // drawbacks9("en-US"),
           // drawbacks_1000"),
-          // speakdrawbacks10
           // drawbacks10("en-US"),
           // drawbacks1100"),
-          // speakdrawbacks11
           // drawbacks11("en-US"),
           // drawbacks1200"),
-          // speakdrawbacks12
           // drawbacks12("en-US"),
           // drawbacks1300"),
-          // speakdrawbacks13
           // drawbacks13("en-US"),
           // drawbacks1400"),
-          // speakdrawbacks14
           // drawbacks14("en-US"),
           // drawbacks1500"),
-          // speakdrawbacks15
           // drawbacks15("en-US"),
           // drawbacks1600"),
-          // speakdrawbacks16
           // drawbacks16("en-US"),
           // drawbacks1700"),
-          // speakdrawbacks17
           // drawbacks17("en-US"),
           // drawbacks1800"),
-          // speakdrawbacks18
           // drawbacks18("en-US"),
           // drawbacks1900"),
-          // speakdrawbacks19
           // drawbacks19("en-US"),
           // drawbacks_2000"),
-          // speakdrawbacks20
           // drawbacks20("en-US"),
           // drawbacks2100"),
-          // speakdrawbacks21
           // drawbacks21("en-US"),
           // drawbacks2200"),
-          // speakdrawbacks22
           // drawbacks22("en-US"),
         ],
       ),

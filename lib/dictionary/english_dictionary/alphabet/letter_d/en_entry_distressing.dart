@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistressings2("en-US"),
           ),
           // distressings300"),
-          // speakdistressings3
           // distressings3("en-US"),
           // distressings400"),
-          // speakdistressings4
           // distressings4("en-US"),
           // distressings500"),
-          // speakdistressings5
           // distressings5("en-US"),
           // distressings600"),
-          // speakdistressings6
           // distressings6("en-US"),
           // distressings700"),
-          // speakdistressings7
           // distressings7("en-US"),
           // distressings800"),
-          // speakdistressings8
           // distressings8("en-US"),
           // distressings900"),
-          // speakdistressings9
           // distressings9("en-US"),
           // distressings_1000"),
-          // speakdistressings10
           // distressings10("en-US"),
           // distressings1100"),
-          // speakdistressings11
           // distressings11("en-US"),
           // distressings1200"),
-          // speakdistressings12
           // distressings12("en-US"),
           // distressings1300"),
-          // speakdistressings13
           // distressings13("en-US"),
           // distressings1400"),
-          // speakdistressings14
           // distressings14("en-US"),
           // distressings1500"),
-          // speakdistressings15
           // distressings15("en-US"),
           // distressings1600"),
-          // speakdistressings16
           // distressings16("en-US"),
           // distressings1700"),
-          // speakdistressings17
           // distressings17("en-US"),
           // distressings1800"),
-          // speakdistressings18
           // distressings18("en-US"),
           // distressings1900"),
-          // speakdistressings19
           // distressings19("en-US"),
           // distressings_2000"),
-          // speakdistressings20
           // distressings20("en-US"),
           // distressings2100"),
-          // speakdistressings21
           // distressings21("en-US"),
           // distressings2200"),
-          // speakdistressings22
           // distressings22("en-US"),
         ],
       ),

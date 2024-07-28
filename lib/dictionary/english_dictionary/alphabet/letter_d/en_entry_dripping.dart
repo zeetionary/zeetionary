@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -398,61 +396,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrippings3("en-US"),
           ),
           // drippings400"),
-          // speakdrippings4
           // drippings4("en-US"),
           // drippings500"),
-          // speakdrippings5
           // drippings5("en-US"),
           // drippings600"),
-          // speakdrippings6
           // drippings6("en-US"),
           // drippings700"),
-          // speakdrippings7
           // drippings7("en-US"),
           // drippings800"),
-          // speakdrippings8
           // drippings8("en-US"),
           // drippings900"),
-          // speakdrippings9
           // drippings9("en-US"),
           // drippings_1000"),
-          // speakdrippings10
           // drippings10("en-US"),
           // drippings1100"),
-          // speakdrippings11
           // drippings11("en-US"),
           // drippings1200"),
-          // speakdrippings12
           // drippings12("en-US"),
           // drippings1300"),
-          // speakdrippings13
           // drippings13("en-US"),
           // drippings1400"),
-          // speakdrippings14
           // drippings14("en-US"),
           // drippings1500"),
-          // speakdrippings15
           // drippings15("en-US"),
           // drippings1600"),
-          // speakdrippings16
           // drippings16("en-US"),
           // drippings1700"),
-          // speakdrippings17
           // drippings17("en-US"),
           // drippings1800"),
-          // speakdrippings18
           // drippings18("en-US"),
           // drippings1900"),
-          // speakdrippings19
           // drippings19("en-US"),
           // drippings_2000"),
-          // speakdrippings20
           // drippings20("en-US"),
           // drippings2100"),
-          // speakdrippings21
           // drippings21("en-US"),
           // drippings2200"),
-          // speakdrippings22
           // drippings22("en-US"),
         ],
       ),

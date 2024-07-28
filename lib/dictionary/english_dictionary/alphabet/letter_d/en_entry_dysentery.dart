@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdysenterys1("en-US"),
           ),
           // dysenterys200
-          // speakdysenterys2
           // dysenterys2("en-US"""),
           // dysenterys300
-          // speakdysenterys3
           // dysenterys3("en-US"""),
           // dysenterys400
-          // speakdysenterys4
           // dysenterys4("en-US"""),
           // dysenterys500
-          // speakdysenterys5
           // dysenterys5("en-US"""),
           // dysenterys600
-          // speakdysenterys6
           // dysenterys6("en-US"""),
           // dysenterys700
-          // speakdysenterys7
           // dysenterys7("en-US"""),
           // dysenterys800
-          // speakdysenterys8
           // dysenterys8("en-US"""),
           // dysenterys900
-          // speakdysenterys9
           // dysenterys9("en-US"""),
           // dysenterys_1000
-          // speakdysenterys10
           // dysenterys10("en-US"""),
           // dysenterys1100
-          // speakdysenterys11
           // dysenterys11("en-US"""),
           // dysenterys1200
-          // speakdysenterys12
           // dysenterys12("en-US"""),
           // dysenterys1300
-          // speakdysenterys13
           // dysenterys13("en-US"""),
           // dysenterys1400
-          // speakdysenterys14
           // dysenterys14("en-US"""),
           // dysenterys1500
-          // speakdysenterys15
           // dysenterys15("en-US"""),
           // dysenterys1600
-          // speakdysenterys16
           // dysenterys16("en-US"""),
           // dysenterys1700
-          // speakdysenterys17
           // dysenterys17("en-US"""),
           // dysenterys1800
-          // speakdysenterys18
           // dysenterys18("en-US"""),
           // dysenterys1900
-          // speakdysenterys19
           // dysenterys19("en-US"""),
           // dysenterys_2000
-          // speakdysenterys20
           // dysenterys20("en-US"""),
           // dysenterys2100
-          // speakdysenterys21
           // dysenterys21("en-US"""),
           // dysenterys2200
-          // speakdysenterys22
           // dysenterys22("en-US"""),
         ],
       ),

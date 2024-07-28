@@ -249,9 +249,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -298,55 +296,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisgustings5("en-US"),
           ),
           // disgustings600"),
-          // speakdisgustings6
           // disgustings6("en-US"),
           // disgustings700"),
-          // speakdisgustings7
           // disgustings7("en-US"),
           // disgustings800"),
-          // speakdisgustings8
           // disgustings8("en-US"),
           // disgustings900"),
-          // speakdisgustings9
           // disgustings9("en-US"),
           // disgustings_1000"),
-          // speakdisgustings10
           // disgustings10("en-US"),
           // disgustings1100"),
-          // speakdisgustings11
           // disgustings11("en-US"),
           // disgustings1200"),
-          // speakdisgustings12
           // disgustings12("en-US"),
           // disgustings1300"),
-          // speakdisgustings13
           // disgustings13("en-US"),
           // disgustings1400"),
-          // speakdisgustings14
           // disgustings14("en-US"),
           // disgustings1500"),
-          // speakdisgustings15
           // disgustings15("en-US"),
           // disgustings1600"),
-          // speakdisgustings16
           // disgustings16("en-US"),
           // disgustings1700"),
-          // speakdisgustings17
           // disgustings17("en-US"),
           // disgustings1800"),
-          // speakdisgustings18
           // disgustings18("en-US"),
           // disgustings1900"),
-          // speakdisgustings19
           // disgustings19("en-US"),
           // disgustings_2000"),
-          // speakdisgustings20
           // disgustings20("en-US"),
           // disgustings2100"),
-          // speakdisgustings21
           // disgustings21("en-US"),
           // disgustings2200"),
-          // speakdisgustings22
           // disgustings22("en-US"),
         ],
       ),

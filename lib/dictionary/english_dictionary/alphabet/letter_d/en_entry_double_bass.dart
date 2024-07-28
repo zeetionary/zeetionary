@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublebasss1("en-US"),
           ),
           // doublebasss200"),
-          // speakdoublebasss2
           // doublebasss2("en-US"),
           // doublebasss300"),
-          // speakdoublebasss3
           // doublebasss3("en-US"),
           // doublebasss400"),
-          // speakdoublebasss4
           // doublebasss4("en-US"),
           // doublebasss500"),
-          // speakdoublebasss5
           // doublebasss5("en-US"),
           // doublebasss600"),
-          // speakdoublebasss6
           // doublebasss6("en-US"),
           // doublebasss700"),
-          // speakdoublebasss7
           // doublebasss7("en-US"),
           // doublebasss800"),
-          // speakdoublebasss8
           // doublebasss8("en-US"),
           // doublebasss900"),
-          // speakdoublebasss9
           // doublebasss9("en-US"),
           // doublebasss_1000"),
-          // speakdoublebasss10
           // doublebasss10("en-US"),
           // doublebasss1100"),
-          // speakdoublebasss11
           // doublebasss11("en-US"),
           // doublebasss1200"),
-          // speakdoublebasss12
           // doublebasss12("en-US"),
           // doublebasss1300"),
-          // speakdoublebasss13
           // doublebasss13("en-US"),
           // doublebasss1400"),
-          // speakdoublebasss14
           // doublebasss14("en-US"),
           // doublebasss1500"),
-          // speakdoublebasss15
           // doublebasss15("en-US"),
           // doublebasss1600"),
-          // speakdoublebasss16
           // doublebasss16("en-US"),
           // doublebasss1700"),
-          // speakdoublebasss17
           // doublebasss17("en-US"),
           // doublebasss1800"),
-          // speakdoublebasss18
           // doublebasss18("en-US"),
           // doublebasss1900"),
-          // speakdoublebasss19
           // doublebasss19("en-US"),
           // doublebasss_2000"),
-          // speakdoublebasss20
           // doublebasss20("en-US"),
           // doublebasss2100"),
-          // speakdoublebasss21
           // doublebasss21("en-US"),
           // doublebasss2200"),
-          // speakdoublebasss22
           // doublebasss22("en-US"),
         ],
       ),

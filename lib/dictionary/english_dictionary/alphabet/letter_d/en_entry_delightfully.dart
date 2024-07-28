@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelightfullys1("en-US"),
           ),
           // delightfullys200"),
-          // speakdelightfullys2
           // delightfullys2("en-US"),
           // delightfullys300"),
-          // speakdelightfullys3
           // delightfullys3("en-US"),
           // delightfullys400"),
-          // speakdelightfullys4
           // delightfullys4("en-US"),
           // delightfullys500"),
-          // speakdelightfullys5
           // delightfullys5("en-US"),
           // delightfullys600"),
-          // speakdelightfullys6
           // delightfullys6("en-US"),
           // delightfullys700"),
-          // speakdelightfullys7
           // delightfullys7("en-US"),
           // delightfullys800"),
-          // speakdelightfullys8
           // delightfullys8("en-US"),
           // delightfullys900"),
-          // speakdelightfullys9
           // delightfullys9("en-US"),
           // delightfullys1000"),
-          // speakdelightfullys10
           // delightfullys10("en-US"),
           // delightfullys1100"),
-          // speakdelightfullys11
           // delightfullys11("en-US"),
           // delightfullys1200"),
-          // speakdelightfullys12
           // delightfullys12("en-US"),
           // delightfullys1300"),
-          // speakdelightfullys13
           // delightfullys13("en-US"),
           // delightfullys1400"),
-          // speakdelightfullys14
           // delightfullys14("en-US"),
           // delightfullys1500"),
-          // speakdelightfullys15
           // delightfullys15("en-US"),
           // delightfullys1600"),
-          // speakdelightfullys16
           // delightfullys16("en-US"),
           // delightfullys1700"),
-          // speakdelightfullys17
           // delightfullys17("en-US"),
           // delightfullys1800"),
-          // speakdelightfullys18
           // delightfullys18("en-US"),
           // delightfullys1900"),
-          // speakdelightfullys19
           // delightfullys19("en-US"),
           // delightfullys2000"),
-          // speakdelightfullys20
           // delightfullys20("en-US"),
           // delightfullys2100"),
-          // speakdelightfullys21
           // delightfullys21("en-US"),
           // delightfullys2200"),
-          // speakdelightfullys22
           // delightfullys22("en-US"),
         ],
       ),

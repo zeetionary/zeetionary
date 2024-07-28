@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -407,41 +405,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectronics3("en-US"),
           ),
           // electronics400electronics4
-          // speakelectronics4
           // electronics500electronics5
-          // speakelectronics5
           // electronics600electronics6
-          // speakelectronics6
           // electronics700electronics7
-          // speakelectronics7
           // electronics800electronics8
-          // speakelectronics8
           // electronics900electronics9
-          // speakelectronics9
           // electronics_1000electronics10
-          // speakelectronics10
           // electronics1100electronics11
-          // speakelectronics11
           // electronics1200electronics12
-          // speakelectronics12
           // electronics1300electronics13
-          // speakelectronics13
           // electronics1400electronics14
-          // speakelectronics14
           // electronics1500electronics15
-          // speakelectronics15
           // electronics1600electronics16
-          // speakelectronics16
           // electronics1700electronics17
-          // speakelectronics17
           // electronics1800electronics18
-          // speakelectronics18
           // electronics1900electronics19
-          // speakelectronics19
           // electronics_2000electronics20
-          // speakelectronics20
           // electronics2100electronics21
-          // speakelectronics21
           // electronics2200electronics22
           // speakelectronics22("en-US"""),
           //         ),

@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdethrones1("en-US"),
           ),
           // dethrones200"),
-          // speakdethrones2
           // dethrones2("en-US"),
           // dethrones300"),
-          // speakdethrones3
           // dethrones3("en-US"),
           // dethrones400"),
-          // speakdethrones4
           // dethrones4("en-US"),
           // dethrones500"),
-          // speakdethrones5
           // dethrones5("en-US"),
           // dethrones600"),
-          // speakdethrones6
           // dethrones6("en-US"),
           // dethrones700"),
-          // speakdethrones7
           // dethrones7("en-US"),
           // dethrones800"),
-          // speakdethrones8
           // dethrones8("en-US"),
           // dethrones900"),
-          // speakdethrones9
           // dethrones9("en-US"),
           // dethrones1000"),
-          // speakdethrones10
           // dethrones10("en-US"),
           // dethrones1100"),
-          // speakdethrones11
           // dethrones11("en-US"),
           // dethrones1200"),
-          // speakdethrones12
           // dethrones12("en-US"),
           // dethrones1300"),
-          // speakdethrones13
           // dethrones13("en-US"),
           // dethrones1400"),
-          // speakdethrones14
           // dethrones14("en-US"),
           // dethrones1500"),
-          // speakdethrones15
           // dethrones15("en-US"),
           // dethrones1600"),
-          // speakdethrones16
           // dethrones16("en-US"),
           // dethrones1700"),
-          // speakdethrones17
           // dethrones17("en-US"),
           // dethrones1800"),
-          // speakdethrones18
           // dethrones18("en-US"),
           // dethrones1900"),
-          // speakdethrones19
           // dethrones19("en-US"),
           // dethrones2000"),
-          // speakdethrones20
           // dethrones20("en-US"),
           // dethrones2100"),
-          // speakdethrones21
           // dethrones21("en-US"),
           // dethrones2200"),
-          // speakdethrones22
           // dethrones22("en-US"),
         ],
       ),

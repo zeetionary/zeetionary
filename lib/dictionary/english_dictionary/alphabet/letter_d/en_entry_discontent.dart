@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -272,61 +270,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscontents3("en-US"),
           ),
           // discontents400"),
-          // speakdiscontents4
           // discontents4("en-US"),
           // discontents500"),
-          // speakdiscontents5
           // discontents5("en-US"),
           // discontents600"),
-          // speakdiscontents6
           // discontents6("en-US"),
           // discontents700"),
-          // speakdiscontents7
           // discontents7("en-US"),
           // discontents800"),
-          // speakdiscontents8
           // discontents8("en-US"),
           // discontents900"),
-          // speakdiscontents9
           // discontents9("en-US"),
           // discontents_1000"),
-          // speakdiscontents10
           // discontents10("en-US"),
           // discontents1100"),
-          // speakdiscontents11
           // discontents11("en-US"),
           // discontents1200"),
-          // speakdiscontents12
           // discontents12("en-US"),
           // discontents1300"),
-          // speakdiscontents13
           // discontents13("en-US"),
           // discontents1400"),
-          // speakdiscontents14
           // discontents14("en-US"),
           // discontents1500"),
-          // speakdiscontents15
           // discontents15("en-US"),
           // discontents1600"),
-          // speakdiscontents16
           // discontents16("en-US"),
           // discontents1700"),
-          // speakdiscontents17
           // discontents17("en-US"),
           // discontents1800"),
-          // speakdiscontents18
           // discontents18("en-US"),
           // discontents1900"),
-          // speakdiscontents19
           // discontents19("en-US"),
           // discontents_2000"),
-          // speakdiscontents20
           // discontents20("en-US"),
           // discontents2100"),
-          // speakdiscontents21
           // discontents21("en-US"),
           // discontents2200"),
-          // speakdiscontents22
           // discontents22("en-US"),
         ],
       ),

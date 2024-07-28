@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -425,61 +423,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdressers3("en-US"),
           ),
           // dressers400"),
-          // speakdressers4
           // dressers4
           // dressers500"),
-          // speakdressers5
           // dressers5
           // dressers600"),
-          // speakdressers6
           // dressers6
           // dressers700"),
-          // speakdressers7
           // dressers7
           // dressers800"),
-          // speakdressers8
           // dressers8
           // dressers900"),
-          // speakdressers9
           // dressers9
           // dressers_1000"),
-          // speakdressers10
           // dressers10
           // dressers1100"),
-          // speakdressers11
           // dressers11
           // dressers1200"),
-          // speakdressers12
           // dressers12
           // dressers1300"),
-          // speakdressers13
           // dressers13
           // dressers1400"),
-          // speakdressers14
           // dressers14
           // dressers1500"),
-          // speakdressers15
           // dressers15
           // dressers1600"),
-          // speakdressers16
           // dressers16
           // dressers1700"),
-          // speakdressers17
           // dressers17
           // dressers1800"),
-          // speakdressers18
           // dressers18
           // dressers1900"),
-          // speakdressers19
           // dressers19
           // dressers_2000"),
-          // speakdressers20
           // dressers20
           // dressers2100"),
-          // speakdressers21
           // dressers21
           // dressers2200"),
-          // speakdressers22
           // dressers22("en-US"),
         ],
       ),

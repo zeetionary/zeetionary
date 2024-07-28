@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -402,61 +400,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdovetails3("en-US"),
           ),
           // dovetails400"),
-          // speakdovetails4
           // dovetails4("en-US"),
           // dovetails500"),
-          // speakdovetails5
           // dovetails5("en-US"),
           // dovetails600"),
-          // speakdovetails6
           // dovetails6("en-US"),
           // dovetails700"),
-          // speakdovetails7
           // dovetails7("en-US"),
           // dovetails800"),
-          // speakdovetails8
           // dovetails8("en-US"),
           // dovetails900"),
-          // speakdovetails9
           // dovetails9("en-US"),
           // dovetails_1000"),
-          // speakdovetails10
           // dovetails10("en-US"),
           // dovetails1100"),
-          // speakdovetails11
           // dovetails11("en-US"),
           // dovetails1200"),
-          // speakdovetails12
           // dovetails12("en-US"),
           // dovetails1300"),
-          // speakdovetails13
           // dovetails13("en-US"),
           // dovetails1400"),
-          // speakdovetails14
           // dovetails14("en-US"),
           // dovetails1500"),
-          // speakdovetails15
           // dovetails15("en-US"),
           // dovetails1600"),
-          // speakdovetails16
           // dovetails16("en-US"),
           // dovetails1700"),
-          // speakdovetails17
           // dovetails17("en-US"),
           // dovetails1800"),
-          // speakdovetails18
           // dovetails18("en-US"),
           // dovetails1900"),
-          // speakdovetails19
           // dovetails19("en-US"),
           // dovetails_2000"),
-          // speakdovetails20
           // dovetails20("en-US"),
           // dovetails2100"),
-          // speakdovetails21
           // dovetails21("en-US"),
           // dovetails2200"),
-          // speakdovetails22
           // dovetails22("en-US"),
         ],
       ),

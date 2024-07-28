@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -272,61 +270,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevelopers3("en-US"),
           ),
           // developers400"),
-          // speakdevelopers4
           // developers4
           // developers500"),
-          // speakdevelopers5
           // developers5
           // developers600"),
-          // speakdevelopers6
           // developers6
           // developers700"),
-          // speakdevelopers7
           // developers7
           // developers800"),
-          // speakdevelopers8
           // developers8
           // developers900"),
-          // speakdevelopers9
           // developers9
           // developers1000"),
-          // speakdevelopers10
           // developers10
           // developers1100"),
-          // speakdevelopers11
           // developers11
           // developers1200"),
-          // speakdevelopers12
           // developers12
           // developers1300"),
-          // speakdevelopers13
           // developers13
           // developers1400"),
-          // speakdevelopers14
           // developers14
           // developers1500"),
-          // speakdevelopers15
           // developers15
           // developers1600"),
-          // speakdevelopers16
           // developers16
           // developers1700"),
-          // speakdevelopers17
           // developers17
           // developers1800"),
-          // speakdevelopers18
           // developers18
           // developers1900"),
-          // speakdevelopers19
           // developers19
           // developers_2000"),
-          // speakdevelopers20
           // developers20
           // developers2100"),
-          // speakdevelopers21
           // developers21
           // developers2200"),
-          // speakdevelopers22
           // developers22("en-US"),
         ],
       ),

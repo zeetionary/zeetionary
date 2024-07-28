@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakDownssyndromes1("en-US"),
           ),
           // Downssyndromes200"),
-          // speakDownssyndromes2
           // Downssyndromes2("en-US"),
           // Downssyndromes300"),
-          // speakDownssyndromes3
           // Downssyndromes3("en-US"),
           // Downssyndromes400"),
-          // speakDownssyndromes4
           // Downssyndromes4("en-US"),
           // Downssyndromes500"),
-          // speakDownssyndromes5
           // Downssyndromes5("en-US"),
           // Downssyndromes600"),
-          // speakDownssyndromes6
           // Downssyndromes6("en-US"),
           // Downssyndromes700"),
-          // speakDownssyndromes7
           // Downssyndromes7("en-US"),
           // Downssyndromes800"),
-          // speakDownssyndromes8
           // Downssyndromes8("en-US"),
           // Downssyndromes900"),
-          // speakDownssyndromes9
           // Downssyndromes9("en-US"),
           // Downssyndromes_1000"),
-          // speakDownssyndromes10
           // Downssyndromes10("en-US"),
           // Downssyndromes1100"),
-          // speakDownssyndromes11
           // Downssyndromes11("en-US"),
           // Downssyndromes1200"),
-          // speakDownssyndromes12
           // Downssyndromes12("en-US"),
           // Downssyndromes1300"),
-          // speakDownssyndromes13
           // Downssyndromes13("en-US"),
           // Downssyndromes1400"),
-          // speakDownssyndromes14
           // Downssyndromes14("en-US"),
           // Downssyndromes1500"),
-          // speakDownssyndromes15
           // Downssyndromes15("en-US"),
           // Downssyndromes1600"),
-          // speakDownssyndromes16
           // Downssyndromes16("en-US"),
           // Downssyndromes1700"),
-          // speakDownssyndromes17
           // Downssyndromes17("en-US"),
           // Downssyndromes1800"),
-          // speakDownssyndromes18
           // Downssyndromes18("en-US"),
           // Downssyndromes1900"),
-          // speakDownssyndromes19
           // Downssyndromes19("en-US"),
           // Downssyndromes_2000"),
-          // speakDownssyndromes20
           // Downssyndromes20("en-US"),
           // Downssyndromes2100"),
-          // speakDownssyndromes21
           // Downssyndromes21("en-US"),
           // Downssyndromes2200"),
-          // speakDownssyndromes22
           // Downssyndromes22("en-US"),
         ],
       ),

@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -366,67 +364,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdustcarts1("en-US"),
           ),
           // dustcarts200
-          // speakdustcarts2
           // dustcarts2("en-US"""),
           // dustcarts300
-          // speakdustcarts3
           // dustcarts3("en-US"""),
           // dustcarts400
-          // speakdustcarts4
           // dustcarts4("en-US"""),
           // dustcarts500
-          // speakdustcarts5
           // dustcarts5("en-US"""),
           // dustcarts600
-          // speakdustcarts6
           // dustcarts6("en-US"""),
           // dustcarts700
-          // speakdustcarts7
           // dustcarts7("en-US"""),
           // dustcarts800
-          // speakdustcarts8
           // dustcarts8("en-US"""),
           // dustcarts900
-          // speakdustcarts9
           // dustcarts9("en-US"""),
           // dustcarts_1000
-          // speakdustcarts10
           // dustcarts10("en-US"""),
           // dustcarts1100
-          // speakdustcarts11
           // dustcarts11("en-US"""),
           // dustcarts1200
-          // speakdustcarts12
           // dustcarts12("en-US"""),
           // dustcarts1300
-          // speakdustcarts13
           // dustcarts13("en-US"""),
           // dustcarts1400
-          // speakdustcarts14
           // dustcarts14("en-US"""),
           // dustcarts1500
-          // speakdustcarts15
           // dustcarts15("en-US"""),
           // dustcarts1600
-          // speakdustcarts16
           // dustcarts16("en-US"""),
           // dustcarts1700
-          // speakdustcarts17
           // dustcarts17("en-US"""),
           // dustcarts1800
-          // speakdustcarts18
           // dustcarts18("en-US"""),
           // dustcarts1900
-          // speakdustcarts19
           // dustcarts19("en-US"""),
           // dustcarts_2000
-          // speakdustcarts20
           // dustcarts20("en-US"""),
           // dustcarts2100
-          // speakdustcarts21
           // dustcarts21("en-US"""),
           // dustcarts2200
-          // speakdustcarts22
           // dustcarts22("en-US"""),
         ],
       ),

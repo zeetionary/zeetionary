@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,45 +367,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectorals1("en-US"),
           ),
           // electorals200electorals2
-          // speakelectorals2
           // electorals300electorals3
-          // speakelectorals3
           // electorals400electorals4
-          // speakelectorals4
           // electorals500electorals5
-          // speakelectorals5
           // electorals600electorals6
-          // speakelectorals6
           // electorals700electorals7
-          // speakelectorals7
           // electorals800electorals8
-          // speakelectorals8
           // electorals900electorals9
-          // speakelectorals9
           // electorals_1000electorals10
-          // speakelectorals10
           // electorals1100electorals11
-          // speakelectorals11
           // electorals1200electorals12
-          // speakelectorals12
           // electorals1300electorals13
-          // speakelectorals13
           // electorals1400electorals14
-          // speakelectorals14
           // electorals1500electorals15
-          // speakelectorals15
           // electorals1600electorals16
-          // speakelectorals16
           // electorals1700electorals17
-          // speakelectorals17
           // electorals1800electorals18
-          // speakelectorals18
           // electorals1900electorals19
-          // speakelectorals19
           // electorals_2000electorals20
-          // speakelectorals20
           // electorals2100electorals21
-          // speakelectorals21
           // electorals2200electorals22
           // speakelectorals22("en-US"""),
           //         ),

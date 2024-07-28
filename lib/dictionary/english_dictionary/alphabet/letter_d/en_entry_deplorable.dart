@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -275,61 +273,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeplorables3("en-US"),
           ),
           // deplorables400"),
-          // speakdeplorables4
           // deplorables4("en-US"),
           // deplorables500"),
-          // speakdeplorables5
           // deplorables5("en-US"),
           // deplorables600"),
-          // speakdeplorables6
           // deplorables6("en-US"),
           // deplorables700"),
-          // speakdeplorables7
           // deplorables7("en-US"),
           // deplorables800"),
-          // speakdeplorables8
           // deplorables8("en-US"),
           // deplorables900"),
-          // speakdeplorables9
           // deplorables9("en-US"),
           // deplorables1000"),
-          // speakdeplorables10
           // deplorables10("en-US"),
           // deplorables1100"),
-          // speakdeplorables11
           // deplorables11("en-US"),
           // deplorables1200"),
-          // speakdeplorables12
           // deplorables12("en-US"),
           // deplorables1300"),
-          // speakdeplorables13
           // deplorables13("en-US"),
           // deplorables1400"),
-          // speakdeplorables14
           // deplorables14("en-US"),
           // deplorables1500"),
-          // speakdeplorables15
           // deplorables15("en-US"),
           // deplorables1600"),
-          // speakdeplorables16
           // deplorables16("en-US"),
           // deplorables1700"),
-          // speakdeplorables17
           // deplorables17("en-US"),
           // deplorables1800"),
-          // speakdeplorables18
           // deplorables18("en-US"),
           // deplorables1900"),
-          // speakdeplorables19
           // deplorables19("en-US"),
           // "They were living in the most deplorable conditions.0"),
-          // speakdeplorables20
           // deplorables20("en-US"),
           // deplorables2100"),
-          // speakdeplorables21
           // deplorables21("en-US"),
           // deplorables2200"),
-          // speakdeplorables22
           // deplorables22("en-US"),
         ],
       ),

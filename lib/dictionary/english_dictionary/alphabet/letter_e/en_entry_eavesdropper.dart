@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,45 +369,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeavesdroppers1("en-US"),
           ),
           // eavesdroppers200eavesdroppers2
-          // speakeavesdroppers2
           // eavesdroppers300eavesdroppers3
-          // speakeavesdroppers3
           // eavesdroppers400eavesdroppers4
-          // speakeavesdroppers4
           // eavesdroppers500eavesdroppers5
-          // speakeavesdroppers5
           // eavesdroppers600eavesdroppers6
-          // speakeavesdroppers6
           // eavesdroppers700eavesdroppers7
-          // speakeavesdroppers7
           // eavesdroppers800eavesdroppers8
-          // speakeavesdroppers8
           // eavesdroppers900eavesdroppers9
-          // speakeavesdroppers9
           // eavesdroppers_1000eavesdroppers10
-          // speakeavesdroppers10
           // eavesdroppers1100eavesdroppers11
-          // speakeavesdroppers11
           // eavesdroppers1200eavesdroppers12
-          // speakeavesdroppers12
           // eavesdroppers1300eavesdroppers13
-          // speakeavesdroppers13
           // eavesdroppers1400eavesdroppers14
-          // speakeavesdroppers14
           // eavesdroppers1500eavesdroppers15
-          // speakeavesdroppers15
           // eavesdroppers1600eavesdroppers16
-          // speakeavesdroppers16
           // eavesdroppers1700eavesdroppers17
-          // speakeavesdroppers17
           // eavesdroppers1800eavesdroppers18
-          // speakeavesdroppers18
           // eavesdroppers1900eavesdroppers19
-          // speakeavesdroppers19
           // eavesdroppers_2000eavesdroppers20
-          // speakeavesdroppers20
           // eavesdroppers2100eavesdroppers21
-          // speakeavesdroppers21
           // eavesdroppers2200eavesdroppers22
           // speakeavesdroppers22("en-US"""),
           //         ),

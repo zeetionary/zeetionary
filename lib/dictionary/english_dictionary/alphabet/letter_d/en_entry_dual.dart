@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -398,61 +396,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduals3("en-US"),
           ),
           // duals400"),
-          // speakduals4
           // duals4("en-US"),
           // duals500"),
-          // speakduals5
           // duals5("en-US"),
           // duals600"),
-          // speakduals6
           // duals6("en-US"),
           // duals700"),
-          // speakduals7
           // duals7("en-US"),
           // duals800"),
-          // speakduals8
           // duals8("en-US"),
           // duals900"),
-          // speakduals9
           // duals9("en-US"),
           // duals_1000"),
-          // speakduals10
           // duals10("en-US"),
           // duals1100"),
-          // speakduals11
           // duals11("en-US"),
           // duals1200"),
-          // speakduals12
           // duals12("en-US"),
           // duals1300"),
-          // speakduals13
           // duals13("en-US"),
           // duals1400"),
-          // speakduals14
           // duals14("en-US"),
           // duals1500"),
-          // speakduals15
           // duals15("en-US"),
           // duals1600"),
-          // speakduals16
           // duals16("en-US"),
           // duals1700"),
-          // speakduals17
           // duals17("en-US"),
           // duals1800"),
-          // speakduals18
           // duals18("en-US"),
           // duals1900"),
-          // speakduals19
           // duals19("en-US"),
           // duals_2000"),
-          // speakduals20
           // duals20("en-US"),
           // duals2100"),
-          // speakduals21
           // duals21("en-US"),
           // duals2200"),
-          // speakduals22
           // duals22("en-US"),
         ],
       ),

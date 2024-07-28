@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepletions1("en-US"),
           ),
           // depletions200"),
-          // speakdepletions2
           // depletions2("en-US"),
           // depletions300"),
-          // speakdepletions3
           // depletions3("en-US"),
           // depletions400"),
-          // speakdepletions4
           // depletions4("en-US"),
           // depletions500"),
-          // speakdepletions5
           // depletions5("en-US"),
           // depletions600"),
-          // speakdepletions6
           // depletions6("en-US"),
           // depletions700"),
-          // speakdepletions7
           // depletions7("en-US"),
           // depletions800"),
-          // speakdepletions8
           // depletions8("en-US"),
           // depletions900"),
-          // speakdepletions9
           // depletions9("en-US"),
           // depletions1000"),
-          // speakdepletions10
           // depletions10("en-US"),
           // depletions1100"),
-          // speakdepletions11
           // depletions11("en-US"),
           // depletions1200"),
-          // speakdepletions12
           // depletions12("en-US"),
           // depletions1300"),
-          // speakdepletions13
           // depletions13("en-US"),
           // depletions1400"),
-          // speakdepletions14
           // depletions14("en-US"),
           // depletions1500"),
-          // speakdepletions15
           // depletions15("en-US"),
           // depletions1600"),
-          // speakdepletions16
           // depletions16("en-US"),
           // depletions1700"),
-          // speakdepletions17
           // depletions17("en-US"),
           // depletions1800"),
-          // speakdepletions18
           // depletions18("en-US"),
           // depletions1900"),
-          // speakdepletions19
           // depletions19("en-US"),
           // depletions2000"),
-          // speakdepletions20
           // depletions20("en-US"),
           // depletions2100"),
-          // speakdepletions21
           // depletions21("en-US"),
           // depletions2200"),
-          // speakdepletions22
           // depletions22("en-US"),
         ],
       ),

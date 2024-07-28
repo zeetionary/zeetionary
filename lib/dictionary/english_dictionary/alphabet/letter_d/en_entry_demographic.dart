@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -286,61 +284,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemographics3("en-US"),
           ),
           // demographics400"),
-          // speakdemographics4
           // demographics4("en-US"),
           // demographics500"),
-          // speakdemographics5
           // demographics5("en-US"),
           // demographics600"),
-          // speakdemographics6
           // demographics6("en-US"),
           // demographics700"),
-          // speakdemographics7
           // demographics7("en-US"),
           // demographics800"),
-          // speakdemographics8
           // demographics8("en-US"),
           // demographics900"),
-          // speakdemographics9
           // demographics9("en-US"),
           // demographics1000"),
-          // speakdemographics10
           // demographics10("en-US"),
           // demographics1100"),
-          // speakdemographics11
           // demographics11("en-US"),
           // demographics1200"),
-          // speakdemographics12
           // demographics12("en-US"),
           // demographics1300"),
-          // speakdemographics13
           // demographics13("en-US"),
           // demographics1400"),
-          // speakdemographics14
           // demographics14("en-US"),
           // demographics1500"),
-          // speakdemographics15
           // demographics15("en-US"),
           // demographics1600"),
-          // speakdemographics16
           // demographics16("en-US"),
           // demographics1700"),
-          // speakdemographics17
           // demographics17("en-US"),
           // demographics1800"),
-          // speakdemographics18
           // demographics18("en-US"),
           // demographics1900"),
-          // speakdemographics19
           // demographics19("en-US"),
           // "The target demographic is children aged 6–12.0"),
-          // speakdemographics20
           // demographics20("en-US"),
           // demographics2100"),
-          // speakdemographics21
           // demographics21("en-US"),
           // demographics2200"),
-          // speakdemographics22
           // demographics22("en-US"),
         ],
       ),

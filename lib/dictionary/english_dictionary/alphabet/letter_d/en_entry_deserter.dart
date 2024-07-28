@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -236,67 +234,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeserters1("en-US"),
           ),
           // deserters200"),
-          // speakdeserters2
           // deserters2("en-US"),
           // deserters300"),
-          // speakdeserters3
           // deserters3("en-US"),
           // deserters400"),
-          // speakdeserters4
           // deserters4("en-US"),
           // deserters500"),
-          // speakdeserters5
           // deserters5("en-US"),
           // deserters600"),
-          // speakdeserters6
           // deserters6("en-US"),
           // deserters700"),
-          // speakdeserters7
           // deserters7("en-US"),
           // deserters800"),
-          // speakdeserters8
           // deserters8("en-US"),
           // deserters900"),
-          // speakdeserters9
           // deserters9("en-US"),
           // deserters1000"),
-          // speakdeserters10
           // deserters10("en-US"),
           // deserters1100"),
-          // speakdeserters11
           // deserters11("en-US"),
           // deserters1200"),
-          // speakdeserters12
           // deserters12("en-US"),
           // deserters1300"),
-          // speakdeserters13
           // deserters13("en-US"),
           // deserters1400"),
-          // speakdeserters14
           // deserters14("en-US"),
           // deserters1500"),
-          // speakdeserters15
           // deserters15("en-US"),
           // deserters1600"),
-          // speakdeserters16
           // deserters16("en-US"),
           // deserters1700"),
-          // speakdeserters17
           // deserters17("en-US"),
           // deserters1800"),
-          // speakdeserters18
           // deserters18("en-US"),
           // deserters1900"),
-          // speakdeserters19
           // deserters19("en-US"),
           // deserters2000"),
-          // speakdeserters20
           // deserters20("en-US"),
           // deserters2100"),
-          // speakdeserters21
           // deserters21("en-US"),
           // deserters2200"),
-          // speakdeserters22
           // deserters22("en-US"),
         ],
       ),

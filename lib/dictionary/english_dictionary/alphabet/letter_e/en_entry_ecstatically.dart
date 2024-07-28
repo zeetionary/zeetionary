@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakecstaticallys1("en-US"),
           ),
           // ecstaticallys200ecstaticallys2
-          // speakecstaticallys2
           // ecstaticallys300ecstaticallys3
-          // speakecstaticallys3
           // ecstaticallys400ecstaticallys4
-          // speakecstaticallys4
           // ecstaticallys500ecstaticallys5
-          // speakecstaticallys5
           // ecstaticallys600ecstaticallys6
-          // speakecstaticallys6
           // ecstaticallys700ecstaticallys7
-          // speakecstaticallys7
           // ecstaticallys800ecstaticallys8
-          // speakecstaticallys8
           // ecstaticallys900ecstaticallys9
-          // speakecstaticallys9
           // ecstaticallys_1000ecstaticallys10
-          // speakecstaticallys10
           // ecstaticallys1100ecstaticallys11
-          // speakecstaticallys11
           // ecstaticallys1200ecstaticallys12
-          // speakecstaticallys12
           // ecstaticallys1300ecstaticallys13
-          // speakecstaticallys13
           // ecstaticallys1400ecstaticallys14
-          // speakecstaticallys14
           // ecstaticallys1500ecstaticallys15
-          // speakecstaticallys15
           // ecstaticallys1600ecstaticallys16
-          // speakecstaticallys16
           // ecstaticallys1700ecstaticallys17
-          // speakecstaticallys17
           // ecstaticallys1800ecstaticallys18
-          // speakecstaticallys18
           // ecstaticallys1900ecstaticallys19
-          // speakecstaticallys19
           // ecstaticallys_2000ecstaticallys20
-          // speakecstaticallys20
           // ecstaticallys2100ecstaticallys21
-          // speakecstaticallys21
           // ecstaticallys2200ecstaticallys22
           // speakecstaticallys22("en-US"""),
           //         ),

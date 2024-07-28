@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -289,58 +287,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdishonours4("en-US"),
           ),
           // dishonours500"),
-          // speakdishonours5
           // dishonours5("en-US"),
           // dishonours600"),
-          // speakdishonours6
           // dishonours6("en-US"),
           // dishonours700"),
-          // speakdishonours7
           // dishonours7("en-US"),
           // dishonours800"),
-          // speakdishonours8
           // dishonours8("en-US"),
           // dishonours900"),
-          // speakdishonours9
           // dishonours9("en-US"),
           // dishonours_1000"),
-          // speakdishonours10
           // dishonours10("en-US"),
           // dishonours1100"),
-          // speakdishonours11
           // dishonours11("en-US"),
           // dishonours1200"),
-          // speakdishonours12
           // dishonours12("en-US"),
           // dishonours1300"),
-          // speakdishonours13
           // dishonours13("en-US"),
           // dishonours1400"),
-          // speakdishonours14
           // dishonours14("en-US"),
           // dishonours1500"),
-          // speakdishonours15
           // dishonours15("en-US"),
           // dishonours1600"),
-          // speakdishonours16
           // dishonours16("en-US"),
           // dishonours1700"),
-          // speakdishonours17
           // dishonours17("en-US"),
           // dishonours1800"),
-          // speakdishonours18
           // dishonours18("en-US"),
           // dishonours1900"),
-          // speakdishonours19
           // dishonours19("en-US"),
           // dishonours_2000"),
-          // speakdishonours20
           // dishonours20("en-US"),
           // dishonours2100"),
-          // speakdishonours21
           // dishonours21("en-US"),
           // dishonours2200"),
-          // speakdishonours22
           // dishonours22("en-US"),
         ],
       ),

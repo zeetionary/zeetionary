@@ -241,9 +241,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -286,58 +284,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiabetics4("en-US"),
           ),
           // diabetics500"),
-          // speakdiabetics5
           // diabetics5("en-US"),
           // diabetics600"),
-          // speakdiabetics6
           // diabetics6("en-US"),
           // diabetics700"),
-          // speakdiabetics7
           // diabetics7("en-US"),
           // diabetics800"),
-          // speakdiabetics8
           // diabetics8("en-US"),
           // diabetics900"),
-          // speakdiabetics9
           // diabetics9("en-US"),
           // diabetics_1000"),
-          // speakdiabetics10
           // diabetics10("en-US"),
           // diabetics1100"),
-          // speakdiabetics11
           // diabetics11("en-US"),
           // diabetics1200"),
-          // speakdiabetics12
           // diabetics12("en-US"),
           // diabetics1300"),
-          // speakdiabetics13
           // diabetics13("en-US"),
           // diabetics1400"),
-          // speakdiabetics14
           // diabetics14("en-US"),
           // diabetics1500"),
-          // speakdiabetics15
           // diabetics15("en-US"),
           // diabetics1600"),
-          // speakdiabetics16
           // diabetics16("en-US"),
           // diabetics1700"),
-          // speakdiabetics17
           // diabetics17("en-US"),
           // diabetics1800"),
-          // speakdiabetics18
           // diabetics18("en-US"),
           // diabetics1900"),
-          // speakdiabetics19
           // diabetics19("en-US"),
           // diabetics_2000"),
-          // speakdiabetics20
           // diabetics20("en-US"),
           // diabetics2100"),
-          // speakdiabetics21
           // diabetics21("en-US"),
           // diabetics2200"),
-          // speakdiabetics22
           // diabetics22("en-US"),
         ],
       ),

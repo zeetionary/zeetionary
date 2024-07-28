@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrabnesss1("en-US"),
           ),
           // drabnesss200"),
-          // speakdrabnesss2
           // drabnesss2("en-US"),
           // drabnesss300"),
-          // speakdrabnesss3
           // drabnesss3("en-US"),
           // drabnesss400"),
-          // speakdrabnesss4
           // drabnesss4("en-US"),
           // drabnesss500"),
-          // speakdrabnesss5
           // drabnesss5("en-US"),
           // drabnesss600"),
-          // speakdrabnesss6
           // drabnesss6("en-US"),
           // drabnesss700"),
-          // speakdrabnesss7
           // drabnesss7("en-US"),
           // drabnesss800"),
-          // speakdrabnesss8
           // drabnesss8("en-US"),
           // drabnesss900"),
-          // speakdrabnesss9
           // drabnesss9("en-US"),
           // drabnesss_1000"),
-          // speakdrabnesss10
           // drabnesss10("en-US"),
           // drabnesss1100"),
-          // speakdrabnesss11
           // drabnesss11("en-US"),
           // drabnesss1200"),
-          // speakdrabnesss12
           // drabnesss12("en-US"),
           // drabnesss1300"),
-          // speakdrabnesss13
           // drabnesss13("en-US"),
           // drabnesss1400"),
-          // speakdrabnesss14
           // drabnesss14("en-US"),
           // drabnesss1500"),
-          // speakdrabnesss15
           // drabnesss15("en-US"),
           // drabnesss1600"),
-          // speakdrabnesss16
           // drabnesss16("en-US"),
           // drabnesss1700"),
-          // speakdrabnesss17
           // drabnesss17("en-US"),
           // drabnesss1800"),
-          // speakdrabnesss18
           // drabnesss18("en-US"),
           // drabnesss1900"),
-          // speakdrabnesss19
           // drabnesss19("en-US"),
           // drabnesss_2000"),
-          // speakdrabnesss20
           // drabnesss20("en-US"),
           // drabnesss2100"),
-          // speakdrabnesss21
           // drabnesss21("en-US"),
           // drabnesss2200"),
-          // speakdrabnesss22
           // drabnesss22("en-US"),
         ],
       ),

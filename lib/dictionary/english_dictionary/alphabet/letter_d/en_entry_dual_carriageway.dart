@@ -360,9 +360,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -389,64 +387,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdualcarriageways2("en-US"),
           ),
           // dualcarriageways300"),
-          // speakdualcarriageways3
           // dualcarriageways3("en-US"),
           // dualcarriageways400"),
-          // speakdualcarriageways4
           // dualcarriageways4("en-US"),
           // dualcarriageways500"),
-          // speakdualcarriageways5
           // dualcarriageways5("en-US"),
           // dualcarriageways600"),
-          // speakdualcarriageways6
           // dualcarriageways6("en-US"),
           // dualcarriageways700"),
-          // speakdualcarriageways7
           // dualcarriageways7("en-US"),
           // dualcarriageways800"),
-          // speakdualcarriageways8
           // dualcarriageways8("en-US"),
           // dualcarriageways900"),
-          // speakdualcarriageways9
           // dualcarriageways9("en-US"),
           // dualcarriageways_1000"),
-          // speakdualcarriageways10
           // dualcarriageways10("en-US"),
           // dualcarriageways1100"),
-          // speakdualcarriageways11
           // dualcarriageways11("en-US"),
           // dualcarriageways1200"),
-          // speakdualcarriageways12
           // dualcarriageways12("en-US"),
           // dualcarriageways1300"),
-          // speakdualcarriageways13
           // dualcarriageways13("en-US"),
           // dualcarriageways1400"),
-          // speakdualcarriageways14
           // dualcarriageways14("en-US"),
           // dualcarriageways1500"),
-          // speakdualcarriageways15
           // dualcarriageways15("en-US"),
           // dualcarriageways1600"),
-          // speakdualcarriageways16
           // dualcarriageways16("en-US"),
           // dualcarriageways1700"),
-          // speakdualcarriageways17
           // dualcarriageways17("en-US"),
           // dualcarriageways1800"),
-          // speakdualcarriageways18
           // dualcarriageways18("en-US"),
           // dualcarriageways1900"),
-          // speakdualcarriageways19
           // dualcarriageways19("en-US"),
           // dualcarriageways_2000"),
-          // speakdualcarriageways20
           // dualcarriageways20("en-US"),
           // dualcarriageways2100"),
-          // speakdualcarriageways21
           // dualcarriageways21("en-US"),
           // dualcarriageways2200"),
-          // speakdualcarriageways22
           // dualcarriageways22("en-US"),
         ],
       ),

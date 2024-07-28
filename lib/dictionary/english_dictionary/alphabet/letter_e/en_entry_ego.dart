@@ -379,9 +379,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -435,37 +433,21 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakegos5("en-US"),
           ),
           // egos600egos6
-          // speakegos6
           // egos700egos7
-          // speakegos7
           // egos800egos8
-          // speakegos8
           // egos900egos9
-          // speakegos9
           // egos_1000egos10
-          // speakegos10
           // egos1100egos11
-          // speakegos11
           // egos1200egos12
-          // speakegos12
           // egos1300egos13
-          // speakegos13
           // egos1400egos14
-          // speakegos14
           // egos1500egos15
-          // speakegos15
           // egos1600egos16
-          // speakegos16
           // egos1700egos17
-          // speakegos17
           // egos1800egos18
-          // speakegos18
           // egos1900egos19
-          // speakegos19
           // egos_2000egos20
-          // speakegos20
           // egos2100egos21
-          // speakegos21
           // egos2200egos22
           // speakegos22("en-US"""),
           //         ),

@@ -375,9 +375,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -429,58 +427,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdocumentarys4("en-US"),
           ),
           // documentarys500"),
-          // speakdocumentarys5
           // documentarys5("en-US"),
           // documentarys600"),
-          // speakdocumentarys6
           // documentarys6("en-US"),
           // documentarys700"),
-          // speakdocumentarys7
           // documentarys7("en-US"),
           // documentarys800"),
-          // speakdocumentarys8
           // documentarys8("en-US"),
           // documentarys900"),
-          // speakdocumentarys9
           // documentarys9("en-US"),
           // documentarys_1000"),
-          // speakdocumentarys10
           // documentarys10("en-US"),
           // documentarys1100"),
-          // speakdocumentarys11
           // documentarys11("en-US"),
           // documentarys1200"),
-          // speakdocumentarys12
           // documentarys12("en-US"),
           // documentarys1300"),
-          // speakdocumentarys13
           // documentarys13("en-US"),
           // documentarys1400"),
-          // speakdocumentarys14
           // documentarys14("en-US"),
           // documentarys1500"),
-          // speakdocumentarys15
           // documentarys15("en-US"),
           // documentarys1600"),
-          // speakdocumentarys16
           // documentarys16("en-US"),
           // documentarys1700"),
-          // speakdocumentarys17
           // documentarys17("en-US"),
           // documentarys1800"),
-          // speakdocumentarys18
           // documentarys18("en-US"),
           // documentarys1900"),
-          // speakdocumentarys19
           // documentarys19("en-US"),
           // documentarys_2000"),
-          // speakdocumentarys20
           // documentarys20("en-US"),
           // documentarys2100"),
-          // speakdocumentarys21
           // documentarys21("en-US"),
           // documentarys2200"),
-          // speakdocumentarys22
           // documentarys22("en-US"),
         ],
       ),

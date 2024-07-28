@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -269,61 +267,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeviouss3("en-US"),
           ),
           // deviouss400"),
-          // speakdeviouss4
           // deviouss4("en-US"),
           // deviouss500"),
-          // speakdeviouss5
           // deviouss5("en-US"),
           // deviouss600"),
-          // speakdeviouss6
           // deviouss6("en-US"),
           // deviouss700"),
-          // speakdeviouss7
           // deviouss7("en-US"),
           // deviouss800"),
-          // speakdeviouss8
           // deviouss8("en-US"),
           // deviouss900"),
-          // speakdeviouss9
           // deviouss9("en-US"),
           // deviouss1000"),
-          // speakdeviouss10
           // deviouss10("en-US"),
           // deviouss1100"),
-          // speakdeviouss11
           // deviouss11("en-US"),
           // deviouss1200"),
-          // speakdeviouss12
           // deviouss12("en-US"),
           // deviouss1300"),
-          // speakdeviouss13
           // deviouss13("en-US"),
           // deviouss1400"),
-          // speakdeviouss14
           // deviouss14("en-US"),
           // deviouss1500"),
-          // speakdeviouss15
           // deviouss15("en-US"),
           // deviouss1600"),
-          // speakdeviouss16
           // deviouss16("en-US"),
           // deviouss1700"),
-          // speakdeviouss17
           // deviouss17("en-US"),
           // deviouss1800"),
-          // speakdeviouss18
           // deviouss18("en-US"),
           // deviouss1900"),
-          // speakdeviouss19
           // deviouss19("en-US"),
           // deviouss_2000"),
-          // speakdeviouss20
           // deviouss20("en-US"),
           // deviouss2100"),
-          // speakdeviouss21
           // deviouss21("en-US"),
           // deviouss2200"),
-          // speakdeviouss22
           // deviouss22("en-US"),
         ],
       ),

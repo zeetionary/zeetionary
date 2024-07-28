@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -372,67 +370,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdressingtables1("en-US"),
           ),
           // dressingtables200"),
-          // speakdressingtables2
           // dressingtables2("en-US"),
           // dressingtables300"),
-          // speakdressingtables3
           // dressingtables3("en-US"),
           // dressingtables400"),
-          // speakdressingtables4
           // dressingtables4("en-US"),
           // dressingtables500"),
-          // speakdressingtables5
           // dressingtables5("en-US"),
           // dressingtables600"),
-          // speakdressingtables6
           // dressingtables6("en-US"),
           // dressingtables700"),
-          // speakdressingtables7
           // dressingtables7("en-US"),
           // dressingtables800"),
-          // speakdressingtables8
           // dressingtables8("en-US"),
           // dressingtables900"),
-          // speakdressingtables9
           // dressingtables9("en-US"),
           // dressingtables_1000"),
-          // speakdressingtables10
           // dressingtables10("en-US"),
           // dressingtables1100"),
-          // speakdressingtables11
           // dressingtables11("en-US"),
           // dressingtables1200"),
-          // speakdressingtables12
           // dressingtables12("en-US"),
           // dressingtables1300"),
-          // speakdressingtables13
           // dressingtables13("en-US"),
           // dressingtables1400"),
-          // speakdressingtables14
           // dressingtables14("en-US"),
           // dressingtables1500"),
-          // speakdressingtables15
           // dressingtables15("en-US"),
           // dressingtables1600"),
-          // speakdressingtables16
           // dressingtables16("en-US"),
           // dressingtables1700"),
-          // speakdressingtables17
           // dressingtables17("en-US"),
           // dressingtables1800"),
-          // speakdressingtables18
           // dressingtables18("en-US"),
           // dressingtables1900"),
-          // speakdressingtables19
           // dressingtables19("en-US"),
           // dressingtables_2000"),
-          // speakdressingtables20
           // dressingtables20("en-US"),
           // dressingtables2100"),
-          // speakdressingtables21
           // dressingtables21("en-US"),
           // dressingtables2200"),
-          // speakdressingtables22
           // dressingtables22("en-US"),
         ],
       ),

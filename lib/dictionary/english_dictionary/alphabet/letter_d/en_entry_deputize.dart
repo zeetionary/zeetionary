@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -268,64 +266,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeputizes2("en-US"),
           ),
           // deputizes300"),
-          // speakdeputizes3
           // deputizes3("en-US"),
           // deputizes400"),
-          // speakdeputizes4
           // deputizes4("en-US"),
           // deputizes500"),
-          // speakdeputizes5
           // deputizes5("en-US"),
           // deputizes600"),
-          // speakdeputizes6
           // deputizes6("en-US"),
           // deputizes700"),
-          // speakdeputizes7
           // deputizes7("en-US"),
           // deputizes800"),
-          // speakdeputizes8
           // deputizes8("en-US"),
           // deputizes900"),
-          // speakdeputizes9
           // deputizes9("en-US"),
           // deputizes1000"),
-          // speakdeputizes10
           // deputizes10("en-US"),
           // deputizes1100"),
-          // speakdeputizes11
           // deputizes11("en-US"),
           // deputizes1200"),
-          // speakdeputizes12
           // deputizes12("en-US"),
           // deputizes1300"),
-          // speakdeputizes13
           // deputizes13("en-US"),
           // deputizes1400"),
-          // speakdeputizes14
           // deputizes14("en-US"),
           // deputizes1500"),
-          // speakdeputizes15
           // deputizes15("en-US"),
           // deputizes1600"),
-          // speakdeputizes16
           // deputizes16("en-US"),
           // deputizes1700"),
-          // speakdeputizes17
           // deputizes17("en-US"),
           // deputizes1800"),
-          // speakdeputizes18
           // deputizes18("en-US"),
           // deputizes1900"),
-          // speakdeputizes19
           // deputizes19("en-US"),
           // "Santa Clara police deputized about 100 out-of-town officers to help patrol the stadium.0"),
-          // speakdeputizes20
           // deputizes20("en-US"),
           // deputizes2100"),
-          // speakdeputizes21
           // deputizes21("en-US"),
           // deputizes2200"),
-          // speakdeputizes22
           // deputizes22("en-US"),
         ],
       ),

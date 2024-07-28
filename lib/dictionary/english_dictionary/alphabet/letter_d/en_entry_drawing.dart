@@ -374,9 +374,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -439,58 +437,40 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // drawings500"),
-          // speakdrawings5
           // drawings5
           // drawings600"),
-          // speakdrawings6
           // drawings6
           // drawings700"),
-          // speakdrawings7
           // drawings7
           // drawings800"),
-          // speakdrawings8
           // drawings8
           // drawings900"),
-          // speakdrawings9
           // drawings9
           // drawings_1000"),
-          // speakdrawings10
           // drawings10
           // drawings1100"),
-          // speakdrawings11
           // drawings11
           // drawings1200"),
-          // speakdrawings12
           // drawings12
           // drawings1300"),
-          // speakdrawings13
           // drawings13
           // drawings1400"),
-          // speakdrawings14
           // drawings14
           // drawings1500"),
-          // speakdrawings15
           // drawings15
           // drawings1600"),
-          // speakdrawings16
           // drawings16
           // drawings1700"),
-          // speakdrawings17
           // drawings17
           // drawings1800"),
-          // speakdrawings18
           // drawings18
           // drawings1900"),
-          // speakdrawings19
           // drawings19
           // drawings_2000"),
-          // speakdrawings20
           // drawings20
           // drawings2100"),
-          // speakdrawings21
           // drawings21
           // drawings2200"),
-          // speakdrawings22
           // drawings22("en-US"),
         ],
       ),

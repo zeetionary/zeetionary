@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,43 +385,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelbowgreases2("en-US"),
           ),
           // elbowgreases300elbowgreases3
-          // speakelbowgreases3
           // elbowgreases400elbowgreases4
-          // speakelbowgreases4
           // elbowgreases500elbowgreases5
-          // speakelbowgreases5
           // elbowgreases600elbowgreases6
-          // speakelbowgreases6
           // elbowgreases700elbowgreases7
-          // speakelbowgreases7
           // elbowgreases800elbowgreases8
-          // speakelbowgreases8
           // elbowgreases900elbowgreases9
-          // speakelbowgreases9
           // elbowgreases_1000elbowgreases10
-          // speakelbowgreases10
           // elbowgreases1100elbowgreases11
-          // speakelbowgreases11
           // elbowgreases1200elbowgreases12
-          // speakelbowgreases12
           // elbowgreases1300elbowgreases13
-          // speakelbowgreases13
           // elbowgreases1400elbowgreases14
-          // speakelbowgreases14
           // elbowgreases1500elbowgreases15
-          // speakelbowgreases15
           // elbowgreases1600elbowgreases16
-          // speakelbowgreases16
           // elbowgreases1700elbowgreases17
-          // speakelbowgreases17
           // elbowgreases1800elbowgreases18
-          // speakelbowgreases18
           // elbowgreases1900elbowgreases19
-          // speakelbowgreases19
           // elbowgreases_2000elbowgreases20
-          // speakelbowgreases20
           // elbowgreases2100elbowgreases21
-          // speakelbowgreases21
           // elbowgreases2200elbowgreases22
           // speakelbowgreases22("en-US"""),
           //         ),

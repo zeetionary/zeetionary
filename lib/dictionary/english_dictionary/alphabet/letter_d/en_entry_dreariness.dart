@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -366,67 +364,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrearinesss1("en-US"),
           ),
           // drearinesss200"),
-          // speakdrearinesss2
           // drearinesss2("en-US"),
           // drearinesss300"),
-          // speakdrearinesss3
           // drearinesss3("en-US"),
           // drearinesss400"),
-          // speakdrearinesss4
           // drearinesss4("en-US"),
           // drearinesss500"),
-          // speakdrearinesss5
           // drearinesss5("en-US"),
           // drearinesss600"),
-          // speakdrearinesss6
           // drearinesss6("en-US"),
           // drearinesss700"),
-          // speakdrearinesss7
           // drearinesss7("en-US"),
           // drearinesss800"),
-          // speakdrearinesss8
           // drearinesss8("en-US"),
           // drearinesss900"),
-          // speakdrearinesss9
           // drearinesss9("en-US"),
           // drearinesss_1000"),
-          // speakdrearinesss10
           // drearinesss10("en-US"),
           // drearinesss1100"),
-          // speakdrearinesss11
           // drearinesss11("en-US"),
           // drearinesss1200"),
-          // speakdrearinesss12
           // drearinesss12("en-US"),
           // drearinesss1300"),
-          // speakdrearinesss13
           // drearinesss13("en-US"),
           // drearinesss1400"),
-          // speakdrearinesss14
           // drearinesss14("en-US"),
           // drearinesss1500"),
-          // speakdrearinesss15
           // drearinesss15("en-US"),
           // drearinesss1600"),
-          // speakdrearinesss16
           // drearinesss16("en-US"),
           // drearinesss1700"),
-          // speakdrearinesss17
           // drearinesss17("en-US"),
           // drearinesss1800"),
-          // speakdrearinesss18
           // drearinesss18("en-US"),
           // drearinesss1900"),
-          // speakdrearinesss19
           // drearinesss19("en-US"),
           // drearinesss_2000"),
-          // speakdrearinesss20
           // drearinesss20("en-US"),
           // drearinesss2100"),
-          // speakdrearinesss21
           // drearinesss21("en-US"),
           // drearinesss2200"),
-          // speakdrearinesss22
           // drearinesss22("en-US"),
         ],
       ),

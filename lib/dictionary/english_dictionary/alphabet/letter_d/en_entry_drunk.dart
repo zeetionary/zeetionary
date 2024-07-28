@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -405,7 +403,6 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٢. (ھاوەڵناو) زۆر ماندوو، بەجۆش، ھتد بەھۆی ھەستێکی تایبەتەوە"),
           // drunks400"),
-          // speakdrunks4
           // drunks4("en-US"),
           const DividerDefinition(),
           const DefinitionKurdish(text: "٢. (ناو) کەسێکی سەرخۆش"),
@@ -417,55 +414,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrunks5("en-US"),
           ),
           // drunks600"),
-          // speakdrunks6
           // drunks6("en-US"),
           // drunks700"),
-          // speakdrunks7
           // drunks7("en-US"),
           // drunks800"),
-          // speakdrunks8
           // drunks8("en-US"),
           // drunks900"),
-          // speakdrunks9
           // drunks9("en-US"),
           // drunks_1000"),
-          // speakdrunks10
           // drunks10("en-US"),
           // drunks1100"),
-          // speakdrunks11
           // drunks11("en-US"),
           // drunks1200"),
-          // speakdrunks12
           // drunks12("en-US"),
           // drunks1300"),
-          // speakdrunks13
           // drunks13("en-US"),
           // drunks1400"),
-          // speakdrunks14
           // drunks14("en-US"),
           // drunks1500"),
-          // speakdrunks15
           // drunks15("en-US"),
           // drunks1600"),
-          // speakdrunks16
           // drunks16("en-US"),
           // drunks1700"),
-          // speakdrunks17
           // drunks17("en-US"),
           // drunks1800"),
-          // speakdrunks18
           // drunks18("en-US"),
           // drunks1900"),
-          // speakdrunks19
           // drunks19("en-US"),
           // drunks_2000"),
-          // speakdrunks20
           // drunks20("en-US"),
           // drunks2100"),
-          // speakdrunks21
           // drunks21("en-US"),
           // drunks2200"),
-          // speakdrunks22
           // drunks22("en-US"),
         ],
       ),

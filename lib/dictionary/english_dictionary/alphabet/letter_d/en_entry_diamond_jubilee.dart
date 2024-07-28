@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -242,67 +240,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiamondjubilees1("en-US"),
           ),
           // diamondjubilees200"),
-          // speakdiamondjubilees2
           // diamondjubilees2
           // diamondjubilees300"),
-          // speakdiamondjubilees3
           // diamondjubilees3
           // diamondjubilees400"),
-          // speakdiamondjubilees4
           // diamondjubilees4
           // diamondjubilees500"),
-          // speakdiamondjubilees5
           // diamondjubilees5
           // diamondjubilees600"),
-          // speakdiamondjubilees6
           // diamondjubilees6
           // diamondjubilees700"),
-          // speakdiamondjubilees7
           // diamondjubilees7
           // diamondjubilees800"),
-          // speakdiamondjubilees8
           // diamondjubilees8
           // diamondjubilees900"),
-          // speakdiamondjubilees9
           // diamondjubilees9
           // diamondjubilees_1000"),
-          // speakdiamondjubilees10
           // diamondjubilees10
           // diamondjubilees1100"),
-          // speakdiamondjubilees11
           // diamondjubilees11
           // diamondjubilees1200"),
-          // speakdiamondjubilees12
           // diamondjubilees12
           // diamondjubilees1300"),
-          // speakdiamondjubilees13
           // diamondjubilees13
           // diamondjubilees1400"),
-          // speakdiamondjubilees14
           // diamondjubilees14
           // diamondjubilees1500"),
-          // speakdiamondjubilees15
           // diamondjubilees15
           // diamondjubilees1600"),
-          // speakdiamondjubilees16
           // diamondjubilees16
           // diamondjubilees1700"),
-          // speakdiamondjubilees17
           // diamondjubilees17
           // diamondjubilees1800"),
-          // speakdiamondjubilees18
           // diamondjubilees18
           // diamondjubilees1900"),
-          // speakdiamondjubilees19
           // diamondjubilees19
           // diamondjubilees_2000"),
-          // speakdiamondjubilees20
           // diamondjubilees20
           // diamondjubilees2100"),
-          // speakdiamondjubilees21
           // diamondjubilees21
           // diamondjubilees2200"),
-          // speakdiamondjubilees22
           // diamondjubilees22("en-US"),
         ],
       ),

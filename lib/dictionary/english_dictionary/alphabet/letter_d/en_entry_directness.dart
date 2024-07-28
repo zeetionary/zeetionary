@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirectnesss2("en-US"),
           ),
           // directnesss300"),
-          // speakdirectnesss3
           // directnesss3("en-US"),
           // directnesss400"),
-          // speakdirectnesss4
           // directnesss4("en-US"),
           // directnesss500"),
-          // speakdirectnesss5
           // directnesss5("en-US"),
           // directnesss600"),
-          // speakdirectnesss6
           // directnesss6("en-US"),
           // directnesss700"),
-          // speakdirectnesss7
           // directnesss7("en-US"),
           // directnesss800"),
-          // speakdirectnesss8
           // directnesss8("en-US"),
           // directnesss900"),
-          // speakdirectnesss9
           // directnesss9("en-US"),
           // directnesss_1000"),
-          // speakdirectnesss10
           // directnesss10("en-US"),
           // directnesss1100"),
-          // speakdirectnesss11
           // directnesss11("en-US"),
           // directnesss1200"),
-          // speakdirectnesss12
           // directnesss12("en-US"),
           // directnesss1300"),
-          // speakdirectnesss13
           // directnesss13("en-US"),
           // directnesss1400"),
-          // speakdirectnesss14
           // directnesss14("en-US"),
           // directnesss1500"),
-          // speakdirectnesss15
           // directnesss15("en-US"),
           // directnesss1600"),
-          // speakdirectnesss16
           // directnesss16("en-US"),
           // directnesss1700"),
-          // speakdirectnesss17
           // directnesss17("en-US"),
           // directnesss1800"),
-          // speakdirectnesss18
           // directnesss18("en-US"),
           // directnesss1900"),
-          // speakdirectnesss19
           // directnesss19("en-US"),
           // directnesss_2000"),
-          // speakdirectnesss20
           // directnesss20("en-US"),
           // directnesss2100"),
-          // speakdirectnesss21
           // directnesss21("en-US"),
           // directnesss2200"),
-          // speakdirectnesss22
           // directnesss22("en-US"),
         ],
       ),

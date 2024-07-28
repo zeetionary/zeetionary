@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisparitys2("en-US"),
           ),
           // disparitys300"),
-          // speakdisparitys3
           // disparitys3("en-US"),
           // disparitys400"),
-          // speakdisparitys4
           // disparitys4("en-US"),
           // disparitys500"),
-          // speakdisparitys5
           // disparitys5("en-US"),
           // disparitys600"),
-          // speakdisparitys6
           // disparitys6("en-US"),
           // disparitys700"),
-          // speakdisparitys7
           // disparitys7("en-US"),
           // disparitys800"),
-          // speakdisparitys8
           // disparitys8("en-US"),
           // disparitys900"),
-          // speakdisparitys9
           // disparitys9("en-US"),
           // disparitys_1000"),
-          // speakdisparitys10
           // disparitys10("en-US"),
           // disparitys1100"),
-          // speakdisparitys11
           // disparitys11("en-US"),
           // disparitys1200"),
-          // speakdisparitys12
           // disparitys12("en-US"),
           // disparitys1300"),
-          // speakdisparitys13
           // disparitys13("en-US"),
           // disparitys1400"),
-          // speakdisparitys14
           // disparitys14("en-US"),
           // disparitys1500"),
-          // speakdisparitys15
           // disparitys15("en-US"),
           // disparitys1600"),
-          // speakdisparitys16
           // disparitys16("en-US"),
           // disparitys1700"),
-          // speakdisparitys17
           // disparitys17("en-US"),
           // disparitys1800"),
-          // speakdisparitys18
           // disparitys18("en-US"),
           // disparitys1900"),
-          // speakdisparitys19
           // disparitys19("en-US"),
           // disparitys_2000"),
-          // speakdisparitys20
           // disparitys20("en-US"),
           // disparitys2100"),
-          // speakdisparitys21
           // disparitys21("en-US"),
           // disparitys2200"),
-          // speakdisparitys22
           // disparitys22("en-US"),
         ],
       ),

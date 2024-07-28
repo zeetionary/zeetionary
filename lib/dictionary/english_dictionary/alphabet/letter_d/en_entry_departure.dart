@@ -271,9 +271,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -344,49 +342,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepartures7("en-US"),
           ),
           // departures800"),
-          // speakdepartures8
           // departures8("en-US"),
           // departures900"),
-          // speakdepartures9
           // departures9("en-US"),
           // departures1000"),
-          // speakdepartures10
           // departures10("en-US"),
           // departures1100"),
-          // speakdepartures11
           // departures11("en-US"),
           // departures1200"),
-          // speakdepartures12
           // departures12("en-US"),
           // departures1300"),
-          // speakdepartures13
           // departures13("en-US"),
           // departures1400"),
-          // speakdepartures14
           // departures14("en-US"),
           // departures1500"),
-          // speakdepartures15
           // departures15("en-US"),
           // departures1600"),
-          // speakdepartures16
           // departures16("en-US"),
           // departures1700"),
-          // speakdepartures17
           // departures17("en-US"),
           // departures1800"),
-          // speakdepartures18
           // departures18("en-US"),
           // departures1900"),
-          // speakdepartures19
           // departures19("en-US"),
           // "They had received no news of him since his departure from the island.0"),
-          // speakdepartures20
           // departures20("en-US"),
           // departures2100"),
-          // speakdepartures21
           // departures21("en-US"),
           // departures2200"),
-          // speakdepartures22
           // departures22("en-US"),
         ],
       ),

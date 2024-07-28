@@ -266,9 +266,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -335,49 +333,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisadvantages7("en-US"),
           ),
           // disadvantages800"),
-          // speakdisadvantages8
           // disadvantages8("en-US"),
           // disadvantages900"),
-          // speakdisadvantages9
           // disadvantages9("en-US"),
           // disadvantages_1000"),
-          // speakdisadvantages10
           // disadvantages10("en-US"),
           // disadvantages1100"),
-          // speakdisadvantages11
           // disadvantages11("en-US"),
           // disadvantages1200"),
-          // speakdisadvantages12
           // disadvantages12("en-US"),
           // disadvantages1300"),
-          // speakdisadvantages13
           // disadvantages13("en-US"),
           // disadvantages1400"),
-          // speakdisadvantages14
           // disadvantages14("en-US"),
           // disadvantages1500"),
-          // speakdisadvantages15
           // disadvantages15("en-US"),
           // disadvantages1600"),
-          // speakdisadvantages16
           // disadvantages16("en-US"),
           // disadvantages1700"),
-          // speakdisadvantages17
           // disadvantages17("en-US"),
           // disadvantages1800"),
-          // speakdisadvantages18
           // disadvantages18("en-US"),
           // disadvantages1900"),
-          // speakdisadvantages19
           // disadvantages19("en-US"),
           // disadvantages_2000"),
-          // speakdisadvantages20
           // disadvantages20("en-US"),
           // disadvantages2100"),
-          // speakdisadvantages21
           // disadvantages21("en-US"),
           // disadvantages2200"),
-          // speakdisadvantages22
           // disadvantages22("en-US"),
         ],
       ),

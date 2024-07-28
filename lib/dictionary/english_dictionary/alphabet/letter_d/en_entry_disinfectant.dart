@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisinfectants1("en-US"),
           ),
           // disinfectants200"),
-          // speakdisinfectants2
           // disinfectants2("en-US"),
           // disinfectants300"),
-          // speakdisinfectants3
           // disinfectants3("en-US"),
           // disinfectants400"),
-          // speakdisinfectants4
           // disinfectants4("en-US"),
           // disinfectants500"),
-          // speakdisinfectants5
           // disinfectants5("en-US"),
           // disinfectants600"),
-          // speakdisinfectants6
           // disinfectants6("en-US"),
           // disinfectants700"),
-          // speakdisinfectants7
           // disinfectants7("en-US"),
           // disinfectants800"),
-          // speakdisinfectants8
           // disinfectants8("en-US"),
           // disinfectants900"),
-          // speakdisinfectants9
           // disinfectants9("en-US"),
           // disinfectants_1000"),
-          // speakdisinfectants10
           // disinfectants10("en-US"),
           // disinfectants1100"),
-          // speakdisinfectants11
           // disinfectants11("en-US"),
           // disinfectants1200"),
-          // speakdisinfectants12
           // disinfectants12("en-US"),
           // disinfectants1300"),
-          // speakdisinfectants13
           // disinfectants13("en-US"),
           // disinfectants1400"),
-          // speakdisinfectants14
           // disinfectants14("en-US"),
           // disinfectants1500"),
-          // speakdisinfectants15
           // disinfectants15("en-US"),
           // disinfectants1600"),
-          // speakdisinfectants16
           // disinfectants16("en-US"),
           // disinfectants1700"),
-          // speakdisinfectants17
           // disinfectants17("en-US"),
           // disinfectants1800"),
-          // speakdisinfectants18
           // disinfectants18("en-US"),
           // disinfectants1900"),
-          // speakdisinfectants19
           // disinfectants19("en-US"),
           // disinfectants_2000"),
-          // speakdisinfectants20
           // disinfectants20("en-US"),
           // disinfectants2100"),
-          // speakdisinfectants21
           // disinfectants21("en-US"),
           // disinfectants2200"),
-          // speakdisinfectants22
           // disinfectants22("en-US"),
         ],
       ),

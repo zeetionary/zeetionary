@@ -230,9 +230,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -259,64 +257,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisproportionates2("en-US"),
           ),
           // disproportionates300"),
-          // speakdisproportionates3
           // disproportionates3("en-US"),
           // disproportionates400"),
-          // speakdisproportionates4
           // disproportionates4("en-US"),
           // disproportionates500"),
-          // speakdisproportionates5
           // disproportionates5("en-US"),
           // disproportionates600"),
-          // speakdisproportionates6
           // disproportionates6("en-US"),
           // disproportionates700"),
-          // speakdisproportionates7
           // disproportionates7("en-US"),
           // disproportionates800"),
-          // speakdisproportionates8
           // disproportionates8("en-US"),
           // disproportionates900"),
-          // speakdisproportionates9
           // disproportionates9("en-US"),
           // disproportionates_1000"),
-          // speakdisproportionates10
           // disproportionates10("en-US"),
           // disproportionates1100"),
-          // speakdisproportionates11
           // disproportionates11("en-US"),
           // disproportionates1200"),
-          // speakdisproportionates12
           // disproportionates12("en-US"),
           // disproportionates1300"),
-          // speakdisproportionates13
           // disproportionates13("en-US"),
           // disproportionates1400"),
-          // speakdisproportionates14
           // disproportionates14("en-US"),
           // disproportionates1500"),
-          // speakdisproportionates15
           // disproportionates15("en-US"),
           // disproportionates1600"),
-          // speakdisproportionates16
           // disproportionates16("en-US"),
           // disproportionates1700"),
-          // speakdisproportionates17
           // disproportionates17("en-US"),
           // disproportionates1800"),
-          // speakdisproportionates18
           // disproportionates18("en-US"),
           // disproportionates1900"),
-          // speakdisproportionates19
           // disproportionates19("en-US"),
           // disproportionates_2000"),
-          // speakdisproportionates20
           // disproportionates20("en-US"),
           // disproportionates2100"),
-          // speakdisproportionates21
           // disproportionates21("en-US"),
           // disproportionates2200"),
-          // speakdisproportionates22
           // disproportionates22("en-US"),
         ],
       ),

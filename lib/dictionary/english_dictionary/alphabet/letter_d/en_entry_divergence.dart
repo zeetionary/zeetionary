@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivergences2("en-US"),
           ),
           // divergences300"),
-          // speakdivergences3
           // divergences3
           // divergences400"),
-          // speakdivergences4
           // divergences4
           // divergences500"),
-          // speakdivergences5
           // divergences5
           // divergences600"),
-          // speakdivergences6
           // divergences6
           // divergences700"),
-          // speakdivergences7
           // divergences7
           // divergences800"),
-          // speakdivergences8
           // divergences8
           // divergences900"),
-          // speakdivergences9
           // divergences9
           // divergences_1000"),
-          // speakdivergences10
           // divergences10
           // divergences1100"),
-          // speakdivergences11
           // divergences11
           // divergences1200"),
-          // speakdivergences12
           // divergences12
           // divergences1300"),
-          // speakdivergences13
           // divergences13
           // divergences1400"),
-          // speakdivergences14
           // divergences14
           // divergences1500"),
-          // speakdivergences15
           // divergences15
           // divergences1600"),
-          // speakdivergences16
           // divergences16
           // divergences1700"),
-          // speakdivergences17
           // divergences17
           // divergences1800"),
-          // speakdivergences18
           // divergences18
           // divergences1900"),
-          // speakdivergences19
           // divergences19
           // divergences_2000"),
-          // speakdivergences20
           // divergences20
           // divergences2100"),
-          // speakdivergences21
           // divergences21
           // divergences2200"),
-          // speakdivergences22
           // divergences22("en-US"),
         ],
       ),

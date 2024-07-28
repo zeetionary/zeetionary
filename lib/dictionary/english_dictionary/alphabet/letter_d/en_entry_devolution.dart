@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevolutions2("en-US"),
           ),
           // devolutions300"),
-          // speakdevolutions3
           // devolutions3("en-US"),
           // devolutions400"),
-          // speakdevolutions4
           // devolutions4("en-US"),
           // devolutions500"),
-          // speakdevolutions5
           // devolutions5("en-US"),
           // devolutions600"),
-          // speakdevolutions6
           // devolutions6("en-US"),
           // devolutions700"),
-          // speakdevolutions7
           // devolutions7("en-US"),
           // devolutions800"),
-          // speakdevolutions8
           // devolutions8("en-US"),
           // devolutions900"),
-          // speakdevolutions9
           // devolutions9("en-US"),
           // devolutions1000"),
-          // speakdevolutions10
           // devolutions10("en-US"),
           // devolutions1100"),
-          // speakdevolutions11
           // devolutions11("en-US"),
           // devolutions1200"),
-          // speakdevolutions12
           // devolutions12("en-US"),
           // devolutions1300"),
-          // speakdevolutions13
           // devolutions13("en-US"),
           // devolutions1400"),
-          // speakdevolutions14
           // devolutions14("en-US"),
           // devolutions1500"),
-          // speakdevolutions15
           // devolutions15("en-US"),
           // devolutions1600"),
-          // speakdevolutions16
           // devolutions16("en-US"),
           // devolutions1700"),
-          // speakdevolutions17
           // devolutions17("en-US"),
           // devolutions1800"),
-          // speakdevolutions18
           // devolutions18("en-US"),
           // devolutions1900"),
-          // speakdevolutions19
           // devolutions19("en-US"),
           // devolutions_2000"),
-          // speakdevolutions20
           // devolutions20("en-US"),
           // devolutions2100"),
-          // speakdevolutions21
           // devolutions21("en-US"),
           // devolutions2200"),
-          // speakdevolutions22
           // devolutions22("en-US"),
         ],
       ),

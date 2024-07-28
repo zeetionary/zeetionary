@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,45 +369,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeffectivenesss1("en-US"),
           ),
           // effectivenesss200effectivenesss2
-          // speakeffectivenesss2
           // effectivenesss300effectivenesss3
-          // speakeffectivenesss3
           // effectivenesss400effectivenesss4
-          // speakeffectivenesss4
           // effectivenesss500effectivenesss5
-          // speakeffectivenesss5
           // effectivenesss600effectivenesss6
-          // speakeffectivenesss6
           // effectivenesss700effectivenesss7
-          // speakeffectivenesss7
           // effectivenesss800effectivenesss8
-          // speakeffectivenesss8
           // effectivenesss900effectivenesss9
-          // speakeffectivenesss9
           // effectivenesss_1000effectivenesss10
-          // speakeffectivenesss10
           // effectivenesss1100effectivenesss11
-          // speakeffectivenesss11
           // effectivenesss1200effectivenesss12
-          // speakeffectivenesss12
           // effectivenesss1300effectivenesss13
-          // speakeffectivenesss13
           // effectivenesss1400effectivenesss14
-          // speakeffectivenesss14
           // effectivenesss1500effectivenesss15
-          // speakeffectivenesss15
           // effectivenesss1600effectivenesss16
-          // speakeffectivenesss16
           // effectivenesss1700effectivenesss17
-          // speakeffectivenesss17
           // effectivenesss1800effectivenesss18
-          // speakeffectivenesss18
           // effectivenesss1900effectivenesss19
-          // speakeffectivenesss19
           // effectivenesss_2000effectivenesss20
-          // speakeffectivenesss20
           // effectivenesss2100effectivenesss21
-          // speakeffectivenesss21
           // effectivenesss2200effectivenesss22
           // speakeffectivenesss22("en-US"""),
           //         ),

@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisclaims2("en-US"),
           ),
           // disclaims300"),
-          // speakdisclaims3
           // disclaims3("en-US"),
           // disclaims400"),
-          // speakdisclaims4
           // disclaims4("en-US"),
           // disclaims500"),
-          // speakdisclaims5
           // disclaims5("en-US"),
           // disclaims600"),
-          // speakdisclaims6
           // disclaims6("en-US"),
           // disclaims700"),
-          // speakdisclaims7
           // disclaims7("en-US"),
           // disclaims800"),
-          // speakdisclaims8
           // disclaims8("en-US"),
           // disclaims900"),
-          // speakdisclaims9
           // disclaims9("en-US"),
           // disclaims_1000"),
-          // speakdisclaims10
           // disclaims10("en-US"),
           // disclaims1100"),
-          // speakdisclaims11
           // disclaims11("en-US"),
           // disclaims1200"),
-          // speakdisclaims12
           // disclaims12("en-US"),
           // disclaims1300"),
-          // speakdisclaims13
           // disclaims13("en-US"),
           // disclaims1400"),
-          // speakdisclaims14
           // disclaims14("en-US"),
           // disclaims1500"),
-          // speakdisclaims15
           // disclaims15("en-US"),
           // disclaims1600"),
-          // speakdisclaims16
           // disclaims16("en-US"),
           // disclaims1700"),
-          // speakdisclaims17
           // disclaims17("en-US"),
           // disclaims1800"),
-          // speakdisclaims18
           // disclaims18("en-US"),
           // disclaims1900"),
-          // speakdisclaims19
           // disclaims19("en-US"),
           // disclaims_2000"),
-          // speakdisclaims20
           // disclaims20("en-US"),
           // disclaims2100"),
-          // speakdisclaims21
           // disclaims21("en-US"),
           // disclaims2200"),
-          // speakdisclaims22
           // disclaims22("en-US"),
         ],
       ),

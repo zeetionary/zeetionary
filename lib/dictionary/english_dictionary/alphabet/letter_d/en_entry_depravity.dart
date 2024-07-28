@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -236,67 +234,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepravitys1("en-US"),
           ),
           // depravitys200"),
-          // speakdepravitys2
           // depravitys2("en-US"),
           // depravitys300"),
-          // speakdepravitys3
           // depravitys3("en-US"),
           // depravitys400"),
-          // speakdepravitys4
           // depravitys4("en-US"),
           // depravitys500"),
-          // speakdepravitys5
           // depravitys5("en-US"),
           // depravitys600"),
-          // speakdepravitys6
           // depravitys6("en-US"),
           // depravitys700"),
-          // speakdepravitys7
           // depravitys7("en-US"),
           // depravitys800"),
-          // speakdepravitys8
           // depravitys8("en-US"),
           // depravitys900"),
-          // speakdepravitys9
           // depravitys9("en-US"),
           // depravitys1000"),
-          // speakdepravitys10
           // depravitys10("en-US"),
           // depravitys1100"),
-          // speakdepravitys11
           // depravitys11("en-US"),
           // depravitys1200"),
-          // speakdepravitys12
           // depravitys12("en-US"),
           // depravitys1300"),
-          // speakdepravitys13
           // depravitys13("en-US"),
           // depravitys1400"),
-          // speakdepravitys14
           // depravitys14("en-US"),
           // depravitys1500"),
-          // speakdepravitys15
           // depravitys15("en-US"),
           // depravitys1600"),
-          // speakdepravitys16
           // depravitys16("en-US"),
           // depravitys1700"),
-          // speakdepravitys17
           // depravitys17("en-US"),
           // depravitys1800"),
-          // speakdepravitys18
           // depravitys18("en-US"),
           // depravitys1900"),
-          // speakdepravitys19
           // depravitys19("en-US"),
           // depravitys2000"),
-          // speakdepravitys20
           // depravitys20("en-US"),
           // depravitys2100"),
-          // speakdepravitys21
           // depravitys21("en-US"),
           // depravitys2200"),
-          // speakdepravitys22
           // depravitys22("en-US"),
         ],
       ),

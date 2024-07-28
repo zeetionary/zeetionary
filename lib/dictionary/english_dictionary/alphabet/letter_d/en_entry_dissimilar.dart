@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -381,64 +379,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissimilars2("en-US"),
           ),
           // dissimilars300"),
-          // speakdissimilars3
           // dissimilars3("en-US"),
           // dissimilars400"),
-          // speakdissimilars4
           // dissimilars4("en-US"),
           // dissimilars500"),
-          // speakdissimilars5
           // dissimilars5("en-US"),
           // dissimilars600"),
-          // speakdissimilars6
           // dissimilars6("en-US"),
           // dissimilars700"),
-          // speakdissimilars7
           // dissimilars7("en-US"),
           // dissimilars800"),
-          // speakdissimilars8
           // dissimilars8("en-US"),
           // dissimilars900"),
-          // speakdissimilars9
           // dissimilars9("en-US"),
           // dissimilars_1000"),
-          // speakdissimilars10
           // dissimilars10("en-US"),
           // dissimilars1100"),
-          // speakdissimilars11
           // dissimilars11("en-US"),
           // dissimilars1200"),
-          // speakdissimilars12
           // dissimilars12("en-US"),
           // dissimilars1300"),
-          // speakdissimilars13
           // dissimilars13("en-US"),
           // dissimilars1400"),
-          // speakdissimilars14
           // dissimilars14("en-US"),
           // dissimilars1500"),
-          // speakdissimilars15
           // dissimilars15("en-US"),
           // dissimilars1600"),
-          // speakdissimilars16
           // dissimilars16("en-US"),
           // dissimilars1700"),
-          // speakdissimilars17
           // dissimilars17("en-US"),
           // dissimilars1800"),
-          // speakdissimilars18
           // dissimilars18("en-US"),
           // dissimilars1900"),
-          // speakdissimilars19
           // dissimilars19("en-US"),
           // dissimilars_2000"),
-          // speakdissimilars20
           // dissimilars20("en-US"),
           // dissimilars2100"),
-          // speakdissimilars21
           // dissimilars21("en-US"),
           // dissimilars2200"),
-          // speakdissimilars22
           // dissimilars22("en-US"),
         ],
       ),

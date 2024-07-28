@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiningcars1("en-US"),
           ),
           // diningcars200"),
-          // speakdiningcars2
           // diningcars2("en-US"),
           // diningcars300"),
-          // speakdiningcars3
           // diningcars3("en-US"),
           // diningcars400"),
-          // speakdiningcars4
           // diningcars4("en-US"),
           // diningcars500"),
-          // speakdiningcars5
           // diningcars5("en-US"),
           // diningcars600"),
-          // speakdiningcars6
           // diningcars6("en-US"),
           // diningcars700"),
-          // speakdiningcars7
           // diningcars7("en-US"),
           // diningcars800"),
-          // speakdiningcars8
           // diningcars8("en-US"),
           // diningcars900"),
-          // speakdiningcars9
           // diningcars9("en-US"),
           // diningcars_1000"),
-          // speakdiningcars10
           // diningcars10("en-US"),
           // diningcars1100"),
-          // speakdiningcars11
           // diningcars11("en-US"),
           // diningcars1200"),
-          // speakdiningcars12
           // diningcars12("en-US"),
           // diningcars1300"),
-          // speakdiningcars13
           // diningcars13("en-US"),
           // diningcars1400"),
-          // speakdiningcars14
           // diningcars14("en-US"),
           // diningcars1500"),
-          // speakdiningcars15
           // diningcars15("en-US"),
           // diningcars1600"),
-          // speakdiningcars16
           // diningcars16("en-US"),
           // diningcars1700"),
-          // speakdiningcars17
           // diningcars17("en-US"),
           // diningcars1800"),
-          // speakdiningcars18
           // diningcars18("en-US"),
           // diningcars1900"),
-          // speakdiningcars19
           // diningcars19("en-US"),
           // diningcars_2000"),
-          // speakdiningcars20
           // diningcars20("en-US"),
           // diningcars2100"),
-          // speakdiningcars21
           // diningcars21("en-US"),
           // diningcars2200"),
-          // speakdiningcars22
           // diningcars22("en-US"),
         ],
       ),

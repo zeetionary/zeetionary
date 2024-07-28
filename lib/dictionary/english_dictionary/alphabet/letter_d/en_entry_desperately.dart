@@ -241,9 +241,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesperatelys3("en-US"),
           ),
           // desperatelys400"),
-          // speakdesperatelys4
           // desperatelys4("en-US"),
           // desperatelys500"),
-          // speakdesperatelys5
           // desperatelys5("en-US"),
           // desperatelys600"),
-          // speakdesperatelys6
           // desperatelys6("en-US"),
           // desperatelys700"),
-          // speakdesperatelys7
           // desperatelys7("en-US"),
           // desperatelys800"),
-          // speakdesperatelys8
           // desperatelys8("en-US"),
           // desperatelys900"),
-          // speakdesperatelys9
           // desperatelys9("en-US"),
           // desperatelys1000"),
-          // speakdesperatelys10
           // desperatelys10("en-US"),
           // desperatelys1100"),
-          // speakdesperatelys11
           // desperatelys11("en-US"),
           // desperatelys1200"),
-          // speakdesperatelys12
           // desperatelys12("en-US"),
           // desperatelys1300"),
-          // speakdesperatelys13
           // desperatelys13("en-US"),
           // desperatelys1400"),
-          // speakdesperatelys14
           // desperatelys14("en-US"),
           // desperatelys1500"),
-          // speakdesperatelys15
           // desperatelys15("en-US"),
           // desperatelys1600"),
-          // speakdesperatelys16
           // desperatelys16("en-US"),
           // desperatelys1700"),
-          // speakdesperatelys17
           // desperatelys17("en-US"),
           // desperatelys1800"),
-          // speakdesperatelys18
           // desperatelys18("en-US"),
           // desperatelys1900"),
-          // speakdesperatelys19
           // desperatelys19("en-US"),
           // "He grew up desperately poor.0"),
-          // speakdesperatelys20
           // desperatelys20("en-US"),
           // desperatelys2100"),
-          // speakdesperatelys21
           // desperatelys21("en-US"),
           // desperatelys2200"),
-          // speakdesperatelys22
           // desperatelys22("en-US"),
         ],
       ),

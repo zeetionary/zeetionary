@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderelictions2("en-US"),
           ),
           // derelictions300"),
-          // speakderelictions3
           // derelictions3("en-US"),
           // derelictions400"),
-          // speakderelictions4
           // derelictions4("en-US"),
           // derelictions500"),
-          // speakderelictions5
           // derelictions5("en-US"),
           // derelictions600"),
-          // speakderelictions6
           // derelictions6("en-US"),
           // derelictions700"),
-          // speakderelictions7
           // derelictions7("en-US"),
           // derelictions800"),
-          // speakderelictions8
           // derelictions8("en-US"),
           // derelictions900"),
-          // speakderelictions9
           // derelictions9("en-US"),
           // derelictions1000"),
-          // speakderelictions10
           // derelictions10("en-US"),
           // derelictions1100"),
-          // speakderelictions11
           // derelictions11("en-US"),
           // derelictions1200"),
-          // speakderelictions12
           // derelictions12("en-US"),
           // derelictions1300"),
-          // speakderelictions13
           // derelictions13("en-US"),
           // derelictions1400"),
-          // speakderelictions14
           // derelictions14("en-US"),
           // derelictions1500"),
-          // speakderelictions15
           // derelictions15("en-US"),
           // derelictions1600"),
-          // speakderelictions16
           // derelictions16("en-US"),
           // derelictions1700"),
-          // speakderelictions17
           // derelictions17("en-US"),
           // derelictions1800"),
-          // speakderelictions18
           // derelictions18("en-US"),
           // derelictions1900"),
-          // speakderelictions19
           // derelictions19("en-US"),
           // "What you did was a grave dereliction of duty.0"),
-          // speakderelictions20
           // derelictions20("en-US"),
           // derelictions2100"),
-          // speakderelictions21
           // derelictions21("en-US"),
           // derelictions2200"),
-          // speakderelictions22
           // derelictions22("en-US"),
         ],
       ),

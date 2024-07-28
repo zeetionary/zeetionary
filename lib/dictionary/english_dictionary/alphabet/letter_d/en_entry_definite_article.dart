@@ -238,9 +238,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -267,64 +265,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefinitearticles2("en-US"),
           ),
           // definitearticles300"),
-          // speakdefinitearticles3
           // definitearticles3("en-US"),
           // definitearticles400"),
-          // speakdefinitearticles4
           // definitearticles4("en-US"),
           // definitearticles500"),
-          // speakdefinitearticles5
           // definitearticles5("en-US"),
           // definitearticles600"),
-          // speakdefinitearticles6
           // definitearticles6("en-US"),
           // definitearticles700"),
-          // speakdefinitearticles7
           // definitearticles7("en-US"),
           // definitearticles800"),
-          // speakdefinitearticles8
           // definitearticles8("en-US"),
           // definitearticles900"),
-          // speakdefinitearticles9
           // definitearticles9("en-US"),
           // definitearticles1000"),
-          // speakdefinitearticles10
           // definitearticles10("en-US"),
           // definitearticles1100"),
-          // speakdefinitearticles11
           // definitearticles11("en-US"),
           // definitearticles1200"),
-          // speakdefinitearticles12
           // definitearticles12("en-US"),
           // definitearticles1300"),
-          // speakdefinitearticles13
           // definitearticles13("en-US"),
           // definitearticles1400"),
-          // speakdefinitearticles14
           // definitearticles14("en-US"),
           // definitearticles1500"),
-          // speakdefinitearticles15
           // definitearticles15("en-US"),
           // definitearticles1600"),
-          // speakdefinitearticles16
           // definitearticles16("en-US"),
           // definitearticles1700"),
-          // speakdefinitearticles17
           // definitearticles17("en-US"),
           // definitearticles1800"),
-          // speakdefinitearticles18
           // definitearticles18("en-US"),
           // definitearticles1900"),
-          // speakdefinitearticles19
           // definitearticles19("en-US"),
           // "Remember to use the definite article before 'radio' in sentences like 'I was listening to the radio'.0"),
-          // speakdefinitearticles20
           // definitearticles20("en-US"),
           // definitearticles2100"),
-          // speakdefinitearticles21
           // definitearticles21("en-US"),
           // definitearticles2200"),
-          // speakdefinitearticles22
           // definitearticles22("en-US"),
         ],
       ),

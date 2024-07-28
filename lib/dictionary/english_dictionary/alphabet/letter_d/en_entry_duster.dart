@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdusters1("en-US"),
           ),
           // dusters200
-          // speakdusters2
           // dusters2("en-US"""),
           // dusters300
-          // speakdusters3
           // dusters3("en-US"""),
           // dusters400
-          // speakdusters4
           // dusters4("en-US"""),
           // dusters500
-          // speakdusters5
           // dusters5("en-US"""),
           // dusters600
-          // speakdusters6
           // dusters6("en-US"""),
           // dusters700
-          // speakdusters7
           // dusters7("en-US"""),
           // dusters800
-          // speakdusters8
           // dusters8("en-US"""),
           // dusters900
-          // speakdusters9
           // dusters9("en-US"""),
           // dusters_1000
-          // speakdusters10
           // dusters10("en-US"""),
           // dusters1100
-          // speakdusters11
           // dusters11("en-US"""),
           // dusters1200
-          // speakdusters12
           // dusters12("en-US"""),
           // dusters1300
-          // speakdusters13
           // dusters13("en-US"""),
           // dusters1400
-          // speakdusters14
           // dusters14("en-US"""),
           // dusters1500
-          // speakdusters15
           // dusters15("en-US"""),
           // dusters1600
-          // speakdusters16
           // dusters16("en-US"""),
           // dusters1700
-          // speakdusters17
           // dusters17("en-US"""),
           // dusters1800
-          // speakdusters18
           // dusters18("en-US"""),
           // dusters1900
-          // speakdusters19
           // dusters19("en-US"""),
           // dusters_2000
-          // speakdusters20
           // dusters20("en-US"""),
           // dusters2100
-          // speakdusters21
           // dusters21("en-US"""),
           // dusters2200
-          // speakdusters22
           // dusters22("en-US"""),
         ],
       ),

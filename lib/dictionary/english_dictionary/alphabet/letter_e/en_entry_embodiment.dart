@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakembodiments1("en-US"),
           ),
           // embodiments200embodiments2
-          // speakembodiments2
           // embodiments300embodiments3
-          // speakembodiments3
           // embodiments400embodiments4
-          // speakembodiments4
           // embodiments500embodiments5
-          // speakembodiments5
           // embodiments600embodiments6
-          // speakembodiments6
           // embodiments700embodiments7
-          // speakembodiments7
           // embodiments800embodiments8
-          // speakembodiments8
           // embodiments900embodiments9
-          // speakembodiments9
           // embodiments_1000embodiments10
-          // speakembodiments10
           // embodiments1100embodiments11
-          // speakembodiments11
           // embodiments1200embodiments12
-          // speakembodiments12
           // embodiments1300embodiments13
-          // speakembodiments13
           // embodiments1400embodiments14
-          // speakembodiments14
           // embodiments1500embodiments15
-          // speakembodiments15
           // embodiments1600embodiments16
-          // speakembodiments16
           // embodiments1700embodiments17
-          // speakembodiments17
           // embodiments1800embodiments18
-          // speakembodiments18
           // embodiments1900embodiments19
-          // speakembodiments19
           // embodiments_2000embodiments20
-          // speakembodiments20
           // embodiments2100embodiments21
-          // speakembodiments21
           // embodiments2200embodiments22
           // speakembodiments22("en-US"""),
           //         ),

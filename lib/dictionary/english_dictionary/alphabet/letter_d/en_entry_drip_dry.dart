@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdripdrys2("en-US"),
           ),
           // dripdrys300"),
-          // speakdripdrys3
           // dripdrys3("en-US"),
           // dripdrys400"),
-          // speakdripdrys4
           // dripdrys4("en-US"),
           // dripdrys500"),
-          // speakdripdrys5
           // dripdrys5("en-US"),
           // dripdrys600"),
-          // speakdripdrys6
           // dripdrys6("en-US"),
           // dripdrys700"),
-          // speakdripdrys7
           // dripdrys7("en-US"),
           // dripdrys800"),
-          // speakdripdrys8
           // dripdrys8("en-US"),
           // dripdrys900"),
-          // speakdripdrys9
           // dripdrys9("en-US"),
           // dripdrys_1000"),
-          // speakdripdrys10
           // dripdrys10("en-US"),
           // dripdrys1100"),
-          // speakdripdrys11
           // dripdrys11("en-US"),
           // dripdrys1200"),
-          // speakdripdrys12
           // dripdrys12("en-US"),
           // dripdrys1300"),
-          // speakdripdrys13
           // dripdrys13("en-US"),
           // dripdrys1400"),
-          // speakdripdrys14
           // dripdrys14("en-US"),
           // dripdrys1500"),
-          // speakdripdrys15
           // dripdrys15("en-US"),
           // dripdrys1600"),
-          // speakdripdrys16
           // dripdrys16("en-US"),
           // dripdrys1700"),
-          // speakdripdrys17
           // dripdrys17("en-US"),
           // dripdrys1800"),
-          // speakdripdrys18
           // dripdrys18("en-US"),
           // dripdrys1900"),
-          // speakdripdrys19
           // dripdrys19("en-US"),
           // dripdrys_2000"),
-          // speakdripdrys20
           // dripdrys20("en-US"),
           // dripdrys2100"),
-          // speakdripdrys21
           // dripdrys21("en-US"),
           // dripdrys2200"),
-          // speakdripdrys22
           // dripdrys22("en-US"),
         ],
       ),

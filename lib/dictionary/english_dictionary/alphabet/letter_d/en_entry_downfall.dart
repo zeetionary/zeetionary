@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownfalls2("en-US"),
           ),
           // downfalls300"),
-          // speakdownfalls3
           // downfalls3("en-US"),
           // downfalls400"),
-          // speakdownfalls4
           // downfalls4("en-US"),
           // downfalls500"),
-          // speakdownfalls5
           // downfalls5("en-US"),
           // downfalls600"),
-          // speakdownfalls6
           // downfalls6("en-US"),
           // downfalls700"),
-          // speakdownfalls7
           // downfalls7("en-US"),
           // downfalls800"),
-          // speakdownfalls8
           // downfalls8("en-US"),
           // downfalls900"),
-          // speakdownfalls9
           // downfalls9("en-US"),
           // downfalls_1000"),
-          // speakdownfalls10
           // downfalls10("en-US"),
           // downfalls1100"),
-          // speakdownfalls11
           // downfalls11("en-US"),
           // downfalls1200"),
-          // speakdownfalls12
           // downfalls12("en-US"),
           // downfalls1300"),
-          // speakdownfalls13
           // downfalls13("en-US"),
           // downfalls1400"),
-          // speakdownfalls14
           // downfalls14("en-US"),
           // downfalls1500"),
-          // speakdownfalls15
           // downfalls15("en-US"),
           // downfalls1600"),
-          // speakdownfalls16
           // downfalls16("en-US"),
           // downfalls1700"),
-          // speakdownfalls17
           // downfalls17("en-US"),
           // downfalls1800"),
-          // speakdownfalls18
           // downfalls18("en-US"),
           // downfalls1900"),
-          // speakdownfalls19
           // downfalls19("en-US"),
           // downfalls_2000"),
-          // speakdownfalls20
           // downfalls20("en-US"),
           // downfalls2100"),
-          // speakdownfalls21
           // downfalls21("en-US"),
           // downfalls2200"),
-          // speakdownfalls22
           // downfalls22("en-US"),
         ],
       ),

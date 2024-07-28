@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -269,61 +267,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiabolicals3("en-US"),
           ),
           // diabolicals400"),
-          // speakdiabolicals4
           // diabolicals4("en-US"),
           // diabolicals500"),
-          // speakdiabolicals5
           // diabolicals5("en-US"),
           // diabolicals600"),
-          // speakdiabolicals6
           // diabolicals6("en-US"),
           // diabolicals700"),
-          // speakdiabolicals7
           // diabolicals7("en-US"),
           // diabolicals800"),
-          // speakdiabolicals8
           // diabolicals8("en-US"),
           // diabolicals900"),
-          // speakdiabolicals9
           // diabolicals9("en-US"),
           // diabolicals_1000"),
-          // speakdiabolicals10
           // diabolicals10("en-US"),
           // diabolicals1100"),
-          // speakdiabolicals11
           // diabolicals11("en-US"),
           // diabolicals1200"),
-          // speakdiabolicals12
           // diabolicals12("en-US"),
           // diabolicals1300"),
-          // speakdiabolicals13
           // diabolicals13("en-US"),
           // diabolicals1400"),
-          // speakdiabolicals14
           // diabolicals14("en-US"),
           // diabolicals1500"),
-          // speakdiabolicals15
           // diabolicals15("en-US"),
           // diabolicals1600"),
-          // speakdiabolicals16
           // diabolicals16("en-US"),
           // diabolicals1700"),
-          // speakdiabolicals17
           // diabolicals17("en-US"),
           // diabolicals1800"),
-          // speakdiabolicals18
           // diabolicals18("en-US"),
           // diabolicals1900"),
-          // speakdiabolicals19
           // diabolicals19("en-US"),
           // diabolicals_2000"),
-          // speakdiabolicals20
           // diabolicals20("en-US"),
           // diabolicals2100"),
-          // speakdiabolicals21
           // diabolicals21("en-US"),
           // diabolicals2200"),
-          // speakdiabolicals22
           // diabolicals22("en-US"),
         ],
       ),

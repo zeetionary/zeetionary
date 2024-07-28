@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -263,64 +261,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderailments2("en-US"),
           ),
           // derailments300"),
-          // speakderailments3
           // derailments3("en-US"),
           // derailments400"),
-          // speakderailments4
           // derailments4("en-US"),
           // derailments500"),
-          // speakderailments5
           // derailments5("en-US"),
           // derailments600"),
-          // speakderailments6
           // derailments6("en-US"),
           // derailments700"),
-          // speakderailments7
           // derailments7("en-US"),
           // derailments800"),
-          // speakderailments8
           // derailments8("en-US"),
           // derailments900"),
-          // speakderailments9
           // derailments9("en-US"),
           // derailments1000"),
-          // speakderailments10
           // derailments10("en-US"),
           // derailments1100"),
-          // speakderailments11
           // derailments11("en-US"),
           // derailments1200"),
-          // speakderailments12
           // derailments12("en-US"),
           // derailments1300"),
-          // speakderailments13
           // derailments13("en-US"),
           // derailments1400"),
-          // speakderailments14
           // derailments14("en-US"),
           // derailments1500"),
-          // speakderailments15
           // derailments15("en-US"),
           // derailments1600"),
-          // speakderailments16
           // derailments16("en-US"),
           // derailments1700"),
-          // speakderailments17
           // derailments17("en-US"),
           // derailments1800"),
-          // speakderailments18
           // derailments18("en-US"),
           // derailments1900"),
-          // speakderailments19
           // derailments19("en-US"),
           // "Poor planning caused the project’s derailment.0"),
-          // speakderailments20
           // derailments20("en-US"),
           // derailments2100"),
-          // speakderailments21
           // derailments21("en-US"),
           // derailments2200"),
-          // speakderailments22
           // derailments22("en-US"),
         ],
       ),

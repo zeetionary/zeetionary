@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdinnerjackets1("en-US"),
           ),
           // dinnerjackets200"),
-          // speakdinnerjackets2
           // dinnerjackets2("en-US"),
           // dinnerjackets300"),
-          // speakdinnerjackets3
           // dinnerjackets3("en-US"),
           // dinnerjackets400"),
-          // speakdinnerjackets4
           // dinnerjackets4("en-US"),
           // dinnerjackets500"),
-          // speakdinnerjackets5
           // dinnerjackets5("en-US"),
           // dinnerjackets600"),
-          // speakdinnerjackets6
           // dinnerjackets6("en-US"),
           // dinnerjackets700"),
-          // speakdinnerjackets7
           // dinnerjackets7("en-US"),
           // dinnerjackets800"),
-          // speakdinnerjackets8
           // dinnerjackets8("en-US"),
           // dinnerjackets900"),
-          // speakdinnerjackets9
           // dinnerjackets9("en-US"),
           // dinnerjackets_1000"),
-          // speakdinnerjackets10
           // dinnerjackets10("en-US"),
           // dinnerjackets1100"),
-          // speakdinnerjackets11
           // dinnerjackets11("en-US"),
           // dinnerjackets1200"),
-          // speakdinnerjackets12
           // dinnerjackets12("en-US"),
           // dinnerjackets1300"),
-          // speakdinnerjackets13
           // dinnerjackets13("en-US"),
           // dinnerjackets1400"),
-          // speakdinnerjackets14
           // dinnerjackets14("en-US"),
           // dinnerjackets1500"),
-          // speakdinnerjackets15
           // dinnerjackets15("en-US"),
           // dinnerjackets1600"),
-          // speakdinnerjackets16
           // dinnerjackets16("en-US"),
           // dinnerjackets1700"),
-          // speakdinnerjackets17
           // dinnerjackets17("en-US"),
           // dinnerjackets1800"),
-          // speakdinnerjackets18
           // dinnerjackets18("en-US"),
           // dinnerjackets1900"),
-          // speakdinnerjackets19
           // dinnerjackets19("en-US"),
           // dinnerjackets_2000"),
-          // speakdinnerjackets20
           // dinnerjackets20("en-US"),
           // dinnerjackets2100"),
-          // speakdinnerjackets21
           // dinnerjackets21("en-US"),
           // dinnerjackets2200"),
-          // speakdinnerjackets22
           // dinnerjackets22("en-US"),
         ],
       ),

@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,45 +365,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeffeminates1("en-US"),
           ),
           // effeminates200effeminates2
-          // speakeffeminates2
           // effeminates300effeminates3
-          // speakeffeminates3
           // effeminates400effeminates4
-          // speakeffeminates4
           // effeminates500effeminates5
-          // speakeffeminates5
           // effeminates600effeminates6
-          // speakeffeminates6
           // effeminates700effeminates7
-          // speakeffeminates7
           // effeminates800effeminates8
-          // speakeffeminates8
           // effeminates900effeminates9
-          // speakeffeminates9
           // effeminates_1000effeminates10
-          // speakeffeminates10
           // effeminates1100effeminates11
-          // speakeffeminates11
           // effeminates1200effeminates12
-          // speakeffeminates12
           // effeminates1300effeminates13
-          // speakeffeminates13
           // effeminates1400effeminates14
-          // speakeffeminates14
           // effeminates1500effeminates15
-          // speakeffeminates15
           // effeminates1600effeminates16
-          // speakeffeminates16
           // effeminates1700effeminates17
-          // speakeffeminates17
           // effeminates1800effeminates18
-          // speakeffeminates18
           // effeminates1900effeminates19
-          // speakeffeminates19
           // effeminates_2000effeminates20
-          // speakeffeminates20
           // effeminates2100effeminates21
-          // speakeffeminates21
           // effeminates2200effeminates22
           // speakeffeminates22("en-US"""),
           //         ),

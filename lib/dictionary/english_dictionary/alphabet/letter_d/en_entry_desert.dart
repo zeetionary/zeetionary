@@ -286,9 +286,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -373,43 +371,30 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeserts9("en-US"),
           ),
           // deserts1000"),
-          // speakdeserts10
           // deserts10("en-US"),
           // deserts1100"),
-          // speakdeserts11
           // deserts11("en-US"),
           // deserts1200"),
-          // speakdeserts12
           // deserts12("en-US"),
           // deserts1300"),
-          // speakdeserts13
           // deserts13("en-US"),
           // deserts1400"),
-          // speakdeserts14
           // deserts14("en-US"),
           // deserts1500"),
-          // speakdeserts15
           // deserts15("en-US"),
           // deserts1600"),
-          // speakdeserts16
           // deserts16("en-US"),
           // deserts1700"),
-          // speakdeserts17
           // deserts17("en-US"),
           // deserts1800"),
-          // speakdeserts18
           // deserts18("en-US"),
           // deserts1900"),
-          // speakdeserts19
           // deserts19("en-US"),
           // "They travelled many miles across burning desert sands.0"),
-          // speakdeserts20
           // deserts20("en-US"),
           // deserts2100"),
-          // speakdeserts21
           // deserts21("en-US"),
           // deserts2200"),
-          // speakdeserts22
           // deserts22("en-US"),
         ],
       ),

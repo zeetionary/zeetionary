@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiagonallys2("en-US"),
           ),
           // diagonallys300"),
-          // speakdiagonallys3
           // diagonallys3("en-US"),
           // diagonallys400"),
-          // speakdiagonallys4
           // diagonallys4("en-US"),
           // diagonallys500"),
-          // speakdiagonallys5
           // diagonallys5("en-US"),
           // diagonallys600"),
-          // speakdiagonallys6
           // diagonallys6("en-US"),
           // diagonallys700"),
-          // speakdiagonallys7
           // diagonallys7("en-US"),
           // diagonallys800"),
-          // speakdiagonallys8
           // diagonallys8("en-US"),
           // diagonallys900"),
-          // speakdiagonallys9
           // diagonallys9("en-US"),
           // diagonallys_1000"),
-          // speakdiagonallys10
           // diagonallys10("en-US"),
           // diagonallys1100"),
-          // speakdiagonallys11
           // diagonallys11("en-US"),
           // diagonallys1200"),
-          // speakdiagonallys12
           // diagonallys12("en-US"),
           // diagonallys1300"),
-          // speakdiagonallys13
           // diagonallys13("en-US"),
           // diagonallys1400"),
-          // speakdiagonallys14
           // diagonallys14("en-US"),
           // diagonallys1500"),
-          // speakdiagonallys15
           // diagonallys15("en-US"),
           // diagonallys1600"),
-          // speakdiagonallys16
           // diagonallys16("en-US"),
           // diagonallys1700"),
-          // speakdiagonallys17
           // diagonallys17("en-US"),
           // diagonallys1800"),
-          // speakdiagonallys18
           // diagonallys18("en-US"),
           // diagonallys1900"),
-          // speakdiagonallys19
           // diagonallys19("en-US"),
           // diagonallys_2000"),
-          // speakdiagonallys20
           // diagonallys20("en-US"),
           // diagonallys2100"),
-          // speakdiagonallys21
           // diagonallys21("en-US"),
           // diagonallys2200"),
-          // speakdiagonallys22
           // diagonallys22("en-US"),
         ],
       ),

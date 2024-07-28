@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -389,64 +387,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdragons2("en-US"),
           ),
           // dragons300"),
-          // speakdragons3
           // dragons3("en-US"),
           // dragons400"),
-          // speakdragons4
           // dragons4("en-US"),
           // dragons500"),
-          // speakdragons5
           // dragons5("en-US"),
           // dragons600"),
-          // speakdragons6
           // dragons6("en-US"),
           // dragons700"),
-          // speakdragons7
           // dragons7("en-US"),
           // dragons800"),
-          // speakdragons8
           // dragons8("en-US"),
           // dragons900"),
-          // speakdragons9
           // dragons9("en-US"),
           // dragons_1000"),
-          // speakdragons10
           // dragons10("en-US"),
           // dragons1100"),
-          // speakdragons11
           // dragons11("en-US"),
           // dragons1200"),
-          // speakdragons12
           // dragons12("en-US"),
           // dragons1300"),
-          // speakdragons13
           // dragons13("en-US"),
           // dragons1400"),
-          // speakdragons14
           // dragons14("en-US"),
           // dragons1500"),
-          // speakdragons15
           // dragons15("en-US"),
           // dragons1600"),
-          // speakdragons16
           // dragons16("en-US"),
           // dragons1700"),
-          // speakdragons17
           // dragons17("en-US"),
           // dragons1800"),
-          // speakdragons18
           // dragons18("en-US"),
           // dragons1900"),
-          // speakdragons19
           // dragons19("en-US"),
           // dragons_2000"),
-          // speakdragons20
           // dragons20("en-US"),
           // dragons2100"),
-          // speakdragons21
           // dragons21("en-US"),
           // dragons2200"),
-          // speakdragons22
           // dragons22("en-US"),
         ],
       ),

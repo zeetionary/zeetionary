@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisparagings1("en-US"),
           ),
           // disparagings200"),
-          // speakdisparagings2
           // disparagings2("en-US"),
           // disparagings300"),
-          // speakdisparagings3
           // disparagings3("en-US"),
           // disparagings400"),
-          // speakdisparagings4
           // disparagings4("en-US"),
           // disparagings500"),
-          // speakdisparagings5
           // disparagings5("en-US"),
           // disparagings600"),
-          // speakdisparagings6
           // disparagings6("en-US"),
           // disparagings700"),
-          // speakdisparagings7
           // disparagings7("en-US"),
           // disparagings800"),
-          // speakdisparagings8
           // disparagings8("en-US"),
           // disparagings900"),
-          // speakdisparagings9
           // disparagings9("en-US"),
           // disparagings_1000"),
-          // speakdisparagings10
           // disparagings10("en-US"),
           // disparagings1100"),
-          // speakdisparagings11
           // disparagings11("en-US"),
           // disparagings1200"),
-          // speakdisparagings12
           // disparagings12("en-US"),
           // disparagings1300"),
-          // speakdisparagings13
           // disparagings13("en-US"),
           // disparagings1400"),
-          // speakdisparagings14
           // disparagings14("en-US"),
           // disparagings1500"),
-          // speakdisparagings15
           // disparagings15("en-US"),
           // disparagings1600"),
-          // speakdisparagings16
           // disparagings16("en-US"),
           // disparagings1700"),
-          // speakdisparagings17
           // disparagings17("en-US"),
           // disparagings1800"),
-          // speakdisparagings18
           // disparagings18("en-US"),
           // disparagings1900"),
-          // speakdisparagings19
           // disparagings19("en-US"),
           // disparagings_2000"),
-          // speakdisparagings20
           // disparagings20("en-US"),
           // disparagings2100"),
-          // speakdisparagings21
           // disparagings21("en-US"),
           // disparagings2200"),
-          // speakdisparagings22
           // disparagings22("en-US"),
         ],
       ),

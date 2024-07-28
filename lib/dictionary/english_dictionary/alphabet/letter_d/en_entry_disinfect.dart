@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisinfects2("en-US"),
           ),
           // disinfects300"),
-          // speakdisinfects3
           // disinfects3("en-US"),
           // disinfects400"),
-          // speakdisinfects4
           // disinfects4("en-US"),
           // disinfects500"),
-          // speakdisinfects5
           // disinfects5("en-US"),
           // disinfects600"),
-          // speakdisinfects6
           // disinfects6("en-US"),
           // disinfects700"),
-          // speakdisinfects7
           // disinfects7("en-US"),
           // disinfects800"),
-          // speakdisinfects8
           // disinfects8("en-US"),
           // disinfects900"),
-          // speakdisinfects9
           // disinfects9("en-US"),
           // disinfects_1000"),
-          // speakdisinfects10
           // disinfects10("en-US"),
           // disinfects1100"),
-          // speakdisinfects11
           // disinfects11("en-US"),
           // disinfects1200"),
-          // speakdisinfects12
           // disinfects12("en-US"),
           // disinfects1300"),
-          // speakdisinfects13
           // disinfects13("en-US"),
           // disinfects1400"),
-          // speakdisinfects14
           // disinfects14("en-US"),
           // disinfects1500"),
-          // speakdisinfects15
           // disinfects15("en-US"),
           // disinfects1600"),
-          // speakdisinfects16
           // disinfects16("en-US"),
           // disinfects1700"),
-          // speakdisinfects17
           // disinfects17("en-US"),
           // disinfects1800"),
-          // speakdisinfects18
           // disinfects18("en-US"),
           // disinfects1900"),
-          // speakdisinfects19
           // disinfects19("en-US"),
           // disinfects_2000"),
-          // speakdisinfects20
           // disinfects20("en-US"),
           // disinfects2100"),
-          // speakdisinfects21
           // disinfects21("en-US"),
           // disinfects2200"),
-          // speakdisinfects22
           // disinfects22("en-US"),
         ],
       ),

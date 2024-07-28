@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespondencys2("en-US"),
           ),
           // despondencys300"),
-          // speakdespondencys3
           // despondencys3("en-US"),
           // despondencys400"),
-          // speakdespondencys4
           // despondencys4("en-US"),
           // despondencys500"),
-          // speakdespondencys5
           // despondencys5("en-US"),
           // despondencys600"),
-          // speakdespondencys6
           // despondencys6("en-US"),
           // despondencys700"),
-          // speakdespondencys7
           // despondencys7("en-US"),
           // despondencys800"),
-          // speakdespondencys8
           // despondencys8("en-US"),
           // despondencys900"),
-          // speakdespondencys9
           // despondencys9("en-US"),
           // despondencys1000"),
-          // speakdespondencys10
           // despondencys10("en-US"),
           // despondencys1100"),
-          // speakdespondencys11
           // despondencys11("en-US"),
           // despondencys1200"),
-          // speakdespondencys12
           // despondencys12("en-US"),
           // despondencys1300"),
-          // speakdespondencys13
           // despondencys13("en-US"),
           // despondencys1400"),
-          // speakdespondencys14
           // despondencys14("en-US"),
           // despondencys1500"),
-          // speakdespondencys15
           // despondencys15("en-US"),
           // despondencys1600"),
-          // speakdespondencys16
           // despondencys16("en-US"),
           // despondencys1700"),
-          // speakdespondencys17
           // despondencys17("en-US"),
           // despondencys1800"),
-          // speakdespondencys18
           // despondencys18("en-US"),
           // despondencys1900"),
-          // speakdespondencys19
           // despondencys19("en-US"),
           // "A mood of despondency had set in.0"),
-          // speakdespondencys20
           // despondencys20("en-US"),
           // despondencys2100"),
-          // speakdespondencys21
           // despondencys21("en-US"),
           // despondencys2200"),
-          // speakdespondencys22
           // despondencys22("en-US"),
         ],
       ),

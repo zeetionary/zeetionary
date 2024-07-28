@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -366,67 +364,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdogtireds1("en-US"),
           ),
           // dogtireds200"),
-          // speakdogtireds2
           // dogtireds2("en-US"),
           // dogtireds300"),
-          // speakdogtireds3
           // dogtireds3("en-US"),
           // dogtireds400"),
-          // speakdogtireds4
           // dogtireds4("en-US"),
           // dogtireds500"),
-          // speakdogtireds5
           // dogtireds5("en-US"),
           // dogtireds600"),
-          // speakdogtireds6
           // dogtireds6("en-US"),
           // dogtireds700"),
-          // speakdogtireds7
           // dogtireds7("en-US"),
           // dogtireds800"),
-          // speakdogtireds8
           // dogtireds8("en-US"),
           // dogtireds900"),
-          // speakdogtireds9
           // dogtireds9("en-US"),
           // dogtireds_1000"),
-          // speakdogtireds10
           // dogtireds10("en-US"),
           // dogtireds1100"),
-          // speakdogtireds11
           // dogtireds11("en-US"),
           // dogtireds1200"),
-          // speakdogtireds12
           // dogtireds12("en-US"),
           // dogtireds1300"),
-          // speakdogtireds13
           // dogtireds13("en-US"),
           // dogtireds1400"),
-          // speakdogtireds14
           // dogtireds14("en-US"),
           // dogtireds1500"),
-          // speakdogtireds15
           // dogtireds15("en-US"),
           // dogtireds1600"),
-          // speakdogtireds16
           // dogtireds16("en-US"),
           // dogtireds1700"),
-          // speakdogtireds17
           // dogtireds17("en-US"),
           // dogtireds1800"),
-          // speakdogtireds18
           // dogtireds18("en-US"),
           // dogtireds1900"),
-          // speakdogtireds19
           // dogtireds19("en-US"),
           // dogtireds_2000"),
-          // speakdogtireds20
           // dogtireds20("en-US"),
           // dogtireds2100"),
-          // speakdogtireds21
           // dogtireds21("en-US"),
           // dogtireds2200"),
-          // speakdogtireds22
           // dogtireds22("en-US"),
         ],
       ),

@@ -373,9 +373,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -423,58 +421,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownstreams4("en-US"),
           ),
           // downstreams500"),
-          // speakdownstreams5
           // downstreams5("en-US"),
           // downstreams600"),
-          // speakdownstreams6
           // downstreams6("en-US"),
           // downstreams700"),
-          // speakdownstreams7
           // downstreams7("en-US"),
           // downstreams800"),
-          // speakdownstreams8
           // downstreams8("en-US"),
           // downstreams900"),
-          // speakdownstreams9
           // downstreams9("en-US"),
           // downstreams_1000"),
-          // speakdownstreams10
           // downstreams10("en-US"),
           // downstreams1100"),
-          // speakdownstreams11
           // downstreams11("en-US"),
           // downstreams1200"),
-          // speakdownstreams12
           // downstreams12("en-US"),
           // downstreams1300"),
-          // speakdownstreams13
           // downstreams13("en-US"),
           // downstreams1400"),
-          // speakdownstreams14
           // downstreams14("en-US"),
           // downstreams1500"),
-          // speakdownstreams15
           // downstreams15("en-US"),
           // downstreams1600"),
-          // speakdownstreams16
           // downstreams16("en-US"),
           // downstreams1700"),
-          // speakdownstreams17
           // downstreams17("en-US"),
           // downstreams1800"),
-          // speakdownstreams18
           // downstreams18("en-US"),
           // downstreams1900"),
-          // speakdownstreams19
           // downstreams19("en-US"),
           // downstreams_2000"),
-          // speakdownstreams20
           // downstreams20("en-US"),
           // downstreams2100"),
-          // speakdownstreams21
           // downstreams21("en-US"),
           // downstreams2200"),
-          // speakdownstreams22
           // downstreams22("en-US"),
         ],
       ),

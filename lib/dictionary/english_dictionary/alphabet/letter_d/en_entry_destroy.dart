@@ -279,9 +279,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -355,46 +353,32 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestroys8("en-US"),
           ),
           // destroys900"),
-          // speakdestroys9
           // destroys9("en-US"),
           // destroys1000"),
-          // speakdestroys10
           // destroys10("en-US"),
           // destroys1100"),
-          // speakdestroys11
           // destroys11("en-US"),
           // destroys1200"),
-          // speakdestroys12
           // destroys12("en-US"),
           // destroys1300"),
-          // speakdestroys13
           // destroys13("en-US"),
           // destroys1400"),
-          // speakdestroys14
           // destroys14("en-US"),
           // destroys1500"),
-          // speakdestroys15
           // destroys15("en-US"),
           // destroys1600"),
-          // speakdestroys16
           // destroys16("en-US"),
           // destroys1700"),
-          // speakdestroys17
           // destroys17("en-US"),
           // destroys1800"),
-          // speakdestroys18
           // destroys18("en-US"),
           // destroys1900"),
-          // speakdestroys19
           // destroys19("en-US"),
           // "The earthquake damaged or destroyed countless homes.0"),
-          // speakdestroys20
           // destroys20("en-US"),
           // destroys2100"),
-          // speakdestroys21
           // destroys21("en-US"),
           // destroys2200"),
-          // speakdestroys22
           // destroys22("en-US"),
         ],
       ),

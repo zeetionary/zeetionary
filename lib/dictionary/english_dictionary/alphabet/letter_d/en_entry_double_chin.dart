@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublechins1("en-US"),
           ),
           // doublechins200"),
-          // speakdoublechins2
           // doublechins2("en-US"),
           // doublechins300"),
-          // speakdoublechins3
           // doublechins3("en-US"),
           // doublechins400"),
-          // speakdoublechins4
           // doublechins4("en-US"),
           // doublechins500"),
-          // speakdoublechins5
           // doublechins5("en-US"),
           // doublechins600"),
-          // speakdoublechins6
           // doublechins6("en-US"),
           // doublechins700"),
-          // speakdoublechins7
           // doublechins7("en-US"),
           // doublechins800"),
-          // speakdoublechins8
           // doublechins8("en-US"),
           // doublechins900"),
-          // speakdoublechins9
           // doublechins9("en-US"),
           // doublechins_1000"),
-          // speakdoublechins10
           // doublechins10("en-US"),
           // doublechins1100"),
-          // speakdoublechins11
           // doublechins11("en-US"),
           // doublechins1200"),
-          // speakdoublechins12
           // doublechins12("en-US"),
           // doublechins1300"),
-          // speakdoublechins13
           // doublechins13("en-US"),
           // doublechins1400"),
-          // speakdoublechins14
           // doublechins14("en-US"),
           // doublechins1500"),
-          // speakdoublechins15
           // doublechins15("en-US"),
           // doublechins1600"),
-          // speakdoublechins16
           // doublechins16("en-US"),
           // doublechins1700"),
-          // speakdoublechins17
           // doublechins17("en-US"),
           // doublechins1800"),
-          // speakdoublechins18
           // doublechins18("en-US"),
           // doublechins1900"),
-          // speakdoublechins19
           // doublechins19("en-US"),
           // doublechins_2000"),
-          // speakdoublechins20
           // doublechins20("en-US"),
           // doublechins2100"),
-          // speakdoublechins21
           // doublechins21("en-US"),
           // doublechins2200"),
-          // speakdoublechins22
           // doublechins22("en-US"),
         ],
       ),

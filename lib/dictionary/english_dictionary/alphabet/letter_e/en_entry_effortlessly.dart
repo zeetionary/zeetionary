@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,43 +386,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeffortlesslys2("en-US"),
           ),
           // effortlesslys300effortlesslys3
-          // speakeffortlesslys3
           // effortlesslys400effortlesslys4
-          // speakeffortlesslys4
           // effortlesslys500effortlesslys5
-          // speakeffortlesslys5
           // effortlesslys600effortlesslys6
-          // speakeffortlesslys6
           // effortlesslys700effortlesslys7
-          // speakeffortlesslys7
           // effortlesslys800effortlesslys8
-          // speakeffortlesslys8
           // effortlesslys900effortlesslys9
-          // speakeffortlesslys9
           // effortlesslys_1000effortlesslys10
-          // speakeffortlesslys10
           // effortlesslys1100effortlesslys11
-          // speakeffortlesslys11
           // effortlesslys1200effortlesslys12
-          // speakeffortlesslys12
           // effortlesslys1300effortlesslys13
-          // speakeffortlesslys13
           // effortlesslys1400effortlesslys14
-          // speakeffortlesslys14
           // effortlesslys1500effortlesslys15
-          // speakeffortlesslys15
           // effortlesslys1600effortlesslys16
-          // speakeffortlesslys16
           // effortlesslys1700effortlesslys17
-          // speakeffortlesslys17
           // effortlesslys1800effortlesslys18
-          // speakeffortlesslys18
           // effortlesslys1900effortlesslys19
-          // speakeffortlesslys19
           // effortlesslys_2000effortlesslys20
-          // speakeffortlesslys20
           // effortlesslys2100effortlesslys21
-          // speakeffortlesslys21
           // effortlesslys2200effortlesslys22
           // speakeffortlesslys22("en-US"""),
           //         ),

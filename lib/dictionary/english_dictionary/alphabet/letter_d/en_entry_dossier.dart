@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdossiers2("en-US"),
           ),
           // dossiers300"),
-          // speakdossiers3
           // dossiers3
           // dossiers400"),
-          // speakdossiers4
           // dossiers4
           // dossiers500"),
-          // speakdossiers5
           // dossiers5
           // dossiers600"),
-          // speakdossiers6
           // dossiers6
           // dossiers700"),
-          // speakdossiers7
           // dossiers7
           // dossiers800"),
-          // speakdossiers8
           // dossiers8
           // dossiers900"),
-          // speakdossiers9
           // dossiers9
           // dossiers_1000"),
-          // speakdossiers10
           // dossiers10
           // dossiers1100"),
-          // speakdossiers11
           // dossiers11
           // dossiers1200"),
-          // speakdossiers12
           // dossiers12
           // dossiers1300"),
-          // speakdossiers13
           // dossiers13
           // dossiers1400"),
-          // speakdossiers14
           // dossiers14
           // dossiers1500"),
-          // speakdossiers15
           // dossiers15
           // dossiers1600"),
-          // speakdossiers16
           // dossiers16
           // dossiers1700"),
-          // speakdossiers17
           // dossiers17
           // dossiers1800"),
-          // speakdossiers18
           // dossiers18
           // dossiers1900"),
-          // speakdossiers19
           // dossiers19
           // dossiers_2000"),
-          // speakdossiers20
           // dossiers20
           // dossiers2100"),
-          // speakdossiers21
           // dossiers21
           // dossiers2200"),
-          // speakdossiers22
           // dossiers22("en-US"),
         ],
       ),

@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdyedinthewools1("en-US"),
           ),
           // dyedinthewools200
-          // speakdyedinthewools2
           // dyedinthewools2("en-US"""),
           // dyedinthewools300
-          // speakdyedinthewools3
           // dyedinthewools3("en-US"""),
           // dyedinthewools400
-          // speakdyedinthewools4
           // dyedinthewools4("en-US"""),
           // dyedinthewools500
-          // speakdyedinthewools5
           // dyedinthewools5("en-US"""),
           // dyedinthewools600
-          // speakdyedinthewools6
           // dyedinthewools6("en-US"""),
           // dyedinthewools700
-          // speakdyedinthewools7
           // dyedinthewools7("en-US"""),
           // dyedinthewools800
-          // speakdyedinthewools8
           // dyedinthewools8("en-US"""),
           // dyedinthewools900
-          // speakdyedinthewools9
           // dyedinthewools9("en-US"""),
           // dyedinthewools_1000
-          // speakdyedinthewools10
           // dyedinthewools10("en-US"""),
           // dyedinthewools1100
-          // speakdyedinthewools11
           // dyedinthewools11("en-US"""),
           // dyedinthewools1200
-          // speakdyedinthewools12
           // dyedinthewools12("en-US"""),
           // dyedinthewools1300
-          // speakdyedinthewools13
           // dyedinthewools13("en-US"""),
           // dyedinthewools1400
-          // speakdyedinthewools14
           // dyedinthewools14("en-US"""),
           // dyedinthewools1500
-          // speakdyedinthewools15
           // dyedinthewools15("en-US"""),
           // dyedinthewools1600
-          // speakdyedinthewools16
           // dyedinthewools16("en-US"""),
           // dyedinthewools1700
-          // speakdyedinthewools17
           // dyedinthewools17("en-US"""),
           // dyedinthewools1800
-          // speakdyedinthewools18
           // dyedinthewools18("en-US"""),
           // dyedinthewools1900
-          // speakdyedinthewools19
           // dyedinthewools19("en-US"""),
           // dyedinthewools_2000
-          // speakdyedinthewools20
           // dyedinthewools20("en-US"""),
           // dyedinthewools2100
-          // speakdyedinthewools21
           // dyedinthewools21("en-US"""),
           // dyedinthewools2200
-          // speakdyedinthewools22
           // dyedinthewools22("en-US"""),
         ],
       ),

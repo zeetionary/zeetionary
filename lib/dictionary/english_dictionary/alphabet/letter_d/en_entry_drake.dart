@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrakes1("en-US"),
           ),
           // drakes200"),
-          // speakdrakes2
           // drakes2("en-US"),
           // drakes300"),
-          // speakdrakes3
           // drakes3("en-US"),
           // drakes400"),
-          // speakdrakes4
           // drakes4("en-US"),
           // drakes500"),
-          // speakdrakes5
           // drakes5("en-US"),
           // drakes600"),
-          // speakdrakes6
           // drakes6("en-US"),
           // drakes700"),
-          // speakdrakes7
           // drakes7("en-US"),
           // drakes800"),
-          // speakdrakes8
           // drakes8("en-US"),
           // drakes900"),
-          // speakdrakes9
           // drakes9("en-US"),
           // drakes_1000"),
-          // speakdrakes10
           // drakes10("en-US"),
           // drakes1100"),
-          // speakdrakes11
           // drakes11("en-US"),
           // drakes1200"),
-          // speakdrakes12
           // drakes12("en-US"),
           // drakes1300"),
-          // speakdrakes13
           // drakes13("en-US"),
           // drakes1400"),
-          // speakdrakes14
           // drakes14("en-US"),
           // drakes1500"),
-          // speakdrakes15
           // drakes15("en-US"),
           // drakes1600"),
-          // speakdrakes16
           // drakes16("en-US"),
           // drakes1700"),
-          // speakdrakes17
           // drakes17("en-US"),
           // drakes1800"),
-          // speakdrakes18
           // drakes18("en-US"),
           // drakes1900"),
-          // speakdrakes19
           // drakes19("en-US"),
           // drakes_2000"),
-          // speakdrakes20
           // drakes20("en-US"),
           // drakes2100"),
-          // speakdrakes21
           // drakes21("en-US"),
           // drakes2200"),
-          // speakdrakes22
           // drakes22("en-US"),
         ],
       ),

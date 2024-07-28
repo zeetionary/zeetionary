@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdependants1("en-US"),
           ),
           // dependants200"),
-          // speakdependants2
           // dependants2("en-US"),
           // dependants300"),
-          // speakdependants3
           // dependants3("en-US"),
           // dependants400"),
-          // speakdependants4
           // dependants4("en-US"),
           // dependants500"),
-          // speakdependants5
           // dependants5("en-US"),
           // dependants600"),
-          // speakdependants6
           // dependants6("en-US"),
           // dependants700"),
-          // speakdependants7
           // dependants7("en-US"),
           // dependants800"),
-          // speakdependants8
           // dependants8("en-US"),
           // dependants900"),
-          // speakdependants9
           // dependants9("en-US"),
           // dependants1000"),
-          // speakdependants10
           // dependants10("en-US"),
           // dependants1100"),
-          // speakdependants11
           // dependants11("en-US"),
           // dependants1200"),
-          // speakdependants12
           // dependants12("en-US"),
           // dependants1300"),
-          // speakdependants13
           // dependants13("en-US"),
           // dependants1400"),
-          // speakdependants14
           // dependants14("en-US"),
           // dependants1500"),
-          // speakdependants15
           // dependants15("en-US"),
           // dependants1600"),
-          // speakdependants16
           // dependants16("en-US"),
           // dependants1700"),
-          // speakdependants17
           // dependants17("en-US"),
           // dependants1800"),
-          // speakdependants18
           // dependants18("en-US"),
           // dependants1900"),
-          // speakdependants19
           // dependants19("en-US"),
           // dependants2000"),
-          // speakdependants20
           // dependants20("en-US"),
           // dependants2100"),
-          // speakdependants21
           // dependants21("en-US"),
           // dependants2200"),
-          // speakdependants22
           // dependants22("en-US"),
         ],
       ),

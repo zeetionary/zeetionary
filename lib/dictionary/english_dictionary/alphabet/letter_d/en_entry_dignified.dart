@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdignifieds2("en-US"),
           ),
           // dignifieds300"),
-          // speakdignifieds3
           // dignifieds3("en-US"),
           // dignifieds400"),
-          // speakdignifieds4
           // dignifieds4("en-US"),
           // dignifieds500"),
-          // speakdignifieds5
           // dignifieds5("en-US"),
           // dignifieds600"),
-          // speakdignifieds6
           // dignifieds6("en-US"),
           // dignifieds700"),
-          // speakdignifieds7
           // dignifieds7("en-US"),
           // dignifieds800"),
-          // speakdignifieds8
           // dignifieds8("en-US"),
           // dignifieds900"),
-          // speakdignifieds9
           // dignifieds9("en-US"),
           // dignifieds_1000"),
-          // speakdignifieds10
           // dignifieds10("en-US"),
           // dignifieds1100"),
-          // speakdignifieds11
           // dignifieds11("en-US"),
           // dignifieds1200"),
-          // speakdignifieds12
           // dignifieds12("en-US"),
           // dignifieds1300"),
-          // speakdignifieds13
           // dignifieds13("en-US"),
           // dignifieds1400"),
-          // speakdignifieds14
           // dignifieds14("en-US"),
           // dignifieds1500"),
-          // speakdignifieds15
           // dignifieds15("en-US"),
           // dignifieds1600"),
-          // speakdignifieds16
           // dignifieds16("en-US"),
           // dignifieds1700"),
-          // speakdignifieds17
           // dignifieds17("en-US"),
           // dignifieds1800"),
-          // speakdignifieds18
           // dignifieds18("en-US"),
           // dignifieds1900"),
-          // speakdignifieds19
           // dignifieds19("en-US"),
           // dignifieds_2000"),
-          // speakdignifieds20
           // dignifieds20("en-US"),
           // dignifieds2100"),
-          // speakdignifieds21
           // dignifieds21("en-US"),
           // dignifieds2200"),
-          // speakdignifieds22
           // dignifieds22("en-US"),
         ],
       ),

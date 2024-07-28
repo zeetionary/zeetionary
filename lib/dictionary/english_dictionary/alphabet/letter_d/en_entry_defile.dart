@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -283,61 +281,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefiles3("en-US"),
           ),
           // defiles400"),
-          // speakdefiles4
           // defiles4("en-US"),
           // defiles500"),
-          // speakdefiles5
           // defiles5("en-US"),
           // defiles600"),
-          // speakdefiles6
           // defiles6("en-US"),
           // defiles700"),
-          // speakdefiles7
           // defiles7("en-US"),
           // defiles800"),
-          // speakdefiles8
           // defiles8("en-US"),
           // defiles900"),
-          // speakdefiles9
           // defiles9("en-US"),
           // defiles1000"),
-          // speakdefiles10
           // defiles10("en-US"),
           // defiles1100"),
-          // speakdefiles11
           // defiles11("en-US"),
           // defiles1200"),
-          // speakdefiles12
           // defiles12("en-US"),
           // defiles1300"),
-          // speakdefiles13
           // defiles13("en-US"),
           // defiles1400"),
-          // speakdefiles14
           // defiles14("en-US"),
           // defiles1500"),
-          // speakdefiles15
           // defiles15("en-US"),
           // defiles1600"),
-          // speakdefiles16
           // defiles16("en-US"),
           // defiles1700"),
-          // speakdefiles17
           // defiles17("en-US"),
           // defiles1800"),
-          // speakdefiles18
           // defiles18("en-US"),
           // defiles1900"),
-          // speakdefiles19
           // defiles19("en-US"),
           // "The soldiers deliberately defiled all the holy places.0"),
-          // speakdefiles20
           // defiles20("en-US"),
           // defiles2100"),
-          // speakdefiles21
           // defiles21("en-US"),
           // defiles2200"),
-          // speakdefiles22
           // defiles22("en-US"),
         ],
       ),

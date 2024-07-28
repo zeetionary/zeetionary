@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrycleans1("en-US"),
           ),
           // drycleans200"),
-          // speakdrycleans2
           // drycleans2("en-US"),
           // drycleans300"),
-          // speakdrycleans3
           // drycleans3("en-US"),
           // drycleans400"),
-          // speakdrycleans4
           // drycleans4("en-US"),
           // drycleans500"),
-          // speakdrycleans5
           // drycleans5("en-US"),
           // drycleans600"),
-          // speakdrycleans6
           // drycleans6("en-US"),
           // drycleans700"),
-          // speakdrycleans7
           // drycleans7("en-US"),
           // drycleans800"),
-          // speakdrycleans8
           // drycleans8("en-US"),
           // drycleans900"),
-          // speakdrycleans9
           // drycleans9("en-US"),
           // drycleans_1000"),
-          // speakdrycleans10
           // drycleans10("en-US"),
           // drycleans1100"),
-          // speakdrycleans11
           // drycleans11("en-US"),
           // drycleans1200"),
-          // speakdrycleans12
           // drycleans12("en-US"),
           // drycleans1300"),
-          // speakdrycleans13
           // drycleans13("en-US"),
           // drycleans1400"),
-          // speakdrycleans14
           // drycleans14("en-US"),
           // drycleans1500"),
-          // speakdrycleans15
           // drycleans15("en-US"),
           // drycleans1600"),
-          // speakdrycleans16
           // drycleans16("en-US"),
           // drycleans1700"),
-          // speakdrycleans17
           // drycleans17("en-US"),
           // drycleans1800"),
-          // speakdrycleans18
           // drycleans18("en-US"),
           // drycleans1900"),
-          // speakdrycleans19
           // drycleans19("en-US"),
           // drycleans_2000"),
-          // speakdrycleans20
           // drycleans20("en-US"),
           // drycleans2100"),
-          // speakdrycleans21
           // drycleans21("en-US"),
           // drycleans2200"),
-          // speakdrycleans22
           // drycleans22("en-US"),
         ],
       ),

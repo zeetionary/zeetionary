@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublecrosss1("en-US"),
           ),
           // doublecrosss200"),
-          // speakdoublecrosss2
           // doublecrosss2("en-US"),
           // doublecrosss300"),
-          // speakdoublecrosss3
           // doublecrosss3("en-US"),
           // doublecrosss400"),
-          // speakdoublecrosss4
           // doublecrosss4("en-US"),
           // doublecrosss500"),
-          // speakdoublecrosss5
           // doublecrosss5("en-US"),
           // doublecrosss600"),
-          // speakdoublecrosss6
           // doublecrosss6("en-US"),
           // doublecrosss700"),
-          // speakdoublecrosss7
           // doublecrosss7("en-US"),
           // doublecrosss800"),
-          // speakdoublecrosss8
           // doublecrosss8("en-US"),
           // doublecrosss900"),
-          // speakdoublecrosss9
           // doublecrosss9("en-US"),
           // doublecrosss_1000"),
-          // speakdoublecrosss10
           // doublecrosss10("en-US"),
           // doublecrosss1100"),
-          // speakdoublecrosss11
           // doublecrosss11("en-US"),
           // doublecrosss1200"),
-          // speakdoublecrosss12
           // doublecrosss12("en-US"),
           // doublecrosss1300"),
-          // speakdoublecrosss13
           // doublecrosss13("en-US"),
           // doublecrosss1400"),
-          // speakdoublecrosss14
           // doublecrosss14("en-US"),
           // doublecrosss1500"),
-          // speakdoublecrosss15
           // doublecrosss15("en-US"),
           // doublecrosss1600"),
-          // speakdoublecrosss16
           // doublecrosss16("en-US"),
           // doublecrosss1700"),
-          // speakdoublecrosss17
           // doublecrosss17("en-US"),
           // doublecrosss1800"),
-          // speakdoublecrosss18
           // doublecrosss18("en-US"),
           // doublecrosss1900"),
-          // speakdoublecrosss19
           // doublecrosss19("en-US"),
           // doublecrosss_2000"),
-          // speakdoublecrosss20
           // doublecrosss20("en-US"),
           // doublecrosss2100"),
-          // speakdoublecrosss21
           // doublecrosss21("en-US"),
           // doublecrosss2200"),
-          // speakdoublecrosss22
           // doublecrosss22("en-US"),
         ],
       ),

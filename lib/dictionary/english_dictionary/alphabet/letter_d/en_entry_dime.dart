@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdimes1("en-US"),
           ),
           // dimes200"),
-          // speakdimes2
           // dimes2("en-US"),
           // dimes300"),
-          // speakdimes3
           // dimes3("en-US"),
           // dimes400"),
-          // speakdimes4
           // dimes4("en-US"),
           // dimes500"),
-          // speakdimes5
           // dimes5("en-US"),
           // dimes600"),
-          // speakdimes6
           // dimes6("en-US"),
           // dimes700"),
-          // speakdimes7
           // dimes7("en-US"),
           // dimes800"),
-          // speakdimes8
           // dimes8("en-US"),
           // dimes900"),
-          // speakdimes9
           // dimes9("en-US"),
           // dimes_1000"),
-          // speakdimes10
           // dimes10("en-US"),
           // dimes1100"),
-          // speakdimes11
           // dimes11("en-US"),
           // dimes1200"),
-          // speakdimes12
           // dimes12("en-US"),
           // dimes1300"),
-          // speakdimes13
           // dimes13("en-US"),
           // dimes1400"),
-          // speakdimes14
           // dimes14("en-US"),
           // dimes1500"),
-          // speakdimes15
           // dimes15("en-US"),
           // dimes1600"),
-          // speakdimes16
           // dimes16("en-US"),
           // dimes1700"),
-          // speakdimes17
           // dimes17("en-US"),
           // dimes1800"),
-          // speakdimes18
           // dimes18("en-US"),
           // dimes1900"),
-          // speakdimes19
           // dimes19("en-US"),
           // dimes_2000"),
-          // speakdimes20
           // dimes20("en-US"),
           // dimes2100"),
-          // speakdimes21
           // dimes21("en-US"),
           // dimes2200"),
-          // speakdimes22
           // dimes22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -377,67 +375,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdynamisms1("en-US"),
           ),
           // """She has a freshness and dynamism about her.
-          // speakdynamisms2
           // dynamisms2("en-US"""),
           // dynamisms300
-          // speakdynamisms3
           // dynamisms3("en-US"""),
           // dynamisms400
-          // speakdynamisms4
           // dynamisms4("en-US"""),
           // dynamisms500
-          // speakdynamisms5
           // dynamisms5("en-US"""),
           // dynamisms600
-          // speakdynamisms6
           // dynamisms6("en-US"""),
           // dynamisms700
-          // speakdynamisms7
           // dynamisms7("en-US"""),
           // dynamisms800
-          // speakdynamisms8
           // dynamisms8("en-US"""),
           // dynamisms900
-          // speakdynamisms9
           // dynamisms9("en-US"""),
           // dynamisms_1000
-          // speakdynamisms10
           // dynamisms10("en-US"""),
           // dynamisms1100
-          // speakdynamisms11
           // dynamisms11("en-US"""),
           // dynamisms1200
-          // speakdynamisms12
           // dynamisms12("en-US"""),
           // dynamisms1300
-          // speakdynamisms13
           // dynamisms13("en-US"""),
           // dynamisms1400
-          // speakdynamisms14
           // dynamisms14("en-US"""),
           // dynamisms1500
-          // speakdynamisms15
           // dynamisms15("en-US"""),
           // dynamisms1600
-          // speakdynamisms16
           // dynamisms16("en-US"""),
           // dynamisms1700
-          // speakdynamisms17
           // dynamisms17("en-US"""),
           // dynamisms1800
-          // speakdynamisms18
           // dynamisms18("en-US"""),
           // dynamisms1900
-          // speakdynamisms19
           // dynamisms19("en-US"""),
           // dynamisms_2000
-          // speakdynamisms20
           // dynamisms20("en-US"""),
           // dynamisms2100
-          // speakdynamisms21
           // dynamisms21("en-US"""),
           // dynamisms2200
-          // speakdynamisms22
           // dynamisms22("en-US"""),
         ],
       ),

@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -280,61 +278,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefinitives3("en-US"),
           ),
           // definitives400"),
-          // speakdefinitives4
           // definitives4("en-US"),
           // definitives500"),
-          // speakdefinitives5
           // definitives5("en-US"),
           // definitives600"),
-          // speakdefinitives6
           // definitives6("en-US"),
           // definitives700"),
-          // speakdefinitives7
           // definitives7("en-US"),
           // definitives800"),
-          // speakdefinitives8
           // definitives8("en-US"),
           // definitives900"),
-          // speakdefinitives9
           // definitives9("en-US"),
           // definitives1000"),
-          // speakdefinitives10
           // definitives10("en-US"),
           // definitives1100"),
-          // speakdefinitives11
           // definitives11("en-US"),
           // definitives1200"),
-          // speakdefinitives12
           // definitives12("en-US"),
           // definitives1300"),
-          // speakdefinitives13
           // definitives13("en-US"),
           // definitives1400"),
-          // speakdefinitives14
           // definitives14("en-US"),
           // definitives1500"),
-          // speakdefinitives15
           // definitives15("en-US"),
           // definitives1600"),
-          // speakdefinitives16
           // definitives16("en-US"),
           // definitives1700"),
-          // speakdefinitives17
           // definitives17("en-US"),
           // definitives1800"),
-          // speakdefinitives18
           // definitives18("en-US"),
           // definitives1900"),
-          // speakdefinitives19
           // definitives19("en-US"),
           // "Clearly, this study can not provide a definitive answer.0"),
-          // speakdefinitives20
           // definitives20("en-US"),
           // definitives2100"),
-          // speakdefinitives21
           // definitives21("en-US"),
           // definitives2200"),
-          // speakdefinitives22
           // definitives22("en-US"),
         ],
       ),

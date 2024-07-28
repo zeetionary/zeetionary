@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -409,61 +407,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduplexs3("en-US"),
           ),
           // duplexs400
-          // speakduplexs4
           // duplexs4("en-US"""),
           // duplexs500
-          // speakduplexs5
           // duplexs5("en-US"""),
           // duplexs600
-          // speakduplexs6
           // duplexs6("en-US"""),
           // duplexs700
-          // speakduplexs7
           // duplexs7("en-US"""),
           // duplexs800
-          // speakduplexs8
           // duplexs8("en-US"""),
           // duplexs900
-          // speakduplexs9
           // duplexs9("en-US"""),
           // duplexs_1000
-          // speakduplexs10
           // duplexs10("en-US"""),
           // duplexs1100
-          // speakduplexs11
           // duplexs11("en-US"""),
           // duplexs1200
-          // speakduplexs12
           // duplexs12("en-US"""),
           // duplexs1300
-          // speakduplexs13
           // duplexs13("en-US"""),
           // duplexs1400
-          // speakduplexs14
           // duplexs14("en-US"""),
           // duplexs1500
-          // speakduplexs15
           // duplexs15("en-US"""),
           // duplexs1600
-          // speakduplexs16
           // duplexs16("en-US"""),
           // duplexs1700
-          // speakduplexs17
           // duplexs17("en-US"""),
           // duplexs1800
-          // speakduplexs18
           // duplexs18("en-US"""),
           // duplexs1900
-          // speakduplexs19
           // duplexs19("en-US"""),
           // duplexs_2000
-          // speakduplexs20
           // duplexs20("en-US"""),
           // duplexs2100
-          // speakduplexs21
           // duplexs21("en-US"""),
           // duplexs2200
-          // speakduplexs22
           // duplexs22("en-US"""),
         ],
       ),

@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -267,61 +265,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisorganizeds3("en-US"),
           ),
           // disorganizeds400"),
-          // speakdisorganizeds4
           // disorganizeds4("en-US"),
           // disorganizeds500"),
-          // speakdisorganizeds5
           // disorganizeds5("en-US"),
           // disorganizeds600"),
-          // speakdisorganizeds6
           // disorganizeds6("en-US"),
           // disorganizeds700"),
-          // speakdisorganizeds7
           // disorganizeds7("en-US"),
           // disorganizeds800"),
-          // speakdisorganizeds8
           // disorganizeds8("en-US"),
           // disorganizeds900"),
-          // speakdisorganizeds9
           // disorganizeds9("en-US"),
           // disorganizeds_1000"),
-          // speakdisorganizeds10
           // disorganizeds10("en-US"),
           // disorganizeds1100"),
-          // speakdisorganizeds11
           // disorganizeds11("en-US"),
           // disorganizeds1200"),
-          // speakdisorganizeds12
           // disorganizeds12("en-US"),
           // disorganizeds1300"),
-          // speakdisorganizeds13
           // disorganizeds13("en-US"),
           // disorganizeds1400"),
-          // speakdisorganizeds14
           // disorganizeds14("en-US"),
           // disorganizeds1500"),
-          // speakdisorganizeds15
           // disorganizeds15("en-US"),
           // disorganizeds1600"),
-          // speakdisorganizeds16
           // disorganizeds16("en-US"),
           // disorganizeds1700"),
-          // speakdisorganizeds17
           // disorganizeds17("en-US"),
           // disorganizeds1800"),
-          // speakdisorganizeds18
           // disorganizeds18("en-US"),
           // disorganizeds1900"),
-          // speakdisorganizeds19
           // disorganizeds19("en-US"),
           // disorganizeds_2000"),
-          // speakdisorganizeds20
           // disorganizeds20("en-US"),
           // disorganizeds2100"),
-          // speakdisorganizeds21
           // disorganizeds21("en-US"),
           // disorganizeds2200"),
-          // speakdisorganizeds22
           // disorganizeds22("en-US"),
         ],
       ),

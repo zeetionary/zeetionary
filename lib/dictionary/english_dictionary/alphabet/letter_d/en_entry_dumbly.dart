@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -381,64 +379,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdumblys2("en-US"),
           ),
           // dumblys300
-          // speakdumblys3
           // dumblys3("en-US"""),
           // dumblys400
-          // speakdumblys4
           // dumblys4("en-US"""),
           // dumblys500
-          // speakdumblys5
           // dumblys5("en-US"""),
           // dumblys600
-          // speakdumblys6
           // dumblys6("en-US"""),
           // dumblys700
-          // speakdumblys7
           // dumblys7("en-US"""),
           // dumblys800
-          // speakdumblys8
           // dumblys8("en-US"""),
           // dumblys900
-          // speakdumblys9
           // dumblys9("en-US"""),
           // dumblys_1000
-          // speakdumblys10
           // dumblys10("en-US"""),
           // dumblys1100
-          // speakdumblys11
           // dumblys11("en-US"""),
           // dumblys1200
-          // speakdumblys12
           // dumblys12("en-US"""),
           // dumblys1300
-          // speakdumblys13
           // dumblys13("en-US"""),
           // dumblys1400
-          // speakdumblys14
           // dumblys14("en-US"""),
           // dumblys1500
-          // speakdumblys15
           // dumblys15("en-US"""),
           // dumblys1600
-          // speakdumblys16
           // dumblys16("en-US"""),
           // dumblys1700
-          // speakdumblys17
           // dumblys17("en-US"""),
           // dumblys1800
-          // speakdumblys18
           // dumblys18("en-US"""),
           // dumblys1900
-          // speakdumblys19
           // dumblys19("en-US"""),
           // dumblys_2000
-          // speakdumblys20
           // dumblys20("en-US"""),
           // dumblys2100
-          // speakdumblys21
           // dumblys21("en-US"""),
           // dumblys2200
-          // speakdumblys22
           // dumblys22("en-US"""),
         ],
       ),

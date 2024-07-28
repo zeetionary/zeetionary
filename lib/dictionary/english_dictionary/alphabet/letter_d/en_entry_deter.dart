@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeters2("en-US"),
           ),
           // deters300"),
-          // speakdeters3
           // deters3("en-US"),
           // deters400"),
-          // speakdeters4
           // deters4("en-US"),
           // deters500"),
-          // speakdeters5
           // deters5("en-US"),
           // deters600"),
-          // speakdeters6
           // deters6("en-US"),
           // deters700"),
-          // speakdeters7
           // deters7("en-US"),
           // deters800"),
-          // speakdeters8
           // deters8("en-US"),
           // deters900"),
-          // speakdeters9
           // deters9("en-US"),
           // deters1000"),
-          // speakdeters10
           // deters10("en-US"),
           // deters1100"),
-          // speakdeters11
           // deters11("en-US"),
           // deters1200"),
-          // speakdeters12
           // deters12("en-US"),
           // deters1300"),
-          // speakdeters13
           // deters13("en-US"),
           // deters1400"),
-          // speakdeters14
           // deters14("en-US"),
           // deters1500"),
-          // speakdeters15
           // deters15("en-US"),
           // deters1600"),
-          // speakdeters16
           // deters16("en-US"),
           // deters1700"),
-          // speakdeters17
           // deters17("en-US"),
           // deters1800"),
-          // speakdeters18
           // deters18("en-US"),
           // deters1900"),
-          // speakdeters19
           // deters19("en-US"),
           // "The high price of the service could deter people from seeking advice.0"),
-          // speakdeters20
           // deters20("en-US"),
           // deters2100"),
-          // speakdeters21
           // deters21("en-US"),
           // deters2200"),
-          // speakdeters22
           // deters22("en-US"),
         ],
       ),

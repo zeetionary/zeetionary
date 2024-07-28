@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisastrouslys2("en-US"),
           ),
           // disastrouslys300"),
-          // speakdisastrouslys3
           // disastrouslys3("en-US"),
           // disastrouslys400"),
-          // speakdisastrouslys4
           // disastrouslys4("en-US"),
           // disastrouslys500"),
-          // speakdisastrouslys5
           // disastrouslys5("en-US"),
           // disastrouslys600"),
-          // speakdisastrouslys6
           // disastrouslys6("en-US"),
           // disastrouslys700"),
-          // speakdisastrouslys7
           // disastrouslys7("en-US"),
           // disastrouslys800"),
-          // speakdisastrouslys8
           // disastrouslys8("en-US"),
           // disastrouslys900"),
-          // speakdisastrouslys9
           // disastrouslys9("en-US"),
           // disastrouslys_1000"),
-          // speakdisastrouslys10
           // disastrouslys10("en-US"),
           // disastrouslys1100"),
-          // speakdisastrouslys11
           // disastrouslys11("en-US"),
           // disastrouslys1200"),
-          // speakdisastrouslys12
           // disastrouslys12("en-US"),
           // disastrouslys1300"),
-          // speakdisastrouslys13
           // disastrouslys13("en-US"),
           // disastrouslys1400"),
-          // speakdisastrouslys14
           // disastrouslys14("en-US"),
           // disastrouslys1500"),
-          // speakdisastrouslys15
           // disastrouslys15("en-US"),
           // disastrouslys1600"),
-          // speakdisastrouslys16
           // disastrouslys16("en-US"),
           // disastrouslys1700"),
-          // speakdisastrouslys17
           // disastrouslys17("en-US"),
           // disastrouslys1800"),
-          // speakdisastrouslys18
           // disastrouslys18("en-US"),
           // disastrouslys1900"),
-          // speakdisastrouslys19
           // disastrouslys19("en-US"),
           // disastrouslys_2000"),
-          // speakdisastrouslys20
           // disastrouslys20("en-US"),
           // disastrouslys2100"),
-          // speakdisastrouslys21
           // disastrouslys21("en-US"),
           // disastrouslys2200"),
-          // speakdisastrouslys22
           // disastrouslys22("en-US"),
         ],
       ),

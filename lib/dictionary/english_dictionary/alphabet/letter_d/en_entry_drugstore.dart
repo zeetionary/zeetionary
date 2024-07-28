@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrugstores2("en-US"),
           ),
           // drugstores300"),
-          // speakdrugstores3
           // drugstores3("en-US"),
           // drugstores400"),
-          // speakdrugstores4
           // drugstores4("en-US"),
           // drugstores500"),
-          // speakdrugstores5
           // drugstores5("en-US"),
           // drugstores600"),
-          // speakdrugstores6
           // drugstores6("en-US"),
           // drugstores700"),
-          // speakdrugstores7
           // drugstores7("en-US"),
           // drugstores800"),
-          // speakdrugstores8
           // drugstores8("en-US"),
           // drugstores900"),
-          // speakdrugstores9
           // drugstores9("en-US"),
           // drugstores_1000"),
-          // speakdrugstores10
           // drugstores10("en-US"),
           // drugstores1100"),
-          // speakdrugstores11
           // drugstores11("en-US"),
           // drugstores1200"),
-          // speakdrugstores12
           // drugstores12("en-US"),
           // drugstores1300"),
-          // speakdrugstores13
           // drugstores13("en-US"),
           // drugstores1400"),
-          // speakdrugstores14
           // drugstores14("en-US"),
           // drugstores1500"),
-          // speakdrugstores15
           // drugstores15("en-US"),
           // drugstores1600"),
-          // speakdrugstores16
           // drugstores16("en-US"),
           // drugstores1700"),
-          // speakdrugstores17
           // drugstores17("en-US"),
           // drugstores1800"),
-          // speakdrugstores18
           // drugstores18("en-US"),
           // drugstores1900"),
-          // speakdrugstores19
           // drugstores19("en-US"),
           // drugstores_2000"),
-          // speakdrugstores20
           // drugstores20("en-US"),
           // drugstores2100"),
-          // speakdrugstores21
           // drugstores21("en-US"),
           // drugstores2200"),
-          // speakdrugstores22
           // drugstores22("en-US"),
         ],
       ),

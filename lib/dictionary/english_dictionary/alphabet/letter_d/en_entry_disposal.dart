@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisposals3("en-US"),
           ),
           // disposals400"),
-          // speakdisposals4
           // disposals4
           // disposals500"),
-          // speakdisposals5
           // disposals5
           // disposals600"),
-          // speakdisposals6
           // disposals6
           // disposals700"),
-          // speakdisposals7
           // disposals7
           // disposals800"),
-          // speakdisposals8
           // disposals8
           // disposals900"),
-          // speakdisposals9
           // disposals9
           // disposals_1000"),
-          // speakdisposals10
           // disposals10
           // disposals1100"),
-          // speakdisposals11
           // disposals11
           // disposals1200"),
-          // speakdisposals12
           // disposals12
           // disposals1300"),
-          // speakdisposals13
           // disposals13
           // disposals1400"),
-          // speakdisposals14
           // disposals14
           // disposals1500"),
-          // speakdisposals15
           // disposals15
           // disposals1600"),
-          // speakdisposals16
           // disposals16
           // disposals1700"),
-          // speakdisposals17
           // disposals17
           // disposals1800"),
-          // speakdisposals18
           // disposals18
           // disposals1900"),
-          // speakdisposals19
           // disposals19
           // disposals_2000"),
-          // speakdisposals20
           // disposals20
           // disposals2100"),
-          // speakdisposals21
           // disposals21
           // disposals2200"),
-          // speakdisposals22
           // disposals22("en-US"),
         ],
       ),

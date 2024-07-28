@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisjointeds2("en-US"),
           ),
           // disjointeds300"),
-          // speakdisjointeds3
           // disjointeds3("en-US"),
           // disjointeds400"),
-          // speakdisjointeds4
           // disjointeds4("en-US"),
           // disjointeds500"),
-          // speakdisjointeds5
           // disjointeds5("en-US"),
           // disjointeds600"),
-          // speakdisjointeds6
           // disjointeds6("en-US"),
           // disjointeds700"),
-          // speakdisjointeds7
           // disjointeds7("en-US"),
           // disjointeds800"),
-          // speakdisjointeds8
           // disjointeds8("en-US"),
           // disjointeds900"),
-          // speakdisjointeds9
           // disjointeds9("en-US"),
           // disjointeds_1000"),
-          // speakdisjointeds10
           // disjointeds10("en-US"),
           // disjointeds1100"),
-          // speakdisjointeds11
           // disjointeds11("en-US"),
           // disjointeds1200"),
-          // speakdisjointeds12
           // disjointeds12("en-US"),
           // disjointeds1300"),
-          // speakdisjointeds13
           // disjointeds13("en-US"),
           // disjointeds1400"),
-          // speakdisjointeds14
           // disjointeds14("en-US"),
           // disjointeds1500"),
-          // speakdisjointeds15
           // disjointeds15("en-US"),
           // disjointeds1600"),
-          // speakdisjointeds16
           // disjointeds16("en-US"),
           // disjointeds1700"),
-          // speakdisjointeds17
           // disjointeds17("en-US"),
           // disjointeds1800"),
-          // speakdisjointeds18
           // disjointeds18("en-US"),
           // disjointeds1900"),
-          // speakdisjointeds19
           // disjointeds19("en-US"),
           // disjointeds_2000"),
-          // speakdisjointeds20
           // disjointeds20("en-US"),
           // disjointeds2100"),
-          // speakdisjointeds21
           // disjointeds21("en-US"),
           // disjointeds2200"),
-          // speakdisjointeds22
           // disjointeds22("en-US"),
         ],
       ),

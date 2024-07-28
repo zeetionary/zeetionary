@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,43 +383,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelaboratelys2("en-US"),
           ),
           // elaboratelys300elaboratelys3
-          // speakelaboratelys3
           // elaboratelys400elaboratelys4
-          // speakelaboratelys4
           // elaboratelys500elaboratelys5
-          // speakelaboratelys5
           // elaboratelys600elaboratelys6
-          // speakelaboratelys6
           // elaboratelys700elaboratelys7
-          // speakelaboratelys7
           // elaboratelys800elaboratelys8
-          // speakelaboratelys8
           // elaboratelys900elaboratelys9
-          // speakelaboratelys9
           // elaboratelys_1000elaboratelys10
-          // speakelaboratelys10
           // elaboratelys1100elaboratelys11
-          // speakelaboratelys11
           // elaboratelys1200elaboratelys12
-          // speakelaboratelys12
           // elaboratelys1300elaboratelys13
-          // speakelaboratelys13
           // elaboratelys1400elaboratelys14
-          // speakelaboratelys14
           // elaboratelys1500elaboratelys15
-          // speakelaboratelys15
           // elaboratelys1600elaboratelys16
-          // speakelaboratelys16
           // elaboratelys1700elaboratelys17
-          // speakelaboratelys17
           // elaboratelys1800elaboratelys18
-          // speakelaboratelys18
           // elaboratelys1900elaboratelys19
-          // speakelaboratelys19
           // elaboratelys_2000elaboratelys20
-          // speakelaboratelys20
           // elaboratelys2100elaboratelys21
-          // speakelaboratelys21
           // elaboratelys2200elaboratelys22
           // speakelaboratelys22("en-US"""),
           //         ),

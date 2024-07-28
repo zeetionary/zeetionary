@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesserts2("en-US"),
           ),
           // desserts300"),
-          // speakdesserts3
           // desserts3("en-US"),
           // desserts400"),
-          // speakdesserts4
           // desserts4("en-US"),
           // desserts500"),
-          // speakdesserts5
           // desserts5("en-US"),
           // desserts600"),
-          // speakdesserts6
           // desserts6("en-US"),
           // desserts700"),
-          // speakdesserts7
           // desserts7("en-US"),
           // desserts800"),
-          // speakdesserts8
           // desserts8("en-US"),
           // desserts900"),
-          // speakdesserts9
           // desserts9("en-US"),
           // desserts1000"),
-          // speakdesserts10
           // desserts10("en-US"),
           // desserts1100"),
-          // speakdesserts11
           // desserts11("en-US"),
           // desserts1200"),
-          // speakdesserts12
           // desserts12("en-US"),
           // desserts1300"),
-          // speakdesserts13
           // desserts13("en-US"),
           // desserts1400"),
-          // speakdesserts14
           // desserts14("en-US"),
           // desserts1500"),
-          // speakdesserts15
           // desserts15("en-US"),
           // desserts1600"),
-          // speakdesserts16
           // desserts16("en-US"),
           // desserts1700"),
-          // speakdesserts17
           // desserts17("en-US"),
           // desserts1800"),
-          // speakdesserts18
           // desserts18("en-US"),
           // desserts1900"),
-          // speakdesserts19
           // desserts19("en-US"),
           // "The waiter asked us if we'd like to order a dessert.0"),
-          // speakdesserts20
           // desserts20("en-US"),
           // desserts2100"),
-          // speakdesserts21
           // desserts21("en-US"),
           // desserts2200"),
-          // speakdesserts22
           // desserts22("en-US"),
         ],
       ),

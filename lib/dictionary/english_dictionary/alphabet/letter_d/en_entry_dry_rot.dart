@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdryrots2("en-US"),
           ),
           // dryrots300"),
-          // speakdryrots3
           // dryrots3("en-US"),
           // dryrots400"),
-          // speakdryrots4
           // dryrots4("en-US"),
           // dryrots500"),
-          // speakdryrots5
           // dryrots5("en-US"),
           // dryrots600"),
-          // speakdryrots6
           // dryrots6("en-US"),
           // dryrots700"),
-          // speakdryrots7
           // dryrots7("en-US"),
           // dryrots800"),
-          // speakdryrots8
           // dryrots8("en-US"),
           // dryrots900"),
-          // speakdryrots9
           // dryrots9("en-US"),
           // dryrots_1000"),
-          // speakdryrots10
           // dryrots10("en-US"),
           // dryrots1100"),
-          // speakdryrots11
           // dryrots11("en-US"),
           // dryrots1200"),
-          // speakdryrots12
           // dryrots12("en-US"),
           // dryrots1300"),
-          // speakdryrots13
           // dryrots13("en-US"),
           // dryrots1400"),
-          // speakdryrots14
           // dryrots14("en-US"),
           // dryrots1500"),
-          // speakdryrots15
           // dryrots15("en-US"),
           // dryrots1600"),
-          // speakdryrots16
           // dryrots16("en-US"),
           // dryrots1700"),
-          // speakdryrots17
           // dryrots17("en-US"),
           // dryrots1800"),
-          // speakdryrots18
           // dryrots18("en-US"),
           // dryrots1900"),
-          // speakdryrots19
           // dryrots19("en-US"),
           // dryrots_2000"),
-          // speakdryrots20
           // dryrots20("en-US"),
           // dryrots2100"),
-          // speakdryrots21
           // dryrots21("en-US"),
           // dryrots2200"),
-          // speakdryrots22
           // dryrots22("en-US"),
         ],
       ),

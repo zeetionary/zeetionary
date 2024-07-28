@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectrodes1("en-US"),
           ),
           // electrodes200electrodes2
-          // speakelectrodes2
           // electrodes300electrodes3
-          // speakelectrodes3
           // electrodes400electrodes4
-          // speakelectrodes4
           // electrodes500electrodes5
-          // speakelectrodes5
           // electrodes600electrodes6
-          // speakelectrodes6
           // electrodes700electrodes7
-          // speakelectrodes7
           // electrodes800electrodes8
-          // speakelectrodes8
           // electrodes900electrodes9
-          // speakelectrodes9
           // electrodes_1000electrodes10
-          // speakelectrodes10
           // electrodes1100electrodes11
-          // speakelectrodes11
           // electrodes1200electrodes12
-          // speakelectrodes12
           // electrodes1300electrodes13
-          // speakelectrodes13
           // electrodes1400electrodes14
-          // speakelectrodes14
           // electrodes1500electrodes15
-          // speakelectrodes15
           // electrodes1600electrodes16
-          // speakelectrodes16
           // electrodes1700electrodes17
-          // speakelectrodes17
           // electrodes1800electrodes18
-          // speakelectrodes18
           // electrodes1900electrodes19
-          // speakelectrodes19
           // electrodes_2000electrodes20
-          // speakelectrodes20
           // electrodes2100electrodes21
-          // speakelectrodes21
           // electrodes2200electrodes22
           // speakelectrodes22("en-US"""),
           //         ),

@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -403,41 +401,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemeralds3("en-US"),
           ),
           // emeralds400emeralds4
-          // speakemeralds4
           // emeralds500emeralds5
-          // speakemeralds5
           // emeralds600emeralds6
-          // speakemeralds6
           // emeralds700emeralds7
-          // speakemeralds7
           // emeralds800emeralds8
-          // speakemeralds8
           // emeralds900emeralds9
-          // speakemeralds9
           // emeralds_1000emeralds10
-          // speakemeralds10
           // emeralds1100emeralds11
-          // speakemeralds11
           // emeralds1200emeralds12
-          // speakemeralds12
           // emeralds1300emeralds13
-          // speakemeralds13
           // emeralds1400emeralds14
-          // speakemeralds14
           // emeralds1500emeralds15
-          // speakemeralds15
           // emeralds1600emeralds16
-          // speakemeralds16
           // emeralds1700emeralds17
-          // speakemeralds17
           // emeralds1800emeralds18
-          // speakemeralds18
           // emeralds1900emeralds19
-          // speakemeralds19
           // emeralds_2000emeralds20
-          // speakemeralds20
           // emeralds2100emeralds21
-          // speakemeralds21
           // emeralds2200emeralds22
           // speakemeralds22("en-US"""),
           //         ),

@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -272,61 +270,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeviations3("en-US"),
           ),
           // deviations400"),
-          // speakdeviations4
           // deviations4
           // deviations500"),
-          // speakdeviations5
           // deviations5
           // deviations600"),
-          // speakdeviations6
           // deviations6
           // deviations700"),
-          // speakdeviations7
           // deviations7
           // deviations800"),
-          // speakdeviations8
           // deviations8
           // deviations900"),
-          // speakdeviations9
           // deviations9
           // deviations1000"),
-          // speakdeviations10
           // deviations10
           // deviations1100"),
-          // speakdeviations11
           // deviations11
           // deviations1200"),
-          // speakdeviations12
           // deviations12
           // deviations1300"),
-          // speakdeviations13
           // deviations13
           // deviations1400"),
-          // speakdeviations14
           // deviations14
           // deviations1500"),
-          // speakdeviations15
           // deviations15
           // deviations1600"),
-          // speakdeviations16
           // deviations16
           // deviations1700"),
-          // speakdeviations17
           // deviations17
           // deviations1800"),
-          // speakdeviations18
           // deviations18
           // deviations1900"),
-          // speakdeviations19
           // deviations19
           // deviations_2000"),
-          // speakdeviations20
           // deviations20
           // deviations2100"),
-          // speakdeviations21
           // deviations21
           // deviations2200"),
-          // speakdeviations22
           // deviations22("en-US"),
         ],
       ),

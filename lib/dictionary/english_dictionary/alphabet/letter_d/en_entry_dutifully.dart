@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdutifullys2("en-US"),
           ),
           // dutifullys300
-          // speakdutifullys3
           // dutifullys3("en-US"""),
           // dutifullys400
-          // speakdutifullys4
           // dutifullys4("en-US"""),
           // dutifullys500
-          // speakdutifullys5
           // dutifullys5("en-US"""),
           // dutifullys600
-          // speakdutifullys6
           // dutifullys6("en-US"""),
           // dutifullys700
-          // speakdutifullys7
           // dutifullys7("en-US"""),
           // dutifullys800
-          // speakdutifullys8
           // dutifullys8("en-US"""),
           // dutifullys900
-          // speakdutifullys9
           // dutifullys9("en-US"""),
           // dutifullys_1000
-          // speakdutifullys10
           // dutifullys10("en-US"""),
           // dutifullys1100
-          // speakdutifullys11
           // dutifullys11("en-US"""),
           // dutifullys1200
-          // speakdutifullys12
           // dutifullys12("en-US"""),
           // dutifullys1300
-          // speakdutifullys13
           // dutifullys13("en-US"""),
           // dutifullys1400
-          // speakdutifullys14
           // dutifullys14("en-US"""),
           // dutifullys1500
-          // speakdutifullys15
           // dutifullys15("en-US"""),
           // dutifullys1600
-          // speakdutifullys16
           // dutifullys16("en-US"""),
           // dutifullys1700
-          // speakdutifullys17
           // dutifullys17("en-US"""),
           // dutifullys1800
-          // speakdutifullys18
           // dutifullys18("en-US"""),
           // dutifullys1900
-          // speakdutifullys19
           // dutifullys19("en-US"""),
           // dutifullys_2000
-          // speakdutifullys20
           // dutifullys20("en-US"""),
           // dutifullys2100
-          // speakdutifullys21
           // dutifullys21("en-US"""),
           // dutifullys2200
-          // speakdutifullys22
           // dutifullys22("en-US"""),
         ],
       ),

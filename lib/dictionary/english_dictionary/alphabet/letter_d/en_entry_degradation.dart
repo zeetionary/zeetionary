@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -267,64 +265,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdegradations2("en-US"),
           ),
           // degradations300"),
-          // speakdegradations3
           // degradations3("en-US"),
           // degradations400"),
-          // speakdegradations4
           // degradations4("en-US"),
           // degradations500"),
-          // speakdegradations5
           // degradations5("en-US"),
           // degradations600"),
-          // speakdegradations6
           // degradations6("en-US"),
           // degradations700"),
-          // speakdegradations7
           // degradations7("en-US"),
           // degradations800"),
-          // speakdegradations8
           // degradations8("en-US"),
           // degradations900"),
-          // speakdegradations9
           // degradations9("en-US"),
           // degradations1000"),
-          // speakdegradations10
           // degradations10("en-US"),
           // degradations1100"),
-          // speakdegradations11
           // degradations11("en-US"),
           // degradations1200"),
-          // speakdegradations12
           // degradations12("en-US"),
           // degradations1300"),
-          // speakdegradations13
           // degradations13("en-US"),
           // degradations1400"),
-          // speakdegradations14
           // degradations14("en-US"),
           // degradations1500"),
-          // speakdegradations15
           // degradations15("en-US"),
           // degradations1600"),
-          // speakdegradations16
           // degradations16("en-US"),
           // degradations1700"),
-          // speakdegradations17
           // degradations17("en-US"),
           // degradations1800"),
-          // speakdegradations18
           // degradations18("en-US"),
           // degradations1900"),
-          // speakdegradations19
           // degradations19("en-US"),
           // "Pollution causes environmental degradation in many areas.0"),
-          // speakdegradations20
           // degradations20("en-US"),
           // degradations2100"),
-          // speakdegradations21
           // degradations21("en-US"),
           // degradations2200"),
-          // speakdegradations22
           // degradations22("en-US"),
         ],
       ),

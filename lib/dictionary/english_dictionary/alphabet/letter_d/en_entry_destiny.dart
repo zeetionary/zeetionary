@@ -257,9 +257,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -312,55 +310,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestinys5("en-US"),
           ),
           // destinys600"),
-          // speakdestinys6
           // destinys6("en-US"),
           // destinys700"),
-          // speakdestinys7
           // destinys7("en-US"),
           // destinys800"),
-          // speakdestinys8
           // destinys8("en-US"),
           // destinys900"),
-          // speakdestinys9
           // destinys9("en-US"),
           // destinys1000"),
-          // speakdestinys10
           // destinys10("en-US"),
           // destinys1100"),
-          // speakdestinys11
           // destinys11("en-US"),
           // destinys1200"),
-          // speakdestinys12
           // destinys12("en-US"),
           // destinys1300"),
-          // speakdestinys13
           // destinys13("en-US"),
           // destinys1400"),
-          // speakdestinys14
           // destinys14("en-US"),
           // destinys1500"),
-          // speakdestinys15
           // destinys15("en-US"),
           // destinys1600"),
-          // speakdestinys16
           // destinys16("en-US"),
           // destinys1700"),
-          // speakdestinys17
           // destinys17("en-US"),
           // destinys1800"),
-          // speakdestinys18
           // destinys18("en-US"),
           // destinys1900"),
-          // speakdestinys19
           // destinys19("en-US"),
           // "He wants to be in control of his own destiny.0"),
-          // speakdestinys20
           // destinys20("en-US"),
           // destinys2100"),
-          // speakdestinys21
           // destinys21("en-US"),
           // destinys2200"),
-          // speakdestinys22
           // destinys22("en-US"),
         ],
       ),

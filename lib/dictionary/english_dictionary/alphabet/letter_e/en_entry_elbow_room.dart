@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -389,43 +387,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelbowrooms2("en-US"),
           ),
           // elbowrooms300elbowrooms3
-          // speakelbowrooms3
           // elbowrooms400elbowrooms4
-          // speakelbowrooms4
           // elbowrooms500elbowrooms5
-          // speakelbowrooms5
           // elbowrooms600elbowrooms6
-          // speakelbowrooms6
           // elbowrooms700elbowrooms7
-          // speakelbowrooms7
           // elbowrooms800elbowrooms8
-          // speakelbowrooms8
           // elbowrooms900elbowrooms9
-          // speakelbowrooms9
           // elbowrooms_1000elbowrooms10
-          // speakelbowrooms10
           // elbowrooms1100elbowrooms11
-          // speakelbowrooms11
           // elbowrooms1200elbowrooms12
-          // speakelbowrooms12
           // elbowrooms1300elbowrooms13
-          // speakelbowrooms13
           // elbowrooms1400elbowrooms14
-          // speakelbowrooms14
           // elbowrooms1500elbowrooms15
-          // speakelbowrooms15
           // elbowrooms1600elbowrooms16
-          // speakelbowrooms16
           // elbowrooms1700elbowrooms17
-          // speakelbowrooms17
           // elbowrooms1800elbowrooms18
-          // speakelbowrooms18
           // elbowrooms1900elbowrooms19
-          // speakelbowrooms19
           // elbowrooms_2000elbowrooms20
-          // speakelbowrooms20
           // elbowrooms2100elbowrooms21
-          // speakelbowrooms21
           // elbowrooms2200elbowrooms22
           // speakelbowrooms22("en-US"""),
           //         ),

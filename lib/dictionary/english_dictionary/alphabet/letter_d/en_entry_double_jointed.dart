@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublejointeds1("en-US"),
           ),
           // doublejointeds200"),
-          // speakdoublejointeds2
           // doublejointeds2("en-US"),
           // doublejointeds300"),
-          // speakdoublejointeds3
           // doublejointeds3("en-US"),
           // doublejointeds400"),
-          // speakdoublejointeds4
           // doublejointeds4("en-US"),
           // doublejointeds500"),
-          // speakdoublejointeds5
           // doublejointeds5("en-US"),
           // doublejointeds600"),
-          // speakdoublejointeds6
           // doublejointeds6("en-US"),
           // doublejointeds700"),
-          // speakdoublejointeds7
           // doublejointeds7("en-US"),
           // doublejointeds800"),
-          // speakdoublejointeds8
           // doublejointeds8("en-US"),
           // doublejointeds900"),
-          // speakdoublejointeds9
           // doublejointeds9("en-US"),
           // doublejointeds_1000"),
-          // speakdoublejointeds10
           // doublejointeds10("en-US"),
           // doublejointeds1100"),
-          // speakdoublejointeds11
           // doublejointeds11("en-US"),
           // doublejointeds1200"),
-          // speakdoublejointeds12
           // doublejointeds12("en-US"),
           // doublejointeds1300"),
-          // speakdoublejointeds13
           // doublejointeds13("en-US"),
           // doublejointeds1400"),
-          // speakdoublejointeds14
           // doublejointeds14("en-US"),
           // doublejointeds1500"),
-          // speakdoublejointeds15
           // doublejointeds15("en-US"),
           // doublejointeds1600"),
-          // speakdoublejointeds16
           // doublejointeds16("en-US"),
           // doublejointeds1700"),
-          // speakdoublejointeds17
           // doublejointeds17("en-US"),
           // doublejointeds1800"),
-          // speakdoublejointeds18
           // doublejointeds18("en-US"),
           // doublejointeds1900"),
-          // speakdoublejointeds19
           // doublejointeds19("en-US"),
           // doublejointeds_2000"),
-          // speakdoublejointeds20
           // doublejointeds20("en-US"),
           // doublejointeds2100"),
-          // speakdoublejointeds21
           // doublejointeds21("en-US"),
           // doublejointeds2200"),
-          // speakdoublejointeds22
           // doublejointeds22("en-US"),
         ],
       ),

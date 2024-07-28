@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -388,64 +386,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoubleedgeds2("en-US"),
           ),
           // doubleedgeds300"),
-          // speakdoubleedgeds3
           // doubleedgeds3("en-US"),
           // doubleedgeds400"),
-          // speakdoubleedgeds4
           // doubleedgeds4("en-US"),
           // doubleedgeds500"),
-          // speakdoubleedgeds5
           // doubleedgeds5("en-US"),
           // doubleedgeds600"),
-          // speakdoubleedgeds6
           // doubleedgeds6("en-US"),
           // doubleedgeds700"),
-          // speakdoubleedgeds7
           // doubleedgeds7("en-US"),
           // doubleedgeds800"),
-          // speakdoubleedgeds8
           // doubleedgeds8("en-US"),
           // doubleedgeds900"),
-          // speakdoubleedgeds9
           // doubleedgeds9("en-US"),
           // doubleedgeds_1000"),
-          // speakdoubleedgeds10
           // doubleedgeds10("en-US"),
           // doubleedgeds1100"),
-          // speakdoubleedgeds11
           // doubleedgeds11("en-US"),
           // doubleedgeds1200"),
-          // speakdoubleedgeds12
           // doubleedgeds12("en-US"),
           // doubleedgeds1300"),
-          // speakdoubleedgeds13
           // doubleedgeds13("en-US"),
           // doubleedgeds1400"),
-          // speakdoubleedgeds14
           // doubleedgeds14("en-US"),
           // doubleedgeds1500"),
-          // speakdoubleedgeds15
           // doubleedgeds15("en-US"),
           // doubleedgeds1600"),
-          // speakdoubleedgeds16
           // doubleedgeds16("en-US"),
           // doubleedgeds1700"),
-          // speakdoubleedgeds17
           // doubleedgeds17("en-US"),
           // doubleedgeds1800"),
-          // speakdoubleedgeds18
           // doubleedgeds18("en-US"),
           // doubleedgeds1900"),
-          // speakdoubleedgeds19
           // doubleedgeds19("en-US"),
           // doubleedgeds_2000"),
-          // speakdoubleedgeds20
           // doubleedgeds20("en-US"),
           // doubleedgeds2100"),
-          // speakdoubleedgeds21
           // doubleedgeds21("en-US"),
           // doubleedgeds2200"),
-          // speakdoubleedgeds22
           // doubleedgeds22("en-US"),
         ],
       ),

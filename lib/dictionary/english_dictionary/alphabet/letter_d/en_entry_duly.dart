@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdulys2("en-US"),
           ),
           // dulys300
-          // speakdulys3
           // dulys3("en-US"""),
           // dulys400
-          // speakdulys4
           // dulys4("en-US"""),
           // dulys500
-          // speakdulys5
           // dulys5("en-US"""),
           // dulys600
-          // speakdulys6
           // dulys6("en-US"""),
           // dulys700
-          // speakdulys7
           // dulys7("en-US"""),
           // dulys800
-          // speakdulys8
           // dulys8("en-US"""),
           // dulys900
-          // speakdulys9
           // dulys9("en-US"""),
           // dulys_1000
-          // speakdulys10
           // dulys10("en-US"""),
           // dulys1100
-          // speakdulys11
           // dulys11("en-US"""),
           // dulys1200
-          // speakdulys12
           // dulys12("en-US"""),
           // dulys1300
-          // speakdulys13
           // dulys13("en-US"""),
           // dulys1400
-          // speakdulys14
           // dulys14("en-US"""),
           // dulys1500
-          // speakdulys15
           // dulys15("en-US"""),
           // dulys1600
-          // speakdulys16
           // dulys16("en-US"""),
           // dulys1700
-          // speakdulys17
           // dulys17("en-US"""),
           // dulys1800
-          // speakdulys18
           // dulys18("en-US"""),
           // dulys1900
-          // speakdulys19
           // dulys19("en-US"""),
           // dulys_2000
-          // speakdulys20
           // dulys20("en-US"""),
           // dulys2100
-          // speakdulys21
           // dulys21("en-US"""),
           // dulys2200
-          // speakdulys22
           // dulys22("en-US"""),
         ],
       ),

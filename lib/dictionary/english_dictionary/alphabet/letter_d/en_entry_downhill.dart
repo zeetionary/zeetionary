@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -404,61 +402,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownhills3("en-US"),
           ),
           // downhills400"),
-          // speakdownhills4
           // downhills4("en-US"),
           // downhills500"),
-          // speakdownhills5
           // downhills5("en-US"),
           // downhills600"),
-          // speakdownhills6
           // downhills6("en-US"),
           // downhills700"),
-          // speakdownhills7
           // downhills7("en-US"),
           // downhills800"),
-          // speakdownhills8
           // downhills8("en-US"),
           // downhills900"),
-          // speakdownhills9
           // downhills9("en-US"),
           // downhills_1000"),
-          // speakdownhills10
           // downhills10("en-US"),
           // downhills1100"),
-          // speakdownhills11
           // downhills11("en-US"),
           // downhills1200"),
-          // speakdownhills12
           // downhills12("en-US"),
           // downhills1300"),
-          // speakdownhills13
           // downhills13("en-US"),
           // downhills1400"),
-          // speakdownhills14
           // downhills14("en-US"),
           // downhills1500"),
-          // speakdownhills15
           // downhills15("en-US"),
           // downhills1600"),
-          // speakdownhills16
           // downhills16("en-US"),
           // downhills1700"),
-          // speakdownhills17
           // downhills17("en-US"),
           // downhills1800"),
-          // speakdownhills18
           // downhills18("en-US"),
           // downhills1900"),
-          // speakdownhills19
           // downhills19("en-US"),
           // downhills_2000"),
-          // speakdownhills20
           // downhills20("en-US"),
           // downhills2100"),
-          // speakdownhills21
           // downhills21("en-US"),
           // downhills2200"),
-          // speakdownhills22
           // downhills22("en-US"),
         ],
       ),

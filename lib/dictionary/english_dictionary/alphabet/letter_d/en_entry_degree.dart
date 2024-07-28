@@ -329,9 +329,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -459,25 +457,18 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdegrees15("en-US"),
           ),
           // degrees1600"),
-          // speakdegrees16
           // degrees16("en-US"),
           // degrees1700"),
-          // speakdegrees17
           // degrees17("en-US"),
           // degrees1800"),
-          // speakdegrees18
           // degrees18("en-US"),
           // degrees1900"),
-          // speakdegrees19
           // degrees19("en-US"),
           // "Temperatures are expected to drop below 2 degrees.0"),
-          // speakdegrees20
           // degrees20("en-US"),
           // degrees2100"),
-          // speakdegrees21
           // degrees21("en-US"),
           // degrees2200"),
-          // speakdegrees22
           // degrees22("en-US"),
         ],
       ),

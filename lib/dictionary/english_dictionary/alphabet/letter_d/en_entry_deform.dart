@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeforms2("en-US"),
           ),
           // deforms300"),
-          // speakdeforms3
           // deforms3("en-US"),
           // deforms400"),
-          // speakdeforms4
           // deforms4("en-US"),
           // deforms500"),
-          // speakdeforms5
           // deforms5("en-US"),
           // deforms600"),
-          // speakdeforms6
           // deforms6("en-US"),
           // deforms700"),
-          // speakdeforms7
           // deforms7("en-US"),
           // deforms800"),
-          // speakdeforms8
           // deforms8("en-US"),
           // deforms900"),
-          // speakdeforms9
           // deforms9("en-US"),
           // deforms1000"),
-          // speakdeforms10
           // deforms10("en-US"),
           // deforms1100"),
-          // speakdeforms11
           // deforms11("en-US"),
           // deforms1200"),
-          // speakdeforms12
           // deforms12("en-US"),
           // deforms1300"),
-          // speakdeforms13
           // deforms13("en-US"),
           // deforms1400"),
-          // speakdeforms14
           // deforms14("en-US"),
           // deforms1500"),
-          // speakdeforms15
           // deforms15("en-US"),
           // deforms1600"),
-          // speakdeforms16
           // deforms16("en-US"),
           // deforms1700"),
-          // speakdeforms17
           // deforms17("en-US"),
           // deforms1800"),
-          // speakdeforms18
           // deforms18("en-US"),
           // deforms1900"),
-          // speakdeforms19
           // deforms19("en-US"),
           // "The pressure had caused the wall to deform and buckle.0"),
-          // speakdeforms20
           // deforms20("en-US"),
           // deforms2100"),
-          // speakdeforms21
           // deforms21("en-US"),
           // deforms2200"),
-          // speakdeforms22
           // deforms22("en-US"),
         ],
       ),

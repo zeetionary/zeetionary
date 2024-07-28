@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdilapidateds2("en-US"),
           ),
           // dilapidateds300"),
-          // speakdilapidateds3
           // dilapidateds3("en-US"),
           // dilapidateds400"),
-          // speakdilapidateds4
           // dilapidateds4("en-US"),
           // dilapidateds500"),
-          // speakdilapidateds5
           // dilapidateds5("en-US"),
           // dilapidateds600"),
-          // speakdilapidateds6
           // dilapidateds6("en-US"),
           // dilapidateds700"),
-          // speakdilapidateds7
           // dilapidateds7("en-US"),
           // dilapidateds800"),
-          // speakdilapidateds8
           // dilapidateds8("en-US"),
           // dilapidateds900"),
-          // speakdilapidateds9
           // dilapidateds9("en-US"),
           // dilapidateds_1000"),
-          // speakdilapidateds10
           // dilapidateds10("en-US"),
           // dilapidateds1100"),
-          // speakdilapidateds11
           // dilapidateds11("en-US"),
           // dilapidateds1200"),
-          // speakdilapidateds12
           // dilapidateds12("en-US"),
           // dilapidateds1300"),
-          // speakdilapidateds13
           // dilapidateds13("en-US"),
           // dilapidateds1400"),
-          // speakdilapidateds14
           // dilapidateds14("en-US"),
           // dilapidateds1500"),
-          // speakdilapidateds15
           // dilapidateds15("en-US"),
           // dilapidateds1600"),
-          // speakdilapidateds16
           // dilapidateds16("en-US"),
           // dilapidateds1700"),
-          // speakdilapidateds17
           // dilapidateds17("en-US"),
           // dilapidateds1800"),
-          // speakdilapidateds18
           // dilapidateds18("en-US"),
           // dilapidateds1900"),
-          // speakdilapidateds19
           // dilapidateds19("en-US"),
           // dilapidateds_2000"),
-          // speakdilapidateds20
           // dilapidateds20("en-US"),
           // dilapidateds2100"),
-          // speakdilapidateds21
           // dilapidateds21("en-US"),
           // dilapidateds2200"),
-          // speakdilapidateds22
           // dilapidateds22("en-US"),
         ],
       ),

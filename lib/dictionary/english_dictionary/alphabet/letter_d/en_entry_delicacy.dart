@@ -267,9 +267,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -336,52 +334,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelicacys6("en-US"),
           ),
           // delicacys700"),
-          // speakdelicacys7
           // delicacys7("en-US"),
           // delicacys800"),
-          // speakdelicacys8
           // delicacys8("en-US"),
           // delicacys900"),
-          // speakdelicacys9
           // delicacys9("en-US"),
           // delicacys1000"),
-          // speakdelicacys10
           // delicacys10("en-US"),
           // delicacys1100"),
-          // speakdelicacys11
           // delicacys11("en-US"),
           // delicacys1200"),
-          // speakdelicacys12
           // delicacys12("en-US"),
           // delicacys1300"),
-          // speakdelicacys13
           // delicacys13("en-US"),
           // delicacys1400"),
-          // speakdelicacys14
           // delicacys14("en-US"),
           // delicacys1500"),
-          // speakdelicacys15
           // delicacys15("en-US"),
           // delicacys1600"),
-          // speakdelicacys16
           // delicacys16("en-US"),
           // delicacys1700"),
-          // speakdelicacys17
           // delicacys17("en-US"),
           // delicacys1800"),
-          // speakdelicacys18
           // delicacys18("en-US"),
           // delicacys1900"),
-          // speakdelicacys19
           // delicacys19("en-US"),
           // "The eggs of this bird are considered a great delicacy.0"),
-          // speakdelicacys20
           // delicacys20("en-US"),
           // delicacys2100"),
-          // speakdelicacys21
           // delicacys21("en-US"),
           // delicacys2200"),
-          // speakdelicacys22
           // delicacys22("en-US"),
         ],
       ),

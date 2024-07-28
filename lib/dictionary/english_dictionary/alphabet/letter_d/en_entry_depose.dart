@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -259,64 +257,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeposes2("en-US"),
           ),
           // deposes300"),
-          // speakdeposes3
           // deposes3("en-US"),
           // deposes400"),
-          // speakdeposes4
           // deposes4("en-US"),
           // deposes500"),
-          // speakdeposes5
           // deposes5("en-US"),
           // deposes600"),
-          // speakdeposes6
           // deposes6("en-US"),
           // deposes700"),
-          // speakdeposes7
           // deposes7("en-US"),
           // deposes800"),
-          // speakdeposes8
           // deposes8("en-US"),
           // deposes900"),
-          // speakdeposes9
           // deposes9("en-US"),
           // deposes1000"),
-          // speakdeposes10
           // deposes10("en-US"),
           // deposes1100"),
-          // speakdeposes11
           // deposes11("en-US"),
           // deposes1200"),
-          // speakdeposes12
           // deposes12("en-US"),
           // deposes1300"),
-          // speakdeposes13
           // deposes13("en-US"),
           // deposes1400"),
-          // speakdeposes14
           // deposes14("en-US"),
           // deposes1500"),
-          // speakdeposes15
           // deposes15("en-US"),
           // deposes1600"),
-          // speakdeposes16
           // deposes16("en-US"),
           // deposes1700"),
-          // speakdeposes17
           // deposes17("en-US"),
           // deposes1800"),
-          // speakdeposes18
           // deposes18("en-US"),
           // deposes1900"),
-          // speakdeposes19
           // deposes19("en-US"),
           // "The president was deposed in a military coup.0"),
-          // speakdeposes20
           // deposes20("en-US"),
           // deposes2100"),
-          // speakdeposes21
           // deposes21("en-US"),
           // deposes2200"),
-          // speakdeposes22
           // deposes22("en-US"),
         ],
       ),

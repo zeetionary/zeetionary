@@ -415,9 +415,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -654,88 +652,60 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemands27("en-US"),
           ),
           // demands2800"),
-          // speakdemands28
           // demands28("en-US"),
           // demands2900"),
-          // speakdemands29
           // demands29("en-US"),
           // demands3000"),
-          // speakdemands30
           // demands30("en-US"),
           // demands3100"),
-          // speakdemands31
           // demands31("en-US"),
           // demands3200"),
-          // speakdemands32
           // demands32("en-US"),
           // demands3300"),
-          // speakdemands33
           // demands33("en-US"),
           // demands3400"),
-          // speakdemands34
           // demands34("en-US"),
           // demands3500"),
-          // speakdemands35
           // demands35("en-US"),
           // demands3600"),
-          // speakdemands36
           // demands36("en-US"),
           // demands3700"),
-          // speakdemands37
           // demands37("en-US"),
           // demands3800"),
-          // speakdemands38
           // demands38("en-US"),
           // demands3900"),
-          // speakdemands39
           // demands39("en-US"),
           // demands4000"),
-          // speakdemands40
           // demands40("en-US"),
           // demands4100"),
-          // speakdemands41
           // demands41("en-US"),
           // demands4200"),
-          // speakdemands42
           // demands42("en-US"),
           // demands4300"),
-          // speakdemands43
           // demands43("en-US"),
           // demands4400"),
-          // speakdemands44
           // demands44("en-US"),
           // demands4500"),
-          // speakdemands45
           // demands45("en-US"),
           // demands4600"),
-          // speakdemands46
           // demands46("en-US"),
           // demands4700"),
-          // speakdemands47
           // demands47("en-US"),
           // demands4800"),
-          // speakdemands48
           // demands48("en-US"),
           // demands4900"),
-          // speakdemands49
           // demands49("en-US"),
           // demands5000"),
-          // speakdemands50
           // demands50("en-US"),
           // demands5100"),
-          // speakdemands51
           // demands51("en-US"),
           // demands5200"),
-          // speakdemands52
           // demands52("en-US"),
           // demands5300"),
-          // speakdemands53
           // demands53("en-US"),
           // demands5400"),
-          // speakdemands54
           // demands54("en-US"),
           // demands5500"),
-          // speakdemands55
           // demands55("en-US"),
         ],
       ),

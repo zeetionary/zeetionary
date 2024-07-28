@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdishevelleds2("en-US"),
           ),
           // dishevelleds300"),
-          // speakdishevelleds3
           // dishevelleds3("en-US"),
           // dishevelleds400"),
-          // speakdishevelleds4
           // dishevelleds4("en-US"),
           // dishevelleds500"),
-          // speakdishevelleds5
           // dishevelleds5("en-US"),
           // dishevelleds600"),
-          // speakdishevelleds6
           // dishevelleds6("en-US"),
           // dishevelleds700"),
-          // speakdishevelleds7
           // dishevelleds7("en-US"),
           // dishevelleds800"),
-          // speakdishevelleds8
           // dishevelleds8("en-US"),
           // dishevelleds900"),
-          // speakdishevelleds9
           // dishevelleds9("en-US"),
           // dishevelleds_1000"),
-          // speakdishevelleds10
           // dishevelleds10("en-US"),
           // dishevelleds1100"),
-          // speakdishevelleds11
           // dishevelleds11("en-US"),
           // dishevelleds1200"),
-          // speakdishevelleds12
           // dishevelleds12("en-US"),
           // dishevelleds1300"),
-          // speakdishevelleds13
           // dishevelleds13("en-US"),
           // dishevelleds1400"),
-          // speakdishevelleds14
           // dishevelleds14("en-US"),
           // dishevelleds1500"),
-          // speakdishevelleds15
           // dishevelleds15("en-US"),
           // dishevelleds1600"),
-          // speakdishevelleds16
           // dishevelleds16("en-US"),
           // dishevelleds1700"),
-          // speakdishevelleds17
           // dishevelleds17("en-US"),
           // dishevelleds1800"),
-          // speakdishevelleds18
           // dishevelleds18("en-US"),
           // dishevelleds1900"),
-          // speakdishevelleds19
           // dishevelleds19("en-US"),
           // dishevelleds_2000"),
-          // speakdishevelleds20
           // dishevelleds20("en-US"),
           // dishevelleds2100"),
-          // speakdishevelleds21
           // dishevelleds21("en-US"),
           // dishevelleds2200"),
-          // speakdishevelleds22
           // dishevelleds22("en-US"),
         ],
       ),

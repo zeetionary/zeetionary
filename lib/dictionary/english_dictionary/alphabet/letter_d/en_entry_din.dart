@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -265,61 +263,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdins3("en-US"),
           ),
           // dins400"),
-          // speakdins4
           // dins4("en-US"),
           // dins500"),
-          // speakdins5
           // dins5("en-US"),
           // dins600"),
-          // speakdins6
           // dins6("en-US"),
           // dins700"),
-          // speakdins7
           // dins7("en-US"),
           // dins800"),
-          // speakdins8
           // dins8("en-US"),
           // dins900"),
-          // speakdins9
           // dins9("en-US"),
           // dins_1000"),
-          // speakdins10
           // dins10("en-US"),
           // dins1100"),
-          // speakdins11
           // dins11("en-US"),
           // dins1200"),
-          // speakdins12
           // dins12("en-US"),
           // dins1300"),
-          // speakdins13
           // dins13("en-US"),
           // dins1400"),
-          // speakdins14
           // dins14("en-US"),
           // dins1500"),
-          // speakdins15
           // dins15("en-US"),
           // dins1600"),
-          // speakdins16
           // dins16("en-US"),
           // dins1700"),
-          // speakdins17
           // dins17("en-US"),
           // dins1800"),
-          // speakdins18
           // dins18("en-US"),
           // dins1900"),
-          // speakdins19
           // dins19("en-US"),
           // dins_2000"),
-          // speakdins20
           // dins20("en-US"),
           // dins2100"),
-          // speakdins21
           // dins21("en-US"),
           // dins2200"),
-          // speakdins22
           // dins22("en-US"),
         ],
       ),

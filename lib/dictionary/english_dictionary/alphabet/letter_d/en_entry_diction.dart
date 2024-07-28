@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdictions1("en-US"),
           ),
           // dictions200"),
-          // speakdictions2
           // dictions2
           // dictions300"),
-          // speakdictions3
           // dictions3
           // dictions400"),
-          // speakdictions4
           // dictions4
           // dictions500"),
-          // speakdictions5
           // dictions5
           // dictions600"),
-          // speakdictions6
           // dictions6
           // dictions700"),
-          // speakdictions7
           // dictions7
           // dictions800"),
-          // speakdictions8
           // dictions8
           // dictions900"),
-          // speakdictions9
           // dictions9
           // dictions_1000"),
-          // speakdictions10
           // dictions10
           // dictions1100"),
-          // speakdictions11
           // dictions11
           // dictions1200"),
-          // speakdictions12
           // dictions12
           // dictions1300"),
-          // speakdictions13
           // dictions13
           // dictions1400"),
-          // speakdictions14
           // dictions14
           // dictions1500"),
-          // speakdictions15
           // dictions15
           // dictions1600"),
-          // speakdictions16
           // dictions16
           // dictions1700"),
-          // speakdictions17
           // dictions17
           // dictions1800"),
-          // speakdictions18
           // dictions18
           // dictions1900"),
-          // speakdictions19
           // dictions19
           // dictions_2000"),
-          // speakdictions20
           // dictions20
           // dictions2100"),
-          // speakdictions21
           // dictions21
           // dictions2200"),
-          // speakdictions22
           // dictions22("en-US"),
         ],
       ),

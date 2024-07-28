@@ -273,9 +273,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -353,49 +351,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemocratics7("en-US"),
           ),
           // democratics800"),
-          // speakdemocratics8
           // democratics8("en-US"),
           // democratics900"),
-          // speakdemocratics9
           // democratics9("en-US"),
           // democratics1000"),
-          // speakdemocratics10
           // democratics10("en-US"),
           // democratics1100"),
-          // speakdemocratics11
           // democratics11("en-US"),
           // democratics1200"),
-          // speakdemocratics12
           // democratics12("en-US"),
           // democratics1300"),
-          // speakdemocratics13
           // democratics13("en-US"),
           // democratics1400"),
-          // speakdemocratics14
           // democratics14("en-US"),
           // democratics1500"),
-          // speakdemocratics15
           // democratics15("en-US"),
           // democratics1600"),
-          // speakdemocratics16
           // democratics16("en-US"),
           // democratics1700"),
-          // speakdemocratics17
           // democratics17("en-US"),
           // democratics1800"),
-          // speakdemocratics18
           // democratics18("en-US"),
           // democratics1900"),
-          // speakdemocratics19
           // democratics19("en-US"),
           // "They are aiming to make the institutions of the EU truly democratic.0"),
-          // speakdemocratics20
           // democratics20("en-US"),
           // democratics2100"),
-          // speakdemocratics21
           // democratics21("en-US"),
           // democratics2200"),
-          // speakdemocratics22
           // democratics22("en-US"),
         ],
       ),

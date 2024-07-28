@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -291,58 +289,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderelicts4("en-US"),
           ),
           // derelicts500"),
-          // speakderelicts5
           // derelicts5("en-US"),
           // derelicts600"),
-          // speakderelicts6
           // derelicts6("en-US"),
           // derelicts700"),
-          // speakderelicts7
           // derelicts7("en-US"),
           // derelicts800"),
-          // speakderelicts8
           // derelicts8("en-US"),
           // derelicts900"),
-          // speakderelicts9
           // derelicts9("en-US"),
           // derelicts1000"),
-          // speakderelicts10
           // derelicts10("en-US"),
           // derelicts1100"),
-          // speakderelicts11
           // derelicts11("en-US"),
           // derelicts1200"),
-          // speakderelicts12
           // derelicts12("en-US"),
           // derelicts1300"),
-          // speakderelicts13
           // derelicts13("en-US"),
           // derelicts1400"),
-          // speakderelicts14
           // derelicts14("en-US"),
           // derelicts1500"),
-          // speakderelicts15
           // derelicts15("en-US"),
           // derelicts1600"),
-          // speakderelicts16
           // derelicts16("en-US"),
           // derelicts1700"),
-          // speakderelicts17
           // derelicts17("en-US"),
           // derelicts1800"),
-          // speakderelicts18
           // derelicts18("en-US"),
           // derelicts1900"),
-          // speakderelicts19
           // derelicts19("en-US"),
           // "The land lay derelict for ten years.0"),
-          // speakderelicts20
           // derelicts20("en-US"),
           // derelicts2100"),
-          // speakderelicts21
           // derelicts21("en-US"),
           // derelicts2200"),
-          // speakderelicts22
           // derelicts22("en-US"),
         ],
       ),

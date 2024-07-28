@@ -258,9 +258,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -312,55 +310,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefensives5("en-US"),
           ),
           // defensives600"),
-          // speakdefensives6
           // defensives6
           // defensives700"),
-          // speakdefensives7
           // defensives7
           // defensives800"),
-          // speakdefensives8
           // defensives8
           // defensives900"),
-          // speakdefensives9
           // defensives9
           // defensives1000"),
-          // speakdefensives10
           // defensives10
           // defensives1100"),
-          // speakdefensives11
           // defensives11
           // defensives1200"),
-          // speakdefensives12
           // defensives12
           // defensives1300"),
-          // speakdefensives13
           // defensives13
           // defensives1400"),
-          // speakdefensives14
           // defensives14
           // defensives1500"),
-          // speakdefensives15
           // defensives15
           // defensives1600"),
-          // speakdefensives16
           // defensives16
           // defensives1700"),
-          // speakdefensives17
           // defensives17
           // defensives1800"),
-          // speakdefensives18
           // defensives18
           // defensives1900"),
-          // speakdefensives19
           // defensives19
           // "Troops took up a defensive position around the town.0"),
-          // speakdefensives20
           // defensives20
           // defensives2100"),
-          // speakdefensives21
           // defensives21
           // defensives2200"),
-          // speakdefensives22
           // defensives22("en-US"),
         ],
       ),

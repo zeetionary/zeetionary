@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -273,64 +271,44 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // "The newspaper made damaging disclosures of management incompetence."),
-          // speakdisclosures3
           // disclosures3("en-US"),
           // disclosures400"),
-          // speakdisclosures4
           // disclosures4("en-US"),
           // disclosures500"),
-          // speakdisclosures5
           // disclosures5("en-US"),
           // disclosures600"),
-          // speakdisclosures6
           // disclosures6("en-US"),
           // disclosures700"),
-          // speakdisclosures7
           // disclosures7("en-US"),
           // disclosures800"),
-          // speakdisclosures8
           // disclosures8("en-US"),
           // disclosures900"),
-          // speakdisclosures9
           // disclosures9("en-US"),
           // disclosures_1000"),
-          // speakdisclosures10
           // disclosures10("en-US"),
           // disclosures1100"),
-          // speakdisclosures11
           // disclosures11("en-US"),
           // disclosures1200"),
-          // speakdisclosures12
           // disclosures12("en-US"),
           // disclosures1300"),
-          // speakdisclosures13
           // disclosures13("en-US"),
           // disclosures1400"),
-          // speakdisclosures14
           // disclosures14("en-US"),
           // disclosures1500"),
-          // speakdisclosures15
           // disclosures15("en-US"),
           // disclosures1600"),
-          // speakdisclosures16
           // disclosures16("en-US"),
           // disclosures1700"),
-          // speakdisclosures17
           // disclosures17("en-US"),
           // disclosures1800"),
-          // speakdisclosures18
           // disclosures18("en-US"),
           // disclosures1900"),
-          // speakdisclosures19
           // disclosures19("en-US"),
           // disclosures_2000"),
-          // speakdisclosures20
           // disclosures20("en-US"),
           // disclosures2100"),
-          // speakdisclosures21
           // disclosures21("en-US"),
           // disclosures2200"),
-          // speakdisclosures22
           // disclosures22("en-US"),
         ],
       ),

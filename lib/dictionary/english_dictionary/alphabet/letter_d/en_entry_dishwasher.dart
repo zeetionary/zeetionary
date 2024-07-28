@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -270,61 +268,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdishwashers3("en-US"),
           ),
           // dishwashers400"),
-          // speakdishwashers4
           // dishwashers4("en-US"),
           // dishwashers500"),
-          // speakdishwashers5
           // dishwashers5("en-US"),
           // dishwashers600"),
-          // speakdishwashers6
           // dishwashers6("en-US"),
           // dishwashers700"),
-          // speakdishwashers7
           // dishwashers7("en-US"),
           // dishwashers800"),
-          // speakdishwashers8
           // dishwashers8("en-US"),
           // dishwashers900"),
-          // speakdishwashers9
           // dishwashers9("en-US"),
           // dishwashers_1000"),
-          // speakdishwashers10
           // dishwashers10("en-US"),
           // dishwashers1100"),
-          // speakdishwashers11
           // dishwashers11("en-US"),
           // dishwashers1200"),
-          // speakdishwashers12
           // dishwashers12("en-US"),
           // dishwashers1300"),
-          // speakdishwashers13
           // dishwashers13("en-US"),
           // dishwashers1400"),
-          // speakdishwashers14
           // dishwashers14("en-US"),
           // dishwashers1500"),
-          // speakdishwashers15
           // dishwashers15("en-US"),
           // dishwashers1600"),
-          // speakdishwashers16
           // dishwashers16("en-US"),
           // dishwashers1700"),
-          // speakdishwashers17
           // dishwashers17("en-US"),
           // dishwashers1800"),
-          // speakdishwashers18
           // dishwashers18("en-US"),
           // dishwashers1900"),
-          // speakdishwashers19
           // dishwashers19("en-US"),
           // dishwashers_2000"),
-          // speakdishwashers20
           // dishwashers20("en-US"),
           // dishwashers2100"),
-          // speakdishwashers21
           // dishwashers21("en-US"),
           // dishwashers2200"),
-          // speakdishwashers22
           // dishwashers22("en-US"),
         ],
       ),

@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenationalizes1("en-US"),
           ),
           // denationalizes200"),
-          // speakdenationalizes2
           // denationalizes2("en-US"),
           // denationalizes300"),
-          // speakdenationalizes3
           // denationalizes3("en-US"),
           // denationalizes400"),
-          // speakdenationalizes4
           // denationalizes4("en-US"),
           // denationalizes500"),
-          // speakdenationalizes5
           // denationalizes5("en-US"),
           // denationalizes600"),
-          // speakdenationalizes6
           // denationalizes6("en-US"),
           // denationalizes700"),
-          // speakdenationalizes7
           // denationalizes7("en-US"),
           // denationalizes800"),
-          // speakdenationalizes8
           // denationalizes8("en-US"),
           // denationalizes900"),
-          // speakdenationalizes9
           // denationalizes9("en-US"),
           // denationalizes1000"),
-          // speakdenationalizes10
           // denationalizes10("en-US"),
           // denationalizes1100"),
-          // speakdenationalizes11
           // denationalizes11("en-US"),
           // denationalizes1200"),
-          // speakdenationalizes12
           // denationalizes12("en-US"),
           // denationalizes1300"),
-          // speakdenationalizes13
           // denationalizes13("en-US"),
           // denationalizes1400"),
-          // speakdenationalizes14
           // denationalizes14("en-US"),
           // denationalizes1500"),
-          // speakdenationalizes15
           // denationalizes15("en-US"),
           // denationalizes1600"),
-          // speakdenationalizes16
           // denationalizes16("en-US"),
           // denationalizes1700"),
-          // speakdenationalizes17
           // denationalizes17("en-US"),
           // denationalizes1800"),
-          // speakdenationalizes18
           // denationalizes18("en-US"),
           // denationalizes1900"),
-          // speakdenationalizes19
           // denationalizes19("en-US"),
           // denationalizes2000"),
-          // speakdenationalizes20
           // denationalizes20("en-US"),
           // denationalizes2100"),
-          // speakdenationalizes21
           // denationalizes21("en-US"),
           // denationalizes2200"),
-          // speakdenationalizes22
           // denationalizes22("en-US"),
         ],
       ),

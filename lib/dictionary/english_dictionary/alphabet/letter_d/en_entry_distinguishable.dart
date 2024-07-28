@@ -360,9 +360,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,64 +386,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistinguishables2("en-US"),
           ),
           // distinguishables300"),
-          // speakdistinguishables3
           // distinguishables3("en-US"),
           // distinguishables400"),
-          // speakdistinguishables4
           // distinguishables4("en-US"),
           // distinguishables500"),
-          // speakdistinguishables5
           // distinguishables5("en-US"),
           // distinguishables600"),
-          // speakdistinguishables6
           // distinguishables6("en-US"),
           // distinguishables700"),
-          // speakdistinguishables7
           // distinguishables7("en-US"),
           // distinguishables800"),
-          // speakdistinguishables8
           // distinguishables8("en-US"),
           // distinguishables900"),
-          // speakdistinguishables9
           // distinguishables9("en-US"),
           // distinguishables_1000"),
-          // speakdistinguishables10
           // distinguishables10("en-US"),
           // distinguishables1100"),
-          // speakdistinguishables11
           // distinguishables11("en-US"),
           // distinguishables1200"),
-          // speakdistinguishables12
           // distinguishables12("en-US"),
           // distinguishables1300"),
-          // speakdistinguishables13
           // distinguishables13("en-US"),
           // distinguishables1400"),
-          // speakdistinguishables14
           // distinguishables14("en-US"),
           // distinguishables1500"),
-          // speakdistinguishables15
           // distinguishables15("en-US"),
           // distinguishables1600"),
-          // speakdistinguishables16
           // distinguishables16("en-US"),
           // distinguishables1700"),
-          // speakdistinguishables17
           // distinguishables17("en-US"),
           // distinguishables1800"),
-          // speakdistinguishables18
           // distinguishables18("en-US"),
           // distinguishables1900"),
-          // speakdistinguishables19
           // distinguishables19("en-US"),
           // distinguishables_2000"),
-          // speakdistinguishables20
           // distinguishables20("en-US"),
           // distinguishables2100"),
-          // speakdistinguishables21
           // distinguishables21("en-US"),
           // distinguishables2200"),
-          // speakdistinguishables22
           // distinguishables22("en-US"),
         ],
       ),

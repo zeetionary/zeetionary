@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdizzinesss1("en-US"),
           ),
           // dizzinesss200"),
-          // speakdizzinesss2
           // dizzinesss2("en-US"),
           // dizzinesss300"),
-          // speakdizzinesss3
           // dizzinesss3("en-US"),
           // dizzinesss400"),
-          // speakdizzinesss4
           // dizzinesss4("en-US"),
           // dizzinesss500"),
-          // speakdizzinesss5
           // dizzinesss5("en-US"),
           // dizzinesss600"),
-          // speakdizzinesss6
           // dizzinesss6("en-US"),
           // dizzinesss700"),
-          // speakdizzinesss7
           // dizzinesss7("en-US"),
           // dizzinesss800"),
-          // speakdizzinesss8
           // dizzinesss8("en-US"),
           // dizzinesss900"),
-          // speakdizzinesss9
           // dizzinesss9("en-US"),
           // dizzinesss_1000"),
-          // speakdizzinesss10
           // dizzinesss10("en-US"),
           // dizzinesss1100"),
-          // speakdizzinesss11
           // dizzinesss11("en-US"),
           // dizzinesss1200"),
-          // speakdizzinesss12
           // dizzinesss12("en-US"),
           // dizzinesss1300"),
-          // speakdizzinesss13
           // dizzinesss13("en-US"),
           // dizzinesss1400"),
-          // speakdizzinesss14
           // dizzinesss14("en-US"),
           // dizzinesss1500"),
-          // speakdizzinesss15
           // dizzinesss15("en-US"),
           // dizzinesss1600"),
-          // speakdizzinesss16
           // dizzinesss16("en-US"),
           // dizzinesss1700"),
-          // speakdizzinesss17
           // dizzinesss17("en-US"),
           // dizzinesss1800"),
-          // speakdizzinesss18
           // dizzinesss18("en-US"),
           // dizzinesss1900"),
-          // speakdizzinesss19
           // dizzinesss19("en-US"),
           // dizzinesss_2000"),
-          // speakdizzinesss20
           // dizzinesss20("en-US"),
           // dizzinesss2100"),
-          // speakdizzinesss21
           // dizzinesss21("en-US"),
           // dizzinesss2200"),
-          // speakdizzinesss22
           // dizzinesss22("en-US"),
         ],
       ),

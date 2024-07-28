@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -263,64 +261,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevastates2("en-US"),
           ),
           // devastates300"),
-          // speakdevastates3
           // devastates3("en-US"),
           // devastates400"),
-          // speakdevastates4
           // devastates4("en-US"),
           // devastates500"),
-          // speakdevastates5
           // devastates5("en-US"),
           // devastates600"),
-          // speakdevastates6
           // devastates6("en-US"),
           // devastates700"),
-          // speakdevastates7
           // devastates7("en-US"),
           // devastates800"),
-          // speakdevastates8
           // devastates8("en-US"),
           // devastates900"),
-          // speakdevastates9
           // devastates9("en-US"),
           // devastates1000"),
-          // speakdevastates10
           // devastates10("en-US"),
           // devastates1100"),
-          // speakdevastates11
           // devastates11("en-US"),
           // devastates1200"),
-          // speakdevastates12
           // devastates12("en-US"),
           // devastates1300"),
-          // speakdevastates13
           // devastates13("en-US"),
           // devastates1400"),
-          // speakdevastates14
           // devastates14("en-US"),
           // devastates1500"),
-          // speakdevastates15
           // devastates15("en-US"),
           // devastates1600"),
-          // speakdevastates16
           // devastates16("en-US"),
           // devastates1700"),
-          // speakdevastates17
           // devastates17("en-US"),
           // devastates1800"),
-          // speakdevastates18
           // devastates18("en-US"),
           // devastates1900"),
-          // speakdevastates19
           // devastates19("en-US"),
           // "The news of his death will devastate her.0"),
-          // speakdevastates20
           // devastates20("en-US"),
           // devastates2100"),
-          // speakdevastates21
           // devastates21("en-US"),
           // devastates2200"),
-          // speakdevastates22
           // devastates22("en-US"),
         ],
       ),

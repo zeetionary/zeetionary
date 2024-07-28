@@ -284,9 +284,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,46 +365,32 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemonstrations8("en-US"),
           ),
           // demonstrations900"),
-          // speakdemonstrations9
           // demonstrations9("en-US"),
           // demonstrations1000"),
-          // speakdemonstrations10
           // demonstrations10("en-US"),
           // demonstrations1100"),
-          // speakdemonstrations11
           // demonstrations11("en-US"),
           // demonstrations1200"),
-          // speakdemonstrations12
           // demonstrations12("en-US"),
           // demonstrations1300"),
-          // speakdemonstrations13
           // demonstrations13("en-US"),
           // demonstrations1400"),
-          // speakdemonstrations14
           // demonstrations14("en-US"),
           // demonstrations1500"),
-          // speakdemonstrations15
           // demonstrations15("en-US"),
           // demonstrations1600"),
-          // speakdemonstrations16
           // demonstrations16("en-US"),
           // demonstrations1700"),
-          // speakdemonstrations17
           // demonstrations17("en-US"),
           // demonstrations1800"),
-          // speakdemonstrations18
           // demonstrations18("en-US"),
           // demonstrations1900"),
-          // speakdemonstrations19
           // demonstrations19("en-US"),
           // "Taxi drivers staged a demonstration against the new law.0"),
-          // speakdemonstrations20
           // demonstrations20("en-US"),
           // demonstrations2100"),
-          // speakdemonstrations21
           // demonstrations21("en-US"),
           // demonstrations2200"),
-          // speakdemonstrations22
           // demonstrations22("en-US"),
         ],
       ),

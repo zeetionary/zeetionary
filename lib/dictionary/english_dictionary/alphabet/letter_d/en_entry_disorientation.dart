@@ -230,9 +230,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisorientations2("en-US"),
           ),
           // disorientations300"),
-          // speakdisorientations3
           // disorientations3("en-US"),
           // disorientations400"),
-          // speakdisorientations4
           // disorientations4("en-US"),
           // disorientations500"),
-          // speakdisorientations5
           // disorientations5("en-US"),
           // disorientations600"),
-          // speakdisorientations6
           // disorientations6("en-US"),
           // disorientations700"),
-          // speakdisorientations7
           // disorientations7("en-US"),
           // disorientations800"),
-          // speakdisorientations8
           // disorientations8("en-US"),
           // disorientations900"),
-          // speakdisorientations9
           // disorientations9("en-US"),
           // disorientations_1000"),
-          // speakdisorientations10
           // disorientations10("en-US"),
           // disorientations1100"),
-          // speakdisorientations11
           // disorientations11("en-US"),
           // disorientations1200"),
-          // speakdisorientations12
           // disorientations12("en-US"),
           // disorientations1300"),
-          // speakdisorientations13
           // disorientations13("en-US"),
           // disorientations1400"),
-          // speakdisorientations14
           // disorientations14("en-US"),
           // disorientations1500"),
-          // speakdisorientations15
           // disorientations15("en-US"),
           // disorientations1600"),
-          // speakdisorientations16
           // disorientations16("en-US"),
           // disorientations1700"),
-          // speakdisorientations17
           // disorientations17("en-US"),
           // disorientations1800"),
-          // speakdisorientations18
           // disorientations18("en-US"),
           // disorientations1900"),
-          // speakdisorientations19
           // disorientations19("en-US"),
           // disorientations_2000"),
-          // speakdisorientations20
           // disorientations20("en-US"),
           // disorientations2100"),
-          // speakdisorientations21
           // disorientations21("en-US"),
           // disorientations2200"),
-          // speakdisorientations22
           // disorientations22("en-US"),
         ],
       ),

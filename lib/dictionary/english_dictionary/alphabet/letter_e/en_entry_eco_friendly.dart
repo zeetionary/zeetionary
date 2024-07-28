@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakecofriendlys1("en-US"),
           ),
           // ecofriendlys200ecofriendlys2
-          // speakecofriendlys2
           // ecofriendlys300ecofriendlys3
-          // speakecofriendlys3
           // ecofriendlys400ecofriendlys4
-          // speakecofriendlys4
           // ecofriendlys500ecofriendlys5
-          // speakecofriendlys5
           // ecofriendlys600ecofriendlys6
-          // speakecofriendlys6
           // ecofriendlys700ecofriendlys7
-          // speakecofriendlys7
           // ecofriendlys800ecofriendlys8
-          // speakecofriendlys8
           // ecofriendlys900ecofriendlys9
-          // speakecofriendlys9
           // ecofriendlys_1000ecofriendlys10
-          // speakecofriendlys10
           // ecofriendlys1100ecofriendlys11
-          // speakecofriendlys11
           // ecofriendlys1200ecofriendlys12
-          // speakecofriendlys12
           // ecofriendlys1300ecofriendlys13
-          // speakecofriendlys13
           // ecofriendlys1400ecofriendlys14
-          // speakecofriendlys14
           // ecofriendlys1500ecofriendlys15
-          // speakecofriendlys15
           // ecofriendlys1600ecofriendlys16
-          // speakecofriendlys16
           // ecofriendlys1700ecofriendlys17
-          // speakecofriendlys17
           // ecofriendlys1800ecofriendlys18
-          // speakecofriendlys18
           // ecofriendlys1900ecofriendlys19
-          // speakecofriendlys19
           // ecofriendlys_2000ecofriendlys20
-          // speakecofriendlys20
           // ecofriendlys2100ecofriendlys21
-          // speakecofriendlys21
           // ecofriendlys2200ecofriendlys22
           // speakecofriendlys22("en-US"""),
           //         ),

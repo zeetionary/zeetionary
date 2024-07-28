@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevises2("en-US"),
           ),
           // devises300"),
-          // speakdevises3
           // devises3("en-US"),
           // devises400"),
-          // speakdevises4
           // devises4("en-US"),
           // devises500"),
-          // speakdevises5
           // devises5("en-US"),
           // devises600"),
-          // speakdevises6
           // devises6("en-US"),
           // devises700"),
-          // speakdevises7
           // devises7("en-US"),
           // devises800"),
-          // speakdevises8
           // devises8("en-US"),
           // devises900"),
-          // speakdevises9
           // devises9("en-US"),
           // devises1000"),
-          // speakdevises10
           // devises10("en-US"),
           // devises1100"),
-          // speakdevises11
           // devises11("en-US"),
           // devises1200"),
-          // speakdevises12
           // devises12("en-US"),
           // devises1300"),
-          // speakdevises13
           // devises13("en-US"),
           // devises1400"),
-          // speakdevises14
           // devises14("en-US"),
           // devises1500"),
-          // speakdevises15
           // devises15("en-US"),
           // devises1600"),
-          // speakdevises16
           // devises16("en-US"),
           // devises1700"),
-          // speakdevises17
           // devises17("en-US"),
           // devises1800"),
-          // speakdevises18
           // devises18("en-US"),
           // devises1900"),
-          // speakdevises19
           // devises19("en-US"),
           // devises_2000"),
-          // speakdevises20
           // devises20("en-US"),
           // devises2100"),
-          // speakdevises21
           // devises21("en-US"),
           // devises2200"),
-          // speakdevises22
           // devises22("en-US"),
         ],
       ),

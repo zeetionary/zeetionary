@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -408,61 +406,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdividers3("en-US"),
           ),
           // dividers400"),
-          // speakdividers4
           // dividers4
           // dividers500"),
-          // speakdividers5
           // dividers5
           // dividers600"),
-          // speakdividers6
           // dividers6
           // dividers700"),
-          // speakdividers7
           // dividers7
           // dividers800"),
-          // speakdividers8
           // dividers8
           // dividers900"),
-          // speakdividers9
           // dividers9
           // dividers_1000"),
-          // speakdividers10
           // dividers10
           // dividers1100"),
-          // speakdividers11
           // dividers11
           // dividers1200"),
-          // speakdividers12
           // dividers12
           // dividers1300"),
-          // speakdividers13
           // dividers13
           // dividers1400"),
-          // speakdividers14
           // dividers14
           // dividers1500"),
-          // speakdividers15
           // dividers15
           // dividers1600"),
-          // speakdividers16
           // dividers16
           // dividers1700"),
-          // speakdividers17
           // dividers17
           // dividers1800"),
-          // speakdividers18
           // dividers18
           // dividers1900"),
-          // speakdividers19
           // dividers19
           // dividers_2000"),
-          // speakdividers20
           // dividers20
           // dividers2100"),
-          // speakdividers21
           // dividers21
           // dividers2200"),
-          // speakdividers22
           // dividers22("en-US"),
         ],
       ),

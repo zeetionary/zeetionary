@@ -372,9 +372,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -417,58 +415,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownrights4("en-US"),
           ),
           // downrights500"),
-          // speakdownrights5
           // downrights5("en-US"),
           // downrights600"),
-          // speakdownrights6
           // downrights6("en-US"),
           // downrights700"),
-          // speakdownrights7
           // downrights7("en-US"),
           // downrights800"),
-          // speakdownrights8
           // downrights8("en-US"),
           // downrights900"),
-          // speakdownrights9
           // downrights9("en-US"),
           // downrights_1000"),
-          // speakdownrights10
           // downrights10("en-US"),
           // downrights1100"),
-          // speakdownrights11
           // downrights11("en-US"),
           // downrights1200"),
-          // speakdownrights12
           // downrights12("en-US"),
           // downrights1300"),
-          // speakdownrights13
           // downrights13("en-US"),
           // downrights1400"),
-          // speakdownrights14
           // downrights14("en-US"),
           // downrights1500"),
-          // speakdownrights15
           // downrights15("en-US"),
           // downrights1600"),
-          // speakdownrights16
           // downrights16("en-US"),
           // downrights1700"),
-          // speakdownrights17
           // downrights17("en-US"),
           // downrights1800"),
-          // speakdownrights18
           // downrights18("en-US"),
           // downrights1900"),
-          // speakdownrights19
           // downrights19("en-US"),
           // downrights_2000"),
-          // speakdownrights20
           // downrights20("en-US"),
           // downrights2100"),
-          // speakdownrights21
           // downrights21("en-US"),
           // downrights2200"),
-          // speakdownrights22
           // downrights22("en-US"),
         ],
       ),

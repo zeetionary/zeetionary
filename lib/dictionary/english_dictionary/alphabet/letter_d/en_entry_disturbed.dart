@@ -377,9 +377,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -429,55 +427,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisturbeds5("en-US"),
           ),
           // disturbeds600"),
-          // speakdisturbeds6
           // disturbeds6("en-US"),
           // disturbeds700"),
-          // speakdisturbeds7
           // disturbeds7("en-US"),
           // disturbeds800"),
-          // speakdisturbeds8
           // disturbeds8("en-US"),
           // disturbeds900"),
-          // speakdisturbeds9
           // disturbeds9("en-US"),
           // disturbeds_1000"),
-          // speakdisturbeds10
           // disturbeds10("en-US"),
           // disturbeds1100"),
-          // speakdisturbeds11
           // disturbeds11("en-US"),
           // disturbeds1200"),
-          // speakdisturbeds12
           // disturbeds12("en-US"),
           // disturbeds1300"),
-          // speakdisturbeds13
           // disturbeds13("en-US"),
           // disturbeds1400"),
-          // speakdisturbeds14
           // disturbeds14("en-US"),
           // disturbeds1500"),
-          // speakdisturbeds15
           // disturbeds15("en-US"),
           // disturbeds1600"),
-          // speakdisturbeds16
           // disturbeds16("en-US"),
           // disturbeds1700"),
-          // speakdisturbeds17
           // disturbeds17("en-US"),
           // disturbeds1800"),
-          // speakdisturbeds18
           // disturbeds18("en-US"),
           // disturbeds1900"),
-          // speakdisturbeds19
           // disturbeds19("en-US"),
           // disturbeds_2000"),
-          // speakdisturbeds20
           // disturbeds20("en-US"),
           // disturbeds2100"),
-          // speakdisturbeds21
           // disturbeds21("en-US"),
           // disturbeds2200"),
-          // speakdisturbeds22
           // disturbeds22("en-US"),
         ],
       ),

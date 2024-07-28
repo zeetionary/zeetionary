@@ -379,9 +379,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -442,55 +440,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdwarfs5("en-US"),
           ),
           // dwarfs600
-          // speakdwarfs6
           // dwarfs6("en-US"""),
           // dwarfs700
-          // speakdwarfs7
           // dwarfs7("en-US"""),
           // dwarfs800
-          // speakdwarfs8
           // dwarfs8("en-US"""),
           // dwarfs900
-          // speakdwarfs9
           // dwarfs9("en-US"""),
           // dwarfs_1000
-          // speakdwarfs10
           // dwarfs10("en-US"""),
           // dwarfs1100
-          // speakdwarfs11
           // dwarfs11("en-US"""),
           // dwarfs1200
-          // speakdwarfs12
           // dwarfs12("en-US"""),
           // dwarfs1300
-          // speakdwarfs13
           // dwarfs13("en-US"""),
           // dwarfs1400
-          // speakdwarfs14
           // dwarfs14("en-US"""),
           // dwarfs1500
-          // speakdwarfs15
           // dwarfs15("en-US"""),
           // dwarfs1600
-          // speakdwarfs16
           // dwarfs16("en-US"""),
           // dwarfs1700
-          // speakdwarfs17
           // dwarfs17("en-US"""),
           // dwarfs1800
-          // speakdwarfs18
           // dwarfs18("en-US"""),
           // dwarfs1900
-          // speakdwarfs19
           // dwarfs19("en-US"""),
           // dwarfs_2000
-          // speakdwarfs20
           // dwarfs20("en-US"""),
           // dwarfs2100
-          // speakdwarfs21
           // dwarfs21("en-US"""),
           // dwarfs2200
-          // speakdwarfs22
           // dwarfs22("en-US"""),
         ],
       ),

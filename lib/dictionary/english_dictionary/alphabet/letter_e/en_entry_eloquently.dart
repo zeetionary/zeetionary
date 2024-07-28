@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,43 +386,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeloquentlys2("en-US"),
           ),
           // eloquentlys300eloquentlys3
-          // speakeloquentlys3
           // eloquentlys400eloquentlys4
-          // speakeloquentlys4
           // eloquentlys500eloquentlys5
-          // speakeloquentlys5
           // eloquentlys600eloquentlys6
-          // speakeloquentlys6
           // eloquentlys700eloquentlys7
-          // speakeloquentlys7
           // eloquentlys800eloquentlys8
-          // speakeloquentlys8
           // eloquentlys900eloquentlys9
-          // speakeloquentlys9
           // eloquentlys_1000eloquentlys10
-          // speakeloquentlys10
           // eloquentlys1100eloquentlys11
-          // speakeloquentlys11
           // eloquentlys1200eloquentlys12
-          // speakeloquentlys12
           // eloquentlys1300eloquentlys13
-          // speakeloquentlys13
           // eloquentlys1400eloquentlys14
-          // speakeloquentlys14
           // eloquentlys1500eloquentlys15
-          // speakeloquentlys15
           // eloquentlys1600eloquentlys16
-          // speakeloquentlys16
           // eloquentlys1700eloquentlys17
-          // speakeloquentlys17
           // eloquentlys1800eloquentlys18
-          // speakeloquentlys18
           // eloquentlys1900eloquentlys19
-          // speakeloquentlys19
           // eloquentlys_2000eloquentlys20
-          // speakeloquentlys20
           // eloquentlys2100eloquentlys21
-          // speakeloquentlys21
           // eloquentlys2200eloquentlys22
           // speakeloquentlys22("en-US"""),
           //         ),

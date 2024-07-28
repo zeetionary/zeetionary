@@ -256,9 +256,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -305,55 +303,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetentions5("en-US"),
           ),
           // detentions600"),
-          // speakdetentions6
           // detentions6("en-US"),
           // detentions700"),
-          // speakdetentions7
           // detentions7("en-US"),
           // detentions800"),
-          // speakdetentions8
           // detentions8("en-US"),
           // detentions900"),
-          // speakdetentions9
           // detentions9("en-US"),
           // detentions1000"),
-          // speakdetentions10
           // detentions10("en-US"),
           // detentions1100"),
-          // speakdetentions11
           // detentions11("en-US"),
           // detentions1200"),
-          // speakdetentions12
           // detentions12("en-US"),
           // detentions1300"),
-          // speakdetentions13
           // detentions13("en-US"),
           // detentions1400"),
-          // speakdetentions14
           // detentions14("en-US"),
           // detentions1500"),
-          // speakdetentions15
           // detentions15("en-US"),
           // detentions1600"),
-          // speakdetentions16
           // detentions16("en-US"),
           // detentions1700"),
-          // speakdetentions17
           // detentions17("en-US"),
           // detentions1800"),
-          // speakdetentions18
           // detentions18("en-US"),
           // detentions1900"),
-          // speakdetentions19
           // detentions19("en-US"),
           // "He made the confession while under detention.0"),
-          // speakdetentions20
           // detentions20("en-US"),
           // detentions2100"),
-          // speakdetentions21
           // detentions21("en-US"),
           // detentions2200"),
-          // speakdetentions22
           // detentions22("en-US"),
         ],
       ),

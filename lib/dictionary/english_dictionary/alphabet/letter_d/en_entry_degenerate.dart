@@ -249,9 +249,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -292,58 +290,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdegenerates4("en-US"),
           ),
           // degenerates500"),
-          // speakdegenerates5
           // degenerates5("en-US"),
           // degenerates600"),
-          // speakdegenerates6
           // degenerates6("en-US"),
           // degenerates700"),
-          // speakdegenerates7
           // degenerates7("en-US"),
           // degenerates800"),
-          // speakdegenerates8
           // degenerates8("en-US"),
           // degenerates900"),
-          // speakdegenerates9
           // degenerates9("en-US"),
           // degenerates1000"),
-          // speakdegenerates10
           // degenerates10("en-US"),
           // degenerates1100"),
-          // speakdegenerates11
           // degenerates11("en-US"),
           // degenerates1200"),
-          // speakdegenerates12
           // degenerates12("en-US"),
           // degenerates1300"),
-          // speakdegenerates13
           // degenerates13("en-US"),
           // degenerates1400"),
-          // speakdegenerates14
           // degenerates14("en-US"),
           // degenerates1500"),
-          // speakdegenerates15
           // degenerates15("en-US"),
           // degenerates1600"),
-          // speakdegenerates16
           // degenerates16("en-US"),
           // degenerates1700"),
-          // speakdegenerates17
           // degenerates17("en-US"),
           // degenerates1800"),
-          // speakdegenerates18
           // degenerates18("en-US"),
           // degenerates1900"),
-          // speakdegenerates19
           // degenerates19("en-US"),
           // "The march degenerated into a riot.0"),
-          // speakdegenerates20
           // degenerates20("en-US"),
           // degenerates2100"),
-          // speakdegenerates21
           // degenerates21("en-US"),
           // degenerates2200"),
-          // speakdegenerates22
           // degenerates22("en-US"),
         ],
       ),

@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -365,45 +363,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeightieths1("en-US"),
           ),
           // eightieths200eightieths2
-          // speakeightieths2
           // eightieths300eightieths3
-          // speakeightieths3
           // eightieths400eightieths4
-          // speakeightieths4
           // eightieths500eightieths5
-          // speakeightieths5
           // eightieths600eightieths6
-          // speakeightieths6
           // eightieths700eightieths7
-          // speakeightieths7
           // eightieths800eightieths8
-          // speakeightieths8
           // eightieths900eightieths9
-          // speakeightieths9
           // eightieths_1000eightieths10
-          // speakeightieths10
           // eightieths1100eightieths11
-          // speakeightieths11
           // eightieths1200eightieths12
-          // speakeightieths12
           // eightieths1300eightieths13
-          // speakeightieths13
           // eightieths1400eightieths14
-          // speakeightieths14
           // eightieths1500eightieths15
-          // speakeightieths15
           // eightieths1600eightieths16
-          // speakeightieths16
           // eightieths1700eightieths17
-          // speakeightieths17
           // eightieths1800eightieths18
-          // speakeightieths18
           // eightieths1900eightieths19
-          // speakeightieths19
           // eightieths_2000eightieths20
-          // speakeightieths20
           // eightieths2100eightieths21
-          // speakeightieths21
           // eightieths2200eightieths22
           // speakeightieths22("en-US"""),
           //         ),

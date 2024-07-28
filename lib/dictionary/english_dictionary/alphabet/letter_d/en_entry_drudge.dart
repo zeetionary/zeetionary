@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrudges1("en-US"),
           ),
           // drudges200"),
-          // speakdrudges2
           // drudges2("en-US"),
           // drudges300"),
-          // speakdrudges3
           // drudges3("en-US"),
           // drudges400"),
-          // speakdrudges4
           // drudges4("en-US"),
           // drudges500"),
-          // speakdrudges5
           // drudges5("en-US"),
           // drudges600"),
-          // speakdrudges6
           // drudges6("en-US"),
           // drudges700"),
-          // speakdrudges7
           // drudges7("en-US"),
           // drudges800"),
-          // speakdrudges8
           // drudges8("en-US"),
           // drudges900"),
-          // speakdrudges9
           // drudges9("en-US"),
           // drudges_1000"),
-          // speakdrudges10
           // drudges10("en-US"),
           // drudges1100"),
-          // speakdrudges11
           // drudges11("en-US"),
           // drudges1200"),
-          // speakdrudges12
           // drudges12("en-US"),
           // drudges1300"),
-          // speakdrudges13
           // drudges13("en-US"),
           // drudges1400"),
-          // speakdrudges14
           // drudges14("en-US"),
           // drudges1500"),
-          // speakdrudges15
           // drudges15("en-US"),
           // drudges1600"),
-          // speakdrudges16
           // drudges16("en-US"),
           // drudges1700"),
-          // speakdrudges17
           // drudges17("en-US"),
           // drudges1800"),
-          // speakdrudges18
           // drudges18("en-US"),
           // drudges1900"),
-          // speakdrudges19
           // drudges19("en-US"),
           // drudges_2000"),
-          // speakdrudges20
           // drudges20("en-US"),
           // drudges2100"),
-          // speakdrudges21
           // drudges21("en-US"),
           // drudges2200"),
-          // speakdrudges22
           // drudges22("en-US"),
         ],
       ),

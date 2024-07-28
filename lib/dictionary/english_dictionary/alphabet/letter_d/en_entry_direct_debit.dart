@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirectdebits1("en-US"),
           ),
           // directdebits200"),
-          // speakdirectdebits2
           // directdebits2("en-US"),
           // directdebits300"),
-          // speakdirectdebits3
           // directdebits3("en-US"),
           // directdebits400"),
-          // speakdirectdebits4
           // directdebits4("en-US"),
           // directdebits500"),
-          // speakdirectdebits5
           // directdebits5("en-US"),
           // directdebits600"),
-          // speakdirectdebits6
           // directdebits6("en-US"),
           // directdebits700"),
-          // speakdirectdebits7
           // directdebits7("en-US"),
           // directdebits800"),
-          // speakdirectdebits8
           // directdebits8("en-US"),
           // directdebits900"),
-          // speakdirectdebits9
           // directdebits9("en-US"),
           // directdebits_1000"),
-          // speakdirectdebits10
           // directdebits10("en-US"),
           // directdebits1100"),
-          // speakdirectdebits11
           // directdebits11("en-US"),
           // directdebits1200"),
-          // speakdirectdebits12
           // directdebits12("en-US"),
           // directdebits1300"),
-          // speakdirectdebits13
           // directdebits13("en-US"),
           // directdebits1400"),
-          // speakdirectdebits14
           // directdebits14("en-US"),
           // directdebits1500"),
-          // speakdirectdebits15
           // directdebits15("en-US"),
           // directdebits1600"),
-          // speakdirectdebits16
           // directdebits16("en-US"),
           // directdebits1700"),
-          // speakdirectdebits17
           // directdebits17("en-US"),
           // directdebits1800"),
-          // speakdirectdebits18
           // directdebits18("en-US"),
           // directdebits1900"),
-          // speakdirectdebits19
           // directdebits19("en-US"),
           // directdebits_2000"),
-          // speakdirectdebits20
           // directdebits20("en-US"),
           // directdebits2100"),
-          // speakdirectdebits21
           // directdebits21("en-US"),
           // directdebits2200"),
-          // speakdirectdebits22
           // directdebits22("en-US"),
         ],
       ),

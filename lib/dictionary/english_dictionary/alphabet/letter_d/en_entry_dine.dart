@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -250,64 +248,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdines2("en-US"),
           ),
           // dines300"),
-          // speakdines3
           // dines3("en-US"),
           // dines400"),
-          // speakdines4
           // dines4("en-US"),
           // dines500"),
-          // speakdines5
           // dines5("en-US"),
           // dines600"),
-          // speakdines6
           // dines6("en-US"),
           // dines700"),
-          // speakdines7
           // dines7("en-US"),
           // dines800"),
-          // speakdines8
           // dines8("en-US"),
           // dines900"),
-          // speakdines9
           // dines9("en-US"),
           // dines_1000"),
-          // speakdines10
           // dines10("en-US"),
           // dines1100"),
-          // speakdines11
           // dines11("en-US"),
           // dines1200"),
-          // speakdines12
           // dines12("en-US"),
           // dines1300"),
-          // speakdines13
           // dines13("en-US"),
           // dines1400"),
-          // speakdines14
           // dines14("en-US"),
           // dines1500"),
-          // speakdines15
           // dines15("en-US"),
           // dines1600"),
-          // speakdines16
           // dines16("en-US"),
           // dines1700"),
-          // speakdines17
           // dines17("en-US"),
           // dines1800"),
-          // speakdines18
           // dines18("en-US"),
           // dines1900"),
-          // speakdines19
           // dines19("en-US"),
           // dines_2000"),
-          // speakdines20
           // dines20("en-US"),
           // dines2100"),
-          // speakdines21
           // dines21("en-US"),
           // dines2200"),
-          // speakdines22
           // dines22("en-US"),
         ],
       ),

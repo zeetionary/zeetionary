@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeletions2("en-US"),
           ),
           // deletions300"),
-          // speakdeletions3
           // deletions3("en-US"),
           // deletions400"),
-          // speakdeletions4
           // deletions4("en-US"),
           // deletions500"),
-          // speakdeletions5
           // deletions5("en-US"),
           // deletions600"),
-          // speakdeletions6
           // deletions6("en-US"),
           // deletions700"),
-          // speakdeletions7
           // deletions7("en-US"),
           // deletions800"),
-          // speakdeletions8
           // deletions8("en-US"),
           // deletions900"),
-          // speakdeletions9
           // deletions9("en-US"),
           // deletions1000"),
-          // speakdeletions10
           // deletions10("en-US"),
           // deletions1100"),
-          // speakdeletions11
           // deletions11("en-US"),
           // deletions1200"),
-          // speakdeletions12
           // deletions12("en-US"),
           // deletions1300"),
-          // speakdeletions13
           // deletions13("en-US"),
           // deletions1400"),
-          // speakdeletions14
           // deletions14("en-US"),
           // deletions1500"),
-          // speakdeletions15
           // deletions15("en-US"),
           // deletions1600"),
-          // speakdeletions16
           // deletions16("en-US"),
           // deletions1700"),
-          // speakdeletions17
           // deletions17("en-US"),
           // deletions1800"),
-          // speakdeletions18
           // deletions18("en-US"),
           // deletions1900"),
-          // speakdeletions19
           // deletions19("en-US"),
           // "There have been some deletions from this text.0"),
-          // speakdeletions20
           // deletions20("en-US"),
           // deletions2100"),
-          // speakdeletions21
           // deletions21("en-US"),
           // deletions2200"),
-          // speakdeletions22
           // deletions22("en-US"),
         ],
       ),

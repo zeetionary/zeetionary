@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespondents3("en-US"),
           ),
           // despondents400"),
-          // speakdespondents4
           // despondents4("en-US"),
           // despondents500"),
-          // speakdespondents5
           // despondents5("en-US"),
           // despondents600"),
-          // speakdespondents6
           // despondents6("en-US"),
           // despondents700"),
-          // speakdespondents7
           // despondents7("en-US"),
           // despondents800"),
-          // speakdespondents8
           // despondents8("en-US"),
           // despondents900"),
-          // speakdespondents9
           // despondents9("en-US"),
           // despondents1000"),
-          // speakdespondents10
           // despondents10("en-US"),
           // despondents1100"),
-          // speakdespondents11
           // despondents11("en-US"),
           // despondents1200"),
-          // speakdespondents12
           // despondents12("en-US"),
           // despondents1300"),
-          // speakdespondents13
           // despondents13("en-US"),
           // despondents1400"),
-          // speakdespondents14
           // despondents14("en-US"),
           // despondents1500"),
-          // speakdespondents15
           // despondents15("en-US"),
           // despondents1600"),
-          // speakdespondents16
           // despondents16("en-US"),
           // despondents1700"),
-          // speakdespondents17
           // despondents17("en-US"),
           // despondents1800"),
-          // speakdespondents18
           // despondents18("en-US"),
           // despondents1900"),
-          // speakdespondents19
           // despondents19("en-US"),
           // "She was becoming increasingly despondent about the way things were going.0"),
-          // speakdespondents20
           // despondents20("en-US"),
           // despondents2100"),
-          // speakdespondents21
           // despondents21("en-US"),
           // despondents2200"),
-          // speakdespondents22
           // despondents22("en-US"),
         ],
       ),

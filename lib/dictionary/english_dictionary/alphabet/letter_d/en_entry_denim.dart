@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenims1("en-US"),
           ),
           // denims200"),
-          // speakdenims2
           // denims2("en-US"),
           // denims300"),
-          // speakdenims3
           // denims3("en-US"),
           // denims400"),
-          // speakdenims4
           // denims4("en-US"),
           // denims500"),
-          // speakdenims5
           // denims5("en-US"),
           // denims600"),
-          // speakdenims6
           // denims6("en-US"),
           // denims700"),
-          // speakdenims7
           // denims7("en-US"),
           // denims800"),
-          // speakdenims8
           // denims8("en-US"),
           // denims900"),
-          // speakdenims9
           // denims9("en-US"),
           // denims1000"),
-          // speakdenims10
           // denims10("en-US"),
           // denims1100"),
-          // speakdenims11
           // denims11("en-US"),
           // denims1200"),
-          // speakdenims12
           // denims12("en-US"),
           // denims1300"),
-          // speakdenims13
           // denims13("en-US"),
           // denims1400"),
-          // speakdenims14
           // denims14("en-US"),
           // denims1500"),
-          // speakdenims15
           // denims15("en-US"),
           // denims1600"),
-          // speakdenims16
           // denims16("en-US"),
           // denims1700"),
-          // speakdenims17
           // denims17("en-US"),
           // denims1800"),
-          // speakdenims18
           // denims18("en-US"),
           // denims1900"),
-          // speakdenims19
           // denims19("en-US"),
           // denims2000"),
-          // speakdenims20
           // denims20("en-US"),
           // denims2100"),
-          // speakdenims21
           // denims21("en-US"),
           // denims2200"),
-          // speakdenims22
           // denims22("en-US"),
         ],
       ),

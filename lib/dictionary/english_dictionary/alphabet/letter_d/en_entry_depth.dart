@@ -314,9 +314,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -435,31 +433,22 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepths13("en-US"),
           ),
           // depths1400"),
-          // speakdepths14
           // depths14("en-US"),
           // depths1500"),
-          // speakdepths15
           // depths15("en-US"),
           // depths1600"),
-          // speakdepths16
           // depths16("en-US"),
           // depths1700"),
-          // speakdepths17
           // depths17("en-US"),
           // depths1800"),
-          // speakdepths18
           // depths18("en-US"),
           // depths1900"),
-          // speakdepths19
           // depths19("en-US"),
           // "Water was found at a depth of 30 metres.0"),
-          // speakdepths20
           // depths20("en-US"),
           // depths2100"),
-          // speakdepths21
           // depths21("en-US"),
           // depths2200"),
-          // speakdepths22
           // depths22("en-US"),
         ],
       ),

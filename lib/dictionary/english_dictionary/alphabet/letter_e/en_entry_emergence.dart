@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,43 +386,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemergences2("en-US"),
           ),
           // emergences300emergences3
-          // speakemergences3
           // emergences400emergences4
-          // speakemergences4
           // emergences500emergences5
-          // speakemergences5
           // emergences600emergences6
-          // speakemergences6
           // emergences700emergences7
-          // speakemergences7
           // emergences800emergences8
-          // speakemergences8
           // emergences900emergences9
-          // speakemergences9
           // emergences_1000emergences10
-          // speakemergences10
           // emergences1100emergences11
-          // speakemergences11
           // emergences1200emergences12
-          // speakemergences12
           // emergences1300emergences13
-          // speakemergences13
           // emergences1400emergences14
-          // speakemergences14
           // emergences1500emergences15
-          // speakemergences15
           // emergences1600emergences16
-          // speakemergences16
           // emergences1700emergences17
-          // speakemergences17
           // emergences1800emergences18
-          // speakemergences18
           // emergences1900emergences19
-          // speakemergences19
           // emergences_2000emergences20
-          // speakemergences20
           // emergences2100emergences21
-          // speakemergences21
           // emergences2200emergences22
           // speakemergences22("en-US"""),
           //         ),

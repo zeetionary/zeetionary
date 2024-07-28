@@ -477,9 +477,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -660,9 +658,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeasys19("en-US"),
           ),
           // easys_2000easys20
-          // speakeasys20
           // easys2100easys21
-          // speakeasys21
           // easys2200easys22
           // speakeasys22("en-US"""),
           //         ),

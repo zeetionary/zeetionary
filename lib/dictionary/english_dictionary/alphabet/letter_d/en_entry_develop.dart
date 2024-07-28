@@ -417,9 +417,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -693,88 +691,60 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevelops27("en-US"),
           ),
           // develops2800"),
-          // speakdevelops28
           // develops28("en-US"),
           // develops2900"),
-          // speakdevelops29
           // develops29("en-US"),
           // develops_3000"),
-          // speakdevelops30
           // develops30("en-US"),
           // develops3100"),
-          // speakdevelops31
           // develops31("en-US"),
           // develops3200"),
-          // speakdevelops32
           // develops32("en-US"),
           // develops3300"),
-          // speakdevelops33
           // develops33("en-US"),
           // develops3400"),
-          // speakdevelops34
           // develops34("en-US"),
           // develops3500"),
-          // speakdevelops35
           // develops35("en-US"),
           // develops3600"),
-          // speakdevelops36
           // develops36("en-US"),
           // develops3700"),
-          // speakdevelops37
           // develops37("en-US"),
           // develops3800"),
-          // speakdevelops38
           // develops38("en-US"),
           // develops3900"),
-          // speakdevelops39
           // develops39("en-US"),
           // develops_4000"),
-          // speakdevelops40
           // develops40("en-US"),
           // develops4100"),
-          // speakdevelops41
           // develops41("en-US"),
           // develops4200"),
-          // speakdevelops42
           // develops42("en-US"),
           // develops4300"),
-          // speakdevelops43
           // develops43("en-US"),
           // develops4400"),
-          // speakdevelops44
           // develops44("en-US"),
           // develops4500"),
-          // speakdevelops45
           // develops45("en-US"),
           // develops4600"),
-          // speakdevelops46
           // develops46("en-US"),
           // develops4700"),
-          // speakdevelops47
           // develops47("en-US"),
           // develops4800"),
-          // speakdevelops48
           // develops48("en-US"),
           // develops4900"),
-          // speakdevelops49
           // develops49("en-US"),
           // develops_6000"),
-          // speakdevelops50
           // develops50("en-US"),
           // develops5100"),
-          // speakdevelops51
           // develops51("en-US"),
           // develops5200"),
-          // speakdevelops52
           // develops52("en-US"),
           // develops5300"),
-          // speakdevelops53
           // develops53("en-US"),
           // develops5400"),
-          // speakdevelops54
           // develops54("en-US"),
           // develops5500"),
-          // speakdevelops55
           // develops55("en-US"),
         ],
       ),

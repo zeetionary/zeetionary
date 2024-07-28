@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemonics1("en-US"),
           ),
           // demonics200"),
-          // speakdemonics2
           // demonics2("en-US"),
           // demonics300"),
-          // speakdemonics3
           // demonics3("en-US"),
           // demonics400"),
-          // speakdemonics4
           // demonics4("en-US"),
           // demonics500"),
-          // speakdemonics5
           // demonics5("en-US"),
           // demonics600"),
-          // speakdemonics6
           // demonics6("en-US"),
           // demonics700"),
-          // speakdemonics7
           // demonics7("en-US"),
           // demonics800"),
-          // speakdemonics8
           // demonics8("en-US"),
           // demonics900"),
-          // speakdemonics9
           // demonics9("en-US"),
           // demonics1000"),
-          // speakdemonics10
           // demonics10("en-US"),
           // demonics1100"),
-          // speakdemonics11
           // demonics11("en-US"),
           // demonics1200"),
-          // speakdemonics12
           // demonics12("en-US"),
           // demonics1300"),
-          // speakdemonics13
           // demonics13("en-US"),
           // demonics1400"),
-          // speakdemonics14
           // demonics14("en-US"),
           // demonics1500"),
-          // speakdemonics15
           // demonics15("en-US"),
           // demonics1600"),
-          // speakdemonics16
           // demonics16("en-US"),
           // demonics1700"),
-          // speakdemonics17
           // demonics17("en-US"),
           // demonics1800"),
-          // speakdemonics18
           // demonics18("en-US"),
           // demonics1900"),
-          // speakdemonics19
           // demonics19("en-US"),
           // demonics2000"),
-          // speakdemonics20
           // demonics20("en-US"),
           // demonics2100"),
-          // speakdemonics21
           // demonics21("en-US"),
           // demonics2200"),
-          // speakdemonics22
           // demonics22("en-US"),
         ],
       ),

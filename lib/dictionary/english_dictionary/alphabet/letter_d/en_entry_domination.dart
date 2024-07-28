@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -406,61 +404,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdominations3("en-US"),
           ),
           // dominations400"),
-          // speakdominations4
           // dominations4
           // dominations500"),
-          // speakdominations5
           // dominations5
           // dominations600"),
-          // speakdominations6
           // dominations6
           // dominations700"),
-          // speakdominations7
           // dominations7
           // dominations800"),
-          // speakdominations8
           // dominations8
           // dominations900"),
-          // speakdominations9
           // dominations9
           // dominations_1000"),
-          // speakdominations10
           // dominations10
           // dominations1100"),
-          // speakdominations11
           // dominations11
           // dominations1200"),
-          // speakdominations12
           // dominations12
           // dominations1300"),
-          // speakdominations13
           // dominations13
           // dominations1400"),
-          // speakdominations14
           // dominations14
           // dominations1500"),
-          // speakdominations15
           // dominations15
           // dominations1600"),
-          // speakdominations16
           // dominations16
           // dominations1700"),
-          // speakdominations17
           // dominations17
           // dominations1800"),
-          // speakdominations18
           // dominations18
           // dominations1900"),
-          // speakdominations19
           // dominations19
           // dominations_2000"),
-          // speakdominations20
           // dominations20
           // dominations2100"),
-          // speakdominations21
           // dominations21
           // dominations2200"),
-          // speakdominations22
           // dominations22("en-US"),
         ],
       ),

@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -399,61 +397,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoubtlesss3("en-US"),
           ),
           // doubtlesss400"),
-          // speakdoubtlesss4
           // doubtlesss4("en-US"),
           // doubtlesss500"),
-          // speakdoubtlesss5
           // doubtlesss5("en-US"),
           // doubtlesss600"),
-          // speakdoubtlesss6
           // doubtlesss6("en-US"),
           // doubtlesss700"),
-          // speakdoubtlesss7
           // doubtlesss7("en-US"),
           // doubtlesss800"),
-          // speakdoubtlesss8
           // doubtlesss8("en-US"),
           // doubtlesss900"),
-          // speakdoubtlesss9
           // doubtlesss9("en-US"),
           // doubtlesss_1000"),
-          // speakdoubtlesss10
           // doubtlesss10("en-US"),
           // doubtlesss1100"),
-          // speakdoubtlesss11
           // doubtlesss11("en-US"),
           // doubtlesss1200"),
-          // speakdoubtlesss12
           // doubtlesss12("en-US"),
           // doubtlesss1300"),
-          // speakdoubtlesss13
           // doubtlesss13("en-US"),
           // doubtlesss1400"),
-          // speakdoubtlesss14
           // doubtlesss14("en-US"),
           // doubtlesss1500"),
-          // speakdoubtlesss15
           // doubtlesss15("en-US"),
           // doubtlesss1600"),
-          // speakdoubtlesss16
           // doubtlesss16("en-US"),
           // doubtlesss1700"),
-          // speakdoubtlesss17
           // doubtlesss17("en-US"),
           // doubtlesss1800"),
-          // speakdoubtlesss18
           // doubtlesss18("en-US"),
           // doubtlesss1900"),
-          // speakdoubtlesss19
           // doubtlesss19("en-US"),
           // doubtlesss_2000"),
-          // speakdoubtlesss20
           // doubtlesss20("en-US"),
           // doubtlesss2100"),
-          // speakdoubtlesss21
           // doubtlesss21("en-US"),
           // doubtlesss2200"),
-          // speakdoubtlesss22
           // doubtlesss22("en-US"),
         ],
       ),

@@ -238,9 +238,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -281,61 +279,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscouragements3("en-US"),
           ),
           // discouragements400"),
-          // speakdiscouragements4
           // discouragements4
           // discouragements500"),
-          // speakdiscouragements5
           // discouragements5
           // discouragements600"),
-          // speakdiscouragements6
           // discouragements6
           // discouragements700"),
-          // speakdiscouragements7
           // discouragements7
           // discouragements800"),
-          // speakdiscouragements8
           // discouragements8
           // discouragements900"),
-          // speakdiscouragements9
           // discouragements9
           // discouragements_1000"),
-          // speakdiscouragements10
           // discouragements10
           // discouragements1100"),
-          // speakdiscouragements11
           // discouragements11
           // discouragements1200"),
-          // speakdiscouragements12
           // discouragements12
           // discouragements1300"),
-          // speakdiscouragements13
           // discouragements13
           // discouragements1400"),
-          // speakdiscouragements14
           // discouragements14
           // discouragements1500"),
-          // speakdiscouragements15
           // discouragements15
           // discouragements1600"),
-          // speakdiscouragements16
           // discouragements16
           // discouragements1700"),
-          // speakdiscouragements17
           // discouragements17
           // discouragements1800"),
-          // speakdiscouragements18
           // discouragements18
           // discouragements1900"),
-          // speakdiscouragements19
           // discouragements19
           // discouragements_2000"),
-          // speakdiscouragements20
           // discouragements20
           // discouragements2100"),
-          // speakdiscouragements21
           // discouragements21
           // discouragements2200"),
-          // speakdiscouragements22
           // discouragements22("en-US"),
         ],
       ),

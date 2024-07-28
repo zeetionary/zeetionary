@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscuss2("en-US"),
           ),
           // discuss300"),
-          // speakdiscuss3
           // discuss3("en-US"),
           // discuss400"),
-          // speakdiscuss4
           // discuss4("en-US"),
           // discuss500"),
-          // speakdiscuss5
           // discuss5("en-US"),
           // discuss600"),
-          // speakdiscuss6
           // discuss6("en-US"),
           // discuss700"),
-          // speakdiscuss7
           // discuss7("en-US"),
           // discuss800"),
-          // speakdiscuss8
           // discuss8("en-US"),
           // discuss900"),
-          // speakdiscuss9
           // discuss9("en-US"),
           // discuss_1000"),
-          // speakdiscuss10
           // discuss10("en-US"),
           // discuss1100"),
-          // speakdiscuss11
           // discuss11("en-US"),
           // discuss1200"),
-          // speakdiscuss12
           // discuss12("en-US"),
           // discuss1300"),
-          // speakdiscuss13
           // discuss13("en-US"),
           // discuss1400"),
-          // speakdiscuss14
           // discuss14("en-US"),
           // discuss1500"),
-          // speakdiscuss15
           // discuss15("en-US"),
           // discuss1600"),
-          // speakdiscuss16
           // discuss16("en-US"),
           // discuss1700"),
-          // speakdiscuss17
           // discuss17("en-US"),
           // discuss1800"),
-          // speakdiscuss18
           // discuss18("en-US"),
           // discuss1900"),
-          // speakdiscuss19
           // discuss19("en-US"),
           // discuss_2000"),
-          // speakdiscuss20
           // discuss20("en-US"),
           // discuss2100"),
-          // speakdiscuss21
           // discuss21("en-US"),
           // discuss2200"),
-          // speakdiscuss22
           // discuss22("en-US"),
         ],
       ),

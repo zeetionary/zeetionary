@@ -393,9 +393,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -625,55 +623,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirections24("en-US"),
           ),
           // directions2500"),
-          // speakdirections25
           // directions25("en-US"),
           // directions2600"),
-          // speakdirections26
           // directions26("en-US"),
           // directions2700"),
-          // speakdirections27
           // directions27("en-US"),
           // directions2800"),
-          // speakdirections28
           // directions28("en-US"),
           // directions2900"),
-          // speakdirections29
           // directions29("en-US"),
           // directions_3000"),
-          // speakdirections30
           // directions30("en-US"),
           // directions3100"),
-          // speakdirections31
           // directions31("en-US"),
           // directions3200"),
-          // speakdirections32
           // directions32("en-US"),
           // directions3300"),
-          // speakdirections33
           // directions33("en-US"),
           // directions3400"),
-          // speakdirections34
           // directions34("en-US"),
           // directions3500"),
-          // speakdirections35
           // directions35("en-US"),
           // directions3600"),
-          // speakdirections36
           // directions36("en-US"),
           // directions3700"),
-          // speakdirections37
           // directions37("en-US"),
           // directions3800"),
-          // speakdirections38
           // directions38("en-US"),
           // directions3900"),
-          // speakdirections39
           // directions39("en-US"),
           // directions_4000"),
-          // speakdirections40
           // directions40("en-US"),
           // directions4100"),
-          // speakdirections41
           // directions41("en-US"),
         ],
       ),

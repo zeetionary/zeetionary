@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -401,61 +399,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistrusts3("en-US"),
           ),
           // distrusts400"),
-          // speakdistrusts4
           // distrusts4("en-US"),
           // distrusts500"),
-          // speakdistrusts5
           // distrusts5("en-US"),
           // distrusts600"),
-          // speakdistrusts6
           // distrusts6("en-US"),
           // distrusts700"),
-          // speakdistrusts7
           // distrusts7("en-US"),
           // distrusts800"),
-          // speakdistrusts8
           // distrusts8("en-US"),
           // distrusts900"),
-          // speakdistrusts9
           // distrusts9("en-US"),
           // distrusts_1000"),
-          // speakdistrusts10
           // distrusts10("en-US"),
           // distrusts1100"),
-          // speakdistrusts11
           // distrusts11("en-US"),
           // distrusts1200"),
-          // speakdistrusts12
           // distrusts12("en-US"),
           // distrusts1300"),
-          // speakdistrusts13
           // distrusts13("en-US"),
           // distrusts1400"),
-          // speakdistrusts14
           // distrusts14("en-US"),
           // distrusts1500"),
-          // speakdistrusts15
           // distrusts15("en-US"),
           // distrusts1600"),
-          // speakdistrusts16
           // distrusts16("en-US"),
           // distrusts1700"),
-          // speakdistrusts17
           // distrusts17("en-US"),
           // distrusts1800"),
-          // speakdistrusts18
           // distrusts18("en-US"),
           // distrusts1900"),
-          // speakdistrusts19
           // distrusts19("en-US"),
           // distrusts_2000"),
-          // speakdistrusts20
           // distrusts20("en-US"),
           // distrusts2100"),
-          // speakdistrusts21
           // distrusts21("en-US"),
           // distrusts2200"),
-          // speakdistrusts22
           // distrusts22("en-US"),
         ],
       ),

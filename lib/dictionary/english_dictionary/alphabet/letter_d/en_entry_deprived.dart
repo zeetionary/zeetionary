@@ -247,9 +247,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -286,58 +284,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepriveds4("en-US"),
           ),
           // depriveds500"),
-          // speakdepriveds5
           // depriveds5("en-US"),
           // depriveds600"),
-          // speakdepriveds6
           // depriveds6("en-US"),
           // depriveds700"),
-          // speakdepriveds7
           // depriveds7("en-US"),
           // depriveds800"),
-          // speakdepriveds8
           // depriveds8("en-US"),
           // depriveds900"),
-          // speakdepriveds9
           // depriveds9("en-US"),
           // depriveds1000"),
-          // speakdepriveds10
           // depriveds10("en-US"),
           // depriveds1100"),
-          // speakdepriveds11
           // depriveds11("en-US"),
           // depriveds1200"),
-          // speakdepriveds12
           // depriveds12("en-US"),
           // depriveds1300"),
-          // speakdepriveds13
           // depriveds13("en-US"),
           // depriveds1400"),
-          // speakdepriveds14
           // depriveds14("en-US"),
           // depriveds1500"),
-          // speakdepriveds15
           // depriveds15("en-US"),
           // depriveds1600"),
-          // speakdepriveds16
           // depriveds16("en-US"),
           // depriveds1700"),
-          // speakdepriveds17
           // depriveds17("en-US"),
           // depriveds1800"),
-          // speakdepriveds18
           // depriveds18("en-US"),
           // depriveds1900"),
-          // speakdepriveds19
           // depriveds19("en-US"),
           // "He took pictures in deprived areas of the city.0"),
-          // speakdepriveds20
           // depriveds20("en-US"),
           // depriveds2100"),
-          // speakdepriveds21
           // depriveds21("en-US"),
           // depriveds2200"),
-          // speakdepriveds22
           // depriveds22("en-US"),
         ],
       ),

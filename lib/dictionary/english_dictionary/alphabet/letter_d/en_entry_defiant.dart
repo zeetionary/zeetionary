@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefiants2("en-US"),
           ),
           // defiants300"),
-          // speakdefiants3
           // defiants3("en-US"),
           // defiants400"),
-          // speakdefiants4
           // defiants4("en-US"),
           // defiants500"),
-          // speakdefiants5
           // defiants5("en-US"),
           // defiants600"),
-          // speakdefiants6
           // defiants6("en-US"),
           // defiants700"),
-          // speakdefiants7
           // defiants7("en-US"),
           // defiants800"),
-          // speakdefiants8
           // defiants8("en-US"),
           // defiants900"),
-          // speakdefiants9
           // defiants9("en-US"),
           // defiants1000"),
-          // speakdefiants10
           // defiants10("en-US"),
           // defiants1100"),
-          // speakdefiants11
           // defiants11("en-US"),
           // defiants1200"),
-          // speakdefiants12
           // defiants12("en-US"),
           // defiants1300"),
-          // speakdefiants13
           // defiants13("en-US"),
           // defiants1400"),
-          // speakdefiants14
           // defiants14("en-US"),
           // defiants1500"),
-          // speakdefiants15
           // defiants15("en-US"),
           // defiants1600"),
-          // speakdefiants16
           // defiants16("en-US"),
           // defiants1700"),
-          // speakdefiants17
           // defiants17("en-US"),
           // defiants1800"),
-          // speakdefiants18
           // defiants18("en-US"),
           // defiants1900"),
-          // speakdefiants19
           // defiants19("en-US"),
           // "The terrorists sent a defiant message to the government.0"),
-          // speakdefiants20
           // defiants20("en-US"),
           // defiants2100"),
-          // speakdefiants21
           // defiants21("en-US"),
           // defiants2200"),
-          // speakdefiants22
           // defiants22("en-US"),
         ],
       ),

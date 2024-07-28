@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdummyruns1("en-US"),
           ),
           // dummyruns200
-          // speakdummyruns2
           // dummyruns2("en-US"""),
           // dummyruns300
-          // speakdummyruns3
           // dummyruns3("en-US"""),
           // dummyruns400
-          // speakdummyruns4
           // dummyruns4("en-US"""),
           // dummyruns500
-          // speakdummyruns5
           // dummyruns5("en-US"""),
           // dummyruns600
-          // speakdummyruns6
           // dummyruns6("en-US"""),
           // dummyruns700
-          // speakdummyruns7
           // dummyruns7("en-US"""),
           // dummyruns800
-          // speakdummyruns8
           // dummyruns8("en-US"""),
           // dummyruns900
-          // speakdummyruns9
           // dummyruns9("en-US"""),
           // dummyruns_1000
-          // speakdummyruns10
           // dummyruns10("en-US"""),
           // dummyruns1100
-          // speakdummyruns11
           // dummyruns11("en-US"""),
           // dummyruns1200
-          // speakdummyruns12
           // dummyruns12("en-US"""),
           // dummyruns1300
-          // speakdummyruns13
           // dummyruns13("en-US"""),
           // dummyruns1400
-          // speakdummyruns14
           // dummyruns14("en-US"""),
           // dummyruns1500
-          // speakdummyruns15
           // dummyruns15("en-US"""),
           // dummyruns1600
-          // speakdummyruns16
           // dummyruns16("en-US"""),
           // dummyruns1700
-          // speakdummyruns17
           // dummyruns17("en-US"""),
           // dummyruns1800
-          // speakdummyruns18
           // dummyruns18("en-US"""),
           // dummyruns1900
-          // speakdummyruns19
           // dummyruns19("en-US"""),
           // dummyruns_2000
-          // speakdummyruns20
           // dummyruns20("en-US"""),
           // dummyruns2100
-          // speakdummyruns21
           // dummyruns21("en-US"""),
           // dummyruns2200
-          // speakdummyruns22
           // dummyruns22("en-US"""),
         ],
       ),

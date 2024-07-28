@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -407,61 +405,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdubs3("en-US"),
           ),
           // dubs400"),
-          // speakdubs4
           // dubs4("en-US"),
           // dubs500"),
-          // speakdubs5
           // dubs5("en-US"),
           // dubs600"),
-          // speakdubs6
           // dubs6("en-US"),
           // dubs700"),
-          // speakdubs7
           // dubs7("en-US"),
           // dubs800"),
-          // speakdubs8
           // dubs8("en-US"),
           // dubs900"),
-          // speakdubs9
           // dubs9("en-US"),
           // dubs_1000"),
-          // speakdubs10
           // dubs10("en-US"),
           // dubs1100"),
-          // speakdubs11
           // dubs11("en-US"),
           // dubs1200"),
-          // speakdubs12
           // dubs12("en-US"),
           // dubs1300"),
-          // speakdubs13
           // dubs13("en-US"),
           // dubs1400"),
-          // speakdubs14
           // dubs14("en-US"),
           // dubs1500"),
-          // speakdubs15
           // dubs15("en-US"),
           // dubs1600"),
-          // speakdubs16
           // dubs16("en-US"),
           // dubs1700"),
-          // speakdubs17
           // dubs17("en-US"),
           // dubs1800"),
-          // speakdubs18
           // dubs18("en-US"),
           // dubs1900"),
-          // speakdubs19
           // dubs19("en-US"),
           // dubs_2000"),
-          // speakdubs20
           // dubs20("en-US"),
           // dubs2100"),
-          // speakdubs21
           // dubs21("en-US"),
           // dubs2200"),
-          // speakdubs22
           // dubs22("en-US"),
         ],
       ),

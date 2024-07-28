@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -252,64 +250,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevastations2("en-US"),
           ),
           // devastations300"),
-          // speakdevastations3
           // devastations3("en-US"),
           // devastations400"),
-          // speakdevastations4
           // devastations4("en-US"),
           // devastations500"),
-          // speakdevastations5
           // devastations5("en-US"),
           // devastations600"),
-          // speakdevastations6
           // devastations6("en-US"),
           // devastations700"),
-          // speakdevastations7
           // devastations7("en-US"),
           // devastations800"),
-          // speakdevastations8
           // devastations8("en-US"),
           // devastations900"),
-          // speakdevastations9
           // devastations9("en-US"),
           // devastations1000"),
-          // speakdevastations10
           // devastations10("en-US"),
           // devastations1100"),
-          // speakdevastations11
           // devastations11("en-US"),
           // devastations1200"),
-          // speakdevastations12
           // devastations12("en-US"),
           // devastations1300"),
-          // speakdevastations13
           // devastations13("en-US"),
           // devastations1400"),
-          // speakdevastations14
           // devastations14("en-US"),
           // devastations1500"),
-          // speakdevastations15
           // devastations15("en-US"),
           // devastations1600"),
-          // speakdevastations16
           // devastations16("en-US"),
           // devastations1700"),
-          // speakdevastations17
           // devastations17("en-US"),
           // devastations1800"),
-          // speakdevastations18
           // devastations18("en-US"),
           // devastations1900"),
-          // speakdevastations19
           // devastations19("en-US"),
           // devastations_2000"),
-          // speakdevastations20
           // devastations20("en-US"),
           // devastations2100"),
-          // speakdevastations21
           // devastations21("en-US"),
           // devastations2200"),
-          // speakdevastations22
           // devastations22("en-US"),
         ],
       ),

@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirectcurrents2("en-US"),
           ),
           // directcurrents300"),
-          // speakdirectcurrents3
           // directcurrents3("en-US"),
           // directcurrents400"),
-          // speakdirectcurrents4
           // directcurrents4("en-US"),
           // directcurrents500"),
-          // speakdirectcurrents5
           // directcurrents5("en-US"),
           // directcurrents600"),
-          // speakdirectcurrents6
           // directcurrents6("en-US"),
           // directcurrents700"),
-          // speakdirectcurrents7
           // directcurrents7("en-US"),
           // directcurrents800"),
-          // speakdirectcurrents8
           // directcurrents8("en-US"),
           // directcurrents900"),
-          // speakdirectcurrents9
           // directcurrents9("en-US"),
           // directcurrents_1000"),
-          // speakdirectcurrents10
           // directcurrents10("en-US"),
           // directcurrents1100"),
-          // speakdirectcurrents11
           // directcurrents11("en-US"),
           // directcurrents1200"),
-          // speakdirectcurrents12
           // directcurrents12("en-US"),
           // directcurrents1300"),
-          // speakdirectcurrents13
           // directcurrents13("en-US"),
           // directcurrents1400"),
-          // speakdirectcurrents14
           // directcurrents14("en-US"),
           // directcurrents1500"),
-          // speakdirectcurrents15
           // directcurrents15("en-US"),
           // directcurrents1600"),
-          // speakdirectcurrents16
           // directcurrents16("en-US"),
           // directcurrents1700"),
-          // speakdirectcurrents17
           // directcurrents17("en-US"),
           // directcurrents1800"),
-          // speakdirectcurrents18
           // directcurrents18("en-US"),
           // directcurrents1900"),
-          // speakdirectcurrents19
           // directcurrents19("en-US"),
           // directcurrents_2000"),
-          // speakdirectcurrents20
           // directcurrents20("en-US"),
           // directcurrents2100"),
-          // speakdirectcurrents21
           // directcurrents21("en-US"),
           // directcurrents2200"),
-          // speakdirectcurrents22
           // directcurrents22("en-US"),
         ],
       ),

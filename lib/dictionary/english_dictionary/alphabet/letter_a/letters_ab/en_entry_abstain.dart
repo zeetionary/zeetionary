@@ -12,7 +12,6 @@ class EnglishEntryabstain extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabstain(String languageCode) async {
-    // speakAbstain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryabstain extends StatelessWidget {
   }
 
   Future<void> speaka23485(String languageCode) async {
-    // speakAbstain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryabstain extends StatelessWidget {
   }
 
   Future<void> speaka26987(String languageCode) async {
-    // speakAbstain
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

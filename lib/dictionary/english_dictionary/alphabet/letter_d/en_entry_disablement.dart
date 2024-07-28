@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisablements1("en-US"),
           ),
           // disablements200"),
-          // speakdisablements2
           // disablements2("en-US"),
           // disablements300"),
-          // speakdisablements3
           // disablements3("en-US"),
           // disablements400"),
-          // speakdisablements4
           // disablements4("en-US"),
           // disablements500"),
-          // speakdisablements5
           // disablements5("en-US"),
           // disablements600"),
-          // speakdisablements6
           // disablements6("en-US"),
           // disablements700"),
-          // speakdisablements7
           // disablements7("en-US"),
           // disablements800"),
-          // speakdisablements8
           // disablements8("en-US"),
           // disablements900"),
-          // speakdisablements9
           // disablements9("en-US"),
           // disablements_1000"),
-          // speakdisablements10
           // disablements10("en-US"),
           // disablements1100"),
-          // speakdisablements11
           // disablements11("en-US"),
           // disablements1200"),
-          // speakdisablements12
           // disablements12("en-US"),
           // disablements1300"),
-          // speakdisablements13
           // disablements13("en-US"),
           // disablements1400"),
-          // speakdisablements14
           // disablements14("en-US"),
           // disablements1500"),
-          // speakdisablements15
           // disablements15("en-US"),
           // disablements1600"),
-          // speakdisablements16
           // disablements16("en-US"),
           // disablements1700"),
-          // speakdisablements17
           // disablements17("en-US"),
           // disablements1800"),
-          // speakdisablements18
           // disablements18("en-US"),
           // disablements1900"),
-          // speakdisablements19
           // disablements19("en-US"),
           // disablements_2000"),
-          // speakdisablements20
           // disablements20("en-US"),
           // disablements2100"),
-          // speakdisablements21
           // disablements21("en-US"),
           // disablements2200"),
-          // speakdisablements22
           // disablements22("en-US"),
         ],
       ),

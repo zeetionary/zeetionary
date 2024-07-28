@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -282,61 +280,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefinables3("en-US"),
           ),
           // definables400"),
-          // speakdefinables4
           // definables4("en-US"),
           // definables500"),
-          // speakdefinables5
           // definables5("en-US"),
           // definables600"),
-          // speakdefinables6
           // definables6("en-US"),
           // definables700"),
-          // speakdefinables7
           // definables7("en-US"),
           // definables800"),
-          // speakdefinables8
           // definables8("en-US"),
           // definables900"),
-          // speakdefinables9
           // definables9("en-US"),
           // definables1000"),
-          // speakdefinables10
           // definables10("en-US"),
           // definables1100"),
-          // speakdefinables11
           // definables11("en-US"),
           // definables1200"),
-          // speakdefinables12
           // definables12("en-US"),
           // definables1300"),
-          // speakdefinables13
           // definables13("en-US"),
           // definables1400"),
-          // speakdefinables14
           // definables14("en-US"),
           // definables1500"),
-          // speakdefinables15
           // definables15("en-US"),
           // definables1600"),
-          // speakdefinables16
           // definables16("en-US"),
           // definables1700"),
-          // speakdefinables17
           // definables17("en-US"),
           // definables1800"),
-          // speakdefinables18
           // definables18("en-US"),
           // definables1900"),
-          // speakdefinables19
           // definables19("en-US"),
           // "Your office must be a clearly definable space in which no personal activities take place.0"),
-          // speakdefinables20
           // definables20("en-US"),
           // definables2100"),
-          // speakdefinables21
           // definables21("en-US"),
           // definables2200"),
-          // speakdefinables22
           // definables22("en-US"),
         ],
       ),

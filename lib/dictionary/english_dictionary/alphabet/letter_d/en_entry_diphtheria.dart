@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiphtherias1("en-US"),
           ),
           // diphtherias200"),
-          // speakdiphtherias2
           // diphtherias2("en-US"),
           // diphtherias300"),
-          // speakdiphtherias3
           // diphtherias3("en-US"),
           // diphtherias400"),
-          // speakdiphtherias4
           // diphtherias4("en-US"),
           // diphtherias500"),
-          // speakdiphtherias5
           // diphtherias5("en-US"),
           // diphtherias600"),
-          // speakdiphtherias6
           // diphtherias6("en-US"),
           // diphtherias700"),
-          // speakdiphtherias7
           // diphtherias7("en-US"),
           // diphtherias800"),
-          // speakdiphtherias8
           // diphtherias8("en-US"),
           // diphtherias900"),
-          // speakdiphtherias9
           // diphtherias9("en-US"),
           // diphtherias_1000"),
-          // speakdiphtherias10
           // diphtherias10("en-US"),
           // diphtherias1100"),
-          // speakdiphtherias11
           // diphtherias11("en-US"),
           // diphtherias1200"),
-          // speakdiphtherias12
           // diphtherias12("en-US"),
           // diphtherias1300"),
-          // speakdiphtherias13
           // diphtherias13("en-US"),
           // diphtherias1400"),
-          // speakdiphtherias14
           // diphtherias14("en-US"),
           // diphtherias1500"),
-          // speakdiphtherias15
           // diphtherias15("en-US"),
           // diphtherias1600"),
-          // speakdiphtherias16
           // diphtherias16("en-US"),
           // diphtherias1700"),
-          // speakdiphtherias17
           // diphtherias17("en-US"),
           // diphtherias1800"),
-          // speakdiphtherias18
           // diphtherias18("en-US"),
           // diphtherias1900"),
-          // speakdiphtherias19
           // diphtherias19("en-US"),
           // diphtherias_2000"),
-          // speakdiphtherias20
           // diphtherias20("en-US"),
           // diphtherias2100"),
-          // speakdiphtherias21
           // diphtherias21("en-US"),
           // diphtherias2200"),
-          // speakdiphtherias22
           // diphtherias22("en-US"),
         ],
       ),

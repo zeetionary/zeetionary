@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdejections2("en-US"),
           ),
           // dejections300"),
-          // speakdejections3
           // dejections3("en-US"),
           // dejections400"),
-          // speakdejections4
           // dejections4("en-US"),
           // dejections500"),
-          // speakdejections5
           // dejections5("en-US"),
           // dejections600"),
-          // speakdejections6
           // dejections6("en-US"),
           // dejections700"),
-          // speakdejections7
           // dejections7("en-US"),
           // dejections800"),
-          // speakdejections8
           // dejections8("en-US"),
           // dejections900"),
-          // speakdejections9
           // dejections9("en-US"),
           // dejections1000"),
-          // speakdejections10
           // dejections10("en-US"),
           // dejections1100"),
-          // speakdejections11
           // dejections11("en-US"),
           // dejections1200"),
-          // speakdejections12
           // dejections12("en-US"),
           // dejections1300"),
-          // speakdejections13
           // dejections13("en-US"),
           // dejections1400"),
-          // speakdejections14
           // dejections14("en-US"),
           // dejections1500"),
-          // speakdejections15
           // dejections15("en-US"),
           // dejections1600"),
-          // speakdejections16
           // dejections16("en-US"),
           // dejections1700"),
-          // speakdejections17
           // dejections17("en-US"),
           // dejections1800"),
-          // speakdejections18
           // dejections18("en-US"),
           // dejections1900"),
-          // speakdejections19
           // dejections19("en-US"),
           // "She made no effort to hide her dejection.0"),
-          // speakdejections20
           // dejections20("en-US"),
           // dejections2100"),
-          // speakdejections21
           // dejections21("en-US"),
           // dejections2200"),
-          // speakdejections22
           // dejections22("en-US"),
         ],
       ),

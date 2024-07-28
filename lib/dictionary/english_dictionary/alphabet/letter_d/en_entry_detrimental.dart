@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetrimentals2("en-US"),
           ),
           // detrimentals300"),
-          // speakdetrimentals3
           // detrimentals3("en-US"),
           // detrimentals400"),
-          // speakdetrimentals4
           // detrimentals4("en-US"),
           // detrimentals500"),
-          // speakdetrimentals5
           // detrimentals5("en-US"),
           // detrimentals600"),
-          // speakdetrimentals6
           // detrimentals6("en-US"),
           // detrimentals700"),
-          // speakdetrimentals7
           // detrimentals7("en-US"),
           // detrimentals800"),
-          // speakdetrimentals8
           // detrimentals8("en-US"),
           // detrimentals900"),
-          // speakdetrimentals9
           // detrimentals9("en-US"),
           // detrimentals1000"),
-          // speakdetrimentals10
           // detrimentals10("en-US"),
           // detrimentals1100"),
-          // speakdetrimentals11
           // detrimentals11("en-US"),
           // detrimentals1200"),
-          // speakdetrimentals12
           // detrimentals12("en-US"),
           // detrimentals1300"),
-          // speakdetrimentals13
           // detrimentals13("en-US"),
           // detrimentals1400"),
-          // speakdetrimentals14
           // detrimentals14("en-US"),
           // detrimentals1500"),
-          // speakdetrimentals15
           // detrimentals15("en-US"),
           // detrimentals1600"),
-          // speakdetrimentals16
           // detrimentals16("en-US"),
           // detrimentals1700"),
-          // speakdetrimentals17
           // detrimentals17("en-US"),
           // detrimentals1800"),
-          // speakdetrimentals18
           // detrimentals18("en-US"),
           // detrimentals1900"),
-          // speakdetrimentals19
           // detrimentals19("en-US"),
           // "This move could be seriously detrimental to the economy.0"),
-          // speakdetrimentals20
           // detrimentals20("en-US"),
           // detrimentals2100"),
-          // speakdetrimentals21
           // detrimentals21("en-US"),
           // detrimentals2200"),
-          // speakdetrimentals22
           // detrimentals22("en-US"),
         ],
       ),

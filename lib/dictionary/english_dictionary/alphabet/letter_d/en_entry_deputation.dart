@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -265,64 +263,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeputations2("en-US"),
           ),
           // deputations300"),
-          // speakdeputations3
           // deputations3("en-US"),
           // deputations400"),
-          // speakdeputations4
           // deputations4("en-US"),
           // deputations500"),
-          // speakdeputations5
           // deputations5("en-US"),
           // deputations600"),
-          // speakdeputations6
           // deputations6("en-US"),
           // deputations700"),
-          // speakdeputations7
           // deputations7("en-US"),
           // deputations800"),
-          // speakdeputations8
           // deputations8("en-US"),
           // deputations900"),
-          // speakdeputations9
           // deputations9("en-US"),
           // deputations1000"),
-          // speakdeputations10
           // deputations10("en-US"),
           // deputations1100"),
-          // speakdeputations11
           // deputations11("en-US"),
           // deputations1200"),
-          // speakdeputations12
           // deputations12("en-US"),
           // deputations1300"),
-          // speakdeputations13
           // deputations13("en-US"),
           // deputations1400"),
-          // speakdeputations14
           // deputations14("en-US"),
           // deputations1500"),
-          // speakdeputations15
           // deputations15("en-US"),
           // deputations1600"),
-          // speakdeputations16
           // deputations16("en-US"),
           // deputations1700"),
-          // speakdeputations17
           // deputations17("en-US"),
           // deputations1800"),
-          // speakdeputations18
           // deputations18("en-US"),
           // deputations1900"),
-          // speakdeputations19
           // deputations19("en-US"),
           // "Both sides in the dispute sent deputations to the prime minister's office.0"),
-          // speakdeputations20
           // deputations20("en-US"),
           // deputations2100"),
-          // speakdeputations21
           // deputations21("en-US"),
           // deputations2200"),
-          // speakdeputations22
           // deputations22("en-US"),
         ],
       ),

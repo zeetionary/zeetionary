@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetours2("en-US"),
           ),
           // detours300"),
-          // speakdetours3
           // detours3("en-US"),
           // detours400"),
-          // speakdetours4
           // detours4("en-US"),
           // detours500"),
-          // speakdetours5
           // detours5("en-US"),
           // detours600"),
-          // speakdetours6
           // detours6("en-US"),
           // detours700"),
-          // speakdetours7
           // detours7("en-US"),
           // detours800"),
-          // speakdetours8
           // detours8("en-US"),
           // detours900"),
-          // speakdetours9
           // detours9("en-US"),
           // detours1000"),
-          // speakdetours10
           // detours10("en-US"),
           // detours1100"),
-          // speakdetours11
           // detours11("en-US"),
           // detours1200"),
-          // speakdetours12
           // detours12("en-US"),
           // detours1300"),
-          // speakdetours13
           // detours13("en-US"),
           // detours1400"),
-          // speakdetours14
           // detours14("en-US"),
           // detours1500"),
-          // speakdetours15
           // detours15("en-US"),
           // detours1600"),
-          // speakdetours16
           // detours16("en-US"),
           // detours1700"),
-          // speakdetours17
           // detours17("en-US"),
           // detours1800"),
-          // speakdetours18
           // detours18("en-US"),
           // detours1900"),
-          // speakdetours19
           // detours19("en-US"),
           // "It's well worth making a detour to see the village.0"),
-          // speakdetours20
           // detours20("en-US"),
           // detours2100"),
-          // speakdetours21
           // detours21("en-US"),
           // detours2200"),
-          // speakdetours22
           // detours22("en-US"),
         ],
       ),

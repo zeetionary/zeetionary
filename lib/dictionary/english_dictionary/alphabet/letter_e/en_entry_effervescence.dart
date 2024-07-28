@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,43 +382,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeffervescences2("en-US"),
           ),
           // effervescences300effervescences3
-          // speakeffervescences3
           // effervescences400effervescences4
-          // speakeffervescences4
           // effervescences500effervescences5
-          // speakeffervescences5
           // effervescences600effervescences6
-          // speakeffervescences6
           // effervescences700effervescences7
-          // speakeffervescences7
           // effervescences800effervescences8
-          // speakeffervescences8
           // effervescences900effervescences9
-          // speakeffervescences9
           // effervescences_1000effervescences10
-          // speakeffervescences10
           // effervescences1100effervescences11
-          // speakeffervescences11
           // effervescences1200effervescences12
-          // speakeffervescences12
           // effervescences1300effervescences13
-          // speakeffervescences13
           // effervescences1400effervescences14
-          // speakeffervescences14
           // effervescences1500effervescences15
-          // speakeffervescences15
           // effervescences1600effervescences16
-          // speakeffervescences16
           // effervescences1700effervescences17
-          // speakeffervescences17
           // effervescences1800effervescences18
-          // speakeffervescences18
           // effervescences1900effervescences19
-          // speakeffervescences19
           // effervescences_2000effervescences20
-          // speakeffervescences20
           // effervescences2100effervescences21
-          // speakeffervescences21
           // effervescences2200effervescences22
           // speakeffervescences22("en-US"""),
           //         ),

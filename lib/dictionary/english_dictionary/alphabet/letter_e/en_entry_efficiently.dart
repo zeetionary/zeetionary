@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,43 +385,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakefficientlys2("en-US"),
           ),
           // efficientlys300efficientlys3
-          // speakefficientlys3
           // efficientlys400efficientlys4
-          // speakefficientlys4
           // efficientlys500efficientlys5
-          // speakefficientlys5
           // efficientlys600efficientlys6
-          // speakefficientlys6
           // efficientlys700efficientlys7
-          // speakefficientlys7
           // efficientlys800efficientlys8
-          // speakefficientlys8
           // efficientlys900efficientlys9
-          // speakefficientlys9
           // efficientlys_1000efficientlys10
-          // speakefficientlys10
           // efficientlys1100efficientlys11
-          // speakefficientlys11
           // efficientlys1200efficientlys12
-          // speakefficientlys12
           // efficientlys1300efficientlys13
-          // speakefficientlys13
           // efficientlys1400efficientlys14
-          // speakefficientlys14
           // efficientlys1500efficientlys15
-          // speakefficientlys15
           // efficientlys1600efficientlys16
-          // speakefficientlys16
           // efficientlys1700efficientlys17
-          // speakefficientlys17
           // efficientlys1800efficientlys18
-          // speakefficientlys18
           // efficientlys1900efficientlys19
-          // speakefficientlys19
           // efficientlys_2000efficientlys20
-          // speakefficientlys20
           // efficientlys2100efficientlys21
-          // speakefficientlys21
           // efficientlys2200efficientlys22
           // speakefficientlys22("en-US"""),
           //         ),

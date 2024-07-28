@@ -234,7 +234,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabidings1(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -242,7 +241,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings2(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -250,7 +248,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings3(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -258,7 +255,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings4(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -266,7 +262,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings5(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -274,7 +269,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings6(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -282,7 +276,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings7(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -290,7 +283,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings8(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -298,7 +290,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings9(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -306,7 +297,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings10(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -314,7 +304,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings11(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -322,7 +311,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings12(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -330,7 +318,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabidings13(String languageCode) async {
-    // speakabiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -338,7 +325,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speaka625(String languageCode) async {
-    // speakAbiding
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -349,9 +335,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """

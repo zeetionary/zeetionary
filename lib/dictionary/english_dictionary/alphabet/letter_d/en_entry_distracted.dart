@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistracteds2("en-US"),
           ),
           // distracteds300"),
-          // speakdistracteds3
           // distracteds3("en-US"),
           // distracteds400"),
-          // speakdistracteds4
           // distracteds4("en-US"),
           // distracteds500"),
-          // speakdistracteds5
           // distracteds5("en-US"),
           // distracteds600"),
-          // speakdistracteds6
           // distracteds6("en-US"),
           // distracteds700"),
-          // speakdistracteds7
           // distracteds7("en-US"),
           // distracteds800"),
-          // speakdistracteds8
           // distracteds8("en-US"),
           // distracteds900"),
-          // speakdistracteds9
           // distracteds9("en-US"),
           // distracteds_1000"),
-          // speakdistracteds10
           // distracteds10("en-US"),
           // distracteds1100"),
-          // speakdistracteds11
           // distracteds11("en-US"),
           // distracteds1200"),
-          // speakdistracteds12
           // distracteds12("en-US"),
           // distracteds1300"),
-          // speakdistracteds13
           // distracteds13("en-US"),
           // distracteds1400"),
-          // speakdistracteds14
           // distracteds14("en-US"),
           // distracteds1500"),
-          // speakdistracteds15
           // distracteds15("en-US"),
           // distracteds1600"),
-          // speakdistracteds16
           // distracteds16("en-US"),
           // distracteds1700"),
-          // speakdistracteds17
           // distracteds17("en-US"),
           // distracteds1800"),
-          // speakdistracteds18
           // distracteds18("en-US"),
           // distracteds1900"),
-          // speakdistracteds19
           // distracteds19("en-US"),
           // distracteds_2000"),
-          // speakdistracteds20
           // distracteds20("en-US"),
           // distracteds2100"),
-          // speakdistracteds21
           // distracteds21("en-US"),
           // distracteds2200"),
-          // speakdistracteds22
           // distracteds22("en-US"),
         ],
       ),

@@ -385,9 +385,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -449,52 +447,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdreamys6("en-US"),
           ),
           // dreamys700"),
-          // speakdreamys7
           // dreamys7("en-US"),
           // dreamys800"),
-          // speakdreamys8
           // dreamys8("en-US"),
           // dreamys900"),
-          // speakdreamys9
           // dreamys9("en-US"),
           // dreamys_1000"),
-          // speakdreamys10
           // dreamys10("en-US"),
           // dreamys1100"),
-          // speakdreamys11
           // dreamys11("en-US"),
           // dreamys1200"),
-          // speakdreamys12
           // dreamys12("en-US"),
           // dreamys1300"),
-          // speakdreamys13
           // dreamys13("en-US"),
           // dreamys1400"),
-          // speakdreamys14
           // dreamys14("en-US"),
           // dreamys1500"),
-          // speakdreamys15
           // dreamys15("en-US"),
           // dreamys1600"),
-          // speakdreamys16
           // dreamys16("en-US"),
           // dreamys1700"),
-          // speakdreamys17
           // dreamys17("en-US"),
           // dreamys1800"),
-          // speakdreamys18
           // dreamys18("en-US"),
           // dreamys1900"),
-          // speakdreamys19
           // dreamys19("en-US"),
           // dreamys_2000"),
-          // speakdreamys20
           // dreamys20("en-US"),
           // dreamys2100"),
-          // speakdreamys21
           // dreamys21("en-US"),
           // dreamys2200"),
-          // speakdreamys22
           // dreamys22("en-US"),
         ],
       ),

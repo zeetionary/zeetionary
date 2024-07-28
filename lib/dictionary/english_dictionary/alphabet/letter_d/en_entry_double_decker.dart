@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoubledeckers1("en-US"),
           ),
           // doubledeckers200"),
-          // speakdoubledeckers2
           // doubledeckers2("en-US"),
           // doubledeckers300"),
-          // speakdoubledeckers3
           // doubledeckers3("en-US"),
           // doubledeckers400"),
-          // speakdoubledeckers4
           // doubledeckers4("en-US"),
           // doubledeckers500"),
-          // speakdoubledeckers5
           // doubledeckers5("en-US"),
           // doubledeckers600"),
-          // speakdoubledeckers6
           // doubledeckers6("en-US"),
           // doubledeckers700"),
-          // speakdoubledeckers7
           // doubledeckers7("en-US"),
           // doubledeckers800"),
-          // speakdoubledeckers8
           // doubledeckers8("en-US"),
           // doubledeckers900"),
-          // speakdoubledeckers9
           // doubledeckers9("en-US"),
           // doubledeckers_1000"),
-          // speakdoubledeckers10
           // doubledeckers10("en-US"),
           // doubledeckers1100"),
-          // speakdoubledeckers11
           // doubledeckers11("en-US"),
           // doubledeckers1200"),
-          // speakdoubledeckers12
           // doubledeckers12("en-US"),
           // doubledeckers1300"),
-          // speakdoubledeckers13
           // doubledeckers13("en-US"),
           // doubledeckers1400"),
-          // speakdoubledeckers14
           // doubledeckers14("en-US"),
           // doubledeckers1500"),
-          // speakdoubledeckers15
           // doubledeckers15("en-US"),
           // doubledeckers1600"),
-          // speakdoubledeckers16
           // doubledeckers16("en-US"),
           // doubledeckers1700"),
-          // speakdoubledeckers17
           // doubledeckers17("en-US"),
           // doubledeckers1800"),
-          // speakdoubledeckers18
           // doubledeckers18("en-US"),
           // doubledeckers1900"),
-          // speakdoubledeckers19
           // doubledeckers19("en-US"),
           // doubledeckers_2000"),
-          // speakdoubledeckers20
           // doubledeckers20("en-US"),
           // doubledeckers2100"),
-          // speakdoubledeckers21
           // doubledeckers21("en-US"),
           // doubledeckers2200"),
-          // speakdoubledeckers22
           // doubledeckers22("en-US"),
         ],
       ),

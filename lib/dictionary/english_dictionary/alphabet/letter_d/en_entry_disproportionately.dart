@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisproportionatelys2("en-US"),
           ),
           // disproportionatelys300"),
-          // speakdisproportionatelys3
           // disproportionatelys3("en-US"),
           // disproportionatelys400"),
-          // speakdisproportionatelys4
           // disproportionatelys4("en-US"),
           // disproportionatelys500"),
-          // speakdisproportionatelys5
           // disproportionatelys5("en-US"),
           // disproportionatelys600"),
-          // speakdisproportionatelys6
           // disproportionatelys6("en-US"),
           // disproportionatelys700"),
-          // speakdisproportionatelys7
           // disproportionatelys7("en-US"),
           // disproportionatelys800"),
-          // speakdisproportionatelys8
           // disproportionatelys8("en-US"),
           // disproportionatelys900"),
-          // speakdisproportionatelys9
           // disproportionatelys9("en-US"),
           // disproportionatelys_1000"),
-          // speakdisproportionatelys10
           // disproportionatelys10("en-US"),
           // disproportionatelys1100"),
-          // speakdisproportionatelys11
           // disproportionatelys11("en-US"),
           // disproportionatelys1200"),
-          // speakdisproportionatelys12
           // disproportionatelys12("en-US"),
           // disproportionatelys1300"),
-          // speakdisproportionatelys13
           // disproportionatelys13("en-US"),
           // disproportionatelys1400"),
-          // speakdisproportionatelys14
           // disproportionatelys14("en-US"),
           // disproportionatelys1500"),
-          // speakdisproportionatelys15
           // disproportionatelys15("en-US"),
           // disproportionatelys1600"),
-          // speakdisproportionatelys16
           // disproportionatelys16("en-US"),
           // disproportionatelys1700"),
-          // speakdisproportionatelys17
           // disproportionatelys17("en-US"),
           // disproportionatelys1800"),
-          // speakdisproportionatelys18
           // disproportionatelys18("en-US"),
           // disproportionatelys1900"),
-          // speakdisproportionatelys19
           // disproportionatelys19("en-US"),
           // disproportionatelys_2000"),
-          // speakdisproportionatelys20
           // disproportionatelys20("en-US"),
           // disproportionatelys2100"),
-          // speakdisproportionatelys21
           // disproportionatelys21("en-US"),
           // disproportionatelys2200"),
-          // speakdisproportionatelys22
           // disproportionatelys22("en-US"),
         ],
       ),

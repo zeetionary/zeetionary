@@ -252,9 +252,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -298,58 +296,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestructives4("en-US"),
           ),
           // destructives500"),
-          // speakdestructives5
           // destructives5("en-US"),
           // destructives600"),
-          // speakdestructives6
           // destructives6("en-US"),
           // destructives700"),
-          // speakdestructives7
           // destructives7("en-US"),
           // destructives800"),
-          // speakdestructives8
           // destructives8("en-US"),
           // destructives900"),
-          // speakdestructives9
           // destructives9("en-US"),
           // destructives1000"),
-          // speakdestructives10
           // destructives10("en-US"),
           // destructives1100"),
-          // speakdestructives11
           // destructives11("en-US"),
           // destructives1200"),
-          // speakdestructives12
           // destructives12("en-US"),
           // destructives1300"),
-          // speakdestructives13
           // destructives13("en-US"),
           // destructives1400"),
-          // speakdestructives14
           // destructives14("en-US"),
           // destructives1500"),
-          // speakdestructives15
           // destructives15("en-US"),
           // destructives1600"),
-          // speakdestructives16
           // destructives16("en-US"),
           // destructives1700"),
-          // speakdestructives17
           // destructives17("en-US"),
           // destructives1800"),
-          // speakdestructives18
           // destructives18("en-US"),
           // destructives1900"),
-          // speakdestructives19
           // destructives19("en-US"),
           // "It was a very short-sighted and ultimately destructive plan.0"),
-          // speakdestructives20
           // destructives20("en-US"),
           // destructives2100"),
-          // speakdestructives21
           // destructives21("en-US"),
           // destructives2200"),
-          // speakdestructives22
           // destructives22("en-US"),
         ],
       ),

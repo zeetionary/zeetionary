@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -410,41 +408,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakembryonics3("en-US"),
           ),
           // embryonics400embryonics4
-          // speakembryonics4
           // embryonics500embryonics5
-          // speakembryonics5
           // embryonics600embryonics6
-          // speakembryonics6
           // embryonics700embryonics7
-          // speakembryonics7
           // embryonics800embryonics8
-          // speakembryonics8
           // embryonics900embryonics9
-          // speakembryonics9
           // embryonics_1000embryonics10
-          // speakembryonics10
           // embryonics1100embryonics11
-          // speakembryonics11
           // embryonics1200embryonics12
-          // speakembryonics12
           // embryonics1300embryonics13
-          // speakembryonics13
           // embryonics1400embryonics14
-          // speakembryonics14
           // embryonics1500embryonics15
-          // speakembryonics15
           // embryonics1600embryonics16
-          // speakembryonics16
           // embryonics1700embryonics17
-          // speakembryonics17
           // embryonics1800embryonics18
-          // speakembryonics18
           // embryonics1900embryonics19
-          // speakembryonics19
           // embryonics_2000embryonics20
-          // speakembryonics20
           // embryonics2100embryonics21
-          // speakembryonics21
           // embryonics2200embryonics22
           // speakembryonics22("en-US"""),
           //         ),

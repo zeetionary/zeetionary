@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdreamlikes2("en-US"),
           ),
           // dreamlikes300"),
-          // speakdreamlikes3
           // dreamlikes3("en-US"),
           // dreamlikes400"),
-          // speakdreamlikes4
           // dreamlikes4("en-US"),
           // dreamlikes500"),
-          // speakdreamlikes5
           // dreamlikes5("en-US"),
           // dreamlikes600"),
-          // speakdreamlikes6
           // dreamlikes6("en-US"),
           // dreamlikes700"),
-          // speakdreamlikes7
           // dreamlikes7("en-US"),
           // dreamlikes800"),
-          // speakdreamlikes8
           // dreamlikes8("en-US"),
           // dreamlikes900"),
-          // speakdreamlikes9
           // dreamlikes9("en-US"),
           // dreamlikes_1000"),
-          // speakdreamlikes10
           // dreamlikes10("en-US"),
           // dreamlikes1100"),
-          // speakdreamlikes11
           // dreamlikes11("en-US"),
           // dreamlikes1200"),
-          // speakdreamlikes12
           // dreamlikes12("en-US"),
           // dreamlikes1300"),
-          // speakdreamlikes13
           // dreamlikes13("en-US"),
           // dreamlikes1400"),
-          // speakdreamlikes14
           // dreamlikes14("en-US"),
           // dreamlikes1500"),
-          // speakdreamlikes15
           // dreamlikes15("en-US"),
           // dreamlikes1600"),
-          // speakdreamlikes16
           // dreamlikes16("en-US"),
           // dreamlikes1700"),
-          // speakdreamlikes17
           // dreamlikes17("en-US"),
           // dreamlikes1800"),
-          // speakdreamlikes18
           // dreamlikes18("en-US"),
           // dreamlikes1900"),
-          // speakdreamlikes19
           // dreamlikes19("en-US"),
           // dreamlikes_2000"),
-          // speakdreamlikes20
           // dreamlikes20("en-US"),
           // dreamlikes2100"),
-          // speakdreamlikes21
           // dreamlikes21("en-US"),
           // dreamlikes2200"),
-          // speakdreamlikes22
           // dreamlikes22("en-US"),
         ],
       ),

@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -416,58 +414,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdones4("en-US"),
           ),
           // dones500"),
-          // speakdones5
           // dones5("en-US"),
           // dones600"),
-          // speakdones6
           // dones6("en-US"),
           // dones700"),
-          // speakdones7
           // dones7("en-US"),
           // dones800"),
-          // speakdones8
           // dones8("en-US"),
           // dones900"),
-          // speakdones9
           // dones9("en-US"),
           // dones_1000"),
-          // speakdones10
           // dones10("en-US"),
           // dones1100"),
-          // speakdones11
           // dones11("en-US"),
           // dones1200"),
-          // speakdones12
           // dones12("en-US"),
           // dones1300"),
-          // speakdones13
           // dones13("en-US"),
           // dones1400"),
-          // speakdones14
           // dones14("en-US"),
           // dones1500"),
-          // speakdones15
           // dones15("en-US"),
           // dones1600"),
-          // speakdones16
           // dones16("en-US"),
           // dones1700"),
-          // speakdones17
           // dones17("en-US"),
           // dones1800"),
-          // speakdones18
           // dones18("en-US"),
           // dones1900"),
-          // speakdones19
           // dones19("en-US"),
           // dones_2000"),
-          // speakdones20
           // dones20("en-US"),
           // dones2100"),
-          // speakdones21
           // dones21("en-US"),
           // dones2200"),
-          // speakdones22
           // dones22("en-US"),
         ],
       ),

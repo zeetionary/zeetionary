@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -276,61 +274,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiplomats3("en-US"),
           ),
           // diplomats400"),
-          // speakdiplomats4
           // diplomats4
           // diplomats500"),
-          // speakdiplomats5
           // diplomats5
           // diplomats600"),
-          // speakdiplomats6
           // diplomats6
           // diplomats700"),
-          // speakdiplomats7
           // diplomats7
           // diplomats800"),
-          // speakdiplomats8
           // diplomats8
           // diplomats900"),
-          // speakdiplomats9
           // diplomats9
           // diplomats_1000"),
-          // speakdiplomats10
           // diplomats10
           // diplomats1100"),
-          // speakdiplomats11
           // diplomats11
           // diplomats1200"),
-          // speakdiplomats12
           // diplomats12
           // diplomats1300"),
-          // speakdiplomats13
           // diplomats13
           // diplomats1400"),
-          // speakdiplomats14
           // diplomats14
           // diplomats1500"),
-          // speakdiplomats15
           // diplomats15
           // diplomats1600"),
-          // speakdiplomats16
           // diplomats16
           // diplomats1700"),
-          // speakdiplomats17
           // diplomats17
           // diplomats1800"),
-          // speakdiplomats18
           // diplomats18
           // diplomats1900"),
-          // speakdiplomats19
           // diplomats19
           // diplomats_2000"),
-          // speakdiplomats20
           // diplomats20
           // diplomats2100"),
-          // speakdiplomats21
           // diplomats21
           // diplomats2200"),
-          // speakdiplomats22
           // diplomats22("en-US"),
         ],
       ),

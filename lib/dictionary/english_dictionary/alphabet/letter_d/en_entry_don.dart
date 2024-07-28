@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -404,61 +402,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdons3("en-US"),
           ),
           // dons400"),
-          // speakdons4
           // dons4("en-US"),
           // dons500"),
-          // speakdons5
           // dons5("en-US"),
           // dons600"),
-          // speakdons6
           // dons6("en-US"),
           // dons700"),
-          // speakdons7
           // dons7("en-US"),
           // dons800"),
-          // speakdons8
           // dons8("en-US"),
           // dons900"),
-          // speakdons9
           // dons9("en-US"),
           // dons_1000"),
-          // speakdons10
           // dons10("en-US"),
           // dons1100"),
-          // speakdons11
           // dons11("en-US"),
           // dons1200"),
-          // speakdons12
           // dons12("en-US"),
           // dons1300"),
-          // speakdons13
           // dons13("en-US"),
           // dons1400"),
-          // speakdons14
           // dons14("en-US"),
           // dons1500"),
-          // speakdons15
           // dons15("en-US"),
           // dons1600"),
-          // speakdons16
           // dons16("en-US"),
           // dons1700"),
-          // speakdons17
           // dons17("en-US"),
           // dons1800"),
-          // speakdons18
           // dons18("en-US"),
           // dons1900"),
-          // speakdons19
           // dons19("en-US"),
           // dons_2000"),
-          // speakdons20
           // dons20("en-US"),
           // dons2100"),
-          // speakdons21
           // dons21("en-US"),
           // dons2200"),
-          // speakdons22
           // dons22("en-US"),
         ],
       ),

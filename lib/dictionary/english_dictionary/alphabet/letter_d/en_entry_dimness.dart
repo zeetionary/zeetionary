@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -273,61 +271,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdimnesss3("en-US"),
           ),
           // dimnesss400"),
-          // speakdimnesss4
           // dimnesss4
           // dimnesss500"),
-          // speakdimnesss5
           // dimnesss5
           // dimnesss600"),
-          // speakdimnesss6
           // dimnesss6
           // dimnesss700"),
-          // speakdimnesss7
           // dimnesss7
           // dimnesss800"),
-          // speakdimnesss8
           // dimnesss8
           // dimnesss900"),
-          // speakdimnesss9
           // dimnesss9
           // dimnesss_1000"),
-          // speakdimnesss10
           // dimnesss10
           // dimnesss1100"),
-          // speakdimnesss11
           // dimnesss11
           // dimnesss1200"),
-          // speakdimnesss12
           // dimnesss12
           // dimnesss1300"),
-          // speakdimnesss13
           // dimnesss13
           // dimnesss1400"),
-          // speakdimnesss14
           // dimnesss14
           // dimnesss1500"),
-          // speakdimnesss15
           // dimnesss15
           // dimnesss1600"),
-          // speakdimnesss16
           // dimnesss16
           // dimnesss1700"),
-          // speakdimnesss17
           // dimnesss17
           // dimnesss1800"),
-          // speakdimnesss18
           // dimnesss18
           // dimnesss1900"),
-          // speakdimnesss19
           // dimnesss19
           // dimnesss_2000"),
-          // speakdimnesss20
           // dimnesss20
           // dimnesss2100"),
-          // speakdimnesss21
           // dimnesss21
           // dimnesss2200"),
-          // speakdimnesss22
           // dimnesss22("en-US"),
         ],
       ),

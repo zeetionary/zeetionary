@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,45 +365,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemployables1("en-US"),
           ),
           // employables200employables2
-          // speakemployables2
           // employables300employables3
-          // speakemployables3
           // employables400employables4
-          // speakemployables4
           // employables500employables5
-          // speakemployables5
           // employables600employables6
-          // speakemployables6
           // employables700employables7
-          // speakemployables7
           // employables800employables8
-          // speakemployables8
           // employables900employables9
-          // speakemployables9
           // employables_1000employables10
-          // speakemployables10
           // employables1100employables11
-          // speakemployables11
           // employables1200employables12
-          // speakemployables12
           // employables1300employables13
-          // speakemployables13
           // employables1400employables14
-          // speakemployables14
           // employables1500employables15
-          // speakemployables15
           // employables1600employables16
-          // speakemployables16
           // employables1700employables17
-          // speakemployables17
           // employables1800employables18
-          // speakemployables18
           // employables1900employables19
-          // speakemployables19
           // employables_2000employables20
-          // speakemployables20
           // employables2100employables21
-          // speakemployables21
           // employables2200employables22
           // speakemployables22("en-US"""),
           //         ),

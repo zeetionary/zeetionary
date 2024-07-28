@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -405,42 +403,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakembellishments3("en-US"),
           ),
           // embellishments400embellishments4
-          // speakembellishments4
-          // speakembellishments500embellishments5
-          // speakembellishments5
-          // speakembellishments600embellishments6
-          // speakembellishments6
-          // speakembellishments700embellishments7
-          // speakembellishments7
-          // speakembellishments800embellishments8
-          // speakembellishments8
-          // speakembellishments900embellishments9
-          // speakembellishments9
-          // speakembellishments_1000embellishments10
-          // speakembellishments10
-          // speakembellishments1100embellishments11
-          // speakembellishments11
-          // speakembellishments1200embellishments12
-          // speakembellishments12
-          // speakembellishments1300embellishments13
-          // speakembellishments13
-          // speakembellishments1400embellishments14
-          // speakembellishments14
-          // speakembellishments1500embellishments15
-          // speakembellishments15
-          // speakembellishments1600embellishments16
-          // speakembellishments16
-          // speakembellishments1700embellishments17
-          // speakembellishments17
-          // speakembellishments1800embellishments18
-          // speakembellishments18
-          // speakembellishments1900embellishments19
-          // speakembellishments19
-          // speakembellishments_2000embellishments20
-          // speakembellishments20
-          // speakembellishments2100embellishments21
-          // speakembellishments21
-          // speakembellishments2200embellishments22
           // speakembellishments22("en-US"""),
           //         ),
           //       ],

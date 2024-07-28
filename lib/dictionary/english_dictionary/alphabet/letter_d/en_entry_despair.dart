@@ -255,9 +255,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -303,55 +301,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespairs5("en-US"),
           ),
           // despairs600"),
-          // speakdespairs6
           // despairs6("en-US"),
           // despairs700"),
-          // speakdespairs7
           // despairs7("en-US"),
           // despairs800"),
-          // speakdespairs8
           // despairs8("en-US"),
           // despairs900"),
-          // speakdespairs9
           // despairs9("en-US"),
           // despairs1000"),
-          // speakdespairs10
           // despairs10("en-US"),
           // despairs1100"),
-          // speakdespairs11
           // despairs11("en-US"),
           // despairs1200"),
-          // speakdespairs12
           // despairs12("en-US"),
           // despairs1300"),
-          // speakdespairs13
           // despairs13("en-US"),
           // despairs1400"),
-          // speakdespairs14
           // despairs14("en-US"),
           // despairs1500"),
-          // speakdespairs15
           // despairs15("en-US"),
           // despairs1600"),
-          // speakdespairs16
           // despairs16("en-US"),
           // despairs1700"),
-          // speakdespairs17
           // despairs17("en-US"),
           // despairs1800"),
-          // speakdespairs18
           // despairs18("en-US"),
           // despairs1900"),
-          // speakdespairs19
           // despairs19("en-US"),
           // "He gave up the struggle in despair.0"),
-          // speakdespairs20
           // despairs20("en-US"),
           // despairs2100"),
-          // speakdespairs21
           // despairs21("en-US"),
           // despairs2200"),
-          // speakdespairs22
           // despairs22("en-US"),
         ],
       ),

@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -413,58 +411,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdurings4("en-US"),
           ),
           // durings500
-          // speakdurings5
           // durings5("en-US"""),
           // durings600
-          // speakdurings6
           // durings6("en-US"""),
           // durings700
-          // speakdurings7
           // durings7("en-US"""),
           // durings800
-          // speakdurings8
           // durings8("en-US"""),
           // durings900
-          // speakdurings9
           // durings9("en-US"""),
           // durings_1000
-          // speakdurings10
           // durings10("en-US"""),
           // durings1100
-          // speakdurings11
           // durings11("en-US"""),
           // durings1200
-          // speakdurings12
           // durings12("en-US"""),
           // durings1300
-          // speakdurings13
           // durings13("en-US"""),
           // durings1400
-          // speakdurings14
           // durings14("en-US"""),
           // durings1500
-          // speakdurings15
           // durings15("en-US"""),
           // durings1600
-          // speakdurings16
           // durings16("en-US"""),
           // durings1700
-          // speakdurings17
           // durings17("en-US"""),
           // durings1800
-          // speakdurings18
           // durings18("en-US"""),
           // durings1900
-          // speakdurings19
           // durings19("en-US"""),
           // durings_2000
-          // speakdurings20
           // durings20("en-US"""),
           // durings2100
-          // speakdurings21
           // durings21("en-US"""),
           // durings2200
-          // speakdurings22
           // durings22("en-US"""),
         ],
       ),

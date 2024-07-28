@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetonations1("en-US"),
           ),
           // detonations200"),
-          // speakdetonations2
           // detonations2("en-US"),
           // detonations300"),
-          // speakdetonations3
           // detonations3("en-US"),
           // detonations400"),
-          // speakdetonations4
           // detonations4("en-US"),
           // detonations500"),
-          // speakdetonations5
           // detonations5("en-US"),
           // detonations600"),
-          // speakdetonations6
           // detonations6("en-US"),
           // detonations700"),
-          // speakdetonations7
           // detonations7("en-US"),
           // detonations800"),
-          // speakdetonations8
           // detonations8("en-US"),
           // detonations900"),
-          // speakdetonations9
           // detonations9("en-US"),
           // detonations1000"),
-          // speakdetonations10
           // detonations10("en-US"),
           // detonations1100"),
-          // speakdetonations11
           // detonations11("en-US"),
           // detonations1200"),
-          // speakdetonations12
           // detonations12("en-US"),
           // detonations1300"),
-          // speakdetonations13
           // detonations13("en-US"),
           // detonations1400"),
-          // speakdetonations14
           // detonations14("en-US"),
           // detonations1500"),
-          // speakdetonations15
           // detonations15("en-US"),
           // detonations1600"),
-          // speakdetonations16
           // detonations16("en-US"),
           // detonations1700"),
-          // speakdetonations17
           // detonations17("en-US"),
           // detonations1800"),
-          // speakdetonations18
           // detonations18("en-US"),
           // detonations1900"),
-          // speakdetonations19
           // detonations19("en-US"),
           // detonations2000"),
-          // speakdetonations20
           // detonations20("en-US"),
           // detonations2100"),
-          // speakdetonations21
           // detonations21("en-US"),
           // detonations2200"),
-          // speakdetonations22
           // detonations22("en-US"),
         ],
       ),

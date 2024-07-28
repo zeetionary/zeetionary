@@ -389,9 +389,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -457,36 +455,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakefficiencys6("en-US"),
           ),
           // efficiencys700efficiencys7
-          // speakefficiencys7
-          // speakefficiencys800efficiencys8
-          // speakefficiencys8
-          // speakefficiencys900efficiencys9
-          // speakefficiencys9
-          // speakefficiencys_1000efficiencys10
-          // speakefficiencys10
-          // speakefficiencys1100efficiencys11
-          // speakefficiencys11
-          // speakefficiencys1200efficiencys12
-          // speakefficiencys12
-          // speakefficiencys1300efficiencys13
-          // speakefficiencys13
-          // speakefficiencys1400efficiencys14
-          // speakefficiencys14
-          // speakefficiencys1500efficiencys15
-          // speakefficiencys15
-          // speakefficiencys1600efficiencys16
-          // speakefficiencys16
-          // speakefficiencys1700efficiencys17
-          // speakefficiencys17
-          // speakefficiencys1800efficiencys18
-          // speakefficiencys18
-          // speakefficiencys1900efficiencys19
-          // speakefficiencys19
-          // speakefficiencys_2000efficiencys20
-          // speakefficiencys20
-          // speakefficiencys2100efficiencys21
-          // speakefficiencys21
-          // speakefficiencys2200efficiencys22
           // speakefficiencys22("en-US"""),
           //         ),
           //       ],

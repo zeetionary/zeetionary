@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoes1("en-US"),
           ),
           // does200"),
-          // speakdoes2
           // does2("en-US"),
           // does300"),
-          // speakdoes3
           // does3("en-US"),
           // does400"),
-          // speakdoes4
           // does4("en-US"),
           // does500"),
-          // speakdoes5
           // does5("en-US"),
           // does600"),
-          // speakdoes6
           // does6("en-US"),
           // does700"),
-          // speakdoes7
           // does7("en-US"),
           // does800"),
-          // speakdoes8
           // does8("en-US"),
           // does900"),
-          // speakdoes9
           // does9("en-US"),
           // does_1000"),
-          // speakdoes10
           // does10("en-US"),
           // does1100"),
-          // speakdoes11
           // does11("en-US"),
           // does1200"),
-          // speakdoes12
           // does12("en-US"),
           // does1300"),
-          // speakdoes13
           // does13("en-US"),
           // does1400"),
-          // speakdoes14
           // does14("en-US"),
           // does1500"),
-          // speakdoes15
           // does15("en-US"),
           // does1600"),
-          // speakdoes16
           // does16("en-US"),
           // does1700"),
-          // speakdoes17
           // does17("en-US"),
           // does1800"),
-          // speakdoes18
           // does18("en-US"),
           // does1900"),
-          // speakdoes19
           // does19("en-US"),
           // does_2000"),
-          // speakdoes20
           // does20("en-US"),
           // does2100"),
-          // speakdoes21
           // does21("en-US"),
           // does2200"),
-          // speakdoes22
           // does22("en-US"),
         ],
       ),

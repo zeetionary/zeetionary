@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,45 +367,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemaciations1("en-US"),
           ),
           // emaciations200emaciations2
-          // speakemaciations2
           // emaciations300emaciations3
-          // speakemaciations3
           // emaciations400emaciations4
-          // speakemaciations4
           // emaciations500emaciations5
-          // speakemaciations5
           // emaciations600emaciations6
-          // speakemaciations6
           // emaciations700emaciations7
-          // speakemaciations7
           // emaciations800emaciations8
-          // speakemaciations8
           // emaciations900emaciations9
-          // speakemaciations9
           // emaciations_1000emaciations10
-          // speakemaciations10
           // emaciations1100emaciations11
-          // speakemaciations11
           // emaciations1200emaciations12
-          // speakemaciations12
           // emaciations1300emaciations13
-          // speakemaciations13
           // emaciations1400emaciations14
-          // speakemaciations14
           // emaciations1500emaciations15
-          // speakemaciations15
           // emaciations1600emaciations16
-          // speakemaciations16
           // emaciations1700emaciations17
-          // speakemaciations17
           // emaciations1800emaciations18
-          // speakemaciations18
           // emaciations1900emaciations19
-          // speakemaciations19
           // emaciations_2000emaciations20
-          // speakemaciations20
           // emaciations2100emaciations21
-          // speakemaciations21
           // emaciations2200emaciations22
           // speakemaciations22("en-US"""),
           //         ),

@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeitys2("en-US"),
           ),
           // deitys300"),
-          // speakdeitys3
           // deitys3("en-US"),
           // deitys400"),
-          // speakdeitys4
           // deitys4("en-US"),
           // deitys500"),
-          // speakdeitys5
           // deitys5("en-US"),
           // deitys600"),
-          // speakdeitys6
           // deitys6("en-US"),
           // deitys700"),
-          // speakdeitys7
           // deitys7("en-US"),
           // deitys800"),
-          // speakdeitys8
           // deitys8("en-US"),
           // deitys900"),
-          // speakdeitys9
           // deitys9("en-US"),
           // deitys1000"),
-          // speakdeitys10
           // deitys10("en-US"),
           // deitys1100"),
-          // speakdeitys11
           // deitys11("en-US"),
           // deitys1200"),
-          // speakdeitys12
           // deitys12("en-US"),
           // deitys1300"),
-          // speakdeitys13
           // deitys13("en-US"),
           // deitys1400"),
-          // speakdeitys14
           // deitys14("en-US"),
           // deitys1500"),
-          // speakdeitys15
           // deitys15("en-US"),
           // deitys1600"),
-          // speakdeitys16
           // deitys16("en-US"),
           // deitys1700"),
-          // speakdeitys17
           // deitys17("en-US"),
           // deitys1800"),
-          // speakdeitys18
           // deitys18("en-US"),
           // deitys1900"),
-          // speakdeitys19
           // deitys19("en-US"),
           // "Ares and Aphrodite were the ancient Greek deities of war and love.0"),
-          // speakdeitys20
           // deitys20("en-US"),
           // deitys2100"),
-          // speakdeitys21
           // deitys21("en-US"),
           // deitys2200"),
-          // speakdeitys22
           // deitys22("en-US"),
         ],
       ),

@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -418,58 +416,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdynamites4("en-US"),
           ),
           // dynamites500
-          // speakdynamites5
           // dynamites5("en-US"""),
           // dynamites600
-          // speakdynamites6
           // dynamites6("en-US"""),
           // dynamites700
-          // speakdynamites7
           // dynamites7("en-US"""),
           // dynamites800
-          // speakdynamites8
           // dynamites8("en-US"""),
           // dynamites900
-          // speakdynamites9
           // dynamites9("en-US"""),
           // dynamites_1000
-          // speakdynamites10
           // dynamites10("en-US"""),
           // dynamites1100
-          // speakdynamites11
           // dynamites11("en-US"""),
           // dynamites1200
-          // speakdynamites12
           // dynamites12("en-US"""),
           // dynamites1300
-          // speakdynamites13
           // dynamites13("en-US"""),
           // dynamites1400
-          // speakdynamites14
           // dynamites14("en-US"""),
           // dynamites1500
-          // speakdynamites15
           // dynamites15("en-US"""),
           // dynamites1600
-          // speakdynamites16
           // dynamites16("en-US"""),
           // dynamites1700
-          // speakdynamites17
           // dynamites17("en-US"""),
           // dynamites1800
-          // speakdynamites18
           // dynamites18("en-US"""),
           // dynamites1900
-          // speakdynamites19
           // dynamites19("en-US"""),
           // dynamites_2000
-          // speakdynamites20
           // dynamites20("en-US"""),
           // dynamites2100
-          // speakdynamites21
           // dynamites21("en-US"""),
           // dynamites2200
-          // speakdynamites22
           // dynamites22("en-US"""),
         ],
       ),

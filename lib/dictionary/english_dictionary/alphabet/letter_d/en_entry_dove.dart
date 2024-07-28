@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -365,67 +363,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoves1("en-US"),
           ),
           // doves200"),
-          // speakdoves2
           // doves2("en-US"),
           // doves300"),
-          // speakdoves3
           // doves3("en-US"),
           // doves400"),
-          // speakdoves4
           // doves4("en-US"),
           // doves500"),
-          // speakdoves5
           // doves5("en-US"),
           // doves600"),
-          // speakdoves6
           // doves6("en-US"),
           // doves700"),
-          // speakdoves7
           // doves7("en-US"),
           // doves800"),
-          // speakdoves8
           // doves8("en-US"),
           // doves900"),
-          // speakdoves9
           // doves9("en-US"),
           // doves_1000"),
-          // speakdoves10
           // doves10("en-US"),
           // doves1100"),
-          // speakdoves11
           // doves11("en-US"),
           // doves1200"),
-          // speakdoves12
           // doves12("en-US"),
           // doves1300"),
-          // speakdoves13
           // doves13("en-US"),
           // doves1400"),
-          // speakdoves14
           // doves14("en-US"),
           // doves1500"),
-          // speakdoves15
           // doves15("en-US"),
           // doves1600"),
-          // speakdoves16
           // doves16("en-US"),
           // doves1700"),
-          // speakdoves17
           // doves17("en-US"),
           // doves1800"),
-          // speakdoves18
           // doves18("en-US"),
           // doves1900"),
-          // speakdoves19
           // doves19("en-US"),
           // doves_2000"),
-          // speakdoves20
           // doves20("en-US"),
           // doves2100"),
-          // speakdoves21
           // doves21("en-US"),
           // doves2200"),
-          // speakdoves22
           // doves22("en-US"),
         ],
       ),

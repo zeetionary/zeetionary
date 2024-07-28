@@ -264,9 +264,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -329,52 +327,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemolishs6("en-US"),
           ),
           // demolishs700"),
-          // speakdemolishs7
           // demolishs7("en-US"),
           // demolishs800"),
-          // speakdemolishs8
           // demolishs8("en-US"),
           // demolishs900"),
-          // speakdemolishs9
           // demolishs9("en-US"),
           // demolishs1000"),
-          // speakdemolishs10
           // demolishs10("en-US"),
           // demolishs1100"),
-          // speakdemolishs11
           // demolishs11("en-US"),
           // demolishs1200"),
-          // speakdemolishs12
           // demolishs12("en-US"),
           // demolishs1300"),
-          // speakdemolishs13
           // demolishs13("en-US"),
           // demolishs1400"),
-          // speakdemolishs14
           // demolishs14("en-US"),
           // demolishs1500"),
-          // speakdemolishs15
           // demolishs15("en-US"),
           // demolishs1600"),
-          // speakdemolishs16
           // demolishs16("en-US"),
           // demolishs1700"),
-          // speakdemolishs17
           // demolishs17("en-US"),
           // demolishs1800"),
-          // speakdemolishs18
           // demolishs18("en-US"),
           // demolishs1900"),
-          // speakdemolishs19
           // demolishs19("en-US"),
           // "The old slums are being demolished to make way for a new housing project.0"),
-          // speakdemolishs20
           // demolishs20("en-US"),
           // demolishs2100"),
-          // speakdemolishs21
           // demolishs21("en-US"),
           // demolishs2200"),
-          // speakdemolishs22
           // demolishs22("en-US"),
         ],
       ),

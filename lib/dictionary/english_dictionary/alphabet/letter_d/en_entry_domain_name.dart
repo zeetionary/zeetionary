@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdomainnames1("en-US"),
           ),
           // domainnames200"),
-          // speakdomainnames2
           // domainnames2("en-US"),
           // domainnames300"),
-          // speakdomainnames3
           // domainnames3("en-US"),
           // domainnames400"),
-          // speakdomainnames4
           // domainnames4("en-US"),
           // domainnames500"),
-          // speakdomainnames5
           // domainnames5("en-US"),
           // domainnames600"),
-          // speakdomainnames6
           // domainnames6("en-US"),
           // domainnames700"),
-          // speakdomainnames7
           // domainnames7("en-US"),
           // domainnames800"),
-          // speakdomainnames8
           // domainnames8("en-US"),
           // domainnames900"),
-          // speakdomainnames9
           // domainnames9("en-US"),
           // domainnames_1000"),
-          // speakdomainnames10
           // domainnames10("en-US"),
           // domainnames1100"),
-          // speakdomainnames11
           // domainnames11("en-US"),
           // domainnames1200"),
-          // speakdomainnames12
           // domainnames12("en-US"),
           // domainnames1300"),
-          // speakdomainnames13
           // domainnames13("en-US"),
           // domainnames1400"),
-          // speakdomainnames14
           // domainnames14("en-US"),
           // domainnames1500"),
-          // speakdomainnames15
           // domainnames15("en-US"),
           // domainnames1600"),
-          // speakdomainnames16
           // domainnames16("en-US"),
           // domainnames1700"),
-          // speakdomainnames17
           // domainnames17("en-US"),
           // domainnames1800"),
-          // speakdomainnames18
           // domainnames18("en-US"),
           // domainnames1900"),
-          // speakdomainnames19
           // domainnames19("en-US"),
           // domainnames_2000"),
-          // speakdomainnames20
           // domainnames20("en-US"),
           // domainnames2100"),
-          // speakdomainnames21
           // domainnames21("en-US"),
           // domainnames2200"),
-          // speakdomainnames22
           // domainnames22("en-US"),
         ],
       ),

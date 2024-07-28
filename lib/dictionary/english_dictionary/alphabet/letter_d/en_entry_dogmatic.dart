@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdogmatics1("en-US"),
           ),
           // dogmatics200"),
-          // speakdogmatics2
           // dogmatics2("en-US"),
           // dogmatics300"),
-          // speakdogmatics3
           // dogmatics3("en-US"),
           // dogmatics400"),
-          // speakdogmatics4
           // dogmatics4("en-US"),
           // dogmatics500"),
-          // speakdogmatics5
           // dogmatics5("en-US"),
           // dogmatics600"),
-          // speakdogmatics6
           // dogmatics6("en-US"),
           // dogmatics700"),
-          // speakdogmatics7
           // dogmatics7("en-US"),
           // dogmatics800"),
-          // speakdogmatics8
           // dogmatics8("en-US"),
           // dogmatics900"),
-          // speakdogmatics9
           // dogmatics9("en-US"),
           // dogmatics_1000"),
-          // speakdogmatics10
           // dogmatics10("en-US"),
           // dogmatics1100"),
-          // speakdogmatics11
           // dogmatics11("en-US"),
           // dogmatics1200"),
-          // speakdogmatics12
           // dogmatics12("en-US"),
           // dogmatics1300"),
-          // speakdogmatics13
           // dogmatics13("en-US"),
           // dogmatics1400"),
-          // speakdogmatics14
           // dogmatics14("en-US"),
           // dogmatics1500"),
-          // speakdogmatics15
           // dogmatics15("en-US"),
           // dogmatics1600"),
-          // speakdogmatics16
           // dogmatics16("en-US"),
           // dogmatics1700"),
-          // speakdogmatics17
           // dogmatics17("en-US"),
           // dogmatics1800"),
-          // speakdogmatics18
           // dogmatics18("en-US"),
           // dogmatics1900"),
-          // speakdogmatics19
           // dogmatics19("en-US"),
           // dogmatics_2000"),
-          // speakdogmatics20
           // dogmatics20("en-US"),
           // dogmatics2100"),
-          // speakdogmatics21
           // dogmatics21("en-US"),
           // dogmatics2200"),
-          // speakdogmatics22
           // dogmatics22("en-US"),
         ],
       ),

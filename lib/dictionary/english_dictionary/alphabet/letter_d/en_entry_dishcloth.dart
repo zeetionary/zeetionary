@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -236,67 +234,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdishcloths1("en-US"),
           ),
           // dishcloths200"),
-          // speakdishcloths2
           // dishcloths2("en-US"),
           // dishcloths300"),
-          // speakdishcloths3
           // dishcloths3("en-US"),
           // dishcloths400"),
-          // speakdishcloths4
           // dishcloths4("en-US"),
           // dishcloths500"),
-          // speakdishcloths5
           // dishcloths5("en-US"),
           // dishcloths600"),
-          // speakdishcloths6
           // dishcloths6("en-US"),
           // dishcloths700"),
-          // speakdishcloths7
           // dishcloths7("en-US"),
           // dishcloths800"),
-          // speakdishcloths8
           // dishcloths8("en-US"),
           // dishcloths900"),
-          // speakdishcloths9
           // dishcloths9("en-US"),
           // dishcloths_1000"),
-          // speakdishcloths10
           // dishcloths10("en-US"),
           // dishcloths1100"),
-          // speakdishcloths11
           // dishcloths11("en-US"),
           // dishcloths1200"),
-          // speakdishcloths12
           // dishcloths12("en-US"),
           // dishcloths1300"),
-          // speakdishcloths13
           // dishcloths13("en-US"),
           // dishcloths1400"),
-          // speakdishcloths14
           // dishcloths14("en-US"),
           // dishcloths1500"),
-          // speakdishcloths15
           // dishcloths15("en-US"),
           // dishcloths1600"),
-          // speakdishcloths16
           // dishcloths16("en-US"),
           // dishcloths1700"),
-          // speakdishcloths17
           // dishcloths17("en-US"),
           // dishcloths1800"),
-          // speakdishcloths18
           // dishcloths18("en-US"),
           // dishcloths1900"),
-          // speakdishcloths19
           // dishcloths19("en-US"),
           // dishcloths_2000"),
-          // speakdishcloths20
           // dishcloths20("en-US"),
           // dishcloths2100"),
-          // speakdishcloths21
           // dishcloths21("en-US"),
           // dishcloths2200"),
-          // speakdishcloths22
           // dishcloths22("en-US"),
         ],
       ),

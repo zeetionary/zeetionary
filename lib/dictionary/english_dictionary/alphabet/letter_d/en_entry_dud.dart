@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -404,61 +402,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduds2("en-US"),
           ),
           // duds400
-          // speakduds4
           // duds4("en-US"""),
           // duds500
-          // speakduds5
           // duds5("en-US"""),
           // duds600
-          // speakduds6
           // duds6("en-US"""),
           // duds700
-          // speakduds7
           // duds7("en-US"""),
           // duds800
-          // speakduds8
           // duds8("en-US"""),
           // duds900
-          // speakduds9
           // duds9("en-US"""),
           // duds_1000
-          // speakduds10
           // duds10("en-US"""),
           // duds1100
-          // speakduds11
           // duds11("en-US"""),
           // duds1200
-          // speakduds12
           // duds12("en-US"""),
           // duds1300
-          // speakduds13
           // duds13("en-US"""),
           // duds1400
-          // speakduds14
           // duds14("en-US"""),
           // duds1500
-          // speakduds15
           // duds15("en-US"""),
           // duds1600
-          // speakduds16
           // duds16("en-US"""),
           // duds1700
-          // speakduds17
           // duds17("en-US"""),
           // duds1800
-          // speakduds18
           // duds18("en-US"""),
           // duds1900
-          // speakduds19
           // duds19("en-US"""),
           // duds_2000
-          // speakduds20
           // duds20("en-US"""),
           // duds2100
-          // speakduds21
           // duds21("en-US"""),
           // duds2200
-          // speakduds22
           // duds22("en-US"""),
         ],
       ),

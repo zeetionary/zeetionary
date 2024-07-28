@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdressmakers1("en-US"),
           ),
           // dressmakers200"),
-          // speakdressmakers2
           // dressmakers2("en-US"),
           // dressmakers300"),
-          // speakdressmakers3
           // dressmakers3("en-US"),
           // dressmakers400"),
-          // speakdressmakers4
           // dressmakers4("en-US"),
           // dressmakers500"),
-          // speakdressmakers5
           // dressmakers5("en-US"),
           // dressmakers600"),
-          // speakdressmakers6
           // dressmakers6("en-US"),
           // dressmakers700"),
-          // speakdressmakers7
           // dressmakers7("en-US"),
           // dressmakers800"),
-          // speakdressmakers8
           // dressmakers8("en-US"),
           // dressmakers900"),
-          // speakdressmakers9
           // dressmakers9("en-US"),
           // dressmakers_1000"),
-          // speakdressmakers10
           // dressmakers10("en-US"),
           // dressmakers1100"),
-          // speakdressmakers11
           // dressmakers11("en-US"),
           // dressmakers1200"),
-          // speakdressmakers12
           // dressmakers12("en-US"),
           // dressmakers1300"),
-          // speakdressmakers13
           // dressmakers13("en-US"),
           // dressmakers1400"),
-          // speakdressmakers14
           // dressmakers14("en-US"),
           // dressmakers1500"),
-          // speakdressmakers15
           // dressmakers15("en-US"),
           // dressmakers1600"),
-          // speakdressmakers16
           // dressmakers16("en-US"),
           // dressmakers1700"),
-          // speakdressmakers17
           // dressmakers17("en-US"),
           // dressmakers1800"),
-          // speakdressmakers18
           // dressmakers18("en-US"),
           // dressmakers1900"),
-          // speakdressmakers19
           // dressmakers19("en-US"),
           // dressmakers_2000"),
-          // speakdressmakers20
           // dressmakers20("en-US"),
           // dressmakers2100"),
-          // speakdressmakers21
           // dressmakers21("en-US"),
           // dressmakers2200"),
-          // speakdressmakers22
           // dressmakers22("en-US"),
         ],
       ),

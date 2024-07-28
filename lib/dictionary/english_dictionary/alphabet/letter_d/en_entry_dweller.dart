@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdwellers2("en-US"),
           ),
           // dwellers300
-          // speakdwellers3
           // dwellers3("en-US"""),
           // dwellers400
-          // speakdwellers4
           // dwellers4("en-US"""),
           // dwellers500
-          // speakdwellers5
           // dwellers5("en-US"""),
           // dwellers600
-          // speakdwellers6
           // dwellers6("en-US"""),
           // dwellers700
-          // speakdwellers7
           // dwellers7("en-US"""),
           // dwellers800
-          // speakdwellers8
           // dwellers8("en-US"""),
           // dwellers900
-          // speakdwellers9
           // dwellers9("en-US"""),
           // dwellers_1000
-          // speakdwellers10
           // dwellers10("en-US"""),
           // dwellers1100
-          // speakdwellers11
           // dwellers11("en-US"""),
           // dwellers1200
-          // speakdwellers12
           // dwellers12("en-US"""),
           // dwellers1300
-          // speakdwellers13
           // dwellers13("en-US"""),
           // dwellers1400
-          // speakdwellers14
           // dwellers14("en-US"""),
           // dwellers1500
-          // speakdwellers15
           // dwellers15("en-US"""),
           // dwellers1600
-          // speakdwellers16
           // dwellers16("en-US"""),
           // dwellers1700
-          // speakdwellers17
           // dwellers17("en-US"""),
           // dwellers1800
-          // speakdwellers18
           // dwellers18("en-US"""),
           // dwellers1900
-          // speakdwellers19
           // dwellers19("en-US"""),
           // dwellers_2000
-          // speakdwellers20
           // dwellers20("en-US"""),
           // dwellers2100
-          // speakdwellers21
           // dwellers21("en-US"""),
           // dwellers2200
-          // speakdwellers22
           // dwellers22("en-US"""),
         ],
       ),

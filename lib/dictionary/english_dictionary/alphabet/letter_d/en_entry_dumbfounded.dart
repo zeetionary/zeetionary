@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdumbfoundeds2("en-US"),
           ),
           // dumbfoundeds300
-          // speakdumbfoundeds3
           // dumbfoundeds3("en-US"""),
           // dumbfoundeds400
-          // speakdumbfoundeds4
           // dumbfoundeds4("en-US"""),
           // dumbfoundeds500
-          // speakdumbfoundeds5
           // dumbfoundeds5("en-US"""),
           // dumbfoundeds600
-          // speakdumbfoundeds6
           // dumbfoundeds6("en-US"""),
           // dumbfoundeds700
-          // speakdumbfoundeds7
           // dumbfoundeds7("en-US"""),
           // dumbfoundeds800
-          // speakdumbfoundeds8
           // dumbfoundeds8("en-US"""),
           // dumbfoundeds900
-          // speakdumbfoundeds9
           // dumbfoundeds9("en-US"""),
           // dumbfoundeds_1000
-          // speakdumbfoundeds10
           // dumbfoundeds10("en-US"""),
           // dumbfoundeds1100
-          // speakdumbfoundeds11
           // dumbfoundeds11("en-US"""),
           // dumbfoundeds1200
-          // speakdumbfoundeds12
           // dumbfoundeds12("en-US"""),
           // dumbfoundeds1300
-          // speakdumbfoundeds13
           // dumbfoundeds13("en-US"""),
           // dumbfoundeds1400
-          // speakdumbfoundeds14
           // dumbfoundeds14("en-US"""),
           // dumbfoundeds1500
-          // speakdumbfoundeds15
           // dumbfoundeds15("en-US"""),
           // dumbfoundeds1600
-          // speakdumbfoundeds16
           // dumbfoundeds16("en-US"""),
           // dumbfoundeds1700
-          // speakdumbfoundeds17
           // dumbfoundeds17("en-US"""),
           // dumbfoundeds1800
-          // speakdumbfoundeds18
           // dumbfoundeds18("en-US"""),
           // dumbfoundeds1900
-          // speakdumbfoundeds19
           // dumbfoundeds19("en-US"""),
           // dumbfoundeds_2000
-          // speakdumbfoundeds20
           // dumbfoundeds20("en-US"""),
           // dumbfoundeds2100
-          // speakdumbfoundeds21
           // dumbfoundeds21("en-US"""),
           // dumbfoundeds2200
-          // speakdumbfoundeds22
           // dumbfoundeds22("en-US"""),
         ],
       ),

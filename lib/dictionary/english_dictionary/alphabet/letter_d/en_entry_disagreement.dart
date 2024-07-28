@@ -252,9 +252,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -303,58 +301,40 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // "The comparison shows considerable disagreement between theory and practice."),
-          // speakdisagreements5
           // disagreements5("en-US"),
           // disagreements600"),
-          // speakdisagreements6
           // disagreements6("en-US"),
           // disagreements700"),
-          // speakdisagreements7
           // disagreements7("en-US"),
           // disagreements800"),
-          // speakdisagreements8
           // disagreements8("en-US"),
           // disagreements900"),
-          // speakdisagreements9
           // disagreements9("en-US"),
           // disagreements_1000"),
-          // speakdisagreements10
           // disagreements10("en-US"),
           // disagreements1100"),
-          // speakdisagreements11
           // disagreements11("en-US"),
           // disagreements1200"),
-          // speakdisagreements12
           // disagreements12("en-US"),
           // disagreements1300"),
-          // speakdisagreements13
           // disagreements13("en-US"),
           // disagreements1400"),
-          // speakdisagreements14
           // disagreements14("en-US"),
           // disagreements1500"),
-          // speakdisagreements15
           // disagreements15("en-US"),
           // disagreements1600"),
-          // speakdisagreements16
           // disagreements16("en-US"),
           // disagreements1700"),
-          // speakdisagreements17
           // disagreements17("en-US"),
           // disagreements1800"),
-          // speakdisagreements18
           // disagreements18("en-US"),
           // disagreements1900"),
-          // speakdisagreements19
           // disagreements19("en-US"),
           // disagreements_2000"),
-          // speakdisagreements20
           // disagreements20("en-US"),
           // disagreements2100"),
-          // speakdisagreements21
           // disagreements21("en-US"),
           // disagreements2200"),
-          // speakdisagreements22
           // disagreements22("en-US"),
         ],
       ),

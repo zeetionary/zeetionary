@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublebooks1("en-US"),
           ),
           // doublebooks200"),
-          // speakdoublebooks2
           // doublebooks2("en-US"),
           // doublebooks300"),
-          // speakdoublebooks3
           // doublebooks3("en-US"),
           // doublebooks400"),
-          // speakdoublebooks4
           // doublebooks4("en-US"),
           // doublebooks500"),
-          // speakdoublebooks5
           // doublebooks5("en-US"),
           // doublebooks600"),
-          // speakdoublebooks6
           // doublebooks6("en-US"),
           // doublebooks700"),
-          // speakdoublebooks7
           // doublebooks7("en-US"),
           // doublebooks800"),
-          // speakdoublebooks8
           // doublebooks8("en-US"),
           // doublebooks900"),
-          // speakdoublebooks9
           // doublebooks9("en-US"),
           // doublebooks_1000"),
-          // speakdoublebooks10
           // doublebooks10("en-US"),
           // doublebooks1100"),
-          // speakdoublebooks11
           // doublebooks11("en-US"),
           // doublebooks1200"),
-          // speakdoublebooks12
           // doublebooks12("en-US"),
           // doublebooks1300"),
-          // speakdoublebooks13
           // doublebooks13("en-US"),
           // doublebooks1400"),
-          // speakdoublebooks14
           // doublebooks14("en-US"),
           // doublebooks1500"),
-          // speakdoublebooks15
           // doublebooks15("en-US"),
           // doublebooks1600"),
-          // speakdoublebooks16
           // doublebooks16("en-US"),
           // doublebooks1700"),
-          // speakdoublebooks17
           // doublebooks17("en-US"),
           // doublebooks1800"),
-          // speakdoublebooks18
           // doublebooks18("en-US"),
           // doublebooks1900"),
-          // speakdoublebooks19
           // doublebooks19("en-US"),
           // doublebooks_2000"),
-          // speakdoublebooks20
           // doublebooks20("en-US"),
           // doublebooks2100"),
-          // speakdoublebooks21
           // doublebooks21("en-US"),
           // doublebooks2200"),
-          // speakdoublebooks22
           // doublebooks22("en-US"),
         ],
       ),

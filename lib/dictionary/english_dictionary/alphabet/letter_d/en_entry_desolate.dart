@@ -265,9 +265,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -323,52 +321,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesolates6("en-US"),
           ),
           // desolates700"),
-          // speakdesolates7
           // desolates7("en-US"),
           // desolates800"),
-          // speakdesolates8
           // desolates8("en-US"),
           // desolates900"),
-          // speakdesolates9
           // desolates9("en-US"),
           // desolates1000"),
-          // speakdesolates10
           // desolates10("en-US"),
           // desolates1100"),
-          // speakdesolates11
           // desolates11("en-US"),
           // desolates1200"),
-          // speakdesolates12
           // desolates12("en-US"),
           // desolates1300"),
-          // speakdesolates13
           // desolates13("en-US"),
           // desolates1400"),
-          // speakdesolates14
           // desolates14("en-US"),
           // desolates1500"),
-          // speakdesolates15
           // desolates15("en-US"),
           // desolates1600"),
-          // speakdesolates16
           // desolates16("en-US"),
           // desolates1700"),
-          // speakdesolates17
           // desolates17("en-US"),
           // desolates1800"),
-          // speakdesolates18
           // desolates18("en-US"),
           // desolates1900"),
-          // speakdesolates19
           // desolates19("en-US"),
           // "The land was left desolate.0"),
-          // speakdesolates20
           // desolates20("en-US"),
           // desolates2100"),
-          // speakdesolates21
           // desolates21("en-US"),
           // desolates2200"),
-          // speakdesolates22
           // desolates22("en-US"),
         ],
       ),

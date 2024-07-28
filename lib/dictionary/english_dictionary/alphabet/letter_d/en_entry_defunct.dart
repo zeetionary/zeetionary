@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefuncts3("en-US"),
           ),
           // defuncts400"),
-          // speakdefuncts4
           // defuncts4("en-US"),
           // defuncts500"),
-          // speakdefuncts5
           // defuncts5("en-US"),
           // defuncts600"),
-          // speakdefuncts6
           // defuncts6("en-US"),
           // defuncts700"),
-          // speakdefuncts7
           // defuncts7("en-US"),
           // defuncts800"),
-          // speakdefuncts8
           // defuncts8("en-US"),
           // defuncts900"),
-          // speakdefuncts9
           // defuncts9("en-US"),
           // defuncts1000"),
-          // speakdefuncts10
           // defuncts10("en-US"),
           // defuncts1100"),
-          // speakdefuncts11
           // defuncts11("en-US"),
           // defuncts1200"),
-          // speakdefuncts12
           // defuncts12("en-US"),
           // defuncts1300"),
-          // speakdefuncts13
           // defuncts13("en-US"),
           // defuncts1400"),
-          // speakdefuncts14
           // defuncts14("en-US"),
           // defuncts1500"),
-          // speakdefuncts15
           // defuncts15("en-US"),
           // defuncts1600"),
-          // speakdefuncts16
           // defuncts16("en-US"),
           // defuncts1700"),
-          // speakdefuncts17
           // defuncts17("en-US"),
           // defuncts1800"),
-          // speakdefuncts18
           // defuncts18("en-US"),
           // defuncts1900"),
-          // speakdefuncts19
           // defuncts19("en-US"),
           // "The LP was made defunct by the arrival of the CD.0"),
-          // speakdefuncts20
           // defuncts20("en-US"),
           // defuncts2100"),
-          // speakdefuncts21
           // defuncts21("en-US"),
           // defuncts2200"),
-          // speakdefuncts22
           // defuncts22("en-US"),
         ],
       ),

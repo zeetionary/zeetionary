@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -279,61 +277,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderivatives3("en-US"),
           ),
           // derivatives400"),
-          // speakderivatives4
           // derivatives4("en-US"),
           // derivatives500"),
-          // speakderivatives5
           // derivatives5("en-US"),
           // derivatives600"),
-          // speakderivatives6
           // derivatives6("en-US"),
           // derivatives700"),
-          // speakderivatives7
           // derivatives7("en-US"),
           // derivatives800"),
-          // speakderivatives8
           // derivatives8("en-US"),
           // derivatives900"),
-          // speakderivatives9
           // derivatives9("en-US"),
           // derivatives1000"),
-          // speakderivatives10
           // derivatives10("en-US"),
           // derivatives1100"),
-          // speakderivatives11
           // derivatives11("en-US"),
           // derivatives1200"),
-          // speakderivatives12
           // derivatives12("en-US"),
           // derivatives1300"),
-          // speakderivatives13
           // derivatives13("en-US"),
           // derivatives1400"),
-          // speakderivatives14
           // derivatives14("en-US"),
           // derivatives1500"),
-          // speakderivatives15
           // derivatives15("en-US"),
           // derivatives1600"),
-          // speakderivatives16
           // derivatives16("en-US"),
           // derivatives1700"),
-          // speakderivatives17
           // derivatives17("en-US"),
           // derivatives1800"),
-          // speakderivatives18
           // derivatives18("en-US"),
           // derivatives1900"),
-          // speakderivatives19
           // derivatives19("en-US"),
           // "Crack is a highly potent and addictive derivative of cocaine.0"),
-          // speakderivatives20
           // derivatives20("en-US"),
           // derivatives2100"),
-          // speakderivatives21
           // derivatives21("en-US"),
           // derivatives2200"),
-          // speakderivatives22
           // derivatives22("en-US"),
         ],
       ),

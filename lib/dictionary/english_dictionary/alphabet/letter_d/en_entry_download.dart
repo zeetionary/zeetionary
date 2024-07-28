@@ -379,9 +379,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -434,55 +432,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownloads5("en-US"),
           ),
           // downloads600"),
-          // speakdownloads6
           // downloads6("en-US"),
           // downloads700"),
-          // speakdownloads7
           // downloads7("en-US"),
           // downloads800"),
-          // speakdownloads8
           // downloads8("en-US"),
           // downloads900"),
-          // speakdownloads9
           // downloads9("en-US"),
           // downloads_1000"),
-          // speakdownloads10
           // downloads10("en-US"),
           // downloads1100"),
-          // speakdownloads11
           // downloads11("en-US"),
           // downloads1200"),
-          // speakdownloads12
           // downloads12("en-US"),
           // downloads1300"),
-          // speakdownloads13
           // downloads13("en-US"),
           // downloads1400"),
-          // speakdownloads14
           // downloads14("en-US"),
           // downloads1500"),
-          // speakdownloads15
           // downloads15("en-US"),
           // downloads1600"),
-          // speakdownloads16
           // downloads16("en-US"),
           // downloads1700"),
-          // speakdownloads17
           // downloads17("en-US"),
           // downloads1800"),
-          // speakdownloads18
           // downloads18("en-US"),
           // downloads1900"),
-          // speakdownloads19
           // downloads19("en-US"),
           // downloads_2000"),
-          // speakdownloads20
           // downloads20("en-US"),
           // downloads2100"),
-          // speakdownloads21
           // downloads21("en-US"),
           // downloads2200"),
-          // speakdownloads22
           // downloads22("en-US"),
         ],
       ),

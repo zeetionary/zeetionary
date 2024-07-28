@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdumpertrucks1("en-US"),
           ),
           // dumpertrucks200
-          // speakdumpertrucks2
           // dumpertrucks2("en-US"""),
           // dumpertrucks300
-          // speakdumpertrucks3
           // dumpertrucks3("en-US"""),
           // dumpertrucks400
-          // speakdumpertrucks4
           // dumpertrucks4("en-US"""),
           // dumpertrucks500
-          // speakdumpertrucks5
           // dumpertrucks5("en-US"""),
           // dumpertrucks600
-          // speakdumpertrucks6
           // dumpertrucks6("en-US"""),
           // dumpertrucks700
-          // speakdumpertrucks7
           // dumpertrucks7("en-US"""),
           // dumpertrucks800
-          // speakdumpertrucks8
           // dumpertrucks8("en-US"""),
           // dumpertrucks900
-          // speakdumpertrucks9
           // dumpertrucks9("en-US"""),
           // dumpertrucks_1000
-          // speakdumpertrucks10
           // dumpertrucks10("en-US"""),
           // dumpertrucks1100
-          // speakdumpertrucks11
           // dumpertrucks11("en-US"""),
           // dumpertrucks1200
-          // speakdumpertrucks12
           // dumpertrucks12("en-US"""),
           // dumpertrucks1300
-          // speakdumpertrucks13
           // dumpertrucks13("en-US"""),
           // dumpertrucks1400
-          // speakdumpertrucks14
           // dumpertrucks14("en-US"""),
           // dumpertrucks1500
-          // speakdumpertrucks15
           // dumpertrucks15("en-US"""),
           // dumpertrucks1600
-          // speakdumpertrucks16
           // dumpertrucks16("en-US"""),
           // dumpertrucks1700
-          // speakdumpertrucks17
           // dumpertrucks17("en-US"""),
           // dumpertrucks1800
-          // speakdumpertrucks18
           // dumpertrucks18("en-US"""),
           // dumpertrucks1900
-          // speakdumpertrucks19
           // dumpertrucks19("en-US"""),
           // dumpertrucks_2000
-          // speakdumpertrucks20
           // dumpertrucks20("en-US"""),
           // dumpertrucks2100
-          // speakdumpertrucks21
           // dumpertrucks21("en-US"""),
           // dumpertrucks2200
-          // speakdumpertrucks22
           // dumpertrucks22("en-US"""),
         ],
       ),

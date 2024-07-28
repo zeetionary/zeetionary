@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -400,61 +398,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdwells3("en-US"),
           ),
           // dwells400
-          // speakdwells4
           // dwells4("en-US"""),
           // dwells500
-          // speakdwells5
           // dwells5("en-US"""),
           // dwells600
-          // speakdwells6
           // dwells6("en-US"""),
           // dwells700
-          // speakdwells7
           // dwells7("en-US"""),
           // dwells800
-          // speakdwells8
           // dwells8("en-US"""),
           // dwells900
-          // speakdwells9
           // dwells9("en-US"""),
           // dwells_1000
-          // speakdwells10
           // dwells10("en-US"""),
           // dwells1100
-          // speakdwells11
           // dwells11("en-US"""),
           // dwells1200
-          // speakdwells12
           // dwells12("en-US"""),
           // dwells1300
-          // speakdwells13
           // dwells13("en-US"""),
           // dwells1400
-          // speakdwells14
           // dwells14("en-US"""),
           // dwells1500
-          // speakdwells15
           // dwells15("en-US"""),
           // dwells1600
-          // speakdwells16
           // dwells16("en-US"""),
           // dwells1700
-          // speakdwells17
           // dwells17("en-US"""),
           // dwells1800
-          // speakdwells18
           // dwells18("en-US"""),
           // dwells1900
-          // speakdwells19
           // dwells19("en-US"""),
           // dwells_2000
-          // speakdwells20
           // dwells20("en-US"""),
           // dwells2100
-          // speakdwells21
           // dwells21("en-US"""),
           // dwells2200
-          // speakdwells22
           // dwells22("en-US"""),
         ],
       ),

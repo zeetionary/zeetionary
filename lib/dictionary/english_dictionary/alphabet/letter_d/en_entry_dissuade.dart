@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -381,64 +379,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissuades2("en-US"),
           ),
           // dissuades300"),
-          // speakdissuades3
           // dissuades3("en-US"),
           // dissuades400"),
-          // speakdissuades4
           // dissuades4("en-US"),
           // dissuades500"),
-          // speakdissuades5
           // dissuades5("en-US"),
           // dissuades600"),
-          // speakdissuades6
           // dissuades6("en-US"),
           // dissuades700"),
-          // speakdissuades7
           // dissuades7("en-US"),
           // dissuades800"),
-          // speakdissuades8
           // dissuades8("en-US"),
           // dissuades900"),
-          // speakdissuades9
           // dissuades9("en-US"),
           // dissuades_1000"),
-          // speakdissuades10
           // dissuades10("en-US"),
           // dissuades1100"),
-          // speakdissuades11
           // dissuades11("en-US"),
           // dissuades1200"),
-          // speakdissuades12
           // dissuades12("en-US"),
           // dissuades1300"),
-          // speakdissuades13
           // dissuades13("en-US"),
           // dissuades1400"),
-          // speakdissuades14
           // dissuades14("en-US"),
           // dissuades1500"),
-          // speakdissuades15
           // dissuades15("en-US"),
           // dissuades1600"),
-          // speakdissuades16
           // dissuades16("en-US"),
           // dissuades1700"),
-          // speakdissuades17
           // dissuades17("en-US"),
           // dissuades1800"),
-          // speakdissuades18
           // dissuades18("en-US"),
           // dissuades1900"),
-          // speakdissuades19
           // dissuades19("en-US"),
           // dissuades_2000"),
-          // speakdissuades20
           // dissuades20("en-US"),
           // dissuades2100"),
-          // speakdissuades21
           // dissuades21("en-US"),
           // dissuades2200"),
-          // speakdissuades22
           // dissuades22("en-US"),
         ],
       ),

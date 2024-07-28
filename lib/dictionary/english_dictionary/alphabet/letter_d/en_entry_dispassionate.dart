@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdispassionates1("en-US"),
           ),
           // dispassionates200"),
-          // speakdispassionates2
           // dispassionates2("en-US"),
           // dispassionates300"),
-          // speakdispassionates3
           // dispassionates3("en-US"),
           // dispassionates400"),
-          // speakdispassionates4
           // dispassionates4("en-US"),
           // dispassionates500"),
-          // speakdispassionates5
           // dispassionates5("en-US"),
           // dispassionates600"),
-          // speakdispassionates6
           // dispassionates6("en-US"),
           // dispassionates700"),
-          // speakdispassionates7
           // dispassionates7("en-US"),
           // dispassionates800"),
-          // speakdispassionates8
           // dispassionates8("en-US"),
           // dispassionates900"),
-          // speakdispassionates9
           // dispassionates9("en-US"),
           // dispassionates_1000"),
-          // speakdispassionates10
           // dispassionates10("en-US"),
           // dispassionates1100"),
-          // speakdispassionates11
           // dispassionates11("en-US"),
           // dispassionates1200"),
-          // speakdispassionates12
           // dispassionates12("en-US"),
           // dispassionates1300"),
-          // speakdispassionates13
           // dispassionates13("en-US"),
           // dispassionates1400"),
-          // speakdispassionates14
           // dispassionates14("en-US"),
           // dispassionates1500"),
-          // speakdispassionates15
           // dispassionates15("en-US"),
           // dispassionates1600"),
-          // speakdispassionates16
           // dispassionates16("en-US"),
           // dispassionates1700"),
-          // speakdispassionates17
           // dispassionates17("en-US"),
           // dispassionates1800"),
-          // speakdispassionates18
           // dispassionates18("en-US"),
           // dispassionates1900"),
-          // speakdispassionates19
           // dispassionates19("en-US"),
           // dispassionates_2000"),
-          // speakdispassionates20
           // dispassionates20("en-US"),
           // dispassionates2100"),
-          // speakdispassionates21
           // dispassionates21("en-US"),
           // dispassionates2200"),
-          // speakdispassionates22
           // dispassionates22("en-US"),
         ],
       ),

@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisorganizations1("en-US"),
           ),
           // disorganizations200"),
-          // speakdisorganizations2
           // disorganizations2("en-US"),
           // disorganizations300"),
-          // speakdisorganizations3
           // disorganizations3("en-US"),
           // disorganizations400"),
-          // speakdisorganizations4
           // disorganizations4("en-US"),
           // disorganizations500"),
-          // speakdisorganizations5
           // disorganizations5("en-US"),
           // disorganizations600"),
-          // speakdisorganizations6
           // disorganizations6("en-US"),
           // disorganizations700"),
-          // speakdisorganizations7
           // disorganizations7("en-US"),
           // disorganizations800"),
-          // speakdisorganizations8
           // disorganizations8("en-US"),
           // disorganizations900"),
-          // speakdisorganizations9
           // disorganizations9("en-US"),
           // disorganizations_1000"),
-          // speakdisorganizations10
           // disorganizations10("en-US"),
           // disorganizations1100"),
-          // speakdisorganizations11
           // disorganizations11("en-US"),
           // disorganizations1200"),
-          // speakdisorganizations12
           // disorganizations12("en-US"),
           // disorganizations1300"),
-          // speakdisorganizations13
           // disorganizations13("en-US"),
           // disorganizations1400"),
-          // speakdisorganizations14
           // disorganizations14("en-US"),
           // disorganizations1500"),
-          // speakdisorganizations15
           // disorganizations15("en-US"),
           // disorganizations1600"),
-          // speakdisorganizations16
           // disorganizations16("en-US"),
           // disorganizations1700"),
-          // speakdisorganizations17
           // disorganizations17("en-US"),
           // disorganizations1800"),
-          // speakdisorganizations18
           // disorganizations18("en-US"),
           // disorganizations1900"),
-          // speakdisorganizations19
           // disorganizations19("en-US"),
           // disorganizations_2000"),
-          // speakdisorganizations20
           // disorganizations20("en-US"),
           // disorganizations2100"),
-          // speakdisorganizations21
           // disorganizations21("en-US"),
           // disorganizations2200"),
-          // speakdisorganizations22
           // disorganizations22("en-US"),
         ],
       ),

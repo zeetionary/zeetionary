@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesolations3("en-US"),
           ),
           // desolations400"),
-          // speakdesolations4
           // desolations4("en-US"),
           // desolations500"),
-          // speakdesolations5
           // desolations5("en-US"),
           // desolations600"),
-          // speakdesolations6
           // desolations6("en-US"),
           // desolations700"),
-          // speakdesolations7
           // desolations7("en-US"),
           // desolations800"),
-          // speakdesolations8
           // desolations8("en-US"),
           // desolations900"),
-          // speakdesolations9
           // desolations9("en-US"),
           // desolations1000"),
-          // speakdesolations10
           // desolations10("en-US"),
           // desolations1100"),
-          // speakdesolations11
           // desolations11("en-US"),
           // desolations1200"),
-          // speakdesolations12
           // desolations12("en-US"),
           // desolations1300"),
-          // speakdesolations13
           // desolations13("en-US"),
           // desolations1400"),
-          // speakdesolations14
           // desolations14("en-US"),
           // desolations1500"),
-          // speakdesolations15
           // desolations15("en-US"),
           // desolations1600"),
-          // speakdesolations16
           // desolations16("en-US"),
           // desolations1700"),
-          // speakdesolations17
           // desolations17("en-US"),
           // desolations1800"),
-          // speakdesolations18
           // desolations18("en-US"),
           // desolations1900"),
-          // speakdesolations19
           // desolations19("en-US"),
           // "She was racked by a feeling of utter desolation.0"),
-          // speakdesolations20
           // desolations20("en-US"),
           // desolations2100"),
-          // speakdesolations21
           // desolations21("en-US"),
           // desolations2200"),
-          // speakdesolations22
           // desolations22("en-US"),
         ],
       ),

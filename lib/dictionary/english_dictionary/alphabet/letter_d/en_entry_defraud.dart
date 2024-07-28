@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -281,61 +279,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefrauds3("en-US"),
           ),
           // defrauds400"),
-          // speakdefrauds4
           // defrauds4("en-US"),
           // defrauds500"),
-          // speakdefrauds5
           // defrauds5("en-US"),
           // defrauds600"),
-          // speakdefrauds6
           // defrauds6("en-US"),
           // defrauds700"),
-          // speakdefrauds7
           // defrauds7("en-US"),
           // defrauds800"),
-          // speakdefrauds8
           // defrauds8("en-US"),
           // defrauds900"),
-          // speakdefrauds9
           // defrauds9("en-US"),
           // defrauds1000"),
-          // speakdefrauds10
           // defrauds10("en-US"),
           // defrauds1100"),
-          // speakdefrauds11
           // defrauds11("en-US"),
           // defrauds1200"),
-          // speakdefrauds12
           // defrauds12("en-US"),
           // defrauds1300"),
-          // speakdefrauds13
           // defrauds13("en-US"),
           // defrauds1400"),
-          // speakdefrauds14
           // defrauds14("en-US"),
           // defrauds1500"),
-          // speakdefrauds15
           // defrauds15("en-US"),
           // defrauds1600"),
-          // speakdefrauds16
           // defrauds16("en-US"),
           // defrauds1700"),
-          // speakdefrauds17
           // defrauds17("en-US"),
           // defrauds1800"),
-          // speakdefrauds18
           // defrauds18("en-US"),
           // defrauds1900"),
-          // speakdefrauds19
           // defrauds19("en-US"),
           // "They were accused of defrauding the company of £14 000.0"),
-          // speakdefrauds20
           // defrauds20("en-US"),
           // defrauds2100"),
-          // speakdefrauds21
           // defrauds21("en-US"),
           // defrauds2200"),
-          // speakdefrauds22
           // defrauds22("en-US"),
         ],
       ),

@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdormitorys1("en-US"),
           ),
           // dormitorys200"),
-          // speakdormitorys2
           // dormitorys2("en-US"),
           // dormitorys300"),
-          // speakdormitorys3
           // dormitorys3("en-US"),
           // dormitorys400"),
-          // speakdormitorys4
           // dormitorys4("en-US"),
           // dormitorys500"),
-          // speakdormitorys5
           // dormitorys5("en-US"),
           // dormitorys600"),
-          // speakdormitorys6
           // dormitorys6("en-US"),
           // dormitorys700"),
-          // speakdormitorys7
           // dormitorys7("en-US"),
           // dormitorys800"),
-          // speakdormitorys8
           // dormitorys8("en-US"),
           // dormitorys900"),
-          // speakdormitorys9
           // dormitorys9("en-US"),
           // dormitorys_1000"),
-          // speakdormitorys10
           // dormitorys10("en-US"),
           // dormitorys1100"),
-          // speakdormitorys11
           // dormitorys11("en-US"),
           // dormitorys1200"),
-          // speakdormitorys12
           // dormitorys12("en-US"),
           // dormitorys1300"),
-          // speakdormitorys13
           // dormitorys13("en-US"),
           // dormitorys1400"),
-          // speakdormitorys14
           // dormitorys14("en-US"),
           // dormitorys1500"),
-          // speakdormitorys15
           // dormitorys15("en-US"),
           // dormitorys1600"),
-          // speakdormitorys16
           // dormitorys16("en-US"),
           // dormitorys1700"),
-          // speakdormitorys17
           // dormitorys17("en-US"),
           // dormitorys1800"),
-          // speakdormitorys18
           // dormitorys18("en-US"),
           // dormitorys1900"),
-          // speakdormitorys19
           // dormitorys19("en-US"),
           // dormitorys_2000"),
-          // speakdormitorys20
           // dormitorys20("en-US"),
           // dormitorys2100"),
-          // speakdormitorys21
           // dormitorys21("en-US"),
           // dormitorys2200"),
-          // speakdormitorys22
           // dormitorys22("en-US"),
         ],
       ),

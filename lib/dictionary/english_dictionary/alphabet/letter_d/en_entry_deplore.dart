@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeplores2("en-US"),
           ),
           // deplores300"),
-          // speakdeplores3
           // deplores3("en-US"),
           // deplores400"),
-          // speakdeplores4
           // deplores4("en-US"),
           // deplores500"),
-          // speakdeplores5
           // deplores5("en-US"),
           // deplores600"),
-          // speakdeplores6
           // deplores6("en-US"),
           // deplores700"),
-          // speakdeplores7
           // deplores7("en-US"),
           // deplores800"),
-          // speakdeplores8
           // deplores8("en-US"),
           // deplores900"),
-          // speakdeplores9
           // deplores9("en-US"),
           // deplores1000"),
-          // speakdeplores10
           // deplores10("en-US"),
           // deplores1100"),
-          // speakdeplores11
           // deplores11("en-US"),
           // deplores1200"),
-          // speakdeplores12
           // deplores12("en-US"),
           // deplores1300"),
-          // speakdeplores13
           // deplores13("en-US"),
           // deplores1400"),
-          // speakdeplores14
           // deplores14("en-US"),
           // deplores1500"),
-          // speakdeplores15
           // deplores15("en-US"),
           // deplores1600"),
-          // speakdeplores16
           // deplores16("en-US"),
           // deplores1700"),
-          // speakdeplores17
           // deplores17("en-US"),
           // deplores1800"),
-          // speakdeplores18
           // deplores18("en-US"),
           // deplores1900"),
-          // speakdeplores19
           // deplores19("en-US"),
           // "He deplored the fact that these criminals were treated by many as heroes and martyrs.0"),
-          // speakdeplores20
           // deplores20("en-US"),
           // deplores2100"),
-          // speakdeplores21
           // deplores21("en-US"),
           // deplores2200"),
-          // speakdeplores22
           // deplores22("en-US"),
         ],
       ),

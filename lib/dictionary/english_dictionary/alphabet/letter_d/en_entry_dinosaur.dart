@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -270,61 +268,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdinosaurs3("en-US"),
           ),
           // dinosaurs400"),
-          // speakdinosaurs4
           // dinosaurs4("en-US"),
           // dinosaurs500"),
-          // speakdinosaurs5
           // dinosaurs5("en-US"),
           // dinosaurs600"),
-          // speakdinosaurs6
           // dinosaurs6("en-US"),
           // dinosaurs700"),
-          // speakdinosaurs7
           // dinosaurs7("en-US"),
           // dinosaurs800"),
-          // speakdinosaurs8
           // dinosaurs8("en-US"),
           // dinosaurs900"),
-          // speakdinosaurs9
           // dinosaurs9("en-US"),
           // dinosaurs_1000"),
-          // speakdinosaurs10
           // dinosaurs10("en-US"),
           // dinosaurs1100"),
-          // speakdinosaurs11
           // dinosaurs11("en-US"),
           // dinosaurs1200"),
-          // speakdinosaurs12
           // dinosaurs12("en-US"),
           // dinosaurs1300"),
-          // speakdinosaurs13
           // dinosaurs13("en-US"),
           // dinosaurs1400"),
-          // speakdinosaurs14
           // dinosaurs14("en-US"),
           // dinosaurs1500"),
-          // speakdinosaurs15
           // dinosaurs15("en-US"),
           // dinosaurs1600"),
-          // speakdinosaurs16
           // dinosaurs16("en-US"),
           // dinosaurs1700"),
-          // speakdinosaurs17
           // dinosaurs17("en-US"),
           // dinosaurs1800"),
-          // speakdinosaurs18
           // dinosaurs18("en-US"),
           // dinosaurs1900"),
-          // speakdinosaurs19
           // dinosaurs19("en-US"),
           // dinosaurs_2000"),
-          // speakdinosaurs20
           // dinosaurs20("en-US"),
           // dinosaurs2100"),
-          // speakdinosaurs21
           // dinosaurs21("en-US"),
           // dinosaurs2200"),
-          // speakdinosaurs22
           // dinosaurs22("en-US"),
         ],
       ),

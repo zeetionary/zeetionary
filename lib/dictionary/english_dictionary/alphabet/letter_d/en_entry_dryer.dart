@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -379,64 +377,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdryers2("en-US"),
           ),
           // dryers300"),
-          // speakdryers3
           // dryers3("en-US"),
           // dryers400"),
-          // speakdryers4
           // dryers4("en-US"),
           // dryers500"),
-          // speakdryers5
           // dryers5("en-US"),
           // dryers600"),
-          // speakdryers6
           // dryers6("en-US"),
           // dryers700"),
-          // speakdryers7
           // dryers7("en-US"),
           // dryers800"),
-          // speakdryers8
           // dryers8("en-US"),
           // dryers900"),
-          // speakdryers9
           // dryers9("en-US"),
           // dryers_1000"),
-          // speakdryers10
           // dryers10("en-US"),
           // dryers1100"),
-          // speakdryers11
           // dryers11("en-US"),
           // dryers1200"),
-          // speakdryers12
           // dryers12("en-US"),
           // dryers1300"),
-          // speakdryers13
           // dryers13("en-US"),
           // dryers1400"),
-          // speakdryers14
           // dryers14("en-US"),
           // dryers1500"),
-          // speakdryers15
           // dryers15("en-US"),
           // dryers1600"),
-          // speakdryers16
           // dryers16("en-US"),
           // dryers1700"),
-          // speakdryers17
           // dryers17("en-US"),
           // dryers1800"),
-          // speakdryers18
           // dryers18("en-US"),
           // dryers1900"),
-          // speakdryers19
           // dryers19("en-US"),
           // dryers_2000"),
-          // speakdryers20
           // dryers20("en-US"),
           // dryers2100"),
-          // speakdryers21
           // dryers21("en-US"),
           // dryers2200"),
-          // speakdryers22
           // dryers22("en-US"),
         ],
       ),

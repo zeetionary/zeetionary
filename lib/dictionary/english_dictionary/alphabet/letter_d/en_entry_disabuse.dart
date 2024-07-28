@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisabuses1("en-US"),
           ),
           // disabuses200"),
-          // speakdisabuses2
           // disabuses2("en-US"),
           // disabuses300"),
-          // speakdisabuses3
           // disabuses3("en-US"),
           // disabuses400"),
-          // speakdisabuses4
           // disabuses4("en-US"),
           // disabuses500"),
-          // speakdisabuses5
           // disabuses5("en-US"),
           // disabuses600"),
-          // speakdisabuses6
           // disabuses6("en-US"),
           // disabuses700"),
-          // speakdisabuses7
           // disabuses7("en-US"),
           // disabuses800"),
-          // speakdisabuses8
           // disabuses8("en-US"),
           // disabuses900"),
-          // speakdisabuses9
           // disabuses9("en-US"),
           // disabuses_1000"),
-          // speakdisabuses10
           // disabuses10("en-US"),
           // disabuses1100"),
-          // speakdisabuses11
           // disabuses11("en-US"),
           // disabuses1200"),
-          // speakdisabuses12
           // disabuses12("en-US"),
           // disabuses1300"),
-          // speakdisabuses13
           // disabuses13("en-US"),
           // disabuses1400"),
-          // speakdisabuses14
           // disabuses14("en-US"),
           // disabuses1500"),
-          // speakdisabuses15
           // disabuses15("en-US"),
           // disabuses1600"),
-          // speakdisabuses16
           // disabuses16("en-US"),
           // disabuses1700"),
-          // speakdisabuses17
           // disabuses17("en-US"),
           // disabuses1800"),
-          // speakdisabuses18
           // disabuses18("en-US"),
           // disabuses1900"),
-          // speakdisabuses19
           // disabuses19("en-US"),
           // disabuses_2000"),
-          // speakdisabuses20
           // disabuses20("en-US"),
           // disabuses2100"),
-          // speakdisabuses21
           // disabuses21("en-US"),
           // disabuses2200"),
-          // speakdisabuses22
           // disabuses22("en-US"),
         ],
       ),

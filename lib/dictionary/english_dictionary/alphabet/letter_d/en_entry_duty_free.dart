@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -381,64 +379,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdutyfrees2("en-US"),
           ),
           // dutyfrees300
-          // speakdutyfrees3
           // dutyfrees3("en-US"""),
           // dutyfrees400
-          // speakdutyfrees4
           // dutyfrees4("en-US"""),
           // dutyfrees500
-          // speakdutyfrees5
           // dutyfrees5("en-US"""),
           // dutyfrees600
-          // speakdutyfrees6
           // dutyfrees6("en-US"""),
           // dutyfrees700
-          // speakdutyfrees7
           // dutyfrees7("en-US"""),
           // dutyfrees800
-          // speakdutyfrees8
           // dutyfrees8("en-US"""),
           // dutyfrees900
-          // speakdutyfrees9
           // dutyfrees9("en-US"""),
           // dutyfrees_1000
-          // speakdutyfrees10
           // dutyfrees10("en-US"""),
           // dutyfrees1100
-          // speakdutyfrees11
           // dutyfrees11("en-US"""),
           // dutyfrees1200
-          // speakdutyfrees12
           // dutyfrees12("en-US"""),
           // dutyfrees1300
-          // speakdutyfrees13
           // dutyfrees13("en-US"""),
           // dutyfrees1400
-          // speakdutyfrees14
           // dutyfrees14("en-US"""),
           // dutyfrees1500
-          // speakdutyfrees15
           // dutyfrees15("en-US"""),
           // dutyfrees1600
-          // speakdutyfrees16
           // dutyfrees16("en-US"""),
           // dutyfrees1700
-          // speakdutyfrees17
           // dutyfrees17("en-US"""),
           // dutyfrees1800
-          // speakdutyfrees18
           // dutyfrees18("en-US"""),
           // dutyfrees1900
-          // speakdutyfrees19
           // dutyfrees19("en-US"""),
           // dutyfrees_2000
-          // speakdutyfrees20
           // dutyfrees20("en-US"""),
           // dutyfrees2100
-          // speakdutyfrees21
           // dutyfrees21("en-US"""),
           // dutyfrees2200
-          // speakdutyfrees22
           // dutyfrees22("en-US"""),
         ],
       ),

@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdungeons1("en-US"),
           ),
           // dungeons200
-          // speakdungeons2
           // dungeons2("en-US"""),
           // dungeons300
-          // speakdungeons3
           // dungeons3("en-US"""),
           // dungeons400
-          // speakdungeons4
           // dungeons4("en-US"""),
           // dungeons500
-          // speakdungeons5
           // dungeons5("en-US"""),
           // dungeons600
-          // speakdungeons6
           // dungeons6("en-US"""),
           // dungeons700
-          // speakdungeons7
           // dungeons7("en-US"""),
           // dungeons800
-          // speakdungeons8
           // dungeons8("en-US"""),
           // dungeons900
-          // speakdungeons9
           // dungeons9("en-US"""),
           // dungeons_1000
-          // speakdungeons10
           // dungeons10("en-US"""),
           // dungeons1100
-          // speakdungeons11
           // dungeons11("en-US"""),
           // dungeons1200
-          // speakdungeons12
           // dungeons12("en-US"""),
           // dungeons1300
-          // speakdungeons13
           // dungeons13("en-US"""),
           // dungeons1400
-          // speakdungeons14
           // dungeons14("en-US"""),
           // dungeons1500
-          // speakdungeons15
           // dungeons15("en-US"""),
           // dungeons1600
-          // speakdungeons16
           // dungeons16("en-US"""),
           // dungeons1700
-          // speakdungeons17
           // dungeons17("en-US"""),
           // dungeons1800
-          // speakdungeons18
           // dungeons18("en-US"""),
           // dungeons1900
-          // speakdungeons19
           // dungeons19("en-US"""),
           // dungeons_2000
-          // speakdungeons20
           // dungeons20("en-US"""),
           // dungeons2100
-          // speakdungeons21
           // dungeons21("en-US"""),
           // dungeons2200
-          // speakdungeons22
           // dungeons22("en-US"""),
         ],
       ),

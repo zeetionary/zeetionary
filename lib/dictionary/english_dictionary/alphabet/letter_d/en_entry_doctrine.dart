@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -398,61 +396,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoctrines3("en-US"),
           ),
           // doctrines400"),
-          // speakdoctrines4
           // doctrines4("en-US"),
           // doctrines500"),
-          // speakdoctrines5
           // doctrines5("en-US"),
           // doctrines600"),
-          // speakdoctrines6
           // doctrines6("en-US"),
           // doctrines700"),
-          // speakdoctrines7
           // doctrines7("en-US"),
           // doctrines800"),
-          // speakdoctrines8
           // doctrines8("en-US"),
           // doctrines900"),
-          // speakdoctrines9
           // doctrines9("en-US"),
           // doctrines_1000"),
-          // speakdoctrines10
           // doctrines10("en-US"),
           // doctrines1100"),
-          // speakdoctrines11
           // doctrines11("en-US"),
           // doctrines1200"),
-          // speakdoctrines12
           // doctrines12("en-US"),
           // doctrines1300"),
-          // speakdoctrines13
           // doctrines13("en-US"),
           // doctrines1400"),
-          // speakdoctrines14
           // doctrines14("en-US"),
           // doctrines1500"),
-          // speakdoctrines15
           // doctrines15("en-US"),
           // doctrines1600"),
-          // speakdoctrines16
           // doctrines16("en-US"),
           // doctrines1700"),
-          // speakdoctrines17
           // doctrines17("en-US"),
           // doctrines1800"),
-          // speakdoctrines18
           // doctrines18("en-US"),
           // doctrines1900"),
-          // speakdoctrines19
           // doctrines19("en-US"),
           // doctrines_2000"),
-          // speakdoctrines20
           // doctrines20("en-US"),
           // doctrines2100"),
-          // speakdoctrines21
           // doctrines21("en-US"),
           // doctrines2200"),
-          // speakdoctrines22
           // doctrines22("en-US"),
         ],
       ),

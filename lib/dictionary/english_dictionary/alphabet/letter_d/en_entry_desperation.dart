@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesperations2("en-US"),
           ),
           // desperations300"),
-          // speakdesperations3
           // desperations3("en-US"),
           // desperations400"),
-          // speakdesperations4
           // desperations4("en-US"),
           // desperations500"),
-          // speakdesperations5
           // desperations5("en-US"),
           // desperations600"),
-          // speakdesperations6
           // desperations6("en-US"),
           // desperations700"),
-          // speakdesperations7
           // desperations7("en-US"),
           // desperations800"),
-          // speakdesperations8
           // desperations8("en-US"),
           // desperations900"),
-          // speakdesperations9
           // desperations9("en-US"),
           // desperations1000"),
-          // speakdesperations10
           // desperations10("en-US"),
           // desperations1100"),
-          // speakdesperations11
           // desperations11("en-US"),
           // desperations1200"),
-          // speakdesperations12
           // desperations12("en-US"),
           // desperations1300"),
-          // speakdesperations13
           // desperations13("en-US"),
           // desperations1400"),
-          // speakdesperations14
           // desperations14("en-US"),
           // desperations1500"),
-          // speakdesperations15
           // desperations15("en-US"),
           // desperations1600"),
-          // speakdesperations16
           // desperations16("en-US"),
           // desperations1700"),
-          // speakdesperations17
           // desperations17("en-US"),
           // desperations1800"),
-          // speakdesperations18
           // desperations18("en-US"),
           // desperations1900"),
-          // speakdesperations19
           // desperations19("en-US"),
           // "In desperation, she called Louise and asked for her help.0"),
-          // speakdesperations20
           // desperations20("en-US"),
           // desperations2100"),
-          // speakdesperations21
           // desperations21("en-US"),
           // desperations2200"),
-          // speakdesperations22
           // desperations22("en-US"),
         ],
       ),

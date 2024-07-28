@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdowntroddens1("en-US"),
           ),
           // downtroddens200"),
-          // speakdowntroddens2
           // downtroddens2("en-US"),
           // downtroddens300"),
-          // speakdowntroddens3
           // downtroddens3("en-US"),
           // downtroddens400"),
-          // speakdowntroddens4
           // downtroddens4("en-US"),
           // downtroddens500"),
-          // speakdowntroddens5
           // downtroddens5("en-US"),
           // downtroddens600"),
-          // speakdowntroddens6
           // downtroddens6("en-US"),
           // downtroddens700"),
-          // speakdowntroddens7
           // downtroddens7("en-US"),
           // downtroddens800"),
-          // speakdowntroddens8
           // downtroddens8("en-US"),
           // downtroddens900"),
-          // speakdowntroddens9
           // downtroddens9("en-US"),
           // downtroddens_1000"),
-          // speakdowntroddens10
           // downtroddens10("en-US"),
           // downtroddens1100"),
-          // speakdowntroddens11
           // downtroddens11("en-US"),
           // downtroddens1200"),
-          // speakdowntroddens12
           // downtroddens12("en-US"),
           // downtroddens1300"),
-          // speakdowntroddens13
           // downtroddens13("en-US"),
           // downtroddens1400"),
-          // speakdowntroddens14
           // downtroddens14("en-US"),
           // downtroddens1500"),
-          // speakdowntroddens15
           // downtroddens15("en-US"),
           // downtroddens1600"),
-          // speakdowntroddens16
           // downtroddens16("en-US"),
           // downtroddens1700"),
-          // speakdowntroddens17
           // downtroddens17("en-US"),
           // downtroddens1800"),
-          // speakdowntroddens18
           // downtroddens18("en-US"),
           // downtroddens1900"),
-          // speakdowntroddens19
           // downtroddens19("en-US"),
           // downtroddens_2000"),
-          // speakdowntroddens20
           // downtroddens20("en-US"),
           // downtroddens2100"),
-          // speakdowntroddens21
           // downtroddens21("en-US"),
           // downtroddens2200"),
-          // speakdowntroddens22
           // downtroddens22("en-US"),
         ],
       ),

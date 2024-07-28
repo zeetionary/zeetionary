@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisastrouss2("en-US"),
           ),
           // disastrouss300"),
-          // speakdisastrouss3
           // disastrouss3("en-US"),
           // disastrouss400"),
-          // speakdisastrouss4
           // disastrouss4("en-US"),
           // disastrouss500"),
-          // speakdisastrouss5
           // disastrouss5("en-US"),
           // disastrouss600"),
-          // speakdisastrouss6
           // disastrouss6("en-US"),
           // disastrouss700"),
-          // speakdisastrouss7
           // disastrouss7("en-US"),
           // disastrouss800"),
-          // speakdisastrouss8
           // disastrouss8("en-US"),
           // disastrouss900"),
-          // speakdisastrouss9
           // disastrouss9("en-US"),
           // disastrouss_1000"),
-          // speakdisastrouss10
           // disastrouss10("en-US"),
           // disastrouss1100"),
-          // speakdisastrouss11
           // disastrouss11("en-US"),
           // disastrouss1200"),
-          // speakdisastrouss12
           // disastrouss12("en-US"),
           // disastrouss1300"),
-          // speakdisastrouss13
           // disastrouss13("en-US"),
           // disastrouss1400"),
-          // speakdisastrouss14
           // disastrouss14("en-US"),
           // disastrouss1500"),
-          // speakdisastrouss15
           // disastrouss15("en-US"),
           // disastrouss1600"),
-          // speakdisastrouss16
           // disastrouss16("en-US"),
           // disastrouss1700"),
-          // speakdisastrouss17
           // disastrouss17("en-US"),
           // disastrouss1800"),
-          // speakdisastrouss18
           // disastrouss18("en-US"),
           // disastrouss1900"),
-          // speakdisastrouss19
           // disastrouss19("en-US"),
           // disastrouss_2000"),
-          // speakdisastrouss20
           // disastrouss20("en-US"),
           // disastrouss2100"),
-          // speakdisastrouss21
           // disastrouss21("en-US"),
           // disastrouss2200"),
-          // speakdisastrouss22
           // disastrouss22("en-US"),
         ],
       ),

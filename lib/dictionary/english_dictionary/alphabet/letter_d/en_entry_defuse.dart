@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -266,64 +264,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefuses2("en-US"),
           ),
           // defuses300"),
-          // speakdefuses3
           // defuses3("en-US"),
           // defuses400"),
-          // speakdefuses4
           // defuses4("en-US"),
           // defuses500"),
-          // speakdefuses5
           // defuses5("en-US"),
           // defuses600"),
-          // speakdefuses6
           // defuses6("en-US"),
           // defuses700"),
-          // speakdefuses7
           // defuses7("en-US"),
           // defuses800"),
-          // speakdefuses8
           // defuses8("en-US"),
           // defuses900"),
-          // speakdefuses9
           // defuses9("en-US"),
           // defuses1000"),
-          // speakdefuses10
           // defuses10("en-US"),
           // defuses1100"),
-          // speakdefuses11
           // defuses11("en-US"),
           // defuses1200"),
-          // speakdefuses12
           // defuses12("en-US"),
           // defuses1300"),
-          // speakdefuses13
           // defuses13("en-US"),
           // defuses1400"),
-          // speakdefuses14
           // defuses14("en-US"),
           // defuses1500"),
-          // speakdefuses15
           // defuses15("en-US"),
           // defuses1600"),
-          // speakdefuses16
           // defuses16("en-US"),
           // defuses1700"),
-          // speakdefuses17
           // defuses17("en-US"),
           // defuses1800"),
-          // speakdefuses18
           // defuses18("en-US"),
           // defuses1900"),
-          // speakdefuses19
           // defuses19("en-US"),
           // "Police closed the road while they defused the bomb.0"),
-          // speakdefuses20
           // defuses20("en-US"),
           // defuses2100"),
-          // speakdefuses21
           // defuses21("en-US"),
           // defuses2200"),
-          // speakdefuses22
           // defuses22("en-US"),
         ],
       ),

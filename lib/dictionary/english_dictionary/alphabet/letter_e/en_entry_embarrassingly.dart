@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -387,43 +385,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakembarrassinglys2("en-US"),
           ),
           // embarrassinglys300embarrassinglys3
-          // speakembarrassinglys3
           // embarrassinglys400embarrassinglys4
-          // speakembarrassinglys4
           // embarrassinglys500embarrassinglys5
-          // speakembarrassinglys5
           // embarrassinglys600embarrassinglys6
-          // speakembarrassinglys6
           // embarrassinglys700embarrassinglys7
-          // speakembarrassinglys7
           // embarrassinglys800embarrassinglys8
-          // speakembarrassinglys8
           // embarrassinglys900embarrassinglys9
-          // speakembarrassinglys9
           // embarrassinglys_1000embarrassinglys10
-          // speakembarrassinglys10
           // embarrassinglys1100embarrassinglys11
-          // speakembarrassinglys11
           // embarrassinglys1200embarrassinglys12
-          // speakembarrassinglys12
           // embarrassinglys1300embarrassinglys13
-          // speakembarrassinglys13
           // embarrassinglys1400embarrassinglys14
-          // speakembarrassinglys14
           // embarrassinglys1500embarrassinglys15
-          // speakembarrassinglys15
           // embarrassinglys1600embarrassinglys16
-          // speakembarrassinglys16
           // embarrassinglys1700embarrassinglys17
-          // speakembarrassinglys17
           // embarrassinglys1800embarrassinglys18
-          // speakembarrassinglys18
           // embarrassinglys1900embarrassinglys19
-          // speakembarrassinglys19
           // embarrassinglys_2000embarrassinglys20
-          // speakembarrassinglys20
           // embarrassinglys2100embarrassinglys21
-          // speakembarrassinglys21
           // embarrassinglys2200embarrassinglys22
           // speakembarrassinglys22("en-US"""),
           //         ),

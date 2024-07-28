@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -399,61 +397,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdustys3("en-US"),
           ),
           // dustys400
-          // speakdustys4
           // dustys4("en-US"""),
           // dustys500
-          // speakdustys5
           // dustys5("en-US"""),
           // dustys600
-          // speakdustys6
           // dustys6("en-US"""),
           // dustys700
-          // speakdustys7
           // dustys7("en-US"""),
           // dustys800
-          // speakdustys8
           // dustys8("en-US"""),
           // dustys900
-          // speakdustys9
           // dustys9("en-US"""),
           // dustys_1000
-          // speakdustys10
           // dustys10("en-US"""),
           // dustys1100
-          // speakdustys11
           // dustys11("en-US"""),
           // dustys1200
-          // speakdustys12
           // dustys12("en-US"""),
           // dustys1300
-          // speakdustys13
           // dustys13("en-US"""),
           // dustys1400
-          // speakdustys14
           // dustys14("en-US"""),
           // dustys1500
-          // speakdustys15
           // dustys15("en-US"""),
           // dustys1600
-          // speakdustys16
           // dustys16("en-US"""),
           // dustys1700
-          // speakdustys17
           // dustys17("en-US"""),
           // dustys1800
-          // speakdustys18
           // dustys18("en-US"""),
           // dustys1900
-          // speakdustys19
           // dustys19("en-US"""),
           // dustys_2000
-          // speakdustys20
           // dustys20("en-US"""),
           // dustys2100
-          // speakdustys21
           // dustys21("en-US"""),
           // dustys2200
-          // speakdustys22
           // dustys22("en-US"""),
         ],
       ),

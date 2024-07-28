@@ -372,9 +372,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -418,58 +416,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdizzys4("en-US"),
           ),
           // dizzys500"),
-          // speakdizzys5
           // dizzys5("en-US"),
           // dizzys600"),
-          // speakdizzys6
           // dizzys6("en-US"),
           // dizzys700"),
-          // speakdizzys7
           // dizzys7("en-US"),
           // dizzys800"),
-          // speakdizzys8
           // dizzys8("en-US"),
           // dizzys900"),
-          // speakdizzys9
           // dizzys9("en-US"),
           // dizzys_1000"),
-          // speakdizzys10
           // dizzys10("en-US"),
           // dizzys1100"),
-          // speakdizzys11
           // dizzys11("en-US"),
           // dizzys1200"),
-          // speakdizzys12
           // dizzys12("en-US"),
           // dizzys1300"),
-          // speakdizzys13
           // dizzys13("en-US"),
           // dizzys1400"),
-          // speakdizzys14
           // dizzys14("en-US"),
           // dizzys1500"),
-          // speakdizzys15
           // dizzys15("en-US"),
           // dizzys1600"),
-          // speakdizzys16
           // dizzys16("en-US"),
           // dizzys1700"),
-          // speakdizzys17
           // dizzys17("en-US"),
           // dizzys1800"),
-          // speakdizzys18
           // dizzys18("en-US"),
           // dizzys1900"),
-          // speakdizzys19
           // dizzys19("en-US"),
           // dizzys_2000"),
-          // speakdizzys20
           // dizzys20("en-US"),
           // dizzys2100"),
-          // speakdizzys21
           // dizzys21("en-US"),
           // dizzys2200"),
-          // speakdizzys22
           // dizzys22("en-US"),
         ],
       ),

@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -285,58 +283,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelighteds4("en-US"),
           ),
           // delighteds500"),
-          // speakdelighteds5
           // delighteds5("en-US"),
           // delighteds600"),
-          // speakdelighteds6
           // delighteds6("en-US"),
           // delighteds700"),
-          // speakdelighteds7
           // delighteds7("en-US"),
           // delighteds800"),
-          // speakdelighteds8
           // delighteds8("en-US"),
           // delighteds900"),
-          // speakdelighteds9
           // delighteds9("en-US"),
           // delighteds1000"),
-          // speakdelighteds10
           // delighteds10("en-US"),
           // delighteds1100"),
-          // speakdelighteds11
           // delighteds11("en-US"),
           // delighteds1200"),
-          // speakdelighteds12
           // delighteds12("en-US"),
           // delighteds1300"),
-          // speakdelighteds13
           // delighteds13("en-US"),
           // delighteds1400"),
-          // speakdelighteds14
           // delighteds14("en-US"),
           // delighteds1500"),
-          // speakdelighteds15
           // delighteds15("en-US"),
           // delighteds1600"),
-          // speakdelighteds16
           // delighteds16("en-US"),
           // delighteds1700"),
-          // speakdelighteds17
           // delighteds17("en-US"),
           // delighteds1800"),
-          // speakdelighteds18
           // delighteds18("en-US"),
           // delighteds1900"),
-          // speakdelighteds19
           // delighteds19("en-US"),
           // "I was delighted that you could stay.0"),
-          // speakdelighteds20
           // delighteds20("en-US"),
           // delighteds2100"),
-          // speakdelighteds21
           // delighteds21("en-US"),
           // delighteds2200"),
-          // speakdelighteds22
           // delighteds22("en-US"),
         ],
       ),

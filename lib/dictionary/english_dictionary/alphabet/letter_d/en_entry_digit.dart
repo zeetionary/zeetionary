@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -236,67 +234,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdigits1("en-US"),
           ),
           // digits200"),
-          // speakdigits2
           // digits2("en-US"),
           // digits300"),
-          // speakdigits3
           // digits3("en-US"),
           // digits400"),
-          // speakdigits4
           // digits4("en-US"),
           // digits500"),
-          // speakdigits5
           // digits5("en-US"),
           // digits600"),
-          // speakdigits6
           // digits6("en-US"),
           // digits700"),
-          // speakdigits7
           // digits7("en-US"),
           // digits800"),
-          // speakdigits8
           // digits8("en-US"),
           // digits900"),
-          // speakdigits9
           // digits9("en-US"),
           // digits_1000"),
-          // speakdigits10
           // digits10("en-US"),
           // digits1100"),
-          // speakdigits11
           // digits11("en-US"),
           // digits1200"),
-          // speakdigits12
           // digits12("en-US"),
           // digits1300"),
-          // speakdigits13
           // digits13("en-US"),
           // digits1400"),
-          // speakdigits14
           // digits14("en-US"),
           // digits1500"),
-          // speakdigits15
           // digits15("en-US"),
           // digits1600"),
-          // speakdigits16
           // digits16("en-US"),
           // digits1700"),
-          // speakdigits17
           // digits17("en-US"),
           // digits1800"),
-          // speakdigits18
           // digits18("en-US"),
           // digits1900"),
-          // speakdigits19
           // digits19("en-US"),
           // digits_2000"),
-          // speakdigits20
           // digits20("en-US"),
           // digits2100"),
-          // speakdigits21
           // digits21("en-US"),
           // digits2200"),
-          // speakdigits22
           // digits22("en-US"),
         ],
       ),

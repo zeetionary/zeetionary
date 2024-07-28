@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -395,61 +393,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoughs3("en-US"),
           ),
           // doughs400"),
-          // speakdoughs4
           // doughs4("en-US"),
           // doughs500"),
-          // speakdoughs5
           // doughs5("en-US"),
           // doughs600"),
-          // speakdoughs6
           // doughs6("en-US"),
           // doughs700"),
-          // speakdoughs7
           // doughs7("en-US"),
           // doughs800"),
-          // speakdoughs8
           // doughs8("en-US"),
           // doughs900"),
-          // speakdoughs9
           // doughs9("en-US"),
           // doughs_1000"),
-          // speakdoughs10
           // doughs10("en-US"),
           // doughs1100"),
-          // speakdoughs11
           // doughs11("en-US"),
           // doughs1200"),
-          // speakdoughs12
           // doughs12("en-US"),
           // doughs1300"),
-          // speakdoughs13
           // doughs13("en-US"),
           // doughs1400"),
-          // speakdoughs14
           // doughs14("en-US"),
           // doughs1500"),
-          // speakdoughs15
           // doughs15("en-US"),
           // doughs1600"),
-          // speakdoughs16
           // doughs16("en-US"),
           // doughs1700"),
-          // speakdoughs17
           // doughs17("en-US"),
           // doughs1800"),
-          // speakdoughs18
           // doughs18("en-US"),
           // doughs1900"),
-          // speakdoughs19
           // doughs19("en-US"),
           // doughs_2000"),
-          // speakdoughs20
           // doughs20("en-US"),
           // doughs2100"),
-          // speakdoughs21
           // doughs21("en-US"),
           // doughs2200"),
-          // speakdoughs22
           // doughs22("en-US"),
         ],
       ),

@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -266,64 +264,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemarcations2("en-US"),
           ),
           // demarcations300"),
-          // speakdemarcations3
           // demarcations3("en-US"),
           // demarcations400"),
-          // speakdemarcations4
           // demarcations4("en-US"),
           // demarcations500"),
-          // speakdemarcations5
           // demarcations5("en-US"),
           // demarcations600"),
-          // speakdemarcations6
           // demarcations6("en-US"),
           // demarcations700"),
-          // speakdemarcations7
           // demarcations7("en-US"),
           // demarcations800"),
-          // speakdemarcations8
           // demarcations8("en-US"),
           // demarcations900"),
-          // speakdemarcations9
           // demarcations9("en-US"),
           // demarcations1000"),
-          // speakdemarcations10
           // demarcations10("en-US"),
           // demarcations1100"),
-          // speakdemarcations11
           // demarcations11("en-US"),
           // demarcations1200"),
-          // speakdemarcations12
           // demarcations12("en-US"),
           // demarcations1300"),
-          // speakdemarcations13
           // demarcations13("en-US"),
           // demarcations1400"),
-          // speakdemarcations14
           // demarcations14("en-US"),
           // demarcations1500"),
-          // speakdemarcations15
           // demarcations15("en-US"),
           // demarcations1600"),
-          // speakdemarcations16
           // demarcations16("en-US"),
           // demarcations1700"),
-          // speakdemarcations17
           // demarcations17("en-US"),
           // demarcations1800"),
-          // speakdemarcations18
           // demarcations18("en-US"),
           // demarcations1900"),
-          // speakdemarcations19
           // demarcations19("en-US"),
           // "The river serves as the line of demarcation between the two countries.0"),
-          // speakdemarcations20
           // demarcations20("en-US"),
           // demarcations2100"),
-          // speakdemarcations21
           // demarcations21("en-US"),
           // demarcations2200"),
-          // speakdemarcations22
           // demarcations22("en-US"),
         ],
       ),

@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelves2("en-US"),
           ),
           // delves300"),
-          // speakdelves3
           // delves3("en-US"),
           // delves400"),
-          // speakdelves4
           // delves4("en-US"),
           // delves500"),
-          // speakdelves5
           // delves5("en-US"),
           // delves600"),
-          // speakdelves6
           // delves6("en-US"),
           // delves700"),
-          // speakdelves7
           // delves7("en-US"),
           // delves800"),
-          // speakdelves8
           // delves8("en-US"),
           // delves900"),
-          // speakdelves9
           // delves9("en-US"),
           // delves1000"),
-          // speakdelves10
           // delves10("en-US"),
           // delves1100"),
-          // speakdelves11
           // delves11("en-US"),
           // delves1200"),
-          // speakdelves12
           // delves12("en-US"),
           // delves1300"),
-          // speakdelves13
           // delves13("en-US"),
           // delves1400"),
-          // speakdelves14
           // delves14("en-US"),
           // delves1500"),
-          // speakdelves15
           // delves15("en-US"),
           // delves1600"),
-          // speakdelves16
           // delves16("en-US"),
           // delves1700"),
-          // speakdelves17
           // delves17("en-US"),
           // delves1800"),
-          // speakdelves18
           // delves18("en-US"),
           // delves1900"),
-          // speakdelves19
           // delves19("en-US"),
           // "We saw water birds delving in the mud for food.0"),
-          // speakdelves20
           // delves20("en-US"),
           // delves2100"),
-          // speakdelves21
           // delves21("en-US"),
           // delves2200"),
-          // speakdelves22
           // delves22("en-US"),
         ],
       ),

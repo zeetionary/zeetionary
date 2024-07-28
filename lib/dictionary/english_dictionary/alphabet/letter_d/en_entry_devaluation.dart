@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -269,64 +267,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevaluations2("en-US"),
           ),
           // devaluations300"),
-          // speakdevaluations3
           // devaluations3
           // devaluations400"),
-          // speakdevaluations4
           // devaluations4
           // devaluations500"),
-          // speakdevaluations5
           // devaluations5
           // devaluations600"),
-          // speakdevaluations6
           // devaluations6
           // devaluations700"),
-          // speakdevaluations7
           // devaluations7("en-US"),
           // devaluations800"),
-          // speakdevaluations8
           // devaluations8("en-US"),
           // devaluations900"),
-          // speakdevaluations9
           // devaluations9("en-US"),
           // devaluations1000"),
-          // speakdevaluations10
           // devaluations10("en-US"),
           // devaluations1100"),
-          // speakdevaluations11
           // devaluations11("en-US"),
           // devaluations1200"),
-          // speakdevaluations12
           // devaluations12("en-US"),
           // devaluations1300"),
-          // speakdevaluations13
           // devaluations13("en-US"),
           // devaluations1400"),
-          // speakdevaluations14
           // devaluations14("en-US"),
           // devaluations1500"),
-          // speakdevaluations15
           // devaluations15("en-US"),
           // devaluations1600"),
-          // speakdevaluations16
           // devaluations16("en-US"),
           // devaluations1700"),
-          // speakdevaluations17
           // devaluations17("en-US"),
           // devaluations1800"),
-          // speakdevaluations18
           // devaluations18("en-US"),
           // devaluations1900"),
-          // speakdevaluations19
           // devaluations19("en-US"),
           // "The existence of slavery represents a devaluation of human life.0"),
-          // speakdevaluations20
           // devaluations20("en-US"),
           // devaluations2100"),
-          // speakdevaluations21
           // devaluations21("en-US"),
           // devaluations2200"),
-          // speakdevaluations22
           // devaluations22("en-US"),
         ],
       ),

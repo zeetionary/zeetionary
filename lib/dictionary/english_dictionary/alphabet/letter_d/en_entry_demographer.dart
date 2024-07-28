@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemographers1("en-US"),
           ),
           // demographers200"),
-          // speakdemographers2
           // demographers2("en-US"),
           // demographers300"),
-          // speakdemographers3
           // demographers3("en-US"),
           // demographers400"),
-          // speakdemographers4
           // demographers4("en-US"),
           // demographers500"),
-          // speakdemographers5
           // demographers5("en-US"),
           // demographers600"),
-          // speakdemographers6
           // demographers6("en-US"),
           // demographers700"),
-          // speakdemographers7
           // demographers7("en-US"),
           // demographers800"),
-          // speakdemographers8
           // demographers8("en-US"),
           // demographers900"),
-          // speakdemographers9
           // demographers9("en-US"),
           // demographers1000"),
-          // speakdemographers10
           // demographers10("en-US"),
           // demographers1100"),
-          // speakdemographers11
           // demographers11("en-US"),
           // demographers1200"),
-          // speakdemographers12
           // demographers12("en-US"),
           // demographers1300"),
-          // speakdemographers13
           // demographers13("en-US"),
           // demographers1400"),
-          // speakdemographers14
           // demographers14("en-US"),
           // demographers1500"),
-          // speakdemographers15
           // demographers15("en-US"),
           // demographers1600"),
-          // speakdemographers16
           // demographers16("en-US"),
           // demographers1700"),
-          // speakdemographers17
           // demographers17("en-US"),
           // demographers1800"),
-          // speakdemographers18
           // demographers18("en-US"),
           // demographers1900"),
-          // speakdemographers19
           // demographers19("en-US"),
           // demographers2000"),
-          // speakdemographers20
           // demographers20("en-US"),
           // demographers2100"),
-          // speakdemographers21
           // demographers21("en-US"),
           // demographers2200"),
-          // speakdemographers22
           // demographers22("en-US"),
         ],
       ),

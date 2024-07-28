@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepartmentstores1("en-US"),
           ),
           // departmentstores200"),
-          // speakdepartmentstores2
           // departmentstores2("en-US"),
           // departmentstores300"),
-          // speakdepartmentstores3
           // departmentstores3("en-US"),
           // departmentstores400"),
-          // speakdepartmentstores4
           // departmentstores4("en-US"),
           // departmentstores500"),
-          // speakdepartmentstores5
           // departmentstores5("en-US"),
           // departmentstores600"),
-          // speakdepartmentstores6
           // departmentstores6("en-US"),
           // departmentstores700"),
-          // speakdepartmentstores7
           // departmentstores7("en-US"),
           // departmentstores800"),
-          // speakdepartmentstores8
           // departmentstores8("en-US"),
           // departmentstores900"),
-          // speakdepartmentstores9
           // departmentstores9("en-US"),
           // departmentstores1000"),
-          // speakdepartmentstores10
           // departmentstores10("en-US"),
           // departmentstores1100"),
-          // speakdepartmentstores11
           // departmentstores11("en-US"),
           // departmentstores1200"),
-          // speakdepartmentstores12
           // departmentstores12("en-US"),
           // departmentstores1300"),
-          // speakdepartmentstores13
           // departmentstores13("en-US"),
           // departmentstores1400"),
-          // speakdepartmentstores14
           // departmentstores14("en-US"),
           // departmentstores1500"),
-          // speakdepartmentstores15
           // departmentstores15("en-US"),
           // departmentstores1600"),
-          // speakdepartmentstores16
           // departmentstores16("en-US"),
           // departmentstores1700"),
-          // speakdepartmentstores17
           // departmentstores17("en-US"),
           // departmentstores1800"),
-          // speakdepartmentstores18
           // departmentstores18("en-US"),
           // departmentstores1900"),
-          // speakdepartmentstores19
           // departmentstores19("en-US"),
           // departmentstores2000"),
-          // speakdepartmentstores20
           // departmentstores20("en-US"),
           // departmentstores2100"),
-          // speakdepartmentstores21
           // departmentstores21("en-US"),
           // departmentstores2200"),
-          // speakdepartmentstores22
           // departmentstores22("en-US"),
         ],
       ),

@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscriminatings2("en-US"),
           ),
           // discriminatings300"),
-          // speakdiscriminatings3
           // discriminatings3("en-US"),
           // discriminatings400"),
-          // speakdiscriminatings4
           // discriminatings4("en-US"),
           // discriminatings500"),
-          // speakdiscriminatings5
           // discriminatings5("en-US"),
           // discriminatings600"),
-          // speakdiscriminatings6
           // discriminatings6("en-US"),
           // discriminatings700"),
-          // speakdiscriminatings7
           // discriminatings7("en-US"),
           // discriminatings800"),
-          // speakdiscriminatings8
           // discriminatings8("en-US"),
           // discriminatings900"),
-          // speakdiscriminatings9
           // discriminatings9("en-US"),
           // discriminatings_1000"),
-          // speakdiscriminatings10
           // discriminatings10("en-US"),
           // discriminatings1100"),
-          // speakdiscriminatings11
           // discriminatings11("en-US"),
           // discriminatings1200"),
-          // speakdiscriminatings12
           // discriminatings12("en-US"),
           // discriminatings1300"),
-          // speakdiscriminatings13
           // discriminatings13("en-US"),
           // discriminatings1400"),
-          // speakdiscriminatings14
           // discriminatings14("en-US"),
           // discriminatings1500"),
-          // speakdiscriminatings15
           // discriminatings15("en-US"),
           // discriminatings1600"),
-          // speakdiscriminatings16
           // discriminatings16("en-US"),
           // discriminatings1700"),
-          // speakdiscriminatings17
           // discriminatings17("en-US"),
           // discriminatings1800"),
-          // speakdiscriminatings18
           // discriminatings18("en-US"),
           // discriminatings1900"),
-          // speakdiscriminatings19
           // discriminatings19("en-US"),
           // discriminatings_2000"),
-          // speakdiscriminatings20
           // discriminatings20("en-US"),
           // discriminatings2100"),
-          // speakdiscriminatings21
           // discriminatings21("en-US"),
           // discriminatings2200"),
-          // speakdiscriminatings22
           // discriminatings22("en-US"),
         ],
       ),

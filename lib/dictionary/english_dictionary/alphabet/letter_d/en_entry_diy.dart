@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakDIYs1("en-US"),
           ),
           // DIYs200"),
-          // speakDIYs2
           // DIYs2("en-US"),
           // DIYs300"),
-          // speakDIYs3
           // DIYs3("en-US"),
           // DIYs400"),
-          // speakDIYs4
           // DIYs4("en-US"),
           // DIYs500"),
-          // speakDIYs5
           // DIYs5("en-US"),
           // DIYs600"),
-          // speakDIYs6
           // DIYs6("en-US"),
           // DIYs700"),
-          // speakDIYs7
           // DIYs7("en-US"),
           // DIYs800"),
-          // speakDIYs8
           // DIYs8("en-US"),
           // DIYs900"),
-          // speakDIYs9
           // DIYs9("en-US"),
           // DIYs_1000"),
-          // speakDIYs10
           // DIYs10("en-US"),
           // DIYs1100"),
-          // speakDIYs11
           // DIYs11("en-US"),
           // DIYs1200"),
-          // speakDIYs12
           // DIYs12("en-US"),
           // DIYs1300"),
-          // speakDIYs13
           // DIYs13("en-US"),
           // DIYs1400"),
-          // speakDIYs14
           // DIYs14("en-US"),
           // DIYs1500"),
-          // speakDIYs15
           // DIYs15("en-US"),
           // DIYs1600"),
-          // speakDIYs16
           // DIYs16("en-US"),
           // DIYs1700"),
-          // speakDIYs17
           // DIYs17("en-US"),
           // DIYs1800"),
-          // speakDIYs18
           // DIYs18("en-US"),
           // DIYs1900"),
-          // speakDIYs19
           // DIYs19("en-US"),
           // DIYs_2000"),
-          // speakDIYs20
           // DIYs20("en-US"),
           // DIYs2100"),
-          // speakDIYs21
           // DIYs21("en-US"),
           // DIYs2200"),
-          // speakDIYs22
           // DIYs22("en-US"),
         ],
       ),

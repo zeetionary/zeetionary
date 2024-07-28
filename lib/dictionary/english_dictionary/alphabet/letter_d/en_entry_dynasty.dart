@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -408,61 +406,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdynastys3("en-US"),
           ),
           // dynastys400
-          // speakdynastys4
           // dynastys4("en-US"""),
           // dynastys500
-          // speakdynastys5
           // dynastys5("en-US"""),
           // dynastys600
-          // speakdynastys6
           // dynastys6("en-US"""),
           // dynastys700
-          // speakdynastys7
           // dynastys7("en-US"""),
           // dynastys800
-          // speakdynastys8
           // dynastys8("en-US"""),
           // dynastys900
-          // speakdynastys9
           // dynastys9("en-US"""),
           // dynastys_1000
-          // speakdynastys10
           // dynastys10("en-US"""),
           // dynastys1100
-          // speakdynastys11
           // dynastys11("en-US"""),
           // dynastys1200
-          // speakdynastys12
           // dynastys12("en-US"""),
           // dynastys1300
-          // speakdynastys13
           // dynastys13("en-US"""),
           // dynastys1400
-          // speakdynastys14
           // dynastys14("en-US"""),
           // dynastys1500
-          // speakdynastys15
           // dynastys15("en-US"""),
           // dynastys1600
-          // speakdynastys16
           // dynastys16("en-US"""),
           // dynastys1700
-          // speakdynastys17
           // dynastys17("en-US"""),
           // dynastys1800
-          // speakdynastys18
           // dynastys18("en-US"""),
           // dynastys1900
-          // speakdynastys19
           // dynastys19("en-US"""),
           // dynastys_2000
-          // speakdynastys20
           // dynastys20("en-US"""),
           // dynastys2100
-          // speakdynastys21
           // dynastys21("en-US"""),
           // dynastys2200
-          // speakdynastys22
           // dynastys22("en-US"""),
         ],
       ),

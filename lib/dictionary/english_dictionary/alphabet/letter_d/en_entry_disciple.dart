@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -278,61 +276,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisciples3("en-US"),
           ),
           // disciples400"),
-          // speakdisciples4
           // disciples4("en-US"),
           // disciples500"),
-          // speakdisciples5
           // disciples5("en-US"),
           // disciples600"),
-          // speakdisciples6
           // disciples6("en-US"),
           // disciples700"),
-          // speakdisciples7
           // disciples7("en-US"),
           // disciples800"),
-          // speakdisciples8
           // disciples8("en-US"),
           // disciples900"),
-          // speakdisciples9
           // disciples9("en-US"),
           // disciples_1000"),
-          // speakdisciples10
           // disciples10("en-US"),
           // disciples1100"),
-          // speakdisciples11
           // disciples11("en-US"),
           // disciples1200"),
-          // speakdisciples12
           // disciples12("en-US"),
           // disciples1300"),
-          // speakdisciples13
           // disciples13("en-US"),
           // disciples1400"),
-          // speakdisciples14
           // disciples14("en-US"),
           // disciples1500"),
-          // speakdisciples15
           // disciples15("en-US"),
           // disciples1600"),
-          // speakdisciples16
           // disciples16("en-US"),
           // disciples1700"),
-          // speakdisciples17
           // disciples17("en-US"),
           // disciples1800"),
-          // speakdisciples18
           // disciples18("en-US"),
           // disciples1900"),
-          // speakdisciples19
           // disciples19("en-US"),
           // disciples_2000"),
-          // speakdisciples20
           // disciples20("en-US"),
           // disciples2100"),
-          // speakdisciples21
           // disciples21("en-US"),
           // disciples2200"),
-          // speakdisciples22
           // disciples22("en-US"),
         ],
       ),

@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenigrates2("en-US"),
           ),
           // denigrates300"),
-          // speakdenigrates3
           // denigrates3("en-US"),
           // denigrates400"),
-          // speakdenigrates4
           // denigrates4("en-US"),
           // denigrates500"),
-          // speakdenigrates5
           // denigrates5("en-US"),
           // denigrates600"),
-          // speakdenigrates6
           // denigrates6("en-US"),
           // denigrates700"),
-          // speakdenigrates7
           // denigrates7("en-US"),
           // denigrates800"),
-          // speakdenigrates8
           // denigrates8("en-US"),
           // denigrates900"),
-          // speakdenigrates9
           // denigrates9("en-US"),
           // denigrates1000"),
-          // speakdenigrates10
           // denigrates10("en-US"),
           // denigrates1100"),
-          // speakdenigrates11
           // denigrates11("en-US"),
           // denigrates1200"),
-          // speakdenigrates12
           // denigrates12("en-US"),
           // denigrates1300"),
-          // speakdenigrates13
           // denigrates13("en-US"),
           // denigrates1400"),
-          // speakdenigrates14
           // denigrates14("en-US"),
           // denigrates1500"),
-          // speakdenigrates15
           // denigrates15("en-US"),
           // denigrates1600"),
-          // speakdenigrates16
           // denigrates16("en-US"),
           // denigrates1700"),
-          // speakdenigrates17
           // denigrates17("en-US"),
           // denigrates1800"),
-          // speakdenigrates18
           // denigrates18("en-US"),
           // denigrates1900"),
-          // speakdenigrates19
           // denigrates19("en-US"),
           // "You shouldn't denigrate people just because they have different beliefs from you.0"),
-          // speakdenigrates20
           // denigrates20("en-US"),
           // denigrates2100"),
-          // speakdenigrates21
           // denigrates21("en-US"),
           // denigrates2200"),
-          // speakdenigrates22
           // denigrates22("en-US"),
         ],
       ),

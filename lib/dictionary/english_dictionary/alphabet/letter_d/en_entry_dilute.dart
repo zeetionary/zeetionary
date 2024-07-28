@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -288,58 +286,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdilutes4("en-US"),
           ),
           // dilutes500"),
-          // speakdilutes5
           // dilutes5("en-US"),
           // dilutes600"),
-          // speakdilutes6
           // dilutes6("en-US"),
           // dilutes700"),
-          // speakdilutes7
           // dilutes7("en-US"),
           // dilutes800"),
-          // speakdilutes8
           // dilutes8("en-US"),
           // dilutes900"),
-          // speakdilutes9
           // dilutes9("en-US"),
           // dilutes_1000"),
-          // speakdilutes10
           // dilutes10("en-US"),
           // dilutes1100"),
-          // speakdilutes11
           // dilutes11("en-US"),
           // dilutes1200"),
-          // speakdilutes12
           // dilutes12("en-US"),
           // dilutes1300"),
-          // speakdilutes13
           // dilutes13("en-US"),
           // dilutes1400"),
-          // speakdilutes14
           // dilutes14("en-US"),
           // dilutes1500"),
-          // speakdilutes15
           // dilutes15("en-US"),
           // dilutes1600"),
-          // speakdilutes16
           // dilutes16("en-US"),
           // dilutes1700"),
-          // speakdilutes17
           // dilutes17("en-US"),
           // dilutes1800"),
-          // speakdilutes18
           // dilutes18("en-US"),
           // dilutes1900"),
-          // speakdilutes19
           // dilutes19("en-US"),
           // dilutes_2000"),
-          // speakdilutes20
           // dilutes20("en-US"),
           // dilutes2100"),
-          // speakdilutes21
           // dilutes21("en-US"),
           // dilutes2200"),
-          // speakdilutes22
           // dilutes22("en-US"),
         ],
       ),

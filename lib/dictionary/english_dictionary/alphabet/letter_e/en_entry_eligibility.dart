@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,43 +386,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeligibilitys2("en-US"),
           ),
           // eligibilitys300eligibilitys3
-          // speakeligibilitys3
           // eligibilitys400eligibilitys4
-          // speakeligibilitys4
           // eligibilitys500eligibilitys5
-          // speakeligibilitys5
           // eligibilitys600eligibilitys6
-          // speakeligibilitys6
           // eligibilitys700eligibilitys7
-          // speakeligibilitys7
           // eligibilitys800eligibilitys8
-          // speakeligibilitys8
           // eligibilitys900eligibilitys9
-          // speakeligibilitys9
           // eligibilitys_1000eligibilitys10
-          // speakeligibilitys10
           // eligibilitys1100eligibilitys11
-          // speakeligibilitys11
           // eligibilitys1200eligibilitys12
-          // speakeligibilitys12
           // eligibilitys1300eligibilitys13
-          // speakeligibilitys13
           // eligibilitys1400eligibilitys14
-          // speakeligibilitys14
           // eligibilitys1500eligibilitys15
-          // speakeligibilitys15
           // eligibilitys1600eligibilitys16
-          // speakeligibilitys16
           // eligibilitys1700eligibilitys17
-          // speakeligibilitys17
           // eligibilitys1800eligibilitys18
-          // speakeligibilitys18
           // eligibilitys1900eligibilitys19
-          // speakeligibilitys19
           // eligibilitys_2000eligibilitys20
-          // speakeligibilitys20
           // eligibilitys2100eligibilitys21
-          // speakeligibilitys21
           // eligibilitys2200eligibilitys22
           // speakeligibilitys22("en-US"""),
           //         ),

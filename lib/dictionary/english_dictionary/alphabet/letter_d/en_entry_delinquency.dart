@@ -245,9 +245,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -285,61 +283,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelinquencys3("en-US"),
           ),
           // delinquencys400"),
-          // speakdelinquencys4
           // delinquencys4("en-US"),
           // delinquencys500"),
-          // speakdelinquencys5
           // delinquencys5("en-US"),
           // delinquencys600"),
-          // speakdelinquencys6
           // delinquencys6("en-US"),
           // delinquencys700"),
-          // speakdelinquencys7
           // delinquencys7("en-US"),
           // delinquencys800"),
-          // speakdelinquencys8
           // delinquencys8("en-US"),
           // delinquencys900"),
-          // speakdelinquencys9
           // delinquencys9("en-US"),
           // delinquencys1000"),
-          // speakdelinquencys10
           // delinquencys10("en-US"),
           // delinquencys1100"),
-          // speakdelinquencys11
           // delinquencys11("en-US"),
           // delinquencys1200"),
-          // speakdelinquencys12
           // delinquencys12("en-US"),
           // delinquencys1300"),
-          // speakdelinquencys13
           // delinquencys13("en-US"),
           // delinquencys1400"),
-          // speakdelinquencys14
           // delinquencys14("en-US"),
           // delinquencys1500"),
-          // speakdelinquencys15
           // delinquencys15("en-US"),
           // delinquencys1600"),
-          // speakdelinquencys16
           // delinquencys16("en-US"),
           // delinquencys1700"),
-          // speakdelinquencys17
           // delinquencys17("en-US"),
           // delinquencys1800"),
-          // speakdelinquencys18
           // delinquencys18("en-US"),
           // delinquencys1900"),
-          // speakdelinquencys19
           // delinquencys19("en-US"),
           // "To me this sounds like a game that glorifies delinquency.0"),
-          // speakdelinquencys20
           // delinquencys20("en-US"),
           // delinquencys2100"),
-          // speakdelinquencys21
           // delinquencys21("en-US"),
           // delinquencys2200"),
-          // speakdelinquencys22
           // delinquencys22("en-US"),
         ],
       ),

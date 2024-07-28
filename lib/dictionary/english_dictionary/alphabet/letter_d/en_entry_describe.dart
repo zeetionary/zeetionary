@@ -255,9 +255,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -300,55 +298,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdescribes5("en-US"),
           ),
           // describes600"),
-          // speakdescribes6
           // describes6("en-US"),
           // describes700"),
-          // speakdescribes7
           // describes7("en-US"),
           // describes800"),
-          // speakdescribes8
           // describes8("en-US"),
           // describes900"),
-          // speakdescribes9
           // describes9("en-US"),
           // describes1000"),
-          // speakdescribes10
           // describes10("en-US"),
           // describes1100"),
-          // speakdescribes11
           // describes11("en-US"),
           // describes1200"),
-          // speakdescribes12
           // describes12("en-US"),
           // describes1300"),
-          // speakdescribes13
           // describes13("en-US"),
           // describes1400"),
-          // speakdescribes14
           // describes14("en-US"),
           // describes1500"),
-          // speakdescribes15
           // describes15("en-US"),
           // describes1600"),
-          // speakdescribes16
           // describes16("en-US"),
           // describes1700"),
-          // speakdescribes17
           // describes17("en-US"),
           // describes1800"),
-          // speakdescribes18
           // describes18("en-US"),
           // describes1900"),
-          // speakdescribes19
           // describes19("en-US"),
           // "Can you describe him to me?0"),
-          // speakdescribes20
           // describes20("en-US"),
           // describes2100"),
-          // speakdescribes21
           // describes21("en-US"),
           // describes2200"),
-          // speakdescribes22
           // describes22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,43 +380,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakearnestlys2("en-US"),
           ),
           // earnestlys300earnestlys3
-          // speakearnestlys3
           // earnestlys400earnestlys4
-          // speakearnestlys4
           // earnestlys500earnestlys5
-          // speakearnestlys5
           // earnestlys600earnestlys6
-          // speakearnestlys6
           // earnestlys700earnestlys7
-          // speakearnestlys7
           // earnestlys800earnestlys8
-          // speakearnestlys8
           // earnestlys900earnestlys9
-          // speakearnestlys9
           // earnestlys_1000earnestlys10
-          // speakearnestlys10
           // earnestlys1100earnestlys11
-          // speakearnestlys11
           // earnestlys1200earnestlys12
-          // speakearnestlys12
           // earnestlys1300earnestlys13
-          // speakearnestlys13
           // earnestlys1400earnestlys14
-          // speakearnestlys14
           // earnestlys1500earnestlys15
-          // speakearnestlys15
           // earnestlys1600earnestlys16
-          // speakearnestlys16
           // earnestlys1700earnestlys17
-          // speakearnestlys17
           // earnestlys1800earnestlys18
-          // speakearnestlys18
           // earnestlys1900earnestlys19
-          // speakearnestlys19
           // earnestlys_2000earnestlys20
-          // speakearnestlys20
           // earnestlys2100earnestlys21
-          // speakearnestlys21
           // earnestlys2200earnestlys22
           // speakearnestlys22("en-US"""),
           //         ),

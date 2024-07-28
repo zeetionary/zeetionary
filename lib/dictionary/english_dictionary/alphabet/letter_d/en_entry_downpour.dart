@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownpours2("en-US"),
           ),
           // downpours300"),
-          // speakdownpours3
           // downpours3("en-US"),
           // downpours400"),
-          // speakdownpours4
           // downpours4("en-US"),
           // downpours500"),
-          // speakdownpours5
           // downpours5("en-US"),
           // downpours600"),
-          // speakdownpours6
           // downpours6("en-US"),
           // downpours700"),
-          // speakdownpours7
           // downpours7("en-US"),
           // downpours800"),
-          // speakdownpours8
           // downpours8("en-US"),
           // downpours900"),
-          // speakdownpours9
           // downpours9("en-US"),
           // downpours_1000"),
-          // speakdownpours10
           // downpours10("en-US"),
           // downpours1100"),
-          // speakdownpours11
           // downpours11("en-US"),
           // downpours1200"),
-          // speakdownpours12
           // downpours12("en-US"),
           // downpours1300"),
-          // speakdownpours13
           // downpours13("en-US"),
           // downpours1400"),
-          // speakdownpours14
           // downpours14("en-US"),
           // downpours1500"),
-          // speakdownpours15
           // downpours15("en-US"),
           // downpours1600"),
-          // speakdownpours16
           // downpours16("en-US"),
           // downpours1700"),
-          // speakdownpours17
           // downpours17("en-US"),
           // downpours1800"),
-          // speakdownpours18
           // downpours18("en-US"),
           // downpours1900"),
-          // speakdownpours19
           // downpours19("en-US"),
           // downpours_2000"),
-          // speakdownpours20
           // downpours20("en-US"),
           // downpours2100"),
-          // speakdownpours21
           // downpours21("en-US"),
           // downpours2200"),
-          // speakdownpours22
           // downpours22("en-US"),
         ],
       ),

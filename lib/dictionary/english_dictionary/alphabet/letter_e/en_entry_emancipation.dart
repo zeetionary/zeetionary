@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,43 +386,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemancipations2("en-US"),
           ),
           // emancipations300emancipations3
-          // speakemancipations3
           // emancipations400emancipations4
-          // speakemancipations4
           // emancipations500emancipations5
-          // speakemancipations5
           // emancipations600emancipations6
-          // speakemancipations6
           // emancipations700emancipations7
-          // speakemancipations7
           // emancipations800emancipations8
-          // speakemancipations8
           // emancipations900emancipations9
-          // speakemancipations9
           // emancipations_1000emancipations10
-          // speakemancipations10
           // emancipations1100emancipations11
-          // speakemancipations11
           // emancipations1200emancipations12
-          // speakemancipations12
           // emancipations1300emancipations13
-          // speakemancipations13
           // emancipations1400emancipations14
-          // speakemancipations14
           // emancipations1500emancipations15
-          // speakemancipations15
           // emancipations1600emancipations16
-          // speakemancipations16
           // emancipations1700emancipations17
-          // speakemancipations17
           // emancipations1800emancipations18
-          // speakemancipations18
           // emancipations1900emancipations19
-          // speakemancipations19
           // emancipations_2000emancipations20
-          // speakemancipations20
           // emancipations2100emancipations21
-          // speakemancipations21
           // emancipations2200emancipations22
           // speakemancipations22("en-US"""),
           //         ),

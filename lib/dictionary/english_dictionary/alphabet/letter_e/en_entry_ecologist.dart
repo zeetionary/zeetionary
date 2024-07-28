@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -389,43 +387,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakecologists2("en-US"),
           ),
           // ecologists300ecologists3
-          // speakecologists3
           // ecologists400ecologists4
-          // speakecologists4
           // ecologists500ecologists5
-          // speakecologists5
           // ecologists600ecologists6
-          // speakecologists6
           // ecologists700ecologists7
-          // speakecologists7
           // ecologists800ecologists8
-          // speakecologists8
           // ecologists900ecologists9
-          // speakecologists9
           // ecologists_1000ecologists10
-          // speakecologists10
           // ecologists1100ecologists11
-          // speakecologists11
           // ecologists1200ecologists12
-          // speakecologists12
           // ecologists1300ecologists13
-          // speakecologists13
           // ecologists1400ecologists14
-          // speakecologists14
           // ecologists1500ecologists15
-          // speakecologists15
           // ecologists1600ecologists16
-          // speakecologists16
           // ecologists1700ecologists17
-          // speakecologists17
           // ecologists1800ecologists18
-          // speakecologists18
           // ecologists1900ecologists19
-          // speakecologists19
           // ecologists_2000ecologists20
-          // speakecologists20
           // ecologists2100ecologists21
-          // speakecologists21
           // ecologists2200ecologists22
           // speakecologists22("en-US"""),
           //         ),

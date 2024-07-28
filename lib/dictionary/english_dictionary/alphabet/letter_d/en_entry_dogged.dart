@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoggeds2("en-US"),
           ),
           // doggeds300"),
-          // speakdoggeds3
           // doggeds3("en-US"),
           // doggeds400"),
-          // speakdoggeds4
           // doggeds4("en-US"),
           // doggeds500"),
-          // speakdoggeds5
           // doggeds5("en-US"),
           // doggeds600"),
-          // speakdoggeds6
           // doggeds6("en-US"),
           // doggeds700"),
-          // speakdoggeds7
           // doggeds7("en-US"),
           // doggeds800"),
-          // speakdoggeds8
           // doggeds8("en-US"),
           // doggeds900"),
-          // speakdoggeds9
           // doggeds9("en-US"),
           // doggeds_1000"),
-          // speakdoggeds10
           // doggeds10("en-US"),
           // doggeds1100"),
-          // speakdoggeds11
           // doggeds11("en-US"),
           // doggeds1200"),
-          // speakdoggeds12
           // doggeds12("en-US"),
           // doggeds1300"),
-          // speakdoggeds13
           // doggeds13("en-US"),
           // doggeds1400"),
-          // speakdoggeds14
           // doggeds14("en-US"),
           // doggeds1500"),
-          // speakdoggeds15
           // doggeds15("en-US"),
           // doggeds1600"),
-          // speakdoggeds16
           // doggeds16("en-US"),
           // doggeds1700"),
-          // speakdoggeds17
           // doggeds17("en-US"),
           // doggeds1800"),
-          // speakdoggeds18
           // doggeds18("en-US"),
           // doggeds1900"),
-          // speakdoggeds19
           // doggeds19("en-US"),
           // doggeds_2000"),
-          // speakdoggeds20
           // doggeds20("en-US"),
           // doggeds2100"),
-          // speakdoggeds21
           // doggeds21("en-US"),
           // doggeds2200"),
-          // speakdoggeds22
           // doggeds22("en-US"),
         ],
       ),

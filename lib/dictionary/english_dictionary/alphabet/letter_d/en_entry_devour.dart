@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -300,55 +298,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevours5("en-US"),
           ),
           // devours600"),
-          // speakdevours6
           // devours6("en-US"),
           // devours700"),
-          // speakdevours7
           // devours7("en-US"),
           // devours800"),
-          // speakdevours8
           // devours8("en-US"),
           // devours900"),
-          // speakdevours9
           // devours9("en-US"),
           // devours1000"),
-          // speakdevours10
           // devours10("en-US"),
           // devours1100"),
-          // speakdevours11
           // devours11("en-US"),
           // devours1200"),
-          // speakdevours12
           // devours12("en-US"),
           // devours1300"),
-          // speakdevours13
           // devours13("en-US"),
           // devours1400"),
-          // speakdevours14
           // devours14("en-US"),
           // devours1500"),
-          // speakdevours15
           // devours15("en-US"),
           // devours1600"),
-          // speakdevours16
           // devours16("en-US"),
           // devours1700"),
-          // speakdevours17
           // devours17("en-US"),
           // devours1800"),
-          // speakdevours18
           // devours18("en-US"),
           // devours1900"),
-          // speakdevours19
           // devours19("en-US"),
           // devours_2000"),
-          // speakdevours20
           // devours20("en-US"),
           // devours2100"),
-          // speakdevours21
           // devours21("en-US"),
           // devours2200"),
-          // speakdevours22
           // devours22("en-US"),
         ],
       ),

@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -293,58 +291,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestitutes4("en-US"),
           ),
           // destitutes500"),
-          // speakdestitutes5
           // destitutes5("en-US"),
           // destitutes600"),
-          // speakdestitutes6
           // destitutes6("en-US"),
           // destitutes700"),
-          // speakdestitutes7
           // destitutes7("en-US"),
           // destitutes800"),
-          // speakdestitutes8
           // destitutes8("en-US"),
           // destitutes900"),
-          // speakdestitutes9
           // destitutes9("en-US"),
           // destitutes1000"),
-          // speakdestitutes10
           // destitutes10("en-US"),
           // destitutes1100"),
-          // speakdestitutes11
           // destitutes11("en-US"),
           // destitutes1200"),
-          // speakdestitutes12
           // destitutes12("en-US"),
           // destitutes1300"),
-          // speakdestitutes13
           // destitutes13("en-US"),
           // destitutes1400"),
-          // speakdestitutes14
           // destitutes14("en-US"),
           // destitutes1500"),
-          // speakdestitutes15
           // destitutes15("en-US"),
           // destitutes1600"),
-          // speakdestitutes16
           // destitutes16("en-US"),
           // destitutes1700"),
-          // speakdestitutes17
           // destitutes17("en-US"),
           // destitutes1800"),
-          // speakdestitutes18
           // destitutes18("en-US"),
           // destitutes1900"),
-          // speakdestitutes19
           // destitutes19("en-US"),
           // "The war left her completely destitute.0"),
-          // speakdestitutes20
           // destitutes20("en-US"),
           // destitutes2100"),
-          // speakdestitutes21
           // destitutes21("en-US"),
           // destitutes2200"),
-          // speakdestitutes22
           // destitutes22("en-US"),
         ],
       ),

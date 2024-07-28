@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscourteouslys1("en-US"),
           ),
           // discourteouslys200"),
-          // speakdiscourteouslys2
           // discourteouslys2("en-US"),
           // discourteouslys300"),
-          // speakdiscourteouslys3
           // discourteouslys3("en-US"),
           // discourteouslys400"),
-          // speakdiscourteouslys4
           // discourteouslys4("en-US"),
           // discourteouslys500"),
-          // speakdiscourteouslys5
           // discourteouslys5("en-US"),
           // discourteouslys600"),
-          // speakdiscourteouslys6
           // discourteouslys6("en-US"),
           // discourteouslys700"),
-          // speakdiscourteouslys7
           // discourteouslys7("en-US"),
           // discourteouslys800"),
-          // speakdiscourteouslys8
           // discourteouslys8("en-US"),
           // discourteouslys900"),
-          // speakdiscourteouslys9
           // discourteouslys9("en-US"),
           // discourteouslys_1000"),
-          // speakdiscourteouslys10
           // discourteouslys10("en-US"),
           // discourteouslys1100"),
-          // speakdiscourteouslys11
           // discourteouslys11("en-US"),
           // discourteouslys1200"),
-          // speakdiscourteouslys12
           // discourteouslys12("en-US"),
           // discourteouslys1300"),
-          // speakdiscourteouslys13
           // discourteouslys13("en-US"),
           // discourteouslys1400"),
-          // speakdiscourteouslys14
           // discourteouslys14("en-US"),
           // discourteouslys1500"),
-          // speakdiscourteouslys15
           // discourteouslys15("en-US"),
           // discourteouslys1600"),
-          // speakdiscourteouslys16
           // discourteouslys16("en-US"),
           // discourteouslys1700"),
-          // speakdiscourteouslys17
           // discourteouslys17("en-US"),
           // discourteouslys1800"),
-          // speakdiscourteouslys18
           // discourteouslys18("en-US"),
           // discourteouslys1900"),
-          // speakdiscourteouslys19
           // discourteouslys19("en-US"),
           // discourteouslys_2000"),
-          // speakdiscourteouslys20
           // discourteouslys20("en-US"),
           // discourteouslys2100"),
-          // speakdiscourteouslys21
           // discourteouslys21("en-US"),
           // discourteouslys2200"),
-          // speakdiscourteouslys22
           // discourteouslys22("en-US"),
         ],
       ),

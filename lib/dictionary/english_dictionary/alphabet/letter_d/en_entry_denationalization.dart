@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -242,67 +240,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenationalizations1("en-US"),
           ),
           // denationalizations200"),
-          // speakdenationalizations2
           // denationalizations2("en-US"),
           // denationalizations300"),
-          // speakdenationalizations3
           // denationalizations3("en-US"),
           // denationalizations400"),
-          // speakdenationalizations4
           // denationalizations4("en-US"),
           // denationalizations500"),
-          // speakdenationalizations5
           // denationalizations5("en-US"),
           // denationalizations600"),
-          // speakdenationalizations6
           // denationalizations6("en-US"),
           // denationalizations700"),
-          // speakdenationalizations7
           // denationalizations7("en-US"),
           // denationalizations800"),
-          // speakdenationalizations8
           // denationalizations8("en-US"),
           // denationalizations900"),
-          // speakdenationalizations9
           // denationalizations9("en-US"),
           // denationalizations1000"),
-          // speakdenationalizations10
           // denationalizations10("en-US"),
           // denationalizations1100"),
-          // speakdenationalizations11
           // denationalizations11("en-US"),
           // denationalizations1200"),
-          // speakdenationalizations12
           // denationalizations12("en-US"),
           // denationalizations1300"),
-          // speakdenationalizations13
           // denationalizations13("en-US"),
           // denationalizations1400"),
-          // speakdenationalizations14
           // denationalizations14("en-US"),
           // denationalizations1500"),
-          // speakdenationalizations15
           // denationalizations15("en-US"),
           // denationalizations1600"),
-          // speakdenationalizations16
           // denationalizations16("en-US"),
           // denationalizations1700"),
-          // speakdenationalizations17
           // denationalizations17("en-US"),
           // denationalizations1800"),
-          // speakdenationalizations18
           // denationalizations18("en-US"),
           // denationalizations1900"),
-          // speakdenationalizations19
           // denationalizations19("en-US"),
           // denationalizations2000"),
-          // speakdenationalizations20
           // denationalizations20("en-US"),
           // denationalizations2100"),
-          // speakdenationalizations21
           // denationalizations21("en-US"),
           // denationalizations2200"),
-          // speakdenationalizations22
           // denationalizations22("en-US"),
         ],
       ),

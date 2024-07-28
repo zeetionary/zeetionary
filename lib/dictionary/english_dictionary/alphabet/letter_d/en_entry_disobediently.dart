@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisobedientlys2("en-US"),
           ),
           // disobedientlys300"),
-          // speakdisobedientlys3
           // disobedientlys3("en-US"),
           // disobedientlys400"),
-          // speakdisobedientlys4
           // disobedientlys4("en-US"),
           // disobedientlys500"),
-          // speakdisobedientlys5
           // disobedientlys5("en-US"),
           // disobedientlys600"),
-          // speakdisobedientlys6
           // disobedientlys6("en-US"),
           // disobedientlys700"),
-          // speakdisobedientlys7
           // disobedientlys7("en-US"),
           // disobedientlys800"),
-          // speakdisobedientlys8
           // disobedientlys8("en-US"),
           // disobedientlys900"),
-          // speakdisobedientlys9
           // disobedientlys9("en-US"),
           // disobedientlys_1000"),
-          // speakdisobedientlys10
           // disobedientlys10("en-US"),
           // disobedientlys1100"),
-          // speakdisobedientlys11
           // disobedientlys11("en-US"),
           // disobedientlys1200"),
-          // speakdisobedientlys12
           // disobedientlys12("en-US"),
           // disobedientlys1300"),
-          // speakdisobedientlys13
           // disobedientlys13("en-US"),
           // disobedientlys1400"),
-          // speakdisobedientlys14
           // disobedientlys14("en-US"),
           // disobedientlys1500"),
-          // speakdisobedientlys15
           // disobedientlys15("en-US"),
           // disobedientlys1600"),
-          // speakdisobedientlys16
           // disobedientlys16("en-US"),
           // disobedientlys1700"),
-          // speakdisobedientlys17
           // disobedientlys17("en-US"),
           // disobedientlys1800"),
-          // speakdisobedientlys18
           // disobedientlys18("en-US"),
           // disobedientlys1900"),
-          // speakdisobedientlys19
           // disobedientlys19("en-US"),
           // disobedientlys_2000"),
-          // speakdisobedientlys20
           // disobedientlys20("en-US"),
           // disobedientlys2100"),
-          // speakdisobedientlys21
           // disobedientlys21("en-US"),
           // disobedientlys2200"),
-          // speakdisobedientlys22
           // disobedientlys22("en-US"),
         ],
       ),

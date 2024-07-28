@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakducts2("en-US"),
           ),
           // ducts300
-          // speakducts3
           // ducts3("en-US"""),
           // ducts400
-          // speakducts4
           // ducts4("en-US"""),
           // ducts500
-          // speakducts5
           // ducts5("en-US"""),
           // ducts600
-          // speakducts6
           // ducts6("en-US"""),
           // ducts700
-          // speakducts7
           // ducts7("en-US"""),
           // ducts800
-          // speakducts8
           // ducts8("en-US"""),
           // ducts900
-          // speakducts9
           // ducts9("en-US"""),
           // ducts_1000
-          // speakducts10
           // ducts10("en-US"""),
           // ducts1100
-          // speakducts11
           // ducts11("en-US"""),
           // ducts1200
-          // speakducts12
           // ducts12("en-US"""),
           // ducts1300
-          // speakducts13
           // ducts13("en-US"""),
           // ducts1400
-          // speakducts14
           // ducts14("en-US"""),
           // ducts1500
-          // speakducts15
           // ducts15("en-US"""),
           // ducts1600
-          // speakducts16
           // ducts16("en-US"""),
           // ducts1700
-          // speakducts17
           // ducts17("en-US"""),
           // ducts1800
-          // speakducts18
           // ducts18("en-US"""),
           // ducts1900
-          // speakducts19
           // ducts19("en-US"""),
           // ducts_2000
-          // speakducts20
           // ducts20("en-US"""),
           // ducts2100
-          // speakducts21
           // ducts21("en-US"""),
           // ducts2200
-          // speakducts22
           // ducts22("en-US"""),
         ],
       ),

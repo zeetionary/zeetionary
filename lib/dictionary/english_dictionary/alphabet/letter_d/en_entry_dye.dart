@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -412,58 +410,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdyes4("en-US"),
           ),
           // dyes500
-          // speakdyes5
           // dyes5("en-US"""),
           // dyes600
-          // speakdyes6
           // dyes6("en-US"""),
           // dyes700
-          // speakdyes7
           // dyes7("en-US"""),
           // dyes800
-          // speakdyes8
           // dyes8("en-US"""),
           // dyes900
-          // speakdyes9
           // dyes9("en-US"""),
           // dyes_1000
-          // speakdyes10
           // dyes10("en-US"""),
           // dyes1100
-          // speakdyes11
           // dyes11("en-US"""),
           // dyes1200
-          // speakdyes12
           // dyes12("en-US"""),
           // dyes1300
-          // speakdyes13
           // dyes13("en-US"""),
           // dyes1400
-          // speakdyes14
           // dyes14("en-US"""),
           // dyes1500
-          // speakdyes15
           // dyes15("en-US"""),
           // dyes1600
-          // speakdyes16
           // dyes16("en-US"""),
           // dyes1700
-          // speakdyes17
           // dyes17("en-US"""),
           // dyes1800
-          // speakdyes18
           // dyes18("en-US"""),
           // dyes1900
-          // speakdyes19
           // dyes19("en-US"""),
           // dyes_2000
-          // speakdyes20
           // dyes20("en-US"""),
           // dyes2100
-          // speakdyes21
           // dyes21("en-US"""),
           // dyes2200
-          // speakdyes22
           // dyes22("en-US"""),
         ],
       ),

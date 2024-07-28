@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdockyards1("en-US"),
           ),
           // dockyards200"),
-          // speakdockyards2
           // dockyards2("en-US"),
           // dockyards300"),
-          // speakdockyards3
           // dockyards3("en-US"),
           // dockyards400"),
-          // speakdockyards4
           // dockyards4("en-US"),
           // dockyards500"),
-          // speakdockyards5
           // dockyards5("en-US"),
           // dockyards600"),
-          // speakdockyards6
           // dockyards6("en-US"),
           // dockyards700"),
-          // speakdockyards7
           // dockyards7("en-US"),
           // dockyards800"),
-          // speakdockyards8
           // dockyards8("en-US"),
           // dockyards900"),
-          // speakdockyards9
           // dockyards9("en-US"),
           // dockyards_1000"),
-          // speakdockyards10
           // dockyards10("en-US"),
           // dockyards1100"),
-          // speakdockyards11
           // dockyards11("en-US"),
           // dockyards1200"),
-          // speakdockyards12
           // dockyards12("en-US"),
           // dockyards1300"),
-          // speakdockyards13
           // dockyards13("en-US"),
           // dockyards1400"),
-          // speakdockyards14
           // dockyards14("en-US"),
           // dockyards1500"),
-          // speakdockyards15
           // dockyards15("en-US"),
           // dockyards1600"),
-          // speakdockyards16
           // dockyards16("en-US"),
           // dockyards1700"),
-          // speakdockyards17
           // dockyards17("en-US"),
           // dockyards1800"),
-          // speakdockyards18
           // dockyards18("en-US"),
           // dockyards1900"),
-          // speakdockyards19
           // dockyards19("en-US"),
           // dockyards_2000"),
-          // speakdockyards20
           // dockyards20("en-US"),
           // dockyards2100"),
-          // speakdockyards21
           // dockyards21("en-US"),
           // dockyards2200"),
-          // speakdockyards22
           // dockyards22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistrustfuls2("en-US"),
           ),
           // distrustfuls300"),
-          // speakdistrustfuls3
           // distrustfuls3("en-US"),
           // distrustfuls400"),
-          // speakdistrustfuls4
           // distrustfuls4("en-US"),
           // distrustfuls500"),
-          // speakdistrustfuls5
           // distrustfuls5("en-US"),
           // distrustfuls600"),
-          // speakdistrustfuls6
           // distrustfuls6("en-US"),
           // distrustfuls700"),
-          // speakdistrustfuls7
           // distrustfuls7("en-US"),
           // distrustfuls800"),
-          // speakdistrustfuls8
           // distrustfuls8("en-US"),
           // distrustfuls900"),
-          // speakdistrustfuls9
           // distrustfuls9("en-US"),
           // distrustfuls_1000"),
-          // speakdistrustfuls10
           // distrustfuls10("en-US"),
           // distrustfuls1100"),
-          // speakdistrustfuls11
           // distrustfuls11("en-US"),
           // distrustfuls1200"),
-          // speakdistrustfuls12
           // distrustfuls12("en-US"),
           // distrustfuls1300"),
-          // speakdistrustfuls13
           // distrustfuls13("en-US"),
           // distrustfuls1400"),
-          // speakdistrustfuls14
           // distrustfuls14("en-US"),
           // distrustfuls1500"),
-          // speakdistrustfuls15
           // distrustfuls15("en-US"),
           // distrustfuls1600"),
-          // speakdistrustfuls16
           // distrustfuls16("en-US"),
           // distrustfuls1700"),
-          // speakdistrustfuls17
           // distrustfuls17("en-US"),
           // distrustfuls1800"),
-          // speakdistrustfuls18
           // distrustfuls18("en-US"),
           // distrustfuls1900"),
-          // speakdistrustfuls19
           // distrustfuls19("en-US"),
           // distrustfuls_2000"),
-          // speakdistrustfuls20
           // distrustfuls20("en-US"),
           // distrustfuls2100"),
-          // speakdistrustfuls21
           // distrustfuls21("en-US"),
           // distrustfuls2200"),
-          // speakdistrustfuls22
           // distrustfuls22("en-US"),
         ],
       ),

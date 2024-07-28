@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -279,61 +277,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdens3("en-US"),
           ),
           // dens400"),
-          // speakdens4
           // dens4("en-US"),
           // dens500"),
-          // speakdens5
           // dens5("en-US"),
           // dens600"),
-          // speakdens6
           // dens6("en-US"),
           // dens700"),
-          // speakdens7
           // dens7("en-US"),
           // dens800"),
-          // speakdens8
           // dens8("en-US"),
           // dens900"),
-          // speakdens9
           // dens9("en-US"),
           // dens1000"),
-          // speakdens10
           // dens10("en-US"),
           // dens1100"),
-          // speakdens11
           // dens11("en-US"),
           // dens1200"),
-          // speakdens12
           // dens12("en-US"),
           // dens1300"),
-          // speakdens13
           // dens13("en-US"),
           // dens1400"),
-          // speakdens14
           // dens14("en-US"),
           // dens1500"),
-          // speakdens15
           // dens15("en-US"),
           // dens1600"),
-          // speakdens16
           // dens16("en-US"),
           // dens1700"),
-          // speakdens17
           // dens17("en-US"),
           // dens1800"),
-          // speakdens18
           // dens18("en-US"),
           // dens1900"),
-          // speakdens19
           // dens19("en-US"),
           // "He thought of New York as a den of iniquity.0"),
-          // speakdens20
           // dens20("en-US"),
           // dens2100"),
-          // speakdens21
           // dens21("en-US"),
           // dens2200"),
-          // speakdens22
           // dens22("en-US"),
         ],
       ),

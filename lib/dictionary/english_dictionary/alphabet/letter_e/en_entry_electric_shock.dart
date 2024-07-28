@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,43 +381,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectricshocks2("en-US"),
           ),
           // electricshocks300electricshocks3
-          // speakelectricshocks3
           // electricshocks400electricshocks4
-          // speakelectricshocks4
           // electricshocks500electricshocks5
-          // speakelectricshocks5
           // electricshocks600electricshocks6
-          // speakelectricshocks6
           // electricshocks700electricshocks7
-          // speakelectricshocks7
           // electricshocks800electricshocks8
-          // speakelectricshocks8
           // electricshocks900electricshocks9
-          // speakelectricshocks9
           // electricshocks_1000electricshocks10
-          // speakelectricshocks10
           // electricshocks1100electricshocks11
-          // speakelectricshocks11
           // electricshocks1200electricshocks12
-          // speakelectricshocks12
           // electricshocks1300electricshocks13
-          // speakelectricshocks13
           // electricshocks1400electricshocks14
-          // speakelectricshocks14
           // electricshocks1500electricshocks15
-          // speakelectricshocks15
           // electricshocks1600electricshocks16
-          // speakelectricshocks16
           // electricshocks1700electricshocks17
-          // speakelectricshocks17
           // electricshocks1800electricshocks18
-          // speakelectricshocks18
           // electricshocks1900electricshocks19
-          // speakelectricshocks19
           // electricshocks_2000electricshocks20
-          // speakelectricshocks20
           // electricshocks2100electricshocks21
-          // speakelectricshocks21
           // electricshocks2200electricshocks22
           // speakelectricshocks22("en-US"""),
           //         ),

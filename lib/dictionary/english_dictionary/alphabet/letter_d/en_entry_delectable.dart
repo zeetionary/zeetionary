@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -276,61 +274,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelectables3("en-US"),
           ),
           // delectables400"),
-          // speakdelectables4
           // delectables4("en-US"),
           // delectables500"),
-          // speakdelectables5
           // delectables5("en-US"),
           // delectables600"),
-          // speakdelectables6
           // delectables6("en-US"),
           // delectables700"),
-          // speakdelectables7
           // delectables7("en-US"),
           // delectables800"),
-          // speakdelectables8
           // delectables8("en-US"),
           // delectables900"),
-          // speakdelectables9
           // delectables9("en-US"),
           // delectables1000"),
-          // speakdelectables10
           // delectables10("en-US"),
           // delectables1100"),
-          // speakdelectables11
           // delectables11("en-US"),
           // delectables1200"),
-          // speakdelectables12
           // delectables12("en-US"),
           // delectables1300"),
-          // speakdelectables13
           // delectables13("en-US"),
           // delectables1400"),
-          // speakdelectables14
           // delectables14("en-US"),
           // delectables1500"),
-          // speakdelectables15
           // delectables15("en-US"),
           // delectables1600"),
-          // speakdelectables16
           // delectables16("en-US"),
           // delectables1700"),
-          // speakdelectables17
           // delectables17("en-US"),
           // delectables1800"),
-          // speakdelectables18
           // delectables18("en-US"),
           // delectables1900"),
-          // speakdelectables19
           // delectables19("en-US"),
           // "The kitchen was full of delectable smells during dinner.0"),
-          // speakdelectables20
           // delectables20("en-US"),
           // delectables2100"),
-          // speakdelectables21
           // delectables21("en-US"),
           // delectables2200"),
-          // speakdelectables22
           // delectables22("en-US"),
         ],
       ),

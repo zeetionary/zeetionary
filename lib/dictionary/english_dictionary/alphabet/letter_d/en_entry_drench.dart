@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -396,61 +394,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrenchs3("en-US"),
           ),
           // drenchs400"),
-          // speakdrenchs4
           // drenchs4("en-US"),
           // drenchs500"),
-          // speakdrenchs5
           // drenchs5("en-US"),
           // drenchs600"),
-          // speakdrenchs6
           // drenchs6("en-US"),
           // drenchs700"),
-          // speakdrenchs7
           // drenchs7("en-US"),
           // drenchs800"),
-          // speakdrenchs8
           // drenchs8("en-US"),
           // drenchs900"),
-          // speakdrenchs9
           // drenchs9("en-US"),
           // drenchs_1000"),
-          // speakdrenchs10
           // drenchs10("en-US"),
           // drenchs1100"),
-          // speakdrenchs11
           // drenchs11("en-US"),
           // drenchs1200"),
-          // speakdrenchs12
           // drenchs12("en-US"),
           // drenchs1300"),
-          // speakdrenchs13
           // drenchs13("en-US"),
           // drenchs1400"),
-          // speakdrenchs14
           // drenchs14("en-US"),
           // drenchs1500"),
-          // speakdrenchs15
           // drenchs15("en-US"),
           // drenchs1600"),
-          // speakdrenchs16
           // drenchs16("en-US"),
           // drenchs1700"),
-          // speakdrenchs17
           // drenchs17("en-US"),
           // drenchs1800"),
-          // speakdrenchs18
           // drenchs18("en-US"),
           // drenchs1900"),
-          // speakdrenchs19
           // drenchs19("en-US"),
           // drenchs_2000"),
-          // speakdrenchs20
           // drenchs20("en-US"),
           // drenchs2100"),
-          // speakdrenchs21
           // drenchs21("en-US"),
           // drenchs2200"),
-          // speakdrenchs22
           // drenchs22("en-US"),
         ],
       ),

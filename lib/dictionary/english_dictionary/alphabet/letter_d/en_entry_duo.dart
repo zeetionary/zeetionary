@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -392,67 +390,46 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // duos200
-          // speakduos2
           // duos2("en-US"""),
           // duos300
-          // speakduos3
           // duos3("en-US"""),
           // duos400
-          // speakduos4
           // duos4("en-US"""),
           // duos500
-          // speakduos5
           // duos5("en-US"""),
           // duos600
-          // speakduos6
           // duos6("en-US"""),
           // duos700
-          // speakduos7
           // duos7("en-US"""),
           // duos800
-          // speakduos8
           // duos8("en-US"""),
           // duos900
-          // speakduos9
           // duos9("en-US"""),
           // duos_1000
-          // speakduos10
           // duos10("en-US"""),
           // duos1100
-          // speakduos11
           // duos11("en-US"""),
           // duos1200
-          // speakduos12
           // duos12("en-US"""),
           // duos1300
-          // speakduos13
           // duos13("en-US"""),
           // duos1400
-          // speakduos14
           // duos14("en-US"""),
           // duos1500
-          // speakduos15
           // duos15("en-US"""),
           // duos1600
-          // speakduos16
           // duos16("en-US"""),
           // duos1700
-          // speakduos17
           // duos17("en-US"""),
           // duos1800
-          // speakduos18
           // duos18("en-US"""),
           // duos1900
-          // speakduos19
           // duos19("en-US"""),
           // duos_2000
-          // speakduos20
           // duos20("en-US"""),
           // duos2100
-          // speakduos21
           // duos21("en-US"""),
           // duos2200
-          // speakduos22
           // duos22("en-US"""),
         ],
       ),

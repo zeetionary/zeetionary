@@ -699,9 +699,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -1125,100 +1123,68 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrops49("en-US"),
           ),
           // drops_6000"),
-          // speakdrops50
           // drops50
           // drops5100"),
-          // speakdrops51
           // drops51
           // drops5200"),
-          // speakdrops52
           // drops52
           // drops5300"),
-          // speakdrops53
           // drops53
           // drops5400"),
-          // speakdrops54
           // drops54
           // drops5500"),
-          // speakdrops55
           // drops55
           // drops5600"),
-          // speakdrops56
           // drops56
           // drops5700"),
-          // speakdrops57
           // drops57
           // drops5800"),
-          // speakdrops58
           // drops58
           // drops5900"),
-          // speakdrops59
           // drops59
           // drops6000"),
-          // speakdrops60
           // drops60
           // drops6100"),
-          // speakdrops61
           // drops61
           // drops6200"),
-          // speakdrops62
           // drops62
           // drops6300"),
-          // speakdrops63
           // drops63
           // drops6400"),
-          // speakdrops65
           // drops65
           // drops6600"),
-          // speakdrops66
           // drops66
           // drops6700"),
-          // speakdrops67
           // drops67
           // drops6800"),
-          // speakdrops68
           // drops68
           // drops6900"),
-          // speakdrops69
           // drops69
           // drops7000"),
-          // speakdrops70
           // drops70
           // drops7100"),
-          // speakdrops71
           // drops71
           // drops7200"),
-          // speakdrops72
           // drops72
           // drops7300"),
-          // speakdrops73
           // drops73
           // drops7400"),
-          // speakdrops75
           // drops75
           // drops7700"),
-          // speakdrops76
           // drops76
           // drops7700"),
-          // speakdrops77
           // drops77
           // drops7800"),
-          // speakdrops79
           // drops79
           // drops8000"),
-          // speakdrops80
           // drops80
           // drops8100"),
-          // speakdrops81
           // drops81
           // drops8200"),
-          // speakdrops82
           // drops82
           // drops8300"),
-          // speakdrops83
           // drops83
           // drops8400"),
-          // speakdrops84
           // drops84("en-US"),
         ],
       ),

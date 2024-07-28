@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdustmans1("en-US"),
           ),
           // dustmans200
-          // speakdustmans2
           // dustmans2("en-US"""),
           // dustmans300
-          // speakdustmans3
           // dustmans3("en-US"""),
           // dustmans400
-          // speakdustmans4
           // dustmans4("en-US"""),
           // dustmans500
-          // speakdustmans5
           // dustmans5("en-US"""),
           // dustmans600
-          // speakdustmans6
           // dustmans6("en-US"""),
           // dustmans700
-          // speakdustmans7
           // dustmans7("en-US"""),
           // dustmans800
-          // speakdustmans8
           // dustmans8("en-US"""),
           // dustmans900
-          // speakdustmans9
           // dustmans9("en-US"""),
           // dustmans_1000
-          // speakdustmans10
           // dustmans10("en-US"""),
           // dustmans1100
-          // speakdustmans11
           // dustmans11("en-US"""),
           // dustmans1200
-          // speakdustmans12
           // dustmans12("en-US"""),
           // dustmans1300
-          // speakdustmans13
           // dustmans13("en-US"""),
           // dustmans1400
-          // speakdustmans14
           // dustmans14("en-US"""),
           // dustmans1500
-          // speakdustmans15
           // dustmans15("en-US"""),
           // dustmans1600
-          // speakdustmans16
           // dustmans16("en-US"""),
           // dustmans1700
-          // speakdustmans17
           // dustmans17("en-US"""),
           // dustmans1800
-          // speakdustmans18
           // dustmans18("en-US"""),
           // dustmans1900
-          // speakdustmans19
           // dustmans19("en-US"""),
           // dustmans_2000
-          // speakdustmans20
           // dustmans20("en-US"""),
           // dustmans2100
-          // speakdustmans21
           // dustmans21("en-US"""),
           // dustmans2200
-          // speakdustmans22
           // dustmans22("en-US"""),
         ],
       ),

@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -398,61 +396,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdozys3("en-US"),
           ),
           // dozys400"),
-          // speakdozys4
           // dozys4("en-US"),
           // dozys500"),
-          // speakdozys5
           // dozys5("en-US"),
           // dozys600"),
-          // speakdozys6
           // dozys6("en-US"),
           // dozys700"),
-          // speakdozys7
           // dozys7("en-US"),
           // dozys800"),
-          // speakdozys8
           // dozys8("en-US"),
           // dozys900"),
-          // speakdozys9
           // dozys9("en-US"),
           // dozys_1000"),
-          // speakdozys10
           // dozys10("en-US"),
           // dozys1100"),
-          // speakdozys11
           // dozys11("en-US"),
           // dozys1200"),
-          // speakdozys12
           // dozys12("en-US"),
           // dozys1300"),
-          // speakdozys13
           // dozys13("en-US"),
           // dozys1400"),
-          // speakdozys14
           // dozys14("en-US"),
           // dozys1500"),
-          // speakdozys15
           // dozys15("en-US"),
           // dozys1600"),
-          // speakdozys16
           // dozys16("en-US"),
           // dozys1700"),
-          // speakdozys17
           // dozys17("en-US"),
           // dozys1800"),
-          // speakdozys18
           // dozys18("en-US"),
           // dozys1900"),
-          // speakdozys19
           // dozys19("en-US"),
           // dozys_2000"),
-          // speakdozys20
           // dozys20("en-US"),
           // dozys2100"),
-          // speakdozys21
           // dozys21("en-US"),
           // dozys2200"),
-          // speakdozys22
           // dozys22("en-US"),
         ],
       ),

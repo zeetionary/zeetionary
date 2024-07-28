@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoubleclicks1("en-US"),
           ),
           // doubleclicks200"),
-          // speakdoubleclicks2
           // doubleclicks2("en-US"),
           // doubleclicks300"),
-          // speakdoubleclicks3
           // doubleclicks3("en-US"),
           // doubleclicks400"),
-          // speakdoubleclicks4
           // doubleclicks4("en-US"),
           // doubleclicks500"),
-          // speakdoubleclicks5
           // doubleclicks5("en-US"),
           // doubleclicks600"),
-          // speakdoubleclicks6
           // doubleclicks6("en-US"),
           // doubleclicks700"),
-          // speakdoubleclicks7
           // doubleclicks7("en-US"),
           // doubleclicks800"),
-          // speakdoubleclicks8
           // doubleclicks8("en-US"),
           // doubleclicks900"),
-          // speakdoubleclicks9
           // doubleclicks9("en-US"),
           // doubleclicks_1000"),
-          // speakdoubleclicks10
           // doubleclicks10("en-US"),
           // doubleclicks1100"),
-          // speakdoubleclicks11
           // doubleclicks11("en-US"),
           // doubleclicks1200"),
-          // speakdoubleclicks12
           // doubleclicks12("en-US"),
           // doubleclicks1300"),
-          // speakdoubleclicks13
           // doubleclicks13("en-US"),
           // doubleclicks1400"),
-          // speakdoubleclicks14
           // doubleclicks14("en-US"),
           // doubleclicks1500"),
-          // speakdoubleclicks15
           // doubleclicks15("en-US"),
           // doubleclicks1600"),
-          // speakdoubleclicks16
           // doubleclicks16("en-US"),
           // doubleclicks1700"),
-          // speakdoubleclicks17
           // doubleclicks17("en-US"),
           // doubleclicks1800"),
-          // speakdoubleclicks18
           // doubleclicks18("en-US"),
           // doubleclicks1900"),
-          // speakdoubleclicks19
           // doubleclicks19("en-US"),
           // doubleclicks_2000"),
-          // speakdoubleclicks20
           // doubleclicks20("en-US"),
           // doubleclicks2100"),
-          // speakdoubleclicks21
           // doubleclicks21("en-US"),
           // doubleclicks2200"),
-          // speakdoubleclicks22
           // doubleclicks22("en-US"),
         ],
       ),

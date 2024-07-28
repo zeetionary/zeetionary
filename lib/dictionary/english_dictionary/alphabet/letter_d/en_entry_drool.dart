@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -380,64 +378,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrools2("en-US"),
           ),
           // drools300"),
-          // speakdrools3
           // drools3("en-US"),
           // drools400"),
-          // speakdrools4
           // drools4("en-US"),
           // drools500"),
-          // speakdrools5
           // drools5("en-US"),
           // drools600"),
-          // speakdrools6
           // drools6("en-US"),
           // drools700"),
-          // speakdrools7
           // drools7("en-US"),
           // drools800"),
-          // speakdrools8
           // drools8("en-US"),
           // drools900"),
-          // speakdrools9
           // drools9("en-US"),
           // drools_1000"),
-          // speakdrools10
           // drools10("en-US"),
           // drools1100"),
-          // speakdrools11
           // drools11("en-US"),
           // drools1200"),
-          // speakdrools12
           // drools12("en-US"),
           // drools1300"),
-          // speakdrools13
           // drools13("en-US"),
           // drools1400"),
-          // speakdrools14
           // drools14("en-US"),
           // drools1500"),
-          // speakdrools15
           // drools15("en-US"),
           // drools1600"),
-          // speakdrools16
           // drools16("en-US"),
           // drools1700"),
-          // speakdrools17
           // drools17("en-US"),
           // drools1800"),
-          // speakdrools18
           // drools18("en-US"),
           // drools1900"),
-          // speakdrools19
           // drools19("en-US"),
           // drools_2000"),
-          // speakdrools20
           // drools20("en-US"),
           // drools2100"),
-          // speakdrools21
           // drools21("en-US"),
           // drools2200"),
-          // speakdrools22
           // drools22("en-US"),
         ],
       ),

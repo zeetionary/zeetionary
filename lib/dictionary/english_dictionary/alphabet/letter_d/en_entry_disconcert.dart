@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisconcerts2("en-US"),
           ),
           // disconcerts300"),
-          // speakdisconcerts3
           // disconcerts3("en-US"),
           // disconcerts400"),
-          // speakdisconcerts4
           // disconcerts4("en-US"),
           // disconcerts500"),
-          // speakdisconcerts5
           // disconcerts5("en-US"),
           // disconcerts600"),
-          // speakdisconcerts6
           // disconcerts6("en-US"),
           // disconcerts700"),
-          // speakdisconcerts7
           // disconcerts7("en-US"),
           // disconcerts800"),
-          // speakdisconcerts8
           // disconcerts8("en-US"),
           // disconcerts900"),
-          // speakdisconcerts9
           // disconcerts9("en-US"),
           // disconcerts_1000"),
-          // speakdisconcerts10
           // disconcerts10("en-US"),
           // disconcerts1100"),
-          // speakdisconcerts11
           // disconcerts11("en-US"),
           // disconcerts1200"),
-          // speakdisconcerts12
           // disconcerts12("en-US"),
           // disconcerts1300"),
-          // speakdisconcerts13
           // disconcerts13("en-US"),
           // disconcerts1400"),
-          // speakdisconcerts14
           // disconcerts14("en-US"),
           // disconcerts1500"),
-          // speakdisconcerts15
           // disconcerts15("en-US"),
           // disconcerts1600"),
-          // speakdisconcerts16
           // disconcerts16("en-US"),
           // disconcerts1700"),
-          // speakdisconcerts17
           // disconcerts17("en-US"),
           // disconcerts1800"),
-          // speakdisconcerts18
           // disconcerts18("en-US"),
           // disconcerts1900"),
-          // speakdisconcerts19
           // disconcerts19("en-US"),
           // disconcerts_2000"),
-          // speakdisconcerts20
           // disconcerts20("en-US"),
           // disconcerts2100"),
-          // speakdisconcerts21
           // disconcerts21("en-US"),
           // disconcerts2200"),
-          // speakdisconcerts22
           // disconcerts22("en-US"),
         ],
       ),

@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiskdrives1("en-US"),
           ),
           // diskdrives200"),
-          // speakdiskdrives2
           // diskdrives2("en-US"),
           // diskdrives300"),
-          // speakdiskdrives3
           // diskdrives3("en-US"),
           // diskdrives400"),
-          // speakdiskdrives4
           // diskdrives4("en-US"),
           // diskdrives500"),
-          // speakdiskdrives5
           // diskdrives5("en-US"),
           // diskdrives600"),
-          // speakdiskdrives6
           // diskdrives6("en-US"),
           // diskdrives700"),
-          // speakdiskdrives7
           // diskdrives7("en-US"),
           // diskdrives800"),
-          // speakdiskdrives8
           // diskdrives8("en-US"),
           // diskdrives900"),
-          // speakdiskdrives9
           // diskdrives9("en-US"),
           // diskdrives_1000"),
-          // speakdiskdrives10
           // diskdrives10("en-US"),
           // diskdrives1100"),
-          // speakdiskdrives11
           // diskdrives11("en-US"),
           // diskdrives1200"),
-          // speakdiskdrives12
           // diskdrives12("en-US"),
           // diskdrives1300"),
-          // speakdiskdrives13
           // diskdrives13("en-US"),
           // diskdrives1400"),
-          // speakdiskdrives14
           // diskdrives14("en-US"),
           // diskdrives1500"),
-          // speakdiskdrives15
           // diskdrives15("en-US"),
           // diskdrives1600"),
-          // speakdiskdrives16
           // diskdrives16("en-US"),
           // diskdrives1700"),
-          // speakdiskdrives17
           // diskdrives17("en-US"),
           // diskdrives1800"),
-          // speakdiskdrives18
           // diskdrives18("en-US"),
           // diskdrives1900"),
-          // speakdiskdrives19
           // diskdrives19("en-US"),
           // diskdrives_2000"),
-          // speakdiskdrives20
           // diskdrives20("en-US"),
           // diskdrives2100"),
-          // speakdiskdrives21
           // diskdrives21("en-US"),
           // diskdrives2200"),
-          // speakdiskdrives22
           // diskdrives22("en-US"),
         ],
       ),

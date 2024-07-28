@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdewdrops1("en-US"),
           ),
           // dewdrops200"),
-          // speakdewdrops2
           // dewdrops2("en-US"),
           // dewdrops300"),
-          // speakdewdrops3
           // dewdrops3("en-US"),
           // dewdrops400"),
-          // speakdewdrops4
           // dewdrops4("en-US"),
           // dewdrops500"),
-          // speakdewdrops5
           // dewdrops5("en-US"),
           // dewdrops600"),
-          // speakdewdrops6
           // dewdrops6("en-US"),
           // dewdrops700"),
-          // speakdewdrops7
           // dewdrops7("en-US"),
           // dewdrops800"),
-          // speakdewdrops8
           // dewdrops8("en-US"),
           // dewdrops900"),
-          // speakdewdrops9
           // dewdrops9("en-US"),
           // dewdrops_1000"),
-          // speakdewdrops10
           // dewdrops10("en-US"),
           // dewdrops1100"),
-          // speakdewdrops11
           // dewdrops11("en-US"),
           // dewdrops1200"),
-          // speakdewdrops12
           // dewdrops12("en-US"),
           // dewdrops1300"),
-          // speakdewdrops13
           // dewdrops13("en-US"),
           // dewdrops1400"),
-          // speakdewdrops14
           // dewdrops14("en-US"),
           // dewdrops1500"),
-          // speakdewdrops15
           // dewdrops15("en-US"),
           // dewdrops1600"),
-          // speakdewdrops16
           // dewdrops16("en-US"),
           // dewdrops1700"),
-          // speakdewdrops17
           // dewdrops17("en-US"),
           // dewdrops1800"),
-          // speakdewdrops18
           // dewdrops18("en-US"),
           // dewdrops1900"),
-          // speakdewdrops19
           // dewdrops19("en-US"),
           // dewdrops_2000"),
-          // speakdewdrops20
           // dewdrops20("en-US"),
           // dewdrops2100"),
-          // speakdewdrops21
           // dewdrops21("en-US"),
           // dewdrops2200"),
-          // speakdewdrops22
           // dewdrops22("en-US"),
         ],
       ),

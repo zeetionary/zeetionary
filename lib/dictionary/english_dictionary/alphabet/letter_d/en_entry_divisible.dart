@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -400,61 +398,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivisibles3("en-US"),
           ),
           // divisibles400"),
-          // speakdivisibles4
           // divisibles4("en-US"),
           // divisibles500"),
-          // speakdivisibles5
           // divisibles5("en-US"),
           // divisibles600"),
-          // speakdivisibles6
           // divisibles6("en-US"),
           // divisibles700"),
-          // speakdivisibles7
           // divisibles7("en-US"),
           // divisibles800"),
-          // speakdivisibles8
           // divisibles8("en-US"),
           // divisibles900"),
-          // speakdivisibles9
           // divisibles9("en-US"),
           // divisibles_1000"),
-          // speakdivisibles10
           // divisibles10("en-US"),
           // divisibles1100"),
-          // speakdivisibles11
           // divisibles11("en-US"),
           // divisibles1200"),
-          // speakdivisibles12
           // divisibles12("en-US"),
           // divisibles1300"),
-          // speakdivisibles13
           // divisibles13("en-US"),
           // divisibles1400"),
-          // speakdivisibles14
           // divisibles14("en-US"),
           // divisibles1500"),
-          // speakdivisibles15
           // divisibles15("en-US"),
           // divisibles1600"),
-          // speakdivisibles16
           // divisibles16("en-US"),
           // divisibles1700"),
-          // speakdivisibles17
           // divisibles17("en-US"),
           // divisibles1800"),
-          // speakdivisibles18
           // divisibles18("en-US"),
           // divisibles1900"),
-          // speakdivisibles19
           // divisibles19("en-US"),
           // divisibles_2000"),
-          // speakdivisibles20
           // divisibles20("en-US"),
           // divisibles2100"),
-          // speakdivisibles21
           // divisibles21("en-US"),
           // divisibles2200"),
-          // speakdivisibles22
           // divisibles22("en-US"),
         ],
       ),

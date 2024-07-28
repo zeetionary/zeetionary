@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublechecks2("en-US"),
           ),
           // doublechecks300"),
-          // speakdoublechecks3
           // doublechecks3("en-US"),
           // doublechecks400"),
-          // speakdoublechecks4
           // doublechecks4("en-US"),
           // doublechecks500"),
-          // speakdoublechecks5
           // doublechecks5("en-US"),
           // doublechecks600"),
-          // speakdoublechecks6
           // doublechecks6("en-US"),
           // doublechecks700"),
-          // speakdoublechecks7
           // doublechecks7("en-US"),
           // doublechecks800"),
-          // speakdoublechecks8
           // doublechecks8("en-US"),
           // doublechecks900"),
-          // speakdoublechecks9
           // doublechecks9("en-US"),
           // doublechecks_1000"),
-          // speakdoublechecks10
           // doublechecks10("en-US"),
           // doublechecks1100"),
-          // speakdoublechecks11
           // doublechecks11("en-US"),
           // doublechecks1200"),
-          // speakdoublechecks12
           // doublechecks12("en-US"),
           // doublechecks1300"),
-          // speakdoublechecks13
           // doublechecks13("en-US"),
           // doublechecks1400"),
-          // speakdoublechecks14
           // doublechecks14("en-US"),
           // doublechecks1500"),
-          // speakdoublechecks15
           // doublechecks15("en-US"),
           // doublechecks1600"),
-          // speakdoublechecks16
           // doublechecks16("en-US"),
           // doublechecks1700"),
-          // speakdoublechecks17
           // doublechecks17("en-US"),
           // doublechecks1800"),
-          // speakdoublechecks18
           // doublechecks18("en-US"),
           // doublechecks1900"),
-          // speakdoublechecks19
           // doublechecks19("en-US"),
           // doublechecks_2000"),
-          // speakdoublechecks20
           // doublechecks20("en-US"),
           // doublechecks2100"),
-          // speakdoublechecks21
           // doublechecks21("en-US"),
           // doublechecks2200"),
-          // speakdoublechecks22
           // doublechecks22("en-US"),
         ],
       ),

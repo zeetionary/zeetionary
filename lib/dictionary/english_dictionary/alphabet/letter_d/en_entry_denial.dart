@@ -265,9 +265,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -326,52 +324,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenials6("en-US"),
           ),
           // denials700"),
-          // speakdenials7
           // denials7("en-US"),
           // denials800"),
-          // speakdenials8
           // denials8("en-US"),
           // denials900"),
-          // speakdenials9
           // denials9("en-US"),
           // denials1000"),
-          // speakdenials10
           // denials10("en-US"),
           // denials1100"),
-          // speakdenials11
           // denials11("en-US"),
           // denials1200"),
-          // speakdenials12
           // denials12("en-US"),
           // denials1300"),
-          // speakdenials13
           // denials13("en-US"),
           // denials1400"),
-          // speakdenials14
           // denials14("en-US"),
           // denials1500"),
-          // speakdenials15
           // denials15("en-US"),
           // denials1600"),
-          // speakdenials16
           // denials16("en-US"),
           // denials1700"),
-          // speakdenials17
           // denials17("en-US"),
           // denials1800"),
-          // speakdenials18
           // denials18("en-US"),
           // denials1900"),
-          // speakdenials19
           // denials19("en-US"),
           // "There was an official denial that there would be an election before the end of the year.0"),
-          // speakdenials20
           // denials20("en-US"),
           // denials2100"),
-          // speakdenials21
           // denials21("en-US"),
           // denials2200"),
-          // speakdenials22
           // denials22("en-US"),
         ],
       ),

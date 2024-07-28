@@ -379,9 +379,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -435,55 +433,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdodgys5("en-US"),
           ),
           // dodgys600"),
-          // speakdodgys6
           // dodgys6("en-US"),
           // dodgys700"),
-          // speakdodgys7
           // dodgys7("en-US"),
           // dodgys800"),
-          // speakdodgys8
           // dodgys8("en-US"),
           // dodgys900"),
-          // speakdodgys9
           // dodgys9("en-US"),
           // dodgys_1000"),
-          // speakdodgys10
           // dodgys10("en-US"),
           // dodgys1100"),
-          // speakdodgys11
           // dodgys11("en-US"),
           // dodgys1200"),
-          // speakdodgys12
           // dodgys12("en-US"),
           // dodgys1300"),
-          // speakdodgys13
           // dodgys13("en-US"),
           // dodgys1400"),
-          // speakdodgys14
           // dodgys14("en-US"),
           // dodgys1500"),
-          // speakdodgys15
           // dodgys15("en-US"),
           // dodgys1600"),
-          // speakdodgys16
           // dodgys16("en-US"),
           // dodgys1700"),
-          // speakdodgys17
           // dodgys17("en-US"),
           // dodgys1800"),
-          // speakdodgys18
           // dodgys18("en-US"),
           // dodgys1900"),
-          // speakdodgys19
           // dodgys19("en-US"),
           // dodgys_2000"),
-          // speakdodgys20
           // dodgys20("en-US"),
           // dodgys2100"),
-          // speakdodgys21
           // dodgys21("en-US"),
           // dodgys2200"),
-          // speakdodgys22
           // dodgys22("en-US"),
         ],
       ),

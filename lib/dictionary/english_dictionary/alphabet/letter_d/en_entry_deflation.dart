@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -267,64 +265,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeflations2("en-US"),
           ),
           // deflations300"),
-          // speakdeflations3
           // deflations3("en-US"),
           // deflations400"),
-          // speakdeflations4
           // deflations4("en-US"),
           // deflations500"),
-          // speakdeflations5
           // deflations5("en-US"),
           // deflations600"),
-          // speakdeflations6
           // deflations6("en-US"),
           // deflations700"),
-          // speakdeflations7
           // deflations7("en-US"),
           // deflations800"),
-          // speakdeflations8
           // deflations8("en-US"),
           // deflations900"),
-          // speakdeflations9
           // deflations9("en-US"),
           // deflations1000"),
-          // speakdeflations10
           // deflations10("en-US"),
           // deflations1100"),
-          // speakdeflations11
           // deflations11("en-US"),
           // deflations1200"),
-          // speakdeflations12
           // deflations12("en-US"),
           // deflations1300"),
-          // speakdeflations13
           // deflations13("en-US"),
           // deflations1400"),
-          // speakdeflations14
           // deflations14("en-US"),
           // deflations1500"),
-          // speakdeflations15
           // deflations15("en-US"),
           // deflations1600"),
-          // speakdeflations16
           // deflations16("en-US"),
           // deflations1700"),
-          // speakdeflations17
           // deflations17("en-US"),
           // deflations1800"),
-          // speakdeflations18
           // deflations18("en-US"),
           // deflations1900"),
-          // speakdeflations19
           // deflations19("en-US"),
           // "The rate of deflation of the balloon depends on the kind of material from which it is made.0"),
-          // speakdeflations20
           // deflations20("en-US"),
           // deflations2100"),
-          // speakdeflations21
           // deflations21("en-US"),
           // deflations2200"),
-          // speakdeflations22
           // deflations22("en-US"),
         ],
       ),

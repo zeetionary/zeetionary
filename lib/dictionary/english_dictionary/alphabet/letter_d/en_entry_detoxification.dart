@@ -245,9 +245,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -289,61 +287,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetoxifications3("en-US"),
           ),
           // detoxifications400"),
-          // speakdetoxifications4
           // detoxifications4
           // detoxifications500"),
-          // speakdetoxifications5
           // detoxifications5
           // detoxifications600"),
-          // speakdetoxifications6
           // detoxifications6
           // detoxifications700"),
-          // speakdetoxifications7
           // detoxifications7("en-US"),
           // detoxifications800"),
-          // speakdetoxifications8
           // detoxifications8("en-US"),
           // detoxifications900"),
-          // speakdetoxifications9
           // detoxifications9("en-US"),
           // detoxifications1000"),
-          // speakdetoxifications10
           // detoxifications10("en-US"),
           // detoxifications1100"),
-          // speakdetoxifications11
           // detoxifications11("en-US"),
           // detoxifications1200"),
-          // speakdetoxifications12
           // detoxifications12("en-US"),
           // detoxifications1300"),
-          // speakdetoxifications13
           // detoxifications13("en-US"),
           // detoxifications1400"),
-          // speakdetoxifications14
           // detoxifications14("en-US"),
           // detoxifications1500"),
-          // speakdetoxifications15
           // detoxifications15("en-US"),
           // detoxifications1600"),
-          // speakdetoxifications16
           // detoxifications16("en-US"),
           // detoxifications1700"),
-          // speakdetoxifications17
           // detoxifications17("en-US"),
           // detoxifications1800"),
-          // speakdetoxifications18
           // detoxifications18("en-US"),
           // detoxifications1900"),
-          // speakdetoxifications19
           // detoxifications19("en-US"),
           // "The policy has been key to the successful detoxification of the party's brand.0"),
-          // speakdetoxifications20
           // detoxifications20("en-US"),
           // detoxifications2100"),
-          // speakdetoxifications21
           // detoxifications21("en-US"),
           // detoxifications2200"),
-          // speakdetoxifications22
           // detoxifications22("en-US"),
         ],
       ),

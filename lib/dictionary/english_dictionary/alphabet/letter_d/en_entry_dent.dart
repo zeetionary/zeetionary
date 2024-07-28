@@ -264,9 +264,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -323,52 +321,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdents6("en-US"),
           ),
           // dents700"),
-          // speakdents7
           // dents7("en-US"),
           // dents800"),
-          // speakdents8
           // dents8("en-US"),
           // dents900"),
-          // speakdents9
           // dents9("en-US"),
           // dents1000"),
-          // speakdents10
           // dents10("en-US"),
           // dents1100"),
-          // speakdents11
           // dents11("en-US"),
           // dents1200"),
-          // speakdents12
           // dents12("en-US"),
           // dents1300"),
-          // speakdents13
           // dents13("en-US"),
           // dents1400"),
-          // speakdents14
           // dents14("en-US"),
           // dents1500"),
-          // speakdents15
           // dents15("en-US"),
           // dents1600"),
-          // speakdents16
           // dents16("en-US"),
           // dents1700"),
-          // speakdents17
           // dents17("en-US"),
           // dents1800"),
-          // speakdents18
           // dents18("en-US"),
           // dents1900"),
-          // speakdents19
           // dents19("en-US"),
           // "The car was quite badly dented on one side.0"),
-          // speakdents20
           // dents20("en-US"),
           // dents2100"),
-          // speakdents21
           // dents21("en-US"),
           // dents2200"),
-          // speakdents22
           // dents22("en-US"),
         ],
       ),

@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepictions2("en-US"),
           ),
           // depictions300"),
-          // speakdepictions3
           // depictions3("en-US"),
           // depictions400"),
-          // speakdepictions4
           // depictions4("en-US"),
           // depictions500"),
-          // speakdepictions5
           // depictions5("en-US"),
           // depictions600"),
-          // speakdepictions6
           // depictions6("en-US"),
           // depictions700"),
-          // speakdepictions7
           // depictions7("en-US"),
           // depictions800"),
-          // speakdepictions8
           // depictions8("en-US"),
           // depictions900"),
-          // speakdepictions9
           // depictions9("en-US"),
           // depictions1000"),
-          // speakdepictions10
           // depictions10("en-US"),
           // depictions1100"),
-          // speakdepictions11
           // depictions11("en-US"),
           // depictions1200"),
-          // speakdepictions12
           // depictions12("en-US"),
           // depictions1300"),
-          // speakdepictions13
           // depictions13("en-US"),
           // depictions1400"),
-          // speakdepictions14
           // depictions14("en-US"),
           // depictions1500"),
-          // speakdepictions15
           // depictions15("en-US"),
           // depictions1600"),
-          // speakdepictions16
           // depictions16("en-US"),
           // depictions1700"),
-          // speakdepictions17
           // depictions17("en-US"),
           // depictions1800"),
-          // speakdepictions18
           // depictions18("en-US"),
           // depictions1900"),
-          // speakdepictions19
           // depictions19("en-US"),
           // "I disapprove of the depiction of violence on television.0"),
-          // speakdepictions20
           // depictions20("en-US"),
           // depictions2100"),
-          // speakdepictions21
           // depictions21("en-US"),
           // depictions2200"),
-          // speakdepictions22
           // depictions22("en-US"),
         ],
       ),

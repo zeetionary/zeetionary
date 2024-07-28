@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisembarkations2("en-US"),
           ),
           // disembarkations300"),
-          // speakdisembarkations3
           // disembarkations3("en-US"),
           // disembarkations400"),
-          // speakdisembarkations4
           // disembarkations4("en-US"),
           // disembarkations500"),
-          // speakdisembarkations5
           // disembarkations5("en-US"),
           // disembarkations600"),
-          // speakdisembarkations6
           // disembarkations6("en-US"),
           // disembarkations700"),
-          // speakdisembarkations7
           // disembarkations7("en-US"),
           // disembarkations800"),
-          // speakdisembarkations8
           // disembarkations8("en-US"),
           // disembarkations900"),
-          // speakdisembarkations9
           // disembarkations9("en-US"),
           // disembarkations_1000"),
-          // speakdisembarkations10
           // disembarkations10("en-US"),
           // disembarkations1100"),
-          // speakdisembarkations11
           // disembarkations11("en-US"),
           // disembarkations1200"),
-          // speakdisembarkations12
           // disembarkations12("en-US"),
           // disembarkations1300"),
-          // speakdisembarkations13
           // disembarkations13("en-US"),
           // disembarkations1400"),
-          // speakdisembarkations14
           // disembarkations14("en-US"),
           // disembarkations1500"),
-          // speakdisembarkations15
           // disembarkations15("en-US"),
           // disembarkations1600"),
-          // speakdisembarkations16
           // disembarkations16("en-US"),
           // disembarkations1700"),
-          // speakdisembarkations17
           // disembarkations17("en-US"),
           // disembarkations1800"),
-          // speakdisembarkations18
           // disembarkations18("en-US"),
           // disembarkations1900"),
-          // speakdisembarkations19
           // disembarkations19("en-US"),
           // disembarkations_2000"),
-          // speakdisembarkations20
           // disembarkations20("en-US"),
           // disembarkations2100"),
-          // speakdisembarkations21
           // disembarkations21("en-US"),
           // disembarkations2200"),
-          // speakdisembarkations22
           // disembarkations22("en-US"),
         ],
       ),

@@ -254,9 +254,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -304,55 +302,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdescends5("en-US"),
           ),
           // descends600"),
-          // speakdescends6
           // descends6("en-US"),
           // descends700"),
-          // speakdescends7
           // descends7("en-US"),
           // descends800"),
-          // speakdescends8
           // descends8("en-US"),
           // descends900"),
-          // speakdescends9
           // descends9("en-US"),
           // descends1000"),
-          // speakdescends10
           // descends10("en-US"),
           // descends1100"),
-          // speakdescends11
           // descends11("en-US"),
           // descends1200"),
-          // speakdescends12
           // descends12("en-US"),
           // descends1300"),
-          // speakdescends13
           // descends13("en-US"),
           // descends1400"),
-          // speakdescends14
           // descends14("en-US"),
           // descends1500"),
-          // speakdescends15
           // descends15("en-US"),
           // descends1600"),
-          // speakdescends16
           // descends16("en-US"),
           // descends1700"),
-          // speakdescends17
           // descends17("en-US"),
           // descends1800"),
-          // speakdescends18
           // descends18("en-US"),
           // descends1900"),
-          // speakdescends19
           // descends19("en-US"),
           // "She descended the stairs slowly.0"),
-          // speakdescends20
           // descends20("en-US"),
           // descends2100"),
-          // speakdescends21
           // descends21("en-US"),
           // descends2200"),
-          // speakdescends22
           // descends22("en-US"),
         ],
       ),

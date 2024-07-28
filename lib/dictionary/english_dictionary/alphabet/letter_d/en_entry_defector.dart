@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -273,61 +271,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefectors3("en-US"),
           ),
           // defectors400"),
-          // speakdefectors4
           // defectors4
           // defectors500"),
-          // speakdefectors5
           // defectors5
           // defectors600"),
-          // speakdefectors6
           // defectors6
           // defectors700"),
-          // speakdefectors7
           // defectors7
           // defectors800"),
-          // speakdefectors8
           // defectors8
           // defectors900"),
-          // speakdefectors9
           // defectors9
           // defectors1000"),
-          // speakdefectors10
           // defectors10
           // defectors1100"),
-          // speakdefectors11
           // defectors11
           // defectors1200"),
-          // speakdefectors12
           // defectors12
           // defectors1300"),
-          // speakdefectors13
           // defectors13
           // defectors1400"),
-          // speakdefectors14
           // defectors14
           // defectors1500"),
-          // speakdefectors15
           // defectors15
           // defectors1600"),
-          // speakdefectors16
           // defectors16
           // defectors1700"),
-          // speakdefectors17
           // defectors17
           // defectors1800"),
-          // speakdefectors18
           // defectors18
           // defectors1900"),
-          // speakdefectors19
           // defectors19
           // defectors2000"),
-          // speakdefectors20
           // defectors20
           // defectors2100"),
-          // speakdefectors21
           // defectors21
           // defectors2200"),
-          // speakdefectors22
           // defectors22("en-US"),
         ],
       ),

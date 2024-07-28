@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdittys1("en-US"),
           ),
           // dittys200"),
-          // speakdittys2
           // dittys2("en-US"),
           // dittys300"),
-          // speakdittys3
           // dittys3("en-US"),
           // dittys400"),
-          // speakdittys4
           // dittys4("en-US"),
           // dittys500"),
-          // speakdittys5
           // dittys5("en-US"),
           // dittys600"),
-          // speakdittys6
           // dittys6("en-US"),
           // dittys700"),
-          // speakdittys7
           // dittys7("en-US"),
           // dittys800"),
-          // speakdittys8
           // dittys8("en-US"),
           // dittys900"),
-          // speakdittys9
           // dittys9("en-US"),
           // dittys_1000"),
-          // speakdittys10
           // dittys10("en-US"),
           // dittys1100"),
-          // speakdittys11
           // dittys11("en-US"),
           // dittys1200"),
-          // speakdittys12
           // dittys12("en-US"),
           // dittys1300"),
-          // speakdittys13
           // dittys13("en-US"),
           // dittys1400"),
-          // speakdittys14
           // dittys14("en-US"),
           // dittys1500"),
-          // speakdittys15
           // dittys15("en-US"),
           // dittys1600"),
-          // speakdittys16
           // dittys16("en-US"),
           // dittys1700"),
-          // speakdittys17
           // dittys17("en-US"),
           // dittys1800"),
-          // speakdittys18
           // dittys18("en-US"),
           // dittys1900"),
-          // speakdittys19
           // dittys19("en-US"),
           // dittys_2000"),
-          // speakdittys20
           // dittys20("en-US"),
           // dittys2100"),
-          // speakdittys21
           // dittys21("en-US"),
           // dittys2200"),
-          // speakdittys22
           // dittys22("en-US"),
         ],
       ),

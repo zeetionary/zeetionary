@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistributors2("en-US"),
           ),
           // distributors300"),
-          // speakdistributors3
           // distributors3("en-US"),
           // distributors400"),
-          // speakdistributors4
           // distributors4("en-US"),
           // distributors500"),
-          // speakdistributors5
           // distributors5("en-US"),
           // distributors600"),
-          // speakdistributors6
           // distributors6("en-US"),
           // distributors700"),
-          // speakdistributors7
           // distributors7("en-US"),
           // distributors800"),
-          // speakdistributors8
           // distributors8("en-US"),
           // distributors900"),
-          // speakdistributors9
           // distributors9("en-US"),
           // distributors_1000"),
-          // speakdistributors10
           // distributors10("en-US"),
           // distributors1100"),
-          // speakdistributors11
           // distributors11("en-US"),
           // distributors1200"),
-          // speakdistributors12
           // distributors12("en-US"),
           // distributors1300"),
-          // speakdistributors13
           // distributors13("en-US"),
           // distributors1400"),
-          // speakdistributors14
           // distributors14("en-US"),
           // distributors1500"),
-          // speakdistributors15
           // distributors15("en-US"),
           // distributors1600"),
-          // speakdistributors16
           // distributors16("en-US"),
           // distributors1700"),
-          // speakdistributors17
           // distributors17("en-US"),
           // distributors1800"),
-          // speakdistributors18
           // distributors18("en-US"),
           // distributors1900"),
-          // speakdistributors19
           // distributors19("en-US"),
           // distributors_2000"),
-          // speakdistributors20
           // distributors20("en-US"),
           // distributors2100"),
-          // speakdistributors21
           // distributors21("en-US"),
           // distributors2200"),
-          // speakdistributors22
           // distributors22("en-US"),
         ],
       ),

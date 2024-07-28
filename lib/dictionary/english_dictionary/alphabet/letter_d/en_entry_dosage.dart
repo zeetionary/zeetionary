@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdosages2("en-US"),
           ),
           // dosages300"),
-          // speakdosages3
           // dosages3("en-US"),
           // dosages400"),
-          // speakdosages4
           // dosages4("en-US"),
           // dosages500"),
-          // speakdosages5
           // dosages5("en-US"),
           // dosages600"),
-          // speakdosages6
           // dosages6("en-US"),
           // dosages700"),
-          // speakdosages7
           // dosages7("en-US"),
           // dosages800"),
-          // speakdosages8
           // dosages8("en-US"),
           // dosages900"),
-          // speakdosages9
           // dosages9("en-US"),
           // dosages_1000"),
-          // speakdosages10
           // dosages10("en-US"),
           // dosages1100"),
-          // speakdosages11
           // dosages11("en-US"),
           // dosages1200"),
-          // speakdosages12
           // dosages12("en-US"),
           // dosages1300"),
-          // speakdosages13
           // dosages13("en-US"),
           // dosages1400"),
-          // speakdosages14
           // dosages14("en-US"),
           // dosages1500"),
-          // speakdosages15
           // dosages15("en-US"),
           // dosages1600"),
-          // speakdosages16
           // dosages16("en-US"),
           // dosages1700"),
-          // speakdosages17
           // dosages17("en-US"),
           // dosages1800"),
-          // speakdosages18
           // dosages18("en-US"),
           // dosages1900"),
-          // speakdosages19
           // dosages19("en-US"),
           // dosages_2000"),
-          // speakdosages20
           // dosages20("en-US"),
           // dosages2100"),
-          // speakdosages21
           // dosages21("en-US"),
           // dosages2200"),
-          // speakdosages22
           // dosages22("en-US"),
         ],
       ),

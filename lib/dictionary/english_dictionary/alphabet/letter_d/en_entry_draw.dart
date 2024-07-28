@@ -716,9 +716,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -1181,94 +1179,64 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdraws51("en-US"),
           ),
           // draws5200"),
-          // speakdraws52
           // draws52
           // draws5300"),
-          // speakdraws53
           // draws53
           // draws5400"),
-          // speakdraws54
           // draws54
           // draws5500"),
-          // speakdraws55
           // draws55
           // draws5600"),
-          // speakdraws56
           // draws56
           // draws5700"),
-          // speakdraws57
           // draws57
           // draws5800"),
-          // speakdraws58
           // draws58
           // draws5900"),
-          // speakdraws59
           // draws59
           // draws6000"),
-          // speakdraws60
           // draws60
           // draws6100"),
-          // speakdraws61
           // draws61
           // draws6200"),
-          // speakdraws62
           // draws62
           // draws6300"),
-          // speakdraws63
           // draws63
           // draws6400"),
-          // speakdraws65
           // draws65
           // draws6600"),
-          // speakdraws66
           // draws66
           // draws6700"),
-          // speakdraws67
           // draws67
           // draws6800"),
-          // speakdraws68
           // draws68
           // draws6900"),
-          // speakdraws69
           // draws69
           // draws7000"),
-          // speakdraws70
           // draws70
           // draws7100"),
-          // speakdraws71
           // draws71
           // draws7200"),
-          // speakdraws72
           // draws72
           // draws7300"),
-          // speakdraws73
           // draws73
           // draws7400"),
-          // speakdraws75
           // draws75
           // draws7700"),
-          // speakdraws76
           // draws76
           // draws7700"),
-          // speakdraws77
           // draws77
           // draws7800"),
-          // speakdraws79
           // draws79
           // draws8000"),
-          // speakdraws80
           // draws80
           // draws8100"),
-          // speakdraws81
           // draws81
           // draws8200"),
-          // speakdraws82
           // draws82
           // draws8300"),
-          // speakdraws83
           // draws83
           // draws8400"),
-          // speakdraws84
           // draws84("en-US"),
         ],
       ),

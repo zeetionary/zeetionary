@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeigns2("en-US"),
           ),
           // deigns300"),
-          // speakdeigns3
           // deigns3("en-US"),
           // deigns400"),
-          // speakdeigns4
           // deigns4("en-US"),
           // deigns500"),
-          // speakdeigns5
           // deigns5("en-US"),
           // deigns600"),
-          // speakdeigns6
           // deigns6("en-US"),
           // deigns700"),
-          // speakdeigns7
           // deigns7("en-US"),
           // deigns800"),
-          // speakdeigns8
           // deigns8("en-US"),
           // deigns900"),
-          // speakdeigns9
           // deigns9("en-US"),
           // deigns1000"),
-          // speakdeigns10
           // deigns10("en-US"),
           // deigns1100"),
-          // speakdeigns11
           // deigns11("en-US"),
           // deigns1200"),
-          // speakdeigns12
           // deigns12("en-US"),
           // deigns1300"),
-          // speakdeigns13
           // deigns13("en-US"),
           // deigns1400"),
-          // speakdeigns14
           // deigns14("en-US"),
           // deigns1500"),
-          // speakdeigns15
           // deigns15("en-US"),
           // deigns1600"),
-          // speakdeigns16
           // deigns16("en-US"),
           // deigns1700"),
-          // speakdeigns17
           // deigns17("en-US"),
           // deigns1800"),
-          // speakdeigns18
           // deigns18("en-US"),
           // deigns1900"),
-          // speakdeigns19
           // deigns19("en-US"),
           // "Mr. Clinton did not deign to reply.0"),
-          // speakdeigns20
           // deigns20("en-US"),
           // deigns2100"),
-          // speakdeigns21
           // deigns21("en-US"),
           // deigns2200"),
-          // speakdeigns22
           // deigns22("en-US"),
         ],
       ),

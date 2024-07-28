@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -412,58 +410,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdolls4("en-US"),
           ),
           // dolls500"),
-          // speakdolls5
           // dolls5("en-US"),
           // dolls600"),
-          // speakdolls6
           // dolls6("en-US"),
           // dolls700"),
-          // speakdolls7
           // dolls7("en-US"),
           // dolls800"),
-          // speakdolls8
           // dolls8("en-US"),
           // dolls900"),
-          // speakdolls9
           // dolls9("en-US"),
           // dolls_1000"),
-          // speakdolls10
           // dolls10("en-US"),
           // dolls1100"),
-          // speakdolls11
           // dolls11("en-US"),
           // dolls1200"),
-          // speakdolls12
           // dolls12("en-US"),
           // dolls1300"),
-          // speakdolls13
           // dolls13("en-US"),
           // dolls1400"),
-          // speakdolls14
           // dolls14("en-US"),
           // dolls1500"),
-          // speakdolls15
           // dolls15("en-US"),
           // dolls1600"),
-          // speakdolls16
           // dolls16("en-US"),
           // dolls1700"),
-          // speakdolls17
           // dolls17("en-US"),
           // dolls1800"),
-          // speakdolls18
           // dolls18("en-US"),
           // dolls1900"),
-          // speakdolls19
           // dolls19("en-US"),
           // dolls_2000"),
-          // speakdolls20
           // dolls20("en-US"),
           // dolls2100"),
-          // speakdolls21
           // dolls21("en-US"),
           // dolls2200"),
-          // speakdolls22
           // dolls22("en-US"),
         ],
       ),

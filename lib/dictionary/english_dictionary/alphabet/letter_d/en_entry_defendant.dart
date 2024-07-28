@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefendants2("en-US"),
           ),
           // defendants300"),
-          // speakdefendants3
           // defendants3("en-US"),
           // defendants400"),
-          // speakdefendants4
           // defendants4
           // defendants500"),
-          // speakdefendants5
           // defendants5
           // defendants600"),
-          // speakdefendants6
           // defendants6
           // defendants700"),
-          // speakdefendants7
           // defendants7
           // defendants800"),
-          // speakdefendants8
           // defendants8
           // defendants900"),
-          // speakdefendants9
           // defendants9
           // defendants1000"),
-          // speakdefendants10
           // defendants10
           // defendants1100"),
-          // speakdefendants11
           // defendants11
           // defendants1200"),
-          // speakdefendants12
           // defendants12
           // defendants1300"),
-          // speakdefendants13
           // defendants13
           // defendants1400"),
-          // speakdefendants14
           // defendants14
           // defendants1500"),
-          // speakdefendants15
           // defendants15
           // defendants1600"),
-          // speakdefendants16
           // defendants16
           // defendants1700"),
-          // speakdefendants17
           // defendants17
           // defendants1800"),
-          // speakdefendants18
           // defendants18
           // defendants1900"),
-          // speakdefendants19
           // defendants19
           // "The jury found the defendant guilty on all counts.0"),
-          // speakdefendants20
           // defendants20
           // defendants2100"),
-          // speakdefendants21
           // defendants21
           // defendants2200"),
-          // speakdefendants22
           // defendants22("en-US"),
         ],
       ),

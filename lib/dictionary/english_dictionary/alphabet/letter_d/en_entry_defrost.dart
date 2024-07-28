@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -280,61 +278,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefrosts3("en-US"),
           ),
           // defrosts400"),
-          // speakdefrosts4
           // defrosts4("en-US"),
           // defrosts500"),
-          // speakdefrosts5
           // defrosts5("en-US"),
           // defrosts600"),
-          // speakdefrosts6
           // defrosts6("en-US"),
           // defrosts700"),
-          // speakdefrosts7
           // defrosts7("en-US"),
           // defrosts800"),
-          // speakdefrosts8
           // defrosts8("en-US"),
           // defrosts900"),
-          // speakdefrosts9
           // defrosts9("en-US"),
           // defrosts1000"),
-          // speakdefrosts10
           // defrosts10("en-US"),
           // defrosts1100"),
-          // speakdefrosts11
           // defrosts11("en-US"),
           // defrosts1200"),
-          // speakdefrosts12
           // defrosts12("en-US"),
           // defrosts1300"),
-          // speakdefrosts13
           // defrosts13("en-US"),
           // defrosts1400"),
-          // speakdefrosts14
           // defrosts14("en-US"),
           // defrosts1500"),
-          // speakdefrosts15
           // defrosts15("en-US"),
           // defrosts1600"),
-          // speakdefrosts16
           // defrosts16("en-US"),
           // defrosts1700"),
-          // speakdefrosts17
           // defrosts17("en-US"),
           // defrosts1800"),
-          // speakdefrosts18
           // defrosts18("en-US"),
           // defrosts1900"),
-          // speakdefrosts19
           // defrosts19("en-US"),
           // "Make sure you defrost the chicken completely before cooking.0"),
-          // speakdefrosts20
           // defrosts20("en-US"),
           // defrosts2100"),
-          // speakdefrosts21
           // defrosts21("en-US"),
           // defrosts2200"),
-          // speakdefrosts22
           // defrosts22("en-US"),
         ],
       ),

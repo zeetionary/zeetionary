@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -249,64 +247,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdingys2("en-US"),
           ),
           // dingys300"),
-          // speakdingys3
           // dingys3("en-US"),
           // dingys400"),
-          // speakdingys4
           // dingys4("en-US"),
           // dingys500"),
-          // speakdingys5
           // dingys5("en-US"),
           // dingys600"),
-          // speakdingys6
           // dingys6("en-US"),
           // dingys700"),
-          // speakdingys7
           // dingys7("en-US"),
           // dingys800"),
-          // speakdingys8
           // dingys8("en-US"),
           // dingys900"),
-          // speakdingys9
           // dingys9("en-US"),
           // dingys_1000"),
-          // speakdingys10
           // dingys10("en-US"),
           // dingys1100"),
-          // speakdingys11
           // dingys11("en-US"),
           // dingys1200"),
-          // speakdingys12
           // dingys12("en-US"),
           // dingys1300"),
-          // speakdingys13
           // dingys13("en-US"),
           // dingys1400"),
-          // speakdingys14
           // dingys14("en-US"),
           // dingys1500"),
-          // speakdingys15
           // dingys15("en-US"),
           // dingys1600"),
-          // speakdingys16
           // dingys16("en-US"),
           // dingys1700"),
-          // speakdingys17
           // dingys17("en-US"),
           // dingys1800"),
-          // speakdingys18
           // dingys18("en-US"),
           // dingys1900"),
-          // speakdingys19
           // dingys19("en-US"),
           // dingys_2000"),
-          // speakdingys20
           // dingys20("en-US"),
           // dingys2100"),
-          // speakdingys21
           // dingys21("en-US"),
           // dingys2200"),
-          // speakdingys22
           // dingys22("en-US"),
         ],
       ),

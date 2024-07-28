@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisgorges2("en-US"),
           ),
           // disgorges300"),
-          // speakdisgorges3
           // disgorges3("en-US"),
           // disgorges400"),
-          // speakdisgorges4
           // disgorges4("en-US"),
           // disgorges500"),
-          // speakdisgorges5
           // disgorges5("en-US"),
           // disgorges600"),
-          // speakdisgorges6
           // disgorges6("en-US"),
           // disgorges700"),
-          // speakdisgorges7
           // disgorges7("en-US"),
           // disgorges800"),
-          // speakdisgorges8
           // disgorges8("en-US"),
           // disgorges900"),
-          // speakdisgorges9
           // disgorges9("en-US"),
           // disgorges_1000"),
-          // speakdisgorges10
           // disgorges10("en-US"),
           // disgorges1100"),
-          // speakdisgorges11
           // disgorges11("en-US"),
           // disgorges1200"),
-          // speakdisgorges12
           // disgorges12("en-US"),
           // disgorges1300"),
-          // speakdisgorges13
           // disgorges13("en-US"),
           // disgorges1400"),
-          // speakdisgorges14
           // disgorges14("en-US"),
           // disgorges1500"),
-          // speakdisgorges15
           // disgorges15("en-US"),
           // disgorges1600"),
-          // speakdisgorges16
           // disgorges16("en-US"),
           // disgorges1700"),
-          // speakdisgorges17
           // disgorges17("en-US"),
           // disgorges1800"),
-          // speakdisgorges18
           // disgorges18("en-US"),
           // disgorges1900"),
-          // speakdisgorges19
           // disgorges19("en-US"),
           // disgorges_2000"),
-          // speakdisgorges20
           // disgorges20("en-US"),
           // disgorges2100"),
-          // speakdisgorges21
           // disgorges21("en-US"),
           // disgorges2200"),
-          // speakdisgorges22
           // disgorges22("en-US"),
         ],
       ),

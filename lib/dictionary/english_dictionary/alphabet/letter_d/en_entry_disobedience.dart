@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisobediences2("en-US"),
           ),
           // disobediences300"),
-          // speakdisobediences3
           // disobediences3("en-US"),
           // disobediences400"),
-          // speakdisobediences4
           // disobediences4("en-US"),
           // disobediences500"),
-          // speakdisobediences5
           // disobediences5("en-US"),
           // disobediences600"),
-          // speakdisobediences6
           // disobediences6("en-US"),
           // disobediences700"),
-          // speakdisobediences7
           // disobediences7("en-US"),
           // disobediences800"),
-          // speakdisobediences8
           // disobediences8("en-US"),
           // disobediences900"),
-          // speakdisobediences9
           // disobediences9("en-US"),
           // disobediences_1000"),
-          // speakdisobediences10
           // disobediences10("en-US"),
           // disobediences1100"),
-          // speakdisobediences11
           // disobediences11("en-US"),
           // disobediences1200"),
-          // speakdisobediences12
           // disobediences12("en-US"),
           // disobediences1300"),
-          // speakdisobediences13
           // disobediences13("en-US"),
           // disobediences1400"),
-          // speakdisobediences14
           // disobediences14("en-US"),
           // disobediences1500"),
-          // speakdisobediences15
           // disobediences15("en-US"),
           // disobediences1600"),
-          // speakdisobediences16
           // disobediences16("en-US"),
           // disobediences1700"),
-          // speakdisobediences17
           // disobediences17("en-US"),
           // disobediences1800"),
-          // speakdisobediences18
           // disobediences18("en-US"),
           // disobediences1900"),
-          // speakdisobediences19
           // disobediences19("en-US"),
           // disobediences_2000"),
-          // speakdisobediences20
           // disobediences20("en-US"),
           // disobediences2100"),
-          // speakdisobediences21
           // disobediences21("en-US"),
           // disobediences2200"),
-          // speakdisobediences22
           // disobediences22("en-US"),
         ],
       ),

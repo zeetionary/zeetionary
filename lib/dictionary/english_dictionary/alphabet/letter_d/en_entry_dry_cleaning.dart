@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrycleanings2("en-US"),
           ),
           // drycleanings300"),
-          // speakdrycleanings3
           // drycleanings3("en-US"),
           // drycleanings400"),
-          // speakdrycleanings4
           // drycleanings4("en-US"),
           // drycleanings500"),
-          // speakdrycleanings5
           // drycleanings5("en-US"),
           // drycleanings600"),
-          // speakdrycleanings6
           // drycleanings6("en-US"),
           // drycleanings700"),
-          // speakdrycleanings7
           // drycleanings7("en-US"),
           // drycleanings800"),
-          // speakdrycleanings8
           // drycleanings8("en-US"),
           // drycleanings900"),
-          // speakdrycleanings9
           // drycleanings9("en-US"),
           // drycleanings_1000"),
-          // speakdrycleanings10
           // drycleanings10("en-US"),
           // drycleanings1100"),
-          // speakdrycleanings11
           // drycleanings11("en-US"),
           // drycleanings1200"),
-          // speakdrycleanings12
           // drycleanings12("en-US"),
           // drycleanings1300"),
-          // speakdrycleanings13
           // drycleanings13("en-US"),
           // drycleanings1400"),
-          // speakdrycleanings14
           // drycleanings14("en-US"),
           // drycleanings1500"),
-          // speakdrycleanings15
           // drycleanings15("en-US"),
           // drycleanings1600"),
-          // speakdrycleanings16
           // drycleanings16("en-US"),
           // drycleanings1700"),
-          // speakdrycleanings17
           // drycleanings17("en-US"),
           // drycleanings1800"),
-          // speakdrycleanings18
           // drycleanings18("en-US"),
           // drycleanings1900"),
-          // speakdrycleanings19
           // drycleanings19("en-US"),
           // drycleanings_2000"),
-          // speakdrycleanings20
           // drycleanings20("en-US"),
           // drycleanings2100"),
-          // speakdrycleanings21
           // drycleanings21("en-US"),
           // drycleanings2200"),
-          // speakdrycleanings22
           // drycleanings22("en-US"),
         ],
       ),

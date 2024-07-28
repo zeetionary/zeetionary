@@ -86,9 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""// speaksentence1000000000001111000000000000000000000
-""");
+    await flutterTts.speak("""""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -779,9 +777,7 @@ haʊʊʊʊʊʊʊ4
 // With short examples define "dopsum1", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText:
-                          """// speaksentence1000000000001111000000000000000000000
-""",
+                      englishText: """""",
                       kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -1613,7 +1609,6 @@ const String _videoIdfour = '';
 const double _startSecondsfour = 000000000000000000000000000;
 const String _videoIdfive = '';
 const double _startSecondsfive = 000000000000000000000000000;
-// speaksentence1000000000001111000000000000000000000
 
 class YoutubeEmbeddedend extends StatelessWidget {
   const YoutubeEmbeddedend({super.key});

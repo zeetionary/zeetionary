@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisagreeablys2("en-US"),
           ),
           // disagreeablys300"),
-          // speakdisagreeablys3
           // disagreeablys3("en-US"),
           // disagreeablys400"),
-          // speakdisagreeablys4
           // disagreeablys4("en-US"),
           // disagreeablys500"),
-          // speakdisagreeablys5
           // disagreeablys5("en-US"),
           // disagreeablys600"),
-          // speakdisagreeablys6
           // disagreeablys6("en-US"),
           // disagreeablys700"),
-          // speakdisagreeablys7
           // disagreeablys7("en-US"),
           // disagreeablys800"),
-          // speakdisagreeablys8
           // disagreeablys8("en-US"),
           // disagreeablys900"),
-          // speakdisagreeablys9
           // disagreeablys9("en-US"),
           // disagreeablys_1000"),
-          // speakdisagreeablys10
           // disagreeablys10("en-US"),
           // disagreeablys1100"),
-          // speakdisagreeablys11
           // disagreeablys11("en-US"),
           // disagreeablys1200"),
-          // speakdisagreeablys12
           // disagreeablys12("en-US"),
           // disagreeablys1300"),
-          // speakdisagreeablys13
           // disagreeablys13("en-US"),
           // disagreeablys1400"),
-          // speakdisagreeablys14
           // disagreeablys14("en-US"),
           // disagreeablys1500"),
-          // speakdisagreeablys15
           // disagreeablys15("en-US"),
           // disagreeablys1600"),
-          // speakdisagreeablys16
           // disagreeablys16("en-US"),
           // disagreeablys1700"),
-          // speakdisagreeablys17
           // disagreeablys17("en-US"),
           // disagreeablys1800"),
-          // speakdisagreeablys18
           // disagreeablys18("en-US"),
           // disagreeablys1900"),
-          // speakdisagreeablys19
           // disagreeablys19("en-US"),
           // disagreeablys_2000"),
-          // speakdisagreeablys20
           // disagreeablys20("en-US"),
           // disagreeablys2100"),
-          // speakdisagreeablys21
           // disagreeablys21("en-US"),
           // disagreeablys2200"),
-          // speakdisagreeablys22
           // disagreeablys22("en-US"),
         ],
       ),

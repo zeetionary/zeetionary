@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -390,64 +388,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissolutions2("en-US"),
           ),
           // dissolutions300"),
-          // speakdissolutions3
           // dissolutions3
           // dissolutions400"),
-          // speakdissolutions4
           // dissolutions4
           // dissolutions500"),
-          // speakdissolutions5
           // dissolutions5
           // dissolutions600"),
-          // speakdissolutions6
           // dissolutions6
           // dissolutions700"),
-          // speakdissolutions7
           // dissolutions7
           // dissolutions800"),
-          // speakdissolutions8
           // dissolutions8
           // dissolutions900"),
-          // speakdissolutions9
           // dissolutions9
           // dissolutions_1000"),
-          // speakdissolutions10
           // dissolutions10
           // dissolutions1100"),
-          // speakdissolutions11
           // dissolutions11
           // dissolutions1200"),
-          // speakdissolutions12
           // dissolutions12
           // dissolutions1300"),
-          // speakdissolutions13
           // dissolutions13
           // dissolutions1400"),
-          // speakdissolutions14
           // dissolutions14
           // dissolutions1500"),
-          // speakdissolutions15
           // dissolutions15
           // dissolutions1600"),
-          // speakdissolutions16
           // dissolutions16
           // dissolutions1700"),
-          // speakdissolutions17
           // dissolutions17
           // dissolutions1800"),
-          // speakdissolutions18
           // dissolutions18
           // dissolutions1900"),
-          // speakdissolutions19
           // dissolutions19
           // dissolutions_2000"),
-          // speakdissolutions20
           // dissolutions20
           // dissolutions2100"),
-          // speakdissolutions21
           // dissolutions21
           // dissolutions2200"),
-          // speakdissolutions22
           // dissolutions22("en-US"),
         ],
       ),

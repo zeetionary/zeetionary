@@ -247,9 +247,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -285,58 +283,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeserves4("en-US"),
           ),
           // deserves500"),
-          // speakdeserves5
           // deserves5("en-US"),
           // deserves600"),
-          // speakdeserves6
           // deserves6("en-US"),
           // deserves700"),
-          // speakdeserves7
           // deserves7("en-US"),
           // deserves800"),
-          // speakdeserves8
           // deserves8("en-US"),
           // deserves900"),
-          // speakdeserves9
           // deserves9("en-US"),
           // deserves1000"),
-          // speakdeserves10
           // deserves10("en-US"),
           // deserves1100"),
-          // speakdeserves11
           // deserves11("en-US"),
           // deserves1200"),
-          // speakdeserves12
           // deserves12("en-US"),
           // deserves1300"),
-          // speakdeserves13
           // deserves13("en-US"),
           // deserves1400"),
-          // speakdeserves14
           // deserves14("en-US"),
           // deserves1500"),
-          // speakdeserves15
           // deserves15("en-US"),
           // deserves1600"),
-          // speakdeserves16
           // deserves16("en-US"),
           // deserves1700"),
-          // speakdeserves17
           // deserves17("en-US"),
           // deserves1800"),
-          // speakdeserves18
           // deserves18("en-US"),
           // deserves1900"),
-          // speakdeserves19
           // deserves19("en-US"),
           // "The report deserves careful consideration.0"),
-          // speakdeserves20
           // deserves20("en-US"),
           // deserves2100"),
-          // speakdeserves21
           // deserves21("en-US"),
           // deserves2200"),
-          // speakdeserves22
           // deserves22("en-US"),
         ],
       ),

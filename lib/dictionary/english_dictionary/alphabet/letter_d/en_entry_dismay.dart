@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -267,61 +265,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdismays3("en-US"),
           ),
           // dismays400"),
-          // speakdismays4
           // dismays4
           // dismays500"),
-          // speakdismays5
           // dismays5
           // dismays600"),
-          // speakdismays6
           // dismays6
           // dismays700"),
-          // speakdismays7
           // dismays7
           // dismays800"),
-          // speakdismays8
           // dismays8
           // dismays900"),
-          // speakdismays9
           // dismays9
           // dismays_1000"),
-          // speakdismays10
           // dismays10
           // dismays1100"),
-          // speakdismays11
           // dismays11
           // dismays1200"),
-          // speakdismays12
           // dismays12
           // dismays1300"),
-          // speakdismays13
           // dismays13
           // dismays1400"),
-          // speakdismays14
           // dismays14
           // dismays1500"),
-          // speakdismays15
           // dismays15
           // dismays1600"),
-          // speakdismays16
           // dismays16
           // dismays1700"),
-          // speakdismays17
           // dismays17
           // dismays1800"),
-          // speakdismays18
           // dismays18
           // dismays1900"),
-          // speakdismays19
           // dismays19
           // dismays_2000"),
-          // speakdismays20
           // dismays20
           // dismays2100"),
-          // speakdismays21
           // dismays21
           // dismays2200"),
-          // speakdismays22
           // dismays22("en-US"),
         ],
       ),

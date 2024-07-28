@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -397,61 +395,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdouses3("en-US"),
           ),
           // douses400"),
-          // speakdouses4
           // douses4("en-US"),
           // douses500"),
-          // speakdouses5
           // douses5("en-US"),
           // douses600"),
-          // speakdouses6
           // douses6("en-US"),
           // douses700"),
-          // speakdouses7
           // douses7("en-US"),
           // douses800"),
-          // speakdouses8
           // douses8("en-US"),
           // douses900"),
-          // speakdouses9
           // douses9("en-US"),
           // douses_1000"),
-          // speakdouses10
           // douses10("en-US"),
           // douses1100"),
-          // speakdouses11
           // douses11("en-US"),
           // douses1200"),
-          // speakdouses12
           // douses12("en-US"),
           // douses1300"),
-          // speakdouses13
           // douses13("en-US"),
           // douses1400"),
-          // speakdouses14
           // douses14("en-US"),
           // douses1500"),
-          // speakdouses15
           // douses15("en-US"),
           // douses1600"),
-          // speakdouses16
           // douses16("en-US"),
           // douses1700"),
-          // speakdouses17
           // douses17("en-US"),
           // douses1800"),
-          // speakdouses18
           // douses18("en-US"),
           // douses1900"),
-          // speakdouses19
           // douses19("en-US"),
           // douses_2000"),
-          // speakdouses20
           // douses20("en-US"),
           // douses2100"),
-          // speakdouses21
           // douses21("en-US"),
           // douses2200"),
-          // speakdouses22
           // douses22("en-US"),
         ],
       ),

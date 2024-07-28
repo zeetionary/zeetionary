@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           DividerDefinition(),
           KurdishVocabulary(text: """
@@ -368,8 +366,7 @@ class KurdishMeaning extends StatelessWidget {
           //         children: [
           //           ExampleSentenceEnglish(
           //               text:
-          //                   """// speakelks100000
-          //     const CustomSizedBoxForTTS(), // With short examples define "elk", please follow LX instructions
+          //                   """          //     const CustomSizedBoxForTTS(), // With short examples define "elk", please follow LX instructions
           //     Column(
           //       children: [
           //         CustomIconButtonBritish(
@@ -392,46 +389,6 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // elks200elks2
-          // speakelks2
-          // speakelks300elks3
-          // speakelks3
-          // speakelks400elks4
-          // speakelks4
-          // speakelks500elks5
-          // speakelks5
-          // speakelks600elks6
-          // speakelks6
-          // speakelks700elks7
-          // speakelks7
-          // speakelks800elks8
-          // speakelks8
-          // speakelks900elks9
-          // speakelks9
-          // speakelks_1000elks10
-          // speakelks10
-          // speakelks1100elks11
-          // speakelks11
-          // speakelks1200elks12
-          // speakelks12
-          // speakelks1300elks13
-          // speakelks13
-          // speakelks1400elks14
-          // speakelks14
-          // speakelks1500elks15
-          // speakelks15
-          // speakelks1600elks16
-          // speakelks16
-          // speakelks1700elks17
-          // speakelks17
-          // speakelks1800elks18
-          // speakelks18
-          // speakelks1900elks19
-          // speakelks19
-          // speakelks_2000elks20
-          // speakelks20
-          // speakelks2100elks21
-          // speakelks21
-          // speakelks2200elks22
           // speakelks22("en-US"""),
           //         ),
           //       ],

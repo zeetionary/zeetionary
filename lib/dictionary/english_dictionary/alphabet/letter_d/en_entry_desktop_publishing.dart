@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesktoppublishings1("en-US"),
           ),
           // desktoppublishings200"),
-          // speakdesktoppublishings2
           // desktoppublishings2("en-US"),
           // desktoppublishings300"),
-          // speakdesktoppublishings3
           // desktoppublishings3("en-US"),
           // desktoppublishings400"),
-          // speakdesktoppublishings4
           // desktoppublishings4("en-US"),
           // desktoppublishings500"),
-          // speakdesktoppublishings5
           // desktoppublishings5("en-US"),
           // desktoppublishings600"),
-          // speakdesktoppublishings6
           // desktoppublishings6("en-US"),
           // desktoppublishings700"),
-          // speakdesktoppublishings7
           // desktoppublishings7("en-US"),
           // desktoppublishings800"),
-          // speakdesktoppublishings8
           // desktoppublishings8("en-US"),
           // desktoppublishings900"),
-          // speakdesktoppublishings9
           // desktoppublishings9("en-US"),
           // desktoppublishings1000"),
-          // speakdesktoppublishings10
           // desktoppublishings10("en-US"),
           // desktoppublishings1100"),
-          // speakdesktoppublishings11
           // desktoppublishings11("en-US"),
           // desktoppublishings1200"),
-          // speakdesktoppublishings12
           // desktoppublishings12("en-US"),
           // desktoppublishings1300"),
-          // speakdesktoppublishings13
           // desktoppublishings13("en-US"),
           // desktoppublishings1400"),
-          // speakdesktoppublishings14
           // desktoppublishings14("en-US"),
           // desktoppublishings1500"),
-          // speakdesktoppublishings15
           // desktoppublishings15("en-US"),
           // desktoppublishings1600"),
-          // speakdesktoppublishings16
           // desktoppublishings16("en-US"),
           // desktoppublishings1700"),
-          // speakdesktoppublishings17
           // desktoppublishings17("en-US"),
           // desktoppublishings1800"),
-          // speakdesktoppublishings18
           // desktoppublishings18("en-US"),
           // desktoppublishings1900"),
-          // speakdesktoppublishings19
           // desktoppublishings19("en-US"),
           // desktoppublishings2000"),
-          // speakdesktoppublishings20
           // desktoppublishings20("en-US"),
           // desktoppublishings2100"),
-          // speakdesktoppublishings21
           // desktoppublishings21("en-US"),
           // desktoppublishings2200"),
-          // speakdesktoppublishings22
           // desktoppublishings22("en-US"),
         ],
       ),

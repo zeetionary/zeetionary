@@ -252,9 +252,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -293,58 +291,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeteriorates4("en-US"),
           ),
           // deteriorates500"),
-          // speakdeteriorates5
           // deteriorates5("en-US"),
           // deteriorates600"),
-          // speakdeteriorates6
           // deteriorates6("en-US"),
           // deteriorates700"),
-          // speakdeteriorates7
           // deteriorates7("en-US"),
           // deteriorates800"),
-          // speakdeteriorates8
           // deteriorates8("en-US"),
           // deteriorates900"),
-          // speakdeteriorates9
           // deteriorates9("en-US"),
           // deteriorates1000"),
-          // speakdeteriorates10
           // deteriorates10("en-US"),
           // deteriorates1100"),
-          // speakdeteriorates11
           // deteriorates11("en-US"),
           // deteriorates1200"),
-          // speakdeteriorates12
           // deteriorates12("en-US"),
           // deteriorates1300"),
-          // speakdeteriorates13
           // deteriorates13("en-US"),
           // deteriorates1400"),
-          // speakdeteriorates14
           // deteriorates14("en-US"),
           // deteriorates1500"),
-          // speakdeteriorates15
           // deteriorates15("en-US"),
           // deteriorates1600"),
-          // speakdeteriorates16
           // deteriorates16("en-US"),
           // deteriorates1700"),
-          // speakdeteriorates17
           // deteriorates17("en-US"),
           // deteriorates1800"),
-          // speakdeteriorates18
           // deteriorates18("en-US"),
           // deteriorates1900"),
-          // speakdeteriorates19
           // deteriorates19("en-US"),
           // "They had to cope with deteriorating weather conditions.0"),
-          // speakdeteriorates20
           // deteriorates20("en-US"),
           // deteriorates2100"),
-          // speakdeteriorates21
           // deteriorates21("en-US"),
           // deteriorates2200"),
-          // speakdeteriorates22
           // deteriorates22("en-US"),
         ],
       ),

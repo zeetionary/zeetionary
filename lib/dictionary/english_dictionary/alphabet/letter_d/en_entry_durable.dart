@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdurables2("en-US"),
           ),
           // durables300
-          // speakdurables3
           // durables3("en-US"""),
           // durables400
-          // speakdurables4
           // durables4("en-US"""),
           // durables500
-          // speakdurables5
           // durables5("en-US"""),
           // durables600
-          // speakdurables6
           // durables6("en-US"""),
           // durables700
-          // speakdurables7
           // durables7("en-US"""),
           // durables800
-          // speakdurables8
           // durables8("en-US"""),
           // durables900
-          // speakdurables9
           // durables9("en-US"""),
           // durables_1000
-          // speakdurables10
           // durables10("en-US"""),
           // durables1100
-          // speakdurables11
           // durables11("en-US"""),
           // durables1200
-          // speakdurables12
           // durables12("en-US"""),
           // durables1300
-          // speakdurables13
           // durables13("en-US"""),
           // durables1400
-          // speakdurables14
           // durables14("en-US"""),
           // durables1500
-          // speakdurables15
           // durables15("en-US"""),
           // durables1600
-          // speakdurables16
           // durables16("en-US"""),
           // durables1700
-          // speakdurables17
           // durables17("en-US"""),
           // durables1800
-          // speakdurables18
           // durables18("en-US"""),
           // durables1900
-          // speakdurables19
           // durables19("en-US"""),
           // durables_2000
-          // speakdurables20
           // durables20("en-US"""),
           // durables2100
-          // speakdurables21
           // durables21("en-US"""),
           // durables2200
-          // speakdurables22
           // durables22("en-US"""),
         ],
       ),

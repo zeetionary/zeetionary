@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -282,61 +280,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdegrades3("en-US"),
           ),
           // degrades400"),
-          // speakdegrades4
           // degrades4("en-US"),
           // degrades500"),
-          // speakdegrades5
           // degrades5("en-US"),
           // degrades600"),
-          // speakdegrades6
           // degrades6("en-US"),
           // degrades700"),
-          // speakdegrades7
           // degrades7("en-US"),
           // degrades800"),
-          // speakdegrades8
           // degrades8("en-US"),
           // degrades900"),
-          // speakdegrades9
           // degrades9("en-US"),
           // degrades1000"),
-          // speakdegrades10
           // degrades10("en-US"),
           // degrades1100"),
-          // speakdegrades11
           // degrades11("en-US"),
           // degrades1200"),
-          // speakdegrades12
           // degrades12("en-US"),
           // degrades1300"),
-          // speakdegrades13
           // degrades13("en-US"),
           // degrades1400"),
-          // speakdegrades14
           // degrades14("en-US"),
           // degrades1500"),
-          // speakdegrades15
           // degrades15("en-US"),
           // degrades1600"),
-          // speakdegrades16
           // degrades16("en-US"),
           // degrades1700"),
-          // speakdegrades17
           // degrades17("en-US"),
           // degrades1800"),
-          // speakdegrades18
           // degrades18("en-US"),
           // degrades1900"),
-          // speakdegrades19
           // degrades19("en-US"),
           // "Important natural habitats have been degraded by development.0"),
-          // speakdegrades20
           // degrades20("en-US"),
           // degrades2100"),
-          // speakdegrades21
           // degrades21("en-US"),
           // degrades2200"),
-          // speakdegrades22
           // degrades22("en-US"),
         ],
       ),

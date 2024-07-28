@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscjockeys2("en-US"),
           ),
           // discjockeys300"),
-          // speakdiscjockeys3
           // discjockeys3("en-US"),
           // discjockeys400"),
-          // speakdiscjockeys4
           // discjockeys4("en-US"),
           // discjockeys500"),
-          // speakdiscjockeys5
           // discjockeys5("en-US"),
           // discjockeys600"),
-          // speakdiscjockeys6
           // discjockeys6("en-US"),
           // discjockeys700"),
-          // speakdiscjockeys7
           // discjockeys7("en-US"),
           // discjockeys800"),
-          // speakdiscjockeys8
           // discjockeys8("en-US"),
           // discjockeys900"),
-          // speakdiscjockeys9
           // discjockeys9("en-US"),
           // discjockeys_1000"),
-          // speakdiscjockeys10
           // discjockeys10("en-US"),
           // discjockeys1100"),
-          // speakdiscjockeys11
           // discjockeys11("en-US"),
           // discjockeys1200"),
-          // speakdiscjockeys12
           // discjockeys12("en-US"),
           // discjockeys1300"),
-          // speakdiscjockeys13
           // discjockeys13("en-US"),
           // discjockeys1400"),
-          // speakdiscjockeys14
           // discjockeys14("en-US"),
           // discjockeys1500"),
-          // speakdiscjockeys15
           // discjockeys15("en-US"),
           // discjockeys1600"),
-          // speakdiscjockeys16
           // discjockeys16("en-US"),
           // discjockeys1700"),
-          // speakdiscjockeys17
           // discjockeys17("en-US"),
           // discjockeys1800"),
-          // speakdiscjockeys18
           // discjockeys18("en-US"),
           // discjockeys1900"),
-          // speakdiscjockeys19
           // discjockeys19("en-US"),
           // discjockeys_2000"),
-          // speakdiscjockeys20
           // discjockeys20("en-US"),
           // discjockeys2100"),
-          // speakdiscjockeys21
           // discjockeys21("en-US"),
           // discjockeys2200"),
-          // speakdiscjockeys22
           // discjockeys22("en-US"),
         ],
       ),

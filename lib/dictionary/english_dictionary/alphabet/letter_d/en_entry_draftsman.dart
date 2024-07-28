@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,64 +386,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdraftsmans2("en-US"),
           ),
           // draftsmans300"),
-          // speakdraftsmans3
           // draftsmans3
           // draftsmans400"),
-          // speakdraftsmans4
           // draftsmans4
           // draftsmans500"),
-          // speakdraftsmans5
           // draftsmans5
           // draftsmans600"),
-          // speakdraftsmans6
           // draftsmans6
           // draftsmans700"),
-          // speakdraftsmans7
           // draftsmans7
           // draftsmans800"),
-          // speakdraftsmans8
           // draftsmans8
           // draftsmans900"),
-          // speakdraftsmans9
           // draftsmans9
           // draftsmans_1000"),
-          // speakdraftsmans10
           // draftsmans10
           // draftsmans1100"),
-          // speakdraftsmans11
           // draftsmans11
           // draftsmans1200"),
-          // speakdraftsmans12
           // draftsmans12
           // draftsmans1300"),
-          // speakdraftsmans13
           // draftsmans13
           // draftsmans1400"),
-          // speakdraftsmans14
           // draftsmans14
           // draftsmans1500"),
-          // speakdraftsmans15
           // draftsmans15
           // draftsmans1600"),
-          // speakdraftsmans16
           // draftsmans16
           // draftsmans1700"),
-          // speakdraftsmans17
           // draftsmans17
           // draftsmans1800"),
-          // speakdraftsmans18
           // draftsmans18
           // draftsmans1900"),
-          // speakdraftsmans19
           // draftsmans19
           // draftsmans_2000"),
-          // speakdraftsmans20
           // draftsmans20
           // draftsmans2100"),
-          // speakdraftsmans21
           // draftsmans21
           // draftsmans2200"),
-          // speakdraftsmans22
           // draftsmans22("en-US"),
         ],
       ),

@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdramatizations1("en-US"),
           ),
           // dramatizations200"),
-          // speakdramatizations2
           // dramatizations2
           // dramatizations300"),
-          // speakdramatizations3
           // dramatizations3
           // dramatizations400"),
-          // speakdramatizations4
           // dramatizations4
           // dramatizations500"),
-          // speakdramatizations5
           // dramatizations5
           // dramatizations600"),
-          // speakdramatizations6
           // dramatizations6
           // dramatizations700"),
-          // speakdramatizations7
           // dramatizations7
           // dramatizations800"),
-          // speakdramatizations8
           // dramatizations8
           // dramatizations900"),
-          // speakdramatizations9
           // dramatizations9
           // dramatizations_1000"),
-          // speakdramatizations10
           // dramatizations10
           // dramatizations1100"),
-          // speakdramatizations11
           // dramatizations11
           // dramatizations1200"),
-          // speakdramatizations12
           // dramatizations12
           // dramatizations1300"),
-          // speakdramatizations13
           // dramatizations13
           // dramatizations1400"),
-          // speakdramatizations14
           // dramatizations14
           // dramatizations1500"),
-          // speakdramatizations15
           // dramatizations15
           // dramatizations1600"),
-          // speakdramatizations16
           // dramatizations16
           // dramatizations1700"),
-          // speakdramatizations17
           // dramatizations17
           // dramatizations1800"),
-          // speakdramatizations18
           // dramatizations18
           // dramatizations1900"),
-          // speakdramatizations19
           // dramatizations19
           // dramatizations_2000"),
-          // speakdramatizations20
           // dramatizations20
           // dramatizations2100"),
-          // speakdramatizations21
           // dramatizations21
           // dramatizations2200"),
-          // speakdramatizations22
           // dramatizations22("en-US"),
         ],
       ),

@@ -249,9 +249,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -294,58 +292,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestineds4("en-US"),
           ),
           // destineds500"),
-          // speakdestineds5
           // destineds5("en-US"),
           // destineds600"),
-          // speakdestineds6
           // destineds6("en-US"),
           // destineds700"),
-          // speakdestineds7
           // destineds7("en-US"),
           // destineds800"),
-          // speakdestineds8
           // destineds8("en-US"),
           // destineds900"),
-          // speakdestineds9
           // destineds9("en-US"),
           // destineds1000"),
-          // speakdestineds10
           // destineds10("en-US"),
           // destineds1100"),
-          // speakdestineds11
           // destineds11("en-US"),
           // destineds1200"),
-          // speakdestineds12
           // destineds12("en-US"),
           // destineds1300"),
-          // speakdestineds13
           // destineds13("en-US"),
           // destineds1400"),
-          // speakdestineds14
           // destineds14("en-US"),
           // destineds1500"),
-          // speakdestineds15
           // destineds15("en-US"),
           // destineds1600"),
-          // speakdestineds16
           // destineds16("en-US"),
           // destineds1700"),
-          // speakdestineds17
           // destineds17("en-US"),
           // destineds1800"),
-          // speakdestineds18
           // destineds18("en-US"),
           // destineds1900"),
-          // speakdestineds19
           // destineds19("en-US"),
           // "We seem destined never to meet.0"),
-          // speakdestineds20
           // destineds20("en-US"),
           // destineds2100"),
-          // speakdestineds21
           // destineds21("en-US"),
           // destineds2200"),
-          // speakdestineds22
           // destineds22("en-US"),
         ],
       ),

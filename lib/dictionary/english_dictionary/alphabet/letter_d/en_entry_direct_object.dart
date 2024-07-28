@@ -225,9 +225,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -245,67 +243,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirectobjects1("en-US"),
           ),
           // directobjects200"),
-          // speakdirectobjects2
           // directobjects2("en-US"),
           // directobjects300"),
-          // speakdirectobjects3
           // directobjects3("en-US"),
           // directobjects400"),
-          // speakdirectobjects4
           // directobjects4("en-US"),
           // directobjects500"),
-          // speakdirectobjects5
           // directobjects5("en-US"),
           // directobjects600"),
-          // speakdirectobjects6
           // directobjects6("en-US"),
           // directobjects700"),
-          // speakdirectobjects7
           // directobjects7("en-US"),
           // directobjects800"),
-          // speakdirectobjects8
           // directobjects8("en-US"),
           // directobjects900"),
-          // speakdirectobjects9
           // directobjects9("en-US"),
           // directobjects_1000"),
-          // speakdirectobjects10
           // directobjects10("en-US"),
           // directobjects1100"),
-          // speakdirectobjects11
           // directobjects11("en-US"),
           // directobjects1200"),
-          // speakdirectobjects12
           // directobjects12("en-US"),
           // directobjects1300"),
-          // speakdirectobjects13
           // directobjects13("en-US"),
           // directobjects1400"),
-          // speakdirectobjects14
           // directobjects14("en-US"),
           // directobjects1500"),
-          // speakdirectobjects15
           // directobjects15("en-US"),
           // directobjects1600"),
-          // speakdirectobjects16
           // directobjects16("en-US"),
           // directobjects1700"),
-          // speakdirectobjects17
           // directobjects17("en-US"),
           // directobjects1800"),
-          // speakdirectobjects18
           // directobjects18("en-US"),
           // directobjects1900"),
-          // speakdirectobjects19
           // directobjects19("en-US"),
           // directobjects_2000"),
-          // speakdirectobjects20
           // directobjects20("en-US"),
           // directobjects2100"),
-          // speakdirectobjects21
           // directobjects21("en-US"),
           // directobjects2200"),
-          // speakdirectobjects22
           // directobjects22("en-US"),
         ],
       ),

@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestroyers2("en-US"),
           ),
           // destroyers300"),
-          // speakdestroyers3
           // destroyers3
           // destroyers400"),
-          // speakdestroyers4
           // destroyers4
           // destroyers500"),
-          // speakdestroyers5
           // destroyers5
           // destroyers600"),
-          // speakdestroyers6
           // destroyers6
           // destroyers700"),
-          // speakdestroyers7
           // destroyers7("en-US"),
           // destroyers800"),
-          // speakdestroyers8
           // destroyers8("en-US"),
           // destroyers900"),
-          // speakdestroyers9
           // destroyers9("en-US"),
           // destroyers1000"),
-          // speakdestroyers10
           // destroyers10("en-US"),
           // destroyers1100"),
-          // speakdestroyers11
           // destroyers11("en-US"),
           // destroyers1200"),
-          // speakdestroyers12
           // destroyers12("en-US"),
           // destroyers1300"),
-          // speakdestroyers13
           // destroyers13("en-US"),
           // destroyers1400"),
-          // speakdestroyers14
           // destroyers14("en-US"),
           // destroyers1500"),
-          // speakdestroyers15
           // destroyers15("en-US"),
           // destroyers1600"),
-          // speakdestroyers16
           // destroyers16("en-US"),
           // destroyers1700"),
-          // speakdestroyers17
           // destroyers17("en-US"),
           // destroyers1800"),
-          // speakdestroyers18
           // destroyers18("en-US"),
           // destroyers1900"),
-          // speakdestroyers19
           // destroyers19("en-US"),
           // "Sugar is the destroyer of healthy teeth.0"),
-          // speakdestroyers20
           // destroyers20("en-US"),
           // destroyers2100"),
-          // speakdestroyers21
           // destroyers21("en-US"),
           // destroyers2200"),
-          // speakdestroyers22
           // destroyers22("en-US"),
         ],
       ),

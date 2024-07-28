@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -404,61 +402,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdreamers3("en-US"),
           ),
           // dreamers400"),
-          // speakdreamers4
           // dreamers4
           // dreamers500"),
-          // speakdreamers5
           // dreamers5
           // dreamers600"),
-          // speakdreamers6
           // dreamers6
           // dreamers700"),
-          // speakdreamers7
           // dreamers7
           // dreamers800"),
-          // speakdreamers8
           // dreamers8
           // dreamers900"),
-          // speakdreamers9
           // dreamers9
           // dreamers_1000"),
-          // speakdreamers10
           // dreamers10
           // dreamers1100"),
-          // speakdreamers11
           // dreamers11
           // dreamers1200"),
-          // speakdreamers12
           // dreamers12
           // dreamers1300"),
-          // speakdreamers13
           // dreamers13
           // dreamers1400"),
-          // speakdreamers14
           // dreamers14
           // dreamers1500"),
-          // speakdreamers15
           // dreamers15
           // dreamers1600"),
-          // speakdreamers16
           // dreamers16
           // dreamers1700"),
-          // speakdreamers17
           // dreamers17
           // dreamers1800"),
-          // speakdreamers18
           // dreamers18
           // dreamers1900"),
-          // speakdreamers19
           // dreamers19
           // dreamers_2000"),
-          // speakdreamers20
           // dreamers20
           // dreamers2100"),
-          // speakdreamers21
           // dreamers21
           // dreamers2200"),
-          // speakdreamers22
           // dreamers22("en-US"),
         ],
       ),

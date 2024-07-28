@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirectives3("en-US"),
           ),
           // directives400"),
-          // speakdirectives4
           // directives4("en-US"),
           // directives500"),
-          // speakdirectives5
           // directives5("en-US"),
           // directives600"),
-          // speakdirectives6
           // directives6("en-US"),
           // directives700"),
-          // speakdirectives7
           // directives7("en-US"),
           // directives800"),
-          // speakdirectives8
           // directives8("en-US"),
           // directives900"),
-          // speakdirectives9
           // directives9("en-US"),
           // directives_1000"),
-          // speakdirectives10
           // directives10("en-US"),
           // directives1100"),
-          // speakdirectives11
           // directives11("en-US"),
           // directives1200"),
-          // speakdirectives12
           // directives12("en-US"),
           // directives1300"),
-          // speakdirectives13
           // directives13("en-US"),
           // directives1400"),
-          // speakdirectives14
           // directives14("en-US"),
           // directives1500"),
-          // speakdirectives15
           // directives15("en-US"),
           // directives1600"),
-          // speakdirectives16
           // directives16("en-US"),
           // directives1700"),
-          // speakdirectives17
           // directives17("en-US"),
           // directives1800"),
-          // speakdirectives18
           // directives18("en-US"),
           // directives1900"),
-          // speakdirectives19
           // directives19("en-US"),
           // directives_2000"),
-          // speakdirectives20
           // directives20("en-US"),
           // directives2100"),
-          // speakdirectives21
           // directives21("en-US"),
           // directives2200"),
-          // speakdirectives22
           // directives22("en-US"),
         ],
       ),

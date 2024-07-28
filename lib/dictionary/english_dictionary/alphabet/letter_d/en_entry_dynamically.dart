@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -400,64 +398,44 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // dynamicallys300
-          // speakdynamicallys3
           // dynamicallys3("en-US"""),
           // dynamicallys400
-          // speakdynamicallys4
           // dynamicallys4("en-US"""),
           // dynamicallys500
-          // speakdynamicallys5
           // dynamicallys5("en-US"""),
           // dynamicallys600
-          // speakdynamicallys6
           // dynamicallys6("en-US"""),
           // dynamicallys700
-          // speakdynamicallys7
           // dynamicallys7("en-US"""),
           // dynamicallys800
-          // speakdynamicallys8
           // dynamicallys8("en-US"""),
           // dynamicallys900
-          // speakdynamicallys9
           // dynamicallys9("en-US"""),
           // dynamicallys_1000
-          // speakdynamicallys10
           // dynamicallys10("en-US"""),
           // dynamicallys1100
-          // speakdynamicallys11
           // dynamicallys11("en-US"""),
           // dynamicallys1200
-          // speakdynamicallys12
           // dynamicallys12("en-US"""),
           // dynamicallys1300
-          // speakdynamicallys13
           // dynamicallys13("en-US"""),
           // dynamicallys1400
-          // speakdynamicallys14
           // dynamicallys14("en-US"""),
           // dynamicallys1500
-          // speakdynamicallys15
           // dynamicallys15("en-US"""),
           // dynamicallys1600
-          // speakdynamicallys16
           // dynamicallys16("en-US"""),
           // dynamicallys1700
-          // speakdynamicallys17
           // dynamicallys17("en-US"""),
           // dynamicallys1800
-          // speakdynamicallys18
           // dynamicallys18("en-US"""),
           // dynamicallys1900
-          // speakdynamicallys19
           // dynamicallys19("en-US"""),
           // dynamicallys_2000
-          // speakdynamicallys20
           // dynamicallys20("en-US"""),
           // dynamicallys2100
-          // speakdynamicallys21
           // dynamicallys21("en-US"""),
           // dynamicallys2200
-          // speakdynamicallys22
           // dynamicallys22("en-US"""),
         ],
       ),

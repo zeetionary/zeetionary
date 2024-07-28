@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevouts1("en-US"),
           ),
           // devouts200"),
-          // speakdevouts2
           // devouts2("en-US"),
           // devouts300"),
-          // speakdevouts3
           // devouts3("en-US"),
           // devouts400"),
-          // speakdevouts4
           // devouts4("en-US"),
           // devouts500"),
-          // speakdevouts5
           // devouts5("en-US"),
           // devouts600"),
-          // speakdevouts6
           // devouts6("en-US"),
           // devouts700"),
-          // speakdevouts7
           // devouts7("en-US"),
           // devouts800"),
-          // speakdevouts8
           // devouts8("en-US"),
           // devouts900"),
-          // speakdevouts9
           // devouts9("en-US"),
           // devouts_1000"),
-          // speakdevouts10
           // devouts10("en-US"),
           // devouts1100"),
-          // speakdevouts11
           // devouts11("en-US"),
           // devouts1200"),
-          // speakdevouts12
           // devouts12("en-US"),
           // devouts1300"),
-          // speakdevouts13
           // devouts13("en-US"),
           // devouts1400"),
-          // speakdevouts14
           // devouts14("en-US"),
           // devouts1500"),
-          // speakdevouts15
           // devouts15("en-US"),
           // devouts1600"),
-          // speakdevouts16
           // devouts16("en-US"),
           // devouts1700"),
-          // speakdevouts17
           // devouts17("en-US"),
           // devouts1800"),
-          // speakdevouts18
           // devouts18("en-US"),
           // devouts1900"),
-          // speakdevouts19
           // devouts19("en-US"),
           // devouts_2000"),
-          // speakdevouts20
           // devouts20("en-US"),
           // devouts2100"),
-          // speakdevouts21
           // devouts21("en-US"),
           // devouts2200"),
-          // speakdevouts22
           // devouts22("en-US"),
         ],
       ),

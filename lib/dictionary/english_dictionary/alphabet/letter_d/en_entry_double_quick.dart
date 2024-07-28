@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublequicks2("en-US"),
           ),
           // doublequicks300"),
-          // speakdoublequicks3
           // doublequicks3("en-US"),
           // doublequicks400"),
-          // speakdoublequicks4
           // doublequicks4("en-US"),
           // doublequicks500"),
-          // speakdoublequicks5
           // doublequicks5("en-US"),
           // doublequicks600"),
-          // speakdoublequicks6
           // doublequicks6("en-US"),
           // doublequicks700"),
-          // speakdoublequicks7
           // doublequicks7("en-US"),
           // doublequicks800"),
-          // speakdoublequicks8
           // doublequicks8("en-US"),
           // doublequicks900"),
-          // speakdoublequicks9
           // doublequicks9("en-US"),
           // doublequicks_1000"),
-          // speakdoublequicks10
           // doublequicks10("en-US"),
           // doublequicks1100"),
-          // speakdoublequicks11
           // doublequicks11("en-US"),
           // doublequicks1200"),
-          // speakdoublequicks12
           // doublequicks12("en-US"),
           // doublequicks1300"),
-          // speakdoublequicks13
           // doublequicks13("en-US"),
           // doublequicks1400"),
-          // speakdoublequicks14
           // doublequicks14("en-US"),
           // doublequicks1500"),
-          // speakdoublequicks15
           // doublequicks15("en-US"),
           // doublequicks1600"),
-          // speakdoublequicks16
           // doublequicks16("en-US"),
           // doublequicks1700"),
-          // speakdoublequicks17
           // doublequicks17("en-US"),
           // doublequicks1800"),
-          // speakdoublequicks18
           // doublequicks18("en-US"),
           // doublequicks1900"),
-          // speakdoublequicks19
           // doublequicks19("en-US"),
           // doublequicks_2000"),
-          // speakdoublequicks20
           // doublequicks20("en-US"),
           // doublequicks2100"),
-          // speakdoublequicks21
           // doublequicks21("en-US"),
           // doublequicks2200"),
-          // speakdoublequicks22
           // doublequicks22("en-US"),
         ],
       ),

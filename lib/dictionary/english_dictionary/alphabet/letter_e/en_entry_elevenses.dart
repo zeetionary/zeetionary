@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelevensess1("en-US"),
           ),
           // elevensess200elevensess2
-          // speakelevensess2
           // elevensess300elevensess3
-          // speakelevensess3
           // elevensess400elevensess4
-          // speakelevensess4
           // elevensess500elevensess5
-          // speakelevensess5
           // elevensess600elevensess6
-          // speakelevensess6
           // elevensess700elevensess7
-          // speakelevensess7
           // elevensess800elevensess8
-          // speakelevensess8
           // elevensess900elevensess9
-          // speakelevensess9
           // elevensess_1000elevensess10
-          // speakelevensess10
           // elevensess1100elevensess11
-          // speakelevensess11
           // elevensess1200elevensess12
-          // speakelevensess12
           // elevensess1300elevensess13
-          // speakelevensess13
           // elevensess1400elevensess14
-          // speakelevensess14
           // elevensess1500elevensess15
-          // speakelevensess15
           // elevensess1600elevensess16
-          // speakelevensess16
           // elevensess1700elevensess17
-          // speakelevensess17
           // elevensess1800elevensess18
-          // speakelevensess18
           // elevensess1900elevensess19
-          // speakelevensess19
           // elevensess_2000elevensess20
-          // speakelevensess20
           // elevensess2100elevensess21
-          // speakelevensess21
           // elevensess2200elevensess22
           // speakelevensess22("en-US"""),
           //         ),

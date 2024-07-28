@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -400,61 +398,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrylys3("en-US"),
           ),
           // drylys400"),
-          // speakdrylys4
           // drylys4("en-US"),
           // drylys500"),
-          // speakdrylys5
           // drylys5("en-US"),
           // drylys600"),
-          // speakdrylys6
           // drylys6("en-US"),
           // drylys700"),
-          // speakdrylys7
           // drylys7("en-US"),
           // drylys800"),
-          // speakdrylys8
           // drylys8("en-US"),
           // drylys900"),
-          // speakdrylys9
           // drylys9("en-US"),
           // drylys_1000"),
-          // speakdrylys10
           // drylys10("en-US"),
           // drylys1100"),
-          // speakdrylys11
           // drylys11("en-US"),
           // drylys1200"),
-          // speakdrylys12
           // drylys12("en-US"),
           // drylys1300"),
-          // speakdrylys13
           // drylys13("en-US"),
           // drylys1400"),
-          // speakdrylys14
           // drylys14("en-US"),
           // drylys1500"),
-          // speakdrylys15
           // drylys15("en-US"),
           // drylys1600"),
-          // speakdrylys16
           // drylys16("en-US"),
           // drylys1700"),
-          // speakdrylys17
           // drylys17("en-US"),
           // drylys1800"),
-          // speakdrylys18
           // drylys18("en-US"),
           // drylys1900"),
-          // speakdrylys19
           // drylys19("en-US"),
           // drylys_2000"),
-          // speakdrylys20
           // drylys20("en-US"),
           // drylys2100"),
-          // speakdrylys21
           // drylys21("en-US"),
           // drylys2200"),
-          // speakdrylys22
           // drylys22("en-US"),
         ],
       ),

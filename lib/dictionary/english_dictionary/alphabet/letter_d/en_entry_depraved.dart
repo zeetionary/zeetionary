@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepraveds2("en-US"),
           ),
           // depraveds300"),
-          // speakdepraveds3
           // depraveds3("en-US"),
           // depraveds400"),
-          // speakdepraveds4
           // depraveds4("en-US"),
           // depraveds500"),
-          // speakdepraveds5
           // depraveds5("en-US"),
           // depraveds600"),
-          // speakdepraveds6
           // depraveds6("en-US"),
           // depraveds700"),
-          // speakdepraveds7
           // depraveds7("en-US"),
           // depraveds800"),
-          // speakdepraveds8
           // depraveds8("en-US"),
           // depraveds900"),
-          // speakdepraveds9
           // depraveds9("en-US"),
           // depraveds1000"),
-          // speakdepraveds10
           // depraveds10("en-US"),
           // depraveds1100"),
-          // speakdepraveds11
           // depraveds11("en-US"),
           // depraveds1200"),
-          // speakdepraveds12
           // depraveds12("en-US"),
           // depraveds1300"),
-          // speakdepraveds13
           // depraveds13("en-US"),
           // depraveds1400"),
-          // speakdepraveds14
           // depraveds14("en-US"),
           // depraveds1500"),
-          // speakdepraveds15
           // depraveds15("en-US"),
           // depraveds1600"),
-          // speakdepraveds16
           // depraveds16("en-US"),
           // depraveds1700"),
-          // speakdepraveds17
           // depraveds17("en-US"),
           // depraveds1800"),
-          // speakdepraveds18
           // depraveds18("en-US"),
           // depraveds1900"),
-          // speakdepraveds19
           // depraveds19("en-US"),
           // "Someone who can kill a child like that must be totally depraved.0"),
-          // speakdepraveds20
           // depraveds20("en-US"),
           // depraveds2100"),
-          // speakdepraveds21
           // depraveds21("en-US"),
           // depraveds2200"),
-          // speakdepraveds22
           // depraveds22("en-US"),
         ],
       ),

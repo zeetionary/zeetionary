@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -278,61 +276,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisruptives3("en-US"),
           ),
           // disruptives400"),
-          // speakdisruptives4
           // disruptives4("en-US"),
           // disruptives500"),
-          // speakdisruptives5
           // disruptives5("en-US"),
           // disruptives600"),
-          // speakdisruptives6
           // disruptives6("en-US"),
           // disruptives700"),
-          // speakdisruptives7
           // disruptives7("en-US"),
           // disruptives800"),
-          // speakdisruptives8
           // disruptives8("en-US"),
           // disruptives900"),
-          // speakdisruptives9
           // disruptives9("en-US"),
           // disruptives_1000"),
-          // speakdisruptives10
           // disruptives10("en-US"),
           // disruptives1100"),
-          // speakdisruptives11
           // disruptives11("en-US"),
           // disruptives1200"),
-          // speakdisruptives12
           // disruptives12("en-US"),
           // disruptives1300"),
-          // speakdisruptives13
           // disruptives13("en-US"),
           // disruptives1400"),
-          // speakdisruptives14
           // disruptives14("en-US"),
           // disruptives1500"),
-          // speakdisruptives15
           // disruptives15("en-US"),
           // disruptives1600"),
-          // speakdisruptives16
           // disruptives16("en-US"),
           // disruptives1700"),
-          // speakdisruptives17
           // disruptives17("en-US"),
           // disruptives1800"),
-          // speakdisruptives18
           // disruptives18("en-US"),
           // disruptives1900"),
-          // speakdisruptives19
           // disruptives19("en-US"),
           // disruptives_2000"),
-          // speakdisruptives20
           // disruptives20("en-US"),
           // disruptives2100"),
-          // speakdisruptives21
           // disruptives21("en-US"),
           // disruptives2200"),
-          // speakdisruptives22
           // disruptives22("en-US"),
         ],
       ),

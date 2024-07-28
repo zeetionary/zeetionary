@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -377,67 +375,46 @@ class KurdishMeaning extends StatelessWidget {
           // dropdownmenus1
           // dropdownmenus1("en-US"),
           // dropdownmenus200"),
-          // speakdropdownmenus2
           // dropdownmenus2("en-US"),
           // dropdownmenus300"),
-          // speakdropdownmenus3
           // dropdownmenus3("en-US"),
           // dropdownmenus400"),
-          // speakdropdownmenus4
           // dropdownmenus4("en-US"),
           // dropdownmenus500"),
-          // speakdropdownmenus5
           // dropdownmenus5("en-US"),
           // dropdownmenus600"),
-          // speakdropdownmenus6
           // dropdownmenus6("en-US"),
           // dropdownmenus700"),
-          // speakdropdownmenus7
           // dropdownmenus7("en-US"),
           // dropdownmenus800"),
-          // speakdropdownmenus8
           // dropdownmenus8("en-US"),
           // dropdownmenus900"),
-          // speakdropdownmenus9
           // dropdownmenus9("en-US"),
           // dropdownmenus_1000"),
-          // speakdropdownmenus10
           // dropdownmenus10("en-US"),
           // dropdownmenus1100"),
-          // speakdropdownmenus11
           // dropdownmenus11("en-US"),
           // dropdownmenus1200"),
-          // speakdropdownmenus12
           // dropdownmenus12("en-US"),
           // dropdownmenus1300"),
-          // speakdropdownmenus13
           // dropdownmenus13("en-US"),
           // dropdownmenus1400"),
-          // speakdropdownmenus14
           // dropdownmenus14("en-US"),
           // dropdownmenus1500"),
-          // speakdropdownmenus15
           // dropdownmenus15("en-US"),
           // dropdownmenus1600"),
-          // speakdropdownmenus16
           // dropdownmenus16("en-US"),
           // dropdownmenus1700"),
-          // speakdropdownmenus17
           // dropdownmenus17("en-US"),
           // dropdownmenus1800"),
-          // speakdropdownmenus18
           // dropdownmenus18("en-US"),
           // dropdownmenus1900"),
-          // speakdropdownmenus19
           // dropdownmenus19("en-US"),
           // dropdownmenus_2000"),
-          // speakdropdownmenus20
           // dropdownmenus20("en-US"),
           // dropdownmenus2100"),
-          // speakdropdownmenus21
           // dropdownmenus21("en-US"),
           // dropdownmenus2200"),
-          // speakdropdownmenus22
           // dropdownmenus22("en-US"),
         ],
       ),

@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -285,61 +283,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemolitions3("en-US"),
           ),
           // demolitions400"),
-          // speakdemolitions4
           // demolitions4("en-US"),
           // demolitions500"),
-          // speakdemolitions5
           // demolitions5("en-US"),
           // demolitions600"),
-          // speakdemolitions6
           // demolitions6("en-US"),
           // demolitions700"),
-          // speakdemolitions7
           // demolitions7("en-US"),
           // demolitions800"),
-          // speakdemolitions8
           // demolitions8("en-US"),
           // demolitions900"),
-          // speakdemolitions9
           // demolitions9("en-US"),
           // demolitions1000"),
-          // speakdemolitions10
           // demolitions10("en-US"),
           // demolitions1100"),
-          // speakdemolitions11
           // demolitions11("en-US"),
           // demolitions1200"),
-          // speakdemolitions12
           // demolitions12("en-US"),
           // demolitions1300"),
-          // speakdemolitions13
           // demolitions13("en-US"),
           // demolitions1400"),
-          // speakdemolitions14
           // demolitions14("en-US"),
           // demolitions1500"),
-          // speakdemolitions15
           // demolitions15("en-US"),
           // demolitions1600"),
-          // speakdemolitions16
           // demolitions16("en-US"),
           // demolitions1700"),
-          // speakdemolitions17
           // demolitions17("en-US"),
           // demolitions1800"),
-          // speakdemolitions18
           // demolitions18("en-US"),
           // demolitions1900"),
-          // speakdemolitions19
           // demolitions19("en-US"),
           // "His speech did a very effective demolition job on the government's proposals.0"),
-          // speakdemolitions20
           // demolitions20("en-US"),
           // demolitions2100"),
-          // speakdemolitions21
           // demolitions21("en-US"),
           // demolitions2200"),
-          // speakdemolitions22
           // demolitions22("en-US"),
         ],
       ),

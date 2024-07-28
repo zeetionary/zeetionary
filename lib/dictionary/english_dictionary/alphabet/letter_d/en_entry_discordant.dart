@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscordants1("en-US"),
           ),
           // discordants200"),
-          // speakdiscordants2
           // discordants2("en-US"),
           // discordants300"),
-          // speakdiscordants3
           // discordants3("en-US"),
           // discordants400"),
-          // speakdiscordants4
           // discordants4("en-US"),
           // discordants500"),
-          // speakdiscordants5
           // discordants5("en-US"),
           // discordants600"),
-          // speakdiscordants6
           // discordants6("en-US"),
           // discordants700"),
-          // speakdiscordants7
           // discordants7("en-US"),
           // discordants800"),
-          // speakdiscordants8
           // discordants8("en-US"),
           // discordants900"),
-          // speakdiscordants9
           // discordants9("en-US"),
           // discordants_1000"),
-          // speakdiscordants10
           // discordants10("en-US"),
           // discordants1100"),
-          // speakdiscordants11
           // discordants11("en-US"),
           // discordants1200"),
-          // speakdiscordants12
           // discordants12("en-US"),
           // discordants1300"),
-          // speakdiscordants13
           // discordants13("en-US"),
           // discordants1400"),
-          // speakdiscordants14
           // discordants14("en-US"),
           // discordants1500"),
-          // speakdiscordants15
           // discordants15("en-US"),
           // discordants1600"),
-          // speakdiscordants16
           // discordants16("en-US"),
           // discordants1700"),
-          // speakdiscordants17
           // discordants17("en-US"),
           // discordants1800"),
-          // speakdiscordants18
           // discordants18("en-US"),
           // discordants1900"),
-          // speakdiscordants19
           // discordants19("en-US"),
           // discordants_2000"),
-          // speakdiscordants20
           // discordants20("en-US"),
           // discordants2100"),
-          // speakdiscordants21
           // discordants21("en-US"),
           // discordants2200"),
-          // speakdiscordants22
           // discordants22("en-US"),
         ],
       ),

@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -403,41 +401,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeccentricitys3("en-US"),
           ),
           // eccentricitys400eccentricitys4
-          // speakeccentricitys4
           // eccentricitys500eccentricitys5
-          // speakeccentricitys5
           // eccentricitys600eccentricitys6
-          // speakeccentricitys6
           // eccentricitys700eccentricitys7
-          // speakeccentricitys7
           // eccentricitys800eccentricitys8
-          // speakeccentricitys8
           // eccentricitys900eccentricitys9
-          // speakeccentricitys9
           // eccentricitys_1000eccentricitys10
-          // speakeccentricitys10
           // eccentricitys1100eccentricitys11
-          // speakeccentricitys11
           // eccentricitys1200eccentricitys12
-          // speakeccentricitys12
           // eccentricitys1300eccentricitys13
-          // speakeccentricitys13
           // eccentricitys1400eccentricitys14
-          // speakeccentricitys14
           // eccentricitys1500eccentricitys15
-          // speakeccentricitys15
           // eccentricitys1600eccentricitys16
-          // speakeccentricitys16
           // eccentricitys1700eccentricitys17
-          // speakeccentricitys17
           // eccentricitys1800eccentricitys18
-          // speakeccentricitys18
           // eccentricitys1900eccentricitys19
-          // speakeccentricitys19
           // eccentricitys_2000eccentricitys20
-          // speakeccentricitys20
           // eccentricitys2100eccentricitys21
-          // speakeccentricitys21
           // eccentricitys2200eccentricitys22
           // speakeccentricitys22("en-US"""),
           //         ),

@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdejecteds2("en-US"),
           ),
           // dejecteds300"),
-          // speakdejecteds3
           // dejecteds3("en-US"),
           // dejecteds400"),
-          // speakdejecteds4
           // dejecteds4("en-US"),
           // dejecteds500"),
-          // speakdejecteds5
           // dejecteds5("en-US"),
           // dejecteds600"),
-          // speakdejecteds6
           // dejecteds6("en-US"),
           // dejecteds700"),
-          // speakdejecteds7
           // dejecteds7("en-US"),
           // dejecteds800"),
-          // speakdejecteds8
           // dejecteds8("en-US"),
           // dejecteds900"),
-          // speakdejecteds9
           // dejecteds9("en-US"),
           // dejecteds1000"),
-          // speakdejecteds10
           // dejecteds10("en-US"),
           // dejecteds1100"),
-          // speakdejecteds11
           // dejecteds11("en-US"),
           // dejecteds1200"),
-          // speakdejecteds12
           // dejecteds12("en-US"),
           // dejecteds1300"),
-          // speakdejecteds13
           // dejecteds13("en-US"),
           // dejecteds1400"),
-          // speakdejecteds14
           // dejecteds14("en-US"),
           // dejecteds1500"),
-          // speakdejecteds15
           // dejecteds15("en-US"),
           // dejecteds1600"),
-          // speakdejecteds16
           // dejecteds16("en-US"),
           // dejecteds1700"),
-          // speakdejecteds17
           // dejecteds17("en-US"),
           // dejecteds1800"),
-          // speakdejecteds18
           // dejecteds18("en-US"),
           // dejecteds1900"),
-          // speakdejecteds19
           // dejecteds19("en-US"),
           // "They were thoroughly dejected and miserable.0"),
-          // speakdejecteds20
           // dejecteds20("en-US"),
           // dejecteds2100"),
-          // speakdejecteds21
           // dejecteds21("en-US"),
           // dejecteds2200"),
-          // speakdejecteds22
           // dejecteds22("en-US"),
         ],
       ),

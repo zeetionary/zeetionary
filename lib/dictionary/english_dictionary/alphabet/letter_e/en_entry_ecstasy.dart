@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -400,43 +398,24 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // """She received visions and ecstasies, sharing in the saint's sufferings.ecstasys3
-          // speakecstasys3
           // ecstasys400ecstasys4
-          // speakecstasys4
           // ecstasys500ecstasys5
-          // speakecstasys5
           // ecstasys600ecstasys6
-          // speakecstasys6
           // ecstasys700ecstasys7
-          // speakecstasys7
           // ecstasys800ecstasys8
-          // speakecstasys8
           // ecstasys900ecstasys9
-          // speakecstasys9
           // ecstasys_1000ecstasys10
-          // speakecstasys10
           // ecstasys1100ecstasys11
-          // speakecstasys11
           // ecstasys1200ecstasys12
-          // speakecstasys12
           // ecstasys1300ecstasys13
-          // speakecstasys13
           // ecstasys1400ecstasys14
-          // speakecstasys14
           // ecstasys1500ecstasys15
-          // speakecstasys15
           // ecstasys1600ecstasys16
-          // speakecstasys16
           // ecstasys1700ecstasys17
-          // speakecstasys17
           // ecstasys1800ecstasys18
-          // speakecstasys18
           // ecstasys1900ecstasys19
-          // speakecstasys19
           // ecstasys_2000ecstasys20
-          // speakecstasys20
           // ecstasys2100ecstasys21
-          // speakecstasys21
           // ecstasys2200ecstasys22
           // speakecstasys22("en-US"""),
           //         ),

@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -403,41 +401,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemotionallys3("en-US"),
           ),
           // emotionallys400emotionallys4
-          // speakemotionallys4
           // emotionallys500emotionallys5
-          // speakemotionallys5
           // emotionallys600emotionallys6
-          // speakemotionallys6
           // emotionallys700emotionallys7
-          // speakemotionallys7
           // emotionallys800emotionallys8
-          // speakemotionallys8
           // emotionallys900emotionallys9
-          // speakemotionallys9
           // emotionallys_1000emotionallys10
-          // speakemotionallys10
           // emotionallys1100emotionallys11
-          // speakemotionallys11
           // emotionallys1200emotionallys12
-          // speakemotionallys12
           // emotionallys1300emotionallys13
-          // speakemotionallys13
           // emotionallys1400emotionallys14
-          // speakemotionallys14
           // emotionallys1500emotionallys15
-          // speakemotionallys15
           // emotionallys1600emotionallys16
-          // speakemotionallys16
           // emotionallys1700emotionallys17
-          // speakemotionallys17
           // emotionallys1800emotionallys18
-          // speakemotionallys18
           // emotionallys1900emotionallys19
-          // speakemotionallys19
           // emotionallys_2000emotionallys20
-          // speakemotionallys20
           // emotionallys2100emotionallys21
-          // speakemotionallys21
           // emotionallys2200emotionallys22
           // speakemotionallys22("en-US"""),
           //         ),

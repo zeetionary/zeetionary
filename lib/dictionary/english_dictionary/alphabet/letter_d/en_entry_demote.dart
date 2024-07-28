@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemotes2("en-US"),
           ),
           // demotes300"),
-          // speakdemotes3
           // demotes3("en-US"),
           // demotes400"),
-          // speakdemotes4
           // demotes4("en-US"),
           // demotes500"),
-          // speakdemotes5
           // demotes5("en-US"),
           // demotes600"),
-          // speakdemotes6
           // demotes6("en-US"),
           // demotes700"),
-          // speakdemotes7
           // demotes7("en-US"),
           // demotes800"),
-          // speakdemotes8
           // demotes8("en-US"),
           // demotes900"),
-          // speakdemotes9
           // demotes9("en-US"),
           // demotes1000"),
-          // speakdemotes10
           // demotes10("en-US"),
           // demotes1100"),
-          // speakdemotes11
           // demotes11("en-US"),
           // demotes1200"),
-          // speakdemotes12
           // demotes12("en-US"),
           // demotes1300"),
-          // speakdemotes13
           // demotes13("en-US"),
           // demotes1400"),
-          // speakdemotes14
           // demotes14("en-US"),
           // demotes1500"),
-          // speakdemotes15
           // demotes15("en-US"),
           // demotes1600"),
-          // speakdemotes16
           // demotes16("en-US"),
           // demotes1700"),
-          // speakdemotes17
           // demotes17("en-US"),
           // demotes1800"),
-          // speakdemotes18
           // demotes18("en-US"),
           // demotes1900"),
-          // speakdemotes19
           // demotes19("en-US"),
           // "The captain was demoted for failing to fulfil his duties.0"),
-          // speakdemotes20
           // demotes20("en-US"),
           // demotes2100"),
-          // speakdemotes21
           // demotes21("en-US"),
           // demotes2200"),
-          // speakdemotes22
           // demotes22("en-US"),
         ],
       ),

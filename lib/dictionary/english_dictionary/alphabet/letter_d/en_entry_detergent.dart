@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetergents2("en-US"),
           ),
           // detergents300"),
-          // speakdetergents3
           // detergents3("en-US"),
           // detergents400"),
-          // speakdetergents4
           // detergents4("en-US"),
           // detergents500"),
-          // speakdetergents5
           // detergents5("en-US"),
           // detergents600"),
-          // speakdetergents6
           // detergents6("en-US"),
           // detergents700"),
-          // speakdetergents7
           // detergents7("en-US"),
           // detergents800"),
-          // speakdetergents8
           // detergents8("en-US"),
           // detergents900"),
-          // speakdetergents9
           // detergents9("en-US"),
           // detergents1000"),
-          // speakdetergents10
           // detergents10("en-US"),
           // detergents1100"),
-          // speakdetergents11
           // detergents11("en-US"),
           // detergents1200"),
-          // speakdetergents12
           // detergents12("en-US"),
           // detergents1300"),
-          // speakdetergents13
           // detergents13("en-US"),
           // detergents1400"),
-          // speakdetergents14
           // detergents14("en-US"),
           // detergents1500"),
-          // speakdetergents15
           // detergents15("en-US"),
           // detergents1600"),
-          // speakdetergents16
           // detergents16("en-US"),
           // detergents1700"),
-          // speakdetergents17
           // detergents17("en-US"),
           // detergents1800"),
-          // speakdetergents18
           // detergents18("en-US"),
           // detergents1900"),
-          // speakdetergents19
           // detergents19("en-US"),
           // "The detergent removed the coffee stain.0"),
-          // speakdetergents20
           // detergents20("en-US"),
           // detergents2100"),
-          // speakdetergents21
           // detergents21("en-US"),
           // detergents2200"),
-          // speakdetergents22
           // detergents22("en-US"),
         ],
       ),

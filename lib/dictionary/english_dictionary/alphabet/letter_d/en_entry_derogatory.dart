@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderogatorys1("en-US"),
           ),
           // derogatorys200"),
-          // speakderogatorys2
           // derogatorys2("en-US"),
           // derogatorys300"),
-          // speakderogatorys3
           // derogatorys3("en-US"),
           // derogatorys400"),
-          // speakderogatorys4
           // derogatorys4("en-US"),
           // derogatorys500"),
-          // speakderogatorys5
           // derogatorys5("en-US"),
           // derogatorys600"),
-          // speakderogatorys6
           // derogatorys6("en-US"),
           // derogatorys700"),
-          // speakderogatorys7
           // derogatorys7("en-US"),
           // derogatorys800"),
-          // speakderogatorys8
           // derogatorys8("en-US"),
           // derogatorys900"),
-          // speakderogatorys9
           // derogatorys9("en-US"),
           // derogatorys1000"),
-          // speakderogatorys10
           // derogatorys10("en-US"),
           // derogatorys1100"),
-          // speakderogatorys11
           // derogatorys11("en-US"),
           // derogatorys1200"),
-          // speakderogatorys12
           // derogatorys12("en-US"),
           // derogatorys1300"),
-          // speakderogatorys13
           // derogatorys13("en-US"),
           // derogatorys1400"),
-          // speakderogatorys14
           // derogatorys14("en-US"),
           // derogatorys1500"),
-          // speakderogatorys15
           // derogatorys15("en-US"),
           // derogatorys1600"),
-          // speakderogatorys16
           // derogatorys16("en-US"),
           // derogatorys1700"),
-          // speakderogatorys17
           // derogatorys17("en-US"),
           // derogatorys1800"),
-          // speakderogatorys18
           // derogatorys18("en-US"),
           // derogatorys1900"),
-          // speakderogatorys19
           // derogatorys19("en-US"),
           // derogatorys2000"),
-          // speakderogatorys20
           // derogatorys20("en-US"),
           // derogatorys2100"),
-          // speakderogatorys21
           // derogatorys21("en-US"),
           // derogatorys2200"),
-          // speakderogatorys22
           // derogatorys22("en-US"),
         ],
       ),

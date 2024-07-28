@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdogsbodys1("en-US"),
           ),
           // dogsbodys200"),
-          // speakdogsbodys2
           // dogsbodys2("en-US"),
           // dogsbodys300"),
-          // speakdogsbodys3
           // dogsbodys3("en-US"),
           // dogsbodys400"),
-          // speakdogsbodys4
           // dogsbodys4("en-US"),
           // dogsbodys500"),
-          // speakdogsbodys5
           // dogsbodys5("en-US"),
           // dogsbodys600"),
-          // speakdogsbodys6
           // dogsbodys6("en-US"),
           // dogsbodys700"),
-          // speakdogsbodys7
           // dogsbodys7("en-US"),
           // dogsbodys800"),
-          // speakdogsbodys8
           // dogsbodys8("en-US"),
           // dogsbodys900"),
-          // speakdogsbodys9
           // dogsbodys9("en-US"),
           // dogsbodys_1000"),
-          // speakdogsbodys10
           // dogsbodys10("en-US"),
           // dogsbodys1100"),
-          // speakdogsbodys11
           // dogsbodys11("en-US"),
           // dogsbodys1200"),
-          // speakdogsbodys12
           // dogsbodys12("en-US"),
           // dogsbodys1300"),
-          // speakdogsbodys13
           // dogsbodys13("en-US"),
           // dogsbodys1400"),
-          // speakdogsbodys14
           // dogsbodys14("en-US"),
           // dogsbodys1500"),
-          // speakdogsbodys15
           // dogsbodys15("en-US"),
           // dogsbodys1600"),
-          // speakdogsbodys16
           // dogsbodys16("en-US"),
           // dogsbodys1700"),
-          // speakdogsbodys17
           // dogsbodys17("en-US"),
           // dogsbodys1800"),
-          // speakdogsbodys18
           // dogsbodys18("en-US"),
           // dogsbodys1900"),
-          // speakdogsbodys19
           // dogsbodys19("en-US"),
           // dogsbodys_2000"),
-          // speakdogsbodys20
           // dogsbodys20("en-US"),
           // dogsbodys2100"),
-          // speakdogsbodys21
           // dogsbodys21("en-US"),
           // dogsbodys2200"),
-          // speakdogsbodys22
           // dogsbodys22("en-US"),
         ],
       ),

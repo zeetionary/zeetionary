@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisadvantageouss2("en-US"),
           ),
           // disadvantageouss300"),
-          // speakdisadvantageouss3
           // disadvantageouss3("en-US"),
           // disadvantageouss400"),
-          // speakdisadvantageouss4
           // disadvantageouss4("en-US"),
           // disadvantageouss500"),
-          // speakdisadvantageouss5
           // disadvantageouss5("en-US"),
           // disadvantageouss600"),
-          // speakdisadvantageouss6
           // disadvantageouss6("en-US"),
           // disadvantageouss700"),
-          // speakdisadvantageouss7
           // disadvantageouss7("en-US"),
           // disadvantageouss800"),
-          // speakdisadvantageouss8
           // disadvantageouss8("en-US"),
           // disadvantageouss900"),
-          // speakdisadvantageouss9
           // disadvantageouss9("en-US"),
           // disadvantageouss_1000"),
-          // speakdisadvantageouss10
           // disadvantageouss10("en-US"),
           // disadvantageouss1100"),
-          // speakdisadvantageouss11
           // disadvantageouss11("en-US"),
           // disadvantageouss1200"),
-          // speakdisadvantageouss12
           // disadvantageouss12("en-US"),
           // disadvantageouss1300"),
-          // speakdisadvantageouss13
           // disadvantageouss13("en-US"),
           // disadvantageouss1400"),
-          // speakdisadvantageouss14
           // disadvantageouss14("en-US"),
           // disadvantageouss1500"),
-          // speakdisadvantageouss15
           // disadvantageouss15("en-US"),
           // disadvantageouss1600"),
-          // speakdisadvantageouss16
           // disadvantageouss16("en-US"),
           // disadvantageouss1700"),
-          // speakdisadvantageouss17
           // disadvantageouss17("en-US"),
           // disadvantageouss1800"),
-          // speakdisadvantageouss18
           // disadvantageouss18("en-US"),
           // disadvantageouss1900"),
-          // speakdisadvantageouss19
           // disadvantageouss19("en-US"),
           // disadvantageouss_2000"),
-          // speakdisadvantageouss20
           // disadvantageouss20("en-US"),
           // disadvantageouss2100"),
-          // speakdisadvantageouss21
           // disadvantageouss21("en-US"),
           // disadvantageouss2200"),
-          // speakdisadvantageouss22
           // disadvantageouss22("en-US"),
         ],
       ),

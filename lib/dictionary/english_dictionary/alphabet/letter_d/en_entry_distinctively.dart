@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistinctivelys2("en-US"),
           ),
           // distinctivelys300"),
-          // speakdistinctivelys3
           // distinctivelys3("en-US"),
           // distinctivelys400"),
-          // speakdistinctivelys4
           // distinctivelys4("en-US"),
           // distinctivelys500"),
-          // speakdistinctivelys5
           // distinctivelys5("en-US"),
           // distinctivelys600"),
-          // speakdistinctivelys6
           // distinctivelys6("en-US"),
           // distinctivelys700"),
-          // speakdistinctivelys7
           // distinctivelys7("en-US"),
           // distinctivelys800"),
-          // speakdistinctivelys8
           // distinctivelys8("en-US"),
           // distinctivelys900"),
-          // speakdistinctivelys9
           // distinctivelys9("en-US"),
           // distinctivelys_1000"),
-          // speakdistinctivelys10
           // distinctivelys10("en-US"),
           // distinctivelys1100"),
-          // speakdistinctivelys11
           // distinctivelys11("en-US"),
           // distinctivelys1200"),
-          // speakdistinctivelys12
           // distinctivelys12("en-US"),
           // distinctivelys1300"),
-          // speakdistinctivelys13
           // distinctivelys13("en-US"),
           // distinctivelys1400"),
-          // speakdistinctivelys14
           // distinctivelys14("en-US"),
           // distinctivelys1500"),
-          // speakdistinctivelys15
           // distinctivelys15("en-US"),
           // distinctivelys1600"),
-          // speakdistinctivelys16
           // distinctivelys16("en-US"),
           // distinctivelys1700"),
-          // speakdistinctivelys17
           // distinctivelys17("en-US"),
           // distinctivelys1800"),
-          // speakdistinctivelys18
           // distinctivelys18("en-US"),
           // distinctivelys1900"),
-          // speakdistinctivelys19
           // distinctivelys19("en-US"),
           // distinctivelys_2000"),
-          // speakdistinctivelys20
           // distinctivelys20("en-US"),
           // distinctivelys2100"),
-          // speakdistinctivelys21
           // distinctivelys21("en-US"),
           // distinctivelys2200"),
-          // speakdistinctivelys22
           // distinctivelys22("en-US"),
         ],
       ),

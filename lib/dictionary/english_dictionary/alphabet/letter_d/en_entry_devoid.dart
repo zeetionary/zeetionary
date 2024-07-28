@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -263,61 +261,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevoids3("en-US"),
           ),
           // devoids400"),
-          // speakdevoids4
           // devoids4("en-US"),
           // devoids500"),
-          // speakdevoids5
           // devoids5("en-US"),
           // devoids600"),
-          // speakdevoids6
           // devoids6("en-US"),
           // devoids700"),
-          // speakdevoids7
           // devoids7("en-US"),
           // devoids800"),
-          // speakdevoids8
           // devoids8("en-US"),
           // devoids900"),
-          // speakdevoids9
           // devoids9("en-US"),
           // devoids1000"),
-          // speakdevoids10
           // devoids10("en-US"),
           // devoids1100"),
-          // speakdevoids11
           // devoids11("en-US"),
           // devoids1200"),
-          // speakdevoids12
           // devoids12("en-US"),
           // devoids1300"),
-          // speakdevoids13
           // devoids13("en-US"),
           // devoids1400"),
-          // speakdevoids14
           // devoids14("en-US"),
           // devoids1500"),
-          // speakdevoids15
           // devoids15("en-US"),
           // devoids1600"),
-          // speakdevoids16
           // devoids16("en-US"),
           // devoids1700"),
-          // speakdevoids17
           // devoids17("en-US"),
           // devoids1800"),
-          // speakdevoids18
           // devoids18("en-US"),
           // devoids1900"),
-          // speakdevoids19
           // devoids19("en-US"),
           // devoids_2000"),
-          // speakdevoids20
           // devoids20("en-US"),
           // devoids2100"),
-          // speakdevoids21
           // devoids21("en-US"),
           // devoids2200"),
-          // speakdevoids22
           // devoids22("en-US"),
         ],
       ),

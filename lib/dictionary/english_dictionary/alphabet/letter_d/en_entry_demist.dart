@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemists1("en-US"),
           ),
           // demists200"),
-          // speakdemists2
           // demists2("en-US"),
           // demists300"),
-          // speakdemists3
           // demists3("en-US"),
           // demists400"),
-          // speakdemists4
           // demists4("en-US"),
           // demists500"),
-          // speakdemists5
           // demists5("en-US"),
           // demists600"),
-          // speakdemists6
           // demists6("en-US"),
           // demists700"),
-          // speakdemists7
           // demists7("en-US"),
           // demists800"),
-          // speakdemists8
           // demists8("en-US"),
           // demists900"),
-          // speakdemists9
           // demists9("en-US"),
           // demists1000"),
-          // speakdemists10
           // demists10("en-US"),
           // demists1100"),
-          // speakdemists11
           // demists11("en-US"),
           // demists1200"),
-          // speakdemists12
           // demists12("en-US"),
           // demists1300"),
-          // speakdemists13
           // demists13("en-US"),
           // demists1400"),
-          // speakdemists14
           // demists14("en-US"),
           // demists1500"),
-          // speakdemists15
           // demists15("en-US"),
           // demists1600"),
-          // speakdemists16
           // demists16("en-US"),
           // demists1700"),
-          // speakdemists17
           // demists17("en-US"),
           // demists1800"),
-          // speakdemists18
           // demists18("en-US"),
           // demists1900"),
-          // speakdemists19
           // demists19("en-US"),
           // demists2000"),
-          // speakdemists20
           // demists20("en-US"),
           // demists2100"),
-          // speakdemists21
           // demists21("en-US"),
           // demists2200"),
-          // speakdemists22
           // demists22("en-US"),
         ],
       ),

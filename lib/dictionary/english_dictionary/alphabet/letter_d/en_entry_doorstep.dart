@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoorsteps2("en-US"),
           ),
           // doorsteps300"),
-          // speakdoorsteps3
           // doorsteps3("en-US"),
           // doorsteps400"),
-          // speakdoorsteps4
           // doorsteps4("en-US"),
           // doorsteps500"),
-          // speakdoorsteps5
           // doorsteps5("en-US"),
           // doorsteps600"),
-          // speakdoorsteps6
           // doorsteps6("en-US"),
           // doorsteps700"),
-          // speakdoorsteps7
           // doorsteps7("en-US"),
           // doorsteps800"),
-          // speakdoorsteps8
           // doorsteps8("en-US"),
           // doorsteps900"),
-          // speakdoorsteps9
           // doorsteps9("en-US"),
           // doorsteps_1000"),
-          // speakdoorsteps10
           // doorsteps10("en-US"),
           // doorsteps1100"),
-          // speakdoorsteps11
           // doorsteps11("en-US"),
           // doorsteps1200"),
-          // speakdoorsteps12
           // doorsteps12("en-US"),
           // doorsteps1300"),
-          // speakdoorsteps13
           // doorsteps13("en-US"),
           // doorsteps1400"),
-          // speakdoorsteps14
           // doorsteps14("en-US"),
           // doorsteps1500"),
-          // speakdoorsteps15
           // doorsteps15("en-US"),
           // doorsteps1600"),
-          // speakdoorsteps16
           // doorsteps16("en-US"),
           // doorsteps1700"),
-          // speakdoorsteps17
           // doorsteps17("en-US"),
           // doorsteps1800"),
-          // speakdoorsteps18
           // doorsteps18("en-US"),
           // doorsteps1900"),
-          // speakdoorsteps19
           // doorsteps19("en-US"),
           // doorsteps_2000"),
-          // speakdoorsteps20
           // doorsteps20("en-US"),
           // doorsteps2100"),
-          // speakdoorsteps21
           // doorsteps21("en-US"),
           // doorsteps2200"),
-          // speakdoorsteps22
           // doorsteps22("en-US"),
         ],
       ),

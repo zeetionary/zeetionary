@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdogeareds1("en-US"),
           ),
           // dogeareds200"),
-          // speakdogeareds2
           // dogeareds2("en-US"),
           // dogeareds300"),
-          // speakdogeareds3
           // dogeareds3("en-US"),
           // dogeareds400"),
-          // speakdogeareds4
           // dogeareds4("en-US"),
           // dogeareds500"),
-          // speakdogeareds5
           // dogeareds5("en-US"),
           // dogeareds600"),
-          // speakdogeareds6
           // dogeareds6("en-US"),
           // dogeareds700"),
-          // speakdogeareds7
           // dogeareds7("en-US"),
           // dogeareds800"),
-          // speakdogeareds8
           // dogeareds8("en-US"),
           // dogeareds900"),
-          // speakdogeareds9
           // dogeareds9("en-US"),
           // dogeareds_1000"),
-          // speakdogeareds10
           // dogeareds10("en-US"),
           // dogeareds1100"),
-          // speakdogeareds11
           // dogeareds11("en-US"),
           // dogeareds1200"),
-          // speakdogeareds12
           // dogeareds12("en-US"),
           // dogeareds1300"),
-          // speakdogeareds13
           // dogeareds13("en-US"),
           // dogeareds1400"),
-          // speakdogeareds14
           // dogeareds14("en-US"),
           // dogeareds1500"),
-          // speakdogeareds15
           // dogeareds15("en-US"),
           // dogeareds1600"),
-          // speakdogeareds16
           // dogeareds16("en-US"),
           // dogeareds1700"),
-          // speakdogeareds17
           // dogeareds17("en-US"),
           // dogeareds1800"),
-          // speakdogeareds18
           // dogeareds18("en-US"),
           // dogeareds1900"),
-          // speakdogeareds19
           // dogeareds19("en-US"),
           // dogeareds_2000"),
-          // speakdogeareds20
           // dogeareds20("en-US"),
           // dogeareds2100"),
-          // speakdogeareds21
           // dogeareds21("en-US"),
           // dogeareds2200"),
-          // speakdogeareds22
           // dogeareds22("en-US"),
         ],
       ),

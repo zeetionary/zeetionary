@@ -257,9 +257,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -318,49 +316,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscourages7("en-US"),
           ),
           // discourages800"),
-          // speakdiscourages8
           // discourages8("en-US"),
           // discourages900"),
-          // speakdiscourages9
           // discourages9("en-US"),
           // discourages_1000"),
-          // speakdiscourages10
           // discourages10("en-US"),
           // discourages1100"),
-          // speakdiscourages11
           // discourages11("en-US"),
           // discourages1200"),
-          // speakdiscourages12
           // discourages12("en-US"),
           // discourages1300"),
-          // speakdiscourages13
           // discourages13("en-US"),
           // discourages1400"),
-          // speakdiscourages14
           // discourages14("en-US"),
           // discourages1500"),
-          // speakdiscourages15
           // discourages15("en-US"),
           // discourages1600"),
-          // speakdiscourages16
           // discourages16("en-US"),
           // discourages1700"),
-          // speakdiscourages17
           // discourages17("en-US"),
           // discourages1800"),
-          // speakdiscourages18
           // discourages18("en-US"),
           // discourages1900"),
-          // speakdiscourages19
           // discourages19("en-US"),
           // discourages_2000"),
-          // speakdiscourages20
           // discourages20("en-US"),
           // discourages2100"),
-          // speakdiscourages21
           // discourages21("en-US"),
           // discourages2200"),
-          // speakdiscourages22
           // discourages22("en-US"),
         ],
       ),

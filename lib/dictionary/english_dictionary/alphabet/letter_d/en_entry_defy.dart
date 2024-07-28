@@ -263,9 +263,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -324,52 +322,36 @@ class KurdishMeaning extends StatelessWidget {
           // const DividerDefinition(),
           // const DefinitionKurdish(text: "٣. (کردار) بە ئاستێکی زۆر وەستانەوە دژ بە"),
           // defys700"),
-          // speakdefys7
           // defys7("en-US"),
           // defys800"),
-          // speakdefys8
           // defys8("en-US"),
           // defys900"),
-          // speakdefys9
           // defys9("en-US"),
           // defys1000"),
-          // speakdefys10
           // defys10("en-US"),
           // defys1100"),
-          // speakdefys11
           // defys11("en-US"),
           // defys1200"),
-          // speakdefys12
           // defys12("en-US"),
           // defys1300"),
-          // speakdefys13
           // defys13("en-US"),
           // defys1400"),
-          // speakdefys14
           // defys14("en-US"),
           // defys1500"),
-          // speakdefys15
           // defys15("en-US"),
           // defys1600"),
-          // speakdefys16
           // defys16("en-US"),
           // defys1700"),
-          // speakdefys17
           // defys17("en-US"),
           // defys1800"),
-          // speakdefys18
           // defys18("en-US"),
           // defys1900"),
-          // speakdefys19
           // defys19("en-US"),
           // "Hundreds of people today defied the ban on political gatherings.0"),
-          // speakdefys20
           // defys20("en-US"),
           // defys2100"),
-          // speakdefys21
           // defys21("en-US"),
           // defys2200"),
-          // speakdefys22
           // defys22("en-US"),
         ],
       ),

@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdentists2("en-US"),
           ),
           // dentists300"),
-          // speakdentists3
           // dentists3("en-US"),
           // dentists400"),
-          // speakdentists4
           // dentists4("en-US"),
           // dentists500"),
-          // speakdentists5
           // dentists5("en-US"),
           // dentists600"),
-          // speakdentists6
           // dentists6("en-US"),
           // dentists700"),
-          // speakdentists7
           // dentists7("en-US"),
           // dentists800"),
-          // speakdentists8
           // dentists8("en-US"),
           // dentists900"),
-          // speakdentists9
           // dentists9("en-US"),
           // dentists1000"),
-          // speakdentists10
           // dentists10("en-US"),
           // dentists1100"),
-          // speakdentists11
           // dentists11("en-US"),
           // dentists1200"),
-          // speakdentists12
           // dentists12("en-US"),
           // dentists1300"),
-          // speakdentists13
           // dentists13("en-US"),
           // dentists1400"),
-          // speakdentists14
           // dentists14("en-US"),
           // dentists1500"),
-          // speakdentists15
           // dentists15("en-US"),
           // dentists1600"),
-          // speakdentists16
           // dentists16("en-US"),
           // dentists1700"),
-          // speakdentists17
           // dentists17("en-US"),
           // dentists1800"),
-          // speakdentists18
           // dentists18("en-US"),
           // dentists1900"),
-          // speakdentists19
           // dentists19("en-US"),
           // "I hate going to the dentist.0"),
-          // speakdentists20
           // dentists20("en-US"),
           // dentists2100"),
-          // speakdentists21
           // dentists21("en-US"),
           // dentists2200"),
-          // speakdentists22
           // dentists22("en-US"),
         ],
       ),

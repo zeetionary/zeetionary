@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderisions2("en-US"),
           ),
           // derisions300"),
-          // speakderisions3
           // derisions3("en-US"),
           // derisions400"),
-          // speakderisions4
           // derisions4("en-US"),
           // derisions500"),
-          // speakderisions5
           // derisions5("en-US"),
           // derisions600"),
-          // speakderisions6
           // derisions6("en-US"),
           // derisions700"),
-          // speakderisions7
           // derisions7("en-US"),
           // derisions800"),
-          // speakderisions8
           // derisions8("en-US"),
           // derisions900"),
-          // speakderisions9
           // derisions9("en-US"),
           // derisions1000"),
-          // speakderisions10
           // derisions10("en-US"),
           // derisions1100"),
-          // speakderisions11
           // derisions11("en-US"),
           // derisions1200"),
-          // speakderisions12
           // derisions12("en-US"),
           // derisions1300"),
-          // speakderisions13
           // derisions13("en-US"),
           // derisions1400"),
-          // speakderisions14
           // derisions14("en-US"),
           // derisions1500"),
-          // speakderisions15
           // derisions15("en-US"),
           // derisions1600"),
-          // speakderisions16
           // derisions16("en-US"),
           // derisions1700"),
-          // speakderisions17
           // derisions17("en-US"),
           // derisions1800"),
-          // speakderisions18
           // derisions18("en-US"),
           // derisions1900"),
-          // speakderisions19
           // derisions19("en-US"),
           // "They treated his suggestion with derision.0"),
-          // speakderisions20
           // derisions20("en-US"),
           // derisions2100"),
-          // speakderisions21
           // derisions21("en-US"),
           // derisions2200"),
-          // speakderisions22
           // derisions22("en-US"),
         ],
       ),

@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdocusoaps1("en-US"),
           ),
           // docusoaps200"),
-          // speakdocusoaps2
           // docusoaps2("en-US"),
           // docusoaps300"),
-          // speakdocusoaps3
           // docusoaps3("en-US"),
           // docusoaps400"),
-          // speakdocusoaps4
           // docusoaps4("en-US"),
           // docusoaps500"),
-          // speakdocusoaps5
           // docusoaps5("en-US"),
           // docusoaps600"),
-          // speakdocusoaps6
           // docusoaps6("en-US"),
           // docusoaps700"),
-          // speakdocusoaps7
           // docusoaps7("en-US"),
           // docusoaps800"),
-          // speakdocusoaps8
           // docusoaps8("en-US"),
           // docusoaps900"),
-          // speakdocusoaps9
           // docusoaps9("en-US"),
           // docusoaps_1000"),
-          // speakdocusoaps10
           // docusoaps10("en-US"),
           // docusoaps1100"),
-          // speakdocusoaps11
           // docusoaps11("en-US"),
           // docusoaps1200"),
-          // speakdocusoaps12
           // docusoaps12("en-US"),
           // docusoaps1300"),
-          // speakdocusoaps13
           // docusoaps13("en-US"),
           // docusoaps1400"),
-          // speakdocusoaps14
           // docusoaps14("en-US"),
           // docusoaps1500"),
-          // speakdocusoaps15
           // docusoaps15("en-US"),
           // docusoaps1600"),
-          // speakdocusoaps16
           // docusoaps16("en-US"),
           // docusoaps1700"),
-          // speakdocusoaps17
           // docusoaps17("en-US"),
           // docusoaps1800"),
-          // speakdocusoaps18
           // docusoaps18("en-US"),
           // docusoaps1900"),
-          // speakdocusoaps19
           // docusoaps19("en-US"),
           // docusoaps_2000"),
-          // speakdocusoaps20
           // docusoaps20("en-US"),
           // docusoaps2100"),
-          // speakdocusoaps21
           // docusoaps21("en-US"),
           // docusoaps2200"),
-          // speakdocusoaps22
           // docusoaps22("en-US"),
         ],
       ),

@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepressings2("en-US"),
           ),
           // depressings300"),
-          // speakdepressings3
           // depressings3("en-US"),
           // depressings400"),
-          // speakdepressings4
           // depressings4("en-US"),
           // depressings500"),
-          // speakdepressings5
           // depressings5("en-US"),
           // depressings600"),
-          // speakdepressings6
           // depressings6("en-US"),
           // depressings700"),
-          // speakdepressings7
           // depressings7("en-US"),
           // depressings800"),
-          // speakdepressings8
           // depressings8("en-US"),
           // depressings900"),
-          // speakdepressings9
           // depressings9("en-US"),
           // depressings1000"),
-          // speakdepressings10
           // depressings10("en-US"),
           // depressings1100"),
-          // speakdepressings11
           // depressings11("en-US"),
           // depressings1200"),
-          // speakdepressings12
           // depressings12("en-US"),
           // depressings1300"),
-          // speakdepressings13
           // depressings13("en-US"),
           // depressings1400"),
-          // speakdepressings14
           // depressings14("en-US"),
           // depressings1500"),
-          // speakdepressings15
           // depressings15("en-US"),
           // depressings1600"),
-          // speakdepressings16
           // depressings16("en-US"),
           // depressings1700"),
-          // speakdepressings17
           // depressings17("en-US"),
           // depressings1800"),
-          // speakdepressings18
           // depressings18("en-US"),
           // depressings1900"),
-          // speakdepressings19
           // depressings19("en-US"),
           // "We found it a deeply depressing experience.0"),
-          // speakdepressings20
           // depressings20("en-US"),
           // depressings2100"),
-          // speakdepressings21
           // depressings21("en-US"),
           // depressings2200"),
-          // speakdepressings22
           // depressings22("en-US"),
         ],
       ),

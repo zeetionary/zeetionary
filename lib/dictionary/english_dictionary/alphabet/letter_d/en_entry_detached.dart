@@ -259,9 +259,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -317,55 +315,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetacheds5("en-US"),
           ),
           // detacheds600"),
-          // speakdetacheds6
           // detacheds6("en-US"),
           // detacheds700"),
-          // speakdetacheds7
           // detacheds7("en-US"),
           // detacheds800"),
-          // speakdetacheds8
           // detacheds8("en-US"),
           // detacheds900"),
-          // speakdetacheds9
           // detacheds9("en-US"),
           // detacheds1000"),
-          // speakdetacheds10
           // detacheds10("en-US"),
           // detacheds1100"),
-          // speakdetacheds11
           // detacheds11("en-US"),
           // detacheds1200"),
-          // speakdetacheds12
           // detacheds12("en-US"),
           // detacheds1300"),
-          // speakdetacheds13
           // detacheds13("en-US"),
           // detacheds1400"),
-          // speakdetacheds14
           // detacheds14("en-US"),
           // detacheds1500"),
-          // speakdetacheds15
           // detacheds15("en-US"),
           // detacheds1600"),
-          // speakdetacheds16
           // detacheds16("en-US"),
           // detacheds1700"),
-          // speakdetacheds17
           // detacheds17("en-US"),
           // detacheds1800"),
-          // speakdetacheds18
           // detacheds18("en-US"),
           // detacheds1900"),
-          // speakdetacheds19
           // detacheds19("en-US"),
           // "She seemed a bit detached, as if her mind were on other things.0"),
-          // speakdetacheds20
           // detacheds20("en-US"),
           // detacheds2100"),
-          // speakdetacheds21
           // detacheds21("en-US"),
           // detacheds2200"),
-          // speakdetacheds22
           // detacheds22("en-US"),
         ],
       ),

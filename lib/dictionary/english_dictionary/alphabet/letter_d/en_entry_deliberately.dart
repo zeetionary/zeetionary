@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -294,58 +292,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeliberatelys4("en-US"),
           ),
           // deliberatelys500"),
-          // speakdeliberatelys5
           // deliberatelys5("en-US"),
           // deliberatelys600"),
-          // speakdeliberatelys6
           // deliberatelys6("en-US"),
           // deliberatelys700"),
-          // speakdeliberatelys7
           // deliberatelys7("en-US"),
           // deliberatelys800"),
-          // speakdeliberatelys8
           // deliberatelys8("en-US"),
           // deliberatelys900"),
-          // speakdeliberatelys9
           // deliberatelys9("en-US"),
           // deliberatelys1000"),
-          // speakdeliberatelys10
           // deliberatelys10("en-US"),
           // deliberatelys1100"),
-          // speakdeliberatelys11
           // deliberatelys11("en-US"),
           // deliberatelys1200"),
-          // speakdeliberatelys12
           // deliberatelys12("en-US"),
           // deliberatelys1300"),
-          // speakdeliberatelys13
           // deliberatelys13("en-US"),
           // deliberatelys1400"),
-          // speakdeliberatelys14
           // deliberatelys14("en-US"),
           // deliberatelys1500"),
-          // speakdeliberatelys15
           // deliberatelys15("en-US"),
           // deliberatelys1600"),
-          // speakdeliberatelys16
           // deliberatelys16("en-US"),
           // deliberatelys1700"),
-          // speakdeliberatelys17
           // deliberatelys17("en-US"),
           // deliberatelys1800"),
-          // speakdeliberatelys18
           // deliberatelys18("en-US"),
           // deliberatelys1900"),
-          // speakdeliberatelys19
           // deliberatelys19("en-US"),
           // "She was accused of deliberately misleading Parliament.0"),
-          // speakdeliberatelys20
           // deliberatelys20("en-US"),
           // deliberatelys2100"),
-          // speakdeliberatelys21
           // deliberatelys21("en-US"),
           // deliberatelys2200"),
-          // speakdeliberatelys22
           // deliberatelys22("en-US"),
         ],
       ),

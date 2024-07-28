@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissections2("en-US"),
           ),
           // dissections300"),
-          // speakdissections3
           // dissections3("en-US"),
           // dissections400"),
-          // speakdissections4
           // dissections4("en-US"),
           // dissections500"),
-          // speakdissections5
           // dissections5("en-US"),
           // dissections600"),
-          // speakdissections6
           // dissections6("en-US"),
           // dissections700"),
-          // speakdissections7
           // dissections7("en-US"),
           // dissections800"),
-          // speakdissections8
           // dissections8("en-US"),
           // dissections900"),
-          // speakdissections9
           // dissections9("en-US"),
           // dissections_1000"),
-          // speakdissections10
           // dissections10("en-US"),
           // dissections1100"),
-          // speakdissections11
           // dissections11("en-US"),
           // dissections1200"),
-          // speakdissections12
           // dissections12("en-US"),
           // dissections1300"),
-          // speakdissections13
           // dissections13("en-US"),
           // dissections1400"),
-          // speakdissections14
           // dissections14("en-US"),
           // dissections1500"),
-          // speakdissections15
           // dissections15("en-US"),
           // dissections1600"),
-          // speakdissections16
           // dissections16("en-US"),
           // dissections1700"),
-          // speakdissections17
           // dissections17("en-US"),
           // dissections1800"),
-          // speakdissections18
           // dissections18("en-US"),
           // dissections1900"),
-          // speakdissections19
           // dissections19("en-US"),
           // dissections_2000"),
-          // speakdissections20
           // dissections20("en-US"),
           // dissections2100"),
-          // speakdissections21
           // dissections21("en-US"),
           // dissections2200"),
-          // speakdissections22
           // dissections22("en-US"),
         ],
       ),

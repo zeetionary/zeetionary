@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdukedoms1("en-US"),
           ),
           // dukedoms200
-          // speakdukedoms2
           // dukedoms2("en-US"""),
           // dukedoms300
-          // speakdukedoms3
           // dukedoms3("en-US"""),
           // dukedoms400
-          // speakdukedoms4
           // dukedoms4("en-US"""),
           // dukedoms500
-          // speakdukedoms5
           // dukedoms5("en-US"""),
           // dukedoms600
-          // speakdukedoms6
           // dukedoms6("en-US"""),
           // dukedoms700
-          // speakdukedoms7
           // dukedoms7("en-US"""),
           // dukedoms800
-          // speakdukedoms8
           // dukedoms8("en-US"""),
           // dukedoms900
-          // speakdukedoms9
           // dukedoms9("en-US"""),
           // dukedoms_1000
-          // speakdukedoms10
           // dukedoms10("en-US"""),
           // dukedoms1100
-          // speakdukedoms11
           // dukedoms11("en-US"""),
           // dukedoms1200
-          // speakdukedoms12
           // dukedoms12("en-US"""),
           // dukedoms1300
-          // speakdukedoms13
           // dukedoms13("en-US"""),
           // dukedoms1400
-          // speakdukedoms14
           // dukedoms14("en-US"""),
           // dukedoms1500
-          // speakdukedoms15
           // dukedoms15("en-US"""),
           // dukedoms1600
-          // speakdukedoms16
           // dukedoms16("en-US"""),
           // dukedoms1700
-          // speakdukedoms17
           // dukedoms17("en-US"""),
           // dukedoms1800
-          // speakdukedoms18
           // dukedoms18("en-US"""),
           // dukedoms1900
-          // speakdukedoms19
           // dukedoms19("en-US"""),
           // dukedoms_2000
-          // speakdukedoms20
           // dukedoms20("en-US"""),
           // dukedoms2100
-          // speakdukedoms21
           // dukedoms21("en-US"""),
           // dukedoms2200
-          // speakdukedoms22
           // dukedoms22("en-US"""),
         ],
       ),

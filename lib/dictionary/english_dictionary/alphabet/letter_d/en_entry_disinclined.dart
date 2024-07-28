@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisinclineds2("en-US"),
           ),
           // disinclineds300"),
-          // speakdisinclineds3
           // disinclineds3("en-US"),
           // disinclineds400"),
-          // speakdisinclineds4
           // disinclineds4("en-US"),
           // disinclineds500"),
-          // speakdisinclineds5
           // disinclineds5("en-US"),
           // disinclineds600"),
-          // speakdisinclineds6
           // disinclineds6("en-US"),
           // disinclineds700"),
-          // speakdisinclineds7
           // disinclineds7("en-US"),
           // disinclineds800"),
-          // speakdisinclineds8
           // disinclineds8("en-US"),
           // disinclineds900"),
-          // speakdisinclineds9
           // disinclineds9("en-US"),
           // disinclineds_1000"),
-          // speakdisinclineds10
           // disinclineds10("en-US"),
           // disinclineds1100"),
-          // speakdisinclineds11
           // disinclineds11("en-US"),
           // disinclineds1200"),
-          // speakdisinclineds12
           // disinclineds12("en-US"),
           // disinclineds1300"),
-          // speakdisinclineds13
           // disinclineds13("en-US"),
           // disinclineds1400"),
-          // speakdisinclineds14
           // disinclineds14("en-US"),
           // disinclineds1500"),
-          // speakdisinclineds15
           // disinclineds15("en-US"),
           // disinclineds1600"),
-          // speakdisinclineds16
           // disinclineds16("en-US"),
           // disinclineds1700"),
-          // speakdisinclineds17
           // disinclineds17("en-US"),
           // disinclineds1800"),
-          // speakdisinclineds18
           // disinclineds18("en-US"),
           // disinclineds1900"),
-          // speakdisinclineds19
           // disinclineds19("en-US"),
           // disinclineds_2000"),
-          // speakdisinclineds20
           // disinclineds20("en-US"),
           // disinclineds2100"),
-          // speakdisinclineds21
           // disinclineds21("en-US"),
           // disinclineds2200"),
-          // speakdisinclineds22
           // disinclineds22("en-US"),
         ],
       ),

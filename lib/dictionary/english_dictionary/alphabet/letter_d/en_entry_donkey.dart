@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdonkeys1("en-US"),
           ),
           // donkeys200"),
-          // speakdonkeys2
           // donkeys2("en-US"),
           // donkeys300"),
-          // speakdonkeys3
           // donkeys3("en-US"),
           // donkeys400"),
-          // speakdonkeys4
           // donkeys4("en-US"),
           // donkeys500"),
-          // speakdonkeys5
           // donkeys5("en-US"),
           // donkeys600"),
-          // speakdonkeys6
           // donkeys6("en-US"),
           // donkeys700"),
-          // speakdonkeys7
           // donkeys7("en-US"),
           // donkeys800"),
-          // speakdonkeys8
           // donkeys8("en-US"),
           // donkeys900"),
-          // speakdonkeys9
           // donkeys9("en-US"),
           // donkeys_1000"),
-          // speakdonkeys10
           // donkeys10("en-US"),
           // donkeys1100"),
-          // speakdonkeys11
           // donkeys11("en-US"),
           // donkeys1200"),
-          // speakdonkeys12
           // donkeys12("en-US"),
           // donkeys1300"),
-          // speakdonkeys13
           // donkeys13("en-US"),
           // donkeys1400"),
-          // speakdonkeys14
           // donkeys14("en-US"),
           // donkeys1500"),
-          // speakdonkeys15
           // donkeys15("en-US"),
           // donkeys1600"),
-          // speakdonkeys16
           // donkeys16("en-US"),
           // donkeys1700"),
-          // speakdonkeys17
           // donkeys17("en-US"),
           // donkeys1800"),
-          // speakdonkeys18
           // donkeys18("en-US"),
           // donkeys1900"),
-          // speakdonkeys19
           // donkeys19("en-US"),
           // donkeys_2000"),
-          // speakdonkeys20
           // donkeys20("en-US"),
           // donkeys2100"),
-          // speakdonkeys21
           // donkeys21("en-US"),
           // donkeys2200"),
-          // speakdonkeys22
           // donkeys22("en-US"),
         ],
       ),

@@ -259,9 +259,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -314,55 +312,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenounces5("en-US"),
           ),
           // denounces600"),
-          // speakdenounces6
           // denounces6("en-US"),
           // denounces700"),
-          // speakdenounces7
           // denounces7("en-US"),
           // denounces800"),
-          // speakdenounces8
           // denounces8("en-US"),
           // denounces900"),
-          // speakdenounces9
           // denounces9("en-US"),
           // denounces1000"),
-          // speakdenounces10
           // denounces10("en-US"),
           // denounces1100"),
-          // speakdenounces11
           // denounces11("en-US"),
           // denounces1200"),
-          // speakdenounces12
           // denounces12("en-US"),
           // denounces1300"),
-          // speakdenounces13
           // denounces13("en-US"),
           // denounces1400"),
-          // speakdenounces14
           // denounces14("en-US"),
           // denounces1500"),
-          // speakdenounces15
           // denounces15("en-US"),
           // denounces1600"),
-          // speakdenounces16
           // denounces16("en-US"),
           // denounces1700"),
-          // speakdenounces17
           // denounces17("en-US"),
           // denounces1800"),
-          // speakdenounces18
           // denounces18("en-US"),
           // denounces1900"),
-          // speakdenounces19
           // denounces19("en-US"),
           // "The project was denounced as a scandalous waste of public money.0"),
-          // speakdenounces20
           // denounces20("en-US"),
           // denounces2100"),
-          // speakdenounces21
           // denounces21("en-US"),
           // denounces2200"),
-          // speakdenounces22
           // denounces22("en-US"),
         ],
       ),

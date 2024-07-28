@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -263,64 +261,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdentals2("en-US"),
           ),
           // dentals300"),
-          // speakdentals3
           // dentals3("en-US"),
           // dentals400"),
-          // speakdentals4
           // dentals4("en-US"),
           // dentals500"),
-          // speakdentals5
           // dentals5("en-US"),
           // dentals600"),
-          // speakdentals6
           // dentals6("en-US"),
           // dentals700"),
-          // speakdentals7
           // dentals7("en-US"),
           // dentals800"),
-          // speakdentals8
           // dentals8("en-US"),
           // dentals900"),
-          // speakdentals9
           // dentals9("en-US"),
           // dentals1000"),
-          // speakdentals10
           // dentals10("en-US"),
           // dentals1100"),
-          // speakdentals11
           // dentals11("en-US"),
           // dentals1200"),
-          // speakdentals12
           // dentals12("en-US"),
           // dentals1300"),
-          // speakdentals13
           // dentals13("en-US"),
           // dentals1400"),
-          // speakdentals14
           // dentals14("en-US"),
           // dentals1500"),
-          // speakdentals15
           // dentals15("en-US"),
           // dentals1600"),
-          // speakdentals16
           // dentals16("en-US"),
           // dentals1700"),
-          // speakdentals17
           // dentals17("en-US"),
           // dentals1800"),
-          // speakdentals18
           // dentals18("en-US"),
           // dentals1900"),
-          // speakdentals19
           // dentals19("en-US"),
           // "I had some very expensive dental treatment recently - but it'll save me problems in the future.0"),
-          // speakdentals20
           // dentals20("en-US"),
           // dentals2100"),
-          // speakdentals21
           // dentals21("en-US"),
           // dentals2200"),
-          // speakdentals22
           // dentals22("en-US"),
         ],
       ),

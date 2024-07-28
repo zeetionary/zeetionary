@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,43 +386,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectricians2("en-US"),
           ),
           // electricians300electricians3
-          // speakelectricians3
           // electricians400electricians4
-          // speakelectricians4
           // electricians500electricians5
-          // speakelectricians5
           // electricians600electricians6
-          // speakelectricians6
           // electricians700electricians7
-          // speakelectricians7
           // electricians800electricians8
-          // speakelectricians8
           // electricians900electricians9
-          // speakelectricians9
           // electricians_1000electricians10
-          // speakelectricians10
           // electricians1100electricians11
-          // speakelectricians11
           // electricians1200electricians12
-          // speakelectricians12
           // electricians1300electricians13
-          // speakelectricians13
           // electricians1400electricians14
-          // speakelectricians14
           // electricians1500electricians15
-          // speakelectricians15
           // electricians1600electricians16
-          // speakelectricians16
           // electricians1700electricians17
-          // speakelectricians17
           // electricians1800electricians18
-          // speakelectricians18
           // electricians1900electricians19
-          // speakelectricians19
           // electricians_2000electricians20
-          // speakelectricians20
           // electricians2100electricians21
-          // speakelectricians21
           // electricians2200electricians22
           // speakelectricians22("en-US"""),
           //         ),

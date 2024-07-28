@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeastbounds1("en-US"),
           ),
           // eastbounds200eastbounds2
-          // speakeastbounds2
           // eastbounds300eastbounds3
-          // speakeastbounds3
           // eastbounds400eastbounds4
-          // speakeastbounds4
           // eastbounds500eastbounds5
-          // speakeastbounds5
           // eastbounds600eastbounds6
-          // speakeastbounds6
           // eastbounds700eastbounds7
-          // speakeastbounds7
           // eastbounds800eastbounds8
-          // speakeastbounds8
           // eastbounds900eastbounds9
-          // speakeastbounds9
           // eastbounds_1000eastbounds10
-          // speakeastbounds10
           // eastbounds1100eastbounds11
-          // speakeastbounds11
           // eastbounds1200eastbounds12
-          // speakeastbounds12
           // eastbounds1300eastbounds13
-          // speakeastbounds13
           // eastbounds1400eastbounds14
-          // speakeastbounds14
           // eastbounds1500eastbounds15
-          // speakeastbounds15
           // eastbounds1600eastbounds16
-          // speakeastbounds16
           // eastbounds1700eastbounds17
-          // speakeastbounds17
           // eastbounds1800eastbounds18
-          // speakeastbounds18
           // eastbounds1900eastbounds19
-          // speakeastbounds19
           // eastbounds_2000eastbounds20
-          // speakeastbounds20
           // eastbounds2100eastbounds21
-          // speakeastbounds21
           // eastbounds2200eastbounds22
           // speakeastbounds22("en-US"""),
           //         ),

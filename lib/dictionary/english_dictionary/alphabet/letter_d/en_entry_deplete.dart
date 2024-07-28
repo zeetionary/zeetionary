@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepletes2("en-US"),
           ),
           // depletes300"),
-          // speakdepletes3
           // depletes3("en-US"),
           // depletes400"),
-          // speakdepletes4
           // depletes4("en-US"),
           // depletes500"),
-          // speakdepletes5
           // depletes5("en-US"),
           // depletes600"),
-          // speakdepletes6
           // depletes6("en-US"),
           // depletes700"),
-          // speakdepletes7
           // depletes7("en-US"),
           // depletes800"),
-          // speakdepletes8
           // depletes8("en-US"),
           // depletes900"),
-          // speakdepletes9
           // depletes9("en-US"),
           // depletes1000"),
-          // speakdepletes10
           // depletes10("en-US"),
           // depletes1100"),
-          // speakdepletes11
           // depletes11("en-US"),
           // depletes1200"),
-          // speakdepletes12
           // depletes12("en-US"),
           // depletes1300"),
-          // speakdepletes13
           // depletes13("en-US"),
           // depletes1400"),
-          // speakdepletes14
           // depletes14("en-US"),
           // depletes1500"),
-          // speakdepletes15
           // depletes15("en-US"),
           // depletes1600"),
-          // speakdepletes16
           // depletes16("en-US"),
           // depletes1700"),
-          // speakdepletes17
           // depletes17("en-US"),
           // depletes1800"),
-          // speakdepletes18
           // depletes18("en-US"),
           // depletes1900"),
-          // speakdepletes19
           // depletes19("en-US"),
           // "Food supplies were severely depleted.0"),
-          // speakdepletes20
           // depletes20("en-US"),
           // depletes2100"),
-          // speakdepletes21
           // depletes21("en-US"),
           // depletes2200"),
-          // speakdepletes22
           // depletes22("en-US"),
         ],
       ),

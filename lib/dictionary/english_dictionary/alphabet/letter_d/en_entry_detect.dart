@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -294,58 +292,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetects4("en-US"),
           ),
           // detects500"),
-          // speakdetects5
           // detects5("en-US"),
           // detects600"),
-          // speakdetects6
           // detects6("en-US"),
           // detects700"),
-          // speakdetects7
           // detects7("en-US"),
           // detects800"),
-          // speakdetects8
           // detects8("en-US"),
           // detects900"),
-          // speakdetects9
           // detects9("en-US"),
           // detects1000"),
-          // speakdetects10
           // detects10("en-US"),
           // detects1100"),
-          // speakdetects11
           // detects11("en-US"),
           // detects1200"),
-          // speakdetects12
           // detects12("en-US"),
           // detects1300"),
-          // speakdetects13
           // detects13("en-US"),
           // detects1400"),
-          // speakdetects14
           // detects14("en-US"),
           // detects1500"),
-          // speakdetects15
           // detects15("en-US"),
           // detects1600"),
-          // speakdetects16
           // detects16("en-US"),
           // detects1700"),
-          // speakdetects17
           // detects17("en-US"),
           // detects1800"),
-          // speakdetects18
           // detects18("en-US"),
           // detects1900"),
-          // speakdetects19
           // detects19("en-US"),
           // "Only 8 per cent of regular cola consumers detected a difference.0"),
-          // speakdetects20
           // detects20("en-US"),
           // detects2100"),
-          // speakdetects21
           // detects21("en-US"),
           // detects2200"),
-          // speakdetects22
           // detects22("en-US"),
         ],
       ),

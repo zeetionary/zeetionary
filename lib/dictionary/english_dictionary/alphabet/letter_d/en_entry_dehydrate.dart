@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdehydrates2("en-US"),
           ),
           // dehydrates300"),
-          // speakdehydrates3
           // dehydrates3("en-US"),
           // dehydrates400"),
-          // speakdehydrates4
           // dehydrates4("en-US"),
           // dehydrates500"),
-          // speakdehydrates5
           // dehydrates5("en-US"),
           // dehydrates600"),
-          // speakdehydrates6
           // dehydrates6("en-US"),
           // dehydrates700"),
-          // speakdehydrates7
           // dehydrates7("en-US"),
           // dehydrates800"),
-          // speakdehydrates8
           // dehydrates8("en-US"),
           // dehydrates900"),
-          // speakdehydrates9
           // dehydrates9("en-US"),
           // dehydrates1000"),
-          // speakdehydrates10
           // dehydrates10("en-US"),
           // dehydrates1100"),
-          // speakdehydrates11
           // dehydrates11("en-US"),
           // dehydrates1200"),
-          // speakdehydrates12
           // dehydrates12("en-US"),
           // dehydrates1300"),
-          // speakdehydrates13
           // dehydrates13("en-US"),
           // dehydrates1400"),
-          // speakdehydrates14
           // dehydrates14("en-US"),
           // dehydrates1500"),
-          // speakdehydrates15
           // dehydrates15("en-US"),
           // dehydrates1600"),
-          // speakdehydrates16
           // dehydrates16("en-US"),
           // dehydrates1700"),
-          // speakdehydrates17
           // dehydrates17("en-US"),
           // dehydrates1800"),
-          // speakdehydrates18
           // dehydrates18("en-US"),
           // dehydrates1900"),
-          // speakdehydrates19
           // dehydrates19("en-US"),
           // "Runners can dehydrate very quickly in this heat.0"),
-          // speakdehydrates20
           // dehydrates20("en-US"),
           // dehydrates2100"),
-          // speakdehydrates21
           // dehydrates21("en-US"),
           // dehydrates2200"),
-          // speakdehydrates22
           // dehydrates22("en-US"),
         ],
       ),

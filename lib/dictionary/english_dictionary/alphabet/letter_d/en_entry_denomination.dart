@@ -245,9 +245,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -284,61 +282,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenominations3("en-US"),
           ),
           // denominations400"),
-          // speakdenominations4
           // denominations4("en-US"),
           // denominations500"),
-          // speakdenominations5
           // denominations5("en-US"),
           // denominations600"),
-          // speakdenominations6
           // denominations6("en-US"),
           // denominations700"),
-          // speakdenominations7
           // denominations7("en-US"),
           // denominations800"),
-          // speakdenominations8
           // denominations8("en-US"),
           // denominations900"),
-          // speakdenominations9
           // denominations9("en-US"),
           // denominations1000"),
-          // speakdenominations10
           // denominations10("en-US"),
           // denominations1100"),
-          // speakdenominations11
           // denominations11("en-US"),
           // denominations1200"),
-          // speakdenominations12
           // denominations12("en-US"),
           // denominations1300"),
-          // speakdenominations13
           // denominations13("en-US"),
           // denominations1400"),
-          // speakdenominations14
           // denominations14("en-US"),
           // denominations1500"),
-          // speakdenominations15
           // denominations15("en-US"),
           // denominations1600"),
-          // speakdenominations16
           // denominations16("en-US"),
           // denominations1700"),
-          // speakdenominations17
           // denominations17("en-US"),
           // denominations1800"),
-          // speakdenominations18
           // denominations18("en-US"),
           // denominations1900"),
-          // speakdenominations19
           // denominations19("en-US"),
           // "Many synagogues belong to the largest American Jewish religious denomination.0"),
-          // speakdenominations20
           // denominations20("en-US"),
           // denominations2100"),
-          // speakdenominations21
           // denominations21("en-US"),
           // denominations2200"),
-          // speakdenominations22
           // denominations22("en-US"),
         ],
       ),

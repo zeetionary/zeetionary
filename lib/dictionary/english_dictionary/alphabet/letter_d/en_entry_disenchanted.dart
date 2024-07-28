@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisenchanteds2("en-US"),
           ),
           // disenchanteds300"),
-          // speakdisenchanteds3
           // disenchanteds3("en-US"),
           // disenchanteds400"),
-          // speakdisenchanteds4
           // disenchanteds4("en-US"),
           // disenchanteds500"),
-          // speakdisenchanteds5
           // disenchanteds5("en-US"),
           // disenchanteds600"),
-          // speakdisenchanteds6
           // disenchanteds6("en-US"),
           // disenchanteds700"),
-          // speakdisenchanteds7
           // disenchanteds7("en-US"),
           // disenchanteds800"),
-          // speakdisenchanteds8
           // disenchanteds8("en-US"),
           // disenchanteds900"),
-          // speakdisenchanteds9
           // disenchanteds9("en-US"),
           // disenchanteds_1000"),
-          // speakdisenchanteds10
           // disenchanteds10("en-US"),
           // disenchanteds1100"),
-          // speakdisenchanteds11
           // disenchanteds11("en-US"),
           // disenchanteds1200"),
-          // speakdisenchanteds12
           // disenchanteds12("en-US"),
           // disenchanteds1300"),
-          // speakdisenchanteds13
           // disenchanteds13("en-US"),
           // disenchanteds1400"),
-          // speakdisenchanteds14
           // disenchanteds14("en-US"),
           // disenchanteds1500"),
-          // speakdisenchanteds15
           // disenchanteds15("en-US"),
           // disenchanteds1600"),
-          // speakdisenchanteds16
           // disenchanteds16("en-US"),
           // disenchanteds1700"),
-          // speakdisenchanteds17
           // disenchanteds17("en-US"),
           // disenchanteds1800"),
-          // speakdisenchanteds18
           // disenchanteds18("en-US"),
           // disenchanteds1900"),
-          // speakdisenchanteds19
           // disenchanteds19("en-US"),
           // disenchanteds_2000"),
-          // speakdisenchanteds20
           // disenchanteds20("en-US"),
           // disenchanteds2100"),
-          // speakdisenchanteds21
           // disenchanteds21("en-US"),
           // disenchanteds2200"),
-          // speakdisenchanteds22
           // disenchanteds22("en-US"),
         ],
       ),

@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdopeys2("en-US"),
           ),
           // dopeys300"),
-          // speakdopeys3
           // dopeys3("en-US"),
           // dopeys400"),
-          // speakdopeys4
           // dopeys4("en-US"),
           // dopeys500"),
-          // speakdopeys5
           // dopeys5("en-US"),
           // dopeys600"),
-          // speakdopeys6
           // dopeys6("en-US"),
           // dopeys700"),
-          // speakdopeys7
           // dopeys7("en-US"),
           // dopeys800"),
-          // speakdopeys8
           // dopeys8("en-US"),
           // dopeys900"),
-          // speakdopeys9
           // dopeys9("en-US"),
           // dopeys_1000"),
-          // speakdopeys10
           // dopeys10("en-US"),
           // dopeys1100"),
-          // speakdopeys11
           // dopeys11("en-US"),
           // dopeys1200"),
-          // speakdopeys12
           // dopeys12("en-US"),
           // dopeys1300"),
-          // speakdopeys13
           // dopeys13("en-US"),
           // dopeys1400"),
-          // speakdopeys14
           // dopeys14("en-US"),
           // dopeys1500"),
-          // speakdopeys15
           // dopeys15("en-US"),
           // dopeys1600"),
-          // speakdopeys16
           // dopeys16("en-US"),
           // dopeys1700"),
-          // speakdopeys17
           // dopeys17("en-US"),
           // dopeys1800"),
-          // speakdopeys18
           // dopeys18("en-US"),
           // dopeys1900"),
-          // speakdopeys19
           // dopeys19("en-US"),
           // dopeys_2000"),
-          // speakdopeys20
           // dopeys20("en-US"),
           // dopeys2100"),
-          // speakdopeys21
           // dopeys21("en-US"),
           // dopeys2200"),
-          // speakdopeys22
           // dopeys22("en-US"),
         ],
       ),

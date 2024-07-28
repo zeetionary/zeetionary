@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdunes1("en-US"),
           ),
           // dunes200
-          // speakdunes2
           // dunes2("en-US"""),
           // dunes300
-          // speakdunes3
           // dunes3("en-US"""),
           // dunes400
-          // speakdunes4
           // dunes4("en-US"""),
           // dunes500
-          // speakdunes5
           // dunes5("en-US"""),
           // dunes600
-          // speakdunes6
           // dunes6("en-US"""),
           // dunes700
-          // speakdunes7
           // dunes7("en-US"""),
           // dunes800
-          // speakdunes8
           // dunes8("en-US"""),
           // dunes900
-          // speakdunes9
           // dunes9("en-US"""),
           // dunes_1000
-          // speakdunes10
           // dunes10("en-US"""),
           // dunes1100
-          // speakdunes11
           // dunes11("en-US"""),
           // dunes1200
-          // speakdunes12
           // dunes12("en-US"""),
           // dunes1300
-          // speakdunes13
           // dunes13("en-US"""),
           // dunes1400
-          // speakdunes14
           // dunes14("en-US"""),
           // dunes1500
-          // speakdunes15
           // dunes15("en-US"""),
           // dunes1600
-          // speakdunes16
           // dunes16("en-US"""),
           // dunes1700
-          // speakdunes17
           // dunes17("en-US"""),
           // dunes1800
-          // speakdunes18
           // dunes18("en-US"""),
           // dunes1900
-          // speakdunes19
           // dunes19("en-US"""),
           // dunes_2000
-          // speakdunes20
           // dunes20("en-US"""),
           // dunes2100
-          // speakdunes21
           // dunes21("en-US"""),
           // dunes2200
-          // speakdunes22
           // dunes22("en-US"""),
         ],
       ),

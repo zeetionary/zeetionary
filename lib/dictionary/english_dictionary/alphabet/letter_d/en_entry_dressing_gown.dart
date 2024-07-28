@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -401,67 +399,46 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // dressinggowns200"),
-          // speakdressinggowns2
           // dressinggowns2("en-US"),
           // dressinggowns300"),
-          // speakdressinggowns3
           // dressinggowns3("en-US"),
           // dressinggowns400"),
-          // speakdressinggowns4
           // dressinggowns4("en-US"),
           // dressinggowns500"),
-          // speakdressinggowns5
           // dressinggowns5("en-US"),
           // dressinggowns600"),
-          // speakdressinggowns6
           // dressinggowns6("en-US"),
           // dressinggowns700"),
-          // speakdressinggowns7
           // dressinggowns7("en-US"),
           // dressinggowns800"),
-          // speakdressinggowns8
           // dressinggowns8("en-US"),
           // dressinggowns900"),
-          // speakdressinggowns9
           // dressinggowns9("en-US"),
           // dressinggowns_1000"),
-          // speakdressinggowns10
           // dressinggowns10("en-US"),
           // dressinggowns1100"),
-          // speakdressinggowns11
           // dressinggowns11("en-US"),
           // dressinggowns1200"),
-          // speakdressinggowns12
           // dressinggowns12("en-US"),
           // dressinggowns1300"),
-          // speakdressinggowns13
           // dressinggowns13("en-US"),
           // dressinggowns1400"),
-          // speakdressinggowns14
           // dressinggowns14("en-US"),
           // dressinggowns1500"),
-          // speakdressinggowns15
           // dressinggowns15("en-US"),
           // dressinggowns1600"),
-          // speakdressinggowns16
           // dressinggowns16("en-US"),
           // dressinggowns1700"),
-          // speakdressinggowns17
           // dressinggowns17("en-US"),
           // dressinggowns1800"),
-          // speakdressinggowns18
           // dressinggowns18("en-US"),
           // dressinggowns1900"),
-          // speakdressinggowns19
           // dressinggowns19("en-US"),
           // dressinggowns_2000"),
-          // speakdressinggowns20
           // dressinggowns20("en-US"),
           // dressinggowns2100"),
-          // speakdressinggowns21
           // dressinggowns21("en-US"),
           // dressinggowns2200"),
-          // speakdressinggowns22
           // dressinggowns22("en-US"),
         ],
       ),

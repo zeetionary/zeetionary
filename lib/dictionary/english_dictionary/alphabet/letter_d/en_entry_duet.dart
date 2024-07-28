@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduets1("en-US"),
           ),
           // duets200
-          // speakduets2
           // duets2("en-US"""),
           // duets300
-          // speakduets3
           // duets3("en-US"""),
           // duets400
-          // speakduets4
           // duets4("en-US"""),
           // duets500
-          // speakduets5
           // duets5("en-US"""),
           // duets600
-          // speakduets6
           // duets6("en-US"""),
           // duets700
-          // speakduets7
           // duets7("en-US"""),
           // duets800
-          // speakduets8
           // duets8("en-US"""),
           // duets900
-          // speakduets9
           // duets9("en-US"""),
           // duets_1000
-          // speakduets10
           // duets10("en-US"""),
           // duets1100
-          // speakduets11
           // duets11("en-US"""),
           // duets1200
-          // speakduets12
           // duets12("en-US"""),
           // duets1300
-          // speakduets13
           // duets13("en-US"""),
           // duets1400
-          // speakduets14
           // duets14("en-US"""),
           // duets1500
-          // speakduets15
           // duets15("en-US"""),
           // duets1600
-          // speakduets16
           // duets16("en-US"""),
           // duets1700
-          // speakduets17
           // duets17("en-US"""),
           // duets1800
-          // speakduets18
           // duets18("en-US"""),
           // duets1900
-          // speakduets19
           // duets19("en-US"""),
           // duets_2000
-          // speakduets20
           // duets20("en-US"""),
           // duets2100
-          // speakduets21
           // duets21("en-US"""),
           // duets2200
-          // speakduets22
           // duets22("en-US"""),
         ],
       ),

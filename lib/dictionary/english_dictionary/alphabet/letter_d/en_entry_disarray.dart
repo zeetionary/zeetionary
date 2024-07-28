@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -270,61 +268,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisarrays3("en-US"),
           ),
           // disarrays400"),
-          // speakdisarrays4
           // disarrays4("en-US"),
           // disarrays500"),
-          // speakdisarrays5
           // disarrays5("en-US"),
           // disarrays600"),
-          // speakdisarrays6
           // disarrays6("en-US"),
           // disarrays700"),
-          // speakdisarrays7
           // disarrays7("en-US"),
           // disarrays800"),
-          // speakdisarrays8
           // disarrays8("en-US"),
           // disarrays900"),
-          // speakdisarrays9
           // disarrays9("en-US"),
           // disarrays_1000"),
-          // speakdisarrays10
           // disarrays10("en-US"),
           // disarrays1100"),
-          // speakdisarrays11
           // disarrays11("en-US"),
           // disarrays1200"),
-          // speakdisarrays12
           // disarrays12("en-US"),
           // disarrays1300"),
-          // speakdisarrays13
           // disarrays13("en-US"),
           // disarrays1400"),
-          // speakdisarrays14
           // disarrays14("en-US"),
           // disarrays1500"),
-          // speakdisarrays15
           // disarrays15("en-US"),
           // disarrays1600"),
-          // speakdisarrays16
           // disarrays16("en-US"),
           // disarrays1700"),
-          // speakdisarrays17
           // disarrays17("en-US"),
           // disarrays1800"),
-          // speakdisarrays18
           // disarrays18("en-US"),
           // disarrays1900"),
-          // speakdisarrays19
           // disarrays19("en-US"),
           // disarrays_2000"),
-          // speakdisarrays20
           // disarrays20("en-US"),
           // disarrays2100"),
-          // speakdisarrays21
           // disarrays21("en-US"),
           // disarrays2200"),
-          // speakdisarrays22
           // disarrays22("en-US"),
         ],
       ),

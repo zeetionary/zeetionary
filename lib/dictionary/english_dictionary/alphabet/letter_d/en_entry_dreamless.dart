@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -366,67 +364,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdreamlesss1("en-US"),
           ),
           // dreamlesss200"),
-          // speakdreamlesss2
           // dreamlesss2("en-US"),
           // dreamlesss300"),
-          // speakdreamlesss3
           // dreamlesss3("en-US"),
           // dreamlesss400"),
-          // speakdreamlesss4
           // dreamlesss4("en-US"),
           // dreamlesss500"),
-          // speakdreamlesss5
           // dreamlesss5("en-US"),
           // dreamlesss600"),
-          // speakdreamlesss6
           // dreamlesss6("en-US"),
           // dreamlesss700"),
-          // speakdreamlesss7
           // dreamlesss7("en-US"),
           // dreamlesss800"),
-          // speakdreamlesss8
           // dreamlesss8("en-US"),
           // dreamlesss900"),
-          // speakdreamlesss9
           // dreamlesss9("en-US"),
           // dreamlesss_1000"),
-          // speakdreamlesss10
           // dreamlesss10("en-US"),
           // dreamlesss1100"),
-          // speakdreamlesss11
           // dreamlesss11("en-US"),
           // dreamlesss1200"),
-          // speakdreamlesss12
           // dreamlesss12("en-US"),
           // dreamlesss1300"),
-          // speakdreamlesss13
           // dreamlesss13("en-US"),
           // dreamlesss1400"),
-          // speakdreamlesss14
           // dreamlesss14("en-US"),
           // dreamlesss1500"),
-          // speakdreamlesss15
           // dreamlesss15("en-US"),
           // dreamlesss1600"),
-          // speakdreamlesss16
           // dreamlesss16("en-US"),
           // dreamlesss1700"),
-          // speakdreamlesss17
           // dreamlesss17("en-US"),
           // dreamlesss1800"),
-          // speakdreamlesss18
           // dreamlesss18("en-US"),
           // dreamlesss1900"),
-          // speakdreamlesss19
           // dreamlesss19("en-US"),
           // dreamlesss_2000"),
-          // speakdreamlesss20
           // dreamlesss20("en-US"),
           // dreamlesss2100"),
-          // speakdreamlesss21
           // dreamlesss21("en-US"),
           // dreamlesss2200"),
-          // speakdreamlesss22
           // dreamlesss22("en-US"),
         ],
       ),

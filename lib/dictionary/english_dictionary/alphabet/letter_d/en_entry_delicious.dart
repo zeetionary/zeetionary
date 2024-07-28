@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -287,58 +285,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeliciouss4("en-US"),
           ),
           // deliciouss500"),
-          // speakdeliciouss5
           // deliciouss5("en-US"),
           // deliciouss600"),
-          // speakdeliciouss6
           // deliciouss6("en-US"),
           // deliciouss700"),
-          // speakdeliciouss7
           // deliciouss7("en-US"),
           // deliciouss800"),
-          // speakdeliciouss8
           // deliciouss8("en-US"),
           // deliciouss900"),
-          // speakdeliciouss9
           // deliciouss9("en-US"),
           // deliciouss1000"),
-          // speakdeliciouss10
           // deliciouss10("en-US"),
           // deliciouss1100"),
-          // speakdeliciouss11
           // deliciouss11("en-US"),
           // deliciouss1200"),
-          // speakdeliciouss12
           // deliciouss12("en-US"),
           // deliciouss1300"),
-          // speakdeliciouss13
           // deliciouss13("en-US"),
           // deliciouss1400"),
-          // speakdeliciouss14
           // deliciouss14("en-US"),
           // deliciouss1500"),
-          // speakdeliciouss15
           // deliciouss15("en-US"),
           // deliciouss1600"),
-          // speakdeliciouss16
           // deliciouss16("en-US"),
           // deliciouss1700"),
-          // speakdeliciouss17
           // deliciouss17("en-US"),
           // deliciouss1800"),
-          // speakdeliciouss18
           // deliciouss18("en-US"),
           // deliciouss1900"),
-          // speakdeliciouss19
           // deliciouss19("en-US"),
           // "This dish is delicious with cream.0"),
-          // speakdeliciouss20
           // deliciouss20("en-US"),
           // deliciouss2100"),
-          // speakdeliciouss21
           // deliciouss21("en-US"),
           // deliciouss2200"),
-          // speakdeliciouss22
           // deliciouss22("en-US"),
         ],
       ),

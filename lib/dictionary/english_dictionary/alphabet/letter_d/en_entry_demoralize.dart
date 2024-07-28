@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemoralizes2("en-US"),
           ),
           // demoralizes300"),
-          // speakdemoralizes3
           // demoralizes3("en-US"),
           // demoralizes400"),
-          // speakdemoralizes4
           // demoralizes4("en-US"),
           // demoralizes500"),
-          // speakdemoralizes5
           // demoralizes5("en-US"),
           // demoralizes600"),
-          // speakdemoralizes6
           // demoralizes6("en-US"),
           // demoralizes700"),
-          // speakdemoralizes7
           // demoralizes7("en-US"),
           // demoralizes800"),
-          // speakdemoralizes8
           // demoralizes8("en-US"),
           // demoralizes900"),
-          // speakdemoralizes9
           // demoralizes9("en-US"),
           // demoralizes1000"),
-          // speakdemoralizes10
           // demoralizes10("en-US"),
           // demoralizes1100"),
-          // speakdemoralizes11
           // demoralizes11("en-US"),
           // demoralizes1200"),
-          // speakdemoralizes12
           // demoralizes12("en-US"),
           // demoralizes1300"),
-          // speakdemoralizes13
           // demoralizes13("en-US"),
           // demoralizes1400"),
-          // speakdemoralizes14
           // demoralizes14("en-US"),
           // demoralizes1500"),
-          // speakdemoralizes15
           // demoralizes15("en-US"),
           // demoralizes1600"),
-          // speakdemoralizes16
           // demoralizes16("en-US"),
           // demoralizes1700"),
-          // speakdemoralizes17
           // demoralizes17("en-US"),
           // demoralizes1800"),
-          // speakdemoralizes18
           // demoralizes18("en-US"),
           // demoralizes1900"),
-          // speakdemoralizes19
           // demoralizes19("en-US"),
           // "Many members were demoralized by the leadership’s failure to implement reforms.0"),
-          // speakdemoralizes20
           // demoralizes20("en-US"),
           // demoralizes2100"),
-          // speakdemoralizes21
           // demoralizes21("en-US"),
           // demoralizes2200"),
-          // speakdemoralizes22
           // demoralizes22("en-US"),
         ],
       ),

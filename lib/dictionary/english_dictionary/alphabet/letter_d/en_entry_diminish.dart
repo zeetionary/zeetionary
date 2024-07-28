@@ -265,9 +265,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -333,49 +331,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiminishs7("en-US"),
           ),
           // diminishs800"),
-          // speakdiminishs8
           // diminishs8("en-US"),
           // diminishs900"),
-          // speakdiminishs9
           // diminishs9("en-US"),
           // diminishs_1000"),
-          // speakdiminishs10
           // diminishs10("en-US"),
           // diminishs1100"),
-          // speakdiminishs11
           // diminishs11("en-US"),
           // diminishs1200"),
-          // speakdiminishs12
           // diminishs12("en-US"),
           // diminishs1300"),
-          // speakdiminishs13
           // diminishs13("en-US"),
           // diminishs1400"),
-          // speakdiminishs14
           // diminishs14("en-US"),
           // diminishs1500"),
-          // speakdiminishs15
           // diminishs15("en-US"),
           // diminishs1600"),
-          // speakdiminishs16
           // diminishs16("en-US"),
           // diminishs1700"),
-          // speakdiminishs17
           // diminishs17("en-US"),
           // diminishs1800"),
-          // speakdiminishs18
           // diminishs18("en-US"),
           // diminishs1900"),
-          // speakdiminishs19
           // diminishs19("en-US"),
           // diminishs_2000"),
-          // speakdiminishs20
           // diminishs20("en-US"),
           // diminishs2100"),
-          // speakdiminishs21
           // diminishs21("en-US"),
           // diminishs2200"),
-          // speakdiminishs22
           // diminishs22("en-US"),
         ],
       ),

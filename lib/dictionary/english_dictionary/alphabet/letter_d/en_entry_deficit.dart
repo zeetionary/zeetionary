@@ -249,9 +249,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -322,52 +320,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeficits6("en-US"),
           ),
           // deficits700"),
-          // speakdeficits7
           // deficits7("en-US"),
           // deficits800"),
-          // speakdeficits8
           // deficits8("en-US"),
           // deficits900"),
-          // speakdeficits9
           // deficits9("en-US"),
           // deficits1000"),
-          // speakdeficits10
           // deficits10("en-US"),
           // deficits1100"),
-          // speakdeficits11
           // deficits11("en-US"),
           // deficits1200"),
-          // speakdeficits12
           // deficits12("en-US"),
           // deficits1300"),
-          // speakdeficits13
           // deficits13("en-US"),
           // deficits1400"),
-          // speakdeficits14
           // deficits14("en-US"),
           // deficits1500"),
-          // speakdeficits15
           // deficits15("en-US"),
           // deficits1600"),
-          // speakdeficits16
           // deficits16("en-US"),
           // deficits1700"),
-          // speakdeficits17
           // deficits17("en-US"),
           // deficits1800"),
-          // speakdeficits18
           // deficits18("en-US"),
           // deficits1900"),
-          // speakdeficits19
           // deficits19("en-US"),
           // deficits2000"),
-          // speakdeficits20
           // deficits20("en-US"),
           // deficits2100"),
-          // speakdeficits21
           // deficits21("en-US"),
           // deficits2200"),
-          // speakdeficits22
           // deficits22("en-US"),
         ],
       ),

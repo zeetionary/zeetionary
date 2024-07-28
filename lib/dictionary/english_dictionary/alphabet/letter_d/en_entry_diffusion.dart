@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiffusions3("en-US"),
           ),
           // diffusions400"),
-          // speakdiffusions4
           // diffusions4
           // diffusions500"),
-          // speakdiffusions5
           // diffusions5
           // diffusions600"),
-          // speakdiffusions6
           // diffusions6
           // diffusions700"),
-          // speakdiffusions7
           // diffusions7
           // diffusions800"),
-          // speakdiffusions8
           // diffusions8
           // diffusions900"),
-          // speakdiffusions9
           // diffusions9
           // diffusions_1000"),
-          // speakdiffusions10
           // diffusions10
           // diffusions1100"),
-          // speakdiffusions11
           // diffusions11
           // diffusions1200"),
-          // speakdiffusions12
           // diffusions12
           // diffusions1300"),
-          // speakdiffusions13
           // diffusions13
           // diffusions1400"),
-          // speakdiffusions14
           // diffusions14
           // diffusions1500"),
-          // speakdiffusions15
           // diffusions15
           // diffusions1600"),
-          // speakdiffusions16
           // diffusions16
           // diffusions1700"),
-          // speakdiffusions17
           // diffusions17
           // diffusions1800"),
-          // speakdiffusions18
           // diffusions18
           // diffusions1900"),
-          // speakdiffusions19
           // diffusions19
           // diffusions_2000"),
-          // speakdiffusions20
           // diffusions20
           // diffusions2100"),
-          // speakdiffusions21
           // diffusions21
           // diffusions2200"),
-          // speakdiffusions22
           // diffusions22("en-US"),
         ],
       ),

@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdimlys2("en-US"),
           ),
           // dimlys300"),
-          // speakdimlys3
           // dimlys3("en-US"),
           // dimlys400"),
-          // speakdimlys4
           // dimlys4("en-US"),
           // dimlys500"),
-          // speakdimlys5
           // dimlys5("en-US"),
           // dimlys600"),
-          // speakdimlys6
           // dimlys6("en-US"),
           // dimlys700"),
-          // speakdimlys7
           // dimlys7("en-US"),
           // dimlys800"),
-          // speakdimlys8
           // dimlys8("en-US"),
           // dimlys900"),
-          // speakdimlys9
           // dimlys9("en-US"),
           // dimlys_1000"),
-          // speakdimlys10
           // dimlys10("en-US"),
           // dimlys1100"),
-          // speakdimlys11
           // dimlys11("en-US"),
           // dimlys1200"),
-          // speakdimlys12
           // dimlys12("en-US"),
           // dimlys1300"),
-          // speakdimlys13
           // dimlys13("en-US"),
           // dimlys1400"),
-          // speakdimlys14
           // dimlys14("en-US"),
           // dimlys1500"),
-          // speakdimlys15
           // dimlys15("en-US"),
           // dimlys1600"),
-          // speakdimlys16
           // dimlys16("en-US"),
           // dimlys1700"),
-          // speakdimlys17
           // dimlys17("en-US"),
           // dimlys1800"),
-          // speakdimlys18
           // dimlys18("en-US"),
           // dimlys1900"),
-          // speakdimlys19
           // dimlys19("en-US"),
           // dimlys_2000"),
-          // speakdimlys20
           // dimlys20("en-US"),
           // dimlys2100"),
-          // speakdimlys21
           // dimlys21("en-US"),
           // dimlys2200"),
-          // speakdimlys22
           // dimlys22("en-US"),
         ],
       ),

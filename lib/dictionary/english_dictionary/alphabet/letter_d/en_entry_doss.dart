@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -416,58 +414,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdosss4("en-US"),
           ),
           // dosss500"),
-          // speakdosss5
           // dosss5("en-US"),
           // dosss600"),
-          // speakdosss6
           // dosss6("en-US"),
           // dosss700"),
-          // speakdosss7
           // dosss7("en-US"),
           // dosss800"),
-          // speakdosss8
           // dosss8("en-US"),
           // dosss900"),
-          // speakdosss9
           // dosss9("en-US"),
           // dosss_1000"),
-          // speakdosss10
           // dosss10("en-US"),
           // dosss1100"),
-          // speakdosss11
           // dosss11("en-US"),
           // dosss1200"),
-          // speakdosss12
           // dosss12("en-US"),
           // dosss1300"),
-          // speakdosss13
           // dosss13("en-US"),
           // dosss1400"),
-          // speakdosss14
           // dosss14("en-US"),
           // dosss1500"),
-          // speakdosss15
           // dosss15("en-US"),
           // dosss1600"),
-          // speakdosss16
           // dosss16("en-US"),
           // dosss1700"),
-          // speakdosss17
           // dosss17("en-US"),
           // dosss1800"),
-          // speakdosss18
           // dosss18("en-US"),
           // dosss1900"),
-          // speakdosss19
           // dosss19("en-US"),
           // dosss_2000"),
-          // speakdosss20
           // dosss20("en-US"),
           // dosss2100"),
-          // speakdosss21
           // dosss21("en-US"),
           // dosss2200"),
-          // speakdosss22
           // dosss22("en-US"),
         ],
       ),

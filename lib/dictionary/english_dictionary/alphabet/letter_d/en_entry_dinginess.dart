@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdinginesss1("en-US"),
           ),
           // dinginesss200"),
-          // speakdinginesss2
           // dinginesss2("en-US"),
           // dinginesss300"),
-          // speakdinginesss3
           // dinginesss3("en-US"),
           // dinginesss400"),
-          // speakdinginesss4
           // dinginesss4("en-US"),
           // dinginesss500"),
-          // speakdinginesss5
           // dinginesss5("en-US"),
           // dinginesss600"),
-          // speakdinginesss6
           // dinginesss6("en-US"),
           // dinginesss700"),
-          // speakdinginesss7
           // dinginesss7("en-US"),
           // dinginesss800"),
-          // speakdinginesss8
           // dinginesss8("en-US"),
           // dinginesss900"),
-          // speakdinginesss9
           // dinginesss9("en-US"),
           // dinginesss_1000"),
-          // speakdinginesss10
           // dinginesss10("en-US"),
           // dinginesss1100"),
-          // speakdinginesss11
           // dinginesss11("en-US"),
           // dinginesss1200"),
-          // speakdinginesss12
           // dinginesss12("en-US"),
           // dinginesss1300"),
-          // speakdinginesss13
           // dinginesss13("en-US"),
           // dinginesss1400"),
-          // speakdinginesss14
           // dinginesss14("en-US"),
           // dinginesss1500"),
-          // speakdinginesss15
           // dinginesss15("en-US"),
           // dinginesss1600"),
-          // speakdinginesss16
           // dinginesss16("en-US"),
           // dinginesss1700"),
-          // speakdinginesss17
           // dinginesss17("en-US"),
           // dinginesss1800"),
-          // speakdinginesss18
           // dinginesss18("en-US"),
           // dinginesss1900"),
-          // speakdinginesss19
           // dinginesss19("en-US"),
           // dinginesss_2000"),
-          // speakdinginesss20
           // dinginesss20("en-US"),
           // dinginesss2100"),
-          // speakdinginesss21
           // dinginesss21("en-US"),
           // dinginesss2200"),
-          // speakdinginesss22
           // dinginesss22("en-US"),
         ],
       ),

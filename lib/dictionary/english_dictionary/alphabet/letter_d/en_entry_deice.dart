@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -236,67 +234,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeices1("en-US"),
           ),
           // deices200"),
-          // speakdeices2
           // deices2("en-US"),
           // deices300"),
-          // speakdeices3
           // deices3("en-US"),
           // deices400"),
-          // speakdeices4
           // deices4("en-US"),
           // deices500"),
-          // speakdeices5
           // deices5("en-US"),
           // deices600"),
-          // speakdeices6
           // deices6("en-US"),
           // deices700"),
-          // speakdeices7
           // deices7("en-US"),
           // deices800"),
-          // speakdeices8
           // deices8("en-US"),
           // deices900"),
-          // speakdeices9
           // deices9("en-US"),
           // deices1000"),
-          // speakdeices10
           // deices10("en-US"),
           // deices1100"),
-          // speakdeices11
           // deices11("en-US"),
           // deices1200"),
-          // speakdeices12
           // deices12("en-US"),
           // deices1300"),
-          // speakdeices13
           // deices13("en-US"),
           // deices1400"),
-          // speakdeices14
           // deices14("en-US"),
           // deices1500"),
-          // speakdeices15
           // deices15("en-US"),
           // deices1600"),
-          // speakdeices16
           // deices16("en-US"),
           // deices1700"),
-          // speakdeices17
           // deices17("en-US"),
           // deices1800"),
-          // speakdeices18
           // deices18("en-US"),
           // deices1900"),
-          // speakdeices19
           // deices19("en-US"),
           // deices2000"),
-          // speakdeices20
           // deices20("en-US"),
           // deices2100"),
-          // speakdeices21
           // deices21("en-US"),
           // deices2200"),
-          // speakdeices22
           // deices22("en-US"),
         ],
       ),

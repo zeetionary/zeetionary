@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,67 +386,46 @@ class KurdishMeaning extends StatelessWidget {
           //           ExampleSentenceEnglish(
           //               text:
           //                   "It was only in the dreamily evocative last movement that the orchestra really came together."),
-          // speakdreamilys2
           // dreamilys2("en-US"),
           // dreamilys300"),
-          // speakdreamilys3
           // dreamilys3("en-US"),
           // dreamilys400"),
-          // speakdreamilys4
           // dreamilys4("en-US"),
           // dreamilys500"),
-          // speakdreamilys5
           // dreamilys5("en-US"),
           // dreamilys600"),
-          // speakdreamilys6
           // dreamilys6("en-US"),
           // dreamilys700"),
-          // speakdreamilys7
           // dreamilys7("en-US"),
           // dreamilys800"),
-          // speakdreamilys8
           // dreamilys8("en-US"),
           // dreamilys900"),
-          // speakdreamilys9
           // dreamilys9("en-US"),
           // dreamilys_1000"),
-          // speakdreamilys10
           // dreamilys10("en-US"),
           // dreamilys1100"),
-          // speakdreamilys11
           // dreamilys11("en-US"),
           // dreamilys1200"),
-          // speakdreamilys12
           // dreamilys12("en-US"),
           // dreamilys1300"),
-          // speakdreamilys13
           // dreamilys13("en-US"),
           // dreamilys1400"),
-          // speakdreamilys14
           // dreamilys14("en-US"),
           // dreamilys1500"),
-          // speakdreamilys15
           // dreamilys15("en-US"),
           // dreamilys1600"),
-          // speakdreamilys16
           // dreamilys16("en-US"),
           // dreamilys1700"),
-          // speakdreamilys17
           // dreamilys17("en-US"),
           // dreamilys1800"),
-          // speakdreamilys18
           // dreamilys18("en-US"),
           // dreamilys1900"),
-          // speakdreamilys19
           // dreamilys19("en-US"),
           // dreamilys_2000"),
-          // speakdreamilys20
           // dreamilys20("en-US"),
           // dreamilys2100"),
-          // speakdreamilys21
           // dreamilys21("en-US"),
           // dreamilys2200"),
-          // speakdreamilys22
           // dreamilys22("en-US"),
         ],
       ),

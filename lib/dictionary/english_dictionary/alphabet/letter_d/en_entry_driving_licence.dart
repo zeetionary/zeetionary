@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrivinglicences2("en-US"),
           ),
           // drivinglicences300"),
-          // speakdrivinglicences3
           // drivinglicences3("en-US"),
           // drivinglicences400"),
-          // speakdrivinglicences4
           // drivinglicences4("en-US"),
           // drivinglicences500"),
-          // speakdrivinglicences5
           // drivinglicences5("en-US"),
           // drivinglicences600"),
-          // speakdrivinglicences6
           // drivinglicences6("en-US"),
           // drivinglicences700"),
-          // speakdrivinglicences7
           // drivinglicences7("en-US"),
           // drivinglicences800"),
-          // speakdrivinglicences8
           // drivinglicences8("en-US"),
           // drivinglicences900"),
-          // speakdrivinglicences9
           // drivinglicences9("en-US"),
           // drivinglicences_1000"),
-          // speakdrivinglicences10
           // drivinglicences10("en-US"),
           // drivinglicences1100"),
-          // speakdrivinglicences11
           // drivinglicences11("en-US"),
           // drivinglicences1200"),
-          // speakdrivinglicences12
           // drivinglicences12("en-US"),
           // drivinglicences1300"),
-          // speakdrivinglicences13
           // drivinglicences13("en-US"),
           // drivinglicences1400"),
-          // speakdrivinglicences14
           // drivinglicences14("en-US"),
           // drivinglicences1500"),
-          // speakdrivinglicences15
           // drivinglicences15("en-US"),
           // drivinglicences1600"),
-          // speakdrivinglicences16
           // drivinglicences16("en-US"),
           // drivinglicences1700"),
-          // speakdrivinglicences17
           // drivinglicences17("en-US"),
           // drivinglicences1800"),
-          // speakdrivinglicences18
           // drivinglicences18("en-US"),
           // drivinglicences1900"),
-          // speakdrivinglicences19
           // drivinglicences19("en-US"),
           // drivinglicences_2000"),
-          // speakdrivinglicences20
           // drivinglicences20("en-US"),
           // drivinglicences2100"),
-          // speakdrivinglicences21
           // drivinglicences21("en-US"),
           // drivinglicences2200"),
-          // speakdrivinglicences22
           // drivinglicences22("en-US"),
         ],
       ),

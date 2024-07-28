@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -289,58 +287,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdictionarys4("en-US"),
           ),
           // dictionarys500"),
-          // speakdictionarys5
           // dictionarys5
           // dictionarys600"),
-          // speakdictionarys6
           // dictionarys6
           // dictionarys700"),
-          // speakdictionarys7
           // dictionarys7
           // dictionarys800"),
-          // speakdictionarys8
           // dictionarys8
           // dictionarys900"),
-          // speakdictionarys9
           // dictionarys9
           // dictionarys_1000"),
-          // speakdictionarys10
           // dictionarys10
           // dictionarys1100"),
-          // speakdictionarys11
           // dictionarys11
           // dictionarys1200"),
-          // speakdictionarys12
           // dictionarys12
           // dictionarys1300"),
-          // speakdictionarys13
           // dictionarys13
           // dictionarys1400"),
-          // speakdictionarys14
           // dictionarys14
           // dictionarys1500"),
-          // speakdictionarys15
           // dictionarys15
           // dictionarys1600"),
-          // speakdictionarys16
           // dictionarys16
           // dictionarys1700"),
-          // speakdictionarys17
           // dictionarys17
           // dictionarys1800"),
-          // speakdictionarys18
           // dictionarys18
           // dictionarys1900"),
-          // speakdictionarys19
           // dictionarys19
           // dictionarys_2000"),
-          // speakdictionarys20
           // dictionarys20
           // dictionarys2100"),
-          // speakdictionarys21
           // dictionarys21
           // dictionarys2200"),
-          // speakdictionarys22
           // dictionarys22("en-US"),
         ],
       ),

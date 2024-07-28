@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -305,58 +303,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelinquents4("en-US"),
           ),
           // delinquents500"),
-          // speakdelinquents5
           // delinquents5("en-US"),
           // delinquents600"),
-          // speakdelinquents6
           // delinquents6("en-US"),
           // delinquents700"),
-          // speakdelinquents7
           // delinquents7("en-US"),
           // delinquents800"),
-          // speakdelinquents8
           // delinquents8("en-US"),
           // delinquents900"),
-          // speakdelinquents9
           // delinquents9("en-US"),
           // delinquents1000"),
-          // speakdelinquents10
           // delinquents10("en-US"),
           // delinquents1100"),
-          // speakdelinquents11
           // delinquents11("en-US"),
           // delinquents1200"),
-          // speakdelinquents12
           // delinquents12("en-US"),
           // delinquents1300"),
-          // speakdelinquents13
           // delinquents13("en-US"),
           // delinquents1400"),
-          // speakdelinquents14
           // delinquents14("en-US"),
           // delinquents1500"),
-          // speakdelinquents15
           // delinquents15("en-US"),
           // delinquents1600"),
-          // speakdelinquents16
           // delinquents16("en-US"),
           // delinquents1700"),
-          // speakdelinquents17
           // delinquents17("en-US"),
           // delinquents1800"),
-          // speakdelinquents18
           // delinquents18("en-US"),
           // delinquents1900"),
-          // speakdelinquents19
           // delinquents19("en-US"),
           // "Credit delinquents often face penalties and higher interest rates.0"),
-          // speakdelinquents20
           // delinquents20("en-US"),
           // delinquents2100"),
-          // speakdelinquents21
           // delinquents21("en-US"),
           // delinquents2200"),
-          // speakdelinquents22
           // delinquents22("en-US"),
         ],
       ),

@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -252,64 +250,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakuninteresteds2("en-US"),
           ),
           // uninteresteds300"),
-          // speakuninteresteds3
           // uninteresteds3("en-US"),
           // uninteresteds400"),
-          // speakuninteresteds4
           // uninteresteds4("en-US"),
           // uninteresteds500"),
-          // speakuninteresteds5
           // uninteresteds5("en-US"),
           // uninteresteds600"),
-          // speakuninteresteds6
           // uninteresteds6("en-US"),
           // uninteresteds700"),
-          // speakuninteresteds7
           // uninteresteds7("en-US"),
           // uninteresteds800"),
-          // speakuninteresteds8
           // uninteresteds8("en-US"),
           // uninteresteds900"),
-          // speakuninteresteds9
           // uninteresteds9("en-US"),
           // uninteresteds_1000"),
-          // speakuninteresteds10
           // uninteresteds10("en-US"),
           // uninteresteds1100"),
-          // speakuninteresteds11
           // uninteresteds11("en-US"),
           // uninteresteds1200"),
-          // speakuninteresteds12
           // uninteresteds12("en-US"),
           // uninteresteds1300"),
-          // speakuninteresteds13
           // uninteresteds13("en-US"),
           // uninteresteds1400"),
-          // speakuninteresteds14
           // uninteresteds14("en-US"),
           // uninteresteds1500"),
-          // speakuninteresteds15
           // uninteresteds15("en-US"),
           // uninteresteds1600"),
-          // speakuninteresteds16
           // uninteresteds16("en-US"),
           // uninteresteds1700"),
-          // speakuninteresteds17
           // uninteresteds17("en-US"),
           // uninteresteds1800"),
-          // speakuninteresteds18
           // uninteresteds18("en-US"),
           // uninteresteds1900"),
-          // speakuninteresteds19
           // uninteresteds19("en-US"),
           // uninteresteds_2000"),
-          // speakuninteresteds20
           // uninteresteds20("en-US"),
           // uninteresteds2100"),
-          // speakuninteresteds21
           // uninteresteds21("en-US"),
           // uninteresteds2200"),
-          // speakuninteresteds22
           // uninteresteds22("en-US"),
         ],
       ),

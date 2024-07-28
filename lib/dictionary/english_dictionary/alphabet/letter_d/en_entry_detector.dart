@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetectors2("en-US"),
           ),
           // detectors300"),
-          // speakdetectors3
           // detectors3("en-US"),
           // detectors400"),
-          // speakdetectors4
           // detectors4("en-US"),
           // detectors500"),
-          // speakdetectors5
           // detectors5("en-US"),
           // detectors600"),
-          // speakdetectors6
           // detectors6("en-US"),
           // detectors700"),
-          // speakdetectors7
           // detectors7("en-US"),
           // detectors800"),
-          // speakdetectors8
           // detectors8("en-US"),
           // detectors900"),
-          // speakdetectors9
           // detectors9("en-US"),
           // detectors1000"),
-          // speakdetectors10
           // detectors10("en-US"),
           // detectors1100"),
-          // speakdetectors11
           // detectors11("en-US"),
           // detectors1200"),
-          // speakdetectors12
           // detectors12("en-US"),
           // detectors1300"),
-          // speakdetectors13
           // detectors13("en-US"),
           // detectors1400"),
-          // speakdetectors14
           // detectors14("en-US"),
           // detectors1500"),
-          // speakdetectors15
           // detectors15("en-US"),
           // detectors1600"),
-          // speakdetectors16
           // detectors16("en-US"),
           // detectors1700"),
-          // speakdetectors17
           // detectors17("en-US"),
           // detectors1800"),
-          // speakdetectors18
           // detectors18("en-US"),
           // detectors1900"),
-          // speakdetectors19
           // detectors19("en-US"),
           // "The radiation detector showed high levels.0"),
-          // speakdetectors20
           // detectors20("en-US"),
           // detectors2100"),
-          // speakdetectors21
           // detectors21("en-US"),
           // detectors2200"),
-          // speakdetectors22
           // detectors22("en-US"),
         ],
       ),

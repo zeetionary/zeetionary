@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -372,67 +370,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrainingboards1("en-US"),
           ),
           // drainingboards200"),
-          // speakdrainingboards2
           // drainingboards2("en-US"),
           // drainingboards300"),
-          // speakdrainingboards3
           // drainingboards3("en-US"),
           // drainingboards400"),
-          // speakdrainingboards4
           // drainingboards4("en-US"),
           // drainingboards500"),
-          // speakdrainingboards5
           // drainingboards5("en-US"),
           // drainingboards600"),
-          // speakdrainingboards6
           // drainingboards6("en-US"),
           // drainingboards700"),
-          // speakdrainingboards7
           // drainingboards7("en-US"),
           // drainingboards800"),
-          // speakdrainingboards8
           // drainingboards8("en-US"),
           // drainingboards900"),
-          // speakdrainingboards9
           // drainingboards9("en-US"),
           // drainingboards_1000"),
-          // speakdrainingboards10
           // drainingboards10("en-US"),
           // drainingboards1100"),
-          // speakdrainingboards11
           // drainingboards11("en-US"),
           // drainingboards1200"),
-          // speakdrainingboards12
           // drainingboards12("en-US"),
           // drainingboards1300"),
-          // speakdrainingboards13
           // drainingboards13("en-US"),
           // drainingboards1400"),
-          // speakdrainingboards14
           // drainingboards14("en-US"),
           // drainingboards1500"),
-          // speakdrainingboards15
           // drainingboards15("en-US"),
           // drainingboards1600"),
-          // speakdrainingboards16
           // drainingboards16("en-US"),
           // drainingboards1700"),
-          // speakdrainingboards17
           // drainingboards17("en-US"),
           // drainingboards1800"),
-          // speakdrainingboards18
           // drainingboards18("en-US"),
           // drainingboards1900"),
-          // speakdrainingboards19
           // drainingboards19("en-US"),
           // drainingboards_2000"),
-          // speakdrainingboards20
           // drainingboards20("en-US"),
           // drainingboards2100"),
-          // speakdrainingboards21
           // drainingboards21("en-US"),
           // drainingboards2200"),
-          // speakdrainingboards22
           // drainingboards22("en-US"),
         ],
       ),

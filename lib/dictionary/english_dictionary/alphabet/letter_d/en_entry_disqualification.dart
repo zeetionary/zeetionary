@@ -238,9 +238,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -279,61 +277,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisqualifications3("en-US"),
           ),
           // disqualifications400"),
-          // speakdisqualifications4
           // disqualifications4("en-US"),
           // disqualifications500"),
-          // speakdisqualifications5
           // disqualifications5("en-US"),
           // disqualifications600"),
-          // speakdisqualifications6
           // disqualifications6("en-US"),
           // disqualifications700"),
-          // speakdisqualifications7
           // disqualifications7("en-US"),
           // disqualifications800"),
-          // speakdisqualifications8
           // disqualifications8("en-US"),
           // disqualifications900"),
-          // speakdisqualifications9
           // disqualifications9("en-US"),
           // disqualifications_1000"),
-          // speakdisqualifications10
           // disqualifications10("en-US"),
           // disqualifications1100"),
-          // speakdisqualifications11
           // disqualifications11("en-US"),
           // disqualifications1200"),
-          // speakdisqualifications12
           // disqualifications12("en-US"),
           // disqualifications1300"),
-          // speakdisqualifications13
           // disqualifications13("en-US"),
           // disqualifications1400"),
-          // speakdisqualifications14
           // disqualifications14("en-US"),
           // disqualifications1500"),
-          // speakdisqualifications15
           // disqualifications15("en-US"),
           // disqualifications1600"),
-          // speakdisqualifications16
           // disqualifications16("en-US"),
           // disqualifications1700"),
-          // speakdisqualifications17
           // disqualifications17("en-US"),
           // disqualifications1800"),
-          // speakdisqualifications18
           // disqualifications18("en-US"),
           // disqualifications1900"),
-          // speakdisqualifications19
           // disqualifications19("en-US"),
           // disqualifications_2000"),
-          // speakdisqualifications20
           // disqualifications20("en-US"),
           // disqualifications2100"),
-          // speakdisqualifications21
           // disqualifications21("en-US"),
           // disqualifications2200"),
-          // speakdisqualifications22
           // disqualifications22("en-US"),
         ],
       ),

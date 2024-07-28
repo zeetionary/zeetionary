@@ -265,9 +265,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -321,52 +319,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefers6("en-US"),
           ),
           // defers700"),
-          // speakdefers7
           // defers7("en-US"),
           // defers800"),
-          // speakdefers8
           // defers8("en-US"),
           // defers900"),
-          // speakdefers9
           // defers9("en-US"),
           // defers1000"),
-          // speakdefers10
           // defers10("en-US"),
           // defers1100"),
-          // speakdefers11
           // defers11("en-US"),
           // defers1200"),
-          // speakdefers12
           // defers12("en-US"),
           // defers1300"),
-          // speakdefers13
           // defers13("en-US"),
           // defers1400"),
-          // speakdefers14
           // defers14("en-US"),
           // defers1500"),
-          // speakdefers15
           // defers15("en-US"),
           // defers1600"),
-          // speakdefers16
           // defers16("en-US"),
           // defers1700"),
-          // speakdefers17
           // defers17("en-US"),
           // defers1800"),
-          // speakdefers18
           // defers18("en-US"),
           // defers1900"),
-          // speakdefers19
           // defers19("en-US"),
           // "She had applied for deferred admission to college.0"),
-          // speakdefers20
           // defers20("en-US"),
           // defers2100"),
-          // speakdefers21
           // defers21("en-US"),
           // defers2200"),
-          // speakdefers22
           // defers22("en-US"),
         ],
       ),

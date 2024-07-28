@@ -249,9 +249,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -291,58 +289,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeficiencys4("en-US"),
           ),
           // deficiencys500"),
-          // speakdeficiencys5
           // deficiencys5("en-US"),
           // deficiencys600"),
-          // speakdeficiencys6
           // deficiencys6("en-US"),
           // deficiencys700"),
-          // speakdeficiencys7
           // deficiencys7("en-US"),
           // deficiencys800"),
-          // speakdeficiencys8
           // deficiencys8("en-US"),
           // deficiencys900"),
-          // speakdeficiencys9
           // deficiencys9("en-US"),
           // deficiencys1000"),
-          // speakdeficiencys10
           // deficiencys10("en-US"),
           // deficiencys1100"),
-          // speakdeficiencys11
           // deficiencys11("en-US"),
           // deficiencys1200"),
-          // speakdeficiencys12
           // deficiencys12("en-US"),
           // deficiencys1300"),
-          // speakdeficiencys13
           // deficiencys13("en-US"),
           // deficiencys1400"),
-          // speakdeficiencys14
           // deficiencys14("en-US"),
           // deficiencys1500"),
-          // speakdeficiencys15
           // deficiencys15("en-US"),
           // deficiencys1600"),
-          // speakdeficiencys16
           // deficiencys16("en-US"),
           // deficiencys1700"),
-          // speakdeficiencys17
           // deficiencys17("en-US"),
           // deficiencys1800"),
-          // speakdeficiencys18
           // deficiencys18("en-US"),
           // deficiencys1900"),
-          // speakdeficiencys19
           // deficiencys19("en-US"),
           // "He's suffering from a severe vitamin deficiency.0"),
-          // speakdeficiencys20
           // deficiencys20("en-US"),
           // deficiencys2100"),
-          // speakdeficiencys21
           // deficiencys21("en-US"),
           // deficiencys2200"),
-          // speakdeficiencys22
           // deficiencys22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrinkables2("en-US"),
           ),
           // drinkables300"),
-          // speakdrinkables3
           // drinkables3("en-US"),
           // drinkables400"),
-          // speakdrinkables4
           // drinkables4("en-US"),
           // drinkables500"),
-          // speakdrinkables5
           // drinkables5("en-US"),
           // drinkables600"),
-          // speakdrinkables6
           // drinkables6("en-US"),
           // drinkables700"),
-          // speakdrinkables7
           // drinkables7("en-US"),
           // drinkables800"),
-          // speakdrinkables8
           // drinkables8("en-US"),
           // drinkables900"),
-          // speakdrinkables9
           // drinkables9("en-US"),
           // drinkables_1000"),
-          // speakdrinkables10
           // drinkables10("en-US"),
           // drinkables1100"),
-          // speakdrinkables11
           // drinkables11("en-US"),
           // drinkables1200"),
-          // speakdrinkables12
           // drinkables12("en-US"),
           // drinkables1300"),
-          // speakdrinkables13
           // drinkables13("en-US"),
           // drinkables1400"),
-          // speakdrinkables14
           // drinkables14("en-US"),
           // drinkables1500"),
-          // speakdrinkables15
           // drinkables15("en-US"),
           // drinkables1600"),
-          // speakdrinkables16
           // drinkables16("en-US"),
           // drinkables1700"),
-          // speakdrinkables17
           // drinkables17("en-US"),
           // drinkables1800"),
-          // speakdrinkables18
           // drinkables18("en-US"),
           // drinkables1900"),
-          // speakdrinkables19
           // drinkables19("en-US"),
           // drinkables_2000"),
-          // speakdrinkables20
           // drinkables20("en-US"),
           // drinkables2100"),
-          // speakdrinkables21
           // drinkables21("en-US"),
           // drinkables2200"),
-          // speakdrinkables22
           // drinkables22("en-US"),
         ],
       ),

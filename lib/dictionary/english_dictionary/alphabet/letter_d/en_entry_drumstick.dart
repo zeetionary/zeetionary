@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrumsticks2("en-US"),
           ),
           // drumsticks300"),
-          // speakdrumsticks3
           // drumsticks3("en-US"),
           // drumsticks400"),
-          // speakdrumsticks4
           // drumsticks4("en-US"),
           // drumsticks500"),
-          // speakdrumsticks5
           // drumsticks5("en-US"),
           // drumsticks600"),
-          // speakdrumsticks6
           // drumsticks6("en-US"),
           // drumsticks700"),
-          // speakdrumsticks7
           // drumsticks7("en-US"),
           // drumsticks800"),
-          // speakdrumsticks8
           // drumsticks8("en-US"),
           // drumsticks900"),
-          // speakdrumsticks9
           // drumsticks9("en-US"),
           // drumsticks_1000"),
-          // speakdrumsticks10
           // drumsticks10("en-US"),
           // drumsticks1100"),
-          // speakdrumsticks11
           // drumsticks11("en-US"),
           // drumsticks1200"),
-          // speakdrumsticks12
           // drumsticks12("en-US"),
           // drumsticks1300"),
-          // speakdrumsticks13
           // drumsticks13("en-US"),
           // drumsticks1400"),
-          // speakdrumsticks14
           // drumsticks14("en-US"),
           // drumsticks1500"),
-          // speakdrumsticks15
           // drumsticks15("en-US"),
           // drumsticks1600"),
-          // speakdrumsticks16
           // drumsticks16("en-US"),
           // drumsticks1700"),
-          // speakdrumsticks17
           // drumsticks17("en-US"),
           // drumsticks1800"),
-          // speakdrumsticks18
           // drumsticks18("en-US"),
           // drumsticks1900"),
-          // speakdrumsticks19
           // drumsticks19("en-US"),
           // drumsticks_2000"),
-          // speakdrumsticks20
           // drumsticks20("en-US"),
           // drumsticks2100"),
-          // speakdrumsticks21
           // drumsticks21("en-US"),
           // drumsticks2200"),
-          // speakdrumsticks22
           // drumsticks22("en-US"),
         ],
       ),

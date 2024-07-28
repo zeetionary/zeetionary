@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdispossesss1("en-US"),
           ),
           // dispossesss200"),
-          // speakdispossesss2
           // dispossesss2("en-US"),
           // dispossesss300"),
-          // speakdispossesss3
           // dispossesss3("en-US"),
           // dispossesss400"),
-          // speakdispossesss4
           // dispossesss4("en-US"),
           // dispossesss500"),
-          // speakdispossesss5
           // dispossesss5("en-US"),
           // dispossesss600"),
-          // speakdispossesss6
           // dispossesss6("en-US"),
           // dispossesss700"),
-          // speakdispossesss7
           // dispossesss7("en-US"),
           // dispossesss800"),
-          // speakdispossesss8
           // dispossesss8("en-US"),
           // dispossesss900"),
-          // speakdispossesss9
           // dispossesss9("en-US"),
           // dispossesss_1000"),
-          // speakdispossesss10
           // dispossesss10("en-US"),
           // dispossesss1100"),
-          // speakdispossesss11
           // dispossesss11("en-US"),
           // dispossesss1200"),
-          // speakdispossesss12
           // dispossesss12("en-US"),
           // dispossesss1300"),
-          // speakdispossesss13
           // dispossesss13("en-US"),
           // dispossesss1400"),
-          // speakdispossesss14
           // dispossesss14("en-US"),
           // dispossesss1500"),
-          // speakdispossesss15
           // dispossesss15("en-US"),
           // dispossesss1600"),
-          // speakdispossesss16
           // dispossesss16("en-US"),
           // dispossesss1700"),
-          // speakdispossesss17
           // dispossesss17("en-US"),
           // dispossesss1800"),
-          // speakdispossesss18
           // dispossesss18("en-US"),
           // dispossesss1900"),
-          // speakdispossesss19
           // dispossesss19("en-US"),
           // dispossesss_2000"),
-          // speakdispossesss20
           // dispossesss20("en-US"),
           // dispossesss2100"),
-          // speakdispossesss21
           // dispossesss21("en-US"),
           // dispossesss2200"),
-          // speakdispossesss22
           // dispossesss22("en-US"),
         ],
       ),

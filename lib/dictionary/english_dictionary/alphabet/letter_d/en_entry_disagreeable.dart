@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -272,61 +270,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisagreeables3("en-US"),
           ),
           // disagreeables400"),
-          // speakdisagreeables4
           // disagreeables4("en-US"),
           // disagreeables500"),
-          // speakdisagreeables5
           // disagreeables5("en-US"),
           // disagreeables600"),
-          // speakdisagreeables6
           // disagreeables6("en-US"),
           // disagreeables700"),
-          // speakdisagreeables7
           // disagreeables7("en-US"),
           // disagreeables800"),
-          // speakdisagreeables8
           // disagreeables8("en-US"),
           // disagreeables900"),
-          // speakdisagreeables9
           // disagreeables9("en-US"),
           // disagreeables_1000"),
-          // speakdisagreeables10
           // disagreeables10("en-US"),
           // disagreeables1100"),
-          // speakdisagreeables11
           // disagreeables11("en-US"),
           // disagreeables1200"),
-          // speakdisagreeables12
           // disagreeables12("en-US"),
           // disagreeables1300"),
-          // speakdisagreeables13
           // disagreeables13("en-US"),
           // disagreeables1400"),
-          // speakdisagreeables14
           // disagreeables14("en-US"),
           // disagreeables1500"),
-          // speakdisagreeables15
           // disagreeables15("en-US"),
           // disagreeables1600"),
-          // speakdisagreeables16
           // disagreeables16("en-US"),
           // disagreeables1700"),
-          // speakdisagreeables17
           // disagreeables17("en-US"),
           // disagreeables1800"),
-          // speakdisagreeables18
           // disagreeables18("en-US"),
           // disagreeables1900"),
-          // speakdisagreeables19
           // disagreeables19("en-US"),
           // disagreeables_2000"),
-          // speakdisagreeables20
           // disagreeables20("en-US"),
           // disagreeables2100"),
-          // speakdisagreeables21
           // disagreeables21("en-US"),
           // disagreeables2200"),
-          // speakdisagreeables22
           // disagreeables22("en-US"),
         ],
       ),

@@ -257,9 +257,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -314,55 +312,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderivefroms5("en-US"),
           ),
           // derivefroms600"),
-          // speakderivefroms6
           // derivefroms6("en-US"),
           // derivefroms700"),
-          // speakderivefroms7
           // derivefroms7("en-US"),
           // derivefroms800"),
-          // speakderivefroms8
           // derivefroms8("en-US"),
           // derivefroms900"),
-          // speakderivefroms9
           // derivefroms9("en-US"),
           // derivefroms1000"),
-          // speakderivefroms10
           // derivefroms10("en-US"),
           // derivefroms1100"),
-          // speakderivefroms11
           // derivefroms11("en-US"),
           // derivefroms1200"),
-          // speakderivefroms12
           // derivefroms12("en-US"),
           // derivefroms1300"),
-          // speakderivefroms13
           // derivefroms13("en-US"),
           // derivefroms1400"),
-          // speakderivefroms14
           // derivefroms14("en-US"),
           // derivefroms1500"),
-          // speakderivefroms15
           // derivefroms15("en-US"),
           // derivefroms1600"),
-          // speakderivefroms16
           // derivefroms16("en-US"),
           // derivefroms1700"),
-          // speakderivefroms17
           // derivefroms17("en-US"),
           // derivefroms1800"),
-          // speakderivefroms18
           // derivefroms18("en-US"),
           // derivefroms1900"),
-          // speakderivefroms19
           // derivefroms19("en-US"),
           // "Wealth and position in society derived largely from land ownership.0"),
-          // speakderivefroms20
           // derivefroms20("en-US"),
           // derivefroms2100"),
-          // speakderivefroms21
           // derivefroms21("en-US"),
           // derivefroms2200"),
-          // speakderivefroms22
           // derivefroms22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdogmas2("en-US"),
           ),
           // dogmas300"),
-          // speakdogmas3
           // dogmas3("en-US"),
           // dogmas400"),
-          // speakdogmas4
           // dogmas4("en-US"),
           // dogmas500"),
-          // speakdogmas5
           // dogmas5("en-US"),
           // dogmas600"),
-          // speakdogmas6
           // dogmas6("en-US"),
           // dogmas700"),
-          // speakdogmas7
           // dogmas7("en-US"),
           // dogmas800"),
-          // speakdogmas8
           // dogmas8("en-US"),
           // dogmas900"),
-          // speakdogmas9
           // dogmas9("en-US"),
           // dogmas_1000"),
-          // speakdogmas10
           // dogmas10("en-US"),
           // dogmas1100"),
-          // speakdogmas11
           // dogmas11("en-US"),
           // dogmas1200"),
-          // speakdogmas12
           // dogmas12("en-US"),
           // dogmas1300"),
-          // speakdogmas13
           // dogmas13("en-US"),
           // dogmas1400"),
-          // speakdogmas14
           // dogmas14("en-US"),
           // dogmas1500"),
-          // speakdogmas15
           // dogmas15("en-US"),
           // dogmas1600"),
-          // speakdogmas16
           // dogmas16("en-US"),
           // dogmas1700"),
-          // speakdogmas17
           // dogmas17("en-US"),
           // dogmas1800"),
-          // speakdogmas18
           // dogmas18("en-US"),
           // dogmas1900"),
-          // speakdogmas19
           // dogmas19("en-US"),
           // dogmas_2000"),
-          // speakdogmas20
           // dogmas20("en-US"),
           // dogmas2100"),
-          // speakdogmas21
           // dogmas21("en-US"),
           // dogmas2200"),
-          // speakdogmas22
           // dogmas22("en-US"),
         ],
       ),

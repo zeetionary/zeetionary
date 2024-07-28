@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdollops2("en-US"),
           ),
           // dollops300"),
-          // speakdollops3
           // dollops3("en-US"),
           // dollops400"),
-          // speakdollops4
           // dollops4("en-US"),
           // dollops500"),
-          // speakdollops5
           // dollops5("en-US"),
           // dollops600"),
-          // speakdollops6
           // dollops6("en-US"),
           // dollops700"),
-          // speakdollops7
           // dollops7("en-US"),
           // dollops800"),
-          // speakdollops8
           // dollops8("en-US"),
           // dollops900"),
-          // speakdollops9
           // dollops9("en-US"),
           // dollops_1000"),
-          // speakdollops10
           // dollops10("en-US"),
           // dollops1100"),
-          // speakdollops11
           // dollops11("en-US"),
           // dollops1200"),
-          // speakdollops12
           // dollops12("en-US"),
           // dollops1300"),
-          // speakdollops13
           // dollops13("en-US"),
           // dollops1400"),
-          // speakdollops14
           // dollops14("en-US"),
           // dollops1500"),
-          // speakdollops15
           // dollops15("en-US"),
           // dollops1600"),
-          // speakdollops16
           // dollops16("en-US"),
           // dollops1700"),
-          // speakdollops17
           // dollops17("en-US"),
           // dollops1800"),
-          // speakdollops18
           // dollops18("en-US"),
           // dollops1900"),
-          // speakdollops19
           // dollops19("en-US"),
           // dollops_2000"),
-          // speakdollops20
           // dollops20("en-US"),
           // dollops2100"),
-          // speakdollops21
           // dollops21("en-US"),
           // dollops2200"),
-          // speakdollops22
           // dollops22("en-US"),
         ],
       ),

@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissenters1("en-US"),
           ),
           // dissenters200"),
-          // speakdissenters2
           // dissenters2("en-US"),
           // dissenters300"),
-          // speakdissenters3
           // dissenters3("en-US"),
           // dissenters400"),
-          // speakdissenters4
           // dissenters4("en-US"),
           // dissenters500"),
-          // speakdissenters5
           // dissenters5("en-US"),
           // dissenters600"),
-          // speakdissenters6
           // dissenters6("en-US"),
           // dissenters700"),
-          // speakdissenters7
           // dissenters7("en-US"),
           // dissenters800"),
-          // speakdissenters8
           // dissenters8("en-US"),
           // dissenters900"),
-          // speakdissenters9
           // dissenters9("en-US"),
           // dissenters_1000"),
-          // speakdissenters10
           // dissenters10("en-US"),
           // dissenters1100"),
-          // speakdissenters11
           // dissenters11("en-US"),
           // dissenters1200"),
-          // speakdissenters12
           // dissenters12("en-US"),
           // dissenters1300"),
-          // speakdissenters13
           // dissenters13("en-US"),
           // dissenters1400"),
-          // speakdissenters14
           // dissenters14("en-US"),
           // dissenters1500"),
-          // speakdissenters15
           // dissenters15("en-US"),
           // dissenters1600"),
-          // speakdissenters16
           // dissenters16("en-US"),
           // dissenters1700"),
-          // speakdissenters17
           // dissenters17("en-US"),
           // dissenters1800"),
-          // speakdissenters18
           // dissenters18("en-US"),
           // dissenters1900"),
-          // speakdissenters19
           // dissenters19("en-US"),
           // dissenters_2000"),
-          // speakdissenters20
           // dissenters20("en-US"),
           // dissenters2100"),
-          // speakdissenters21
           // dissenters21("en-US"),
           // dissenters2200"),
-          // speakdissenters22
           // dissenters22("en-US"),
         ],
       ),

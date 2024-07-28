@@ -256,9 +256,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -308,55 +306,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelusions5("en-US"),
           ),
           // delusions600"),
-          // speakdelusions6
           // delusions6("en-US"),
           // delusions700"),
-          // speakdelusions7
           // delusions7("en-US"),
           // delusions800"),
-          // speakdelusions8
           // delusions8("en-US"),
           // delusions900"),
-          // speakdelusions9
           // delusions9("en-US"),
           // delusions1000"),
-          // speakdelusions10
           // delusions10("en-US"),
           // delusions1100"),
-          // speakdelusions11
           // delusions11("en-US"),
           // delusions1200"),
-          // speakdelusions12
           // delusions12("en-US"),
           // delusions1300"),
-          // speakdelusions13
           // delusions13("en-US"),
           // delusions1400"),
-          // speakdelusions14
           // delusions14("en-US"),
           // delusions1500"),
-          // speakdelusions15
           // delusions15("en-US"),
           // delusions1600"),
-          // speakdelusions16
           // delusions16("en-US"),
           // delusions1700"),
-          // speakdelusions17
           // delusions17("en-US"),
           // delusions1800"),
-          // speakdelusions18
           // delusions18("en-US"),
           // delusions1900"),
-          // speakdelusions19
           // delusions19("en-US"),
           // "Love can be nothing but a delusion.0"),
-          // speakdelusions20
           // delusions20("en-US"),
           // delusions2100"),
-          // speakdelusions21
           // delusions21("en-US"),
           // delusions2200"),
-          // speakdelusions22
           // delusions22("en-US"),
         ],
       ),

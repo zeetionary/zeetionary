@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscreets2("en-US"),
           ),
           // discreets300"),
-          // speakdiscreets3
           // discreets3("en-US"),
           // discreets400"),
-          // speakdiscreets4
           // discreets4("en-US"),
           // discreets500"),
-          // speakdiscreets5
           // discreets5("en-US"),
           // discreets600"),
-          // speakdiscreets6
           // discreets6("en-US"),
           // discreets700"),
-          // speakdiscreets7
           // discreets7("en-US"),
           // discreets800"),
-          // speakdiscreets8
           // discreets8("en-US"),
           // discreets900"),
-          // speakdiscreets9
           // discreets9("en-US"),
           // discreets_1000"),
-          // speakdiscreets10
           // discreets10("en-US"),
           // discreets1100"),
-          // speakdiscreets11
           // discreets11("en-US"),
           // discreets1200"),
-          // speakdiscreets12
           // discreets12("en-US"),
           // discreets1300"),
-          // speakdiscreets13
           // discreets13("en-US"),
           // discreets1400"),
-          // speakdiscreets14
           // discreets14("en-US"),
           // discreets1500"),
-          // speakdiscreets15
           // discreets15("en-US"),
           // discreets1600"),
-          // speakdiscreets16
           // discreets16("en-US"),
           // discreets1700"),
-          // speakdiscreets17
           // discreets17("en-US"),
           // discreets1800"),
-          // speakdiscreets18
           // discreets18("en-US"),
           // discreets1900"),
-          // speakdiscreets19
           // discreets19("en-US"),
           // discreets_2000"),
-          // speakdiscreets20
           // discreets20("en-US"),
           // discreets2100"),
-          // speakdiscreets21
           // discreets21("en-US"),
           // discreets2200"),
-          // speakdiscreets22
           // discreets22("en-US"),
         ],
       ),

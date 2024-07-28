@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -271,61 +269,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespises3("en-US"),
           ),
           // despises400"),
-          // speakdespises4
           // despises4("en-US"),
           // despises500"),
-          // speakdespises5
           // despises5("en-US"),
           // despises600"),
-          // speakdespises6
           // despises6("en-US"),
           // despises700"),
-          // speakdespises7
           // despises7("en-US"),
           // despises800"),
-          // speakdespises8
           // despises8("en-US"),
           // despises900"),
-          // speakdespises9
           // despises9("en-US"),
           // despises1000"),
-          // speakdespises10
           // despises10("en-US"),
           // despises1100"),
-          // speakdespises11
           // despises11("en-US"),
           // despises1200"),
-          // speakdespises12
           // despises12("en-US"),
           // despises1300"),
-          // speakdespises13
           // despises13("en-US"),
           // despises1400"),
-          // speakdespises14
           // despises14("en-US"),
           // despises1500"),
-          // speakdespises15
           // despises15("en-US"),
           // despises1600"),
-          // speakdespises16
           // despises16("en-US"),
           // despises1700"),
-          // speakdespises17
           // despises17("en-US"),
           // despises1800"),
-          // speakdespises18
           // despises18("en-US"),
           // despises1900"),
-          // speakdespises19
           // despises19("en-US"),
           // "I don’t know why they despise me so much.0"),
-          // speakdespises20
           // despises20("en-US"),
           // despises2100"),
-          // speakdespises21
           // despises21("en-US"),
           // despises2200"),
-          // speakdespises22
           // despises22("en-US"),
         ],
       ),

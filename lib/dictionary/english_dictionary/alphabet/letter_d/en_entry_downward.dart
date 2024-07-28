@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownwards2("en-US"),
           ),
           // downwards300"),
-          // speakdownwards3
           // downwards3("en-US"),
           // downwards400"),
-          // speakdownwards4
           // downwards4("en-US"),
           // downwards500"),
-          // speakdownwards5
           // downwards5("en-US"),
           // downwards600"),
-          // speakdownwards6
           // downwards6("en-US"),
           // downwards700"),
-          // speakdownwards7
           // downwards7("en-US"),
           // downwards800"),
-          // speakdownwards8
           // downwards8("en-US"),
           // downwards900"),
-          // speakdownwards9
           // downwards9("en-US"),
           // downwards_1000"),
-          // speakdownwards10
           // downwards10("en-US"),
           // downwards1100"),
-          // speakdownwards11
           // downwards11("en-US"),
           // downwards1200"),
-          // speakdownwards12
           // downwards12("en-US"),
           // downwards1300"),
-          // speakdownwards13
           // downwards13("en-US"),
           // downwards1400"),
-          // speakdownwards14
           // downwards14("en-US"),
           // downwards1500"),
-          // speakdownwards15
           // downwards15("en-US"),
           // downwards1600"),
-          // speakdownwards16
           // downwards16("en-US"),
           // downwards1700"),
-          // speakdownwards17
           // downwards17("en-US"),
           // downwards1800"),
-          // speakdownwards18
           // downwards18("en-US"),
           // downwards1900"),
-          // speakdownwards19
           // downwards19("en-US"),
           // downwards_2000"),
-          // speakdownwards20
           // downwards20("en-US"),
           // downwards2100"),
-          // speakdownwards21
           // downwards21("en-US"),
           // downwards2200"),
-          // speakdownwards22
           // downwards22("en-US"),
         ],
       ),

@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisreputables2("en-US"),
           ),
           // disreputables300"),
-          // speakdisreputables3
           // disreputables3("en-US"),
           // disreputables400"),
-          // speakdisreputables4
           // disreputables4("en-US"),
           // disreputables500"),
-          // speakdisreputables5
           // disreputables5("en-US"),
           // disreputables600"),
-          // speakdisreputables6
           // disreputables6("en-US"),
           // disreputables700"),
-          // speakdisreputables7
           // disreputables7("en-US"),
           // disreputables800"),
-          // speakdisreputables8
           // disreputables8("en-US"),
           // disreputables900"),
-          // speakdisreputables9
           // disreputables9("en-US"),
           // disreputables_1000"),
-          // speakdisreputables10
           // disreputables10("en-US"),
           // disreputables1100"),
-          // speakdisreputables11
           // disreputables11("en-US"),
           // disreputables1200"),
-          // speakdisreputables12
           // disreputables12("en-US"),
           // disreputables1300"),
-          // speakdisreputables13
           // disreputables13("en-US"),
           // disreputables1400"),
-          // speakdisreputables14
           // disreputables14("en-US"),
           // disreputables1500"),
-          // speakdisreputables15
           // disreputables15("en-US"),
           // disreputables1600"),
-          // speakdisreputables16
           // disreputables16("en-US"),
           // disreputables1700"),
-          // speakdisreputables17
           // disreputables17("en-US"),
           // disreputables1800"),
-          // speakdisreputables18
           // disreputables18("en-US"),
           // disreputables1900"),
-          // speakdisreputables19
           // disreputables19("en-US"),
           // disreputables_2000"),
-          // speakdisreputables20
           // disreputables20("en-US"),
           // disreputables2100"),
-          // speakdisreputables21
           // disreputables21("en-US"),
           // disreputables2200"),
-          // speakdisreputables22
           // disreputables22("en-US"),
         ],
       ),

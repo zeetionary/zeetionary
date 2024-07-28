@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -293,58 +291,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiminutives4("en-US"),
           ),
           // diminutives500"),
-          // speakdiminutives5
           // diminutives5
           // diminutives600"),
-          // speakdiminutives6
           // diminutives6
           // diminutives700"),
-          // speakdiminutives7
           // diminutives7
           // diminutives800"),
-          // speakdiminutives8
           // diminutives8
           // diminutives900"),
-          // speakdiminutives9
           // diminutives9
           // diminutives_1000"),
-          // speakdiminutives10
           // diminutives10
           // diminutives1100"),
-          // speakdiminutives11
           // diminutives11
           // diminutives1200"),
-          // speakdiminutives12
           // diminutives12
           // diminutives1300"),
-          // speakdiminutives13
           // diminutives13
           // diminutives1400"),
-          // speakdiminutives14
           // diminutives14
           // diminutives1500"),
-          // speakdiminutives15
           // diminutives15
           // diminutives1600"),
-          // speakdiminutives16
           // diminutives16
           // diminutives1700"),
-          // speakdiminutives17
           // diminutives17
           // diminutives1800"),
-          // speakdiminutives18
           // diminutives18
           // diminutives1900"),
-          // speakdiminutives19
           // diminutives19
           // diminutives_2000"),
-          // speakdiminutives20
           // diminutives20
           // diminutives2100"),
-          // speakdiminutives21
           // diminutives21
           // diminutives2200"),
-          // speakdiminutives22
           // diminutives22("en-US"),
         ],
       ),

@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisillusioneds2("en-US"),
           ),
           // disillusioneds300"),
-          // speakdisillusioneds3
           // disillusioneds3("en-US"),
           // disillusioneds400"),
-          // speakdisillusioneds4
           // disillusioneds4("en-US"),
           // disillusioneds500"),
-          // speakdisillusioneds5
           // disillusioneds5("en-US"),
           // disillusioneds600"),
-          // speakdisillusioneds6
           // disillusioneds6("en-US"),
           // disillusioneds700"),
-          // speakdisillusioneds7
           // disillusioneds7("en-US"),
           // disillusioneds800"),
-          // speakdisillusioneds8
           // disillusioneds8("en-US"),
           // disillusioneds900"),
-          // speakdisillusioneds9
           // disillusioneds9("en-US"),
           // disillusioneds_1000"),
-          // speakdisillusioneds10
           // disillusioneds10("en-US"),
           // disillusioneds1100"),
-          // speakdisillusioneds11
           // disillusioneds11("en-US"),
           // disillusioneds1200"),
-          // speakdisillusioneds12
           // disillusioneds12("en-US"),
           // disillusioneds1300"),
-          // speakdisillusioneds13
           // disillusioneds13("en-US"),
           // disillusioneds1400"),
-          // speakdisillusioneds14
           // disillusioneds14("en-US"),
           // disillusioneds1500"),
-          // speakdisillusioneds15
           // disillusioneds15("en-US"),
           // disillusioneds1600"),
-          // speakdisillusioneds16
           // disillusioneds16("en-US"),
           // disillusioneds1700"),
-          // speakdisillusioneds17
           // disillusioneds17("en-US"),
           // disillusioneds1800"),
-          // speakdisillusioneds18
           // disillusioneds18("en-US"),
           // disillusioneds1900"),
-          // speakdisillusioneds19
           // disillusioneds19("en-US"),
           // disillusioneds_2000"),
-          // speakdisillusioneds20
           // disillusioneds20("en-US"),
           // disillusioneds2100"),
-          // speakdisillusioneds21
           // disillusioneds21("en-US"),
           // disillusioneds2200"),
-          // speakdisillusioneds22
           // disillusioneds22("en-US"),
         ],
       ),

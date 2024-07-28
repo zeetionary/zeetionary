@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -297,58 +295,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetains4("en-US"),
           ),
           // detains500"),
-          // speakdetains5
           // detains5("en-US"),
           // detains600"),
-          // speakdetains6
           // detains6("en-US"),
           // detains700"),
-          // speakdetains7
           // detains7("en-US"),
           // detains800"),
-          // speakdetains8
           // detains8("en-US"),
           // detains900"),
-          // speakdetains9
           // detains9("en-US"),
           // detains1000"),
-          // speakdetains10
           // detains10("en-US"),
           // detains1100"),
-          // speakdetains11
           // detains11("en-US"),
           // detains1200"),
-          // speakdetains12
           // detains12("en-US"),
           // detains1300"),
-          // speakdetains13
           // detains13("en-US"),
           // detains1400"),
-          // speakdetains14
           // detains14("en-US"),
           // detains1500"),
-          // speakdetains15
           // detains15("en-US"),
           // detains1600"),
-          // speakdetains16
           // detains16("en-US"),
           // detains1700"),
-          // speakdetains17
           // detains17("en-US"),
           // detains1800"),
-          // speakdetains18
           // detains18("en-US"),
           // detains1900"),
-          // speakdetains19
           // detains19("en-US"),
           // "He has been detained without trial for nearly two years now.0"),
-          // speakdetains20
           // detains20("en-US"),
           // detains2100"),
-          // speakdetains21
           // detains21("en-US"),
           // detains2200"),
-          // speakdetains22
           // detains22("en-US"),
         ],
       ),

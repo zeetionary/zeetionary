@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -276,61 +274,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeputys3("en-US"),
           ),
           // deputys400"),
-          // speakdeputys4
           // deputys4("en-US"),
           // deputys500"),
-          // speakdeputys5
           // deputys5("en-US"),
           // deputys600"),
-          // speakdeputys6
           // deputys6("en-US"),
           // deputys700"),
-          // speakdeputys7
           // deputys7("en-US"),
           // deputys800"),
-          // speakdeputys8
           // deputys8("en-US"),
           // deputys900"),
-          // speakdeputys9
           // deputys9("en-US"),
           // deputys1000"),
-          // speakdeputys10
           // deputys10("en-US"),
           // deputys1100"),
-          // speakdeputys11
           // deputys11("en-US"),
           // deputys1200"),
-          // speakdeputys12
           // deputys12("en-US"),
           // deputys1300"),
-          // speakdeputys13
           // deputys13("en-US"),
           // deputys1400"),
-          // speakdeputys14
           // deputys14("en-US"),
           // deputys1500"),
-          // speakdeputys15
           // deputys15("en-US"),
           // deputys1600"),
-          // speakdeputys16
           // deputys16("en-US"),
           // deputys1700"),
-          // speakdeputys17
           // deputys17("en-US"),
           // deputys1800"),
-          // speakdeputys18
           // deputys18("en-US"),
           // deputys1900"),
-          // speakdeputys19
           // deputys19("en-US"),
           // "She was appointed deputy head of the school.0"),
-          // speakdeputys20
           // deputys20("en-US"),
           // deputys2100"),
-          // speakdeputys21
           // deputys21("en-US"),
           // deputys2200"),
-          // speakdeputys22
           // deputys22("en-US"),
         ],
       ),

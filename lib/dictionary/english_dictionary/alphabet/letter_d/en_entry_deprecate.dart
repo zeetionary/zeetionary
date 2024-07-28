@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -284,61 +282,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeprecates3("en-US"),
           ),
           // deprecates400"),
-          // speakdeprecates4
           // deprecates4("en-US"),
           // deprecates500"),
-          // speakdeprecates5
           // deprecates5("en-US"),
           // deprecates600"),
-          // speakdeprecates6
           // deprecates6("en-US"),
           // deprecates700"),
-          // speakdeprecates7
           // deprecates7("en-US"),
           // deprecates800"),
-          // speakdeprecates8
           // deprecates8("en-US"),
           // deprecates900"),
-          // speakdeprecates9
           // deprecates9("en-US"),
           // deprecates1000"),
-          // speakdeprecates10
           // deprecates10("en-US"),
           // deprecates1100"),
-          // speakdeprecates11
           // deprecates11("en-US"),
           // deprecates1200"),
-          // speakdeprecates12
           // deprecates12("en-US"),
           // deprecates1300"),
-          // speakdeprecates13
           // deprecates13("en-US"),
           // deprecates1400"),
-          // speakdeprecates14
           // deprecates14("en-US"),
           // deprecates1500"),
-          // speakdeprecates15
           // deprecates15("en-US"),
           // deprecates1600"),
-          // speakdeprecates16
           // deprecates16("en-US"),
           // deprecates1700"),
-          // speakdeprecates17
           // deprecates17("en-US"),
           // deprecates1800"),
-          // speakdeprecates18
           // deprecates18("en-US"),
           // deprecates1900"),
-          // speakdeprecates19
           // deprecates19("en-US"),
           // "He always deprecates my achievements.0"),
-          // speakdeprecates20
           // deprecates20("en-US"),
           // deprecates2100"),
-          // speakdeprecates21
           // deprecates21("en-US"),
           // deprecates2200"),
-          // speakdeprecates22
           // deprecates22("en-US"),
         ],
       ),

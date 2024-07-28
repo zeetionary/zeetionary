@@ -295,9 +295,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,40 +385,28 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelays10("en-US"),
           ),
           // delays1100"),
-          // speakdelays11
           // delays11("en-US"),
           // delays1200"),
-          // speakdelays12
           // delays12("en-US"),
           // delays1300"),
-          // speakdelays13
           // delays13("en-US"),
           // delays1400"),
-          // speakdelays14
           // delays14("en-US"),
           // delays1500"),
-          // speakdelays15
           // delays15("en-US"),
           // delays1600"),
-          // speakdelays16
           // delays16("en-US"),
           // delays1700"),
-          // speakdelays17
           // delays17("en-US"),
           // delays1800"),
-          // speakdelays18
           // delays18("en-US"),
           // delays1900"),
-          // speakdelays19
           // delays19("en-US"),
           // "Increased congestion and traffic delays are expected.0"),
-          // speakdelays20
           // delays20("en-US"),
           // delays2100"),
-          // speakdelays21
           // delays21("en-US"),
           // delays2200"),
-          // speakdelays22
           // delays22("en-US"),
         ],
       ),

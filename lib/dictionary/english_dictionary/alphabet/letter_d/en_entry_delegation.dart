@@ -250,9 +250,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -296,58 +294,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelegations4("en-US"),
           ),
           // delegations500"),
-          // speakdelegations5
           // delegations5("en-US"),
           // delegations600"),
-          // speakdelegations6
           // delegations6("en-US"),
           // delegations700"),
-          // speakdelegations7
           // delegations7("en-US"),
           // delegations800"),
-          // speakdelegations8
           // delegations8("en-US"),
           // delegations900"),
-          // speakdelegations9
           // delegations9("en-US"),
           // delegations1000"),
-          // speakdelegations10
           // delegations10("en-US"),
           // delegations1100"),
-          // speakdelegations11
           // delegations11("en-US"),
           // delegations1200"),
-          // speakdelegations12
           // delegations12("en-US"),
           // delegations1300"),
-          // speakdelegations13
           // delegations13("en-US"),
           // delegations1400"),
-          // speakdelegations14
           // delegations14("en-US"),
           // delegations1500"),
-          // speakdelegations15
           // delegations15("en-US"),
           // delegations1600"),
-          // speakdelegations16
           // delegations16("en-US"),
           // delegations1700"),
-          // speakdelegations17
           // delegations17("en-US"),
           // delegations1800"),
-          // speakdelegations18
           // delegations18("en-US"),
           // delegations1900"),
-          // speakdelegations19
           // delegations19("en-US"),
           // "The British delegation walked out of the discussions in protest.0"),
-          // speakdelegations20
           // delegations20("en-US"),
           // delegations2100"),
-          // speakdelegations21
           // delegations21("en-US"),
           // delegations2200"),
-          // speakdelegations22
           // delegations22("en-US"),
         ],
       ),

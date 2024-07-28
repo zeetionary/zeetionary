@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoctrinals1("en-US"),
           ),
           // doctrinals200"),
-          // speakdoctrinals2
           // doctrinals2("en-US"),
           // doctrinals300"),
-          // speakdoctrinals3
           // doctrinals3("en-US"),
           // doctrinals400"),
-          // speakdoctrinals4
           // doctrinals4("en-US"),
           // doctrinals500"),
-          // speakdoctrinals5
           // doctrinals5("en-US"),
           // doctrinals600"),
-          // speakdoctrinals6
           // doctrinals6("en-US"),
           // doctrinals700"),
-          // speakdoctrinals7
           // doctrinals7("en-US"),
           // doctrinals800"),
-          // speakdoctrinals8
           // doctrinals8("en-US"),
           // doctrinals900"),
-          // speakdoctrinals9
           // doctrinals9("en-US"),
           // doctrinals_1000"),
-          // speakdoctrinals10
           // doctrinals10("en-US"),
           // doctrinals1100"),
-          // speakdoctrinals11
           // doctrinals11("en-US"),
           // doctrinals1200"),
-          // speakdoctrinals12
           // doctrinals12("en-US"),
           // doctrinals1300"),
-          // speakdoctrinals13
           // doctrinals13("en-US"),
           // doctrinals1400"),
-          // speakdoctrinals14
           // doctrinals14("en-US"),
           // doctrinals1500"),
-          // speakdoctrinals15
           // doctrinals15("en-US"),
           // doctrinals1600"),
-          // speakdoctrinals16
           // doctrinals16("en-US"),
           // doctrinals1700"),
-          // speakdoctrinals17
           // doctrinals17("en-US"),
           // doctrinals1800"),
-          // speakdoctrinals18
           // doctrinals18("en-US"),
           // doctrinals1900"),
-          // speakdoctrinals19
           // doctrinals19("en-US"),
           // doctrinals_2000"),
-          // speakdoctrinals20
           // doctrinals20("en-US"),
           // doctrinals2100"),
-          // speakdoctrinals21
           // doctrinals21("en-US"),
           // doctrinals2200"),
-          // speakdoctrinals22
           // doctrinals22("en-US"),
         ],
       ),

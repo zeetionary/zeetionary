@@ -12,7 +12,6 @@ class EnglishEntryabsolute extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabsolute(String languageCode) async {
-    // speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -20,7 +19,6 @@ class EnglishEntryabsolute extends StatelessWidget {
   }
 
   Future<void> speakab2541(String languageCode) async {
-    // speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -28,7 +26,6 @@ class EnglishEntryabsolute extends StatelessWidget {
   }
 
   Future<void> speaka6587(String languageCode) async {
-    // speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -37,7 +34,6 @@ class EnglishEntryabsolute extends StatelessWidget {
   }
 
   Future<void> speaka7415(String languageCode) async {
-    // speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -45,7 +41,6 @@ class EnglishEntryabsolute extends StatelessWidget {
   }
 
   Future<void> speaka2569(String languageCode) async {
-    // speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -53,7 +48,6 @@ class EnglishEntryabsolute extends StatelessWidget {
   }
 
   Future<void> speaka6254(String languageCode) async {
-    // speakAbsolute
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);

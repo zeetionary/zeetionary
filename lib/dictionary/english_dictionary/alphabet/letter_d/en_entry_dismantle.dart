@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -292,58 +290,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdismantles4("en-US"),
           ),
           // dismantles500"),
-          // speakdismantles5
           // dismantles5("en-US"),
           // dismantles600"),
-          // speakdismantles6
           // dismantles6("en-US"),
           // dismantles700"),
-          // speakdismantles7
           // dismantles7("en-US"),
           // dismantles800"),
-          // speakdismantles8
           // dismantles8("en-US"),
           // dismantles900"),
-          // speakdismantles9
           // dismantles9("en-US"),
           // dismantles_1000"),
-          // speakdismantles10
           // dismantles10("en-US"),
           // dismantles1100"),
-          // speakdismantles11
           // dismantles11("en-US"),
           // dismantles1200"),
-          // speakdismantles12
           // dismantles12("en-US"),
           // dismantles1300"),
-          // speakdismantles13
           // dismantles13("en-US"),
           // dismantles1400"),
-          // speakdismantles14
           // dismantles14("en-US"),
           // dismantles1500"),
-          // speakdismantles15
           // dismantles15("en-US"),
           // dismantles1600"),
-          // speakdismantles16
           // dismantles16("en-US"),
           // dismantles1700"),
-          // speakdismantles17
           // dismantles17("en-US"),
           // dismantles1800"),
-          // speakdismantles18
           // dismantles18("en-US"),
           // dismantles1900"),
-          // speakdismantles19
           // dismantles19("en-US"),
           // dismantles_2000"),
-          // speakdismantles20
           // dismantles20("en-US"),
           // dismantles2100"),
-          // speakdismantles21
           // dismantles21("en-US"),
           // dismantles2200"),
-          // speakdismantles22
           // dismantles22("en-US"),
         ],
       ),

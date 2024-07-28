@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -266,61 +264,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdinghys3("en-US"),
           ),
           // dinghys400"),
-          // speakdinghys4
           // dinghys4("en-US"),
           // dinghys500"),
-          // speakdinghys5
           // dinghys5("en-US"),
           // dinghys600"),
-          // speakdinghys6
           // dinghys6("en-US"),
           // dinghys700"),
-          // speakdinghys7
           // dinghys7("en-US"),
           // dinghys800"),
-          // speakdinghys8
           // dinghys8("en-US"),
           // dinghys900"),
-          // speakdinghys9
           // dinghys9("en-US"),
           // dinghys_1000"),
-          // speakdinghys10
           // dinghys10("en-US"),
           // dinghys1100"),
-          // speakdinghys11
           // dinghys11("en-US"),
           // dinghys1200"),
-          // speakdinghys12
           // dinghys12("en-US"),
           // dinghys1300"),
-          // speakdinghys13
           // dinghys13("en-US"),
           // dinghys1400"),
-          // speakdinghys14
           // dinghys14("en-US"),
           // dinghys1500"),
-          // speakdinghys15
           // dinghys15("en-US"),
           // dinghys1600"),
-          // speakdinghys16
           // dinghys16("en-US"),
           // dinghys1700"),
-          // speakdinghys17
           // dinghys17("en-US"),
           // dinghys1800"),
-          // speakdinghys18
           // dinghys18("en-US"),
           // dinghys1900"),
-          // speakdinghys19
           // dinghys19("en-US"),
           // dinghys_2000"),
-          // speakdinghys20
           // dinghys20("en-US"),
           // dinghys2100"),
-          // speakdinghys21
           // dinghys21("en-US"),
           // dinghys2200"),
-          // speakdinghys22
           // dinghys22("en-US"),
         ],
       ),

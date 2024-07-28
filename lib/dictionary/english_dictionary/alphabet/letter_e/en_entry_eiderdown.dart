@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,45 +365,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeiderdowns1("en-US"),
           ),
           // eiderdowns200eiderdowns2
-          // speakeiderdowns2
           // eiderdowns300eiderdowns3
-          // speakeiderdowns3
           // eiderdowns400eiderdowns4
-          // speakeiderdowns4
           // eiderdowns500eiderdowns5
-          // speakeiderdowns5
           // eiderdowns600eiderdowns6
-          // speakeiderdowns6
           // eiderdowns700eiderdowns7
-          // speakeiderdowns7
           // eiderdowns800eiderdowns8
-          // speakeiderdowns8
           // eiderdowns900eiderdowns9
-          // speakeiderdowns9
           // eiderdowns_1000eiderdowns10
-          // speakeiderdowns10
           // eiderdowns1100eiderdowns11
-          // speakeiderdowns11
           // eiderdowns1200eiderdowns12
-          // speakeiderdowns12
           // eiderdowns1300eiderdowns13
-          // speakeiderdowns13
           // eiderdowns1400eiderdowns14
-          // speakeiderdowns14
           // eiderdowns1500eiderdowns15
-          // speakeiderdowns15
           // eiderdowns1600eiderdowns16
-          // speakeiderdowns16
           // eiderdowns1700eiderdowns17
-          // speakeiderdowns17
           // eiderdowns1800eiderdowns18
-          // speakeiderdowns18
           // eiderdowns1900eiderdowns19
-          // speakeiderdowns19
           // eiderdowns_2000eiderdowns20
-          // speakeiderdowns20
           // eiderdowns2100eiderdowns21
-          // speakeiderdowns21
           // eiderdowns2200eiderdowns22
           // speakeiderdowns22("en-US"""),
           //         ),

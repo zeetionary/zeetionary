@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisplacements1("en-US"),
           ),
           // displacements200"),
-          // speakdisplacements2
           // displacements2("en-US"),
           // displacements300"),
-          // speakdisplacements3
           // displacements3("en-US"),
           // displacements400"),
-          // speakdisplacements4
           // displacements4("en-US"),
           // displacements500"),
-          // speakdisplacements5
           // displacements5("en-US"),
           // displacements600"),
-          // speakdisplacements6
           // displacements6("en-US"),
           // displacements700"),
-          // speakdisplacements7
           // displacements7("en-US"),
           // displacements800"),
-          // speakdisplacements8
           // displacements8("en-US"),
           // displacements900"),
-          // speakdisplacements9
           // displacements9("en-US"),
           // displacements_1000"),
-          // speakdisplacements10
           // displacements10("en-US"),
           // displacements1100"),
-          // speakdisplacements11
           // displacements11("en-US"),
           // displacements1200"),
-          // speakdisplacements12
           // displacements12("en-US"),
           // displacements1300"),
-          // speakdisplacements13
           // displacements13("en-US"),
           // displacements1400"),
-          // speakdisplacements14
           // displacements14("en-US"),
           // displacements1500"),
-          // speakdisplacements15
           // displacements15("en-US"),
           // displacements1600"),
-          // speakdisplacements16
           // displacements16("en-US"),
           // displacements1700"),
-          // speakdisplacements17
           // displacements17("en-US"),
           // displacements1800"),
-          // speakdisplacements18
           // displacements18("en-US"),
           // displacements1900"),
-          // speakdisplacements19
           // displacements19("en-US"),
           // displacements_2000"),
-          // speakdisplacements20
           // displacements20("en-US"),
           // displacements2100"),
-          // speakdisplacements21
           // displacements21("en-US"),
           // displacements2200"),
-          // speakdisplacements22
           // displacements22("en-US"),
         ],
       ),

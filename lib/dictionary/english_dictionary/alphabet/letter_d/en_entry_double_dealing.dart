@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoubledealings1("en-US"),
           ),
           // doubledealings200"),
-          // speakdoubledealings2
           // doubledealings2("en-US"),
           // doubledealings300"),
-          // speakdoubledealings3
           // doubledealings3("en-US"),
           // doubledealings400"),
-          // speakdoubledealings4
           // doubledealings4("en-US"),
           // doubledealings500"),
-          // speakdoubledealings5
           // doubledealings5("en-US"),
           // doubledealings600"),
-          // speakdoubledealings6
           // doubledealings6("en-US"),
           // doubledealings700"),
-          // speakdoubledealings7
           // doubledealings7("en-US"),
           // doubledealings800"),
-          // speakdoubledealings8
           // doubledealings8("en-US"),
           // doubledealings900"),
-          // speakdoubledealings9
           // doubledealings9("en-US"),
           // doubledealings_1000"),
-          // speakdoubledealings10
           // doubledealings10("en-US"),
           // doubledealings1100"),
-          // speakdoubledealings11
           // doubledealings11("en-US"),
           // doubledealings1200"),
-          // speakdoubledealings12
           // doubledealings12("en-US"),
           // doubledealings1300"),
-          // speakdoubledealings13
           // doubledealings13("en-US"),
           // doubledealings1400"),
-          // speakdoubledealings14
           // doubledealings14("en-US"),
           // doubledealings1500"),
-          // speakdoubledealings15
           // doubledealings15("en-US"),
           // doubledealings1600"),
-          // speakdoubledealings16
           // doubledealings16("en-US"),
           // doubledealings1700"),
-          // speakdoubledealings17
           // doubledealings17("en-US"),
           // doubledealings1800"),
-          // speakdoubledealings18
           // doubledealings18("en-US"),
           // doubledealings1900"),
-          // speakdoubledealings19
           // doubledealings19("en-US"),
           // doubledealings_2000"),
-          // speakdoubledealings20
           // doubledealings20("en-US"),
           // doubledealings2100"),
-          // speakdoubledealings21
           // doubledealings21("en-US"),
           // doubledealings2200"),
-          // speakdoubledealings22
           // doubledealings22("en-US"),
         ],
       ),

@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdramatists1("en-US"),
           ),
           // dramatists200"),
-          // speakdramatists2
           // dramatists2("en-US"),
           // dramatists300"),
-          // speakdramatists3
           // dramatists3("en-US"),
           // dramatists400"),
-          // speakdramatists4
           // dramatists4("en-US"),
           // dramatists500"),
-          // speakdramatists5
           // dramatists5("en-US"),
           // dramatists600"),
-          // speakdramatists6
           // dramatists6("en-US"),
           // dramatists700"),
-          // speakdramatists7
           // dramatists7("en-US"),
           // dramatists800"),
-          // speakdramatists8
           // dramatists8("en-US"),
           // dramatists900"),
-          // speakdramatists9
           // dramatists9("en-US"),
           // dramatists_1000"),
-          // speakdramatists10
           // dramatists10("en-US"),
           // dramatists1100"),
-          // speakdramatists11
           // dramatists11("en-US"),
           // dramatists1200"),
-          // speakdramatists12
           // dramatists12("en-US"),
           // dramatists1300"),
-          // speakdramatists13
           // dramatists13("en-US"),
           // dramatists1400"),
-          // speakdramatists14
           // dramatists14("en-US"),
           // dramatists1500"),
-          // speakdramatists15
           // dramatists15("en-US"),
           // dramatists1600"),
-          // speakdramatists16
           // dramatists16("en-US"),
           // dramatists1700"),
-          // speakdramatists17
           // dramatists17("en-US"),
           // dramatists1800"),
-          // speakdramatists18
           // dramatists18("en-US"),
           // dramatists1900"),
-          // speakdramatists19
           // dramatists19("en-US"),
           // dramatists_2000"),
-          // speakdramatists20
           // dramatists20("en-US"),
           // dramatists2100"),
-          // speakdramatists21
           // dramatists21("en-US"),
           // dramatists2200"),
-          // speakdramatists22
           // dramatists22("en-US"),
         ],
       ),

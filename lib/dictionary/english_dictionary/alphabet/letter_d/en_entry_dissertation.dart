@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissertations2("en-US"),
           ),
           // dissertations300"),
-          // speakdissertations3
           // dissertations3("en-US"),
           // dissertations400"),
-          // speakdissertations4
           // dissertations4("en-US"),
           // dissertations500"),
-          // speakdissertations5
           // dissertations5("en-US"),
           // dissertations600"),
-          // speakdissertations6
           // dissertations6("en-US"),
           // dissertations700"),
-          // speakdissertations7
           // dissertations7("en-US"),
           // dissertations800"),
-          // speakdissertations8
           // dissertations8("en-US"),
           // dissertations900"),
-          // speakdissertations9
           // dissertations9("en-US"),
           // dissertations_1000"),
-          // speakdissertations10
           // dissertations10("en-US"),
           // dissertations1100"),
-          // speakdissertations11
           // dissertations11("en-US"),
           // dissertations1200"),
-          // speakdissertations12
           // dissertations12("en-US"),
           // dissertations1300"),
-          // speakdissertations13
           // dissertations13("en-US"),
           // dissertations1400"),
-          // speakdissertations14
           // dissertations14("en-US"),
           // dissertations1500"),
-          // speakdissertations15
           // dissertations15("en-US"),
           // dissertations1600"),
-          // speakdissertations16
           // dissertations16("en-US"),
           // dissertations1700"),
-          // speakdissertations17
           // dissertations17("en-US"),
           // dissertations1800"),
-          // speakdissertations18
           // dissertations18("en-US"),
           // dissertations1900"),
-          // speakdissertations19
           // dissertations19("en-US"),
           // dissertations_2000"),
-          // speakdissertations20
           // dissertations20("en-US"),
           // dissertations2100"),
-          // speakdissertations21
           // dissertations21("en-US"),
           // dissertations2200"),
-          // speakdissertations22
           // dissertations22("en-US"),
         ],
       ),

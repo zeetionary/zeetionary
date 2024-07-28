@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdotcoms2("en-US"),
           ),
           // dotcoms300"),
-          // speakdotcoms3
           // dotcoms3("en-US"),
           // dotcoms400"),
-          // speakdotcoms4
           // dotcoms4("en-US"),
           // dotcoms500"),
-          // speakdotcoms5
           // dotcoms5("en-US"),
           // dotcoms600"),
-          // speakdotcoms6
           // dotcoms6("en-US"),
           // dotcoms700"),
-          // speakdotcoms7
           // dotcoms7("en-US"),
           // dotcoms800"),
-          // speakdotcoms8
           // dotcoms8("en-US"),
           // dotcoms900"),
-          // speakdotcoms9
           // dotcoms9("en-US"),
           // dotcoms_1000"),
-          // speakdotcoms10
           // dotcoms10("en-US"),
           // dotcoms1100"),
-          // speakdotcoms11
           // dotcoms11("en-US"),
           // dotcoms1200"),
-          // speakdotcoms12
           // dotcoms12("en-US"),
           // dotcoms1300"),
-          // speakdotcoms13
           // dotcoms13("en-US"),
           // dotcoms1400"),
-          // speakdotcoms14
           // dotcoms14("en-US"),
           // dotcoms1500"),
-          // speakdotcoms15
           // dotcoms15("en-US"),
           // dotcoms1600"),
-          // speakdotcoms16
           // dotcoms16("en-US"),
           // dotcoms1700"),
-          // speakdotcoms17
           // dotcoms17("en-US"),
           // dotcoms1800"),
-          // speakdotcoms18
           // dotcoms18("en-US"),
           // dotcoms1900"),
-          // speakdotcoms19
           // dotcoms19("en-US"),
           // dotcoms_2000"),
-          // speakdotcoms20
           // dotcoms20("en-US"),
           // dotcoms2100"),
-          // speakdotcoms21
           // dotcoms21("en-US"),
           // dotcoms2200"),
-          // speakdotcoms22
           // dotcoms22("en-US"),
         ],
       ),

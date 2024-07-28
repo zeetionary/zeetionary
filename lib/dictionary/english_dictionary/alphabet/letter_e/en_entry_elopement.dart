@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelopements1("en-US"),
           ),
           // elopements200elopements2
-          // speakelopements2
           // elopements300elopements3
-          // speakelopements3
           // elopements400elopements4
-          // speakelopements4
           // elopements500elopements5
-          // speakelopements5
           // elopements600elopements6
-          // speakelopements6
           // elopements700elopements7
-          // speakelopements7
           // elopements800elopements8
-          // speakelopements8
           // elopements900elopements9
-          // speakelopements9
           // elopements_1000elopements10
-          // speakelopements10
           // elopements1100elopements11
-          // speakelopements11
           // elopements1200elopements12
-          // speakelopements12
           // elopements1300elopements13
-          // speakelopements13
           // elopements1400elopements14
-          // speakelopements14
           // elopements1500elopements15
-          // speakelopements15
           // elopements1600elopements16
-          // speakelopements16
           // elopements1700elopements17
-          // speakelopements17
           // elopements1800elopements18
-          // speakelopements18
           // elopements1900elopements19
-          // speakelopements19
           // elopements_2000elopements20
-          // speakelopements20
           // elopements2100elopements21
-          // speakelopements21
           // elopements2200elopements22
           // speakelopements22("en-US"""),
           //         ),

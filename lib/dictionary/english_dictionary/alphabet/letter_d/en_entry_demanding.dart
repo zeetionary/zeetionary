@@ -250,9 +250,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -292,58 +290,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemandings4("en-US"),
           ),
           // demandings500"),
-          // speakdemandings5
           // demandings5("en-US"),
           // demandings600"),
-          // speakdemandings6
           // demandings6("en-US"),
           // demandings700"),
-          // speakdemandings7
           // demandings7("en-US"),
           // demandings800"),
-          // speakdemandings8
           // demandings8("en-US"),
           // demandings900"),
-          // speakdemandings9
           // demandings9("en-US"),
           // demandings1000"),
-          // speakdemandings10
           // demandings10("en-US"),
           // demandings1100"),
-          // speakdemandings11
           // demandings11("en-US"),
           // demandings1200"),
-          // speakdemandings12
           // demandings12("en-US"),
           // demandings1300"),
-          // speakdemandings13
           // demandings13("en-US"),
           // demandings1400"),
-          // speakdemandings14
           // demandings14("en-US"),
           // demandings1500"),
-          // speakdemandings15
           // demandings15("en-US"),
           // demandings1600"),
-          // speakdemandings16
           // demandings16("en-US"),
           // demandings1700"),
-          // speakdemandings17
           // demandings17("en-US"),
           // demandings1800"),
-          // speakdemandings18
           // demandings18("en-US"),
           // demandings1900"),
-          // speakdemandings19
           // demandings19("en-US"),
           // "Childbirth is physically and emotionally very demanding and can leave you feeling shocked and drained.0"),
-          // speakdemandings20
           // demandings20("en-US"),
           // demandings2100"),
-          // speakdemandings21
           // demandings21("en-US"),
           // demandings2200"),
-          // speakdemandings22
           // demandings22("en-US"),
         ],
       ),

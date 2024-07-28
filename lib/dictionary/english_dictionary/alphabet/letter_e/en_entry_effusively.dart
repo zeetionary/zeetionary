@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeffusivelys1("en-US"),
           ),
           // effusivelys200effusivelys2
-          // speakeffusivelys2
           // effusivelys300effusivelys3
-          // speakeffusivelys3
           // effusivelys400effusivelys4
-          // speakeffusivelys4
           // effusivelys500effusivelys5
-          // speakeffusivelys5
           // effusivelys600effusivelys6
-          // speakeffusivelys6
           // effusivelys700effusivelys7
-          // speakeffusivelys7
           // effusivelys800effusivelys8
-          // speakeffusivelys8
           // effusivelys900effusivelys9
-          // speakeffusivelys9
           // effusivelys_1000effusivelys10
-          // speakeffusivelys10
           // effusivelys1100effusivelys11
-          // speakeffusivelys11
           // effusivelys1200effusivelys12
-          // speakeffusivelys12
           // effusivelys1300effusivelys13
-          // speakeffusivelys13
           // effusivelys1400effusivelys14
-          // speakeffusivelys14
           // effusivelys1500effusivelys15
-          // speakeffusivelys15
           // effusivelys1600effusivelys16
-          // speakeffusivelys16
           // effusivelys1700effusivelys17
-          // speakeffusivelys17
           // effusivelys1800effusivelys18
-          // speakeffusivelys18
           // effusivelys1900effusivelys19
-          // speakeffusivelys19
           // effusivelys_2000effusivelys20
-          // speakeffusivelys20
           // effusivelys2100effusivelys21
-          // speakeffusivelys21
           // effusivelys2200effusivelys22
           // speakeffusivelys22("en-US"""),
           //         ),

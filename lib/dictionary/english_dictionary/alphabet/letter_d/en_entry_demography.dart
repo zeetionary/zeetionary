@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemographys1("en-US"),
           ),
           // demographys200"),
-          // speakdemographys2
           // demographys2("en-US"),
           // demographys300"),
-          // speakdemographys3
           // demographys3("en-US"),
           // demographys400"),
-          // speakdemographys4
           // demographys4("en-US"),
           // demographys500"),
-          // speakdemographys5
           // demographys5("en-US"),
           // demographys600"),
-          // speakdemographys6
           // demographys6("en-US"),
           // demographys700"),
-          // speakdemographys7
           // demographys7("en-US"),
           // demographys800"),
-          // speakdemographys8
           // demographys8("en-US"),
           // demographys900"),
-          // speakdemographys9
           // demographys9("en-US"),
           // demographys1000"),
-          // speakdemographys10
           // demographys10("en-US"),
           // demographys1100"),
-          // speakdemographys11
           // demographys11("en-US"),
           // demographys1200"),
-          // speakdemographys12
           // demographys12("en-US"),
           // demographys1300"),
-          // speakdemographys13
           // demographys13("en-US"),
           // demographys1400"),
-          // speakdemographys14
           // demographys14("en-US"),
           // demographys1500"),
-          // speakdemographys15
           // demographys15("en-US"),
           // demographys1600"),
-          // speakdemographys16
           // demographys16("en-US"),
           // demographys1700"),
-          // speakdemographys17
           // demographys17("en-US"),
           // demographys1800"),
-          // speakdemographys18
           // demographys18("en-US"),
           // demographys1900"),
-          // speakdemographys19
           // demographys19("en-US"),
           // demographys2000"),
-          // speakdemographys20
           // demographys20("en-US"),
           // demographys2100"),
-          // speakdemographys21
           // demographys21("en-US"),
           // demographys2200"),
-          // speakdemographys22
           // demographys22("en-US"),
         ],
       ),

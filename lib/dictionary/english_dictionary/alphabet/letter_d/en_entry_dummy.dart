@@ -386,9 +386,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -448,55 +446,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdummys5("en-US"),
           ),
           // """He was accused of dummying a penalty.
-          // speakdummys6
           // dummys6("en-US"""),
           // dummys700
-          // speakdummys7
           // dummys7("en-US"""),
           // dummys800
-          // speakdummys8
           // dummys8("en-US"""),
           // dummys900
-          // speakdummys9
           // dummys9("en-US"""),
           // dummys_1000
-          // speakdummys10
           // dummys10("en-US"""),
           // dummys1100
-          // speakdummys11
           // dummys11("en-US"""),
           // dummys1200
-          // speakdummys12
           // dummys12("en-US"""),
           // dummys1300
-          // speakdummys13
           // dummys13("en-US"""),
           // dummys1400
-          // speakdummys14
           // dummys14("en-US"""),
           // dummys1500
-          // speakdummys15
           // dummys15("en-US"""),
           // dummys1600
-          // speakdummys16
           // dummys16("en-US"""),
           // dummys1700
-          // speakdummys17
           // dummys17("en-US"""),
           // dummys1800
-          // speakdummys18
           // dummys18("en-US"""),
           // dummys1900
-          // speakdummys19
           // dummys19("en-US"""),
           // dummys_2000
-          // speakdummys20
           // dummys20("en-US"""),
           // dummys2100
-          // speakdummys21
           // dummys21("en-US"""),
           // dummys2200
-          // speakdummys22
           // dummys22("en-US"""),
         ],
       ),

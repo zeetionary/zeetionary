@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -291,58 +289,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdictators4("en-US"),
           ),
           // dictators500"),
-          // speakdictators5
           // dictators5
           // dictators600"),
-          // speakdictators6
           // dictators6
           // dictators700"),
-          // speakdictators7
           // dictators7
           // dictators800"),
-          // speakdictators8
           // dictators8
           // dictators900"),
-          // speakdictators9
           // dictators9
           // dictators_1000"),
-          // speakdictators10
           // dictators10
           // dictators1100"),
-          // speakdictators11
           // dictators11
           // dictators1200"),
-          // speakdictators12
           // dictators12
           // dictators1300"),
-          // speakdictators13
           // dictators13
           // dictators1400"),
-          // speakdictators14
           // dictators14
           // dictators1500"),
-          // speakdictators15
           // dictators15
           // dictators1600"),
-          // speakdictators16
           // dictators16
           // dictators1700"),
-          // speakdictators17
           // dictators17
           // dictators1800"),
-          // speakdictators18
           // dictators18
           // dictators1900"),
-          // speakdictators19
           // dictators19
           // dictators_2000"),
-          // speakdictators20
           // dictators20
           // dictators2100"),
-          // speakdictators21
           // dictators21
           // dictators2200"),
-          // speakdictators22
           // dictators22("en-US"),
         ],
       ),

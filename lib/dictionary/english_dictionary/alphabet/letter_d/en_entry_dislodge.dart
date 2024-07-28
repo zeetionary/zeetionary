@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -276,61 +274,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdislodges3("en-US"),
           ),
           // dislodges400"),
-          // speakdislodges4
           // dislodges4("en-US"),
           // dislodges500"),
-          // speakdislodges5
           // dislodges5("en-US"),
           // dislodges600"),
-          // speakdislodges6
           // dislodges6("en-US"),
           // dislodges700"),
-          // speakdislodges7
           // dislodges7("en-US"),
           // dislodges800"),
-          // speakdislodges8
           // dislodges8("en-US"),
           // dislodges900"),
-          // speakdislodges9
           // dislodges9("en-US"),
           // dislodges_1000"),
-          // speakdislodges10
           // dislodges10("en-US"),
           // dislodges1100"),
-          // speakdislodges11
           // dislodges11("en-US"),
           // dislodges1200"),
-          // speakdislodges12
           // dislodges12("en-US"),
           // dislodges1300"),
-          // speakdislodges13
           // dislodges13("en-US"),
           // dislodges1400"),
-          // speakdislodges14
           // dislodges14("en-US"),
           // dislodges1500"),
-          // speakdislodges15
           // dislodges15("en-US"),
           // dislodges1600"),
-          // speakdislodges16
           // dislodges16("en-US"),
           // dislodges1700"),
-          // speakdislodges17
           // dislodges17("en-US"),
           // dislodges1800"),
-          // speakdislodges18
           // dislodges18("en-US"),
           // dislodges1900"),
-          // speakdislodges19
           // dislodges19("en-US"),
           // dislodges_2000"),
-          // speakdislodges20
           // dislodges20("en-US"),
           // dislodges2100"),
-          // speakdislodges21
           // dislodges21("en-US"),
           // dislodges2200"),
-          // speakdislodges22
           // dislodges22("en-US"),
         ],
       ),

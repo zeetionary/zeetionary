@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -249,7 +247,6 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // discourses200"),
-          // speakdiscourses2
           // discourses2("en-US"),
           // // const DividerSentences(),
           // Row(
@@ -276,61 +273,42 @@ class KurdishMeaning extends StatelessWidget {
           //   ],
           // ),
           // discourses400"),
-          // speakdiscourses4
           // discourses4
           // discourses500"),
-          // speakdiscourses5
           // discourses5
           // discourses600"),
-          // speakdiscourses6
           // discourses6
           // discourses700"),
-          // speakdiscourses7
           // discourses7
           // discourses800"),
-          // speakdiscourses8
           // discourses8
           // discourses900"),
-          // speakdiscourses9
           // discourses9
           // discourses_1000"),
-          // speakdiscourses10
           // discourses10
           // discourses1100"),
-          // speakdiscourses11
           // discourses11
           // discourses1200"),
-          // speakdiscourses12
           // discourses12
           // discourses1300"),
-          // speakdiscourses13
           // discourses13
           // discourses1400"),
-          // speakdiscourses14
           // discourses14
           // discourses1500"),
-          // speakdiscourses15
           // discourses15
           // discourses1600"),
-          // speakdiscourses16
           // discourses16
           // discourses1700"),
-          // speakdiscourses17
           // discourses17
           // discourses1800"),
-          // speakdiscourses18
           // discourses18
           // discourses1900"),
-          // speakdiscourses19
           // discourses19
           // discourses_2000"),
-          // speakdiscourses20
           // discourses20
           // discourses2100"),
-          // speakdiscourses21
           // discourses21
           // discourses2200"),
-          // speakdiscourses22
           // discourses22("en-US"),
         ],
       ),

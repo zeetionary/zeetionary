@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrawingpins1("en-US"),
           ),
           // drawingpins200"),
-          // speakdrawingpins2
           // drawingpins2
           // drawingpins300"),
-          // speakdrawingpins3
           // drawingpins3
           // drawingpins400"),
-          // speakdrawingpins4
           // drawingpins4
           // drawingpins500"),
-          // speakdrawingpins5
           // drawingpins5
           // drawingpins600"),
-          // speakdrawingpins6
           // drawingpins6
           // drawingpins700"),
-          // speakdrawingpins7
           // drawingpins7
           // drawingpins800"),
-          // speakdrawingpins8
           // drawingpins8
           // drawingpins900"),
-          // speakdrawingpins9
           // drawingpins9
           // drawingpins_1000"),
-          // speakdrawingpins10
           // drawingpins10
           // drawingpins1100"),
-          // speakdrawingpins11
           // drawingpins11
           // drawingpins1200"),
-          // speakdrawingpins12
           // drawingpins12
           // drawingpins1300"),
-          // speakdrawingpins13
           // drawingpins13
           // drawingpins1400"),
-          // speakdrawingpins14
           // drawingpins14
           // drawingpins1500"),
-          // speakdrawingpins15
           // drawingpins15
           // drawingpins1600"),
-          // speakdrawingpins16
           // drawingpins16
           // drawingpins1700"),
-          // speakdrawingpins17
           // drawingpins17
           // drawingpins1800"),
-          // speakdrawingpins18
           // drawingpins18
           // drawingpins1900"),
-          // speakdrawingpins19
           // drawingpins19
           // drawingpins_2000"),
-          // speakdrawingpins20
           // drawingpins20
           // drawingpins2100"),
-          // speakdrawingpins21
           // drawingpins21
           // drawingpins2200"),
-          // speakdrawingpins22
           // drawingpins22("en-US"),
         ],
       ),

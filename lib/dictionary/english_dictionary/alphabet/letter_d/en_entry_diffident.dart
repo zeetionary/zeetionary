@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -252,64 +250,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiffidents2("en-US"),
           ),
           // diffidents300"),
-          // speakdiffidents3
           // diffidents3("en-US"),
           // diffidents400"),
-          // speakdiffidents4
           // diffidents4("en-US"),
           // diffidents500"),
-          // speakdiffidents5
           // diffidents5("en-US"),
           // diffidents600"),
-          // speakdiffidents6
           // diffidents6("en-US"),
           // diffidents700"),
-          // speakdiffidents7
           // diffidents7("en-US"),
           // diffidents800"),
-          // speakdiffidents8
           // diffidents8("en-US"),
           // diffidents900"),
-          // speakdiffidents9
           // diffidents9("en-US"),
           // diffidents_1000"),
-          // speakdiffidents10
           // diffidents10("en-US"),
           // diffidents1100"),
-          // speakdiffidents11
           // diffidents11("en-US"),
           // diffidents1200"),
-          // speakdiffidents12
           // diffidents12("en-US"),
           // diffidents1300"),
-          // speakdiffidents13
           // diffidents13("en-US"),
           // diffidents1400"),
-          // speakdiffidents14
           // diffidents14("en-US"),
           // diffidents1500"),
-          // speakdiffidents15
           // diffidents15("en-US"),
           // diffidents1600"),
-          // speakdiffidents16
           // diffidents16("en-US"),
           // diffidents1700"),
-          // speakdiffidents17
           // diffidents17("en-US"),
           // diffidents1800"),
-          // speakdiffidents18
           // diffidents18("en-US"),
           // diffidents1900"),
-          // speakdiffidents19
           // diffidents19("en-US"),
           // diffidents_2000"),
-          // speakdiffidents20
           // diffidents20("en-US"),
           // diffidents2100"),
-          // speakdiffidents21
           // diffidents21("en-US"),
           // diffidents2200"),
-          // speakdiffidents22
           // diffidents22("en-US"),
         ],
       ),

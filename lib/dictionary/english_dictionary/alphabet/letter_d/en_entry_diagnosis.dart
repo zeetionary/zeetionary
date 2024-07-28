@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -267,61 +265,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiagnosiss3("en-US"),
           ),
           // diagnosiss400"),
-          // speakdiagnosiss4
           // diagnosiss4("en-US"),
           // diagnosiss500"),
-          // speakdiagnosiss5
           // diagnosiss5("en-US"),
           // diagnosiss600"),
-          // speakdiagnosiss6
           // diagnosiss6("en-US"),
           // diagnosiss700"),
-          // speakdiagnosiss7
           // diagnosiss7("en-US"),
           // diagnosiss800"),
-          // speakdiagnosiss8
           // diagnosiss8("en-US"),
           // diagnosiss900"),
-          // speakdiagnosiss9
           // diagnosiss9("en-US"),
           // diagnosiss_1000"),
-          // speakdiagnosiss10
           // diagnosiss10("en-US"),
           // diagnosiss1100"),
-          // speakdiagnosiss11
           // diagnosiss11("en-US"),
           // diagnosiss1200"),
-          // speakdiagnosiss12
           // diagnosiss12("en-US"),
           // diagnosiss1300"),
-          // speakdiagnosiss13
           // diagnosiss13("en-US"),
           // diagnosiss1400"),
-          // speakdiagnosiss14
           // diagnosiss14("en-US"),
           // diagnosiss1500"),
-          // speakdiagnosiss15
           // diagnosiss15("en-US"),
           // diagnosiss1600"),
-          // speakdiagnosiss16
           // diagnosiss16("en-US"),
           // diagnosiss1700"),
-          // speakdiagnosiss17
           // diagnosiss17("en-US"),
           // diagnosiss1800"),
-          // speakdiagnosiss18
           // diagnosiss18("en-US"),
           // diagnosiss1900"),
-          // speakdiagnosiss19
           // diagnosiss19("en-US"),
           // diagnosiss_2000"),
-          // speakdiagnosiss20
           // diagnosiss20("en-US"),
           // diagnosiss2100"),
-          // speakdiagnosiss21
           // diagnosiss21("en-US"),
           // diagnosiss2200"),
-          // speakdiagnosiss22
           // diagnosiss22("en-US"),
         ],
       ),

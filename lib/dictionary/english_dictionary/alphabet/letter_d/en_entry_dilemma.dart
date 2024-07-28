@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -287,58 +285,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdilemmas4("en-US"),
           ),
           // dilemmas500"),
-          // speakdilemmas5
           // dilemmas5("en-US"),
           // dilemmas600"),
-          // speakdilemmas6
           // dilemmas6("en-US"),
           // dilemmas700"),
-          // speakdilemmas7
           // dilemmas7("en-US"),
           // dilemmas800"),
-          // speakdilemmas8
           // dilemmas8("en-US"),
           // dilemmas900"),
-          // speakdilemmas9
           // dilemmas9("en-US"),
           // dilemmas_1000"),
-          // speakdilemmas10
           // dilemmas10("en-US"),
           // dilemmas1100"),
-          // speakdilemmas11
           // dilemmas11("en-US"),
           // dilemmas1200"),
-          // speakdilemmas12
           // dilemmas12("en-US"),
           // dilemmas1300"),
-          // speakdilemmas13
           // dilemmas13("en-US"),
           // dilemmas1400"),
-          // speakdilemmas14
           // dilemmas14("en-US"),
           // dilemmas1500"),
-          // speakdilemmas15
           // dilemmas15("en-US"),
           // dilemmas1600"),
-          // speakdilemmas16
           // dilemmas16("en-US"),
           // dilemmas1700"),
-          // speakdilemmas17
           // dilemmas17("en-US"),
           // dilemmas1800"),
-          // speakdilemmas18
           // dilemmas18("en-US"),
           // dilemmas1900"),
-          // speakdilemmas19
           // dilemmas19("en-US"),
           // dilemmas_2000"),
-          // speakdilemmas20
           // dilemmas20("en-US"),
           // dilemmas2100"),
-          // speakdilemmas21
           // dilemmas21("en-US"),
           // dilemmas2200"),
-          // speakdilemmas22
           // dilemmas22("en-US"),
         ],
       ),

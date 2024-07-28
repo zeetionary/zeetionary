@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdessertspoons2("en-US"),
           ),
           // dessertspoons300"),
-          // speakdessertspoons3
           // dessertspoons3("en-US"),
           // dessertspoons400"),
-          // speakdessertspoons4
           // dessertspoons4("en-US"),
           // dessertspoons500"),
-          // speakdessertspoons5
           // dessertspoons5("en-US"),
           // dessertspoons600"),
-          // speakdessertspoons6
           // dessertspoons6("en-US"),
           // dessertspoons700"),
-          // speakdessertspoons7
           // dessertspoons7("en-US"),
           // dessertspoons800"),
-          // speakdessertspoons8
           // dessertspoons8("en-US"),
           // dessertspoons900"),
-          // speakdessertspoons9
           // dessertspoons9("en-US"),
           // dessertspoons1000"),
-          // speakdessertspoons10
           // dessertspoons10("en-US"),
           // dessertspoons1100"),
-          // speakdessertspoons11
           // dessertspoons11("en-US"),
           // dessertspoons1200"),
-          // speakdessertspoons12
           // dessertspoons12("en-US"),
           // dessertspoons1300"),
-          // speakdessertspoons13
           // dessertspoons13("en-US"),
           // dessertspoons1400"),
-          // speakdessertspoons14
           // dessertspoons14("en-US"),
           // dessertspoons1500"),
-          // speakdessertspoons15
           // dessertspoons15("en-US"),
           // dessertspoons1600"),
-          // speakdessertspoons16
           // dessertspoons16("en-US"),
           // dessertspoons1700"),
-          // speakdessertspoons17
           // dessertspoons17("en-US"),
           // dessertspoons1800"),
-          // speakdessertspoons18
           // dessertspoons18("en-US"),
           // dessertspoons1900"),
-          // speakdessertspoons19
           // dessertspoons19("en-US"),
           // "Add one dessertspoon of sugar.0"),
-          // speakdessertspoons20
           // dessertspoons20("en-US"),
           // dessertspoons2100"),
-          // speakdessertspoons21
           // dessertspoons21("en-US"),
           // dessertspoons2200"),
-          // speakdessertspoons22
           // dessertspoons22("en-US"),
         ],
       ),

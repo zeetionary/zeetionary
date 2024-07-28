@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // drowsys300"),
-          // speakdrowsys3
           // drowsys3("en-US"),
           // drowsys400"),
-          // speakdrowsys4
           // drowsys4("en-US"),
           // drowsys500"),
-          // speakdrowsys5
           // drowsys5("en-US"),
           // drowsys600"),
-          // speakdrowsys6
           // drowsys6("en-US"),
           // drowsys700"),
-          // speakdrowsys7
           // drowsys7("en-US"),
           // drowsys800"),
-          // speakdrowsys8
           // drowsys8("en-US"),
           // drowsys900"),
-          // speakdrowsys9
           // drowsys9("en-US"),
           // drowsys_1000"),
-          // speakdrowsys10
           // drowsys10("en-US"),
           // drowsys1100"),
-          // speakdrowsys11
           // drowsys11("en-US"),
           // drowsys1200"),
-          // speakdrowsys12
           // drowsys12("en-US"),
           // drowsys1300"),
-          // speakdrowsys13
           // drowsys13("en-US"),
           // drowsys1400"),
-          // speakdrowsys14
           // drowsys14("en-US"),
           // drowsys1500"),
-          // speakdrowsys15
           // drowsys15("en-US"),
           // drowsys1600"),
-          // speakdrowsys16
           // drowsys16("en-US"),
           // drowsys1700"),
-          // speakdrowsys17
           // drowsys17("en-US"),
           // drowsys1800"),
-          // speakdrowsys18
           // drowsys18("en-US"),
           // drowsys1900"),
-          // speakdrowsys19
           // drowsys19("en-US"),
           // drowsys_2000"),
-          // speakdrowsys20
           // drowsys20("en-US"),
           // drowsys2100"),
-          // speakdrowsys21
           // drowsys21("en-US"),
           // drowsys2200"),
-          // speakdrowsys22
           // drowsys22("en-US"),
         ],
       ),

@@ -374,9 +374,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -421,58 +419,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdividends4("en-US"),
           ),
           // dividends500"),
-          // speakdividends5
           // dividends5
           // dividends600"),
-          // speakdividends6
           // dividends6
           // dividends700"),
-          // speakdividends7
           // dividends7
           // dividends800"),
-          // speakdividends8
           // dividends8
           // dividends900"),
-          // speakdividends9
           // dividends9
           // dividends_1000"),
-          // speakdividends10
           // dividends10
           // dividends1100"),
-          // speakdividends11
           // dividends11
           // dividends1200"),
-          // speakdividends12
           // dividends12
           // dividends1300"),
-          // speakdividends13
           // dividends13
           // dividends1400"),
-          // speakdividends14
           // dividends14
           // dividends1500"),
-          // speakdividends15
           // dividends15
           // dividends1600"),
-          // speakdividends16
           // dividends16
           // dividends1700"),
-          // speakdividends17
           // dividends17
           // dividends1800"),
-          // speakdividends18
           // dividends18
           // dividends1900"),
-          // speakdividends19
           // dividends19
           // dividends_2000"),
-          // speakdividends20
           // dividends20
           // dividends2100"),
-          // speakdividends21
           // dividends21
           // dividends2200"),
-          // speakdividends22
           // dividends22("en-US"),
         ],
       ),

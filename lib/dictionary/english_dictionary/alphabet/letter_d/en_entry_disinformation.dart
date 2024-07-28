@@ -230,9 +230,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisinformations2("en-US"),
           ),
           // disinformations300"),
-          // speakdisinformations3
           // disinformations3("en-US"),
           // disinformations400"),
-          // speakdisinformations4
           // disinformations4("en-US"),
           // disinformations500"),
-          // speakdisinformations5
           // disinformations5("en-US"),
           // disinformations600"),
-          // speakdisinformations6
           // disinformations6("en-US"),
           // disinformations700"),
-          // speakdisinformations7
           // disinformations7("en-US"),
           // disinformations800"),
-          // speakdisinformations8
           // disinformations8("en-US"),
           // disinformations900"),
-          // speakdisinformations9
           // disinformations9("en-US"),
           // disinformations_1000"),
-          // speakdisinformations10
           // disinformations10("en-US"),
           // disinformations1100"),
-          // speakdisinformations11
           // disinformations11("en-US"),
           // disinformations1200"),
-          // speakdisinformations12
           // disinformations12("en-US"),
           // disinformations1300"),
-          // speakdisinformations13
           // disinformations13("en-US"),
           // disinformations1400"),
-          // speakdisinformations14
           // disinformations14("en-US"),
           // disinformations1500"),
-          // speakdisinformations15
           // disinformations15("en-US"),
           // disinformations1600"),
-          // speakdisinformations16
           // disinformations16("en-US"),
           // disinformations1700"),
-          // speakdisinformations17
           // disinformations17("en-US"),
           // disinformations1800"),
-          // speakdisinformations18
           // disinformations18("en-US"),
           // disinformations1900"),
-          // speakdisinformations19
           // disinformations19("en-US"),
           // disinformations_2000"),
-          // speakdisinformations20
           // disinformations20("en-US"),
           // disinformations2100"),
-          // speakdisinformations21
           // disinformations21("en-US"),
           // disinformations2200"),
-          // speakdisinformations22
           // disinformations22("en-US"),
         ],
       ),

@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisloyaltys2("en-US"),
           ),
           // disloyaltys300"),
-          // speakdisloyaltys3
           // disloyaltys3("en-US"),
           // disloyaltys400"),
-          // speakdisloyaltys4
           // disloyaltys4("en-US"),
           // disloyaltys500"),
-          // speakdisloyaltys5
           // disloyaltys5("en-US"),
           // disloyaltys600"),
-          // speakdisloyaltys6
           // disloyaltys6("en-US"),
           // disloyaltys700"),
-          // speakdisloyaltys7
           // disloyaltys7("en-US"),
           // disloyaltys800"),
-          // speakdisloyaltys8
           // disloyaltys8("en-US"),
           // disloyaltys900"),
-          // speakdisloyaltys9
           // disloyaltys9("en-US"),
           // disloyaltys_1000"),
-          // speakdisloyaltys10
           // disloyaltys10("en-US"),
           // disloyaltys1100"),
-          // speakdisloyaltys11
           // disloyaltys11("en-US"),
           // disloyaltys1200"),
-          // speakdisloyaltys12
           // disloyaltys12("en-US"),
           // disloyaltys1300"),
-          // speakdisloyaltys13
           // disloyaltys13("en-US"),
           // disloyaltys1400"),
-          // speakdisloyaltys14
           // disloyaltys14("en-US"),
           // disloyaltys1500"),
-          // speakdisloyaltys15
           // disloyaltys15("en-US"),
           // disloyaltys1600"),
-          // speakdisloyaltys16
           // disloyaltys16("en-US"),
           // disloyaltys1700"),
-          // speakdisloyaltys17
           // disloyaltys17("en-US"),
           // disloyaltys1800"),
-          // speakdisloyaltys18
           // disloyaltys18("en-US"),
           // disloyaltys1900"),
-          // speakdisloyaltys19
           // disloyaltys19("en-US"),
           // disloyaltys_2000"),
-          // speakdisloyaltys20
           // disloyaltys20("en-US"),
           // disloyaltys2100"),
-          // speakdisloyaltys21
           // disloyaltys21("en-US"),
           // disloyaltys2200"),
-          // speakdisloyaltys22
           // disloyaltys22("en-US"),
         ],
       ),

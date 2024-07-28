@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelocutions1("en-US"),
           ),
           // elocutions200elocutions2
-          // speakelocutions2
           // elocutions300elocutions3
-          // speakelocutions3
           // elocutions400elocutions4
-          // speakelocutions4
           // elocutions500elocutions5
-          // speakelocutions5
           // elocutions600elocutions6
-          // speakelocutions6
           // elocutions700elocutions7
-          // speakelocutions7
           // elocutions800elocutions8
-          // speakelocutions8
           // elocutions900elocutions9
-          // speakelocutions9
           // elocutions_1000elocutions10
-          // speakelocutions10
           // elocutions1100elocutions11
-          // speakelocutions11
           // elocutions1200elocutions12
-          // speakelocutions12
           // elocutions1300elocutions13
-          // speakelocutions13
           // elocutions1400elocutions14
-          // speakelocutions14
           // elocutions1500elocutions15
-          // speakelocutions15
           // elocutions1600elocutions16
-          // speakelocutions16
           // elocutions1700elocutions17
-          // speakelocutions17
           // elocutions1800elocutions18
-          // speakelocutions18
           // elocutions1900elocutions19
-          // speakelocutions19
           // elocutions_2000elocutions20
-          // speakelocutions20
           // elocutions2100elocutions21
-          // speakelocutions21
           // elocutions2200elocutions22
           // speakelocutions22("en-US"""),
           //         ),

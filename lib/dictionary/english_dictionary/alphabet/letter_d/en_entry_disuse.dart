@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -394,61 +392,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisuses3("en-US"),
           ),
           // disuses400"),
-          // speakdisuses4
           // disuses4("en-US"),
           // disuses500"),
-          // speakdisuses5
           // disuses5("en-US"),
           // disuses600"),
-          // speakdisuses6
           // disuses6("en-US"),
           // disuses700"),
-          // speakdisuses7
           // disuses7("en-US"),
           // disuses800"),
-          // speakdisuses8
           // disuses8("en-US"),
           // disuses900"),
-          // speakdisuses9
           // disuses9("en-US"),
           // disuses_1000"),
-          // speakdisuses10
           // disuses10("en-US"),
           // disuses1100"),
-          // speakdisuses11
           // disuses11("en-US"),
           // disuses1200"),
-          // speakdisuses12
           // disuses12("en-US"),
           // disuses1300"),
-          // speakdisuses13
           // disuses13("en-US"),
           // disuses1400"),
-          // speakdisuses14
           // disuses14("en-US"),
           // disuses1500"),
-          // speakdisuses15
           // disuses15("en-US"),
           // disuses1600"),
-          // speakdisuses16
           // disuses16("en-US"),
           // disuses1700"),
-          // speakdisuses17
           // disuses17("en-US"),
           // disuses1800"),
-          // speakdisuses18
           // disuses18("en-US"),
           // disuses1900"),
-          // speakdisuses19
           // disuses19("en-US"),
           // disuses_2000"),
-          // speakdisuses20
           // disuses20("en-US"),
           // disuses2100"),
-          // speakdisuses21
           // disuses21("en-US"),
           // disuses2200"),
-          // speakdisuses22
           // disuses22("en-US"),
         ],
       ),

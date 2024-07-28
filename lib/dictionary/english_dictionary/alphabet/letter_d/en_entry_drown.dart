@@ -380,9 +380,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -433,55 +431,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrowns5("en-US"),
           ),
           // drowns600"),
-          // speakdrowns6
           // drowns6("en-US"),
           // drowns700"),
-          // speakdrowns7
           // drowns7("en-US"),
           // drowns800"),
-          // speakdrowns8
           // drowns8("en-US"),
           // drowns900"),
-          // speakdrowns9
           // drowns9("en-US"),
           // drowns_1000"),
-          // speakdrowns10
           // drowns10("en-US"),
           // drowns1100"),
-          // speakdrowns11
           // drowns11("en-US"),
           // drowns1200"),
-          // speakdrowns12
           // drowns12("en-US"),
           // drowns1300"),
-          // speakdrowns13
           // drowns13("en-US"),
           // drowns1400"),
-          // speakdrowns14
           // drowns14("en-US"),
           // drowns1500"),
-          // speakdrowns15
           // drowns15("en-US"),
           // drowns1600"),
-          // speakdrowns16
           // drowns16("en-US"),
           // drowns1700"),
-          // speakdrowns17
           // drowns17("en-US"),
           // drowns1800"),
-          // speakdrowns18
           // drowns18("en-US"),
           // drowns1900"),
-          // speakdrowns19
           // drowns19("en-US"),
           // drowns_2000"),
-          // speakdrowns20
           // drowns20("en-US"),
           // drowns2100"),
-          // speakdrowns21
           // drowns21("en-US"),
           // drowns2200"),
-          // speakdrowns22
           // drowns22("en-US"),
         ],
       ),

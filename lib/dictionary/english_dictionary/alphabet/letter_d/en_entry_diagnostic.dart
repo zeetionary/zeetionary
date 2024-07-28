@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiagnostics3("en-US"),
           ),
           // diagnostics400"),
-          // speakdiagnostics4
           // diagnostics4("en-US"),
           // diagnostics500"),
-          // speakdiagnostics5
           // diagnostics5("en-US"),
           // diagnostics600"),
-          // speakdiagnostics6
           // diagnostics6("en-US"),
           // diagnostics700"),
-          // speakdiagnostics7
           // diagnostics7("en-US"),
           // diagnostics800"),
-          // speakdiagnostics8
           // diagnostics8("en-US"),
           // diagnostics900"),
-          // speakdiagnostics9
           // diagnostics9("en-US"),
           // diagnostics_1000"),
-          // speakdiagnostics10
           // diagnostics10("en-US"),
           // diagnostics1100"),
-          // speakdiagnostics11
           // diagnostics11("en-US"),
           // diagnostics1200"),
-          // speakdiagnostics12
           // diagnostics12("en-US"),
           // diagnostics1300"),
-          // speakdiagnostics13
           // diagnostics13("en-US"),
           // diagnostics1400"),
-          // speakdiagnostics14
           // diagnostics14("en-US"),
           // diagnostics1500"),
-          // speakdiagnostics15
           // diagnostics15("en-US"),
           // diagnostics1600"),
-          // speakdiagnostics16
           // diagnostics16("en-US"),
           // diagnostics1700"),
-          // speakdiagnostics17
           // diagnostics17("en-US"),
           // diagnostics1800"),
-          // speakdiagnostics18
           // diagnostics18("en-US"),
           // diagnostics1900"),
-          // speakdiagnostics19
           // diagnostics19("en-US"),
           // diagnostics_2000"),
-          // speakdiagnostics20
           // diagnostics20("en-US"),
           // diagnostics2100"),
-          // speakdiagnostics21
           // diagnostics21("en-US"),
           // diagnostics2200"),
-          // speakdiagnostics22
           // diagnostics22("en-US"),
         ],
       ),

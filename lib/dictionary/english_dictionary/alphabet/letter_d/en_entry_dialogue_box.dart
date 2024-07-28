@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdialogueboxs2("en-US"),
           ),
           // dialogueboxs300"),
-          // speakdialogueboxs3
           // dialogueboxs3("en-US"),
           // dialogueboxs400"),
-          // speakdialogueboxs4
           // dialogueboxs4("en-US"),
           // dialogueboxs500"),
-          // speakdialogueboxs5
           // dialogueboxs5("en-US"),
           // dialogueboxs600"),
-          // speakdialogueboxs6
           // dialogueboxs6("en-US"),
           // dialogueboxs700"),
-          // speakdialogueboxs7
           // dialogueboxs7("en-US"),
           // dialogueboxs800"),
-          // speakdialogueboxs8
           // dialogueboxs8("en-US"),
           // dialogueboxs900"),
-          // speakdialogueboxs9
           // dialogueboxs9("en-US"),
           // dialogueboxs_1000"),
-          // speakdialogueboxs10
           // dialogueboxs10("en-US"),
           // dialogueboxs1100"),
-          // speakdialogueboxs11
           // dialogueboxs11("en-US"),
           // dialogueboxs1200"),
-          // speakdialogueboxs12
           // dialogueboxs12("en-US"),
           // dialogueboxs1300"),
-          // speakdialogueboxs13
           // dialogueboxs13("en-US"),
           // dialogueboxs1400"),
-          // speakdialogueboxs14
           // dialogueboxs14("en-US"),
           // dialogueboxs1500"),
-          // speakdialogueboxs15
           // dialogueboxs15("en-US"),
           // dialogueboxs1600"),
-          // speakdialogueboxs16
           // dialogueboxs16("en-US"),
           // dialogueboxs1700"),
-          // speakdialogueboxs17
           // dialogueboxs17("en-US"),
           // dialogueboxs1800"),
-          // speakdialogueboxs18
           // dialogueboxs18("en-US"),
           // dialogueboxs1900"),
-          // speakdialogueboxs19
           // dialogueboxs19("en-US"),
           // dialogueboxs_2000"),
-          // speakdialogueboxs20
           // dialogueboxs20("en-US"),
           // dialogueboxs2100"),
-          // speakdialogueboxs21
           // dialogueboxs21("en-US"),
           // dialogueboxs2200"),
-          // speakdialogueboxs22
           // dialogueboxs22("en-US"),
         ],
       ),

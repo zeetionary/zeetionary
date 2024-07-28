@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdocklands1("en-US"),
           ),
           // docklands200"),
-          // speakdocklands2
           // docklands2("en-US"),
           // docklands300"),
-          // speakdocklands3
           // docklands3("en-US"),
           // docklands400"),
-          // speakdocklands4
           // docklands4("en-US"),
           // docklands500"),
-          // speakdocklands5
           // docklands5("en-US"),
           // docklands600"),
-          // speakdocklands6
           // docklands6("en-US"),
           // docklands700"),
-          // speakdocklands7
           // docklands7("en-US"),
           // docklands800"),
-          // speakdocklands8
           // docklands8("en-US"),
           // docklands900"),
-          // speakdocklands9
           // docklands9("en-US"),
           // docklands_1000"),
-          // speakdocklands10
           // docklands10("en-US"),
           // docklands1100"),
-          // speakdocklands11
           // docklands11("en-US"),
           // docklands1200"),
-          // speakdocklands12
           // docklands12("en-US"),
           // docklands1300"),
-          // speakdocklands13
           // docklands13("en-US"),
           // docklands1400"),
-          // speakdocklands14
           // docklands14("en-US"),
           // docklands1500"),
-          // speakdocklands15
           // docklands15("en-US"),
           // docklands1600"),
-          // speakdocklands16
           // docklands16("en-US"),
           // docklands1700"),
-          // speakdocklands17
           // docklands17("en-US"),
           // docklands1800"),
-          // speakdocklands18
           // docklands18("en-US"),
           // docklands1900"),
-          // speakdocklands19
           // docklands19("en-US"),
           // docklands_2000"),
-          // speakdocklands20
           // docklands20("en-US"),
           // docklands2100"),
-          // speakdocklands21
           // docklands21("en-US"),
           // docklands2200"),
-          // speakdocklands22
           // docklands22("en-US"),
         ],
       ),

@@ -378,9 +378,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -431,55 +429,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownstairss5("en-US"),
           ),
           // downstairss600"),
-          // speakdownstairss6
           // downstairss6("en-US"),
           // downstairss700"),
-          // speakdownstairss7
           // downstairss7("en-US"),
           // downstairss800"),
-          // speakdownstairss8
           // downstairss8("en-US"),
           // downstairss900"),
-          // speakdownstairss9
           // downstairss9("en-US"),
           // downstairss_1000"),
-          // speakdownstairss10
           // downstairss10("en-US"),
           // downstairss1100"),
-          // speakdownstairss11
           // downstairss11("en-US"),
           // downstairss1200"),
-          // speakdownstairss12
           // downstairss12("en-US"),
           // downstairss1300"),
-          // speakdownstairss13
           // downstairss13("en-US"),
           // downstairss1400"),
-          // speakdownstairss14
           // downstairss14("en-US"),
           // downstairss1500"),
-          // speakdownstairss15
           // downstairss15("en-US"),
           // downstairss1600"),
-          // speakdownstairss16
           // downstairss16("en-US"),
           // downstairss1700"),
-          // speakdownstairss17
           // downstairss17("en-US"),
           // downstairss1800"),
-          // speakdownstairss18
           // downstairss18("en-US"),
           // downstairss1900"),
-          // speakdownstairss19
           // downstairss19("en-US"),
           // downstairss_2000"),
-          // speakdownstairss20
           // downstairss20("en-US"),
           // downstairss2100"),
-          // speakdownstairss21
           // downstairss21("en-US"),
           // downstairss2200"),
-          // speakdownstairss22
           // downstairss22("en-US"),
         ],
       ),

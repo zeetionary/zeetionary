@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -390,64 +388,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdittos2("en-US"),
           ),
           // dittos300"),
-          // speakdittos3
           // dittos3("en-US"),
           // dittos400"),
-          // speakdittos4
           // dittos4("en-US"),
           // dittos500"),
-          // speakdittos5
           // dittos5("en-US"),
           // dittos600"),
-          // speakdittos6
           // dittos6("en-US"),
           // dittos700"),
-          // speakdittos7
           // dittos7("en-US"),
           // dittos800"),
-          // speakdittos8
           // dittos8("en-US"),
           // dittos900"),
-          // speakdittos9
           // dittos9("en-US"),
           // dittos_1000"),
-          // speakdittos10
           // dittos10("en-US"),
           // dittos1100"),
-          // speakdittos11
           // dittos11("en-US"),
           // dittos1200"),
-          // speakdittos12
           // dittos12("en-US"),
           // dittos1300"),
-          // speakdittos13
           // dittos13("en-US"),
           // dittos1400"),
-          // speakdittos14
           // dittos14("en-US"),
           // dittos1500"),
-          // speakdittos15
           // dittos15("en-US"),
           // dittos1600"),
-          // speakdittos16
           // dittos16("en-US"),
           // dittos1700"),
-          // speakdittos17
           // dittos17("en-US"),
           // dittos1800"),
-          // speakdittos18
           // dittos18("en-US"),
           // dittos1900"),
-          // speakdittos19
           // dittos19("en-US"),
           // dittos_2000"),
-          // speakdittos20
           // dittos20("en-US"),
           // dittos2100"),
-          // speakdittos21
           // dittos21("en-US"),
           // dittos2200"),
-          // speakdittos22
           // dittos22("en-US"),
         ],
       ),

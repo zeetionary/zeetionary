@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeferences2("en-US"),
           ),
           // deferences300"),
-          // speakdeferences3
           // deferences3("en-US"),
           // deferences400"),
-          // speakdeferences4
           // deferences4("en-US"),
           // deferences500"),
-          // speakdeferences5
           // deferences5("en-US"),
           // deferences600"),
-          // speakdeferences6
           // deferences6("en-US"),
           // deferences700"),
-          // speakdeferences7
           // deferences7("en-US"),
           // deferences800"),
-          // speakdeferences8
           // deferences8("en-US"),
           // deferences900"),
-          // speakdeferences9
           // deferences9("en-US"),
           // deferences1000"),
-          // speakdeferences10
           // deferences10("en-US"),
           // deferences1100"),
-          // speakdeferences11
           // deferences11("en-US"),
           // deferences1200"),
-          // speakdeferences12
           // deferences12("en-US"),
           // deferences1300"),
-          // speakdeferences13
           // deferences13("en-US"),
           // deferences1400"),
-          // speakdeferences14
           // deferences14("en-US"),
           // deferences1500"),
-          // speakdeferences15
           // deferences15("en-US"),
           // deferences1600"),
-          // speakdeferences16
           // deferences16("en-US"),
           // deferences1700"),
-          // speakdeferences17
           // deferences17("en-US"),
           // deferences1800"),
-          // speakdeferences18
           // deferences18("en-US"),
           // deferences1900"),
-          // speakdeferences19
           // deferences19("en-US"),
           // "The flags were lowered out of deference to the bereaved family.0"),
-          // speakdeferences20
           // deferences20("en-US"),
           // deferences2100"),
-          // speakdeferences21
           // deferences21("en-US"),
           // deferences2200"),
-          // speakdeferences22
           // deferences22("en-US"),
         ],
       ),

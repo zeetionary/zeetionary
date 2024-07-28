@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -406,61 +404,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduels3("en-US"),
           ),
           // duels400
-          // speakduels4
           // duels4("en-US"""),
           // duels500
-          // speakduels5
           // duels5("en-US"""),
           // duels600
-          // speakduels6
           // duels6("en-US"""),
           // duels700
-          // speakduels7
           // duels7("en-US"""),
           // duels800
-          // speakduels8
           // duels8("en-US"""),
           // duels900
-          // speakduels9
           // duels9("en-US"""),
           // duels_1000
-          // speakduels10
           // duels10("en-US"""),
           // duels1100
-          // speakduels11
           // duels11("en-US"""),
           // duels1200
-          // speakduels12
           // duels12("en-US"""),
           // duels1300
-          // speakduels13
           // duels13("en-US"""),
           // duels1400
-          // speakduels14
           // duels14("en-US"""),
           // duels1500
-          // speakduels15
           // duels15("en-US"""),
           // duels1600
-          // speakduels16
           // duels16("en-US"""),
           // duels1700
-          // speakduels17
           // duels17("en-US"""),
           // duels1800
-          // speakduels18
           // duels18("en-US"""),
           // duels1900
-          // speakduels19
           // duels19("en-US"""),
           // duels_2000
-          // speakduels20
           // duels20("en-US"""),
           // duels2100
-          // speakduels21
           // duels21("en-US"""),
           // duels2200
-          // speakduels22
           // duels22("en-US"""),
         ],
       ),

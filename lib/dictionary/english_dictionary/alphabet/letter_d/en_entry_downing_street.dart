@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakDowningstreets2("en-US"),
           ),
           // Downingstreets300"),
-          // speakDowningstreets3
           // Downingstreets3("en-US"),
           // Downingstreets400"),
-          // speakDowningstreets4
           // Downingstreets4("en-US"),
           // Downingstreets500"),
-          // speakDowningstreets5
           // Downingstreets5("en-US"),
           // Downingstreets600"),
-          // speakDowningstreets6
           // Downingstreets6("en-US"),
           // Downingstreets700"),
-          // speakDowningstreets7
           // Downingstreets7("en-US"),
           // Downingstreets800"),
-          // speakDowningstreets8
           // Downingstreets8("en-US"),
           // Downingstreets900"),
-          // speakDowningstreets9
           // Downingstreets9("en-US"),
           // Downingstreets_1000"),
-          // speakDowningstreets10
           // Downingstreets10("en-US"),
           // Downingstreets1100"),
-          // speakDowningstreets11
           // Downingstreets11("en-US"),
           // Downingstreets1200"),
-          // speakDowningstreets12
           // Downingstreets12("en-US"),
           // Downingstreets1300"),
-          // speakDowningstreets13
           // Downingstreets13("en-US"),
           // Downingstreets1400"),
-          // speakDowningstreets14
           // Downingstreets14("en-US"),
           // Downingstreets1500"),
-          // speakDowningstreets15
           // Downingstreets15("en-US"),
           // Downingstreets1600"),
-          // speakDowningstreets16
           // Downingstreets16("en-US"),
           // Downingstreets1700"),
-          // speakDowningstreets17
           // Downingstreets17("en-US"),
           // Downingstreets1800"),
-          // speakDowningstreets18
           // Downingstreets18("en-US"),
           // Downingstreets1900"),
-          // speakDowningstreets19
           // Downingstreets19("en-US"),
           // Downingstreets_2000"),
-          // speakDowningstreets20
           // Downingstreets20("en-US"),
           // Downingstreets2100"),
-          // speakDowningstreets21
           // Downingstreets21("en-US"),
           // Downingstreets2200"),
-          // speakDowningstreets22
           // Downingstreets22("en-US"),
         ],
       ),

@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -372,45 +370,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelderstatesmans1("en-US"),
           ),
           // elderstatesmans200elderstatesmans2
-          // speakelderstatesmans2
           // elderstatesmans300elderstatesmans3
-          // speakelderstatesmans3
           // elderstatesmans400elderstatesmans4
-          // speakelderstatesmans4
           // elderstatesmans500elderstatesmans5
-          // speakelderstatesmans5
           // elderstatesmans600elderstatesmans6
-          // speakelderstatesmans6
           // elderstatesmans700elderstatesmans7
-          // speakelderstatesmans7
           // elderstatesmans800elderstatesmans8
-          // speakelderstatesmans8
           // elderstatesmans900elderstatesmans9
-          // speakelderstatesmans9
           // elderstatesmans_1000elderstatesmans10
-          // speakelderstatesmans10
           // elderstatesmans1100elderstatesmans11
-          // speakelderstatesmans11
           // elderstatesmans1200elderstatesmans12
-          // speakelderstatesmans12
           // elderstatesmans1300elderstatesmans13
-          // speakelderstatesmans13
           // elderstatesmans1400elderstatesmans14
-          // speakelderstatesmans14
           // elderstatesmans1500elderstatesmans15
-          // speakelderstatesmans15
           // elderstatesmans1600elderstatesmans16
-          // speakelderstatesmans16
           // elderstatesmans1700elderstatesmans17
-          // speakelderstatesmans17
           // elderstatesmans1800elderstatesmans18
-          // speakelderstatesmans18
           // elderstatesmans1900elderstatesmans19
-          // speakelderstatesmans19
           // elderstatesmans_2000elderstatesmans20
-          // speakelderstatesmans20
           // elderstatesmans2100elderstatesmans21
-          // speakelderstatesmans21
           // elderstatesmans2200elderstatesmans22
           // speakelderstatesmans22("en-US"""),
           //         ),

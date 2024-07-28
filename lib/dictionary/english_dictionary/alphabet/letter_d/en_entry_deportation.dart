@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -265,64 +263,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeportations2("en-US"),
           ),
           // deportations300"),
-          // speakdeportations3
           // deportations3("en-US"),
           // deportations400"),
-          // speakdeportations4
           // deportations4("en-US"),
           // deportations500"),
-          // speakdeportations5
           // deportations5("en-US"),
           // deportations600"),
-          // speakdeportations6
           // deportations6("en-US"),
           // deportations700"),
-          // speakdeportations7
           // deportations7("en-US"),
           // deportations800"),
-          // speakdeportations8
           // deportations8("en-US"),
           // deportations900"),
-          // speakdeportations9
           // deportations9("en-US"),
           // deportations1000"),
-          // speakdeportations10
           // deportations10("en-US"),
           // deportations1100"),
-          // speakdeportations11
           // deportations11("en-US"),
           // deportations1200"),
-          // speakdeportations12
           // deportations12("en-US"),
           // deportations1300"),
-          // speakdeportations13
           // deportations13("en-US"),
           // deportations1400"),
-          // speakdeportations14
           // deportations14("en-US"),
           // deportations1500"),
-          // speakdeportations15
           // deportations15("en-US"),
           // deportations1600"),
-          // speakdeportations16
           // deportations16("en-US"),
           // deportations1700"),
-          // speakdeportations17
           // deportations17("en-US"),
           // deportations1800"),
-          // speakdeportations18
           // deportations18("en-US"),
           // deportations1900"),
-          // speakdeportations19
           // deportations19("en-US"),
           // "Their cases will be reviewed and they may face deportation.0"),
-          // speakdeportations20
           // deportations20("en-US"),
           // deportations2100"),
-          // speakdeportations21
           // deportations21("en-US"),
           // deportations2200"),
-          // speakdeportations22
           // deportations22("en-US"),
         ],
       ),

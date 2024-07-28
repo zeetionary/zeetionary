@@ -241,9 +241,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -279,61 +277,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelicatelys3("en-US"),
           ),
           // delicatelys400"),
-          // speakdelicatelys4
           // delicatelys4("en-US"),
           // delicatelys500"),
-          // speakdelicatelys5
           // delicatelys5("en-US"),
           // delicatelys600"),
-          // speakdelicatelys6
           // delicatelys6("en-US"),
           // delicatelys700"),
-          // speakdelicatelys7
           // delicatelys7("en-US"),
           // delicatelys800"),
-          // speakdelicatelys8
           // delicatelys8("en-US"),
           // delicatelys900"),
-          // speakdelicatelys9
           // delicatelys9("en-US"),
           // delicatelys1000"),
-          // speakdelicatelys10
           // delicatelys10("en-US"),
           // delicatelys1100"),
-          // speakdelicatelys11
           // delicatelys11("en-US"),
           // delicatelys1200"),
-          // speakdelicatelys12
           // delicatelys12("en-US"),
           // delicatelys1300"),
-          // speakdelicatelys13
           // delicatelys13("en-US"),
           // delicatelys1400"),
-          // speakdelicatelys14
           // delicatelys14("en-US"),
           // delicatelys1500"),
-          // speakdelicatelys15
           // delicatelys15("en-US"),
           // delicatelys1600"),
-          // speakdelicatelys16
           // delicatelys16("en-US"),
           // delicatelys1700"),
-          // speakdelicatelys17
           // delicatelys17("en-US"),
           // delicatelys1800"),
-          // speakdelicatelys18
           // delicatelys18("en-US"),
           // delicatelys1900"),
-          // speakdelicatelys19
           // delicatelys19("en-US"),
           // "He stepped delicately over the broken glass.0"),
-          // speakdelicatelys20
           // delicatelys20("en-US"),
           // delicatelys2100"),
-          // speakdelicatelys21
           // delicatelys21("en-US"),
           // delicatelys2200"),
-          // speakdelicatelys22
           // delicatelys22("en-US"),
         ],
       ),

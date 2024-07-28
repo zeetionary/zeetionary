@@ -287,9 +287,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -374,43 +372,30 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefinitions9("en-US"),
           ),
           // definitions1000"),
-          // speakdefinitions10
           // definitions10("en-US"),
           // definitions1100"),
-          // speakdefinitions11
           // definitions11("en-US"),
           // definitions1200"),
-          // speakdefinitions12
           // definitions12("en-US"),
           // definitions1300"),
-          // speakdefinitions13
           // definitions13("en-US"),
           // definitions1400"),
-          // speakdefinitions14
           // definitions14("en-US"),
           // definitions1500"),
-          // speakdefinitions15
           // definitions15("en-US"),
           // definitions1600"),
-          // speakdefinitions16
           // definitions16("en-US"),
           // definitions1700"),
-          // speakdefinitions17
           // definitions17("en-US"),
           // definitions1800"),
-          // speakdefinitions18
           // definitions18("en-US"),
           // definitions1900"),
-          // speakdefinitions19
           // definitions19("en-US"),
           // "We need a good working definition of ‘pollution’.0"),
-          // speakdefinitions20
           // definitions20("en-US"),
           // definitions2100"),
-          // speakdefinitions21
           // definitions21("en-US"),
           // definitions2200"),
-          // speakdefinitions22
           // definitions22("en-US"),
         ],
       ),

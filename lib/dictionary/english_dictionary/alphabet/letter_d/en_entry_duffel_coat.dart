@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduffelcoats1("en-US"),
           ),
           // duffelcoats200
-          // speakduffelcoats2
           // duffelcoats2("en-US"""),
           // duffelcoats300
-          // speakduffelcoats3
           // duffelcoats3("en-US"""),
           // duffelcoats400
-          // speakduffelcoats4
           // duffelcoats4("en-US"""),
           // duffelcoats500
-          // speakduffelcoats5
           // duffelcoats5("en-US"""),
           // duffelcoats600
-          // speakduffelcoats6
           // duffelcoats6("en-US"""),
           // duffelcoats700
-          // speakduffelcoats7
           // duffelcoats7("en-US"""),
           // duffelcoats800
-          // speakduffelcoats8
           // duffelcoats8("en-US"""),
           // duffelcoats900
-          // speakduffelcoats9
           // duffelcoats9("en-US"""),
           // duffelcoats_1000
-          // speakduffelcoats10
           // duffelcoats10("en-US"""),
           // duffelcoats1100
-          // speakduffelcoats11
           // duffelcoats11("en-US"""),
           // duffelcoats1200
-          // speakduffelcoats12
           // duffelcoats12("en-US"""),
           // duffelcoats1300
-          // speakduffelcoats13
           // duffelcoats13("en-US"""),
           // duffelcoats1400
-          // speakduffelcoats14
           // duffelcoats14("en-US"""),
           // duffelcoats1500
-          // speakduffelcoats15
           // duffelcoats15("en-US"""),
           // duffelcoats1600
-          // speakduffelcoats16
           // duffelcoats16("en-US"""),
           // duffelcoats1700
-          // speakduffelcoats17
           // duffelcoats17("en-US"""),
           // duffelcoats1800
-          // speakduffelcoats18
           // duffelcoats18("en-US"""),
           // duffelcoats1900
-          // speakduffelcoats19
           // duffelcoats19("en-US"""),
           // duffelcoats_2000
-          // speakduffelcoats20
           // duffelcoats20("en-US"""),
           // duffelcoats2100
-          // speakduffelcoats21
           // duffelcoats21("en-US"""),
           // duffelcoats2200
-          // speakduffelcoats22
           // duffelcoats22("en-US"""),
         ],
       ),

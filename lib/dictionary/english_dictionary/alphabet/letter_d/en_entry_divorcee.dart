@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivorcees1("en-US"),
           ),
           // divorcees200"),
-          // speakdivorcees2
           // divorcees2("en-US"),
           // divorcees300"),
-          // speakdivorcees3
           // divorcees3("en-US"),
           // divorcees400"),
-          // speakdivorcees4
           // divorcees4("en-US"),
           // divorcees500"),
-          // speakdivorcees5
           // divorcees5("en-US"),
           // divorcees600"),
-          // speakdivorcees6
           // divorcees6("en-US"),
           // divorcees700"),
-          // speakdivorcees7
           // divorcees7("en-US"),
           // divorcees800"),
-          // speakdivorcees8
           // divorcees8("en-US"),
           // divorcees900"),
-          // speakdivorcees9
           // divorcees9("en-US"),
           // divorcees_1000"),
-          // speakdivorcees10
           // divorcees10("en-US"),
           // divorcees1100"),
-          // speakdivorcees11
           // divorcees11("en-US"),
           // divorcees1200"),
-          // speakdivorcees12
           // divorcees12("en-US"),
           // divorcees1300"),
-          // speakdivorcees13
           // divorcees13("en-US"),
           // divorcees1400"),
-          // speakdivorcees14
           // divorcees14("en-US"),
           // divorcees1500"),
-          // speakdivorcees15
           // divorcees15("en-US"),
           // divorcees1600"),
-          // speakdivorcees16
           // divorcees16("en-US"),
           // divorcees1700"),
-          // speakdivorcees17
           // divorcees17("en-US"),
           // divorcees1800"),
-          // speakdivorcees18
           // divorcees18("en-US"),
           // divorcees1900"),
-          // speakdivorcees19
           // divorcees19("en-US"),
           // divorcees_2000"),
-          // speakdivorcees20
           // divorcees20("en-US"),
           // divorcees2100"),
-          // speakdivorcees21
           // divorcees21("en-US"),
           // divorcees2200"),
-          // speakdivorcees22
           // divorcees22("en-US"),
         ],
       ),

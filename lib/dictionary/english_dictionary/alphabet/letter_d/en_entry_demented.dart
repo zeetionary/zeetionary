@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -259,64 +257,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdementeds2("en-US"),
           ),
           // dementeds300"),
-          // speakdementeds3
           // dementeds3("en-US"),
           // dementeds400"),
-          // speakdementeds4
           // dementeds4("en-US"),
           // dementeds500"),
-          // speakdementeds5
           // dementeds5("en-US"),
           // dementeds600"),
-          // speakdementeds6
           // dementeds6("en-US"),
           // dementeds700"),
-          // speakdementeds7
           // dementeds7("en-US"),
           // dementeds800"),
-          // speakdementeds8
           // dementeds8("en-US"),
           // dementeds900"),
-          // speakdementeds9
           // dementeds9("en-US"),
           // dementeds1000"),
-          // speakdementeds10
           // dementeds10("en-US"),
           // dementeds1100"),
-          // speakdementeds11
           // dementeds11("en-US"),
           // dementeds1200"),
-          // speakdementeds12
           // dementeds12("en-US"),
           // dementeds1300"),
-          // speakdementeds13
           // dementeds13("en-US"),
           // dementeds1400"),
-          // speakdementeds14
           // dementeds14("en-US"),
           // dementeds1500"),
-          // speakdementeds15
           // dementeds15("en-US"),
           // dementeds1600"),
-          // speakdementeds16
           // dementeds16("en-US"),
           // dementeds1700"),
-          // speakdementeds17
           // dementeds17("en-US"),
           // dementeds1800"),
-          // speakdementeds18
           // dementeds18("en-US"),
           // dementeds1900"),
-          // speakdementeds19
           // dementeds19("en-US"),
           // "The children have driven me demented today.0"),
-          // speakdementeds20
           // dementeds20("en-US"),
           // dementeds2100"),
-          // speakdementeds21
           // dementeds21("en-US"),
           // dementeds2200"),
-          // speakdementeds22
           // dementeds22("en-US"),
         ],
       ),

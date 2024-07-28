@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -280,61 +278,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefiances3("en-US"),
           ),
           // defiances400"),
-          // speakdefiances4
           // defiances4("en-US"),
           // defiances500"),
-          // speakdefiances5
           // defiances5("en-US"),
           // defiances600"),
-          // speakdefiances6
           // defiances6("en-US"),
           // defiances700"),
-          // speakdefiances7
           // defiances7("en-US"),
           // defiances800"),
-          // speakdefiances8
           // defiances8("en-US"),
           // defiances900"),
-          // speakdefiances9
           // defiances9("en-US"),
           // defiances1000"),
-          // speakdefiances10
           // defiances10("en-US"),
           // defiances1100"),
-          // speakdefiances11
           // defiances11("en-US"),
           // defiances1200"),
-          // speakdefiances12
           // defiances12("en-US"),
           // defiances1300"),
-          // speakdefiances13
           // defiances13("en-US"),
           // defiances1400"),
-          // speakdefiances14
           // defiances14("en-US"),
           // defiances1500"),
-          // speakdefiances15
           // defiances15("en-US"),
           // defiances1600"),
-          // speakdefiances16
           // defiances16("en-US"),
           // defiances1700"),
-          // speakdefiances17
           // defiances17("en-US"),
           // defiances1800"),
-          // speakdefiances18
           // defiances18("en-US"),
           // defiances1900"),
-          // speakdefiances19
           // defiances19("en-US"),
           // "She held up a clenched fist in a gesture of defiance.0"),
-          // speakdefiances20
           // defiances20("en-US"),
           // defiances2100"),
-          // speakdefiances21
           // defiances21("en-US"),
           // defiances2200"),
-          // speakdefiances22
           // defiances22("en-US"),
         ],
       ),

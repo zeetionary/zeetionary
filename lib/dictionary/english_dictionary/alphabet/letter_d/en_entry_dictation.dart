@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -283,58 +281,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdictations4("en-US"),
           ),
           // dictations500"),
-          // speakdictations5
           // dictations5
           // dictations600"),
-          // speakdictations6
           // dictations6
           // dictations700"),
-          // speakdictations7
           // dictations7
           // dictations800"),
-          // speakdictations8
           // dictations8
           // dictations900"),
-          // speakdictations9
           // dictations9
           // dictations_1000"),
-          // speakdictations10
           // dictations10
           // dictations1100"),
-          // speakdictations11
           // dictations11
           // dictations1200"),
-          // speakdictations12
           // dictations12
           // dictations1300"),
-          // speakdictations13
           // dictations13
           // dictations1400"),
-          // speakdictations14
           // dictations14
           // dictations1500"),
-          // speakdictations15
           // dictations15
           // dictations1600"),
-          // speakdictations16
           // dictations16
           // dictations1700"),
-          // speakdictations17
           // dictations17
           // dictations1800"),
-          // speakdictations18
           // dictations18
           // dictations1900"),
-          // speakdictations19
           // dictations19
           // dictations_2000"),
-          // speakdictations20
           // dictations20
           // dictations2100"),
-          // speakdictations21
           // dictations21
           // dictations2200"),
-          // speakdictations22
           // dictations22("en-US"),
         ],
       ),

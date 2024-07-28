@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdescriptives2("en-US"),
           ),
           // descriptives300"),
-          // speakdescriptives3
           // descriptives3("en-US"),
           // descriptives400"),
-          // speakdescriptives4
           // descriptives4("en-US"),
           // descriptives500"),
-          // speakdescriptives5
           // descriptives5("en-US"),
           // descriptives600"),
-          // speakdescriptives6
           // descriptives6("en-US"),
           // descriptives700"),
-          // speakdescriptives7
           // descriptives7("en-US"),
           // descriptives800"),
-          // speakdescriptives8
           // descriptives8("en-US"),
           // descriptives900"),
-          // speakdescriptives9
           // descriptives9("en-US"),
           // descriptives1000"),
-          // speakdescriptives10
           // descriptives10("en-US"),
           // descriptives1100"),
-          // speakdescriptives11
           // descriptives11("en-US"),
           // descriptives1200"),
-          // speakdescriptives12
           // descriptives12("en-US"),
           // descriptives1300"),
-          // speakdescriptives13
           // descriptives13("en-US"),
           // descriptives1400"),
-          // speakdescriptives14
           // descriptives14("en-US"),
           // descriptives1500"),
-          // speakdescriptives15
           // descriptives15("en-US"),
           // descriptives1600"),
-          // speakdescriptives16
           // descriptives16("en-US"),
           // descriptives1700"),
-          // speakdescriptives17
           // descriptives17("en-US"),
           // descriptives1800"),
-          // speakdescriptives18
           // descriptives18("en-US"),
           // descriptives1900"),
-          // speakdescriptives19
           // descriptives19("en-US"),
           // "The terms are descriptive of strong emotion.0"),
-          // speakdescriptives20
           // descriptives20("en-US"),
           // descriptives2100"),
-          // speakdescriptives21
           // descriptives21("en-US"),
           // descriptives2200"),
-          // speakdescriptives22
           // descriptives22("en-US"),
         ],
       ),

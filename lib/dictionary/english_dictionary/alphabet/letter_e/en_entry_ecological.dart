@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,45 +367,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakecologicals1("en-US"),
           ),
           // ecologicals200ecologicals2
-          // speakecologicals2
           // ecologicals300ecologicals3
-          // speakecologicals3
           // ecologicals400ecologicals4
-          // speakecologicals4
           // ecologicals500ecologicals5
-          // speakecologicals5
           // ecologicals600ecologicals6
-          // speakecologicals6
           // ecologicals700ecologicals7
-          // speakecologicals7
           // ecologicals800ecologicals8
-          // speakecologicals8
           // ecologicals900ecologicals9
-          // speakecologicals9
           // ecologicals_1000ecologicals10
-          // speakecologicals10
           // ecologicals1100ecologicals11
-          // speakecologicals11
           // ecologicals1200ecologicals12
-          // speakecologicals12
           // ecologicals1300ecologicals13
-          // speakecologicals13
           // ecologicals1400ecologicals14
-          // speakecologicals14
           // ecologicals1500ecologicals15
-          // speakecologicals15
           // ecologicals1600ecologicals16
-          // speakecologicals16
           // ecologicals1700ecologicals17
-          // speakecologicals17
           // ecologicals1800ecologicals18
-          // speakecologicals18
           // ecologicals1900ecologicals19
-          // speakecologicals19
           // ecologicals_2000ecologicals20
-          // speakecologicals20
           // ecologicals2100ecologicals21
-          // speakecologicals21
           // ecologicals2200ecologicals22
           // speakecologicals22("en-US"""),
           //         ),

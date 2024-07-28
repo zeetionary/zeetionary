@@ -371,9 +371,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -416,58 +414,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistantlys4("en-US"),
           ),
           // distantlys500"),
-          // speakdistantlys5
           // distantlys5("en-US"),
           // distantlys600"),
-          // speakdistantlys6
           // distantlys6("en-US"),
           // distantlys700"),
-          // speakdistantlys7
           // distantlys7("en-US"),
           // distantlys800"),
-          // speakdistantlys8
           // distantlys8("en-US"),
           // distantlys900"),
-          // speakdistantlys9
           // distantlys9("en-US"),
           // distantlys_1000"),
-          // speakdistantlys10
           // distantlys10("en-US"),
           // distantlys1100"),
-          // speakdistantlys11
           // distantlys11("en-US"),
           // distantlys1200"),
-          // speakdistantlys12
           // distantlys12("en-US"),
           // distantlys1300"),
-          // speakdistantlys13
           // distantlys13("en-US"),
           // distantlys1400"),
-          // speakdistantlys14
           // distantlys14("en-US"),
           // distantlys1500"),
-          // speakdistantlys15
           // distantlys15("en-US"),
           // distantlys1600"),
-          // speakdistantlys16
           // distantlys16("en-US"),
           // distantlys1700"),
-          // speakdistantlys17
           // distantlys17("en-US"),
           // distantlys1800"),
-          // speakdistantlys18
           // distantlys18("en-US"),
           // distantlys1900"),
-          // speakdistantlys19
           // distantlys19("en-US"),
           // distantlys_2000"),
-          // speakdistantlys20
           // distantlys20("en-US"),
           // distantlys2100"),
-          // speakdistantlys21
           // distantlys21("en-US"),
           // distantlys2200"),
-          // speakdistantlys22
           // distantlys22("en-US"),
         ],
       ),

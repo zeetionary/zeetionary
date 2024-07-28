@@ -373,9 +373,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -429,58 +427,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdressings4("en-US"),
           ),
           // dressings500"),
-          // speakdressings5
           // dressings5
           // dressings600"),
-          // speakdressings6
           // dressings6
           // dressings700"),
-          // speakdressings7
           // dressings7
           // dressings800"),
-          // speakdressings8
           // dressings8
           // dressings900"),
-          // speakdressings9
           // dressings9
           // dressings_1000"),
-          // speakdressings10
           // dressings10
           // dressings1100"),
-          // speakdressings11
           // dressings11
           // dressings1200"),
-          // speakdressings12
           // dressings12
           // dressings1300"),
-          // speakdressings13
           // dressings13
           // dressings1400"),
-          // speakdressings14
           // dressings14
           // dressings1500"),
-          // speakdressings15
           // dressings15
           // dressings1600"),
-          // speakdressings16
           // dressings16
           // dressings1700"),
-          // speakdressings17
           // dressings17
           // dressings1800"),
-          // speakdressings18
           // dressings18
           // dressings1900"),
-          // speakdressings19
           // dressings19
           // dressings_2000"),
-          // speakdressings20
           // dressings20
           // dressings2100"),
-          // speakdressings21
           // dressings21
           // dressings2200"),
-          // speakdressings22
           // dressings22("en-US"),
         ],
       ),

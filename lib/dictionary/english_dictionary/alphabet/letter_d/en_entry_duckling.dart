@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakducklings1("en-US"),
           ),
           // ducklings200
-          // speakducklings2
           // ducklings2("en-US"""),
           // ducklings300
-          // speakducklings3
           // ducklings3("en-US"""),
           // ducklings400
-          // speakducklings4
           // ducklings4("en-US"""),
           // ducklings500
-          // speakducklings5
           // ducklings5("en-US"""),
           // ducklings600
-          // speakducklings6
           // ducklings6("en-US"""),
           // ducklings700
-          // speakducklings7
           // ducklings7("en-US"""),
           // ducklings800
-          // speakducklings8
           // ducklings8("en-US"""),
           // ducklings900
-          // speakducklings9
           // ducklings9("en-US"""),
           // ducklings_1000
-          // speakducklings10
           // ducklings10("en-US"""),
           // ducklings1100
-          // speakducklings11
           // ducklings11("en-US"""),
           // ducklings1200
-          // speakducklings12
           // ducklings12("en-US"""),
           // ducklings1300
-          // speakducklings13
           // ducklings13("en-US"""),
           // ducklings1400
-          // speakducklings14
           // ducklings14("en-US"""),
           // ducklings1500
-          // speakducklings15
           // ducklings15("en-US"""),
           // ducklings1600
-          // speakducklings16
           // ducklings16("en-US"""),
           // ducklings1700
-          // speakducklings17
           // ducklings17("en-US"""),
           // ducklings1800
-          // speakducklings18
           // ducklings18("en-US"""),
           // ducklings1900
-          // speakducklings19
           // ducklings19("en-US"""),
           // ducklings_2000
-          // speakducklings20
           // ducklings20("en-US"""),
           // ducklings2100
-          // speakducklings21
           // ducklings21("en-US"""),
           // ducklings2200
-          // speakducklings22
           // ducklings22("en-US"""),
         ],
       ),

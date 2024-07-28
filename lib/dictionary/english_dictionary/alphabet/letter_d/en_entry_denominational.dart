@@ -222,9 +222,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenominationals1("en-US"),
           ),
           // denominationals200"),
-          // speakdenominationals2
           // denominationals2("en-US"),
           // denominationals300"),
-          // speakdenominationals3
           // denominationals3("en-US"),
           // denominationals400"),
-          // speakdenominationals4
           // denominationals4("en-US"),
           // denominationals500"),
-          // speakdenominationals5
           // denominationals5("en-US"),
           // denominationals600"),
-          // speakdenominationals6
           // denominationals6("en-US"),
           // denominationals700"),
-          // speakdenominationals7
           // denominationals7("en-US"),
           // denominationals800"),
-          // speakdenominationals8
           // denominationals8("en-US"),
           // denominationals900"),
-          // speakdenominationals9
           // denominationals9("en-US"),
           // denominationals1000"),
-          // speakdenominationals10
           // denominationals10("en-US"),
           // denominationals1100"),
-          // speakdenominationals11
           // denominationals11("en-US"),
           // denominationals1200"),
-          // speakdenominationals12
           // denominationals12("en-US"),
           // denominationals1300"),
-          // speakdenominationals13
           // denominationals13("en-US"),
           // denominationals1400"),
-          // speakdenominationals14
           // denominationals14("en-US"),
           // denominationals1500"),
-          // speakdenominationals15
           // denominationals15("en-US"),
           // denominationals1600"),
-          // speakdenominationals16
           // denominationals16("en-US"),
           // denominationals1700"),
-          // speakdenominationals17
           // denominationals17("en-US"),
           // denominationals1800"),
-          // speakdenominationals18
           // denominationals18("en-US"),
           // denominationals1900"),
-          // speakdenominationals19
           // denominationals19("en-US"),
           // denominationals2000"),
-          // speakdenominationals20
           // denominationals20("en-US"),
           // denominationals2100"),
-          // speakdenominationals21
           // denominationals21("en-US"),
           // denominationals2200"),
-          // speakdenominationals22
           // denominationals22("en-US"),
         ],
       ),

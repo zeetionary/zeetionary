@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemergencyrooms1("en-US"),
           ),
           // emergencyrooms200emergencyrooms2
-          // speakemergencyrooms2
           // emergencyrooms300emergencyrooms3
-          // speakemergencyrooms3
           // emergencyrooms400emergencyrooms4
-          // speakemergencyrooms4
           // emergencyrooms500emergencyrooms5
-          // speakemergencyrooms5
           // emergencyrooms600emergencyrooms6
-          // speakemergencyrooms6
           // emergencyrooms700emergencyrooms7
-          // speakemergencyrooms7
           // emergencyrooms800emergencyrooms8
-          // speakemergencyrooms8
           // emergencyrooms900emergencyrooms9
-          // speakemergencyrooms9
           // emergencyrooms_1000emergencyrooms10
-          // speakemergencyrooms10
           // emergencyrooms1100emergencyrooms11
-          // speakemergencyrooms11
           // emergencyrooms1200emergencyrooms12
-          // speakemergencyrooms12
           // emergencyrooms1300emergencyrooms13
-          // speakemergencyrooms13
           // emergencyrooms1400emergencyrooms14
-          // speakemergencyrooms14
           // emergencyrooms1500emergencyrooms15
-          // speakemergencyrooms15
           // emergencyrooms1600emergencyrooms16
-          // speakemergencyrooms16
           // emergencyrooms1700emergencyrooms17
-          // speakemergencyrooms17
           // emergencyrooms1800emergencyrooms18
-          // speakemergencyrooms18
           // emergencyrooms1900emergencyrooms19
-          // speakemergencyrooms19
           // emergencyrooms_2000emergencyrooms20
-          // speakemergencyrooms20
           // emergencyrooms2100emergencyrooms21
-          // speakemergencyrooms21
           // emergencyrooms2200emergencyrooms22
           // speakemergencyrooms22("en-US"""),
           //         ),

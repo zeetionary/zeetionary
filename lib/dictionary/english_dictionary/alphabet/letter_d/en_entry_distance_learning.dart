@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistancelearnings1("en-US"),
           ),
           // distancelearnings200"),
-          // speakdistancelearnings2
           // distancelearnings2("en-US"),
           // distancelearnings300"),
-          // speakdistancelearnings3
           // distancelearnings3("en-US"),
           // distancelearnings400"),
-          // speakdistancelearnings4
           // distancelearnings4("en-US"),
           // distancelearnings500"),
-          // speakdistancelearnings5
           // distancelearnings5("en-US"),
           // distancelearnings600"),
-          // speakdistancelearnings6
           // distancelearnings6("en-US"),
           // distancelearnings700"),
-          // speakdistancelearnings7
           // distancelearnings7("en-US"),
           // distancelearnings800"),
-          // speakdistancelearnings8
           // distancelearnings8("en-US"),
           // distancelearnings900"),
-          // speakdistancelearnings9
           // distancelearnings9("en-US"),
           // distancelearnings_1000"),
-          // speakdistancelearnings10
           // distancelearnings10("en-US"),
           // distancelearnings1100"),
-          // speakdistancelearnings11
           // distancelearnings11("en-US"),
           // distancelearnings1200"),
-          // speakdistancelearnings12
           // distancelearnings12("en-US"),
           // distancelearnings1300"),
-          // speakdistancelearnings13
           // distancelearnings13("en-US"),
           // distancelearnings1400"),
-          // speakdistancelearnings14
           // distancelearnings14("en-US"),
           // distancelearnings1500"),
-          // speakdistancelearnings15
           // distancelearnings15("en-US"),
           // distancelearnings1600"),
-          // speakdistancelearnings16
           // distancelearnings16("en-US"),
           // distancelearnings1700"),
-          // speakdistancelearnings17
           // distancelearnings17("en-US"),
           // distancelearnings1800"),
-          // speakdistancelearnings18
           // distancelearnings18("en-US"),
           // distancelearnings1900"),
-          // speakdistancelearnings19
           // distancelearnings19("en-US"),
           // distancelearnings_2000"),
-          // speakdistancelearnings20
           // distancelearnings20("en-US"),
           // distancelearnings2100"),
-          // speakdistancelearnings21
           // distancelearnings21("en-US"),
           // distancelearnings2200"),
-          // speakdistancelearnings22
           // distancelearnings22("en-US"),
         ],
       ),

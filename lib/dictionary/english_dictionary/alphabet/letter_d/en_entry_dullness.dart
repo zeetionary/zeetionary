@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -408,43 +406,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdullnesss3("en-US"),
           ),
           // dullnesss400
-          // speakdullnesss4
           // dullnesss4// dullnesss500
-          // speakdullnesss5
           // dullnesss5// dullnesss600
-          // speakdullnesss6
           // dullnesss6// dullnesss700
-          // speakdullnesss7
           // dullnesss7// dullnesss800
-          // speakdullnesss8
           // dullnesss8// dullnesss900
-          // speakdullnesss9
           // dullnesss9// dullnesss_1000
-          // speakdullnesss10
           // dullnesss10// dullnesss1100
-          // speakdullnesss11
           // dullnesss11// dullnesss1200
-          // speakdullnesss12
           // dullnesss12// dullnesss1300
-          // speakdullnesss13
           // dullnesss13// dullnesss1400
-          // speakdullnesss14
           // dullnesss14// dullnesss1500
-          // speakdullnesss15
           // dullnesss15// dullnesss1600
-          // speakdullnesss16
           // dullnesss16// dullnesss1700
-          // speakdullnesss17
           // dullnesss17// dullnesss1800
-          // speakdullnesss18
           // dullnesss18// dullnesss1900
-          // speakdullnesss19
           // dullnesss19// dullnesss_2000
-          // speakdullnesss20
           // dullnesss20// dullnesss2100
-          // speakdullnesss21
           // dullnesss21// dullnesss2200
-          // speakdullnesss22
           // dullnesss22("en-US"""),
         ],
       ),

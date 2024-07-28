@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -298,58 +296,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespites4("en-US"),
           ),
           // despites500"),
-          // speakdespites5
           // despites5("en-US"),
           // despites600"),
-          // speakdespites6
           // despites6("en-US"),
           // despites700"),
-          // speakdespites7
           // despites7("en-US"),
           // despites800"),
-          // speakdespites8
           // despites8("en-US"),
           // despites900"),
-          // speakdespites9
           // despites9("en-US"),
           // despites1000"),
-          // speakdespites10
           // despites10("en-US"),
           // despites1100"),
-          // speakdespites11
           // despites11("en-US"),
           // despites1200"),
-          // speakdespites12
           // despites12("en-US"),
           // despites1300"),
-          // speakdespites13
           // despites13("en-US"),
           // despites1400"),
-          // speakdespites14
           // despites14("en-US"),
           // despites1500"),
-          // speakdespites15
           // despites15("en-US"),
           // despites1600"),
-          // speakdespites16
           // despites16("en-US"),
           // despites1700"),
-          // speakdespites17
           // despites17("en-US"),
           // despites1800"),
-          // speakdespites18
           // despites18("en-US"),
           // despites1900"),
-          // speakdespites19
           // despites19("en-US"),
           // "Despite applying for hundreds of jobs, he is still out of work.0"),
-          // speakdespites20
           // despites20("en-US"),
           // despites2100"),
-          // speakdespites21
           // despites21("en-US"),
           // despites2200"),
-          // speakdespites22
           // despites22("en-US"),
         ],
       ),

@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -301,58 +299,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetachments4("en-US"),
           ),
           // detachments500"),
-          // speakdetachments5
           // detachments5
           // detachments600"),
-          // speakdetachments6
           // detachments6
           // detachments700"),
-          // speakdetachments7
           // detachments7("en-US"),
           // detachments800"),
-          // speakdetachments8
           // detachments8("en-US"),
           // detachments900"),
-          // speakdetachments9
           // detachments9("en-US"),
           // detachments1000"),
-          // speakdetachments10
           // detachments10("en-US"),
           // detachments1100"),
-          // speakdetachments11
           // detachments11("en-US"),
           // detachments1200"),
-          // speakdetachments12
           // detachments12("en-US"),
           // detachments1300"),
-          // speakdetachments13
           // detachments13("en-US"),
           // detachments1400"),
-          // speakdetachments14
           // detachments14("en-US"),
           // detachments1500"),
-          // speakdetachments15
           // detachments15("en-US"),
           // detachments1600"),
-          // speakdetachments16
           // detachments16("en-US"),
           // detachments1700"),
-          // speakdetachments17
           // detachments17("en-US"),
           // detachments1800"),
-          // speakdetachments18
           // detachments18("en-US"),
           // detachments1900"),
-          // speakdetachments19
           // detachments19("en-US"),
           // "She watched with complete detachment as the others made all the preparations.0"),
-          // speakdetachments20
           // detachments20("en-US"),
           // detachments2100"),
-          // speakdetachments21
           // detachments21("en-US"),
           // detachments2200"),
-          // speakdetachments22
           // detachments22("en-US"),
         ],
       ),

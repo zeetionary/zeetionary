@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -406,42 +404,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeliminations3("en-US"),
           ),
           // eliminations400eliminations4
-          // speakeliminations4
-          // speakeliminations500eliminations5
-          // speakeliminations5
-          // speakeliminations600eliminations6
-          // speakeliminations6
-          // speakeliminations700eliminations7
-          // speakeliminations7
-          // speakeliminations800eliminations8
-          // speakeliminations8
-          // speakeliminations900eliminations9
-          // speakeliminations9
-          // speakeliminations_1000eliminations10
-          // speakeliminations10
-          // speakeliminations1100eliminations11
-          // speakeliminations11
-          // speakeliminations1200eliminations12
-          // speakeliminations12
-          // speakeliminations1300eliminations13
-          // speakeliminations13
-          // speakeliminations1400eliminations14
-          // speakeliminations14
-          // speakeliminations1500eliminations15
-          // speakeliminations15
-          // speakeliminations1600eliminations16
-          // speakeliminations16
-          // speakeliminations1700eliminations17
-          // speakeliminations17
-          // speakeliminations1800eliminations18
-          // speakeliminations18
-          // speakeliminations1900eliminations19
-          // speakeliminations19
-          // speakeliminations_2000eliminations20
-          // speakeliminations20
-          // speakeliminations2100eliminations21
-          // speakeliminations21
-          // speakeliminations2200eliminations22
           // speakeliminations22("en-US"""),
           //         ),
           //       ],

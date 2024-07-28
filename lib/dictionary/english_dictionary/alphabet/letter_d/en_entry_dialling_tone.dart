@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiallingtones1("en-US"),
           ),
           // diallingtones200"),
-          // speakdiallingtones2
           // diallingtones2("en-US"),
           // diallingtones300"),
-          // speakdiallingtones3
           // diallingtones3("en-US"),
           // diallingtones400"),
-          // speakdiallingtones4
           // diallingtones4("en-US"),
           // diallingtones500"),
-          // speakdiallingtones5
           // diallingtones5("en-US"),
           // diallingtones600"),
-          // speakdiallingtones6
           // diallingtones6("en-US"),
           // diallingtones700"),
-          // speakdiallingtones7
           // diallingtones7("en-US"),
           // diallingtones800"),
-          // speakdiallingtones8
           // diallingtones8("en-US"),
           // diallingtones900"),
-          // speakdiallingtones9
           // diallingtones9("en-US"),
           // diallingtones_1000"),
-          // speakdiallingtones10
           // diallingtones10("en-US"),
           // diallingtones1100"),
-          // speakdiallingtones11
           // diallingtones11("en-US"),
           // diallingtones1200"),
-          // speakdiallingtones12
           // diallingtones12("en-US"),
           // diallingtones1300"),
-          // speakdiallingtones13
           // diallingtones13("en-US"),
           // diallingtones1400"),
-          // speakdiallingtones14
           // diallingtones14("en-US"),
           // diallingtones1500"),
-          // speakdiallingtones15
           // diallingtones15("en-US"),
           // diallingtones1600"),
-          // speakdiallingtones16
           // diallingtones16("en-US"),
           // diallingtones1700"),
-          // speakdiallingtones17
           // diallingtones17("en-US"),
           // diallingtones1800"),
-          // speakdiallingtones18
           // diallingtones18("en-US"),
           // diallingtones1900"),
-          // speakdiallingtones19
           // diallingtones19("en-US"),
           // diallingtones_2000"),
-          // speakdiallingtones20
           // diallingtones20("en-US"),
           // diallingtones2100"),
-          // speakdiallingtones21
           // diallingtones21("en-US"),
           // diallingtones2200"),
-          // speakdiallingtones22
           // diallingtones22("en-US"),
         ],
       ),

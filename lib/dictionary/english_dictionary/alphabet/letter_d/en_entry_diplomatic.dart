@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiplomatics2("en-US"),
           ),
           // diplomatics300"),
-          // speakdiplomatics3
           // diplomatics3("en-US"),
           // diplomatics400"),
-          // speakdiplomatics4
           // diplomatics4("en-US"),
           // diplomatics500"),
-          // speakdiplomatics5
           // diplomatics5("en-US"),
           // diplomatics600"),
-          // speakdiplomatics6
           // diplomatics6("en-US"),
           // diplomatics700"),
-          // speakdiplomatics7
           // diplomatics7("en-US"),
           // diplomatics800"),
-          // speakdiplomatics8
           // diplomatics8("en-US"),
           // diplomatics900"),
-          // speakdiplomatics9
           // diplomatics9("en-US"),
           // diplomatics_1000"),
-          // speakdiplomatics10
           // diplomatics10("en-US"),
           // diplomatics1100"),
-          // speakdiplomatics11
           // diplomatics11("en-US"),
           // diplomatics1200"),
-          // speakdiplomatics12
           // diplomatics12("en-US"),
           // diplomatics1300"),
-          // speakdiplomatics13
           // diplomatics13("en-US"),
           // diplomatics1400"),
-          // speakdiplomatics14
           // diplomatics14("en-US"),
           // diplomatics1500"),
-          // speakdiplomatics15
           // diplomatics15("en-US"),
           // diplomatics1600"),
-          // speakdiplomatics16
           // diplomatics16("en-US"),
           // diplomatics1700"),
-          // speakdiplomatics17
           // diplomatics17("en-US"),
           // diplomatics1800"),
-          // speakdiplomatics18
           // diplomatics18("en-US"),
           // diplomatics1900"),
-          // speakdiplomatics19
           // diplomatics19("en-US"),
           // diplomatics_2000"),
-          // speakdiplomatics20
           // diplomatics20("en-US"),
           // diplomatics2100"),
-          // speakdiplomatics21
           // diplomatics21("en-US"),
           // diplomatics2200"),
-          // speakdiplomatics22
           // diplomatics22("en-US"),
         ],
       ),

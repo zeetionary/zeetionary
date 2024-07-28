@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -299,55 +297,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiseases5("en-US"),
           ),
           // diseases600"),
-          // speakdiseases6
           // diseases6("en-US"),
           // diseases700"),
-          // speakdiseases7
           // diseases7("en-US"),
           // diseases800"),
-          // speakdiseases8
           // diseases8("en-US"),
           // diseases900"),
-          // speakdiseases9
           // diseases9("en-US"),
           // diseases_1000"),
-          // speakdiseases10
           // diseases10("en-US"),
           // diseases1100"),
-          // speakdiseases11
           // diseases11("en-US"),
           // diseases1200"),
-          // speakdiseases12
           // diseases12("en-US"),
           // diseases1300"),
-          // speakdiseases13
           // diseases13("en-US"),
           // diseases1400"),
-          // speakdiseases14
           // diseases14("en-US"),
           // diseases1500"),
-          // speakdiseases15
           // diseases15("en-US"),
           // diseases1600"),
-          // speakdiseases16
           // diseases16("en-US"),
           // diseases1700"),
-          // speakdiseases17
           // diseases17("en-US"),
           // diseases1800"),
-          // speakdiseases18
           // diseases18("en-US"),
           // diseases1900"),
-          // speakdiseases19
           // diseases19("en-US"),
           // diseases_2000"),
-          // speakdiseases20
           // diseases20("en-US"),
           // diseases2100"),
-          // speakdiseases21
           // diseases21("en-US"),
           // diseases2200"),
-          // speakdiseases22
           // diseases22("en-US"),
         ],
       ),

@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -280,61 +278,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestinations3("en-US"),
           ),
           // destinations400"),
-          // speakdestinations4
           // destinations4("en-US"),
           // destinations500"),
-          // speakdestinations5
           // destinations5("en-US"),
           // destinations600"),
-          // speakdestinations6
           // destinations6("en-US"),
           // destinations700"),
-          // speakdestinations7
           // destinations7("en-US"),
           // destinations800"),
-          // speakdestinations8
           // destinations8("en-US"),
           // destinations900"),
-          // speakdestinations9
           // destinations9("en-US"),
           // destinations1000"),
-          // speakdestinations10
           // destinations10("en-US"),
           // destinations1100"),
-          // speakdestinations11
           // destinations11("en-US"),
           // destinations1200"),
-          // speakdestinations12
           // destinations12("en-US"),
           // destinations1300"),
-          // speakdestinations13
           // destinations13("en-US"),
           // destinations1400"),
-          // speakdestinations14
           // destinations14("en-US"),
           // destinations1500"),
-          // speakdestinations15
           // destinations15("en-US"),
           // destinations1600"),
-          // speakdestinations16
           // destinations16("en-US"),
           // destinations1700"),
-          // speakdestinations17
           // destinations17("en-US"),
           // destinations1800"),
-          // speakdestinations18
           // destinations18("en-US"),
           // destinations1900"),
-          // speakdestinations19
           // destinations19("en-US"),
           // "My steps slowed down as I neared my destination.0"),
-          // speakdestinations20
           // destinations20("en-US"),
           // destinations2100"),
-          // speakdestinations21
           // destinations21("en-US"),
           // destinations2200"),
-          // speakdestinations22
           // destinations22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -381,64 +379,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoorbells2("en-US"),
           ),
           // doorbells300"),
-          // speakdoorbells3
           // doorbells3("en-US"),
           // doorbells400"),
-          // speakdoorbells4
           // doorbells4("en-US"),
           // doorbells500"),
-          // speakdoorbells5
           // doorbells5("en-US"),
           // doorbells600"),
-          // speakdoorbells6
           // doorbells6("en-US"),
           // doorbells700"),
-          // speakdoorbells7
           // doorbells7("en-US"),
           // doorbells800"),
-          // speakdoorbells8
           // doorbells8("en-US"),
           // doorbells900"),
-          // speakdoorbells9
           // doorbells9("en-US"),
           // doorbells_1000"),
-          // speakdoorbells10
           // doorbells10("en-US"),
           // doorbells1100"),
-          // speakdoorbells11
           // doorbells11("en-US"),
           // doorbells1200"),
-          // speakdoorbells12
           // doorbells12("en-US"),
           // doorbells1300"),
-          // speakdoorbells13
           // doorbells13("en-US"),
           // doorbells1400"),
-          // speakdoorbells14
           // doorbells14("en-US"),
           // doorbells1500"),
-          // speakdoorbells15
           // doorbells15("en-US"),
           // doorbells1600"),
-          // speakdoorbells16
           // doorbells16("en-US"),
           // doorbells1700"),
-          // speakdoorbells17
           // doorbells17("en-US"),
           // doorbells1800"),
-          // speakdoorbells18
           // doorbells18("en-US"),
           // doorbells1900"),
-          // speakdoorbells19
           // doorbells19("en-US"),
           // doorbells_2000"),
-          // speakdoorbells20
           // doorbells20("en-US"),
           // doorbells2100"),
-          // speakdoorbells21
           // doorbells21("en-US"),
           // doorbells2200"),
-          // speakdoorbells22
           // doorbells22("en-US"),
         ],
       ),

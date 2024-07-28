@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdolphins1("en-US"),
           ),
           // dolphins200"),
-          // speakdolphins2
           // dolphins2("en-US"),
           // dolphins300"),
-          // speakdolphins3
           // dolphins3("en-US"),
           // dolphins400"),
-          // speakdolphins4
           // dolphins4("en-US"),
           // dolphins500"),
-          // speakdolphins5
           // dolphins5("en-US"),
           // dolphins600"),
-          // speakdolphins6
           // dolphins6("en-US"),
           // dolphins700"),
-          // speakdolphins7
           // dolphins7("en-US"),
           // dolphins800"),
-          // speakdolphins8
           // dolphins8("en-US"),
           // dolphins900"),
-          // speakdolphins9
           // dolphins9("en-US"),
           // dolphins_1000"),
-          // speakdolphins10
           // dolphins10("en-US"),
           // dolphins1100"),
-          // speakdolphins11
           // dolphins11("en-US"),
           // dolphins1200"),
-          // speakdolphins12
           // dolphins12("en-US"),
           // dolphins1300"),
-          // speakdolphins13
           // dolphins13("en-US"),
           // dolphins1400"),
-          // speakdolphins14
           // dolphins14("en-US"),
           // dolphins1500"),
-          // speakdolphins15
           // dolphins15("en-US"),
           // dolphins1600"),
-          // speakdolphins16
           // dolphins16("en-US"),
           // dolphins1700"),
-          // speakdolphins17
           // dolphins17("en-US"),
           // dolphins1800"),
-          // speakdolphins18
           // dolphins18("en-US"),
           // dolphins1900"),
-          // speakdolphins19
           // dolphins19("en-US"),
           // dolphins_2000"),
-          // speakdolphins20
           // dolphins20("en-US"),
           // dolphins2100"),
-          // speakdolphins21
           // dolphins21("en-US"),
           // dolphins2200"),
-          // speakdolphins22
           // dolphins22("en-US"),
         ],
       ),

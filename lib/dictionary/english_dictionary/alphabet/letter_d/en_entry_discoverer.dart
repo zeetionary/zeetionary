@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscoverers2("en-US"),
           ),
           // discoverers300"),
-          // speakdiscoverers3
           // discoverers3("en-US"),
           // discoverers400"),
-          // speakdiscoverers4
           // discoverers4("en-US"),
           // discoverers500"),
-          // speakdiscoverers5
           // discoverers5("en-US"),
           // discoverers600"),
-          // speakdiscoverers6
           // discoverers6("en-US"),
           // discoverers700"),
-          // speakdiscoverers7
           // discoverers7("en-US"),
           // discoverers800"),
-          // speakdiscoverers8
           // discoverers8("en-US"),
           // discoverers900"),
-          // speakdiscoverers9
           // discoverers9("en-US"),
           // discoverers_1000"),
-          // speakdiscoverers10
           // discoverers10("en-US"),
           // discoverers1100"),
-          // speakdiscoverers11
           // discoverers11("en-US"),
           // discoverers1200"),
-          // speakdiscoverers12
           // discoverers12("en-US"),
           // discoverers1300"),
-          // speakdiscoverers13
           // discoverers13("en-US"),
           // discoverers1400"),
-          // speakdiscoverers14
           // discoverers14("en-US"),
           // discoverers1500"),
-          // speakdiscoverers15
           // discoverers15("en-US"),
           // discoverers1600"),
-          // speakdiscoverers16
           // discoverers16("en-US"),
           // discoverers1700"),
-          // speakdiscoverers17
           // discoverers17("en-US"),
           // discoverers1800"),
-          // speakdiscoverers18
           // discoverers18("en-US"),
           // discoverers1900"),
-          // speakdiscoverers19
           // discoverers19("en-US"),
           // discoverers_2000"),
-          // speakdiscoverers20
           // discoverers20("en-US"),
           // discoverers2100"),
-          // speakdiscoverers21
           // discoverers21("en-US"),
           // discoverers2200"),
-          // speakdiscoverers22
           // discoverers22("en-US"),
         ],
       ),

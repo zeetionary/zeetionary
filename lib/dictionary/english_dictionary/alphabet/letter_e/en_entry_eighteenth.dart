@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeighteenths1("en-US"),
           ),
           // eighteenths200eighteenths2
-          // speakeighteenths2
           // eighteenths300eighteenths3
-          // speakeighteenths3
           // eighteenths400eighteenths4
-          // speakeighteenths4
           // eighteenths500eighteenths5
-          // speakeighteenths5
           // eighteenths600eighteenths6
-          // speakeighteenths6
           // eighteenths700eighteenths7
-          // speakeighteenths7
           // eighteenths800eighteenths8
-          // speakeighteenths8
           // eighteenths900eighteenths9
-          // speakeighteenths9
           // eighteenths_1000eighteenths10
-          // speakeighteenths10
           // eighteenths1100eighteenths11
-          // speakeighteenths11
           // eighteenths1200eighteenths12
-          // speakeighteenths12
           // eighteenths1300eighteenths13
-          // speakeighteenths13
           // eighteenths1400eighteenths14
-          // speakeighteenths14
           // eighteenths1500eighteenths15
-          // speakeighteenths15
           // eighteenths1600eighteenths16
-          // speakeighteenths16
           // eighteenths1700eighteenths17
-          // speakeighteenths17
           // eighteenths1800eighteenths18
-          // speakeighteenths18
           // eighteenths1900eighteenths19
-          // speakeighteenths19
           // eighteenths_2000eighteenths20
-          // speakeighteenths20
           // eighteenths2100eighteenths21
-          // speakeighteenths21
           // eighteenths2200eighteenths22
           // speakeighteenths22("en-US"""),
           //         ),

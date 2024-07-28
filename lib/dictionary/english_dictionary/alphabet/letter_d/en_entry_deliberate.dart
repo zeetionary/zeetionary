@@ -265,9 +265,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -330,52 +328,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeliberates6("en-US"),
           ),
           // deliberates700"),
-          // speakdeliberates7
           // deliberates7("en-US"),
           // deliberates800"),
-          // speakdeliberates8
           // deliberates8("en-US"),
           // deliberates900"),
-          // speakdeliberates9
           // deliberates9("en-US"),
           // deliberates1000"),
-          // speakdeliberates10
           // deliberates10("en-US"),
           // deliberates1100"),
-          // speakdeliberates11
           // deliberates11("en-US"),
           // deliberates1200"),
-          // speakdeliberates12
           // deliberates12("en-US"),
           // deliberates1300"),
-          // speakdeliberates13
           // deliberates13("en-US"),
           // deliberates1400"),
-          // speakdeliberates14
           // deliberates14("en-US"),
           // deliberates1500"),
-          // speakdeliberates15
           // deliberates15("en-US"),
           // deliberates1600"),
-          // speakdeliberates16
           // deliberates16("en-US"),
           // deliberates1700"),
-          // speakdeliberates17
           // deliberates17("en-US"),
           // deliberates1800"),
-          // speakdeliberates18
           // deliberates18("en-US"),
           // deliberates1900"),
-          // speakdeliberates19
           // deliberates19("en-US"),
           // "The emphasis on Europe was quite deliberate.0"),
-          // speakdeliberates20
           // deliberates20("en-US"),
           // deliberates2100"),
-          // speakdeliberates21
           // deliberates21("en-US"),
           // deliberates2200"),
-          // speakdeliberates22
           // deliberates22("en-US"),
         ],
       ),

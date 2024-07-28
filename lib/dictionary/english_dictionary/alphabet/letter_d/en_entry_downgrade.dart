@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdowngrades1("en-US"),
           ),
           // downgrades200"),
-          // speakdowngrades2
           // downgrades2("en-US"),
           // downgrades300"),
-          // speakdowngrades3
           // downgrades3("en-US"),
           // downgrades400"),
-          // speakdowngrades4
           // downgrades4("en-US"),
           // downgrades500"),
-          // speakdowngrades5
           // downgrades5("en-US"),
           // downgrades600"),
-          // speakdowngrades6
           // downgrades6("en-US"),
           // downgrades700"),
-          // speakdowngrades7
           // downgrades7("en-US"),
           // downgrades800"),
-          // speakdowngrades8
           // downgrades8("en-US"),
           // downgrades900"),
-          // speakdowngrades9
           // downgrades9("en-US"),
           // downgrades_1000"),
-          // speakdowngrades10
           // downgrades10("en-US"),
           // downgrades1100"),
-          // speakdowngrades11
           // downgrades11("en-US"),
           // downgrades1200"),
-          // speakdowngrades12
           // downgrades12("en-US"),
           // downgrades1300"),
-          // speakdowngrades13
           // downgrades13("en-US"),
           // downgrades1400"),
-          // speakdowngrades14
           // downgrades14("en-US"),
           // downgrades1500"),
-          // speakdowngrades15
           // downgrades15("en-US"),
           // downgrades1600"),
-          // speakdowngrades16
           // downgrades16("en-US"),
           // downgrades1700"),
-          // speakdowngrades17
           // downgrades17("en-US"),
           // downgrades1800"),
-          // speakdowngrades18
           // downgrades18("en-US"),
           // downgrades1900"),
-          // speakdowngrades19
           // downgrades19("en-US"),
           // downgrades_2000"),
-          // speakdowngrades20
           // downgrades20("en-US"),
           // downgrades2100"),
-          // speakdowngrades21
           // downgrades21("en-US"),
           // downgrades2200"),
-          // speakdowngrades22
           // downgrades22("en-US"),
         ],
       ),

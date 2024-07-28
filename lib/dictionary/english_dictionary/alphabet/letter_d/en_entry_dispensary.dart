@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdispensarys1("en-US"),
           ),
           // dispensarys200"),
-          // speakdispensarys2
           // dispensarys2
           // dispensarys300"),
-          // speakdispensarys3
           // dispensarys3
           // dispensarys400"),
-          // speakdispensarys4
           // dispensarys4
           // dispensarys500"),
-          // speakdispensarys5
           // dispensarys5
           // dispensarys600"),
-          // speakdispensarys6
           // dispensarys6
           // dispensarys700"),
-          // speakdispensarys7
           // dispensarys7
           // dispensarys800"),
-          // speakdispensarys8
           // dispensarys8
           // dispensarys900"),
-          // speakdispensarys9
           // dispensarys9
           // dispensarys_1000"),
-          // speakdispensarys10
           // dispensarys10
           // dispensarys1100"),
-          // speakdispensarys11
           // dispensarys11
           // dispensarys1200"),
-          // speakdispensarys12
           // dispensarys12
           // dispensarys1300"),
-          // speakdispensarys13
           // dispensarys13
           // dispensarys1400"),
-          // speakdispensarys14
           // dispensarys14
           // dispensarys1500"),
-          // speakdispensarys15
           // dispensarys15
           // dispensarys1600"),
-          // speakdispensarys16
           // dispensarys16
           // dispensarys1700"),
-          // speakdispensarys17
           // dispensarys17
           // dispensarys1800"),
-          // speakdispensarys18
           // dispensarys18
           // dispensarys1900"),
-          // speakdispensarys19
           // dispensarys19
           // dispensarys_2000"),
-          // speakdispensarys20
           // dispensarys20
           // dispensarys2100"),
-          // speakdispensarys21
           // dispensarys21
           // dispensarys2200"),
-          // speakdispensarys22
           // dispensarys22("en-US"),
         ],
       ),

@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -405,41 +403,23 @@ class KurdishMeaning extends StatelessWidget {
             },
           ),
           // embroiders400embroiders4
-          // speakembroiders4
           // embroiders500embroiders5
-          // speakembroiders5
           // embroiders600embroiders6
-          // speakembroiders6
           // embroiders700embroiders7
-          // speakembroiders7
           // embroiders800embroiders8
-          // speakembroiders8
           // embroiders900embroiders9
-          // speakembroiders9
           // embroiders_1000embroiders10
-          // speakembroiders10
           // embroiders1100embroiders11
-          // speakembroiders11
           // embroiders1200embroiders12
-          // speakembroiders12
           // embroiders1300embroiders13
-          // speakembroiders13
           // embroiders1400embroiders14
-          // speakembroiders14
           // embroiders1500embroiders15
-          // speakembroiders15
           // embroiders1600embroiders16
-          // speakembroiders16
           // embroiders1700embroiders17
-          // speakembroiders17
           // embroiders1800embroiders18
-          // speakembroiders18
           // embroiders1900embroiders19
-          // speakembroiders19
           // embroiders_2000embroiders20
-          // speakembroiders20
           // embroiders2100embroiders21
-          // speakembroiders21
           // embroiders2200embroiders22
           // speakembroiders22("en-US"""),
           //         ),

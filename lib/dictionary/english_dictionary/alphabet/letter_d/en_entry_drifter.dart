@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrifters2("en-US"),
           ),
           // drifters300"),
-          // speakdrifters3
           // drifters3("en-US"),
           // drifters400"),
-          // speakdrifters4
           // drifters4("en-US"),
           // drifters500"),
-          // speakdrifters5
           // drifters5("en-US"),
           // drifters600"),
-          // speakdrifters6
           // drifters6("en-US"),
           // drifters700"),
-          // speakdrifters7
           // drifters7("en-US"),
           // drifters800"),
-          // speakdrifters8
           // drifters8("en-US"),
           // drifters900"),
-          // speakdrifters9
           // drifters9("en-US"),
           // drifters_1000"),
-          // speakdrifters10
           // drifters10("en-US"),
           // drifters1100"),
-          // speakdrifters11
           // drifters11("en-US"),
           // drifters1200"),
-          // speakdrifters12
           // drifters12("en-US"),
           // drifters1300"),
-          // speakdrifters13
           // drifters13("en-US"),
           // drifters1400"),
-          // speakdrifters14
           // drifters14("en-US"),
           // drifters1500"),
-          // speakdrifters15
           // drifters15("en-US"),
           // drifters1600"),
-          // speakdrifters16
           // drifters16("en-US"),
           // drifters1700"),
-          // speakdrifters17
           // drifters17("en-US"),
           // drifters1800"),
-          // speakdrifters18
           // drifters18("en-US"),
           // drifters1900"),
-          // speakdrifters19
           // drifters19("en-US"),
           // drifters_2000"),
-          // speakdrifters20
           // drifters20("en-US"),
           // drifters2100"),
-          // speakdrifters21
           // drifters21("en-US"),
           // drifters2200"),
-          // speakdrifters22
           // drifters22("en-US"),
         ],
       ),

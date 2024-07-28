@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,43 +381,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakecclesiasticals2("en-US"),
           ),
           // ecclesiasticals300ecclesiasticals3
-          // speakecclesiasticals3
           // ecclesiasticals400ecclesiasticals4
-          // speakecclesiasticals4
           // ecclesiasticals500ecclesiasticals5
-          // speakecclesiasticals5
           // ecclesiasticals600ecclesiasticals6
-          // speakecclesiasticals6
           // ecclesiasticals700ecclesiasticals7
-          // speakecclesiasticals7
           // ecclesiasticals800ecclesiasticals8
-          // speakecclesiasticals8
           // ecclesiasticals900ecclesiasticals9
-          // speakecclesiasticals9
           // ecclesiasticals_1000ecclesiasticals10
-          // speakecclesiasticals10
           // ecclesiasticals1100ecclesiasticals11
-          // speakecclesiasticals11
           // ecclesiasticals1200ecclesiasticals12
-          // speakecclesiasticals12
           // ecclesiasticals1300ecclesiasticals13
-          // speakecclesiasticals13
           // ecclesiasticals1400ecclesiasticals14
-          // speakecclesiasticals14
           // ecclesiasticals1500ecclesiasticals15
-          // speakecclesiasticals15
           // ecclesiasticals1600ecclesiasticals16
-          // speakecclesiasticals16
           // ecclesiasticals1700ecclesiasticals17
-          // speakecclesiasticals17
           // ecclesiasticals1800ecclesiasticals18
-          // speakecclesiasticals18
           // ecclesiasticals1900ecclesiasticals19
-          // speakecclesiasticals19
           // ecclesiasticals_2000ecclesiasticals20
-          // speakecclesiasticals20
           // ecclesiasticals2100ecclesiasticals21
-          // speakecclesiasticals21
           // ecclesiasticals2200ecclesiasticals22
           // speakecclesiasticals22("en-US"""),
           //         ),

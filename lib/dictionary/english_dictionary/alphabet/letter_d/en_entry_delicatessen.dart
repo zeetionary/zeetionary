@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelicatessens1("en-US"),
           ),
           // delicatessens200"),
-          // speakdelicatessens2
           // delicatessens2("en-US"),
           // delicatessens300"),
-          // speakdelicatessens3
           // delicatessens3("en-US"),
           // delicatessens400"),
-          // speakdelicatessens4
           // delicatessens4("en-US"),
           // delicatessens500"),
-          // speakdelicatessens5
           // delicatessens5("en-US"),
           // delicatessens600"),
-          // speakdelicatessens6
           // delicatessens6("en-US"),
           // delicatessens700"),
-          // speakdelicatessens7
           // delicatessens7("en-US"),
           // delicatessens800"),
-          // speakdelicatessens8
           // delicatessens8("en-US"),
           // delicatessens900"),
-          // speakdelicatessens9
           // delicatessens9("en-US"),
           // delicatessens1000"),
-          // speakdelicatessens10
           // delicatessens10("en-US"),
           // delicatessens1100"),
-          // speakdelicatessens11
           // delicatessens11("en-US"),
           // delicatessens1200"),
-          // speakdelicatessens12
           // delicatessens12("en-US"),
           // delicatessens1300"),
-          // speakdelicatessens13
           // delicatessens13("en-US"),
           // delicatessens1400"),
-          // speakdelicatessens14
           // delicatessens14("en-US"),
           // delicatessens1500"),
-          // speakdelicatessens15
           // delicatessens15("en-US"),
           // delicatessens1600"),
-          // speakdelicatessens16
           // delicatessens16("en-US"),
           // delicatessens1700"),
-          // speakdelicatessens17
           // delicatessens17("en-US"),
           // delicatessens1800"),
-          // speakdelicatessens18
           // delicatessens18("en-US"),
           // delicatessens1900"),
-          // speakdelicatessens19
           // delicatessens19("en-US"),
           // delicatessens2000"),
-          // speakdelicatessens20
           // delicatessens20("en-US"),
           // delicatessens2100"),
-          // speakdelicatessens21
           // delicatessens21("en-US"),
           // delicatessens2200"),
-          // speakdelicatessens22
           // delicatessens22("en-US"),
         ],
       ),

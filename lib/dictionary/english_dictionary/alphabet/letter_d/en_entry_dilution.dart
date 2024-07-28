@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -275,61 +273,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdilutions3("en-US"),
           ),
           // dilutions400"),
-          // speakdilutions4
           // dilutions4
           // dilutions500"),
-          // speakdilutions5
           // dilutions5
           // dilutions600"),
-          // speakdilutions6
           // dilutions6
           // dilutions700"),
-          // speakdilutions7
           // dilutions7
           // dilutions800"),
-          // speakdilutions8
           // dilutions8
           // dilutions900"),
-          // speakdilutions9
           // dilutions9
           // dilutions_1000"),
-          // speakdilutions10
           // dilutions10
           // dilutions1100"),
-          // speakdilutions11
           // dilutions11
           // dilutions1200"),
-          // speakdilutions12
           // dilutions12
           // dilutions1300"),
-          // speakdilutions13
           // dilutions13
           // dilutions1400"),
-          // speakdilutions14
           // dilutions14
           // dilutions1500"),
-          // speakdilutions15
           // dilutions15
           // dilutions1600"),
-          // speakdilutions16
           // dilutions16
           // dilutions1700"),
-          // speakdilutions17
           // dilutions17
           // dilutions1800"),
-          // speakdilutions18
           // dilutions18
           // dilutions1900"),
-          // speakdilutions19
           // dilutions19
           // dilutions_2000"),
-          // speakdilutions20
           // dilutions20
           // dilutions2100"),
-          // speakdilutions21
           // dilutions21
           // dilutions2200"),
-          // speakdilutions22
           // dilutions22("en-US"),
         ],
       ),

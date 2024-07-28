@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -267,64 +265,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeflections2("en-US"),
           ),
           // deflections300"),
-          // speakdeflections3
           // deflections3("en-US"),
           // deflections400"),
-          // speakdeflections4
           // deflections4("en-US"),
           // deflections500"),
-          // speakdeflections5
           // deflections5("en-US"),
           // deflections600"),
-          // speakdeflections6
           // deflections6("en-US"),
           // deflections700"),
-          // speakdeflections7
           // deflections7("en-US"),
           // deflections800"),
-          // speakdeflections8
           // deflections8("en-US"),
           // deflections900"),
-          // speakdeflections9
           // deflections9("en-US"),
           // deflections1000"),
-          // speakdeflections10
           // deflections10("en-US"),
           // deflections1100"),
-          // speakdeflections11
           // deflections11("en-US"),
           // deflections1200"),
-          // speakdeflections12
           // deflections12("en-US"),
           // deflections1300"),
-          // speakdeflections13
           // deflections13("en-US"),
           // deflections1400"),
-          // speakdeflections14
           // deflections14("en-US"),
           // deflections1500"),
-          // speakdeflections15
           // deflections15("en-US"),
           // deflections1600"),
-          // speakdeflections16
           // deflections16("en-US"),
           // deflections1700"),
-          // speakdeflections17
           // deflections17("en-US"),
           // deflections1800"),
-          // speakdeflections18
           // deflections18("en-US"),
           // deflections1900"),
-          // speakdeflections19
           // deflections19("en-US"),
           // "The goal was scored with a deflection off the goalkeeper.0"),
-          // speakdeflections20
           // deflections20("en-US"),
           // deflections2100"),
-          // speakdeflections21
           // deflections21("en-US"),
           // deflections2200"),
-          // speakdeflections22
           // deflections22("en-US"),
         ],
       ),

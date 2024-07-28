@@ -547,9 +547,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -809,64 +807,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivides28("en-US"),
           ),
           // divides2900"),
-          // speakdivides29
           // divides29
           // divides_3000"),
-          // speakdivides30
           // divides30
           // divides3100"),
-          // speakdivides31
           // divides31
           // divides3200"),
-          // speakdivides32
           // divides32
           // divides3300"),
-          // speakdivides33
           // divides33
           // divides3400"),
-          // speakdivides34
           // divides34
           // divides3500"),
-          // speakdivides35
           // divides35
           // divides3600"),
-          // speakdivides36
           // divides36
           // divides3700"),
-          // speakdivides37
           // divides37
           // divides3800"),
-          // speakdivides38
           // divides38
           // divides3900"),
-          // speakdivides39
           // divides39
           // divides_4000"),
-          // speakdivides40
           // divides40
           // divides4100"),
-          // speakdivides41
           // divides41
           // divides4200"),
-          // speakdivides42
           // divides42
           // divides4300"),
-          // speakdivides43
           // divides43
           // divides4400"),
-          // speakdivides44
           // divides44
           // divides4500"),
-          // speakdivides45
           // divides45
           // divides4600"),
-          // speakdivides46
           // divides46
           // divides4700"),
-          // speakdivides47
           // divides47
           // divides4800"),
-          // speakdivides48
           // divides48("en-US"),
         ],
       ),

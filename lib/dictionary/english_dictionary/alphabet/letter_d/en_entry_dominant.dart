@@ -373,9 +373,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -415,58 +413,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdominants4("en-US"),
           ),
           // dominants500"),
-          // speakdominants5
           // dominants5("en-US"),
           // dominants600"),
-          // speakdominants6
           // dominants6("en-US"),
           // dominants700"),
-          // speakdominants7
           // dominants7("en-US"),
           // dominants800"),
-          // speakdominants8
           // dominants8("en-US"),
           // dominants900"),
-          // speakdominants9
           // dominants9("en-US"),
           // dominants_1000"),
-          // speakdominants10
           // dominants10("en-US"),
           // dominants1100"),
-          // speakdominants11
           // dominants11("en-US"),
           // dominants1200"),
-          // speakdominants12
           // dominants12("en-US"),
           // dominants1300"),
-          // speakdominants13
           // dominants13("en-US"),
           // dominants1400"),
-          // speakdominants14
           // dominants14("en-US"),
           // dominants1500"),
-          // speakdominants15
           // dominants15("en-US"),
           // dominants1600"),
-          // speakdominants16
           // dominants16("en-US"),
           // dominants1700"),
-          // speakdominants17
           // dominants17("en-US"),
           // dominants1800"),
-          // speakdominants18
           // dominants18("en-US"),
           // dominants1900"),
-          // speakdominants19
           // dominants19("en-US"),
           // dominants_2000"),
-          // speakdominants20
           // dominants20("en-US"),
           // dominants2100"),
-          // speakdominants21
           // dominants21("en-US"),
           // dominants2200"),
-          // speakdominants22
           // dominants22("en-US"),
         ],
       ),

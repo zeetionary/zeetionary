@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -399,61 +397,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdurations3("en-US"),
           ),
           // durations400
-          // speakdurations4
           // durations4("en-US"""),
           // durations500
-          // speakdurations5
           // durations5("en-US"""),
           // durations600
-          // speakdurations6
           // durations6("en-US"""),
           // durations700
-          // speakdurations7
           // durations7("en-US"""),
           // durations800
-          // speakdurations8
           // durations8("en-US"""),
           // durations900
-          // speakdurations9
           // durations9("en-US"""),
           // durations_1000
-          // speakdurations10
           // durations10("en-US"""),
           // durations1100
-          // speakdurations11
           // durations11("en-US"""),
           // durations1200
-          // speakdurations12
           // durations12("en-US"""),
           // durations1300
-          // speakdurations13
           // durations13("en-US"""),
           // durations1400
-          // speakdurations14
           // durations14("en-US"""),
           // durations1500
-          // speakdurations15
           // durations15("en-US"""),
           // durations1600
-          // speakdurations16
           // durations16("en-US"""),
           // durations1700
-          // speakdurations17
           // durations17("en-US"""),
           // durations1800
-          // speakdurations18
           // durations18("en-US"""),
           // durations1900
-          // speakdurations19
           // durations19("en-US"""),
           // durations_2000
-          // speakdurations20
           // durations20("en-US"""),
           // durations2100
-          // speakdurations21
           // durations21("en-US"""),
           // durations2200
-          // speakdurations22
           // durations22("en-US"""),
         ],
       ),

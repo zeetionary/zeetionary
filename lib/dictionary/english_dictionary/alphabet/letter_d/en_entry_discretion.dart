@@ -258,9 +258,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -324,52 +322,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscretions6("en-US"),
           ),
           // discretions700"),
-          // speakdiscretions7
           // discretions7("en-US"),
           // discretions800"),
-          // speakdiscretions8
           // discretions8("en-US"),
           // discretions900"),
-          // speakdiscretions9
           // discretions9("en-US"),
           // discretions_1000"),
-          // speakdiscretions10
           // discretions10("en-US"),
           // discretions1100"),
-          // speakdiscretions11
           // discretions11("en-US"),
           // discretions1200"),
-          // speakdiscretions12
           // discretions12("en-US"),
           // discretions1300"),
-          // speakdiscretions13
           // discretions13("en-US"),
           // discretions1400"),
-          // speakdiscretions14
           // discretions14("en-US"),
           // discretions1500"),
-          // speakdiscretions15
           // discretions15("en-US"),
           // discretions1600"),
-          // speakdiscretions16
           // discretions16("en-US"),
           // discretions1700"),
-          // speakdiscretions17
           // discretions17("en-US"),
           // discretions1800"),
-          // speakdiscretions18
           // discretions18("en-US"),
           // discretions1900"),
-          // speakdiscretions19
           // discretions19("en-US"),
           // discretions_2000"),
-          // speakdiscretions20
           // discretions20("en-US"),
           // discretions2100"),
-          // speakdiscretions21
           // discretions21("en-US"),
           // discretions2200"),
-          // speakdiscretions22
           // discretions22("en-US"),
         ],
       ),

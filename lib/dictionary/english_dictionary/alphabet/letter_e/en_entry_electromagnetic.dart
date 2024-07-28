@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,45 +369,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectromagnetics1("en-US"),
           ),
           // electromagnetics200electromagnetics2
-          // speakelectromagnetics2
           // electromagnetics300electromagnetics3
-          // speakelectromagnetics3
           // electromagnetics400electromagnetics4
-          // speakelectromagnetics4
           // electromagnetics500electromagnetics5
-          // speakelectromagnetics5
           // electromagnetics600electromagnetics6
-          // speakelectromagnetics6
           // electromagnetics700electromagnetics7
-          // speakelectromagnetics7
           // electromagnetics800electromagnetics8
-          // speakelectromagnetics8
           // electromagnetics900electromagnetics9
-          // speakelectromagnetics9
           // electromagnetics_1000electromagnetics10
-          // speakelectromagnetics10
           // electromagnetics1100electromagnetics11
-          // speakelectromagnetics11
           // electromagnetics1200electromagnetics12
-          // speakelectromagnetics12
           // electromagnetics1300electromagnetics13
-          // speakelectromagnetics13
           // electromagnetics1400electromagnetics14
-          // speakelectromagnetics14
           // electromagnetics1500electromagnetics15
-          // speakelectromagnetics15
           // electromagnetics1600electromagnetics16
-          // speakelectromagnetics16
           // electromagnetics1700electromagnetics17
-          // speakelectromagnetics17
           // electromagnetics1800electromagnetics18
-          // speakelectromagnetics18
           // electromagnetics1900electromagnetics19
-          // speakelectromagnetics19
           // electromagnetics_2000electromagnetics20
-          // speakelectromagnetics20
           // electromagnetics2100electromagnetics21
-          // speakelectromagnetics21
           // electromagnetics2200electromagnetics22
           // speakelectromagnetics22("en-US"""),
           //         ),

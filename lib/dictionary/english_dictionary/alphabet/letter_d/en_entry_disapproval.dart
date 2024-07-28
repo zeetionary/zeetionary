@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -282,58 +280,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisapprovals4("en-US"),
           ),
           // disapprovals500"),
-          // speakdisapprovals5
           // disapprovals5("en-US"),
           // disapprovals600"),
-          // speakdisapprovals6
           // disapprovals6("en-US"),
           // disapprovals700"),
-          // speakdisapprovals7
           // disapprovals7("en-US"),
           // disapprovals800"),
-          // speakdisapprovals8
           // disapprovals8("en-US"),
           // disapprovals900"),
-          // speakdisapprovals9
           // disapprovals9("en-US"),
           // disapprovals_1000"),
-          // speakdisapprovals10
           // disapprovals10("en-US"),
           // disapprovals1100"),
-          // speakdisapprovals11
           // disapprovals11("en-US"),
           // disapprovals1200"),
-          // speakdisapprovals12
           // disapprovals12("en-US"),
           // disapprovals1300"),
-          // speakdisapprovals13
           // disapprovals13("en-US"),
           // disapprovals1400"),
-          // speakdisapprovals14
           // disapprovals14("en-US"),
           // disapprovals1500"),
-          // speakdisapprovals15
           // disapprovals15("en-US"),
           // disapprovals1600"),
-          // speakdisapprovals16
           // disapprovals16("en-US"),
           // disapprovals1700"),
-          // speakdisapprovals17
           // disapprovals17("en-US"),
           // disapprovals1800"),
-          // speakdisapprovals18
           // disapprovals18("en-US"),
           // disapprovals1900"),
-          // speakdisapprovals19
           // disapprovals19("en-US"),
           // disapprovals_2000"),
-          // speakdisapprovals20
           // disapprovals20("en-US"),
           // disapprovals2100"),
-          // speakdisapprovals21
           // disapprovals21("en-US"),
           // disapprovals2200"),
-          // speakdisapprovals22
           // disapprovals22("en-US"),
         ],
       ),

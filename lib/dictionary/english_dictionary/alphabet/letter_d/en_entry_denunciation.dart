@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -265,64 +263,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenunciations2("en-US"),
           ),
           // denunciations300"),
-          // speakdenunciations3
           // denunciations3("en-US"),
           // denunciations400"),
-          // speakdenunciations4
           // denunciations4("en-US"),
           // denunciations500"),
-          // speakdenunciations5
           // denunciations5("en-US"),
           // denunciations600"),
-          // speakdenunciations6
           // denunciations6("en-US"),
           // denunciations700"),
-          // speakdenunciations7
           // denunciations7("en-US"),
           // denunciations800"),
-          // speakdenunciations8
           // denunciations8("en-US"),
           // denunciations900"),
-          // speakdenunciations9
           // denunciations9("en-US"),
           // denunciations1000"),
-          // speakdenunciations10
           // denunciations10("en-US"),
           // denunciations1100"),
-          // speakdenunciations11
           // denunciations11("en-US"),
           // denunciations1200"),
-          // speakdenunciations12
           // denunciations12("en-US"),
           // denunciations1300"),
-          // speakdenunciations13
           // denunciations13("en-US"),
           // denunciations1400"),
-          // speakdenunciations14
           // denunciations14("en-US"),
           // denunciations1500"),
-          // speakdenunciations15
           // denunciations15("en-US"),
           // denunciations1600"),
-          // speakdenunciations16
           // denunciations16("en-US"),
           // denunciations1700"),
-          // speakdenunciations17
           // denunciations17("en-US"),
           // denunciations1800"),
-          // speakdenunciations18
           // denunciations18("en-US"),
           // denunciations1900"),
-          // speakdenunciations19
           // denunciations19("en-US"),
           // "All parties joined in bitter denunciation of the terrorists.0"),
-          // speakdenunciations20
           // denunciations20("en-US"),
           // denunciations2100"),
-          // speakdenunciations21
           // denunciations21("en-US"),
           // denunciations2200"),
-          // speakdenunciations22
           // denunciations22("en-US"),
         ],
       ),

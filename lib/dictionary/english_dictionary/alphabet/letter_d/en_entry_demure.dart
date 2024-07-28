@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemures2("en-US"),
           ),
           // demures300"),
-          // speakdemures3
           // demures3("en-US"),
           // demures400"),
-          // speakdemures4
           // demures4("en-US"),
           // demures500"),
-          // speakdemures5
           // demures5("en-US"),
           // demures600"),
-          // speakdemures6
           // demures6("en-US"),
           // demures700"),
-          // speakdemures7
           // demures7("en-US"),
           // demures800"),
-          // speakdemures8
           // demures8("en-US"),
           // demures900"),
-          // speakdemures9
           // demures9("en-US"),
           // demures1000"),
-          // speakdemures10
           // demures10("en-US"),
           // demures1100"),
-          // speakdemures11
           // demures11("en-US"),
           // demures1200"),
-          // speakdemures12
           // demures12("en-US"),
           // demures1300"),
-          // speakdemures13
           // demures13("en-US"),
           // demures1400"),
-          // speakdemures14
           // demures14("en-US"),
           // demures1500"),
-          // speakdemures15
           // demures15("en-US"),
           // demures1600"),
-          // speakdemures16
           // demures16("en-US"),
           // demures1700"),
-          // speakdemures17
           // demures17("en-US"),
           // demures1800"),
-          // speakdemures18
           // demures18("en-US"),
           // demures1900"),
-          // speakdemures19
           // demures19("en-US"),
           // "She gave him a demure smile.0"),
-          // speakdemures20
           // demures20("en-US"),
           // demures2100"),
-          // speakdemures21
           // demures21("en-US"),
           // demures2200"),
-          // speakdemures22
           // demures22("en-US"),
         ],
       ),

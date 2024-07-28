@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdosshouses1("en-US"),
           ),
           // dosshouses200"),
-          // speakdosshouses2
           // dosshouses2("en-US"),
           // dosshouses300"),
-          // speakdosshouses3
           // dosshouses3("en-US"),
           // dosshouses400"),
-          // speakdosshouses4
           // dosshouses4("en-US"),
           // dosshouses500"),
-          // speakdosshouses5
           // dosshouses5("en-US"),
           // dosshouses600"),
-          // speakdosshouses6
           // dosshouses6("en-US"),
           // dosshouses700"),
-          // speakdosshouses7
           // dosshouses7("en-US"),
           // dosshouses800"),
-          // speakdosshouses8
           // dosshouses8("en-US"),
           // dosshouses900"),
-          // speakdosshouses9
           // dosshouses9("en-US"),
           // dosshouses_1000"),
-          // speakdosshouses10
           // dosshouses10("en-US"),
           // dosshouses1100"),
-          // speakdosshouses11
           // dosshouses11("en-US"),
           // dosshouses1200"),
-          // speakdosshouses12
           // dosshouses12("en-US"),
           // dosshouses1300"),
-          // speakdosshouses13
           // dosshouses13("en-US"),
           // dosshouses1400"),
-          // speakdosshouses14
           // dosshouses14("en-US"),
           // dosshouses1500"),
-          // speakdosshouses15
           // dosshouses15("en-US"),
           // dosshouses1600"),
-          // speakdosshouses16
           // dosshouses16("en-US"),
           // dosshouses1700"),
-          // speakdosshouses17
           // dosshouses17("en-US"),
           // dosshouses1800"),
-          // speakdosshouses18
           // dosshouses18("en-US"),
           // dosshouses1900"),
-          // speakdosshouses19
           // dosshouses19("en-US"),
           // dosshouses_2000"),
-          // speakdosshouses20
           // dosshouses20("en-US"),
           // dosshouses2100"),
-          // speakdosshouses21
           // dosshouses21("en-US"),
           // dosshouses2200"),
-          // speakdosshouses22
           // dosshouses22("en-US"),
         ],
       ),

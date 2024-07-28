@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -295,58 +293,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenotes4("en-US"),
           ),
           // denotes500"),
-          // speakdenotes5
           // denotes5("en-US"),
           // denotes600"),
-          // speakdenotes6
           // denotes6("en-US"),
           // denotes700"),
-          // speakdenotes7
           // denotes7("en-US"),
           // denotes800"),
-          // speakdenotes8
           // denotes8("en-US"),
           // denotes900"),
-          // speakdenotes9
           // denotes9("en-US"),
           // denotes1000"),
-          // speakdenotes10
           // denotes10("en-US"),
           // denotes1100"),
-          // speakdenotes11
           // denotes11("en-US"),
           // denotes1200"),
-          // speakdenotes12
           // denotes12("en-US"),
           // denotes1300"),
-          // speakdenotes13
           // denotes13("en-US"),
           // denotes1400"),
-          // speakdenotes14
           // denotes14("en-US"),
           // denotes1500"),
-          // speakdenotes15
           // denotes15("en-US"),
           // denotes1600"),
-          // speakdenotes16
           // denotes16("en-US"),
           // denotes1700"),
-          // speakdenotes17
           // denotes17("en-US"),
           // denotes1800"),
-          // speakdenotes18
           // denotes18("en-US"),
           // denotes1900"),
-          // speakdenotes19
           // denotes19("en-US"),
           // "The white belt signifies/​denotes that he's an absolute beginner.0"),
-          // speakdenotes20
           // denotes20("en-US"),
           // denotes2100"),
-          // speakdenotes21
           // denotes21("en-US"),
           // denotes2200"),
-          // speakdenotes22
           // denotes22("en-US"),
         ],
       ),

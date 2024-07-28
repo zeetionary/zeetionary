@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiffidences1("en-US"),
           ),
           // diffidences200"),
-          // speakdiffidences2
           // diffidences2("en-US"),
           // diffidences300"),
-          // speakdiffidences3
           // diffidences3("en-US"),
           // diffidences400"),
-          // speakdiffidences4
           // diffidences4("en-US"),
           // diffidences500"),
-          // speakdiffidences5
           // diffidences5("en-US"),
           // diffidences600"),
-          // speakdiffidences6
           // diffidences6("en-US"),
           // diffidences700"),
-          // speakdiffidences7
           // diffidences7("en-US"),
           // diffidences800"),
-          // speakdiffidences8
           // diffidences8("en-US"),
           // diffidences900"),
-          // speakdiffidences9
           // diffidences9("en-US"),
           // diffidences_1000"),
-          // speakdiffidences10
           // diffidences10("en-US"),
           // diffidences1100"),
-          // speakdiffidences11
           // diffidences11("en-US"),
           // diffidences1200"),
-          // speakdiffidences12
           // diffidences12("en-US"),
           // diffidences1300"),
-          // speakdiffidences13
           // diffidences13("en-US"),
           // diffidences1400"),
-          // speakdiffidences14
           // diffidences14("en-US"),
           // diffidences1500"),
-          // speakdiffidences15
           // diffidences15("en-US"),
           // diffidences1600"),
-          // speakdiffidences16
           // diffidences16("en-US"),
           // diffidences1700"),
-          // speakdiffidences17
           // diffidences17("en-US"),
           // diffidences1800"),
-          // speakdiffidences18
           // diffidences18("en-US"),
           // diffidences1900"),
-          // speakdiffidences19
           // diffidences19("en-US"),
           // diffidences_2000"),
-          // speakdiffidences20
           // diffidences20("en-US"),
           // diffidences2100"),
-          // speakdiffidences21
           // diffidences21("en-US"),
           // diffidences2200"),
-          // speakdiffidences22
           // diffidences22("en-US"),
         ],
       ),

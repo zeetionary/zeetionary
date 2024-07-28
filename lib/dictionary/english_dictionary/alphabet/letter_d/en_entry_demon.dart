@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -299,58 +297,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemons4("en-US"),
           ),
           // demons500"),
-          // speakdemons5
           // demons5("en-US"),
           // demons600"),
-          // speakdemons6
           // demons6("en-US"),
           // demons700"),
-          // speakdemons7
           // demons7("en-US"),
           // demons800"),
-          // speakdemons8
           // demons8("en-US"),
           // demons900"),
-          // speakdemons9
           // demons9("en-US"),
           // demons1000"),
-          // speakdemons10
           // demons10("en-US"),
           // demons1100"),
-          // speakdemons11
           // demons11("en-US"),
           // demons1200"),
-          // speakdemons12
           // demons12("en-US"),
           // demons1300"),
-          // speakdemons13
           // demons13("en-US"),
           // demons1400"),
-          // speakdemons14
           // demons14("en-US"),
           // demons1500"),
-          // speakdemons15
           // demons15("en-US"),
           // demons1600"),
-          // speakdemons16
           // demons16("en-US"),
           // demons1700"),
-          // speakdemons17
           // demons17("en-US"),
           // demons1800"),
-          // speakdemons18
           // demons18("en-US"),
           // demons1900"),
-          // speakdemons19
           // demons19("en-US"),
           // "She's had to battle her personal demons throughout her adult life.0"),
-          // speakdemons20
           // demons20("en-US"),
           // demons2100"),
-          // speakdemons21
           // demons21("en-US"),
           // demons2200"),
-          // speakdemons22
           // demons22("en-US"),
         ],
       ),

@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdishonestys2("en-US"),
           ),
           // dishonestys300"),
-          // speakdishonestys3
           // dishonestys3("en-US"),
           // dishonestys400"),
-          // speakdishonestys4
           // dishonestys4("en-US"),
           // dishonestys500"),
-          // speakdishonestys5
           // dishonestys5("en-US"),
           // dishonestys600"),
-          // speakdishonestys6
           // dishonestys6("en-US"),
           // dishonestys700"),
-          // speakdishonestys7
           // dishonestys7("en-US"),
           // dishonestys800"),
-          // speakdishonestys8
           // dishonestys8("en-US"),
           // dishonestys900"),
-          // speakdishonestys9
           // dishonestys9("en-US"),
           // dishonestys_1000"),
-          // speakdishonestys10
           // dishonestys10("en-US"),
           // dishonestys1100"),
-          // speakdishonestys11
           // dishonestys11("en-US"),
           // dishonestys1200"),
-          // speakdishonestys12
           // dishonestys12("en-US"),
           // dishonestys1300"),
-          // speakdishonestys13
           // dishonestys13("en-US"),
           // dishonestys1400"),
-          // speakdishonestys14
           // dishonestys14("en-US"),
           // dishonestys1500"),
-          // speakdishonestys15
           // dishonestys15("en-US"),
           // dishonestys1600"),
-          // speakdishonestys16
           // dishonestys16("en-US"),
           // dishonestys1700"),
-          // speakdishonestys17
           // dishonestys17("en-US"),
           // dishonestys1800"),
-          // speakdishonestys18
           // dishonestys18("en-US"),
           // dishonestys1900"),
-          // speakdishonestys19
           // dishonestys19("en-US"),
           // dishonestys_2000"),
-          // speakdishonestys20
           // dishonestys20("en-US"),
           // dishonestys2100"),
-          // speakdishonestys21
           // dishonestys21("en-US"),
           // dishonestys2200"),
-          // speakdishonestys22
           // dishonestys22("en-US"),
         ],
       ),

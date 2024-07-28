@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeprivations3("en-US"),
           ),
           // deprivations400"),
-          // speakdeprivations4
           // deprivations4("en-US"),
           // deprivations500"),
-          // speakdeprivations5
           // deprivations5("en-US"),
           // deprivations600"),
-          // speakdeprivations6
           // deprivations6("en-US"),
           // deprivations700"),
-          // speakdeprivations7
           // deprivations7("en-US"),
           // deprivations800"),
-          // speakdeprivations8
           // deprivations8("en-US"),
           // deprivations900"),
-          // speakdeprivations9
           // deprivations9("en-US"),
           // deprivations1000"),
-          // speakdeprivations10
           // deprivations10("en-US"),
           // deprivations1100"),
-          // speakdeprivations11
           // deprivations11("en-US"),
           // deprivations1200"),
-          // speakdeprivations12
           // deprivations12("en-US"),
           // deprivations1300"),
-          // speakdeprivations13
           // deprivations13("en-US"),
           // deprivations1400"),
-          // speakdeprivations14
           // deprivations14("en-US"),
           // deprivations1500"),
-          // speakdeprivations15
           // deprivations15("en-US"),
           // deprivations1600"),
-          // speakdeprivations16
           // deprivations16("en-US"),
           // deprivations1700"),
-          // speakdeprivations17
           // deprivations17("en-US"),
           // deprivations1800"),
-          // speakdeprivations18
           // deprivations18("en-US"),
           // deprivations1900"),
-          // speakdeprivations19
           // deprivations19("en-US"),
           // "They used sleep deprivation as a form of torture.0"),
-          // speakdeprivations20
           // deprivations20("en-US"),
           // deprivations2100"),
-          // speakdeprivations21
           // deprivations21("en-US"),
           // deprivations2200"),
-          // speakdeprivations22
           // deprivations22("en-US"),
         ],
       ),

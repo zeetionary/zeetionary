@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -286,61 +284,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemocraticallys3("en-US"),
           ),
           // democraticallys400"),
-          // speakdemocraticallys4
           // democraticallys4("en-US"),
           // democraticallys500"),
-          // speakdemocraticallys5
           // democraticallys5("en-US"),
           // democraticallys600"),
-          // speakdemocraticallys6
           // democraticallys6("en-US"),
           // democraticallys700"),
-          // speakdemocraticallys7
           // democraticallys7("en-US"),
           // democraticallys800"),
-          // speakdemocraticallys8
           // democraticallys8("en-US"),
           // democraticallys900"),
-          // speakdemocraticallys9
           // democraticallys9("en-US"),
           // democraticallys1000"),
-          // speakdemocraticallys10
           // democraticallys10("en-US"),
           // democraticallys1100"),
-          // speakdemocraticallys11
           // democraticallys11("en-US"),
           // democraticallys1200"),
-          // speakdemocraticallys12
           // democraticallys12("en-US"),
           // democraticallys1300"),
-          // speakdemocraticallys13
           // democraticallys13("en-US"),
           // democraticallys1400"),
-          // speakdemocraticallys14
           // democraticallys14("en-US"),
           // democraticallys1500"),
-          // speakdemocraticallys15
           // democraticallys15("en-US"),
           // democraticallys1600"),
-          // speakdemocraticallys16
           // democraticallys16("en-US"),
           // democraticallys1700"),
-          // speakdemocraticallys17
           // democraticallys17("en-US"),
           // democraticallys1800"),
-          // speakdemocraticallys18
           // democraticallys18("en-US"),
           // democraticallys1900"),
-          // speakdemocraticallys19
           // democraticallys19("en-US"),
           // "The decision was taken democratically.0"),
-          // speakdemocraticallys20
           // democraticallys20("en-US"),
           // democraticallys2100"),
-          // speakdemocraticallys21
           // democraticallys21("en-US"),
           // democraticallys2200"),
-          // speakdemocraticallys22
           // democraticallys22("en-US"),
         ],
       ),

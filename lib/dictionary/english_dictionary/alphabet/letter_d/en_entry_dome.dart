@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -388,64 +386,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdomes2("en-US"),
           ),
           // domes300"),
-          // speakdomes3
           // domes3("en-US"),
           // domes400"),
-          // speakdomes4
           // domes4("en-US"),
           // domes500"),
-          // speakdomes5
           // domes5("en-US"),
           // domes600"),
-          // speakdomes6
           // domes6("en-US"),
           // domes700"),
-          // speakdomes7
           // domes7("en-US"),
           // domes800"),
-          // speakdomes8
           // domes8("en-US"),
           // domes900"),
-          // speakdomes9
           // domes9("en-US"),
           // domes_1000"),
-          // speakdomes10
           // domes10("en-US"),
           // domes1100"),
-          // speakdomes11
           // domes11("en-US"),
           // domes1200"),
-          // speakdomes12
           // domes12("en-US"),
           // domes1300"),
-          // speakdomes13
           // domes13("en-US"),
           // domes1400"),
-          // speakdomes14
           // domes14("en-US"),
           // domes1500"),
-          // speakdomes15
           // domes15("en-US"),
           // domes1600"),
-          // speakdomes16
           // domes16("en-US"),
           // domes1700"),
-          // speakdomes17
           // domes17("en-US"),
           // domes1800"),
-          // speakdomes18
           // domes18("en-US"),
           // domes1900"),
-          // speakdomes19
           // domes19("en-US"),
           // domes_2000"),
-          // speakdomes20
           // domes20("en-US"),
           // domes2100"),
-          // speakdomes21
           // domes21("en-US"),
           // domes2200"),
-          // speakdomes22
           // domes22("en-US"),
         ],
       ),

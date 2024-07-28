@@ -373,9 +373,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -421,58 +419,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdowntowns4("en-US"),
           ),
           // downtowns500"),
-          // speakdowntowns5
           // downtowns5("en-US"),
           // downtowns600"),
-          // speakdowntowns6
           // downtowns6("en-US"),
           // downtowns700"),
-          // speakdowntowns7
           // downtowns7("en-US"),
           // downtowns800"),
-          // speakdowntowns8
           // downtowns8("en-US"),
           // downtowns900"),
-          // speakdowntowns9
           // downtowns9("en-US"),
           // downtowns_1000"),
-          // speakdowntowns10
           // downtowns10("en-US"),
           // downtowns1100"),
-          // speakdowntowns11
           // downtowns11("en-US"),
           // downtowns1200"),
-          // speakdowntowns12
           // downtowns12("en-US"),
           // downtowns1300"),
-          // speakdowntowns13
           // downtowns13("en-US"),
           // downtowns1400"),
-          // speakdowntowns14
           // downtowns14("en-US"),
           // downtowns1500"),
-          // speakdowntowns15
           // downtowns15("en-US"),
           // downtowns1600"),
-          // speakdowntowns16
           // downtowns16("en-US"),
           // downtowns1700"),
-          // speakdowntowns17
           // downtowns17("en-US"),
           // downtowns1800"),
-          // speakdowntowns18
           // downtowns18("en-US"),
           // downtowns1900"),
-          // speakdowntowns19
           // downtowns19("en-US"),
           // downtowns_2000"),
-          // speakdowntowns20
           // downtowns20("en-US"),
           // downtowns2100"),
-          // speakdowntowns21
           // downtowns21("en-US"),
           // downtowns2200"),
-          // speakdowntowns22
           // downtowns22("en-US"),
         ],
       ),

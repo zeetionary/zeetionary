@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -383,64 +381,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduvets2("en-US"),
           ),
           // duvets300
-          // speakduvets3
           // duvets3("en-US"""),
           // duvets400
-          // speakduvets4
           // duvets4("en-US"""),
           // duvets500
-          // speakduvets5
           // duvets5("en-US"""),
           // duvets600
-          // speakduvets6
           // duvets6("en-US"""),
           // duvets700
-          // speakduvets7
           // duvets7("en-US"""),
           // duvets800
-          // speakduvets8
           // duvets8("en-US"""),
           // duvets900
-          // speakduvets9
           // duvets9("en-US"""),
           // duvets_1000
-          // speakduvets10
           // duvets10("en-US"""),
           // duvets1100
-          // speakduvets11
           // duvets11("en-US"""),
           // duvets1200
-          // speakduvets12
           // duvets12("en-US"""),
           // duvets1300
-          // speakduvets13
           // duvets13("en-US"""),
           // duvets1400
-          // speakduvets14
           // duvets14("en-US"""),
           // duvets1500
-          // speakduvets15
           // duvets15("en-US"""),
           // duvets1600
-          // speakduvets16
           // duvets16("en-US"""),
           // duvets1700
-          // speakduvets17
           // duvets17("en-US"""),
           // duvets1800
-          // speakduvets18
           // duvets18("en-US"""),
           // duvets1900
-          // speakduvets19
           // duvets19("en-US"""),
           // duvets_2000
-          // speakduvets20
           // duvets20("en-US"""),
           // duvets2100
-          // speakduvets21
           // duvets21("en-US"""),
           // duvets2200
-          // speakduvets22
           // duvets22("en-US"""),
         ],
       ),

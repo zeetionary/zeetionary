@@ -259,9 +259,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -313,55 +311,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesignates5("en-US"),
           ),
           // designates600"),
-          // speakdesignates6
           // designates6("en-US"),
           // designates700"),
-          // speakdesignates7
           // designates7("en-US"),
           // designates800"),
-          // speakdesignates8
           // designates8("en-US"),
           // designates900"),
-          // speakdesignates9
           // designates9("en-US"),
           // designates1000"),
-          // speakdesignates10
           // designates10("en-US"),
           // designates1100"),
-          // speakdesignates11
           // designates11("en-US"),
           // designates1200"),
-          // speakdesignates12
           // designates12("en-US"),
           // designates1300"),
-          // speakdesignates13
           // designates13("en-US"),
           // designates1400"),
-          // speakdesignates14
           // designates14("en-US"),
           // designates1500"),
-          // speakdesignates15
           // designates15("en-US"),
           // designates1600"),
-          // speakdesignates16
           // designates16("en-US"),
           // designates1700"),
-          // speakdesignates17
           // designates17("en-US"),
           // designates1800"),
-          // speakdesignates18
           // designates18("en-US"),
           // designates1900"),
-          // speakdesignates19
           // designates19("en-US"),
           // "The school has been designated a specialist science academy.0"),
-          // speakdesignates20
           // designates20("en-US"),
           // designates2100"),
-          // speakdesignates21
           // designates21("en-US"),
           // designates2200"),
-          // speakdesignates22
           // designates22("en-US"),
         ],
       ),

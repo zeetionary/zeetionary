@@ -259,9 +259,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -311,55 +309,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeterminations5("en-US"),
           ),
           // determinations600"),
-          // speakdeterminations6
           // determinations6
           // determinations700"),
-          // speakdeterminations7
           // determinations7("en-US"),
           // determinations800"),
-          // speakdeterminations8
           // determinations8("en-US"),
           // determinations900"),
-          // speakdeterminations9
           // determinations9("en-US"),
           // determinations1000"),
-          // speakdeterminations10
           // determinations10("en-US"),
           // determinations1100"),
-          // speakdeterminations11
           // determinations11("en-US"),
           // determinations1200"),
-          // speakdeterminations12
           // determinations12("en-US"),
           // determinations1300"),
-          // speakdeterminations13
           // determinations13("en-US"),
           // determinations1400"),
-          // speakdeterminations14
           // determinations14("en-US"),
           // determinations1500"),
-          // speakdeterminations15
           // determinations15("en-US"),
           // determinations1600"),
-          // speakdeterminations16
           // determinations16("en-US"),
           // determinations1700"),
-          // speakdeterminations17
           // determinations17("en-US"),
           // determinations1800"),
-          // speakdeterminations18
           // determinations18("en-US"),
           // determinations1900"),
-          // speakdeterminations19
           // determinations19("en-US"),
           // "They had survived by sheer determination.0"),
-          // speakdeterminations20
           // determinations20("en-US"),
           // determinations2100"),
-          // speakdeterminations21
           // determinations21("en-US"),
           // determinations2200"),
-          // speakdeterminations22
           // determinations22("en-US"),
         ],
       ),

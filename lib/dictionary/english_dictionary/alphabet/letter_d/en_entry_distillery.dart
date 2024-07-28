@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistillerys1("en-US"),
           ),
           // distillerys200"),
-          // speakdistillerys2
           // distillerys2("en-US"),
           // distillerys300"),
-          // speakdistillerys3
           // distillerys3("en-US"),
           // distillerys400"),
-          // speakdistillerys4
           // distillerys4("en-US"),
           // distillerys500"),
-          // speakdistillerys5
           // distillerys5("en-US"),
           // distillerys600"),
-          // speakdistillerys6
           // distillerys6("en-US"),
           // distillerys700"),
-          // speakdistillerys7
           // distillerys7("en-US"),
           // distillerys800"),
-          // speakdistillerys8
           // distillerys8("en-US"),
           // distillerys900"),
-          // speakdistillerys9
           // distillerys9("en-US"),
           // distillerys_1000"),
-          // speakdistillerys10
           // distillerys10("en-US"),
           // distillerys1100"),
-          // speakdistillerys11
           // distillerys11("en-US"),
           // distillerys1200"),
-          // speakdistillerys12
           // distillerys12("en-US"),
           // distillerys1300"),
-          // speakdistillerys13
           // distillerys13("en-US"),
           // distillerys1400"),
-          // speakdistillerys14
           // distillerys14("en-US"),
           // distillerys1500"),
-          // speakdistillerys15
           // distillerys15("en-US"),
           // distillerys1600"),
-          // speakdistillerys16
           // distillerys16("en-US"),
           // distillerys1700"),
-          // speakdistillerys17
           // distillerys17("en-US"),
           // distillerys1800"),
-          // speakdistillerys18
           // distillerys18("en-US"),
           // distillerys1900"),
-          // speakdistillerys19
           // distillerys19("en-US"),
           // distillerys_2000"),
-          // speakdistillerys20
           // distillerys20("en-US"),
           // distillerys2100"),
-          // speakdistillerys21
           // distillerys21("en-US"),
           // distillerys2200"),
-          // speakdistillerys22
           // distillerys22("en-US"),
         ],
       ),

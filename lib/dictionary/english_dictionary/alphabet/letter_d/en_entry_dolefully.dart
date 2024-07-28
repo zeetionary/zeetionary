@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -366,67 +364,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdolefullys1("en-US"),
           ),
           // dolefullys200"),
-          // speakdolefullys2
           // dolefullys2("en-US"),
           // dolefullys300"),
-          // speakdolefullys3
           // dolefullys3("en-US"),
           // dolefullys400"),
-          // speakdolefullys4
           // dolefullys4("en-US"),
           // dolefullys500"),
-          // speakdolefullys5
           // dolefullys5("en-US"),
           // dolefullys600"),
-          // speakdolefullys6
           // dolefullys6("en-US"),
           // dolefullys700"),
-          // speakdolefullys7
           // dolefullys7("en-US"),
           // dolefullys800"),
-          // speakdolefullys8
           // dolefullys8("en-US"),
           // dolefullys900"),
-          // speakdolefullys9
           // dolefullys9("en-US"),
           // dolefullys_1000"),
-          // speakdolefullys10
           // dolefullys10("en-US"),
           // dolefullys1100"),
-          // speakdolefullys11
           // dolefullys11("en-US"),
           // dolefullys1200"),
-          // speakdolefullys12
           // dolefullys12("en-US"),
           // dolefullys1300"),
-          // speakdolefullys13
           // dolefullys13("en-US"),
           // dolefullys1400"),
-          // speakdolefullys14
           // dolefullys14("en-US"),
           // dolefullys1500"),
-          // speakdolefullys15
           // dolefullys15("en-US"),
           // dolefullys1600"),
-          // speakdolefullys16
           // dolefullys16("en-US"),
           // dolefullys1700"),
-          // speakdolefullys17
           // dolefullys17("en-US"),
           // dolefullys1800"),
-          // speakdolefullys18
           // dolefullys18("en-US"),
           // dolefullys1900"),
-          // speakdolefullys19
           // dolefullys19("en-US"),
           // dolefullys_2000"),
-          // speakdolefullys20
           // dolefullys20("en-US"),
           // dolefullys2100"),
-          // speakdolefullys21
           // dolefullys21("en-US"),
           // dolefullys2200"),
-          // speakdolefullys22
           // dolefullys22("en-US"),
         ],
       ),

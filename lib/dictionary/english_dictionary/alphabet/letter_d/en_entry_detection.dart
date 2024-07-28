@@ -241,9 +241,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetections3("en-US"),
           ),
           // detections400"),
-          // speakdetections4
           // detections4("en-US"),
           // detections500"),
-          // speakdetections5
           // detections5("en-US"),
           // detections600"),
-          // speakdetections6
           // detections6("en-US"),
           // detections700"),
-          // speakdetections7
           // detections7("en-US"),
           // detections800"),
-          // speakdetections8
           // detections8("en-US"),
           // detections900"),
-          // speakdetections9
           // detections9("en-US"),
           // detections1000"),
-          // speakdetections10
           // detections10("en-US"),
           // detections1100"),
-          // speakdetections11
           // detections11("en-US"),
           // detections1200"),
-          // speakdetections12
           // detections12("en-US"),
           // detections1300"),
-          // speakdetections13
           // detections13("en-US"),
           // detections1400"),
-          // speakdetections14
           // detections14("en-US"),
           // detections1500"),
-          // speakdetections15
           // detections15("en-US"),
           // detections1600"),
-          // speakdetections16
           // detections16("en-US"),
           // detections1700"),
-          // speakdetections17
           // detections17("en-US"),
           // detections1800"),
-          // speakdetections18
           // detections18("en-US"),
           // detections1900"),
-          // speakdetections19
           // detections19("en-US"),
           // "Early detection of cancers is vitally important.0"),
-          // speakdetections20
           // detections20("en-US"),
           // detections2100"),
-          // speakdetections21
           // detections21("en-US"),
           // detections2200"),
-          // speakdetections22
           // detections22("en-US"),
         ],
       ),

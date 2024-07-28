@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscolours2("en-US"),
           ),
           // discolours300"),
-          // speakdiscolours3
           // discolours3("en-US"),
           // discolours400"),
-          // speakdiscolours4
           // discolours4("en-US"),
           // discolours500"),
-          // speakdiscolours5
           // discolours5("en-US"),
           // discolours600"),
-          // speakdiscolours6
           // discolours6("en-US"),
           // discolours700"),
-          // speakdiscolours7
           // discolours7("en-US"),
           // discolours800"),
-          // speakdiscolours8
           // discolours8("en-US"),
           // discolours900"),
-          // speakdiscolours9
           // discolours9("en-US"),
           // discolours_1000"),
-          // speakdiscolours10
           // discolours10("en-US"),
           // discolours1100"),
-          // speakdiscolours11
           // discolours11("en-US"),
           // discolours1200"),
-          // speakdiscolours12
           // discolours12("en-US"),
           // discolours1300"),
-          // speakdiscolours13
           // discolours13("en-US"),
           // discolours1400"),
-          // speakdiscolours14
           // discolours14("en-US"),
           // discolours1500"),
-          // speakdiscolours15
           // discolours15("en-US"),
           // discolours1600"),
-          // speakdiscolours16
           // discolours16("en-US"),
           // discolours1700"),
-          // speakdiscolours17
           // discolours17("en-US"),
           // discolours1800"),
-          // speakdiscolours18
           // discolours18("en-US"),
           // discolours1900"),
-          // speakdiscolours19
           // discolours19("en-US"),
           // discolours_2000"),
-          // speakdiscolours20
           // discolours20("en-US"),
           // discolours2100"),
-          // speakdiscolours21
           // discolours21("en-US"),
           // discolours2200"),
-          // speakdiscolours22
           // discolours22("en-US"),
         ],
       ),

@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -389,64 +387,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiversifications2("en-US"),
           ),
           // diversifications300"),
-          // speakdiversifications3
           // diversifications3
           // diversifications400"),
-          // speakdiversifications4
           // diversifications4
           // diversifications500"),
-          // speakdiversifications5
           // diversifications5
           // diversifications600"),
-          // speakdiversifications6
           // diversifications6
           // diversifications700"),
-          // speakdiversifications7
           // diversifications7
           // diversifications800"),
-          // speakdiversifications8
           // diversifications8
           // diversifications900"),
-          // speakdiversifications9
           // diversifications9
           // diversifications_1000"),
-          // speakdiversifications10
           // diversifications10
           // diversifications1100"),
-          // speakdiversifications11
           // diversifications11
           // diversifications1200"),
-          // speakdiversifications12
           // diversifications12
           // diversifications1300"),
-          // speakdiversifications13
           // diversifications13
           // diversifications1400"),
-          // speakdiversifications14
           // diversifications14
           // diversifications1500"),
-          // speakdiversifications15
           // diversifications15
           // diversifications1600"),
-          // speakdiversifications16
           // diversifications16
           // diversifications1700"),
-          // speakdiversifications17
           // diversifications17
           // diversifications1800"),
-          // speakdiversifications18
           // diversifications18
           // diversifications1900"),
-          // speakdiversifications19
           // diversifications19
           // diversifications_2000"),
-          // speakdiversifications20
           // diversifications20
           // diversifications2100"),
-          // speakdiversifications21
           // diversifications21
           // diversifications2200"),
-          // speakdiversifications22
           // diversifications22("en-US"),
         ],
       ),

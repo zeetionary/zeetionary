@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdodgers1("en-US"),
           ),
           // dodgers200"),
-          // speakdodgers2
           // dodgers2("en-US"),
           // dodgers300"),
-          // speakdodgers3
           // dodgers3("en-US"),
           // dodgers400"),
-          // speakdodgers4
           // dodgers4("en-US"),
           // dodgers500"),
-          // speakdodgers5
           // dodgers5("en-US"),
           // dodgers600"),
-          // speakdodgers6
           // dodgers6("en-US"),
           // dodgers700"),
-          // speakdodgers7
           // dodgers7("en-US"),
           // dodgers800"),
-          // speakdodgers8
           // dodgers8("en-US"),
           // dodgers900"),
-          // speakdodgers9
           // dodgers9("en-US"),
           // dodgers_1000"),
-          // speakdodgers10
           // dodgers10("en-US"),
           // dodgers1100"),
-          // speakdodgers11
           // dodgers11("en-US"),
           // dodgers1200"),
-          // speakdodgers12
           // dodgers12("en-US"),
           // dodgers1300"),
-          // speakdodgers13
           // dodgers13("en-US"),
           // dodgers1400"),
-          // speakdodgers14
           // dodgers14("en-US"),
           // dodgers1500"),
-          // speakdodgers15
           // dodgers15("en-US"),
           // dodgers1600"),
-          // speakdodgers16
           // dodgers16("en-US"),
           // dodgers1700"),
-          // speakdodgers17
           // dodgers17("en-US"),
           // dodgers1800"),
-          // speakdodgers18
           // dodgers18("en-US"),
           // dodgers1900"),
-          // speakdodgers19
           // dodgers19("en-US"),
           // dodgers_2000"),
-          // speakdodgers20
           // dodgers20("en-US"),
           // dodgers2100"),
-          // speakdodgers21
           // dodgers21("en-US"),
           // dodgers2200"),
-          // speakdodgers22
           // dodgers22("en-US"),
         ],
       ),

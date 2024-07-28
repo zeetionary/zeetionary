@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisarmaments2("en-US"),
           ),
           // disarmaments300"),
-          // speakdisarmaments3
           // disarmaments3("en-US"),
           // disarmaments400"),
-          // speakdisarmaments4
           // disarmaments4("en-US"),
           // disarmaments500"),
-          // speakdisarmaments5
           // disarmaments5("en-US"),
           // disarmaments600"),
-          // speakdisarmaments6
           // disarmaments6("en-US"),
           // disarmaments700"),
-          // speakdisarmaments7
           // disarmaments7("en-US"),
           // disarmaments800"),
-          // speakdisarmaments8
           // disarmaments8("en-US"),
           // disarmaments900"),
-          // speakdisarmaments9
           // disarmaments9("en-US"),
           // disarmaments_1000"),
-          // speakdisarmaments10
           // disarmaments10("en-US"),
           // disarmaments1100"),
-          // speakdisarmaments11
           // disarmaments11("en-US"),
           // disarmaments1200"),
-          // speakdisarmaments12
           // disarmaments12("en-US"),
           // disarmaments1300"),
-          // speakdisarmaments13
           // disarmaments13("en-US"),
           // disarmaments1400"),
-          // speakdisarmaments14
           // disarmaments14("en-US"),
           // disarmaments1500"),
-          // speakdisarmaments15
           // disarmaments15("en-US"),
           // disarmaments1600"),
-          // speakdisarmaments16
           // disarmaments16("en-US"),
           // disarmaments1700"),
-          // speakdisarmaments17
           // disarmaments17("en-US"),
           // disarmaments1800"),
-          // speakdisarmaments18
           // disarmaments18("en-US"),
           // disarmaments1900"),
-          // speakdisarmaments19
           // disarmaments19("en-US"),
           // disarmaments_2000"),
-          // speakdisarmaments20
           // disarmaments20("en-US"),
           // disarmaments2100"),
-          // speakdisarmaments21
           // disarmaments21("en-US"),
           // disarmaments2200"),
-          // speakdisarmaments22
           // disarmaments22("en-US"),
         ],
       ),

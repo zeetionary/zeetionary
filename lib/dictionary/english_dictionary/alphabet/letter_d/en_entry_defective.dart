@@ -241,9 +241,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -283,58 +281,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefectives4("en-US"),
           ),
           // defectives500"),
-          // speakdefectives5
           // defectives5
           // defectives600"),
-          // speakdefectives6
           // defectives6
           // defectives700"),
-          // speakdefectives7
           // defectives7
           // defectives800"),
-          // speakdefectives8
           // defectives8
           // defectives900"),
-          // speakdefectives9
           // defectives9
           // defectives1000"),
-          // speakdefectives10
           // defectives10
           // defectives1100"),
-          // speakdefectives11
           // defectives11
           // defectives1200"),
-          // speakdefectives12
           // defectives12
           // defectives1300"),
-          // speakdefectives13
           // defectives13
           // defectives1400"),
-          // speakdefectives14
           // defectives14
           // defectives1500"),
-          // speakdefectives15
           // defectives15
           // defectives1600"),
-          // speakdefectives16
           // defectives16
           // defectives1700"),
-          // speakdefectives17
           // defectives17
           // defectives1800"),
-          // speakdefectives18
           // defectives18
           // defectives1900"),
-          // speakdefectives19
           // defectives19
           // defectives2000"),
-          // speakdefectives20
           // defectives20
           // defectives2100"),
-          // speakdefectives21
           // defectives21
           // defectives2200"),
-          // speakdefectives22
           // defectives22("en-US"),
         ],
       ),

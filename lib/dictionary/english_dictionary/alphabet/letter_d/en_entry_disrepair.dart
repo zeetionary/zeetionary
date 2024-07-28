@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisrepairs2("en-US"),
           ),
           // disrepairs300"),
-          // speakdisrepairs3
           // disrepairs3("en-US"),
           // disrepairs400"),
-          // speakdisrepairs4
           // disrepairs4("en-US"),
           // disrepairs500"),
-          // speakdisrepairs5
           // disrepairs5("en-US"),
           // disrepairs600"),
-          // speakdisrepairs6
           // disrepairs6("en-US"),
           // disrepairs700"),
-          // speakdisrepairs7
           // disrepairs7("en-US"),
           // disrepairs800"),
-          // speakdisrepairs8
           // disrepairs8("en-US"),
           // disrepairs900"),
-          // speakdisrepairs9
           // disrepairs9("en-US"),
           // disrepairs_1000"),
-          // speakdisrepairs10
           // disrepairs10("en-US"),
           // disrepairs1100"),
-          // speakdisrepairs11
           // disrepairs11("en-US"),
           // disrepairs1200"),
-          // speakdisrepairs12
           // disrepairs12("en-US"),
           // disrepairs1300"),
-          // speakdisrepairs13
           // disrepairs13("en-US"),
           // disrepairs1400"),
-          // speakdisrepairs14
           // disrepairs14("en-US"),
           // disrepairs1500"),
-          // speakdisrepairs15
           // disrepairs15("en-US"),
           // disrepairs1600"),
-          // speakdisrepairs16
           // disrepairs16("en-US"),
           // disrepairs1700"),
-          // speakdisrepairs17
           // disrepairs17("en-US"),
           // disrepairs1800"),
-          // speakdisrepairs18
           // disrepairs18("en-US"),
           // disrepairs1900"),
-          // speakdisrepairs19
           // disrepairs19("en-US"),
           // disrepairs_2000"),
-          // speakdisrepairs20
           // disrepairs20("en-US"),
           // disrepairs2100"),
-          // speakdisrepairs21
           // disrepairs21("en-US"),
           // disrepairs2200"),
-          // speakdisrepairs22
           // disrepairs22("en-US"),
         ],
       ),

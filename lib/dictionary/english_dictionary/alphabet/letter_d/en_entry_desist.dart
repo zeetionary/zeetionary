@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesists2("en-US"),
           ),
           // desists300"),
-          // speakdesists3
           // desists3("en-US"),
           // desists400"),
-          // speakdesists4
           // desists4("en-US"),
           // desists500"),
-          // speakdesists5
           // desists5("en-US"),
           // desists600"),
-          // speakdesists6
           // desists6("en-US"),
           // desists700"),
-          // speakdesists7
           // desists7("en-US"),
           // desists800"),
-          // speakdesists8
           // desists8("en-US"),
           // desists900"),
-          // speakdesists9
           // desists9("en-US"),
           // desists1000"),
-          // speakdesists10
           // desists10("en-US"),
           // desists1100"),
-          // speakdesists11
           // desists11("en-US"),
           // desists1200"),
-          // speakdesists12
           // desists12("en-US"),
           // desists1300"),
-          // speakdesists13
           // desists13("en-US"),
           // desists1400"),
-          // speakdesists14
           // desists14("en-US"),
           // desists1500"),
-          // speakdesists15
           // desists15("en-US"),
           // desists1600"),
-          // speakdesists16
           // desists16("en-US"),
           // desists1700"),
-          // speakdesists17
           // desists17("en-US"),
           // desists1800"),
-          // speakdesists18
           // desists18("en-US"),
           // desists1900"),
-          // speakdesists19
           // desists19("en-US"),
           // "The high winds are expected to desist tomorrow.0"),
-          // speakdesists20
           // desists20("en-US"),
           // desists2100"),
-          // speakdesists21
           // desists21("en-US"),
           // desists2200"),
-          // speakdesists22
           // desists22("en-US"),
         ],
       ),

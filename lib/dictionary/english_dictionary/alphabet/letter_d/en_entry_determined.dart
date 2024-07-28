@@ -257,9 +257,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -310,55 +308,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetermineds5("en-US"),
           ),
           // determineds600"),
-          // speakdetermineds6
           // determineds6("en-US"),
           // determineds700"),
-          // speakdetermineds7
           // determineds7("en-US"),
           // determineds800"),
-          // speakdetermineds8
           // determineds8("en-US"),
           // determineds900"),
-          // speakdetermineds9
           // determineds9("en-US"),
           // determineds1000"),
-          // speakdetermineds10
           // determineds10("en-US"),
           // determineds1100"),
-          // speakdetermineds11
           // determineds11("en-US"),
           // determineds1200"),
-          // speakdetermineds12
           // determineds12("en-US"),
           // determineds1300"),
-          // speakdetermineds13
           // determineds13("en-US"),
           // determineds1400"),
-          // speakdetermineds14
           // determineds14("en-US"),
           // determineds1500"),
-          // speakdetermineds15
           // determineds15("en-US"),
           // determineds1600"),
-          // speakdetermineds16
           // determineds16("en-US"),
           // determineds1700"),
-          // speakdetermineds17
           // determineds17("en-US"),
           // determineds1800"),
-          // speakdetermineds18
           // determineds18("en-US"),
           // determineds1900"),
-          // speakdetermineds19
           // determineds19("en-US"),
           // "I'm determined to succeed.0"),
-          // speakdetermineds20
           // determineds20("en-US"),
           // determineds2100"),
-          // speakdetermineds21
           // determineds21("en-US"),
           // determineds2200"),
-          // speakdetermineds22
           // determineds22("en-US"),
         ],
       ),

@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -281,61 +279,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemonstratives3("en-US"),
           ),
           // demonstratives400"),
-          // speakdemonstratives4
           // demonstratives4("en-US"),
           // demonstratives500"),
-          // speakdemonstratives5
           // demonstratives5("en-US"),
           // demonstratives600"),
-          // speakdemonstratives6
           // demonstratives6("en-US"),
           // demonstratives700"),
-          // speakdemonstratives7
           // demonstratives7("en-US"),
           // demonstratives800"),
-          // speakdemonstratives8
           // demonstratives8("en-US"),
           // demonstratives900"),
-          // speakdemonstratives9
           // demonstratives9("en-US"),
           // demonstratives1000"),
-          // speakdemonstratives10
           // demonstratives10("en-US"),
           // demonstratives1100"),
-          // speakdemonstratives11
           // demonstratives11("en-US"),
           // demonstratives1200"),
-          // speakdemonstratives12
           // demonstratives12("en-US"),
           // demonstratives1300"),
-          // speakdemonstratives13
           // demonstratives13("en-US"),
           // demonstratives1400"),
-          // speakdemonstratives14
           // demonstratives14("en-US"),
           // demonstratives1500"),
-          // speakdemonstratives15
           // demonstratives15("en-US"),
           // demonstratives1600"),
-          // speakdemonstratives16
           // demonstratives16("en-US"),
           // demonstratives1700"),
-          // speakdemonstratives17
           // demonstratives17("en-US"),
           // demonstratives1800"),
-          // speakdemonstratives18
           // demonstratives18("en-US"),
           // demonstratives1900"),
-          // speakdemonstratives19
           // demonstratives19("en-US"),
           // "‘This’ and ‘that’ are demonstrative pronouns.0"),
-          // speakdemonstratives20
           // demonstratives20("en-US"),
           // demonstratives2100"),
-          // speakdemonstratives21
           // demonstratives21("en-US"),
           // demonstratives2200"),
-          // speakdemonstratives22
           // demonstratives22("en-US"),
         ],
       ),

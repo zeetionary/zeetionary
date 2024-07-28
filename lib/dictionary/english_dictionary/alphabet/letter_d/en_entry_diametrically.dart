@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -253,64 +251,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiametricallys2("en-US"),
           ),
           // diametricallys300"),
-          // speakdiametricallys3
           // diametricallys3("en-US"),
           // diametricallys400"),
-          // speakdiametricallys4
           // diametricallys4("en-US"),
           // diametricallys500"),
-          // speakdiametricallys5
           // diametricallys5("en-US"),
           // diametricallys600"),
-          // speakdiametricallys6
           // diametricallys6("en-US"),
           // diametricallys700"),
-          // speakdiametricallys7
           // diametricallys7("en-US"),
           // diametricallys800"),
-          // speakdiametricallys8
           // diametricallys8("en-US"),
           // diametricallys900"),
-          // speakdiametricallys9
           // diametricallys9("en-US"),
           // diametricallys_1000"),
-          // speakdiametricallys10
           // diametricallys10("en-US"),
           // diametricallys1100"),
-          // speakdiametricallys11
           // diametricallys11("en-US"),
           // diametricallys1200"),
-          // speakdiametricallys12
           // diametricallys12("en-US"),
           // diametricallys1300"),
-          // speakdiametricallys13
           // diametricallys13("en-US"),
           // diametricallys1400"),
-          // speakdiametricallys14
           // diametricallys14("en-US"),
           // diametricallys1500"),
-          // speakdiametricallys15
           // diametricallys15("en-US"),
           // diametricallys1600"),
-          // speakdiametricallys16
           // diametricallys16("en-US"),
           // diametricallys1700"),
-          // speakdiametricallys17
           // diametricallys17("en-US"),
           // diametricallys1800"),
-          // speakdiametricallys18
           // diametricallys18("en-US"),
           // diametricallys1900"),
-          // speakdiametricallys19
           // diametricallys19("en-US"),
           // diametricallys_2000"),
-          // speakdiametricallys20
           // diametricallys20("en-US"),
           // diametricallys2100"),
-          // speakdiametricallys21
           // diametricallys21("en-US"),
           // diametricallys2200"),
-          // speakdiametricallys22
           // diametricallys22("en-US"),
         ],
       ),

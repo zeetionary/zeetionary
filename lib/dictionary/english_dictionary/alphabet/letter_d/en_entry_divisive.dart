@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivisives2("en-US"),
           ),
           // divisives300"),
-          // speakdivisives3
           // divisives3("en-US"),
           // divisives400"),
-          // speakdivisives4
           // divisives4("en-US"),
           // divisives500"),
-          // speakdivisives5
           // divisives5("en-US"),
           // divisives600"),
-          // speakdivisives6
           // divisives6("en-US"),
           // divisives700"),
-          // speakdivisives7
           // divisives7("en-US"),
           // divisives800"),
-          // speakdivisives8
           // divisives8("en-US"),
           // divisives900"),
-          // speakdivisives9
           // divisives9("en-US"),
           // divisives_1000"),
-          // speakdivisives10
           // divisives10("en-US"),
           // divisives1100"),
-          // speakdivisives11
           // divisives11("en-US"),
           // divisives1200"),
-          // speakdivisives12
           // divisives12("en-US"),
           // divisives1300"),
-          // speakdivisives13
           // divisives13("en-US"),
           // divisives1400"),
-          // speakdivisives14
           // divisives14("en-US"),
           // divisives1500"),
-          // speakdivisives15
           // divisives15("en-US"),
           // divisives1600"),
-          // speakdivisives16
           // divisives16("en-US"),
           // divisives1700"),
-          // speakdivisives17
           // divisives17("en-US"),
           // divisives1800"),
-          // speakdivisives18
           // divisives18("en-US"),
           // divisives1900"),
-          // speakdivisives19
           // divisives19("en-US"),
           // divisives_2000"),
-          // speakdivisives20
           // divisives20("en-US"),
           // divisives2100"),
-          // speakdivisives21
           // divisives21("en-US"),
           // divisives2200"),
-          // speakdivisives22
           // divisives22("en-US"),
         ],
       ),

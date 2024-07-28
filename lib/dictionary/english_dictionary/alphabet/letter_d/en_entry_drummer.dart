@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -366,67 +364,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrummers1("en-US"),
           ),
           // drummers200"),
-          // speakdrummers2
           // drummers2("en-US"),
           // drummers300"),
-          // speakdrummers3
           // drummers3("en-US"),
           // drummers400"),
-          // speakdrummers4
           // drummers4("en-US"),
           // drummers500"),
-          // speakdrummers5
           // drummers5("en-US"),
           // drummers600"),
-          // speakdrummers6
           // drummers6("en-US"),
           // drummers700"),
-          // speakdrummers7
           // drummers7("en-US"),
           // drummers800"),
-          // speakdrummers8
           // drummers8("en-US"),
           // drummers900"),
-          // speakdrummers9
           // drummers9("en-US"),
           // drummers_1000"),
-          // speakdrummers10
           // drummers10("en-US"),
           // drummers1100"),
-          // speakdrummers11
           // drummers11("en-US"),
           // drummers1200"),
-          // speakdrummers12
           // drummers12("en-US"),
           // drummers1300"),
-          // speakdrummers13
           // drummers13("en-US"),
           // drummers1400"),
-          // speakdrummers14
           // drummers14("en-US"),
           // drummers1500"),
-          // speakdrummers15
           // drummers15("en-US"),
           // drummers1600"),
-          // speakdrummers16
           // drummers16("en-US"),
           // drummers1700"),
-          // speakdrummers17
           // drummers17("en-US"),
           // drummers1800"),
-          // speakdrummers18
           // drummers18("en-US"),
           // drummers1900"),
-          // speakdrummers19
           // drummers19("en-US"),
           // drummers_2000"),
-          // speakdrummers20
           // drummers20("en-US"),
           // drummers2100"),
-          // speakdrummers21
           // drummers21("en-US"),
           // drummers2200"),
-          // speakdrummers22
           // drummers22("en-US"),
         ],
       ),

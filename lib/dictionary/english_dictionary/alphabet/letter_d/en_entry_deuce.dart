@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -261,64 +259,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeuces2("en-US"),
           ),
           // deuces300"),
-          // speakdeuces3
           // deuces3
           // deuces400"),
-          // speakdeuces4
           // deuces4
           // deuces500"),
-          // speakdeuces5
           // deuces5
           // deuces600"),
-          // speakdeuces6
           // deuces6
           // deuces700"),
-          // speakdeuces7
           // deuces7("en-US"),
           // deuces800"),
-          // speakdeuces8
           // deuces8("en-US"),
           // deuces900"),
-          // speakdeuces9
           // deuces9("en-US"),
           // deuces1000"),
-          // speakdeuces10
           // deuces10("en-US"),
           // deuces1100"),
-          // speakdeuces11
           // deuces11("en-US"),
           // deuces1200"),
-          // speakdeuces12
           // deuces12("en-US"),
           // deuces1300"),
-          // speakdeuces13
           // deuces13("en-US"),
           // deuces1400"),
-          // speakdeuces14
           // deuces14("en-US"),
           // deuces1500"),
-          // speakdeuces15
           // deuces15("en-US"),
           // deuces1600"),
-          // speakdeuces16
           // deuces16("en-US"),
           // deuces1700"),
-          // speakdeuces17
           // deuces17("en-US"),
           // deuces1800"),
-          // speakdeuces18
           // deuces18("en-US"),
           // deuces1900"),
-          // speakdeuces19
           // deuces19("en-US"),
           // "What the deuce is he doing?0"),
-          // speakdeuces20
           // deuces20("en-US"),
           // deuces2100"),
-          // speakdeuces21
           // deuces21("en-US"),
           // deuces2200"),
-          // speakdeuces22
           // deuces22("en-US"),
         ],
       ),

@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemilitarizes1("en-US"),
           ),
           // demilitarizes200"),
-          // speakdemilitarizes2
           // demilitarizes2("en-US"),
           // demilitarizes300"),
-          // speakdemilitarizes3
           // demilitarizes3("en-US"),
           // demilitarizes400"),
-          // speakdemilitarizes4
           // demilitarizes4("en-US"),
           // demilitarizes500"),
-          // speakdemilitarizes5
           // demilitarizes5("en-US"),
           // demilitarizes600"),
-          // speakdemilitarizes6
           // demilitarizes6("en-US"),
           // demilitarizes700"),
-          // speakdemilitarizes7
           // demilitarizes7("en-US"),
           // demilitarizes800"),
-          // speakdemilitarizes8
           // demilitarizes8("en-US"),
           // demilitarizes900"),
-          // speakdemilitarizes9
           // demilitarizes9("en-US"),
           // demilitarizes1000"),
-          // speakdemilitarizes10
           // demilitarizes10("en-US"),
           // demilitarizes1100"),
-          // speakdemilitarizes11
           // demilitarizes11("en-US"),
           // demilitarizes1200"),
-          // speakdemilitarizes12
           // demilitarizes12("en-US"),
           // demilitarizes1300"),
-          // speakdemilitarizes13
           // demilitarizes13("en-US"),
           // demilitarizes1400"),
-          // speakdemilitarizes14
           // demilitarizes14("en-US"),
           // demilitarizes1500"),
-          // speakdemilitarizes15
           // demilitarizes15("en-US"),
           // demilitarizes1600"),
-          // speakdemilitarizes16
           // demilitarizes16("en-US"),
           // demilitarizes1700"),
-          // speakdemilitarizes17
           // demilitarizes17("en-US"),
           // demilitarizes1800"),
-          // speakdemilitarizes18
           // demilitarizes18("en-US"),
           // demilitarizes1900"),
-          // speakdemilitarizes19
           // demilitarizes19("en-US"),
           // demilitarizes2000"),
-          // speakdemilitarizes20
           // demilitarizes20("en-US"),
           // demilitarizes2100"),
-          // speakdemilitarizes21
           // demilitarizes21("en-US"),
           // demilitarizes2200"),
-          // speakdemilitarizes22
           // demilitarizes22("en-US"),
         ],
       ),

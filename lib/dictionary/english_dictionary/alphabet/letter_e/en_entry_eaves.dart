@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeavess1("en-US"),
           ),
           // eavess200eavess2
-          // speakeavess2
           // eavess300eavess3
-          // speakeavess3
           // eavess400eavess4
-          // speakeavess4
           // eavess500eavess5
-          // speakeavess5
           // eavess600eavess6
-          // speakeavess6
           // eavess700eavess7
-          // speakeavess7
           // eavess800eavess8
-          // speakeavess8
           // eavess900eavess9
-          // speakeavess9
           // eavess_1000eavess10
-          // speakeavess10
           // eavess1100eavess11
-          // speakeavess11
           // eavess1200eavess12
-          // speakeavess12
           // eavess1300eavess13
-          // speakeavess13
           // eavess1400eavess14
-          // speakeavess14
           // eavess1500eavess15
-          // speakeavess15
           // eavess1600eavess16
-          // speakeavess16
           // eavess1700eavess17
-          // speakeavess17
           // eavess1800eavess18
-          // speakeavess18
           // eavess1900eavess19
-          // speakeavess19
           // eavess_2000eavess20
-          // speakeavess20
           // eavess2100eavess21
-          // speakeavess21
           // eavess2200eavess22
           // speakeavess22("en-US"""),
           //         ),

@@ -259,9 +259,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -335,52 +333,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetachs6("en-US"),
           ),
           // detachs700"),
-          // speakdetachs7
           // detachs7("en-US"),
           // detachs800"),
-          // speakdetachs8
           // detachs8("en-US"),
           // detachs900"),
-          // speakdetachs9
           // detachs9("en-US"),
           // detachs1000"),
-          // speakdetachs10
           // detachs10("en-US"),
           // detachs1100"),
-          // speakdetachs11
           // detachs11("en-US"),
           // detachs1200"),
-          // speakdetachs12
           // detachs12("en-US"),
           // detachs1300"),
-          // speakdetachs13
           // detachs13("en-US"),
           // detachs1400"),
-          // speakdetachs14
           // detachs14("en-US"),
           // detachs1500"),
-          // speakdetachs15
           // detachs15("en-US"),
           // detachs1600"),
-          // speakdetachs16
           // detachs16("en-US"),
           // detachs1700"),
-          // speakdetachs17
           // detachs17("en-US"),
           // detachs1800"),
-          // speakdetachs18
           // detachs18("en-US"),
           // detachs1900"),
-          // speakdetachs19
           // detachs19("en-US"),
           // "One of the panels had become detached from the main structure.0"),
-          // speakdetachs20
           // detachs20("en-US"),
           // detachs2100"),
-          // speakdetachs21
           // detachs21("en-US"),
           // detachs2200"),
-          // speakdetachs22
           // detachs22("en-US"),
         ],
       ),

@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -256,64 +254,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisquiets2("en-US"),
           ),
           // disquiets300"),
-          // speakdisquiets3
           // disquiets3("en-US"),
           // disquiets400"),
-          // speakdisquiets4
           // disquiets4("en-US"),
           // disquiets500"),
-          // speakdisquiets5
           // disquiets5("en-US"),
           // disquiets600"),
-          // speakdisquiets6
           // disquiets6("en-US"),
           // disquiets700"),
-          // speakdisquiets7
           // disquiets7("en-US"),
           // disquiets800"),
-          // speakdisquiets8
           // disquiets8("en-US"),
           // disquiets900"),
-          // speakdisquiets9
           // disquiets9("en-US"),
           // disquiets_1000"),
-          // speakdisquiets10
           // disquiets10("en-US"),
           // disquiets1100"),
-          // speakdisquiets11
           // disquiets11("en-US"),
           // disquiets1200"),
-          // speakdisquiets12
           // disquiets12("en-US"),
           // disquiets1300"),
-          // speakdisquiets13
           // disquiets13("en-US"),
           // disquiets1400"),
-          // speakdisquiets14
           // disquiets14("en-US"),
           // disquiets1500"),
-          // speakdisquiets15
           // disquiets15("en-US"),
           // disquiets1600"),
-          // speakdisquiets16
           // disquiets16("en-US"),
           // disquiets1700"),
-          // speakdisquiets17
           // disquiets17("en-US"),
           // disquiets1800"),
-          // speakdisquiets18
           // disquiets18("en-US"),
           // disquiets1900"),
-          // speakdisquiets19
           // disquiets19("en-US"),
           // disquiets_2000"),
-          // speakdisquiets20
           // disquiets20("en-US"),
           // disquiets2100"),
-          // speakdisquiets21
           // disquiets21("en-US"),
           // disquiets2200"),
-          // speakdisquiets22
           // disquiets22("en-US"),
         ],
       ),

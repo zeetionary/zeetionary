@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -252,64 +250,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiligences2("en-US"),
           ),
           // diligences300"),
-          // speakdiligences3
           // diligences3("en-US"),
           // diligences400"),
-          // speakdiligences4
           // diligences4("en-US"),
           // diligences500"),
-          // speakdiligences5
           // diligences5("en-US"),
           // diligences600"),
-          // speakdiligences6
           // diligences6("en-US"),
           // diligences700"),
-          // speakdiligences7
           // diligences7("en-US"),
           // diligences800"),
-          // speakdiligences8
           // diligences8("en-US"),
           // diligences900"),
-          // speakdiligences9
           // diligences9("en-US"),
           // diligences_1000"),
-          // speakdiligences10
           // diligences10("en-US"),
           // diligences1100"),
-          // speakdiligences11
           // diligences11("en-US"),
           // diligences1200"),
-          // speakdiligences12
           // diligences12("en-US"),
           // diligences1300"),
-          // speakdiligences13
           // diligences13("en-US"),
           // diligences1400"),
-          // speakdiligences14
           // diligences14("en-US"),
           // diligences1500"),
-          // speakdiligences15
           // diligences15("en-US"),
           // diligences1600"),
-          // speakdiligences16
           // diligences16("en-US"),
           // diligences1700"),
-          // speakdiligences17
           // diligences17("en-US"),
           // diligences1800"),
-          // speakdiligences18
           // diligences18("en-US"),
           // diligences1900"),
-          // speakdiligences19
           // diligences19("en-US"),
           // diligences_2000"),
-          // speakdiligences20
           // diligences20("en-US"),
           // diligences2100"),
-          // speakdiligences21
           // diligences21("en-US"),
           // diligences2200"),
-          // speakdiligences22
           // diligences22("en-US"),
         ],
       ),

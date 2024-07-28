@@ -640,9 +640,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -1026,64 +1024,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrives41("en-US"),
           ),
           // drives4200"),
-          // speakdrives42
           // drives42
           // drives4300"),
-          // speakdrives43
           // drives43
           // drives4400"),
-          // speakdrives44
           // drives44
           // drives4500"),
-          // speakdrives45
           // drives45
           // drives4600"),
-          // speakdrives46
           // drives46
           // drives4700"),
-          // speakdrives47
           // drives47
           // drives4800"),
-          // speakdrives48
           // drives48
           // drives4900"),
-          // speakdrives49
           // drives49
           // drives_6000"),
-          // speakdrives50
           // drives50
           // drives5100"),
-          // speakdrives51
           // drives51
           // drives5200"),
-          // speakdrives52
           // drives52
           // drives5300"),
-          // speakdrives53
           // drives53
           // drives5400"),
-          // speakdrives54
           // drives54
           // drives5500"),
-          // speakdrives55
           // drives55
           // drives5600"),
-          // speakdrives56
           // drives56
           // drives5700"),
-          // speakdrives57
           // drives57
           // drives5800"),
-          // speakdrives58
           // drives58
           // drives5900"),
-          // speakdrives59
           // drives59
           // drives6000"),
-          // speakdrives60
           // drives60
           // drives6100"),
-          // speakdrives61
           // drives61("en-US"),
         ],
       ),

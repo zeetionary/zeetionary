@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesktops2("en-US"),
           ),
           // desktops300"),
-          // speakdesktops3
           // desktops3("en-US"),
           // desktops400"),
-          // speakdesktops4
           // desktops4("en-US"),
           // desktops500"),
-          // speakdesktops5
           // desktops5("en-US"),
           // desktops600"),
-          // speakdesktops6
           // desktops6("en-US"),
           // desktops700"),
-          // speakdesktops7
           // desktops7("en-US"),
           // desktops800"),
-          // speakdesktops8
           // desktops8("en-US"),
           // desktops900"),
-          // speakdesktops9
           // desktops9("en-US"),
           // desktops1000"),
-          // speakdesktops10
           // desktops10("en-US"),
           // desktops1100"),
-          // speakdesktops11
           // desktops11("en-US"),
           // desktops1200"),
-          // speakdesktops12
           // desktops12("en-US"),
           // desktops1300"),
-          // speakdesktops13
           // desktops13("en-US"),
           // desktops1400"),
-          // speakdesktops14
           // desktops14("en-US"),
           // desktops1500"),
-          // speakdesktops15
           // desktops15("en-US"),
           // desktops1600"),
-          // speakdesktops16
           // desktops16("en-US"),
           // desktops1700"),
-          // speakdesktops17
           // desktops17("en-US"),
           // desktops1800"),
-          // speakdesktops18
           // desktops18("en-US"),
           // desktops1900"),
-          // speakdesktops19
           // desktops19("en-US"),
           // "First decide whether you need a desktop computer, or whether a laptop or notebook would be more suitable.0"),
-          // speakdesktops20
           // desktops20("en-US"),
           // desktops2100"),
-          // speakdesktops21
           // desktops21("en-US"),
           // desktops2200"),
-          // speakdesktops22
           // desktops22("en-US"),
         ],
       ),

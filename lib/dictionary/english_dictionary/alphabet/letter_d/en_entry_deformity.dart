@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -263,64 +261,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeformitys2("en-US"),
           ),
           // deformitys300"),
-          // speakdeformitys3
           // deformitys3("en-US"),
           // deformitys400"),
-          // speakdeformitys4
           // deformitys4("en-US"),
           // deformitys500"),
-          // speakdeformitys5
           // deformitys5("en-US"),
           // deformitys600"),
-          // speakdeformitys6
           // deformitys6("en-US"),
           // deformitys700"),
-          // speakdeformitys7
           // deformitys7("en-US"),
           // deformitys800"),
-          // speakdeformitys8
           // deformitys8("en-US"),
           // deformitys900"),
-          // speakdeformitys9
           // deformitys9("en-US"),
           // deformitys1000"),
-          // speakdeformitys10
           // deformitys10("en-US"),
           // deformitys1100"),
-          // speakdeformitys11
           // deformitys11("en-US"),
           // deformitys1200"),
-          // speakdeformitys12
           // deformitys12("en-US"),
           // deformitys1300"),
-          // speakdeformitys13
           // deformitys13("en-US"),
           // deformitys1400"),
-          // speakdeformitys14
           // deformitys14("en-US"),
           // deformitys1500"),
-          // speakdeformitys15
           // deformitys15("en-US"),
           // deformitys1600"),
-          // speakdeformitys16
           // deformitys16("en-US"),
           // deformitys1700"),
-          // speakdeformitys17
           // deformitys17("en-US"),
           // deformitys1800"),
-          // speakdeformitys18
           // deformitys18("en-US"),
           // deformitys1900"),
-          // speakdeformitys19
           // deformitys19("en-US"),
           // "Poor posture causes deformity in the natural curvature of the spine.0"),
-          // speakdeformitys20
           // deformitys20("en-US"),
           // deformitys2100"),
-          // speakdeformitys21
           // deformitys21("en-US"),
           // deformitys2200"),
-          // speakdeformitys22
           // deformitys22("en-US"),
         ],
       ),

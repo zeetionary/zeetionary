@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -270,61 +268,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiningrooms3("en-US"),
           ),
           // diningrooms400"),
-          // speakdiningrooms4
           // diningrooms4("en-US"),
           // diningrooms500"),
-          // speakdiningrooms5
           // diningrooms5("en-US"),
           // diningrooms600"),
-          // speakdiningrooms6
           // diningrooms6("en-US"),
           // diningrooms700"),
-          // speakdiningrooms7
           // diningrooms7("en-US"),
           // diningrooms800"),
-          // speakdiningrooms8
           // diningrooms8("en-US"),
           // diningrooms900"),
-          // speakdiningrooms9
           // diningrooms9("en-US"),
           // diningrooms_1000"),
-          // speakdiningrooms10
           // diningrooms10("en-US"),
           // diningrooms1100"),
-          // speakdiningrooms11
           // diningrooms11("en-US"),
           // diningrooms1200"),
-          // speakdiningrooms12
           // diningrooms12("en-US"),
           // diningrooms1300"),
-          // speakdiningrooms13
           // diningrooms13("en-US"),
           // diningrooms1400"),
-          // speakdiningrooms14
           // diningrooms14("en-US"),
           // diningrooms1500"),
-          // speakdiningrooms15
           // diningrooms15("en-US"),
           // diningrooms1600"),
-          // speakdiningrooms16
           // diningrooms16("en-US"),
           // diningrooms1700"),
-          // speakdiningrooms17
           // diningrooms17("en-US"),
           // diningrooms1800"),
-          // speakdiningrooms18
           // diningrooms18("en-US"),
           // diningrooms1900"),
-          // speakdiningrooms19
           // diningrooms19("en-US"),
           // diningrooms_2000"),
-          // speakdiningrooms20
           // diningrooms20("en-US"),
           // diningrooms2100"),
-          // speakdiningrooms21
           // diningrooms21("en-US"),
           // diningrooms2200"),
-          // speakdiningrooms22
           // diningrooms22("en-US"),
         ],
       ),

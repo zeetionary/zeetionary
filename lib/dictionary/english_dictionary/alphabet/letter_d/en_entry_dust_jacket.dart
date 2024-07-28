@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdustjackets1("en-US"),
           ),
           // dustjackets200
-          // speakdustjackets2
           // dustjackets2("en-US"""),
           // dustjackets300
-          // speakdustjackets3
           // dustjackets3("en-US"""),
           // dustjackets400
-          // speakdustjackets4
           // dustjackets4("en-US"""),
           // dustjackets500
-          // speakdustjackets5
           // dustjackets5("en-US"""),
           // dustjackets600
-          // speakdustjackets6
           // dustjackets6("en-US"""),
           // dustjackets700
-          // speakdustjackets7
           // dustjackets7("en-US"""),
           // dustjackets800
-          // speakdustjackets8
           // dustjackets8("en-US"""),
           // dustjackets900
-          // speakdustjackets9
           // dustjackets9("en-US"""),
           // dustjackets_1000
-          // speakdustjackets10
           // dustjackets10("en-US"""),
           // dustjackets1100
-          // speakdustjackets11
           // dustjackets11("en-US"""),
           // dustjackets1200
-          // speakdustjackets12
           // dustjackets12("en-US"""),
           // dustjackets1300
-          // speakdustjackets13
           // dustjackets13("en-US"""),
           // dustjackets1400
-          // speakdustjackets14
           // dustjackets14("en-US"""),
           // dustjackets1500
-          // speakdustjackets15
           // dustjackets15("en-US"""),
           // dustjackets1600
-          // speakdustjackets16
           // dustjackets16("en-US"""),
           // dustjackets1700
-          // speakdustjackets17
           // dustjackets17("en-US"""),
           // dustjackets1800
-          // speakdustjackets18
           // dustjackets18("en-US"""),
           // dustjackets1900
-          // speakdustjackets19
           // dustjackets19("en-US"""),
           // dustjackets_2000
-          // speakdustjackets20
           // dustjackets20("en-US"""),
           // dustjackets2100
-          // speakdustjackets21
           // dustjackets21("en-US"""),
           // dustjackets2200
-          // speakdustjackets22
           // dustjackets22("en-US"""),
         ],
       ),

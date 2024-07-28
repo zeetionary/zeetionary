@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // skipped_meaning
           // diaphragms200"),
-          // speakdiaphragms2
           // diaphragms2("en-US"),
           // diaphragms300"),
-          // speakdiaphragms3
           // diaphragms3("en-US"),
           // diaphragms400"),
-          // speakdiaphragms4
           // diaphragms4("en-US"),
           // diaphragms500"),
-          // speakdiaphragms5
           // diaphragms5("en-US"),
           // diaphragms600"),
-          // speakdiaphragms6
           // diaphragms6("en-US"),
           // diaphragms700"),
-          // speakdiaphragms7
           // diaphragms7("en-US"),
           // diaphragms800"),
-          // speakdiaphragms8
           // diaphragms8("en-US"),
           // diaphragms900"),
-          // speakdiaphragms9
           // diaphragms9("en-US"),
           // diaphragms_1000"),
-          // speakdiaphragms10
           // diaphragms10("en-US"),
           // diaphragms1100"),
-          // speakdiaphragms11
           // diaphragms11("en-US"),
           // diaphragms1200"),
-          // speakdiaphragms12
           // diaphragms12("en-US"),
           // diaphragms1300"),
-          // speakdiaphragms13
           // diaphragms13("en-US"),
           // diaphragms1400"),
-          // speakdiaphragms14
           // diaphragms14("en-US"),
           // diaphragms1500"),
-          // speakdiaphragms15
           // diaphragms15("en-US"),
           // diaphragms1600"),
-          // speakdiaphragms16
           // diaphragms16("en-US"),
           // diaphragms1700"),
-          // speakdiaphragms17
           // diaphragms17("en-US"),
           // diaphragms1800"),
-          // speakdiaphragms18
           // diaphragms18("en-US"),
           // diaphragms1900"),
-          // speakdiaphragms19
           // diaphragms19("en-US"),
           // diaphragms_2000"),
-          // speakdiaphragms20
           // diaphragms20("en-US"),
           // diaphragms2100"),
-          // speakdiaphragms21
           // diaphragms21("en-US"),
           // diaphragms2200"),
-          // speakdiaphragms22
           // diaphragms22("en-US"),
         ],
       ),

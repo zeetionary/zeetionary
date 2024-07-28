@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -366,67 +364,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownandouts1("en-US"),
           ),
           // downandouts200"),
-          // speakdownandouts2
           // downandouts2("en-US"),
           // downandouts300"),
-          // speakdownandouts3
           // downandouts3("en-US"),
           // downandouts400"),
-          // speakdownandouts4
           // downandouts4("en-US"),
           // downandouts500"),
-          // speakdownandouts5
           // downandouts5("en-US"),
           // downandouts600"),
-          // speakdownandouts6
           // downandouts6("en-US"),
           // downandouts700"),
-          // speakdownandouts7
           // downandouts7("en-US"),
           // downandouts800"),
-          // speakdownandouts8
           // downandouts8("en-US"),
           // downandouts900"),
-          // speakdownandouts9
           // downandouts9("en-US"),
           // downandouts_1000"),
-          // speakdownandouts10
           // downandouts10("en-US"),
           // downandouts1100"),
-          // speakdownandouts11
           // downandouts11("en-US"),
           // downandouts1200"),
-          // speakdownandouts12
           // downandouts12("en-US"),
           // downandouts1300"),
-          // speakdownandouts13
           // downandouts13("en-US"),
           // downandouts1400"),
-          // speakdownandouts14
           // downandouts14("en-US"),
           // downandouts1500"),
-          // speakdownandouts15
           // downandouts15("en-US"),
           // downandouts1600"),
-          // speakdownandouts16
           // downandouts16("en-US"),
           // downandouts1700"),
-          // speakdownandouts17
           // downandouts17("en-US"),
           // downandouts1800"),
-          // speakdownandouts18
           // downandouts18("en-US"),
           // downandouts1900"),
-          // speakdownandouts19
           // downandouts19("en-US"),
           // downandouts_2000"),
-          // speakdownandouts20
           // downandouts20("en-US"),
           // downandouts2100"),
-          // speakdownandouts21
           // downandouts21("en-US"),
           // downandouts2200"),
-          // speakdownandouts22
           // downandouts22("en-US"),
         ],
       ),

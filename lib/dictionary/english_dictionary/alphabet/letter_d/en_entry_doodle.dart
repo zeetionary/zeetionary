@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoodles2("en-US"),
           ),
           // doodles300"),
-          // speakdoodles3
           // doodles3("en-US"),
           // doodles400"),
-          // speakdoodles4
           // doodles4("en-US"),
           // doodles500"),
-          // speakdoodles5
           // doodles5("en-US"),
           // doodles600"),
-          // speakdoodles6
           // doodles6("en-US"),
           // doodles700"),
-          // speakdoodles7
           // doodles7("en-US"),
           // doodles800"),
-          // speakdoodles8
           // doodles8("en-US"),
           // doodles900"),
-          // speakdoodles9
           // doodles9("en-US"),
           // doodles_1000"),
-          // speakdoodles10
           // doodles10("en-US"),
           // doodles1100"),
-          // speakdoodles11
           // doodles11("en-US"),
           // doodles1200"),
-          // speakdoodles12
           // doodles12("en-US"),
           // doodles1300"),
-          // speakdoodles13
           // doodles13("en-US"),
           // doodles1400"),
-          // speakdoodles14
           // doodles14("en-US"),
           // doodles1500"),
-          // speakdoodles15
           // doodles15("en-US"),
           // doodles1600"),
-          // speakdoodles16
           // doodles16("en-US"),
           // doodles1700"),
-          // speakdoodles17
           // doodles17("en-US"),
           // doodles1800"),
-          // speakdoodles18
           // doodles18("en-US"),
           // doodles1900"),
-          // speakdoodles19
           // doodles19("en-US"),
           // doodles_2000"),
-          // speakdoodles20
           // doodles20("en-US"),
           // doodles2100"),
-          // speakdoodles21
           // doodles21("en-US"),
           // doodles2200"),
-          // speakdoodles22
           // doodles22("en-US"),
         ],
       ),

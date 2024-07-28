@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -404,61 +402,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistillations3("en-US"),
           ),
           // distillations400"),
-          // speakdistillations4
           // distillations4("en-US"),
           // distillations500"),
-          // speakdistillations5
           // distillations5("en-US"),
           // distillations600"),
-          // speakdistillations6
           // distillations6("en-US"),
           // distillations700"),
-          // speakdistillations7
           // distillations7("en-US"),
           // distillations800"),
-          // speakdistillations8
           // distillations8("en-US"),
           // distillations900"),
-          // speakdistillations9
           // distillations9("en-US"),
           // distillations_1000"),
-          // speakdistillations10
           // distillations10("en-US"),
           // distillations1100"),
-          // speakdistillations11
           // distillations11("en-US"),
           // distillations1200"),
-          // speakdistillations12
           // distillations12("en-US"),
           // distillations1300"),
-          // speakdistillations13
           // distillations13("en-US"),
           // distillations1400"),
-          // speakdistillations14
           // distillations14("en-US"),
           // distillations1500"),
-          // speakdistillations15
           // distillations15("en-US"),
           // distillations1600"),
-          // speakdistillations16
           // distillations16("en-US"),
           // distillations1700"),
-          // speakdistillations17
           // distillations17("en-US"),
           // distillations1800"),
-          // speakdistillations18
           // distillations18("en-US"),
           // distillations1900"),
-          // speakdistillations19
           // distillations19("en-US"),
           // distillations_2000"),
-          // speakdistillations20
           // distillations20("en-US"),
           // distillations2100"),
-          // speakdistillations21
           // distillations21("en-US"),
           // distillations2200"),
-          // speakdistillations22
           // distillations22("en-US"),
         ],
       ),

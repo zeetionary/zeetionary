@@ -235,7 +235,6 @@ class KurdishMeaning extends StatelessWidget {
   final FlutterTts flutterTts = FlutterTts();
 
   Future<void> speakabbreviation(String languageCode) async {
-    // speakAbbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -243,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speaka852(String languageCode) async {
-    // speakAbbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -251,7 +249,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations1(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -260,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations2(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -268,7 +264,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations3(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -276,7 +271,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations4(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -284,7 +278,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations5(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -292,7 +285,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations6(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -300,7 +292,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations7(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -308,7 +299,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations8(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -316,7 +306,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations9(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -324,7 +313,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations10(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -332,7 +320,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations11(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -340,7 +327,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations12(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -348,7 +334,6 @@ class KurdishMeaning extends StatelessWidget {
   }
 
   Future<void> speakabbreviations13(String languageCode) async {
-    // speakabbreviation
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -358,9 +343,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """

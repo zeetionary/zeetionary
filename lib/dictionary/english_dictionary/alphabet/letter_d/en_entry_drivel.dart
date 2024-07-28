@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -400,61 +398,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrivels3("en-US"),
           ),
           // drivels400"),
-          // speakdrivels4
           // drivels4("en-US"),
           // drivels500"),
-          // speakdrivels5
           // drivels5("en-US"),
           // drivels600"),
-          // speakdrivels6
           // drivels6("en-US"),
           // drivels700"),
-          // speakdrivels7
           // drivels7("en-US"),
           // drivels800"),
-          // speakdrivels8
           // drivels8("en-US"),
           // drivels900"),
-          // speakdrivels9
           // drivels9("en-US"),
           // drivels_1000"),
-          // speakdrivels10
           // drivels10("en-US"),
           // drivels1100"),
-          // speakdrivels11
           // drivels11("en-US"),
           // drivels1200"),
-          // speakdrivels12
           // drivels12("en-US"),
           // drivels1300"),
-          // speakdrivels13
           // drivels13("en-US"),
           // drivels1400"),
-          // speakdrivels14
           // drivels14("en-US"),
           // drivels1500"),
-          // speakdrivels15
           // drivels15("en-US"),
           // drivels1600"),
-          // speakdrivels16
           // drivels16("en-US"),
           // drivels1700"),
-          // speakdrivels17
           // drivels17("en-US"),
           // drivels1800"),
-          // speakdrivels18
           // drivels18("en-US"),
           // drivels1900"),
-          // speakdrivels19
           // drivels19("en-US"),
           // drivels_2000"),
-          // speakdrivels20
           // drivels20("en-US"),
           // drivels2100"),
-          // speakdrivels21
           // drivels21("en-US"),
           // drivels2200"),
-          // speakdrivels22
           // drivels22("en-US"),
         ],
       ),

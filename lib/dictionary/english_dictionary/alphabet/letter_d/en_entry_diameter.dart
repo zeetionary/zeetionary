@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -267,61 +265,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiameters3("en-US"),
           ),
           // diameters400"),
-          // speakdiameters4
           // diameters4
           // diameters500"),
-          // speakdiameters5
           // diameters5
           // diameters600"),
-          // speakdiameters6
           // diameters6
           // diameters700"),
-          // speakdiameters7
           // diameters7
           // diameters800"),
-          // speakdiameters8
           // diameters8
           // diameters900"),
-          // speakdiameters9
           // diameters9
           // diameters_1000"),
-          // speakdiameters10
           // diameters10
           // diameters1100"),
-          // speakdiameters11
           // diameters11
           // diameters1200"),
-          // speakdiameters12
           // diameters12
           // diameters1300"),
-          // speakdiameters13
           // diameters13
           // diameters1400"),
-          // speakdiameters14
           // diameters14
           // diameters1500"),
-          // speakdiameters15
           // diameters15
           // diameters1600"),
-          // speakdiameters16
           // diameters16
           // diameters1700"),
-          // speakdiameters17
           // diameters17
           // diameters1800"),
-          // speakdiameters18
           // diameters18
           // diameters1900"),
-          // speakdiameters19
           // diameters19
           // diameters_2000"),
-          // speakdiameters20
           // diameters20
           // diameters2100"),
-          // speakdiameters21
           // diameters21
           // diameters2200"),
-          // speakdiameters22
           // diameters22("en-US"),
         ],
       ),

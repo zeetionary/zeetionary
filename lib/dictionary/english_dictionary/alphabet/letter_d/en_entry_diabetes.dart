@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -252,64 +250,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiabetess2("en-US"),
           ),
           // diabetess300"),
-          // speakdiabetess3
           // diabetess3("en-US"),
           // diabetess400"),
-          // speakdiabetess4
           // diabetess4("en-US"),
           // diabetess500"),
-          // speakdiabetess5
           // diabetess5("en-US"),
           // diabetess600"),
-          // speakdiabetess6
           // diabetess6("en-US"),
           // diabetess700"),
-          // speakdiabetess7
           // diabetess7("en-US"),
           // diabetess800"),
-          // speakdiabetess8
           // diabetess8("en-US"),
           // diabetess900"),
-          // speakdiabetess9
           // diabetess9("en-US"),
           // diabetess_1000"),
-          // speakdiabetess10
           // diabetess10("en-US"),
           // diabetess1100"),
-          // speakdiabetess11
           // diabetess11("en-US"),
           // diabetess1200"),
-          // speakdiabetess12
           // diabetess12("en-US"),
           // diabetess1300"),
-          // speakdiabetess13
           // diabetess13("en-US"),
           // diabetess1400"),
-          // speakdiabetess14
           // diabetess14("en-US"),
           // diabetess1500"),
-          // speakdiabetess15
           // diabetess15("en-US"),
           // diabetess1600"),
-          // speakdiabetess16
           // diabetess16("en-US"),
           // diabetess1700"),
-          // speakdiabetess17
           // diabetess17("en-US"),
           // diabetess1800"),
-          // speakdiabetess18
           // diabetess18("en-US"),
           // diabetess1900"),
-          // speakdiabetess19
           // diabetess19("en-US"),
           // diabetess_2000"),
-          // speakdiabetess20
           // diabetess20("en-US"),
           // diabetess2100"),
-          // speakdiabetess21
           // diabetess21("en-US"),
           // diabetess2200"),
-          // speakdiabetess22
           // diabetess22("en-US"),
         ],
       ),

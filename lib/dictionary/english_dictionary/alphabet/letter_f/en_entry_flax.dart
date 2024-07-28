@@ -85,9 +85,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts
-        .speak("""// speaksentence1000000000001111000000000000000000000
-""");
+    await flutterTts.speak("""""");
   }
 
   @override
@@ -158,8 +156,7 @@ ${englishMeaningConst.text}
                             """١. (ناو) ڕوەکێکی گوڵ شین کە بۆ قەدەکەی و تۆوەکەی دەچێندرێت، یان بۆ ئەو دەزووەی لێی درووست دەکرێت"""),
 //                     SentencesRow(
 //                       englishText:
-//                           """// speaksentence1000000000001111000000000000000000000
-// """,
+//                           """// """,
 //                       kurdishText: """رستە_رستە_رستە__رستە.""",
 //                       onPressedBritish: () => speaksentence1("en-GB"),
 //                       onPressedAmerican: () => speaksentence1("en-US"),

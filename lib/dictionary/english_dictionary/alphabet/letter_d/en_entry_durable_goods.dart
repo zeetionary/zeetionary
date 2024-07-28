@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdurablegoodss1("en-US"),
           ),
           // durablegoodss200
-          // speakdurablegoodss2
           // durablegoodss2("en-US"""),
           // durablegoodss300
-          // speakdurablegoodss3
           // durablegoodss3("en-US"""),
           // durablegoodss400
-          // speakdurablegoodss4
           // durablegoodss4("en-US"""),
           // durablegoodss500
-          // speakdurablegoodss5
           // durablegoodss5("en-US"""),
           // durablegoodss600
-          // speakdurablegoodss6
           // durablegoodss6("en-US"""),
           // durablegoodss700
-          // speakdurablegoodss7
           // durablegoodss7("en-US"""),
           // durablegoodss800
-          // speakdurablegoodss8
           // durablegoodss8("en-US"""),
           // durablegoodss900
-          // speakdurablegoodss9
           // durablegoodss9("en-US"""),
           // durablegoodss_1000
-          // speakdurablegoodss10
           // durablegoodss10("en-US"""),
           // durablegoodss1100
-          // speakdurablegoodss11
           // durablegoodss11("en-US"""),
           // durablegoodss1200
-          // speakdurablegoodss12
           // durablegoodss12("en-US"""),
           // durablegoodss1300
-          // speakdurablegoodss13
           // durablegoodss13("en-US"""),
           // durablegoodss1400
-          // speakdurablegoodss14
           // durablegoodss14("en-US"""),
           // durablegoodss1500
-          // speakdurablegoodss15
           // durablegoodss15("en-US"""),
           // durablegoodss1600
-          // speakdurablegoodss16
           // durablegoodss16("en-US"""),
           // durablegoodss1700
-          // speakdurablegoodss17
           // durablegoodss17("en-US"""),
           // durablegoodss1800
-          // speakdurablegoodss18
           // durablegoodss18("en-US"""),
           // durablegoodss1900
-          // speakdurablegoodss19
           // durablegoodss19("en-US"""),
           // durablegoodss_2000
-          // speakdurablegoodss20
           // durablegoodss20("en-US"""),
           // durablegoodss2100
-          // speakdurablegoodss21
           // durablegoodss21("en-US"""),
           // durablegoodss2200
-          // speakdurablegoodss22
           // durablegoodss22("en-US"""),
         ],
       ),

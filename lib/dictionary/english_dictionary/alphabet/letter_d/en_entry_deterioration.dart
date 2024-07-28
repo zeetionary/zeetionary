@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -263,64 +261,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeteriorations2("en-US"),
           ),
           // deteriorations300"),
-          // speakdeteriorations3
           // deteriorations3("en-US"),
           // deteriorations400"),
-          // speakdeteriorations4
           // deteriorations4("en-US"),
           // deteriorations500"),
-          // speakdeteriorations5
           // deteriorations5("en-US"),
           // deteriorations600"),
-          // speakdeteriorations6
           // deteriorations6("en-US"),
           // deteriorations700"),
-          // speakdeteriorations7
           // deteriorations7("en-US"),
           // deteriorations800"),
-          // speakdeteriorations8
           // deteriorations8("en-US"),
           // deteriorations900"),
-          // speakdeteriorations9
           // deteriorations9("en-US"),
           // deteriorations1000"),
-          // speakdeteriorations10
           // deteriorations10("en-US"),
           // deteriorations1100"),
-          // speakdeteriorations11
           // deteriorations11("en-US"),
           // deteriorations1200"),
-          // speakdeteriorations12
           // deteriorations12("en-US"),
           // deteriorations1300"),
-          // speakdeteriorations13
           // deteriorations13("en-US"),
           // deteriorations1400"),
-          // speakdeteriorations14
           // deteriorations14("en-US"),
           // deteriorations1500"),
-          // speakdeteriorations15
           // deteriorations15("en-US"),
           // deteriorations1600"),
-          // speakdeteriorations16
           // deteriorations16("en-US"),
           // deteriorations1700"),
-          // speakdeteriorations17
           // deteriorations17("en-US"),
           // deteriorations1800"),
-          // speakdeteriorations18
           // deteriorations18("en-US"),
           // deteriorations1900"),
-          // speakdeteriorations19
           // deteriorations19("en-US"),
           // "When we arrived, we were appalled at her deterioration.0"),
-          // speakdeteriorations20
           // deteriorations20("en-US"),
           // deteriorations2100"),
-          // speakdeteriorations21
           // deteriorations21("en-US"),
           // deteriorations2200"),
-          // speakdeteriorations22
           // deteriorations22("en-US"),
         ],
       ),

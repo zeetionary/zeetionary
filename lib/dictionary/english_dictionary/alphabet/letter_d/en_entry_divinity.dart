@@ -366,9 +366,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -405,61 +403,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivinitys3("en-US"),
           ),
           // divinitys400"),
-          // speakdivinitys4
           // divinitys4("en-US"),
           // divinitys500"),
-          // speakdivinitys5
           // divinitys5("en-US"),
           // divinitys600"),
-          // speakdivinitys6
           // divinitys6("en-US"),
           // divinitys700"),
-          // speakdivinitys7
           // divinitys7("en-US"),
           // divinitys800"),
-          // speakdivinitys8
           // divinitys8("en-US"),
           // divinitys900"),
-          // speakdivinitys9
           // divinitys9("en-US"),
           // divinitys_1000"),
-          // speakdivinitys10
           // divinitys10("en-US"),
           // divinitys1100"),
-          // speakdivinitys11
           // divinitys11("en-US"),
           // divinitys1200"),
-          // speakdivinitys12
           // divinitys12("en-US"),
           // divinitys1300"),
-          // speakdivinitys13
           // divinitys13("en-US"),
           // divinitys1400"),
-          // speakdivinitys14
           // divinitys14("en-US"),
           // divinitys1500"),
-          // speakdivinitys15
           // divinitys15("en-US"),
           // divinitys1600"),
-          // speakdivinitys16
           // divinitys16("en-US"),
           // divinitys1700"),
-          // speakdivinitys17
           // divinitys17("en-US"),
           // divinitys1800"),
-          // speakdivinitys18
           // divinitys18("en-US"),
           // divinitys1900"),
-          // speakdivinitys19
           // divinitys19("en-US"),
           // divinitys_2000"),
-          // speakdivinitys20
           // divinitys20("en-US"),
           // divinitys2100"),
-          // speakdivinitys21
           // divinitys21("en-US"),
           // divinitys2200"),
-          // speakdivinitys22
           // divinitys22("en-US"),
         ],
       ),

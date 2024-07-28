@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -255,64 +253,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisrespectfuls2("en-US"),
           ),
           // disrespectfuls300"),
-          // speakdisrespectfuls3
           // disrespectfuls3("en-US"),
           // disrespectfuls400"),
-          // speakdisrespectfuls4
           // disrespectfuls4("en-US"),
           // disrespectfuls500"),
-          // speakdisrespectfuls5
           // disrespectfuls5("en-US"),
           // disrespectfuls600"),
-          // speakdisrespectfuls6
           // disrespectfuls6("en-US"),
           // disrespectfuls700"),
-          // speakdisrespectfuls7
           // disrespectfuls7("en-US"),
           // disrespectfuls800"),
-          // speakdisrespectfuls8
           // disrespectfuls8("en-US"),
           // disrespectfuls900"),
-          // speakdisrespectfuls9
           // disrespectfuls9("en-US"),
           // disrespectfuls_1000"),
-          // speakdisrespectfuls10
           // disrespectfuls10("en-US"),
           // disrespectfuls1100"),
-          // speakdisrespectfuls11
           // disrespectfuls11("en-US"),
           // disrespectfuls1200"),
-          // speakdisrespectfuls12
           // disrespectfuls12("en-US"),
           // disrespectfuls1300"),
-          // speakdisrespectfuls13
           // disrespectfuls13("en-US"),
           // disrespectfuls1400"),
-          // speakdisrespectfuls14
           // disrespectfuls14("en-US"),
           // disrespectfuls1500"),
-          // speakdisrespectfuls15
           // disrespectfuls15("en-US"),
           // disrespectfuls1600"),
-          // speakdisrespectfuls16
           // disrespectfuls16("en-US"),
           // disrespectfuls1700"),
-          // speakdisrespectfuls17
           // disrespectfuls17("en-US"),
           // disrespectfuls1800"),
-          // speakdisrespectfuls18
           // disrespectfuls18("en-US"),
           // disrespectfuls1900"),
-          // speakdisrespectfuls19
           // disrespectfuls19("en-US"),
           // disrespectfuls_2000"),
-          // speakdisrespectfuls20
           // disrespectfuls20("en-US"),
           // disrespectfuls2100"),
-          // speakdisrespectfuls21
           // disrespectfuls21("en-US"),
           // disrespectfuls2200"),
-          // speakdisrespectfuls22
           // disrespectfuls22("en-US"),
         ],
       ),

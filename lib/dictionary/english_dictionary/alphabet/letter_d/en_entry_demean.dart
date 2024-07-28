@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -291,58 +289,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemeans4("en-US"),
           ),
           // demeans500"),
-          // speakdemeans5
           // demeans5("en-US"),
           // demeans600"),
-          // speakdemeans6
           // demeans6("en-US"),
           // demeans700"),
-          // speakdemeans7
           // demeans7("en-US"),
           // demeans800"),
-          // speakdemeans8
           // demeans8("en-US"),
           // demeans900"),
-          // speakdemeans9
           // demeans9("en-US"),
           // demeans1000"),
-          // speakdemeans10
           // demeans10("en-US"),
           // demeans1100"),
-          // speakdemeans11
           // demeans11("en-US"),
           // demeans1200"),
-          // speakdemeans12
           // demeans12("en-US"),
           // demeans1300"),
-          // speakdemeans13
           // demeans13("en-US"),
           // demeans1400"),
-          // speakdemeans14
           // demeans14("en-US"),
           // demeans1500"),
-          // speakdemeans15
           // demeans15("en-US"),
           // demeans1600"),
-          // speakdemeans16
           // demeans16("en-US"),
           // demeans1700"),
-          // speakdemeans17
           // demeans17("en-US"),
           // demeans1800"),
-          // speakdemeans18
           // demeans18("en-US"),
           // demeans1900"),
-          // speakdemeans19
           // demeans19("en-US"),
           // "Such images demean women.0"),
-          // speakdemeans20
           // demeans20("en-US"),
           // demeans2100"),
-          // speakdemeans21
           // demeans21("en-US"),
           // demeans2200"),
-          // speakdemeans22
           // demeans22("en-US"),
         ],
       ),

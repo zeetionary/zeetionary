@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -383,51 +381,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakeagleeyeds2("en-GB"),
             onPressedAmerican: () => speakeagleeyeds2("en-US"),
           ),
-          // eagleeyeds300eagleeyeds3
-          // speakeagleeyeds3
-          // eagleeyeds400eagleeyeds4
-          // speakeagleeyeds4
-          // eagleeyeds500eagleeyeds5
-          // speakeagleeyeds5
-          // eagleeyeds600eagleeyeds6
-          // speakeagleeyeds6
-          // eagleeyeds700eagleeyeds7
-          // speakeagleeyeds7
-          // eagleeyeds800eagleeyeds8
-          // speakeagleeyeds8
-          // eagleeyeds900eagleeyeds9
-          // speakeagleeyeds9
-          // eagleeyeds_1000eagleeyeds10
-          // speakeagleeyeds10
-          // eagleeyeds1100eagleeyeds11
-          // speakeagleeyeds11
-          // eagleeyeds1200eagleeyeds12
-          // speakeagleeyeds12
-          // eagleeyeds1300eagleeyeds13
-          // speakeagleeyeds13
-          // eagleeyeds1400eagleeyeds14
-          // speakeagleeyeds14
-          // eagleeyeds1500eagleeyeds15
-          // speakeagleeyeds15
-          // eagleeyeds1600eagleeyeds16
-          // speakeagleeyeds16
-          // eagleeyeds1700eagleeyeds17
-          // speakeagleeyeds17
-          // eagleeyeds1800eagleeyeds18
-          // speakeagleeyeds18
-          // eagleeyeds1900eagleeyeds19
-          // speakeagleeyeds19
-          // eagleeyeds_2000eagleeyeds20
-          // speakeagleeyeds20
-          // eagleeyeds2100eagleeyeds21
-          // speakeagleeyeds21
-          // eagleeyeds2200eagleeyeds22
-          // speakeagleeyeds22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
         ],
       ),
     );

@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdowrys1("en-US"),
           ),
           // dowrys200"),
-          // speakdowrys2
           // dowrys2("en-US"),
           // dowrys300"),
-          // speakdowrys3
           // dowrys3("en-US"),
           // dowrys400"),
-          // speakdowrys4
           // dowrys4("en-US"),
           // dowrys500"),
-          // speakdowrys5
           // dowrys5("en-US"),
           // dowrys600"),
-          // speakdowrys6
           // dowrys6("en-US"),
           // dowrys700"),
-          // speakdowrys7
           // dowrys7("en-US"),
           // dowrys800"),
-          // speakdowrys8
           // dowrys8("en-US"),
           // dowrys900"),
-          // speakdowrys9
           // dowrys9("en-US"),
           // dowrys_1000"),
-          // speakdowrys10
           // dowrys10("en-US"),
           // dowrys1100"),
-          // speakdowrys11
           // dowrys11("en-US"),
           // dowrys1200"),
-          // speakdowrys12
           // dowrys12("en-US"),
           // dowrys1300"),
-          // speakdowrys13
           // dowrys13("en-US"),
           // dowrys1400"),
-          // speakdowrys14
           // dowrys14("en-US"),
           // dowrys1500"),
-          // speakdowrys15
           // dowrys15("en-US"),
           // dowrys1600"),
-          // speakdowrys16
           // dowrys16("en-US"),
           // dowrys1700"),
-          // speakdowrys17
           // dowrys17("en-US"),
           // dowrys1800"),
-          // speakdowrys18
           // dowrys18("en-US"),
           // dowrys1900"),
-          // speakdowrys19
           // dowrys19("en-US"),
           // dowrys_2000"),
-          // speakdowrys20
           // dowrys20("en-US"),
           // dowrys2100"),
-          // speakdowrys21
           // dowrys21("en-US"),
           // dowrys2200"),
-          // speakdowrys22
           // dowrys22("en-US"),
         ],
       ),

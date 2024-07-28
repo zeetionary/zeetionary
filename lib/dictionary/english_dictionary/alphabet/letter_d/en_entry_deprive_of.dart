@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepriveofs2("en-US"),
           ),
           // depriveofs300"),
-          // speakdepriveofs3
           // depriveofs3("en-US"),
           // depriveofs400"),
-          // speakdepriveofs4
           // depriveofs4("en-US"),
           // depriveofs500"),
-          // speakdepriveofs5
           // depriveofs5("en-US"),
           // depriveofs600"),
-          // speakdepriveofs6
           // depriveofs6("en-US"),
           // depriveofs700"),
-          // speakdepriveofs7
           // depriveofs7("en-US"),
           // depriveofs800"),
-          // speakdepriveofs8
           // depriveofs8("en-US"),
           // depriveofs900"),
-          // speakdepriveofs9
           // depriveofs9("en-US"),
           // depriveofs1000"),
-          // speakdepriveofs10
           // depriveofs10("en-US"),
           // depriveofs1100"),
-          // speakdepriveofs11
           // depriveofs11("en-US"),
           // depriveofs1200"),
-          // speakdepriveofs12
           // depriveofs12("en-US"),
           // depriveofs1300"),
-          // speakdepriveofs13
           // depriveofs13("en-US"),
           // depriveofs1400"),
-          // speakdepriveofs14
           // depriveofs14("en-US"),
           // depriveofs1500"),
-          // speakdepriveofs15
           // depriveofs15("en-US"),
           // depriveofs1600"),
-          // speakdepriveofs16
           // depriveofs16("en-US"),
           // depriveofs1700"),
-          // speakdepriveofs17
           // depriveofs17("en-US"),
           // depriveofs1800"),
-          // speakdepriveofs18
           // depriveofs18("en-US"),
           // depriveofs1900"),
-          // speakdepriveofs19
           // depriveofs19("en-US"),
           // "Why should you deprive yourself of such simple pleasures?0"),
-          // speakdepriveofs20
           // depriveofs20("en-US"),
           // depriveofs2100"),
-          // speakdepriveofs21
           // depriveofs21("en-US"),
           // depriveofs2200"),
-          // speakdepriveofs22
           // depriveofs22("en-US"),
         ],
       ),

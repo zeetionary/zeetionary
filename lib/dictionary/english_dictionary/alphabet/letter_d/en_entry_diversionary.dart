@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiversionarys1("en-US"),
           ),
           // diversionarys200"),
-          // speakdiversionarys2
           // diversionarys2("en-US"),
           // diversionarys300"),
-          // speakdiversionarys3
           // diversionarys3("en-US"),
           // diversionarys400"),
-          // speakdiversionarys4
           // diversionarys4("en-US"),
           // diversionarys500"),
-          // speakdiversionarys5
           // diversionarys5("en-US"),
           // diversionarys600"),
-          // speakdiversionarys6
           // diversionarys6("en-US"),
           // diversionarys700"),
-          // speakdiversionarys7
           // diversionarys7("en-US"),
           // diversionarys800"),
-          // speakdiversionarys8
           // diversionarys8("en-US"),
           // diversionarys900"),
-          // speakdiversionarys9
           // diversionarys9("en-US"),
           // diversionarys_1000"),
-          // speakdiversionarys10
           // diversionarys10("en-US"),
           // diversionarys1100"),
-          // speakdiversionarys11
           // diversionarys11("en-US"),
           // diversionarys1200"),
-          // speakdiversionarys12
           // diversionarys12("en-US"),
           // diversionarys1300"),
-          // speakdiversionarys13
           // diversionarys13("en-US"),
           // diversionarys1400"),
-          // speakdiversionarys14
           // diversionarys14("en-US"),
           // diversionarys1500"),
-          // speakdiversionarys15
           // diversionarys15("en-US"),
           // diversionarys1600"),
-          // speakdiversionarys16
           // diversionarys16("en-US"),
           // diversionarys1700"),
-          // speakdiversionarys17
           // diversionarys17("en-US"),
           // diversionarys1800"),
-          // speakdiversionarys18
           // diversionarys18("en-US"),
           // diversionarys1900"),
-          // speakdiversionarys19
           // diversionarys19("en-US"),
           // diversionarys_2000"),
-          // speakdiversionarys20
           // diversionarys20("en-US"),
           // diversionarys2100"),
-          // speakdiversionarys21
           // diversionarys21("en-US"),
           // diversionarys2200"),
-          // speakdiversionarys22
           // diversionarys22("en-US"),
         ],
       ),

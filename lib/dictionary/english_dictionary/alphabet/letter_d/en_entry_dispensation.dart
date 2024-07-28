@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -251,67 +249,46 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          // speakdispensations2
           // dispensations2
           // dispensations300"),
-          // speakdispensations3
           // dispensations3
           // dispensations400"),
-          // speakdispensations4
           // dispensations4
           // dispensations500"),
-          // speakdispensations5
           // dispensations5
           // dispensations600"),
-          // speakdispensations6
           // dispensations6
           // dispensations700"),
-          // speakdispensations7
           // dispensations7
           // dispensations800"),
-          // speakdispensations8
           // dispensations8
           // dispensations900"),
-          // speakdispensations9
           // dispensations9
           // dispensations_1000"),
-          // speakdispensations10
           // dispensations10
           // dispensations1100"),
-          // speakdispensations11
           // dispensations11
           // dispensations1200"),
-          // speakdispensations12
           // dispensations12
           // dispensations1300"),
-          // speakdispensations13
           // dispensations13
           // dispensations1400"),
-          // speakdispensations14
           // dispensations14
           // dispensations1500"),
-          // speakdispensations15
           // dispensations15
           // dispensations1600"),
-          // speakdispensations16
           // dispensations16
           // dispensations1700"),
-          // speakdispensations17
           // dispensations17
           // dispensations1800"),
-          // speakdispensations18
           // dispensations18
           // dispensations1900"),
-          // speakdispensations19
           // dispensations19
           // dispensations_2000"),
-          // speakdispensations20
           // dispensations20
           // dispensations2100"),
-          // speakdispensations21
           // dispensations21
           // dispensations2200"),
-          // speakdispensations22
           // dispensations22("en-US"),
         ],
       ),

@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakduchesss1("en-US"),
           ),
           // duchesss200
-          // speakduchesss2
           // duchesss2("en-US"""),
           // duchesss300
-          // speakduchesss3
           // duchesss3("en-US"""),
           // duchesss400
-          // speakduchesss4
           // duchesss4("en-US"""),
           // duchesss500
-          // speakduchesss5
           // duchesss5("en-US"""),
           // duchesss600
-          // speakduchesss6
           // duchesss6("en-US"""),
           // duchesss700
-          // speakduchesss7
           // duchesss7("en-US"""),
           // duchesss800
-          // speakduchesss8
           // duchesss8("en-US"""),
           // duchesss900
-          // speakduchesss9
           // duchesss9("en-US"""),
           // duchesss_1000
-          // speakduchesss10
           // duchesss10("en-US"""),
           // duchesss1100
-          // speakduchesss11
           // duchesss11("en-US"""),
           // duchesss1200
-          // speakduchesss12
           // duchesss12("en-US"""),
           // duchesss1300
-          // speakduchesss13
           // duchesss13("en-US"""),
           // duchesss1400
-          // speakduchesss14
           // duchesss14("en-US"""),
           // duchesss1500
-          // speakduchesss15
           // duchesss15("en-US"""),
           // duchesss1600
-          // speakduchesss16
           // duchesss16("en-US"""),
           // duchesss1700
-          // speakduchesss17
           // duchesss17("en-US"""),
           // duchesss1800
-          // speakduchesss18
           // duchesss18("en-US"""),
           // duchesss1900
-          // speakduchesss19
           // duchesss19("en-US"""),
           // duchesss_2000
-          // speakduchesss20
           // duchesss20("en-US"""),
           // duchesss2100
-          // speakduchesss21
           // duchesss21("en-US"""),
           // duchesss2200
-          // speakduchesss22
           // duchesss22("en-US"""),
         ],
       ),

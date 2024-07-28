@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisfigurements1("en-US"),
           ),
           // disfigurements200"),
-          // speakdisfigurements2
           // disfigurements2("en-US"),
           // disfigurements300"),
-          // speakdisfigurements3
           // disfigurements3("en-US"),
           // disfigurements400"),
-          // speakdisfigurements4
           // disfigurements4("en-US"),
           // disfigurements500"),
-          // speakdisfigurements5
           // disfigurements5("en-US"),
           // disfigurements600"),
-          // speakdisfigurements6
           // disfigurements6("en-US"),
           // disfigurements700"),
-          // speakdisfigurements7
           // disfigurements7("en-US"),
           // disfigurements800"),
-          // speakdisfigurements8
           // disfigurements8("en-US"),
           // disfigurements900"),
-          // speakdisfigurements9
           // disfigurements9("en-US"),
           // disfigurements_1000"),
-          // speakdisfigurements10
           // disfigurements10("en-US"),
           // disfigurements1100"),
-          // speakdisfigurements11
           // disfigurements11("en-US"),
           // disfigurements1200"),
-          // speakdisfigurements12
           // disfigurements12("en-US"),
           // disfigurements1300"),
-          // speakdisfigurements13
           // disfigurements13("en-US"),
           // disfigurements1400"),
-          // speakdisfigurements14
           // disfigurements14("en-US"),
           // disfigurements1500"),
-          // speakdisfigurements15
           // disfigurements15("en-US"),
           // disfigurements1600"),
-          // speakdisfigurements16
           // disfigurements16("en-US"),
           // disfigurements1700"),
-          // speakdisfigurements17
           // disfigurements17("en-US"),
           // disfigurements1800"),
-          // speakdisfigurements18
           // disfigurements18("en-US"),
           // disfigurements1900"),
-          // speakdisfigurements19
           // disfigurements19("en-US"),
           // disfigurements_2000"),
-          // speakdisfigurements20
           // disfigurements20("en-US"),
           // disfigurements2100"),
-          // speakdisfigurements21
           // disfigurements21("en-US"),
           // disfigurements2200"),
-          // speakdisfigurements22
           // disfigurements22("en-US"),
         ],
       ),

@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -372,45 +370,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectronicallys1("en-US"),
           ),
           // electronicallys200electronicallys2
-          // speakelectronicallys2
           // electronicallys300electronicallys3
-          // speakelectronicallys3
           // electronicallys400electronicallys4
-          // speakelectronicallys4
           // electronicallys500electronicallys5
-          // speakelectronicallys5
           // electronicallys600electronicallys6
-          // speakelectronicallys6
           // electronicallys700electronicallys7
-          // speakelectronicallys7
           // electronicallys800electronicallys8
-          // speakelectronicallys8
           // electronicallys900electronicallys9
-          // speakelectronicallys9
           // electronicallys_1000electronicallys10
-          // speakelectronicallys10
           // electronicallys1100electronicallys11
-          // speakelectronicallys11
           // electronicallys1200electronicallys12
-          // speakelectronicallys12
           // electronicallys1300electronicallys13
-          // speakelectronicallys13
           // electronicallys1400electronicallys14
-          // speakelectronicallys14
           // electronicallys1500electronicallys15
-          // speakelectronicallys15
           // electronicallys1600electronicallys16
-          // speakelectronicallys16
           // electronicallys1700electronicallys17
-          // speakelectronicallys17
           // electronicallys1800electronicallys18
-          // speakelectronicallys18
           // electronicallys1900electronicallys19
-          // speakelectronicallys19
           // electronicallys_2000electronicallys20
-          // speakelectronicallys20
           // electronicallys2100electronicallys21
-          // speakelectronicallys21
           // electronicallys2200electronicallys22
           // speakelectronicallys22("en-US"""),
           //         ),

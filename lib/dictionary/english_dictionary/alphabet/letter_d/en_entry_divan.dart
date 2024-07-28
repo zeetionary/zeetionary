@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivans2("en-US"),
           ),
           // divans300"),
-          // speakdivans3
           // divans3
           // divans400"),
-          // speakdivans4
           // divans4
           // divans500"),
-          // speakdivans5
           // divans5
           // divans600"),
-          // speakdivans6
           // divans6
           // divans700"),
-          // speakdivans7
           // divans7
           // divans800"),
-          // speakdivans8
           // divans8
           // divans900"),
-          // speakdivans9
           // divans9
           // divans_1000"),
-          // speakdivans10
           // divans10
           // divans1100"),
-          // speakdivans11
           // divans11
           // divans1200"),
-          // speakdivans12
           // divans12
           // divans1300"),
-          // speakdivans13
           // divans13
           // divans1400"),
-          // speakdivans14
           // divans14
           // divans1500"),
-          // speakdivans15
           // divans15
           // divans1600"),
-          // speakdivans16
           // divans16
           // divans1700"),
-          // speakdivans17
           // divans17
           // divans1800"),
-          // speakdivans18
           // divans18
           // divans1900"),
-          // speakdivans19
           // divans19
           // divans_2000"),
-          // speakdivans20
           // divans20
           // divans2100"),
-          // speakdivans21
           // divans21
           // divans2200"),
-          // speakdivans22
           // divans22("en-US"),
         ],
       ),

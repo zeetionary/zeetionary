@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -381,64 +379,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrydocks2("en-US"),
           ),
           // drydocks300"),
-          // speakdrydocks3
           // drydocks3("en-US"),
           // drydocks400"),
-          // speakdrydocks4
           // drydocks4("en-US"),
           // drydocks500"),
-          // speakdrydocks5
           // drydocks5("en-US"),
           // drydocks600"),
-          // speakdrydocks6
           // drydocks6("en-US"),
           // drydocks700"),
-          // speakdrydocks7
           // drydocks7("en-US"),
           // drydocks800"),
-          // speakdrydocks8
           // drydocks8("en-US"),
           // drydocks900"),
-          // speakdrydocks9
           // drydocks9("en-US"),
           // drydocks_1000"),
-          // speakdrydocks10
           // drydocks10("en-US"),
           // drydocks1100"),
-          // speakdrydocks11
           // drydocks11("en-US"),
           // drydocks1200"),
-          // speakdrydocks12
           // drydocks12("en-US"),
           // drydocks1300"),
-          // speakdrydocks13
           // drydocks13("en-US"),
           // drydocks1400"),
-          // speakdrydocks14
           // drydocks14("en-US"),
           // drydocks1500"),
-          // speakdrydocks15
           // drydocks15("en-US"),
           // drydocks1600"),
-          // speakdrydocks16
           // drydocks16("en-US"),
           // drydocks1700"),
-          // speakdrydocks17
           // drydocks17("en-US"),
           // drydocks1800"),
-          // speakdrydocks18
           // drydocks18("en-US"),
           // drydocks1900"),
-          // speakdrydocks19
           // drydocks19("en-US"),
           // drydocks_2000"),
-          // speakdrydocks20
           // drydocks20("en-US"),
           // drydocks2100"),
-          // speakdrydocks21
           // drydocks21("en-US"),
           // drydocks2200"),
-          // speakdrydocks22
           // drydocks22("en-US"),
         ],
       ),

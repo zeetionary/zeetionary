@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,44 +383,6 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeconomicss2("en-US"),
           ),
           // economicss300economicss3
-          // speakeconomicss3
-          // speakeconomicss400economicss4
-          // speakeconomicss4
-          // speakeconomicss500economicss5
-          // speakeconomicss5
-          // speakeconomicss600economicss6
-          // speakeconomicss6
-          // speakeconomicss700economicss7
-          // speakeconomicss7
-          // speakeconomicss800economicss8
-          // speakeconomicss8
-          // speakeconomicss900economicss9
-          // speakeconomicss9
-          // speakeconomicss_1000economicss10
-          // speakeconomicss10
-          // speakeconomicss1100economicss11
-          // speakeconomicss11
-          // speakeconomicss1200economicss12
-          // speakeconomicss12
-          // speakeconomicss1300economicss13
-          // speakeconomicss13
-          // speakeconomicss1400economicss14
-          // speakeconomicss14
-          // speakeconomicss1500economicss15
-          // speakeconomicss15
-          // speakeconomicss1600economicss16
-          // speakeconomicss16
-          // speakeconomicss1700economicss17
-          // speakeconomicss17
-          // speakeconomicss1800economicss18
-          // speakeconomicss18
-          // speakeconomicss1900economicss19
-          // speakeconomicss19
-          // speakeconomicss_2000economicss20
-          // speakeconomicss20
-          // speakeconomicss2100economicss21
-          // speakeconomicss21
-          // speakeconomicss2200economicss22
           // speakeconomicss22("en-US"""),
           //         ),
           //       ],

@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesecrations2("en-US"),
           ),
           // desecrations300"),
-          // speakdesecrations3
           // desecrations3("en-US"),
           // desecrations400"),
-          // speakdesecrations4
           // desecrations4("en-US"),
           // desecrations500"),
-          // speakdesecrations5
           // desecrations5("en-US"),
           // desecrations600"),
-          // speakdesecrations6
           // desecrations6("en-US"),
           // desecrations700"),
-          // speakdesecrations7
           // desecrations7("en-US"),
           // desecrations800"),
-          // speakdesecrations8
           // desecrations8("en-US"),
           // desecrations900"),
-          // speakdesecrations9
           // desecrations9("en-US"),
           // desecrations1000"),
-          // speakdesecrations10
           // desecrations10("en-US"),
           // desecrations1100"),
-          // speakdesecrations11
           // desecrations11("en-US"),
           // desecrations1200"),
-          // speakdesecrations12
           // desecrations12("en-US"),
           // desecrations1300"),
-          // speakdesecrations13
           // desecrations13("en-US"),
           // desecrations1400"),
-          // speakdesecrations14
           // desecrations14("en-US"),
           // desecrations1500"),
-          // speakdesecrations15
           // desecrations15("en-US"),
           // desecrations1600"),
-          // speakdesecrations16
           // desecrations16("en-US"),
           // desecrations1700"),
-          // speakdesecrations17
           // desecrations17("en-US"),
           // desecrations1800"),
-          // speakdesecrations18
           // desecrations18("en-US"),
           // desecrations1900"),
-          // speakdesecrations19
           // desecrations19("en-US"),
           // "People were horrified at the desecration of the cemetery.0"),
-          // speakdesecrations20
           // desecrations20("en-US"),
           // desecrations2100"),
-          // speakdesecrations21
           // desecrations21("en-US"),
           // desecrations2200"),
-          // speakdesecrations22
           // desecrations22("en-US"),
         ],
       ),

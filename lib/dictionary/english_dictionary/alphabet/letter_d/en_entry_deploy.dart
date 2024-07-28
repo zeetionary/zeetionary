@@ -251,9 +251,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -299,58 +297,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeploys4("en-US"),
           ),
           // deploys500"),
-          // speakdeploys5
           // deploys5("en-US"),
           // deploys600"),
-          // speakdeploys6
           // deploys6("en-US"),
           // deploys700"),
-          // speakdeploys7
           // deploys7("en-US"),
           // deploys800"),
-          // speakdeploys8
           // deploys8("en-US"),
           // deploys900"),
-          // speakdeploys9
           // deploys9("en-US"),
           // deploys1000"),
-          // speakdeploys10
           // deploys10("en-US"),
           // deploys1100"),
-          // speakdeploys11
           // deploys11("en-US"),
           // deploys1200"),
-          // speakdeploys12
           // deploys12("en-US"),
           // deploys1300"),
-          // speakdeploys13
           // deploys13("en-US"),
           // deploys1400"),
-          // speakdeploys14
           // deploys14("en-US"),
           // deploys1500"),
-          // speakdeploys15
           // deploys15("en-US"),
           // deploys1600"),
-          // speakdeploys16
           // deploys16("en-US"),
           // deploys1700"),
-          // speakdeploys17
           // deploys17("en-US"),
           // deploys1800"),
-          // speakdeploys18
           // deploys18("en-US"),
           // deploys1900"),
-          // speakdeploys19
           // deploys19("en-US"),
           // "At least 5 000 missiles were deployed along the border.0"),
-          // speakdeploys20
           // deploys20("en-US"),
           // deploys2100"),
-          // speakdeploys21
           // deploys21("en-US"),
           // deploys2200"),
-          // speakdeploys22
           // deploys22("en-US"),
         ],
       ),

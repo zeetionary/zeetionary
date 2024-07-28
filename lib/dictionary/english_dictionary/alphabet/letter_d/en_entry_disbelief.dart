@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -264,61 +262,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisbeliefs3("en-US"),
           ),
           // disbeliefs400"),
-          // speakdisbeliefs4
           // disbeliefs4("en-US"),
           // disbeliefs500"),
-          // speakdisbeliefs5
           // disbeliefs5("en-US"),
           // disbeliefs600"),
-          // speakdisbeliefs6
           // disbeliefs6("en-US"),
           // disbeliefs700"),
-          // speakdisbeliefs7
           // disbeliefs7("en-US"),
           // disbeliefs800"),
-          // speakdisbeliefs8
           // disbeliefs8("en-US"),
           // disbeliefs900"),
-          // speakdisbeliefs9
           // disbeliefs9("en-US"),
           // disbeliefs_1000"),
-          // speakdisbeliefs10
           // disbeliefs10("en-US"),
           // disbeliefs1100"),
-          // speakdisbeliefs11
           // disbeliefs11("en-US"),
           // disbeliefs1200"),
-          // speakdisbeliefs12
           // disbeliefs12("en-US"),
           // disbeliefs1300"),
-          // speakdisbeliefs13
           // disbeliefs13("en-US"),
           // disbeliefs1400"),
-          // speakdisbeliefs14
           // disbeliefs14("en-US"),
           // disbeliefs1500"),
-          // speakdisbeliefs15
           // disbeliefs15("en-US"),
           // disbeliefs1600"),
-          // speakdisbeliefs16
           // disbeliefs16("en-US"),
           // disbeliefs1700"),
-          // speakdisbeliefs17
           // disbeliefs17("en-US"),
           // disbeliefs1800"),
-          // speakdisbeliefs18
           // disbeliefs18("en-US"),
           // disbeliefs1900"),
-          // speakdisbeliefs19
           // disbeliefs19("en-US"),
           // disbeliefs_2000"),
-          // speakdisbeliefs20
           // disbeliefs20("en-US"),
           // disbeliefs2100"),
-          // speakdisbeliefs21
           // disbeliefs21("en-US"),
           // disbeliefs2200"),
-          // speakdisbeliefs22
           // disbeliefs22("en-US"),
         ],
       ),

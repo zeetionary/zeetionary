@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdovecots1("en-US"),
           ),
           // dovecots200"),
-          // speakdovecots2
           // dovecots2("en-US"),
           // dovecots300"),
-          // speakdovecots3
           // dovecots3("en-US"),
           // dovecots400"),
-          // speakdovecots4
           // dovecots4("en-US"),
           // dovecots500"),
-          // speakdovecots5
           // dovecots5("en-US"),
           // dovecots600"),
-          // speakdovecots6
           // dovecots6("en-US"),
           // dovecots700"),
-          // speakdovecots7
           // dovecots7("en-US"),
           // dovecots800"),
-          // speakdovecots8
           // dovecots8("en-US"),
           // dovecots900"),
-          // speakdovecots9
           // dovecots9("en-US"),
           // dovecots_1000"),
-          // speakdovecots10
           // dovecots10("en-US"),
           // dovecots1100"),
-          // speakdovecots11
           // dovecots11("en-US"),
           // dovecots1200"),
-          // speakdovecots12
           // dovecots12("en-US"),
           // dovecots1300"),
-          // speakdovecots13
           // dovecots13("en-US"),
           // dovecots1400"),
-          // speakdovecots14
           // dovecots14("en-US"),
           // dovecots1500"),
-          // speakdovecots15
           // dovecots15("en-US"),
           // dovecots1600"),
-          // speakdovecots16
           // dovecots16("en-US"),
           // dovecots1700"),
-          // speakdovecots17
           // dovecots17("en-US"),
           // dovecots1800"),
-          // speakdovecots18
           // dovecots18("en-US"),
           // dovecots1900"),
-          // speakdovecots19
           // dovecots19("en-US"),
           // dovecots_2000"),
-          // speakdovecots20
           // dovecots20("en-US"),
           // dovecots2100"),
-          // speakdovecots21
           // dovecots21("en-US"),
           // dovecots2200"),
-          // speakdovecots22
           // dovecots22("en-US"),
         ],
       ),

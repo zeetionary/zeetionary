@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -391,64 +389,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissociations2("en-US"),
           ),
           // dissociations300"),
-          // speakdissociations3
           // dissociations3
           // dissociations400"),
-          // speakdissociations4
           // dissociations4
           // dissociations500"),
-          // speakdissociations5
           // dissociations5
           // dissociations600"),
-          // speakdissociations6
           // dissociations6
           // dissociations700"),
-          // speakdissociations7
           // dissociations7
           // dissociations800"),
-          // speakdissociations8
           // dissociations8
           // dissociations900"),
-          // speakdissociations9
           // dissociations9
           // dissociations_1000"),
-          // speakdissociations10
           // dissociations10
           // dissociations1100"),
-          // speakdissociations11
           // dissociations11
           // dissociations1200"),
-          // speakdissociations12
           // dissociations12
           // dissociations1300"),
-          // speakdissociations13
           // dissociations13
           // dissociations1400"),
-          // speakdissociations14
           // dissociations14
           // dissociations1500"),
-          // speakdissociations15
           // dissociations15
           // dissociations1600"),
-          // speakdissociations16
           // dissociations16
           // dissociations1700"),
-          // speakdissociations17
           // dissociations17
           // dissociations1800"),
-          // speakdissociations18
           // dissociations18
           // dissociations1900"),
-          // speakdissociations19
           // dissociations19
           // dissociations_2000"),
-          // speakdissociations20
           // dissociations20
           // dissociations2100"),
-          // speakdissociations21
           // dissociations21
           // dissociations2200"),
-          // speakdissociations22
           // dissociations22("en-US"),
         ],
       ),

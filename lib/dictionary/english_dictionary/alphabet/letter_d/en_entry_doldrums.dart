@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoldrumss2("en-US"),
           ),
           // doldrumss300"),
-          // speakdoldrumss3
           // doldrumss3("en-US"),
           // doldrumss400"),
-          // speakdoldrumss4
           // doldrumss4("en-US"),
           // doldrumss500"),
-          // speakdoldrumss5
           // doldrumss5("en-US"),
           // doldrumss600"),
-          // speakdoldrumss6
           // doldrumss6("en-US"),
           // doldrumss700"),
-          // speakdoldrumss7
           // doldrumss7("en-US"),
           // doldrumss800"),
-          // speakdoldrumss8
           // doldrumss8("en-US"),
           // doldrumss900"),
-          // speakdoldrumss9
           // doldrumss9("en-US"),
           // doldrumss_1000"),
-          // speakdoldrumss10
           // doldrumss10("en-US"),
           // doldrumss1100"),
-          // speakdoldrumss11
           // doldrumss11("en-US"),
           // doldrumss1200"),
-          // speakdoldrumss12
           // doldrumss12("en-US"),
           // doldrumss1300"),
-          // speakdoldrumss13
           // doldrumss13("en-US"),
           // doldrumss1400"),
-          // speakdoldrumss14
           // doldrumss14("en-US"),
           // doldrumss1500"),
-          // speakdoldrumss15
           // doldrumss15("en-US"),
           // doldrumss1600"),
-          // speakdoldrumss16
           // doldrumss16("en-US"),
           // doldrumss1700"),
-          // speakdoldrumss17
           // doldrumss17("en-US"),
           // doldrumss1800"),
-          // speakdoldrumss18
           // doldrumss18("en-US"),
           // doldrumss1900"),
-          // speakdoldrumss19
           // doldrumss19("en-US"),
           // doldrumss_2000"),
-          // speakdoldrumss20
           // doldrumss20("en-US"),
           // doldrumss2100"),
-          // speakdoldrumss21
           // doldrumss21("en-US"),
           // doldrumss2200"),
-          // speakdoldrumss22
           // doldrumss22("en-US"),
         ],
       ),

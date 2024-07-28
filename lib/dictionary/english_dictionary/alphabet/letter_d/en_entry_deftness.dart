@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -264,64 +262,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeftnesss2("en-US"),
           ),
           // deftnesss300"),
-          // speakdeftnesss3
           // deftnesss3("en-US"),
           // deftnesss400"),
-          // speakdeftnesss4
           // deftnesss4("en-US"),
           // deftnesss500"),
-          // speakdeftnesss5
           // deftnesss5("en-US"),
           // deftnesss600"),
-          // speakdeftnesss6
           // deftnesss6("en-US"),
           // deftnesss700"),
-          // speakdeftnesss7
           // deftnesss7("en-US"),
           // deftnesss800"),
-          // speakdeftnesss8
           // deftnesss8("en-US"),
           // deftnesss900"),
-          // speakdeftnesss9
           // deftnesss9("en-US"),
           // deftnesss1000"),
-          // speakdeftnesss10
           // deftnesss10("en-US"),
           // deftnesss1100"),
-          // speakdeftnesss11
           // deftnesss11("en-US"),
           // deftnesss1200"),
-          // speakdeftnesss12
           // deftnesss12("en-US"),
           // deftnesss1300"),
-          // speakdeftnesss13
           // deftnesss13("en-US"),
           // deftnesss1400"),
-          // speakdeftnesss14
           // deftnesss14("en-US"),
           // deftnesss1500"),
-          // speakdeftnesss15
           // deftnesss15("en-US"),
           // deftnesss1600"),
-          // speakdeftnesss16
           // deftnesss16("en-US"),
           // deftnesss1700"),
-          // speakdeftnesss17
           // deftnesss17("en-US"),
           // deftnesss1800"),
-          // speakdeftnesss18
           // deftnesss18("en-US"),
           // deftnesss1900"),
-          // speakdeftnesss19
           // deftnesss19("en-US"),
           // "The Government has already shown a deftness that has surprised politicians in both parties.0"),
-          // speakdeftnesss20
           // deftnesss20("en-US"),
           // deftnesss2100"),
-          // speakdeftnesss21
           // deftnesss21("en-US"),
           // deftnesss2200"),
-          // speakdeftnesss22
           // deftnesss22("en-US"),
         ],
       ),

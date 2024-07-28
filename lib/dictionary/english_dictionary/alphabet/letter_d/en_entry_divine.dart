@@ -380,9 +380,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -434,55 +432,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivines5("en-US"),
           ),
           // divines600"),
-          // speakdivines6
           // divines6("en-US"),
           // divines700"),
-          // speakdivines7
           // divines7("en-US"),
           // divines800"),
-          // speakdivines8
           // divines8("en-US"),
           // divines900"),
-          // speakdivines9
           // divines9("en-US"),
           // divines_1000"),
-          // speakdivines10
           // divines10("en-US"),
           // divines1100"),
-          // speakdivines11
           // divines11("en-US"),
           // divines1200"),
-          // speakdivines12
           // divines12("en-US"),
           // divines1300"),
-          // speakdivines13
           // divines13("en-US"),
           // divines1400"),
-          // speakdivines14
           // divines14("en-US"),
           // divines1500"),
-          // speakdivines15
           // divines15("en-US"),
           // divines1600"),
-          // speakdivines16
           // divines16("en-US"),
           // divines1700"),
-          // speakdivines17
           // divines17("en-US"),
           // divines1800"),
-          // speakdivines18
           // divines18("en-US"),
           // divines1900"),
-          // speakdivines19
           // divines19("en-US"),
           // divines_2000"),
-          // speakdivines20
           // divines20("en-US"),
           // divines2100"),
-          // speakdivines21
           // divines21("en-US"),
           // divines2200"),
-          // speakdivines22
           // divines22("en-US"),
         ],
       ),

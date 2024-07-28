@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -270,61 +268,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiplomas3("en-US"),
           ),
           // diplomas400"),
-          // speakdiplomas4
           // diplomas4
           // diplomas500"),
-          // speakdiplomas5
           // diplomas5
           // diplomas600"),
-          // speakdiplomas6
           // diplomas6
           // diplomas700"),
-          // speakdiplomas7
           // diplomas7
           // diplomas800"),
-          // speakdiplomas8
           // diplomas8
           // diplomas900"),
-          // speakdiplomas9
           // diplomas9
           // diplomas_1000"),
-          // speakdiplomas10
           // diplomas10
           // diplomas1100"),
-          // speakdiplomas11
           // diplomas11
           // diplomas1200"),
-          // speakdiplomas12
           // diplomas12
           // diplomas1300"),
-          // speakdiplomas13
           // diplomas13
           // diplomas1400"),
-          // speakdiplomas14
           // diplomas14
           // diplomas1500"),
-          // speakdiplomas15
           // diplomas15
           // diplomas1600"),
-          // speakdiplomas16
           // diplomas16
           // diplomas1700"),
-          // speakdiplomas17
           // diplomas17
           // diplomas1800"),
-          // speakdiplomas18
           // diplomas18
           // diplomas1900"),
-          // speakdiplomas19
           // diplomas19
           // diplomas_2000"),
-          // speakdiplomas20
           // diplomas20
           // diplomas2100"),
-          // speakdiplomas21
           // diplomas21
           // diplomas2200"),
-          // speakdiplomas22
           // diplomas22("en-US"),
         ],
       ),

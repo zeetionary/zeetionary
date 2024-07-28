@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdropouts2("en-US"),
           ),
           // dropouts300"),
-          // speakdropouts3
           // dropouts3("en-US"),
           // dropouts400"),
-          // speakdropouts4
           // dropouts4("en-US"),
           // dropouts500"),
-          // speakdropouts5
           // dropouts5("en-US"),
           // dropouts600"),
-          // speakdropouts6
           // dropouts6("en-US"),
           // dropouts700"),
-          // speakdropouts7
           // dropouts7("en-US"),
           // dropouts800"),
-          // speakdropouts8
           // dropouts8("en-US"),
           // dropouts900"),
-          // speakdropouts9
           // dropouts9("en-US"),
           // dropouts_1000"),
-          // speakdropouts10
           // dropouts10("en-US"),
           // dropouts1100"),
-          // speakdropouts11
           // dropouts11("en-US"),
           // dropouts1200"),
-          // speakdropouts12
           // dropouts12("en-US"),
           // dropouts1300"),
-          // speakdropouts13
           // dropouts13("en-US"),
           // dropouts1400"),
-          // speakdropouts14
           // dropouts14("en-US"),
           // dropouts1500"),
-          // speakdropouts15
           // dropouts15("en-US"),
           // dropouts1600"),
-          // speakdropouts16
           // dropouts16("en-US"),
           // dropouts1700"),
-          // speakdropouts17
           // dropouts17("en-US"),
           // dropouts1800"),
-          // speakdropouts18
           // dropouts18("en-US"),
           // dropouts1900"),
-          // speakdropouts19
           // dropouts19("en-US"),
           // dropouts_2000"),
-          // speakdropouts20
           // dropouts20("en-US"),
           // dropouts2100"),
-          // speakdropouts21
           // dropouts21("en-US"),
           // dropouts2200"),
-          // speakdropouts22
           // dropouts22("en-US"),
         ],
       ),

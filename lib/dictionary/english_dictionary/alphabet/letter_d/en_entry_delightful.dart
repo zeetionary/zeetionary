@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -270,61 +268,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelightfuls3("en-US"),
           ),
           // delightfuls400"),
-          // speakdelightfuls4
           // delightfuls4("en-US"),
           // delightfuls500"),
-          // speakdelightfuls5
           // delightfuls5("en-US"),
           // delightfuls600"),
-          // speakdelightfuls6
           // delightfuls6("en-US"),
           // delightfuls700"),
-          // speakdelightfuls7
           // delightfuls7("en-US"),
           // delightfuls800"),
-          // speakdelightfuls8
           // delightfuls8("en-US"),
           // delightfuls900"),
-          // speakdelightfuls9
           // delightfuls9("en-US"),
           // delightfuls1000"),
-          // speakdelightfuls10
           // delightfuls10("en-US"),
           // delightfuls1100"),
-          // speakdelightfuls11
           // delightfuls11("en-US"),
           // delightfuls1200"),
-          // speakdelightfuls12
           // delightfuls12("en-US"),
           // delightfuls1300"),
-          // speakdelightfuls13
           // delightfuls13("en-US"),
           // delightfuls1400"),
-          // speakdelightfuls14
           // delightfuls14("en-US"),
           // delightfuls1500"),
-          // speakdelightfuls15
           // delightfuls15("en-US"),
           // delightfuls1600"),
-          // speakdelightfuls16
           // delightfuls16("en-US"),
           // delightfuls1700"),
-          // speakdelightfuls17
           // delightfuls17("en-US"),
           // delightfuls1800"),
-          // speakdelightfuls18
           // delightfuls18("en-US"),
           // delightfuls1900"),
-          // speakdelightfuls19
           // delightfuls19("en-US"),
           // "Our new neighbours are delightful.0"),
-          // speakdelightfuls20
           // delightfuls20("en-US"),
           // delightfuls2100"),
-          // speakdelightfuls21
           // delightfuls21("en-US"),
           // delightfuls2200"),
-          // speakdelightfuls22
           // delightfuls22("en-US"),
         ],
       ),

@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -273,61 +271,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdevalues3("en-US"),
           ),
           // devalues400"),
-          // speakdevalues4
           // devalues4("en-US"),
           // devalues500"),
-          // speakdevalues5
           // devalues5("en-US"),
           // devalues600"),
-          // speakdevalues6
           // devalues6("en-US"),
           // devalues700"),
-          // speakdevalues7
           // devalues7("en-US"),
           // devalues800"),
-          // speakdevalues8
           // devalues8("en-US"),
           // devalues900"),
-          // speakdevalues9
           // devalues9("en-US"),
           // devalues1000"),
-          // speakdevalues10
           // devalues10("en-US"),
           // devalues1100"),
-          // speakdevalues11
           // devalues11("en-US"),
           // devalues1200"),
-          // speakdevalues12
           // devalues12("en-US"),
           // devalues1300"),
-          // speakdevalues13
           // devalues13("en-US"),
           // devalues1400"),
-          // speakdevalues14
           // devalues14("en-US"),
           // devalues1500"),
-          // speakdevalues15
           // devalues15("en-US"),
           // devalues1600"),
-          // speakdevalues16
           // devalues16("en-US"),
           // devalues1700"),
-          // speakdevalues17
           // devalues17("en-US"),
           // devalues1800"),
-          // speakdevalues18
           // devalues18("en-US"),
           // devalues1900"),
-          // speakdevalues19
           // devalues19("en-US"),
           // "The pound was devalued against the US dollar.0"),
-          // speakdevalues20
           // devalues20("en-US"),
           // devalues2100"),
-          // speakdevalues21
           // devalues21("en-US"),
           // devalues2200"),
-          // speakdevalues22
           // devalues22("en-US"),
         ],
       ),

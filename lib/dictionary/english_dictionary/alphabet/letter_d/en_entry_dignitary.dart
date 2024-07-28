@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdignitarys1("en-US"),
           ),
           // dignitarys200"),
-          // speakdignitarys2
           // dignitarys2("en-US"),
           // dignitarys300"),
-          // speakdignitarys3
           // dignitarys3("en-US"),
           // dignitarys400"),
-          // speakdignitarys4
           // dignitarys4("en-US"),
           // dignitarys500"),
-          // speakdignitarys5
           // dignitarys5("en-US"),
           // dignitarys600"),
-          // speakdignitarys6
           // dignitarys6("en-US"),
           // dignitarys700"),
-          // speakdignitarys7
           // dignitarys7("en-US"),
           // dignitarys800"),
-          // speakdignitarys8
           // dignitarys8("en-US"),
           // dignitarys900"),
-          // speakdignitarys9
           // dignitarys9("en-US"),
           // dignitarys_1000"),
-          // speakdignitarys10
           // dignitarys10("en-US"),
           // dignitarys1100"),
-          // speakdignitarys11
           // dignitarys11("en-US"),
           // dignitarys1200"),
-          // speakdignitarys12
           // dignitarys12("en-US"),
           // dignitarys1300"),
-          // speakdignitarys13
           // dignitarys13("en-US"),
           // dignitarys1400"),
-          // speakdignitarys14
           // dignitarys14("en-US"),
           // dignitarys1500"),
-          // speakdignitarys15
           // dignitarys15("en-US"),
           // dignitarys1600"),
-          // speakdignitarys16
           // dignitarys16("en-US"),
           // dignitarys1700"),
-          // speakdignitarys17
           // dignitarys17("en-US"),
           // dignitarys1800"),
-          // speakdignitarys18
           // dignitarys18("en-US"),
           // dignitarys1900"),
-          // speakdignitarys19
           // dignitarys19("en-US"),
           // dignitarys_2000"),
-          // speakdignitarys20
           // dignitarys20("en-US"),
           // dignitarys2100"),
-          // speakdignitarys21
           // dignitarys21("en-US"),
           // dignitarys2200"),
-          // speakdignitarys22
           // dignitarys22("en-US"),
         ],
       ),

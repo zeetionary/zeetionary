@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -401,61 +399,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrinkers3("en-US"),
           ),
           // drinkers400"),
-          // speakdrinkers4
           // drinkers4("en-US"),
           // drinkers500"),
-          // speakdrinkers5
           // drinkers5("en-US"),
           // drinkers600"),
-          // speakdrinkers6
           // drinkers6("en-US"),
           // drinkers700"),
-          // speakdrinkers7
           // drinkers7("en-US"),
           // drinkers800"),
-          // speakdrinkers8
           // drinkers8("en-US"),
           // drinkers900"),
-          // speakdrinkers9
           // drinkers9("en-US"),
           // drinkers_1000"),
-          // speakdrinkers10
           // drinkers10("en-US"),
           // drinkers1100"),
-          // speakdrinkers11
           // drinkers11("en-US"),
           // drinkers1200"),
-          // speakdrinkers12
           // drinkers12("en-US"),
           // drinkers1300"),
-          // speakdrinkers13
           // drinkers13("en-US"),
           // drinkers1400"),
-          // speakdrinkers14
           // drinkers14("en-US"),
           // drinkers1500"),
-          // speakdrinkers15
           // drinkers15("en-US"),
           // drinkers1600"),
-          // speakdrinkers16
           // drinkers16("en-US"),
           // drinkers1700"),
-          // speakdrinkers17
           // drinkers17("en-US"),
           // drinkers1800"),
-          // speakdrinkers18
           // drinkers18("en-US"),
           // drinkers1900"),
-          // speakdrinkers19
           // drinkers19("en-US"),
           // drinkers_2000"),
-          // speakdrinkers20
           // drinkers20("en-US"),
           // drinkers2100"),
-          // speakdrinkers21
           // drinkers21("en-US"),
           // drinkers2200"),
-          // speakdrinkers22
           // drinkers22("en-US"),
         ],
       ),

@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -272,61 +270,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetests3("en-US"),
           ),
           // detests400"),
-          // speakdetests4
           // detests4("en-US"),
           // detests500"),
-          // speakdetests5
           // detests5("en-US"),
           // detests600"),
-          // speakdetests6
           // detests6("en-US"),
           // detests700"),
-          // speakdetests7
           // detests7("en-US"),
           // detests800"),
-          // speakdetests8
           // detests8("en-US"),
           // detests900"),
-          // speakdetests9
           // detests9("en-US"),
           // detests1000"),
-          // speakdetests10
           // detests10("en-US"),
           // detests1100"),
-          // speakdetests11
           // detests11("en-US"),
           // detests1200"),
-          // speakdetests12
           // detests12("en-US"),
           // detests1300"),
-          // speakdetests13
           // detests13("en-US"),
           // detests1400"),
-          // speakdetests14
           // detests14("en-US"),
           // detests1500"),
-          // speakdetests15
           // detests15("en-US"),
           // detests1600"),
-          // speakdetests16
           // detests16("en-US"),
           // detests1700"),
-          // speakdetests17
           // detests17("en-US"),
           // detests1800"),
-          // speakdetests18
           // detests18("en-US"),
           // detests1900"),
-          // speakdetests19
           // detests19("en-US"),
           // "I loathe and detest racism in any form.0"),
-          // speakdetests20
           // detests20("en-US"),
           // detests2100"),
-          // speakdetests21
           // detests21("en-US"),
           // detests2200"),
-          // speakdetests22
           // detests22("en-US"),
         ],
       ),

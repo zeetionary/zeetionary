@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,45 +367,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakembankments1("en-US"),
           ),
           // embankments200embankments2
-          // speakembankments2
           // embankments300embankments3
-          // speakembankments3
           // embankments400embankments4
-          // speakembankments4
           // embankments500embankments5
-          // speakembankments5
           // embankments600embankments6
-          // speakembankments6
           // embankments700embankments7
-          // speakembankments7
           // embankments800embankments8
-          // speakembankments8
           // embankments900embankments9
-          // speakembankments9
           // embankments_1000embankments10
-          // speakembankments10
           // embankments1100embankments11
-          // speakembankments11
           // embankments1200embankments12
-          // speakembankments12
           // embankments1300embankments13
-          // speakembankments13
           // embankments1400embankments14
-          // speakembankments14
           // embankments1500embankments15
-          // speakembankments15
           // embankments1600embankments16
-          // speakembankments16
           // embankments1700embankments17
-          // speakembankments17
           // embankments1800embankments18
-          // speakembankments18
           // embankments1900embankments19
-          // speakembankments19
           // embankments_2000embankments20
-          // speakembankments20
           // embankments2100embankments21
-          // speakembankments21
           // embankments2200embankments22
           // speakembankments22("en-US"""),
           //         ),

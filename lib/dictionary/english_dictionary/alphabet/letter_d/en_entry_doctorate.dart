@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -379,64 +377,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoctorates2("en-US"),
           ),
           // doctorates300"),
-          // speakdoctorates3
           // doctorates3("en-US"),
           // doctorates400"),
-          // speakdoctorates4
           // doctorates4("en-US"),
           // doctorates500"),
-          // speakdoctorates5
           // doctorates5("en-US"),
           // doctorates600"),
-          // speakdoctorates6
           // doctorates6("en-US"),
           // doctorates700"),
-          // speakdoctorates7
           // doctorates7("en-US"),
           // doctorates800"),
-          // speakdoctorates8
           // doctorates8("en-US"),
           // doctorates900"),
-          // speakdoctorates9
           // doctorates9("en-US"),
           // doctorates_1000"),
-          // speakdoctorates10
           // doctorates10("en-US"),
           // doctorates1100"),
-          // speakdoctorates11
           // doctorates11("en-US"),
           // doctorates1200"),
-          // speakdoctorates12
           // doctorates12("en-US"),
           // doctorates1300"),
-          // speakdoctorates13
           // doctorates13("en-US"),
           // doctorates1400"),
-          // speakdoctorates14
           // doctorates14("en-US"),
           // doctorates1500"),
-          // speakdoctorates15
           // doctorates15("en-US"),
           // doctorates1600"),
-          // speakdoctorates16
           // doctorates16("en-US"),
           // doctorates1700"),
-          // speakdoctorates17
           // doctorates17("en-US"),
           // doctorates1800"),
-          // speakdoctorates18
           // doctorates18("en-US"),
           // doctorates1900"),
-          // speakdoctorates19
           // doctorates19("en-US"),
           // doctorates_2000"),
-          // speakdoctorates20
           // doctorates20("en-US"),
           // doctorates2100"),
-          // speakdoctorates21
           // doctorates21("en-US"),
           // doctorates2200"),
-          // speakdoctorates22
           // doctorates22("en-US"),
         ],
       ),

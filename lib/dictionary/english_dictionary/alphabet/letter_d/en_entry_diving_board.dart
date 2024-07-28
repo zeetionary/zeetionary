@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -371,67 +369,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivingboards1("en-US"),
           ),
           // divingboards200"),
-          // speakdivingboards2
           // divingboards2("en-US"),
           // divingboards300"),
-          // speakdivingboards3
           // divingboards3("en-US"),
           // divingboards400"),
-          // speakdivingboards4
           // divingboards4("en-US"),
           // divingboards500"),
-          // speakdivingboards5
           // divingboards5("en-US"),
           // divingboards600"),
-          // speakdivingboards6
           // divingboards6("en-US"),
           // divingboards700"),
-          // speakdivingboards7
           // divingboards7("en-US"),
           // divingboards800"),
-          // speakdivingboards8
           // divingboards8("en-US"),
           // divingboards900"),
-          // speakdivingboards9
           // divingboards9("en-US"),
           // divingboards_1000"),
-          // speakdivingboards10
           // divingboards10("en-US"),
           // divingboards1100"),
-          // speakdivingboards11
           // divingboards11("en-US"),
           // divingboards1200"),
-          // speakdivingboards12
           // divingboards12("en-US"),
           // divingboards1300"),
-          // speakdivingboards13
           // divingboards13("en-US"),
           // divingboards1400"),
-          // speakdivingboards14
           // divingboards14("en-US"),
           // divingboards1500"),
-          // speakdivingboards15
           // divingboards15("en-US"),
           // divingboards1600"),
-          // speakdivingboards16
           // divingboards16("en-US"),
           // divingboards1700"),
-          // speakdivingboards17
           // divingboards17("en-US"),
           // divingboards1800"),
-          // speakdivingboards18
           // divingboards18("en-US"),
           // divingboards1900"),
-          // speakdivingboards19
           // divingboards19("en-US"),
           // divingboards_2000"),
-          // speakdivingboards20
           // divingboards20("en-US"),
           // divingboards2100"),
-          // speakdivingboards21
           // divingboards21("en-US"),
           // divingboards2200"),
-          // speakdivingboards22
           // divingboards22("en-US"),
         ],
       ),

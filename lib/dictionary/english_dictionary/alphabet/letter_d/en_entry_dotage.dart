@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdotages2("en-US"),
           ),
           // dotages300"),
-          // speakdotages3
           // dotages3("en-US"),
           // dotages400"),
-          // speakdotages4
           // dotages4("en-US"),
           // dotages500"),
-          // speakdotages5
           // dotages5("en-US"),
           // dotages600"),
-          // speakdotages6
           // dotages6("en-US"),
           // dotages700"),
-          // speakdotages7
           // dotages7("en-US"),
           // dotages800"),
-          // speakdotages8
           // dotages8("en-US"),
           // dotages900"),
-          // speakdotages9
           // dotages9("en-US"),
           // dotages_1000"),
-          // speakdotages10
           // dotages10("en-US"),
           // dotages1100"),
-          // speakdotages11
           // dotages11("en-US"),
           // dotages1200"),
-          // speakdotages12
           // dotages12("en-US"),
           // dotages1300"),
-          // speakdotages13
           // dotages13("en-US"),
           // dotages1400"),
-          // speakdotages14
           // dotages14("en-US"),
           // dotages1500"),
-          // speakdotages15
           // dotages15("en-US"),
           // dotages1600"),
-          // speakdotages16
           // dotages16("en-US"),
           // dotages1700"),
-          // speakdotages17
           // dotages17("en-US"),
           // dotages1800"),
-          // speakdotages18
           // dotages18("en-US"),
           // dotages1900"),
-          // speakdotages19
           // dotages19("en-US"),
           // dotages_2000"),
-          // speakdotages20
           // dotages20("en-US"),
           // dotages2100"),
-          // speakdotages21
           // dotages21("en-US"),
           // dotages2200"),
-          // speakdotages22
           // dotages22("en-US"),
         ],
       ),

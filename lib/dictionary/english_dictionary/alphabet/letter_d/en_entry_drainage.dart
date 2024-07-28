@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -402,61 +400,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrainages3("en-US"),
           ),
           // drainages400"),
-          // speakdrainages4
           // drainages4("en-US"),
           // drainages500"),
-          // speakdrainages5
           // drainages5("en-US"),
           // drainages600"),
-          // speakdrainages6
           // drainages6("en-US"),
           // drainages700"),
-          // speakdrainages7
           // drainages7("en-US"),
           // drainages800"),
-          // speakdrainages8
           // drainages8("en-US"),
           // drainages900"),
-          // speakdrainages9
           // drainages9("en-US"),
           // drainages_1000"),
-          // speakdrainages10
           // drainages10("en-US"),
           // drainages1100"),
-          // speakdrainages11
           // drainages11("en-US"),
           // drainages1200"),
-          // speakdrainages12
           // drainages12("en-US"),
           // drainages1300"),
-          // speakdrainages13
           // drainages13("en-US"),
           // drainages1400"),
-          // speakdrainages14
           // drainages14("en-US"),
           // drainages1500"),
-          // speakdrainages15
           // drainages15("en-US"),
           // drainages1600"),
-          // speakdrainages16
           // drainages16("en-US"),
           // drainages1700"),
-          // speakdrainages17
           // drainages17("en-US"),
           // drainages1800"),
-          // speakdrainages18
           // drainages18("en-US"),
           // drainages1900"),
-          // speakdrainages19
           // drainages19("en-US"),
           // drainages_2000"),
-          // speakdrainages20
           // drainages20("en-US"),
           // drainages2100"),
-          // speakdrainages21
           // drainages21("en-US"),
           // drainages2200"),
-          // speakdrainages22
           // drainages22("en-US"),
         ],
       ),

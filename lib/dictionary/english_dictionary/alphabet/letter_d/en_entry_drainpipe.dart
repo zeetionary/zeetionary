@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -390,67 +388,46 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // drainpipes200"),
-          // speakdrainpipes2
           // drainpipes2("en-US"),
           // drainpipes300"),
-          // speakdrainpipes3
           // drainpipes3("en-US"),
           // drainpipes400"),
-          // speakdrainpipes4
           // drainpipes4("en-US"),
           // drainpipes500"),
-          // speakdrainpipes5
           // drainpipes5("en-US"),
           // drainpipes600"),
-          // speakdrainpipes6
           // drainpipes6("en-US"),
           // drainpipes700"),
-          // speakdrainpipes7
           // drainpipes7("en-US"),
           // drainpipes800"),
-          // speakdrainpipes8
           // drainpipes8("en-US"),
           // drainpipes900"),
-          // speakdrainpipes9
           // drainpipes9("en-US"),
           // drainpipes_1000"),
-          // speakdrainpipes10
           // drainpipes10("en-US"),
           // drainpipes1100"),
-          // speakdrainpipes11
           // drainpipes11("en-US"),
           // drainpipes1200"),
-          // speakdrainpipes12
           // drainpipes12("en-US"),
           // drainpipes1300"),
-          // speakdrainpipes13
           // drainpipes13("en-US"),
           // drainpipes1400"),
-          // speakdrainpipes14
           // drainpipes14("en-US"),
           // drainpipes1500"),
-          // speakdrainpipes15
           // drainpipes15("en-US"),
           // drainpipes1600"),
-          // speakdrainpipes16
           // drainpipes16("en-US"),
           // drainpipes1700"),
-          // speakdrainpipes17
           // drainpipes17("en-US"),
           // drainpipes1800"),
-          // speakdrainpipes18
           // drainpipes18("en-US"),
           // drainpipes1900"),
-          // speakdrainpipes19
           // drainpipes19("en-US"),
           // drainpipes_2000"),
-          // speakdrainpipes20
           // drainpipes20("en-US"),
           // drainpipes2100"),
-          // speakdrainpipes21
           // drainpipes21("en-US"),
           // drainpipes2200"),
-          // speakdrainpipes22
           // drainpipes22("en-US"),
         ],
       ),

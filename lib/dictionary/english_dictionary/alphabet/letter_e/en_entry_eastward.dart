@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -397,41 +395,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeastwards3("en-US"),
           ),
           // eastwards400eastwards4
-          // speakeastwards4
           // eastwards500eastwards5
-          // speakeastwards5
           // eastwards600eastwards6
-          // speakeastwards6
           // eastwards700eastwards7
-          // speakeastwards7
           // eastwards800eastwards8
-          // speakeastwards8
           // eastwards900eastwards9
-          // speakeastwards9
           // eastwards_1000eastwards10
-          // speakeastwards10
           // eastwards1100eastwards11
-          // speakeastwards11
           // eastwards1200eastwards12
-          // speakeastwards12
           // eastwards1300eastwards13
-          // speakeastwards13
           // eastwards1400eastwards14
-          // speakeastwards14
           // eastwards1500eastwards15
-          // speakeastwards15
           // eastwards1600eastwards16
-          // speakeastwards16
           // eastwards1700eastwards17
-          // speakeastwards17
           // eastwards1800eastwards18
-          // speakeastwards18
           // eastwards1900eastwards19
-          // speakeastwards19
           // eastwards_2000eastwards20
-          // speakeastwards20
           // eastwards2100eastwards21
-          // speakeastwards21
           // eastwards2200eastwards22
           // speakeastwards22("en-US"""),
           //         ),

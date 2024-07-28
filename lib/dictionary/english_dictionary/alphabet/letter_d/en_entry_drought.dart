@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -389,64 +387,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdroughts2("en-US"),
           ),
           // droughts300"),
-          // speakdroughts3
           // droughts3
           // droughts400"),
-          // speakdroughts4
           // droughts4
           // droughts500"),
-          // speakdroughts5
           // droughts5
           // droughts600"),
-          // speakdroughts6
           // droughts6
           // droughts700"),
-          // speakdroughts7
           // droughts7
           // droughts800"),
-          // speakdroughts8
           // droughts8
           // droughts900"),
-          // speakdroughts9
           // droughts9
           // droughts_1000"),
-          // speakdroughts10
           // droughts10
           // droughts1100"),
-          // speakdroughts11
           // droughts11
           // droughts1200"),
-          // speakdroughts12
           // droughts12
           // droughts1300"),
-          // speakdroughts13
           // droughts13
           // droughts1400"),
-          // speakdroughts14
           // droughts14
           // droughts1500"),
-          // speakdroughts15
           // droughts15
           // droughts1600"),
-          // speakdroughts16
           // droughts16
           // droughts1700"),
-          // speakdroughts17
           // droughts17
           // droughts1800"),
-          // speakdroughts18
           // droughts18
           // droughts1900"),
-          // speakdroughts19
           // droughts19
           // droughts_2000"),
-          // speakdroughts20
           // droughts20
           // droughts2100"),
-          // speakdroughts21
           // droughts21
           // droughts2200"),
-          // speakdroughts22
           // droughts22("en-US"),
         ],
       ),

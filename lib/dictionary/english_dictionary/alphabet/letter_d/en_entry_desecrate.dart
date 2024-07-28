@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesecrates2("en-US"),
           ),
           // desecrates300"),
-          // speakdesecrates3
           // desecrates3("en-US"),
           // desecrates400"),
-          // speakdesecrates4
           // desecrates4("en-US"),
           // desecrates500"),
-          // speakdesecrates5
           // desecrates5("en-US"),
           // desecrates600"),
-          // speakdesecrates6
           // desecrates6("en-US"),
           // desecrates700"),
-          // speakdesecrates7
           // desecrates7("en-US"),
           // desecrates800"),
-          // speakdesecrates8
           // desecrates8("en-US"),
           // desecrates900"),
-          // speakdesecrates9
           // desecrates9("en-US"),
           // desecrates1000"),
-          // speakdesecrates10
           // desecrates10("en-US"),
           // desecrates1100"),
-          // speakdesecrates11
           // desecrates11("en-US"),
           // desecrates1200"),
-          // speakdesecrates12
           // desecrates12("en-US"),
           // desecrates1300"),
-          // speakdesecrates13
           // desecrates13("en-US"),
           // desecrates1400"),
-          // speakdesecrates14
           // desecrates14("en-US"),
           // desecrates1500"),
-          // speakdesecrates15
           // desecrates15("en-US"),
           // desecrates1600"),
-          // speakdesecrates16
           // desecrates16("en-US"),
           // desecrates1700"),
-          // speakdesecrates17
           // desecrates17("en-US"),
           // desecrates1800"),
-          // speakdesecrates18
           // desecrates18("en-US"),
           // desecrates1900"),
-          // speakdesecrates19
           // desecrates19("en-US"),
           // "The mosque was desecrated by vandals.0"),
-          // speakdesecrates20
           // desecrates20("en-US"),
           // desecrates2100"),
-          // speakdesecrates21
           // desecrates21("en-US"),
           // desecrates2200"),
-          // speakdesecrates22
           // desecrates22("en-US"),
         ],
       ),

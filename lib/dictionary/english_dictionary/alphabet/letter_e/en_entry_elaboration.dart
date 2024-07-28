@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -391,43 +389,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelaborations2("en-US"),
           ),
           // elaborations300elaborations3
-          // speakelaborations3
           // elaborations400elaborations4
-          // speakelaborations4
           // elaborations500elaborations5
-          // speakelaborations5
           // elaborations600elaborations6
-          // speakelaborations6
           // elaborations700elaborations7
-          // speakelaborations7
           // elaborations800elaborations8
-          // speakelaborations8
           // elaborations900elaborations9
-          // speakelaborations9
           // elaborations_1000elaborations10
-          // speakelaborations10
           // elaborations1100elaborations11
-          // speakelaborations11
           // elaborations1200elaborations12
-          // speakelaborations12
           // elaborations1300elaborations13
-          // speakelaborations13
           // elaborations1400elaborations14
-          // speakelaborations14
           // elaborations1500elaborations15
-          // speakelaborations15
           // elaborations1600elaborations16
-          // speakelaborations16
           // elaborations1700elaborations17
-          // speakelaborations17
           // elaborations1800elaborations18
-          // speakelaborations18
           // elaborations1900elaborations19
-          // speakelaborations19
           // elaborations_2000elaborations20
-          // speakelaborations20
           // elaborations2100elaborations21
-          // speakelaborations21
           // elaborations2200elaborations22
           // speakelaborations22("en-US"""),
           //         ),

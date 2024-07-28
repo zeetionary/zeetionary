@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -366,45 +364,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakearthworms1("en-US"),
           ),
           // earthworms200earthworms2
-          // speakearthworms2
           // earthworms300earthworms3
-          // speakearthworms3
           // earthworms400earthworms4
-          // speakearthworms4
           // earthworms500earthworms5
-          // speakearthworms5
           // earthworms600earthworms6
-          // speakearthworms6
           // earthworms700earthworms7
-          // speakearthworms7
           // earthworms800earthworms8
-          // speakearthworms8
           // earthworms900earthworms9
-          // speakearthworms9
           // earthworms_1000earthworms10
-          // speakearthworms10
           // earthworms1100earthworms11
-          // speakearthworms11
           // earthworms1200earthworms12
-          // speakearthworms12
           // earthworms1300earthworms13
-          // speakearthworms13
           // earthworms1400earthworms14
-          // speakearthworms14
           // earthworms1500earthworms15
-          // speakearthworms15
           // earthworms1600earthworms16
-          // speakearthworms16
           // earthworms1700earthworms17
-          // speakearthworms17
           // earthworms1800earthworms18
-          // speakearthworms18
           // earthworms1900earthworms19
-          // speakearthworms19
           // earthworms_2000earthworms20
-          // speakearthworms20
           // earthworms2100earthworms21
-          // speakearthworms21
           // earthworms2200earthworms22
           // speakearthworms22("en-US"""),
           //         ),

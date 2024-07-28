@@ -352,9 +352,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -372,67 +370,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakDNAfingerprintings1("en-US"),
           ),
           // DNAfingerprintings200"),
-          // speakDNAfingerprintings2
           // DNAfingerprintings2("en-US"),
           // DNAfingerprintings300"),
-          // speakDNAfingerprintings3
           // DNAfingerprintings3("en-US"),
           // DNAfingerprintings400"),
-          // speakDNAfingerprintings4
           // DNAfingerprintings4("en-US"),
           // DNAfingerprintings500"),
-          // speakDNAfingerprintings5
           // DNAfingerprintings5("en-US"),
           // DNAfingerprintings600"),
-          // speakDNAfingerprintings6
           // DNAfingerprintings6("en-US"),
           // DNAfingerprintings700"),
-          // speakDNAfingerprintings7
           // DNAfingerprintings7("en-US"),
           // DNAfingerprintings800"),
-          // speakDNAfingerprintings8
           // DNAfingerprintings8("en-US"),
           // DNAfingerprintings900"),
-          // speakDNAfingerprintings9
           // DNAfingerprintings9("en-US"),
           // DNAfingerprintings_1000"),
-          // speakDNAfingerprintings10
           // DNAfingerprintings10("en-US"),
           // DNAfingerprintings1100"),
-          // speakDNAfingerprintings11
           // DNAfingerprintings11("en-US"),
           // DNAfingerprintings1200"),
-          // speakDNAfingerprintings12
           // DNAfingerprintings12("en-US"),
           // DNAfingerprintings1300"),
-          // speakDNAfingerprintings13
           // DNAfingerprintings13("en-US"),
           // DNAfingerprintings1400"),
-          // speakDNAfingerprintings14
           // DNAfingerprintings14("en-US"),
           // DNAfingerprintings1500"),
-          // speakDNAfingerprintings15
           // DNAfingerprintings15("en-US"),
           // DNAfingerprintings1600"),
-          // speakDNAfingerprintings16
           // DNAfingerprintings16("en-US"),
           // DNAfingerprintings1700"),
-          // speakDNAfingerprintings17
           // DNAfingerprintings17("en-US"),
           // DNAfingerprintings1800"),
-          // speakDNAfingerprintings18
           // DNAfingerprintings18("en-US"),
           // DNAfingerprintings1900"),
-          // speakDNAfingerprintings19
           // DNAfingerprintings19("en-US"),
           // DNAfingerprintings_2000"),
-          // speakDNAfingerprintings20
           // DNAfingerprintings20("en-US"),
           // DNAfingerprintings2100"),
-          // speakDNAfingerprintings21
           // DNAfingerprintings21("en-US"),
           // DNAfingerprintings2200"),
-          // speakDNAfingerprintings22
           // DNAfingerprintings22("en-US"),
         ],
       ),

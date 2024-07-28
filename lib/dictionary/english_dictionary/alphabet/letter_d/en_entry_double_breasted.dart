@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoublebreasteds1("en-US"),
           ),
           // doublebreasteds200"),
-          // speakdoublebreasteds2
           // doublebreasteds2("en-US"),
           // doublebreasteds300"),
-          // speakdoublebreasteds3
           // doublebreasteds3("en-US"),
           // doublebreasteds400"),
-          // speakdoublebreasteds4
           // doublebreasteds4("en-US"),
           // doublebreasteds500"),
-          // speakdoublebreasteds5
           // doublebreasteds5("en-US"),
           // doublebreasteds600"),
-          // speakdoublebreasteds6
           // doublebreasteds6("en-US"),
           // doublebreasteds700"),
-          // speakdoublebreasteds7
           // doublebreasteds7("en-US"),
           // doublebreasteds800"),
-          // speakdoublebreasteds8
           // doublebreasteds8("en-US"),
           // doublebreasteds900"),
-          // speakdoublebreasteds9
           // doublebreasteds9("en-US"),
           // doublebreasteds_1000"),
-          // speakdoublebreasteds10
           // doublebreasteds10("en-US"),
           // doublebreasteds1100"),
-          // speakdoublebreasteds11
           // doublebreasteds11("en-US"),
           // doublebreasteds1200"),
-          // speakdoublebreasteds12
           // doublebreasteds12("en-US"),
           // doublebreasteds1300"),
-          // speakdoublebreasteds13
           // doublebreasteds13("en-US"),
           // doublebreasteds1400"),
-          // speakdoublebreasteds14
           // doublebreasteds14("en-US"),
           // doublebreasteds1500"),
-          // speakdoublebreasteds15
           // doublebreasteds15("en-US"),
           // doublebreasteds1600"),
-          // speakdoublebreasteds16
           // doublebreasteds16("en-US"),
           // doublebreasteds1700"),
-          // speakdoublebreasteds17
           // doublebreasteds17("en-US"),
           // doublebreasteds1800"),
-          // speakdoublebreasteds18
           // doublebreasteds18("en-US"),
           // doublebreasteds1900"),
-          // speakdoublebreasteds19
           // doublebreasteds19("en-US"),
           // doublebreasteds_2000"),
-          // speakdoublebreasteds20
           // doublebreasteds20("en-US"),
           // doublebreasteds2100"),
-          // speakdoublebreasteds21
           // doublebreasteds21("en-US"),
           // doublebreasteds2200"),
-          // speakdoublebreasteds22
           // doublebreasteds22("en-US"),
         ],
       ),

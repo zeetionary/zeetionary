@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscourtesys2("en-US"),
           ),
           // discourtesys300"),
-          // speakdiscourtesys3
           // discourtesys3("en-US"),
           // discourtesys400"),
-          // speakdiscourtesys4
           // discourtesys4("en-US"),
           // discourtesys500"),
-          // speakdiscourtesys5
           // discourtesys5("en-US"),
           // discourtesys600"),
-          // speakdiscourtesys6
           // discourtesys6("en-US"),
           // discourtesys700"),
-          // speakdiscourtesys7
           // discourtesys7("en-US"),
           // discourtesys800"),
-          // speakdiscourtesys8
           // discourtesys8("en-US"),
           // discourtesys900"),
-          // speakdiscourtesys9
           // discourtesys9("en-US"),
           // discourtesys_1000"),
-          // speakdiscourtesys10
           // discourtesys10("en-US"),
           // discourtesys1100"),
-          // speakdiscourtesys11
           // discourtesys11("en-US"),
           // discourtesys1200"),
-          // speakdiscourtesys12
           // discourtesys12("en-US"),
           // discourtesys1300"),
-          // speakdiscourtesys13
           // discourtesys13("en-US"),
           // discourtesys1400"),
-          // speakdiscourtesys14
           // discourtesys14("en-US"),
           // discourtesys1500"),
-          // speakdiscourtesys15
           // discourtesys15("en-US"),
           // discourtesys1600"),
-          // speakdiscourtesys16
           // discourtesys16("en-US"),
           // discourtesys1700"),
-          // speakdiscourtesys17
           // discourtesys17("en-US"),
           // discourtesys1800"),
-          // speakdiscourtesys18
           // discourtesys18("en-US"),
           // discourtesys1900"),
-          // speakdiscourtesys19
           // discourtesys19("en-US"),
           // discourtesys_2000"),
-          // speakdiscourtesys20
           // discourtesys20("en-US"),
           // discourtesys2100"),
-          // speakdiscourtesys21
           // discourtesys21("en-US"),
           // discourtesys2200"),
-          // speakdiscourtesys22
           // discourtesys22("en-US"),
         ],
       ),

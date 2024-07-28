@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakearthenwares1("en-US"),
           ),
           // earthenwares200earthenwares2
-          // speakearthenwares2
           // earthenwares300earthenwares3
-          // speakearthenwares3
           // earthenwares400earthenwares4
-          // speakearthenwares4
           // earthenwares500earthenwares5
-          // speakearthenwares5
           // earthenwares600earthenwares6
-          // speakearthenwares6
           // earthenwares700earthenwares7
-          // speakearthenwares7
           // earthenwares800earthenwares8
-          // speakearthenwares8
           // earthenwares900earthenwares9
-          // speakearthenwares9
           // earthenwares_1000earthenwares10
-          // speakearthenwares10
           // earthenwares1100earthenwares11
-          // speakearthenwares11
           // earthenwares1200earthenwares12
-          // speakearthenwares12
           // earthenwares1300earthenwares13
-          // speakearthenwares13
           // earthenwares1400earthenwares14
-          // speakearthenwares14
           // earthenwares1500earthenwares15
-          // speakearthenwares15
           // earthenwares1600earthenwares16
-          // speakearthenwares16
           // earthenwares1700earthenwares17
-          // speakearthenwares17
           // earthenwares1800earthenwares18
-          // speakearthenwares18
           // earthenwares1900earthenwares19
-          // speakearthenwares19
           // earthenwares_2000earthenwares20
-          // speakearthenwares20
           // earthenwares2100earthenwares21
-          // speakearthenwares21
           // earthenwares2200earthenwares22
           // speakearthenwares22("en-US"""),
           //         ),

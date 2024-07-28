@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdockets1("en-US"),
           ),
           // dockets200"),
-          // speakdockets2
           // dockets2
           // dockets300"),
-          // speakdockets3
           // dockets3
           // dockets400"),
-          // speakdockets4
           // dockets4
           // dockets500"),
-          // speakdockets5
           // dockets5
           // dockets600"),
-          // speakdockets6
           // dockets6
           // dockets700"),
-          // speakdockets7
           // dockets7
           // dockets800"),
-          // speakdockets8
           // dockets8
           // dockets900"),
-          // speakdockets9
           // dockets9
           // dockets_1000"),
-          // speakdockets10
           // dockets10
           // dockets1100"),
-          // speakdockets11
           // dockets11
           // dockets1200"),
-          // speakdockets12
           // dockets12
           // dockets1300"),
-          // speakdockets13
           // dockets13
           // dockets1400"),
-          // speakdockets14
           // dockets14
           // dockets1500"),
-          // speakdockets15
           // dockets15
           // dockets1600"),
-          // speakdockets16
           // dockets16
           // dockets1700"),
-          // speakdockets17
           // dockets17
           // dockets1800"),
-          // speakdockets18
           // dockets18
           // dockets1900"),
-          // speakdockets19
           // dockets19
           // dockets_2000"),
-          // speakdockets20
           // dockets20
           // dockets2100"),
-          // speakdockets21
           // dockets21
           // dockets2200"),
-          // speakdockets22
           // dockets22("en-US"),
         ],
       ),

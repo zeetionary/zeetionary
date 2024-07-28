@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -241,67 +239,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefibrillators1("en-US"),
           ),
           // defibrillators200"),
-          // speakdefibrillators2
           // defibrillators2("en-US"),
           // defibrillators300"),
-          // speakdefibrillators3
           // defibrillators3("en-US"),
           // defibrillators400"),
-          // speakdefibrillators4
           // defibrillators4("en-US"),
           // defibrillators500"),
-          // speakdefibrillators5
           // defibrillators5("en-US"),
           // defibrillators600"),
-          // speakdefibrillators6
           // defibrillators6("en-US"),
           // defibrillators700"),
-          // speakdefibrillators7
           // defibrillators7("en-US"),
           // defibrillators800"),
-          // speakdefibrillators8
           // defibrillators8("en-US"),
           // defibrillators900"),
-          // speakdefibrillators9
           // defibrillators9("en-US"),
           // defibrillators1000"),
-          // speakdefibrillators10
           // defibrillators10("en-US"),
           // defibrillators1100"),
-          // speakdefibrillators11
           // defibrillators11("en-US"),
           // defibrillators1200"),
-          // speakdefibrillators12
           // defibrillators12("en-US"),
           // defibrillators1300"),
-          // speakdefibrillators13
           // defibrillators13("en-US"),
           // defibrillators1400"),
-          // speakdefibrillators14
           // defibrillators14("en-US"),
           // defibrillators1500"),
-          // speakdefibrillators15
           // defibrillators15("en-US"),
           // defibrillators1600"),
-          // speakdefibrillators16
           // defibrillators16("en-US"),
           // defibrillators1700"),
-          // speakdefibrillators17
           // defibrillators17("en-US"),
           // defibrillators1800"),
-          // speakdefibrillators18
           // defibrillators18("en-US"),
           // defibrillators1900"),
-          // speakdefibrillators19
           // defibrillators19("en-US"),
           // defibrillators2000"),
-          // speakdefibrillators20
           // defibrillators20("en-US"),
           // defibrillators2100"),
-          // speakdefibrillators21
           // defibrillators21("en-US"),
           // defibrillators2200"),
-          // speakdefibrillators22
           // defibrillators22("en-US"),
         ],
       ),

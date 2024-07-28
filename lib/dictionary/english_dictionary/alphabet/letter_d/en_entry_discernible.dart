@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscernibles2("en-US"),
           ),
           // discernibles300"),
-          // speakdiscernibles3
           // discernibles3("en-US"),
           // discernibles400"),
-          // speakdiscernibles4
           // discernibles4("en-US"),
           // discernibles500"),
-          // speakdiscernibles5
           // discernibles5("en-US"),
           // discernibles600"),
-          // speakdiscernibles6
           // discernibles6("en-US"),
           // discernibles700"),
-          // speakdiscernibles7
           // discernibles7("en-US"),
           // discernibles800"),
-          // speakdiscernibles8
           // discernibles8("en-US"),
           // discernibles900"),
-          // speakdiscernibles9
           // discernibles9("en-US"),
           // discernibles_1000"),
-          // speakdiscernibles10
           // discernibles10("en-US"),
           // discernibles1100"),
-          // speakdiscernibles11
           // discernibles11("en-US"),
           // discernibles1200"),
-          // speakdiscernibles12
           // discernibles12("en-US"),
           // discernibles1300"),
-          // speakdiscernibles13
           // discernibles13("en-US"),
           // discernibles1400"),
-          // speakdiscernibles14
           // discernibles14("en-US"),
           // discernibles1500"),
-          // speakdiscernibles15
           // discernibles15("en-US"),
           // discernibles1600"),
-          // speakdiscernibles16
           // discernibles16("en-US"),
           // discernibles1700"),
-          // speakdiscernibles17
           // discernibles17("en-US"),
           // discernibles1800"),
-          // speakdiscernibles18
           // discernibles18("en-US"),
           // discernibles1900"),
-          // speakdiscernibles19
           // discernibles19("en-US"),
           // discernibles_2000"),
-          // speakdiscernibles20
           // discernibles20("en-US"),
           // discernibles2100"),
-          // speakdiscernibles21
           // discernibles21("en-US"),
           // discernibles2200"),
-          // speakdiscernibles22
           // discernibles22("en-US"),
         ],
       ),

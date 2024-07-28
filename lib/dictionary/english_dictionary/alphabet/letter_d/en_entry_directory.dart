@@ -234,9 +234,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -269,61 +267,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirectorys3("en-US"),
           ),
           // directorys400"),
-          // speakdirectorys4
           // directorys4
           // directorys500"),
-          // speakdirectorys5
           // directorys5
           // directorys600"),
-          // speakdirectorys6
           // directorys6
           // directorys700"),
-          // speakdirectorys7
           // directorys7
           // directorys800"),
-          // speakdirectorys8
           // directorys8
           // directorys900"),
-          // speakdirectorys9
           // directorys9
           // directorys_1000"),
-          // speakdirectorys10
           // directorys10
           // directorys1100"),
-          // speakdirectorys11
           // directorys11
           // directorys1200"),
-          // speakdirectorys12
           // directorys12
           // directorys1300"),
-          // speakdirectorys13
           // directorys13
           // directorys1400"),
-          // speakdirectorys14
           // directorys14
           // directorys1500"),
-          // speakdirectorys15
           // directorys15
           // directorys1600"),
-          // speakdirectorys16
           // directorys16
           // directorys1700"),
-          // speakdirectorys17
           // directorys17
           // directorys1800"),
-          // speakdirectorys18
           // directorys18
           // directorys1900"),
-          // speakdirectorys19
           // directorys19
           // directorys_2000"),
-          // speakdirectorys20
           // directorys20
           // directorys2100"),
-          // speakdirectorys21
           // directorys21
           // directorys2200"),
-          // speakdirectorys22
           // directorys22("en-US"),
         ],
       ),

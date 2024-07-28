@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -279,61 +277,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemocrats3("en-US"),
           ),
           // democrats400"),
-          // speakdemocrats4
           // democrats4("en-US"),
           // democrats500"),
-          // speakdemocrats5
           // democrats5("en-US"),
           // democrats600"),
-          // speakdemocrats6
           // democrats6("en-US"),
           // democrats700"),
-          // speakdemocrats7
           // democrats7("en-US"),
           // democrats800"),
-          // speakdemocrats8
           // democrats8("en-US"),
           // democrats900"),
-          // speakdemocrats9
           // democrats9("en-US"),
           // democrats1000"),
-          // speakdemocrats10
           // democrats10("en-US"),
           // democrats1100"),
-          // speakdemocrats11
           // democrats11("en-US"),
           // democrats1200"),
-          // speakdemocrats12
           // democrats12("en-US"),
           // democrats1300"),
-          // speakdemocrats13
           // democrats13("en-US"),
           // democrats1400"),
-          // speakdemocrats14
           // democrats14("en-US"),
           // democrats1500"),
-          // speakdemocrats15
           // democrats15("en-US"),
           // democrats1600"),
-          // speakdemocrats16
           // democrats16("en-US"),
           // democrats1700"),
-          // speakdemocrats17
           // democrats17("en-US"),
           // democrats1800"),
-          // speakdemocrats18
           // democrats18("en-US"),
           // democrats1900"),
-          // speakdemocrats19
           // democrats19("en-US"),
           // "He identifies as a democrat and supports free speech.0"),
-          // speakdemocrats20
           // democrats20("en-US"),
           // democrats2100"),
-          // speakdemocrats21
           // democrats21("en-US"),
           // democrats2200"),
-          // speakdemocrats22
           // democrats22("en-US"),
         ],
       ),

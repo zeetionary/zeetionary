@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -391,64 +389,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdugouts2("en-US"),
           ),
           // dugouts300
-          // speakdugouts3
           // dugouts3("en-US"""),
           // dugouts400
-          // speakdugouts4
           // dugouts4("en-US"""),
           // dugouts500
-          // speakdugouts5
           // dugouts5("en-US"""),
           // dugouts600
-          // speakdugouts6
           // dugouts6("en-US"""),
           // dugouts700
-          // speakdugouts7
           // dugouts7("en-US"""),
           // dugouts800
-          // speakdugouts8
           // dugouts8("en-US"""),
           // dugouts900
-          // speakdugouts9
           // dugouts9("en-US"""),
           // dugouts_1000
-          // speakdugouts10
           // dugouts10("en-US"""),
           // dugouts1100
-          // speakdugouts11
           // dugouts11("en-US"""),
           // dugouts1200
-          // speakdugouts12
           // dugouts12("en-US"""),
           // dugouts1300
-          // speakdugouts13
           // dugouts13("en-US"""),
           // dugouts1400
-          // speakdugouts14
           // dugouts14("en-US"""),
           // dugouts1500
-          // speakdugouts15
           // dugouts15("en-US"""),
           // dugouts1600
-          // speakdugouts16
           // dugouts16("en-US"""),
           // dugouts1700
-          // speakdugouts17
           // dugouts17("en-US"""),
           // dugouts1800
-          // speakdugouts18
           // dugouts18("en-US"""),
           // dugouts1900
-          // speakdugouts19
           // dugouts19("en-US"""),
           // dugouts_2000
-          // speakdugouts20
           // dugouts20("en-US"""),
           // dugouts2100
-          // speakdugouts21
           // dugouts21("en-US"""),
           // dugouts2200
-          // speakdugouts22
           // dugouts22("en-US"""),
         ],
       ),

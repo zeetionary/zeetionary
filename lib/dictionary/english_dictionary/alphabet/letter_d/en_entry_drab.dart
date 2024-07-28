@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -397,61 +395,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrabs3("en-US"),
           ),
           // drabs400"),
-          // speakdrabs4
           // drabs4("en-US"),
           // drabs500"),
-          // speakdrabs5
           // drabs5("en-US"),
           // drabs600"),
-          // speakdrabs6
           // drabs6("en-US"),
           // drabs700"),
-          // speakdrabs7
           // drabs7("en-US"),
           // drabs800"),
-          // speakdrabs8
           // drabs8("en-US"),
           // drabs900"),
-          // speakdrabs9
           // drabs9("en-US"),
           // drabs_1000"),
-          // speakdrabs10
           // drabs10("en-US"),
           // drabs1100"),
-          // speakdrabs11
           // drabs11("en-US"),
           // drabs1200"),
-          // speakdrabs12
           // drabs12("en-US"),
           // drabs1300"),
-          // speakdrabs13
           // drabs13("en-US"),
           // drabs1400"),
-          // speakdrabs14
           // drabs14("en-US"),
           // drabs1500"),
-          // speakdrabs15
           // drabs15("en-US"),
           // drabs1600"),
-          // speakdrabs16
           // drabs16("en-US"),
           // drabs1700"),
-          // speakdrabs17
           // drabs17("en-US"),
           // drabs1800"),
-          // speakdrabs18
           // drabs18("en-US"),
           // drabs1900"),
-          // speakdrabs19
           // drabs19("en-US"),
           // drabs_2000"),
-          // speakdrabs20
           // drabs20("en-US"),
           // drabs2100"),
-          // speakdrabs21
           // drabs21("en-US"),
           // drabs2200"),
-          // speakdrabs22
           // drabs22("en-US"),
         ],
       ),

@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -386,64 +384,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistorts2("en-US"),
           ),
           // distorts300"),
-          // speakdistorts3
           // distorts3("en-US"),
           // distorts400"),
-          // speakdistorts4
           // distorts4("en-US"),
           // distorts500"),
-          // speakdistorts5
           // distorts5("en-US"),
           // distorts600"),
-          // speakdistorts6
           // distorts6("en-US"),
           // distorts700"),
-          // speakdistorts7
           // distorts7("en-US"),
           // distorts800"),
-          // speakdistorts8
           // distorts8("en-US"),
           // distorts900"),
-          // speakdistorts9
           // distorts9("en-US"),
           // distorts_1000"),
-          // speakdistorts10
           // distorts10("en-US"),
           // distorts1100"),
-          // speakdistorts11
           // distorts11("en-US"),
           // distorts1200"),
-          // speakdistorts12
           // distorts12("en-US"),
           // distorts1300"),
-          // speakdistorts13
           // distorts13("en-US"),
           // distorts1400"),
-          // speakdistorts14
           // distorts14("en-US"),
           // distorts1500"),
-          // speakdistorts15
           // distorts15("en-US"),
           // distorts1600"),
-          // speakdistorts16
           // distorts16("en-US"),
           // distorts1700"),
-          // speakdistorts17
           // distorts17("en-US"),
           // distorts1800"),
-          // speakdistorts18
           // distorts18("en-US"),
           // distorts1900"),
-          // speakdistorts19
           // distorts19("en-US"),
           // distorts_2000"),
-          // speakdistorts20
           // distorts20("en-US"),
           // distorts2100"),
-          // speakdistorts21
           // distorts21("en-US"),
           // distorts2200"),
-          // speakdistorts22
           // distorts22("en-US"),
         ],
       ),

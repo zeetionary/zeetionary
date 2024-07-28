@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -400,64 +398,44 @@ class KurdishMeaning extends StatelessWidget {
           //         ],
           //       ),
           //     ),
-          // speakDNAs3
           // DNAs3("en-US"),
           // DNAs400"),
-          // speakDNAs4
           // DNAs4("en-US"),
           // DNAs500"),
-          // speakDNAs5
           // DNAs5("en-US"),
           // DNAs600"),
-          // speakDNAs6
           // DNAs6("en-US"),
           // DNAs700"),
-          // speakDNAs7
           // DNAs7("en-US"),
           // DNAs800"),
-          // speakDNAs8
           // DNAs8("en-US"),
           // DNAs900"),
-          // speakDNAs9
           // DNAs9("en-US"),
           // DNAs_1000"),
-          // speakDNAs10
           // DNAs10("en-US"),
           // DNAs1100"),
-          // speakDNAs11
           // DNAs11("en-US"),
           // DNAs1200"),
-          // speakDNAs12
           // DNAs12("en-US"),
           // DNAs1300"),
-          // speakDNAs13
           // DNAs13("en-US"),
           // DNAs1400"),
-          // speakDNAs14
           // DNAs14("en-US"),
           // DNAs1500"),
-          // speakDNAs15
           // DNAs15("en-US"),
           // DNAs1600"),
-          // speakDNAs16
           // DNAs16("en-US"),
           // DNAs1700"),
-          // speakDNAs17
           // DNAs17("en-US"),
           // DNAs1800"),
-          // speakDNAs18
           // DNAs18("en-US"),
           // DNAs1900"),
-          // speakDNAs19
           // DNAs19("en-US"),
           // DNAs_2000"),
-          // speakDNAs20
           // DNAs20("en-US"),
           // DNAs2100"),
-          // speakDNAs21
           // DNAs21("en-US"),
           // DNAs2200"),
-          // speakDNAs22
           // DNAs22("en-US"),
         ],
       ),

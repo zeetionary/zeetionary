@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdioceses2("en-US"),
           ),
           // dioceses300"),
-          // speakdioceses3
           // dioceses3("en-US"),
           // dioceses400"),
-          // speakdioceses4
           // dioceses4("en-US"),
           // dioceses500"),
-          // speakdioceses5
           // dioceses5("en-US"),
           // dioceses600"),
-          // speakdioceses6
           // dioceses6("en-US"),
           // dioceses700"),
-          // speakdioceses7
           // dioceses7("en-US"),
           // dioceses800"),
-          // speakdioceses8
           // dioceses8("en-US"),
           // dioceses900"),
-          // speakdioceses9
           // dioceses9("en-US"),
           // dioceses_1000"),
-          // speakdioceses10
           // dioceses10("en-US"),
           // dioceses1100"),
-          // speakdioceses11
           // dioceses11("en-US"),
           // dioceses1200"),
-          // speakdioceses12
           // dioceses12("en-US"),
           // dioceses1300"),
-          // speakdioceses13
           // dioceses13("en-US"),
           // dioceses1400"),
-          // speakdioceses14
           // dioceses14("en-US"),
           // dioceses1500"),
-          // speakdioceses15
           // dioceses15("en-US"),
           // dioceses1600"),
-          // speakdioceses16
           // dioceses16("en-US"),
           // dioceses1700"),
-          // speakdioceses17
           // dioceses17("en-US"),
           // dioceses1800"),
-          // speakdioceses18
           // dioceses18("en-US"),
           // dioceses1900"),
-          // speakdioceses19
           // dioceses19("en-US"),
           // dioceses_2000"),
-          // speakdioceses20
           // dioceses20("en-US"),
           // dioceses2100"),
-          // speakdioceses21
           // dioceses21("en-US"),
           // dioceses2200"),
-          // speakdioceses22
           // dioceses22("en-US"),
         ],
       ),

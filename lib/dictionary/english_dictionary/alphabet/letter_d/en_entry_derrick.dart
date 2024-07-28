@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -268,64 +266,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderricks2("en-US"),
           ),
           // derricks300"),
-          // speakderricks3
           // derricks3("en-US"),
           // derricks400"),
-          // speakderricks4
           // derricks4("en-US"),
           // derricks500"),
-          // speakderricks5
           // derricks5("en-US"),
           // derricks600"),
-          // speakderricks6
           // derricks6("en-US"),
           // derricks700"),
-          // speakderricks7
           // derricks7("en-US"),
           // derricks800"),
-          // speakderricks8
           // derricks8("en-US"),
           // derricks900"),
-          // speakderricks9
           // derricks9("en-US"),
           // derricks1000"),
-          // speakderricks10
           // derricks10("en-US"),
           // derricks1100"),
-          // speakderricks11
           // derricks11("en-US"),
           // derricks1200"),
-          // speakderricks12
           // derricks12("en-US"),
           // derricks1300"),
-          // speakderricks13
           // derricks13("en-US"),
           // derricks1400"),
-          // speakderricks14
           // derricks14("en-US"),
           // derricks1500"),
-          // speakderricks15
           // derricks15("en-US"),
           // derricks1600"),
-          // speakderricks16
           // derricks16("en-US"),
           // derricks1700"),
-          // speakderricks17
           // derricks17("en-US"),
           // derricks1800"),
-          // speakderricks18
           // derricks18("en-US"),
           // derricks1900"),
-          // speakderricks19
           // derricks19("en-US"),
           // "They installed a new derrick for drilling operations.0"),
-          // speakderricks20
           // derricks20("en-US"),
           // derricks2100"),
-          // speakderricks21
           // derricks21("en-US"),
           // derricks2200"),
-          // speakderricks22
           // derricks22("en-US"),
         ],
       ),

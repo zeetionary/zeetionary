@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,45 +365,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeasychairs1("en-US"),
           ),
           // easychairs200easychairs2
-          // speakeasychairs2
           // easychairs300easychairs3
-          // speakeasychairs3
           // easychairs400easychairs4
-          // speakeasychairs4
           // easychairs500easychairs5
-          // speakeasychairs5
           // easychairs600easychairs6
-          // speakeasychairs6
           // easychairs700easychairs7
-          // speakeasychairs7
           // easychairs800easychairs8
-          // speakeasychairs8
           // easychairs900easychairs9
-          // speakeasychairs9
           // easychairs_1000easychairs10
-          // speakeasychairs10
           // easychairs1100easychairs11
-          // speakeasychairs11
           // easychairs1200easychairs12
-          // speakeasychairs12
           // easychairs1300easychairs13
-          // speakeasychairs13
           // easychairs1400easychairs14
-          // speakeasychairs14
           // easychairs1500easychairs15
-          // speakeasychairs15
           // easychairs1600easychairs16
-          // speakeasychairs16
           // easychairs1700easychairs17
-          // speakeasychairs17
           // easychairs1800easychairs18
-          // speakeasychairs18
           // easychairs1900easychairs19
-          // speakeasychairs19
           // easychairs_2000easychairs20
-          // speakeasychairs20
           // easychairs2100easychairs21
-          // speakeasychairs21
           // easychairs2200easychairs22
           // speakeasychairs22("en-US"""),
           //         ),

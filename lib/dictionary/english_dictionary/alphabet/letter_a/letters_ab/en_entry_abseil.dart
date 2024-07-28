@@ -85,7 +85,6 @@ ${englishMeaningConst.text}
   }
 
   Future<void> speaka6271(String languageCode) async {
-    // speakAbseil
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
@@ -150,18 +149,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ١. (کردار و ناو) ھاتنەخوارە بە تەناف‌دا (لە ھەڵدێرەوە) بە بەکارھێنانی پێیەکانت بۆ دوورخستنەوەی جەستەت لە ھەڵدێرەکە"""),
-                          SentencesRow(
-                            englishText:
-                                "I was a little scared when I first abseiled.",
-                            kurdishText:
-                                "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف.",
-                            onPressedBritish: () => speaka6271("en-GB"),
-                            onPressedAmerican: () => speaka6271("en-US"),
-                          ),
-                        ],
+                    SentencesRow(
+                      englishText:
+                          "I was a little scared when I first abseiled.",
+                      kurdishText:
+                          "کەمێک تاساوبووم کە یەکەمجار بە ھەڵدێرێکدا ھاتمە خوارەوە بە تەناف.",
+                      onPressedBritish: () => speaka6271("en-GB"),
+                      onPressedAmerican: () => speaka6271("en-US"),
+                    ),
+                  ],
                 ),
               ),
               Consumer(

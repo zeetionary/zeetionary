@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -251,64 +249,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdexterouss2("en-US"),
           ),
           // dexterouss300"),
-          // speakdexterouss3
           // dexterouss3("en-US"),
           // dexterouss400"),
-          // speakdexterouss4
           // dexterouss4("en-US"),
           // dexterouss500"),
-          // speakdexterouss5
           // dexterouss5("en-US"),
           // dexterouss600"),
-          // speakdexterouss6
           // dexterouss6("en-US"),
           // dexterouss700"),
-          // speakdexterouss7
           // dexterouss7("en-US"),
           // dexterouss800"),
-          // speakdexterouss8
           // dexterouss8("en-US"),
           // dexterouss900"),
-          // speakdexterouss9
           // dexterouss9("en-US"),
           // dexterouss_1000"),
-          // speakdexterouss10
           // dexterouss10("en-US"),
           // dexterouss1100"),
-          // speakdexterouss11
           // dexterouss11("en-US"),
           // dexterouss1200"),
-          // speakdexterouss12
           // dexterouss12("en-US"),
           // dexterouss1300"),
-          // speakdexterouss13
           // dexterouss13("en-US"),
           // dexterouss1400"),
-          // speakdexterouss14
           // dexterouss14("en-US"),
           // dexterouss1500"),
-          // speakdexterouss15
           // dexterouss15("en-US"),
           // dexterouss1600"),
-          // speakdexterouss16
           // dexterouss16("en-US"),
           // dexterouss1700"),
-          // speakdexterouss17
           // dexterouss17("en-US"),
           // dexterouss1800"),
-          // speakdexterouss18
           // dexterouss18("en-US"),
           // dexterouss1900"),
-          // speakdexterouss19
           // dexterouss19("en-US"),
           // dexterouss_2000"),
-          // speakdexterouss20
           // dexterouss20("en-US"),
           // dexterouss2100"),
-          // speakdexterouss21
           // dexterouss21("en-US"),
           // dexterouss2200"),
-          // speakdexterouss22
           // dexterouss22("en-US"),
         ],
       ),

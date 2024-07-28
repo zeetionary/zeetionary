@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdroppingss1("en-US"),
           ),
           // droppingss200"),
-          // speakdroppingss2
           // droppingss2("en-US"),
           // droppingss300"),
-          // speakdroppingss3
           // droppingss3("en-US"),
           // droppingss400"),
-          // speakdroppingss4
           // droppingss4("en-US"),
           // droppingss500"),
-          // speakdroppingss5
           // droppingss5("en-US"),
           // droppingss600"),
-          // speakdroppingss6
           // droppingss6("en-US"),
           // droppingss700"),
-          // speakdroppingss7
           // droppingss7("en-US"),
           // droppingss800"),
-          // speakdroppingss8
           // droppingss8("en-US"),
           // droppingss900"),
-          // speakdroppingss9
           // droppingss9("en-US"),
           // droppingss_1000"),
-          // speakdroppingss10
           // droppingss10("en-US"),
           // droppingss1100"),
-          // speakdroppingss11
           // droppingss11("en-US"),
           // droppingss1200"),
-          // speakdroppingss12
           // droppingss12("en-US"),
           // droppingss1300"),
-          // speakdroppingss13
           // droppingss13("en-US"),
           // droppingss1400"),
-          // speakdroppingss14
           // droppingss14("en-US"),
           // droppingss1500"),
-          // speakdroppingss15
           // droppingss15("en-US"),
           // droppingss1600"),
-          // speakdroppingss16
           // droppingss16("en-US"),
           // droppingss1700"),
-          // speakdroppingss17
           // droppingss17("en-US"),
           // droppingss1800"),
-          // speakdroppingss18
           // droppingss18("en-US"),
           // droppingss1900"),
-          // speakdroppingss19
           // droppingss19("en-US"),
           // droppingss_2000"),
-          // speakdroppingss20
           // droppingss20("en-US"),
           // droppingss2100"),
-          // speakdroppingss21
           // droppingss21("en-US"),
           // droppingss2200"),
-          // speakdroppingss22
           // droppingss22("en-US"),
         ],
       ),

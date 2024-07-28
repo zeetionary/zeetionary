@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivisionals1("en-US"),
           ),
           // divisionals200"),
-          // speakdivisionals2
           // divisionals2("en-US"),
           // divisionals300"),
-          // speakdivisionals3
           // divisionals3("en-US"),
           // divisionals400"),
-          // speakdivisionals4
           // divisionals4("en-US"),
           // divisionals500"),
-          // speakdivisionals5
           // divisionals5("en-US"),
           // divisionals600"),
-          // speakdivisionals6
           // divisionals6("en-US"),
           // divisionals700"),
-          // speakdivisionals7
           // divisionals7("en-US"),
           // divisionals800"),
-          // speakdivisionals8
           // divisionals8("en-US"),
           // divisionals900"),
-          // speakdivisionals9
           // divisionals9("en-US"),
           // divisionals_1000"),
-          // speakdivisionals10
           // divisionals10("en-US"),
           // divisionals1100"),
-          // speakdivisionals11
           // divisionals11("en-US"),
           // divisionals1200"),
-          // speakdivisionals12
           // divisionals12("en-US"),
           // divisionals1300"),
-          // speakdivisionals13
           // divisionals13("en-US"),
           // divisionals1400"),
-          // speakdivisionals14
           // divisionals14("en-US"),
           // divisionals1500"),
-          // speakdivisionals15
           // divisionals15("en-US"),
           // divisionals1600"),
-          // speakdivisionals16
           // divisionals16("en-US"),
           // divisionals1700"),
-          // speakdivisionals17
           // divisionals17("en-US"),
           // divisionals1800"),
-          // speakdivisionals18
           // divisionals18("en-US"),
           // divisionals1900"),
-          // speakdivisionals19
           // divisionals19("en-US"),
           // divisionals_2000"),
-          // speakdivisionals20
           // divisionals20("en-US"),
           // divisionals2100"),
-          // speakdivisionals21
           // divisionals21("en-US"),
           // divisionals2200"),
-          // speakdivisionals22
           // divisionals22("en-US"),
         ],
       ),

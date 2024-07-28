@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -291,61 +289,42 @@ class KurdishMeaning extends StatelessWidget {
             ],
           ),
           // disks400"),
-          // speakdisks4
           // disks4("en-US"),
           // disks500"),
-          // speakdisks5
           // disks5("en-US"),
           // disks600"),
-          // speakdisks6
           // disks6("en-US"),
           // disks700"),
-          // speakdisks7
           // disks7("en-US"),
           // disks800"),
-          // speakdisks8
           // disks8("en-US"),
           // disks900"),
-          // speakdisks9
           // disks9("en-US"),
           // disks_1000"),
-          // speakdisks10
           // disks10("en-US"),
           // disks1100"),
-          // speakdisks11
           // disks11("en-US"),
           // disks1200"),
-          // speakdisks12
           // disks12("en-US"),
           // disks1300"),
-          // speakdisks13
           // disks13("en-US"),
           // disks1400"),
-          // speakdisks14
           // disks14("en-US"),
           // disks1500"),
-          // speakdisks15
           // disks15("en-US"),
           // disks1600"),
-          // speakdisks16
           // disks16("en-US"),
           // disks1700"),
-          // speakdisks17
           // disks17("en-US"),
           // disks1800"),
-          // speakdisks18
           // disks18("en-US"),
           // disks1900"),
-          // speakdisks19
           // disks19("en-US"),
           // disks_2000"),
-          // speakdisks20
           // disks20("en-US"),
           // disks2100"),
-          // speakdisks21
           // disks21("en-US"),
           // disks2200"),
-          // speakdisks22
           // disks22("en-US"),
         ],
       ),

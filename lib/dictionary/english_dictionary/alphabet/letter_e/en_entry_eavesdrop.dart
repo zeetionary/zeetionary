@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeavesdrops1("en-US"),
           ),
           // eavesdrops200eavesdrops2
-          // speakeavesdrops2
           // eavesdrops300eavesdrops3
-          // speakeavesdrops3
           // eavesdrops400eavesdrops4
-          // speakeavesdrops4
           // eavesdrops500eavesdrops5
-          // speakeavesdrops5
           // eavesdrops600eavesdrops6
-          // speakeavesdrops6
           // eavesdrops700eavesdrops7
-          // speakeavesdrops7
           // eavesdrops800eavesdrops8
-          // speakeavesdrops8
           // eavesdrops900eavesdrops9
-          // speakeavesdrops9
           // eavesdrops_1000eavesdrops10
-          // speakeavesdrops10
           // eavesdrops1100eavesdrops11
-          // speakeavesdrops11
           // eavesdrops1200eavesdrops12
-          // speakeavesdrops12
           // eavesdrops1300eavesdrops13
-          // speakeavesdrops13
           // eavesdrops1400eavesdrops14
-          // speakeavesdrops14
           // eavesdrops1500eavesdrops15
-          // speakeavesdrops15
           // eavesdrops1600eavesdrops16
-          // speakeavesdrops16
           // eavesdrops1700eavesdrops17
-          // speakeavesdrops17
           // eavesdrops1800eavesdrops18
-          // speakeavesdrops18
           // eavesdrops1900eavesdrops19
-          // speakeavesdrops19
           // eavesdrops_2000eavesdrops20
-          // speakeavesdrops20
           // eavesdrops2100eavesdrops21
-          // speakeavesdrops21
           // eavesdrops2200eavesdrops22
           // speakeavesdrops22("en-US"""),
           //         ),

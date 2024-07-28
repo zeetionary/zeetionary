@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -270,61 +268,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdismallys3("en-US"),
           ),
           // dismallys400"),
-          // speakdismallys4
           // dismallys4("en-US"),
           // dismallys500"),
-          // speakdismallys5
           // dismallys5("en-US"),
           // dismallys600"),
-          // speakdismallys6
           // dismallys6("en-US"),
           // dismallys700"),
-          // speakdismallys7
           // dismallys7("en-US"),
           // dismallys800"),
-          // speakdismallys8
           // dismallys8("en-US"),
           // dismallys900"),
-          // speakdismallys9
           // dismallys9("en-US"),
           // dismallys_1000"),
-          // speakdismallys10
           // dismallys10("en-US"),
           // dismallys1100"),
-          // speakdismallys11
           // dismallys11("en-US"),
           // dismallys1200"),
-          // speakdismallys12
           // dismallys12("en-US"),
           // dismallys1300"),
-          // speakdismallys13
           // dismallys13("en-US"),
           // dismallys1400"),
-          // speakdismallys14
           // dismallys14("en-US"),
           // dismallys1500"),
-          // speakdismallys15
           // dismallys15("en-US"),
           // dismallys1600"),
-          // speakdismallys16
           // dismallys16("en-US"),
           // dismallys1700"),
-          // speakdismallys17
           // dismallys17("en-US"),
           // dismallys1800"),
-          // speakdismallys18
           // dismallys18("en-US"),
           // dismallys1900"),
-          // speakdismallys19
           // dismallys19("en-US"),
           // dismallys_2000"),
-          // speakdismallys20
           // dismallys20("en-US"),
           // dismallys2100"),
-          // speakdismallys21
           // dismallys21("en-US"),
           // dismallys2200"),
-          // speakdismallys22
           // dismallys22("en-US"),
         ],
       ),

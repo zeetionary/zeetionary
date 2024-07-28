@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoomsdays2("en-US"),
           ),
           // doomsdays300"),
-          // speakdoomsdays3
           // doomsdays3("en-US"),
           // doomsdays400"),
-          // speakdoomsdays4
           // doomsdays4("en-US"),
           // doomsdays500"),
-          // speakdoomsdays5
           // doomsdays5("en-US"),
           // doomsdays600"),
-          // speakdoomsdays6
           // doomsdays6("en-US"),
           // doomsdays700"),
-          // speakdoomsdays7
           // doomsdays7("en-US"),
           // doomsdays800"),
-          // speakdoomsdays8
           // doomsdays8("en-US"),
           // doomsdays900"),
-          // speakdoomsdays9
           // doomsdays9("en-US"),
           // doomsdays_1000"),
-          // speakdoomsdays10
           // doomsdays10("en-US"),
           // doomsdays1100"),
-          // speakdoomsdays11
           // doomsdays11("en-US"),
           // doomsdays1200"),
-          // speakdoomsdays12
           // doomsdays12("en-US"),
           // doomsdays1300"),
-          // speakdoomsdays13
           // doomsdays13("en-US"),
           // doomsdays1400"),
-          // speakdoomsdays14
           // doomsdays14("en-US"),
           // doomsdays1500"),
-          // speakdoomsdays15
           // doomsdays15("en-US"),
           // doomsdays1600"),
-          // speakdoomsdays16
           // doomsdays16("en-US"),
           // doomsdays1700"),
-          // speakdoomsdays17
           // doomsdays17("en-US"),
           // doomsdays1800"),
-          // speakdoomsdays18
           // doomsdays18("en-US"),
           // doomsdays1900"),
-          // speakdoomsdays19
           // doomsdays19("en-US"),
           // doomsdays_2000"),
-          // speakdoomsdays20
           // doomsdays20("en-US"),
           // doomsdays2100"),
-          // speakdoomsdays21
           // doomsdays21("en-US"),
           // doomsdays2200"),
-          // speakdoomsdays22
           // doomsdays22("en-US"),
         ],
       ),

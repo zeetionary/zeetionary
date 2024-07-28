@@ -377,9 +377,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -426,55 +424,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrizzles5("en-US"),
           ),
           // drizzles600"),
-          // speakdrizzles6
           // drizzles6("en-US"),
           // drizzles700"),
-          // speakdrizzles7
           // drizzles7("en-US"),
           // drizzles800"),
-          // speakdrizzles8
           // drizzles8("en-US"),
           // drizzles900"),
-          // speakdrizzles9
           // drizzles9("en-US"),
           // drizzles_1000"),
-          // speakdrizzles10
           // drizzles10("en-US"),
           // drizzles1100"),
-          // speakdrizzles11
           // drizzles11("en-US"),
           // drizzles1200"),
-          // speakdrizzles12
           // drizzles12("en-US"),
           // drizzles1300"),
-          // speakdrizzles13
           // drizzles13("en-US"),
           // drizzles1400"),
-          // speakdrizzles14
           // drizzles14("en-US"),
           // drizzles1500"),
-          // speakdrizzles15
           // drizzles15("en-US"),
           // drizzles1600"),
-          // speakdrizzles16
           // drizzles16("en-US"),
           // drizzles1700"),
-          // speakdrizzles17
           // drizzles17("en-US"),
           // drizzles1800"),
-          // speakdrizzles18
           // drizzles18("en-US"),
           // drizzles1900"),
-          // speakdrizzles19
           // drizzles19("en-US"),
           // drizzles_2000"),
-          // speakdrizzles20
           // drizzles20("en-US"),
           // drizzles2100"),
-          // speakdrizzles21
           // drizzles21("en-US"),
           // drizzles2200"),
-          // speakdrizzles22
           // drizzles22("en-US"),
         ],
       ),

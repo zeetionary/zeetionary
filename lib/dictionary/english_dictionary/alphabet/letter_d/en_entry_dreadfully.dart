@@ -363,9 +363,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -395,61 +393,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdreadfullys3("en-US"),
           ),
           // dreadfullys400"),
-          // speakdreadfullys4
           // dreadfullys4("en-US"),
           // dreadfullys500"),
-          // speakdreadfullys5
           // dreadfullys5("en-US"),
           // dreadfullys600"),
-          // speakdreadfullys6
           // dreadfullys6("en-US"),
           // dreadfullys700"),
-          // speakdreadfullys7
           // dreadfullys7("en-US"),
           // dreadfullys800"),
-          // speakdreadfullys8
           // dreadfullys8("en-US"),
           // dreadfullys900"),
-          // speakdreadfullys9
           // dreadfullys9("en-US"),
           // dreadfullys_1000"),
-          // speakdreadfullys10
           // dreadfullys10("en-US"),
           // dreadfullys1100"),
-          // speakdreadfullys11
           // dreadfullys11("en-US"),
           // dreadfullys1200"),
-          // speakdreadfullys12
           // dreadfullys12("en-US"),
           // dreadfullys1300"),
-          // speakdreadfullys13
           // dreadfullys13("en-US"),
           // dreadfullys1400"),
-          // speakdreadfullys14
           // dreadfullys14("en-US"),
           // dreadfullys1500"),
-          // speakdreadfullys15
           // dreadfullys15("en-US"),
           // dreadfullys1600"),
-          // speakdreadfullys16
           // dreadfullys16("en-US"),
           // dreadfullys1700"),
-          // speakdreadfullys17
           // dreadfullys17("en-US"),
           // dreadfullys1800"),
-          // speakdreadfullys18
           // dreadfullys18("en-US"),
           // dreadfullys1900"),
-          // speakdreadfullys19
           // dreadfullys19("en-US"),
           // dreadfullys_2000"),
-          // speakdreadfullys20
           // dreadfullys20("en-US"),
           // dreadfullys2100"),
-          // speakdreadfullys21
           // dreadfullys21("en-US"),
           // dreadfullys2200"),
-          // speakdreadfullys22
           // dreadfullys22("en-US"),
         ],
       ),

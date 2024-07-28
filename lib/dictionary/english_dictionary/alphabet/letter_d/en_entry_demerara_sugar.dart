@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemerarasugars1("en-US"),
           ),
           // demerarasugars200"),
-          // speakdemerarasugars2
           // demerarasugars2("en-US"),
           // demerarasugars300"),
-          // speakdemerarasugars3
           // demerarasugars3("en-US"),
           // demerarasugars400"),
-          // speakdemerarasugars4
           // demerarasugars4("en-US"),
           // demerarasugars500"),
-          // speakdemerarasugars5
           // demerarasugars5("en-US"),
           // demerarasugars600"),
-          // speakdemerarasugars6
           // demerarasugars6("en-US"),
           // demerarasugars700"),
-          // speakdemerarasugars7
           // demerarasugars7("en-US"),
           // demerarasugars800"),
-          // speakdemerarasugars8
           // demerarasugars8("en-US"),
           // demerarasugars900"),
-          // speakdemerarasugars9
           // demerarasugars9("en-US"),
           // demerarasugars1000"),
-          // speakdemerarasugars10
           // demerarasugars10("en-US"),
           // demerarasugars1100"),
-          // speakdemerarasugars11
           // demerarasugars11("en-US"),
           // demerarasugars1200"),
-          // speakdemerarasugars12
           // demerarasugars12("en-US"),
           // demerarasugars1300"),
-          // speakdemerarasugars13
           // demerarasugars13("en-US"),
           // demerarasugars1400"),
-          // speakdemerarasugars14
           // demerarasugars14("en-US"),
           // demerarasugars1500"),
-          // speakdemerarasugars15
           // demerarasugars15("en-US"),
           // demerarasugars1600"),
-          // speakdemerarasugars16
           // demerarasugars16("en-US"),
           // demerarasugars1700"),
-          // speakdemerarasugars17
           // demerarasugars17("en-US"),
           // demerarasugars1800"),
-          // speakdemerarasugars18
           // demerarasugars18("en-US"),
           // demerarasugars1900"),
-          // speakdemerarasugars19
           // demerarasugars19("en-US"),
           // demerarasugars2000"),
-          // speakdemerarasugars20
           // demerarasugars20("en-US"),
           // demerarasugars2100"),
-          // speakdemerarasugars21
           // demerarasugars21("en-US"),
           // demerarasugars2200"),
-          // speakdemerarasugars22
           // demerarasugars22("en-US"),
         ],
       ),

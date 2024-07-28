@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -249,64 +247,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdirtcheaps2("en-US"),
           ),
           // dirtcheaps300"),
-          // speakdirtcheaps3
           // dirtcheaps3("en-US"),
           // dirtcheaps400"),
-          // speakdirtcheaps4
           // dirtcheaps4("en-US"),
           // dirtcheaps500"),
-          // speakdirtcheaps5
           // dirtcheaps5("en-US"),
           // dirtcheaps600"),
-          // speakdirtcheaps6
           // dirtcheaps6("en-US"),
           // dirtcheaps700"),
-          // speakdirtcheaps7
           // dirtcheaps7("en-US"),
           // dirtcheaps800"),
-          // speakdirtcheaps8
           // dirtcheaps8("en-US"),
           // dirtcheaps900"),
-          // speakdirtcheaps9
           // dirtcheaps9("en-US"),
           // dirtcheaps_1000"),
-          // speakdirtcheaps10
           // dirtcheaps10("en-US"),
           // dirtcheaps1100"),
-          // speakdirtcheaps11
           // dirtcheaps11("en-US"),
           // dirtcheaps1200"),
-          // speakdirtcheaps12
           // dirtcheaps12("en-US"),
           // dirtcheaps1300"),
-          // speakdirtcheaps13
           // dirtcheaps13("en-US"),
           // dirtcheaps1400"),
-          // speakdirtcheaps14
           // dirtcheaps14("en-US"),
           // dirtcheaps1500"),
-          // speakdirtcheaps15
           // dirtcheaps15("en-US"),
           // dirtcheaps1600"),
-          // speakdirtcheaps16
           // dirtcheaps16("en-US"),
           // dirtcheaps1700"),
-          // speakdirtcheaps17
           // dirtcheaps17("en-US"),
           // dirtcheaps1800"),
-          // speakdirtcheaps18
           // dirtcheaps18("en-US"),
           // dirtcheaps1900"),
-          // speakdirtcheaps19
           // dirtcheaps19("en-US"),
           // dirtcheaps_2000"),
-          // speakdirtcheaps20
           // dirtcheaps20("en-US"),
           // dirtcheaps2100"),
-          // speakdirtcheaps21
           // dirtcheaps21("en-US"),
           // dirtcheaps2200"),
-          // speakdirtcheaps22
           // dirtcheaps22("en-US"),
         ],
       ),

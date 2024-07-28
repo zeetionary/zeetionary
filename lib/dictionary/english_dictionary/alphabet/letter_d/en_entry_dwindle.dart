@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdwindles2("en-US"),
           ),
           // dwindles300
-          // speakdwindles3
           // dwindles3("en-US"""),
           // dwindles400
-          // speakdwindles4
           // dwindles4("en-US"""),
           // dwindles500
-          // speakdwindles5
           // dwindles5("en-US"""),
           // dwindles600
-          // speakdwindles6
           // dwindles6("en-US"""),
           // dwindles700
-          // speakdwindles7
           // dwindles7("en-US"""),
           // dwindles800
-          // speakdwindles8
           // dwindles8("en-US"""),
           // dwindles900
-          // speakdwindles9
           // dwindles9("en-US"""),
           // dwindles_1000
-          // speakdwindles10
           // dwindles10("en-US"""),
           // dwindles1100
-          // speakdwindles11
           // dwindles11("en-US"""),
           // dwindles1200
-          // speakdwindles12
           // dwindles12("en-US"""),
           // dwindles1300
-          // speakdwindles13
           // dwindles13("en-US"""),
           // dwindles1400
-          // speakdwindles14
           // dwindles14("en-US"""),
           // dwindles1500
-          // speakdwindles15
           // dwindles15("en-US"""),
           // dwindles1600
-          // speakdwindles16
           // dwindles16("en-US"""),
           // dwindles1700
-          // speakdwindles17
           // dwindles17("en-US"""),
           // dwindles1800
-          // speakdwindles18
           // dwindles18("en-US"""),
           // dwindles1900
-          // speakdwindles19
           // dwindles19("en-US"""),
           // dwindles_2000
-          // speakdwindles20
           // dwindles20("en-US"""),
           // dwindles2100
-          // speakdwindles21
           // dwindles21("en-US"""),
           // dwindles2200
-          // speakdwindles22
           // dwindles22("en-US"""),
         ],
       ),

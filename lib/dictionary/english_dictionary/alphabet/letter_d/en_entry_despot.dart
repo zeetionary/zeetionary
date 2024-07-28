@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespots1("en-US"),
           ),
           // despots200"),
-          // speakdespots2
           // despots2("en-US"),
           // despots300"),
-          // speakdespots3
           // despots3("en-US"),
           // despots400"),
-          // speakdespots4
           // despots4("en-US"),
           // despots500"),
-          // speakdespots5
           // despots5("en-US"),
           // despots600"),
-          // speakdespots6
           // despots6("en-US"),
           // despots700"),
-          // speakdespots7
           // despots7("en-US"),
           // despots800"),
-          // speakdespots8
           // despots8("en-US"),
           // despots900"),
-          // speakdespots9
           // despots9("en-US"),
           // despots1000"),
-          // speakdespots10
           // despots10("en-US"),
           // despots1100"),
-          // speakdespots11
           // despots11("en-US"),
           // despots1200"),
-          // speakdespots12
           // despots12("en-US"),
           // despots1300"),
-          // speakdespots13
           // despots13("en-US"),
           // despots1400"),
-          // speakdespots14
           // despots14("en-US"),
           // despots1500"),
-          // speakdespots15
           // despots15("en-US"),
           // despots1600"),
-          // speakdespots16
           // despots16("en-US"),
           // despots1700"),
-          // speakdespots17
           // despots17("en-US"),
           // despots1800"),
-          // speakdespots18
           // despots18("en-US"),
           // despots1900"),
-          // speakdespots19
           // despots19("en-US"),
           // despots2000"),
-          // speakdespots20
           // despots20("en-US"),
           // despots2100"),
-          // speakdespots21
           // despots21("en-US"),
           // despots2200"),
-          // speakdespots22
           // despots22("en-US"),
         ],
       ),

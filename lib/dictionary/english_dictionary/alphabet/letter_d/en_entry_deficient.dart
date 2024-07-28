@@ -227,9 +227,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -273,61 +271,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeficients3("en-US"),
           ),
           // deficients400"),
-          // speakdeficients4
           // deficients4("en-US"),
           // deficients500"),
-          // speakdeficients5
           // deficients5("en-US"),
           // deficients600"),
-          // speakdeficients6
           // deficients6("en-US"),
           // deficients700"),
-          // speakdeficients7
           // deficients7("en-US"),
           // deficients800"),
-          // speakdeficients8
           // deficients8("en-US"),
           // deficients900"),
-          // speakdeficients9
           // deficients9("en-US"),
           // deficients1000"),
-          // speakdeficients10
           // deficients10("en-US"),
           // deficients1100"),
-          // speakdeficients11
           // deficients11("en-US"),
           // deficients1200"),
-          // speakdeficients12
           // deficients12("en-US"),
           // deficients1300"),
-          // speakdeficients13
           // deficients13("en-US"),
           // deficients1400"),
-          // speakdeficients14
           // deficients14("en-US"),
           // deficients1500"),
-          // speakdeficients15
           // deficients15("en-US"),
           // deficients1600"),
-          // speakdeficients16
           // deficients16("en-US"),
           // deficients1700"),
-          // speakdeficients17
           // deficients17("en-US"),
           // deficients1800"),
-          // speakdeficients18
           // deficients18("en-US"),
           // deficients1900"),
-          // speakdeficients19
           // deficients19("en-US"),
           // deficients2000"),
-          // speakdeficients20
           // deficients20("en-US"),
           // deficients2100"),
-          // speakdeficients21
           // deficients21("en-US"),
           // deficients2200"),
-          // speakdeficients22
           // deficients22("en-US"),
         ],
       ),

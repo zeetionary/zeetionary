@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisadvantageds3("en-US"),
           ),
           // disadvantageds400"),
-          // speakdisadvantageds4
           // disadvantageds4("en-US"),
           // disadvantageds500"),
-          // speakdisadvantageds5
           // disadvantageds5("en-US"),
           // disadvantageds600"),
-          // speakdisadvantageds6
           // disadvantageds6("en-US"),
           // disadvantageds700"),
-          // speakdisadvantageds7
           // disadvantageds7("en-US"),
           // disadvantageds800"),
-          // speakdisadvantageds8
           // disadvantageds8("en-US"),
           // disadvantageds900"),
-          // speakdisadvantageds9
           // disadvantageds9("en-US"),
           // disadvantageds_1000"),
-          // speakdisadvantageds10
           // disadvantageds10("en-US"),
           // disadvantageds1100"),
-          // speakdisadvantageds11
           // disadvantageds11("en-US"),
           // disadvantageds1200"),
-          // speakdisadvantageds12
           // disadvantageds12("en-US"),
           // disadvantageds1300"),
-          // speakdisadvantageds13
           // disadvantageds13("en-US"),
           // disadvantageds1400"),
-          // speakdisadvantageds14
           // disadvantageds14("en-US"),
           // disadvantageds1500"),
-          // speakdisadvantageds15
           // disadvantageds15("en-US"),
           // disadvantageds1600"),
-          // speakdisadvantageds16
           // disadvantageds16("en-US"),
           // disadvantageds1700"),
-          // speakdisadvantageds17
           // disadvantageds17("en-US"),
           // disadvantageds1800"),
-          // speakdisadvantageds18
           // disadvantageds18("en-US"),
           // disadvantageds1900"),
-          // speakdisadvantageds19
           // disadvantageds19("en-US"),
           // disadvantageds_2000"),
-          // speakdisadvantageds20
           // disadvantageds20("en-US"),
           // disadvantageds2100"),
-          // speakdisadvantageds21
           // disadvantageds21("en-US"),
           // disadvantageds2200"),
-          // speakdisadvantageds22
           // disadvantageds22("en-US"),
         ],
       ),

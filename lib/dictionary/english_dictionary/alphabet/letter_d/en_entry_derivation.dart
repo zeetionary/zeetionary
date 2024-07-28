@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderivations2("en-US"),
           ),
           // derivations300"),
-          // speakderivations3
           // derivations3("en-US"),
           // derivations400"),
-          // speakderivations4
           // derivations4("en-US"),
           // derivations500"),
-          // speakderivations5
           // derivations5("en-US"),
           // derivations600"),
-          // speakderivations6
           // derivations6("en-US"),
           // derivations700"),
-          // speakderivations7
           // derivations7("en-US"),
           // derivations800"),
-          // speakderivations8
           // derivations8("en-US"),
           // derivations900"),
-          // speakderivations9
           // derivations9("en-US"),
           // derivations1000"),
-          // speakderivations10
           // derivations10("en-US"),
           // derivations1100"),
-          // speakderivations11
           // derivations11("en-US"),
           // derivations1200"),
-          // speakderivations12
           // derivations12("en-US"),
           // derivations1300"),
-          // speakderivations13
           // derivations13("en-US"),
           // derivations1400"),
-          // speakderivations14
           // derivations14("en-US"),
           // derivations1500"),
-          // speakderivations15
           // derivations15("en-US"),
           // derivations1600"),
-          // speakderivations16
           // derivations16("en-US"),
           // derivations1700"),
-          // speakderivations17
           // derivations17("en-US"),
           // derivations1800"),
-          // speakderivations18
           // derivations18("en-US"),
           // derivations1900"),
-          // speakderivations19
           // derivations19("en-US"),
           // "The derivation of laws requires careful observation.0"),
-          // speakderivations20
           // derivations20("en-US"),
           // derivations2100"),
-          // speakderivations21
           // derivations21("en-US"),
           // derivations2200"),
-          // speakderivations22
           // derivations22("en-US"),
         ],
       ),

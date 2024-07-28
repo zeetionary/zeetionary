@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -384,43 +382,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectricchairs2("en-US"),
           ),
           // electricchairs300electricchairs3
-          // speakelectricchairs3
           // electricchairs400electricchairs4
-          // speakelectricchairs4
           // electricchairs500electricchairs5
-          // speakelectricchairs5
           // electricchairs600electricchairs6
-          // speakelectricchairs6
           // electricchairs700electricchairs7
-          // speakelectricchairs7
           // electricchairs800electricchairs8
-          // speakelectricchairs8
           // electricchairs900electricchairs9
-          // speakelectricchairs9
           // electricchairs_1000electricchairs10
-          // speakelectricchairs10
           // electricchairs1100electricchairs11
-          // speakelectricchairs11
           // electricchairs1200electricchairs12
-          // speakelectricchairs12
           // electricchairs1300electricchairs13
-          // speakelectricchairs13
           // electricchairs1400electricchairs14
-          // speakelectricchairs14
           // electricchairs1500electricchairs15
-          // speakelectricchairs15
           // electricchairs1600electricchairs16
-          // speakelectricchairs16
           // electricchairs1700electricchairs17
-          // speakelectricchairs17
           // electricchairs1800electricchairs18
-          // speakelectricchairs18
           // electricchairs1900electricchairs19
-          // speakelectricchairs19
           // electricchairs_2000electricchairs20
-          // speakelectricchairs20
           // electricchairs2100electricchairs21
-          // speakelectricchairs21
           // electricchairs2200electricchairs22
           // speakelectricchairs22("en-US"""),
           //         ),

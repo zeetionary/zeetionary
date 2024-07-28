@@ -237,9 +237,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -271,61 +269,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissatisfactions3("en-US"),
           ),
           // dissatisfactions400"),
-          // speakdissatisfactions4
           // dissatisfactions4
           // dissatisfactions500"),
-          // speakdissatisfactions5
           // dissatisfactions5
           // dissatisfactions600"),
-          // speakdissatisfactions6
           // dissatisfactions6
           // dissatisfactions700"),
-          // speakdissatisfactions7
           // dissatisfactions7
           // dissatisfactions800"),
-          // speakdissatisfactions8
           // dissatisfactions8
           // dissatisfactions900"),
-          // speakdissatisfactions9
           // dissatisfactions9
           // dissatisfactions_1000"),
-          // speakdissatisfactions10
           // dissatisfactions10
           // dissatisfactions1100"),
-          // speakdissatisfactions11
           // dissatisfactions11
           // dissatisfactions1200"),
-          // speakdissatisfactions12
           // dissatisfactions12
           // dissatisfactions1300"),
-          // speakdissatisfactions13
           // dissatisfactions13
           // dissatisfactions1400"),
-          // speakdissatisfactions14
           // dissatisfactions14
           // dissatisfactions1500"),
-          // speakdissatisfactions15
           // dissatisfactions15
           // dissatisfactions1600"),
-          // speakdissatisfactions16
           // dissatisfactions16
           // dissatisfactions1700"),
-          // speakdissatisfactions17
           // dissatisfactions17
           // dissatisfactions1800"),
-          // speakdissatisfactions18
           // dissatisfactions18
           // dissatisfactions1900"),
-          // speakdissatisfactions19
           // dissatisfactions19
           // dissatisfactions_2000"),
-          // speakdissatisfactions20
           // dissatisfactions20
           // dissatisfactions2100"),
-          // speakdissatisfactions21
           // dissatisfactions21
           // dissatisfactions2200"),
-          // speakdissatisfactions22
           // dissatisfactions22("en-US"),
         ],
       ),

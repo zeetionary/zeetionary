@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -371,45 +369,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakearlywarnings1("en-US"),
           ),
           // earlywarnings200earlywarnings2
-          // speakearlywarnings2
           // earlywarnings300earlywarnings3
-          // speakearlywarnings3
           // earlywarnings400earlywarnings4
-          // speakearlywarnings4
           // earlywarnings500earlywarnings5
-          // speakearlywarnings5
           // earlywarnings600earlywarnings6
-          // speakearlywarnings6
           // earlywarnings700earlywarnings7
-          // speakearlywarnings7
           // earlywarnings800earlywarnings8
-          // speakearlywarnings8
           // earlywarnings900earlywarnings9
-          // speakearlywarnings9
           // earlywarnings_1000earlywarnings10
-          // speakearlywarnings10
           // earlywarnings1100earlywarnings11
-          // speakearlywarnings11
           // earlywarnings1200earlywarnings12
-          // speakearlywarnings12
           // earlywarnings1300earlywarnings13
-          // speakearlywarnings13
           // earlywarnings1400earlywarnings14
-          // speakearlywarnings14
           // earlywarnings1500earlywarnings15
-          // speakearlywarnings15
           // earlywarnings1600earlywarnings16
-          // speakearlywarnings16
           // earlywarnings1700earlywarnings17
-          // speakearlywarnings17
           // earlywarnings1800earlywarnings18
-          // speakearlywarnings18
           // earlywarnings1900earlywarnings19
-          // speakearlywarnings19
           // earlywarnings_2000earlywarnings20
-          // speakearlywarnings20
           // earlywarnings2100earlywarnings21
-          // speakearlywarnings21
           // earlywarnings2200earlywarnings22
           // speakearlywarnings22("en-US"""),
           //         ),

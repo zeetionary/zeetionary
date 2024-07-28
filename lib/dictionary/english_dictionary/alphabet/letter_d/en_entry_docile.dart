@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -380,64 +378,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdociles2("en-US"),
           ),
           // dociles300"),
-          // speakdociles3
           // dociles3("en-US"),
           // dociles400"),
-          // speakdociles4
           // dociles4("en-US"),
           // dociles500"),
-          // speakdociles5
           // dociles5("en-US"),
           // dociles600"),
-          // speakdociles6
           // dociles6("en-US"),
           // dociles700"),
-          // speakdociles7
           // dociles7("en-US"),
           // dociles800"),
-          // speakdociles8
           // dociles8("en-US"),
           // dociles900"),
-          // speakdociles9
           // dociles9("en-US"),
           // dociles_1000"),
-          // speakdociles10
           // dociles10("en-US"),
           // dociles1100"),
-          // speakdociles11
           // dociles11("en-US"),
           // dociles1200"),
-          // speakdociles12
           // dociles12("en-US"),
           // dociles1300"),
-          // speakdociles13
           // dociles13("en-US"),
           // dociles1400"),
-          // speakdociles14
           // dociles14("en-US"),
           // dociles1500"),
-          // speakdociles15
           // dociles15("en-US"),
           // dociles1600"),
-          // speakdociles16
           // dociles16("en-US"),
           // dociles1700"),
-          // speakdociles17
           // dociles17("en-US"),
           // dociles1800"),
-          // speakdociles18
           // dociles18("en-US"),
           // dociles1900"),
-          // speakdociles19
           // dociles19("en-US"),
           // dociles_2000"),
-          // speakdociles20
           // dociles20("en-US"),
           // dociles2100"),
-          // speakdociles21
           // dociles21("en-US"),
           // dociles2200"),
-          // speakdociles22
           // dociles22("en-US"),
         ],
       ),

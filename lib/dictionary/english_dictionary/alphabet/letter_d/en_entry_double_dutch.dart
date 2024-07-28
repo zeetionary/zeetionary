@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoubledutchs1("en-US"),
           ),
           // doubledutchs200"),
-          // speakdoubledutchs2
           // doubledutchs2("en-US"),
           // doubledutchs300"),
-          // speakdoubledutchs3
           // doubledutchs3("en-US"),
           // doubledutchs400"),
-          // speakdoubledutchs4
           // doubledutchs4("en-US"),
           // doubledutchs500"),
-          // speakdoubledutchs5
           // doubledutchs5("en-US"),
           // doubledutchs600"),
-          // speakdoubledutchs6
           // doubledutchs6("en-US"),
           // doubledutchs700"),
-          // speakdoubledutchs7
           // doubledutchs7("en-US"),
           // doubledutchs800"),
-          // speakdoubledutchs8
           // doubledutchs8("en-US"),
           // doubledutchs900"),
-          // speakdoubledutchs9
           // doubledutchs9("en-US"),
           // doubledutchs_1000"),
-          // speakdoubledutchs10
           // doubledutchs10("en-US"),
           // doubledutchs1100"),
-          // speakdoubledutchs11
           // doubledutchs11("en-US"),
           // doubledutchs1200"),
-          // speakdoubledutchs12
           // doubledutchs12("en-US"),
           // doubledutchs1300"),
-          // speakdoubledutchs13
           // doubledutchs13("en-US"),
           // doubledutchs1400"),
-          // speakdoubledutchs14
           // doubledutchs14("en-US"),
           // doubledutchs1500"),
-          // speakdoubledutchs15
           // doubledutchs15("en-US"),
           // doubledutchs1600"),
-          // speakdoubledutchs16
           // doubledutchs16("en-US"),
           // doubledutchs1700"),
-          // speakdoubledutchs17
           // doubledutchs17("en-US"),
           // doubledutchs1800"),
-          // speakdoubledutchs18
           // doubledutchs18("en-US"),
           // doubledutchs1900"),
-          // speakdoubledutchs19
           // doubledutchs19("en-US"),
           // doubledutchs_2000"),
-          // speakdoubledutchs20
           // doubledutchs20("en-US"),
           // doubledutchs2100"),
-          // speakdoubledutchs21
           // doubledutchs21("en-US"),
           // doubledutchs2200"),
-          // speakdoubledutchs22
           // doubledutchs22("en-US"),
         ],
       ),

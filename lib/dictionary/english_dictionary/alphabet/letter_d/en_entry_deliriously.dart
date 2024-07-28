@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -278,61 +276,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeliriouslys3("en-US"),
           ),
           // deliriouslys400"),
-          // speakdeliriouslys4
           // deliriouslys4("en-US"),
           // deliriouslys500"),
-          // speakdeliriouslys5
           // deliriouslys5("en-US"),
           // deliriouslys600"),
-          // speakdeliriouslys6
           // deliriouslys6("en-US"),
           // deliriouslys700"),
-          // speakdeliriouslys7
           // deliriouslys7("en-US"),
           // deliriouslys800"),
-          // speakdeliriouslys8
           // deliriouslys8("en-US"),
           // deliriouslys900"),
-          // speakdeliriouslys9
           // deliriouslys9("en-US"),
           // deliriouslys1000"),
-          // speakdeliriouslys10
           // deliriouslys10("en-US"),
           // deliriouslys1100"),
-          // speakdeliriouslys11
           // deliriouslys11("en-US"),
           // deliriouslys1200"),
-          // speakdeliriouslys12
           // deliriouslys12("en-US"),
           // deliriouslys1300"),
-          // speakdeliriouslys13
           // deliriouslys13("en-US"),
           // deliriouslys1400"),
-          // speakdeliriouslys14
           // deliriouslys14("en-US"),
           // deliriouslys1500"),
-          // speakdeliriouslys15
           // deliriouslys15("en-US"),
           // deliriouslys1600"),
-          // speakdeliriouslys16
           // deliriouslys16("en-US"),
           // deliriouslys1700"),
-          // speakdeliriouslys17
           // deliriouslys17("en-US"),
           // deliriouslys1800"),
-          // speakdeliriouslys18
           // deliriouslys18("en-US"),
           // deliriouslys1900"),
-          // speakdeliriouslys19
           // deliriouslys19("en-US"),
           // "Kate and Peter are deliriously happy together.0"),
-          // speakdeliriouslys20
           // deliriouslys20("en-US"),
           // deliriouslys2100"),
-          // speakdeliriouslys21
           // deliriouslys21("en-US"),
           // deliriouslys2200"),
-          // speakdeliriouslys22
           // deliriouslys22("en-US"),
         ],
       ),

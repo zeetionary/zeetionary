@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -370,67 +368,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdockers1("en-US"),
           ),
           // dockers200"),
-          // speakdockers2
           // dockers2("en-US"),
           // dockers300"),
-          // speakdockers3
           // dockers3("en-US"),
           // dockers400"),
-          // speakdockers4
           // dockers4("en-US"),
           // dockers500"),
-          // speakdockers5
           // dockers5("en-US"),
           // dockers600"),
-          // speakdockers6
           // dockers6("en-US"),
           // dockers700"),
-          // speakdockers7
           // dockers7("en-US"),
           // dockers800"),
-          // speakdockers8
           // dockers8("en-US"),
           // dockers900"),
-          // speakdockers9
           // dockers9("en-US"),
           // dockers_1000"),
-          // speakdockers10
           // dockers10("en-US"),
           // dockers1100"),
-          // speakdockers11
           // dockers11("en-US"),
           // dockers1200"),
-          // speakdockers12
           // dockers12("en-US"),
           // dockers1300"),
-          // speakdockers13
           // dockers13("en-US"),
           // dockers1400"),
-          // speakdockers14
           // dockers14("en-US"),
           // dockers1500"),
-          // speakdockers15
           // dockers15("en-US"),
           // dockers1600"),
-          // speakdockers16
           // dockers16("en-US"),
           // dockers1700"),
-          // speakdockers17
           // dockers17("en-US"),
           // dockers1800"),
-          // speakdockers18
           // dockers18("en-US"),
           // dockers1900"),
-          // speakdockers19
           // dockers19("en-US"),
           // dockers_2000"),
-          // speakdockers20
           // dockers20("en-US"),
           // dockers2100"),
-          // speakdockers21
           // dockers21("en-US"),
           // dockers2200"),
-          // speakdockers22
           // dockers22("en-US"),
         ],
       ),

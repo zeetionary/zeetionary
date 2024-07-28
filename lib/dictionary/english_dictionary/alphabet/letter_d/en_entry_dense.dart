@@ -240,9 +240,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -276,61 +274,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenses3("en-US"),
           ),
           // denses400"),
-          // speakdenses4
           // denses4("en-US"),
           // denses500"),
-          // speakdenses5
           // denses5("en-US"),
           // denses600"),
-          // speakdenses6
           // denses6("en-US"),
           // denses700"),
-          // speakdenses7
           // denses7("en-US"),
           // denses800"),
-          // speakdenses8
           // denses8("en-US"),
           // denses900"),
-          // speakdenses9
           // denses9("en-US"),
           // denses1000"),
-          // speakdenses10
           // denses10("en-US"),
           // denses1100"),
-          // speakdenses11
           // denses11("en-US"),
           // denses1200"),
-          // speakdenses12
           // denses12("en-US"),
           // denses1300"),
-          // speakdenses13
           // denses13("en-US"),
           // denses1400"),
-          // speakdenses14
           // denses14("en-US"),
           // denses1500"),
-          // speakdenses15
           // denses15("en-US"),
           // denses1600"),
-          // speakdenses16
           // denses16("en-US"),
           // denses1700"),
-          // speakdenses17
           // denses17("en-US"),
           // denses1800"),
-          // speakdenses18
           // denses18("en-US"),
           // denses1900"),
-          // speakdenses19
           // denses19("en-US"),
           // "The fog was getting very dense.0"),
-          // speakdenses20
           // denses20("en-US"),
           // denses2100"),
-          // speakdenses21
           // denses21("en-US"),
           // denses2200"),
-          // speakdenses22
           // denses22("en-US"),
         ],
       ),

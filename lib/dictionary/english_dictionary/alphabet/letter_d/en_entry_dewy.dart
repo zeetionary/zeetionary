@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdewys1("en-US"),
           ),
           // dewys200"),
-          // speakdewys2
           // dewys2("en-US"),
           // dewys300"),
-          // speakdewys3
           // dewys3("en-US"),
           // dewys400"),
-          // speakdewys4
           // dewys4("en-US"),
           // dewys500"),
-          // speakdewys5
           // dewys5("en-US"),
           // dewys600"),
-          // speakdewys6
           // dewys6("en-US"),
           // dewys700"),
-          // speakdewys7
           // dewys7("en-US"),
           // dewys800"),
-          // speakdewys8
           // dewys8("en-US"),
           // dewys900"),
-          // speakdewys9
           // dewys9("en-US"),
           // dewys_1000"),
-          // speakdewys10
           // dewys10("en-US"),
           // dewys1100"),
-          // speakdewys11
           // dewys11("en-US"),
           // dewys1200"),
-          // speakdewys12
           // dewys12("en-US"),
           // dewys1300"),
-          // speakdewys13
           // dewys13("en-US"),
           // dewys1400"),
-          // speakdewys14
           // dewys14("en-US"),
           // dewys1500"),
-          // speakdewys15
           // dewys15("en-US"),
           // dewys1600"),
-          // speakdewys16
           // dewys16("en-US"),
           // dewys1700"),
-          // speakdewys17
           // dewys17("en-US"),
           // dewys1800"),
-          // speakdewys18
           // dewys18("en-US"),
           // dewys1900"),
-          // speakdewys19
           // dewys19("en-US"),
           // dewys_2000"),
-          // speakdewys20
           // dewys20("en-US"),
           // dewys2100"),
-          // speakdewys21
           // dewys21("en-US"),
           // dewys2200"),
-          // speakdewys22
           // dewys22("en-US"),
         ],
       ),

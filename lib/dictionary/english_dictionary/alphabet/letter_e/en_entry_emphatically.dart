@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -402,41 +400,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemphaticallys3("en-US"),
           ),
           // emphaticallys400emphaticallys4
-          // speakemphaticallys4
           // emphaticallys500emphaticallys5
-          // speakemphaticallys5
           // emphaticallys600emphaticallys6
-          // speakemphaticallys6
           // emphaticallys700emphaticallys7
-          // speakemphaticallys7
           // emphaticallys800emphaticallys8
-          // speakemphaticallys8
           // emphaticallys900emphaticallys9
-          // speakemphaticallys9
           // emphaticallys_1000emphaticallys10
-          // speakemphaticallys10
           // emphaticallys1100emphaticallys11
-          // speakemphaticallys11
           // emphaticallys1200emphaticallys12
-          // speakemphaticallys12
           // emphaticallys1300emphaticallys13
-          // speakemphaticallys13
           // emphaticallys1400emphaticallys14
-          // speakemphaticallys14
           // emphaticallys1500emphaticallys15
-          // speakemphaticallys15
           // emphaticallys1600emphaticallys16
-          // speakemphaticallys16
           // emphaticallys1700emphaticallys17
-          // speakemphaticallys17
           // emphaticallys1800emphaticallys18
-          // speakemphaticallys18
           // emphaticallys1900emphaticallys19
-          // speakemphaticallys19
           // emphaticallys_2000emphaticallys20
-          // speakemphaticallys20
           // emphaticallys2100emphaticallys21
-          // speakemphaticallys21
           // emphaticallys2200emphaticallys22
           // speakemphaticallys22("en-US"""),
           //         ),

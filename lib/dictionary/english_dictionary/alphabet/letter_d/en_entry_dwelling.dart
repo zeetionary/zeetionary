@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdwellings2("en-US"),
           ),
           // dwellings300
-          // speakdwellings3
           // dwellings3("en-US"""),
           // dwellings400
-          // speakdwellings4
           // dwellings4("en-US"""),
           // dwellings500
-          // speakdwellings5
           // dwellings5("en-US"""),
           // dwellings600
-          // speakdwellings6
           // dwellings6("en-US"""),
           // dwellings700
-          // speakdwellings7
           // dwellings7("en-US"""),
           // dwellings800
-          // speakdwellings8
           // dwellings8("en-US"""),
           // dwellings900
-          // speakdwellings9
           // dwellings9("en-US"""),
           // dwellings_1000
-          // speakdwellings10
           // dwellings10("en-US"""),
           // dwellings1100
-          // speakdwellings11
           // dwellings11("en-US"""),
           // dwellings1200
-          // speakdwellings12
           // dwellings12("en-US"""),
           // dwellings1300
-          // speakdwellings13
           // dwellings13("en-US"""),
           // dwellings1400
-          // speakdwellings14
           // dwellings14("en-US"""),
           // dwellings1500
-          // speakdwellings15
           // dwellings15("en-US"""),
           // dwellings1600
-          // speakdwellings16
           // dwellings16("en-US"""),
           // dwellings1700
-          // speakdwellings17
           // dwellings17("en-US"""),
           // dwellings1800
-          // speakdwellings18
           // dwellings18("en-US"""),
           // dwellings1900
-          // speakdwellings19
           // dwellings19("en-US"""),
           // dwellings_2000
-          // speakdwellings20
           // dwellings20("en-US"""),
           // dwellings2100
-          // speakdwellings21
           // dwellings21("en-US"""),
           // dwellings2200
-          // speakdwellings22
           // dwellings22("en-US"""),
         ],
       ),

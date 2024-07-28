@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefts3("en-US"),
           ),
           // defts400"),
-          // speakdefts4
           // defts4("en-US"),
           // defts500"),
-          // speakdefts5
           // defts5("en-US"),
           // defts600"),
-          // speakdefts6
           // defts6("en-US"),
           // defts700"),
-          // speakdefts7
           // defts7("en-US"),
           // defts800"),
-          // speakdefts8
           // defts8("en-US"),
           // defts900"),
-          // speakdefts9
           // defts9("en-US"),
           // defts1000"),
-          // speakdefts10
           // defts10("en-US"),
           // defts1100"),
-          // speakdefts11
           // defts11("en-US"),
           // defts1200"),
-          // speakdefts12
           // defts12("en-US"),
           // defts1300"),
-          // speakdefts13
           // defts13("en-US"),
           // defts1400"),
-          // speakdefts14
           // defts14("en-US"),
           // defts1500"),
-          // speakdefts15
           // defts15("en-US"),
           // defts1600"),
-          // speakdefts16
           // defts16("en-US"),
           // defts1700"),
-          // speakdefts17
           // defts17("en-US"),
           // defts1800"),
-          // speakdefts18
           // defts18("en-US"),
           // defts1900"),
-          // speakdefts19
           // defts19("en-US"),
           // "In one deft movement, he had her hand locked behind her back.0"),
-          // speakdefts20
           // defts20("en-US"),
           // defts2100"),
-          // speakdefts21
           // defts21("en-US"),
           // defts2200"),
-          // speakdefts22
           // defts22("en-US"),
         ],
       ),

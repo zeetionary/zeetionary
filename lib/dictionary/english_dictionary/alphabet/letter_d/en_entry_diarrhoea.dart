@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -237,67 +235,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiarrhoeas1("en-US"),
           ),
           // diarrhoeas200"),
-          // speakdiarrhoeas2
           // diarrhoeas2("en-US"),
           // diarrhoeas300"),
-          // speakdiarrhoeas3
           // diarrhoeas3("en-US"),
           // diarrhoeas400"),
-          // speakdiarrhoeas4
           // diarrhoeas4("en-US"),
           // diarrhoeas500"),
-          // speakdiarrhoeas5
           // diarrhoeas5("en-US"),
           // diarrhoeas600"),
-          // speakdiarrhoeas6
           // diarrhoeas6("en-US"),
           // diarrhoeas700"),
-          // speakdiarrhoeas7
           // diarrhoeas7("en-US"),
           // diarrhoeas800"),
-          // speakdiarrhoeas8
           // diarrhoeas8("en-US"),
           // diarrhoeas900"),
-          // speakdiarrhoeas9
           // diarrhoeas9("en-US"),
           // diarrhoeas_1000"),
-          // speakdiarrhoeas10
           // diarrhoeas10("en-US"),
           // diarrhoeas1100"),
-          // speakdiarrhoeas11
           // diarrhoeas11("en-US"),
           // diarrhoeas1200"),
-          // speakdiarrhoeas12
           // diarrhoeas12("en-US"),
           // diarrhoeas1300"),
-          // speakdiarrhoeas13
           // diarrhoeas13("en-US"),
           // diarrhoeas1400"),
-          // speakdiarrhoeas14
           // diarrhoeas14("en-US"),
           // diarrhoeas1500"),
-          // speakdiarrhoeas15
           // diarrhoeas15("en-US"),
           // diarrhoeas1600"),
-          // speakdiarrhoeas16
           // diarrhoeas16("en-US"),
           // diarrhoeas1700"),
-          // speakdiarrhoeas17
           // diarrhoeas17("en-US"),
           // diarrhoeas1800"),
-          // speakdiarrhoeas18
           // diarrhoeas18("en-US"),
           // diarrhoeas1900"),
-          // speakdiarrhoeas19
           // diarrhoeas19("en-US"),
           // diarrhoeas_2000"),
-          // speakdiarrhoeas20
           // diarrhoeas20("en-US"),
           // diarrhoeas2100"),
-          // speakdiarrhoeas21
           // diarrhoeas21("en-US"),
           // diarrhoeas2200"),
-          // speakdiarrhoeas22
           // diarrhoeas22("en-US"),
         ],
       ),

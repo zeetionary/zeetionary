@@ -358,9 +358,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -383,43 +381,24 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectrocutions2("en-US"),
           ),
           // electrocutions300electrocutions3
-          // speakelectrocutions3
           // electrocutions400electrocutions4
-          // speakelectrocutions4
           // electrocutions500electrocutions5
-          // speakelectrocutions5
           // electrocutions600electrocutions6
-          // speakelectrocutions6
           // electrocutions700electrocutions7
-          // speakelectrocutions7
           // electrocutions800electrocutions8
-          // speakelectrocutions8
           // electrocutions900electrocutions9
-          // speakelectrocutions9
           // electrocutions_1000electrocutions10
-          // speakelectrocutions10
           // electrocutions1100electrocutions11
-          // speakelectrocutions11
           // electrocutions1200electrocutions12
-          // speakelectrocutions12
           // electrocutions1300electrocutions13
-          // speakelectrocutions13
           // electrocutions1400electrocutions14
-          // speakelectrocutions14
           // electrocutions1500electrocutions15
-          // speakelectrocutions15
           // electrocutions1600electrocutions16
-          // speakelectrocutions16
           // electrocutions1700electrocutions17
-          // speakelectrocutions17
           // electrocutions1800electrocutions18
-          // speakelectrocutions18
           // electrocutions1900electrocutions19
-          // speakelectrocutions19
           // electrocutions_2000electrocutions20
-          // speakelectrocutions20
           // electrocutions2100electrocutions21
-          // speakelectrocutions21
           // electrocutions2200electrocutions22
           // speakelectrocutions22("en-US"""),
           //         ),

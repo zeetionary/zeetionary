@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetriments2("en-US"),
           ),
           // detriments300"),
-          // speakdetriments3
           // detriments3
           // detriments400"),
-          // speakdetriments4
           // detriments4
           // detriments500"),
-          // speakdetriments5
           // detriments5
           // detriments600"),
-          // speakdetriments6
           // detriments6
           // detriments700"),
-          // speakdetriments7
           // detriments7
           // detriments800"),
-          // speakdetriments8
           // detriments8
           // detriments900"),
-          // speakdetriments9
           // detriments9
           // detriments1000"),
-          // speakdetriments10
           // detriments10
           // detriments1100"),
-          // speakdetriments11
           // detriments11
           // detriments1200"),
-          // speakdetriments12
           // detriments12
           // detriments1300"),
-          // speakdetriments13
           // detriments13
           // detriments1400"),
-          // speakdetriments14
           // detriments14
           // detriments1500"),
-          // speakdetriments15
           // detriments15
           // detriments1600"),
-          // speakdetriments16
           // detriments16
           // detriments1700"),
-          // speakdetriments17
           // detriments17
           // detriments1800"),
-          // speakdetriments18
           // detriments18
           // detriments1900"),
-          // speakdetriments19
           // detriments19
           // "Too many tests are a detriment to good education.0"),
-          // speakdetriments20
           // detriments20
           // detriments2100"),
-          // speakdetriments21
           // detriments21
           // detriments2200"),
-          // speakdetriments22
           // detriments22("en-US"),
         ],
       ),

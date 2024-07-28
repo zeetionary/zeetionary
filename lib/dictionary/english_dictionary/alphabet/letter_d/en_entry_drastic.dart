@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrastics2("en-US"),
           ),
           // drastics300"),
-          // speakdrastics3
           // drastics3("en-US"),
           // drastics400"),
-          // speakdrastics4
           // drastics4("en-US"),
           // drastics500"),
-          // speakdrastics5
           // drastics5("en-US"),
           // drastics600"),
-          // speakdrastics6
           // drastics6("en-US"),
           // drastics700"),
-          // speakdrastics7
           // drastics7("en-US"),
           // drastics800"),
-          // speakdrastics8
           // drastics8("en-US"),
           // drastics900"),
-          // speakdrastics9
           // drastics9("en-US"),
           // drastics_1000"),
-          // speakdrastics10
           // drastics10("en-US"),
           // drastics1100"),
-          // speakdrastics11
           // drastics11("en-US"),
           // drastics1200"),
-          // speakdrastics12
           // drastics12("en-US"),
           // drastics1300"),
-          // speakdrastics13
           // drastics13("en-US"),
           // drastics1400"),
-          // speakdrastics14
           // drastics14("en-US"),
           // drastics1500"),
-          // speakdrastics15
           // drastics15("en-US"),
           // drastics1600"),
-          // speakdrastics16
           // drastics16("en-US"),
           // drastics1700"),
-          // speakdrastics17
           // drastics17("en-US"),
           // drastics1800"),
-          // speakdrastics18
           // drastics18("en-US"),
           // drastics1900"),
-          // speakdrastics19
           // drastics19("en-US"),
           // drastics_2000"),
-          // speakdrastics20
           // drastics20("en-US"),
           // drastics2100"),
-          // speakdrastics21
           // drastics21("en-US"),
           // drastics2200"),
-          // speakdrastics22
           // drastics22("en-US"),
         ],
       ),

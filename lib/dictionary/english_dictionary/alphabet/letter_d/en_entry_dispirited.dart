@@ -226,9 +226,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -250,64 +248,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdispiriteds2("en-US"),
           ),
           // dispiriteds300"),
-          // speakdispiriteds3
           // dispiriteds3("en-US"),
           // dispiriteds400"),
-          // speakdispiriteds4
           // dispiriteds4("en-US"),
           // dispiriteds500"),
-          // speakdispiriteds5
           // dispiriteds5("en-US"),
           // dispiriteds600"),
-          // speakdispiriteds6
           // dispiriteds6("en-US"),
           // dispiriteds700"),
-          // speakdispiriteds7
           // dispiriteds7("en-US"),
           // dispiriteds800"),
-          // speakdispiriteds8
           // dispiriteds8("en-US"),
           // dispiriteds900"),
-          // speakdispiriteds9
           // dispiriteds9("en-US"),
           // dispiriteds_1000"),
-          // speakdispiriteds10
           // dispiriteds10("en-US"),
           // dispiriteds1100"),
-          // speakdispiriteds11
           // dispiriteds11("en-US"),
           // dispiriteds1200"),
-          // speakdispiriteds12
           // dispiriteds12("en-US"),
           // dispiriteds1300"),
-          // speakdispiriteds13
           // dispiriteds13("en-US"),
           // dispiriteds1400"),
-          // speakdispiriteds14
           // dispiriteds14("en-US"),
           // dispiriteds1500"),
-          // speakdispiriteds15
           // dispiriteds15("en-US"),
           // dispiriteds1600"),
-          // speakdispiriteds16
           // dispiriteds16("en-US"),
           // dispiriteds1700"),
-          // speakdispiriteds17
           // dispiriteds17("en-US"),
           // dispiriteds1800"),
-          // speakdispiriteds18
           // dispiriteds18("en-US"),
           // dispiriteds1900"),
-          // speakdispiriteds19
           // dispiriteds19("en-US"),
           // dispiriteds_2000"),
-          // speakdispiriteds20
           // dispiriteds20("en-US"),
           // dispiriteds2100"),
-          // speakdispiriteds21
           // dispiriteds21("en-US"),
           // dispiriteds2200"),
-          // speakdispiriteds22
           // dispiriteds22("en-US"),
         ],
       ),

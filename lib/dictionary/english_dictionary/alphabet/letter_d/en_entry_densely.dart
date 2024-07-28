@@ -242,9 +242,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenselys3("en-US"),
           ),
           // denselys400"),
-          // speakdenselys4
           // denselys4("en-US"),
           // denselys500"),
-          // speakdenselys5
           // denselys5("en-US"),
           // denselys600"),
-          // speakdenselys6
           // denselys6("en-US"),
           // denselys700"),
-          // speakdenselys7
           // denselys7("en-US"),
           // denselys800"),
-          // speakdenselys8
           // denselys8("en-US"),
           // denselys900"),
-          // speakdenselys9
           // denselys9("en-US"),
           // denselys1000"),
-          // speakdenselys10
           // denselys10("en-US"),
           // denselys1100"),
-          // speakdenselys11
           // denselys11("en-US"),
           // denselys1200"),
-          // speakdenselys12
           // denselys12("en-US"),
           // denselys1300"),
-          // speakdenselys13
           // denselys13("en-US"),
           // denselys1400"),
-          // speakdenselys14
           // denselys14("en-US"),
           // denselys1500"),
-          // speakdenselys15
           // denselys15("en-US"),
           // denselys1600"),
-          // speakdenselys16
           // denselys16("en-US"),
           // denselys1700"),
-          // speakdenselys17
           // denselys17("en-US"),
           // denselys1800"),
-          // speakdenselys18
           // denselys18("en-US"),
           // denselys1900"),
-          // speakdenselys19
           // denselys19("en-US"),
           // "Mexico City is one of the most densely populated cities in the world.0"),
-          // speakdenselys20
           // denselys20("en-US"),
           // denselys2100"),
-          // speakdenselys21
           // denselys21("en-US"),
           // denselys2200"),
-          // speakdenselys22
           // denselys22("en-US"),
         ],
       ),

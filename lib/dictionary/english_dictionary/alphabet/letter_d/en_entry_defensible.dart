@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -277,61 +275,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefensibles3("en-US"),
           ),
           // defensibles400"),
-          // speakdefensibles4
           // defensibles4
           // defensibles500"),
-          // speakdefensibles5
           // defensibles5
           // defensibles600"),
-          // speakdefensibles6
           // defensibles6
           // defensibles700"),
-          // speakdefensibles7
           // defensibles7
           // defensibles800"),
-          // speakdefensibles8
           // defensibles8
           // defensibles900"),
-          // speakdefensibles9
           // defensibles9
           // defensibles1000"),
-          // speakdefensibles10
           // defensibles10
           // defensibles1100"),
-          // speakdefensibles11
           // defensibles11
           // defensibles1200"),
-          // speakdefensibles12
           // defensibles12
           // defensibles1300"),
-          // speakdefensibles13
           // defensibles13
           // defensibles1400"),
-          // speakdefensibles14
           // defensibles14
           // defensibles1500"),
-          // speakdefensibles15
           // defensibles15
           // defensibles1600"),
-          // speakdefensibles16
           // defensibles16
           // defensibles1700"),
-          // speakdefensibles17
           // defensibles17
           // defensibles1800"),
-          // speakdefensibles18
           // defensibles18
           // defensibles1900"),
-          // speakdefensibles19
           // defensibles19
           // "Is it morally defensible to deny legal advice to a prisoner?0"),
-          // speakdefensibles20
           // defensibles20
           // defensibles2100"),
-          // speakdefensibles21
           // defensibles21
           // defensibles2200"),
-          // speakdefensibles22
           // defensibles22("en-US"),
         ],
       ),

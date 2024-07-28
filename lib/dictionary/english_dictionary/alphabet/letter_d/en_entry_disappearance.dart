@@ -229,9 +229,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -258,64 +256,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisappearances2("en-US"),
           ),
           // disappearances300"),
-          // speakdisappearances3
           // disappearances3("en-US"),
           // disappearances400"),
-          // speakdisappearances4
           // disappearances4("en-US"),
           // disappearances500"),
-          // speakdisappearances5
           // disappearances5("en-US"),
           // disappearances600"),
-          // speakdisappearances6
           // disappearances6("en-US"),
           // disappearances700"),
-          // speakdisappearances7
           // disappearances7("en-US"),
           // disappearances800"),
-          // speakdisappearances8
           // disappearances8("en-US"),
           // disappearances900"),
-          // speakdisappearances9
           // disappearances9("en-US"),
           // disappearances_1000"),
-          // speakdisappearances10
           // disappearances10("en-US"),
           // disappearances1100"),
-          // speakdisappearances11
           // disappearances11("en-US"),
           // disappearances1200"),
-          // speakdisappearances12
           // disappearances12("en-US"),
           // disappearances1300"),
-          // speakdisappearances13
           // disappearances13("en-US"),
           // disappearances1400"),
-          // speakdisappearances14
           // disappearances14("en-US"),
           // disappearances1500"),
-          // speakdisappearances15
           // disappearances15("en-US"),
           // disappearances1600"),
-          // speakdisappearances16
           // disappearances16("en-US"),
           // disappearances1700"),
-          // speakdisappearances17
           // disappearances17("en-US"),
           // disappearances1800"),
-          // speakdisappearances18
           // disappearances18("en-US"),
           // disappearances1900"),
-          // speakdisappearances19
           // disappearances19("en-US"),
           // disappearances_2000"),
-          // speakdisappearances20
           // disappearances20("en-US"),
           // disappearances2100"),
-          // speakdisappearances21
           // disappearances21("en-US"),
           // disappearances2200"),
-          // speakdisappearances22
           // disappearances22("en-US"),
         ],
       ),

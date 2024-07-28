@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownspouts1("en-US"),
           ),
           // downspouts200"),
-          // speakdownspouts2
           // downspouts2("en-US"),
           // downspouts300"),
-          // speakdownspouts3
           // downspouts3("en-US"),
           // downspouts400"),
-          // speakdownspouts4
           // downspouts4("en-US"),
           // downspouts500"),
-          // speakdownspouts5
           // downspouts5("en-US"),
           // downspouts600"),
-          // speakdownspouts6
           // downspouts6("en-US"),
           // downspouts700"),
-          // speakdownspouts7
           // downspouts7("en-US"),
           // downspouts800"),
-          // speakdownspouts8
           // downspouts8("en-US"),
           // downspouts900"),
-          // speakdownspouts9
           // downspouts9("en-US"),
           // downspouts_1000"),
-          // speakdownspouts10
           // downspouts10("en-US"),
           // downspouts1100"),
-          // speakdownspouts11
           // downspouts11("en-US"),
           // downspouts1200"),
-          // speakdownspouts12
           // downspouts12("en-US"),
           // downspouts1300"),
-          // speakdownspouts13
           // downspouts13("en-US"),
           // downspouts1400"),
-          // speakdownspouts14
           // downspouts14("en-US"),
           // downspouts1500"),
-          // speakdownspouts15
           // downspouts15("en-US"),
           // downspouts1600"),
-          // speakdownspouts16
           // downspouts16("en-US"),
           // downspouts1700"),
-          // speakdownspouts17
           // downspouts17("en-US"),
           // downspouts1800"),
-          // speakdownspouts18
           // downspouts18("en-US"),
           // downspouts1900"),
-          // speakdownspouts19
           // downspouts19("en-US"),
           // downspouts_2000"),
-          // speakdownspouts20
           // downspouts20("en-US"),
           // downspouts2100"),
-          // speakdownspouts21
           // downspouts21("en-US"),
           // downspouts2200"),
-          // speakdownspouts22
           // downspouts22("en-US"),
         ],
       ),

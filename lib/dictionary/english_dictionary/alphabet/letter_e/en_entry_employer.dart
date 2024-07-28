@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -401,41 +399,23 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemployers3("en-US"),
           ),
           // employers400employers4
-          // speakemployers4
           // employers500employers5
-          // speakemployers5
           // employers600employers6
-          // speakemployers6
           // employers700employers7
-          // speakemployers7
           // employers800employers8
-          // speakemployers8
           // employers900employers9
-          // speakemployers9
           // employers_1000employers10
-          // speakemployers10
           // employers1100employers11
-          // speakemployers11
           // employers1200employers12
-          // speakemployers12
           // employers1300employers13
-          // speakemployers13
           // employers1400employers14
-          // speakemployers14
           // employers1500employers15
-          // speakemployers15
           // employers1600employers16
-          // speakemployers16
           // employers1700employers17
-          // speakemployers17
           // employers1800employers18
-          // speakemployers18
           // employers1900employers19
-          // speakemployers19
           // employers_2000employers20
-          // speakemployers20
           // employers2100employers21
-          // speakemployers21
           // employers2200employers22
           // speakemployers22("en-US"""),
           //         ),

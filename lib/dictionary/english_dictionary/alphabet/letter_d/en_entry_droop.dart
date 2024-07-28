@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -399,61 +397,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdroops3("en-US"),
           ),
           // droops400"),
-          // speakdroops4
           // droops4("en-US"),
           // droops500"),
-          // speakdroops5
           // droops5("en-US"),
           // droops600"),
-          // speakdroops6
           // droops6("en-US"),
           // droops700"),
-          // speakdroops7
           // droops7("en-US"),
           // droops800"),
-          // speakdroops8
           // droops8("en-US"),
           // droops900"),
-          // speakdroops9
           // droops9("en-US"),
           // droops_1000"),
-          // speakdroops10
           // droops10("en-US"),
           // droops1100"),
-          // speakdroops11
           // droops11("en-US"),
           // droops1200"),
-          // speakdroops12
           // droops12("en-US"),
           // droops1300"),
-          // speakdroops13
           // droops13("en-US"),
           // droops1400"),
-          // speakdroops14
           // droops14("en-US"),
           // droops1500"),
-          // speakdroops15
           // droops15("en-US"),
           // droops1600"),
-          // speakdroops16
           // droops16("en-US"),
           // droops1700"),
-          // speakdroops17
           // droops17("en-US"),
           // droops1800"),
-          // speakdroops18
           // droops18("en-US"),
           // droops1900"),
-          // speakdroops19
           // droops19("en-US"),
           // droops_2000"),
-          // speakdroops20
           // droops20("en-US"),
           // droops2100"),
-          // speakdroops21
           // droops21("en-US"),
           // droops2200"),
-          // speakdroops22
           // droops22("en-US"),
         ],
       ),

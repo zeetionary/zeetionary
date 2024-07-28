@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -260,64 +258,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeftlys2("en-US"),
           ),
           // deftlys300"),
-          // speakdeftlys3
           // deftlys3("en-US"),
           // deftlys400"),
-          // speakdeftlys4
           // deftlys4("en-US"),
           // deftlys500"),
-          // speakdeftlys5
           // deftlys5("en-US"),
           // deftlys600"),
-          // speakdeftlys6
           // deftlys6("en-US"),
           // deftlys700"),
-          // speakdeftlys7
           // deftlys7("en-US"),
           // deftlys800"),
-          // speakdeftlys8
           // deftlys8("en-US"),
           // deftlys900"),
-          // speakdeftlys9
           // deftlys9("en-US"),
           // deftlys1000"),
-          // speakdeftlys10
           // deftlys10("en-US"),
           // deftlys1100"),
-          // speakdeftlys11
           // deftlys11("en-US"),
           // deftlys1200"),
-          // speakdeftlys12
           // deftlys12("en-US"),
           // deftlys1300"),
-          // speakdeftlys13
           // deftlys13("en-US"),
           // deftlys1400"),
-          // speakdeftlys14
           // deftlys14("en-US"),
           // deftlys1500"),
-          // speakdeftlys15
           // deftlys15("en-US"),
           // deftlys1600"),
-          // speakdeftlys16
           // deftlys16("en-US"),
           // deftlys1700"),
-          // speakdeftlys17
           // deftlys17("en-US"),
           // deftlys1800"),
-          // speakdeftlys18
           // deftlys18("en-US"),
           // deftlys1900"),
-          // speakdeftlys19
           // deftlys19("en-US"),
           // "They deftly avoided answering my questions.0"),
-          // speakdeftlys20
           // deftlys20("en-US"),
           // deftlys2100"),
-          // speakdeftlys21
           // deftlys21("en-US"),
           // deftlys2200"),
-          // speakdeftlys22
           // deftlys22("en-US"),
         ],
       ),

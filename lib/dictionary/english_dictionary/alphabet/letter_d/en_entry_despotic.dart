@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdespotics1("en-US"),
           ),
           // despotics200"),
-          // speakdespotics2
           // despotics2("en-US"),
           // despotics300"),
-          // speakdespotics3
           // despotics3("en-US"),
           // despotics400"),
-          // speakdespotics4
           // despotics4("en-US"),
           // despotics500"),
-          // speakdespotics5
           // despotics5("en-US"),
           // despotics600"),
-          // speakdespotics6
           // despotics6("en-US"),
           // despotics700"),
-          // speakdespotics7
           // despotics7("en-US"),
           // despotics800"),
-          // speakdespotics8
           // despotics8("en-US"),
           // despotics900"),
-          // speakdespotics9
           // despotics9("en-US"),
           // despotics1000"),
-          // speakdespotics10
           // despotics10("en-US"),
           // despotics1100"),
-          // speakdespotics11
           // despotics11("en-US"),
           // despotics1200"),
-          // speakdespotics12
           // despotics12("en-US"),
           // despotics1300"),
-          // speakdespotics13
           // despotics13("en-US"),
           // despotics1400"),
-          // speakdespotics14
           // despotics14("en-US"),
           // despotics1500"),
-          // speakdespotics15
           // despotics15("en-US"),
           // despotics1600"),
-          // speakdespotics16
           // despotics16("en-US"),
           // despotics1700"),
-          // speakdespotics17
           // despotics17("en-US"),
           // despotics1800"),
-          // speakdespotics18
           // despotics18("en-US"),
           // despotics1900"),
-          // speakdespotics19
           // despotics19("en-US"),
           // despotics2000"),
-          // speakdespotics20
           // despotics20("en-US"),
           // despotics2100"),
-          // speakdespotics21
           // despotics21("en-US"),
           // despotics2200"),
-          // speakdespotics22
           // despotics22("en-US"),
         ],
       ),

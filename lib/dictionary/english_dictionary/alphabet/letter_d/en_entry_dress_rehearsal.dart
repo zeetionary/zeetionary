@@ -360,9 +360,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -388,64 +386,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdressrehearsals2("en-US"),
           ),
           // dressrehearsals300"),
-          // speakdressrehearsals3
           // dressrehearsals3("en-US"),
           // dressrehearsals400"),
-          // speakdressrehearsals4
           // dressrehearsals4("en-US"),
           // dressrehearsals500"),
-          // speakdressrehearsals5
           // dressrehearsals5("en-US"),
           // dressrehearsals600"),
-          // speakdressrehearsals6
           // dressrehearsals6("en-US"),
           // dressrehearsals700"),
-          // speakdressrehearsals7
           // dressrehearsals7("en-US"),
           // dressrehearsals800"),
-          // speakdressrehearsals8
           // dressrehearsals8("en-US"),
           // dressrehearsals900"),
-          // speakdressrehearsals9
           // dressrehearsals9("en-US"),
           // dressrehearsals_1000"),
-          // speakdressrehearsals10
           // dressrehearsals10("en-US"),
           // dressrehearsals1100"),
-          // speakdressrehearsals11
           // dressrehearsals11("en-US"),
           // dressrehearsals1200"),
-          // speakdressrehearsals12
           // dressrehearsals12("en-US"),
           // dressrehearsals1300"),
-          // speakdressrehearsals13
           // dressrehearsals13("en-US"),
           // dressrehearsals1400"),
-          // speakdressrehearsals14
           // dressrehearsals14("en-US"),
           // dressrehearsals1500"),
-          // speakdressrehearsals15
           // dressrehearsals15("en-US"),
           // dressrehearsals1600"),
-          // speakdressrehearsals16
           // dressrehearsals16("en-US"),
           // dressrehearsals1700"),
-          // speakdressrehearsals17
           // dressrehearsals17("en-US"),
           // dressrehearsals1800"),
-          // speakdressrehearsals18
           // dressrehearsals18("en-US"),
           // dressrehearsals1900"),
-          // speakdressrehearsals19
           // dressrehearsals19("en-US"),
           // dressrehearsals_2000"),
-          // speakdressrehearsals20
           // dressrehearsals20("en-US"),
           // dressrehearsals2100"),
-          // speakdressrehearsals21
           // dressrehearsals21("en-US"),
           // dressrehearsals2200"),
-          // speakdressrehearsals22
           // dressrehearsals22("en-US"),
         ],
       ),

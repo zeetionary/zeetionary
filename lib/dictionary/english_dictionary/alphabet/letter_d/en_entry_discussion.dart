@@ -267,9 +267,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -339,49 +337,34 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscussions7("en-US"),
           ),
           // discussions800"),
-          // speakdiscussions8
           // discussions8("en-US"),
           // discussions900"),
-          // speakdiscussions9
           // discussions9("en-US"),
           // discussions_1000"),
-          // speakdiscussions10
           // discussions10("en-US"),
           // discussions1100"),
-          // speakdiscussions11
           // discussions11("en-US"),
           // discussions1200"),
-          // speakdiscussions12
           // discussions12("en-US"),
           // discussions1300"),
-          // speakdiscussions13
           // discussions13("en-US"),
           // discussions1400"),
-          // speakdiscussions14
           // discussions14("en-US"),
           // discussions1500"),
-          // speakdiscussions15
           // discussions15("en-US"),
           // discussions1600"),
-          // speakdiscussions16
           // discussions16("en-US"),
           // discussions1700"),
-          // speakdiscussions17
           // discussions17("en-US"),
           // discussions1800"),
-          // speakdiscussions18
           // discussions18("en-US"),
           // discussions1900"),
-          // speakdiscussions19
           // discussions19("en-US"),
           // discussions_2000"),
-          // speakdiscussions20
           // discussions20("en-US"),
           // discussions2100"),
-          // speakdiscussions21
           // discussions21("en-US"),
           // discussions2200"),
-          // speakdiscussions22
           // discussions22("en-US"),
         ],
       ),

@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -296,55 +294,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisrespects5("en-US"),
           ),
           // disrespects600"),
-          // speakdisrespects6
           // disrespects6("en-US"),
           // disrespects700"),
-          // speakdisrespects7
           // disrespects7("en-US"),
           // disrespects800"),
-          // speakdisrespects8
           // disrespects8("en-US"),
           // disrespects900"),
-          // speakdisrespects9
           // disrespects9("en-US"),
           // disrespects_1000"),
-          // speakdisrespects10
           // disrespects10("en-US"),
           // disrespects1100"),
-          // speakdisrespects11
           // disrespects11("en-US"),
           // disrespects1200"),
-          // speakdisrespects12
           // disrespects12("en-US"),
           // disrespects1300"),
-          // speakdisrespects13
           // disrespects13("en-US"),
           // disrespects1400"),
-          // speakdisrespects14
           // disrespects14("en-US"),
           // disrespects1500"),
-          // speakdisrespects15
           // disrespects15("en-US"),
           // disrespects1600"),
-          // speakdisrespects16
           // disrespects16("en-US"),
           // disrespects1700"),
-          // speakdisrespects17
           // disrespects17("en-US"),
           // disrespects1800"),
-          // speakdisrespects18
           // disrespects18("en-US"),
           // disrespects1900"),
-          // speakdisrespects19
           // disrespects19("en-US"),
           // disrespects_2000"),
-          // speakdisrespects20
           // disrespects20("en-US"),
           // disrespects2100"),
-          // speakdisrespects21
           // disrespects21("en-US"),
           // disrespects2200"),
-          // speakdisrespects22
           // disrespects22("en-US"),
         ],
       ),

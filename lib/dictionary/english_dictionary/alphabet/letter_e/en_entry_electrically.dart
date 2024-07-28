@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelectricallys1("en-US"),
           ),
           // electricallys200electricallys2
-          // speakelectricallys2
           // electricallys300electricallys3
-          // speakelectricallys3
           // electricallys400electricallys4
-          // speakelectricallys4
           // electricallys500electricallys5
-          // speakelectricallys5
           // electricallys600electricallys6
-          // speakelectricallys6
           // electricallys700electricallys7
-          // speakelectricallys7
           // electricallys800electricallys8
-          // speakelectricallys8
           // electricallys900electricallys9
-          // speakelectricallys9
           // electricallys_1000electricallys10
-          // speakelectricallys10
           // electricallys1100electricallys11
-          // speakelectricallys11
           // electricallys1200electricallys12
-          // speakelectricallys12
           // electricallys1300electricallys13
-          // speakelectricallys13
           // electricallys1400electricallys14
-          // speakelectricallys14
           // electricallys1500electricallys15
-          // speakelectricallys15
           // electricallys1600electricallys16
-          // speakelectricallys16
           // electricallys1700electricallys17
-          // speakelectricallys17
           // electricallys1800electricallys18
-          // speakelectricallys18
           // electricallys1900electricallys19
-          // speakelectricallys19
           // electricallys_2000electricallys20
-          // speakelectricallys20
           // electricallys2100electricallys21
-          // speakelectricallys21
           // electricallys2200electricallys22
           // speakelectricallys22("en-US"""),
           //         ),

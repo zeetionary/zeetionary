@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -268,61 +266,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefencelesss3("en-US"),
           ),
           // defencelesss400"),
-          // speakdefencelesss4
           // defencelesss4
           // defencelesss500"),
-          // speakdefencelesss5
           // defencelesss5
           // defencelesss600"),
-          // speakdefencelesss6
           // defencelesss6
           // defencelesss700"),
-          // speakdefencelesss7
           // defencelesss7
           // defencelesss800"),
-          // speakdefencelesss8
           // defencelesss8
           // defencelesss900"),
-          // speakdefencelesss9
           // defencelesss9
           // defencelesss1000"),
-          // speakdefencelesss10
           // defencelesss10
           // defencelesss1100"),
-          // speakdefencelesss11
           // defencelesss11
           // defencelesss1200"),
-          // speakdefencelesss12
           // defencelesss12
           // defencelesss1300"),
-          // speakdefencelesss13
           // defencelesss13
           // defencelesss1400"),
-          // speakdefencelesss14
           // defencelesss14
           // defencelesss1500"),
-          // speakdefencelesss15
           // defencelesss15
           // defencelesss1600"),
-          // speakdefencelesss16
           // defencelesss16
           // defencelesss1700"),
-          // speakdefencelesss17
           // defencelesss17
           // defencelesss1800"),
-          // speakdefencelesss18
           // defencelesss18
           // defencelesss1900"),
-          // speakdefencelesss19
           // defencelesss19
           // "How could anyone steal from a poor defenceless old lady?0"),
-          // speakdefencelesss20
           // defencelesss20
           // defencelesss2100"),
-          // speakdefencelesss21
           // defencelesss21
           // defencelesss2200"),
-          // speakdefencelesss22
           // defencelesss22("en-US"),
         ],
       ),

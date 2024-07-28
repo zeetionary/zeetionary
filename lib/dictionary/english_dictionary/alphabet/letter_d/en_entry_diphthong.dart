@@ -220,9 +220,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -240,67 +238,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiphthongs1("en-US"),
           ),
           // diphthongs200"),
-          // speakdiphthongs2
           // diphthongs2("en-US"),
           // diphthongs300"),
-          // speakdiphthongs3
           // diphthongs3("en-US"),
           // diphthongs400"),
-          // speakdiphthongs4
           // diphthongs4("en-US"),
           // diphthongs500"),
-          // speakdiphthongs5
           // diphthongs5("en-US"),
           // diphthongs600"),
-          // speakdiphthongs6
           // diphthongs6("en-US"),
           // diphthongs700"),
-          // speakdiphthongs7
           // diphthongs7("en-US"),
           // diphthongs800"),
-          // speakdiphthongs8
           // diphthongs8("en-US"),
           // diphthongs900"),
-          // speakdiphthongs9
           // diphthongs9("en-US"),
           // diphthongs_1000"),
-          // speakdiphthongs10
           // diphthongs10("en-US"),
           // diphthongs1100"),
-          // speakdiphthongs11
           // diphthongs11("en-US"),
           // diphthongs1200"),
-          // speakdiphthongs12
           // diphthongs12("en-US"),
           // diphthongs1300"),
-          // speakdiphthongs13
           // diphthongs13("en-US"),
           // diphthongs1400"),
-          // speakdiphthongs14
           // diphthongs14("en-US"),
           // diphthongs1500"),
-          // speakdiphthongs15
           // diphthongs15("en-US"),
           // diphthongs1600"),
-          // speakdiphthongs16
           // diphthongs16("en-US"),
           // diphthongs1700"),
-          // speakdiphthongs17
           // diphthongs17("en-US"),
           // diphthongs1800"),
-          // speakdiphthongs18
           // diphthongs18("en-US"),
           // diphthongs1900"),
-          // speakdiphthongs19
           // diphthongs19("en-US"),
           // diphthongs_2000"),
-          // speakdiphthongs20
           // diphthongs20("en-US"),
           // diphthongs2100"),
-          // speakdiphthongs21
           // diphthongs21("en-US"),
           // diphthongs2200"),
-          // speakdiphthongs22
           // diphthongs22("en-US"),
         ],
       ),

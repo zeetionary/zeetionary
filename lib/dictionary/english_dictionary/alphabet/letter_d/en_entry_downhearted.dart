@@ -359,9 +359,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -387,64 +385,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdownhearteds2("en-US"),
           ),
           // downhearteds300"),
-          // speakdownhearteds3
           // downhearteds3("en-US"),
           // downhearteds400"),
-          // speakdownhearteds4
           // downhearteds4("en-US"),
           // downhearteds500"),
-          // speakdownhearteds5
           // downhearteds5("en-US"),
           // downhearteds600"),
-          // speakdownhearteds6
           // downhearteds6("en-US"),
           // downhearteds700"),
-          // speakdownhearteds7
           // downhearteds7("en-US"),
           // downhearteds800"),
-          // speakdownhearteds8
           // downhearteds8("en-US"),
           // downhearteds900"),
-          // speakdownhearteds9
           // downhearteds9("en-US"),
           // downhearteds_1000"),
-          // speakdownhearteds10
           // downhearteds10("en-US"),
           // downhearteds1100"),
-          // speakdownhearteds11
           // downhearteds11("en-US"),
           // downhearteds1200"),
-          // speakdownhearteds12
           // downhearteds12("en-US"),
           // downhearteds1300"),
-          // speakdownhearteds13
           // downhearteds13("en-US"),
           // downhearteds1400"),
-          // speakdownhearteds14
           // downhearteds14("en-US"),
           // downhearteds1500"),
-          // speakdownhearteds15
           // downhearteds15("en-US"),
           // downhearteds1600"),
-          // speakdownhearteds16
           // downhearteds16("en-US"),
           // downhearteds1700"),
-          // speakdownhearteds17
           // downhearteds17("en-US"),
           // downhearteds1800"),
-          // speakdownhearteds18
           // downhearteds18("en-US"),
           // downhearteds1900"),
-          // speakdownhearteds19
           // downhearteds19("en-US"),
           // downhearteds_2000"),
-          // speakdownhearteds20
           // downhearteds20("en-US"),
           // downhearteds2100"),
-          // speakdownhearteds21
           // downhearteds21("en-US"),
           // downhearteds2200"),
-          // speakdownhearteds22
           // downhearteds22("en-US"),
         ],
       ),

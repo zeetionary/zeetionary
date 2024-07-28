@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,45 +366,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakEnumbers1("en-US"),
           ),
           // Enumbers200Enumbers2
-          // speakEnumbers2
           // Enumbers300Enumbers3
-          // speakEnumbers3
           // Enumbers400Enumbers4
-          // speakEnumbers4
           // Enumbers500Enumbers5
-          // speakEnumbers5
           // Enumbers600Enumbers6
-          // speakEnumbers6
           // Enumbers700Enumbers7
-          // speakEnumbers7
           // Enumbers800Enumbers8
-          // speakEnumbers8
           // Enumbers900Enumbers9
-          // speakEnumbers9
           // Enumbers_1000Enumbers10
-          // speakEnumbers10
           // Enumbers1100Enumbers11
-          // speakEnumbers11
           // Enumbers1200Enumbers12
-          // speakEnumbers12
           // Enumbers1300Enumbers13
-          // speakEnumbers13
           // Enumbers1400Enumbers14
-          // speakEnumbers14
           // Enumbers1500Enumbers15
-          // speakEnumbers15
           // Enumbers1600Enumbers16
-          // speakEnumbers16
           // Enumbers1700Enumbers17
-          // speakEnumbers17
           // Enumbers1800Enumbers18
-          // speakEnumbers18
           // Enumbers1900Enumbers19
-          // speakEnumbers19
           // Enumbers_2000Enumbers20
-          // speakEnumbers20
           // Enumbers2100Enumbers21
-          // speakEnumbers21
           // Enumbers2200Enumbers22
           // speakEnumbers22("en-US"""),
           //         ),

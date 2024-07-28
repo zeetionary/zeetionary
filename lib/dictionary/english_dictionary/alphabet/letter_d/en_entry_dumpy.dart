@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdumpys2("en-US"),
           ),
           // dumpys300
-          // speakdumpys3
           // dumpys3("en-US"""),
           // dumpys400
-          // speakdumpys4
           // dumpys4("en-US"""),
           // dumpys500
-          // speakdumpys5
           // dumpys5("en-US"""),
           // dumpys600
-          // speakdumpys6
           // dumpys6("en-US"""),
           // dumpys700
-          // speakdumpys7
           // dumpys7("en-US"""),
           // dumpys800
-          // speakdumpys8
           // dumpys8("en-US"""),
           // dumpys900
-          // speakdumpys9
           // dumpys9("en-US"""),
           // dumpys_1000
-          // speakdumpys10
           // dumpys10("en-US"""),
           // dumpys1100
-          // speakdumpys11
           // dumpys11("en-US"""),
           // dumpys1200
-          // speakdumpys12
           // dumpys12("en-US"""),
           // dumpys1300
-          // speakdumpys13
           // dumpys13("en-US"""),
           // dumpys1400
-          // speakdumpys14
           // dumpys14("en-US"""),
           // dumpys1500
-          // speakdumpys15
           // dumpys15("en-US"""),
           // dumpys1600
-          // speakdumpys16
           // dumpys16("en-US"""),
           // dumpys1700
-          // speakdumpys17
           // dumpys17("en-US"""),
           // dumpys1800
-          // speakdumpys18
           // dumpys18("en-US"""),
           // dumpys1900
-          // speakdumpys19
           // dumpys19("en-US"""),
           // dumpys_2000
-          // speakdumpys20
           // dumpys20("en-US"""),
           // dumpys2100
-          // speakdumpys21
           // dumpys21("en-US"""),
           // dumpys2200
-          // speakdumpys22
           // dumpys22("en-US"""),
         ],
       ),

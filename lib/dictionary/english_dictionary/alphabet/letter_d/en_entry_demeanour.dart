@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -275,61 +273,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdemeanours3("en-US"),
           ),
           // demeanours400"),
-          // speakdemeanours4
           // demeanours4("en-US"),
           // demeanours500"),
-          // speakdemeanours5
           // demeanours5("en-US"),
           // demeanours600"),
-          // speakdemeanours6
           // demeanours6("en-US"),
           // demeanours700"),
-          // speakdemeanours7
           // demeanours7("en-US"),
           // demeanours800"),
-          // speakdemeanours8
           // demeanours8("en-US"),
           // demeanours900"),
-          // speakdemeanours9
           // demeanours9("en-US"),
           // demeanours1000"),
-          // speakdemeanours10
           // demeanours10("en-US"),
           // demeanours1100"),
-          // speakdemeanours11
           // demeanours11("en-US"),
           // demeanours1200"),
-          // speakdemeanours12
           // demeanours12("en-US"),
           // demeanours1300"),
-          // speakdemeanours13
           // demeanours13("en-US"),
           // demeanours1400"),
-          // speakdemeanours14
           // demeanours14("en-US"),
           // demeanours1500"),
-          // speakdemeanours15
           // demeanours15("en-US"),
           // demeanours1600"),
-          // speakdemeanours16
           // demeanours16("en-US"),
           // demeanours1700"),
-          // speakdemeanours17
           // demeanours17("en-US"),
           // demeanours1800"),
-          // speakdemeanours18
           // demeanours18("en-US"),
           // demeanours1900"),
-          // speakdemeanours19
           // demeanours19("en-US"),
           // "Her demeanour seemed perfectly normal despite the shock.0"),
-          // speakdemeanours20
           // demeanours20("en-US"),
           // demeanours2100"),
-          // speakdemeanours21
           // demeanours21("en-US"),
           // demeanours2200"),
-          // speakdemeanours22
           // demeanours22("en-US"),
         ],
       ),

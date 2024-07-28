@@ -634,9 +634,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -1007,124 +1005,84 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdowns41("en-US"),
           ),
           // downs4200"),
-          // speakdowns42
           // downs42
           // downs4300"),
-          // speakdowns43
           // downs43
           // downs4400"),
-          // speakdowns44
           // downs44
           // downs4500"),
-          // speakdowns45
           // downs45
           // downs4600"),
-          // speakdowns46
           // downs46
           // downs4700"),
-          // speakdowns47
           // downs47
           // downs4800"),
-          // speakdowns48
           // downs48
           // downs4900"),
-          // speakdowns49
           // downs49
           // downs_6000"),
-          // speakdowns50
           // downs50
           // downs5100"),
-          // speakdowns51
           // downs51
           // downs5200"),
-          // speakdowns52
           // downs52
           // downs5300"),
-          // speakdowns53
           // downs53
           // downs5400"),
-          // speakdowns54
           // downs54
           // downs5500"),
-          // speakdowns55
           // downs55
           // downs5600"),
-          // speakdowns56
           // downs56
           // downs5700"),
-          // speakdowns57
           // downs57
           // downs5800"),
-          // speakdowns58
           // downs58
           // downs5900"),
-          // speakdowns59
           // downs59
           // downs6000"),
-          // speakdowns60
           // downs60
           // downs6100"),
-          // speakdowns61
           // downs61
           // downs6200"),
-          // speakdowns62
           // downs62
           // downs6300"),
-          // speakdowns63
           // downs63
           // downs6400"),
-          // speakdowns65
           // downs65
           // downs6600"),
-          // speakdowns66
           // downs66
           // downs6700"),
-          // speakdowns67
           // downs67
           // downs6800"),
-          // speakdowns68
           // downs68
           // downs6900"),
-          // speakdowns69
           // downs69
           // downs7000"),
-          // speakdowns70
           // downs70
           // downs7100"),
-          // speakdowns71
           // downs71
           // downs7200"),
-          // speakdowns72
           // downs72
           // downs7300"),
-          // speakdowns73
           // downs73
           // downs7400"),
-          // speakdowns75
           // downs75
           // downs7700"),
-          // speakdowns76
           // downs76
           // downs7700"),
-          // speakdowns77
           // downs77
           // downs7800"),
-          // speakdowns79
           // downs79
           // downs8000"),
-          // speakdowns80
           // downs80
           // downs8100"),
-          // speakdowns81
           // downs81
           // downs8200"),
-          // speakdowns82
           // downs82
           // downs8300"),
-          // speakdowns83
           // downs83
           // downs8400"),
-          // speakdowns84
           // downs84("en-US"),
         ],
       ),

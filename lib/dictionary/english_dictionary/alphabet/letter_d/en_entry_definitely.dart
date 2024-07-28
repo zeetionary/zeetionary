@@ -258,9 +258,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -312,55 +310,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdefinitelys5("en-US"),
           ),
           // definitelys600"),
-          // speakdefinitelys6
           // definitelys6("en-US"),
           // definitelys700"),
-          // speakdefinitelys7
           // definitelys7("en-US"),
           // definitelys800"),
-          // speakdefinitelys8
           // definitelys8("en-US"),
           // definitelys900"),
-          // speakdefinitelys9
           // definitelys9("en-US"),
           // definitelys1000"),
-          // speakdefinitelys10
           // definitelys10("en-US"),
           // definitelys1100"),
-          // speakdefinitelys11
           // definitelys11("en-US"),
           // definitelys1200"),
-          // speakdefinitelys12
           // definitelys12("en-US"),
           // definitelys1300"),
-          // speakdefinitelys13
           // definitelys13("en-US"),
           // definitelys1400"),
-          // speakdefinitelys14
           // definitelys14("en-US"),
           // definitelys1500"),
-          // speakdefinitelys15
           // definitelys15("en-US"),
           // definitelys1600"),
-          // speakdefinitelys16
           // definitelys16("en-US"),
           // definitelys1700"),
-          // speakdefinitelys17
           // definitelys17("en-US"),
           // definitelys1800"),
-          // speakdefinitelys18
           // definitelys18("en-US"),
           // definitelys1900"),
-          // speakdefinitelys19
           // definitelys19("en-US"),
           // "Some old people want help; others most definitely do not.0"),
-          // speakdefinitelys20
           // definitelys20("en-US"),
           // definitelys2100"),
-          // speakdefinitelys21
           // definitelys21("en-US"),
           // definitelys2200"),
-          // speakdefinitelys22
           // definitelys22("en-US"),
         ],
       ),

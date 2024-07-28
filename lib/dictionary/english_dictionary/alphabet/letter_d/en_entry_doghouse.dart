@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoghouses1("en-US"),
           ),
           // doghouses200"),
-          // speakdoghouses2
           // doghouses2("en-US"),
           // doghouses300"),
-          // speakdoghouses3
           // doghouses3("en-US"),
           // doghouses400"),
-          // speakdoghouses4
           // doghouses4("en-US"),
           // doghouses500"),
-          // speakdoghouses5
           // doghouses5("en-US"),
           // doghouses600"),
-          // speakdoghouses6
           // doghouses6("en-US"),
           // doghouses700"),
-          // speakdoghouses7
           // doghouses7("en-US"),
           // doghouses800"),
-          // speakdoghouses8
           // doghouses8("en-US"),
           // doghouses900"),
-          // speakdoghouses9
           // doghouses9("en-US"),
           // doghouses_1000"),
-          // speakdoghouses10
           // doghouses10("en-US"),
           // doghouses1100"),
-          // speakdoghouses11
           // doghouses11("en-US"),
           // doghouses1200"),
-          // speakdoghouses12
           // doghouses12("en-US"),
           // doghouses1300"),
-          // speakdoghouses13
           // doghouses13("en-US"),
           // doghouses1400"),
-          // speakdoghouses14
           // doghouses14("en-US"),
           // doghouses1500"),
-          // speakdoghouses15
           // doghouses15("en-US"),
           // doghouses1600"),
-          // speakdoghouses16
           // doghouses16("en-US"),
           // doghouses1700"),
-          // speakdoghouses17
           // doghouses17("en-US"),
           // doghouses1800"),
-          // speakdoghouses18
           // doghouses18("en-US"),
           // doghouses1900"),
-          // speakdoghouses19
           // doghouses19("en-US"),
           // doghouses_2000"),
-          // speakdoghouses20
           // doghouses20("en-US"),
           // doghouses2100"),
-          // speakdoghouses21
           // doghouses21("en-US"),
           // doghouses2200"),
-          // speakdoghouses22
           // doghouses22("en-US"),
         ],
       ),

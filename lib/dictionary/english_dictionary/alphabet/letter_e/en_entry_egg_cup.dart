@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -367,45 +365,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeggcups1("en-US"),
           ),
           // eggcups200eggcups2
-          // speakeggcups2
           // eggcups300eggcups3
-          // speakeggcups3
           // eggcups400eggcups4
-          // speakeggcups4
           // eggcups500eggcups5
-          // speakeggcups5
           // eggcups600eggcups6
-          // speakeggcups6
           // eggcups700eggcups7
-          // speakeggcups7
           // eggcups800eggcups8
-          // speakeggcups8
           // eggcups900eggcups9
-          // speakeggcups9
           // eggcups_1000eggcups10
-          // speakeggcups10
           // eggcups1100eggcups11
-          // speakeggcups11
           // eggcups1200eggcups12
-          // speakeggcups12
           // eggcups1300eggcups13
-          // speakeggcups13
           // eggcups1400eggcups14
-          // speakeggcups14
           // eggcups1500eggcups15
-          // speakeggcups15
           // eggcups1600eggcups16
-          // speakeggcups16
           // eggcups1700eggcups17
-          // speakeggcups17
           // eggcups1800eggcups18
-          // speakeggcups18
           // eggcups1900eggcups19
-          // speakeggcups19
           // eggcups_2000eggcups20
-          // speakeggcups20
           // eggcups2100eggcups21
-          // speakeggcups21
           // eggcups2200eggcups22
           // speakeggcups22("en-US"""),
           //         ),

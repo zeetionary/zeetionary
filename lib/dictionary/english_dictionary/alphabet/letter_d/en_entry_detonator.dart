@@ -219,9 +219,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -238,67 +236,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdetonators1("en-US"),
           ),
           // detonators200"),
-          // speakdetonators2
           // detonators2("en-US"),
           // detonators300"),
-          // speakdetonators3
           // detonators3("en-US"),
           // detonators400"),
-          // speakdetonators4
           // detonators4("en-US"),
           // detonators500"),
-          // speakdetonators5
           // detonators5("en-US"),
           // detonators600"),
-          // speakdetonators6
           // detonators6("en-US"),
           // detonators700"),
-          // speakdetonators7
           // detonators7("en-US"),
           // detonators800"),
-          // speakdetonators8
           // detonators8("en-US"),
           // detonators900"),
-          // speakdetonators9
           // detonators9("en-US"),
           // detonators1000"),
-          // speakdetonators10
           // detonators10("en-US"),
           // detonators1100"),
-          // speakdetonators11
           // detonators11("en-US"),
           // detonators1200"),
-          // speakdetonators12
           // detonators12("en-US"),
           // detonators1300"),
-          // speakdetonators13
           // detonators13("en-US"),
           // detonators1400"),
-          // speakdetonators14
           // detonators14("en-US"),
           // detonators1500"),
-          // speakdetonators15
           // detonators15("en-US"),
           // detonators1600"),
-          // speakdetonators16
           // detonators16("en-US"),
           // detonators1700"),
-          // speakdetonators17
           // detonators17("en-US"),
           // detonators1800"),
-          // speakdetonators18
           // detonators18("en-US"),
           // detonators1900"),
-          // speakdetonators19
           // detonators19("en-US"),
           // detonators2000"),
-          // speakdetonators20
           // detonators20("en-US"),
           // detonators2100"),
-          // speakdetonators21
           // detonators21("en-US"),
           // detonators2200"),
-          // speakdetonators22
           // detonators22("en-US"),
         ],
       ),

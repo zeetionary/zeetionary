@@ -357,9 +357,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdroves2("en-US"),
           ),
           // droves300"),
-          // speakdroves3
           // droves3("en-US"),
           // droves400"),
-          // speakdroves4
           // droves4("en-US"),
           // droves500"),
-          // speakdroves5
           // droves5("en-US"),
           // droves600"),
-          // speakdroves6
           // droves6("en-US"),
           // droves700"),
-          // speakdroves7
           // droves7("en-US"),
           // droves800"),
-          // speakdroves8
           // droves8("en-US"),
           // droves900"),
-          // speakdroves9
           // droves9("en-US"),
           // droves_1000"),
-          // speakdroves10
           // droves10("en-US"),
           // droves1100"),
-          // speakdroves11
           // droves11("en-US"),
           // droves1200"),
-          // speakdroves12
           // droves12("en-US"),
           // droves1300"),
-          // speakdroves13
           // droves13("en-US"),
           // droves1400"),
-          // speakdroves14
           // droves14("en-US"),
           // droves1500"),
-          // speakdroves15
           // droves15("en-US"),
           // droves1600"),
-          // speakdroves16
           // droves16("en-US"),
           // droves1700"),
-          // speakdroves17
           // droves17("en-US"),
           // droves1800"),
-          // speakdroves18
           // droves18("en-US"),
           // droves1900"),
-          // speakdroves19
           // droves19("en-US"),
           // droves_2000"),
-          // speakdroves20
           // droves20("en-US"),
           // droves2100"),
-          // speakdroves21
           // droves21("en-US"),
           // droves2200"),
-          // speakdroves22
           // droves22("en-US"),
         ],
       ),

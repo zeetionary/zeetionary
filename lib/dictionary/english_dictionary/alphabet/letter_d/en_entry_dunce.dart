@@ -350,9 +350,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -369,67 +367,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdunces1("en-US"),
           ),
           // dunces200
-          // speakdunces2
           // dunces2("en-US"""),
           // dunces300
-          // speakdunces3
           // dunces3("en-US"""),
           // dunces400
-          // speakdunces4
           // dunces4("en-US"""),
           // dunces500
-          // speakdunces5
           // dunces5("en-US"""),
           // dunces600
-          // speakdunces6
           // dunces6("en-US"""),
           // dunces700
-          // speakdunces7
           // dunces7("en-US"""),
           // dunces800
-          // speakdunces8
           // dunces8("en-US"""),
           // dunces900
-          // speakdunces9
           // dunces9("en-US"""),
           // dunces_1000
-          // speakdunces10
           // dunces10("en-US"""),
           // dunces1100
-          // speakdunces11
           // dunces11("en-US"""),
           // dunces1200
-          // speakdunces12
           // dunces12("en-US"""),
           // dunces1300
-          // speakdunces13
           // dunces13("en-US"""),
           // dunces1400
-          // speakdunces14
           // dunces14("en-US"""),
           // dunces1500
-          // speakdunces15
           // dunces15("en-US"""),
           // dunces1600
-          // speakdunces16
           // dunces16("en-US"""),
           // dunces1700
-          // speakdunces17
           // dunces17("en-US"""),
           // dunces1800
-          // speakdunces18
           // dunces18("en-US"""),
           // dunces1900
-          // speakdunces19
           // dunces19("en-US"""),
           // dunces_2000
-          // speakdunces20
           // dunces20("en-US"""),
           // dunces2100
-          // speakdunces21
           // dunces21("en-US"""),
           // dunces2200
-          // speakdunces22
           // dunces22("en-US"""),
         ],
       ),

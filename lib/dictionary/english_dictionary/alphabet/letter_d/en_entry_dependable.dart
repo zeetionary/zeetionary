@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -257,64 +255,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdependables2("en-US"),
           ),
           // dependables300"),
-          // speakdependables3
           // dependables3("en-US"),
           // dependables400"),
-          // speakdependables4
           // dependables4("en-US"),
           // dependables500"),
-          // speakdependables5
           // dependables5("en-US"),
           // dependables600"),
-          // speakdependables6
           // dependables6("en-US"),
           // dependables700"),
-          // speakdependables7
           // dependables7("en-US"),
           // dependables800"),
-          // speakdependables8
           // dependables8("en-US"),
           // dependables900"),
-          // speakdependables9
           // dependables9("en-US"),
           // dependables1000"),
-          // speakdependables10
           // dependables10("en-US"),
           // dependables1100"),
-          // speakdependables11
           // dependables11("en-US"),
           // dependables1200"),
-          // speakdependables12
           // dependables12("en-US"),
           // dependables1300"),
-          // speakdependables13
           // dependables13("en-US"),
           // dependables1400"),
-          // speakdependables14
           // dependables14("en-US"),
           // dependables1500"),
-          // speakdependables15
           // dependables15("en-US"),
           // dependables1600"),
-          // speakdependables16
           // dependables16("en-US"),
           // dependables1700"),
-          // speakdependables17
           // dependables17("en-US"),
           // dependables1800"),
-          // speakdependables18
           // dependables18("en-US"),
           // dependables1900"),
-          // speakdependables19
           // dependables19("en-US"),
           // "I find him very dependable.0"),
-          // speakdependables20
           // dependables20("en-US"),
           // dependables2100"),
-          // speakdependables21
           // dependables21("en-US"),
           // dependables2200"),
-          // speakdependables22
           // dependables22("en-US"),
         ],
       ),

@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -405,61 +403,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdubiouslys3("en-US"),
           ),
           // dubiouslys400
-          // speakdubiouslys4
           // dubiouslys4("en-US"""),
           // dubiouslys500
-          // speakdubiouslys5
           // dubiouslys5("en-US"""),
           // dubiouslys600
-          // speakdubiouslys6
           // dubiouslys6("en-US"""),
           // dubiouslys700
-          // speakdubiouslys7
           // dubiouslys7("en-US"""),
           // dubiouslys800
-          // speakdubiouslys8
           // dubiouslys8("en-US"""),
           // dubiouslys900
-          // speakdubiouslys9
           // dubiouslys9("en-US"""),
           // dubiouslys_1000
-          // speakdubiouslys10
           // dubiouslys10("en-US"""),
           // dubiouslys1100
-          // speakdubiouslys11
           // dubiouslys11("en-US"""),
           // dubiouslys1200
-          // speakdubiouslys12
           // dubiouslys12("en-US"""),
           // dubiouslys1300
-          // speakdubiouslys13
           // dubiouslys13("en-US"""),
           // dubiouslys1400
-          // speakdubiouslys14
           // dubiouslys14("en-US"""),
           // dubiouslys1500
-          // speakdubiouslys15
           // dubiouslys15("en-US"""),
           // dubiouslys1600
-          // speakdubiouslys16
           // dubiouslys16("en-US"""),
           // dubiouslys1700
-          // speakdubiouslys17
           // dubiouslys17("en-US"""),
           // dubiouslys1800
-          // speakdubiouslys18
           // dubiouslys18("en-US"""),
           // dubiouslys1900
-          // speakdubiouslys19
           // dubiouslys19("en-US"""),
           // dubiouslys_2000
-          // speakdubiouslys20
           // dubiouslys20("en-US"""),
           // dubiouslys2100
-          // speakdubiouslys21
           // dubiouslys21("en-US"""),
           // dubiouslys2200
-          // speakdubiouslys22
           // dubiouslys22("en-US"""),
         ],
       ),

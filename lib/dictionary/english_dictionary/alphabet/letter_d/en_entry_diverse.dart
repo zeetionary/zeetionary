@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -397,61 +395,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiverses3("en-US"),
           ),
           // diverses400"),
-          // speakdiverses4
           // diverses4("en-US"),
           // diverses500"),
-          // speakdiverses5
           // diverses5("en-US"),
           // diverses600"),
-          // speakdiverses6
           // diverses6("en-US"),
           // diverses700"),
-          // speakdiverses7
           // diverses7("en-US"),
           // diverses800"),
-          // speakdiverses8
           // diverses8("en-US"),
           // diverses900"),
-          // speakdiverses9
           // diverses9("en-US"),
           // diverses_1000"),
-          // speakdiverses10
           // diverses10("en-US"),
           // diverses1100"),
-          // speakdiverses11
           // diverses11("en-US"),
           // diverses1200"),
-          // speakdiverses12
           // diverses12("en-US"),
           // diverses1300"),
-          // speakdiverses13
           // diverses13("en-US"),
           // diverses1400"),
-          // speakdiverses14
           // diverses14("en-US"),
           // diverses1500"),
-          // speakdiverses15
           // diverses15("en-US"),
           // diverses1600"),
-          // speakdiverses16
           // diverses16("en-US"),
           // diverses1700"),
-          // speakdiverses17
           // diverses17("en-US"),
           // diverses1800"),
-          // speakdiverses18
           // diverses18("en-US"),
           // diverses1900"),
-          // speakdiverses19
           // diverses19("en-US"),
           // diverses_2000"),
-          // speakdiverses20
           // diverses20("en-US"),
           // diverses2100"),
-          // speakdiverses21
           // diverses21("en-US"),
           // diverses2200"),
-          // speakdiverses22
           // diverses22("en-US"),
         ],
       ),

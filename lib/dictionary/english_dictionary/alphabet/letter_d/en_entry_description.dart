@@ -258,9 +258,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -309,55 +307,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdescriptions5("en-US"),
           ),
           // descriptions600"),
-          // speakdescriptions6
           // descriptions6("en-US"),
           // descriptions700"),
-          // speakdescriptions7
           // descriptions7("en-US"),
           // descriptions800"),
-          // speakdescriptions8
           // descriptions8("en-US"),
           // descriptions900"),
-          // speakdescriptions9
           // descriptions9("en-US"),
           // descriptions1000"),
-          // speakdescriptions10
           // descriptions10("en-US"),
           // descriptions1100"),
-          // speakdescriptions11
           // descriptions11("en-US"),
           // descriptions1200"),
-          // speakdescriptions12
           // descriptions12("en-US"),
           // descriptions1300"),
-          // speakdescriptions13
           // descriptions13("en-US"),
           // descriptions1400"),
-          // speakdescriptions14
           // descriptions14("en-US"),
           // descriptions1500"),
-          // speakdescriptions15
           // descriptions15("en-US"),
           // descriptions1600"),
-          // speakdescriptions16
           // descriptions16("en-US"),
           // descriptions1700"),
-          // speakdescriptions17
           // descriptions17("en-US"),
           // descriptions1800"),
-          // speakdescriptions18
           // descriptions18("en-US"),
           // descriptions1900"),
-          // speakdescriptions19
           // descriptions19("en-US"),
           // "The name means ‘no trees’ and it is an accurate description of the island.0"),
-          // speakdescriptions20
           // descriptions20("en-US"),
           // descriptions2100"),
-          // speakdescriptions21
           // descriptions21("en-US"),
           // descriptions2200"),
-          // speakdescriptions22
           // descriptions22("en-US"),
         ],
       ),

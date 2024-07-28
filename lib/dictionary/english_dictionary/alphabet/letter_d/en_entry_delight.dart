@@ -288,9 +288,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -374,43 +372,30 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdelights9("en-US"),
           ),
           // delights1000"),
-          // speakdelights10
           // delights10("en-US"),
           // delights1100"),
-          // speakdelights11
           // delights11("en-US"),
           // delights1200"),
-          // speakdelights12
           // delights12("en-US"),
           // delights1300"),
-          // speakdelights13
           // delights13("en-US"),
           // delights1400"),
-          // speakdelights14
           // delights14("en-US"),
           // delights1500"),
-          // speakdelights15
           // delights15("en-US"),
           // delights1600"),
-          // speakdelights16
           // delights16("en-US"),
           // delights1700"),
-          // speakdelights17
           // delights17("en-US"),
           // delights1800"),
-          // speakdelights18
           // delights18("en-US"),
           // delights1900"),
-          // speakdelights19
           // delights19("en-US"),
           // "She won the game easily, to the delight of all her fans.0"),
-          // speakdelights20
           // delights20("en-US"),
           // delights2100"),
-          // speakdelights21
           // delights21("en-US"),
           // delights2200"),
-          // speakdelights22
           // delights22("en-US"),
         ],
       ),

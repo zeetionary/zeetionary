@@ -365,9 +365,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -397,61 +395,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdistastefuls3("en-US"),
           ),
           // distastefuls400"),
-          // speakdistastefuls4
           // distastefuls4("en-US"),
           // distastefuls500"),
-          // speakdistastefuls5
           // distastefuls5("en-US"),
           // distastefuls600"),
-          // speakdistastefuls6
           // distastefuls6("en-US"),
           // distastefuls700"),
-          // speakdistastefuls7
           // distastefuls7("en-US"),
           // distastefuls800"),
-          // speakdistastefuls8
           // distastefuls8("en-US"),
           // distastefuls900"),
-          // speakdistastefuls9
           // distastefuls9("en-US"),
           // distastefuls_1000"),
-          // speakdistastefuls10
           // distastefuls10("en-US"),
           // distastefuls1100"),
-          // speakdistastefuls11
           // distastefuls11("en-US"),
           // distastefuls1200"),
-          // speakdistastefuls12
           // distastefuls12("en-US"),
           // distastefuls1300"),
-          // speakdistastefuls13
           // distastefuls13("en-US"),
           // distastefuls1400"),
-          // speakdistastefuls14
           // distastefuls14("en-US"),
           // distastefuls1500"),
-          // speakdistastefuls15
           // distastefuls15("en-US"),
           // distastefuls1600"),
-          // speakdistastefuls16
           // distastefuls16("en-US"),
           // distastefuls1700"),
-          // speakdistastefuls17
           // distastefuls17("en-US"),
           // distastefuls1800"),
-          // speakdistastefuls18
           // distastefuls18("en-US"),
           // distastefuls1900"),
-          // speakdistastefuls19
           // distastefuls19("en-US"),
           // distastefuls_2000"),
-          // speakdistastefuls20
           // distastefuls20("en-US"),
           // distastefuls2100"),
-          // speakdistastefuls21
           // distastefuls21("en-US"),
           // distastefuls2200"),
-          // speakdistastefuls22
           // distastefuls22("en-US"),
         ],
       ),

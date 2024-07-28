@@ -255,9 +255,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -304,55 +302,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdesirables5("en-US"),
           ),
           // desirables600"),
-          // speakdesirables6
           // desirables6("en-US"),
           // desirables700"),
-          // speakdesirables7
           // desirables7("en-US"),
           // desirables800"),
-          // speakdesirables8
           // desirables8("en-US"),
           // desirables900"),
-          // speakdesirables9
           // desirables9("en-US"),
           // desirables1000"),
-          // speakdesirables10
           // desirables10("en-US"),
           // desirables1100"),
-          // speakdesirables11
           // desirables11("en-US"),
           // desirables1200"),
-          // speakdesirables12
           // desirables12("en-US"),
           // desirables1300"),
-          // speakdesirables13
           // desirables13("en-US"),
           // desirables1400"),
-          // speakdesirables14
           // desirables14("en-US"),
           // desirables1500"),
-          // speakdesirables15
           // desirables15("en-US"),
           // desirables1600"),
-          // speakdesirables16
           // desirables16("en-US"),
           // desirables1700"),
-          // speakdesirables17
           // desirables17("en-US"),
           // desirables1800"),
-          // speakdesirables18
           // desirables18("en-US"),
           // desirables1900"),
-          // speakdesirables19
           // desirables19("en-US"),
           // "The house has many desirable features.0"),
-          // speakdesirables20
           // desirables20("en-US"),
           // desirables2100"),
-          // speakdesirables21
           // desirables21("en-US"),
           // desirables2200"),
-          // speakdesirables22
           // desirables22("en-US"),
         ],
       ),

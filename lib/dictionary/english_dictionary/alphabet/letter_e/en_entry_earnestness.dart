@@ -351,9 +351,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -370,45 +368,25 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakearnestnesss1("en-US"),
           ),
           // earnestnesss200earnestnesss2
-          // speakearnestnesss2
           // earnestnesss300earnestnesss3
-          // speakearnestnesss3
           // earnestnesss400earnestnesss4
-          // speakearnestnesss4
           // earnestnesss500earnestnesss5
-          // speakearnestnesss5
           // earnestnesss600earnestnesss6
-          // speakearnestnesss6
           // earnestnesss700earnestnesss7
-          // speakearnestnesss7
           // earnestnesss800earnestnesss8
-          // speakearnestnesss8
           // earnestnesss900earnestnesss9
-          // speakearnestnesss9
           // earnestnesss_1000earnestnesss10
-          // speakearnestnesss10
           // earnestnesss1100earnestnesss11
-          // speakearnestnesss11
           // earnestnesss1200earnestnesss12
-          // speakearnestnesss12
           // earnestnesss1300earnestnesss13
-          // speakearnestnesss13
           // earnestnesss1400earnestnesss14
-          // speakearnestnesss14
           // earnestnesss1500earnestnesss15
-          // speakearnestnesss15
           // earnestnesss1600earnestnesss16
-          // speakearnestnesss16
           // earnestnesss1700earnestnesss17
-          // speakearnestnesss17
           // earnestnesss1800earnestnesss18
-          // speakearnestnesss18
           // earnestnesss1900earnestnesss19
-          // speakearnestnesss19
           // earnestnesss_2000earnestnesss20
-          // speakearnestnesss20
           // earnestnesss2100earnestnesss21
-          // speakearnestnesss21
           // earnestnesss2200earnestnesss22
           // speakearnestnesss22("en-US"""),
           //         ),

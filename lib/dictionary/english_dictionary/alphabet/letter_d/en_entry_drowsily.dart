@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -367,67 +365,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrowsilys1("en-US"),
           ),
           // drowsilys200"),
-          // speakdrowsilys2
           // drowsilys2("en-US"),
           // drowsilys300"),
-          // speakdrowsilys3
           // drowsilys3("en-US"),
           // drowsilys400"),
-          // speakdrowsilys4
           // drowsilys4("en-US"),
           // drowsilys500"),
-          // speakdrowsilys5
           // drowsilys5("en-US"),
           // drowsilys600"),
-          // speakdrowsilys6
           // drowsilys6("en-US"),
           // drowsilys700"),
-          // speakdrowsilys7
           // drowsilys7("en-US"),
           // drowsilys800"),
-          // speakdrowsilys8
           // drowsilys8("en-US"),
           // drowsilys900"),
-          // speakdrowsilys9
           // drowsilys9("en-US"),
           // drowsilys_1000"),
-          // speakdrowsilys10
           // drowsilys10("en-US"),
           // drowsilys1100"),
-          // speakdrowsilys11
           // drowsilys11("en-US"),
           // drowsilys1200"),
-          // speakdrowsilys12
           // drowsilys12("en-US"),
           // drowsilys1300"),
-          // speakdrowsilys13
           // drowsilys13("en-US"),
           // drowsilys1400"),
-          // speakdrowsilys14
           // drowsilys14("en-US"),
           // drowsilys1500"),
-          // speakdrowsilys15
           // drowsilys15("en-US"),
           // drowsilys1600"),
-          // speakdrowsilys16
           // drowsilys16("en-US"),
           // drowsilys1700"),
-          // speakdrowsilys17
           // drowsilys17("en-US"),
           // drowsilys1800"),
-          // speakdrowsilys18
           // drowsilys18("en-US"),
           // drowsilys1900"),
-          // speakdrowsilys19
           // drowsilys19("en-US"),
           // drowsilys_2000"),
-          // speakdrowsilys20
           // drowsilys20("en-US"),
           // drowsilys2100"),
-          // speakdrowsilys21
           // drowsilys21("en-US"),
           // drowsilys2200"),
-          // speakdrowsilys22
           // drowsilys22("en-US"),
         ],
       ),

@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdissensions2("en-US"),
           ),
           // dissensions300"),
-          // speakdissensions3
           // dissensions3("en-US"),
           // dissensions400"),
-          // speakdissensions4
           // dissensions4("en-US"),
           // dissensions500"),
-          // speakdissensions5
           // dissensions5("en-US"),
           // dissensions600"),
-          // speakdissensions6
           // dissensions6("en-US"),
           // dissensions700"),
-          // speakdissensions7
           // dissensions7("en-US"),
           // dissensions800"),
-          // speakdissensions8
           // dissensions8("en-US"),
           // dissensions900"),
-          // speakdissensions9
           // dissensions9("en-US"),
           // dissensions_1000"),
-          // speakdissensions10
           // dissensions10("en-US"),
           // dissensions1100"),
-          // speakdissensions11
           // dissensions11("en-US"),
           // dissensions1200"),
-          // speakdissensions12
           // dissensions12("en-US"),
           // dissensions1300"),
-          // speakdissensions13
           // dissensions13("en-US"),
           // dissensions1400"),
-          // speakdissensions14
           // dissensions14("en-US"),
           // dissensions1500"),
-          // speakdissensions15
           // dissensions15("en-US"),
           // dissensions1600"),
-          // speakdissensions16
           // dissensions16("en-US"),
           // dissensions1700"),
-          // speakdissensions17
           // dissensions17("en-US"),
           // dissensions1800"),
-          // speakdissensions18
           // dissensions18("en-US"),
           // dissensions1900"),
-          // speakdissensions19
           // dissensions19("en-US"),
           // dissensions_2000"),
-          // speakdissensions20
           // dissensions20("en-US"),
           // dissensions2100"),
-          // speakdissensions21
           // dissensions21("en-US"),
           // dissensions2200"),
-          // speakdissensions22
           // dissensions22("en-US"),
         ],
       ),

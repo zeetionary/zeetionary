@@ -250,9 +250,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -305,55 +303,38 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiplomacys5("en-US"),
           ),
           // diplomacys600"),
-          // speakdiplomacys6
           // diplomacys6
           // diplomacys700"),
-          // speakdiplomacys7
           // diplomacys7
           // diplomacys800"),
-          // speakdiplomacys8
           // diplomacys8
           // diplomacys900"),
-          // speakdiplomacys9
           // diplomacys9
           // diplomacys_1000"),
-          // speakdiplomacys10
           // diplomacys10
           // diplomacys1100"),
-          // speakdiplomacys11
           // diplomacys11
           // diplomacys1200"),
-          // speakdiplomacys12
           // diplomacys12
           // diplomacys1300"),
-          // speakdiplomacys13
           // diplomacys13
           // diplomacys1400"),
-          // speakdiplomacys14
           // diplomacys14
           // diplomacys1500"),
-          // speakdiplomacys15
           // diplomacys15
           // diplomacys1600"),
-          // speakdiplomacys16
           // diplomacys16
           // diplomacys1700"),
-          // speakdiplomacys17
           // diplomacys17
           // diplomacys1800"),
-          // speakdiplomacys18
           // diplomacys18
           // diplomacys1900"),
-          // speakdiplomacys19
           // diplomacys19
           // diplomacys_2000"),
-          // speakdiplomacys20
           // diplomacys20
           // diplomacys2100"),
-          // speakdiplomacys21
           // diplomacys21
           // diplomacys2200"),
-          // speakdiplomacys22
           // diplomacys22("en-US"),
         ],
       ),

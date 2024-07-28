@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakDVDs2("en-US"),
           ),
           // DVDs300
-          // speakDVDs3
           // DVDs3("en-US"""),
           // DVDs400
-          // speakDVDs4
           // DVDs4("en-US"""),
           // DVDs500
-          // speakDVDs5
           // DVDs5("en-US"""),
           // DVDs600
-          // speakDVDs6
           // DVDs6("en-US"""),
           // DVDs700
-          // speakDVDs7
           // DVDs7("en-US"""),
           // DVDs800
-          // speakDVDs8
           // DVDs8("en-US"""),
           // DVDs900
-          // speakDVDs9
           // DVDs9("en-US"""),
           // DVDs_1000
-          // speakDVDs10
           // DVDs10("en-US"""),
           // DVDs1100
-          // speakDVDs11
           // DVDs11("en-US"""),
           // DVDs1200
-          // speakDVDs12
           // DVDs12("en-US"""),
           // DVDs1300
-          // speakDVDs13
           // DVDs13("en-US"""),
           // DVDs1400
-          // speakDVDs14
           // DVDs14("en-US"""),
           // DVDs1500
-          // speakDVDs15
           // DVDs15("en-US"""),
           // DVDs1600
-          // speakDVDs16
           // DVDs16("en-US"""),
           // DVDs1700
-          // speakDVDs17
           // DVDs17("en-US"""),
           // DVDs1800
-          // speakDVDs18
           // DVDs18("en-US"""),
           // DVDs1900
-          // speakDVDs19
           // DVDs19("en-US"""),
           // DVDs_2000
-          // speakDVDs20
           // DVDs20("en-US"""),
           // DVDs2100
-          // speakDVDs21
           // DVDs21("en-US"""),
           // DVDs2200
-          // speakDVDs22
           // DVDs22("en-US"""),
         ],
       ),

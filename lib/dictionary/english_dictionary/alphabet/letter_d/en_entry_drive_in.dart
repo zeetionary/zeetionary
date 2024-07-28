@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -384,64 +382,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdriveins2("en-US"),
           ),
           // driveins300"),
-          // speakdriveins3
           // driveins3("en-US"),
           // driveins400"),
-          // speakdriveins4
           // driveins4("en-US"),
           // driveins500"),
-          // speakdriveins5
           // driveins5("en-US"),
           // driveins600"),
-          // speakdriveins6
           // driveins6("en-US"),
           // driveins700"),
-          // speakdriveins7
           // driveins7("en-US"),
           // driveins800"),
-          // speakdriveins8
           // driveins8("en-US"),
           // driveins900"),
-          // speakdriveins9
           // driveins9("en-US"),
           // driveins_1000"),
-          // speakdriveins10
           // driveins10("en-US"),
           // driveins1100"),
-          // speakdriveins11
           // driveins11("en-US"),
           // driveins1200"),
-          // speakdriveins12
           // driveins12("en-US"),
           // driveins1300"),
-          // speakdriveins13
           // driveins13("en-US"),
           // driveins1400"),
-          // speakdriveins14
           // driveins14("en-US"),
           // driveins1500"),
-          // speakdriveins15
           // driveins15("en-US"),
           // driveins1600"),
-          // speakdriveins16
           // driveins16("en-US"),
           // driveins1700"),
-          // speakdriveins17
           // driveins17("en-US"),
           // driveins1800"),
-          // speakdriveins18
           // driveins18("en-US"),
           // driveins1900"),
-          // speakdriveins19
           // driveins19("en-US"),
           // driveins_2000"),
-          // speakdriveins20
           // driveins20("en-US"),
           // driveins2100"),
-          // speakdriveins21
           // driveins21("en-US"),
           // driveins2200"),
-          // speakdriveins22
           // driveins22("en-US"),
         ],
       ),

@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -380,64 +378,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdoles2("en-US"),
           ),
           // doles300"),
-          // speakdoles3
           // doles3("en-US"),
           // doles400"),
-          // speakdoles4
           // doles4("en-US"),
           // doles500"),
-          // speakdoles5
           // doles5("en-US"),
           // doles600"),
-          // speakdoles6
           // doles6("en-US"),
           // doles700"),
-          // speakdoles7
           // doles7("en-US"),
           // doles800"),
-          // speakdoles8
           // doles8("en-US"),
           // doles900"),
-          // speakdoles9
           // doles9("en-US"),
           // doles_1000"),
-          // speakdoles10
           // doles10("en-US"),
           // doles1100"),
-          // speakdoles11
           // doles11("en-US"),
           // doles1200"),
-          // speakdoles12
           // doles12("en-US"),
           // doles1300"),
-          // speakdoles13
           // doles13("en-US"),
           // doles1400"),
-          // speakdoles14
           // doles14("en-US"),
           // doles1500"),
-          // speakdoles15
           // doles15("en-US"),
           // doles1600"),
-          // speakdoles16
           // doles16("en-US"),
           // doles1700"),
-          // speakdoles17
           // doles17("en-US"),
           // doles1800"),
-          // speakdoles18
           // doles18("en-US"),
           // doles1900"),
-          // speakdoles19
           // doles19("en-US"),
           // doles_2000"),
-          // speakdoles20
           // doles20("en-US"),
           // doles2100"),
-          // speakdoles21
           // doles21("en-US"),
           // doles2200"),
-          // speakdoles22
           // doles22("en-US"),
         ],
       ),

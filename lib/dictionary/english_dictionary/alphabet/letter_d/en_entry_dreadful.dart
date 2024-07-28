@@ -384,9 +384,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -441,52 +439,36 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdreadfuls6("en-US"),
           ),
           // dreadfuls700"),
-          // speakdreadfuls7
           // dreadfuls7("en-US"),
           // dreadfuls800"),
-          // speakdreadfuls8
           // dreadfuls8("en-US"),
           // dreadfuls900"),
-          // speakdreadfuls9
           // dreadfuls9("en-US"),
           // dreadfuls_1000"),
-          // speakdreadfuls10
           // dreadfuls10("en-US"),
           // dreadfuls1100"),
-          // speakdreadfuls11
           // dreadfuls11("en-US"),
           // dreadfuls1200"),
-          // speakdreadfuls12
           // dreadfuls12("en-US"),
           // dreadfuls1300"),
-          // speakdreadfuls13
           // dreadfuls13("en-US"),
           // dreadfuls1400"),
-          // speakdreadfuls14
           // dreadfuls14("en-US"),
           // dreadfuls1500"),
-          // speakdreadfuls15
           // dreadfuls15("en-US"),
           // dreadfuls1600"),
-          // speakdreadfuls16
           // dreadfuls16("en-US"),
           // dreadfuls1700"),
-          // speakdreadfuls17
           // dreadfuls17("en-US"),
           // dreadfuls1800"),
-          // speakdreadfuls18
           // dreadfuls18("en-US"),
           // dreadfuls1900"),
-          // speakdreadfuls19
           // dreadfuls19("en-US"),
           // dreadfuls_2000"),
-          // speakdreadfuls20
           // dreadfuls20("en-US"),
           // dreadfuls2100"),
-          // speakdreadfuls21
           // dreadfuls21("en-US"),
           // dreadfuls2200"),
-          // speakdreadfuls22
           // dreadfuls22("en-US"),
         ],
       ),

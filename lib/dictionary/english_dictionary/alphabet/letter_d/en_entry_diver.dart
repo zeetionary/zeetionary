@@ -349,9 +349,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -368,67 +366,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdivers1("en-US"),
           ),
           // divers200"),
-          // speakdivers2
           // divers2("en-US"),
           // divers300"),
-          // speakdivers3
           // divers3("en-US"),
           // divers400"),
-          // speakdivers4
           // divers4("en-US"),
           // divers500"),
-          // speakdivers5
           // divers5("en-US"),
           // divers600"),
-          // speakdivers6
           // divers6("en-US"),
           // divers700"),
-          // speakdivers7
           // divers7("en-US"),
           // divers800"),
-          // speakdivers8
           // divers8("en-US"),
           // divers900"),
-          // speakdivers9
           // divers9("en-US"),
           // divers_1000"),
-          // speakdivers10
           // divers10("en-US"),
           // divers1100"),
-          // speakdivers11
           // divers11("en-US"),
           // divers1200"),
-          // speakdivers12
           // divers12("en-US"),
           // divers1300"),
-          // speakdivers13
           // divers13("en-US"),
           // divers1400"),
-          // speakdivers14
           // divers14("en-US"),
           // divers1500"),
-          // speakdivers15
           // divers15("en-US"),
           // divers1600"),
-          // speakdivers16
           // divers16("en-US"),
           // divers1700"),
-          // speakdivers17
           // divers17("en-US"),
           // divers1800"),
-          // speakdivers18
           // divers18("en-US"),
           // divers1900"),
-          // speakdivers19
           // divers19("en-US"),
           // divers_2000"),
-          // speakdivers20
           // divers20("en-US"),
           // divers2100"),
-          // speakdivers21
           // divers21("en-US"),
           // divers2200"),
-          // speakdivers22
           // divers22("en-US"),
         ],
       ),

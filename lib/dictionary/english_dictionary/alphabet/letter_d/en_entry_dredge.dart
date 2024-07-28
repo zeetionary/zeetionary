@@ -364,9 +364,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -401,61 +399,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdredges3("en-US"),
           ),
           // dredges400"),
-          // speakdredges4
           // dredges4("en-US"),
           // dredges500"),
-          // speakdredges5
           // dredges5("en-US"),
           // dredges600"),
-          // speakdredges6
           // dredges6("en-US"),
           // dredges700"),
-          // speakdredges7
           // dredges7("en-US"),
           // dredges800"),
-          // speakdredges8
           // dredges8("en-US"),
           // dredges900"),
-          // speakdredges9
           // dredges9("en-US"),
           // dredges_1000"),
-          // speakdredges10
           // dredges10("en-US"),
           // dredges1100"),
-          // speakdredges11
           // dredges11("en-US"),
           // dredges1200"),
-          // speakdredges12
           // dredges12("en-US"),
           // dredges1300"),
-          // speakdredges13
           // dredges13("en-US"),
           // dredges1400"),
-          // speakdredges14
           // dredges14("en-US"),
           // dredges1500"),
-          // speakdredges15
           // dredges15("en-US"),
           // dredges1600"),
-          // speakdredges16
           // dredges16("en-US"),
           // dredges1700"),
-          // speakdredges17
           // dredges17("en-US"),
           // dredges1800"),
-          // speakdredges18
           // dredges18("en-US"),
           // dredges1900"),
-          // speakdredges19
           // dredges19("en-US"),
           // dredges_2000"),
-          // speakdredges20
           // dredges20("en-US"),
           // dredges2100"),
-          // speakdredges21
           // dredges21("en-US"),
           // dredges2200"),
-          // speakdredges22
           // dredges22("en-US"),
         ],
       ),

@@ -228,9 +228,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -254,64 +252,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscernments2("en-US"),
           ),
           // discernments300"),
-          // speakdiscernments3
           // discernments3("en-US"),
           // discernments400"),
-          // speakdiscernments4
           // discernments4("en-US"),
           // discernments500"),
-          // speakdiscernments5
           // discernments5("en-US"),
           // discernments600"),
-          // speakdiscernments6
           // discernments6("en-US"),
           // discernments700"),
-          // speakdiscernments7
           // discernments7("en-US"),
           // discernments800"),
-          // speakdiscernments8
           // discernments8("en-US"),
           // discernments900"),
-          // speakdiscernments9
           // discernments9("en-US"),
           // discernments_1000"),
-          // speakdiscernments10
           // discernments10("en-US"),
           // discernments1100"),
-          // speakdiscernments11
           // discernments11("en-US"),
           // discernments1200"),
-          // speakdiscernments12
           // discernments12("en-US"),
           // discernments1300"),
-          // speakdiscernments13
           // discernments13("en-US"),
           // discernments1400"),
-          // speakdiscernments14
           // discernments14("en-US"),
           // discernments1500"),
-          // speakdiscernments15
           // discernments15("en-US"),
           // discernments1600"),
-          // speakdiscernments16
           // discernments16("en-US"),
           // discernments1700"),
-          // speakdiscernments17
           // discernments17("en-US"),
           // discernments1800"),
-          // speakdiscernments18
           // discernments18("en-US"),
           // discernments1900"),
-          // speakdiscernments19
           // discernments19("en-US"),
           // discernments_2000"),
-          // speakdiscernments20
           // discernments20("en-US"),
           // discernments2100"),
-          // speakdiscernments21
           // discernments21("en-US"),
           // discernments2200"),
-          // speakdiscernments22
           // discernments22("en-US"),
         ],
       ),

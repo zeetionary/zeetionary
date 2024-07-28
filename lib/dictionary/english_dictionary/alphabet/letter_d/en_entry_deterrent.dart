@@ -244,9 +244,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -282,61 +280,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdeterrents3("en-US"),
           ),
           // deterrents400"),
-          // speakdeterrents4
           // deterrents4("en-US"),
           // deterrents500"),
-          // speakdeterrents5
           // deterrents5("en-US"),
           // deterrents600"),
-          // speakdeterrents6
           // deterrents6("en-US"),
           // deterrents700"),
-          // speakdeterrents7
           // deterrents7("en-US"),
           // deterrents800"),
-          // speakdeterrents8
           // deterrents8("en-US"),
           // deterrents900"),
-          // speakdeterrents9
           // deterrents9("en-US"),
           // deterrents1000"),
-          // speakdeterrents10
           // deterrents10("en-US"),
           // deterrents1100"),
-          // speakdeterrents11
           // deterrents11("en-US"),
           // deterrents1200"),
-          // speakdeterrents12
           // deterrents12("en-US"),
           // deterrents1300"),
-          // speakdeterrents13
           // deterrents13("en-US"),
           // deterrents1400"),
-          // speakdeterrents14
           // deterrents14("en-US"),
           // deterrents1500"),
-          // speakdeterrents15
           // deterrents15("en-US"),
           // deterrents1600"),
-          // speakdeterrents16
           // deterrents16("en-US"),
           // deterrents1700"),
-          // speakdeterrents17
           // deterrents17("en-US"),
           // deterrents1800"),
-          // speakdeterrents18
           // deterrents18("en-US"),
           // deterrents1900"),
-          // speakdeterrents19
           // deterrents19("en-US"),
           // "The bodies of executed criminals were hung on the city gates as a deterrent.0"),
-          // speakdeterrents20
           // deterrents20("en-US"),
           // deterrents2100"),
-          // speakdeterrents21
           // deterrents21("en-US"),
           // deterrents2200"),
-          // speakdeterrents22
           // deterrents22("en-US"),
         ],
       ),

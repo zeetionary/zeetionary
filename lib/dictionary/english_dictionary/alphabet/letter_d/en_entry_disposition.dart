@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -273,61 +271,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdispositions3("en-US"),
           ),
           // dispositions400"),
-          // speakdispositions4
           // dispositions4
           // dispositions500"),
-          // speakdispositions5
           // dispositions5
           // dispositions600"),
-          // speakdispositions6
           // dispositions6
           // dispositions700"),
-          // speakdispositions7
           // dispositions7
           // dispositions800"),
-          // speakdispositions8
           // dispositions8
           // dispositions900"),
-          // speakdispositions9
           // dispositions9
           // dispositions_1000"),
-          // speakdispositions10
           // dispositions10
           // dispositions1100"),
-          // speakdispositions11
           // dispositions11
           // dispositions1200"),
-          // speakdispositions12
           // dispositions12
           // dispositions1300"),
-          // speakdispositions13
           // dispositions13
           // dispositions1400"),
-          // speakdispositions14
           // dispositions14
           // dispositions1500"),
-          // speakdispositions15
           // dispositions15
           // dispositions1600"),
-          // speakdispositions16
           // dispositions16
           // dispositions1700"),
-          // speakdispositions17
           // dispositions17
           // dispositions1800"),
-          // speakdispositions18
           // dispositions18
           // dispositions1900"),
-          // speakdispositions19
           // dispositions19
           // dispositions_2000"),
-          // speakdispositions20
           // dispositions20
           // dispositions2100"),
-          // speakdispositions21
           // dispositions21
           // dispositions2200"),
-          // speakdispositions22
           // dispositions22("en-US"),
         ],
       ),

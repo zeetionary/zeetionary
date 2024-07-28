@@ -221,9 +221,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -239,67 +237,46 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdenominators1("en-US"),
           ),
           // denominators200"),
-          // speakdenominators2
           // denominators2("en-US"),
           // denominators300"),
-          // speakdenominators3
           // denominators3("en-US"),
           // denominators400"),
-          // speakdenominators4
           // denominators4("en-US"),
           // denominators500"),
-          // speakdenominators5
           // denominators5("en-US"),
           // denominators600"),
-          // speakdenominators6
           // denominators6("en-US"),
           // denominators700"),
-          // speakdenominators7
           // denominators7("en-US"),
           // denominators800"),
-          // speakdenominators8
           // denominators8("en-US"),
           // denominators900"),
-          // speakdenominators9
           // denominators9("en-US"),
           // denominators1000"),
-          // speakdenominators10
           // denominators10("en-US"),
           // denominators1100"),
-          // speakdenominators11
           // denominators11("en-US"),
           // denominators1200"),
-          // speakdenominators12
           // denominators12("en-US"),
           // denominators1300"),
-          // speakdenominators13
           // denominators13("en-US"),
           // denominators1400"),
-          // speakdenominators14
           // denominators14("en-US"),
           // denominators1500"),
-          // speakdenominators15
           // denominators15("en-US"),
           // denominators1600"),
-          // speakdenominators16
           // denominators16("en-US"),
           // denominators1700"),
-          // speakdenominators17
           // denominators17("en-US"),
           // denominators1800"),
-          // speakdenominators18
           // denominators18("en-US"),
           // denominators1900"),
-          // speakdenominators19
           // denominators19("en-US"),
           // denominators2000"),
-          // speakdenominators20
           // denominators20("en-US"),
           // denominators2100"),
-          // speakdenominators21
           // denominators21("en-US"),
           // denominators2200"),
-          // speakdenominators22
           // denominators22("en-US"),
         ],
       ),

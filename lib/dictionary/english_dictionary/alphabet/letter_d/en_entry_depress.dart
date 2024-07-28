@@ -248,9 +248,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -290,58 +288,40 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdepresss4("en-US"),
           ),
           // depresss500"),
-          // speakdepresss5
           // depresss5("en-US"),
           // depresss600"),
-          // speakdepresss6
           // depresss6("en-US"),
           // depresss700"),
-          // speakdepresss7
           // depresss7("en-US"),
           // depresss800"),
-          // speakdepresss8
           // depresss8("en-US"),
           // depresss900"),
-          // speakdepresss9
           // depresss9("en-US"),
           // depresss1000"),
-          // speakdepresss10
           // depresss10("en-US"),
           // depresss1100"),
-          // speakdepresss11
           // depresss11("en-US"),
           // depresss1200"),
-          // speakdepresss12
           // depresss12("en-US"),
           // depresss1300"),
-          // speakdepresss13
           // depresss13("en-US"),
           // depresss1400"),
-          // speakdepresss14
           // depresss14("en-US"),
           // depresss1500"),
-          // speakdepresss15
           // depresss15("en-US"),
           // depresss1600"),
-          // speakdepresss16
           // depresss16("en-US"),
           // depresss1700"),
-          // speakdepresss17
           // depresss17("en-US"),
           // depresss1800"),
-          // speakdepresss18
           // depresss18("en-US"),
           // depresss1900"),
-          // speakdepresss19
           // depresss19("en-US"),
           // "What depresses me most is that I never see you.0"),
-          // speakdepresss20
           // depresss20("en-US"),
           // depresss2100"),
-          // speakdepresss21
           // depresss21("en-US"),
           // depresss2200"),
-          // speakdepresss22
           // depresss22("en-US"),
         ],
       ),

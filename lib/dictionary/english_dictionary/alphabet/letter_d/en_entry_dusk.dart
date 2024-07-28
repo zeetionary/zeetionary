@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -382,64 +380,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdusks2("en-US"),
           ),
           // dusks300
-          // speakdusks3
           // dusks3("en-US"""),
           // dusks400
-          // speakdusks4
           // dusks4("en-US"""),
           // dusks500
-          // speakdusks5
           // dusks5("en-US"""),
           // dusks600
-          // speakdusks6
           // dusks6("en-US"""),
           // dusks700
-          // speakdusks7
           // dusks7("en-US"""),
           // dusks800
-          // speakdusks8
           // dusks8("en-US"""),
           // dusks900
-          // speakdusks9
           // dusks9("en-US"""),
           // dusks_1000
-          // speakdusks10
           // dusks10("en-US"""),
           // dusks1100
-          // speakdusks11
           // dusks11("en-US"""),
           // dusks1200
-          // speakdusks12
           // dusks12("en-US"""),
           // dusks1300
-          // speakdusks13
           // dusks13("en-US"""),
           // dusks1400
-          // speakdusks14
           // dusks14("en-US"""),
           // dusks1500
-          // speakdusks15
           // dusks15("en-US"""),
           // dusks1600
-          // speakdusks16
           // dusks16("en-US"""),
           // dusks1700
-          // speakdusks17
           // dusks17("en-US"""),
           // dusks1800
-          // speakdusks18
           // dusks18("en-US"""),
           // dusks1900
-          // speakdusks19
           // dusks19("en-US"""),
           // dusks_2000
-          // speakdusks20
           // dusks20("en-US"""),
           // dusks2100
-          // speakdusks21
           // dusks21("en-US"""),
           // dusks2200
-          // speakdusks22
           // dusks22("en-US"""),
         ],
       ),

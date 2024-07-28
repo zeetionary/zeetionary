@@ -356,9 +356,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -385,64 +383,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdrawls2("en-US"),
           ),
           // drawls300"),
-          // speakdrawls3
           // drawls3("en-US"),
           // drawls400"),
-          // speakdrawls4
           // drawls4("en-US"),
           // drawls500"),
-          // speakdrawls5
           // drawls5("en-US"),
           // drawls600"),
-          // speakdrawls6
           // drawls6("en-US"),
           // drawls700"),
-          // speakdrawls7
           // drawls7("en-US"),
           // drawls800"),
-          // speakdrawls8
           // drawls8("en-US"),
           // drawls900"),
-          // speakdrawls9
           // drawls9("en-US"),
           // drawls_1000"),
-          // speakdrawls10
           // drawls10("en-US"),
           // drawls1100"),
-          // speakdrawls11
           // drawls11("en-US"),
           // drawls1200"),
-          // speakdrawls12
           // drawls12("en-US"),
           // drawls1300"),
-          // speakdrawls13
           // drawls13("en-US"),
           // drawls1400"),
-          // speakdrawls14
           // drawls14("en-US"),
           // drawls1500"),
-          // speakdrawls15
           // drawls15("en-US"),
           // drawls1600"),
-          // speakdrawls16
           // drawls16("en-US"),
           // drawls1700"),
-          // speakdrawls17
           // drawls17("en-US"),
           // drawls1800"),
-          // speakdrawls18
           // drawls18("en-US"),
           // drawls1900"),
-          // speakdrawls19
           // drawls19("en-US"),
           // drawls_2000"),
-          // speakdrawls20
           // drawls20("en-US"),
           // drawls2100"),
-          // speakdrawls21
           // drawls21("en-US"),
           // drawls2200"),
-          // speakdrawls22
           // drawls22("en-US"),
         ],
       ),

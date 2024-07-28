@@ -243,9 +243,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -281,61 +279,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakderails3("en-US"),
           ),
           // derails400"),
-          // speakderails4
           // derails4("en-US"),
           // derails500"),
-          // speakderails5
           // derails5("en-US"),
           // derails600"),
-          // speakderails6
           // derails6("en-US"),
           // derails700"),
-          // speakderails7
           // derails7("en-US"),
           // derails800"),
-          // speakderails8
           // derails8("en-US"),
           // derails900"),
-          // speakderails9
           // derails9("en-US"),
           // derails1000"),
-          // speakderails10
           // derails10("en-US"),
           // derails1100"),
-          // speakderails11
           // derails11("en-US"),
           // derails1200"),
-          // speakderails12
           // derails12("en-US"),
           // derails1300"),
-          // speakderails13
           // derails13("en-US"),
           // derails1400"),
-          // speakderails14
           // derails14("en-US"),
           // derails1500"),
-          // speakderails15
           // derails15("en-US"),
           // derails1600"),
-          // speakderails16
           // derails16("en-US"),
           // derails1700"),
-          // speakderails17
           // derails17("en-US"),
           // derails1800"),
-          // speakderails18
           // derails18("en-US"),
           // derails1900"),
-          // speakderails19
           // derails19("en-US"),
           // "The rebels plotted to derail trains and blow up bridges.0"),
-          // speakderails20
           // derails20("en-US"),
           // derails2100"),
-          // speakderails21
           // derails21("en-US"),
           // derails2200"),
-          // speakderails22
           // derails22("en-US"),
         ],
       ),

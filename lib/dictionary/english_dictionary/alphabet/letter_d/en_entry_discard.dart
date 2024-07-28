@@ -233,9 +233,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
 //           const KurdishVocabulary(text: """
@@ -265,61 +263,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdiscards3("en-US"),
           ),
           // discards400"),
-          // speakdiscards4
           // discards4("en-US"),
           // discards500"),
-          // speakdiscards5
           // discards5("en-US"),
           // discards600"),
-          // speakdiscards6
           // discards6("en-US"),
           // discards700"),
-          // speakdiscards7
           // discards7("en-US"),
           // discards800"),
-          // speakdiscards8
           // discards8("en-US"),
           // discards900"),
-          // speakdiscards9
           // discards9("en-US"),
           // discards_1000"),
-          // speakdiscards10
           // discards10("en-US"),
           // discards1100"),
-          // speakdiscards11
           // discards11("en-US"),
           // discards1200"),
-          // speakdiscards12
           // discards12("en-US"),
           // discards1300"),
-          // speakdiscards13
           // discards13("en-US"),
           // discards1400"),
-          // speakdiscards14
           // discards14("en-US"),
           // discards1500"),
-          // speakdiscards15
           // discards15("en-US"),
           // discards1600"),
-          // speakdiscards16
           // discards16("en-US"),
           // discards1700"),
-          // speakdiscards17
           // discards17("en-US"),
           // discards1800"),
-          // speakdiscards18
           // discards18("en-US"),
           // discards1900"),
-          // speakdiscards19
           // discards19("en-US"),
           // discards_2000"),
-          // speakdiscards20
           // discards20("en-US"),
           // discards2100"),
-          // speakdiscards21
           // discards21("en-US"),
           // discards2200"),
-          // speakdiscards22
           // discards22("en-US"),
         ],
       ),

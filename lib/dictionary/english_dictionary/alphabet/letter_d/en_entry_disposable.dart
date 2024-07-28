@@ -235,9 +235,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -274,61 +272,42 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdisposables3("en-US"),
           ),
           // disposables400"),
-          // speakdisposables4
           // disposables4("en-US"),
           // disposables500"),
-          // speakdisposables5
           // disposables5("en-US"),
           // disposables600"),
-          // speakdisposables6
           // disposables6("en-US"),
           // disposables700"),
-          // speakdisposables7
           // disposables7("en-US"),
           // disposables800"),
-          // speakdisposables8
           // disposables8("en-US"),
           // disposables900"),
-          // speakdisposables9
           // disposables9("en-US"),
           // disposables_1000"),
-          // speakdisposables10
           // disposables10("en-US"),
           // disposables1100"),
-          // speakdisposables11
           // disposables11("en-US"),
           // disposables1200"),
-          // speakdisposables12
           // disposables12("en-US"),
           // disposables1300"),
-          // speakdisposables13
           // disposables13("en-US"),
           // disposables1400"),
-          // speakdisposables14
           // disposables14("en-US"),
           // disposables1500"),
-          // speakdisposables15
           // disposables15("en-US"),
           // disposables1600"),
-          // speakdisposables16
           // disposables16("en-US"),
           // disposables1700"),
-          // speakdisposables17
           // disposables17("en-US"),
           // disposables1800"),
-          // speakdisposables18
           // disposables18("en-US"),
           // disposables1900"),
-          // speakdisposables19
           // disposables19("en-US"),
           // disposables_2000"),
-          // speakdisposables20
           // disposables20("en-US"),
           // disposables2100"),
-          // speakdisposables21
           // disposables21("en-US"),
           // disposables2200"),
-          // speakdisposables22
           // disposables22("en-US"),
         ],
       ),

@@ -236,9 +236,7 @@ class KurdishMeaning extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // DOPSUM: KURDISH MEANING
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.end,
+      child: CustomColumnWidget(
         children: [
           const DividerDefinition(),
           const KurdishVocabulary(text: """
@@ -262,64 +260,44 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakdestitutions2("en-US"),
           ),
           // destitutions300"),
-          // speakdestitutions3
           // destitutions3("en-US"),
           // destitutions400"),
-          // speakdestitutions4
           // destitutions4("en-US"),
           // destitutions500"),
-          // speakdestitutions5
           // destitutions5("en-US"),
           // destitutions600"),
-          // speakdestitutions6
           // destitutions6("en-US"),
           // destitutions700"),
-          // speakdestitutions7
           // destitutions7("en-US"),
           // destitutions800"),
-          // speakdestitutions8
           // destitutions8("en-US"),
           // destitutions900"),
-          // speakdestitutions9
           // destitutions9("en-US"),
           // destitutions1000"),
-          // speakdestitutions10
           // destitutions10("en-US"),
           // destitutions1100"),
-          // speakdestitutions11
           // destitutions11("en-US"),
           // destitutions1200"),
-          // speakdestitutions12
           // destitutions12("en-US"),
           // destitutions1300"),
-          // speakdestitutions13
           // destitutions13("en-US"),
           // destitutions1400"),
-          // speakdestitutions14
           // destitutions14("en-US"),
           // destitutions1500"),
-          // speakdestitutions15
           // destitutions15("en-US"),
           // destitutions1600"),
-          // speakdestitutions16
           // destitutions16("en-US"),
           // destitutions1700"),
-          // speakdestitutions17
           // destitutions17("en-US"),
           // destitutions1800"),
-          // speakdestitutions18
           // destitutions18("en-US"),
           // destitutions1900"),
-          // speakdestitutions19
           // destitutions19("en-US"),
           // "Destitution has become a major problem in the capital.0"),
-          // speakdestitutions20
           // destitutions20("en-US"),
           // destitutions2100"),
-          // speakdestitutions21
           // destitutions21("en-US"),
           // destitutions2200"),
-          // speakdestitutions22
           // destitutions22("en-US"),
         ],
       ),

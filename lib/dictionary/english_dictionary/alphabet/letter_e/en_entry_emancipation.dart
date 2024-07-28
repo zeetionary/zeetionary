@@ -404,13 +404,7 @@ class KurdishMeaning extends StatelessWidget {
           // emancipations1900emancipations19
           // emancipations_2000emancipations20
           // emancipations2100emancipations21
-          // emancipations2200emancipations22
-          // speakemancipations22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // emancipations2200emancipationsemancipations
         ],
       ),
     );

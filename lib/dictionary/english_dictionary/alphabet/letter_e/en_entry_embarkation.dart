@@ -400,13 +400,7 @@ class KurdishMeaning extends StatelessWidget {
           // embarkations1900embarkations19
           // embarkations_2000embarkations20
           // embarkations2100embarkations21
-          // embarkations2200embarkations22
-          // speakembarkations22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // embarkations2200embarkationsembarkations
         ],
       ),
     );

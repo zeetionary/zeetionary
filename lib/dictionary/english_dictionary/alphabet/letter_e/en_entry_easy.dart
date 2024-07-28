@@ -659,13 +659,7 @@ class KurdishMeaning extends StatelessWidget {
           ),
           // easys_2000easys20
           // easys2100easys21
-          // easys2200easys22
-          // speakeasys22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // easys2200easyseasys
         ],
       ),
     );

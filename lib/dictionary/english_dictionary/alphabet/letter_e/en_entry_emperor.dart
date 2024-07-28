@@ -402,13 +402,7 @@ class KurdishMeaning extends StatelessWidget {
           // emperors1900emperors19
           // emperors_2000emperors20
           // emperors2100emperors21
-          // emperors2200emperors22
-          // speakemperors22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // emperors2200emperorsemperors
         ],
       ),
     );

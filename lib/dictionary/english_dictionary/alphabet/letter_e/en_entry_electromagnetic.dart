@@ -388,13 +388,7 @@ class KurdishMeaning extends StatelessWidget {
           // electromagnetics1900electromagnetics19
           // electromagnetics_2000electromagnetics20
           // electromagnetics2100electromagnetics21
-          // electromagnetics2200electromagnetics22
-          // speakelectromagnetics22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // electromagnetics2200electromagneticselectromagnetics
         ],
       ),
     );

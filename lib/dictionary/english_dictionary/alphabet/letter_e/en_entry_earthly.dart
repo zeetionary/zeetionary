@@ -431,13 +431,7 @@ class KurdishMeaning extends StatelessWidget {
           // earthlys1900earthlys19
           // earthlys_2000earthlys20
           // earthlys2100earthlys21
-          // earthlys2200earthlys22
-          // speakearthlys22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // earthlys2200earthlysearthlys
         ],
       ),
     );

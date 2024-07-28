@@ -443,13 +443,7 @@ class KurdishMeaning extends StatelessWidget {
           // earthquakes1900earthquakes19
           // earthquakes_2000earthquakes20
           // earthquakes2100earthquakes21
-          // earthquakes2200earthquakes22
-          // speakearthquakes22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // earthquakes2200earthquakesearthquakes
         ],
       ),
     );

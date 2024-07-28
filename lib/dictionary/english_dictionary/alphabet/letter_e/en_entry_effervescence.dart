@@ -400,13 +400,7 @@ class KurdishMeaning extends StatelessWidget {
           // effervescences1900effervescences19
           // effervescences_2000effervescences20
           // effervescences2100effervescences21
-          // effervescences2200effervescences22
-          // speakeffervescences22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // effervescences2200effervescenceseffervescences
         ],
       ),
     );

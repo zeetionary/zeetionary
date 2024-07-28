@@ -399,13 +399,7 @@ class KurdishMeaning extends StatelessWidget {
           // electrocutions1900electrocutions19
           // electrocutions_2000electrocutions20
           // electrocutions2100electrocutions21
-          // electrocutions2200electrocutions22
-          // speakelectrocutions22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // electrocutions2200electrocutionselectrocutions
         ],
       ),
     );

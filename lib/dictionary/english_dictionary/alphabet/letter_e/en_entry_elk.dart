@@ -389,12 +389,7 @@ class KurdishMeaning extends StatelessWidget {
           //       child: Column(
           //         children: [
           // elks200elks2
-          // speakelks22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // speakelks
         ],
       ),
     );

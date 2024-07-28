@@ -383,13 +383,7 @@ class KurdishMeaning extends StatelessWidget {
           // emanates1900emanates19
           // emanates_2000emanates20
           // emanates2100emanates21
-          // emanates2200emanates22
-          // speakemanates22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // emanates2200emanatesemanates
         ],
       ),
     );

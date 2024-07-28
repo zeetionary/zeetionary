@@ -409,13 +409,7 @@ class KurdishMeaning extends StatelessWidget {
           // elegances1900elegances19
           // elegances_2000elegances20
           // elegances2100elegances21
-          // elegances2200elegances22
-          // speakelegances22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // elegances2200eleganceselegances
         ],
       ),
     );

@@ -403,13 +403,7 @@ class KurdishMeaning extends StatelessWidget {
           // emigrants1900emigrants19
           // emigrants_2000emigrants20
           // emigrants2100emigrants21
-          // emigrants2200emigrants22
-          // speakemigrants22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // emigrants2200emigrantsemigrants
         ],
       ),
     );

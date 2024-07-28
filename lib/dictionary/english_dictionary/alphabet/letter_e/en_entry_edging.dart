@@ -383,13 +383,7 @@ class KurdishMeaning extends StatelessWidget {
           // edgings1900edgings19
           // edgings_2000edgings20
           // edgings2100edgings21
-          // edgings2200edgings22
-          // speakedgings22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // edgings2200edgingsedgings
         ],
       ),
     );

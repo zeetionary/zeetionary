@@ -400,13 +400,7 @@ class KurdishMeaning extends StatelessWidget {
           // electricchairs1900electricchairs19
           // electricchairs_2000electricchairs20
           // electricchairs2100electricchairs21
-          // electricchairs2200electricchairs22
-          // speakelectricchairs22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // electricchairs2200electricchairselectricchairs
         ],
       ),
     );

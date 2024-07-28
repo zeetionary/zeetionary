@@ -383,13 +383,7 @@ class KurdishMeaning extends StatelessWidget {
           // eatables1900eatables19
           // eatables_2000eatables20
           // eatables2100eatables21
-          // eatables2200eatables22
-          // speakeatables22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // eatables2200eatableseatables
         ],
       ),
     );

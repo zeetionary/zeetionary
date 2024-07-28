@@ -416,13 +416,7 @@ class KurdishMeaning extends StatelessWidget {
           // ecstasys1900ecstasys19
           // ecstasys_2000ecstasys20
           // ecstasys2100ecstasys21
-          // ecstasys2200ecstasys22
-          // speakecstasys22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // ecstasys2200ecstasysecstasys
         ],
       ),
     );

@@ -540,13 +540,7 @@ class KurdishMeaning extends StatelessWidget {
           // elections1900elections19
           // elections_2000elections20
           // elections2100elections21
-          // elections2200elections22
-          // speakelections22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // elections2200electionselections
         ],
       ),
     );

@@ -387,13 +387,7 @@ class KurdishMeaning extends StatelessWidget {
           // ecotourists1900ecotourists19
           // ecotourists_2000ecotourists20
           // ecotourists2100ecotourists21
-          // ecotourists2200ecotourists22
-          // speakecotourists22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // ecotourists2200ecotouristsecotourists
         ],
       ),
     );

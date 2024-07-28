@@ -405,13 +405,7 @@ class KurdishMeaning extends StatelessWidget {
           // ecologists1900ecologists19
           // ecologists_2000ecologists20
           // ecologists2100ecologists21
-          // ecologists2200ecologists22
-          // speakecologists22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // ecologists2200ecologistsecologists
         ],
       ),
     );

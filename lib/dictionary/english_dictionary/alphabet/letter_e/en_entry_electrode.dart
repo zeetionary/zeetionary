@@ -387,13 +387,7 @@ class KurdishMeaning extends StatelessWidget {
           // electrodes1900electrodes19
           // electrodes_2000electrodes20
           // electrodes2100electrodes21
-          // electrodes2200electrodes22
-          // speakelectrodes22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // electrodes2200electrodeselectrodes
         ],
       ),
     );

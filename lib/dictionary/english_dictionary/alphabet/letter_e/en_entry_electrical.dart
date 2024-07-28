@@ -398,13 +398,7 @@ class KurdishMeaning extends StatelessWidget {
           // electricals1900electricals19
           // electricals_2000electricals20
           // electricals2100electricals21
-          // electricals2200electricals22
-          // speakelectricals22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // electricals2200electricalselectricals
         ],
       ),
     );

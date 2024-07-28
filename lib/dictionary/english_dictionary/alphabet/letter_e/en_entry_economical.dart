@@ -448,13 +448,7 @@ class KurdishMeaning extends StatelessWidget {
           // economicals1900economicals19
           // economicals_2000economicals20
           // economicals2100economicals21
-          // economicals2200economicals22
-          // speakeconomicals22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // economicals2200economicalseconomicals
         ],
       ),
     );

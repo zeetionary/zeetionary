@@ -422,13 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           // elitists1900elitists19
           // elitists_2000elitists20
           // elitists2100elitists21
-          // elitists2200elitists22
-          // speakelitists22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // elitists2200elitistselitists
         ],
       ),
     );

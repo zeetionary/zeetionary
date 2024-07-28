@@ -403,13 +403,7 @@ class KurdishMeaning extends StatelessWidget {
           // egoisms1900egoisms19
           // egoisms_2000egoisms20
           // egoisms2100egoisms21
-          // egoisms2200egoisms22
-          // speakegoisms22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // egoisms2200egoismsegoisms
         ],
       ),
     );

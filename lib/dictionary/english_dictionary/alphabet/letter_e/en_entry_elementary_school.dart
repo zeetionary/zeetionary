@@ -387,13 +387,7 @@ class KurdishMeaning extends StatelessWidget {
           // elementaryschools1900elementaryschools19
           // elementaryschools_2000elementaryschools20
           // elementaryschools2100elementaryschools21
-          // elementaryschools2200elementaryschools22
-          // speakelementaryschools22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // elementaryschools2200elementaryschoolselementaryschools
         ],
       ),
     );

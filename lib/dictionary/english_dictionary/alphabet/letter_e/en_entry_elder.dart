@@ -503,12 +503,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakelders9("en-US"),
           ),
           // elders_1000elders10
-          // speakelders22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // speakelders
         ],
       ),
     );

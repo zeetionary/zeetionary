@@ -639,13 +639,7 @@ class KurdishMeaning extends StatelessWidget {
           //     ),
           //   ],
           // ),
-          // eases2200eases22
-          // speakeases22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // eases2200easeseases
         ],
       ),
     );

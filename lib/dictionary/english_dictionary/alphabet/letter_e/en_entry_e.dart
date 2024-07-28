@@ -380,12 +380,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakes2("en-US"),
           ),
           // es300es3
-          // speakes22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // speakes
         ],
       ),
     );

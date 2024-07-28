@@ -560,12 +560,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text: """٤. (ناو) حەشارگەی ژێر زەوی ئاژەڵێک، بەتایبەتی ڕێوی"""),
           // earths1400earths14
-          // speakearths22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // speakearths
         ],
       ),
     );

@@ -422,13 +422,7 @@ class KurdishMeaning extends StatelessWidget {
           // electronics1900electronics19
           // electronics_2000electronics20
           // electronics2100electronics21
-          // electronics2200electronics22
-          // speakelectronics22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // electronics2200electronicselectronics
         ],
       ),
     );

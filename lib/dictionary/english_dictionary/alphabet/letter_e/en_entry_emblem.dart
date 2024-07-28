@@ -401,13 +401,7 @@ class KurdishMeaning extends StatelessWidget {
           // emblems1900emblems19
           // emblems_2000emblems20
           // emblems2100emblems21
-          // emblems2200emblems22
-          // speakemblems22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // emblems2200emblemsemblems
         ],
       ),
     );

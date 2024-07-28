@@ -425,13 +425,7 @@ class KurdishMeaning extends StatelessWidget {
           // ejections1900ejections19
           // ejections_2000ejections20
           // ejections2100ejections21
-          // ejections2200ejections22
-          // speakejections22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // ejections2200ejectionsejections
         ],
       ),
     );

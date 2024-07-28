@@ -383,13 +383,7 @@ class KurdishMeaning extends StatelessWidget {
           // earthworms1900earthworms19
           // earthworms_2000earthworms20
           // earthworms2100earthworms21
-          // earthworms2200earthworms22
-          // speakearthworms22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // earthworms2200earthwormsearthworms
         ],
       ),
     );

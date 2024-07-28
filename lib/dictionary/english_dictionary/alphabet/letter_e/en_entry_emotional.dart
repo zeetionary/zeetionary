@@ -480,13 +480,7 @@ class KurdishMeaning extends StatelessWidget {
           // emotionals1900emotionals19
           // emotionals_2000emotionals20
           // emotionals2100emotionals21
-          // emotionals2200emotionals22
-          // speakemotionals22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // emotionals2200emotionalsemotionals
         ],
       ),
     );

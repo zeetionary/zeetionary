@@ -531,12 +531,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakeffects11("en-US"),
           ),
           // effects1200effects12
-          // speakeffects22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // speakeffects
         ],
       ),
     );

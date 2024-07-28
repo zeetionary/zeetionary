@@ -396,13 +396,7 @@ class KurdishMeaning extends StatelessWidget {
           // earlobes1900earlobes19
           // earlobes_2000earlobes20
           // earlobes2100earlobes21
-          // earlobes2200earlobes22
-          // speakearlobes22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // earlobes2200earlobesearlobes
         ],
       ),
     );

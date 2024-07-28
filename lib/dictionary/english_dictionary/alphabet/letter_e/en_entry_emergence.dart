@@ -404,13 +404,7 @@ class KurdishMeaning extends StatelessWidget {
           // emergences1900emergences19
           // emergences_2000emergences20
           // emergences2100emergences21
-          // emergences2200emergences22
-          // speakemergences22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // emergences2200emergencesemergences
         ],
       ),
     );

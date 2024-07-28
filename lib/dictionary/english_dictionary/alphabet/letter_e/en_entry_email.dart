@@ -480,12 +480,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedAmerican: () => speakemails8("en-US"),
           ),
           // emails900emails9
-          // speakemails22("en-US"""),
-          //         ),
-          //       ],
-          //     ),
-          //   ],
-          // ),
+          // speakemails
         ],
       ),
     );

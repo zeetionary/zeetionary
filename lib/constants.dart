@@ -1552,35 +1552,172 @@ class KurdishVocabulary extends ConsumerWidget {
     final textSize = ref.watch(textSizeProvider);
 
     return Padding(
-      padding:
-          const EdgeInsets.only(left: 8.0, right: 8.0, top: 8.0, bottom: 8.0),
-      child: GestureDetector(
-        // Wrap Text with GestureDetector
-        onLongPress: () {
-          Clipboard.setData(ClipboardData(text: text));
-          ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(
-              content: Directionality(
-                textDirection: TextDirection.rtl,
-                child: Text(
-                  'وشەوواتا لەبەرگیرایەوە',
-                  style: TextStyle(
-                    fontSize: textSize + 1,
+      padding: const EdgeInsets.all(0.1),
+      child: Column(
+        children: [
+          GestureDetector(
+            // Wrap Text with GestureDetector
+            onLongPress: () {
+              Clipboard.setData(ClipboardData(text: text));
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Directionality(
+                    textDirection: TextDirection.rtl,
+                    child: Text(
+                      'وشەوواتا لەبەرگیرایەوە',
+                      style: TextStyle(
+                        fontSize: textSize + 1,
+                      ),
+                    ),
                   ),
                 ),
+              );
+            },
+            child: Column(
+              children: [
+                VocabularyExpansionTile(
+                  children: [
+                    Padding(
+                      padding: const EdgeInsets.only(
+                        left: 1,
+                        right: 28,
+                      ),
+                      child: Text(
+                        text,
+                        style: TextStyle(
+                          fontSize: textSize + 2, // change size back to + 2
+                          // fontWeight: FontWeight.w800,
+                        ),
+                        textAlign: TextAlign.right,
+                        textDirection: TextDirection.rtl,
+                      ),
+                    ),
+                  ],
+                ),
+              ],
+            ),
+          ),
+          const SizedBox(
+            width: 10,
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class VocabularyExpansionTile extends ConsumerStatefulWidget {
+  static const String defaultTitle = 'ووشەوواتا'; // Shared title
+  final List<Widget> children;
+
+  const VocabularyExpansionTile({
+    super.key,
+    required this.children,
+  });
+
+  @override
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _VocabularyExpansionTileState();
+}
+
+class _VocabularyExpansionTileState
+    extends ConsumerState<VocabularyExpansionTile>
+    with SingleTickerProviderStateMixin {
+  bool _isExpanded = false;
+
+  @override
+  Widget build(BuildContext context) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider);
+    return Container(
+      // height: 45, // adds black and yellow lines
+      margin: const EdgeInsets.all(8.0),
+      decoration: _isExpanded
+          // ? BoxDecoration(
+          //     color: Theme.of(context)
+          //         .scaffoldBackgroundColor
+          //         .withOpacity(0.000000002),
+          //     border: Border.all(
+          //       color: Theme.of(context)
+          //           .scaffoldBackgroundColor
+          //           .withOpacity(0.000000002),
+          //       width: 1.0,
+          //     ),
+          //   )
+          // ? null
+          ? BoxDecoration(
+              border: Border.all(
+                color: Theme.of(context).primaryColor.withOpacity(0.2),
+                // color: Colors.blue.withOpacity(0.9),
+                width: 1.0,
+              ),
+              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+            )
+          : BoxDecoration(
+              border: Border.all(
+                color: Theme.of(context).primaryColor.withOpacity(0.2),
+                // color: Colors.blue.withOpacity(0.9),
+                width: 1.0,
+              ),
+              borderRadius: const BorderRadius.all(Radius.circular(8.0)),
+            ),
+      // : null, // or nothing
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: [
+          InkWell(
+            onTap: () {
+              setState(() {
+                _isExpanded = !_isExpanded;
+              });
+            },
+            child: ListTile(
+              title: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  // _isExpanded
+                  //     ? Icon(
+                  //         Icons.arrow_drop_up,
+                  //         color: Colors.blue,
+                  //       )
+                  //     : Icon(Icons.arrow_drop_down),
+                  Icon(
+                    _isExpanded ? Icons.arrow_drop_up : Icons.arrow_drop_down,
+                    size: textSize + 1,
+                  ),
+                  Row(
+                    children: [
+                      Text(
+                        VocabularyExpansionTile.defaultTitle,
+                        textDirection: TextDirection.rtl,
+                        style: TextStyle(
+                          fontSize: textSize + 1, // Adjust the font size
+                          // fontWeight: FontWeight.bold, // Adjust the font weight
+                          // color: currentTheme
+                          //     .primaryColor, // Adjust the text color
+                        ),
+                      ),
+                      const SizedBox(
+                        width: 6,
+                      ),
+                      Icon(
+                        Icons.touch_app_outlined,
+                        // color: Colors.blue.withOpacity(0.9),
+                        // color: Theme.of(context).primaryColor.withOpacity(0.3),
+                        size: textSize + 5,
+                      ),
+                    ],
+                  ),
+                ],
               ),
             ),
-          );
-        },
-        child: Text(
-          text,
-          style: TextStyle(
-            fontSize: textSize + 4, // change size back to + 2
-            // fontWeight: FontWeight.w800,
           ),
-          textAlign: TextAlign.right,
-          textDirection: TextDirection.rtl,
-        ),
+          if (_isExpanded)
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.end,
+              children: widget.children,
+            ),
+        ],
       ),
     );
   }
@@ -1672,8 +1809,7 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
               if (widget.note != null && widget.note!.isNotEmpty)
                 IconButton(
                   padding: EdgeInsets.zero,
-                  iconSize: textSize +
-                      1, // Optional: Adjust size for flush appearance
+                  iconSize: textSize + 1,
                   onPressed: () {
                     setState(() {
                       _showNote = !_showNote;

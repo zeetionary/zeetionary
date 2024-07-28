@@ -107,21 +107,22 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
     await flutterTts.speak(
-        """The museum uses smells and smoke generators to create atmosphere.""");
+        """The museum uses smells and smoke generators to create proper atmosphere.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The company is a major generator of jobs.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(1.0);
     await flutterTts.setSpeechRate(0.5);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""The two major electricity generators declined to comment.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -809,27 +810,34 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """The museum uses smells and smoke generators to create atmosphere.""",
+                          """The museum uses smells and smoke generators to create proper atmosphere.""",
                       kurdishText:
-                          """مۆزەخانەکە بەرهەمهێندەری دووکەڵ و بۆن بەکار دەهێنێت بۆ درووستکردنی کەشێک.""",
+                          """مۆزەخانەکە درووستکەری دووکەڵ و بۆن بەکار دەهێنێت بۆ درووستکردنی کەشێکی گونجاو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کەسێک یان شتێک کە شتێک درووست دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company is a major generator of jobs.""",
+                      kurdishText: """کۆمپانیاکە ڕەخسێنەرێکی گرنگی کارە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) کۆمپانیایەک کە کارەبا بەرهەم دەهێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The two major electricity generators declined to comment.""",
+                      kurdishText:
+                          """دوو بەرهەمهێنەرە سەرەکییەکەی کارەبا ڕەتیان کردەوە لێدوان بدەن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -232,7 +232,7 @@ class TitleOfEntryAlso extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const AlsoEnglish(word: "also: DNA fingerprinting");
+    return const AlsoEnglish(word: "also: genetic fingerprinting");
   }
 }
 

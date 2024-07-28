@@ -4341,7 +4341,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_gaseous.dart' show EnglishEntrygaseous
 // en_entry_gaslight.dart' show EnglishEntrygaslight
 // en_entry_gasman.dart' show EnglishEntrygasman
-// en_entry_gas mask.dart' show EnglishEntrygasmask //// فففف gas mask
+// en_entry_gas_mask.dart' show EnglishEntrygasmask //// فففف gas mask
 // en_entry_gas_station.dart' show EnglishEntrygasstation //// فففف gas station
 // en_entry_gassy.dart' show EnglishEntrygassy
 // en_entry_gasworks.dart' show EnglishEntrygasworks
@@ -4401,24 +4401,24 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_f/en_en
 // en_entry_generate.dart' show EnglishEntrygenerate
 // en_entry_generative.dart' show EnglishEntrygenerative
 // en_entry_generator.dart' show EnglishEntrygenerator
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_generation.dart' show EnglishEntrygeneration
+// en_entry_generic.dart' show EnglishEntrygeneric
+// en_entry_generically.dart' show EnglishEntrygenerically
+// en_entry_generous.dart' show EnglishEntrygenerous
+// en_entry_generosity.dart' show EnglishEntrygenerosity
+// en_entry_generously.dart' show EnglishEntrygenerously
+// en_entry_genetic.dart' show EnglishEntrygenetic
+// en_entry_genetically.dart' show EnglishEntrygenetically
+// en_entry_genetically_modified.dart' show EnglishEntrygeneticallymodified //// فففف genetically modified
+// en_entry_genetics.dart' show EnglishEntrygenetics
+// en_entry_genial.dart' show EnglishEntrygenial
+// en_entry_genially.dart' show EnglishEntrygenially
+// en_entry_genie.dart' show EnglishEntrygenie
+// en_entry_genital.dart' show EnglishEntrygenital
+// en_entry_genitals.dart' show EnglishEntrygenitals
+// en_entry_genius.dart' show EnglishEntrygenius
+// en_entry_genocide.dart' show EnglishEntrygenocide
+// en_entry_genome.dart' show EnglishEntrygenome
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
